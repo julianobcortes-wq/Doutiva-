@@ -10,20 +10,25 @@ A meta é: **conta Supabase sua → projeto `doutiva` → app Cursor aponta só 
 
 Criar projeto na API Management exige `SUPABASE_ACCESS_TOKEN` da **sua** conta (não do Lovable). Sem esse token, o agente não autentica em `api.supabase.com`.
 
+## Org Doutiva
+
+Org confirmada: `pfsreyjaiiiofnlcqrvw`  
+Dashboard: https://supabase.com/dashboard/org/pfsreyjaiiiofnlcqrvw
+
 ## Passo a passo (você + agente)
 
-1. Conta em https://supabase.com (pessoal/empresa — **não** Lovable Cloud).
-2. **Account → Access Tokens** → gerar token → colar no ambiente Cursor como `SUPABASE_ACCESS_TOKEN`.
-3. Opcional: `SUPABASE_DB_PASSWORD` (senha do Postgres).
-4. Avisar o agente. Ele roda:
+1. Na conta dona dessa org: **Account → Access Tokens** → gerar token → colar no ambiente Cursor como `SUPABASE_ACCESS_TOKEN`.
+2. Opcional: `SUPABASE_DB_PASSWORD` (senha do Postgres).
+3. Avisar o agente. Ele roda:
 
 ```bash
-node scripts/bootstrap-independent-supabase.mjs
+SUPABASE_ORG_ID=pfsreyjaiiiofnlcqrvw SUPABASE_REGION=sa-east-1 \
+  node scripts/bootstrap-independent-supabase.mjs
 ```
 
-Isso cria o projeto (região default `sa-east-1`), grava `.env` gitignored com publishable + **service role**, e aplica `drizzle/migrations/0000`…`0018`.
+Isso cria o projeto `doutiva`, grava `.env` gitignored com publishable + **service role**, e aplica `drizzle/migrations/0000`…`0018`.
 
-5. Reiniciar o Vite / túnel. Conta de teste é recriada no projeto novo.
+4. Reiniciar o Vite / túnel. Conta de teste é recriada no projeto novo.
 
 ## O que deixa de depender do Lovable
 
