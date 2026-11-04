@@ -11,7 +11,10 @@ export const listMentors = createServerFn({ method: "GET" })
       .eq("published", true)
       .order("featured", { ascending: false })
       .order("rating", { ascending: false });
-    if (error) throw error;
+    if (error) {
+      console.error("listMentors", error);
+      return [];
+    }
     return data ?? [];
   });
 
@@ -21,7 +24,10 @@ export const getMentorBySlug = createServerFn({ method: "GET" })
   .handler(async ({ context, data }) => {
     const { data: mentor, error } = await context.supabase
       .from("mentors").select("*").eq("slug", data.slug).eq("published", true).maybeSingle();
-    if (error) throw error;
+    if (error) {
+      console.error("getMentorBySlug", error);
+      return null;
+    }
     return mentor;
   });
 

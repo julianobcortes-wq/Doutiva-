@@ -11,7 +11,10 @@ export const listSpaces = createServerFn({ method: "GET" })
       .eq("published", true)
       .order("featured", { ascending: false })
       .order("members_count", { ascending: false });
-    if (error) throw error;
+    if (error) {
+      console.error("listSpaces", error);
+      return [];
+    }
     return data ?? [];
   });
 
@@ -22,7 +25,10 @@ export const getSpaceBySlug = createServerFn({ method: "GET" })
     const { supabase } = context;
     const { data: space, error } = await supabase
       .from("community_spaces").select("*").eq("slug", data.slug).maybeSingle();
-    if (error) throw error;
+    if (error) {
+      console.error("getSpaceBySlug", error);
+      return null;
+    }
     if (!space) return null;
     const { data: posts } = await supabase
       .from("community_posts")

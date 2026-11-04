@@ -11,7 +11,10 @@ export const listEvents = createServerFn({ method: "GET" })
       .select("id, slug, title, subtitle, description, kind, location, starts_at, ends_at, capacity, price_cents, featured")
       .eq("published", true)
       .order("starts_at", { ascending: true });
-    if (error) throw error;
+    if (error) {
+      console.error("listEvents", error);
+      return [];
+    }
     const { data: regs } = await supabase
       .from("event_registrations").select("event_id").eq("user_id", userId);
     const set = new Set((regs ?? []).map((r) => r.event_id));
