@@ -3,7 +3,11 @@ import { createClient } from "@supabase/supabase-js";
 import { z } from "zod";
 import type { Database } from "@/integrations/supabase/types";
 import { PERSONAS, type PersonaId } from "@/lib/preceptor-personas";
-import { createGatewayOpenAI, DEFAULT_CHAT_MODEL } from "@/lib/ai-provider.server";
+import {
+  createGatewayOpenAI,
+  doutivaChatModel,
+  doutivaOpenAIProviderOptions,
+} from "@/lib/ai-provider.server";
 
 const BASE = `Você é um Professor de IA da Doutiva — a escola do médico do futuro. Seu aluno é SEMPRE um médico formado.
 Princípios pedagógicos (mastery learning, estilo Alpha School):
@@ -89,15 +93,8 @@ export async function handlePreceptor(request: Request) {
   } catch (e) {
     return errorResponse(e);
   }
-  const opts = {
-    openai: {
-      store: false,
-      forceReasoning: true,
-      reasoningEffort: "low" as const,
-      reasoningSummary: "auto" as const,
-      include: ["reasoning.encrypted_content"],
-    },
-  };
+  const opts = doutivaOpenAIProviderOptions("low");
+  const model = doutivaChatModel(provider);
 
   if (body.mode === "evaluate") {
     const userTurns = msgs.filter((m) => m.role === "user").length;
@@ -107,7 +104,7 @@ export async function handlePreceptor(request: Request) {
         .map((m) => `${m.role === "user" ? "MÉDICO" : "PROFESSOR"}: ${m.content as string}`)
         .join("\n\n");
       const r = streamText({
-        model: provider.responses(DEFAULT_CHAT_MODEL),
+        model,
         system: `Você é um avaliador rigoroso de banca médica. Avalie APENAS o desempenho do MÉDICO na transcrição, com base na aula-base. Seja justo e exigente: respostas vagas não pontuam alto. Lacunas e pontos fortes devem ser específicos e acionáveis (máx. 4 cada). next_step: a próxima ação concreta de estudo.${ctx}`,
         prompt: `Modo: ${persona.name}\n\nTRANSCRIÇÃO:\n${transcript}`,
         output: Output.object({ schema: evalSchema }),
@@ -143,7 +140,7 @@ export async function handlePreceptor(request: Request) {
   const start: ModelMessage[] = msgs.length ? msgs : [{ role: "user", content: "Estou pronto. Comece." }];
   try {
     const result = streamText({
-      model: provider.responses(DEFAULT_CHAT_MODEL),
+      model,
       system: `${BASE}\n\n=== SUA PERSONA: ${persona.name} ===\n${persona.prompt}${ctx}`,
       messages: start,
       abortSignal: request.signal,

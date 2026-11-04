@@ -2,7 +2,14 @@ import { streamText, Output, NoObjectGeneratedError } from "ai";
 import { z } from "zod";
 import type { RichLesson, Slide } from "@/content/lesson-types";
 import { toCase } from "@/content/lesson-normalize";
-import { createGatewayAnthropic, createGatewayOpenAI, requireAiApiKey } from "@/lib/ai-provider.server";
+import {
+  createGatewayAnthropic,
+  createGatewayOpenAI,
+  doutivaChatModel,
+  doutivaOpenAIProviderOptions,
+  requireAiApiKey,
+  usesOpenAIDirect,
+} from "@/lib/ai-provider.server";
 
 const slideSchema = z.object({
   kind: z.string().describe("title | bullets | bars | flow | table | split | pearl"),
@@ -95,36 +102,37 @@ function friendly(e: unknown): never {
 export async function generateLesson(input: { topic: string; courseTitle: string; moduleTitle: string; sources: string; notes: string }): Promise<GeneratedLesson> {
   requireAiApiKey();
   const openai = createGatewayOpenAI();
-  const anthropic = createGatewayAnthropic();
+  const direct = usesOpenAIDirect();
+  const anthropic = direct ? null : createGatewayAnthropic();
 
   const context = `Curso: ${input.courseTitle}\nMódulo: ${input.moduleTitle || "—"}\nTema da aula: ${input.topic}\n\nOrientações do mentor:\n${input.notes || "—"}\n\nMaterial-fonte fornecido (priorize-o e não contradiga):\n${input.sources.slice(0, 160000) || "—"}`;
 
   try {
-    // Etapa 1 — Claude Opus redige a monografia profunda.
+    // Etapa 1 — monografia profunda (Claude Opus no gateway Lovable; GPT-4.1 na OpenAI direta).
     const mono = streamText({
-      model: anthropic("anthropic/claude-opus-5-5"),
+      model: direct ? openai("gpt-4.1") : anthropic!("anthropic/claude-opus-5-5"),
       system: MONO_SYSTEM,
       prompt: context,
       maxOutputTokens: 32000,
       maxRetries: 0,
-      providerOptions: { anthropic: { effort: "high" } },
+      providerOptions: direct ? undefined : { anthropic: { effort: "high" } },
     });
     const monograph = (await mono.text).trim();
     if (monograph.length < 2000) throw new Error("A monografia gerada ficou curta demais. Tente novamente.");
 
-    // Etapa 2 — GPT estrutura slides, caso, guia e referências a partir da monografia.
+    // Etapa 2 — estrutura slides, caso, guia e referências a partir da monografia.
     const structured = streamText({
-      model: openai.responses("openai/gpt-6-astra"),
+      model: doutivaChatModel(openai),
       system: SYSTEM + `\n\nA monografia já foi escrita por outro autor e é a fonte de verdade: devolva-a INTEGRALMENTE no campo monograph (sem resumir) e derive dela slides, caso, guia de bolso, pontos-chave e referências. Não introduza fatos ausentes da monografia.`,
       prompt: `${context}\n\n=== MONOGRAFIA ===\n${monograph}`,
       output: Output.object({ schema: lessonSchema }),
-      providerOptions: { openai: { store: false, forceReasoning: true, reasoningEffort: "medium", reasoningSummary: "auto", include: ["reasoning.encrypted_content"] } },
+      providerOptions: doutivaOpenAIProviderOptions("medium"),
     });
     const o = await structured.output;
 
-    // Etapa 3 — Claude Sonnet audita a aula como revisor independente.
+    // Etapa 3 — auditoria independente.
     const auditRun = streamText({
-      model: anthropic("anthropic/claude-sonnet-5"),
+      model: direct ? openai("gpt-4.1-mini") : anthropic!("anthropic/claude-sonnet-5"),
       system: AUDIT_SYSTEM,
       prompt: `Tema: ${input.topic}\n\n=== MONOGRAFIA ===\n${monograph}\n\n=== CASO CLÍNICO ===\n${JSON.stringify(o.clinical_case)}\n\n=== GUIA DE BOLSO ===\n${o.quick_ref}`,
       maxOutputTokens: 4000,

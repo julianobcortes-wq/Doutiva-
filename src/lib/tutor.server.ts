@@ -2,7 +2,7 @@ import { streamText, type ModelMessage } from "ai";
 import { createClient } from "@supabase/supabase-js";
 import type { Database } from "@/integrations/supabase/types";
 import { gateCorpusCitations } from "@/lib/citations";
-import { createGatewayOpenAI, DEFAULT_CHAT_MODEL } from "@/lib/ai-provider.server";
+import { doutivaChatModel, doutivaOpenAIProviderOptions } from "@/lib/ai-provider.server";
 
 const SYSTEM = `Você é o Tutor IA da Doutiva — a escola do médico do futuro. Seu interlocutor é sempre um MÉDICO.
 Regras inegociáveis:
@@ -110,21 +110,12 @@ export async function handleTutor(request: Request) {
     : "\n\n(Nenhuma fonte da Biblioteca cobre esta pergunta; avise o médico que a resposta não está ancorada no acervo. NÃO invente marcações [S#].)";
 
   try {
-    const provider = createGatewayOpenAI();
     const result = streamText({
-      model: provider.responses(DEFAULT_CHAT_MODEL),
+      model: doutivaChatModel(),
       system: SYSTEM + context + libraryCtx,
       messages: msgs,
       abortSignal: request.signal,
-      providerOptions: {
-        openai: {
-          store: false,
-          forceReasoning: true,
-          reasoningEffort: "medium",
-          reasoningSummary: "auto",
-          include: ["reasoning.encrypted_content"],
-        },
-      },
+      providerOptions: doutivaOpenAIProviderOptions("medium"),
     });
     const raw = await result.text;
     const gated = gateCorpusCitations(raw, corpusSize);
