@@ -1,0 +1,65 @@
+[
+  {
+    "position": 1,
+    "title": "Peptídeo terapêutico: farmacologia molecular, engenharia PK e checklist pré-prescrição para o médico",
+    "duration_minutes": 90,
+    "mono_len": 26202,
+    "slides": 7
+  },
+  {
+    "position": 2,
+    "title": "Hierarquia de Evidência e Enquadramento Regulatório de Peptídeos no Brasil",
+    "duration_minutes": 90,
+    "mono_len": 23222,
+    "slides": 7
+  },
+  {
+    "position": 3,
+    "title": "Fisiologia e farmacologia de GLP-1 e GIP: receptores, vias de sinalização, efeitos em pâncreas, cérebro, estômago e tecido adiposo",
+    "duration_minutes": 60,
+    "mono_len": 20953,
+    "slides": 9
+  },
+  {
+    "position": 4,
+    "title": "Semaglutida e Tirzepatida: Leitura Crítica de STEP, SURMOUNT, SELECT, FLOW e Implicações Clínicas",
+    "duration_minutes": 90,
+    "mono_len": 25159,
+    "slides": 7
+  },
+  {
+    "position": 5,
+    "title": "Segurança de Incretinas: Aspectos Clínicos e Práticos para o Médico Especialista",
+    "duration_minutes": 60,
+    "mono_len": 26794,
+    "slides": 7
+  },
+  {
+    "position": 6,
+    "title": "Secretagogos de GH: Tesamorelina, CJC-1295, Ipamorelina — Evidência e Indicação vs Hype",
+    "duration_minutes": 45,
+    "mono_len": 25883,
+    "slides": 7
+  },
+  {
+    "position": 7,
+    "title": "BPC-157, TB-500 e GHK-Cu: leitura crítica da literatura pré-clínica e por que não prescritíveis como terapia estabelecida",
+    "duration_minutes": 60,
+    "mono_len": 20084,
+    "slides": 8
+  },
+  {
+    "position": 8,
+    "title": "Protocolo de incretina no consultório brasileiro: seleção de paciente, titulação, monitoramento, falha terapêutica e manutenção",
+    "duration_minutes": 90,
+    "mono_len": 22864,
+    "slides": 8
+  },
+  {
+    "position": 9,
+    "title": "Casos clínicos integrados de peptídeos: obesidade com DCV (SELECT), DM2+DRC, secretagogo de GH, peptídeo regenerativo irregular",
+    "duration_minutes": 90,
+    "mono_len": 24767,
+    "slides": 7
+  }
+]

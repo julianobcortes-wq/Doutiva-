@@ -25,6 +25,10 @@
 - [x] Verificação automática de referências (cada [S#] confere com o trecho da fonte)
 - [x] Alerta de atualização: novos ECR/diretrizes sobre temas de aulas publicadas
 
+## Conteúdo clínico
+- [x] Trilha Peptídeos regenerada em profundidade de tratado (~216k chars de monografia, 9 aulas, ~11h)
+- [x] Script `scripts/deepen-peptides-lessons.mjs` para re-gerar aulas ancoradas na biblioteca
+
 ## Experiência do aluno
 
 - [x] Questões por aula + revisão espaçada (/revisao)
