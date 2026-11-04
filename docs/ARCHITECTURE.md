@@ -21,13 +21,18 @@ TanStack Start · React 19 · Supabase Auth/Postgres/RLS · Drizzle SQL migratio
 - Nav docente via `has_role('admin')`, nunca `localStorage`.
 - Sem conta demo com senha no bundle.
 
+## Hospedagem independente
+
+O ZIP Lovable trouxe um projeto Supabase alheio (`nflhfjyyaefhxeesvrge`). **Não é o destino.** Ver `docs/INDEPENDENT_SUPABASE.md` e `scripts/bootstrap-independent-supabase.mjs` para criar o projeto Doutiva na sua conta e reapontar o `.env`.
+
 ## Desacoplamento Lovable (ordem)
 
 1. ~~Providers AI próprios~~ — `ai-provider.server.ts` + env (`AI_GATEWAY_BASE_URL` / `OPENAI_API_KEY`)
-2. Vite/TanStack config explícita (sair de `@lovable.dev/vite-tanstack-config`)
-3. OAuth Supabase nativo (sair de `@lovable.dev/cloud-auth-js`)
-4. Remover error bridge / preview auth
-5. ~~Schema base + RLS versionado~~ — migration `0015` (tabelas-base); CREATE TABLE das seeds ainda vive no Cloud baseline
+2. **Supabase próprio** — bootstrap via Management API (token da conta Doutiva)
+3. Vite/TanStack config explícita (sair de `@lovable.dev/vite-tanstack-config`)
+4. OAuth Supabase nativo (sair de `@lovable.dev/cloud-auth-js`)
+5. Remover error bridge / preview auth
+6. ~~Schema base + RLS versionado~~ — migration `0015` (tabelas-base); CREATE TABLE das seeds ainda vive no Cloud baseline
 
 ## Citation integrity
 
