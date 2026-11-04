@@ -1,0 +1,111 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793669841044,
+      "tag": "0000_peptides_course",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793671680172,
+      "tag": "0001_lesson_rich_content",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793672727069,
+      "tag": "0002_course_studio",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793674791394,
+      "tag": "0003_knowledge_library",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793717624393,
+      "tag": "0004_preceptor_mastery",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793745866991,
+      "tag": "0005_daily_case_progress",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793750840659,
+      "tag": "0006_server_validated_daily_case",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793751743840,
+      "tag": "0007_grant_owner_admin",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793752401472,
+      "tag": "0008_credits_economy",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793756500202,
+      "tag": "0009_reviews_and_certificates",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1793756823888,
+      "tag": "0010_editorial_quality",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1793757708437,
+      "tag": "0011_tighten_function_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1793760173088,
+      "tag": "0012_semantic_library_search",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1793764000000,
+      "tag": "0013_foundation_hardening",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1793764100000,
+      "tag": "0014_split_clinical_answer_keys",
+      "breakpoints": true
+    }
+  ]
+}
