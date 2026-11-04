@@ -9,7 +9,12 @@ export async function embedTexts(texts: string[]): Promise<number[][] | null> {
     return null;
   }
   if (!texts.length) return null;
-  const baseURL = (process.env["AI_GATEWAY_BASE_URL"] || "https://ai.gateway.lovable.dev/v1").replace(/\/$/, "");
+  const baseURL = (
+    process.env["AI_GATEWAY_BASE_URL"] ||
+    (process.env["OPENAI_API_KEY"]
+      ? "https://api.openai.com/v1"
+      : "https://ai.gateway.lovable.dev/v1")
+  ).replace(/\/$/, "");
   for (let attempt = 1; attempt <= 3; attempt++) {
     const res = await fetch(`${baseURL}/embeddings`, {
       method: "POST",
@@ -52,7 +57,10 @@ export async function embedPendingSources(max = 16) {
   if (!vecs) return 0;
   await Promise.all(
     data.map((s, i) =>
-      supabaseAdmin.from("knowledge_sources").update({ embedding: JSON.stringify(vecs[i]) }).eq("id", s.id),
+      supabaseAdmin
+        .from("knowledge_sources")
+        .update({ embedding: JSON.stringify(vecs[i]) })
+        .eq("id", s.id),
     ),
   );
   return data.length;

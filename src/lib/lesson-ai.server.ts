@@ -16,7 +16,11 @@ const slideSchema = z.object({
   title: z.string(),
   subtitle: z.string().nullable(),
   text: z.string().nullable().describe("pearl: frase central"),
-  items: z.array(z.string()).describe("bullets: tópicos; flow: 'rótulo — detalhe'; bars: 'rótulo | valor numérico'; split: itens da coluna esquerda"),
+  items: z
+    .array(z.string())
+    .describe(
+      "bullets: tópicos; flow: 'rótulo — detalhe'; bars: 'rótulo | valor numérico'; split: itens da coluna esquerda",
+    ),
   rightItems: z.array(z.string()).describe("split: itens da coluna direita"),
   leftLabel: z.string().nullable(),
   rightLabel: z.string().nullable(),
@@ -37,7 +41,11 @@ const lessonSchema = z.object({
   monograph: z.string(),
   quick_ref: z.string(),
   clinical_case: z.object({
-    title: z.string(), vignette: z.string(), question: z.string(), teaching: z.string(), reward: z.number(),
+    title: z.string(),
+    vignette: z.string(),
+    question: z.string(),
+    teaching: z.string(),
+    reward: z.number(),
     data: z.array(z.object({ label: z.string(), value: z.string() })),
     options: z.array(z.object({ label: z.string(), correct: z.boolean(), rationale: z.string() })),
   }),
@@ -58,21 +66,64 @@ Regras inegociáveis:
 function toSlideFromAi(s: z.infer<typeof slideSchema>): Slide | null {
   const t = s.title;
   switch (s.kind) {
-    case "title": return { kind: "title", title: t, subtitle: s.subtitle ?? undefined };
-    case "bullets": return { kind: "bullets", title: t, bullets: s.items, note: s.note ?? undefined };
-    case "bars": return { kind: "bars", title: t, unit: s.unit ?? "", source: s.source ?? "", note: s.note ?? undefined,
-      bars: s.items.map((it, i) => { const [label, v] = it.split("|"); return { label: (label ?? "").trim(), value: Number((v ?? "").replace(",", ".").replace(/[^\d.-]/g, "")) || 0, highlight: i === s.items.length - 1 }; }) };
-    case "flow": return { kind: "flow", title: t, note: s.note ?? undefined, steps: s.items.map((it) => { const [label, detail] = it.split(/\s+—\s+|\s+-\s+/); return { label: (label ?? "").trim(), detail: detail?.trim() }; }) };
-    case "table": return { kind: "table", title: t, head: s.head, rows: s.rows, source: s.source ?? undefined };
-    case "split": return { kind: "split", title: t, left: { label: s.leftLabel ?? "", items: s.items }, right: { label: s.rightLabel ?? "", items: s.rightItems } };
-    case "pearl": return { kind: "pearl", title: t, text: s.text ?? s.subtitle ?? "", source: s.source ?? undefined };
-    default: return null;
+    case "title":
+      return { kind: "title", title: t, subtitle: s.subtitle ?? undefined };
+    case "bullets":
+      return { kind: "bullets", title: t, bullets: s.items, note: s.note ?? undefined };
+    case "bars":
+      return {
+        kind: "bars",
+        title: t,
+        unit: s.unit ?? "",
+        source: s.source ?? "",
+        note: s.note ?? undefined,
+        bars: s.items.map((it, i) => {
+          const [label, v] = it.split("|");
+          return {
+            label: (label ?? "").trim(),
+            value: Number((v ?? "").replace(",", ".").replace(/[^\d.-]/g, "")) || 0,
+            highlight: i === s.items.length - 1,
+          };
+        }),
+      };
+    case "flow":
+      return {
+        kind: "flow",
+        title: t,
+        note: s.note ?? undefined,
+        steps: s.items.map((it) => {
+          const [label, detail] = it.split(/\s+—\s+|\s+-\s+/);
+          return { label: (label ?? "").trim(), detail: detail?.trim() };
+        }),
+      };
+    case "table":
+      return { kind: "table", title: t, head: s.head, rows: s.rows, source: s.source ?? undefined };
+    case "split":
+      return {
+        kind: "split",
+        title: t,
+        left: { label: s.leftLabel ?? "", items: s.items },
+        right: { label: s.rightLabel ?? "", items: s.rightItems },
+      };
+    case "pearl":
+      return {
+        kind: "pearl",
+        title: t,
+        text: s.text ?? s.subtitle ?? "",
+        source: s.source ?? undefined,
+      };
+    default:
+      return null;
   }
 }
 
 export type GeneratedLesson = {
-  title: string; description: string; evidence_level: string; duration_minutes: number;
-  key_points: string[]; refs: { citation: string; url?: string }[];
+  title: string;
+  description: string;
+  evidence_level: string;
+  duration_minutes: number;
+  key_points: string[];
+  refs: { citation: string; url?: string }[];
 } & RichLesson & { audit: string };
 
 const MONO_SYSTEM = `Você é o autor-chefe da Doutiva — a escola do médico do futuro. Escreva, em português do Brasil, a MONOGRAFIA de uma aula para médicos especialistas, com profundidade de tratado/UpToDate.
@@ -91,15 +142,29 @@ const AUDIT_SYSTEM = `Você é revisor médico sênior (editor de periódico). A
 Seja específico (cite o trecho). Não reescreva a aula.`;
 
 function friendly(e: unknown): never {
-  if (NoObjectGeneratedError.isInstance(e)) throw new Error("A IA não retornou uma aula válida. Tente novamente com um tema mais específico.");
+  if (NoObjectGeneratedError.isInstance(e))
+    throw new Error(
+      "A IA não retornou uma aula válida. Tente novamente com um tema mais específico.",
+    );
   const status = (e as { status?: number }).status;
-  if (status === 402) throw new Error("Créditos de IA esgotados. Adicione créditos em Configurações → Planos.");
+  const raw = String((e as Error)?.message ?? e);
+  if (status === 402 || /insufficient_quota|credit_balance_exhausted/i.test(raw)) {
+    throw new Error(
+      "Créditos da OpenAI esgotados. Adicione saldo em platform.openai.com → Settings → Billing.",
+    );
+  }
   if (status === 429) throw new Error("Muitas requisições. Aguarde um instante e tente de novo.");
   if (status === 403) throw new Error("Acesso ao modelo de IA bloqueado para este workspace.");
   throw e;
 }
 
-export async function generateLesson(input: { topic: string; courseTitle: string; moduleTitle: string; sources: string; notes: string }): Promise<GeneratedLesson> {
+export async function generateLesson(input: {
+  topic: string;
+  courseTitle: string;
+  moduleTitle: string;
+  sources: string;
+  notes: string;
+}): Promise<GeneratedLesson> {
   requireAiApiKey();
   const openai = createGatewayOpenAI();
   const direct = usesOpenAIDirect();
@@ -118,12 +183,15 @@ export async function generateLesson(input: { topic: string; courseTitle: string
       providerOptions: direct ? undefined : { anthropic: { effort: "high" } },
     });
     const monograph = (await mono.text).trim();
-    if (monograph.length < 2000) throw new Error("A monografia gerada ficou curta demais. Tente novamente.");
+    if (monograph.length < 2000)
+      throw new Error("A monografia gerada ficou curta demais. Tente novamente.");
 
     // Etapa 2 — estrutura slides, caso, guia e referências a partir da monografia.
     const structured = streamText({
       model: doutivaChatModel(openai),
-      system: SYSTEM + `\n\nA monografia já foi escrita por outro autor e é a fonte de verdade: devolva-a INTEGRALMENTE no campo monograph (sem resumir) e derive dela slides, caso, guia de bolso, pontos-chave e referências. Não introduza fatos ausentes da monografia.`,
+      system:
+        SYSTEM +
+        `\n\nA monografia já foi escrita por outro autor e é a fonte de verdade: devolva-a INTEGRALMENTE no campo monograph (sem resumir) e derive dela slides, caso, guia de bolso, pontos-chave e referências. Não introduza fatos ausentes da monografia.`,
       prompt: `${context}\n\n=== MONOGRAFIA ===\n${monograph}`,
       output: Output.object({ schema: lessonSchema }),
       providerOptions: doutivaOpenAIProviderOptions("medium"),
@@ -141,14 +209,24 @@ export async function generateLesson(input: { topic: string; courseTitle: string
     const audit = (await auditRun.text).trim();
 
     return {
-      title: o.title, description: o.description, evidence_level: o.evidence_level,
+      title: o.title,
+      description: o.description,
+      evidence_level: o.evidence_level,
       duration_minutes: Math.max(10, Math.round(o.duration_minutes || 40)),
       key_points: o.key_points,
       refs: o.refs.map((r) => ({ citation: r.citation, url: r.url ?? undefined })),
       slides: o.slides.map(toSlideFromAi).filter((s): s is Slide => !!s),
       monograph,
       quickRef: o.quick_ref,
-      clinicalCase: toCase(o.clinical_case) ?? { title: "", vignette: "", data: [], question: "", options: [], teaching: "", reward: 0 },
+      clinicalCase: toCase(o.clinical_case) ?? {
+        title: "",
+        vignette: "",
+        data: [],
+        question: "",
+        options: [],
+        teaching: "",
+        reward: 0,
+      },
       audit,
     };
   } catch (e) {

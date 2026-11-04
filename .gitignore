@@ -39,3 +39,6 @@ test-results
 *.sln
 *.sw?
 .env.bootstrap
+
+# supabase cli local cache
+supabase/.temp/

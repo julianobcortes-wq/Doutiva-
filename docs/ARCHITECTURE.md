@@ -12,7 +12,7 @@ Qualidade = fluxos ponta a ponta verificáveis. Tela sem backend não conta como
 
 ## Stack atual
 
-TanStack Start · React 19 · Supabase Auth/Postgres/RLS · Drizzle SQL migrations · AI via Lovable Gateway (a desacoplar) · Europe PMC / ClinicalTrials.gov.
+TanStack Start · React 19 · Supabase Auth/Postgres/RLS · Drizzle SQL migrations · AI via OpenAI first-party (`ai-provider.server.ts`; Lovable gateway opcional) · Europe PMC / ClinicalTrials.gov.
 
 ## Regras de segurança clínica
 

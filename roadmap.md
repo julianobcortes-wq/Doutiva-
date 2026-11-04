@@ -1,6 +1,7 @@
 # Doutiva — Roadmap
 
 ## Feito
+
 - [x] Estúdio de Cursos (criar/editar aulas, revisão e publicação com médico revisor)
 - [x] Geração em 3 etapas (Claude escreve → GPT estrutura → Claude audita)
 - [x] Biblioteca Científica: busca PubMed/PMC e ClinicalTrials.gov, texto completo aberto, PDF/diretriz, aulas ancoradas em [S#]
@@ -11,18 +12,21 @@
 - [x] XP, Créditos e Sequência gravados no banco e conferidos de ponta a ponta (1 resposta por dia)
 
 ## Robustez (pendente)
+
 - [x] Marketplace: resgate com Créditos (saldo conferido no banco, sem saldo negativo)
 - [x] Aula concluída dá +30 XP e +2 Créditos (1x por aula)
 - [x] Ranking ligado ao XP real
 - [x] acerto do Caso do Dia decidido no servidor
 
 ## Próximo (Fundação científica)
+
 - [x] Busca semântica na biblioteca (embeddings) para Tutor IA responder citando fontes
 - [x] Tutor IA usando a biblioteca, com citação obrigatória
 - [x] Verificação automática de referências (cada [S#] confere com o trecho da fonte)
 - [x] Alerta de atualização: novos ECR/diretrizes sobre temas de aulas publicadas
 
 ## Experiência do aluno
+
 - [x] Questões por aula + revisão espaçada (/revisao)
 - [x] Certificados com carga horária e QR de verificação pública (/verificar)
 - [x] Caso do Dia soma XP, Créditos e Sequência de verdade (1x por dia)
@@ -31,26 +35,31 @@
 - [x] Telas com conteúdo de exemplo escondidas do menu (Comunidade, Missões, Eventos, Loja, Temporada, Solicitações)
 
 ## Corpo docente e qualidade
+
 - [x] Perfis de Médico Mentor com CRM/RQE e permissões próprias no Estúdio
 - [x] Histórico de versões e trilha de auditoria de cada aula
 - [x] Conselho editorial: fila de revisão com prazos
 
 ## Fundação de robustez (este repo)
+
 - [x] Remover demo login com senha no client
 - [x] Gabarito clínico server-only + `lesson_case_keys`
 - [x] Travar INSERT de `mastery_records` no client
 - [x] Nav docente por `has_role` (esconder telas VISUAL_ONLY do menu)
 - [x] `.env` ignorado + `.env.example` + `npm test`
-- [ ] Aplicar migrations `0013`/`0014`/`0015` no Supabase live
+- [x] Aplicar migrations `0013`/`0014`/`0015` (+ `0016`–`0020`) no Supabase live Doutiva
 - [x] Versionar RLS das tabelas-base (`0015_base_table_rls.sql`)
 - [x] Citation gate no Tutor + embed fora do hot path
 - [x] Provider AI desacoplável via env (`ai-provider.server.ts`)
 - [x] CREATE TABLE das tabelas-base no git (`0016_base_schema_ddl.sql`)
+- [x] Embeddings alinhados a `text-embedding-3-small` (`0020`, 1536 dims)
+- [x] Biblioteca científica seedada (Europe PMC + ClinicalTrials) + `scripts/seed-scientific-library.mjs`
 - [x] OAuth: preferir Supabase nativo, Lovable só como fallback
 - [ ] Desacoplar Vite config Lovable (`@lovable.dev/vite-tanstack-config`) — build ainda depende do pacote
-- [ ] Deploy público (Vercel/Cloudflare) com secrets de produção
+- [ ] Deploy público permanente (Vercel/Cloudflare) — preview via túnel Cloudflare enquanto isso
 
 ## Negócio e conformidade
+
 - [ ] Assinatura/pagamentos (bloqueado: escolha de planos e preços)
 - [ ] Verificação de médico no cadastro (CRM) (bloqueado: decisão sobre fonte de verificação)
 - [ ] Termos, LGPD e política de uso de IA (bloqueado: revisão jurídica)

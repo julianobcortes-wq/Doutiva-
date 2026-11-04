@@ -30,10 +30,15 @@ const evalSchema = z.object({
   next_step: z.string(),
 });
 
-async function lessonContext(supabase: ReturnType<typeof createClient<Database>>, lessonId: string) {
+async function lessonContext(
+  supabase: ReturnType<typeof createClient<Database>>,
+  lessonId: string,
+) {
   const { data: lesson } = await supabase
     .from("lessons")
-    .select("title, module_title, content, key_points, refs, evidence_level, position, slides, monograph, clinical_case, quick_ref, courses(slug)")
+    .select(
+      "title, module_title, content, key_points, refs, evidence_level, position, slides, monograph, clinical_case, quick_ref, courses(slug)",
+    )
     .eq("id", lessonId)
     .maybeSingle();
   if (!lesson) return null;
@@ -48,26 +53,34 @@ async function lessonContext(supabase: ReturnType<typeof createClient<Database>>
 
 function errorResponse(e: unknown) {
   const status = (e as { status?: number }).status ?? 500;
-  const msg =
-    status === 402
-      ? "Créditos de IA esgotados."
-      : status === 429
-        ? "Muitas requisições, tente em instantes."
-        : status === 403
-          ? "Acesso à IA bloqueado para este espaço de trabalho."
-          : (e as Error).message === "IA não configurada"
-            ? "IA não configurada"
-            : "Falha na IA.";
-  return new Response(msg, { status: status === 500 && (e as Error).message === "IA não configurada" ? 500 : status });
+  const raw = String((e as Error).message ?? e);
+  const quota =
+    status === 402 || /insufficient_quota|credit_balance_exhausted|credits? remaining/i.test(raw);
+  const msg = quota
+    ? "Créditos da OpenAI esgotados. Adicione saldo em platform.openai.com → Settings → Billing."
+    : status === 429
+      ? "Muitas requisições, tente em instantes."
+      : status === 403
+        ? "Acesso à IA bloqueado para este espaço de trabalho."
+        : raw === "IA não configurada"
+          ? "IA não configurada"
+          : "Falha na IA.";
+  return new Response(msg, {
+    status: quota ? 402 : status === 500 && raw === "IA não configurada" ? 500 : status,
+  });
 }
 
 export async function handlePreceptor(request: Request) {
   const token = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
   if (!token) return new Response("Não autenticado", { status: 401 });
-  const supabase = createClient<Database>(process.env["SUPABASE_URL"]!, process.env["SUPABASE_PUBLISHABLE_KEY"]!, {
-    auth: { persistSession: false, autoRefreshToken: false },
-    global: { headers: { Authorization: `Bearer ${token}` } },
-  });
+  const supabase = createClient<Database>(
+    process.env["SUPABASE_URL"]!,
+    process.env["SUPABASE_PUBLISHABLE_KEY"]!,
+    {
+      auth: { persistSession: false, autoRefreshToken: false },
+      global: { headers: { Authorization: `Bearer ${token}` } },
+    },
+  );
   const { data: u } = await supabase.auth.getUser(token);
   if (!u.user) return new Response("Não autenticado", { status: 401 });
 
@@ -79,9 +92,15 @@ export async function handlePreceptor(request: Request) {
   };
   const persona = PERSONAS.find((p) => p.id === body.persona);
   const msgs = (body.messages ?? [])
-    .filter((m) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content)
+    .filter(
+      (m) =>
+        (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content,
+    )
     .slice(-30)
-    .map((m) => ({ role: m.role as "user" | "assistant", content: m.content.slice(0, 6000) })) as ModelMessage[];
+    .map((m) => ({
+      role: m.role as "user" | "assistant",
+      content: m.content.slice(0, 6000),
+    })) as ModelMessage[];
   if (!persona || !body.lessonId) return new Response("Requisição inválida", { status: 400 });
 
   const ctx = await lessonContext(supabase, body.lessonId);
@@ -98,7 +117,8 @@ export async function handlePreceptor(request: Request) {
 
   if (body.mode === "evaluate") {
     const userTurns = msgs.filter((m) => m.role === "user").length;
-    if (userTurns < 2) return new Response("Responda pelo menos 2 perguntas antes de encerrar.", { status: 400 });
+    if (userTurns < 2)
+      return new Response("Responda pelo menos 2 perguntas antes de encerrar.", { status: 400 });
     try {
       const transcript = msgs
         .map((m) => `${m.role === "user" ? "MÉDICO" : "PROFESSOR"}: ${m.content as string}`)
@@ -137,7 +157,9 @@ export async function handlePreceptor(request: Request) {
     }
   }
 
-  const start: ModelMessage[] = msgs.length ? msgs : [{ role: "user", content: "Estou pronto. Comece." }];
+  const start: ModelMessage[] = msgs.length
+    ? msgs
+    : [{ role: "user", content: "Estou pronto. Comece." }];
   try {
     const result = streamText({
       model,
