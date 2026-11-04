@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { checkCitations, gateCorpusCitations } from "./citations";
+import { checkCitations, gateCorpusCitations, scoreCitationFidelity } from "./citations";
 
 describe("conferência de referências", () => {
   it("aponta citação para referência que não existe", () => {
@@ -35,5 +35,23 @@ describe("gateCorpusCitations", () => {
     expect(out.stripped).toBe(true);
     expect(out.text).not.toMatch(/\[S?\d/);
     expect(out.text).toMatch(/não estava ancorada|não cobria|removidas/i);
+  });
+});
+
+describe("scoreCitationFidelity", () => {
+  it("marca citação fraca quando o trecho não cobre a frase", () => {
+    const out = scoreCitationFidelity("A semaglutida reduz MACE em 20% [S1].", [
+      { excerpt: "Estudo sobre peixes amazônicos e dieta." },
+    ]);
+    expect(out.checked).toBe(1);
+    expect(out.weak).toBe(1);
+  });
+
+  it("aceita sobreposição lexical razoável", () => {
+    const out = scoreCitationFidelity("Semaglutida reduz eventos cardiovasculares MACE [S1].", [
+      { excerpt: "Semaglutida reduziu eventos cardiovasculares MACE no SELECT." },
+    ]);
+    expect(out.checked).toBe(1);
+    expect(out.weak).toBe(0);
   });
 });

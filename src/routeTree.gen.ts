@@ -12,6 +12,9 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
+import { Route as PoliticaIaRouteImport } from './routes/politica-ia'
+import { Route as PrivacidadeRouteImport } from './routes/privacidade'
+import { Route as TermosRouteImport } from './routes/termos'
 import { Route as AuthenticatedAchievementsRouteImport } from './routes/_authenticated/achievements'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as AuthenticatedAffiliatesRouteImport } from './routes/_authenticated/affiliates'
@@ -50,7 +53,9 @@ import { Route as AuthenticatedEditorIndexRouteImport } from './routes/_authenti
 import { Route as AuthenticatedEditorBibliotecaRouteImport } from './routes/_authenticated/editor.biblioteca'
 import { Route as AuthenticatedEventsSlugRouteImport } from './routes/_authenticated/events.$slug'
 import { Route as AuthenticatedMentorsSlugRouteImport } from './routes/_authenticated/mentors.$slug'
+import { Route as AuthenticatedProtocoloSlugRouteImport } from './routes/_authenticated/protocolo.$slug'
 import { Route as AuthenticatedSpacesSlugRouteImport } from './routes/_authenticated/spaces.$slug'
+import { Route as ApiCronDailyChallengeRouteImport } from './routes/api/cron.daily-challenge'
 import { Route as AuthenticatedEditorAulaLessonIdRouteImport } from './routes/_authenticated/editor.aula.$lessonId'
 import { Route as AuthenticatedEditorCursoCourseIdRouteImport } from './routes/_authenticated/editor.curso.$courseId'
 
@@ -66,6 +71,21 @@ const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PoliticaIaRoute = PoliticaIaRouteImport.update({
+  id: '/politica-ia',
+  path: '/politica-ia',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacidadeRoute = PrivacidadeRouteImport.update({
+  id: '/privacidade',
+  path: '/privacidade',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TermosRoute = TermosRouteImport.update({
+  id: '/termos',
+  path: '/termos',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedAchievementsRoute =
@@ -271,10 +291,21 @@ const AuthenticatedMentorsSlugRoute =
     path: '/$slug',
     getParentRoute: () => AuthenticatedMentorsRoute,
   } as any)
+const AuthenticatedProtocoloSlugRoute =
+  AuthenticatedProtocoloSlugRouteImport.update({
+    id: '/protocolo/$slug',
+    path: '/protocolo/$slug',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
 const AuthenticatedSpacesSlugRoute = AuthenticatedSpacesSlugRouteImport.update({
   id: '/spaces/$slug',
   path: '/spaces/$slug',
   getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const ApiCronDailyChallengeRoute = ApiCronDailyChallengeRouteImport.update({
+  id: '/api/cron/daily-challenge',
+  path: '/api/cron/daily-challenge',
+  getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedEditorAulaLessonIdRoute =
   AuthenticatedEditorAulaLessonIdRouteImport.update({
@@ -292,6 +323,9 @@ const AuthenticatedEditorCursoCourseIdRoute =
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+  '/politica-ia': typeof PoliticaIaRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -328,7 +362,9 @@ export interface FileRoutesByFullPath {
   '/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
   '/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
+  '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/academy/': typeof AuthenticatedAcademyIndexRoute
   '/editor/': typeof AuthenticatedEditorIndexRoute
   '/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -337,6 +373,9 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+  '/politica-ia': typeof PoliticaIaRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -373,7 +412,9 @@ export interface FileRoutesByTo {
   '/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
   '/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
+  '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/academy': typeof AuthenticatedAcademyIndexRoute
   '/editor': typeof AuthenticatedEditorIndexRoute
   '/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -384,6 +425,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
+  '/politica-ia': typeof PoliticaIaRoute
+  '/privacidade': typeof PrivacidadeRoute
+  '/termos': typeof TermosRoute
   '/_authenticated/achievements': typeof AuthenticatedAchievementsRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/_authenticated/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -420,7 +464,9 @@ export interface FileRoutesById {
   '/_authenticated/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
   '/_authenticated/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/_authenticated/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
+  '/_authenticated/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/_authenticated/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/_authenticated/academy/': typeof AuthenticatedAcademyIndexRoute
   '/_authenticated/editor/': typeof AuthenticatedEditorIndexRoute
   '/_authenticated/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -431,6 +477,9 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/auth'
+    | '/politica-ia'
+    | '/privacidade'
+    | '/termos'
     | '/achievements'
     | '/admin'
     | '/affiliates'
@@ -467,7 +516,9 @@ export interface FileRouteTypes {
     | '/editor/biblioteca'
     | '/events/$slug'
     | '/mentors/$slug'
+    | '/protocolo/$slug'
     | '/spaces/$slug'
+    | '/api/cron/daily-challenge'
     | '/academy/'
     | '/editor/'
     | '/editor/aula/$lessonId'
@@ -476,6 +527,9 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/auth'
+    | '/politica-ia'
+    | '/privacidade'
+    | '/termos'
     | '/achievements'
     | '/admin'
     | '/affiliates'
@@ -512,7 +566,9 @@ export interface FileRouteTypes {
     | '/editor/biblioteca'
     | '/events/$slug'
     | '/mentors/$slug'
+    | '/protocolo/$slug'
     | '/spaces/$slug'
+    | '/api/cron/daily-challenge'
     | '/academy'
     | '/editor'
     | '/editor/aula/$lessonId'
@@ -522,6 +578,9 @@ export interface FileRouteTypes {
     | '/'
     | '/_authenticated'
     | '/auth'
+    | '/politica-ia'
+    | '/privacidade'
+    | '/termos'
     | '/_authenticated/achievements'
     | '/_authenticated/admin'
     | '/_authenticated/affiliates'
@@ -558,7 +617,9 @@ export interface FileRouteTypes {
     | '/_authenticated/editor/biblioteca'
     | '/_authenticated/events/$slug'
     | '/_authenticated/mentors/$slug'
+    | '/_authenticated/protocolo/$slug'
     | '/_authenticated/spaces/$slug'
+    | '/api/cron/daily-challenge'
     | '/_authenticated/academy/'
     | '/_authenticated/editor/'
     | '/_authenticated/editor/aula/$lessonId'
@@ -569,9 +630,13 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
+  PoliticaIaRoute: typeof PoliticaIaRoute
+  PrivacidadeRoute: typeof PrivacidadeRoute
+  TermosRoute: typeof TermosRoute
   ApiPreceptorRoute: typeof ApiPreceptorRoute
   ApiTutorRoute: typeof ApiTutorRoute
   VerificarCodeRoute: typeof VerificarCodeRoute
+  ApiCronDailyChallengeRoute: typeof ApiCronDailyChallengeRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -595,6 +660,27 @@ declare module '@tanstack/react-router' {
       path: '/auth'
       fullPath: '/auth'
       preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/politica-ia': {
+      id: '/politica-ia'
+      path: '/politica-ia'
+      fullPath: '/politica-ia'
+      preLoaderRoute: typeof PoliticaIaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacidade': {
+      id: '/privacidade'
+      path: '/privacidade'
+      fullPath: '/privacidade'
+      preLoaderRoute: typeof PrivacidadeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/termos': {
+      id: '/termos'
+      path: '/termos'
+      fullPath: '/termos'
+      preLoaderRoute: typeof TermosRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/achievements': {
@@ -863,12 +949,26 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedMentorsSlugRouteImport
       parentRoute: typeof AuthenticatedMentorsRoute
     }
+    '/_authenticated/protocolo/$slug': {
+      id: '/_authenticated/protocolo/$slug'
+      path: '/protocolo/$slug'
+      fullPath: '/protocolo/$slug'
+      preLoaderRoute: typeof AuthenticatedProtocoloSlugRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/spaces/$slug': {
       id: '/_authenticated/spaces/$slug'
       path: '/spaces/$slug'
       fullPath: '/spaces/$slug'
       preLoaderRoute: typeof AuthenticatedSpacesSlugRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/api/cron/daily-challenge': {
+      id: '/api/cron/daily-challenge'
+      path: '/api/cron/daily-challenge'
+      fullPath: '/api/cron/daily-challenge'
+      preLoaderRoute: typeof ApiCronDailyChallengeRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/_authenticated/editor/aula/$lessonId': {
       id: '/_authenticated/editor/aula/$lessonId'
@@ -954,6 +1054,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedWalletRoute: typeof AuthenticatedWalletRoute
   AuthenticatedAcademySlugRoute: typeof AuthenticatedAcademySlugRoute
   AuthenticatedEditorBibliotecaRoute: typeof AuthenticatedEditorBibliotecaRoute
+  AuthenticatedProtocoloSlugRoute: typeof AuthenticatedProtocoloSlugRoute
   AuthenticatedSpacesSlugRoute: typeof AuthenticatedSpacesSlugRoute
   AuthenticatedAcademyIndexRoute: typeof AuthenticatedAcademyIndexRoute
   AuthenticatedEditorIndexRoute: typeof AuthenticatedEditorIndexRoute
@@ -992,6 +1093,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedWalletRoute: AuthenticatedWalletRoute,
   AuthenticatedAcademySlugRoute: AuthenticatedAcademySlugRoute,
   AuthenticatedEditorBibliotecaRoute: AuthenticatedEditorBibliotecaRoute,
+  AuthenticatedProtocoloSlugRoute: AuthenticatedProtocoloSlugRoute,
   AuthenticatedSpacesSlugRoute: AuthenticatedSpacesSlugRoute,
   AuthenticatedAcademyIndexRoute: AuthenticatedAcademyIndexRoute,
   AuthenticatedEditorIndexRoute: AuthenticatedEditorIndexRoute,
@@ -1006,9 +1108,13 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
+  PoliticaIaRoute: PoliticaIaRoute,
+  PrivacidadeRoute: PrivacidadeRoute,
+  TermosRoute: TermosRoute,
   ApiPreceptorRoute: ApiPreceptorRoute,
   ApiTutorRoute: ApiTutorRoute,
   VerificarCodeRoute: VerificarCodeRoute,
+  ApiCronDailyChallengeRoute: ApiCronDailyChallengeRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

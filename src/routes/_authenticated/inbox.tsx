@@ -1,121 +1,156 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
-import { Search, Send, Pin } from "lucide-react";
-import { useValleyProfile } from "@/lib/use-city-profile";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { useServerFn } from "@tanstack/react-start";
+import { listMentorSessions, respondMentorSession } from "@/lib/mentors.functions";
+import { Button } from "@/components/ui/button";
+import { toast } from "sonner";
+import { Inbox as InboxIcon } from "lucide-react";
 
 export const Route = createFileRoute("/_authenticated/inbox")({
-  head: () => ({ meta: [{ title: "Inbox — Doutiva" }] }),
+  head: () => ({
+    meta: [
+      { title: "Inbox de mentoria — Doutiva" },
+      {
+        name: "description",
+        content: "Solicitações de mentoria humana: aceitar, agendar ou recusar.",
+      },
+    ],
+  }),
   component: InboxPage,
 });
 
-type Thread = {
-  id: string; name: string; role: string; preview: string; time: string;
-  unread?: number; pinned?: boolean;
-};
-
-const threads: Thread[] = [
-  { id: "1", name: "Dra. Helena Vasconcellos", role: "Mentor · M&A em Saúde", preview: "Vamos marcar a sessão para validar a tese de roll-up?", time: "10:42", unread: 2, pinned: true },
-  { id: "2", name: "Concierge Doutiva", role: "Curadoria", preview: "Selecionamos 3 mentores para o seu desafio de expansão.", time: "ontem", unread: 1 },
-  { id: "3", name: "Círculo Cirurgia Plástica", role: "Comunidade", preview: "Dr. Marcos respondeu no tópico de precificação.", time: "Seg" },
-  { id: "4", name: "Mesa SP · Maio", role: "Evento", preview: "Confirme presença até quinta-feira.", time: "20/05" },
-  { id: "5", name: "Doutiva Ventures", role: "Deal flow", preview: "Nova rodada disponível: ClinicaOne Series A.", time: "18/05" },
-];
-
 function InboxPage() {
-  const [active, setActive] = useState(threads[0]);
-  const [draft, setDraft] = useState("");
-  const { profile, hydrated } = useValleyProfile();
-  const expert = hydrated && profile.user_class === "valley_expert";
+  const qc = useQueryClient();
+  const list = useServerFn(listMentorSessions);
+  const respond = useServerFn(respondMentorSession);
+  const { data: sessions = [], isLoading } = useQuery({
+    queryKey: ["mentor-sessions"],
+    queryFn: () => list(),
+  });
+  const mut = useMutation({
+    mutationFn: (input: {
+      id: string;
+      status: "accepted" | "declined" | "completed";
+      scheduledAt?: string;
+      notes?: string;
+    }) => respond({ data: input }),
+    onSuccess: () => {
+      toast.success("Solicitação atualizada.");
+      qc.invalidateQueries({ queryKey: ["mentor-sessions"] });
+    },
+    onError: (e: Error) => toast.error(e.message),
+  });
+
+  const incoming = sessions.filter((s) => s.mine_as_mentor);
+  const outgoing = sessions.filter((s) => s.mine_as_student);
 
   return (
-    <div className="mx-auto h-[calc(100vh-4rem)] max-w-7xl px-6 py-6 pb-24 md:pb-6">
-      <div className="grid h-full gap-6 md:grid-cols-[340px_1fr]">
-        <aside className="flex flex-col rounded-sm border border-border/60 bg-card">
-          <div className="border-b border-border/60 p-4">
-            <span className={`text-[10px] uppercase tracking-[0.3em] ${expert ? "text-sage" : "text-gold"}`}>
-              {expert ? "Solicitações" : "Inbox"}
-            </span>
-            <h1 className="mt-1 font-serif text-2xl">{expert ? "Quem procurou você" : "Conversas"}</h1>
-            <div className="mt-4 flex items-center gap-2 rounded-sm border border-border/60 bg-background px-3 py-1.5">
-              <Search className="h-3.5 w-3.5 text-muted-foreground" />
-              <input placeholder="Buscar..." className="flex-1 bg-transparent text-sm outline-none" />
-            </div>
-          </div>
-          <ul className="flex-1 overflow-y-auto">
-            {threads.map((t) => (
-              <li key={t.id}>
-                <button
-                  onClick={() => setActive(t)}
-                  className={`w-full border-b border-border/40 p-4 text-left transition ${
-                    active.id === t.id ? "bg-secondary/60" : "hover:bg-secondary/40"
-                  }`}
-                >
-                  <div className="flex items-start justify-between gap-2">
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2">
-                        {t.pinned && <Pin className="h-3 w-3 text-gold" />}
-                        <span className="font-serif text-sm">{t.name}</span>
-                      </div>
-                      <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{t.role}</div>
-                    </div>
-                    <div className="text-[10px] text-muted-foreground">{t.time}</div>
+    <div className="mx-auto max-w-5xl px-6 py-10 pb-28">
+      <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+        Mentoria humana
+      </span>
+      <h1 className="mt-3 font-serif text-4xl">Inbox</h1>
+      <p className="mt-2 max-w-2xl text-muted-foreground">
+        Pedidos reais de sessão com Médicos Mentores — sem threads fictícias.
+      </p>
+
+      <section className="mt-10">
+        <h2 className="font-serif text-2xl">Para você responder</h2>
+        <div className="mt-4 space-y-3">
+          {isLoading && <p className="text-sm text-muted-foreground">Carregando…</p>}
+          {!isLoading && incoming.length === 0 && (
+            <Empty text="Nenhuma solicitação dirigida ao seu perfil de mentor." />
+          )}
+          {incoming.map((s) => (
+            <div key={s.id} className="rounded-sm border border-border/60 bg-card p-5">
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                    {s.status}
                   </div>
-                  <p className="mt-2 line-clamp-1 text-xs text-muted-foreground">{t.preview}</p>
-                  {t.unread && (
-                    <span className="mt-2 inline-block rounded-full bg-gold/20 px-2 py-0.5 text-[10px] text-gold">
-                      {t.unread} novas
-                    </span>
-                  )}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </aside>
-
-        <section className="flex flex-col rounded-sm border border-border/60 bg-card">
-          <header className="border-b border-border/60 p-5">
-            <div className="flex items-center gap-3">
-              <div className="grid h-10 w-10 place-items-center rounded-full bg-gradient-to-br from-gold to-gold-soft font-serif text-primary-foreground">
-                {active.name.split(" ").slice(0, 2).map((n) => n[0]).join("")}
-              </div>
-              <div>
-                <div className="font-serif text-lg">{active.name}</div>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{active.role}</div>
+                  <h3 className="mt-1 font-serif text-xl">{s.topic}</h3>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Preferência:{" "}
+                    {s.preferred_at
+                      ? new Date(s.preferred_at).toLocaleString("pt-BR", {
+                          timeZone: "America/Sao_Paulo",
+                        })
+                      : "sem data"}
+                  </p>
+                </div>
+                {s.status === "requested" && (
+                  <div className="flex flex-wrap gap-2">
+                    <Button
+                      size="sm"
+                      className="rounded-sm"
+                      disabled={mut.isPending}
+                      onClick={() =>
+                        mut.mutate({
+                          id: s.id,
+                          status: "accepted",
+                          scheduledAt: new Date(Date.now() + 3 * 864e5).toISOString(),
+                          notes: "Horário provisório — confirme por e-mail.",
+                        })
+                      }
+                    >
+                      Aceitar (+3 dias)
+                    </Button>
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="rounded-sm"
+                      disabled={mut.isPending}
+                      onClick={() =>
+                        mut.mutate({
+                          id: s.id,
+                          status: "declined",
+                          notes: "Agenda indisponível nesta semana.",
+                        })
+                      }
+                    >
+                      Recusar
+                    </Button>
+                  </div>
+                )}
               </div>
             </div>
-          </header>
+          ))}
+        </div>
+      </section>
 
-          <div className="flex-1 space-y-4 overflow-y-auto p-6">
-            <Msg from={active.name} body={active.preview} time={active.time} />
-            <Msg from="Você" mine body="Combinado. Pode mandar uma proposta de horários para terça?" time="hoje" />
-          </div>
-
-          <div className="border-t border-border/60 p-4">
-            <div className="flex items-center gap-2 rounded-sm border border-border/60 bg-background px-3 py-2">
-              <input
-                value={draft}
-                onChange={(e) => setDraft(e.target.value)}
-                placeholder="Escreva uma mensagem..."
-                className="flex-1 bg-transparent text-sm outline-none"
-              />
-              <button className="grid h-8 w-8 place-items-center rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
-                <Send className="h-3.5 w-3.5" />
-              </button>
+      <section className="mt-12">
+        <h2 className="font-serif text-2xl">Suas solicitações</h2>
+        <div className="mt-4 space-y-3">
+          {!isLoading && outgoing.length === 0 && (
+            <Empty text="Você ainda não pediu mentoria humana." />
+          )}
+          {outgoing.map((s) => (
+            <div key={s.id} className="rounded-sm border border-border/60 bg-card p-5">
+              <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                {s.mentor_name} · {s.status}
+              </div>
+              <h3 className="mt-1 font-serif text-xl">{s.topic}</h3>
+              {s.scheduled_at && (
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Agendado:{" "}
+                  {new Date(s.scheduled_at).toLocaleString("pt-BR", {
+                    timeZone: "America/Sao_Paulo",
+                  })}
+                </p>
+              )}
+              {s.mentor_notes && <p className="mt-2 text-sm">{s.mentor_notes}</p>}
             </div>
-          </div>
-        </section>
-      </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
 
-function Msg({ from, body, time, mine }: { from: string; body: string; time: string; mine?: boolean }) {
+function Empty({ text }: { text: string }) {
   return (
-    <div className={`flex ${mine ? "justify-end" : "justify-start"}`}>
-      <div className={`max-w-[70%] rounded-sm border p-3 ${mine ? "border-gold/30 bg-gold/5" : "border-border/60 bg-background"}`}>
-        <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{from} · {time}</div>
-        <p className="mt-1 text-sm">{body}</p>
-      </div>
+    <div className="flex items-center gap-3 rounded-sm border border-dashed border-border/60 p-6 text-sm text-muted-foreground">
+      <InboxIcon className="h-4 w-4" /> {text}
     </div>
   );
 }

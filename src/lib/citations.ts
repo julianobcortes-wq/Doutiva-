@@ -21,7 +21,10 @@ export function gateCorpusCitations(text: string, refCount: number) {
   const audit = checkCitations(text, refCount);
   let gated = text;
   if (refCount <= 0) {
-    gated = text.replace(CITE_TOKEN, "").replace(/[ \t]+\n/g, "\n").trimEnd();
+    gated = text
+      .replace(CITE_TOKEN, "")
+      .replace(/[ \t]+\n/g, "\n")
+      .trimEnd();
     const stripped = gated !== text.trimEnd();
     if (stripped) {
       gated +=
@@ -42,8 +45,72 @@ export function gateCorpusCitations(text: string, refCount: number) {
 
   const stripped = audit.broken.length > 0;
   if (stripped) {
-    gated +=
-      `\n\n---\n*Aviso de evidência: citações fora do acervo recuperado (S${audit.broken.join(", S")}) foram removidas ou ajustadas. Confira as fontes S1–S${refCount} listadas.*`;
+    gated += `\n\n---\n*Aviso de evidência: citações fora do acervo recuperado (S${audit.broken.join(", S")}) foram removidas ou ajustadas. Confira as fontes S1–S${refCount} listadas.*`;
   }
-  return { text: gated, ...audit, stripped };
+  const fidelity = scoreCitationFidelity(gated, []);
+  return { text: gated, ...audit, stripped, fidelity };
+}
+
+/** Rough claim↔excerpt overlap for cited [S#] tokens against retrieved excerpts. */
+export function scoreCitationFidelity(
+  text: string,
+  corpus: { excerpt: string }[],
+): { checked: number; weak: number; notes: string[] } {
+  if (!corpus.length) return { checked: 0, weak: 0, notes: [] };
+  const notes: string[] = [];
+  let checked = 0;
+  let weak = 0;
+  const sentences = text
+    .split(/(?<=[.!?])\s+/)
+    .map((s) => s.trim())
+    .filter((s) => /\[S\d{1,3}\]/.test(s));
+  for (const sentence of sentences) {
+    const nums = [...sentence.matchAll(/\[S(\d{1,3})\]/g)].map((m) => Number(m[1]));
+    for (const n of nums) {
+      const excerpt = corpus[n - 1]?.excerpt ?? "";
+      if (!excerpt) continue;
+      checked++;
+      const overlap = tokenOverlap(sentence, excerpt);
+      if (overlap < 0.08) {
+        weak++;
+        notes.push(`S${n}`);
+      }
+    }
+  }
+  return { checked, weak, notes: [...new Set(notes)] };
+}
+
+function tokenOverlap(a: string, b: string) {
+  const ta = new Set(
+    a
+      .toLowerCase()
+      .replace(/\[s\d+\]/g, " ")
+      .split(/[^\p{L}\p{N}]+/u)
+      .filter((w) => w.length > 3),
+  );
+  const tb = new Set(
+    b
+      .toLowerCase()
+      .split(/[^\p{L}\p{N}]+/u)
+      .filter((w) => w.length > 3),
+  );
+  if (!ta.size || !tb.size) return 0;
+  let hit = 0;
+  for (const w of ta) if (tb.has(w)) hit++;
+  return hit / ta.size;
+}
+
+/** Gate citations then append fidelity warning when claim↔excerpt overlap is weak. */
+export function gateCorpusCitationsWithFidelity(
+  text: string,
+  refCount: number,
+  corpus: { excerpt: string }[],
+) {
+  const gated = gateCorpusCitations(text, refCount);
+  const fidelity = scoreCitationFidelity(gated.text, corpus);
+  let out = gated.text;
+  if (fidelity.weak > 0) {
+    out += `\n\n---\n*Aviso de fidelidade: ${fidelity.weak} citação(ões) (${fidelity.notes.map((n) => n).join(", ")}) têm baixa sobreposição lexical com o trecho recuperado — confira a fonte antes de aplicar clinicamente.*`;
+  }
+  return { ...gated, text: out, fidelity };
 }

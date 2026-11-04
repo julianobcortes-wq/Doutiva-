@@ -49,8 +49,10 @@ const studentNav = {
   secondary: [
     { to: "/ranking", label: "Ranking", icon: Trophy },
     { to: "/certifications", label: "Certificados", icon: Award },
+    { to: "/billing", label: "Meu plano", icon: CreditCard },
   ] as NavItem[],
   services: [
+    { to: "/inbox", label: "Inbox mentoria", icon: Users },
     { to: "/credenciais", label: "Sou Mentor (CRM)", icon: Users },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
@@ -80,8 +82,10 @@ const facultyNav = {
     { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
     { to: "/ranking", label: "Reputação", icon: Trophy },
     { to: "/certifications", label: "Certificados", icon: Award },
+    { to: "/inbox", label: "Inbox mentoria", icon: Users },
   ] as NavItem[],
   services: [
+    { to: "/billing", label: "Meu plano", icon: CreditCard },
     { to: "/credenciais", label: "CRM / Credenciais", icon: CreditCard },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],

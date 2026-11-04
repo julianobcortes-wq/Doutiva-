@@ -1,7 +1,10 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { useServerFn } from "@tanstack/react-start";
 import { useCallback, useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { useProgress, refreshProgress } from "@/lib/use-progress";
+import { listEntitlements } from "@/lib/entitlements.functions";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
@@ -12,15 +15,8 @@ export const Route = createFileRoute("/_authenticated/marketplace")({
       {
         name: "description",
         content:
-          "Troque seus Créditos por sessões com Professores IA, protocolos, masterclasses e descontos.",
+          "Troque Créditos por sessões, protocolos, masterclasses e cupons — com entitlement real.",
       },
-      { property: "og:title", content: "Marketplace — Doutiva" },
-      {
-        property: "og:description",
-        content: "Seu estudo vira Créditos; seus Créditos viram recursos de carreira.",
-      },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
     ],
   }),
   component: MarketplacePage,
@@ -34,33 +30,25 @@ type Item = {
   price_credits: number;
   stock: number | null;
 };
-type Redemption = {
-  id: string;
-  created_at: string;
-  price_credits: number;
-  marketplace_items: { title: string } | null;
-};
 
 function MarketplacePage() {
   const progress = useProgress();
+  const qc = useQueryClient();
+  const fetchEnt = useServerFn(listEntitlements);
   const [items, setItems] = useState<Item[]>([]);
-  const [mine, setMine] = useState<Redemption[]>([]);
   const [busy, setBusy] = useState<string | null>(null);
+  const { data: entitlements = [] } = useQuery({
+    queryKey: ["entitlements"],
+    queryFn: () => fetchEnt(),
+  });
 
   const load = useCallback(async () => {
-    const [{ data: it }, { data: rd }] = await Promise.all([
-      supabase
-        .from("marketplace_items")
-        .select("id,title,description,kind,price_credits,stock")
-        .eq("active", true)
-        .order("price_credits"),
-      supabase
-        .from("credit_redemptions")
-        .select("id,created_at,price_credits,marketplace_items(title)")
-        .order("created_at", { ascending: false }),
-    ]);
+    const { data: it } = await supabase
+      .from("marketplace_items")
+      .select("id,title,description,kind,price_credits,stock")
+      .eq("active", true)
+      .order("price_credits");
     setItems((it as Item[]) ?? []);
-    setMine((rd as unknown as Redemption[]) ?? []);
   }, []);
   useEffect(() => {
     load();
@@ -70,18 +58,16 @@ function MarketplacePage() {
     setBusy(item.id);
     const { data, error } = await supabase.rpc("redeem_item", { _item_id: item.id });
     setBusy(null);
-    const r = data as { ok: boolean; error?: string } | null;
+    const r = data as { ok: boolean; error?: string; fulfillment?: Record<string, unknown> } | null;
     if (error || !r?.ok) return toast.error(r?.error ?? "Não foi possível resgatar");
-    const tip = /professor|precept/i.test(`${item.kind} ${item.title}`)
-      ? "Abra Professores de IA para usar a sessão."
-      : /pdf|protocolo|material/i.test(`${item.kind} ${item.title}`)
-        ? "Material registrado no seu histórico de resgates."
-        : /masterclass|evento/i.test(`${item.kind} ${item.title}`)
-          ? "Vaga reservada — confirmação por e-mail em breve."
-          : "Resgate registrado na sua conta.";
-    toast.success(`Resgatado: ${item.title}`, { description: tip });
+    const route = String(r.fulfillment?.route ?? "/creditos");
+    toast.success(`Resgatado: ${item.title}`, {
+      description: "Entitlement ativo — abra em Meus benefícios.",
+      action: { label: "Abrir", onClick: () => (window.location.href = route) },
+    });
     refreshProgress();
     load();
+    qc.invalidateQueries({ queryKey: ["entitlements"] });
   }
 
   const balance = progress?.credits ?? 0;
@@ -92,14 +78,11 @@ function MarketplacePage() {
       </span>
       <h1 className="mt-3 text-4xl font-light md:text-5xl">Troque seus Créditos.</h1>
       <p className="mt-3 max-w-2xl text-muted-foreground">
-        Créditos vêm do Caso do Dia e das aulas concluídas. Saldo atual:{" "}
+        Cada resgate gera um benefício utilizável (sessão, protocolo, reserva ou cupom). Saldo:{" "}
         <strong className="text-foreground">{balance} Créditos</strong>.
       </p>
 
       <div className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {items.length === 0 && (
-          <p className="text-sm text-muted-foreground">Nenhum item disponível no momento.</p>
-        )}
         {items.map((o) => {
           const short = balance < o.price_credits;
           return (
@@ -127,22 +110,44 @@ function MarketplacePage() {
         })}
       </div>
 
-      <h2 className="mt-14 text-2xl font-light">Meus resgates</h2>
-      <div className="mt-4 rounded-sm border border-border/60 bg-card">
-        {mine.length === 0 && (
-          <p className="p-6 text-sm text-muted-foreground">Você ainda não resgatou nada.</p>
+      <h2 className="mt-14 text-2xl font-light">Meus benefícios</h2>
+      <div className="mt-4 divide-y divide-border/40 rounded-sm border border-border/60 bg-card">
+        {entitlements.length === 0 && (
+          <p className="p-6 text-sm text-muted-foreground">Nenhum entitlement ativo ainda.</p>
         )}
-        {mine.map((r) => (
-          <div
-            key={r.id}
-            className="flex justify-between border-b border-border/40 px-6 py-3 text-sm last:border-b-0"
-          >
-            <span>{r.marketplace_items?.title ?? "Item"}</span>
-            <span className="text-muted-foreground">
-              −{r.price_credits} · {new Date(r.created_at).toLocaleDateString("pt-BR")}
-            </span>
-          </div>
-        ))}
+        {entitlements.map((e) => {
+          const payload = e.payload || {};
+          const href = String(payload.route || "/creditos");
+          const slug = payload.document_slug ? String(payload.document_slug) : null;
+          const coupon = payload.coupon_code ? String(payload.coupon_code) : null;
+          return (
+            <div key={e.id} className="flex flex-wrap items-center justify-between gap-3 px-6 py-4">
+              <div>
+                <div className="text-sm">{e.title}</div>
+                <div className="text-xs text-muted-foreground">
+                  {e.kind} · {e.status}
+                  {coupon ? ` · cupom ${coupon}` : ""}
+                  {e.expires_at
+                    ? ` · expira ${new Date(e.expires_at).toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })}`
+                    : ""}
+                </div>
+              </div>
+              {slug ? (
+                <Button asChild size="sm" variant="outline" className="rounded-sm">
+                  <Link to="/protocolo/$slug" params={{ slug }}>
+                    Abrir protocolo
+                  </Link>
+                </Button>
+              ) : (
+                <Button asChild size="sm" variant="outline" className="rounded-sm">
+                  <Link to={href as "/professores"}>
+                    {href.includes("professor") ? "Usar sessão" : "Abrir"}
+                  </Link>
+                </Button>
+              )}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

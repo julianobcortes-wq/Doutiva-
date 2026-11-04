@@ -26,8 +26,20 @@
 - [x] Alerta de atualização: novos ECR/diretrizes sobre temas de aulas publicadas
 
 ## Conteúdo clínico
+
 - [x] Trilha Peptídeos regenerada em profundidade de tratado (~216k chars de monografia, 9 aulas, ~11h)
 - [x] Script `scripts/deepen-peptides-lessons.mjs` para re-gerar aulas ancoradas na biblioteca
+
+## Produto (gaps fechados em `0022`)
+
+- [x] Fulfillment de marketplace (`entitlements` + protocolo PDF)
+- [x] Planos/assinatura com cortesia (`select_plan`) — Stripe opcional
+- [x] Termos / Privacidade / Política de IA + aceite versionado
+- [x] CRM mentor com fila admin (`verify_mentor_credentials`)
+- [x] Inbox de mentoria humana (aceitar/recusar/agendar)
+- [x] Fidelity claim↔trecho no Tutor
+- [x] Cron e-mail Caso do Dia (`/api/cron/daily-challenge`)
+- [x] Guia de deploy (`docs/DEPLOY.md`, `vercel.json`)
 
 ## Experiência do aluno
 
