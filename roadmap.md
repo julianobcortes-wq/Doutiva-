@@ -45,8 +45,10 @@
 - [x] Versionar RLS das tabelas-base (`0015_base_table_rls.sql`)
 - [x] Citation gate no Tutor + embed fora do hot path
 - [x] Provider AI desacoplável via env (`ai-provider.server.ts`)
-- [ ] Desacoplar Vite config + OAuth Lovable (P3)
-- [ ] CREATE TABLE das tabelas-base no git (hoje só policies; DDL ainda no baseline Cloud)
+- [x] CREATE TABLE das tabelas-base no git (`0016_base_schema_ddl.sql`)
+- [x] OAuth: preferir Supabase nativo, Lovable só como fallback
+- [ ] Desacoplar Vite config Lovable (`@lovable.dev/vite-tanstack-config`) — build ainda depende do pacote
+- [ ] Deploy público (Vercel/Cloudflare) com secrets de produção
 
 ## Negócio e conformidade
 - [ ] Assinatura/pagamentos (bloqueado: escolha de planos e preços)

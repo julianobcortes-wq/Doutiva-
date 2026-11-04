@@ -7,7 +7,6 @@ describe("conferência de referências", () => {
   });
   it("aponta referência nunca citada", () => {
     expect(checkCitations("Ver [1, 3].", 3).uncited).toEqual([2]);
-    expect(checkCitations("A [1] B [2]", 2)).toEqual({ cited: 2, broken: [], uncited: [] });
   });
   it("tudo certo quando cada citação existe", () => {
     expect(checkCitations("A [1] B [2]", 2)).toEqual({ cited: 2, broken: [], uncited: [] });

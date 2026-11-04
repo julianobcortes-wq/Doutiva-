@@ -67,8 +67,15 @@ function AuthPage() {
 
   async function handleGoogle() {
     setStoredClass(userClass);
-    const result = await lovable.auth.signInWithOAuth("google", { redirect_uri: window.location.origin + "/dashboard" });
-    if (result.error) toast.error("Falha no login com Google");
+    // Prefer native Supabase OAuth when configured; fall back to Lovable broker.
+    const redirectTo = `${window.location.origin}/dashboard`;
+    const { error: nativeError } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo },
+    });
+    if (!nativeError) return;
+    const result = await lovable.auth.signInWithOAuth("google", { redirect_uri: redirectTo });
+    if (result.error) toast.error("Falha no login com Google. Configure o provedor no Supabase Auth.");
   }
 
   return (

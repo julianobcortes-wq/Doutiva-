@@ -113,6 +113,13 @@
       "when": 1793765000000,
       "tag": "0015_base_table_rls",
       "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1793766000000,
+      "tag": "0016_base_schema_ddl",
+      "breakpoints": true
     }
   ]
 }
