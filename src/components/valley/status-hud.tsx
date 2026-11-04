@@ -45,16 +45,22 @@ export function StatusHud({ expert }: { expert: boolean }) {
 
         <Divider />
 
-        <HudStat to="/creditos" icon={Coins} label="Créditos" value={`${n(real?.credits ?? 0)}`} accent={accent} />
         <HudStat
-          to="/skills"
+          to="/marketplace"
+          icon={Coins}
+          label="Créditos"
+          value={`${n(real?.credits ?? 0)}`}
+          accent={accent}
+        />
+        <HudStat
+          to="/ranking"
           icon={Activity}
           label="Patamar"
           value={ready ? `${tier.tier}. ${tier.name}` : "—"}
           accent={accent}
         />
         <HudStat
-          to="/missions"
+          to="/caso-do-dia"
           icon={Flame}
           label="Sequência"
           value={ready ? `${real?.streak ?? 0} dias` : "—"}
@@ -93,7 +99,9 @@ function HudStat({
     >
       <Icon className={`h-3.5 w-3.5 ${accent}`} />
       <span>
-        <span className="block text-[9px] uppercase tracking-[0.25em] text-muted-foreground">{label}</span>
+        <span className="block text-[9px] uppercase tracking-[0.25em] text-muted-foreground">
+          {label}
+        </span>
         <span className="block font-serif text-sm leading-tight text-foreground">{value}</span>
       </span>
     </Link>

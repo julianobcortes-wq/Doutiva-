@@ -9,10 +9,26 @@ import { experienceFor } from "@/lib/valley";
 import { useProgress } from "@/lib/use-progress";
 import { studioMe } from "@/lib/studio.functions";
 import {
-  LayoutDashboard, GraduationCap, Users,
-  Settings, LogOut, Search, Bell, Sparkles, Award, Trophy,
-  Shield, Bookmark, LifeBuoy, Compass, Flame,
-  Target, ShoppingBag, PenTool, Brain, CreditCard,
+  LayoutDashboard,
+  GraduationCap,
+  Users,
+  Settings,
+  LogOut,
+  Search,
+  Bell,
+  Sparkles,
+  Award,
+  Trophy,
+  Shield,
+  Bookmark,
+  LifeBuoy,
+  Compass,
+  Flame,
+  Target,
+  ShoppingBag,
+  PenTool,
+  Brain,
+  CreditCard,
 } from "lucide-react";
 
 type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
@@ -84,6 +100,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   const qc = useQueryClient();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const [email, setEmail] = useState<string>("");
+  const [search, setSearch] = useState("");
   const { profile, hydrated } = useValleyProfile();
   const { data: me } = useQuery({
     queryKey: ["studio-me"],
@@ -98,6 +115,17 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => setEmail(data.user?.email ?? ""));
   }, []);
+
+  function runSearch(e: React.FormEvent) {
+    e.preventDefault();
+    const q = search.trim();
+    if (isFaculty) {
+      if (q) sessionStorage.setItem("doutiva:library-q", q);
+      router.navigate({ to: "/editor/biblioteca" });
+      return;
+    }
+    router.navigate({ to: "/academy" });
+  }
 
   async function handleSignOut() {
     await qc.cancelQueries();
@@ -115,18 +143,45 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     (isFaculty ? "Corpo docente" : "Doutiva");
 
   return (
-    <div className={`min-h-screen bg-background text-foreground${isFaculty ? " theme-expert" : ""}`}>
+    <div
+      className={`min-h-screen bg-background text-foreground${isFaculty ? " theme-expert" : ""}`}
+    >
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 flex-col border-r border-border/60 bg-sidebar md:flex">
         <div className="flex h-16 items-center gap-3 border-b border-border/60 px-6">
-          <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 text-gold font-serif text-lg">D</span>
+          <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 text-gold font-serif text-lg">
+            D
+          </span>
           <span className="font-serif text-base tracking-tight">DOUTIVA</span>
         </div>
 
         <div className="flex-1 overflow-y-auto px-4 pt-6">
-          <NavGroup label={xp.primaryGroupLabel} items={nav.primary} pathname={pathname} expert={isFaculty} />
-          <NavGroup label={xp.environmentsLabel} items={nav.environments} pathname={pathname} expert={isFaculty} className="mt-6" />
-          <NavGroup label={xp.secondaryGroupLabel} items={nav.secondary} pathname={pathname} expert={isFaculty} className="mt-6" />
-          <NavGroup label={isFaculty ? "Conta docente" : "Conta"} items={nav.services} pathname={pathname} expert={isFaculty} className="mt-6" />
+          <NavGroup
+            label={xp.primaryGroupLabel}
+            items={nav.primary}
+            pathname={pathname}
+            expert={isFaculty}
+          />
+          <NavGroup
+            label={xp.environmentsLabel}
+            items={nav.environments}
+            pathname={pathname}
+            expert={isFaculty}
+            className="mt-6"
+          />
+          <NavGroup
+            label={xp.secondaryGroupLabel}
+            items={nav.secondary}
+            pathname={pathname}
+            expert={isFaculty}
+            className="mt-6"
+          />
+          <NavGroup
+            label={isFaculty ? "Conta docente" : "Conta"}
+            items={nav.services}
+            pathname={pathname}
+            expert={isFaculty}
+            className="mt-6"
+          />
         </div>
 
         <div className="border-t border-border/60 p-4">
@@ -138,8 +193,14 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             }`}
           >
             <div className="flex items-center justify-between">
-              {isFaculty ? <Compass className="h-4 w-4 text-sage" /> : <Sparkles className="h-4 w-4 text-gold" />}
-              <span className={`text-[9px] uppercase tracking-[0.25em] ${isFaculty ? "text-sage" : "text-gold"}`}>
+              {isFaculty ? (
+                <Compass className="h-4 w-4 text-sage" />
+              ) : (
+                <Sparkles className="h-4 w-4 text-gold" />
+              )}
+              <span
+                className={`text-[9px] uppercase tracking-[0.25em] ${isFaculty ? "text-sage" : "text-gold"}`}
+              >
                 {realProgress ? `${realProgress.xp} XP` : "—"}
               </span>
             </div>
@@ -148,7 +209,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <Link
               to={xp.cta.to as "/dashboard"}
               className={`mt-3 block w-full rounded-sm border px-3 py-1.5 text-center text-xs uppercase tracking-[0.2em] ${
-                isFaculty ? "border-sage/40 text-sage hover:bg-sage/10" : "border-gold/40 text-gold hover:bg-gold/10"
+                isFaculty
+                  ? "border-sage/40 text-sage hover:bg-sage/10"
+                  : "border-gold/40 text-gold hover:bg-gold/10"
               }`}
             >
               {xp.cta.action}
@@ -177,13 +240,20 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <span className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground lg:block">
               {currentLabel}
             </span>
-            <div className="hidden w-72 items-center gap-2 rounded-sm border border-border/60 bg-card px-3 py-1.5 text-sm text-muted-foreground md:flex">
-              <Search className="h-3.5 w-3.5" />
+            <form
+              onSubmit={runSearch}
+              className="hidden w-72 items-center gap-2 rounded-sm border border-border/60 bg-card px-3 py-1.5 text-sm text-muted-foreground md:flex"
+            >
+              <Search className="h-3.5 w-3.5 shrink-0" />
               <input
-                placeholder="Buscar cursos, casos, evidências…"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder={
+                  isFaculty ? "Buscar evidências na biblioteca…" : "Ir para a Universidade…"
+                }
                 className="flex-1 bg-transparent text-foreground outline-none placeholder:text-muted-foreground"
               />
-            </div>
+            </form>
           </div>
           <div className="flex items-center gap-3">
             {isFaculty && (
@@ -191,15 +261,18 @@ export function AppShell({ children }: { children: React.ReactNode }) {
                 <Shield className="h-3 w-3" /> Corpo docente
               </span>
             )}
-            <span
+            <Link
+              to="/caso-do-dia"
               className={`hidden items-center gap-1.5 rounded-full border px-3 py-1 text-[10px] uppercase tracking-[0.2em] sm:inline-flex ${
-                isFaculty ? "border-sage/40 bg-sage/5 text-sage" : "border-gold/40 bg-gold/5 text-gold"
+                isFaculty
+                  ? "border-sage/40 bg-sage/5 text-sage"
+                  : "border-gold/40 bg-gold/5 text-gold"
               }`}
             >
               <Flame className="h-3 w-3" /> {realProgress?.streak ?? 0} dias
-            </span>
+            </Link>
             <Link
-              to="/settings"
+              to="/notifications"
               className={`grid h-9 w-9 place-items-center rounded-sm border border-border/60 text-muted-foreground hover:text-foreground ${
                 isFaculty ? "hover:border-sage/40" : "hover:border-gold/40"
               }`}
@@ -207,7 +280,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               <Bell className="h-4 w-4" />
             </Link>
             <div className="hidden text-right md:block">
-              <div className={`text-[10px] uppercase tracking-[0.2em] ${isFaculty ? "text-sage" : "text-gold"}`}>
+              <div
+                className={`text-[10px] uppercase tracking-[0.2em] ${isFaculty ? "text-sage" : "text-gold"}`}
+              >
                 {hydrated ? classLabel(profile) : "Doutiva"}
               </div>
               <div className="max-w-[180px] truncate text-xs text-foreground">{email || "—"}</div>
@@ -257,14 +332,20 @@ function NavGroup({
   className = "",
 }: {
   label: string;
-  items: ReadonlyArray<{ to: string; label: string; icon: React.ComponentType<{ className?: string }> }>;
+  items: ReadonlyArray<{
+    to: string;
+    label: string;
+    icon: React.ComponentType<{ className?: string }>;
+  }>;
   pathname: string;
   expert: boolean;
   className?: string;
 }) {
   return (
     <div className={className}>
-      <div className="mb-2 px-2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">{label}</div>
+      <div className="mb-2 px-2 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+        {label}
+      </div>
       <nav className="flex flex-col gap-1">
         {items.map(({ to, label: itemLabel, icon: Icon }) => {
           const active = pathname === to || pathname.startsWith(to + "/");
