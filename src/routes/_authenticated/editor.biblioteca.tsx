@@ -154,8 +154,11 @@ function SearchPanel() {
             .filter(Boolean),
         },
       });
+      const base = r.fullText
+        ? "Adicionado com texto completo (acesso aberto)."
+        : "Adicionado com resumo.";
       toast.success(
-        r.fullText ? "Adicionado com texto completo (acesso aberto)." : "Adicionado com resumo.",
+        r.embedded > 0 ? `${base} Embedding pronto para o Tutor.` : `${base} Embedding pendente — rode o seed ou reimporte.`,
       );
       setHits((hs) =>
         hs.map((x) => (x.external_id === h.external_id ? { ...x, inLibrary: true } : x)),
