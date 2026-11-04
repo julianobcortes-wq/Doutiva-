@@ -7,3 +7,5 @@
 - Studio lesson generation is a 3-stage pipeline in src/lib/lesson-ai.server.ts (Claude Opus monograph → GPT structuring → Claude Sonnet audit). Why: depth from one model, structure from another, independent review.
 - Scientific Library lives in public.knowledge_sources (admin-only RLS); search uses Europe PMC + ClinicalTrials.gov v2 public APIs (no keys); PDFs are parsed client-side with pdfjs-dist. Selected sources are injected as numbered [S#] corpus into lesson generation. Why: lessons grounded in real, citable evidence.
 - AI Professors (/professores) run through src/lib/preceptor.server.ts with personas in src/lib/preceptor-personas.ts; each graded session is stored in public.mastery_records. Why: mastery is measured per session and drives future adaptive study.
+- Tutor citations are post-gated by gateCorpusCitations against the retrieved corpus size; embedPendingSources is not called on the tutor hot path. Why: no invented [S#] and no admin writes on student Q&A.
+- AI calls go through src/lib/ai-provider.server.ts (swap AI_GATEWAY_BASE_URL / keys without editing call sites).

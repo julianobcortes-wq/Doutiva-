@@ -1,11 +1,9 @@
-import { createOpenAI } from "@ai-sdk/openai";
 import { Output, streamText, type ModelMessage } from "ai";
 import { createClient } from "@supabase/supabase-js";
 import { z } from "zod";
 import type { Database } from "@/integrations/supabase/types";
 import { PERSONAS, type PersonaId } from "@/lib/preceptor-personas";
-
-const RUN = "X-Lovable-AIG-Run-ID";
+import { createGatewayOpenAI, DEFAULT_CHAT_MODEL } from "@/lib/ai-provider.server";
 
 const BASE = `Você é um Professor de IA da Doutiva — a escola do médico do futuro. Seu aluno é SEMPRE um médico formado.
 Princípios pedagógicos (mastery learning, estilo Alpha School):
@@ -38,14 +36,25 @@ async function lessonContext(supabase: ReturnType<typeof createClient<Database>>
   const { resolveRich } = await import("@/content/lesson-normalize");
   const slug = (lesson.courses as { slug?: string } | null)?.slug ?? "";
   const rich = resolveRich(lesson, slug);
-  const richCtx = rich ? `\n\n--- MONOGRAFIA ---\n${rich.monograph}\n\n--- GUIA DE BOLSO ---\n${rich.quickRef}\n\n--- CASO ---\n${rich.clinicalCase.vignette}` : "";
+  const richCtx = rich
+    ? `\n\n--- MONOGRAFIA ---\n${rich.monograph}\n\n--- GUIA DE BOLSO ---\n${rich.quickRef}\n\n--- CASO ---\n${rich.clinicalCase.vignette}`
+    : "";
   return `\n\n=== AULA-BASE ===\n${lesson.module_title} — ${lesson.title}\nEvidência: ${lesson.evidence_level}\nPontos-chave: ${(lesson.key_points ?? []).join(" | ")}\n\n${lesson.content ?? ""}${richCtx}\n\nReferências: ${JSON.stringify(lesson.refs)}`;
 }
 
 function errorResponse(e: unknown) {
   const status = (e as { status?: number }).status ?? 500;
-  const msg = status === 402 ? "Créditos de IA esgotados." : status === 429 ? "Muitas requisições, tente em instantes." : status === 403 ? "Acesso à IA bloqueado para este espaço de trabalho." : "Falha na IA.";
-  return new Response(msg, { status });
+  const msg =
+    status === 402
+      ? "Créditos de IA esgotados."
+      : status === 429
+        ? "Muitas requisições, tente em instantes."
+        : status === 403
+          ? "Acesso à IA bloqueado para este espaço de trabalho."
+          : (e as Error).message === "IA não configurada"
+            ? "IA não configurada"
+            : "Falha na IA.";
+  return new Response(msg, { status: status === 500 && (e as Error).message === "IA não configurada" ? 500 : status });
 }
 
 export async function handlePreceptor(request: Request) {
@@ -58,7 +67,12 @@ export async function handlePreceptor(request: Request) {
   const { data: u } = await supabase.auth.getUser(token);
   if (!u.user) return new Response("Não autenticado", { status: 401 });
 
-  const body = (await request.json()) as { lessonId?: string; persona?: string; mode?: string; messages?: { role: string; content: string }[] };
+  const body = (await request.json()) as {
+    lessonId?: string;
+    persona?: string;
+    mode?: string;
+    messages?: { role: string; content: string }[];
+  };
   const persona = PERSONAS.find((p) => p.id === body.persona);
   const msgs = (body.messages ?? [])
     .filter((m) => (m.role === "user" || m.role === "assistant") && typeof m.content === "string" && m.content)
@@ -69,34 +83,31 @@ export async function handlePreceptor(request: Request) {
   const ctx = await lessonContext(supabase, body.lessonId);
   if (!ctx) return new Response("Aula não encontrada", { status: 404 });
 
-  const apiKey = process.env["LOVABLE_API_KEY"];
-  if (!apiKey) return new Response("IA não configurada", { status: 500 });
-  let runId: string | undefined;
-  const provider = createOpenAI({
-    baseURL: "https://ai.gateway.lovable.dev/v1",
-    apiKey,
-    headers: { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" },
-    fetch: async (input, init) => {
-      const h = new Headers(init?.headers);
-      if (runId) h.set(RUN, runId);
-      const res = await fetch(input, { ...init, headers: h });
-      runId ??= res.headers.get(RUN) ?? undefined;
-      if (!res.ok) {
-        const text = await res.clone().text().catch(() => "");
-        throw Object.assign(new Error(text || `Erro ${res.status}`), { status: res.status });
-      }
-      return res;
+  let provider;
+  try {
+    provider = createGatewayOpenAI();
+  } catch (e) {
+    return errorResponse(e);
+  }
+  const opts = {
+    openai: {
+      store: false,
+      forceReasoning: true,
+      reasoningEffort: "low" as const,
+      reasoningSummary: "auto" as const,
+      include: ["reasoning.encrypted_content"],
     },
-  });
-  const opts = { openai: { store: false, forceReasoning: true, reasoningEffort: "low", reasoningSummary: "auto", include: ["reasoning.encrypted_content"] } };
+  };
 
   if (body.mode === "evaluate") {
     const userTurns = msgs.filter((m) => m.role === "user").length;
     if (userTurns < 2) return new Response("Responda pelo menos 2 perguntas antes de encerrar.", { status: 400 });
     try {
-      const transcript = msgs.map((m) => `${m.role === "user" ? "MÉDICO" : "PROFESSOR"}: ${m.content as string}`).join("\n\n");
+      const transcript = msgs
+        .map((m) => `${m.role === "user" ? "MÉDICO" : "PROFESSOR"}: ${m.content as string}`)
+        .join("\n\n");
       const r = streamText({
-        model: provider.responses("openai/gpt-6-astra"),
+        model: provider.responses(DEFAULT_CHAT_MODEL),
         system: `Você é um avaliador rigoroso de banca médica. Avalie APENAS o desempenho do MÉDICO na transcrição, com base na aula-base. Seja justo e exigente: respostas vagas não pontuam alto. Lacunas e pontos fortes devem ser específicos e acionáveis (máx. 4 cada). next_step: a próxima ação concreta de estudo.${ctx}`,
         prompt: `Modo: ${persona.name}\n\nTRANSCRIÇÃO:\n${transcript}`,
         output: Output.object({ schema: evalSchema }),
@@ -110,12 +121,16 @@ export async function handlePreceptor(request: Request) {
         lesson_id: body.lessonId,
         persona: persona.id,
         score: clamp(o.score),
-        dimensions: { raciocinio: clamp(o.raciocinio), evidencia: clamp(o.evidencia), seguranca: clamp(o.seguranca), comunicacao: clamp(o.comunicacao) },
+        dimensions: {
+          raciocinio: clamp(o.raciocinio),
+          evidencia: clamp(o.evidencia),
+          seguranca: clamp(o.seguranca),
+          comunicacao: clamp(o.comunicacao),
+        },
         strengths: o.strengths.slice(0, 4),
         gaps: o.gaps.slice(0, 4),
         next_step: o.next_step,
       };
-      // Mastery writes are service_role only (migration 0013) — never trust client INSERT.
       const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
       const { error } = await supabaseAdmin.from("mastery_records").insert(row);
       if (error) return new Response("Não foi possível salvar a avaliação.", { status: 500 });
@@ -128,7 +143,7 @@ export async function handlePreceptor(request: Request) {
   const start: ModelMessage[] = msgs.length ? msgs : [{ role: "user", content: "Estou pronto. Comece." }];
   try {
     const result = streamText({
-      model: provider.responses("openai/gpt-6-astra"),
+      model: provider.responses(DEFAULT_CHAT_MODEL),
       system: `${BASE}\n\n=== SUA PERSONA: ${persona.name} ===\n${persona.prompt}${ctx}`,
       messages: start,
       abortSignal: request.signal,

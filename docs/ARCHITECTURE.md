@@ -23,11 +23,15 @@ TanStack Start · React 19 · Supabase Auth/Postgres/RLS · Drizzle SQL migratio
 
 ## Desacoplamento Lovable (ordem)
 
-1. Providers AI próprios (`LOVABLE_API_KEY` → OpenAI/Anthropic/Google)
+1. ~~Providers AI próprios~~ — `ai-provider.server.ts` + env (`AI_GATEWAY_BASE_URL` / `OPENAI_API_KEY`)
 2. Vite/TanStack config explícita (sair de `@lovable.dev/vite-tanstack-config`)
 3. OAuth Supabase nativo (sair de `@lovable.dev/cloud-auth-js`)
 4. Remover error bridge / preview auth
-5. Schema base + RLS completo versionado no git
+5. ~~Schema base + RLS versionado~~ — migration `0015` (tabelas-base); CREATE TABLE das seeds ainda vive no Cloud baseline
+
+## Citation integrity
+
+Tutor recupera até N fontes → injeta `[S1]…[SN]` → após geração, `gateCorpusCitations` remove índices fora do corpus antes de enviar ao cliente.
 
 ## Conteúdo médico
 

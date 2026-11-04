@@ -1,14 +1,20 @@
-// Semantic search for the Scientific Library (Lovable AI embeddings + pgvector).
-const MODEL = "google/gemini-embedding-2";
+// Semantic search for the Scientific Library (gateway embeddings + pgvector).
+import { DEFAULT_EMBED_MODEL, requireAiApiKey } from "@/lib/ai-provider.server";
 
 export async function embedTexts(texts: string[]): Promise<number[][] | null> {
-  const apiKey = process.env["LOVABLE_API_KEY"];
-  if (!apiKey || !texts.length) return null;
+  let apiKey: string;
+  try {
+    apiKey = requireAiApiKey();
+  } catch {
+    return null;
+  }
+  if (!texts.length) return null;
+  const baseURL = (process.env["AI_GATEWAY_BASE_URL"] || "https://ai.gateway.lovable.dev/v1").replace(/\/$/, "");
   for (let attempt = 1; attempt <= 3; attempt++) {
-    const res = await fetch("https://ai.gateway.lovable.dev/v1/embeddings", {
+    const res = await fetch(`${baseURL}/embeddings`, {
       method: "POST",
       headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ model: MODEL, input: texts }),
+      body: JSON.stringify({ model: DEFAULT_EMBED_MODEL, input: texts }),
     });
     if (res.ok) {
       const json = (await res.json()) as { data: { index: number; embedding: number[] }[] };
@@ -22,11 +28,18 @@ export async function embedTexts(texts: string[]): Promise<number[][] | null> {
   return null;
 }
 
-export function sourceText(s: { title: string; abstract: string | null; full_text: string | null; tags: string[] | null }) {
-  return [s.title, (s.tags ?? []).join(", "), s.abstract ?? "", (s.full_text ?? "").slice(0, 6000)].join("\n").slice(0, 8000);
+export function sourceText(s: {
+  title: string;
+  abstract: string | null;
+  full_text: string | null;
+  tags: string[] | null;
+}) {
+  return [s.title, (s.tags ?? []).join(", "), s.abstract ?? "", (s.full_text ?? "").slice(0, 6000)]
+    .join("\n")
+    .slice(0, 8000);
 }
 
-/** Embeds library sources that don't have a vector yet (new or edited). */
+/** Embeds library sources that don't have a vector yet. Call from library import / cron — not from Tutor. */
 export async function embedPendingSources(max = 16) {
   const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
   const { data } = await supabaseAdmin

@@ -41,10 +41,12 @@
 - [x] Travar INSERT de `mastery_records` no client
 - [x] Nav docente por `has_role` (esconder telas VISUAL_ONLY do menu)
 - [x] `.env` ignorado + `.env.example` + `npm test`
-- [ ] Aplicar migrations `0013`/`0014` no Supabase live
-- [ ] Dump/versionar RLS das tabelas-base (`courses`, `lessons`, `profiles`, …)
-- [ ] Citation gate no Tutor (P2)
-- [ ] Desacoplar Lovable AI/Vite/OAuth (P3)
+- [ ] Aplicar migrations `0013`/`0014`/`0015` no Supabase live
+- [x] Versionar RLS das tabelas-base (`0015_base_table_rls.sql`)
+- [x] Citation gate no Tutor + embed fora do hot path
+- [x] Provider AI desacoplável via env (`ai-provider.server.ts`)
+- [ ] Desacoplar Vite config + OAuth Lovable (P3)
+- [ ] CREATE TABLE das tabelas-base no git (hoje só policies; DDL ainda no baseline Cloud)
 
 ## Negócio e conformidade
 - [ ] Assinatura/pagamentos (bloqueado: escolha de planos e preços)

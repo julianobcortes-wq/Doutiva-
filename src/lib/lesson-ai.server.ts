@@ -1,11 +1,8 @@
-import { createOpenAI } from "@ai-sdk/openai";
-import { createAnthropic } from "@ai-sdk/anthropic";
 import { streamText, Output, NoObjectGeneratedError } from "ai";
 import { z } from "zod";
 import type { RichLesson, Slide } from "@/content/lesson-types";
 import { toCase } from "@/content/lesson-normalize";
-
-const RUN = "X-Lovable-AIG-Run-ID";
+import { createGatewayAnthropic, createGatewayOpenAI, requireAiApiKey } from "@/lib/ai-provider.server";
 
 const slideSchema = z.object({
   kind: z.string().describe("title | bullets | bars | flow | table | split | pearl"),
@@ -86,21 +83,6 @@ const AUDIT_SYSTEM = `Você é revisor médico sênior (editor de periódico). A
 ## Veredito (Pronta para revisão humana / Requer correções)
 Seja específico (cite o trecho). Não reescreva a aula.`;
 
-function gatewayFetch(apiKey: string) {
-  let runId: string | undefined;
-  return async (url: RequestInfo | URL, init?: RequestInit) => {
-    const h = new Headers(init?.headers);
-    if (runId) h.set(RUN, runId);
-    const res = await fetch(url, { ...init, headers: h });
-    runId ??= res.headers.get(RUN) ?? undefined;
-    if (!res.ok) {
-      const text = await res.clone().text().catch(() => "");
-      throw Object.assign(new Error(text || `Erro ${res.status}`), { status: res.status });
-    }
-    return res;
-  };
-}
-
 function friendly(e: unknown): never {
   if (NoObjectGeneratedError.isInstance(e)) throw new Error("A IA não retornou uma aula válida. Tente novamente com um tema mais específico.");
   const status = (e as { status?: number }).status;
@@ -111,11 +93,9 @@ function friendly(e: unknown): never {
 }
 
 export async function generateLesson(input: { topic: string; courseTitle: string; moduleTitle: string; sources: string; notes: string }): Promise<GeneratedLesson> {
-  const apiKey = process.env["LOVABLE_API_KEY"];
-  if (!apiKey) throw new Error("IA não configurada.");
-  const fetchFn = gatewayFetch(apiKey);
-  const openai = createOpenAI({ baseURL: "https://ai.gateway.lovable.dev/v1", apiKey, headers: { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" }, fetch: fetchFn });
-  const anthropic = createAnthropic({ baseURL: "https://ai.gateway.lovable.dev/v1", apiKey, headers: { "X-Lovable-AIG-SDK": "vercel-ai-sdk" }, fetch: fetchFn });
+  requireAiApiKey();
+  const openai = createGatewayOpenAI();
+  const anthropic = createGatewayAnthropic();
 
   const context = `Curso: ${input.courseTitle}\nMódulo: ${input.moduleTitle || "—"}\nTema da aula: ${input.topic}\n\nOrientações do mentor:\n${input.notes || "—"}\n\nMaterial-fonte fornecido (priorize-o e não contradiga):\n${input.sources.slice(0, 160000) || "—"}`;
 
