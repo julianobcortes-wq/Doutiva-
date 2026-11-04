@@ -122,15 +122,19 @@ export async function handleTutor(request: Request) {
     return streamGatedText(gated.text);
   } catch (e) {
     const status = (e as { status?: number }).status ?? 500;
+    const msg = String((e as Error).message ?? e);
+    const quota =
+      status === 402 ||
+      /insufficient_quota|credit_balance_exhausted|credits? remaining/i.test(msg);
     return new Response(
-      status === 402
-        ? "Créditos de IA esgotados."
+      quota
+        ? "Créditos da OpenAI esgotados. Adicione saldo em platform.openai.com → Settings → Billing."
         : status === 429
           ? "Muitas requisições, tente em instantes."
-          : status === 500 && (e as Error).message === "IA não configurada"
+          : status === 500 && msg === "IA não configurada"
             ? "IA não configurada"
             : "Falha na IA.",
-      { status },
+      { status: quota ? 402 : status },
     );
   }
 }
