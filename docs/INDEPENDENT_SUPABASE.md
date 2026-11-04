@@ -10,10 +10,12 @@ A meta é: **conta Supabase sua → projeto `doutiva` → app Cursor aponta só 
 
 Criar projeto na API Management exige `SUPABASE_ACCESS_TOKEN` da **sua** conta (não do Lovable). Sem esse token, o agente não autentica em `api.supabase.com`.
 
-## Org Doutiva
+## Org + projeto Doutiva
 
-Org confirmada: `pfsreyjaiiiofnlcqrvw`  
-Dashboard: https://supabase.com/dashboard/org/pfsreyjaiiiofnlcqrvw
+Org: `pfsreyjaiiiofnlcqrvw` — https://supabase.com/dashboard/org/pfsreyjaiiiofnlcqrvw  
+Projeto: `ynmlbkfdjxzmsndcquap` (Doutiva, us-east-1) — https://supabase.com/dashboard/project/ynmlbkfdjxzmsndcquap  
+
+Schema `0000`–`0018` aplicado. App Cursor aponta para este projeto (não Lovable).
 
 ## Passo a passo (você + agente)
 
