@@ -307,8 +307,8 @@ function LessonCasePractice({ lessonId, c }: { lessonId: string; c: PublicClinic
   );
 }
 
-function KeyPoints({ points }: { points: string[] }) {
-  if (!points.length) return null;
+function KeyPoints({ points }: { points: string[] | null | undefined }) {
+  if (!points?.length) return null;
   return (
     <div className="mt-6 rounded-sm border border-gold/30 bg-gold/5 p-5">
       <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Pontos-chave</div>

@@ -60,7 +60,10 @@ function Professores() {
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => { if (!lessonId && lessons.data?.[0]) setLessonId(lessons.data[0].id); }, [lessons.data, lessonId]);
-  useEffect(() => endRef.current?.scrollIntoView({ block: "nearest" }), [messages]);
+  useEffect(() => {
+    // scrollIntoView may return a Promise in Chromium; never return that from useEffect.
+    endRef.current?.scrollIntoView({ block: "nearest" });
+  }, [messages]);
 
   const started = messages.length > 0;
   const p = PERSONAS.find((x) => x.id === persona)!;

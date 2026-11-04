@@ -66,7 +66,12 @@ export async function loadDailyCases(client: SupabaseClient<any>): Promise<Daily
   for (const l of data as any[]) {
     const course = Array.isArray(l.courses) ? l.courses[0] : l.courses;
     if (!course?.published) continue;
-    const c = toCase(l.clinical_case) ?? resolveRich(l, course.slug)?.clinicalCase;
+    const fromDb = toCase(l.clinical_case);
+    // Redacted public JSON has no correct flags — fall back to built-in rich content / keys.
+    const c =
+      (fromDb?.options.some((o) => o.correct) ? fromDb : null) ??
+      resolveRich(l, course.slug)?.clinicalCase ??
+      fromDb;
     if (!c?.vignette || c.options.length < 2) continue;
     out.push({
       key: String(l.id),
@@ -79,10 +84,31 @@ export async function loadDailyCases(client: SupabaseClient<any>): Promise<Daily
   return out.length ? out : FALLBACK_CASES;
 }
 
-/** Server-only: full cases with answer keys for grading. */
-export async function loadDailyCasesForGrading(): Promise<DailyCase[]> {
-  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
-  const cases = await loadDailyCases(supabaseAdmin as any);
+/**
+ * Server-only: full cases with answer keys for grading.
+ * Pass the authenticated user client so RLS returns the same lesson set as getTodayCase
+ * (anon/publishable without a JWT sees zero lessons and would fall back to static-* keys).
+ */
+export async function loadDailyCasesForGrading(
+  userClient?: SupabaseClient<any>,
+): Promise<DailyCase[]> {
+  const { hasServiceRole } = await import("@/integrations/supabase/publishable.server");
+  let client: SupabaseClient<any>;
+  if (hasServiceRole()) {
+    client = (await import("@/integrations/supabase/client.server")).supabaseAdmin as any;
+  } else if (userClient) {
+    client = userClient;
+  } else {
+    const { createPublishableServerClient } = await import(
+      "@/integrations/supabase/publishable.server"
+    );
+    client = createPublishableServerClient();
+  }
+  const cases = await loadDailyCases(client as any);
+  // loadDailyCases already merges resolveRich (peptides) when DB clinical_case is empty,
+  // so answer keys are present for built-in content even without service_role.
+  if (!hasServiceRole()) return cases;
+
   const { loadFullClinicalCase } = await import("@/lib/lesson-case-keys.server");
   const enriched: DailyCase[] = [];
   for (const item of cases) {

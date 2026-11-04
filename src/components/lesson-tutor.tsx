@@ -27,7 +27,10 @@ export function LessonTutor({ lessonId, lessonTitle }: { lessonId: string; lesso
     setError(null);
   }, [lessonId]);
 
-  useEffect(() => endRef.current?.scrollIntoView({ block: "nearest" }), [messages]);
+  useEffect(() => {
+    // scrollIntoView may return a Promise in Chromium; never return that from useEffect.
+    endRef.current?.scrollIntoView({ block: "nearest" });
+  }, [messages]);
 
   async function send(text: string) {
     const q = text.trim();
