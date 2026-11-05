@@ -1,331 +1,165 @@
 {
   "position": 6,
   "module": "Módulo 3 · Mulher",
-  "module_position": 3,
-  "title": "Implantes hormonais femininos e ‘bioidênticos’: o que a evidência sustenta",
-  "description": "Tratado clínico aprofundado sobre implantes hormonais femininos regulados e manipulados (“bioidênticos”), incluindo análise da evidência científica, diretrizes internacionais e regulamentação brasileira (ANVISA, CFM, WADA). Discussão do uso ético, indicações e contraindicações, farmacologia, monitoramento, riscos, e abordagem clínica no consultório brasileiro, com foco na segurança e prescrição criteriosa.",
+  "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: Evidência, Regulatório e Aplicação Clínica",
+  "description": "Revisão aprofundada da evidência científica e regulação brasileira dos implantes hormonais femininos, destacando diferenças entre produtos regulados e manipulados com hormônios bioidênticos, riscos clínicos, orientações para prescrição ética e monitoramento clínico.",
   "duration_minutes": 60,
-  "evidence_level": "A (para implantes regulados); C-D (para bioidênticos manipulados)",
+  "evidence_level": "A (implantes regulados), C–D (implantes manipulados bioidênticos)",
   "key_points": [
-    "Implantes hormonais femininos registrados possuem evidência robusta, segurança, rastreabilidade e farmacovigilância (Nível de Evidência A).",
-    "Implantes bioidênticos manipulados carecem de estudos robustos, apresentam variabilidade de dose e farmacocinética, e devem ser usados apenas após falha/intolerância às opções regulamentadas, e com rigorosa documentação e monitoramento (Níveis C-D).",
-    "Consentimento informado detalhado, manipulação estéril certificada e monitoramento clínico/laboratorial frequente são procedimentos indispensáveis para uso off-label.",
-    "É vedado o uso de hormônios para fins estéticos, anti-aging, emagrecimento ou desempenho, conforme Resolução CFM 2.333/2023.",
-    "ANVISA exige certificação rigorosa da manipulação estéril, rastreabilidade do lote e comprovação da pureza da matéria-prima.",
-    "Diálogo transparente com a paciente sobre limitações e riscos dos implantes manipulados é fundamental para decisão compartilhada.",
-    "Deve-se priorizar produtos registrados sempre que possível e seguir protocolos éticos e científicos rígidos para uso de implantes hormonais."
+    "Implantes regulados (etonogestrel, levonorgestrel SIU) são seguros e eficazes, com alto nível de evidência (ECRs).",
+    "Implantes manipulados bioidênticos apresentam grande variabilidade farmacocinética, dose não padronizada e ausência de ensaios robustos de segurança e eficácia.",
+    "Uso de implantes manipulados ‘bioidênticos’ deve ser restrito a casos com contraindicação ou falha em opções reguladas, com consentimento informado detalhado e monitoramento rigoroso.",
+    "CFM proíbe prescrição de hormonioterapia com finalidade estética/anti-aging e estabelece rígidas restrições para manipulação.",
+    "Marketing e vendas de implantes bioidênticos manipulados frequentemente usam argumentos não baseados em evidência, com riscos éticos e legais para o médico.",
+    "Monitoramento laboratorial e clínico trimestral é crucial para detectar efeitos adversos e ajustar tratamento em implantes manipulados.",
+    "Consentimento informado e documentação são indispensáveis para proteção legal, mas não eliminam responsabilidade médica em caso de eventos adversos."
   ],
   "slides": [
     {
       "kind": "title",
-      "title": "Implantes hormonais femininos: regulado x “bioidêntico” manipulado — o que sustenta a evidência?",
-      "subtitle": "Curso Doutiva - Módulo 3 Mulher • 2024 – Autor: Doutiva Editorial, baseado em monografia extensa."
+      "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: o que a Evidência Sustenta",
+      "subtitle": "Módulo 3 · Mulher — Curso Hormônios e Implantes com Critério — Doutiva 2024"
     },
     {
-      "bars": [
-        {
-          "label": "Indicações válidas: contracepção LARC, THM refratária, sangramento uterino disfuncional.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Contraindicações: câncer hormônio-dependente, trombose prévia, doença hepática ativa.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Uso off-label vedado para fins estéticos, anti-aging, performance.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Manipulados apenas em falha às formas aprovadas, com consentimento informado.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Farmácia com manipulação estéril e rastreabilidade indispensável.",
-          "value": 0,
-          "highlight": true
-        }
-      ],
-      "kind": "bars",
-      "unit": "",
-      "title": "Critérios de indicação e contraindicação dos implantes hormonais femininos (2024)",
-      "source": "Monografia"
-    },
-    {
+      "kind": "table",
+      "title": "Tabela 1: Nível de Evidência e Perfil de Implantes Hormonais Femininos",
       "head": [
         "Produto",
-        "Eficácia (principal)",
-        "Eventos Adversos",
-        "Nível Evidência",
-        "Status Regulat. Anvisa/CFM"
+        "Dados de Eficácia",
+        "Eventos Adversos Graves",
+        "Nível de Evidência",
+        "Status Regulatória"
       ],
-      "kind": "table",
       "rows": [
         [
-          "Etonogestrel (Implanon)",
-          "≅ 99% contracepção",
-          "SAE <1% (trombose, perfuração)",
+          "Etonogestrel 68mg (Implanon®)",
+          "ECRs >7000 mulheres, eficácia >99%",
+          "<1%: perfuração, infecção",
           "A",
-          "Registrado, uso aprovado"
+          "Registrado ANVISA"
         ],
         [
-          "Levonorgestrel (SIU Mirena)",
-          "≅ 99% contracepção, THM",
-          "SAE <1% (perfuração, infecção)",
+          "Levonorgestrel SIU (Mirena®)",
+          "ECRs >7000 mulheres, eficácia >99%",
+          "<1%: infecção, sangramento irregular",
           "A",
-          "Registrado, uso aprovado"
+          "Registrado ANVISA"
         ],
         [
-          "Estradiol + progesterona (THM oral/transdérmico)",
-          "Reduz sintomas vasomotores",
-          "SAE conforme dose (trombose, câncer)",
-          "B",
-          "Registrado"
+          "Estradiol Pellet",
+          "Séries <200 pacientes",
+          "Não quantificados",
+          "C–D",
+          "Manipulado, não registrado"
         ],
         [
-          "Implantes bioidênticos manipulados",
-          "Alívio variável de sintomas",
-          "SAE incertos, riscos de superdosagem",
-          "C-D",
-          "Manipulado, off-label, sem registro ANVISA"
+          "Testosterona Pellet",
+          "Séries <200 pacientes",
+          "Eventos androgênicos, não quantificados",
+          "C–D",
+          "Manipulado, não registrado"
         ],
         [
-          "Gestrinona manipulada",
-          "Sintomas variáveis",
+          "Gestrinona Pellet",
+          "Séries <200 pacientes",
           "Acne, hirsutismo, SAE incertos",
-          "C-D",
-          "Manipulado, off-label"
+          "C–D",
+          "Manipulado, não bioidêntico, não registrado"
         ]
       ],
-      "title": "Comparativo: produtos regulados X implantes bioidênticos manipulados – eficácia, segurança e regulamentação",
-      "source": "Monografia"
-    },
-    {
-      "kind": "split",
-      "left": {
-        "items": [
-          "Não recomendam rotineiramente hormônios bioidênticos manipulados devido à falta de evidência robusta.",
-          "Preferência clara por terapias hormonais registradas, com risco-benefício conhecido.",
-          "Esclarecer à paciente riscos e limitações dos manipulados.",
-          "Uso manipulado deve ser restrito a exceções documentadas.",
-          "Consentimento informado detalhado é mandatório."
-        ],
-        "label": ""
-      },
-      "right": {
-        "items": [
-          "Implantes regulados possuem dados fase 3 e metanálises (nível A).",
-          "Bioidênticos manipulados carecem de estudos randomizados.",
-          "Riscos de dose imprevisível e farmacocinética variável.",
-          "Anvisa e CFM regulam manipulação rigorosamente.",
-          "WADA proíbe hormônios anabolizantes em atletas sem autorização."
-        ],
-        "label": ""
-      },
-      "title": "Síntese das recomendações das principais sociedades"
-    },
-    {
-      "kind": "flow",
-      "steps": [
-        {
-          "label": "Avaliar indicação clínica conforme diretrizes (contracepção, THM refratária)."
-        },
-        {
-          "label": "Realizar avaliação clínica e laboratorial completa."
-        },
-        {
-          "label": "Priorizar implante REGISTRADO (Anvisa) e aprovado para indicação."
-        },
-        {
-          "label": "Se contraindicação/intolerância: avaliar uso manipulado apenas com farmácia certificada."
-        },
-        {
-          "label": "Documentar consentimento informado detalhado."
-        },
-        {
-          "label": "Realizar implantação sob técnica estéril com registro de lote."
-        },
-        {
-          "label": "Monitorar clínica e laboratorial trimestral."
-        },
-        {
-          "label": "Manter farmacovigilância e reavaliação contínua."
-        }
-      ],
-      "title": "Algoritmo clínico para prescrição ética de implantes hormonais femininos"
-    },
-    {
-      "bars": [
-        {
-          "label": "Implantes regulados: trombose <1%, perfuração <0,1%, irregularidade menstrual 20–30%.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Implantes manipulados bioidênticos: SAE indeterminados, variabilidade maior.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Reações locais: infecção, granuloma, extrusão mais comuns em manipulados.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Superdosagem em manipulados: risco de hemorragia, hiperplasia.",
-          "value": 0,
-          "highlight": false
-        },
-        {
-          "label": "Monitoramento rigoroso reduz riscos em ambos os tipos.",
-          "value": 0,
-          "highlight": true
-        }
-      ],
-      "kind": "bars",
-      "unit": "",
-      "title": "Eventos adversos relatados por tipo de implante (dados literários)",
-      "source": "Monografia"
-    },
-    {
-      "head": [
-        "Critério",
-        "Avaliação",
-        "Decisão"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "História clínica",
-          "Risco trombótico, câncer, alergias",
-          "Elegível se ausente de contraindicações"
-        ],
-        [
-          "Laboratório basal",
-          "Hormônio, função hepática, lipídio",
-          "Normal ou controlável"
-        ],
-        [
-          "Intolerância a via convencional",
-          "Falha/intolerância à THM oral/transdérmico",
-          "Considerar implante regulado ou manipulado se não houver alternativa"
-        ],
-        [
-          "Consentimento informado",
-          "Documentação clara admitindo risco e off-label",
-          "Obrigatório para manipulados"
-        ],
-        [
-          "Farmácia e manipulação",
-          "Certificação GMP e manipulação estéril",
-          "Obrigatório para manipulados"
-        ],
-        [
-          "Rastreamento e monitoramento",
-          "Avaliação clínica/laboratorial trimestral",
-          "Indispensável para todos implantes"
-        ]
-      ],
-      "title": "Checklist para seleção da paciente candidata ao implante hormonal feminino",
-      "source": "Monografia"
-    },
-    {
-      "kind": "pearl",
-      "text": "Bioidênticos não são sinônimo de maior segurança ou eficácia; apenas indicam estrutura molecular idêntica à do hormônio endógeno, não garantem padronização ou benefício clínico adicional. Priorize registro e diretrizes — e informe a paciente com clareza sobre riscos e incertezas.",
-      "title": "Pérola Clínico-Ética na Prescrição",
-      "source": "Monografia"
+      "source": "Dados compilados da literatura e regulatórios brasileiros (S14,S16)"
     }
   ],
-  "monograph": "# Implantes Hormonais Femininos e “Bioidênticos”: O Que Sustenta a Evidência\n\n---\n\n## 1. Contexto e Relevância\n\nO uso de implantes hormonais—tanto os de fármacos registrados quanto os “bioidênticos” compostos em farmácias de manipulação—tem despertado intenso interesse entre endocrinologistas, nutrólogos e clínicos dedicados à saúde feminina. O apelo de terapias “bioidênticas” é amplificado em contextos de menopausa, disfunções menstruais e medicina da longevidade. Contudo, os riscos de dose não padronizada, ausência de rastreabilidade plena e o contínuo debate regulatório obrigam a prudência.\n\nComo escola clínica vinculada à Purus, que preza a manipulação estéril qualificada, ética e regulada, nosso objetivo é qualificar decisões terapêuticas: separar o que se mantém respaldado por diretrizes e metanálises internacionais (ACOG, Endocrine Society, NAMS), do universo off-label manipulado, com ênfase nas normas da Anvisa, CFM (incluindo Res. 2.333/2023 quando pertinente), WADA, e boas práticas de manipulação estéril. É preciso instrumentalizar o médico para escolhas seguras e convergentes com a literatura médica e o contexto normativo brasileiro.\n\n---\n\n## 2. Bases Científicas dos Implantes Hormonais e “Bioidênticos”\n\n### 2.1. Implantes Regulados\n\nImplantes subcutâneos de etonogestrel, levonorgestrel e sistemas intrauterinos liberadores de hormônios possuem registro Anvisa e respaldo robusto em diretrizes internacionais para contracepção de longa ação (LARC) e eventualmente em reposição hormonal.\n\n**Evidência:** Metanálises de ECR fase 3 e guidelines (A) sustentam seu uso para contracepção eficaz, algumas indicações em terapias hormonais, e manejo de sangramento uterino anormal.\n\n### 2.2. Implantes “Bioidênticos”/Manipulados\n\nO termo “bioidêntico” refere-se a hormônios idênticos em estrutura aos produzidos endogenamente, mas, no contexto manipulado (estradiol, testosterona, gestrinona, progesterona, entre outros), implica fabricação em farmácias magistrais sob demanda, via manipulação estéril.\n\n- **Pontos críticos:** \n    - **Dose e liberação não padronizadas**; farmacocinética e perfil de liberação dependentes da base, tecnologia do implante e técnica do profissional, sem equivalentes clínicos aos produtos regulados.\n    - **Ausência de estudos fase 3 randomizados** para segurança/eficácia em relação a endpoints duros (CAC, câncer, trombose). \n    - **Monitoramento laboratorial e farmacovigilância dificultados** pela individualização da dose e da formulação.\n    - **Matéria-prima:** Dever ser grau farmacêutico, com controle de pureza, ausência de endotoxinas e validação documental.\n\n**Evidência:**\n- Sólida apenas para produtos sintéticos/registrados (A).\n- Para “bioidênticos” manipulados: apenas séries de caso, estudos observacionais pequenos ou extrapolação de dados de formas farmacêuticas distintas (C a D).\n\n---\n\n## 3. Evidência Crítica: Síntese das Principais Diretrizes\n\n### 3.1. Posição das Sociedades (ACOG, Endocrine Society, NAMS)\n\n- **ACOG (2016), Endocrine Society, NAMS:** não recomendam rotineiramente terapias com hormônios “bioidênticos” manipulados, devido à ausência de estudos robustos, risco de super/subdosagem, imprevisibilidade farmacocinética e ausência de benefícios clínicos adicionais frente às formulações reguladas. \n- **Diretrizes dão preferência a THM registrada, seja oral, transdérmica ou periuterina, cujos perfis de risco-benefício são bem estabelecidos (A).**\n\n### 3.2. Estudos Comparativos e Riscos\n\n| Estudo              | n      | População                      | Intervenção                  | Desfechos (primário/sec.)            | Risco Absoluto/Relativo | Nível Evidência |\n|---------------------|--------|--------------------------------|------------------------------|--------------------------------------|----------------------|-----------------|\n| ECRs LARC vs Placebo| >7.000 | Mulheres 18–40a                | Implantes Etonogestrel/Levo. | Eficácia anticoncepcional, SAE        | Falha <1%/ano         | A               |\n| Séries “bioidênticos”| <200   | Menopausa, reposição off-label | Implantes E2, P4, T, gestr.  | Sintomas vasomotores, AEs leves/SAE  | Melhora sintomas (subj.), SAE incertos| C-D               |\n| Observacional        | 330    | Menopausa                      | Estradiol/testosterona por chip| Alívio sintomas, eventos trombóticos | Incidência infreq. trombose, sangramento irregular | C           |\n\n#### Tabela 1. Evidência quantitativa para implantes hormonais femininos\n\n| Produto/Intervenção                       | Eficácia (desfecho prim.) | SAE (%)                        | Nível de Evidência | Regulatório            |\n|--------------------------------------------|---------------------------|-------------------------------|--------------------|------------------------|\n| Etonogestrel (Implanon, Anvisa)            | ≈99% contracepção         | SAE <1% (trombo, perfuração)  | A                  | Registrado             |\n| Gestrinona manipulada                      | Sintomático variável      | SAE incertos; acne, hirsutismo| C-D                | Manipulado, Não Anvisa |\n| Estradiol/testosterona pellet manipulados   | Sintomas variáveis        | SAE incertos; variabilidade   | C-D                | Manipulado, Não Anvisa |\n| Terapia combinada estradiol+progesterona   | Redução de sintomas       | SAE conforme dose              | B (oral/transdérmico)| Registrado (oral/patch)|\n| D.I.U. levonorgestrel (Mirena, Anvisa)     | ≈99% contracepção, THM    | SAE <1% (perf, infecção)      | A                  | Registrado             |\n\n---\n\n## 4. Seleção de Pacientes / Casos de Uso\n\nO uso ético e seguro de implantes exige:\n\n- **Indicação baseada em evidência**: contracepção LARC, manejo de sintomas vasomotores refratários, endometriose, sangramento uterino disfuncional (preferencialmente com produtos registrados).\n- **Evitar implantes “bioidênticos” para fins puramente estéticos, performance, “anti-aging” ou sem avaliação multiprofissional/documentação de deficiência comprovada (CFM Res. 2.333/2023).**\n- **Não é recomendado** para:\n    - Mulheres com história de câncer hormônio-dependente (mama, endométrio).\n    - História prévia de trombose, doença hepática ativa, sangramento vaginal de causa não esclarecida.\n    - Atletas (restrições WADA).\n- **Pacientes excepcionais**: Considerar individualmente em caso de contraindicação a vias tradicionais, documentando consentimento, riscos, e discutindo incertezas.\n\n---\n\n## 5. Conduta e Fluxo Prático no Consultório Brasileiro\n\n### 5.1. Protocolo de Avaliação e Prescrição Ética\n\n1. **Avaliação Clínica Completa**\n    - História ginecológica, antecedentes oncológicos, riscos trombóticos, comorbidades.\n    - Avaliação laboratorial basal (hormônios, função hepática, perfil lipídico, hemograma, função renal).\n2. **Discussão Informada e Documentada**\n    - Abordar riscos, limitações de evidência para manipulados, diferenças entre “bioidêntico” e regulado.\n    - Esclarecimento do domínio off-label (quando manipulado) e limites regulatórios.\n3. **Seleção Terapêutica**\n    - Priorizar produtos registrados (Anvisa) sempre que possível.\n    - Se houver indicação fundamentada para manipulado: usar farmácia certificada, grau farmacêutico, manipulação estéril e documentação técnica.\n4. **Definição de Dose e Vias**\n    - Contracepção: etonogestrel 68 mg subcutâneo (dur. 3 anos; registro Anvisa).\n    - THM: estradiol oral/transdérmico (0,5–2 mg/dia), progestagénios em dose de oposição regulada.\n    - “Bioidênticos” manipulados: sem padronização—evitar uso sem critério estrito e monitorização intensa.\n5. **Implantação**\n    - Técnica estéril, registro lote/numero série (quando disponível), local anatômico documentado.\n6. **Monitoramento Intensivo**\n    - Reavaliação clínica e laboratorial trimestral no primeiro ano.\n    - Dosagem hormonal periódica, função hepática, efeitos adversos (sangramento, androgenismo, sintomas cardiovasculares).\n\n#### Tabela 2: Fluxo de conduta para implantes hormonais femininos\n\n| Etapa                      | Produto Registrado      | Manipulado “Bioidêntico” | Cuidados Especiais                   |\n|----------------------------|------------------------|---------------------------|--------------------------------------|\n| Avaliação pré-terapia      | Check-list padrão      | Idem + Exame opinião B*   | Risco trombótico, CA, consentimento  |\n| Prescrição                 | DCB, posologia fixa    | Individualizado           | Sem padronização PK, farmacovigilância|\n| Procedimento (implante)    | Kit asséptico certificado| Farmácia qualif., estéril | Técnica, documentação, rastreio      |\n| Monitoramento              | Protocolo guideline    | Personalizado, intensivo  | Coeficiente variabilidade PK         |\n| Farmacovigilância          | Rastreável, central    | Restrita ao consultório   | Notificação SAE                      |\n\n\\*Para indicações off-label, recomenda-se laudo opinativo de (co)responsável e assinatura detalhada em consentimento informado.\n\n---\n\n## 6. Monitoramento e Segurança\n\n### 6.1. Eventos Adversos e Complicações\n\n- **Implantes regulados:** Perfuração, infecção local (1/1000), irregularidades menstruais (20–30%), trombose (<1%), SAE raros, reversibilidade previsível.\n- **Manipulados \"bioidênticos\":** SAE indeterminados, oscilação de absorção, riscos de superdosagem (hemorragia, androgenismo, hiperplasia endometrial), reações locais (infecção, extrusão, fibrose, granuloma).\n- **Risco de contaminação:** essencial usar farmácia magistral certificada para manipulação estéril, controle rigoroso de endotoxinas, partículas, estabilidade comprovada do polímero/matriz.\n\n### 6.2. Monitoramento Específico\n\n- **Orienta-se:** Hemograma, perfil hepático, hormonal, função renal a cada 12 a 16 semanas no primeiro ano.\n- **Acesso imediato ao registro do lote, documentação farmacêutica e origem da formulação/manipulação.**\n- **Revisitar consentimento informado e reeducar paciente periodicamente.**\n- **Relatório de eventos adversos ao Notivisa e ao CRF regional.**\n\n---\n\n## 7. Regulatório e Ético no Brasil\n\n- **Implantes hormonais registrados** (etonogestrel, levonorgestrel, SIU hormonal): uso on-label respaldado.\n- **Implantes manipulados “bioidênticos”:** proibido marketing, exigem prescrição individual, documentada, sem apelo estético/longevidade, explicitando off-label.\n    - **CFM Res. 2.333/2023:** veda uso de hormônios para fins exclusivamente estéticos, longevidade ou desempenho; admite prescrição apenas em déficit comprovado/documentado ou indicações reconhecidas em compêndios/diretrizes. \n    - **ANVISA:** exige GMP rigorosa em farmácias magistrais de manipulação estéril; rastreabilidade, controle de matéria-prima, documentação de estabilidade e ausência de endotoxina.\n    - **WADA (para atletas):** testosterona, gestrinona, derivados proibidos (exceto reposição médica com TUE validado).\n- **Consentimento informado obrigatório**, detalhando limitação de evidências, riscos, alternativas e acompanhamento.\n- **Não prescrever** implantes manipulados em gestantes, adolescentes fora de contexto contraceptivo, atletas ou sem déficit laboratorial documentado.\n\n---\n\n## 8. O Que NÃO Fazer\n\n- Não prescrever implantes manipulados “bioidênticos” para fins estéticos, emagrecimento ou “anti-aging” sem déficit comprovado.\n- Não utilizar bases desconhecidas, matéria-prima não farmacêutica, farmácias sem certificação GMP ou manipulação estéril rastreável.\n- Não substituir terapias regulamentadas por opções manipuladas quando não houver contraindicação específica.\n- Não negligenciar monitoramento laboratorial contínuo.\n- Não omitir registro de consentimento informado multipage, detalhado e recorrente.\n- Não indicar, nem permitir “procedimentos acelerados” (“chip do rejuvenescimento”, “implante de beleza”) — fere ética, legislação e expõe a paciente e o profissional.\n- Nunca permitir que o marketing da farmácia, e não a ciência clínica, determine terapêutica.\n\n---\n\n## 9. Pérolas e Checklist Rápido do Expert\n\n### 9.1. Pérolas\n- Dose e cinética de implante manipulado NÃO são reproduzíveis entre farmácias; só proceda se absoluta indicação, experiência prévia e rastreabilidade integral.\n- O termo “bioidêntico” não implica superioridade ou menor risco—apenas estrutura molecular igual à endógena, sem patente.\n- Diretrizes internacionais (A) nunca recomendam preferir manipulados em detrimento de produtos regulados.\n- Distinga a demanda clínica legítima do modismo: menopausa refratária sem opção oral/transdérmica, intolerâncias ou alergias documentadas.\n- Consentimento bem elaborado é escudo ético e legal, mas não justifica práticas fora do rigor científico.\n\n### 9.2. Checklist de Conduta Ética e Segura\n\n1. ___Diagnóstico sólido___ e indicação respaldada (não procedimento cosmético).\n2. ___Exames basais___ e avaliações laboratoriais completas, com riscos estratificados.\n3. ___Opção pelo registrado___ (Anvisa) como primeira escolha; manipulado somente em situações de absoluta necessidade e com rastreabilidade.\n4. ___Consentimento informado detalhado___, incluindo limitação de evidência para “bioidênticos”.\n5. ___Farmácia certificada___ para manipulação estéril (validar laudos e GMP).\n6. ___Documentação temática___ (registro do lote, posologia, farmacovigilância).\n7. ___Monitoramento___: clínica e laboratorial trimestral, reavaliação de evento adverso, suspensão ao menor sinal de SAE.\n8. ___Notificação de SAE___ a vigilância sanitária, CRF e Anvisa.\n\n---\n\n## 10. Caso Clínico Realista\n\n**Enunciado:**\nPaciente feminina, 48 anos, G2P2, menopausa há 18 meses, sintomas intensos de fogachos, insônia, perda de libido e irritabilidade. Sem antecedentes oncológicos, trombóticos, glicêmicos ou autoimunes. Tentou THM oral e transdérmica, mas relata urticária importante a ambos veículos. Solicita opção de implante, apresentando propaganda de “chip bioidêntico” testosterona+estradiol+progesterona.\n\n**Dados relevantes:**\n- Laboratório: FSH 89, E2 <20, T <10, perfil lipídico e marcardores tumorais normais.\n- US TV: endométrio <5 mm, sem massas.\n- Consentimento formal ofertado na clínica.\n- Farmácia de manipulação: certificada GMP, manipulação estéril, lote rastreável.\n- Exclusão de causas secundárias de insônia e sintomas psiquiátricos.\n- Nega uso de suplementos/drogas/performance.\n\n**Alternativas de conduta:**\na) Prescrever implante com testosterona+estradiol+progesterona sem restrição, baseando-se em demanda da paciente.\nb) Recusar qualquer implante, orientar apenas terapia não hormonal mesmo com falha de THM convencional.\nc) Ofertar alternativa de SIU levonorgestrel (Mirena) + estradiol transdérmico inabsortível, ainda sob risco.\nd) Indicar implante manipulado apenas se houver documentação minuciosa, farmácia certificada, consentimento detalhado, estrita monitorização, e após registro inequívoco de falha a todas vias reguladas.\n\n**Resposta correta:** (d)\n\n**Discussão:**\nO caso evidencia quando o implante manipulado pode ser cogitado: após falha ou intolerância absoluta a todas as formas regulamentadas, sem alternativa registrada. O processo obriga documentação minuciosa, rastreabilidade perfeita, manipulação estéril e monitorização rigorosa—especificando à paciente que se trata de indicação off-label sem estudos de longa duração para endpoints duros, e recomendando registro e vigilância estrita (vide [S1]).\n\n---\n\n## 11. Slides para Aula Doutiva (estrutura sugerida)\n\n1. **Title:** Implantes hormonais femininos: regulado x “bioidêntico” manipulado — o que sustenta a evidência?\n2. **Bullet Bar:** Critérios de indicação e contraindicação em 2024.\n3. **Tabela densa:** Comparativo regulatório, eficácia e SAE (vide Tabela 1).\n4. **Guideline Split:** Síntese rápida ACOG/NAMS/Endocrine x “prática do consultório”.\n5. **Flow:** Algoritmo de conduta ética de prescrição — do diagnóstico ao monitoramento.\n6. **Bar Chart:** Eventos adversos por tipo de implante (dados reais).\n7. **Triagem/Seleção:** Check-list para paciente candidata (score de risco).\n8. **Ethics Slide:** Resolução CFM 2.333/2023 — o que é vedado.\n9. **Doc Flow:** Rastreamento documental e consentimento.\n10. **Clinical Pearl:** Como explicar limitações à paciente.\n11. **Quick Ref Slide:** Conduta de bolso para implantes hormonais femininos.\n12. **Resumo Final:** Quando e como usar (ou não!) implantes manipulados com critério.\n\n---\n\n## 12. Quick Reference de Bolso\n\n- **1°:** Priorize implantes registrados para qualquer finalidade (contracepção, THM).\n- **2°:** Use manipulado só após exaurir vias regulamentadas, documentando falha/contraindicação.\n- **3°:** Exija farmácia com certificação manipulação estéril + rastreabilidade completa.\n- **4°:** Documente detalhadamente consentimento e riscos.\n- **5°:** Monitore SAE rigorosamente (revisão trimestral clínica e laboratorial).\n- **6°:** Informe, eduque, e blinde-se de práticas “cosméticas” — nunca prescrever para fins estéticos, “anti-aging”, anabolização ou performance.\n\n---\n\n## 13. Key Points\n\n1. **Implantes hormonais femininos registrados possuem evidência robusta, segurança, rastreabilidade e logística de farmacovigilância (A).**\n2. **Implantes “bioidênticos” manipulados carecem de diretrizes e regulação uniforme; uso só deve ser cogitado em falha/intolerância a todas as opções regulamentadas, mediante documentação e monitorização extensas (C-D).**\n3. **Consentimento informado detalhado, manipulação estéril com rastreabilidade e monitoramento clínico/laboratorial são indispensáveis em qualquer prescrição off-label.**\n4. **Não prescrever para fins estéticos, “anti-aging”, emagrecimento ou performance (CFM 2.333/2023).**\n5. **ANVISA exige certificação e rastreabilidade extrema para manipulação estéril; falhar nesses critérios é infração grave.**\n6. **Dialogar aberta e criticamente com a paciente sobre riscos, incertezas e limitações dos chamados “bioidênticos”.**\n7. **Relate eventos adversos; mantenha atualização rigorosa das práticas clínicas conforme atualização de guidelines e normas regulatórias.**\n\n---\n\n## 14. Referências\n\n1. **[S1]** Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho Editorial Doutiva. 2026.  \n2. ACOG Committee Opinion No. 659: The Use of Bioidentical Hormones for Menopausal Therapy. Obstet Gynecol. 2016;127(2):e41-6.\n3. North American Menopause Society (NAMS) Position Statement: The 2022 hormone therapy position statement of The North American Menopause Society. Menopause. 2022;29(7):767-794.\n4. Endocrine Society Clinical Practice Guideline: Management of Menopause Symptoms with Hormone Therapy. J Clin Endocrinol Metab. 2015;100(11):3975–4011.\n5. Archer DF et al. Hormone implants for menopausal symptom management: systematic review. Menopause. 2017;24(9):1083-1092.\n6. ANVISA RDC 67/2007 e RDC 301/2019 — Boas Práticas de Manipulação Estéril e Controle de Qualidade em Farmácias Magistrais.\n7. Conselho Federal de Medicina Resolução 2.333/2023: Dispõe sobre o uso de hormônios em medicina estética, desempenho e longevidade.\n8. International Olympic Committee & WADA, Prohibited List 2024.\n9. [S2] Standards of medical care in diabetes--2010.. American Diabetes Association.. Diabetes Care 2010. DOI 10.2337/dc10-s011\n\n---\n\n# Fim da Monografia\n\n> Este tratado está alinhado aos princípios da Doutiva e à legislação vigente, priorizando a segurança do paciente, a ciência de alto nível e o compromisso ético intransigente.",
-  "quick_ref": "# Implantes Hormonais Femininos: Guia Rápido para Clínica\n\n| Passo | Conduta                                             | Observação                                   |\n|-------|----------------------------------------------------|----------------------------------------------|\n| 1     | Avaliar indicação clínica com base em diretrizes. | Contracepção, THM refratária, sangramento. |\n| 2     | Priorizar implante registrado ANVISA.              | Etonogestrel 68mg subcutâneo, SIU levonorgestrel. |\n| 3     | Se contraindicação/intolerância, avaliar manipulado. | Farmácia certificada, manipulação estéril, rastreabilidade. |\n| 4     | Consentimento informado detalhado.                 | Explicar riscos e ausência de estudos robustos para manipulados. |\n| 5     | Realizar implantação com técnica asséptica rigorosa.| Registrar lote, local e dominar técnica.    |\n| 6     | Monitoramento trimestral clínico e laboratorial.   | Perfil hormonal, função hepática, eventos adversos. |\n| 7     | Notificar eventos adversos a vigilância sanitária. | Fundamental para farmacovigilância.          |\n| 8     | Nunca usar para fins estéticos, anti-aging.         | Vedações CFM 2.333/2023 e Anvisa.           |\n",
+  "monograph": "# Implantes Hormonais Femininos e “Bioidênticos”: O que a Evidência Sustenta --- ## 1. Contexto e Importância Clínica Implantes hormonais femininos—tanto os aprovados (etonogestrel, levonorgestrel) quanto manipulações rotuladas como “bioidênticas”—têm sido objeto de crescente demanda, especialmente em casos de menopausa, disfunção menstrual e suposta “modulação hormonal”. Contudo, distinções essenciais devem ser rigorosamente observadas entre medicamentos regulados e manipulados, sob risco ético, clínico e regulatório acentuado no Brasil [S8][S13][S14][S16][S19]. Esta monografia orienta a prática clínica responsável, baseada em guidelines internacionais (NAMS, ACOG, Endocrine Society), reforçando os limites da manipulação magistral e seu enquadramento legal. O foco são escolhas técnicas defendíveis, comunicação clara à paciente e proteção do médico diante de fiscalizações e potenciais litígios. --- ## 2. Fundamentos: Estruturas Moleculares, Terminologia e Conceitos ### 2.1 Implantes Regulados - **Exemplos:** Etonogestrel 68 mg SC (dur. 3 anos, Implanon®), levonorgestrel SIU (Mirena®).\n- **Indicações clássicas:** Contracepção de longa duração (LARC), algumas situações de sangramento uterino disfuncional.\n- **Vantagens:** Dose, cinética, eficácia e segurança amplamente estabelecidas por grandes ensaios clínicos (A); farmacovigilância estruturada [S16][S15]. ### 2.2 Implantação de “Bioidênticos” e Manipulados - **Definição correta:** Hormônio bioidêntico é aquele cuja estrutura química é idêntica ao hormônio endógeno humano (ex.: 17β-estradiol, progesterona micronizada). Importante: gestrinona e alguns derivados NÃO são bioidênticos, embora usados na prática manipulada local [verificar natureza de cada composto].\n- **Implantes manipulados:** Incluem pellets de estradiol, testosterona, progesterona e, equivocadamente classificados, gestrinona. São formulados sob demanda em farmácias magistrais [S8][S12].\n- **Desvantagens:** Ausência de padronização de dose, forma e liberação; fármaco e excipientes (matriz polimérica, grau de pureza, perfil de liberação) variáveis, farmacopeia por vezes inadequada ao uso prolongado SC [S14].\n- **Farmacocinética:** Produtos manipulados NÃO replicam, de forma consistente, a curva de liberação dos regulados—há risco aumentado de flutuação sérica, picos e exposições imprevisíveis, sobretudo em pacientes com IMC elevado, hepatopatias ou doenças renais crônicas (verificar necessidade de dose ajustada, não existe guideline formal) [S12][S14]. --- ## 3. Evidência Científica: Qual é o grau de confiança? ### 3.1 Implantes Regulados - Data robusta de estudos fase 3/4—ECRs e metanálises sustentam eficácia de etonogestrel e levonorgestrel SIU para contracepção (>99% de eficácia anual; falha <1%) e boa tolerabilidade [S16].\n- Risco de SAE (eventos adversos sérios) geralmente <1%: perfuração, infecção local, trombose venosa rara.\n- Dados consolidam perfis farmacocinéticos, efeitos adversos esperados e reversibilidade—insumo essencial para consentimento informado [S15][S16]. ### 3.2 Implantes Manipulados/Bioidênticos - NÃO existem ensaios randomizados de fase 3 de porte adequado avaliando endpoints de segurança CV, câncer mama/endometrial para implantes manipulados estradiol, testosterona, progesterona ou gestrinona [S14][S16].\n- Séries de casos pequenas, experiências institucionais e análises retrospectivas (geralmente n<200) sugerem controle subjetivo de sintomas, mas os dados são insuficientes para medir incidência de eventos graves (trombose, hiperplasia), sobretudo em uso acima de 12 meses [S14].\n- “Bioidêntico” manipulado NÃO é automaticamente mais seguro, eficaz ou rastreável que o medicamento registrado [S3][S16]. O termo é frequentemente utilizado com viés de marketing, fato destacado em position statements de ACOG e Endocrine Society [S14][S16]. **Tabela 1. Nível de Evidência para diferentes implantes hormonais femininos** | Produto | Principais Dados de Eficácia | SAE Relatados | Nível de Evidência | Tipo |\n|---------------------|-----------------------------|-----------------------|--------------------|-----------------------------------|\n| Etonogestrel 68mg | ECRs, >7000 mulheres | <1% SAE | A | Registrado ANVISA |\n| Levonorgestrel SIU | ECRs, >7000 mulheres | <1% SAE | A | Registrado ANVISA |\n| Estradiol pellet | Séries <200 pacientes | SAE não quantificados | C–D | Manipulado, não registrado |\n| Testosterona pellet | Séries <200 pacientes | SAE não quantificados, eventos androgênicos| C–D | Manipulado, não registrado |\n| Gestrinona pellet | Séries <200 pacientes | Acne, sangramento, hirsutismo, SAE incerto | C–D | Manipulado, NÃO bioidêntico, não registrado | --- ## 4. Regulatório: O que o médico precisa saber (Brasil) **Tabela 2. Regulação e status das principais terapias** | Fármaco/Forma | Registrado | Off-label | Manipulado | Não prescrever |\n|----------------------------------|------------|-----------|------------|----------------|\n| Etonogestrel 68mg SC (Implanon) | SIM | Não | Não* | — |\n| Levonorgestrel SIU (Mirena) | SIM | Sim (off THM) | Não* | — |\n| Estradiol transdérmico/oral | SIM | Sim | Sim | — |\n| Progesterona oral/transdérmica | SIM | Sim | Sim | — |\n| Gestrinona pellet | Não | Não | Sim | Sim** |\n| Implantes “bioidênticos” (mistos)| Não | Não | Sim | Sim*** |\n| Implantes em adolescentes/gestantes| Não | Não | Não | Sim |\n| Fins estéticos, performance | Não | Não | Não | Sim (Res CFM) | *\\* Não existe versão manipulada aprovada como substituto do produto industrial, uso implica off-label e riscos aumentados de desvio farmacocinético.* *\\*\\* Gestrinona não é hormônio endógeno humano, portanto não é bioidêntico classicamente; não há registro, estudos de segurança longos ou indicação guideline. Não prescrever salvo evidente necessidade, documentação e discussão colegiada (verificar se há indicação permitida local).* *\\*\\*\\* Implantes mistos manipulados sem padrão GMP-ANVISA NÃO devem ser prescritos para uso rotineiro; restrição ética e legal expressas por CFM, legislação e Anvisa [S8][S13][S14][S19].* --- ## 5. Algoritmo Clínico Prático (BR) ```markdown\n1. Suspeita clínica: climactério, contracepção de longa duração, refratariedade a THM.\n2. Confirmação diagnóstico/laboratorial de déficit ou indicação — afastar causas secundárias, riscos trombóticos, oncológicos.\n3. Discutir alternativas registradas e caminhos guideline: priorizar Anvisa, considerar riscos-benefícios detalhados.\n4. Se falha absoluta/intolerância comprovada a todas vias registradas, avaliar excepcionalmente manipulado: a. Consentimento informado multipage b. Documentar exaustão de alternativas c. Selecionar farmácia GMP/esterilização validada + rastreio lote d. Definir dose mínima eficaz, base/manufatura documentada\n5. Implantar com técnica estéril + checagem completa dos documentos.\n6. Monitoramento intensivo: clínico e laboratorial trimestral (exames: E2, testosterona, função hepática, hemograma, perfil lipídico, USG TV endométrio se em mulher com útero).\n7. Suspender implante/manipulado: SAE, suspeita de superdosagem, sangramento inexplicado, achado incidental de risco (ex: espessamento endometrial).\n8. Notificar CRF/Anvisa caso evento adverso grave, lote suspeito ou inconsistência farmacotécnica.\n``` --- ## 6. Monitoramento e Acompanhamento **Itens essenciais (consultório/TCLE/prontuário):** 1. __Diagnóstico detalhado e indicação clínica com base guideline/compêndio vigente.__\n2. __Histórico de falha ou intolerância a todas as vias e produtos registrados, com documentação.__\n3. __Registro do nome, lote, farmácia/manipulador, certificado GMP e estabilização estéril.__\n4. __Consentimento informado multipage, explicitando:__ - Limitação de evidência long-term - Riscos conhecidos e incertos - Alternativas disponíveis e já testadas - Direito de suspensão a qualquer tempo\n5. __Exames basais antes da implantação:__ - Hormonal (E2, T, FSH, LH, PRL) - Função hepática e renal - Perfil lipídico - Hemograma - USG TV se útero presente\n6. __Plano de monitoramento laboratorial (ao menos cada 3–4 meses primeiro ano).__ - Mesmos parâmetros + SAE clínicos/endometriais/androgênicos\n7. __Registro formal de reapresentação da paciente, reexplicação de riscos e reavaliação de consentimento a cada consulta-suporte.__\n8. __Notificação compulsória de qualquer SAE ao sistema Notivisa e CRF regional.__\n9. __Descarte/documentação de retirada do implante: motivo, exame final, eventuais complicações.__ --- ## 7. Situações e Populações Especiais - **Obesidade/IMC elevado:** Cinética absorção alterada, casos de menor eficácia ou SAEs por variabilidade (necessita avaliação caso a caso, não existe equação de ajuste validada)[S14].\n- **Nefropatias/hepatopatias:** Não há estudos — risco teórico de acúmulo ou metabolismo alterado, contraindicação relativa. Evitar manipulado nesses casos [S14].\n- **Adolescentes:** Restrição absoluta exceto contexto contraceptivo LARC aprovado (preferir SIU/implante regulado); manipulado não é indicado.\n- **Gestantes:** Contraindicação absoluta.\n- **Mulheres transgênero:** Dados limitados; preferir protocolos validados com formas injetáveis, orais, transdérmicas reguladas [verificar guideline específico].\n- **Atletas:** Testosterona, gestrinona e derivados entram na lista WADA (World Anti-Doping Agency), com sanção potencial — informar explicitamente paciente e documentar riscos/direito de denúncia [S8]. --- ## 8. Comparação Efeitos Adversos & Discutindo com a Paciente | Tipo de Implante | Eventos AEs mais comuns | Eventos SAE | Diferenças relevantes |\n|---------------------|------------------------------------------|--------------------------|----------------------------------------|\n| Etonogestrel (reg.) | Irregularidade menstrual, cefaleia, mastalgia, ganho de peso | Trombose, perfuração, infecção local (<1%) | SAE rastreáveis, reversíveis |\n| Gestrinona (manip.) | Acne, hirsutismo, amenorreia, sangramento irregular | Potencial trombótico/endometrial incerto | Risco desconhecido de CA, trombose; SAE pouco reportados |\n| Estradiol/test. pellet | Edema, sensibilidade mamária, sintomas androgênicos | SAE pouco reportados, picos hormonais | Variabilidade de absorção, risco SAE não quantificado | **Pontos de discussão obrigatória com a paciente:**\n- Não há benefícios comprovados de \"bioidênticos\" manipulados quanto a risco de trombose, câncer, ou longevidade versus regulados [S14][S16];\n- Risco de excesso ou deficiência hormonal pelos picos/flutuações do manipulado — sintomas adversos podem ser mais intensos e menos previsíveis;\n- Não há dados de seguimento longo sobre SAE graves; toda prescrição off-label carrega risco legal pessoal ao médico, mesmo com consentimento detalhado [S13][S14]. --- ## 9. Abordagem Ética e Legal: Riscos e Responsabilidades - **Consentimento informado NÃO blinda o profissional se a conduta não estiver amparada por evidência mínima ou diretriz**; só protege no contexto da informação integral, documentação do deficit e impossibilidade de alternativa regulamentada [S13][S14].\n- **Farmácia GMP/esterilidade** reduz, mas não elimina, risco de erro médico, desvio de dose, infecção estéril tardia (experiência NECC/CDC) [S11].\n- **Marketing e publicidade:** Proibido vincular procedimento a “embelezamento”, “anti-aging” ou performance.\n- **Acompanhamento multiprofissional:** Recomenda-se envolvimento de equipe colegiada (endocrino + gineco) e registro de pareceres para decision-making off-label.\n- **Relate eventos adversos imediatamente ao Notivisa e documente todo evento inesperado [S8][S11].**\n- **Nunca ceda à pressão do paciente para uso cosmético, nem aceite “receita pronta” de farmácia/marketing; cada caso carece de análise individual, risco-benefício e rastreabilidade inquestionável.** --- ## 10. Checklist Doutiva para Prontuário/TCE (implantes hormonais, especial ênfase em manipulados e “bioidênticos”) 1. ___Indicação clínica robusta (“on-label”):___ S/N.\n2. ___Exaustão de alternativas registradas:___ S/N. Listar todas tentativas, detalhes.\n3. ___Termo de consentimento multipage, assinado e digitalizado:___ S/N.\n4. ___Registro de lote, farmácia com GMP, laudos de pureza/endotoxina, base polimérica:___ S/N.\n5. ___Exames basais (hormonal, hepático, renal, imagem):___ S/N; resultados anexos.\n6. ___Monitoramento trimestral planejado, parâmetros:___ S/N; agendamento e fluxograma.\n7. ___Parecer multiprofissional para uso off-label:___ S/N; nome e CRM dos coautores.\n8. ___Justificativas técnicas e resumo do rational científico (diretriz, compêndio):___ S/N; texto no prontuário/link guideline.\n9. ___Notificação de qualquer SAE ao CRF/Anvisa:___ S/N; data, documento, parecer.\n10. ___Análise de custo/viabilidade/suporte psicológico à paciente em caso de intercorrência:___ S/N. --- ## 11. Como Explicar à Paciente > \"Os implantes ‘bioidênticos’ manipulados NÃO são mais seguros ou eficazes do que os aprovados. O principal motivo para cogitar um manipulado é a impossibilidade comprovada de usar terapias padronizadas. Mesmo nestes casos, riscos desconhecidos, inclusive de câncer, trombose ou efeitos androgênicos, não podem ser descartados. Como médica(o), só posso indicar se todo o processamento e monitoramento forem os mais rigorosos do mercado—e sempre esclarecendo que consentimento não elimina riscos ou incertezas. Você será monitorada com exames e acompanhamento presencial frequente, e, assim que surgir opção regulamentada, ela será priorizada.\" --- ## 12. Referências Fundamentais - [S8] ANVISA — Boas Práticas de Manipulação.\n- [S13/S19] CFM Res. 2.333/2023 — restrição a hormonioterapia estética/anti-aging.\n- [S14/S16] Endocrine Society / ACOG / NAMS positions — Bioidênticos manipulados: cautela extrema.\n- [S11] CDC/NEJM — Fungal meningitis outbreak by compounding.\n- [S12] USP <797> para prescrição/manipulação estéril.\n- [S15] Rossouw JE, et al.. JAMA 2002. (WHI trial)\n- [S3] Large language models in medicine — aplicabilidade e limitações. --- ## 13. Considerações Finais - Implantes hormonais femininos aprovados (etonogestrel, levonorgestrel SIU) devem ser primeira escolha.\n- Manipulados (“bioidênticos” ou não) só têm indicação em absoluta impossibilidade documentada de acesso/regulação, com monitoramento intensivo e consentimento detalhado.\n- Consentimento não exime responsabilidade ética/legal. - Education, transparência, rigor no monitoramento e documentação são a principal proteção para o médico e para a paciente. --- # FIM > Este material Doutiva reflete o estado da arte, legislação e ética em 2024. Utilização fora desses marcos será considerada infração e deve ser justificada apenas por motivo clínico extremo, sempre documentado. --- **(Atualização: 06/2024. Favor reportar inconsistências factuais/novos estudos para revisão editorial Doutiva.)**",
+  "quick_ref": "# Guia Rápido para Implantes Hormonais Femininos | Medicamento | Dose/Tipo | Status Regulatória | Monitoramento |\n|------------------------|-----------------------------|---------------------|----------------------------------|\n| Etonogestrel (Implanon®) | 68 mg SC (3 anos de duração) | Registrado ANVISA | Hemograma, exame físico, sintomas|\n| Levonorgestrel SIU (Mirena®) | SIU 52 mg (5 anos) | Registrado ANVISA | Sangramento, ultrassom endometrial|\n| Estradiol pellet (manipulado) | Dose variável, subcutâneo | Manipulado, não regulado (uso criterioso)| Trimestral clínico e hormonal estrito|\n| Testosterona pellet (manipulado) | Dose variável, subcutâneo | Manipulado, não regulado (uso criterioso)| Monitorar androgênicos, LFT, hemograma| ## Red Flags (indicação para suspender / investigação imediata) - Sangramento uterino inesperado ou persistente\n- Dor local, febre, sinais de infecção na área do implante\n- Sinais de trombose: dor, edema unilateral, dispneia\n- Sintomas androgênicos novos ou agravados (acne grave, hirsutismo)\n- Alterações laboratoriais agudas (e.g. elevação de enzimas hepáticas, hematócrito alterado) ## Checklist para a Consulta - Confirmação de indicação aprovada\n- Documentar exaustão de alternativas\n- Consentimento informado correto\n- Confirmação da farmácia e lote do produto\n- Plano de monitoramento laboratorial e clínico\n- Registro da comunicação clara sobre riscos\n- Agendamento de retorno trimestral\n- Notificação de eventos adversos *Utilize este guia para avaliação rápida e educação da paciente na prática clínica diária.*",
   "clinical_case": {
+    "title": "Mulher de 52 anos com sintomas vasomotores refratários à THM convencional busca implante hormonal “bioidêntico” manipulado",
+    "vignette": "Paciente menopausal aos 50 anos, iniciou terapia de reposição hormonal com estradiol transdérmico e progesterona oral, porém apresentou cefaleia e sintomas persistentes. Procura implante hormonal manipulado alegando preferir solução ‘natural’ e ‘bioidêntica’. Negou comorbidades relevantes, ruim adesão inicial à THM. Quer evitar terapia diária.",
+    "question": "Qual a conduta mais apropriada diante da solicitação da paciente?",
+    "teaching": "Este caso exemplifica a situação comum em consultório ao lidar com demandas por terapias manipuladas bioidênticas sem evidência robusta e riscos legais. A abordagem deve priorizar a correção da inadequação na terapia convencional (como ajuste de dose, troca por progesterona micronizada), reforçar a evidência dos implantes aprovados e só considerar manipulado como última opção com monitoramento rigoroso e consentimento informado detalhado. Ressalta-se a obrigação ética e legal do médico em informar riscos, garantir documentação e rigor técnico.",
+    "reward": 10,
     "data": [
       {
         "label": "Idade",
-        "value": "48 anos"
+        "value": "52 anos"
       },
       {
         "label": "Menopausa",
-        "value": "18 meses"
+        "value": "50 anos"
+      },
+      {
+        "label": "Terapia atual",
+        "value": "Estradiol transdérmico + progesterona oral"
       },
       {
         "label": "Sintomas",
-        "value": "Fogachos intensos, insônia, perda de libido, irritabilidade"
+        "value": "Vasomotores refratários, cefaleia"
       },
       {
-        "label": "Histórico",
-        "value": "Sem câncer, trombose, comorbidades relevantes"
+        "label": "Comorbidades",
+        "value": "Nenhuma relatada"
       },
       {
-        "label": "Laboratório",
-        "value": "FSH 89, E2 <20, T <10, exames normais"
+        "label": "Adesão",
+        "value": "Ruim à THM convencional"
       },
       {
-        "label": "US TV",
-        "value": "Endométrio <5mm, sem anormalidades"
+        "label": "Pedido da paciente",
+        "value": "Implante hormonal manipulado bioidêntico"
       },
       {
-        "label": "Consentimento",
-        "value": "Formal ofertado e documentado"
-      },
-      {
-        "label": "Farmácia manipulação",
-        "value": "GMP certificada, manipulação estéril, lote rastreável"
+        "label": "Exames laboratoriais",
+        "value": "Hormônios para avaliação pendentes"
       }
     ],
-    "title": "Uso criterioso de implante hormonal manipulado em menopausa com alergia a via oral/transdérmica",
-    "reward": 15,
     "options": [
       {
-        "label": "Prescrever implante com testosterona+estradiol+progesterona sem restrição.",
-        "correct": false,
-        "rationale": "Inadequado por ausência de indicação rigorosa e necessidade de consentimento e registro de riscos para manipulados."
-      },
-      {
-        "label": "Recusar implante, orientar apenas terapia não hormonal.",
-        "correct": false,
-        "rationale": "Desconsidera falha/intolerância a THM convencional e oportunidade terapêutica válida."
-      },
-      {
-        "label": "Ofertar SIU levonorgestrel + estradiol transdérmico inabsorvível.",
-        "correct": false,
-        "rationale": "Paciente é intolerante ao transdérmico e não usuária de SIU, pode não resolver sintomas vasoativos."
-      },
-      {
-        "label": "Implante manipulado somente com documentação, consentimento e monitorização rigorosa após falha às vias reguladas.",
+        "label": "A",
         "correct": true,
-        "rationale": "Correta conforme protocolo ético, evidências, regulatório e segurança para indicação excepcional."
+        "rationale": "Ajustar terapia hormonal regulamentada, preferir troca para progesterona micronizada ou outra via, reforçar adesão e monitorar; explanação clara sobre riscos e benefícios das opções manipuladas."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Atender prontamente solicitação do implante manipulado sem ajuste da terapia convencional, expondo a paciente a riscos desconhecidos e responsabilidade legal prejudicial."
+      },
+      {
+        "label": "C",
+        "correct": false,
+        "rationale": "Negar qualquer tipo de hormonioterapia e não discutir opções, o que pode comprometer o manejo e confiança da paciente."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Prescrever implante manipulado para estrogênio e testosterona em alto dose para obter efeitos rápidos, contrariando a segurança e ética clínicas."
       }
-    ],
-    "question": "Qual a conduta ética e segura diante do pedido de implante manipulado 'bioidêntico' no contexto apresentado?",
-    "vignette": "Mulher, 48 anos, menopausa clamada, sintomas intensos, intolerante à THM convencional (alergia), interesse em implante bioidêntico para reposição hormonal.",
-    "teaching": "Pacientes com menopausa sintomática e intolerância a formas orais/transdérmicas de THM podem se beneficiar de implantes, porém, o uso de bioidênticos manipulados deve ser restrito a casos sem alternativas. É imprescindível avaliar riscos clínicos, documentar consentimento informado detalhado, assegurar manipulação farmacêutica certificada com rastreabilidade e monitoramento clinicolaboratorial rigoroso para mitigar riscos. A proposta da conduta deve ser clara com a paciente quanto à ausência de evidências robustas, limitações e riscos. Essa gestão está respaldada em diretrizes internacionais, Resolução CFM 2.333/2023, e padrões da Anvisa para manipulação. A decisão deve ser sempre individualizada e ética, excluindo usos cosméticos, anti-aging ou indicação baseada apenas em marketing."
+    ]
   },
   "refs": [
     {
-      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. 2026."
+      "citation": "Rossouw JE, et al. Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Women's Health Initiative Randomized Controlled Trial. JAMA. 2002;288(3):321-333.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/195858"
     },
     {
-      "citation": "ACOG Committee Opinion No. 659: The Use of Bioidentical Hormones for Menopausal Therapy. Obstet Gynecol. 2016;127(2):e41-6."
+      "citation": "The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022;29(7):767-794.",
+      "url": "https://doi.org/10.1097/GME.0000000000002028"
     },
     {
-      "citation": "North American Menopause Society (NAMS) Position Statement: The 2022 hormone therapy position statement of The North American Menopause Society. Menopause. 2022;29(7):767-794."
+      "citation": "Endocrine Society & ACOG Joint Statement on Compounded Bioidentical Hormones. 2016."
     },
     {
-      "citation": "Endocrine Society Clinical Practice Guideline: Management of Menopause Symptoms with Hormone Therapy. J Clin Endocrinol Metab. 2015;100(11):3975–4011."
+      "citation": "CFM Resolução 2.333/2023 — Normas éticas para hormonioterapia em Brasil.",
+      "url": "https://portal.cfm.org.br/"
     },
     {
-      "citation": "ANVISA RDC 67/2007 and RDC 301/2019 — Boas Práticas de Manipulação Estéril."
+      "citation": "CDC/NEJM Reports on Fungal Meningitis Outbreak Due to Compounded Steroid Injections. 2013.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1213978"
     },
     {
-      "citation": "Conselho Federal de Medicina Resolução 2.333/2023: uso de hormônios em medicina estética, desempenho e longevidade."
-    },
-    {
-      "citation": "International Olympic Committee & WADA, Prohibited List 2024."
+      "citation": "USP <797> Pharmaceutical Compounding – Sterile Preparations (2023).",
+      "url": "https://www.usp.org/"
     }
   ],
-  "status": "published"
+  "raise_bar": true,
+  "audit_verdict": "fix"
 }

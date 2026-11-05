@@ -1,307 +1,298 @@
 {
   "position": 8,
   "module": "Módulo 4 · Limites",
-  "module_position": 4,
-  "title": "Segurança, farmacovigilância e responsabilidade do prescritor em hormônios e implantes manipulados",
-  "description": "Esta aula aborda os limites e responsabilidades do endocrinologista, nutrólogo e clínico na prescrição ética, segura e regulamentada de hormônios, peptídeos e implantes manipulados. Destacam-se os eventos adversos, a importância da rastreabilidade do lote, o consentimento informado detalhado, a fiscalização sanitária e o papel fundamental da farmácia de manipulação estéril na segurança do paciente. São detalhadas as normas da ANVISA, do CFM e os parâmetros técnicos para prescrição, manipulação, monitoramento e farmacovigilância pós-terapia, com base na evidência científica robusta e legislação vigente no Brasil.",
+  "title": "Segurança, Farmacovigilância e Responsabilidade do Prescritor em Terapias Hormonais e Manipulados Estéreis",
+  "description": "Revisão crítica dos aspectos regulatórios, evidências clínicas, eventos adversos, farmacovigilância e responsabilidade ética do prescritor ao optar por terapias hormonais, peptídeos e manipulação estéril no contexto brasileiro, destacando boas práticas para prescrição, escolha da farmácia e monitoramento.",
   "duration_minutes": 60,
-  "evidence_level": "A",
+  "evidence_level": "A-B",
   "key_points": [
-    "Prescrição de hormônios/implantes deve seguir rigorosamente evidência clínica e regulamentação ANVISA/CFM.",
-    "Consentimento informado detalhado, escrito e individualizado é mandatório para terapias off-label e manipuladas.",
-    "Farmácias de manipulação estéril devem obedecer normas da RDC 67/2007 e 222/2018, garantindo controle de qualidade e rastreabilidade do lote.",
-    "Eventos adversos, principalmente infecciosos, são potencialmente graves e requerem notificação imediata à ANVISA e à farmácia.",
-    "Prescrição para fins estéticos, antiaging, ou com produtos não registrados é proibida e antiética segundo resolução CFM 2.333/2023.",
-    "Monitoramento clínico-laboratorial e farmacovigilância ativa são essenciais para segurança do paciente sob terapia manipulada.",
-    "Publicidade de terapias off-label/manipuladas direcionada ao leigo é vedada e considerada infração ética e legal."
+    "Prescrição de hormônios/implantes deve ocorrer apenas com indicação clínica documentada e provas laboratoriais que confirmem déficits, especialmente para TRT e TH menopausal.",
+    "Manipulados estéreis devem ser realizados somente por farmácias com certificação ANVISA ativa e ambiente controlado, seguindo normas USP <797> e Boas Práticas de Manipulação.",
+    "O prescritor compartilha responsabilidade legal e ética pela rastreabilidade do lote, controle de qualidade e farmacovigilância ativa do tratamento.",
+    "Consentimento informado formal e específico para cada terapia/manipulado é obrigatório, detalhando riscos, status regulatório e alternativas.",
+    "Peptídeos research e hormônios para fins estéticos/anti-aging sem indicação clínica são proibidos pelo CFM e ANVISA, com risco de sanções éticas.",
+    "Monitoramento clínico-laboratorial rigoroso com registro documental e notificação de eventos adversos (mesmo leves) no Vigimed-ANVISA é mandatório.",
+    "Publicidade que promova terapias hormonais ou manipulação sem respaldo clínico/configuração aprovada viola normas éticas e sanitárias brasileiras."
   ],
   "slides": [
     {
       "kind": "title",
-      "title": "Segurança, farmacovigilância e responsabilidade do prescritor",
-      "subtitle": "Hormônios e Implantes Manipulados — Módulo 4 · Limites"
+      "title": "Segurança e Responsabilidade na Prescrição de Hormônios e Manipulados Estéreis",
+      "subtitle": "Módulo 4 · Limites | Curso Hormônios e Implantes com Critério"
     },
     {
-      "head": [
-        "Nível",
-        "Tipo de Evidência",
-        "Exemplos Clinicamente Relevantes"
-      ],
       "kind": "table",
-      "rows": [
-        [
-          "A",
-          "Metanálise de ECRs, ECR fase 3, Diretrizes",
-          "Semaglutida, Tirzepatida",
-          ""
-        ],
-        [
-          "B",
-          "Fase 2, Estudos Observacionais Robustos",
-          "Implantes de testosterona, moduladores androgênicos"
-        ],
-        [
-          "C",
-          "Farmacologia Humana, Séries Clínicas",
-          "GH para longevidade (não endossado)"
-        ],
-        [
-          "D",
-          "Dados Pré-Clínicos, Opinião",
-          "Peptídeos regenerativos sem provas clínicas"
-        ]
-      ],
-      "title": "Hierarquia de Evidência para Hormônios, Peptídeos e Implantes",
-      "source": "Base: Posicionamento Doutiva [S1]"
-    },
-    {
+      "title": "Situação Regulatório das Principais Terapias Hormonais e Peptídicas no Brasil",
       "head": [
         "Terapia",
-        "N de Estudos",
-        "Eventos Comuns",
-        "Gravidade",
-        "Nível Evidência"
+        "Registrado (ANVISA)",
+        "Uso off-label?",
+        "Manipulado permitido?",
+        "Não prescrever (BR)"
       ],
-      "kind": "table",
       "rows": [
         [
-          "GLP-1 agonistas (semaglutida)",
-          ">6000",
-          "Náusea 15-30%, Vômito 5-15%, Pancreatite <0,5%",
-          "Leve-Grave",
-          "A"
+          "Testosterona (TRT)",
+          "Sim",
+          "Sim (casos justificados)",
+          "Sim (em déficit documentado)",
+          "Para fins estéticos/anti-aging sem indicação"
         ],
         [
-          "Tirzepatida",
-          ">4500",
-          "Náusea 12-18%, Diarreia 12%, Pancreatite <0,5%",
-          "Leve-Grave",
-          "A"
+          "Terapia Hormonal Menopausal",
+          "Sim",
+          "Sim (vias, doses individualizadas)",
+          "Exceção: falha/intolerância a registrados [G3,G5]",
+          "Fins estéticos sem indicação clínica"
         ],
         [
-          "Implantes Testosterona",
-          "~800",
-          "Infecção local 1-3%, Extrusão até 8%",
-          "Leve-Grave",
-          "B"
+          "Peptídeos GLP-1/Tirzepatida",
+          "Sim",
+          "Sim (indicações alinhadas)",
+          "Não (alto risco de dose/pureza)",
+          "Uso fora indicação aprovada"
         ],
         [
-          "GH sem deficiência",
-          "—",
-          "Edema, Mialgia, Risco neoplasia?",
-          "Leve-Grave",
-          "C"
+          "GH/Secretagogos Longevidade",
+          "Não",
+          "Não",
+          "Não",
+          "Proibido pelo CFM [G6]"
+        ],
+        [
+          "Peptídeos \"research\" não aprovados",
+          "Não",
+          "Não",
+          "Não",
+          "Proibido, risco ético e sanitário [S1]"
+        ],
+        [
+          "Soroterapia IV Nutrientes",
+          "Não (exceto ferro/B12 IV)",
+          "Não",
+          "Não",
+          "Uso sem deficiência comprovada proibido"
         ]
       ],
-      "title": "Eventos Adversos em Terapias Hormonais Usuais",
-      "source": "Data resumida do compêndio [S2], vigilância ANVISA"
+      "source": "G1,G3,G5,S1,S10,S19"
+    },
+    {
+      "kind": "bars",
+      "title": "Principais Eventos Adversos de Terapias Hormonais e Peptídeos (Evidência A-B)",
+      "unit": "",
+      "source": "G2,G17,S11",
+      "note": "Eventos infecciosos no Brasil carecem de dados oficiais consolidados; cuidados recomendados.",
+      "bars": [
+        {
+          "label": "Náusea em GLP-1 RA",
+          "value": 1530,
+          "highlight": false
+        },
+        {
+          "label": "Vômito GLP-1 RA",
+          "value": 515,
+          "highlight": false
+        },
+        {
+          "label": "Poliglobulia com TRT",
+          "value": 5,
+          "highlight": false
+        },
+        {
+          "label": "Infecção em implantes manipulados",
+          "value": 0.525,
+          "highlight": false
+        },
+        {
+          "label": "Trombose em THM oral combinada",
+          "value": 0,
+          "highlight": true
+        }
+      ]
     },
     {
       "kind": "flow",
+      "title": "Fluxograma Clínico para Prescrição Segura de Terapias Hormonais e Manipulados no Brasil",
       "steps": [
         {
-          "label": "Indicação rigorosa documentada"
+          "label": "1. Avaliar indicação clínica e confirmar laboratorialmente."
         },
         {
-          "label": "Seleção priorizada de molécula registrada / justificada off-label"
+          "label": "2. Excluir contraindicações absolutas e riscos elevados."
         },
         {
-          "label": "Escolha de farmácia com manipulação estéril e laudo de pureza"
+          "label": "3. Preferir produto registrado ANVISA; manipulado só se falha ou intolerância documentada."
         },
         {
-          "label": "Consentimento informado detalhado e assinatura"
+          "label": "4. Solicitar documentação da farmácia: licença, ambiente, laudo de pureza, rastreabilidade do lote."
         },
         {
-          "label": "Prescrição com dados completos (lote, validade, dosagem)"
+          "label": "5. Prescrever com dose, via, lote e validade claramente especificados."
         },
         {
-          "label": "Monitoramento clínico e laboratorial periódico"
+          "label": "6. Obter termo de consentimento informado assinado."
         },
         {
-          "label": "Notificação de eventos adversos e farmacovigilância ativa"
+          "label": "7. Monitorar clinicamente e com exames laboratoriais precocemente e em seguimento."
         },
         {
-          "label": "Rastreabilidade completa e prontidão para recall"
+          "label": "8. Notificar quaisquer eventos adversos ao Vigimed/ANVISA e à farmácia em uso."
+        },
+        {
+          "label": "9. Manter documentação arquivada por pelo menos 5 anos, em conformidade com LGPD."
         }
-      ],
-      "title": "Fluxo Seguro para Prescrição de Hormônios e Implantes Manipulados"
+      ]
     },
     {
       "kind": "split",
+      "title": "Comparação: Farmácia Manipuladora Estéril X Farmácia Comum",
       "left": {
+        "label": "Farmácia Manipuladora Estéril",
         "items": [
-          "Diagnóstico e indicação formal",
-          "Molécula, via, dose e duração da terapia",
-          "Riscos comuns e raros, limites científicos",
-          "Diferença entre registro e manipulado/off-label",
-          "Risco infeccioso e necessidade de rastreabilidade",
-          "Alternativas e possibilidade de suspensão",
-          "Responsabilidade do médico e do paciente"
-        ],
-        "label": "Conteúdo Clínico"
+          "Ambiente controlado ISO Classe 5",
+          "Equipe treinada em assepsia e esterilidade",
+          "Validação periódica de processos",
+          "Laudos microbiológicos frequentes",
+          "Rastreabilidade do lote e documentação formal"
+        ]
       },
       "right": {
+        "label": "Farmácia Comum/Não Certificada",
         "items": [
-          "Documento escrito, individualizado e assinado",
-          "Discussão clara e sem linguagem técnica confusa",
-          "Registro em prontuário e arquivo seguro",
-          "Atualização constante a cada nova prescrição",
-          "Esclarecimento quanto às incertezas",
-          "Liberdade total de decisão pelo paciente"
-        ],
-        "label": "Recomendações de Documentação"
-      },
-      "title": "Consentimento Informado: Itens Essenciais"
-    },
-    {
-      "head": [
-        "Parâmetro",
-        "Periodicidade",
-        "Comentários"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "Consulta clínica inicial",
-          "15-30 dias",
-          "Avaliação efeitos colaterais iniciais"
-        ],
-        [
-          "Monitoramento laboratorial geral",
-          "3-6 meses",
-          "Função hepática, renal, glicemia, lipídios"
-        ],
-        [
-          "Marcação específica",
-          "3-6 meses",
-          "PSA, perfil hormonal conforme terapia"
-        ],
-        [
-          "Monitoramento contínuo",
-          "6-12 meses",
-          "Avaliação função global, rastreio tumoral"
-        ],
-        [
-          "Notificação de eventos",
-          "Imediato",
-          "Sempre notificar à ANVISA e farmacêutico"
+          "Falta de controle rigoroso",
+          "Variabilidade na dose e pureza",
+          "Risco elevado de contaminação",
+          "Ausência ou falha na rastreabilidade",
+          "Risco maior de eventos adversos infecciosos"
         ]
-      ],
-      "title": "Monitoramento Clínico e Laboratorial Ideal",
-      "source": "Protocolo Doutiva atualizado"
+      }
     },
     {
       "kind": "bullets",
-      "title": "Responsabilidade e Limites Éticos do Prescritor",
+      "title": "Checklist Obrigatório para Prontuário e Consentimento",
       "bullets": [
-        "Responsabilidade ética e legal compromete toda cadeia - desde o diagnóstico à farmacovigilância.",
-        "Indicação fora do registro aprovado requer justificativa robusta e consentimento detalhado.",
-        "Uso de produtos sem registro, 'research peptides', GH anti-aging e implantes estéticos sem critério são vedados.",
-        "Rastrear e arquivar dados completos do lote/manipulação é obrigatório para auditoria e recall.",
-        "Farmácia e médico compartilham responsabilidade, mas a prescrição imprópria é imputável ao médico.",
-        "Publicidade de medicamentos manipulados, off-label e estéticos direcionada ao público é proibida.",
-        "Eventos adversos devem ser sempre reportados, mesmo leves, para vigilância regulatória."
+        "Diagnóstico clínico e laboratorial claro",
+        "Justificativa da escolha do produto, dose e via",
+        "Identificação completa da farmácia manipuladora (nome, registro ANVISA)",
+        "Número do lote e validade do produto/implante",
+        "Termo de consentimento formalizado com riscos detalhados",
+        "Plano de monitoramento clínico e laboratorial definido",
+        "Registro preciso de eventos adversos e notificações feitas"
       ]
     },
     {
       "kind": "pearl",
-      "text": "Nunca prescreva hormônios ou peptídeos manipulados para fins antiaging ou estéticos sem evidência robusta e indicação médica formal. Consentimento, rastreabilidade e monitoramento são pilares inegociáveis para segurança do paciente e proteção legal do médico.",
-      "title": "Pérola Clínica"
+      "title": "Pérola Clínica",
+      "text": "Nunca prescreva hormônios ou manipulados para fins estéticos ou longevidade sem indicação clínica com comprovação laboratorial e consentimento explícito, pois isso viola normas éticas, infringe regulamentações médicas brasileiras e expõe pacientes a riscos desnecessários.",
+      "source": "CFM 2.333/2023 [G6,S19]"
     }
   ],
-  "monograph": "# Módulo 4 · Limites  \n## Segurança, farmacovigilância e responsabilidade do prescritor + farmácia\n\n---\n\n## 1. Contexto e Relevância\n\nO crescimento do uso de hormônios, peptídeos, implantes e terapias intravenosas (soroterapia) na endocrinologia, nutrologia e clínica médica tem impulsionado uma demanda inédita por manipulação estéril, rastreabilidade, farmacovigilância e práticas éticas de prescrição. A complexidade da cadeia — do prescritor à farmácia — obriga o profissional à atualização em regulação (ANVISA, CFM), ética, consentimento e publicidade, bem como ao domínio dos riscos específicos: infecção, eventos adversos severos, falha terapêutica, desvio estético/off-label e falsificação do ciclo de evidência.\n\nPrescrever com responsabilidade vai além do diagnóstico e inclui: seleção ética de casos, escolha da molécula (registrada/off-label/manipulada), rastreabilidade do lote, consentimento esclarecido e constante monitoramento pós-uso. Ao lado, farmácias magistralmente habilitadas em manipulação estéril ampliam a segurança clínica, mas também respondem a padrões sanitários rigorosos e responsabilizam o prescritor pelo elo inicial do processo.\n\nEste módulo sistematiza — com a profundidade exigida pelo médico premium e embasamento em fontes de hierarquia elevada — as condutas essenciais para maximizar benefício e minimizar dano em terapias hormonais e via implantes/manipulados, na prática brasileira.\n\n---\n\n## 2. Bases Científicas, Padrão de Evidência e Hierarquia de Intervenções\n\n### 2.1. Hierarquia de Evidência para Hormônios, Peptídeos e Implantes\n\nSegundo o posicionamento Doutiva [S1]:\n\n- Nível A: Metanálises de ECRs, ECR fase 3, diretrizes consolidadas.\n- Nível B: Ensaios de fase 2, estudos observacionais robustos.\n- Nível C: Farmacologia humana, pequenas séries de casos.\n- Nível D: Dados pré-clínicos, opinião de especialistas.\n\n_Exemplo prático:_  \n- Semaglutida/tirzepatida: Nível A — robusto embasamento em ECR fase 3 para obesidade/DM2.\n- Secretagogos de GH, peptídeos regenerativos: Carecem de evidência clínica humana robusta (B–C).\n\n### 2.2. Critérios de Registro e Manipulação\n\n- **Registrado ANVISA:** Pode prescrever para indicações aprovadas; uso fora de bula é off-label e exige justificativa robusta.\n- **Off-label documentado:** Permitido sob respaldo científico, consentimento e rastreio rígido; implica responsabilidade acrescida do médico.\n- **Manipulado farmácia estéril:** Permitido sob rígidas regras da RDC 67/2007 (atualizada); exige farmacêutico especialista, ambiente controlado, laudo de pureza, lote rastreável.\n- **Irregular/proibido:** Produtos sem documentação sanitária, research peptides sem comprovação, GH para rejuvenescimento, implante apenas estético.\n\n### 2.3. Regulação e Ética BR\n\n- **CFM Resolução 2.333/2023:** Reforça limites para uso de hormônios fora de deficiências documentadas; proíbe GH para “antienvelhecimento”, recomenda extrema cautela em estética.\n- **ANVISA (RDC 67/2007 e RDC 222/2018):** Regras detalhadas para manipulação de produtos estéreis, rastreabilidade, controle do ambiente e responsabilidade técnica.\n- **WADA:** Hormônios de crescimento, testosterona, moduladores proibidos no esporte, exceto com TUE rigoroso.\n- **Publicidade:** Vedada promoção antiética, promessas infundadas de longevidade/estética, publicidade direta ao leigo de terapias off-label.\n\n---\n\n## 3. Evidência Crítica: Riscos e Eventos Adversos de Terapias Hormonais/Implantes\n\n### 3.1. Taxas e Tipos de Eventos Adversos (Revisão da Literatura)\n\nÉ necessário distinguir eventos de terapias registradas (ex: análogos de GLP-1) e de manipulados/implantes.\n\n**Tabela 1. Eventos Adversos em Terapias Usuais: Taxas e Magnitude (resumida de ECRs e vigilância pós-comercialização)**\n\n| Classe/Terapia             | N (estudos) | Evento adverso clínico relevante (%) | Gravidade | Evidência | Fonte/Registro                      |\n|----------------------------|-------------|--------------------------------------|-----------|-----------|-------------------------------------|\n| GLP-1 agonistas (semaglutida) | >6000      | Náusea: 15-30%; vômito: 5-15%; colelitíase: <2%; pancreatite: <0,5%; hipoglicemia: <2%(monoterapia) | Leve–Grave | A        | ECRs fase 3, vigilância | [S2] ANVISA |\n| Tirzepatida                | >4500       | Náusea: 12-18%; diarreia: 12%; eventos CV: neutro; pancreatite: <0,5% | Leve–Grave | A        | ECRs fase 3, FDA, ANVISA | [S2] ANVISA |\n| Implantes de testosterona  | 839*         | Infecção local: 1–3%; extrusão: até 8%; fibrose local tardia: <5% | Leve–Grave | B        | Série de casos, farmacovigilância | *BR: 232 eventos notificados (verificar)|\n| Moduladores androgênicos   | —           | Hepatopatia, trombose, poliglobulia, acne/crescimento piloso | Variável   | B        | Série e consensos | Off-label/Manipulado|\n| GH (sem deficiência)       | —           | Edema, mialgia, síndrome do túnel do carpo, risco neoplasia? | Leve–Grave | C        | Falta de ECR para longevidade | NÃO endossar |\n| Implantes ST (estradiol/testo) | 400+       | Hematoma <2%, infecção local <2%, extrusão/fibrose <5% | Leve | B        | Séries clínicas, relatos | Manipulado/Off-label |\n\n### 3.2. Eventos Infecciosos — Relação com Manipulação\n\nManipulação inadequada é via de entrada para eventos graves, incluindo sepse, endocardite, abscesso (“catheter-related infection” analogamente; [S4], [S6]).\n\n- Incidência infecção grave por manipulação inadequada (literatura internacional): entre 1–2,5% em séries antigas; <0,5% em farmácias com Boas Práticas.\n- Fatores de risco: lote mal rastreado, cadeia fria ineficaz, ambiente não controlado (sala limpa), falta de teste de endotoxina/piretagem.\n- Eventos “sentinela” brasileiros documentados: contaminação cruzada, fungemia, falhas no laudo de pureza (casos recentes — verificar anuário ANVISA/Anfarmag).\n\n### 3.3. Riscos Especiais em Produtos Manipulados\n\n- Ausência de farmacovigilância ativa em productos “sem bula/FDA” é desafio de rastreio.\n- Elevação do risco de falsificação/erro de dose, interação não prevista.\n- No Brasil, 15-25% dos eventos notificados por implantes são devido a falhas de cadeia produtiva da farmácia, não do princípio ativo (Dado de Anfarmag / ANVISA — estimativa; verificar estatística real).\n\n---\n\n## 4. Seleção do Paciente: Critérios, Elegibilidade e Limites Clínicos\n\n### 4.1. Indicações Permitidas e Limites Éticos\n\n**Tabela 2. Indicação, Limite Regulatório e Responsabilidade**\n\n| Indicação / Classe         | Permitido? | Limite Regulatório/Ético | Responsabilidade do Médico         |\n|---------------------------|------------|---------------------|------------------------------------|\n| Hormônio em deficiência comprovada      | Sim        | ANVISA/CFM              | Consentimento, rastreio, monitoramento |\n| Hormônio para “wellness”, antiaging     | NÃO        | Proibido CFM 2.333/23    | Proibido prescrever                 |\n| Peptídeo aprovado (GLP-1, tirzepatida)  | Sim        | ANVISA p/indicação; off-label justificado | Justificar, consentir, rastrear     |\n| Peptídeos research sem registro         | NÃO        | Proibido, névoa regulatória | Risco ético/sanitário, evitar       |\n| Implante estético sem critério clínico  | NÃO        | Vedado                    | Não prescrever                      |\n| Soroterapia “drip” sem deficiência      | NÃO        | Antiético, vedado         | Não prescrever                      |\n| Modulação hormonal off-label com base frágil | NÃO   | Vedado pelo CFM           | Não prescrever                      |\n\n### 4.2. Elementos para Elegibilidade\n\n- Diagnóstico firme, documentação robusta de deficiência/desequilíbrio (laboratório + clínica).\n- Excluir contraindicações: história de neoplasia ativa, trombofilia, hepatopatia avançada, gravidez (exceto indicações obstétricas).\n- Avaliação de risco cardiovascular, metabólico e psiquiátrico.\n- Informação explícita sobre limites da evidência em consentimento escrito.\n\n---\n\n## 5. Conduta: Passo a Passo em Prescrição Segura e Farmacovigilância\n\n### 5.1. Fluxo Detalhado para Terapias Hormonais/Implantes Manipulados\n\n**Tabela 3. Conduta de Prescrição Segura: Checklist e Fluxograma**\n\n| Etapa                                     | Conduta Acionável                                                                             | Referência/Diretriz    |\n|-------------------------------------------|------------------------------------------------------------------------------------------------|------------------------|\n| 1. Indicação formal                       | Avaliar indicação baseada em diagnóstico objetivo                                              | CFM/ANVISA             |\n| 2. Seleção da molécula                    | Priorizar registrada ANVISA; justificar off-label; NUNCA prescrever research/informal          | [S1]                   |\n| 3. Escolha da farmácia                    | Certificar manipulação em ambiente estéril, registro CRF-ANVISA, laudo de pureza, rastreio     | RDC 67/2007, RDC 222/2018|\n| 4. Consentimento esclarecido detalhado    | Discutir evidências, limites, possíveis eventos, registro em prontuário e assinatura            | CFM, ética médica      |\n| 5. Emissão da prescrição                  | Dados completos: lote, dosagem, via, intervalo, validade, farmácia de origem                    | ANVISA/CFM             |\n| 6. Monitoramento pós-uso                  | Consultas regulares (intervalo de 3–6 meses), com LS de eventos adversos e ajuste de dose      | Prática clínica        |\n| 7. Farmacovigilância e notificação        | Toda suspeita de EA deve ser notificada (Vigimed, Anvisa) e ao farmacêutico responsável         | ANVISA                 |\n| 8. Rastreabilidade completa do lote       | Documentar lote, número, validade, e rastrear recall/outras notificações do fabricante           | RDC 67/2007            |\n\n### 5.2. Cuidado Específico com Manipulados Estéreis\n\n- Exigir relatório de controle microbiológico, endotoxinas e estabilidade do lote.\n- Não aceitar produtos sem rótulo completo ou sem laudo em anexo.\n- Implantar auditoria documental periódica na farmácia (para prescritores de alto volume).\n\n### 5.3. Consentimento Informado — Itens Mínimos\n\n- Diagnóstico e indicação formal\n- Molécula/implante, via, dose\n- Riscos comuns e raros, limitações da ciência, diferença entre registrado/of-label/manipulado\n- Risco infeccioso (manipulado), rastreabilidade, recall\n- Alternativas existentes (não-farmacológicas e clínicas)\n- Liberdade de recusa e cancelamento\n- Responsabilização compartilhada\n\n---\n\n## 6. Monitoramento e Farmacovigilância Pós-Prescrição\n\n### 6.1. Seguimento Clínico\n\n- **Consultas iniciais**: 15-30 dias após início/implante, depois a cada 3-6 meses\n- **Laboratórios periodicamente**: função hepática, renal, glicemia, perfil lipídico, marcadores específicos (ex: PSA/testo, TSH/T4)\n- **Avaliação de efeitos colaterais, eventos adversos graves e complicações infecciosas:** diário do paciente e anamnese dirigida em cada consulta\n\n### 6.2. Notificação de Eventos: Fluxo\n\n- Eventos ADVERSOS: notificar a ANVISA (Vigimed), informar farmácia e paciente\n- Recall: paciente informado imediatamente, retirada do lote, reversão da terapia se risco\n\n### 6.3. Responsabilidade Ético-Jurídica\n\n- O vínculo de responsabilidade do prescritor permanece em todas as fases — da decisão à farmacovigilância ativa.\n- Falha de farmácia não isenta o médico se a indicação/prescrição foi imprudente ou desinformada.\n- Documentação íntegra é essencial para defesa ética em sindicância.\n\n---\n\n## 7. Regulatório e Ético no Brasil: Pontos-Chave para Especialista\n\n- Não endossar nem prescrever produtos sem registro/sem bula/“peptides de research”.\n- Consentimento detalhado, atualizado e armazenado é obrigatoriedade legal e ética.\n- Publicidade proibida: não prometer cura, rejuvenescimento ou resultados “milagrosos”; proibição de post patrocinado voltado diretamente à promoção de compostos off-label/estéticos.\n- Farmácias: devem ser cadastradas na ANVISA, manter controle de ambiente, rastreabilidade do lote, processos auditáveis.\n- Médicos: responder por toda etapa — selecionar apenas farmácias auditadas, não prescrever para indicações vedadas, manter comunicação formal com farmacêutico responsável.\n\n---\n\n## 8. O que NÃO Fazer\n\n- NÃO prescrever GH, testosterona, implantes ou soroterapia para fins “estéticos”, “antiaging”, “wellness” sem deficiência comprovada (Res. CFM 2.333/2023).\n- NÃO utilizar “research peptides”, produtos sem laudo, sem proveniência, oriundos do mercado informal ou internet.\n- NÃO delegar a responsabilidade da rastreabilidade à farmácia; ela é compartilhada e inicia no prescritor.\n- NÃO iniciar terapias manipuladas sem consentimento específico detalhado.\n- NÃO omitir eventos adversos leves/moderados: todos devem ser reportados e documentados, sobretudo em manipulados.\n- NÃO fazer publicidade direta ao leigo de terapias off-label/manipuladas, sobretudo para longevidade/estética.\n\n---\n\n## 9. Pérolas Práticas & Checklist\n\n### Pérolas\n\n- Rastreamento do lote é o seguro do prescritor e do paciente. A documentação do número, validade e farmácia é obrigatória em todas as prescrições manipuladas.\n- Consentimento claro e individualizado: nunca confie em modelo-padrão; relate, preferencialmente, as incertezas da terapia manipulada.\n- Solicite periodicamente ao farmacêutico laudos atualizados, mesmo em lotes já utilizados.\n- Em caso de recall, todo paciente deve ser contatado proativamente e orientação clínica imediata oferecida.\n- Ao sinal de evento adverso infeccioso (febre, dor local, eritema) pós-implante/manipulado, suspenda imediatamente o uso e investigue fonte, reportando formalmente.\n\n### Checklist de Prescrição Segura (Quick_ref)\n\n1. **Diagnóstico documentado:** Laboratório e clínica.\n2. **Indicação clara, dentro da ética/regulação:** Checagem com CFM/ANVISA.\n3. **Seleção de molécula/família:** Só registrada ou off-label com evidência e justificativa.\n4. **Escolha criteriosa da farmácia:** Ambiente estéril, RDC 67/2007, registro, laudo de pureza.\n5. **Consentimento detalhado, escrito e assinado.**\n6. **Prescrição completa:** Inclui lote, validade, via, farmácia de origem.\n7. **Monitoramento e farmacovigilância sistemática:** Relatório e rastreio ativo de eventos adversos.\n8. **Notificação compulsória à ANVISA e ao paciente em eventos sentinela.**\n9. **Documentação arquivada por, no mínimo, 5 anos.**\n\n---\n\n## 10. Caso Clínico: Desafio Realista\n\n**Paciente:**  \nHomem, 57 anos. Ex-obeso, DM2 controlado, HAS bem compensada. Realizou implante de testosterona em farmácia manipulada local, após déficit parcial confirmado. Volta com: queixa de dor local, calor, vermelhidão no sítio do implante ao 15º dia. Relata afebril, sem sintomas sistêmicos. No exame: área endurecida, 5 cm de diâmetro, hiperemiada no glúteo. Laudo de pureza do lote não disponível em registro do prontuário. Farmácia informa “emissão em análise”.\n\n**Alternativas de conduta:**\nA) Realizar analgésico tópico e observar; retorno em 7 dias.  \nB) Orientar retirada do implante, coleta de material para cultura, início de antibiótico empírico local, notificar evento adverso e solicitar laudo imediato do lote à farmácia.  \nC) Solicitar só anti-inflamatório oral, sem alterar conduta; monitorar evolução à distância.  \nD) Não tomar medidas, pois não há febre nem sintomas sistêmicos.\n\n**Resposta correta:**  \n**B) Orientar retirada do implante, coleta de material para cultura, início de antibiótico empírico local, notificar evento adverso e solicitar laudo imediato do lote à farmácia.**\n\n**Justificativa Teaching:**\n- Quadro clínico sugere infecção local grave ou processo piogênico, potencialmente relacionado à manipulação.\n- Eventuais infecções por Staph/Candida [S3], [S6] podem progredir sem febre inicial; abordagem volvida para controle, notificação ANVISA e rastreabilidade imediata é obrigatória.\n- Não é seguro manter implante sem clara exclusão de infecção ou laudo de controle; “esperar” pode agravar o dano ao paciente.\n\n---\n\n## 11. Slides para Discussão em Aula\n\n**Slide 1 – Title**  \nSegurança, farmacovigilância e responsabilidade: limites e condutas em hormônios & implantes\n\n**Slide 2 – Hierarquia de Evidência**  \nTabela: Níveis de evidência por tipo de terapia/indicação (A–D) + exemplos clínicos\n\n**Slide 3 – Riscos Críticos: Eventos Adversos**  \nTabela densa: Frequências reais de EA — comparando GLP-1, testosterona, implantes\n\n**Slide 4 – Processo de Manipulação Estéril**  \nFluxograma do ciclo seguro: prescritor → farmácia habilitada → paciente → farmacovigilância\n\n**Slide 5 – Responsabilidade Compartilhada**  \nBullets densos: limites por CFM/ANVISA; decisões do prescritor e farmácia\n\n**Slide 6 – Consentimento Informado**  \nBullets: itens mínimos obrigatórios\n\n**Slide 7 – Rastreabilidade e Recall**  \nSplit: checklist de rastreabilidade × fluxo do recall em caso de evento adverso\n\n**Slide 8 – Monitoramento Ideal**  \nTabela: exames/laboratórios, marcos clínicos, periodicidade\n\n**Slide 9 – O que NÃO fazer**  \nBullets de erros críticos: anti-aging, off-label estético, “research peptide”, publicidade antiética\n\n**Slide 10 – Caso Clínico Prático**  \nResumo do caso, opções, discussão-vote\n\n**Slide 11 – Pérolas de Expertise e Quick_ref**  \nChecklist de bolso resumido\n\n**Slide 12 – Key_points**  \nSumário prático: 5–7 abordagens mandatórias\n\n---\n\n## 12. Quick_ref de Bolso: Prescrição Segura de Hormônios/Implantes Manipulados\n\n- _Indique apenas em deficiência documentada_ (nunca para “bem-estar”, “anti-aging”).\n- _Prefira molécula registrada; se off-label, justifique_, obtenha consentimento formal.\n- _Escolha farmácia com manipulação estéril conforme RDC 67/2007_ e laudo de pureza.\n- _Inclua nº de lote, validade e rastreabilidade na prescrição_; registre tudo em prontuário.\n- _Exija consentimento esclarecido — detalhando evidência, riscos, alternativas e responsabilidade partilhada_.\n- _Monitoramento rigoroso e farmacovigilância ativa_ cada 3–6 meses; notifique todo evento adverso.\n- _Nunca faça publicidade direta ao leigo de indicações off-label/estéticas/manipuladas_.\n\n---\n\n## 13. Key_points (Resumo Executivo de Conduta)\n\n1. **Hierarquia de evidência e limites éticos:** só prescrever o que tem respaldo científico robusto e indicação clara.\n2. **Consinta sempre:** consentimento detalhado, individualizado e registrado é obrigatório — especialmente em off-label/manipulado.\n3. **Rastreabilidade plena:** lote, validade, farmácia de origem — documente e atualize periodicamente.\n4. **Responsabilidade compartilhada não é transferível:** médico responde pelo ciclo inteiro — escolha pessoal da farmácia e monitoramento.\n5. **Nunca prescrever para fins antiaging/estéticos off-label:** Respeite CFM 2.333/2023 e evite litígios.\n6. **Farmacovigilância ativa é mandatório:** todo evento adverso deve ser notificado; implemente rotina de follow-up e recall.\n7. **Jamais tolere publicidade antiética:** evite promessas, depoimentos ou promoção direta a pacientes de produtos manipulados/off-label.\n\n---\n\n## Referências\n\n1. [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n2. [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010.\n3. [S3] Extended-spectrum beta-lactamases: a clinical update. Paterson DL, Bonomo RA. Clin Microbiol Rev 2005.\n4. [S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update. Mermel LA, Allon M, et al. Clin Infect Dis 2009.\n5. [S6] Epidemiology of invasive candidiasis: a persistent public health problem. Pfaller MA, Diekema DJ. Clin Microbiol Rev 2007.\n6. [S7] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the IDSA. Pappas PG, et al. Clin Infect Dis 2016.\n7. Resolução CFM nº 2.333, de 2023 — https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2023/2333\n8. RDC 67/2007, RDC 222/2018 — ANVISA, www.anvisa.gov.br\n9. Biblioteca DOUTIVA — compêndio interno ([S1], [S2], outros).\n10. Dados de farmacovigilância ANVISA, Anfarmag — anuário/boletins (verificar estatísticas atualizadas).\n\n---\n\n# FIM",
-  "quick_ref": "# Guia de Bolso: Prescrição Segura de Hormônios/Implantes Manipulados\n\n| Item | Conduta | Comentário |\n|-------|---------|------------|\n| 1. Diagnóstico | Deficiência hormonal documentada (lab + clínica) | Nunca prescrever para wellness/antiaging |\n| 2. Seleção da molécula | Preferir registrada ANVISA; off-label com justificativa | Evitar produtos sem registro |\n| 3. Farmácia | Ambiente estéril conforme RDC 67/2007; laudo de pureza obrigatório | Farmácia deve ser registrada ANVISA |\n| 4. Consentimento | Esclarecido, individualizado e assinado; incluir riscos e alternativas | Registro em prontuário é obrigatório |\n| 5. Prescrição | Completa com lote, validade, dosagem, via, farmácia | Sem dados completos, recuse a dispensação |\n| 6. Monitoramento | Consultas 15-30d, depois 3-6 meses; clínico/laboratorial | Avaliar efeitos adversos e eficácia |\n| 7. Farmacovigilância | Notificação ativa de eventos adversos a ANVISA | Fundamental para segurança e recall |\n| 8. Rastreabilidade | Documentar todos dados do lote; pronta resposta a recalls | Exigir laudos atualizados |\n| 9. Publicidade | Proibida direta a leigos de manipulação/off-label/estética | Respeito às normas CFM e ANVISA |\n\n*Este guia deve ser usado como checklist prática para consulta rápida no consultório.*",
+  "monograph": "# Módulo 4 · Limites ## Segurança, farmacovigilância e responsabilidade do prescritor + farmácia --- ## 1. Contexto e Relevância A crescente utilização de terapias hormonais, peptídeos, implantes e soroterapia demanda vigilância rigorosa por parte do prescritor e da farmácia. O cenário brasileiro soma desafios regulatórios (ANVISA, CFM), riscos de publicidade inadequada, impacto do comportamento das farmácias de manipulação estéril e exigências documentais (consentimento, rastreabilidade). A responsabilidade do prescritor não se encerra na receita; ela abrange toda a trajetória do cuidado, incluindo farmacovigilância ativa e seleção de fornecedores. Este módulo aborda: práticas seguras para manipulação estéril e prescrição individualizada; fundamentos científicos e riscos de eventos adversos; requisitos para rastreabilidade; protocolos de consentimento informado; limites éticos e regulatórios. Todas as recomendações estão vinculadas a referências ou ressalvas explícitas. --- ## 2. Fundamentação em Evidência Científica e Regulatória ### 2.1 Hierarquia de Evidência Clínica (adaptada: [S1]) - **Nível A**: Ensaios clínicos randomizados (ECR) Fase 3, metanálises, grandes guidelines internacionais.\n- **Nível B**: Estudos de coorte, séries clínicas robustas, ECRs menores.\n- **Nível C**: Casos/séries pequenas, estudos pré-clínicos.\n- **Nível D**: Relatos isolados, opinião de especialista. **Aplicação prática:** - Semaglutida/tirzepatida: evidência A (vários ECRs fase 3, registro ANVISA).\n- Implantes/testosterona: recomendação baseada em B–A para hipogonadismo [G1, G2].\n- Peptídeos “research”: D (ausência de respaldo em humanos, uso proibido pela ANVISA [S1]). --- ### 2.2. Registro, Off-label, Manipulação e Proibição (BR) **Tabela: Situação regulatória das principais terapias hormonais e peptídicas** | Terapia | Registrado (ANVISA) | Uso off-label? | Manipulado permitido? | Não prescrever (BR) |\n|-----------------------------------|:-------------------:|:--------------:|:--------------------:|:----------------------:|\n| Terapia de reposição de testosterona *(TRT)* | Sim (formas IM, gel) | Sim (casos justificados) | Em déficit documentado | Em ausência de deficiência, fins estéticos/antiaging |\n| Terapia hormonal menopausal | Sim (estradiol oral, transdérmico, progesterona) | Sim (vias, doses individualizadas) | Exceção: só se falha das opções registradas [G3, G5] | Para fins estéticos, sem indicação clínica |\n| Peptídeos GLP-1/Tirzepatida | Sim (para DM2 e obesidade) | Sim (em situações alinhadas à diretriz) | Não (manipulado não recomendado, risco de dose/pureza) | Fora de indicação aprovada |\n| GH/Secretagogos para longevidade | Não | Não | Não | Proibido pelo CFM [G6] |\n| “Research” Peptídeos não aprovados| Não | Não | Não | Proibido, risco ético e sanitário [S1] |\n| Soroterapia com nutrientes/“drips”| Não (exceto ferro, vitamina B12 IV sob indicação documentada) | Não | Não | Proibido sem deficiência comprovada [S10] | --- ## 3. Eventos Adversos, Farmacovigilância e Impacto Clínico ### 3.1. Principais Eventos Adversos Documentados **Resumo por classe (Nível de evidência e fontes):** #### a) GLP-1 RA (Semaglutida/Tirzepatida) - Náusea (15-30%), vômito (5-15%), diarreia (10-20%), colelitíase (<2%), pancreatite (<0,5% — CONTROVERSO, verificar revisões recentes) [G2, S23].\n- Eventos cardiovasculares: TRAVERSE (testosterona): não inferioridade para MACE sob monitoramento rigoroso [G2, S17]. - Farmacovigilância contínua obrigatória. #### b) Terapia de reposição de testosterona - Poliglobulia, alterações lipídicas, apneia do sono agravada, acne, ginecomastia, alteração PSA [G1, G2, S17].\n- Infecção local e fibrose em implantes: frequências reais variam (<5%), eventos graves são raros, mas documentados (sem incidências oficiais públicas para BR; verificar) [G1, S11]. #### c) Terapia hormonal feminina - Riscos de trombose dependem de via (preferir transdérmico se risco aumentado) [G3, G4, S15, S16]. - Risco oncológico depende de formulação e tempo (vide guideline). #### d) Manipulados em geral - Variabilidade de dose/pureza, risco aumentado de infecção, recall e reações inesperadas [G5, S14].\n- **Infecção pós-implante/manipulado**: incidências precisas são desconhecidas no Brasil — séries internacionais sugerem 1–2,5% em ambientes não certificados; <0,5% em farmácias com Boas Práticas [S11] (estas estimativas devem ser lidas com cautela enquanto não houver anuários oficiais auditáveis). --- ### 3.2. Eventos Infecciosos, Recall e Responsabilidade Compartilhada - Eventos infecciosos graves relatados por falha de esterilidade (“outbreak meningite fúngica” — NECC, EUA) mostraram mortalidade elevada [S11].\n- A rastreabilidade do lote e a padronização do ambiente estéril são mandatórias e vinculam o prescritor à responsabilidade compartilhada [S12].\n- Recall em caso de contaminação: obrigação ética/legal de acionar pacientes e notificar autoridades. --- ## 4. Seleção do Paciente e Prescrição Responsável ### 4.1. Critérios para Uso Ético e Seguro - Indicação clínica documentada (ex: hipogonadismo confirmado laboratorialmente para TRT, sintomas vasomotores incapacitantes para TH menopausal).\n- Individualizar riscos (CV, trombótico, oncológico, infeccioso). - Preferir terapias industrializadas sempre que viável. - Em caso de uso off-label ou manipulado: detalhar justificativa em prontuário e obter consentimento explícito. --- ## 5. Interação Médico–Farmácia e Boas Práticas ### 5.1. Seleção e Auditoria de Farmácias Manipuladoras - Escolher farmácias com autorização ativa ANVISA, CRF local, ambiente ISO classe 5 ou superior [S12].\n- Solicitar laudos de controle microbiológico, endotoxinas, estabilidade, análise de pureza e documentação do farmacêutico responsável.\n- Auditorias periódicas e requisição de documentos são recomendados para prescritores frequentes.\n- Exigir rastreabilidade do lote em todas as receitas (documentar linha a linha no prontuário). ### 5.2. Parâmetros Técnicos Mínimos (para farmácia estéril) - Controle ambiental documental.\n- Treinamento regular de equipe.\n- Validação periódica de processos.\n- Licença sanitária ativa. --- ## 6. Fluxograma Clínico da Prescrição Segura (BR) ```markdown\n1. Avaliar clínica e laboratorialmente a indicação.\n2. Excluir contraindicações e riscos maiores.\n3. Selecionar produto preferencialmente registrado ANVISA; se manipulado, só diante de falha/intolerância justificada.\n4. Solicitar lote, laudo de pureza e documentação de manipulação estéril da farmácia.\n5. Elaborar prescrição explícita: molécula, forma farmacêutica, dose, via, lote e validade. 6. Obter consentimento informado detalhado assinando termo.\n7. Realizar follow-up clínico e laboratorial após 2-4 semanas ou conforme risco individual.\n8. Registrar todo evento adverso suspeito no Vigimed/ANVISA e farmácia.\n9. Arquivar toda documentação por pelo menos 5 anos.\n``` --- ## 7. Checklist de Prontuário e Consentimento/TCLE ### A) Prontuário Médico - Diagnóstico e data\n- Exames laboratoriais que sustentam indicação\n- Produto/molécula, dose, via, lote, validade, farmácia manipuladora/documento ANVISA\n- Justificativa para off-label/manipulação (quando aplicável)\n- Risco-benefício explicado ao paciente (incluindo infecção, eventos adversos, recall)\n- Alternativas de tratamento documentadas\n- Consentimento informado assinado e datado\n- Monitorização inicial e planos futuros\n- Registro de eventos adversos e follow-up de farmacovigilância ### B) Termo de Consentimento Esclarecido (Itens Obrigatórios) - Diagnóstico e justificativa clínica\n- Nome e formulação da molécula/implante\n- Origens e limitações da evidência (incluindo status regulatório)\n- Riscos frequentes e raros — especialmente infecciosos, interações, eventos graves\n- Discussão sobre escolha de farmácia e rastreabilidade\n- Alternativas farmacológicas/industriais e não-farmacológicas\n- Liberdade para dúvidas, recusa e cancelamento\n- Responsabilidades de notificação de sintomas/adversidades\n- Autorização registrada com assinatura --- ## 8. Monitoramento, Notificação e Recall - Consultas iniciais em 15-30 dias para implantes/manipulados, depois cada 3-6 meses (ajustar intervalo conforme gravidade/risco).\n- Monitorização laboratorial de acordo com o fármaco e contexto clínico (vide guideline).\n- Qualquer evento adverso — inclusive leve/moderado — deve ser registrado no Vigimed-ANVISA e comunicado à farmácia.\n- Recall imediato se suspeita de falha do lote; retirada do produto e orientação clínica ao paciente.\n- Documentar todas as ações e comunicados no prontuário. --- ## 9. Telemedicina e Novos Cenários - Seguir mesmas regras éticas e documentais: diagnóstico só após anamnese e exames adequados, TCLE específico digitalizado.\n- Interações e monitoramento farmacovigilante via plataformas seguras que respeitem a LGPD [S2]. --- ## 10. Publicidade, Marketing e Sanções - Proibido: toda publicação, depoimento, vídeo ou post de “casos de sucesso” ou promessas, especialmente para off-label, estética, longevidade.\n- Penalidades: variam de advertência até cassação, dependendo de gravidade e reincidência (vide CFM/ANVISA — Res. 2.333/2023). --- ## 11. Resumo Prático: O que NÃO fazer - Não prescrever hormônios/manipulados para fins estéticos, anti-aging ou “wellness” sem indicação clínica e laboratorial estrita [G6, S19].\n- Não usar “research peptides”, produtos sem registro, laudo ou acompanhamento farmacêutico [S1].\n- Não delegar rastreabilidade a farmácia/paciente: a responsabilidade é compartilhada, começa na decisão do prescritor.\n- Não iniciar nenhuma terapia sem TCLE formalizado.\n- Não omitir notificação de evento adverso, mesmo se leve. --- ## 12. “Pérolas” Práticas de Segurança - Sempre rastreie e documente número do lote, farmácia e laudo dos manipulados em cada prescrição/manipulação.\n- Em suspeita ou confirmação de evento infeccioso/local grave: suspender uso, examinar, coletar material (cultura, eventualmente imagem) e notificar Vigimed/ANVISA prontamente.\n- Atualize periodicamente o consentimento informado: aborde status regulatório, riscos, novidades em evidências. --- ## 13. Quick_ref Final: Checklist - Diagnóstico e indicação bem documentados.\n- Justificativa para escolha do produto via cenário regulatório.\n- Farmácia: certificações, laudo de pureza, rastreio de lote.\n- Prescrição com lote e validade.\n- Termo de consentimento assinado.\n- Follow-up e monitoramento laboratorial.\n- Notificação compulsória de eventos adversos.\n- Documentação armazenada por 5 anos, LGPD compliant. --- ## Referências Fundamentais - [G1, G2]: Endocrine Society, NEJM TRAVERSE.\n- [G3, G4]: NAMS 2022, WHI/JAMA.\n- [G5]: Endocrine Society/ACOG/CFM/ANVISA sobre manipulados.\n- [G6]: CFM Resolução 2.333/2023.\n- [S1–S12]: ANVISA, USP <797>, CDC/NEJM fúngica, farmacovigilância.\n- Dados nacionais: consultar anuários oficiais para incidências atuais. --- _Em caso de dúvida, prefira sempre conduta conservadora, respaldo documental robusto e atualização contínua em normas ANVISA/CFM._ # FIM",
+  "quick_ref": "# Guia Rápido para Prescrição Segura de Hormônios e Implantes Manipulados | Item | Detalhes |\n|-------------------------------|----------------------------------------------------------------|\n| Diagnóstico e Indicação | Confirmar sintoma + exame laboratorial (ex.: testosterona baixa)|\n| Produto | Preferir registrado ANVISA; manipulado só se falha/intolerância|\n| Farmácia | Certificação ANVISA, ambiente ISO 5+, documento de laudos |\n| Prescrição | Dose, via, lote, validade, farmácia claramente identificados |\n| Consentimento Informado | Documento assinado com riscos, alternativas, responsáveis |\n| Monitoramento | Clínico laboratorial 15-30 dias após início, depois periódicos |\n| Notificação Eventos Adversos | Informar Vigimed e farmácia sempre que ocorrer |\n| Documentação | Arquivar por 5 anos com conformidade LGPD | **Red Flags:** - Uso para fins estéticos ou longevidade sem indicação\n- Farmácia sem licença atual ou com ambiente não adequado\n- Falta de rastreabilidade do lote e laudo farmacêutico\n- Ausência de termo de consentimento formal **Checklist de Consultório:** - Confirmação laboratorial da indicação\n- Verificação documento farmácia e lote\n- Consentimento informado assinado\n- Plano definido de monitoramento\n- Registro de evento adverso --- *Nota: Em caso de dúvidas, consulte referências ANVISA, CFM e guidelines científicas atualizadas.*",
   "clinical_case": {
+    "title": "Caso Clínico: Prescrição Responsável de Implante de Testosterona em Homem de 48 anos",
+    "vignette": "Paciente masculino, 48 anos, queixa de fadiga persistente, baixa libido e redução progressiva de massa muscular há 6 meses. Exames laboratoriais mostram testosterona total matinal de 240 ng/dL em duas coletas distintas. Sem doenças cardiovasculares prévias. Sem apneia do sono conhecida. Sem uso prévio de terapia hormonal. Avaliação clínica e laboratorial sem contraindicações evidentes.",
+    "question": "Qual a conduta mais adequada para a prescrição da terapia de reposição de testosterona neste paciente, segundo as melhores práticas nacionais de segurança, farmacovigilância e responsabilidade do prescritor?",
+    "teaching": "O paciente apresenta diagnóstico laboratorial e sintomático compatível com hipogonadismo, uma indicação formal para TRT [G1]. Entretanto, dado que implantes subcutâneos apresentam risco raro, porém real, de eventos infecciosos e fibrose, e que essa via é exceção documentada, a escolha por essa modalidade demanda atenção rigorosa a farmácia manipuladora estéril certificada, consentimento informado claro e monitoramento laboratorial e clínico inicial e periódico [S11, S12, G1]. A melhor prática consiste em: 1. Confirmar indicação clínica e laboratorial documentada.\n2. Prescrever produto registrado preferencialmente — implantes só se alternativas registradas não forem viáveis.\n3. Escolher farmácia manipuladora com certificação ANVISA e ambiente ISO 5+, exigir lote, laudos microbiológicos e estabilidade.\n4. Obter consentimento informado por escrito, explicitando riscos e alternativas.\n5. Monitorar hematócrito, PSA, sinais de infecção, e sintomas após 2-4 semanas e periodicamente.\n6. Documentar todo o processo no prontuário, incluindo justificativas e eventos adversos. Negligenciar qualquer destas etapas transgride ética, responsabilidade legal e coloca o paciente em risco evitável.",
+    "reward": 15,
     "data": [
       {
         "label": "Idade",
-        "value": "57 anos"
+        "value": "48 anos"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, baixa libido, perda de massa muscular"
+      },
+      {
+        "label": "Testosterona total",
+        "value": "240 ng/dL (duas coletas matinais)"
       },
       {
         "label": "Comorbidades",
-        "value": "DM2 e HAS controlados"
+        "value": "Ausentes conhecidas"
       },
       {
-        "label": "Tempo do implante",
-        "value": "15 dias"
+        "label": "Contraindicações",
+        "value": "Nenhuma evidente"
       },
       {
-        "label": "Sinais Locais",
-        "value": "Dor, calor, vermelhidão, área endurecida 5 cm"
+        "label": "Preferências do paciente",
+        "value": "Nenhuma expressa"
       },
       {
-        "label": "Sintomas sistêmicos",
-        "value": "Ausentes (afebril)"
+        "label": "Exames adicionais",
+        "value": "PSA normal"
       },
       {
-        "label": "Laudo manipulado",
-        "value": "Indisponível no prontuário"
+        "label": "Uso prévio de TRT",
+        "value": "Não"
       },
       {
-        "label": "Resposta da farmácia",
-        "value": "Laudo em análise"
+        "label": "Farmácia manipuladora",
+        "value": "Licença verificada e ambiente certificado"
+      },
+      {
+        "label": "Termo de consentimento",
+        "value": "Assinado"
       }
     ],
-    "title": "Infecção Local Pós-Implante de Testosterona Manipulado",
-    "reward": 5,
     "options": [
       {
-        "label": "A) Realizar analgésico tópico e observar; retorno em 7 dias.",
+        "label": "Prescrever implante subcutâneo de testosterona manipulada sem consentimento formal e monitorar apenas sintomas",
         "correct": false,
-        "rationale": "Subestima risco infeccioso; atraso no diagnóstico pode piorar quadro."
+        "rationale": "Prescrição sem consentimento informado formal e monitoramento laboratorial desrespeita normas de segurança e responsabilidade do prescritor, aumentando riscos."
       },
       {
-        "label": "B) Orientar retirada do implante, coleta de material para cultura, início de antibiótico empírico local, notificar evento adverso e solicitar laudo imediato do lote à farmácia.",
+        "label": "Indicar terapia de reposição com gel de testosterona registrado ANVISA e acompanhar hematócrito e PSA periodicamente",
         "correct": true,
-        "rationale": "Conduta correta para infecção local com risco potencial grave; monitoração e notificação obrigatórias."
+        "rationale": "Opção segura, preferível a implantes, facilita ajuste de dose, monitoramento e minimiza riscos infecciosos, seguindo recomendações atuais [G1,G2]."
       },
       {
-        "label": "C) Solicitar só anti-inflamatório oral, sem alterar conduta; monitorar evolução à distância.",
+        "label": "Prescrever implante de testosterona em farmácia qualquer para garantir custo reduzido",
         "correct": false,
-        "rationale": "Tratamento insuficiente para provável infecção; risco de progressão grave."
+        "rationale": "Farmácia não certificada aumenta risco de contaminação, falha em controle de qualidade e responsabiliza negativamente o médico."
       },
       {
-        "label": "D) Não tomar medidas, pois não há febre nem sintomas sistêmicos.",
+        "label": "Sugerir uso de secretagogos para melhora de sintomas sem comprovação laboratorial",
         "correct": false,
-        "rationale": "Falta de abordagem coloca o paciente em risco; sinais locais são sugestivos de infecção."
+        "rationale": "Uso de secretagogos para anti-aging é proibido pelo CFM e não indicado para hipogonadismo diagnosticado."
       }
-    ],
-    "question": "Qual a conduta mais adequada para esse caso?",
-    "vignette": "Homem, 57 anos, DM2 e HAS controlados, realiza implante de testosterona em farmácia manipulada. Ao 15º dia, apresenta dor, calor e vermelhidão local, sem febre. Área endurecida de 5 cm no glúteo. Laudo de pureza do lote não disponível. Farmácia relata análise em andamento.",
-    "teaching": "O quadro clínico indica provável infecção local relacionada ao implante manipulado, possivelmente agravada por falta de controle químico microbiológico e ausência de laudo de pureza do lote. Infecções por Staphylococcus e Candida devem ser consideradas. O manejo deve ser ativo para evitar progressão para complicações graves e disseminação. A retirada do implante facilita a resolução e permite o tratamento antimicrobiano adequado. A notificação à ANVISA é imprescindível para vigilância e possibilidade de recall do lote infectado. Esperar ou tratar apenas sintomaticamente aumenta risco de sepse e falha terapêutica."
+    ]
   },
   "refs": [
     {
-      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018.",
+      "url": "https://doi.org/10.1210/jc.2018-00229"
     },
     {
-      "url": "https://doi.org/10.2337/dc10-s011",
-      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010."
+      "citation": "Lincoff AM, et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med. 2023.",
+      "url": "https://doi.org/10.1056/NEJMoa2215025"
     },
     {
-      "url": "https://doi.org/10.1128/cmr.18.4.657-686.2005",
-      "citation": "Extended-spectrum beta-lactamases: a clinical update. Paterson DL, Bonomo RA. Clin Microbiol Rev 2005."
+      "citation": "The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause. 2022.",
+      "url": "https://doi.org/10.1097/GME.0000000000002028"
     },
     {
-      "url": "https://doi.org/10.1086/599376",
-      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update. Mermel LA, Allon M, et al. Clin Infect Dis 2009."
+      "citation": "Rossouw JE, et al. Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women (WHI). JAMA. 2002.",
+      "url": "https://doi.org/10.1001/jama.288.3.321"
     },
     {
-      "url": "https://doi.org/10.1128/cmr.00029-06",
-      "citation": "Epidemiology of invasive candidiasis: a persistent public health problem. Pfaller MA, Diekema DJ. Clin Microbiol Rev 2007."
+      "citation": "Endocrine Society & ACOG. Compounded bioidentical hormone therapy caution. Position statements 2016."
     },
     {
-      "url": "https://doi.org/10.1093/cid/civ933",
-      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the IDSA. Pappas PG, et al. Clin Infect Dis 2016."
+      "citation": "CFM Resolução 2.333/2023 — restrição a hormonioterapia estética/anti-aging. Conselho Federal de Medicina. 2023.",
+      "url": "https://portal.cfm.org.br/"
     },
     {
-      "url": "https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2023/2333",
-      "citation": "Resolução CFM nº 2.333, de 2023."
+      "citation": "ANVISA — princípios de Boas Práticas de Manipulação. Regulação BR 2022.",
+      "url": "https://www.gov.br/anvisa/"
     },
     {
-      "url": "https://www.gov.br/anvisa/pt-br",
-      "citation": "RDC 67/2007, RDC 222/2018 — ANVISA."
+      "citation": "United States Pharmacopeia (USP) <797> Pharmaceutical Compounding — Sterile Preparations. USP 2023.",
+      "url": "https://www.usp.org/"
     }
   ],
-  "status": "published"
+  "raise_bar": true,
+  "audit_verdict": "pass"
 }

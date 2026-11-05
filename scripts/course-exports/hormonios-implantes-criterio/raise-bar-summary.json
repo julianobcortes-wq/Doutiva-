@@ -1,0 +1,87 @@
+[
+  {
+    "position": 1,
+    "title": "Eixo Hormonal no Adulto: Deficiência vs Otimização Cosmética",
+    "mono_len": 13453,
+    "slides": 7,
+    "elapsed_s": 100,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito\n**Requer correções** - A monografia é sólida, atualizada e muito bem estruturada, porém necessita ajustes na clareza dos valores laboratoriais e defin"
+  },
+  {
+    "position": 2,
+    "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio: O Mínimo Inegociável",
+    "mono_len": 16812,
+    "slides": 2,
+    "elapsed_s": 92,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\nPronta para revisão humana com pequenas revisões complementares. **Sugestões para ajustes antes da publicação:** - Completar referências faltantes ("
+  },
+  {
+    "position": 3,
+    "title": "Hipogonadismo Masculino: Diagnóstico, Terapia de Reposição de Testosterona (TRT), Vias (Gel, Injetável, Implante) e Riscos",
+    "mono_len": 14064,
+    "slides": 7,
+    "elapsed_s": 98,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana**, com ajustes e complementos para: - Inserir referências precisas para epidemiologia. - Atualizar detalhes técnicos e"
+  },
+  {
+    "position": 4,
+    "title": "Implantes de testosterona em homens: técnica conceitual, farmacocinética, picos/vales e follow-up",
+    "mono_len": 13434,
+    "slides": 8,
+    "elapsed_s": 106,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana** - O conteúdo está bem estruturado, atual e condizente com as normas brasileiras.\n- Há algumas lacunas e necessidade de "
+  },
+  {
+    "position": 5,
+    "title": "THM na Menopausa: Evidência Pós-WHI, Janela de Oportunidade e Vias de Administração",
+    "mono_len": 13592,
+    "slides": 6,
+    "elapsed_s": 82,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana** Conteúdo está bem estruturado, atualizado e baseado em evidências consolidadas pós-WHI, alinhado à regulação brasileir"
+  },
+  {
+    "position": 6,
+    "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: Evidência, Regulatório e Aplicação Clínica",
+    "mono_len": 15414,
+    "slides": 2,
+    "elapsed_s": 81,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito **Requer correções** - A aula é um excelente resumo multidisciplinar, com abordagem ética, clínica e regulatória adequada. - Contudo, precisa: "
+  },
+  {
+    "position": 7,
+    "error": "Failed to process successful response"
+  },
+  {
+    "position": 8,
+    "title": "Segurança, Farmacovigilância e Responsabilidade do Prescritor em Terapias Hormonais e Manipulados Estéreis",
+    "mono_len": 11206,
+    "slides": 7,
+    "elapsed_s": 83,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana com pequenas correções/atualizações.** Comentário: O módulo está bem estruturado e com boa fundamentação técnica e regula"
+  },
+  {
+    "position": 9,
+    "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
+    "mono_len": 12135,
+    "slides": 7,
+    "elapsed_s": 80,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana** - A monografia está clara, com adequada fundamentação de evidências e consenso ético-regulatório.\n- Recomenda-se checar"
+  },
+  {
+    "position": 10,
+    "title": "Hormônios e Implantes com Critério: Casos Clínicos e Prática Ética",
+    "mono_len": 13591,
+    "slides": 8,
+    "elapsed_s": 98,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana.** - A monografia está bem fundamentada, atualizada, com fluxogramas claros e condutas alinhadas às diretrizes brasileira"
+  }
+]

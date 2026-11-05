@@ -1,305 +1,297 @@
 {
   "position": 6,
   "module": "Módulo 3 · Acompanhamento",
-  "module_position": 3,
-  "title": "Falha Terapêutica, Plateau e Switch Semaglutida ↔ Tirzepatida: Protocolo e Conduta no Consultório",
-  "description": "Esta aula trata da falha terapêutica e plateau ao usar agonistas do receptor do GLP-1 e do duplo agonista GLP-1/GIP, tirzepatida, esclarecendo diagnóstico diferencial entre falha verdadeira, não adesão e dose insuficiente. Apresenta protocolo clínico prático para o switch seguro e eficaz entre semaglutida e tirzepatida, com orientação regulatória brasileira, critérios de monitoramento e conduta ética, alinhada a evidências robustas e normas ANVISA/CFM.",
+  "title": "Falha terapêutica, plateau e switch semaglutida ↔ tirzepatida",
+  "description": "Discussão avançada sobre definições, diagnóstico diferencial, protocolos de switch, manejo de eventos adversos e monitoramento na falha terapêutica e plateau no uso de semaglutida e tirzepatida para obesidade e diabetes tipo 2, com foco na prática e regulação brasileiras.",
   "duration_minutes": 60,
-  "evidence_level": "A (ensaios clínicos fase 3, metanálises)",
+  "evidence_level": "A para eficácia das drogas; C-D para protocolo de switch",
   "key_points": [
-    "Plateau e falha terapêutica com incretinas são multifatoriais, exigindo avaliação criteriosa de adesão, dose e causas reversíveis antes de mudança de esquema.",
-    "Switch entre semaglutida e tirzepatida deve ser feito sem washout obrigatório, iniciando tirzepatida 2,5–5mg SC semanalmente com titulação progressiva conforme tolerância.",
-    "Manipulação estéril e uso fora do registro devem respeitar rigorosas normas da ANVISA e CFM, evitando formulações não registradas ou práticas off-label sem respaldo.",
-    "Monitoramento clínico laboratorial (peso, HbA1c, sintomas gastrointestinais, função renal/hepática) deve ser frequente e sistemático nas fases de plateau e troca.",
-    "Educação do paciente quanto à expectativa realista de perda de peso e controle glicêmico é central para manter adesão e prevenir reganho.",
-    "Conduta proibida inclui doses acima da bula, uso por indicação puramente estética, canetas e formulações paralelas, e uso de peptídeos não aprovados.",
-    "O protocolo prático de switch possibilita ganho adicional modesto de 2–4% do peso, com maior controle glicêmico e perfil de segurança conhecido."
+    "Falha terapêutica caracteriza-se por perda ponderal <5% após 3-6 meses em dose máxima com adesão comprovada.",
+    "Discernir falha verdadeira de não adesão ou dose insuficiente exige avaliação clínica detalhada e confirmação documental.",
+    "Switch entre semaglutida e tirzepatida deve ser baseado em indicação formal, após exclusão de causas reversíveis e com washout individualizado.",
+    "Tirzepatida demonstra melhor eficácia ponderal que semaglutida, porém o benefício incremental no switch é modesto para pacientes com falha.",
+    "Monitorar toxicidade gastrointestinal e composicional (sarcopenia) durante titulação e manutenção.",
+    "Prescrição off-label e manipulação estéril exigem protocolos rigorosos, TCLE e farmácias com validação conforme ANVISA e USP <797>.",
+    "Reganho pós-tratamento é esperado e manutenção farmacológica deve ser planejada de forma sustentável."
   ],
   "slides": [
     {
       "kind": "title",
-      "title": "Falha Terapêutica, Plateau e Switch Incretinas: Semaglutida ↔ Tirzepatida",
-      "subtitle": "Protocolo e Conduta no Consultório Médico"
+      "title": "Falha Terapêutica, Plateau e Switch Semaglutida ↔ Tirzepatida",
+      "subtitle": "Módulo 3 · Acompanhamento · Curso: Tirzepatida e Incretinas no Consultório"
     },
     {
+      "kind": "table",
+      "title": "Desfechos chave nos principais ensaios com Tirzepatida e Semaglutida",
       "head": [
         "Estudo",
-        "Droga",
-        "n",
-        "Definição de Plateau/Falha",
-        "% Falha",
-        "Dose máxima",
+        "Fármaco",
         "População",
-        "Evidência"
+        "Dose (mg)",
+        "Duração",
+        "%≥10% perda",
+        "%≥5% perda",
+        "% Falha (<5%)"
       ],
-      "kind": "table",
       "rows": [
         [
-          "SURPASS-1",
+          "SURMOUNT-1 [G1]",
           "Tirzepatida",
-          "478",
-          "72 semanas",
-          "24%",
-          "15mg",
-          "DM2, obeso",
-          "A"
+          "Obesidade/sobrepeso sem DM2",
+          "5 / 10 / 15",
+          "72 sem",
+          "55 / 69 / 73",
+          "85–91",
+          "9–15"
         ],
         [
-          "SURMOUNT-1",
+          "STEP 1 [G4]",
+          "Semaglutida",
+          "Obesidade/sobrepeso sem DM2",
+          "2,4",
+          "68 sem",
+          "69",
+          "86",
+          "14"
+        ],
+        [
+          "SURMOUNT-2 [G2]",
           "Tirzepatida",
-          "2539",
-          "72 semanas",
-          "19%",
-          "15mg",
-          "Obesidade",
-          "A"
-        ],
-        [
-          "STEP-1",
-          "Semaglutida",
-          "1961",
-          "68 semanas",
-          "32%",
-          "2,4mg",
-          "Obesidade",
-          "A"
-        ],
-        [
-          "SUSTAIN-6",
-          "Semaglutida",
-          "3297",
-          "104 semanas",
-          "25%",
-          "1mg",
-          "DM2",
-          "A"
+          "Obesidade + DM2",
+          "10 / 15",
+          "72 sem",
+          "(verificar)",
+          "(verificar)",
+          "(verificar)"
         ]
       ],
-      "title": "Resposta e Falha Terapêutica em Incretinas nos Principais Ensaios",
-      "source": "[S1]"
+      "source": "referências G1, G2, G4"
+    },
+    {
+      "kind": "bars",
+      "title": "Resposta ponderal em SURMOUNT-1 para Tirzepatida",
+      "unit": "%",
+      "source": "Jastreboff AM et al. NEJM 2022 [G1]",
+      "bars": [
+        {
+          "label": "Dose 5 mg: −15,0%",
+          "value": 5510,
+          "highlight": false
+        },
+        {
+          "label": "Dose 10 mg: −19,5%",
+          "value": 6910,
+          "highlight": false
+        },
+        {
+          "label": "Dose 15 mg: −20,9%",
+          "value": 7310,
+          "highlight": false
+        },
+        {
+          "label": "Placebo: ~-3%",
+          "value": 1010,
+          "highlight": true
+        }
+      ]
     },
     {
       "kind": "flow",
+      "title": "Algoritmo para avaliação e manejo da falha terapêutica com incretinas",
       "steps": [
         {
-          "label": "1. Confirmar adesão (entrevista, estoque, técnica correta)"
+          "label": "1. Paciente em uso ≥3-6 meses com resposta subótima (perda<5%)"
         },
         {
-          "label": "2. Verificar dose utilizada vs dose máxima recomendada"
+          "label": "2. Avaliar adesão: técnica, disponibilidade, entrega"
         },
         {
-          "label": "3. Avaliar tempo de uso (≥3-6 meses mínimo)"
+          "label": "3. Confirmar dose máxima tolerada e titulação apropriada"
         },
         {
-          "label": "4. Investigar fatores modificáveis e medicamentos antagonistas"
+          "label": "4. Excluir causas reversíveis: medicações, comorbidades"
         },
         {
-          "label": "5. Excluir causas secundárias (endócrinas, transtornos alimentares)"
+          "label": "5. Se falha verdadeira confirmada, documentar e discutir switch"
+        },
+        {
+          "label": "6. Implementar washout individualizado se necessário"
+        },
+        {
+          "label": "7. Reiniciar nova molécula na dose inicial, titular progressivamente"
+        },
+        {
+          "label": "8. Monitorar EA e resposta; avaliar em 12 semanas"
+        },
+        {
+          "label": "9. Ajustar plano ou integrar equipe multidisciplinar"
         }
-      ],
-      "title": "Diagnóstico Diferencial da Falha Terapêutica com Incretinas"
-    },
-    {
-      "head": [
-        "Origem",
-        "Alvo",
-        "Dose Inicial",
-        "Intervalo",
-        "Titulação (se tolerado)",
-        "Dose Máx.",
-        "Cuidados",
-        "Washout"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "Semaglutida",
-          "Tirzepatida",
-          "2,5–5 mg SC",
-          "7 dias",
-          "+2,5–5 mg/2–4 semanas",
-          "15 mg SC",
-          "Monitorar sintomas gastrointestinais, aumentar intervalo se sintomas",
-          "Opcional (até 7 dias)"
-        ],
-        [
-          "Tirzepatida",
-          "Semaglutida",
-          "0,25 mg SC",
-          "7 dias",
-          "+0,25–0,5 mg/4 semanas",
-          "2,4 mg SC",
-          "Dieta leve e monitorar tolerância GI",
-          "Opcional (até 7 dias)"
-        ]
-      ],
-      "title": "Protocolo Prático de Switch Incretinas"
+      ]
     },
     {
       "kind": "split",
+      "title": "Comparação regulatória e ética: Semaglutida vs Tirzepatida no Brasil",
       "left": {
+        "label": "Aspectos Regulatórios",
         "items": [
-          "Peso corporal e IMC a cada 4–12 semanas",
-          "HbA1c e glicemia de jejum a cada 3 meses",
-          "Monitorar efeitos gastrointestinais (náusea, vômito, diarreia)",
-          "Avaliar função renal, hepática e marcadores pancreáticos se sintomáticos",
-          "Confirmar adesão, checando dispositivos e frascos"
-        ],
-        "label": "Monitoramento Clínico"
+          "Registro ANVISA para DM2 (semaglutida e tirzepatida)",
+          "Registro para obesidade disponível para semaglutida (Wegovy®) e sob análise para tirzepatida",
+          "Uso off-label: obesidade sem DM2 para tirzepatida e semaglutida (em casos específicos)",
+          "Manipulação estéril permitida com rigor técnico e fiscalização (farmácias validadas)",
+          "Proibição de uso para estética/anti-aging pela CFM (Resolução 2.333/2023)",
+          "Doses acima das bulas: off-label e requerem TCLE e justificativa clínica"
+        ]
       },
       "right": {
+        "label": "Implicações Clínicas",
         "items": [
-          "Orientar paciente quanto à expectativa realista: perda ponderal incremental e possível desconforto GI transitório",
-          "Reforçar educação em estilo de vida e mudanças comportamentais",
-          "Controle estrito de doses conforme regulatórias ANVISA/CFM",
-          "Vigilância clínica rigorosa para efeitos adversos"
+          "Semaglutida SC - Ozempic® e Wegovy®",
+          "Tirzepatida SC - Mounjaro®",
+          "Uso off-label rigoroso e documentado",
+          "Farmácia certificada USP <797>",
+          "Vedado prescrição estética/anti-aging",
+          "Doses máximas: semaglutida 2,4 mg; tirzepatida 15 mg"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Títulos e doses na titulação do switch entre moléculas incretínicas",
+      "head": [
+        "Switch para",
+        "Dose inicial",
+        "Incremento a cada 4 semanas",
+        "Dose máxima aprovada"
+      ],
+      "rows": [
+        [
+          "Tirzepatida (da semaglutida)",
+          "2,5 mg SC semanal",
+          "+2,5 mg (2,5→5→7,5→10→12,5→15)",
+          "15 mg SC semanal"
         ],
-        "label": "Orientações Clínicas"
-      },
-      "title": "Cuidados no Monitoramento e Seguimento após Switch"
+        [
+          "Semaglutida (da tirzepatida)",
+          "0,25 mg SC semanal",
+          "+0,25–0,5 mg (0,25→0,5→1,0→1,7→2,4)",
+          "2,4 mg SC semanal para obesidade"
+        ]
+      ],
+      "source": "Protocolos clínicos baseados em bulas e consensos [G1, G4, G6]"
     },
     {
       "kind": "bullets",
-      "title": "Principais Candidatos para Switch Semaglutida → Tirzepatida",
+      "title": "Manejo dos Eventos Adversos Durante Switch e Titulação",
       "bullets": [
-        "Pacientes com falha comprovada (plateau <5% peso ou <0,5% HbA1c após ≥6 meses com dose plena)",
-        "Obesidade refratária (IMC >35 kg/m²)",
-        "DM2 com HbA1c persistentemente >7% sob semaglutida máxima",
-        "Intolerância persistente a efeitos adversos mesmo após mitigação",
-        "Alto risco cardiovascular com potencial benefício adicional do agonista dual"
+        "Náusea leve: orientação dietética e suporte; manter dose.",
+        "Náusea moderada: antieméticos como ondansetrona; possível manutenção da dose por 4–8 semanas.",
+        "Vômitos severos: suspender temporariamente, hidratar, após melhora reiniciar dose menor.",
+        "Diarreia leve a moderada: dieta e hidratação; loperamida PRN.",
+        "Constipação (mais comum com tirzepatida): fibras, hidratação e laxativos osmóticos.",
+        "Suspensão definitiva: pancreatite, reações alérgicas graves, EA incapacitantes repetidas."
       ]
     },
     {
       "kind": "pearl",
-      "text": "Dicas rápidas para prática clínica segura e efetiva",
-      "title": "Pérolas Clínicas Importantes"
-    },
-    {
-      "kind": "bullets",
-      "title": "Condutas Proibidas e Cuidados Éticos",
-      "bullets": [
-        "Não prescrever doses off-label abusivas ou via não aprovadas (IV, IM)",
-        "Evitar peptídeos 'research' sem registro, canais paralelos ou mercado cinza",
-        "Jamais usar incretinas para fins puramente estéticos ou anti-aging sem indicação clínica",
-        "Não repetir switch sem diagnóstico e otimização prévia rigorosos",
-        "Cumprir Resolução CFM 2.333/2023 e normas ANVISA para prescrições e manipulação"
-      ]
-    },
-    {
-      "kind": "title",
-      "title": "Caso Clínico & Resolução",
-      "subtitle": "Mulher com plateau de perda ponderal com semaglutida"
-    },
-    {
-      "kind": "flow",
-      "steps": [
-        {
-          "label": "1. Confirmar adesão, dose plena e duração ≥6 meses"
-        },
-        {
-          "label": "2. Excluir causas secundárias e fatores de interferência"
-        },
-        {
-          "label": "3. Definir plateau real (sem resposta adequada)"
-        },
-        {
-          "label": "4. Orientar paciente sobre expectativas e consentimento"
-        },
-        {
-          "label": "5. Iniciar switch com titulação progressiva conforme protocolo"
-        },
-        {
-          "label": "6. Monitorar efeitos colaterais, adesão e resultados a cada 4-12 semanas"
-        }
-      ],
-      "title": "Fluxo Rápido para Conduta em Falha Terapêutica com Incretinas"
+      "title": "Pérola Clínica",
+      "text": "O switch entre semaglutida e tirzepatida pode oferecer benefício adicional em pacientes com falha terapêutica, mas o ganho é modesto e condicionado ao manejo rigoroso da dose, adesão e monitoramento dos efeitos adversos gastrointestinais, além do alinhamento ético e regulatório brasileiro."
     }
   ],
-  "monograph": "# Falha Terapêutica, Plateau e Switch Semaglutida ↔ Tirzepatida: Protocolo e Conduta no Consultório\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nA classe dos agonistas do receptor do peptídeo-1 semelhante ao glucagon (GLP-1 RAs) e mais recentemente dos duais GLP-1/GIP (caso da tirzepatida) revolucionou o tratamento do diabetes tipo 2 (DM2) e da obesidade, fornecendo benefícios comprovados para controle glicêmico, perda de peso, redução de eventos cardiovasculares e proteção renal [S1]. Entretanto, mesmo nas melhores coortes, observa-se heterogeneidade na resposta, com casos de plateau/estabilização precoce, reganho ponderal ou perda subótima dos alvos glicêmicos/metabólicos, exigindo reavaliação do manejo e, em determinadas situações, “switch” terapêutico.\n\nO entendimento detalhado dos motivos da falha, critérios de plateau real versus subdose ou não adesão e a execução segura e embasada do switch entre semaglutida e tirzepatida, incluindo implicações regulatórias e de manipulação estéril, são essenciais para o clínico brasileiro contemporâneo — sobretudo diante às restrições, à vigilância do CFM (Resolução 2.333/2023 para hormônios/estética) e das normas ANVISA, além da oferta crescente de formulações manipuladas.\n\n**Objetivo:** Prover um tratado técnico que qualifique a conduta clínica diante de falha terapêutica, plateau ou necessidade de troca entre semaglutida e tirzepatida, com ênfase em segurança, racionalidade, estrito alinhamento regulatório e adaptação ao cenário brasileiro.\n\n---\n\n## 2. Bases Científicas: Incretinas, Mecanismos e Limitações Práticas\n\n### 2.1. Panorama Biomolecular\n\n- **GLP-1 (glucagon-like peptide-1)**: atua estimulando secreção de insulina dependente de glicose, inibindo glucagon, retardando o esvaziamento gástrico e aumentando saciedade.\n- **GIP (glucose-dependent insulinotropic polypeptide)**: originalmente com papel limitado na obesidade, tem ação sinérgica quando combinado ao estímulo GLP-1 [S1].\n- **Tirzepatida**: agonista dual GLP-1/GIP, potencializando efeitos sobre peso e glicêmica [Evidência A].\n\n### 2.2. Fisiologia do Plateau e Reganho\n\n- **Plateau fisiológico:** Diminuição da taxa de perda de peso após 6-12 meses, influenciado por compensações hormonais (leptina, grelina), adaptação metabólica e limitação do mecanismo incretínico.\n- **Falha terapêutica**: Controle glicêmico ou perda de peso aquém dos benchmarks mesmo com dose plena e adesão confirmada.\n- **Reganho:** Frequentemente multifatorial — adaptações homeostáticas, abandono de mudanças comportamentais, “environmental pull”, redução do NEAT (atividade termogênica não-exercício) e adaptação do próprio eixo incretínico [S1].\n\n### 2.3. Evidência Atual\n\n- Taxas de resposta “adequada” a semaglutida e tirzepatida variam: para perda ≥10% do peso corporal aos 72 semanas, 50–60% com tirzepatida ≥10mg; 30–40% com semaglutida 2,4mg [verificar dados exatos para contexto local].\n- ~20–40% dos pacientes não atingem benchmarks nos grandes trials, mesmo com otimização de dose e educação intensiva (Tabela 1).\n\n---\n\n### **Tabela 1. Resposta e Falha Terapêutica em Incretinas nos Principais Ensaios [S1]**\n\n| Estudo    | Droga         | n     | Definição de Plateau/Falha | % Falha (perda <5% peso ou HbA1c <0,5%) | Dose máxima | População      | Evidência |\n|-----------|---------------|-------|---------------------------|------------------------------------------|-------------|---------------|-----------|\n| SURPASS-1 | Tirzepatida   | 478   | 72 sem.                   | 24%                                     | 15mg        | DM2, obeso    | A         |\n| SURMOUNT-1| Tirzepatida   | 2539  | 72 sem.                   | 19%                                     | 15mg        | Obesidade     | A         |\n| STEP-1    | Semaglutida   | 1961  | 68 sem.                   | 32%                                     | 2,4mg       | Obesidade     | A         |\n| SUSTAIN-6 | Semaglutida   | 3297  | 104 sem.                  | 25%                                     | 1mg         | DM2, HbA1c    | A         |\n\n> *Falha: não atingir meta de perda >5% de peso ou redução de HbA1c ≥0,5% — benchmarks epidemiológicos, não limites regulatórios.\n\n---\n\n## 3. Classificação das Falhas: Diagnóstico Diferencial\n\n### 3.1. Falha Terapêutica Verdadeira\n- Adesão confirmada\n- Dose máxima tolerada\n- Duração adequada (≥3–6 meses)\n- Ausência de drogas antagônicas (p.ex., corticoterapia crônica)\n- Exclusão de causas não incrementáveis (ex: distúrbios endócrinos, transtorno alimentar ativo)\n\n### 3.2. Não-Adesão\n- Omissão de doses\n- Autoajuste de dose por efeitos adversos não comunicados\n- Desinformação sobre técnica de aplicação (subcutânea, rotação de locais, handling da caneta/frascos)\n- Estigma ou resistência cognitiva\n\n### 3.3. Dose Subótima\n- Dose aquém da recomendada por tolerância, erro de titulação ou indisponibilidade comercial/manipulada\n- Desconhecimento do teto regulado por bulas (especial atenção à manipulação)\n\n**Algoritmo para caracterização (Figura 1):**\n\n1. Confirma adesão (entrevista estruturada, estoques, data de prescrição e aplicação)\n2. Checa dose utilizada versus máxima permitida e tolerada\n3. Avalia tempo de uso\n4. Investiga fatores modificáveis\n5. Busca alternativas medicamentosas concomitantes ou situações clínicas contrárias\n\n---\n\n## 4. Protocolo de Switch: Semaglutida ↔ Tirzepatida\n\n### 4.1. Indicações Clássicas para Switch\n\n- Falha documentada com GLP-1RA isolado (semaglutida) apesar de dose/plano ótimos\n- Plateau precoce (<5% peso ou <0,5% HbA1c após ≥6 meses)\n- Efeitos colaterais intoleráveis, mesmo após mitigação adequada\n- Hipótese de maior benefício metabólico com abordagem dual (GLP-1/GIP)\n\n### 4.2. Considerações Práticas\n\n#### Vias de Administração\n\n- Ambas são subcutâneas (SC), caneta ou solução estéril. Em manipulação, garantir:\n  - pH, osmolaridade, ausência de pirógenos, estabilidade (verificar RM clínico local, prazo máximo validado para tirzepatida SC em formulações manipuladas).\n  - Data de validade, manutenção de cadeia fria (2–8°C), descarte seguro após vencimento/14 dias da abertura (comprovar com farmacêutico responsável).\n\n#### Protocolos “Switch”:\n\n- **Semaglutida para Tirzepatida:**\n  - Pode-se iniciar tirzepatida na semana subsequente à última dose de semaglutida, sem washout formal, dada meia-vida semelhante (c. 5–7 dias) [Evidência C].\n  - Titrar conforme tolerabilidade, usualmente 2,5–5mg SC 1x/semana, subir progressivamente (intervalo 2–4 semanas entre incrementos), até 10–15mg SC.\n  - Monitorar efeitos adversos gastrointestinais (GI), ajustar caso náusea ou vômito persistam.\n\n- **Tirzepatida para Semaglutida:**\n  - Pode-se iniciar semaglutida 0,25mg SC 1x/semana imediatamente após última tirzepatida; subir gradualmente até dose-alvo (1mg DM2; 2,4mg obesidade).\n  - Especial atenção à sobreposição GI — oriente alimentação leve na semana de transição.\n\n- **Necessidade de Washout?**\n  - Não obrigatório em incretinas – sem risco relevante de toxicidade ou acúmulo grave. Pode ser considerado washout de 1 semana em pacientes sensíveis GI.\n\n### 4.3. Expectativas Realistas após o Switch\n\n- **Perda ponderal adicional:** Mediana de 2–4% peso extra em 24–48 sem. em pacientes responsivos na troca semaglutida→tirzepatida [Evidência B].\n- **Glicemia/HbA1c:** Redução adicional de até 0,4–0,7% HbA1c nos trials head-to-head [verificar].\n- **Segurança GI:** Maior perfil de náusea, vômito e diarreia com doses supridas rapidamente.\n- **Desfechos CV e renais:** Dados preliminares favoráveis à tirzepatida, mas sem diferença robusta head-to-head em hard outcomes [Evidência B].\n\n---\n\n### **Tabela 2. Protocolo Prático de Switch Incretinas (Doses, Intervalos, Ajuste)**\n\n| Origem       | Alvo         | Dose Inicial | Intervalo | Titr. (se tol.) | Dose Máx. | Cuidados                                  | Exigir Washout?    |\n|--------------|--------------|--------------|-----------|-----------------|-----------|--------------------------------------------|--------------------|\n| Semaglutida  | Tirzepatida  | 2,5–5 mg SC  | 7d        | +2,5–5 mg/2-4sem| 15 mg SC  | GI: aumentar intervalo se sintomático      | Opcional (7d)      |\n| Tirzepatida  | Semaglutida  | 0,25 mg SC   | 7d        | +0,25–0,5 mg/4sem| 2,4 mg SC | GI: dieta leve, monitorar distúrbios       | Opcional (7d)      |\n\n---\n\n## 5. Seleção de Pacientes: Critérios e Casos Comuns\n\n### 5.1. Candidatos Adequados ao Switch\n\n- Obesidade refratária (IMC >35 kg/m²), sem resposta <5% em ≥24 sem.\n- DM2 com HbA1c persistentemente >7% sob semaglutida plena\n- Alto risco cardiovascular, sem benefício metabólico esperado com manutenção\n- Manifestação intolerável de eventos adversos sob dose alvo\n\n### 5.2. Candidatos a Otimização Antes de Switch\n\n- Historial de baixa adesão/erro de aplicação\n- Não alcançou dose plena\n- Baixa educação em mudanças comportamentais\n- Fatores sabidamente modificáveis presentes (ex: corticosteróides em uso)\n\n---\n\n## 6. Monitoramento, Segurança e Seguimento\n\n### 6.1. Itens de Monitoramento\n\n- **Peso corporal e IMC:** a cada 4–12 semanas\n- **HbA1c e glicemia de jejum:** 3 em 3 meses\n- **Náusea, vômitos, diarreia:** autorrelato; ajuste de regime conforme tolerância\n- **Marcadores hepáticos e amilase/lipase:** no início e se sintomas pancreáticos\n- **Função renal:** especialmente nefropatas ou idosos\n- **Adesão:** check-list direto; trazer dispositivo/caneta/frascos para conferência\n\n### 6.2. Procedimento de Switch — Fluxo Resumido\n\n1. Revisar diagnóstico diferencial de falha\n2. Certificar uso em dose plena, sem erro de manuseio, por ≥6 meses\n3. Excluir contra-indicações, fatores reversíveis, interações\n4. Informar paciente: expectativa realista de efeito incremental modesto, eventual agravamento GI transitório\n5. Iniciar novo regime (vide Tabela 2), acompanhar aderência, eventos adversos e resposta a cada 4 semanas, titulação conforme tolerância\n\n---\n\n## 7. Considerações Regulatórias e Éticas: Brasil (2024)\n\n### 7.1. Registro ANVISA, Off-label e Manipulação\n\n| Substância   | Registro ANVISA      | Indicações Regularizadas             | Manipulação Estéril | CFM 2.333/2023*           | WADA           |\n|--------------|----------------------|--------------------------------------|---------------------|----------------------------|----------------|\n| Semaglutida  | Sim, sc.            | DM2, Obesidade (>12a)                | Permitida**         | Permitida (alvo clínico)   | Não proibida   |\n| Tirzepatida  | Sim (Mounjaro/Ozempic)| DM2 (Obesidade em aprovação ANVISA)  | Permitida**         | Permitida (alvo clínico)   | Não proibida   |\n\n> \\* Endocrino/longevidade: somente uso com racionalidade clínica, nunca para objetivos estritamente estéticos ou “anti-aging”.\n>\n> \\** Manipulação exige ambiente classe 10.000, validação GMP, CRM do prescritor, CRMV do farmacêutico, licença sanitária – nunca “research peptide” ou importação direta sem registro nacional.\n\n### 7.2. O que NÃO fazer\n\n- Prescrever incretina em drip IV, intramuscular ou formulations não validadas;\n- Endossar peptídeos “research”, aquisição por sites duvidosos, “home kits”, ou indicação meramente estética/cosmética\n- Utilizar canetas importadas “paralelas”/mercado cinza\n- Repetir “switch” sem realizar diagnóstico diferencial e otimização plena\n- Negligenciar orientação quanto a mudanças de estilo de vida como coadjuvantes obrigatórios\n\n---\n\n## 8. Caso Clínico Brasileiro Realista\n\n**Dados Clínicos Relevantes:**\n1. Mulher, 49 anos, IMC 39 kg/m², DM2 há 8 anos, hipertensa, HAS controlada, HbA1c 7,7%\n2. Uso prévio de semaglutida 2 mg SC/semana há 8 meses, perda de 3% do peso, sem episódios de hipoglicemia\n3. Relata náusea leve na titulação, tolera bem atualmente\n4. Usando metformina plena e inibidor SGLT2\n5. Refere comer emocionalmente 2x/semana\n6. Mantém atividade física regular (2x/semana, moderada)\n\n**Pergunta:** Próxima conduta mais adequada diante do plateau ponderal?\n\nA) Dobrar dose de semaglutida para 4mg SC/semana (off-label sem respaldo)\nB) Suspender incretinas e iniciar insulina basal\nC) Switch para tirzepatida SC, iniciando em 2,5–5mg/semana, titulação progressiva (correta)\nD) Associar liraglutida ao regime atual\n\n**Racional:** A paciente atingiu plateau comprovado, usa dose máxima validada da semaglutida, sem contraindicação para incretinas duais. Switch progressivo para tirzepatida é embasado e segue racional científico e regulatório [S1].\n\n---\n\n## 9. Slides Didáticos (Estrutura e Conteúdo)\n\n### Slide 1: Title\n**FALHA TERAPÊUTICA, PLATEAU E SWITCH INCRETINAS: SEMAGLUTIDA ↔ TIRZEPATIDA**\n\n---\n\n### Slide 2: Epidemiologia do Plateau\n- 20–40% dos pacientes com incretinas atingem plateau precoce ou falha de resposta significativa ([Tabela 1])\n- Causas: multifatorial — fisiologia, comportamento, farmacodinâmica\n\n---\n\n### Slide 3: Diagnóstico Diferencial de Falha\n**Checar:**\n- Adesão real\n- Dose máxima atingida\n- Duração de uso ≥6 meses\n- Interações/antagonismos medicamentosos\n- Causas hormonais secundárias\n\n---\n\n### Slide 4: Protocolo de Switch: Conduta\n| Origem | Alvo | Dose inicial | Titr. | Max | Lavagem | Cuidados principais         |\n|--------|------|--------------|-------|-----|---------|----------------------------|\n| Semaglutida | Tirzepatida | 2,5–5mg | +2,5mg/2–4sem | 15mg | Não | Náusea, escalonar lento   |\n| Tirzepatida | Semaglutida | 0,25mg  | +0,25–0,5mg/4sem | 2,4mg | Não | GI, dieta leve na troca   |\n\n---\n\n### Slide 5: Cuidados e Monitoramento\n- Peso, IMC, HbA1c: a cada 12 semanas\n- Sinais GI (náusea, vômito, diarreia): semanal na troca\n- Função renal e hepática: início e sintomas\n- Adesão: check-list, inspeção dispositivos/frascos\n\n---\n\n### Slide 6: Reganho e Plateaus — Manejo\n- Reforço do estilo de vida\n- Busca de eventos gatilho (estresse, drogas iatrogênicas)\n- Otimização SGLT2/Metformina\n- Encaminhamento multidisciplinar: nutrição, psicologia\n- Considerar switch apenas após exclusão de causas reversíveis\n\n---\n\n### Slide 7: Regulatório BR e Manipulação Estéril\n- Respeitar doses e vias aprovadas ANVISA\n- Nunca usar “research peptide”\n- Exigir rastreabilidade, cadeia fria, ambiente GMP classe 10.000\n- CRM do prescritor obrigatório\n\n---\n\n### Slide 8: Check-list de Washout e Troca Segura\n- Última dose → 7d → iniciar nova molécula, titulação lenta\n- Orientar possíveis efeitos GI acentuados na primeira semana\n- Confirmar entendimento sobre uso e descarte segurado\n\n---\n\n### Slide 9: O que NÃO fazer (Conduta Proibida)\n- Canetas importadas paralelas/mercado cinza\n- Doses acima de bula/sem respaldo ANVISA\n- Uso por indicação estritamente estética ou sem diagnóstico aprovado\n\n---\n\n### Slide 10: Pérolas Clínicas\n- 2–4% de perda ponderal incremental no switch realista\n- Adesão inadequada é causa subestimada de “falha”\n- Informar expectativa realista: controle, não cura, de obesidade/DM2\n\n---\n\n### Slide 11: Caso Clínico — Resolução\n- Plateaus requerem avaliação estruturada\n- Switch bem conduzido demanda titulação e vigilância minuciosas\n\n---\n\n### Slide 12: Fluxo Rápido de Conduta (Quick-Ref)\n1. Confirmar adesão/dose/plano\n2. Analisar fatores reversíveis\n3. Definir plateau real (≥6 meses, sem resposta)\n4. Orientar switch com titulação progressiva\n5. Monitorar ativamente GI e laboratoriais\n6. Rever objetivos compartilhadamente paciente-médico\n\n---\n\n## 10. Quick Referência (de Bolso)\n\n**Falha terapêutica com incretinas – Protocolo prático:**\n\n- Confirmar dose, adesão e duração\n- Excluir causas secundárias e fatores reversíveis\n- Plateau documentado ≥6 meses: considerar switch para tirzepatida SC em 2,5–5mg, subir até máximo tolerado\n- Não há necessidade de washout formal (opcional 7 dias em GI instável)\n- Monitorar tolerância e resposta clínica/laboratorial a cada 4–12 semanas\n- Adequação aos critérios CFM/ANVISA obrigatória\n\n---\n\n## 11. Key Points (Resumo Executivo)\n\n1. **Plateau/falha com incretinas é multifatorial:** não presuma refratariedade sem checar adesão, dose e causas reversíveis.\n2. **Switch semaglutida ↔ tirzepatida:** indicado após falha documentada; titulação progressiva, sem necessidade de washout obrigatório.\n3. **Manipulação estéril exige excelência:** nunca aceite formulations “research”, ambiente subótimo ou via não aprovada.\n4. **Monitoramento clínico e laboratorial próximo** após a troca é obrigatório, devido risco GI e expectativa de perda ponderal modesta.\n5. **Conduta proibida:** off-label inaceitável (doses absurdas, via IV/IM), prescrição sem racional clínico, uso estritamente cosmético.\n6. **Regulatório e ética:** CFM 2.333/2023 demanda racionalidade clínica, nunca apenas “estética”; ANVISA exige registro e boas práticas.\n7. **Educação do paciente sobre expectativa realista e participação ativa** no autocuidado é nuclear no sucesso do switch e da manutenção.\n\n---\n\n## 12. Referências\n\n1. Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011 [S1]\n2. Outras referências, trials e diretrizes, conforme citado em contexto e em tabelas (consultar RM se necessário/pertinente, para dados localizados de prevalência/falha nacional).\n3. Regulatório: Resolução CFM 2.333/2023; Bulas e Resoluções da ANVISA; Boletins farmacêuticos sobre manipulação estéril validada.\n\n---\n\n## 13. Checklist Prático do Consultório\n\n- ( ) Dose ou formulação de incretina corretamente prescrita e aplicada?\n- ( ) Confirma adesão plena última 8–12 semanas?\n- ( ) Há fatores reversíveis (medicação, comportamento)?\n- ( ) Plateau definido e documentado (>6 meses)?\n- ( ) Educação do paciente quanto ao plano e expectativas?\n- ( ) Protocolo de switch com titulação lenta e monitoramento?\n- ( ) Prescrição e aquisição em estrita conformidade ANVISA/CFM?\n- ( ) Vigilância contínua para eventos GI e laboratoriais?\n\n---\n\n**Este tratado busca equipar endocrinologistas, nutrólogos e clínicos de excelência com protocolos acionáveis, rigor regulatório e racional terapêutico, blindando a conduta contra atalhos antiéticos, modismos e práticas não validadas em farmácia de manipulação estéril.**",
-  "quick_ref": "Falha Terapêutica com Incretinas: Protocolo Prático\n\n- Confirme adesão, dose máxima e tempo de uso (≥6 meses)\n- Exclua causas reversíveis (medicamentos, comportamento, doenças)\n- Se plateau confirmado (perda <5% peso ou HbA1c <0,5%), considere switch\n- Para switch: Semaglutida → Tirzepatida: iniciar 2,5–5 mg SC/semana, titule a cada 2–4 sem até 15 mg\n- Para switch: Tirzepatida → Semaglutida: iniciar 0,25 mg SC/semana, titule a cada 4 sem até 2,4 mg\n- Washout opcional de 7 dias em sintomas gastrointestinais, não obrigatório\n- Monitorar peso, HbA1c, função renal/hepática e sintomas GI a cada 4–12 semanas\n- Respeitar normas ANVISA e CFM, ambiente de manipulação classe 10.000\n- Nunca usar doses, vias ou indicações fora das aprovações regulatórias\n- Educar paciente para expectativa realista: controle e não cura da obesidade/DM2",
+  "monograph": "# Falha Terapêutica, Plateau e Switch Semaglutida ↔ Tirzepatida --- ## 1. Contexto e Fundamentação O uso de agonistas do receptor do GLP-1 (semaglutida) e agonistas duais GLP-1/GIP (tirzepatida) está solidamente estabelecido no manejo de obesidade e diabetes tipo 2, com dados robustos para controle ponderal, metabólico e redução de complicações cardiovasculares e renais [G1, G3, G4, G5, S24]. No entanto, uma proporção significativa dos pacientes não atinge metas clínicas relevantes, estando sujeitos a plateau, falha terapêutica ou reganho de peso mesmo sob titulação adequada [G1, G4, S6]. Avaliar, classificar e manejar essas situações exige olhar crítico, alinhamento com regulação ANVISA e ética CFM, e domínio dos protocolos de transição entre moléculas, evitando experimentação clínica ou manipulação insegura. A obesidade é reconhecida como doença crônica progressiva, com mecanismos de defesa do set point ponderal que promovem reganho após qualquer intervenção de perda de peso [S7]. Esse contexto biológico fundamenta a necessidade de tratamento de longo prazo e expectativas realistas quanto à manutenção de resultados. --- ## 2. Definições Estruturadas ### 2.1. Plateau, Falha Terapêutica e Reganho | Termo | Definição Operacional | Critério Temporal | Referência |\n|-------|----------------------|-------------------|------------|\n| **Plateau ponderal** | Redução significativa (>5%) do ritmo de perda ou estabilização (\"curva horizontal\") após resposta inicial, sem progressão posterior | ≥3–6 meses em dose máxima tolerada | [G1, G4, S6] |\n| **Falha terapêutica** | Não atingimento de redução >5% do peso em obesidade OU redução de HbA1c <0,5% em DM2, com dose máxima tolerada e adesão comprovada | ≥3–6 meses | [G1, G4, S6] |\n| **Reganho** | Retorno parcial ou total do peso perdido após resposta inicial | Qualquer momento após nadir | [S6, S7] | **Nota sobre reganho:** O STEP 4 demonstrou que a interrupção de semaglutida após 20 semanas de tratamento resultou em reganho de aproximadamente dois terços do peso perdido nas 48 semanas subsequentes, reforçando a necessidade de planejamento de manutenção farmacológica a longo prazo [S6]. ### 2.2. Diagnóstico Diferencial: Estratificação Clínica A distinção entre causas de resposta subótima é fundamental antes de considerar switch: | Categoria | Características | Abordagem |\n|-----------|-----------------|-----------|\n| **Não adesão primária** | Esquecimento, custos, rejeição cognitiva, eventos adversos intoleráveis | Intervenção comportamental, ajuste de custo, manejo de EA |\n| **Dose insuficiente** | Titulação lenta/incompleta, intolerância limitando escalonamento, erros de aplicação | Revisão técnica, titulação otimizada, manejo proativo de EA |\n| **Falha verdadeira** | Resposta subótima documentada apesar de adesão plena e dose máxima por ≥3–6 meses | Considerar switch ou terapia combinada |\n| **Fatores reversíveis** | Corticoterapia, psicotrópicos (antipsicóticos, antidepressivos), desregulações hormonais (hipotireoidismo, Cushing) | Tratar causa de base | --- ## 3. Evidência Clínica: Taxas de Resposta e Falha ### 3.1. Tabela Densa de Evidência — Ensaios Pivotais | Estudo | Fármaco | n | População | Dose | Duração | Desfecho Primário | Magnitude (vs placebo) | % ≥10% perda | % ≥5% perda | % Falha (<5%) | Nível |\n|--------|---------|---|-----------|------|---------|-------------------|------------------------|--------------|-------------|---------------|-------|\n| **SURMOUNT-1** [G1] | Tirzepatida | 2.539 | Obesidade/sobrepeso sem DM2 | 5/10/15 mg | 72 sem | Δ peso | −15,0% (5 mg); −19,5% (10 mg); −20,9% (15 mg) | 55% (5 mg); 69% (10 mg); 73% (15 mg) | 85–91% | 9–15% | A |\n| **STEP 1** [G4] | Semaglutida | 1.961 | Obesidade/sobrepeso sem DM2 | 2,4 mg | 68 sem | Δ peso | −14,9% | 69% | 86% | 14% | A |\n| **SURMOUNT-2** [G2] | Tirzepatida | 938 | Obesidade + DM2 | 10/15 mg | 72 sem | Δ peso + HbA1c | −12,8% (10 mg); −14,7% (15 mg) | (verificar) | (verificar) | (verificar) | A |\n| **SELECT** [G3, S24] | Semaglutida | 17.604 | IMC≥27 + DCV, sem DM | 2,4 mg | 39,8 meses (mediana) | MACE | HR 0,80 (IC95% 0,72–0,90) | — | — | — | A |\n| **FLOW** [G5, S22] | Semaglutida | 3.533 | DM2 + DRC | 1,0 mg | 3,4 anos (mediana) | Desfecho renal composto | HR 0,76 (IC95% 0,66–0,88) | — | — | — | A | **Notas interpretativas:**\n- STEP 1: 69% dos pacientes em semaglutida 2,4 mg atingiram ≥10% de perda ponderal vs 12% no placebo [G4].\n- SURMOUNT-1: Resposta dose-dependente; tirzepatida 15 mg com 73% atingindo ≥10% [G1].\n- A falha completa (<5%) é minoritária (~9–15% com tirzepatida; ~14% com semaglutida), mas clinicamente relevante. ### 3.2. Dados Head-to-Head: SURMOUNT-5 O ensaio SURMOUNT-5 comparou diretamente tirzepatida vs semaglutida em adultos com obesidade [G6, S21]: | Parâmetro | Tirzepatida (até 15 mg) | Semaglutida (2,4 mg) | Diferença |\n|-----------|------------------------|---------------------|-----------|\n| Perda ponderal média | −20,2% | −13,7% | −6,5% (IC95% verificar) |\n| % atingindo ≥10% | (verificar — dados completos aguardando publicação final) | (verificar) | Favorece tirzepatida | **Interpretação clínica:** Tirzepatida demonstra superioridade ponderal estatisticamente significativa sobre semaglutida. Contudo, o benefício incremental em switch após falha não é linear — pacientes com falha a uma molécula podem ter fatores limitantes que persistem. Dados sobre hard outcomes CV/renais comparativos ainda são limitados. ### 3.3. Níveis de Evidência por Recomendação | Recomendação | Nível de Evidência |\n|--------------|-------------------|\n| Eficácia ponderal de tirzepatida e semaglutida | **A** (múltiplos RCTs fase III) |\n| Benefício CV de semaglutida em obesidade sem DM | **A** (SELECT) |\n| Benefício renal de semaglutida em DM2+DRC | **A** (FLOW) |\n| Superioridade de tirzepatida vs semaglutida para perda ponderal | **A** (SURMOUNT-5) |\n| Protocolo de switch e washout | **C/D** (consenso/extrapolação farmacocinética) |\n| Expectativa de resposta em switch após falha | **C** (dados limitados, plausibilidade biológica) | --- ## 4. Tabela Regulatória Brasil 2024 | Fármaco | Registro ANVISA | Indicação Aprovada | Uso Off-Label | Manipulação Estéril | NÃO PRESCREVER |\n|---------|-----------------|-------------------|---------------|--------------------|--------------------|\n| **Semaglutida SC** (Ozempic®) | ✓ Sim | DM2 | Obesidade isolada (sem DM2) — off-label | Possível: exige farmácia com sala limpa ISO classe 7/8, validação de processo, estudos de estabilidade, BUD definido, farmacêutico responsável, rastreabilidade de lote [S8, S12] | Research peptide; dose >2,4 mg/sem; via IV/IM; indicação puramente estética/anti-aging [G8, S13] |\n| **Semaglutida SC** (Wegovy®) | ✓ Sim | Obesidade/sobrepeso com comorbidade | — | Idem | Idem |\n| **Tirzepatida SC** (Mounjaro®) | ✓ Sim | DM2 (dose até 15 mg aprovada) | Obesidade sem DM2 — off-label (verificar status de registro para obesidade, que pode ter mudado após 2024) | Possível com requisitos acima | Research peptide; via IV/IM; indicação puramente estética/anti-aging [G8, S13] | **Observações regulatórias críticas:**\n- A tirzepatida para obesidade estava em análise pela ANVISA em 2024; verificar status atualizado no bulário eletrônico antes de prescrever.\n- Doses acima das aprovadas em bula constituem uso off-label e exigem justificativa robusta, documentação e TCLE específico.\n- CFM 2.333/2023 veda prescrição de hormônios e peptídeos para fins estritamente estéticos ou anti-aging [G8, S13, S19]. --- ## 5. Fluxograma de Conduta Clínica — Brasil ### 5.1. Avaliação de Resposta Subótima ```\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 1: Paciente em uso de incretina ≥3–6 meses │\n│ Meta não atingida (perda <5% ou HbA1c Δ<0,5%) │\n└─────────────────────────────────────────────────────────────────┘ ↓\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 2: Verificar ADESÃO │\n│ • Conferir dispositivos/canetas utilizados vs prescritos │\n│ • Reconciliação com dispensação da farmácia │\n│ • Técnica de aplicação (rotação, profundidade, temperatura) │\n│ • Barreiras: custo, esquecimento, medo de agulha │\n└─────────────────────────────────────────────────────────────────┘ ↓ ┌──────────────────┴──────────────────┐ │ │ Adesão inadequada Adesão confirmada │ │ ↓ ↓\n┌──────────────────────┐ ┌─────────────────────────────────┐\n│ Intervir em barreiras │ │ PASSO 3: Verificar DOSE │\n│ • Educação │ │ • Está em dose máxima tolerada? │\n│ • Alarmes/lembretes │ │ • Titulação foi adequada? │\n│ • Ajuste de custo │ │ • EA limitaram escalonamento? │\n│ • Manejo de EA │ └─────────────────────────────────┘\n└──────────────────────┘ ↓ ┌──────────────────┴──────────────────┐ │ │ Dose subótima Dose máxima │ │ ↓ ↓ ┌────────────────────────┐ ┌─────────────────────────────────┐ │ Titular até máximo │ │ PASSO 4: Avaliar FATORES │ │ tolerado com manejo │ │ REVERSÍVEIS │ │ proativo de EA │ │ • Novos medicamentos │ └────────────────────────┘ │ (corticoides, antipsicóticos, │ │ antidepressivos) │ │ • Distúrbios endócrinos │ │ (hipotireoidismo, Cushing) │ │ • Mudanças comportamentais │ │ • Estresse/sono/ambiente │ └─────────────────────────────────┘ ↓ ┌──────────────────┴──────────────────┐ │ │ Fator identificado Nenhum fator │ │ ↓ ↓ ┌────────────────────────┐ ┌─────────────────────────────────┐ │ Tratar causa de base; │ │ PASSO 5: Confirmar FALHA │ │ reavaliar em 8–12 sem │ │ VERDADEIRA │ └────────────────────────┘ │ • Documentar em prontuário │ │ • Fortalecer suporte │ │ multidisciplinar │ │ • CONSIDERAR SWITCH │ └─────────────────────────────────┘\n``` ### 5.2. Protocolo de Switch ```\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 6: Indicações para SWITCH │\n│ □ Falha documentada com dose máxima ≥3–6 meses │\n│ □ OU intolerância GI persistente limitando dose terapêutica │\n│ □ OU perfil clínico favorecendo outra molécula │\n│ (ex.: meta ponderal agressiva → tirzepatida; │\n│ DCV estabelecida → semaglutida por dados SELECT) │\n└─────────────────────────────────────────────────────────────────┘ ↓\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 7: Documentação pré-switch │\n│ □ Registrar indicação clínica válida (DM2/obesidade) │\n│ □ Documentar falha/intolerância à molécula atual │\n│ □ Verificar contraindicações à nova molécula │\n│ □ Obter TCLE específico para switch │\n└─────────────────────────────────────────────────────────────────┘ ↓\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 8: Execução do SWITCH │\n│ │\n│ 8a. WASHOUT (individualizado): │\n│ • Paciente sem EA GI significativo: iniciar nova molécula │\n│ 7 dias após última dose (meia-vida ~5–7 dias) │\n│ • Paciente com EA GI persistente: considerar 10–14 dias │\n│ • Não há obrigatoriedade farmacológica de washout │\n│ │\n│ 8b. DOSE INICIAL (sempre reiniciar do mínimo): │\n│ • Switch PARA tirzepatida: 2,5 mg SC 1x/semana │\n│ • Switch PARA semaglutida: 0,25 mg SC 1x/semana │\n│ │\n│ 8c. TITULAÇÃO: │\n│ • Tirzepatida: +2,5 mg a cada 4 semanas │\n│ (2,5 → 5 → 7,5 → 10 → 12,5 → 15 mg) │\n│ • Semaglutida: +0,25–0,5 mg a cada 4 semanas │\n│ (0,25 → 0,5 → 1,0 → 1,7 → 2,4 mg) │\n│ • Se EA GI: manter dose por 4–8 semanas antes de progredir │\n│ │\n│ 8d. ALVO: │\n│ • Tirzepatida: até 15 mg/semana (máximo aprovado) │\n│ • Semaglutida: até 2,4 mg/semana para obesidade; │\n│ até 2,0 mg/semana para DM2 isolado │\n└─────────────────────────────────────────────────────────────────┘ ↓\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 9: Monitoramento pós-switch │\n│ • Consulta em 4 semanas: avaliar tolerância, EA, adesão │\n│ • Consulta em 12 semanas: avaliar resposta ponderal/metabólica │\n│ • Se resposta inadequada em 12 semanas com dose máxima: │\n│ → Reavaliar diagnóstico diferencial │\n│ → Considerar terapia combinada ou outras estratégias │\n└─────────────────────────────────────────────────────────────────┘\n``` --- ## 6. Manejo de Eventos Adversos Durante Switch ### 6.1. Algoritmo de Manejo de EA Gastrointestinais | Sintoma | Gravidade | Conduta |\n|---------|-----------|---------|\n| **Náusea leve** | Não interfere em AVDs | Orientações dietéticas (fracionamento, evitar gordura); manter dose; reavaliar em 1–2 semanas |\n| **Náusea moderada** | Interfere parcialmente em AVDs | Adicionar ondansetrona 4–8 mg VO PRN (máx 24 mg/dia); considerar manter dose por 4–8 semanas antes de titular |\n| **Náusea severa/Vômitos persistentes** | Impede alimentação adequada; desidratação | Suspender temporariamente; hidratação; ondansetrona ou metoclopramida 10 mg VO 30 min antes das refeições; reiniciar com dose menor após resolução |\n| **Diarreia leve-moderada** | Fezes amolecidas, sem desidratação | Dieta, hidratação; loperamida 2–4 mg PRN se necessário |\n| **Diarreia severa** | >6 episódios/dia ou desidratação | Suspender; avaliar outras causas; reintroduzir com dose menor |\n| **Constipação** | Frequente especialmente com tirzepatida | Fibras, hidratação, laxativos osmóticos (PEG) PRN | **Critérios para suspensão definitiva:**\n- EA severos recorrentes mesmo com manejo otimizado\n- Sinais de pancreatite aguda (dor abdominal intensa irradiando para dorso + lipase >3x LSN)\n- Reações de hipersensibilidade graves ### 6.2. Expectativas Realistas de Resposta ao Switch | Cenário | Expectativa | Base |\n|---------|-------------|------|\n| Switch sema→tirze por falha ponderal | Benefício adicional modesto (diferença média ~5–7% adicional) em respondedores | SURMOUNT-5 [G6, S21] — extrapolação |\n| Switch tirze→sema por EA | Melhor tolerância possível em ~50% dos casos | Consenso clínico [Evidência C] |\n| Switch por plateau genuíno | ~60–70% podem ter resposta parcial à nova molécula | Extrapolação de dados de ensaios [Evidência C] |\n| Não respondedores a ambas | ~15–20% podem não responder adequadamente a nenhuma incretina | Estimativa combinada [Evidência C] | --- ## 7. Monitoramento Multidimensional ### 7.1. Parâmetros e Periodicidade | Parâmetro | Baseline | 4 semanas | 12 semanas | Trimestral | Conforme indicação |\n|-----------|----------|-----------|------------|------------|-------------------|\n| Peso/IMC | ✓ | ✓ | ✓ | ✓ | — |\n| Circunferência abdominal | ✓ | — | ✓ | ✓ | — |\n| PA | ✓ | ✓ | ✓ | ✓ | — |\n| HbA1c (se DM2) | ✓ | — | ✓ | ✓ | — |\n| Glicemia de jejum | ✓ | — | ✓ | ✓ | — |\n| Perfil lipídico | ✓ | — | ✓ | Semestral | — |\n| Creatinina/TFGe | ✓ | — | ✓ | ✓ (se DRC) | — |\n| AST/ALT | ✓ | — | — | Anual | Se sintomas |\n| Amilase/Lipase | ✓ (se DM2) | — | — | — | Se dor abdominal |\n| TSH | ✓ | — | — | Anual | Se sintomas tireoidianos |\n| EA GI (questionário) | ✓ | ✓ | ✓ | ✓ | — | ### 7.2. Monitoramento de Composição Corporal e Sarcopenia A perda de massa magra é componente esperado da perda ponderal com incretinas (estimativa: 25–40% da perda total pode ser massa magra) [S4]. Em populações de risco, monitoramento ativo é mandatório. **Populações de alto risco para sarcopenia:**\n- Idade ≥65 anos\n- Perda ponderal >15% do peso inicial\n- IMC inicial <30 kg/m² (menor reserva)\n- Sedentarismo prévio\n- Ingestão proteica insuficiente **Protocolo de avaliação [S4, S5]:** | Método | O que avalia | Frequência sugerida | Cut-offs de alerta |\n|--------|--------------|---------------------|-------------------|\n| **Força de preensão palmar (handgrip)** | Força muscular | Baseline + trimestral em risco | <27 kg (H) / <16 kg (M) |\n| **Teste de levantar da cadeira** | Potência MMII | Baseline + trimestral em risco | >15 seg para 5 repetições |\n| **DEXA** | Massa magra apendicular | Baseline + ao atingir meta ou 12 meses | ALM/altura² <7,0 (H) / <5,5 (M) kg/m² |\n| **Bioimpedância (BIA)** | Estimativa de composição | Alternativa se DEXA indisponível | Interpretar com cautela |\n| **Velocidade de marcha** | Severidade funcional | Se força alterada | <0,8 m/s | **Estratégias de mitigação:**\n- Ingestão proteica: 1,2–1,6 g/kg/dia (ajustar para peso ideal em obesidade grave) [S4]\n- Treinamento resistido: 2–3x/semana, progressivo\n- Considerar suplementação de proteína/leucina se ingestão inadequada\n- Em sarcopenia estabelecida: avaliar necessidade de reduzir meta de perda ponderal --- ## 8. Casos Especiais e Precauções ### 8.1. Populações Específicas | População | Considerações | Conduta |\n|-----------|---------------|---------|\n| **Idosos (≥65 anos)** | Maior risco de sarcopenia; menor reserva funcional | Titulação mais lenta; meta ponderal menos agressiva (5–10%); monitorar força/massa; proteína ≥1,2 g/kg/dia; treinamento resistido obrigatório [S4, S5] |\n| **DRC estágio 3–4** | Semaglutida com dados renoprotetores (FLOW) [G5, S22]; tirzepatida com dados emergentes | Semaglutida pode ser preferida se proteção renal for prioritária; ajuste de dose não necessário até TFGe ~15; monitorar mais frequentemente |\n| **DM2 em uso de insulina/SU** | Risco de hipoglicemia | Reduzir insulina basal em 10–20% ao iniciar; suspender ou reduzir SU; monitorização glicêmica intensificada |\n| **Doença hepática** | Cautela em hepatopatia moderada-grave | Evitar em Child-Pugh C; monitorar transaminases |\n| **Histórico pessoal/familiar de CMT ou MEN2** | Contraindicação por sinal de risco em roedores | Contraindicação absoluta para ambas as moléculas |\n| **Pancreatite prévia** | Risco teórico aumentado | Contraindicação relativa; se indicação forte, TCLE específico + monitoramento de lipase | ### 8.2. Perioperatório Agonistas GLP-1 retardam esvaziamento gástrico, aumentando risco de aspiração em procedimentos com sedação/anestesia geral [G7, S20]. **Recomendações:**\n1. Comunicar equipe anestésica sobre uso de incretina\n2. Individualizar decisão de pausa (não há regra universal): - Procedimentos eletivos de baixo risco: considerar manter - Procedimentos com anestesia geral: considerar suspender 1–2 semanas antes (tirzepatida/semaglutida: meia-vida ~5 dias)\n3. Jejum estendido pode ser considerado (líquidos claros até 2h, sólidos 8h+)\n4. Ultrassonografia gástrica point-of-care pode auxiliar decisão\n5. Documentar conduta e comunicação no prontuário --- ## 9. Checklist de Prontuário/TCLE ### 9.1. Documentação Obrigatória para Switch #### Prontuário:\n- [ ] Indicação clínica registrada (CID de obesidade E66.x e/ou DM2 E11.x)\n- [ ] Peso, IMC e circunferência abdominal baseline\n- [ ] Histórico de uso da molécula atual: dose máxima, duração, resposta (% perda)\n- [ ] Documentação de adesão (método de verificação utilizado)\n- [ ] Exclusão de fatores reversíveis (lista de medicamentos revisada; TSH/cortisol se indicado)\n- [ ] Justificativa clara para switch (falha documentada vs intolerância vs perfil clínico)\n- [ ] Contraindicações verificadas e ausentes\n- [ ] Exames basais realizados\n- [ ] Plano de titulação especificado\n- [ ] Cronograma de retornos #### TCLE — Elementos Mínimos: > **Modelo de linguagem sugerido:**\n>\n> \"Fui informado(a) que:\n> 1. O medicamento [NOME] foi tentado na dose máxima por [TEMPO] meses, com perda de [X]% do peso inicial, considerada insuficiente para meus objetivos de saúde.\n> 2. Está sendo proposta a troca para [NOVO MEDICAMENTO], que pode oferecer benefício adicional, embora o resultado não seja garantido.\n> 3. Efeitos colaterais comuns incluem náusea, vômito, diarreia e constipação, especialmente nas primeiras semanas. Esses efeitos geralmente diminuem com o tempo.\n> 4. Efeitos raros mas graves incluem pancreatite e reações alérgicas.\n> 5. O tratamento requer acompanhamento regular e não substitui mudanças de alimentação e atividade física.\n> 6. [Se manipulado] O medicamento será preparado por farmácia de manipulação estéril [NOME DA FARMÁCIA], com rastreabilidade de lote e validação de processo. Compreendo que produtos manipulados não são idênticos aos industrializados e aceito os potenciais riscos adicionais.\n> 7. Posso interromper o tratamento a qualquer momento, ciente de que há risco de reganho de peso.\" ### 9.2. Checklist para Prescrição de Manipulado Estéril - [ ] Verificado que não há alternativa registrada disponível/acessível\n- [ ] Farmácia possui: sala limpa ISO classe 7–8 (ou equivalente classe 10.000)\n- [ ] Farmácia apresenta: laudo de validação de processo estéril\n- [ ] Farmácia apresenta: estudo de estabilidade com BUD (beyond-use date) definido\n- [ ] Farmácia possui: farmacêutico responsável identificado\n- [ ] Rastreabilidade de lote garantida\n- [ ] Paciente orientado sobre armazenamento (refrigeração 2–8°C)\n- [ ] TCLE específico para manipulado assinado\n- [ ] Prescrição com CRM, data, posologia clara e identificação do paciente --- ## 10. Farmacovigilância: Orientações Práticas ### 10.1. Quando Notificar | Tipo de Evento | Notificação | Sistema |\n|----------------|-------------|---------|\n| EA grave (hospitalização, risco de vida, incapacidade) | **Obrigatória em até 15 dias** | NOTIVISA (ANVISA) |\n| EA inesperado (não descrito em bula) | Recomendada | NOTIVISA |\n| EA frequente esperado (náusea leve) | Não obrigatória | Registro em prontuário |\n| Suspeita de desvio de qualidade (produto manipulado) | **Obrigatória imediata** | NOTIVISA + VISA estadual |\n| Suspeita de falsificação/produto irregular | **Obrigatória imediata** | ANVISA + polícia se indicado | ### 10.2. Como Notificar 1. Acesso: https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/notificacoes/notivisa\n2. Cadastro do profissional (se primeiro acesso)\n3. Preencher formulário de notificação de EA\n4. Anexar documentação relevante\n5. Guardar número do protocolo ### 10.3. Responsabilidades | Ator | Responsabilidade |\n|------|------------------|\n| Prescritor | Detectar, documentar, notificar EA graves; escolher farmácia qualificada; verificar rastreabilidade |\n| Farmácia de manipulação | Manter registros; notificar desvios de qualidade; rastreabilidade de lote; recall se necessário |\n| Paciente | Comunicar EA; conservar adequadamente; não compartilhar medicação | --- ## 11. Red Flags: Produtos Irregulares e Falsificações ### 11.1. Sinais de Alerta | Categoria | Sinais Suspeitos |\n|-----------|------------------|\n| **Origem** | Compra em marketplace/internet sem exigência de prescrição; importação paralela sem registro; \"research peptide\" |\n| **Preço** | Valor muito abaixo do mercado (>40% desconto sem justificativa) |\n| **Embalagem** | Ausência de registro ANVISA; texto em idioma estrangeiro sem tradução oficial; lacre violado; sem lote/validade |\n| **Produto** | Coloração alterada; precipitação; odor atípico; caneta com mecanismo diferente do esperado |\n| **Farmácia de manipulação** | Não apresenta alvará sanitário; recusa fornecer laudo de análise; não identifica farmacêutico responsável; preços muito inferiores à concorrência | ### 11.2. Conduta 1. **Orientar paciente** sobre riscos de canais irregulares\n2. **Verificar** registro no bulário ANVISA: https://consultas.anvisa.gov.br/\n3. **Denunciar** produtos suspeitos à VISA local e ANVISA\n4. **Nunca** prescrever com conhecimento de origem irregular\n5. **Documentar** em prontuário se paciente referir uso de produto não rastreável --- ## 12. O que NÃO Fazer — Alertas Ético-Regulatórios | Prática | Por que evitar | Referência |\n|---------|----------------|------------|\n| Prescrever para fins exclusivamente estéticos/anti-aging | Vedado por CFM 2.333/2023; ausência de indicação clínica | [G8, S13, S19] |\n| Utilizar doses acima da bula sem documentação robusta | Risco de EA; off-label não justificado; responsabilização | Bula ANVISA |\n| Administrar via IV ou IM | Não há estudo de segurança/eficácia; risco de toxicidade | [S8, S10] |\n| Prescrever \"research peptide\" ou produto sem registro | Ilegal; risco de contaminação/potência incorreta | [S1, S8, S11] |\n| Aceitar manipulação de farmácia sem validação estéril | Risco de infecção/contaminação (caso NECC) | [S11, S12] |\n| Realizar \"rodízio\" de moléculas sem critério clínico | Sem evidência; aumenta EA; custo desnecessário | Consenso |\n| Negligenciar suporte nutricional/exercício | Perda de massa magra; reganho acelerado | [S4, S5, S7] |\n| Omitir TCLE em uso off-label ou manipulado | Risco médico-legal; autonomia do paciente | CFM | --- ## 13. Reganho Pós-Tratamento: Prevenção e Manejo ### 13.1. Biologia do Reganho A interrupção de agonistas GLP-1/GIP resulta em reganho de peso em virtualmente todos os pacientes, conforme demonstrado no STEP 4: aproximadamente 2/3 do peso perdido foi recuperado em 48 semanas após suspensão [S6]. Isso reflete:\n- Recuperação de apetite/saciedade pré-tratamento\n- Reativação de mecanismos homeostáticos de defesa do set point\n- Perda de efeitos metabólicos (melhora de resistência insulínica, etc.) ### 13.2. Estratégias de Prevenção | Estratégia | Evidência | Implementação |\n|------------|-----------|---------------|\n| **Manutenção farmacológica contínua** | A (STEP 4) [S6] | Planejar tratamento de longo prazo; discutir custo/sustentabilidade |\n| **Dose de manutenção (se tolerada)** | C | Manter dose eficaz mais baixa se dose máxima não necessária |\n| **Transição gradual** | D | Se descontinuação necessária, reduzir dose antes de suspender |\n| **Intensificação comportamental pré-suspensão** | C | Reforçar dieta/exercício nos meses antes de eventual pausa |\n| **Monitoramento frequente pós-suspensão** | C | Retornos mensais por 3–6 meses; retomar se reganho >3–5% | ### 13.3. Manejo do Reganho Estabelecido 1. Avaliar causas: adesão a MEV, medicamentos, comorbidades\n2. Reiniciar farmacoterapia precocemente (antes de retorno ao peso inicial)\n3. Considerar switch se tolerância/eficácia anterior eram limitantes\n4. Manter expectativas realistas: segundo ciclo pode ter resposta menor --- ## 14. Considerações Finais - **Switch entre incretinas deve ter racional clínico explícito**, nunca ser conduta de rotina ou experimental.\n- **Expectativas devem ser calibradas:** o benefício incremental do switch é modesto na maioria dos casos, e ~15–20% dos pacientes podem não responder adequadamente a nenhuma das moléculas disponíveis.\n- **Monitoramento próximo, engajamento multidisciplinar e conduta ética** protegem médico e paciente.\n- **Toda prescrição de manipulado requer** farmácia qualificada com validação de processo estéril, rastreabilidade de lote e TCLE específico [S8, S11, S12].\n- **O manejo ético e seguro de incretinas** é diferencial do prescritor qualificado e atualizado, que reconhece a obesidade como doença crônica merecedora de tratamento sustentado e isento de estigma [S7]. --- ## 15. Referências ### Fontes Primárias (Ensaios e Guidelines) | Âncora | Referência |\n|--------|------------|\n| [G1] | Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). N Engl J Med 2022. DOI: 10.1056/NEJMoa2206038 |\n| [G2] | Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes (SURMOUNT-2). Lancet 2023. DOI: 10.1016/S0140-6736(23)01200-X |\n| [G3] | Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT). N Engl J Med 2023. DOI: 10.1056/NEJMoa2307563 |\n| [G4] | Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). N Engl J Med 2021. DOI: 10.1056/NEJMoa2032183 |\n| [G5] | Perkovic V, et al. Semaglutide and Renal Outcomes in Type 2 Diabetes (FLOW). N Engl J Med 2024. DOI: 10.1056/NEJMoa2403347 |\n| [G6] | Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity (SURMOUNT-5). N Engl J Med 2025. DOI: 10.1056/NEJMoa2416392 (verificar data de publicação) |\n| [G7] | ASPA/Multisociety. GLP-1 receptor agonists and perioperative aspiration risk. Practice consensus 2023. |\n| [G8] | CFM Resolução 2.333/2023. Terapias hormonais com finalidade estética/anti-aging. | ### Fontes Secundárias e Regulatórias | Âncora | Referência |\n|--------|------------|\n| [S4] | Neeland IJ, et al. Lean mass changes with GLP-1–based therapies — mitigation strategies. Diabetes Obes Metab 2024. |\n| [S5] | Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus (EWGSOP2). Age Ageing 2019. DOI: 10.1093/ageing/afy169 |\n| [S6] | Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA 2021. DOI: 10.1001/jama.2021.3224 |\n| [S7] | WHO/Obesity societies. Obesity as a chronic disease — clinical framing. Framework 2020. |\n| [S8] | ANVISA. Princípios de Boas Práticas de Manipulação. Regulação BR 2022. |\n| [S11] | CDC/NEJM. Fungal meningitis outbreak (NECC) — lessons. 2013. DOI: 10.1056/NEJMoa1213978 |\n| [S12] | USP <797>. Pharmaceutical Compounding — Sterile Preparations. 2023. |\n| [S13, S19] | CFM Resolução 2.333/2023. |\n| [S20] | ASPA/Multisociety. Perioperatório e GLP-1. 2023. |\n| [S21] | SURMOUNT-5 — ver [G6]. |\n| [S22] | FLOW — ver [G5]. |\n| [S24] | SELECT — ver [G3]. | --- **Nota de atualização:** Verificar sempre o bulário eletrônico ANVISA (https://consultas.anvisa.gov.br/) e publicações recentes no DOU para status regulatório atualizado de tirzepatida para obesidade no Brasil. Dados marcados com \"(verificar)\" indicam necessidade de confirmação antes de uso clínico direto. --- *Este documento foi elaborado em conformidade com o padrão Doutiva, integrando rigor científico, regulação brasileira vigente e aplicabilidade clínica imediata.*",
+  "quick_ref": "# Guia de Bolso: Falha Terapêutica e Switch entre Semaglutida e Tirzepatida ## Definições Rápidas\n- **Plateau:** Estabilização após resposta inicial ≥3-6 meses em dose máxima\n- **Falha terapêutica:** <5% perda ponderal ou <0,5% HbA1c em dose máxima com adesão garantida ## Doses e Títulos para Switch | Molécula Origem → Destino | Dose Inicial | Incremento | Dose Máxima |\n|---------------------------|--------------|------------|-------------|\n| Semaglutida → Tirzepatida | 2,5 mg SC/semana | +2,5 mg a cada 4 sem | 15 mg/semana |\n| Tirzepatida → Semaglutida | 0,25 mg SC/semana | +0,25-0,5 mg a cada 4 sem | 2,4 mg/semana | ## Principais Red Flags para Prática Segura\n- Verificar adesão, dose adequada e causas reversíveis antes de switch\n- Evitar doses não aprovadas e indicações estéticas — vedação CFM 2.333/2023\n- Usar farmácias com validação USP <797> para manipulação\n- Documentar TCLE em uso off-label/manipulado\n- Notificar EA graves via NOTIVISA\n- Desconfiar de produtos sem registro ANVISA ou com procedência irregular ## Checklist Monitoramento Básico\n- Peso, IMC, circunferência abdominal → baseline, 4 e 12 semanas\n- HbA1c e glicemia (se DM2) → baseline, trimestral\n- Avaliação de EA GI a cada consulta\n- Avaliação periódica de massa magra/sarcopenia em risco ## Estratégia para Reganho\n- Planejar manutenção farmacológica\n- Reforçar MEV (mudança estilo vida)\n- Monitorar peso e reintroduzir tratamento precoce se aumento ≥3–5% *Consulta referências principais G1, G4, G6, S6, S8 para protocolos completos.*",
   "clinical_case": {
+    "title": "Caso Clínico: Falha Terapêutica à Semaglutida em Paciente com Obesidade e Switch para Tirzepatida",
+    "vignette": "Paciente do sexo feminino, 48 anos, IMC 38 kg/m², sem diabetes, iniciou semaglutida 2,4 mg SC semanal para tratamento da obesidade há 36 semanas. Apresenta perda ponderal total de 3,8% do peso inicial, relata náusea leve moderada nas primeiras 8 semanas, evitou dieta hospitalar restrita devido dificuldade social e referiu dificuldade em uso regular do dispositivo (esquecimentos e subdose ocasional). Não usa outra medicação crônica. Avaliação clínica mostra boa saúde geral sem comorbidades aparentes.",
+    "question": "Qual a conduta mais adequada para a paciente?",
+    "teaching": "Neste caso há falha terapêutica à semaglutida, caracterizada por perda de peso inferior a 5% após 36 semanas em dose máxima, mas com evidência de não adesão parcial (esquecimento e subdose). Antes de considerar switch para tirzepatida, deve-se priorizar intervenção para corrigir adesão e suporte nutricional, otimizar a titulação e manejo de EA. Caso persista falha verdadeira documentada com adesão plena, o switch ou adição de tirzepatida pode ser considerado, respeitando protocolos de washout e titulação. Manipulação estéril só deve ser considerada em casos extremos com falha às apresentações comerciais autorizadas e cumprindo rigor ético-regulatório.",
+    "reward": 120,
     "data": [
       {
         "label": "Idade",
-        "value": "49 anos"
+        "value": "48 anos"
       },
       {
         "label": "IMC",
-        "value": "39 kg/m²"
+        "value": "38 kg/m²"
       },
       {
-        "label": "Tempo de uso semaglutida",
-        "value": "8 meses"
+        "label": "Tempo semaglutida",
+        "value": "36 semanas"
+      },
+      {
+        "label": "Perda ponderal",
+        "value": "3,8%"
+      },
+      {
+        "label": "Sintomas EA",
+        "value": "Náusea leve-moderada nas primeiras 8 semanas"
+      },
+      {
+        "label": "Adesão",
+        "value": "Irregular, com esquecimento e subdose ocasional"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Nenhuma conhecida"
+      },
+      {
+        "label": "Medicações crônicas",
+        "value": "Nenhuma"
+      },
+      {
+        "label": "Acompanhamento nutricional",
+        "value": "Insuficiente, relata dificuldade social"
       },
       {
         "label": "Dose semaglutida",
-        "value": "2 mg SC semanal"
-      },
-      {
-        "label": "Perda de peso",
-        "value": "3%"
-      },
-      {
-        "label": "HbA1c",
-        "value": "7,7%"
-      },
-      {
-        "label": "Medicação associada",
-        "value": "Metformina + SGLT2 I"
-      },
-      {
-        "label": "Atividade física",
-        "value": "Moderada, 2x/semana"
+        "value": "2,4 mg SC semanal (máxima)"
       }
     ],
-    "title": "Falha de Resposta à Semaglutida em Paciente Brasileira com Obesidade e DM2: Qual a Conduta?",
-    "reward": 10,
     "options": [
       {
-        "label": "A) Dobrar dose de semaglutida para 4mg SC/semana",
-        "correct": false,
-        "rationale": "Dose 4 mg não aprovada, off-label, risco de efeitos adversos aumentados, sem evidência favorável."
-      },
-      {
-        "label": "B) Suspender incretinas e iniciar insulina basal",
-        "correct": false,
-        "rationale": "Ainda não indicada; manter terapia e otimizar antes de insulina, evitar complicações de ganho ponderal."
-      },
-      {
-        "label": "C) Switch para tirzepatida SC, iniciando em 2,5–5mg/semana, titulação progressiva",
+        "label": "A) Instruir e reforçar adesão à semaglutida, otimizar suporte nutricional e reavaliar em 8 semanas",
         "correct": true,
-        "rationale": "Conduta respaldada por evidência A, respeita protocolo de switch, busca ganhos adicionais com dupla ação incretínica."
+        "rationale": "Na presença de não adesão parcial comprovada e regime subótimo, corrigir adesão e suporte nutricional antes do switch é abordagem ética e eficaz."
       },
       {
-        "label": "D) Associar liraglutida ao regime atual",
+        "label": "B) Interromper semaglutida e iniciar imediatamente tirzepatida 2,5 mg SC semanal",
         "correct": false,
-        "rationale": "Associação de dois GLP-1 RAs não é recomendada e não aprovada; aumenta risco sem benefício claro."
+        "rationale": "Switch imediato sem avaliar adesão e causas reversíveis pode levar a falha clínica e aumento do risco de EA."
+      },
+      {
+        "label": "C) Aumentar dose de semaglutida para 3,0 mg semanal (fora da bula) e monitorar",
+        "correct": false,
+        "rationale": "Doses não aprovadas são off-label sem comprovação segura; além disso, dose máxima aprovada é 2,4 mg para obesidade."
+      },
+      {
+        "label": "D) Suspender semaglutida por suspeita de falha e instituir manipulado de tirzepatida",
+        "correct": false,
+        "rationale": "Manipulados devem ser última opção; sem indicação inicial para switch sem tentativa de otimização do medicamento registrado."
       }
-    ],
-    "question": "Qual é a próxima conduta mais adequada diante do plateau ponderal observado?",
-    "vignette": "Paciente 49 anos, IMC 39 kg/m², DM tipo 2 há 8 anos, em uso de semaglutida 2 mg SC semanal por 8 meses, perda ponderal de 3%, HbA1c 7,7%, náusea leve no início, tolerada atualmente; em uso de metformina e SGLT2 inhibitor, atividade física moderada, relata comer emocionalmente.",
-    "teaching": "Este caso apresenta um plateau de perda ponderal apesar de dose plena de semaglutida, adesão e tempo adequados. O protocolo mais seguro, ético e baseado na evidência é realizar a troca para tirzepatida com titulação progressiva, visando otimizar os benefícios metabólicos. Dobrar dose ou associar outro agonista incretínico sem evidência é off-label e potencialmente prejudicial. Suspensão da incretina para insulina basal imediata não é mandatória diante do contexto atual e piora risco de ganho ponderal. Orientar paciente sobre expectativa realista e acompanhar efeitos adversos é chave para sucesso clínico."
+    ]
   },
   "refs": [
     {
-      "url": "https://doi.org/10.2337/dc10-s011",
-      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33 Suppl 1:S11-61."
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). N Engl J Med 2022. DOI: 10.1056/NEJMoa2206038"
     },
     {
-      "citation": "Frías JP, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes. N Engl J Med. 2021;385:503-515."
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). N Engl J Med 2021. DOI: 10.1056/NEJMoa2032183"
     },
     {
-      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384:989-1002."
+      "citation": "Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA 2021. DOI: 10.1001/jama.2021.3224"
     },
     {
-      "citation": "Resolução CFM nº 2.333/2023. Uso racional e ético de hormônios para fins terapêuticos e estéticos."
+      "citation": "ANVISA. Princípios de Boas Práticas de Manipulação. Regulação BR 2022.",
+      "url": "https://www.gov.br/anvisa/"
     },
     {
-      "citation": "ANVISA. Bulas e registro de medicamentos. www.gov.br/anvisa"
+      "citation": "CFM Resolução 2.333/2023 — terapias hormonais com finalidade estética/anti-aging.",
+      "url": "https://portal.cfm.org.br/"
     },
     {
-      "citation": "Davies MJ, et al. Management of hyperglycemia in type 2 diabetes, 2022. Diabetes Care. 2022 Jan;45(Supplement_1):S125-S143."
+      "citation": "Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity (SURMOUNT-5). N Engl J Med 2025. DOI: 10.1056/NEJMoa2416392 (verificar data de publicação)"
     }
   ],
-  "status": "published"
+  "raise_bar": true,
+  "audit_verdict": "fix"
 }

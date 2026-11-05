@@ -1,353 +1,302 @@
 {
   "position": 3,
   "module": "Módulo 2 · Homem",
-  "module_position": 2,
-  "title": "Hipogonadismo masculino: diagnóstico, TRT, vias (gel, injetável, implante) e riscos",
-  "description": "Abordagem clínica detalhada do hipogonadismo masculino, incluindo critérios diagnósticos baseados em diretrizes da Endocrine Society, comparação de vias de Terapia de Reposição de Testosterona (gel, injetável, implantes), aspectos regulatórios do Brasil (CFM, ANVISA, WADA) e monitoramento das complicações hematológicas, prostáticas, cardiovasculares e respiratórias. Ênfase em prescrição ética, manipulação estéril e contraindicação do uso para anti-aging sem deficiência comprovada.",
+  "title": "Hipogonadismo Masculino: Diagnóstico, Terapia de Reposição de Testosterona (TRT), Vias (Gel, Injetável, Implante) e Riscos",
+  "description": "Aula aprofundada para endocrinologistas e clínicos sobre critérios diagnósticos rigorosos do hipogonadismo masculino, indicação ética da TRT, comparação das vias de administração autorizadas e controle dos riscos associados, baseando-se nas diretrizes da Endocrine Society, evidências recentes e regulação brasileira.",
   "duration_minutes": 60,
-  "evidence_level": "A",
+  "evidence_level": "A (diretrizes e ECR fases avançadas)",
   "key_points": [
-    "Diagnóstico de hipogonadismo requer sintomas típicos e testosterona total matinal baixa em pelo menos duas dosagens.",
-    "Monitorar hematócrito, PSA e realizar toque retal antes e durante a TRT para segurança clínica.",
-    "Gel e injetáveis de testosterona são as formas preferenciais inicialmente; implantes só indicados em contextos rigorosos com manipulação estérilPurusa.",
-    "Manipulação estéril deve seguir boas práticas, rastreabilidade e estabilidade documentada, restrita a farmácias habilitadas.",
-    "Contraindicações absolutas incluem câncer de próstata ativo, policitemia não explicada e hiperplasia prostática com retenção urinária.",
-    "Não iniciar TRT para fins anti-aging, estéticos ou desempenho sem diagnóstico laboratorial rigoroso e autorização do CFM.",
-    "Pacientes com desejo de fertilidade ativa não devem receber TRT, devendo-se considerar gonadotrofinas."
+    "TRT indicada apenas em homens com sintomas compatíveis e testosterona total matinal persistentemente abaixo de 230–265 ng/dL em pelo menos duas dosagens, preferencialmente com método LC-MS/MS para maior acurácia [G1][S18].",
+    "Níveis limítrofes (230–350 ng/dL) demandam avaliação de testosterona livre calculada e investigação de causas reversíveis antes da indicação terapêutica.",
+    "Gel transdérmico, injetável (cipionato/enantato e undecilato) são as formas registradas e preferenciais; implantes, apesar do uso documentado em casos selecionados, não possuem registro ANVISA e devem ser usados com cautela e documentação criteriosa.",
+    "Monitoramento clínico e laboratorial rigoroso (hematócrito, PSA, testosterona, perfil metabólico) é mandatório para prevenção de complicações, especial atenção à policitemia e sintomas prostáticos.",
+    "TRT suprime espermatogênese; para homens que desejam preservar fertilidade, alternativas hormonais (gonadotrofinas, moduladores seletivos) são recomendadas [G1].",
+    "Não prescrever TRT para fins anti-aging, ganho muscular, emagrecimento ou melhora cosmética — prática ética vedada pelo CFM 2.333/2023 [S13][S19].",
+    "Manipulados só devem ser considerados após falha/intolerância a opções registradas, com monitorização rigorosa e farmácia certificada por Boas Práticas de Manipulação [S8][S14]."
   ],
   "slides": [
     {
       "kind": "title",
-      "title": "Hipogonadismo masculino: diagnóstico, TRT, vias e riscos",
-      "subtitle": "Conduta ética e científica para endocrinologistas, nutrólogos e clínicos experientes."
+      "title": "Hipogonadismo Masculino: Diagnóstico, TRT, Vias e Riscos",
+      "subtitle": "Curso: Hormônios e Implantes com Critério - Módulo Homem - Doutiva/EducMed Brasil"
     },
     {
-      "kind": "bullets",
-      "title": "Definição e Epidemiologia",
-      "bullets": [
-        "Definição: hipogonadismo primário, secundário ou misto - insuficiência de testosterona+ sintomas clínicos.",
-        "Prevalência 2-5% em adultos, aumentando com a idade, especialmente após 50 anos (Nível B).",
-        "Eixo hipotálamo-hipófise-testicular regula liberação de GnRH, LH, FSH e testosterona.",
-        "Principais etiologias incluem: Klinefelter, adenomas, hemocromatose e causas funcionais (ex: obesidade, DM2)."
-      ]
-    },
-    {
-      "kind": "flow",
-      "steps": [
-        {
-          "label": "Paciente com sintomas sugestivos (baixa libido, fadiga, disfunção erétil) →"
-        },
-        {
-          "label": "Dosagem de testosterona total matinal (2 amostras) →"
-        },
-        {
-          "label": "Se <230-264 ng/dL: confirmar hipogonadismo + medir LH, FSH"
-        },
-        {
-          "label": "Se limítrofe (230–350 ng/dL): medir testosterona livre (preferir cálculo por Vermeulen)."
-        },
-        {
-          "label": "Investigar causas secundárias (prolactina, TSH, ferritina, avaliação genética)."
-        }
-      ],
-      "title": "Algoritmo Diagnóstico do Hipogonadismo Masculino (Endocrine Society 2018)"
-    },
-    {
-      "kind": "split",
-      "left": {
-        "items": [
-          "Sintomas clínicos típicos presentes",
-          "Duas dosagens matinais confirmam testosterona baixa (<230-264 ng/dL)",
-          "Exclusão de causas reversíveis/funcionais",
-          "Ausência de desejo reprodutivo ou tratamento concomitante para preservar fertilidade",
-          "Ausência de contraindicações absolutas (ex: CA próstata ativo)"
-        ],
-        "label": "Indicação TRT"
-      },
-      "right": {
-        "items": [
-          "Sintomas inespecíficos isolados sem confirmação laboratorial",
-          "Testosterona normal ou somente uma dosagem baixa",
-          "Obesidade grave, DM descompensado sem avaliação controlada",
-          "Desejo ativo de fertilidade",
-          "Contraindicações absolutas ou relativas não controladas"
-        ],
-        "label": "Não indicado para TRT"
-      },
-      "title": "Candidatos à Terapia de Reposição de Testosterona (TRT)"
-    },
-    {
-      "head": [
-        "Via",
-        "Duração/Intervalo",
-        "Picos e Vales",
-        "Impacto na Espermatogênese",
-        "Registro ANVISA",
-        "Manipulação",
-        "Riscos Chave"
-      ],
       "kind": "table",
+      "title": "Comparação das Vias de TRT: Registro, Dose, Propriedades e Contraindicações",
+      "head": [
+        "Parâmetro",
+        "Gel Transdérmico",
+        "Injetável Curta",
+        "Injetável Longa",
+        "Implante"
+      ],
       "rows": [
         [
-          "Gel transdérmico",
-          "Aplicação diária",
-          "Perfil mais estável, menor pico",
-          "Redução importante",
+          "Registro ANVISA",
           "Sim",
-          "Sim, se estéril",
-          "Dermatite, transmissão a terceiros"
+          "Sim",
+          "Sim",
+          "Não"
         ],
         [
-          "Injetável curta (cipionato/enantato)",
+          "Dose típica/dia",
+          "40–60 mg/dia de testosterona (4–6 g de gel a 1%)",
+          "100–200 mg IM a cada 7–14 dias",
+          "1000 mg IM; 2ª dose 6 semanas; manutenção 10–14 semanas",
+          "600–1200 mg total (6–12 pellets de 100 mg)"
+        ],
+        [
+          "Duração de ação",
+          "24 horas",
           "7–14 dias",
-          "Picos e vales marcantes",
-          "Redução significativa",
-          "Sim",
-          "Sim, se estéril",
-          "Policitemia, variação hormonal"
-        ],
-        [
-          "Injetável longa (undecilato)",
           "10–14 semanas",
-          "Perfil mais estável",
-          "Redução significativa",
-          "Sim",
+          "4–6 meses"
+        ],
+        [
+          "Picos e vales",
+          "Suaves",
+          "Acentuados (picos, vales)",
+          "Suaves",
+          "Suaves"
+        ],
+        [
+          "Adesão",
+          "Depende do paciente",
+          "Dependente do paciente",
+          "Mais estável",
+          "Invasivo, alta adesão"
+        ],
+        [
+          "Ajuste de dose",
+          "Fácil e rápido",
+          "Possível, mas picos comuns",
+          "Menos flexível",
+          "Ajuste parcial"
+        ],
+        [
+          "Efeito na Fertilidade",
+          "Reduz espermatogênese",
+          "Reduz espermatogênese",
+          "Reduz espermatogênese",
+          "Reduz espermatogênese"
+        ],
+        [
+          "Uso manipulado (farmácia estéril)",
+          "Permitido com farmacovigilância",
+          "Permitido com cuidado",
           "Restrito",
-          "Policitemia"
+          "Somente em situações especiais"
         ],
         [
-          "Implante silástico",
-          "4–6 meses",
-          "Estável",
-          "Redução significativa",
-          "Não registrado ANVISA",
-          "Sim, Purus grade rigorosa",
-          "Extrusão, infecção local"
+          "Contraindicação típica",
+          "Dermatite grave, transferência a terceiros",
+          "Picos intensos, má adesão",
+          "Reação grave à forma longa",
+          "Objetivo estético, risco infecção"
         ]
       ],
-      "title": "Comparação das Vias de Administração da TRT"
+      "source": "[G1][S8][S14]"
     },
     {
-      "head": [
-        "Forma",
-        "Dose inicial",
-        "Frequência",
-        "Monitoramento recomendados",
-        "Ajustes"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "Gel 1-2%",
-          "40–60 mg/dia",
-          "Diária",
-          "Testosterona total após 14 dias, hematócrito, PSA 3/6/12 meses",
-          "Ajustar dose conforme T sérica e sintomas"
-        ],
-        [
-          "Injetável curta",
-          "100–200 mg IM",
-          "7–14 dias",
-          "Testosterona sérica antes da próxima dose, hematócrito e PSA",
-          "Ajustar intervalo/dose para evitar picos/vales"
-        ],
-        [
-          "Injetável longa",
-          "1.000 mg IM",
-          "A cada 10–14 semanas pós dose inicial e segunda dose",
-          "Hemoglobina, hematócrito e PSA trimestral",
-          "Ajuste intervalo conforme níveis séricos"
-        ],
-        [
-          "Implante silástico",
-          "600–1.200 mg total (6–12 pellets)",
-          "4–6 meses",
-          "Avaliação periódica (3–6 meses) hematócrito, PSA e sintomas",
-          "Reimplantar conforme níveis e sintomas"
-        ]
-      ],
-      "title": "Doses Usuais e Monitoramento na TRT"
-    },
-    {
+      "kind": "bars",
+      "title": "Eventos Adversos Frequentes e sua Prevalência na TRT",
+      "unit": "percentual",
+      "source": "[G1][G2][S18]",
       "bars": [
         {
-          "label": "Policitemia clinicamente significativa: 15–27%",
+          "label": "Policitemia (Ht >54%) em 10–20% dos casos [G1][G2]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Aumento de PSA (>1,4 ng/mL ou >4 ng/mL): 5–10%",
+          "label": "Agravamento da Apneia do Sono (26–36%) [verificar]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Eventos cardiovasculares (IM/AVC): não significativamente aumentados em ECRs até 3 anos",
+          "label": "Elevação transitória do PSA (incidência variável) [G1]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Infecções ou complicações de implante: raras (<2%)",
+          "label": "Supressão da espermatogênese (>90% dos casos em TRT regular) [G1]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Piora de apneia obstrutiva do sono: variável, monitorar",
+          "label": "Retenção hídrica e edema leve (15–25%) [verificar]",
           "value": 0,
           "highlight": true
         }
-      ],
-      "kind": "bars",
-      "note": "Valores aproximados segundo evidências atuais; requer monitoramento contínuo.",
-      "unit": "%",
-      "title": "Riscos e Complicações da TRT – Frequência Relativa",
-      "source": "Biblioteca Doutiva, Bhasin et al, Snyder et al."
-    },
-    {
-      "kind": "split",
-      "left": {
-        "items": [
-          "CFM 2.333/2023: proíbe TRT para fins anti-aging, estéticos, emagrecimento, performance sem deficiência comprovada",
-          "ANVISA: exige registro para preparações industriais; manipulação de hormônios só em farmácias bem habilitadas (boas práticas)",
-          "WADA: testosterona e análogos são proibidos em competições – notificações obrigatórias para atletas",
-          "Implantes não registrados devem seguir rigoroso controle de manipulação estéril (Purus)",
-          "Prescrição ética e documentação rigorosa são mandatórias para evitar denuncias e penalidades"
-        ],
-        "label": "Obrigatório"
-      },
-      "right": {
-        "items": [
-          "Uso de TRT off-label para 'otimização hormonal' ou estética é vedado",
-          "Implantes feitos em local não autorizado (ex: estética, salão) são ilegais e inseguros",
-          "Negligenciar monitoramento laboratorial pode levar a eventos graves e responsabilização",
-          "Atletas submetidos a TRT devem informar WADA e obter autorização (TUE)"
-        ],
-        "label": "Proibido e Ilegal"
-      },
-      "title": "Aspectos Regulatórios no Brasil"
-    },
-    {
-      "kind": "flow",
-      "steps": [
-        {
-          "label": "Avaliar sintomas específicos e sinais do paciente masculino adulto"
-        },
-        {
-          "label": "Solicitar duas dosagens matinais de testosterona total (acompanhar horário)"
-        },
-        {
-          "label": "Confirmar hipogonadismo laboratorial (T total baixa + sintomas)"
-        },
-        {
-          "label": "Avaliar contraindicações e causas reversíveis"
-        },
-        {
-          "label": "Iniciar TRT (preferencialmente gel ou injetável curto); programar monitoramento laboratorial e clínico periódico"
-        },
-        {
-          "label": "Realizar exames baseline: hematócrito, PSA, TR, avaliação CV e apneia do sono"
-        },
-        {
-          "label": "Monitorar: hematócrito, PSA, testosterona a cada 3, 6 e 12 meses"
-        },
-        {
-          "label": "Suspender TRT se eventos adversos graves (Ht >54%, PSA elevado, sintomas graves) ou mudança no estado clínico"
-        }
-      ],
-      "title": "Fluxograma de Conduta Clínica no Consultório"
-    },
-    {
-      "kind": "bullets",
-      "title": "Alternativas para a conduta do caso clínico",
-      "bullets": [
-        "A) Iniciar testosterona injetável 200 mg a cada 2 semanas e acompanhar após 6 meses",
-        "B) Iniciar gel transdérmico 1%, monitorar hematócrito e PSA em 3, 6 e 12 meses",
-        "C) Solicitar prolactina e ordens para repetir testosterona após redução de peso",
-        "D) Prescrever implante subcutâneo de testosterona imediatamente sem exames adicionais"
       ]
     },
     {
+      "kind": "bullets",
+      "title": "Critérios Diagnósticos para Hipogonadismo Masculino",
+      "bullets": [
+        "Presença de sintomas sugestivos (diminuição de libido, disfunção erétil, fadiga, perda de massa muscular).",
+        "Testosterona total matinal (7–10h) persistentemente baixa em pelo menos duas amostras (<300 ng/dL, idealmente <265 ng/dL para indicação formal).",
+        "Despreferir imunodosagem quando disponível LC-MS/MS para maior precisão.",
+        "Testosterona livre calculada (fórmula Vermeulen) indicada se testosterona total limítrofe (230–350 ng/dL) ou alteração no SHBG (ex: obesidade).",
+        "Exclusão de doenças agudas, uso de medicamentos interferentes ou condições transitórias que baixem os níveis de testosterona.",
+        "Avaliar também LH, FSH, prolactina, TSH e ferritina para classificação etiológica."
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo para Diagnóstico e Manejo do Hipogonadismo Masculino no Brasil",
+      "steps": [
+        {
+          "label": "Sintomas sugestivos de deficiência androgênica →"
+        },
+        {
+          "label": "Dosar testosterona total matinal (7-10h) em 2 ocasiões →"
+        },
+        {
+          "label": "Testosterona <230-265 ng/dL com sintomas → iniciar avaliação complementar"
+        },
+        {
+          "label": "Testosterona entre 230-350 ng/dL → dosar testosterona livre e investigar causas reversíveis"
+        },
+        {
+          "label": "Solicitar LH, FSH, prolactina, TSH, ferritina, PSA e toque retal (≥40 anos)"
+        },
+        {
+          "label": "Descartar causas reversíveis (obesidade, apneia, drogas)"
+        },
+        {
+          "label": "Confirmar indicação clínica e discutir fertilidade"
+        },
+        {
+          "label": "Selecionar via TRT (gel, injetável, implante) conforme perfil, monitorar hematócrito, PSA e sintomas"
+        },
+        {
+          "label": "Implementar TCLE, acompanhar 3,6,12 meses; suspender se efeitos adversos graves"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Manipulação de TRT: Uso Ético e Regulação Brasileira",
+      "left": {
+        "label": "Princípios Éticos",
+        "items": [
+          "Manipulados só aconselhados após falha/intolerância das opções registradas",
+          "Obrigatória rastreabilidade, laudo farmacotécnico e controle de pureza",
+          "Farmácias devem cumprir Boas Práticas de Manipulação (ANVISA) e USP <797> para estéreis",
+          "Implantes não possuem registro ANVISA — uso experimental e documentado com cuidado",
+          "Não permitir uso para finalidade estética, anti-aging ou performance",
+          "Responsabilidade pesada do prescritor na escolha e documentação"
+        ]
+      },
+      "right": {
+        "label": "Status Regulatório",
+        "items": [
+          "Opções Registradas: gel, injetáveis (cipionato, enantato, undecilato)",
+          "Manipulados: gel e injetáveis admitidos com cautela; implantes restritos",
+          "Proibidos: testosteronas orais alquiladas, hormonioterapia estética",
+          "Regulação: ANVISA, CFM 2.333/2023 vetam usos não elegíveis"
+        ]
+      }
+    },
+    {
       "kind": "pearl",
-      "text": "Nunca prescrever TRT sem diagnóstico laboratorial rigoroso e supervisão contínua! Respeite os parâmetros éticos e regulatórios para evitar riscos graves ao paciente e ao profissional.",
-      "title": "Pérola Clínica Final"
+      "title": "Pérola Clínica",
+      "text": "Não prescreva TRT sem diagnóstico clínico e laboratorial rigoroso, respeitando o monitoramento e regulamentos brasileiros — a terapia é para corrigir deficiência sintomática e melhorar qualidade de vida, não um recurso cosmético ou de performance."
     }
   ],
-  "monograph": "# Hipogonadismo Masculino: Diagnóstico, Terapia de Reposição de Testosterona (TRT), Vias (Gel, Injetável, Implante) e Riscos\n\n## 1. Contexto e Relevância\n\nO hipogonadismo masculino, condição caracterizada por níveis insuficientes de testosterona e/ou comprometimento da espermatogênese associado a sintomas clínicos, é um desafio diagnóstico e terapêutico frequente no consultório de endocrinologistas, nutrólogos e clínicos com atuação em medicina de precisão e longevidade. O aumento do interesse pelos hormônios, inclusive via manipulação e implantes, demanda rigor ético, científico e regulatório, sobretudo diante de práticas “anti-aging” sem base diagnóstica — conduta explicitamente proibida por CFM 2.333/2023.\n\nA prescrição honesta e segura exige compreensão crítica dos critérios diagnósticos internacionais, habilidade na seleção da via, conhecimento das nuances entre produtos registrados, manipulados e irregulares, e domínio dos riscos (hematológicos, prostáticos, reprodutivos, metabólicos, cardiovasculares e respiratórios), incluindo monitoramento sistemático. A manipulação estéril (“Purus grade”) é opção válida em nichos específicos; requer, porém, atualização rigorosa em boas práticas, rastreabilidade, estabilidade galênica e farmacovigilância ativa.\n\nEste tratado orienta a prática clínica premium, apoiando a tomada de decisão ética e robusta no cenário nacional.\n\n---\n\n## 2. Bases Científicas do Diagnóstico\n\n### 2.1 Definição, Fisiologia e Etiologias\n\n- **Definição:** O hipogonadismo pode ser primário (testicular), secundário (hipotálamo-hipofisário) ou misto. Prevalência estimada de 2-5% em homens adultos, com aumento após a 5ª década (B).\n- **Eixo HHT:** Liberação pulsátil de GnRH (hipotálamo) estimula LH/FSH (hipófise), que modulam função testicular — produção de testosterona (células de Leydig) e espermatogênese (células de Sertoli).\n- **Etiologias:** *Tabela 1* lista principais causas.\n\n#### Tabela 1. Etiologias de Hipogonadismo Masculino\n\n| Tipo         | Exemplo                              | Fisiopatologia                  | Prevalência (%) |\n|--------------|--------------------------------------|---------------------------------|-----------------|\n| Primário     | Síndrome de Klinefelter, orquite     | Dano testicular                  | 0,1–0,2         |\n| Secundário   | Adenoma hipofisário, opiáceos        | Def. LH/FSH                      | <0,1            |\n| Misto        | Hemocromatose, envelhecimento        | Multifatorial                    | 1–5             |\n| Funcional    | Obesidade, DM2, doença sistêmica     | Supressão do eixo                | 10–20           |\n\nFonte: [Biblioteca Doutiva], modificada.\n\n### 2.2 Diagnóstico Clínico-Laboratorial\n\n#### Critérios (Endocrine Society 2018; Evidência A):\n\n- **Clínico:** Sintomas típicos (diminuição de libido, disfunção erétil, fadiga, perda muscular, anemia inexplicada). Corrigir confusões com sinais inespecíficos.\n- **Laboratorial:** Dupla dosagem matinal de testosterona total < 230–264 ng/dL (8–9 nmol/L), sempre associada a sintomas. Em caso de valores “limítrofes” (230–350 ng/dL), medir testosterona livre (preferir cálculo por fórmula Vermeulen ou direta por diálise de equilíbrio, quando disponível).\n- **Triagem adicional:** LH, FSH, prolactina, TSH, ferritina, genética quando apropriado (CFM/ANVISA exige documentação robusta antes de terapia).\n\n#### Exclusões Diagnósticas\n\n- Não diagnosticar hipogonadismo em doença intercorrente grave, T naive < 6 h de sono, uso recente de opioide/GC.\n- Não prescrever TRT sem comprovação laboratorial robusta (*não endossar* “TRT anti-aging” ou prevenção de envelhecimento).\n\n---\n\n## 3. Evidência Crítica para TRT Masculino\n\nA compreensão da relação risco-benefício e da magnitude dos efeitos é fundamental. Tabela 2 sumariza dados principais de grandes ensaios e metanálises.\n\n### Tabela 2. TRT no Hipogonadismo Masculino: Efeitos, Desfechos e Magnitude\n\n| Estudo/Metanálise               | n     | População      | Desfechos Primários          | % Melhora LE* | Eventos Adversos (%) | HR/OR relevante (IC95%) |\n|----------------------------------|-------|---------------|------------------------------|---------------|----------------------|-------------------------|\n| Bhasin et al JAMA 2010 [A]       | 790   | Idoso, T<275  | Força, libido, humor         | 40–65         | 7–14 (hematócrito)   | ↑libido: OR 2,1 (1,4–3,1)|\n| Corona et al, 2014 (meta) [A]    | 5.671 | ≥18y, T<300   | Função sexual, MM, DMO       | 30–55         | 7–27 (hematócrito)   | CV maior: HR 1,1 (0,9–1,5)|\n| Snyder et al, NEJM 2016 [A]      | 790   | ≥65y, T<275   | Desejo sexual, ereção        | 37–52         | 21 (≥50% Ht>54)      | AVC/IM: NS              |\n| Hildreth et al, 2013 [B]         | 230   | T<300         | Sintomas, QM, comp. CV       | 35            | 3–6                  | CV maior em geriatria (a confirmar) |\n| Systematic review [verificar]    | >10k  | Diverso       | SDQ, massa óssea, anemia     | 15–50         | Hematócrito ↑ 15–55  | Risco PCa: NS           |\n\n*LE= libido e ereção  \nFonte: Biblioteca Doutiva; evidência classificada.\n\n#### Síntese\n- Sintomas sexuais: Benefício A, efeito robusto em função sexual, massa magra, força.\n- CV (cardiovascular): Não há aumento significativo do risco em ECRs até 3 anos; estudos observacionais mostram resultados divergentes (risco pode aumentar em subgrupos específicos; discutir caso a caso).\n- Risco prostático: Não há aumento de câncer de próstata em seguimento curto; vigilância rigorosa PSA/TOU necessária.\n- Hematológicos: Policitemia clinicamente significativa em até 15–27% (>54% Ht).\n\n---\n\n## 4. Seleção de Pacientes — Quem, Quando e Quem Não\n\n### 4.1 Indicação Estrita (Endocrine Society/Doutiva/SBEM [A])\n\n- Sintomas consistentes + testosterona comprovadamente baixa em ≥2 amostras matinais\n- Excluir causas reversíveis/funcionais (obesidade, DM2 descompensado, drogas, apneia OSA)\n- Avaliar desejo de fertilidade (<deve ser preservado previamente>)\n\n### 4.2 Contraindicações Absolutas e Relativas\n\n| Absolutas         | Relativas                                      |\n|-------------------|-----------------------------------------------|\n| CA próstata/mama ativo, nódulo prostático não elucidado            | VTE recente, Ht>50-52%, apneia não tratada    |\n| Policitemia não explicada (>54%), ICC/AVE descompensada            | DPP (distúrbio psiquiátrico não controlado)    |\n| Hiperplasia prostática com retenção urinária, infertilidade ativa  | História CV instável (avaliar caso a caso)     |\n\n#### Nunca prescreva TRT para uso “anti-aging” sem diagnóstico formal.\n\n---\n\n## 5. Terapêutica: Vias de TRT, Doses, Cuidados e Papel da Manipulação\n\n### 5.1 Preparações e Registros no Brasil\n\n| Forma                | Exemplo (nome comercial)                   | Registro ANVISA | Manipulável | Grau Purus |\n|----------------------|--------------------------------------------|-----------------|-------------|------------|\n| Gel transdérmico     | Androgel®, Axeron®, Testogel®              | Sim             | Sim         | Purus      |\n| Injetável curta      | Cipionato/enantato de testosterona         | Sim             | Sim         | Purus      |\n| Injetável longa      | Undecilato de testosterona (Nebido®)       | Sim             | Restrito    | Purus      |\n| Implante de silástico| Testosterona (300–1.200 mg total)          | Não             | Sim         | Purus      |\n| Oral                 | Não utilizado (alquilados = hepatotox)     | —               | Não         | —          |\n\nFonte: ANVISA/CFM/Doutiva\n\n### 5.2 Vias: Vantagens, Desvantagens e Considerações para Manipulação Estéril\n\n#### Tabela 3. Comparação das Formas de TRT\n\n| Forma                  | Duração  | Pico/Vales    | Monitoramento | Espermato. | Manipulação e Purus | Riscos chave          |\n|------------------------|----------|---------------|---------------|------------|--------------------|-----------------------|\n| Gel transdérmico       | diária   | Suave         | 2–3 m/ano     | Redução    | Ok se estéril      | Dermatite, transf.    |\n| Injetável (IM)         | 7–14 d   | Flutuante      | Mensal–trimestral   | Redução    | Ok se estéril      | Pico/vale, policit.   |\n| Undecilato injetável   | 10–14 s  | Estável        | Trimestral    | Redução    | Restrito           | Policitemia           |\n| Implante de silástico  | 4–6 m    | Estável        | 3–6 m         | Redução    | Requer Purus alto  | Extrusão, infecção    |\n\n#### *Nota: nenhuma preparação oral de testosterona disponível no Brasil tem perfil de segurança fora de estudos experimentais.*\n\n#### 5.2.1 Manipulação Estéril “Grade Purus”  \n- Recomendada apenas em farmácias habilitadas (BPF ANVISA, ISO), preferir apresentação com rastreio, análise microbiológica, ausência de pirogênicos e estabilidade documentada.\n- Validade limitada após abertura (gel: 2–4 meses; injetáveis: respeitar bula/estudo galênico; implante: rastreio físico e microbiológico).\n- Não prescrever “implantes cosméticos” sem indicação clínica robusta — vedado pelo CFM.\n\n### 5.3 Doses e Algoritmos de Administração\n\n#### 5.3.1 Gel transdérmico (1–2%):\n- Dose inicial: 40–60 mg/dia (1–2 g gel), ajustar por níveis após ≥14 dias.\n- Aplicar pela manhã, pele íntegra, evitar contato com terceiros, lavar as mãos após uso.\n\n#### 5.3.2 Injetável curta (cipionato/enantato):\n- Dose: 100–200 mg IM (profunda) cada 7–14 dias.\n- Ajuste pela resposta clínica/níveis ao final do ciclo. Cuidado com picos/vales; considerar intervalo mais curto/dose menor se eventos adversos.\n\n#### 5.3.3 Injetável longa (undecilato):\n- Dose: 1.000 mg IM profunda inicial, repetir após 6 semanas, depois a cada 10–14 semanas.\n- Monitorar níveis antes da dose subsequente, ajustar intervalos.\n\n#### 5.3.4 Implante de silástico:\n- 600–1.200 mg total implantado (típico: 6–12 pellets de 100 mg), efeito 4–6 meses.\n- Inserir em condições estéreis (ambiente cirúrgico ou consultório habilitado; Purus grade).\n- Dupla monitoração sorológica durante o uso.\n- Riscos: extrusão, infecção, deslocamento.\n\n#### 5.3.5 Fertilidade\n- **Não prescrever TRT se desejo reprodutivo presente**. Uso de TRT reduz espermatogênese em 70–95% dos casos em 6–12 meses.\n- Opções: Gonadotrofinas (HCG + FSH), clomifeno.\n\n---\n\n## 6. Monitoramento Sistemático e Segurança\n\n### 6.1 Baseline (pré-início)\n- Hematócrito, hemoglobina\n- PSA, toque retal (TR) >40a\n- LH/FSH, prolactina\n- Glicemia, perfil lipídico\n- Densitometria óssea se FR\n- Avaliar apneia do sono (STOP-Bang)\n\n### 6.2 Durante TRT\n| Parâmetro       | Frequência Inicial      | Manutenção         | Conduta de Suspensão             |\n|-----------------|------------------------|--------------------|----------------------------------|\n| Ht/Hb           | 3, 6, 12 m             | 6–12 m             | Ht>54%: suspender/colher          |\n| PSA/TR          | 3, 6, 12 m             | 6–12 m             | ↑PSA > 1,4 ng/mL ou >4 ng/mL      |\n| T livre/total   | 2 m após início, anual | —                  | Fora da faixa desejada            |\n| Efeitos adversos| Sempre                 | Sempre             | Policitemia, AEs graves           |\n\n### 6.3 Riscos e Manejo\n\n- **Policitemia:** Ht>54% — suspender, investigar causas, avaliar flebotomia.\n- **Eventual piora de apneia do sono:** Atenção em obesidade, STOP-BANG alto.\n- **Efeitos CV:** Insuficiência coronariana, arritmias, ICC preexistente — monitorar estreitamente.\n- **Eventos prostáticos:** Aumento do PSA, surgimento de nódulo — encaminhar urologia.\n- **Infecção de implante:** Raro, mas relevante — antibiótico e explante se necessário.\n\n---\n\n## 7. Considerações Regulatórias e Éticas no Brasil\n\n### 7.1 CFM 2.333/2023\n\n- Proíbe uso de hormônios (inclusive implantes) para fins estéticos, desempenho muscular, emagrecimento e “antiaging” sem deficiência hormonal comprovada.\n- Demanda documentação exaustiva do diagnóstico e acompanhamento.\n- Implantes só em consultório/hospital com condições estéreis e rastreio.\n\n### 7.2 ANVISA\n\n- Implantes não têm registro sanitário específico, mas manipulação estéril (BPF) é condição sine qua non. Produtos industriais injetáveis (Nebido®, Deposteron®, etc.) são preferenciais.\n- Manipulados devem ser rastreáveis, com laudos farmacotécnico e microbiológico.\n\n### 7.3 WADA\n\n- Testosterona e análogos são substâncias proibidas em atletas. Avaliar obrigatoriedade de notificação BIID nos casos de TUE.\n\n---\n\n## 8. O Que NÃO Fazer\n\n- NÃO iniciar TRT sem pelo menos duas dosagens matinais documentando baixa testosterona.\n- NÃO prescrever para fins de \"otimização hormonal\" ou cosmética isolada.\n- NÃO realizar implantes “off consultório” (salão de beleza, estética sem padrão Purus).\n- NÃO negligenciar baseline de PSA, hematócrito e perfil CV antes do início.\n- NÃO manter TRT se surgirem eventos adversos inexcusáveis (Ht>54%, ↑PSA relevante, piora expressiva de apneia).\n\n---\n\n## 9. Caso Clínico Realista\n\n**Homem, 47 anos, médico, relata queda de libido, ganho de gordura abdominal e fadiga persistente. História de apneia do sono leve (tratada), DM2 (HbA1c 6,9%), sem história de CA próstata. Medicação: metformina e CPAP. Ao exame: IMC 31, PA 122/78 mmHg, ausência de ginecomastia ou testículos atróficos, próstata sem nódulos. Laboratório (duas amostras matinais, CPAP regular):**\n\n- Testosterona total: 198 e 212 ng/dL\n- LH: 7,2 mUI/mL, FSH: 5,7 mUI/mL\n- Hematócrito: 45%\n- PSA: 1,1 ng/mL\n- TR: sem alterações\n- Perfil lipídico: LDL 102, HDL 43, TG 140 mg/dL\n\n**Qual conduta inicial está corretamente indicada?**\n\nA. Iniciar testosterona IM 200 mg a cada 2 semanas, acompanhar com exames em 6 meses  \nB. Iniciar gel transdérmico 1%, monitorar hematócrito e PSA em 3/6/12 m  \nC. Solicitar dosagem de prolactina e repetir testosterona após redução de peso  \nD. Prescrever implante subcutâneo de testosterona imediatamente, sem outro exame\n\n**Resposta correta e justificação:**\n\n**B. Iniciar gel transdérmico 1%, monitorar Ht e PSA em 3/6/12 m.**  \nJustificativa: Critérios diagnósticos preenchidos (sintomas típicos, 2 T matinais <230), DM2 está controlada, apneia tratada, sem contraindicações, exames de baseline adequados. Gel permite ajuste fino de dose e menor pico/vale, adequado dado o risco intermediário CV; monitoramento precoce de Ht e PSA fundamental.  \nOpcional C só caberia se T fosse limítrofe, sem sintomas intensos.\n\n---\n\n## 10. Slide Deck Estruturado\n\n1. **Título**  \nHipogonadismo masculino: abordagem diagnóstica e TRT responsável (“Doutiva grade”)\n\n2. **Definição e Epidemiologia**  \n- Prevalência, fisiopatologia, tipos.\n- Sintomas chave.\n\n3. **Fluxograma Diagnóstico (ES 2018)**  \n- Sintomas → 2x T total matinal → T livre → LH/FSH/Prolactina.\n\n4. **Critérios Estritos para TRT (Tabela split)**  \n- Quem tratar, quem NÃO tratar.\n\n5. **Formas de TRT: Comparativo denso**  \n(Tabela ± barras)  \n- Gel, injetável, implantado — propriedades, registro, Purus, limitações.\n\n6. **Doses e Algoritmo prático (Tabela)**  \n- Gel, IM, longa, implante: posologia, monitoramento, ajuste.\n\n7. **Monitoramento de Riscos (Bar chart)**  \n- Policitemia, PSA, CV, apneia, fertilidade.\n\n8. **Pontos Críticos Regulatórios (Split)**  \n- CFM 2.333/23, ANVISA, WADA.\n\n9. **Fluxograma Conduta (“flow”)**  \n- Passo a passo do consultório: triagem, baseline, escolha via, acompanhamento, suspensão.\n\n10. **Caso clínico BR**  \n- Dados, alternativas, racional.\n\n11. **O que NUNCA fazer**  \n- TRT anti-aging, implante off-label, negligência monitoramento.\n\n12. **Pérolas e Checklist de Bolso**\n\n---\n\n## 11. Quick_Ref de Bolso\n\n1. Sintomas + 2x T matinal baixa → liberar TRT apenas se contexto consistente.\n2. Nunca iniciar sem baseline (Ht, PSA, TR, CV).\n3. Preferir gel/inj curto início; implante só em cenários bem indicados, Purus grade.\n4. Implantação: rastreio/estéril obrigatório (ANVISA/CFM).\n5. Monitoramento: Ht/PSA/TR 3m, 6m, 12m. Suspender se Ht>54%, PSA↑.\n6. Fertilidade ativa exclui TRT: preferir gonadotrofinas.\n7. CFM/ANVISA não permitem uso estético, cosmético e “performance”.\n\n---\n\n## 12. Key Points (Resumo para Ação)\n\n1. **Diagnóstico exige sintomas típicos + duas testosteronas matinais baixas; nunca prescreva TRT sem.”\n2. **Documente sempre baseline Ht, PSA, exame prostático, avaliação CV e apneia antes de iniciar terapia.”\n3. **Gel e injetáveis curtos são preferenciais no início; implantes só com indicação precisa, nunca apenas “cosmética”.**\n4. **Manipulação estéril tipo Purus é opção válida apenas se rastreável, comprovada e em farmácias habilitadas.**\n5. **Monitoramento deve ser sistemático (Ht, PSA, TR, efeitos adversos), com suspensão diante de eventos críticos.”\n6. **Evite TRT em pacientes com fertilidade desejada; considere alternativas.\"\n7. **Jamais use hormônios em protocolos anti-aging, emagrecimento, performance sem deficiência comprovada (vedado pelo CFM).**\n\n---\n\n## 13. Referências Fundamentais\n\n- Biblioteca Doutiva. Posicionamento editorial, hierarquia de evidência em hormônios/implantes [S1].\n- Bhasin S, et al. Testosterone Therapy in Men with Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018.\n- Snyder PJ et al. Effects of Testosterone Treatment in Older Men. N Engl J Med. 2016.\n- Corona G et al. Testosterone and Metabolic Syndrome: Meta-Analysis. J Endocrinol Invest. 2014.\n- CFM. Resolução nº 2.333/2023 - Normas para prescrição de hormônios.\n- ANVISA. Normas sobre manipulação e registro de preparações hormonais masculinas.\n- WADA. Lista Proibida 2023: categoria S1, S2.\n- Biblioteca Doutiva. Fichas de segurança, monitoramento e fluxograma em manipulação estéril.\n- [Referências restantes, conforme discussão em texto principal]\n\n---\n\n*Fim deste tratado. Agir com critério, rastreabilidade e vigilância clínica é premissa irrenunciável da prescrição médica ética em hormonioterapia masculina.*",
-  "quick_ref": "# Quick Reference: Hipogonadismo Masculino e TRT\n\n| Item                         | Detalhe                                           |\n|------------------------------|--------------------------------------------------|\n| Diagnóstico                  | Sintomas típicos + 2 dosagens matinais T baixa   |\n| Testosterona total baixa     | <230–264 ng/dL                                    |\n| Testosterona livre           | Avaliar se valores limítrofes                      |\n| Exames baseline              | Ht, PSA, TR, LH/FSH, prolactina, glicemia, lipídios |\n| Indicação TRT                | Confirmar causa, excluir reversíveis e fertilidade|\n| Formas preferenciais         | Gel transdérmico e injetáveis curtos               |\n| Implante                    | Apenas Purus, manipulação estéril, indicação clara|\n| Contraindicações             | CA próstata/mama ativo, policitemia>54%, ICC ativa|\n| Monitoramento              | Ht, PSA e TR 3/6/12 meses; ajustar dose conforme |\n| Fertilidade                  | Preservar; evitar TRT se presença de desejo       |\n| Regulatório Brasil           | CFM 2.333/23 vedação TRT anti-aging sem deficiência|\n",
+  "monograph": "# Hipogonadismo Masculino: Diagnóstico, TRT, Vias (Gel, Injetável, Implante) e Riscos --- ## 1. Introdução O hipogonadismo masculino consiste em deficiência androgênica comprovada associada a sintomas específicos, sendo relevante por seu impacto na saúde global e pelo risco de prescrição inadequada frente ao crescente apelo da “terapia anti-aging”. Este documento orienta o diagnóstico e manejo segundo as melhores práticas e regulação brasileira, priorizando segurança, rastreabilidade e critérios éticos [G1][S18][S13]. --- ## 2. Diagnóstico: Critérios Estritos ### 2.1. Definição - Hipogonadismo: sintomas clínicos de deficiência androgênica + testosterona total matinal persistentemente reduzida em pelo menos 2 ocasiões, realizadas entre 7–10h da manhã [G1][S18].\n- Causas dividem-se em primárias (testicular), secundárias (hipotalâmico-hipofisário) e funcionais (ex: obesidade, uso de opioides, doença crônica).\n- Prevalência de hipogonadismo bioquímico e sintomático varia com idade e população (~2–5% em adultos; até 10–20% para quadros funcionais, mas com alta variabilidade — verificar) [verificar — não ancorado]. ### 2.2. Diagnóstico Laboratorial - Sintomas: diminuição de libido, disfunção erétil, perda de massa ou força muscular, osteoporose, anemia inexplicada, fadiga.\n- Testosterona total matinal: <300 ng/dL (~10,4 nmol/L) é o cutoff consensual para diagnóstico, embora quadros clássicos confirmem sintomatologia com valores <230–265 ng/dL (8–9 nmol/L); limiares dependem do contexto, do método analítico e da presença de sintomas [G1][S18]. Valores “limítrofes” (230–350 ng/dL) exigem dosagem de testosterona livre calculada (Vermeulen preferencialmente), especialmente se alterações em SHBG forem prováveis (ex: obesidade) [G1][S18].\n- Realizar pelo menos duas dosagens em jejum, após sono adequado e ausência de doenças intercorrentes graves.\n- Métodos: Imunoensaio pode subestimar valores; LC-MS/MS é o padrão ouro (quando disponível).\n- Complementar: LH, FSH, prolactina, TSH, ferritina; PSA e toque retal em homens ≥40 anos antes de iniciar terapia; investigação de reversibilidade (DM, obesidade, apneia, drogas) [G1][S18]. ### 2.3. Excluir Falsos Positivos - Não iniciar TRT em testosterona limítrofe sem sintomas.\n- Valores baixos em doença aguda, privação de sono, ingestão de álcool, dor crônica — realizar reavaliação. --- ## 3. Conduta Diagnóstica: Fluxograma Brasil (Markdown) ```markdown\n1. Identificação de sintomas compatíveis (libido, energia, desempenho sexual, MM).\n2. Dosar testosterona total matinal (x2, 7–10h, LC-MS/MS preferencialmente).\n3. Se T <230–265 ng/dL e sintomas: PROSSEGUIR avaliação. - Se T entre 230–350 ng/dL: calcular T livre (Vermeulen) ou dosar SHBG; investigar causas secundárias.\n4. Dosar LH, FSH, prolactina, TSH, ferritina.\n5. Avaliar PSA e toque retal (>40 anos).\n6. Afastar causas reversíveis: obesidade, comorbidades, drogas.\n7. Confirmou deficiência AND sintomática? INDICAÇÃO formal de TRT.\n```\n--- ## 4. Indicações e Contraindicações da TRT ### 4.1. Indicações (evidência A) - Sintomas claros + testosterona total <230–265 ng/dL (<300 ng/dL como referência geral, mas considerar variações metodológicas/contexto) em 2 amostras.\n- Após descartar causas reversíveis e avaliar impacto sobre fertilidade [G1][S18]. ### 4.2. Contraindicações (Grau de recomendação A) **Absolutas:** - CA de próstata ou mama ativo.\n- Nódulo prostático não elucidado/PSA elevado sem investigação.\n- Policitemia (>54%).\n- Apneia obstrutiva do sono não tratada.\n- Insuficiência cardíaca grave/descompensada [G1][S18][S13]. **Relativas:** - Eventos tromboembólicos recentes.\n- Doença cardiovascular instável.\n- Vontade de fertilidade no curto-médio prazo. Não indicado para ganho de massa muscular, melhora cosmética (“anti-aging”), emagrecimento ou performance sem hormônio comprovadamente baixo — vedado pelo CFM 2.333/2023 [S13][S19]. --- ## 5. Modalidades, Doses e Aspectos Regulatórios ### Tabela Regulatório: Registrado / Off-label / Manipulado / Não Prescrever | Categoria | Registro ANVISA | Manipulado | Usar se | Oferecer | Não Usar se |\n|-------------------|-----------------|------------|-----------------|----------|-------------------------------------|\n| Gel transdérmico | Sim | Sim | Preferência/adaptação | Sim | Lesão de pele extensiva |\n| Injetável curta | Sim | Sim | Preferência/controle | Sim | Histórico de má adesão ou reações |\n| Injetável longa | Sim | Restrito | Falha das demais | Sim | Reação grave à forma longa |\n| Implante | Não | Sim | Falha de registro/situação especial + documentação | Exceção | Uso rotineiro, objetivo estético |\n| Testo oral | Não | Não | — | Nunca | Sempre não usar (toxicidade hepática)|\n| TRT com finalidade “anti-aging” | — | — | — | Nunca | CFM veda | ### 5.1. Gel Transdérmico - Dose usual: 40–60 mg de testosterona/dia (equivale a 4–6 g de gel a 1%). Atenção para prescrição correta: produtos variam concentração; não confundir g do gel com mg do ativo.\n- Aplicar pela manhã em pele limpa, seca, íntegra. Evitar transferência para terceiros. ### 5.2. Injetável - Cipionato/enantato: 100–200 mg IM profunda a cada 7–14 dias. - Individualizar conforme resposta e ocorrência de picos/vales [G1][S18].\n- Undecilato de testosterona: 1.000 mg IM; 2ª dose após 6 semanas, demais a cada 10–14 semanas (registrado).\n- Monitorar eventos adversos: policitemia, edema, pico de sintomas. ### 5.3. Implantes - 600 a 1.200 mg de testosterona total, usualmente 6–12 pellets de 100 mg, efeito por 4–6 meses.\n- *Não possui registro ANVISA*; seu uso só se justifica se há falha/intolerância às vias registradas, com documentação explícita, farmacovigilância e farmácia com rastreabilidade/controle estéril [S8][S14][S11][S12].\n- Riscos aumentados: extrusão, infecção, fibrose, variação de dose [S14].\n- “Bioidêntico manipulado” não é mais seguro por definição [S14][S16]. ### 5.4. Não Prescrever/Nunca Indicar - Derivados orais alquilados (hepatotoxicidade).\n- Hormonioterapia manipulada em contexto cosmético, performance, estética e sem justificativa robusta. --- ## 6. Comparação das Vias: Propriedades, Segurança, Papel da Manipulação | Parâmetro | Gel Transdérmico | Injetável Curta | Injetável Longa | Implante |\n|----------------------|------------------------|---------------------------|---------------------------|---------------------------|\n| Registro BR | Sim | Sim | Sim | Não |\n| Pico/vale | Suave | Acentuado | Suave | Suave |\n| Duração | 24h | 7–14 dias | 10–14 sem | 4–6 meses |\n| Adesão | Depende paciente | Depende paciente | Mais estável | Invasivo/aderência alta |\n| Dose inicial | 4–6 g gel 1% | 100–200 mg IM/7–14d | 1.000 mg, depois 10–14s | 600–1.200 mg total |\n| Ajuste | Fácil (titulável) | Possível, pode ser difícil| Pode variar | Parcialmente possível |\n| Fertilidade | Reduz espermatogênese | Reduz espermatogênese | Reduz espermatogênese | Reduz espermatogênese |\n| Manipulado farmácia de manipulação estéril | Admite | Admite | Restrições | Só se farmácia de manipulação estéril e documentação|\n| Não prescrever se | Transfer para 3os, dermatite grave| Pico grave, má adesão| Instabilidade, reação grave| Objetivo estético, risco sepsis| --- ## 7. Populações Especiais - **Fertilidade desejada:** NÃO indicar TRT; preferir terapia com gonadotrofinas (hCG, FSH), clomifeno ou tamoxifeno se apropriado [G1][S18].\n- **Idosos (>75 anos) ou com doença cardiovascular significativa:** Indicação e monitoramento individualizados, ponderando risco-benefício e preferindo formas com absorção estável e ajuste fácil. Maior risco de eventos adversos hematológicos e CV [G2][S17].\n- **Pacientes HIV, doença crônica ou em opioides:** Investigar causas reversíveis, ponderar benefícios na massa magra e sintomas, seguir critérios estritos [verificar].\n- **Atletas:** TRT é proibido pela WADA salvo TUE formal; prescrição exige extrema cautela e documentação [S13][S19]. --- ## 8. Monitoramento e Rastreamento de Riscos - **Antes do início:** hematócrito, hemoglobina, PSA, TR (se ≥40 anos), perfil lipídico, glicemia, história CV, apneia (STOP-Bang), infertilidade.\n- **Após início:** - Hematócrito/hemoglobina: 3, 6, 12 meses (suspender se Ht>54%). - PSA, TR: 3, 6, 12 meses; anualmente após o 1º ano. - Testosterona livre e total: após 2 meses e periodicamente. - Perfil glicêmico/lipídico anual. - Sintomas, AEs: sempre.\n- Suspender/suspender temporariamente se: policitemia manifesta, elevação significativa de PSA, sintomas CV agudos, piora de apneia. #### Efeitos adversos - Policitemia (até 10–20% dos casos; suspender se Ht>54%) [G1][S18][G2][S17].\n- Agravamento de apneia do sono, exacerbação de IC, edema, irritabilidade.\n- Efeitos prostáticos: crescimento benigno; câncer de próstata a longo prazo — risco permanece incerto [G1][S18][G2][S17].\n- Redução intensa e rápida na espermatogênese. --- ## 9. Considerações Ético-Regulatórias - Manipulados só justificáveis pós-falha/intolerância de opções registradas, com termodeclarado, rastreamento, laudo farmacotécnico e responsável técnico farmacêutico, ambiente estéril comprovado (BPF) [S8][S11][S12][S14].\n- Documentação compulsória de indicação clínica e monitoramento (em TCLE e prontuário digital ou físico suficiente [S2][S13]).\n- Não prescrever nem endossar para envelhecimento saudável, estética ou performance — infração ética grave; responsabilização solidária em caso de intercorrências com manipulado inadequado [S13][S19].\n- “Implantes farmácia de manipulação estéril grade” não substituem registro ANVISA, não implicam ausência de risco, e só são opção em situações excepcionais, documentadas e rastreadas [S8][S11][S12][S14]. --- ## 10. Fluxograma Clínico Resumido — Conduta BR ```markdown\n1. Sintomas androgênicos → Dosagem T matinal x2 (corrigir condições interferentes)\n2. T <230–265 ng/dL e sintomas → Avaliar LH, FSH, prolactina, TSH, ferritina, PSA/TR ≥40a\n3. Excluir causas reversíveis (drogas, DM, obesidade, apneia)\n4. Documentar contraindicações (Tabela)\n5. Discussão (inclui desejo de fertilidade)\n6. Escolher a via: Gel/IM, avaliar perfil do paciente\n7. Documentar: TCLE, monitoramento baseline (Ht, PSA, perfil CV, exames complementares)\n8. Iniciar TRT\n9. Monitorar Ht, PSA, sintomas (3, 6, 12 meses)\n10. Revisar anualmente; suspender frente a eventos maiores\n``` --- ## 11. Checklist de Prontuário/TCLE - [ ] Sintomas específicos registrados\n- [ ] Ao menos duas dosagens matinais de testosterona total\n- [ ] Cálculo/teste de testosterona livre se T total limítrofe ou SHBG alterado\n- [ ] Investigação e documentação de causas reversíveis\n- [ ] Avaliação de fertilidade e discussão registrada\n- [ ] LH, FSH, prolactina, TSH, ferritina (com registros)\n- [ ] Hematócrito, hemoglobina, PSA, TR (≥40 anos), perfil lipídico/glicêmico\n- [ ] Registro detalhado da via escolhida, dosagem inicial, plano de ajuste\n- [ ] Termo de consentimento sobre riscos, objetivos, off-label (caso implante)\n- [ ] Plano de acompanhamento pactuado: datas e parâmetros de monitoramento\n- [ ] Farmácia/manipulação estéril com laudo e rastreabilidade\n- [ ] Evitar prescrição para “anti-aging”; se recusa, motivo fundamentado e registro\n- [ ] Documentação de notificação (atletas, uso para TUE) --- ## 12. O que NÃO fazer - Não prescrever TRT sem diagnóstico laboratorial E clínico fechado.\n- Não ajustar doses sem monitorar Ht, PSA, perfil CV, riscos metabólicos.\n- Não usar implantes fora de indicação formal e sem rastreabilidade estéril.\n- Não negligenciar documentação, TCLE e registro de dados sensíveis (LGPD).\n- Não omitir riscos oncológicos, hematológicos ou de fertilidade em discussão com o paciente. --- ## 13. Resumo Crítico (“Key Points”) 1. TRT é terapia exclusiva para homens com sintomas e deficiência documentada — evitar medicalização injustificada.\n2. Escolha entre gel, injetável ou implante só após ponderação individual, considerando registro, adesão, perfil de eventos adversos e responsabilidade regulatória.\n3. Implantes não possuem registro ANVISA; exigem rastreabilidade máxima, só para circunstâncias excepcionais e sempre documentadas.\n4. Monitoramento sistemático de hematócrito, PSA, perfil metabólico e sintomas é obrigatório.\n5. TRT suprime espermatogênese; alternativa com gonadotrofina/clomifeno é preferida se fertilidade desejada.\n6. Não utilizar hormônios para fins estéticos/cosméticos/ampliação de performance; infração ética grave.\n7. Empregar farmácias/manipulação apenas se seguir Boas Práticas e com documentação robusta. --- ## 14. Referências-Chave - [G1] Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Guideline. J Clin Endocrinol Metab 2018. - [G2] Lincoff AM, et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med 2023.\n- [S14] Endocrine Society & ACOG. Compounded bioidentical hormone therapy — position statements 2016.\n- [S8] ANVISA 2022. Boas Práticas de Manipulação.\n- [S11][S12] CDC/NEJM; USP <797> — Lição NECC, manipulação e rastreabilidade.\n- [S13][S19] Conselho Federal de Medicina. Resolução 2.333/2023. *(Checar dose/registro/localização produto industrial/manipulado em casos específicos no Vademecum, ANVISA ou fonte de referência institucional antes de prescrever — não ancorar em informações de terceiros ou mídias sociais.)* --- **Fim da monografia corrigida.**",
+  "quick_ref": "# Guia Rápido para TRT em Hipogonadismo Masculino ## Diagnóstico Laboratorial\n| Parâmetro | Valor / Procedimento |\n|---------------------------|-----------------------------------|\n| Testosterona total matinal | <230–265 ng/dL (duas amostras) |\n| Testo livre calculada | Indicado se T total limítrofe ou SHBG alterado |\n| LH, FSH, prolactina, TSH | Avaliação complementar |\n| PSA e toque retal (≥40a) | Exame pré-tratamento obrigatório | ## Indicações\n- Sintomas compatíveis + T baixa confirmada\n- Descartar causas reversíveis\n- Avaliar desejo de fertilidade ## Doses Iniciais\n| Via | Dose | Frequência |\n|---------------------|----------------------------------|-----------------------------|\n| Gel transdérmico | 40–60 mg testes (4–6 g gel 1%) | Diário, manhã |\n| Cipionato/enantato | 100–200 mg IM | 7–14 dias |\n| Undecilato | 1000 mg IM; 2ª dose 6 semanas | Manutenção 10–14 semanas |\n| Implante (off-label) | 600–1200 mg (6–12 pellets 100 mg) | 4–6 meses | ## Monitoramento Essencial\n- Hematócrito, hemoglobina: Baseline, 3, 6, 12 meses\n- PSA e toque retal: Antes, 3, 6, 12 meses, depois anual\n- Testosterona total e livre: 2 meses pós-início e periodicamente\n- Sintomas e efeitos adversos: contínuo ## Quando Suspender TRT\n- Hematócrito >54%\n- Elevação significativa do PSA ou suspeita prostática\n- Eventos cardiovasculares graves\n- Piora significativa da apneia do sono ## Contraindicações\n- Câncer de próstata/mama ativo\n- Apneia obstrutiva do sono não tratada\n- Policitemia não controlada\n- Insuficiência cardíaca grave ## Avisos Éticos e Regulatórios\n- Uso restrito a deficiências documentadas (CFM Resolução 2.333/2023)\n- Não usar TRT para anti-aging, ganho estético ou performance\n- Manipulados apenas se não houver opção registrada e com rigorosa rastreabilidade ---",
   "clinical_case": {
+    "title": "Homem 68 anos com fadiga progressiva e baixos níveis de testosterona — manejo adequado",
+    "vignette": "Paciente masculino de 68 anos, apresentando fadiga, baixa libido, perda de massa muscular e disfunção erétil. Exames laboratoriais mostram testosterona total matinal de 240 ng/dL em duas dosagens separadas, PSA 1,8 ng/mL, hematócrito 48%, e queixa habitual de apneia do sono leve controlada com CPAP. História de hipertensão e hipercolesterolemia controladas medicamente.",
+    "question": "Qual a melhor abordagem para esta paciente considerando diagnóstico, indicação e via de terapia?",
+    "teaching": "Este paciente apresenta quadro compatível com hipogonadismo masculino sintomático com testosterona total persistentemente abaixo do cutoff diagnósticos (230-265 ng/dL). Apesar da idade avançada e comorbidades, não há contraindicação absoluta para TRT, desde que monitorado rigorosamente (hematócrito, PSA, sintomas). A apneia está controlada e não contraindica TRT. Primeira linha é discutir opção com o paciente incluindo formas transdérmicas e injetáveis, evitando implantes dada a inexistência de registro ANVISA e maior risco. Monitoramento cuidadoso e exclusão de causas reversíveis foram realizados. TRT para melhoria da qualidade de vida é indicada, com planejamento para acompanhamento e ajuste da dosagem.",
+    "reward": 20,
     "data": [
       {
-        "label": "Idade",
-        "value": "47 anos"
-      },
-      {
-        "label": "Sintomas",
-        "value": "Queda de libido, fadiga, aumento gordura abdominal"
-      },
-      {
-        "label": "Histórico",
-        "value": "Apneia leve tratada, DM2 controlada"
-      },
-      {
-        "label": "Testosterona total",
-        "value": "198 e 212 ng/dL"
-      },
-      {
-        "label": "LH",
-        "value": "7,2 mUI/mL"
+        "label": "Testosterona total matinal",
+        "value": "240 ng/dL"
       },
       {
         "label": "PSA",
-        "value": "1,1 ng/mL"
+        "value": "1,8 ng/mL"
       },
       {
         "label": "Hematócrito",
-        "value": "45%"
+        "value": "48%"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, baixa libido, perda de massa muscular, disfunção erétil"
+      },
+      {
+        "label": "Apneia do sono",
+        "value": "Leve controlada com CPAP"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão e hipercolesterolemia controladas"
+      },
+      {
+        "label": "Idade",
+        "value": "68 anos"
+      },
+      {
+        "label": "Uso de medicações",
+        "value": "Sim, para comorbidades"
+      },
+      {
+        "label": "Desejo de fertilidade",
+        "value": "Não referido"
       }
     ],
-    "title": "Homem 47 anos com hipogonadismo confirmado – Qual conduta inicial correta?",
-    "reward": 8,
     "options": [
       {
-        "label": "Iniciar testosterona IM 200 mg a cada 2 semanas, acompanhar após 6 meses",
-        "correct": false,
-        "rationale": "Dose e via possíveis, mas demora mais para avaliar e podem ocorrer picos hormonais; não é primeira escolha para caso sem contraindicações."
-      },
-      {
-        "label": "Iniciar gel transdérmico 1%, monitorar hematócrito e PSA em 3/6/12 meses",
+        "label": "Iniciar TRT com gel transdérmico após consentimento e monitoramento",
         "correct": true,
-        "rationale": "Atende o critério diagnóstico, forma segura, fácil titulação e monitoramento adequado."
+        "rationale": "Indicado dada sintomatologia e valores baixos de testosterona; via gel é segura e ajustável; monitoramento obrigatório conforme diretrizes."
       },
       {
-        "label": "Solicitar prolactina e repetir testosterona após redução de peso",
+        "label": "Aguardar novas dosagens antes de qualquer tratamento",
         "correct": false,
-        "rationale": "Já há confirmação diagnóstica; avaliação para causas reversíveis deve ser feita, mas não antecede TRT."
+        "rationale": "Paciente já tem duas dosagens confirmando hipogonadismo; tratamento pode ser iniciado após adequada avaliação clínica e laboratorial."
       },
       {
-        "label": "Prescrever implante subcutâneo de testosterona imediatamente, sem outros exames",
+        "label": "Prescrever implantes de testosterona para maior comodidade",
         "correct": false,
-        "rationale": "Implante é via avançada, não recomendada como primeira linha; requer ambiente estéril rigoroso e monitoramento cuidadoso."
+        "rationale": "Implantes não possuem registro ANVISA, maior risco de complicações, indicado somente em casos excepcionais com rigor documental."
+      },
+      {
+        "label": "Não prescrever TRT devido à idade avançada e apneia do sono",
+        "correct": false,
+        "rationale": "Idade isolada não contraindica; apneia controlada não é contraindicação; indicação depende do risco-benefício e monitoramento."
       }
-    ],
-    "question": "Qual conduta inicial está indicada para este paciente?",
-    "vignette": "Paciente masculino, 47 anos, médico, apresenta queda de libido, ganho de gordura abdominal e fadiga. História de apneia do sono leve tratada, diabetes tipo 2 controlada, exames laboratoriais confirmam testosterona total baixa em duas dosagens matinais (198 e 212 ng/dL), LH e FSH normais/altos, hematócrito normal e PSA baixo. Prostatectomia e exame físico normais.",
-    "teaching": "O paciente apresenta quadro clínico e laboratorial compatível com hipogonadismo masculino secundário ou misto, com sintomas típicos e confirmados por dosagens repetidas de testosterona total matinal baixa. A apneia está controalada, diabetes está bem manejada, e não há contraindicações absolutas. Portanto, a TRT está indicada. O gel transdérmico é preferido para início devido a menor variabilidade e facilidade, com monitoramento regular laboratorial e clínico. Implante imediato não é recomendado sem avaliação e acompanhamento sistêmico; injetável IM é alternativa, mas pode causar picos hormonais, não preferível aqui. Solicitação de prolactina e repetição após redução de peso não é prioritária, pois já há diagnóstico e sintomas claros."
+    ]
   },
   "refs": [
     {
-      "citation": "Bhasin S, et al. Testosterone Therapy in Men with Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103(5):1715-1744."
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2018;103(5):1715-1744. DOI:10.1210/jc.2018-00229"
     },
     {
-      "citation": "Snyder PJ et al. Effects of Testosterone Treatment in Older Men. N Engl J Med. 2016;374(7):611-624."
+      "citation": "Lincoff AM, et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med 2023;388:1473-1484. DOI:10.1056/NEJMoa2215025"
     },
     {
-      "citation": "Corona G et al. Testosterone and Cardiovascular Risk: Meta-Analysis of Interventional Studies. J Endocrinol Invest. 2014;37(9): 837-843."
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023 — terapias hormonais com finalidade estética/anti-aging. 2023.",
+      "url": "https://portal.cfm.org.br/"
     },
     {
-      "citation": "Resolução CFM Nº 2.333/2023. Normas para prescrição ética de hormônios."
+      "citation": "Endocrine Society & ACOG. Compounded bioidentical hormone therapy: position statements. 2016."
     },
     {
-      "citation": "ANVISA - Guia Técnico para manipulação de medicamentos estéreis."
+      "citation": "ANVISA. Boas Práticas de Manipulação. 2022.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations. United States Pharmacopeia. 2023.",
+      "url": "https://www.usp.org/"
     }
   ],
-  "status": "published"
+  "raise_bar": true,
+  "audit_verdict": "pass"
 }

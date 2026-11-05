@@ -1,12 +1,12 @@
 /**
  * Doutiva curriculum catalog v3 — six premium courses for endo/nutro,
- * aligned with Purus (sterile compounding, tirzepatide, hormones, IV).
- * Consumed by bootstrap + deepen scripts.
+ * Premium clinical curricula for endo/nutro (sterile injectables literacy, incretins, hormones, IV).
+ * Consumed by bootstrap + deepen scripts. No commercial partner branding.
  */
 
 export const AUDIENCE = `Público: endocrinologistas, nutrólogos e clínicos exigentes.
-Contexto Doutiva/Purus: educação que qualifica prescrição ética para manipulação estéril de excelência (tirzepatida, hormônios/implantes, soroterapia) — jamais empurrar research-peptide, GH anti-aging ou drip sem critério.
-Tom: tratado clínico premium, números reais, regulatório BR explícito.`;
+Contexto Doutiva: educação médica independente que qualifica prescrição ética (tirzepatida/incretinas, hormônios/implantes, soroterapia e injetáveis estéreis) — jamais empurrar research-peptide, GH anti-aging ou drip sem critério.
+Tom: tratado clínico premium, números reais, regulatório BR explícito. Sem menção a marcas de farmácia ou parceiros comerciais.`;
 
 export const COURSES = [
   {
@@ -48,7 +48,7 @@ export const COURSES = [
         module_title: "Módulo 2 · Titulação e frasco",
         topic: "Manipulação estéril, estabilidade, armazenamento e qualidade do frasco",
         extra:
-          "Por que esterilidade importa; cadeia de frio; o que perguntar à farmácia; diferença indústria vs manipulado; documentação mínima na receita; sinais de red flag de qualidade. Posicionar Purus como padrão sem virar propaganda vazia.",
+          "Por que esterilidade importa; cadeia de frio; o que perguntar à farmácia; diferença indústria vs manipulado; documentação mínima na receita; sinais de red flag de qualidade. Critérios objetivos de farmácia estéril, sem citar marcas.",
       },
       {
         position: 5,
@@ -88,7 +88,7 @@ export const COURSES = [
         module_title: "Módulo 5 · Clínica e negócio ético",
         topic: "Documentação, TCLE, custo-benefício e proposta de valor da terapia contínua",
         extra:
-          "Modelo de TCLE, conversa de custo mensal, manutenção vs ciclo curto, ética de recorrência. Como a educação Doutiva sustenta prescrição responsável para Purus.",
+          "Modelo de TCLE, conversa de custo mensal, manutenção vs ciclo curto, ética de recorrência. Como documentar e sustentar prescrição responsável no longo prazo.",
       },
       {
         position: 10,
@@ -251,15 +251,15 @@ export const COURSES = [
       {
         position: 7,
         module_position: 4,
-        module_title: "Módulo 4 · Prescrição e Purus",
+        module_title: "Módulo 4 · Prescrição e qualidade",
         topic: "Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio",
         extra:
-          "Elementos da prescrição, CID/justificativa clínica, lote, farmacovigilância. Critérios para escolher farmácia estéril (Purus como referência de padrão).",
+          "Elementos da prescrição, CID/justificativa clínica, lote, farmacovigilância. Critérios objetivos para escolher farmácia de manipulação estéril (sem citar marcas).",
       },
       {
         position: 8,
         module_position: 4,
-        module_title: "Módulo 4 · Prescrição e Purus",
+        module_title: "Módulo 4 · Prescrição e qualidade",
         topic: "Regulatório BR: ANVISA, responsabilidade compartilhada médico–farmácia",
         extra:
           "Marcos regulatórios de manipulação, publicidade, limites éticos. O que o prescritor deve exigir em contrato/qualidade.",

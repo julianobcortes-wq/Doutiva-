@@ -1,353 +1,321 @@
 {
   "position": 9,
   "module": "Módulo 5 · Prática",
-  "module_position": 5,
-  "title": "Protocolos de monitorização e descontinuação: o ciclo completo do cuidado",
-  "description": "Esta aula aprofundada orienta endocrinologistas, nutrólogos e clínicos na condução ética e segura do ciclo completo do cuidado em terapias hormonais e implantes, integrando indicação, monitorização laboratorial, critérios para redução e descontinuação, com foco em fertilidade futura e regulação brasileira rigorosa.",
-  "duration_minutes": 75,
-  "evidence_level": "A (ensaios clínicos fase 3, diretrizes, metanálises)",
+  "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
+  "description": "Este módulo detalha o manejo ético, baseado em evidências e normativas brasileiras, para a terapia hormonal, implantes e análogos de GLP-1, com foco em monitorização, redução, descontinuação e planejamento da fertilidade. Aborda registros regulatórios, calendário laboratorial, critérios objetivos para ajustes e documentação necessária, visando segurança e eficácia no tratamento.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
   "key_points": [
-    "A monitorização laboratorial periódica, com marcadores definidos conforme terapia, é mandatória para segurança e eficácia, seguindo calendários específicos (ex: 1-3 meses inicial, 3-12 meses estabilização, manutenção anual).",
-    "Critérios clínicos e laboratoriais claros orientam pausa, redução gradual ou retirada definitiva, incluindo sinais de virilização, policitemia, hiperplasia endometrial, alterações hepáticas e risco tromboembólico.",
-    "Manipulação estéril só é admissível em farmácias habilitadas com rastreamento rigoroso de lote, pureza e estabilidade, vedada para drogas sem registro ou indicações estéticas/anti-aging, conforme CFM e ANVISA.",
-    "O planejamento da fertilidade futura requer washout orientado laboratorialmente, com suspensão programada por pelo menos 2-3 ciclos menstruales antes da concepção.",
-    "Jamais empurrar ou manter substâncias sem evidência robusta, como research peptides, GH anti-aging, ou implantes cosméticos, sob pena de infração ética e legal.",
-    "Consentimento informado detalhado e documentação rigorosa do ciclo terapêutico, incluindo monitorização e descontinuação, são imprescindíveis.",
-    "O médico deve assumir papel ativo e integral no ciclo do cuidado, incluindo decisões de explante e suporte no washout, sem transferir riscos a terceiros."
+    "Terapias hormonais devem ser prescritas apenas com indicação clínica confirmada e deficiência laboratorial comprovada, nunca para fins estéticos ou anti-aging [G1][G3][S13].",
+    "Monitoramento laboratorial regular é essencial: exemplo, testosterona requer avaliação de hematócrito, PSA e níveis séricos periódicos; análogos de GLP-1 demandam HbA1c, peso e função renal [G1][G2][S23].",
+    "Manipulados e implantes só devem ser usados após falha/intolerância a produtos registrados e com rigorosa documentação e monitorização, preferindo sempre fármacos aprovados pela ANVISA [G5][S8][S14].",
+    "Critérios objetivos para redução ou interrupção incluem hematócrito ≥54%, PSA elevado, eventos tromboembólicos, pancreatite e sintomas adversos significativos [G1][G3][S20].",
+    "Fluxograma clínico e checklist para prontuário são ferramentas indispensáveis para garantir o ciclo íntegro do cuidado e proteção médico-legal.",
+    "Planejamento para fertilidade futura requer washout adequado e confirmação laboratorial do retorno da função hormonal basal antes da tentativa de concepção.",
+    "Nunca utilizar research peptides, chips estéticos ou hormônios para fins anti-aging, segundo CFM e ANVISA [S1][S13][S19]."
   ],
   "slides": [
     {
       "kind": "title",
       "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
-      "subtitle": "Módulo 5 · Hormônios e Implantes com Critério — Doutiva/Purus"
+      "subtitle": "Curso Hormônios e Implantes com Critério — Módulo 5 · Prática"
     },
     {
+      "kind": "table",
+      "title": "Comparativo Regulatório de Fármacos Hormonais e Implantes",
+      "head": [
+        "Substância",
+        "Via",
+        "Status BR",
+        "Conduta"
+      ],
+      "rows": [
+        [
+          "Testosterona",
+          "IM, gel, patch",
+          "Registrado",
+          "Hipogonadismo masculino definido [G1][S18]"
+        ],
+        [
+          "Implante subcutâneo testosterona",
+          "Subcutâneo",
+          "Off-label/manipulado",
+          "Após falha/intolerância; monitorização rigorosa [G5][S14]"
+        ],
+        [
+          "Gestrinona (implante)",
+          "Subcutâneo",
+          "Não aprovado",
+          "Não utilizar; risco ético-regulatório elevado [S14][G6]"
+        ],
+        [
+          "Análogos de GLP-1",
+          "SC",
+          "Registrado",
+          "DM2 / obesidade conforme bula [S21][S24]"
+        ],
+        [
+          "Peptídeos research (BPC-157 etc.)",
+          "SC/IV/outros",
+          "Não aprovado",
+          "Proibido fora de pesquisa autorizada [S1]"
+        ],
+        [
+          "GH (não deficiência)",
+          "SC",
+          "Não aprovado",
+          "Proibido para longevidade/estética [S13]"
+        ]
+      ],
+      "source": "Fonte: Consolidação do material-fonte Doutiva."
+    },
+    {
+      "kind": "bars",
+      "title": "Resultados de Ensaios em Terapia Hormonal e GLP-1",
+      "unit": "",
+      "source": "Ensaios reportados",
+      "note": "Valores baseados no material-fonte.",
       "bars": [
         {
-          "label": "TRH clássica, GLP-1RA, testosterona em hipogonadismo: Evidência A",
+          "label": "TRT na segurança cardiovascular: não inferior para MACE vs placebo (TRAVERSE 2023) [G2][G17]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Manipulados só em farmácia estéril com rastreamento rigoroso",
+          "label": "Redução de sintomas vasomotores com TRH iniciado na janela climateriana (NAMS 2022) [G3][S16]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "Vedados: research peptides, GH anti-aging, implantes estéticos sem indicação",
+          "label": "Perda ponderal robusta com Semaglutida 2.4 mg semanais (STEP 1, 2021) [S23]",
           "value": 0,
           "highlight": false
         },
         {
-          "label": "CFM 2.333/2023 e ANVISA delimitam indicações e práticas",
+          "label": "Manutenção com Semaglutida vs placebo reduziu reganho (STEP 4, 2021) [S6]",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Redução de eventos CV com Semaglutida em obesos sem DM (SELECT 2023) [S24]",
           "value": 0,
           "highlight": true
         }
-      ],
-      "kind": "bars",
-      "unit": "",
-      "title": "Evidência clínica e regulação no Brasil",
-      "source": "Biblioteca Doutiva [S1,S2]"
+      ]
     },
     {
       "kind": "flow",
+      "title": "Fluxograma Clínico para Monitorização e Descontinuação",
       "steps": [
         {
-          "label": "Seleção ética e documentação rigorosa"
+          "label": "Avaliar indicação clínica rigorosa e exclusão de contraindicações absolutas"
         },
         {
-          "label": "Consentimento informado"
+          "label": "Esclarecer diagnóstico, riscos, alternativas e impacto reprodutivo; obter consentimento específico escrito"
         },
         {
-          "label": "Início e registro do tratamento (dose, lote, via)"
+          "label": "Optar por fármaco registrado; se off-label/manipulado, documentar e monitorar rigorosamente"
         },
         {
-          "label": "Monitorização laboratorial e clínica intensiva inicial (1-2 meses)"
+          "label": "Implementar cronograma laboratorial inicial e subsequente (conforme Tabela 4.1)"
         },
         {
-          "label": "Estabilização e ajustes (3-6 meses)"
+          "label": "Monitorar sinais e sintomas; reduzir ou interromper conforme critérios objetivos (hematócrito, PSA, eventos adversos)"
         },
         {
-          "label": "Manutenção e rotina anual (>12 meses)"
+          "label": "Planejar washout para fertilidade ou segurança, confirmando retorno hormonal basal antes de reintrodução"
         },
         {
-          "label": "Critérios para redução, pausa ou descontinuação"
-        },
-        {
-          "label": "Explante físico e washout laboratorial"
-        },
-        {
-          "label": "Pós-tratamento: vigilância e planejamento reprodutivo"
+          "label": "Registrar detalhadamente no prontuário todo o processo incluindo lotes e intercorrências"
         }
-      ],
-      "title": "Fluxo do Ciclo Completo do Cuidado"
-    },
-    {
-      "head": [
-        "Terapia",
-        "Fase Inicial",
-        "Estabilização",
-        "Manutenção",
-        "Descontinuação",
-        "Principais Marcadores",
-        "Nível Evidência"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "TRH oral feminina",
-          "6 semanas",
-          "3-6 meses",
-          "12 meses",
-          "4-6 semanas",
-          "Estradiol, TSH/T4L, perfil lipídico, função hepática, mamografia, Papanicolau",
-          "A"
-        ],
-        [
-          "TRH transdérmica feminina",
-          "6 semanas",
-          "6 meses",
-          "12 meses",
-          "4-6 semanas",
-          "Estradiol, TSH/T4L, função hepática, mamografia",
-          "A"
-        ],
-        [
-          "Testosterona IM/transdérmica",
-          "1-2 meses",
-          "3-6 meses",
-          "12 meses",
-          "4-8 semanas",
-          "Testosterona total/livre, hematócrito, PSA, perfil lipídico, ALT/AST",
-          "A"
-        ],
-        [
-          "Implantes hormonais manipulados",
-          "1 mês",
-          "3 meses",
-          "6-12 meses",
-          "Ao explante",
-          "SHBG, hormônio implantado, hemograma, função hepática, lipidograma",
-          "B/C"
-        ],
-        [
-          "GLP-1RA (tirzepatida)",
-          "4 semanas",
-          "3 meses",
-          "6-12 meses",
-          "4-6 semanas",
-          "HbA1C, glicemia jejum, peso, função renal, TGO/AST, Amilase/Lipase",
-          "A"
-        ],
-        [
-          "GH deficiência comprovada",
-          "1 mês",
-          "3-6 meses",
-          "12 meses",
-          "6-8 semanas",
-          "IGF-1, glicemia, perfil lipídico, TSH, função adrenal",
-          "A"
-        ],
-        [
-          "Peptídeos sem ECR",
-          "<NÃO INDICADO>",
-          "<NÃO INDICADO>",
-          "<NÃO INDICADO>",
-          "<RETIRADA IMEDIATA>",
-          "—",
-          "D"
-        ]
-      ],
-      "title": "Tabela 1 — Calendário e Marcadores de Monitorização por Terapia",
-      "source": "Biblioteca Doutiva [S1,S2]"
-    },
-    {
-      "head": [
-        "Terapia",
-        "Interrupção Imediata",
-        "Alerta para Redução",
-        "Meta Antes de Retorno",
-        "Consideração Fertilidade",
-        "Evidência"
-      ],
-      "kind": "table",
-      "rows": [
-        [
-          "TRH",
-          "TVP, IAM, AVC, hiperplasia endometrial",
-          "Alterações hepáticas leves, alterações lipídicas, sintomas clínicos leves",
-          "Mamografia, Papanicolau normais; exames laboratoriais dentro das metas",
-          "Pausa ≥2 meses antes da tentativa gestacional ou FIV",
-          "A"
-        ],
-        [
-          "Testosterona",
-          "PSA >4 ng/mL, hematócrito >54%, apneia agravada",
-          "Eritrocitose limítrofe, perfil lipídico alterado",
-          "Testosterona basal normal, hematócrito <50%, PSA normal",
-          "Retirada ≥3 meses antes da tentativa gestacional",
-          "A"
-        ],
-        [
-          "Implantes femininos manipulados",
-          "Sangramento persistente, dor, erosão, TVP, neoplasia",
-          "Sintomas leves ou alterações transitórias",
-          "Exames de imagem normais, ausência de nódulos/infiltrados",
-          "Remover ≥2 ciclos menstruais antes da gravidez",
-          "B/C"
-        ],
-        [
-          "GLP-1RA",
-          "Pancreatite, náusea refratária, perda >20% não planejada",
-          "Sintomas gastrointestinais leves, hipoglicemia leve",
-          "HbA1c e função pancreática normalizadas",
-          "Suspender pelo menos 4 semanas antes da concepção",
-          "A"
-        ],
-        [
-          "GH pós-deficiência",
-          "Edema intenso, hiperglicemia, dor articular grave",
-          "Sintomas leves",
-          "IGF-1 retorna ao baseline, sintomas resolvidos",
-          "Suspender ≥2 semanas antes da concepção",
-          "A"
-        ]
-      ],
-      "title": "Tabela 2 — Critérios de Alerta para Pausa, Redução e Retorno",
-      "source": "Biblioteca Doutiva [S1,S2]"
-    },
-    {
-      "kind": "bullets",
-      "title": "Monitorização e Conduta Clínica",
-      "bullets": [
-        "Consultas iniciais 1-2 meses com avaliação clínica e laboratorial",
-        "Estabilização com reavaliação a cada 3-6 meses",
-        "Manutenção anual, com exames laboratoriais e rastreio oncológico",
-        "Aplicação sistemática de questionários para efeitos adversos",
-        "Monitoramento rigoroso antes de qualquer descontinuação",
-        "Washout laboratorial e vigilância no pós-explante",
-        "Discussão e planejamento da fertilidade de forma protocolada"
       ]
     },
     {
       "kind": "split",
+      "title": "Redução/Doses e Protocolos: Hormônios e GLP-1",
       "left": {
+        "label": "Terapia",
         "items": [
-          "Prescrição só com base em evidência fase 3 e diretrizes",
-          "Manipulação apenas em farmácia estéril com protocolos rigorosos",
-          "Consentimento informado e documentação integral",
-          "Nunca usar para finalidade estética, anti-aging ou cosméticos",
-          "Evitar research peptides e GH anti-aging não autorizados",
-          "Não permitir explantes tardios ou ausência de monitorização",
-          "Responsabilizar-se integralmente pela decisão clínica"
-        ],
-        "label": "Condutas Obrigatórias"
+          "TRH estrogênica/progestagênica",
+          "Testosterona (IM/Gel)",
+          "GLP-1RA (semaglutida/tirzepatida)",
+          "GH",
+          "Implantes de testosterona/gestrinona"
+        ]
       },
       "right": {
+        "label": "Protocolo de Redução",
         "items": [
-          "Vedados: uso indiscriminado de peptídeos sem registro",
-          "Vedados: implantes para otimização sem deficiência",
-          "Vedados: GH e hormônios para anti-aging",
-          "Vedados: drips sem critério ou recomendação",
-          "Sem renovação automática sem avaliação clínica",
-          "Sem manipulação sem rastreabilidade e pureza",
-          "Sem transferência da responsabilidade a outros"
+          "Decrementos 25-50% a cada 2-4 semanas; monitorar sintomas e exames",
+          "Aumentar intervalo ou reduzir dose 25-50% a cada 2-4 semanas; monitorar hematócrito/PSA",
+          "Redução gradual opcional, dose semanalmente decrescente se sintomas de abstinência",
+          "Reducão 50% se eventos adversos leves; suspensão imediata se grave",
+          "Explante obrigatório ao 6° mês ou se efeitos adversos; monitorar washout"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Calendário de Monitorização Laboratorial",
+      "head": [
+        "Terapia",
+        "Início (meses)",
+        "Reavaliação (meses)",
+        "Manutenção",
+        "Após pausa (meses)",
+        "Marcadores",
+        "Nível de Evidência"
+      ],
+      "rows": [
+        [
+          "TRH oral/transdérmica",
+          "1-3",
+          "6, 12",
+          "Anual",
+          "1-3",
+          "Estradiol, FSH, função hepática, perfil lipídico, Papanicolau",
+          "A [G3][S16]"
         ],
-        "label": "Condutas Proibidas"
-      },
-      "title": "Práticas Éticas e Proibidas"
+        [
+          "Testosterona IM/transdérmica",
+          "1-2",
+          "3-6",
+          "Anual",
+          "1-3",
+          "Testosterona total/livre, hematócrito, PSA, perfil lipídico, função hepática",
+          "A [G1][S18][G2][S17]"
+        ],
+        [
+          "Implante testosterona*",
+          "1-2",
+          "3",
+          "6 meses máximo",
+          "1-3",
+          "Testosterona total, hematócrito, PSA, hepáticos",
+          "B/C (off-label)"
+        ],
+        [
+          "GLP-1RA",
+          "1",
+          "3",
+          "6-12 meses",
+          "1-3",
+          "HbA1c, glicemia, peso, função renal, amilase/lipase",
+          "A [S23][S21][S24]"
+        ],
+        [
+          "GH (deficiência)",
+          "1-2",
+          "6",
+          "12",
+          "2",
+          "IGF-1, glicemia, lipídios, TSH, função adrenal",
+          "A [S18]"
+        ]
+      ],
+      "source": "Monografia e diretrizes."
     },
     {
       "kind": "pearl",
-      "text": "O ciclo do cuidado com terapias hormonais e implantes exige monitorização rígida, critérios claros para descontinuação, planejamento reprodutivo e estrita observância dos regulatórios brasileiros. Nunca comprometa a segurança do paciente com manipulações ou protocolos não baseados em evidência robusta. A ética e a ciência são seus guias.",
-      "title": "PEARLS e Resumo"
+      "title": "Pérola Clínica",
+      "text": "Nunca prescrever implantes de hormônios ou peptídeos não aprovados para uso humano com finalidade estética ou anti-aging. A prescrição responsável e documentada é essencial para segurança do paciente e para evitar responsabilidade ética e legal.",
+      "source": "CFM Resolução 2.333/2023, ANVISA, Endocrine Society [S13][S19][G6]"
     }
   ],
-  "monograph": "# Protocolos de Monitorização e Descontinuação em Terapias Hormonais e Implantes: O Ciclo Completo do Cuidado\n\n## 1. Introdução e Relevância Clínica\n\nTerapias hormonais e implantes são ferramentas indispensáveis para endocrinologistas, nutrólogos e clínicos brasileiros atuando com obesidade, menopausa, hipogonadismo, otimização funcional e situações de falência endócrina. No entanto, o ciclo de cuidado ético e seguro vai muito além da prescrição: envolve rigorosa seleção, monitoramento laboratorial calendarizado e condutas claras para redução ou descontinuação — incluindo planos para fertilidade futura e prevenção de efeitos adversos tardios.\n\nA manipulação estéril, amplamente praticada no Brasil para formulações de uso parenteral ou implantes subcutâneos, potencializa benefícios clínicos, mas exige elevado nível de rastreio de pureza, estabilidade, rastreabilidade e rastreamento de farmacovigilância. O Conselho Federal de Medicina (CFM), ANVISA e organismos internacionais norteiam o que pode ou não ser prescrito, limitando indicações off-label e vedando rotineiramente o uso estético, “anti-aging” ou hormônios e peptídeos de procedência duvidosa (“research peptides”, “drips” inespecíficos) [S1].\n\nEsta monografia, destinada ao consultório premium, propõe protocolos detalhados, baseados em evidência, para acompanhamento e retirada segura de terapias hormonais e implantes — integrando o ciclo completo do cuidado (Indicação → Monitorização → Redução/Descontinuação).\n\n---\n\n## 2. Bases Científicas, Evidência e Regulatórios\n\n### 2.1 Hierarquia de Evidência e Resumo Regulatório\n\n**Evidência Clínica:**\n- Fase 3, metanálise e diretrizes (Evidência A) para análogos de incretinas (tirzepatida, semaglutida), terapia de reposição hormonal (TRH) clássica (estrogênios/progestagênios), e GLP-1RA em obesidade/DM2 [S2].\n- Secretagogos de GH, hormônios bioidênticos customizados e peptídeos experimentais têm suporte limitado ou ausente em fase 3 (Evidência C/D, uso com extrema restrição/risco legal) [S1].\n- CFM 2.333/2023 veda hormônios de finalidade estética, “otimização” sem deficiência laboratorial, e o implante de “chips” para finalidades não reconhecidas.\n\n**Registros:**\n- Terapias de reposição hormonal (TRH) clássicas, análogos de GLP-1 registrados na ANVISA (semaglutida, liraglutida, tirzepatida) — indicação clínica aprovada, manipulação apenas se ausência de produto comercial e controles indubitáveis de rastreabilidade.\n- Off-label com documentação: testosterona IM ou transdérmica para hipogonadismo; implantes subcutâneos apenas em contextos reconhecidos (ex: TRH menopausa refratária).\n- Manipulados: exige ambiente estéril de farmácia habilitada, rastreamento de estabilidade, lote, pureza e identidade química.\n- Irregulares: research peptides sem registro ou indicação; “GH anti-aging” fora do espectro de deficiência — não prescrever.\n\n---\n\n### 2.2 Fundamentos de Monitorização\n\nMonitorização laboratorial e clínica é mandatória para todas as terapias hormonais e implantes. A frequência, marcadores e duração dependem: tipo de molécula, via, comorbidades, desejo de fertilidade e risco individual de câncer, TEP, trombose, cardiovascular.\n\n#### Principais Objetivos de Monitorização:\n- Garantir eficácia terapêutica (níveis-alvo hormonais, HbA1C, PA, etc.)\n- Detectar efeitos colaterais precoces\n- Prevenir eventos adversos de médio/longo prazo (hepatotoxicidade, carcinogênese, hiperplasia endometrial, policitemia, resistência à insulina, trombose arterial/venosa)\n- Sinalizar momento e critérios para pausa, desmame ou retirada definitiva\n\n#### Bases de Evidência\n- Protocolos baseados em recomendações de associações internacionais (ADA, Endocrine Society, EAS, ISSAM), além de consensos brasileiros e da biblioteca DOUTIVA [S1, S2].\n- Valores de corte, periodicidade e algoritmos apoiados em diretrizes e séries clínicas robustas (evidência A/B quando possível, ver Tabelas 1 e 2).\n\n---\n\n## 3. Tabela 1 — Periodicidade e Marcadores-Chave de Monitorização Laboratorial em Terapias Hormonais e Implantes\n\n| Situação Terapêutica         | Fase Inicial (1-3m) | Estabilização (3-12m) | Manutenção (>12m)  | Descontinuação | Principais Marcadores         | Nível de Evidência |\n|-----------------------------|---------------------|-----------------------|--------------------|---------------|------------------------------|--------------------|\n| TRH feminina oral           | 6 semanas           | 3-6 meses             | 12 meses           | 4-6 semanas   | Estradiol, TSH/T4L, perfil lipídico, função hepática, mamografia, Papanicolau | A                |\n| TRH feminina transdérmica   | 6 semanas           | 6 meses               | 12 meses           | 4-6 semanas   | Estradiol, TSH/T4L, função hepática, mamografia     | A                |\n| Testosterona IM/transdérmica| 1-2 meses           | 3-6 meses             | 12 meses           | 4-8 semanas   | Testosterona total/livre, hematócrito, PSA, perfil lipídico, ALT/AST    | A                |\n| Implante de gestrinona/testosterona (onde aceitável) | 1 mês              | 3 meses            | 6-12 meses    | Ao explante ou antes do próximo ciclo | SHBG, hormônio implantado, hemograma, hepático, lipidograma | C/B           |\n| Análogos de incretinas (GLP-1RA, ex: tirzepatida)  | 4 semanas            | 3 meses              | 6-12 meses           | 4-6 semanas   | HbA1C, glicemia jejum, peso, função renal, TGO/AST, Amilase/Lipase        | A                |\n| GH em deficiência comprovada(*)                | 1 mês                | 3-6 meses           | 12 meses           | 6-8 semanas   | IGF-1, glicemia, perfil lipídico, TSH, função adrenal                    | A                |\n| Peptídeos sem ECR (>D)   | <NÃO INDICADO>    | <NÃO INDICADO>           | <NÃO INDICADO>           | <RETIRADA IMEDIATA>   | —                              | D                |\n\n(*) Uso restrito a deficiência confirmada por testes dinâmicos e exame hormonal especializado.\n\n---\n\n## 4. Quando Reduzir, Pausar ou Descontinuar Terapias Hormonais ou Implantes\n\n### 4.1 Critérios Gerais de Redução/Descontinuação\n\n**Indicação Mandatória de Pausa ou Retirada:**\n- Marcadores laboratoriais persistentemente alterados (ex: hepatotoxicidade, policitemia >54%, elevação do PSA, hiperplasia endometrial, trombocitose)\n- Efeitos adversos clínicos significativos: sangramento anormal, virilização, cefaleia intensa, alterações psiquiátricas, piora de função renal ou hepática\n- Desejo de gestação imediata ou implantação\n- Intervalo máximo recomendado para explante atingido (>12m para implantes hormonais), sob risco de migração/erosão tecidual\n\n**Protocolos de Redução Gradual (Quando Aplicável):**\n- TRH: Diminuição escalonada da dose em intervalos de 2-4 semanas, monitorando sintomas vasomotores ou de privação\n- Testosterona: Intervalo crescente de aplicação IM/transdérmica, visando evitar hipogonadismo de rebote\n- Implantes: Explante físico e, se necessário, “washout” laboratorial guiado (monitoramento até retorno aos níveis basais)\n\n**Países com abordagens similares**: adotam protocolos semelhantes para explante planejado e washout monitorado [S1, S2].\n\n---\n\n## 5. Tabela 2 — Critérios Laboratoriais e Clínicos para Pausa/Retirada Segura\n\n| Terapia                                 | Alerta/Interrupção Imediata        | Alerta para Redução Gradual   | Meta antes de Reintrodução/Retorno | Gestação (planejada) | Evidência |\n|------------------------------------------|------------------------------------|-------------------------------|--------------------------|----------------------|-----------|\n| TRH                                      | TVP, IAM, AVC, hiperplasia endometrial | Alt. leves F. hepática, lipídio, sintomas leves | Mamografia e Papanicolau normal, exames dentro de meta | Pausa por ≥2 meses antes de FIV/tentativa | A |\n| Testosterona (IM/implante/transdérmica)  | PSA >4,0 ng/mL, hematócrito >54%, apneia agravada, ginecomastia, edema | Eritrocitose limítrofe, Lipídios subótimos | Testosterona basal, hematócrito <50%, PSA normal | Retirada ≥3 meses antes de FIV/planejamento gestacional | A |\n| Implante hormonal feminino                | Sangramento persistente, dor, sinais de erosão, TVP, câncer | Sintomas leves, alterações transitórias | Ausência de nodulação/infiltrado, exames de imagem normais | Remover ≥2 ciclos menstruais pré-gestação | B/C |\n| GLP-1RA                                  | Pancreatite aguda, náusea refratária, perda ponderal >20% não planejada | Alterações transitórias GI, hipoglicemia leve | HbA1C estável, função pancreática normalizada | Afastar pelo menos 4 semanas da concepção | A |\n| GH (*pós-deficiência tratada)             | Edema generalizado, hiperglicemia, dor articular grave | Sintomas leves | IGF-1 para baseline, sintomas resolvidos | Suspender ≥2 semanas antes de concepção | A |\n\n---\n\n## 6. Conduta Clínica Passo a Passo: Da Prescrição à Descontinuação\n\n### 6.1 Fluxograma de Cuidado\n\n1. **Seleção Ética e Justificada**\n    - Documentação de deficiência/desequilíbrio pelo menos duas vezes (laboratório, história e exame)\n    - Rastreio de contraindicações absolutas (câncer ativo, trombofilias, gestação, hepatopatia ativa, doença cardiovascular)\n    - Discussão de riscos, benefícios, alternativas e intenção reprodutiva\n\n2. **Início da Terapia**\n    - Registro do lote, farmácia, dosagem e via aplicada\n    - Consentimento documentado detalhadamente\n\n3. **Monitorização Inicial**\n    - Consultas a cada 1-2 meses recém-iniciado (avaliação clínica + laboratórios)\n    - Ajustes de dose conforme resposta e eventos adversos\n\n4. **Monitorização na Estabilização**\n    - Passar para consultas a cada 3-6 meses\n    - Repetir exames padrão conforme Tabela 1\n    - Sempre aplicar questionários padronizados para efeitos adversos e rastreio oncológico/ginecológico\n\n5. **Critérios para Redução ou Descontinuação**\n    - Aplicar algoritmos da Tabela 2 ao menor sinal de alerta\n    - Vigilância intensificada durante washout/retirada\n    - Apoio multidisciplinar caso efeitos adversos relevantes\n\n6. **Pós-Descontinuação**\n    - Documentar retorno a baseline laboratorial\n    - Rastrear sintomas de deficiência de rebote ou retirada\n    - Programar reavaliação periódica se persistência de sintomas\n\n---\n\n## 7. Caso Clínico de Prática Avançada\n\n### Caso\n\nPaciente feminina, 39 anos, IMC 24, nulípara, amenorreia há 1 ano, sem sintomas vasomotores graves. História de mãe com câncer de mama, sem doença hepática, perfil lipídico normal, TSH/T4L normais. Implante subcutâneo de gestrinona realizado em farmácia de manipulação estéril há 8 meses, prescrição médica documentada para tratamento de SOP/menometrorragia. Em follow-up, relata ganho de 3kg, acne e sinais de virilização leve. Exame: PA 126x78, ausencia de nódulos mamários, USG pélvico normal; estradiol e androgênios acima do limite para faixa etária, SHBG reduzido, função hepática preservada.\n\nQuais as opções de conduta ética e segura?\n\nA. Manter implante até completar 12 meses e repetir exames só ao final  \nB. Explante imediato, monitoramento laboratorial + rastreio mamário, considerar washout e suspensão de hormônios, discutir fertilidade  \nC. Substituir por novo implante de mesma dose e rastrear acne em 6 meses  \nD. Enviar para endocrino apenas se níveis androgênicos dobrarem em 3 meses\n\n**Resposta correta:** B.\n\n**Discussão:** Critérios clínicos e laboratoriais para redução/descontinuação atingidos — sinais virilizantes, alterações laboratoriais, história familiar de câncer, além de ausência de indicação absoluta de manutenção. Solicita-se explante, washout laboratorial, rastreio mamário/ginecológico e discussão formal da fertilidade.\n\n---\n\n## 8. Slides de Aula (Resumo para Apresentação)\n\n---\n\n**Slide 1 – Title**\nProtocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado\n\n---\n\n**Slide 2 – Evidência e Regulação**\n- Evidência forte: TRH clássica, GLP-1RA, testosterona em hipogonadismo (A).\n- Manipulados: restritos, rastreabilidade e expertise obrigatórios.\n- Proibidos: research-peptide, GH anti-aging, chips estéticos.\n- CFM 2.333/2023 + ANVISA delimitam fronteiras.\n\n---\n\n**Slide 3 – Fluxo Essencial do Cuidado**\nIndicação correta → Consentimento → Início seguro → Monitorização intensa (1-6m) → Ajuste/manutenção → Redução/Descontinuação (critério) → Pós-cuidado ativo\n\n---\n\n**Slide 4 – Tabela: Calendário de Labs**\n| Terapia | Fase Inicial | Estabilização | Manutenção | Pós-retirada | Marcadores |\n|---------|--------------|---------------|------------|--------------|------------|\n[Ver Tabela 1 do texto]\n\n---\n\n**Slide 5 – Tabela: Critérios de Pausa/Explante**\n| Terapia | Alerta Grd | Alerta Mod | Meta antes de retorno | Gestação |\n|---------|------------|------------|-----------------------|----------|\n[Ver Tabela 2 do texto]\n\n---\n\n**Slide 6 – Bullets Densos de Monitorização**\n- Consultas 1-2m (início), 3-6m (manut.), 12m (long-term)\n- Labs: PA, Lip, Hepático, Hormonal, Oncológico (mamografia, US pélvico, Papanicolau)\n- Marcadores para Washout: Basal pré-terapia\n\n---\n\n**Slide 7 – Exclusões Terminantemente**\n- Nunca prescrever research-peptides “em humanos” fora de ECR/indicação registrada\n- Nunca GH ou hormônios para anti-aging/estética\n- Implantes: jamais para fins “cosméticos”\n\n---\n\n**Slide 8 – PEARLS**\n- Explante programado ≥12 meses, observar sinais clínicos/labs pré-explante\n- Washout guiado por labs\n- Discussão formal de fertilidade em mulheres/plano reprodutivo\n\n---\n\n**Slide 9 – Quick_ref de Bolso**\n1. Início: Labs base, contraindicação?\n2. Monitorização: 6s-2m, 3-6m, 12m, evento adverso = reavaliar/pausar\n3. Descontinuação: Critérios laboratoriais/clínicos firmes\n4. Fertilidade: Explicar risco, tempo de washout\n5. Manipulado: Só se justificado, rastreável e em farmácia estéril\n\n---\n\n**Slide 10 – Checklist e Conselhos Finais**\n- Checklist pré-terapia (indicação, labs, consentimento)\n- Calendário de labs contínuo\n- Fluxo de descontinuação clara\n- Documentação rigorosa do percurso\n\n---\n\n**Slide 11 – Caso Clínico-resposta**\n- Implantada (gestrinona), sinais virilizantes, história familiar ca mama, labs alterados\n- Explante imediato, washout, discussão fertilidade\n\n---\n\n**Slide 12 – Key Points**\n1. Nunca iniciar ou manter terapia sem deficiência laboratorial/documental.\n2. Monitorizar com calendário rígido e marcadores relevantes por terapia.\n3. Critérios claros para pausa, redução e washout — segurança primeiro.\n4. Discutir fertilidade e impacto reprodutivo toda vez.\n5. Evitar hormônio/peptídeo sem ECR robusto, não manipular sem rastreabilidade.\n6. Documentar consentimento e informar paciente (riscos/benefícios).\n7. Seguir CFM, ANVISA e literatura de referência para cada classe.\n\n---\n\n## 9. Quick_ref de Bolso\n\n1. **Seleção:** Deficiência confirmada, exclusão formal de contraindicações.\n2. **Início:** Documentar lotes, Farmácia/Fabricante; exames baseline.\n3. **Monitorização:** 1-2m (inicial), 3-6m (ajuste/estabilização), 12m (manutenção).\n4. **Alerta para Pausa:** Desvios laboratoriais significativos; sintomas graves.\n5. **Explante/Descontinuação:** Explante físico, washout laboratorial, vigilância de rebote.\n6. **Fertilidade:** Programar washout pré-tentativa de gestação (mínimo 2-3 ciclos).\n7. **Nunca:** Endossar research peptides, GH cosmético ou chips/implantes para fins não reconhecidos.\n\n---\n\n## 10. Key Points Destilados\n\n1. _Monitorização é mandatório e baseada em evidência forte: calendário e marcadores são centrais à segurança do ciclo hormonal e de implantes._\n2. _Os critérios de redução/descontinuação devem ser estritamente definidos por parâmetros clínico-laboratoriais e individuais._\n3. _Manipulação estéril só é admíssivel em ambiente com rastreabilidade, pureza e justificação documental clara._\n4. _Regulatório (CFM 2.333/2023, ANVISA, Farmacopeia) limita indicações: nunca para “anti-aging” ou estética, nunca em pesquisa não autorizada._\n5. _Fertilidade futura exige planejamento de washout, diálogo formal e calendarização conforme terapia e objetivo._\n6. _Nunca encaminhar “parcialmente” ou empurrar o risco para outro especialista — tomar a dianteira da conduta, documentando cada passo._\n7. _Decisão ética: balanço risco/benefício individualizado, centrado na segurança, ciência e no paciente._\n\n---\n\n## 11. O Que NÃO Fazer\n\n- **Nunca** iniciar reposição hormonal sem deficiência clara (inclusive testosterona em mulheres ou homens com função normal).\n- **Jamais** manter implante por período superior ao recomendado, ou sem follow-up laboratorial atualizado.\n- **Evitar rotina de “renovação automática” de implantes, chips ou drips sem nova avaliação clínica/laboratorial.**\n- **Não manipular ou prescrever substâncias sem base fase 3 registrada em humanos (ex: peptides research, TB-500, BPC-157 como rotina clínica).**\n- **Nunca permitir que washout seja apenas “esperado” sem controle laboratorial do retorno ao basal.**\n- **Não negligenciar desejo reprodutivo: sempre planejar washout e documentar aconselhamento.**\n\n---\n\n## 12. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. ADA. Diabetes Care 2010.\n- [Outras] Diretrizes ADA, Endocrine Society, EAS, ISSAM e literatura internacional relevante (consultar fontes específicas para TRH, GLP-1RA, testosterona, fertilidade, e manejo oncológico/endócrino).\n\n---\n\n# FIM",
-  "quick_ref": "# Guia Rápido - Monitorização e Descontinuação em Terapias Hormonais e Implantes\n\n| Passo                          | Ação                                                                                     |\n|-------------------------------|------------------------------------------------------------------------------------------|\n| 1. Seleção rígida              | Confirmar deficiência laboratorial; descartar contraindicações absolutas                 |\n| 2. Início                     | Documentar lote, via; registrar consentimento informado                                    |\n| 3. Monitorização inicial      | Consultas 1-2 meses + exames (ver Tabela 1)                                              |\n| 4. Estabilização              | Consultas 3-6 meses; ajustes conforme sintomas e laboratórios                             |\n| 5. Manutenção                | Consultas anuais com exames completos; rastreio oncológico                               |\n| 6. Identificação de alertas  | Alterações laboratoriais e clínicas (hemograma, PSA, função hepática, sintomas)          |\n| 7. Pausa/Explante            | Baseado em Tabela 2; explante físico + washout controlado laboratorial                    |\n| 8. Fertilidade futura        | Planejar washout ≥2 ciclos menstruais antes da concepção; orientar paciente               |\n| 9. Conduta proibida          | Nenhum research peptides, GH anti-aging, implantes estéticos; evitar manipulação não autorizada |\n\n**Marcadores Essenciais:** Estradiol, testosterona total/livre, PSA, hematócrito, SHBG, HbA1c, função hepática (AST/ALT), perfil lipídico, exames oncológicos (mamografia, Papanicolau).",
+  "monograph": "```markdown\n# Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado ## 1. Introdução O manejo ético e seguro das terapias hormonais – incluindo formulações manipuladas ou industriais, implantes, análogos de GLP-1, ou terapia de reposição – exige condução estruturada baseada em evidência clínica robusta, respeito às normas brasileiras (CFM, ANVISA) e protocolos que minimizem riscos para o paciente, especialmente nas etapas de monitorização, redução, descontinuação e planejamento de fertilidade. As recomendações abaixo visam nortear endocrinologistas, nutrólogos e clínicos quanto à condução ideal, ressaltando cenários aprovados, manipulados/off-label, fluxogramas de conduta e documentação imprescindível em prontuário. --- ## 2. Princípios Gerais & Normas Ético-Regulatórias - A prescrição de hormônios só pode ocorrer diante de indicação clínica inequívoca e deficiência comprovada (ex: hipogonadismo, menopausa sintomática; nunca apenas “anti-aging” ou fins estéticos) [G1][G3][G6][S13][S19].\n- O uso de implantes, formulações manipuladas e terapias não-industriais demanda justificativa formal específica: apenas após falha/intolerância de opções registradas [G5][S8][S12][S14].\n- É vedado o uso de “chips estéticos” e research peptides (ex: BPC-157, TB-500, CJC-1295) para humanos fora de pesquisa [G6][S1][S14].\n- GH e análogos jamais para fins cosméticos/longevidade [G6][S13].\n- Somente farmácias devidamente autorizadas, com rastreabilidade, ambientes estéreis e padrões ANVISA/USP <797>, podem manipular estéreis [S8][S11][S12].\n- Toda decisão clínica deve ser documentada, incluindo riscos oncológicos, cardiovasculares, tromboembólicos e potencial impacto em fertilidade [G1][G3][S2][S14][S16]. --- ## 3. Tabela Regulatório: Registrado / Off-label / Manipulado / NÃO prescrever | Substância | Via | Status BR | Condutas alinhadas |\n|----------------------------------------------|----------------------|-----------------------|------------------------------------------------------------------------------------|\n| Estradiol/progestagênios clássicos | Oral/transdérmica | Registrado ANVISA | Primeira linha para menopausa/TRH [G3][S16] |\n| Testosterona IM, transdérmica | IM, gel, patch | Registrado ANVISA | Hipogonadismo masculino definido [G1][S18] |\n| Implante subcutâneo de testosterona | Subcutâneo | Off-label/manipulado | Apenas em insucesso/intolerância a registrado; documentação e monitorização rigorosas|\n| Gestrinona (implante) | Subcutâneo | NÃO aprovado** | Evitar prescrição — não registrado p/ tal uso; alto risco ético-regulatório |\n| Análogos de GLP-1 (semaglutida, tirzepatida) | SC | Registrado ANVISA | Obesidade, DM2, conforme bula e fenótipo [S21][S24] |\n| Peptídeos “research” (BPC-157, etc.) | SC/IV/Outros | NÃO aprovado/pesquisa | PROIBIDO em humanos fora de ensaio controlado autorizado |\n| GH (não-deficiência) | SC | NÃO aprovado/longevidade | PROIBIDO (longevidade/estética); indicar apenas deficiência laboratorial | **Gestrinona implantável não possui registro para uso via implante, e posicionamentos CFM/ANVISA desaconselham ou proíbem o uso [G6][S14]. --- ## 4. Monitorização Laboratorial: Calendário e Marcadores ### 4.1 Tabela Prática (verificar se as diretrizes brasileiras atualizadas sugerem ajustes; se incerto, citar “(verificar)”) | Terapia | Início | Reavaliação | Manutenção | Pós-descontinuação | Marcadores Principais | Evidência |\n|----------------------------------------|-----------|--------------|--------------------|----------------------|--------------------------------------------------------|-----------|\n| TRH oral/transdérmica | 1-3 meses | 6, 12 meses | Anualmente | 1-3 meses após pausa | Estradiol, FSH, função hepática, perfil lipídico, Papanicolau/mamografia | A [G3][S16] |\n| Testosterona (IM/transd., não implante)| 1-2 meses | 3-6 meses | Anualmente | 1-3 meses após pausa | Testosterona total/livre, hematócrito, PSA, perfil lipídico, função hepática | A [G1][S18][G2][S17] |\n| Implante de testosterona* | 1-2 meses | 3 meses | 6 meses (lim. uso) | 1-3 meses após explante | Testosterona total, hematócrito, PSA, exames hepáticos | B/C (off-label; ver acima) |\n| GLP-1RA (semaglutida/tirzepatida) | 1 mês | 3 meses | 6-12 meses | 1-3 meses após pausa | HbA1C, glicemia, peso, função renal, amilase/lipase | A [S23][S24][S21] |\n| GH (apenas deficiência comprovada) | 1-2 meses | 6 meses | 12 meses | 2 meses após pausa | IGF-1, glicemia, perfil lipídico, TSH, função adrenal | A [S18] | *O implante de testosterona subcutâneo é off-label/manipulado; sua duração não deve exceder bula de referência estrangeira (geralmente 3-6 meses; não há produto industrial aprovado no Brasil). Explante recomendado ao atingir máximo de 6 meses ou em caso de efeitos adversos [G1][S14][verificar]. --- ## 5. Critérios e Protocolos para Redução e Descontinuação ### 5.1 Situações que demandam avaliação para REDUZIR, PAUSAR ou DESCONTINUAR #### Critérios Objetivos - Testosterona: PSA >4 ng/mL, hematócrito ≥54%, sintomas psiquiátricos novos, apneia do sono agravada, ginecomastia relevante, edema importante [G1][S17].\n- TRH: TVP, AVC, IAM, sangramento uterino anormal, hiperplasia endometrial, elevação significativa de enzimas hepáticas, efeitos adversos intoleráveis [G3][S16][G4].\n- GLP-1RA: Pancreatite aguda/lipase elevada, náusea/vômito refratários, perda de peso >20% inesperada, planejamento de gestação (pausar 1 mês antes) [S20][S6].\n- Implantes (testosterona/gestrinona): sinais de virilização, alteração relevante de exames, dor/complicação local, uso >6 meses sem reavaliação, desejo fértil imediato, história pessoal/familiar câncer (principalmente mama em gestrinona) [G6][S14].\n- GH: Edema generalizado, hiperglicemia sustentada, sintomas articulares intensos.\n- **Nunca “chip antiaging” ou research peptide em qualquer circunstância** [S1][S11][S13]. ### 5.2 Protocolos práticos para REDUÇÃO/DESMAME - **TRH estrogênica/progestagênica**: Reduzir dose em decrementos de 25-50% cada 2-4 semanas conforme tolerância e sintomas, monitorando sinais de privação/recorrência; em descontinuação completa, monitorar exames 1-3 meses após suspensão [G3][S16][verificar].\n- **Testosterona** (injetável ou gel): Aumentar intervalos de aplicação ou reduzir dose 25-50% cada 2-4 semanas. Monitorar sintomas e laboratórios. Nos implantes, explante físico obrigatório ao atingir validade ou por efeitos adversos; washout monitorizado.\n- **GLP-1RA**: Redução gradual não rotineiramente necessária, mas pode ser feita reduzindo a dose por etapas semanais em casos de sintomas de abstinência/apetite rebote [S6].\n- **GH**: Reduzir em 50% se eventos adversos leves; suspender imediatamente se adversos graves ou exames alterados.\n- **Implantes de gestrinona**: Não recomendado fora de protocolos controlados; em uso prévio, explante o quanto antes na vigência de sinais adversos/documentação de riscos [G6][S14]. ### 5.3 Planejamento para Fertilidade Futura - Discutir o impacto potencial da terapia e do washout; programar intervalo (washout) de 2-3 meses (TRH), 3-6 meses (testosterona/implantes), 1 mês (GLP-1RA), 2 meses (GH), ou conforme retorno laboratorial/praticamente para restabelecimento do eixo.\n- Em manipulado/implante, exigir confirmação laboratorial de retorno a baseline hormonal antes de tentativa gestacional [G1][G3][S18][S16]. --- ## 6. Fluxograma Clínico Doutiva (Brasil) ```markdown\n1. Avaliar indicação clínica. - Deficiência confirmada? Sintomas presentes? Excluir contraindicações absolutas.\n2. Esclarecer paciente sobre finalidade, riscos, alternativas, impacto reprodutivo. - Obter consentimento informado escrito.\n3. Optar por fármaco REGISTRADO sempre que possível. - Off-label: Documentação formal, manipulado só se falha/intolerância e farmácia estéril autorizada.\n4. Definir calendário de monitorização laboratorial e clínica. - Primeiro controle: 1-3 meses; Segundo: 3-6 meses; Depois anual. - Agendar exames relevantes (ver Tabela 4.1).\n5. Monitorizar ativamente efeitos adversos e sintomas. - Interromper/reduzir se atingir critérios de alerta.\n6. Reprogramar washout/pausa planejada conforme desejo gestacional, efeitos adversos, duração máxima de uso. - Confirmar basais antes de reintrodução.\n7. Documentar cada decisão, lotes, testes, intercorrências e orientações em prontuário.\n``` --- ## 7. Checklist de Prontuário/Consentimento (Estrito) - ☐ Indicação clínica definida e registrada (ex.: hipogonadismo/menopausa/obesidade/deficiência GH comprovada)\n- ☐ Deficiência ou necessidade confirmada em pelo menos 2 dosagens laboratoriais (com datas)\n- ☐ Riscos, alternativas e impacto reprodutivo discutidos, com consentimento informado assinado específico (incluindo risco oncológico, tromboembólico, cardiovascular e efeitos psiquiátricos)\n- ☐ Registro cromatográfico/lote/farmácia/fabricante em caso de manipulado/implante\n- ☐ Calendário de laboratórios planejado no prontuário ± notificação de alterações\n- ☐ Plano documentado de descontinuação/washout e critérios objetivos para pausa\n- ☐ Orientação escrita sobre sinais precoces de alarme e busca precoce de assistência\n- ☐ Informação formal sobre limites regulatórios, não-uso cosmético/longevidade/peptídeos experimentais\n- ☐ Registros revisados e assinados em follow-ups, eventos adversos e washout --- ## 8. Considerações Éticas e Limitantes - Não prescrever terapia hormonal, nem manipulado estéril, sem rigorosa indicação, rastreio e consentimento, dado que irregularidades podem gerar responsabilização civil/ética ao médico [G6][S13][S8].\n- Não incentivar uso de implantes ou chips de uso não aprovado, inclusive gestrinona, salvo em protocolos de pesquisa autorizados/documentados — preferir opções registradas e protocolo tradicional quando possível [G5][S14].\n- Sempre preferir produtos industriais registrados ANVISA antes de considerar manipulado (“bioidêntico” não é superior, nem mais seguro) [G5][G3][S14][S16]. --- ## 9. Resumo Prático de Conduta - **Inicie** apenas diante de indicação inequívoca, documentação clínica/laboratorial, exclusão de contraindicações.\n- **Monitore** segundo cenário (ver tabelas); registre complicações, ajuste conforme necessidade.\n- **Planeje** desmame/washout para fertilidade/segurança, documentando retorno laboratorial a basais.\n- **Nunca** utilize “chips”, research peptides, GH antiaging, compostos não aprovados nem manipulado fora das normas ANVISA/USP <797>.\n- **Documente** consentimento, riscos discutidos e registros de lote/procedência sempre. --- ## 10. Referências Essenciais desta Monografia - [G1] Testosterone Therapy in Men With Hypogonadism: Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2018.\n- [G2] Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med 2023.\n- [G3] The 2022 Hormone Therapy Position Statement of The North American Menopause Society. Menopause 2022.\n- [G4] Risks and Benefits of Estrogen Plus Progestin (WHI). JAMA 2002.\n- [G5] Compounded bioidentical hormone therapy — Endocrine Society / ACOG caution.\n- [G6/S13/S19] CFM Resolução 2.333/2023 (https://portal.cfm.org.br/)\n- [S8] ANVISA — Visão do prescritor/manipulação (https://www.gov.br/anvisa/)\n- [S12] USP <797> (www.usp.org)\n- [S14/S16/S18/S17/S21/S24] Ver síntese no material-fonte acima.\n- (Outros: consultar diretrizes específicas para situações raras ou comorbidades (verificar atualização nacional/internacional). --- # FIM\n```",
+  "quick_ref": "# Guia Rápido para Monitorização e Descontinuação em Terapia Hormonal e Implantes ## Tabela de Dose e Monitorização Básica | Terapia | Dose Inicial | Monitorização Inicial | Marcadores-Chave |\n|-----------------------|------------------------------|-------------------------------------------|---------------------------------------|\n| TRH (estradiol/progest.)| Conforme bula registro | 1-3 meses | Estradiol, FSH, função hepática |\n| Testosterona (IM/gel) | Conforme bula registro | 1-2 meses | Testosterona total, hematócrito, PSA |\n| Implante testosterona | Uso off-label; ≤6 meses | 1-2 meses inicial, 3 meses manutenção | Test. total, hematócrito, PSA |\n| GLP-1RA (semaglutida) | Escalonar até 2,4 mg semanal | 1 mês primeiro controle | HbA1c, função renal, amilase/lipase |\n| GH (deficiência) | Conforme deficiência | 1-2 meses inicial, 6 meses manutenção | IGF-1, glicemia | ## Red Flags para Identificar Interrupção Imediata - Hematócrito ≥54% (testosterona)\n- PSA >4 ng/mL (testosterona)\n- Evento tromboembólico, TVP, AVC (TRH)\n- Pancreatite aguda ou lipase elevada (GLP-1RA)\n- Sintomas psiquiátricos novos/significativos\n- Dor ou complicação local em implante ## Checklist para Prontuário - Indicação clínica e exames registrados\n- Consentimento informado com riscos\n- Lote/farmácia/fabricante de manipulado\n- Calendário de exames documentado\n- Plano de descontinuação e washout\n- Registro de eventos adversos e seguimento Esteja sempre alinhado às normas CFM 2.333/2023 e ANVISA para prática ética e segura.",
   "clinical_case": {
+    "title": "Homem 52 anos em terapia de reposição testosterona busca manejo para início seguro e monitorização",
+    "vignette": "Paciente masculino, 52 anos, relata fadiga, diminuição da libido e massa muscular. Testosterona total matinal encontra-se 270 ng/dL em duas ocasiões. Sem histórico de câncer prostático ou eventos cardiovasculares prévios. Ele deseja iniciar terapia de reposição hormonal com testosterona.",
+    "question": "Qual o protocolo adequado para início, monitorização e critérios de descontinuação neste paciente, considerando segurança e normas brasileiras?",
+    "teaching": "Este paciente apresenta hipogonadismo confirmado pela sintomatologia e testes laboratoriais. A conduta ética e regulamentada indica iniciar TRT com produto registrado (gel ou injetável IM), monitorizando hematócrito, PSA e testosterona aos 1-2 meses, e posteriormente a cada 3-6 meses e após 1 ano anualmente. Deve ser alertado para riscos possíveis — como policitemia e elevação PSA, com critérios objetivos para redução/interrupção (hematócrito ≥54%, PSA >4 ng/mL). Implantes são off-label e devem ser evitados inicialmente. Consentimento informado deve conter riscos, alternativas e impacto na fertilidade. Realizar registro cuidadoso em prontuário e manter acompanhamento clínico laboratorial rigoroso para ajustar dose e segurança.",
+    "reward": 5,
     "data": [
       {
         "label": "Idade",
-        "value": "39 anos"
-      },
-      {
-        "label": "IMC",
-        "value": "24 kg/m²"
-      },
-      {
-        "label": "Tempo de implante",
-        "value": "8 meses"
+        "value": "52 anos"
       },
       {
         "label": "Sintomas",
-        "value": "Ganho 3kg, acne, virilização leve"
+        "value": "Fadiga, baixa libido, perda muscular"
       },
       {
-        "label": "Antecedentes familiares",
-        "value": "Mãe com câncer de mama"
+        "label": "TSH",
+        "value": "Normal"
       },
       {
-        "label": "Exames",
-        "value": "Elevado androgênios, SHBG reduzido, função hepática normal"
+        "label": "Testosterona total matinal",
+        "value": "270 ng/dL (confirmado duas vezes)"
       },
       {
-        "label": "Exame físico",
-        "value": "PA 126x78 mmHg, USG pélvico normal"
+        "label": "Histórico prostático",
+        "value": "Negativo para câncer"
       },
       {
-        "label": "Prescrição inicial",
-        "value": "Gestrinona subcutâneo, manipulado"
+        "label": "Eventos cardiovasculares prévios",
+        "value": "Ausentes"
+      },
+      {
+        "label": "Preferência de tratamento",
+        "value": "Iniciar TRT com gel ou IM"
+      },
+      {
+        "label": "Monitorização planejada",
+        "value": "Hematócrito, PSA, testosterona"
       }
     ],
-    "title": "Caso Clínico: Implante Hormonio Subcutâneo e Virilização em Paciente com SOP",
-    "reward": 15,
     "options": [
       {
-        "label": "A. Manter implante até completar 12 meses e repetir exames só ao final",
+        "label": "Iniciar implante subcutâneo testosterona com monitorização trimestral",
         "correct": false,
-        "rationale": "Ignora sinais clínicos e laboratoriais claros de efeitos adversos e risco oncológico, atrasando intervenções necessárias."
+        "rationale": "Implante de testosterona é off-label e exige justificativa formal; não recomendada a primeira opção por segurança e regulamentação [G1][S14]."
       },
       {
-        "label": "B. Explante imediato, monitoramento laboratorial + rastreio mamário, considerar washout e suspensão de hormônios, discutir fertilidade",
+        "label": "Iniciar gel ou testosterona IM registrada; monitorar testosterona, hematócrito e PSA com cronograma de 1-2 meses e seguir anual",
         "correct": true,
-        "rationale": "Conduta alinhada com protocolos nacionais e internacionais, respeita critérios de segurança, ética e planejamento reprodutivo."
+        "rationale": "Conformidade com diretrizes clínicas e normas CFM/ANVISA. Monitorização adequada para segurança e ajuste de dose [G1][G2][S18]."
       },
       {
-        "label": "C. Substituir por novo implante de mesma dose e rastrear acne em 6 meses",
+        "label": "Não iniciar TRT, pois testosterona está em limite inferior; aguardar sintomas mais evidentes",
         "correct": false,
-        "rationale": "Repetir implante sem retirada e controle adequado pode piorar efeitos adversos e risco."
+        "rationale": "Teste laboratorial confirmado + sintomas indicam tratamento; adiar terapia não recomendável dada sintomatologia e valores baixos [G1]."
       },
       {
-        "label": "D. Enviar para endocrino apenas se níveis androgênicos dobrarem em 3 meses",
+        "label": "Iniciar tratamento com testosterona manipulada via gel para melhor biodisponibilidade",
         "correct": false,
-        "rationale": "Postergar avaliação e intervenção coloca paciente em risco desnecessário, sobretudo com sinais clínicos presentes."
+        "rationale": "Produtos manipulados devem ser reservas para falha e intolerância a registrados. Menor controle de dose e pureza aumenta risco [G5][S8][S14]."
       }
-    ],
-    "question": "Qual a melhor conduta ética e segura?",
-    "vignette": "Paciente feminina, 39 anos, IMC 24, nulípara, amenorreia há 1 ano, sem sintomas vasomotores. Mãe com câncer de mama. Implante subcutâneo de gestrinona há 8 meses para SOP/menometrorragia. Relata ganho de 3kg, acne, virilização leve. Exame: PA 126x78, USG pélvico normal, exames hormonais com elevação de androgênios e SHBG reduzido, função hepática preservada.",
-    "teaching": "O caso demonstra um cenário típico de fadiga do implante hormonal manipulado com efeitos virilizantes e riscos acrescidos devido a história familiar de câncer. A conduta correta é explantar imediatamente, monitorar laboratorialmente o washout do hormônio manipulada, realizar rastreios mamários/ginecológicos rigorosos e discutir fertilidade futura, pois a manutenção pode acarretar agravamento dos efeitos adversos e riscos oncológicos. Manter implante até 12 meses sem avaliação, substituir sem controle, ou aguardar piora são condutas inadequadas e contrárias às diretrizes nacionais e internacionais. O médico deve assumir responsabilidade direta, educação da paciente e documentação cuidadosa."
+    ]
   },
   "refs": [
     {
-      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103(5):1715-1744."
     },
     {
-      "url": "https://care.diabetesjournals.org/content/33/Supplement_1/S11",
-      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11–61. DOI 10.2337/dc10-s011"
+      "citation": "Lincoff AM, et al. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;388(18):1709-1722."
     },
     {
-      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333, 2023. Dispõe sobre prescrições médicas e condutas éticas com hormônios e terapias inovadoras."
+      "citation": "2022 Hormone Therapy Position Statement, North American Menopause Society. Menopause. 2022;29(7):734-753."
     },
     {
-      "citation": "Clinical Practice Guidelines da Endocrine Society e EAS para Terapia de Reposição Hormonal e Manipulação Hormonal."
+      "citation": "Rossouw JE, et al. Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women. JAMA. 2002;288(3):321-333."
     },
     {
-      "citation": "Diretrizes brasileiras para manipulação estéril em farmácias: ANVISA RDC 67/2007 e atualizações."
+      "citation": "Endocrine Society & ACOG. Position statements on compounded bioidentical hormone therapy. 2016."
     },
     {
-      "citation": "Guia prático de manejo de análogos de GLP-1 e terapias combinadas para obesidade e diabetes tipo 2, base evidência de fase 3."
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023. https://portal.cfm.org.br/",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "ANVISA. Princípios de Boas Práticas de Manipulação. 2022.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations. United States Pharmacopeia. 2023.",
+      "url": "https://www.usp.org/"
     }
   ],
-  "status": "published"
+  "raise_bar": true,
+  "audit_verdict": "pass"
 }
