@@ -30,6 +30,9 @@ export function SiteHeader() {
           <a href="/#experts" className="flex items-center gap-2 transition hover:text-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-sage" /> Para mentores
           </a>
+          <Link to="/eventos" className="transition hover:text-foreground">
+            Eventos
+          </Link>
           <a href="/#jornada" className="transition hover:text-foreground">Como funciona</a>
           <a href="/#ambientes" className="transition hover:text-foreground">O campus</a>
         </nav>

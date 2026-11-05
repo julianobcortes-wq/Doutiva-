@@ -32,6 +32,19 @@ vercel --prod
 
 Rotas de API (`/api/cron/*`, `/api/stripe/webhook`, `/api/tutor`, `/api/preceptor`) precisam do servidor Nitro — não faça deploy SPA-only com rewrite cego para `index.html` sem backend.
 
+## Domínio doutiva.com.br (Registro.br → Vercel)
+
+O site público (`/`, `/eventos`, legais) e o app autenticado são o **mesmo** deploy. Não hospede a landing antiga em paralelo.
+
+1. Deploy em produção na Vercel (passo acima) e anote o host `*.vercel.app`.
+2. No projeto Vercel → Domains → adicione `doutiva.com.br` e `www.doutiva.com.br`.
+3. No painel do Registro.br (DNS do domínio), aponte conforme a Vercel indicar — em geral:
+   - `www` → CNAME para `cname.vercel-dns.com` (ou o valor que a Vercel mostrar)
+   - apex `@` → A `76.76.21.21` **ou** os nameservers da Vercel, se preferir delegar DNS
+4. Aguarde propagação; remova o host/DNS da landing antiga só depois do `www` e do apex responderem este app.
+5. Em Supabase Auth → URL Configuration, inclua `https://doutiva.com.br` e `https://www.doutiva.com.br` em Site URL / Redirect URLs.
+6. Defina `APP_ORIGIN=https://www.doutiva.com.br` (ou o canônico escolhido) no host.
+
 ## Cloudflare Tunnel (preview)
 
 ```bash
