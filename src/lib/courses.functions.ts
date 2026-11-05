@@ -30,9 +30,11 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
     if (error) throw error;
     if (!course) return null;
 
+    // Omit full monograph from the course payload — treatises are large and only
+    // needed in "Aprofundar". Player loop uses slides / case / key_points / quick_ref.
     const { data: lessons } = await supabase
       .from("lessons")
-      .select("id, title, description, video_url, duration_minutes, position, module_title, module_position, content, key_points, refs, evidence_level, slides, clinical_case, quick_ref, monograph, reviewed_by, reviewed_at")
+      .select("id, title, description, video_url, duration_minutes, position, module_title, module_position, content, key_points, refs, evidence_level, slides, clinical_case, quick_ref, reviewed_by, reviewed_at")
       .eq("course_id", course.id)
       .order("position", { ascending: true });
 
@@ -52,9 +54,20 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
       progressIds = (progress ?? []).map((p) => p.lesson_id);
     }
 
+    // Lightweight ids-only probe so Aprofundar CTA shows without shipping treatises.
+    const { data: monoIds } = await supabase
+      .from("lessons")
+      .select("id")
+      .eq("course_id", course.id)
+      .not("monograph", "is", null)
+      .neq("monograph", "");
+    const hasMono = new Set((monoIds ?? []).map((r) => r.id as string));
+
     // Strip answer keys from clinical_case before the student client receives the course.
     const safeLessons = (lessons ?? []).map((l) => ({
       ...l,
+      monograph: null as string | null,
+      has_monograph: hasMono.has(l.id),
       clinical_case: redactClinicalCaseJson(l.clinical_case) ?? null,
     }));
 
@@ -63,6 +76,27 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
       lessons: safeLessons,
       enrolled: !!enrollment,
       progress: progressIds,
+    };
+  });
+
+/** Full treatise for Aprofundar — loaded on demand, not with the guided session. */
+export const getLessonMonograph = createServerFn({ method: "GET" })
+  .middleware([requireSupabaseAuth])
+  .inputValidator((d: { lessonId: string }) => z.object({ lessonId: z.string().uuid() }).parse(d))
+  .handler(async ({ context, data }) => {
+    const { data: lesson, error } = await context.supabase
+      .from("lessons")
+      .select("id, title, monograph, refs, quick_ref")
+      .eq("id", data.lessonId)
+      .maybeSingle();
+    if (error) throw error;
+    if (!lesson) throw new Error("Aula não encontrada");
+    return {
+      id: lesson.id as string,
+      title: lesson.title as string,
+      monograph: (lesson.monograph as string | null) ?? "",
+      refs: (lesson.refs as { citation: string; url?: string }[] | null) ?? [],
+      quickRef: (lesson.quick_ref as string | null) ?? "",
     };
   });
 

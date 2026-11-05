@@ -2,12 +2,31 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight, Maximize2, Minimize2 } from "lucide-react";
 import type { Slide } from "@/content/lesson-types";
 
-export function ClinicalSlideDeck({ slides }: { slides: Slide[] }) {
-  const [i, setI] = useState(0);
+type Props = {
+  slides: Slide[];
+  /** Controlled index for guided session loop. */
+  index?: number;
+  onIndexChange?: (i: number) => void;
+  showChrome?: boolean;
+};
+
+export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = true }: Props) {
+  const controlled = typeof index === "number";
+  const [internal, setInternal] = useState(0);
+  const i = controlled ? index! : internal;
+  const setI = useCallback(
+    (v: number | ((prev: number) => number)) => {
+      const next = typeof v === "function" ? v(controlled ? index! : internal) : v;
+      const clamped = Math.min(slides.length - 1, Math.max(0, next));
+      if (!controlled) setInternal(clamped);
+      onIndexChange?.(clamped);
+    },
+    [controlled, index, internal, onIndexChange, slides.length],
+  );
   const [full, setFull] = useState(false);
   const touch = useRef<number | null>(null);
   const n = slides.length;
-  const go = useCallback((d: number) => setI((v) => Math.min(n - 1, Math.max(0, v + d))), [n]);
+  const go = useCallback((d: number) => setI((v) => v + d), [setI]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -19,7 +38,9 @@ export function ClinicalSlideDeck({ slides }: { slides: Slide[] }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [go]);
 
-  useEffect(() => setI(0), [slides]);
+  useEffect(() => {
+    if (!controlled) setInternal(0);
+  }, [slides, controlled]);
 
   if (!n) return null;
   const s = slides[i];
@@ -37,24 +58,28 @@ export function ClinicalSlideDeck({ slides }: { slides: Slide[] }) {
         }}
       >
         <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent opacity-70" />
-        <div className="flex items-center justify-between px-5 pt-4 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-          <span>Doutiva · Lâmina {i + 1}/{n}</span>
-          <button onClick={() => setFull((f) => !f)} aria-label="Tela cheia" className="hover:text-foreground">
-            {full ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
-          </button>
-        </div>
-        <div className="flex flex-1 flex-col justify-center px-5 py-6 md:px-12">
+        {showChrome && (
+          <div className="flex items-center justify-between px-5 pt-4 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
+            <span>Doutiva · Lâmina {i + 1}/{n}</span>
+            <button onClick={() => setFull((f) => !f)} aria-label="Tela cheia" className="hover:text-foreground">
+              {full ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
+            </button>
+          </div>
+        )}
+        <div key={i} className="flex flex-1 flex-col justify-center px-5 py-6 animate-in fade-in slide-in-from-right-2 duration-300 md:px-12">
           <SlideBody s={s} />
         </div>
-        <div className="flex items-center justify-between border-t border-border/60 px-3 py-2">
-          <button onClick={() => go(-1)} disabled={i === 0} className="rounded-sm p-2 text-muted-foreground hover:text-foreground disabled:opacity-30" aria-label="Anterior"><ChevronLeft className="h-5 w-5" /></button>
-          <div className="flex flex-wrap justify-center gap-1.5">
-            {slides.map((_, k) => (
-              <button key={k} onClick={() => setI(k)} aria-label={`Lâmina ${k + 1}`} className={`h-1.5 rounded-full transition-all ${k === i ? "w-6 bg-gold" : "w-1.5 bg-muted-foreground/30"}`} />
-            ))}
+        {showChrome && (
+          <div className="flex items-center justify-between border-t border-border/60 px-3 py-2">
+            <button onClick={() => go(-1)} disabled={i === 0} className="rounded-sm p-2 text-muted-foreground hover:text-foreground disabled:opacity-30" aria-label="Anterior"><ChevronLeft className="h-5 w-5" /></button>
+            <div className="flex flex-wrap justify-center gap-1.5">
+              {slides.map((_, k) => (
+                <button key={k} onClick={() => setI(k)} aria-label={`Lâmina ${k + 1}`} className={`h-1.5 rounded-full transition-all ${k === i ? "w-6 bg-gold" : "w-1.5 bg-muted-foreground/30"}`} />
+              ))}
+            </div>
+            <button onClick={() => go(1)} disabled={i === n - 1} className="rounded-sm p-2 text-muted-foreground hover:text-foreground disabled:opacity-30" aria-label="Próxima"><ChevronRight className="h-5 w-5" /></button>
           </div>
-          <button onClick={() => go(1)} disabled={i === n - 1} className="rounded-sm p-2 text-muted-foreground hover:text-foreground disabled:opacity-30" aria-label="Próxima"><ChevronRight className="h-5 w-5" /></button>
-        </div>
+        )}
       </div>
     </div>
   );
