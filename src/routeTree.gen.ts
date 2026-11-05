@@ -13,6 +13,9 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
 import { Route as EventosRouteImport } from './routes/eventos'
+import { Route as MentoresRouteImport } from './routes/mentores'
+import { Route as OfertaRouteImport } from './routes/oferta'
+import { Route as ParceirosRouteImport } from './routes/parceiros'
 import { Route as PoliticaIaRouteImport } from './routes/politica-ia'
 import { Route as PrivacidadeRouteImport } from './routes/privacidade'
 import { Route as TermosRouteImport } from './routes/termos'
@@ -79,6 +82,21 @@ const AuthRoute = AuthRouteImport.update({
 const EventosRoute = EventosRouteImport.update({
   id: '/eventos',
   path: '/eventos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MentoresRoute = MentoresRouteImport.update({
+  id: '/mentores',
+  path: '/mentores',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OfertaRoute = OfertaRouteImport.update({
+  id: '/oferta',
+  path: '/oferta',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ParceirosRoute = ParceirosRouteImport.update({
+  id: '/parceiros',
+  path: '/parceiros',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PoliticaIaRoute = PoliticaIaRouteImport.update({
@@ -342,6 +360,9 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/eventos': typeof EventosRoute
+  '/mentores': typeof MentoresRoute
+  '/oferta': typeof OfertaRoute
+  '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
   '/termos': typeof TermosRoute
@@ -395,6 +416,9 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/eventos': typeof EventosRoute
+  '/mentores': typeof MentoresRoute
+  '/oferta': typeof OfertaRoute
+  '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
   '/termos': typeof TermosRoute
@@ -450,6 +474,9 @@ export interface FileRoutesById {
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
   '/eventos': typeof EventosRoute
+  '/mentores': typeof MentoresRoute
+  '/oferta': typeof OfertaRoute
+  '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
   '/termos': typeof TermosRoute
@@ -505,6 +532,9 @@ export interface FileRouteTypes {
     | '/'
     | '/auth'
     | '/eventos'
+    | '/mentores'
+    | '/oferta'
+    | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
     | '/termos'
@@ -558,6 +588,9 @@ export interface FileRouteTypes {
     | '/'
     | '/auth'
     | '/eventos'
+    | '/mentores'
+    | '/oferta'
+    | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
     | '/termos'
@@ -612,6 +645,9 @@ export interface FileRouteTypes {
     | '/_authenticated'
     | '/auth'
     | '/eventos'
+    | '/mentores'
+    | '/oferta'
+    | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
     | '/termos'
@@ -667,6 +703,9 @@ export interface RootRouteChildren {
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
   EventosRoute: typeof EventosRoute
+  MentoresRoute: typeof MentoresRoute
+  OfertaRoute: typeof OfertaRoute
+  ParceirosRoute: typeof ParceirosRoute
   PoliticaIaRoute: typeof PoliticaIaRoute
   PrivacidadeRoute: typeof PrivacidadeRoute
   TermosRoute: typeof TermosRoute
@@ -706,6 +745,27 @@ declare module '@tanstack/react-router' {
       path: '/eventos'
       fullPath: '/eventos'
       preLoaderRoute: typeof EventosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mentores': {
+      id: '/mentores'
+      path: '/mentores'
+      fullPath: '/mentores'
+      preLoaderRoute: typeof MentoresRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/oferta': {
+      id: '/oferta'
+      path: '/oferta'
+      fullPath: '/oferta'
+      preLoaderRoute: typeof OfertaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/parceiros': {
+      id: '/parceiros'
+      path: '/parceiros'
+      fullPath: '/parceiros'
+      preLoaderRoute: typeof ParceirosRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/politica-ia': {
@@ -1169,6 +1229,9 @@ const rootRouteChildren: RootRouteChildren = {
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
   EventosRoute: EventosRoute,
+  MentoresRoute: MentoresRoute,
+  OfertaRoute: OfertaRoute,
+  ParceirosRoute: ParceirosRoute,
   PoliticaIaRoute: PoliticaIaRoute,
   PrivacidadeRoute: PrivacidadeRoute,
   TermosRoute: TermosRoute,

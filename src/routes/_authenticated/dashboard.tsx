@@ -62,11 +62,11 @@ function DashboardPage() {
             {faculty ? "Painel do Mentor" : "Meu campus"}
           </span>
           <h1 className="mt-3 font-serif text-4xl leading-tight md:text-5xl">
-            Doutiva <span className="text-gold">em circuito fechado</span>.
+            Protocolos <span className="text-gold">do dia</span>.
           </h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
-            Evidência → aula → caso clínico → XP/créditos → Professores de IA e marketplace. Tudo
-            validado no servidor.
+            Sessão guiada, trilhas e revisão — o Online que lançamos agora. Painel da clínica,
+            mentoria e Semana Doutiva entram em breve na mesma casa.
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -187,10 +187,10 @@ function DashboardPage() {
           desc="Casos que você errou voltam com espaçamento."
         />
         <Action
-          to="/marketplace"
+          to="/billing"
           icon={ShoppingBag}
-          title="Marketplace"
-          desc="Troque créditos por sessões e protocolos."
+          title="Meu plano"
+          desc="Protocolos Online · R$ 297/mês."
         />
         <Action
           to="/ranking"
@@ -206,14 +206,32 @@ function DashboardPage() {
             desc="Gere aulas ancoradas na biblioteca científica."
           />
         ) : (
-          <Action
-            to="/mentors"
-            icon={GraduationCap}
-            title="Mentores"
-            desc="Médicos com CRM/RQE para aprofundar."
+          <SoonCard
+            title="Painel da clínica"
+            desc="Oito indicadores e a conta do médico — em breve."
           />
         )}
       </section>
+
+      {!faculty && (
+        <section className="mt-10 grid gap-3 md:grid-cols-3">
+          <SoonCard
+            title="Mentoria / marketplace"
+            desc="Fique perto dos primeiros mentores. Lista aberta no site."
+            href="/mentores"
+          />
+          <SoonCard
+            title="Semana Doutiva"
+            desc="Imersão + Encontro. A Origem em março."
+            href="/eventos"
+          />
+          <SoonCard
+            title="Clube Doutiva"
+            desc="100 cadeiras · R$ 150 mil/ano. Em breve."
+            href="/oferta"
+          />
+        </section>
+      )}
 
       {faculty && (
         <section className="mt-10 rounded-sm border border-sage/30 bg-gradient-to-br from-sage/10 to-transparent p-6 md:p-8">
@@ -270,5 +288,36 @@ function Action({
       </div>
       <p className="mt-1 text-xs text-muted-foreground">{desc}</p>
     </Link>
+  );
+}
+
+function SoonCard({
+  title,
+  desc,
+  href,
+}: {
+  title: string;
+  desc: string;
+  href?: string;
+}) {
+  const inner = (
+    <>
+      <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Em breve</span>
+      <h3 className="mt-3 font-serif text-lg">{title}</h3>
+      <p className="mt-1 text-xs text-muted-foreground">{desc}</p>
+    </>
+  );
+  if (href) {
+    return (
+      <a
+        href={href}
+        className="rounded-sm border border-dashed border-border/70 bg-card/50 p-5 transition hover:border-gold/30"
+      >
+        {inner}
+      </a>
+    );
+  }
+  return (
+    <div className="rounded-sm border border-dashed border-border/70 bg-card/50 p-5">{inner}</div>
   );
 }

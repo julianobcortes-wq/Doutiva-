@@ -6,31 +6,33 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="flex items-center gap-3">
-            <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 text-gold font-serif text-lg">D</span>
+            <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 font-serif text-lg text-gold">
+              D
+            </span>
             <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
           </div>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
-            Instituto de Medicina e Negócios. Protocolos, imersões e mentoria para médicos — 100%
-            independente de farmácia, laboratório e indústria.
+            Instituto de Medicina e Negócios. Protocolos Online agora; imersão, mentoria e clube em
+            breve. 100% independente de farmácia, laboratório e indústria.
           </p>
         </div>
         <div>
-          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Campus</h4>
+          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Produto</h4>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             <li>
-              <a href="/#ambientes" className="transition hover:text-foreground">
-                O campus
+              <a href="/#protocolos" className="transition hover:text-foreground">
+                Protocolos
               </a>
             </li>
             <li>
-              <a href="/#medicos" className="transition hover:text-foreground">
-                Para alunos
-              </a>
+              <Link to="/oferta" className="transition hover:text-foreground">
+                Oferta completa
+              </Link>
             </li>
             <li>
-              <a href="/#experts" className="transition hover:text-foreground">
-                Para mentores
-              </a>
+              <Link to="/eventos" className="transition hover:text-foreground">
+                Eventos · A Origem
+              </Link>
             </li>
             <li>
               <Link to="/auth" className="transition hover:text-foreground">
@@ -40,11 +42,16 @@ export function SiteFooter() {
           </ul>
         </div>
         <div>
-          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">A Doutiva</h4>
+          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Em breve</h4>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             <li>
-              <Link to="/eventos" className="transition hover:text-foreground">
-                Eventos · A Origem
+              <Link to="/mentores" className="transition hover:text-foreground">
+                Mentores
+              </Link>
+            </li>
+            <li>
+              <Link to="/parceiros" className="transition hover:text-foreground">
+                Parceiros · take rate
               </Link>
             </li>
             <li>
@@ -57,18 +64,13 @@ export function SiteFooter() {
                 Privacidade
               </Link>
             </li>
-            <li>
-              <Link to="/politica-ia" className="transition hover:text-foreground">
-                Política de IA
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
       <div className="border-t border-border/60">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-6 py-6 text-xs text-muted-foreground md:flex-row">
           <span>© {new Date().getFullYear()} Doutiva. Todos os direitos reservados.</span>
-          <span className="tracking-[0.2em] uppercase">Medicina · Negócios · Independência</span>
+          <span className="uppercase tracking-[0.2em]">Protocolos · Imersão · Mentoria · Clube</span>
         </div>
       </div>
     </footer>

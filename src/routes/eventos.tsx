@@ -121,6 +121,9 @@ function EventosPage() {
             >
               <a href="#jornada">Ver a jornada da noite</a>
             </Button>
+            <Button asChild variant="ghost" size="lg" className="h-12 rounded-sm px-4 text-muted-foreground">
+              <Link to="/oferta">Escada completa</Link>
+            </Button>
           </div>
         </div>
       </section>

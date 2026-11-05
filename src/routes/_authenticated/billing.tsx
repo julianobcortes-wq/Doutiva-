@@ -69,8 +69,12 @@ function BillingPage() {
       <span className="text-[10px] uppercase tracking-[0.3em] text-gold">Assinatura</span>
       <h1 className="mt-3 font-serif text-4xl">Meu plano</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">
-        Preços editáveis no banco (`subscription_plans`). Sem `STRIPE_SECRET_KEY`, ativamos cortesia
-        para você validar o produto.
+        Agora o lançamento é <strong className="text-foreground">Protocolos Online</strong>. Imersão,
+        mentoria e clube entram na{" "}
+        <Link to="/oferta" className="text-gold underline">
+          escada completa
+        </Link>{" "}
+        como em breve. Sem Stripe configurado, ativamos cortesia para validar.
       </p>
 
       {sub && (
