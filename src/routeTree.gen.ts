@@ -43,6 +43,7 @@ import { Route as AuthenticatedSettingsRouteImport } from './routes/_authenticat
 import { Route as AuthenticatedSkillsRouteImport } from './routes/_authenticated/skills'
 import { Route as AuthenticatedStoreRouteImport } from './routes/_authenticated/store'
 import { Route as AuthenticatedWalletRouteImport } from './routes/_authenticated/wallet'
+import { Route as ApiHealthRouteImport } from './routes/api/health'
 import { Route as ApiPreceptorRouteImport } from './routes/api/preceptor'
 import { Route as ApiTutorRouteImport } from './routes/api/tutor'
 import { Route as VerificarCodeRouteImport } from './routes/verificar.$code'
@@ -56,6 +57,7 @@ import { Route as AuthenticatedMentorsSlugRouteImport } from './routes/_authenti
 import { Route as AuthenticatedProtocoloSlugRouteImport } from './routes/_authenticated/protocolo.$slug'
 import { Route as AuthenticatedSpacesSlugRouteImport } from './routes/_authenticated/spaces.$slug'
 import { Route as ApiCronDailyChallengeRouteImport } from './routes/api/cron.daily-challenge'
+import { Route as ApiStripeWebhookRouteImport } from './routes/api/stripe.webhook'
 import { Route as AuthenticatedEditorAulaLessonIdRouteImport } from './routes/_authenticated/editor.aula.$lessonId'
 import { Route as AuthenticatedEditorCursoCourseIdRouteImport } from './routes/_authenticated/editor.curso.$courseId'
 
@@ -235,6 +237,11 @@ const AuthenticatedWalletRoute = AuthenticatedWalletRouteImport.update({
   path: '/wallet',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const ApiHealthRoute = ApiHealthRouteImport.update({
+  id: '/api/health',
+  path: '/api/health',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPreceptorRoute = ApiPreceptorRouteImport.update({
   id: '/api/preceptor',
   path: '/api/preceptor',
@@ -307,6 +314,11 @@ const ApiCronDailyChallengeRoute = ApiCronDailyChallengeRouteImport.update({
   path: '/api/cron/daily-challenge',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiStripeWebhookRoute = ApiStripeWebhookRouteImport.update({
+  id: '/api/stripe/webhook',
+  path: '/api/stripe/webhook',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AuthenticatedEditorAulaLessonIdRoute =
   AuthenticatedEditorAulaLessonIdRouteImport.update({
     id: '/editor/aula/$lessonId',
@@ -354,6 +366,7 @@ export interface FileRoutesByFullPath {
   '/skills': typeof AuthenticatedSkillsRoute
   '/store': typeof AuthenticatedStoreRoute
   '/wallet': typeof AuthenticatedWalletRoute
+  '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -365,6 +378,7 @@ export interface FileRoutesByFullPath {
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy/': typeof AuthenticatedAcademyIndexRoute
   '/editor/': typeof AuthenticatedEditorIndexRoute
   '/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -404,6 +418,7 @@ export interface FileRoutesByTo {
   '/skills': typeof AuthenticatedSkillsRoute
   '/store': typeof AuthenticatedStoreRoute
   '/wallet': typeof AuthenticatedWalletRoute
+  '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -415,6 +430,7 @@ export interface FileRoutesByTo {
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy': typeof AuthenticatedAcademyIndexRoute
   '/editor': typeof AuthenticatedEditorIndexRoute
   '/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -456,6 +472,7 @@ export interface FileRoutesById {
   '/_authenticated/skills': typeof AuthenticatedSkillsRoute
   '/_authenticated/store': typeof AuthenticatedStoreRoute
   '/_authenticated/wallet': typeof AuthenticatedWalletRoute
+  '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -467,6 +484,7 @@ export interface FileRoutesById {
   '/_authenticated/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/_authenticated/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/_authenticated/academy/': typeof AuthenticatedAcademyIndexRoute
   '/_authenticated/editor/': typeof AuthenticatedEditorIndexRoute
   '/_authenticated/editor/aula/$lessonId': typeof AuthenticatedEditorAulaLessonIdRoute
@@ -508,6 +526,7 @@ export interface FileRouteTypes {
     | '/skills'
     | '/store'
     | '/wallet'
+    | '/api/health'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -519,6 +538,7 @@ export interface FileRouteTypes {
     | '/protocolo/$slug'
     | '/spaces/$slug'
     | '/api/cron/daily-challenge'
+    | '/api/stripe/webhook'
     | '/academy/'
     | '/editor/'
     | '/editor/aula/$lessonId'
@@ -558,6 +578,7 @@ export interface FileRouteTypes {
     | '/skills'
     | '/store'
     | '/wallet'
+    | '/api/health'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -569,6 +590,7 @@ export interface FileRouteTypes {
     | '/protocolo/$slug'
     | '/spaces/$slug'
     | '/api/cron/daily-challenge'
+    | '/api/stripe/webhook'
     | '/academy'
     | '/editor'
     | '/editor/aula/$lessonId'
@@ -609,6 +631,7 @@ export interface FileRouteTypes {
     | '/_authenticated/skills'
     | '/_authenticated/store'
     | '/_authenticated/wallet'
+    | '/api/health'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -620,6 +643,7 @@ export interface FileRouteTypes {
     | '/_authenticated/protocolo/$slug'
     | '/_authenticated/spaces/$slug'
     | '/api/cron/daily-challenge'
+    | '/api/stripe/webhook'
     | '/_authenticated/academy/'
     | '/_authenticated/editor/'
     | '/_authenticated/editor/aula/$lessonId'
@@ -633,10 +657,12 @@ export interface RootRouteChildren {
   PoliticaIaRoute: typeof PoliticaIaRoute
   PrivacidadeRoute: typeof PrivacidadeRoute
   TermosRoute: typeof TermosRoute
+  ApiHealthRoute: typeof ApiHealthRoute
   ApiPreceptorRoute: typeof ApiPreceptorRoute
   ApiTutorRoute: typeof ApiTutorRoute
   VerificarCodeRoute: typeof VerificarCodeRoute
   ApiCronDailyChallengeRoute: typeof ApiCronDailyChallengeRoute
+  ApiStripeWebhookRoute: typeof ApiStripeWebhookRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -879,6 +905,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedWalletRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/api/health': {
+      id: '/api/health'
+      path: '/api/health'
+      fullPath: '/api/health'
+      preLoaderRoute: typeof ApiHealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/preceptor': {
       id: '/api/preceptor'
       path: '/api/preceptor'
@@ -968,6 +1001,13 @@ declare module '@tanstack/react-router' {
       path: '/api/cron/daily-challenge'
       fullPath: '/api/cron/daily-challenge'
       preLoaderRoute: typeof ApiCronDailyChallengeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/stripe/webhook': {
+      id: '/api/stripe/webhook'
+      path: '/api/stripe/webhook'
+      fullPath: '/api/stripe/webhook'
+      preLoaderRoute: typeof ApiStripeWebhookRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/editor/aula/$lessonId': {
@@ -1111,10 +1151,12 @@ const rootRouteChildren: RootRouteChildren = {
   PoliticaIaRoute: PoliticaIaRoute,
   PrivacidadeRoute: PrivacidadeRoute,
   TermosRoute: TermosRoute,
+  ApiHealthRoute: ApiHealthRoute,
   ApiPreceptorRoute: ApiPreceptorRoute,
   ApiTutorRoute: ApiTutorRoute,
   VerificarCodeRoute: VerificarCodeRoute,
   ApiCronDailyChallengeRoute: ApiCronDailyChallengeRoute,
+  ApiStripeWebhookRoute: ApiStripeWebhookRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

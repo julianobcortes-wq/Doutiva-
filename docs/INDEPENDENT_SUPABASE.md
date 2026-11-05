@@ -39,7 +39,7 @@ Isso cria o projeto `doutiva`, grava `.env` gitignored com publishable + **servi
 | Supabase do Lovable Cloud | Projeto Supabase Doutiva |
 | Só publishable no agente | Service role no `.env` local |
 | Gateway IA Lovable default | `OPENAI_API_KEY` / `ANTHROPIC_API_KEY` + `AI_GATEWAY_BASE_URL` |
-| Pacotes `@lovable.dev/*` no Vite/OAuth | Desacoplar em seguida (ver ARCHITECTURE.md) |
+| Pacotes `@lovable.dev/*` no Vite/OAuth | Vite first-party + OAuth nativo feitos; residual `cloud-auth-js` só para preview Lovable |
 
 ## Região
 

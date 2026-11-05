@@ -29,9 +29,9 @@ O ZIP Lovable trouxe um projeto Supabase alheio (`nflhfjyyaefhxeesvrge`). **Não
 
 1. ~~Providers AI próprios~~ — `ai-provider.server.ts` + env (`AI_GATEWAY_BASE_URL` / `OPENAI_API_KEY`)
 2. **Supabase próprio** — bootstrap via Management API (token da conta Doutiva)
-3. Vite/TanStack config explícita (sair de `@lovable.dev/vite-tanstack-config`)
-4. OAuth Supabase nativo (sair de `@lovable.dev/cloud-auth-js`)
-5. Remover error bridge / preview auth
+3. ~~Vite/TanStack config explícita~~ — `vite.config.ts` first-party + Nitro
+4. ~~OAuth Supabase nativo~~ — Google via `supabase.auth.signInWithOAuth` (sem broker Lovable)
+5. Remover residual `previewAuthStorage` / `@lovable.dev/cloud-auth-js` (só preview Lovable)
 6. ~~Schema base + RLS versionado~~ — migration `0015` (tabelas-base); CREATE TABLE das seeds ainda vive no Cloud baseline
 
 ## Citation integrity

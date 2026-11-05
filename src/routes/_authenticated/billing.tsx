@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
+import { useEffect } from "react";
 import { choosePlan, getMySubscription, listPlans } from "@/lib/billing.functions";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
@@ -27,10 +28,33 @@ function BillingPage() {
   const choose = useServerFn(choosePlan);
   const { data: plans = [] } = useQuery({ queryKey: ["plans"], queryFn: () => fetchPlans() });
   const { data: sub } = useQuery({ queryKey: ["my-sub"], queryFn: () => fetchSub() });
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const q = new URLSearchParams(window.location.search);
+    const checkout = q.get("checkout");
+    if (!checkout) return;
+    if (checkout === "success") {
+      toast.success("Pagamento recebido. Seu plano será confirmado em instantes.");
+      qc.invalidateQueries({ queryKey: ["my-sub"] });
+    } else if (checkout === "cancel") {
+      toast.message("Checkout cancelado. Você pode tentar de novo quando quiser.");
+    }
+    q.delete("checkout");
+    const next = `${window.location.pathname}${q.toString() ? `?${q}` : ""}`;
+    window.history.replaceState({}, "", next);
+  }, [qc]);
+
   const mut = useMutation({
-    mutationFn: (planId: string) => choose({ data: { planId } }),
-    onSuccess: (r) => {
+    mutationFn: (planId: string) =>
+      choose({ data: { planId, origin: typeof window !== "undefined" ? window.location.origin : undefined } }),
+    onSuccess: (r: any) => {
       if (!r?.ok) return toast.error(r?.error ?? "Não foi possível ativar o plano");
+      if (r.checkoutUrl) {
+        toast.message("Redirecionando ao Stripe…");
+        window.location.href = r.checkoutUrl;
+        return;
+      }
       toast.success("Plano ativado em período de cortesia.", { description: r.note });
       qc.invalidateQueries({ queryKey: ["my-sub"] });
     },
@@ -94,7 +118,7 @@ function BillingPage() {
               disabled={mut.isPending || sub?.plan_id === p.id}
               onClick={() => mut.mutate(p.id)}
             >
-              {sub?.plan_id === p.id ? "Plano atual" : "Ativar cortesia"}
+              {sub?.plan_id === p.id ? "Plano atual" : "Assinar / ativar"}
             </Button>
           </div>
         ))}

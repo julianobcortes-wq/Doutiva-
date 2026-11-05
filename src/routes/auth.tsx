@@ -1,7 +1,6 @@
 import { createFileRoute, useNavigate, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
-import { lovable } from "@/integrations/lovable";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -67,15 +66,14 @@ function AuthPage() {
 
   async function handleGoogle() {
     setStoredClass(userClass);
-    // Prefer native Supabase OAuth when configured; fall back to Lovable broker.
     const redirectTo = `${window.location.origin}/dashboard`;
-    const { error: nativeError } = await supabase.auth.signInWithOAuth({
+    const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: { redirectTo },
     });
-    if (!nativeError) return;
-    const result = await lovable.auth.signInWithOAuth("google", { redirect_uri: redirectTo });
-    if (result.error) toast.error("Falha no login com Google. Configure o provedor no Supabase Auth.");
+    if (error) {
+      toast.error("Falha no login com Google. Ative o provedor Google em Supabase → Authentication → Providers.");
+    }
   }
 
   return (

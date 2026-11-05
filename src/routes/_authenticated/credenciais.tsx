@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { formatCrmLabel, validateCrm } from "@/lib/crm";
 
 export const Route = createFileRoute("/_authenticated/credenciais")({
   head: () => ({
@@ -74,8 +75,9 @@ function CredentialsPage() {
   }, []);
 
   async function save() {
-    if (f.full_name.trim().length < 3 || !/^\d{3,8}$/.test(f.crm.trim()))
-      return toast.error("Informe nome completo e CRM (somente números).");
+    if (f.full_name.trim().length < 3) return toast.error("Informe o nome completo.");
+    const crmCheck = validateCrm(f.crm, f.crm_uf);
+    if (!crmCheck.ok || !crmCheck.digits) return toast.error(crmCheck.error ?? "CRM inválido.");
     setBusy(true);
     const { data: u } = await supabase.auth.getUser();
     if (!u.user) {
@@ -84,10 +86,12 @@ function CredentialsPage() {
     }
     const row = {
       ...f,
-      crm: f.crm.trim(),
+      crm: crmCheck.digits,
       rqe: f.rqe.trim() || null,
       specialty: f.specialty.trim() || null,
       bio: f.bio.trim() || null,
+      status: "pending",
+      verified: false,
       user_id: u.user.id,
       updated_at: new Date().toISOString(),
     };
@@ -97,7 +101,7 @@ function CredentialsPage() {
     setBusy(false);
     if (error) return toast.error("Não foi possível salvar.");
     setExists(true);
-    toast.success("Credenciais enviadas para conferência do conselho editorial.");
+    toast.success(`Credenciais ${formatCrmLabel(crmCheck.digits, f.crm_uf)} enviadas para conferência editorial.`);
   }
 
   return (

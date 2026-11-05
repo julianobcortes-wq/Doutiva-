@@ -70,13 +70,14 @@
 - [x] CREATE TABLE das tabelas-base no git (`0016_base_schema_ddl.sql`)
 - [x] Embeddings alinhados a `text-embedding-3-small` (`0020`, 1536 dims)
 - [x] Biblioteca científica seedada (Europe PMC + ClinicalTrials) + `scripts/seed-scientific-library.mjs`
-- [x] OAuth: preferir Supabase nativo, Lovable só como fallback
-- [ ] Desacoplar Vite config Lovable (`@lovable.dev/vite-tanstack-config`) — build ainda depende do pacote
+- [x] OAuth: Supabase nativo (Google via Auth Providers; sem broker Lovable no fluxo)
+- [x] Desacoplar Vite config Lovable (`vite.config.ts` first-party + Nitro)
 - [ ] Deploy público permanente (Vercel/Cloudflare) — preview via túnel Cloudflare enquanto isso
 
 ## Negócio e conformidade
 
-- [ ] Assinatura/pagamentos (bloqueado: escolha de planos e preços)
-- [ ] Verificação de médico no cadastro (CRM) (bloqueado: decisão sobre fonte de verificação)
+- [x] Assinatura/pagamentos — Checkout Stripe + webhook prontos (ativar com `STRIPE_*` + Price IDs)
+- [x] Validação de formato CRM/UF no cadastro mentor (lookup CFM oficial permanece editorial/admin)
 - [ ] Termos, LGPD e política de uso de IA (bloqueado: revisão jurídica)
 - [ ] Credenciamento de educação continuada (bloqueado: decisão institucional)
+- [ ] Lookup CFM oficial / API externa (bloqueado: fonte institucional)
