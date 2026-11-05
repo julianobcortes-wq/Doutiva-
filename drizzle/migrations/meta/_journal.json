@@ -26,6 +26,7 @@
     { "idx": 21, "version": "7", "when": 1793771000000, "tag": "0021_publish_integrity_and_test_admin", "breakpoints": true },
     { "idx": 22, "version": "7", "when": 1793772000000, "tag": "0022_product_gaps", "breakpoints": true },
     { "idx": 23, "version": "7", "when": 1793773000000, "tag": "0023_peptides_curriculum_v2", "breakpoints": true },
-    { "idx": 24, "version": "7", "when": 1793774000000, "tag": "0024_doutiva_courses_v3", "breakpoints": true }
+    { "idx": 24, "version": "7", "when": 1793774000000, "tag": "0024_doutiva_courses_v3", "breakpoints": true },
+    { "idx": 25, "version": "7", "when": 1793895000000, "tag": "0025_session_gamification", "breakpoints": true }
   ]
 }

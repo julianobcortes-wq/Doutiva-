@@ -1,10 +1,10 @@
 import { Link } from "@tanstack/react-router";
-import { Activity, Coins, Flame } from "lucide-react";
+import { Activity, Coins, Flame, Target } from "lucide-react";
 import { levelFromXp } from "@/lib/economy";
 import { tierFor } from "@/lib/valley-v1";
 import { useProgress } from "@/lib/use-progress";
 
-/** Barra de status persistente (HUD de RPG): nível, XP, moedas e constância sempre visíveis. */
+/** Barra de status persistente (HUD de RPG): nível, XP, meta diária e constância. */
 export function StatusHud({ expert }: { expert: boolean }) {
   const real = useProgress();
   const ready = real !== null;
@@ -15,6 +15,8 @@ export function StatusHud({ expert }: { expert: boolean }) {
   const accent = expert ? "text-sage" : "text-gold";
   const bar = expert ? "bg-sage" : "bg-gold";
   const n = (v: number) => (ready ? v.toLocaleString("pt-BR") : "—");
+  const goal = real?.dailyGoal ?? 1;
+  const today = Math.min(real?.sessionsToday ?? 0, goal);
 
   return (
     <div className="sticky top-16 z-20 border-b border-border/60 bg-background/85 backdrop-blur-xl">
@@ -46,6 +48,13 @@ export function StatusHud({ expert }: { expert: boolean }) {
         <Divider />
 
         <HudStat
+          to="/academy"
+          icon={Target}
+          label="Meta hoje"
+          value={ready ? `${today}/${goal}${real?.goalMet ? " ✓" : ""}` : "—"}
+          accent={accent}
+        />
+        <HudStat
           to="/marketplace"
           icon={Coins}
           label="Créditos"
@@ -60,7 +69,7 @@ export function StatusHud({ expert }: { expert: boolean }) {
           accent={accent}
         />
         <HudStat
-          to="/caso-do-dia"
+          to="/academy"
           icon={Flame}
           label="Sequência"
           value={ready ? `${real?.streak ?? 0} dias` : "—"}

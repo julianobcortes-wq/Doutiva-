@@ -20,12 +20,15 @@ import { QuickReferenceCard } from "@/components/quick-reference-card";
 import { LessonTutor } from "@/components/lesson-tutor";
 import { gradeLessonCase } from "@/lib/daily-case.functions";
 import { getLessonMonograph } from "@/lib/courses.functions";
+import { awardSessionBeat, type BeatAwardResult, type SessionBeat } from "@/lib/progress.functions";
 import { toPublicClinicalCase, type CaseGradeResult, type PublicClinicalCase } from "@/lib/clinical-case-public";
 import type { RichLesson } from "@/content/lesson-types";
 import { nextReview, addDays } from "@/lib/review";
 import { supabase } from "@/integrations/supabase/client";
+import { refreshProgress, useProgress } from "@/lib/use-progress";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
+import { Link } from "@tanstack/react-router";
 
 type Ref = { citation: string; url?: string };
 
@@ -99,9 +102,14 @@ export function LessonPlayer({
   const [deepRefs, setDeepRefs] = useState<Ref[]>(refs);
   const [deepGuide, setDeepGuide] = useState(rich.quickRef || "");
   const [deepLoading, setDeepLoading] = useState(false);
+  const [reviewDueDays, setReviewDueDays] = useState<number | null>(null);
+  const [sessionResult, setSessionResult] = useState<BeatAwardResult | null>(null);
+  const [awardedBeats, setAwardedBeats] = useState<Set<SessionBeat>>(() => new Set());
 
+  const progress = useProgress();
   const gradeFn = useServerFn(gradeLessonCase);
   const monoFn = useServerFn(getLessonMonograph);
+  const awardFn = useServerFn(awardSessionBeat);
   const publicCase: PublicClinicalCase | null = hasCase ? toPublicClinicalCase(rich.clinicalCase) : null;
 
   // Reset session only when the lesson changes — never on parent re-renders.
@@ -117,8 +125,32 @@ export function LessonPlayer({
     setDeepMono("");
     setDeepRefs(refs);
     setDeepGuide(rich.quickRef || "");
+    setReviewDueDays(null);
+    setSessionResult(null);
+    setAwardedBeats(new Set());
     // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional: lessonId is the session key
   }, [lessonId]);
+
+  async function awardBeat(beat: SessionBeat, correct?: boolean | null) {
+    if (awardedBeats.has(beat)) return null;
+    try {
+      const r = await awardFn({ data: { lessonId, beat, correct: correct ?? null } });
+      if (r.awarded) {
+        setAwardedBeats((s) => new Set(s).add(beat));
+        setSessionXp((x) => x + r.xp);
+        toast.success(`+${r.xp} XP · ${beatLabel(beat)}`, { duration: 1800 });
+        refreshProgress();
+      } else {
+        setAwardedBeats((s) => new Set(s).add(beat));
+      }
+      if (beat === "session") setSessionResult(r);
+      if (beat === "case" && r.review_due_days != null) setReviewDueDays(r.review_due_days);
+      return r;
+    } catch (e) {
+      console.error("award beat", e);
+      return null;
+    }
+  }
 
   useEffect(() => {
     window.scrollTo({ top: Math.max(0, (document.getElementById("lesson-player-anchor")?.offsetTop ?? 0) - 80), behavior: "smooth" });
@@ -172,28 +204,29 @@ export function LessonPlayer({
     setPhaseIdx((i) => Math.min(phases.length - 1, i + 1));
   }
 
-  function continueFromSlide() {
+  async function continueFromSlide() {
     if (slideIdx < totalSlides - 1) {
       setEnterKey((k) => k + 1);
       setSlideIdx((i) => i + 1);
       return;
     }
+    await awardBeat("slides");
     bumpPhase();
   }
 
-  function continueFromKeys() {
+  async function continueFromKeys() {
     if (revealedKeys.size < (keyPoints?.length ?? 0)) {
-      // Reveal all remaining as a soft nudge, then allow continue next click
       setRevealedKeys(new Set((keyPoints ?? []).map((_, i) => i)));
       return;
     }
+    await awardBeat("keys");
     bumpPhase();
   }
 
   async function enqueueReview(correct: boolean) {
     try {
       const { data: u } = await supabase.auth.getUser();
-      if (!u.user) return;
+      if (!u.user) return null;
       const { data: existing } = await supabase
         .from("review_cards")
         .select("ease, interval_days, reps, lapses")
@@ -215,8 +248,10 @@ export function LessonPlayer({
         },
         { onConflict: "user_id,case_key" },
       );
+      return n.interval_days;
     } catch (e) {
       console.error("review enqueue", e);
+      return correct ? 1 : 1;
     }
   }
 
@@ -226,16 +261,31 @@ export function LessonPlayer({
     try {
       const g = await gradeFn({ data: { lessonId, option } });
       setGrade(g);
-      setSessionXp((x) => x + (g.correct ? g.reward || 40 : 10));
-      await enqueueReview(g.correct);
-      if (g.correct) toast.success(`Conduta correta · +${g.reward || 40} XP de prática`);
-      else toast.message("Revise o raciocínio — o cartão volta na revisão espaçada");
+      const due = await enqueueReview(g.correct);
+      setReviewDueDays(due);
+      const award = await awardBeat("case", g.correct);
+      const days = award?.review_due_days ?? due ?? (g.correct ? 1 : 1);
+      if (g.correct) {
+        toast.success(`Conduta correta · volta em ${days} dia${days === 1 ? "" : "s"}`);
+      } else {
+        toast.message(`Revise o raciocínio · cartão volta amanhã`);
+      }
     } catch (e) {
       toast.error(e instanceof Error ? e.message : "Falha ao corrigir o caso");
     } finally {
       setGrading(false);
     }
   }
+
+  async function continueAfterCase() {
+    bumpPhase();
+  }
+
+  // Session beat (streak + daily goal) fires once when the celebration screen opens.
+  useEffect(() => {
+    if (phase === "done") void awardBeat("session");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
 
   function finishSession() {
     if (enrolled && !alreadyDone) onComplete();
@@ -335,7 +385,7 @@ export function LessonPlayer({
       : phase === "keys"
         ? continueFromKeys
         : phase === "case" && grade
-          ? bumpPhase
+          ? () => void continueAfterCase()
           : null;
 
   return (
@@ -348,16 +398,16 @@ export function LessonPlayer({
             <div className="mt-1 text-sm font-light text-muted-foreground">{stepLabel}</div>
           </div>
           <div className="flex flex-wrap items-center gap-3">
+            <DailyGoalPill
+              sessions={progress?.sessionsToday ?? 0}
+              goal={progress?.dailyGoal ?? 1}
+              met={!!progress?.goalMet}
+              streak={progress?.streak ?? 0}
+            />
             {sessionXp > 0 && (
               <span className="inline-flex items-center gap-1 text-[10px] uppercase tracking-[0.2em] text-gold animate-in zoom-in-50 duration-300">
-                <Sparkles className="h-3.5 w-3.5" /> +{sessionXp} prática
+                <Sparkles className="h-3.5 w-3.5" /> +{sessionXp} XP
               </span>
-            )}
-            {evidenceLevel && (
-              <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{evidenceLevel}</span>
-            )}
-            {durationMinutes != null && (
-              <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">{durationMinutes} min</span>
             )}
             {canDeepen && (
               <Button
@@ -439,9 +489,17 @@ export function LessonPlayer({
               onAnswer={onCaseAnswer}
             />
             {grade && (
-              <p className="text-xs text-muted-foreground animate-in fade-in duration-300">
-                Cartão agendado na <span className="text-foreground">Revisão espaçada</span>.
-              </p>
+              <div className="rounded-sm border border-gold/30 bg-gold/5 p-4 animate-in fade-in duration-300">
+                <div className="text-[10px] uppercase tracking-[0.25em] text-gold">Revisão espaçada</div>
+                <p className="mt-2 text-sm font-light">
+                  {grade.correct
+                    ? `Conduta correta — este caso volta em ${reviewDueDays ?? 1} dia${(reviewDueDays ?? 1) === 1 ? "" : "s"}.`
+                    : "Errou com propósito — o cartão volta amanhã na Revisão."}
+                </p>
+                <Link to="/revisao" className="mt-2 inline-block text-[10px] uppercase tracking-[0.2em] text-muted-foreground hover:text-gold">
+                  Abrir fila de revisão →
+                </Link>
+              </div>
             )}
           </div>
         )}
@@ -453,14 +511,26 @@ export function LessonPlayer({
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full border border-gold/40 bg-gold/10">
                 <Flame className="h-6 w-6 text-gold" />
               </div>
-              <h3 className="mt-5 text-3xl font-extralight">Sessão concluída</h3>
+              <h3 className="mt-5 text-3xl font-extralight">
+                {(sessionResult?.goal_met ?? progress?.goalMet) ? "Meta diária cumprida" : "Sessão concluída"}
+              </h3>
               <p className="mx-auto mt-3 max-w-md text-sm font-light text-muted-foreground">
-                Você percorreu lâminas{hasKeys ? ", pontos-chave" : ""}
-                {hasCase ? " e o caso clínico" : ""}. Registre o progresso e continue o ritmo.
+                Loop fechado: lâminas{hasKeys ? " → chaves" : ""}
+                {hasCase ? " → caso" : ""}. Volte amanhã para manter a sequência.
               </p>
-              {sessionXp > 0 && (
-                <p className="mt-4 text-[10px] uppercase tracking-[0.25em] text-gold">Prática desta sessão · +{sessionXp}</p>
-              )}
+
+              <div className="mx-auto mt-6 grid max-w-md grid-cols-3 gap-2">
+                <CelebrateStat label="XP da sessão" value={`+${sessionXp}`} />
+                <CelebrateStat
+                  label="Sequência"
+                  value={`${sessionResult?.streak ?? progress?.streak ?? 0}d`}
+                />
+                <CelebrateStat
+                  label="Hoje"
+                  value={`${sessionResult?.sessions_today ?? progress?.sessionsToday ?? 0}/${sessionResult?.daily_goal ?? progress?.dailyGoal ?? 1}`}
+                />
+              </div>
+
               <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
                 {enrolled && (
                   <Button
@@ -468,7 +538,7 @@ export function LessonPlayer({
                     disabled={alreadyDone}
                     className="h-11 rounded-sm bg-gold px-6 text-primary-foreground hover:bg-gold-soft disabled:opacity-60"
                   >
-                    {alreadyDone ? "Já concluída ✓" : "Marcar concluída · +30 XP"}
+                    {alreadyDone ? "Já no progresso ✓" : "Registrar aula · +30 XP"}
                   </Button>
                 )}
                 {canDeepen && (
@@ -561,5 +631,53 @@ function DeepTab({ active, icon, label }: { active: boolean; icon: ReactNode; la
       {icon}
       {label}
     </span>
+  );
+}
+
+function beatLabel(beat: SessionBeat) {
+  switch (beat) {
+    case "slides":
+      return "Lâminas";
+    case "keys":
+      return "Pontos-chave";
+    case "case":
+      return "Caso";
+    case "session":
+      return "Sessão";
+  }
+}
+
+function DailyGoalPill({
+  sessions,
+  goal,
+  met,
+  streak,
+}: {
+  sessions: number;
+  goal: number;
+  met: boolean;
+  streak: number;
+}) {
+  return (
+    <span
+      className={cn(
+        "inline-flex items-center gap-2 rounded-sm border px-2.5 py-1 text-[10px] uppercase tracking-[0.18em]",
+        met ? "border-gold/50 bg-gold/10 text-gold" : "border-border/60 text-muted-foreground",
+      )}
+    >
+      <Flame className="h-3 w-3" />
+      Hoje {Math.min(sessions, goal)}/{goal}
+      <span className="opacity-50">·</span>
+      {streak}d
+    </span>
+  );
+}
+
+function CelebrateStat({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-sm border border-border/50 bg-background/50 px-3 py-3">
+      <div className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">{label}</div>
+      <div className="mt-1 font-light text-gold">{value}</div>
+    </div>
   );
 }

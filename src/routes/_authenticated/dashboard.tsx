@@ -69,11 +69,20 @@ function DashboardPage() {
             validado no servidor.
           </p>
 
-          <div className="mt-8 grid gap-3 sm:grid-cols-3">
+          <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            <Metric
+              label="Meta de hoje"
+              value={
+                progress
+                  ? `${Math.min(progress.sessionsToday, progress.dailyGoal)}/${progress.dailyGoal}`
+                  : "—"
+              }
+              hint={progress?.goalMet ? "Sessão cumprida ✓" : "1 sessão guiada"}
+            />
             <Metric
               label="XP clínico"
               value={progress ? String(progress.xp) : "—"}
-              hint="Aulas e Caso do Dia"
+              hint="Beats + aulas + Caso do Dia"
             />
             <Metric
               label="Créditos"
@@ -83,14 +92,14 @@ function DashboardPage() {
             <Metric
               label="Sequência"
               value={progress ? `${progress.streak} dias` : "—"}
-              hint="Resposta diária"
+              hint="Sessão guiada no dia"
             />
           </div>
         </div>
 
         <div className="grid gap-px bg-border/50 md:grid-cols-2">
           <Link
-            to="/caso-do-dia"
+            to="/academy"
             className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
           >
             <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
@@ -98,11 +107,15 @@ function DashboardPage() {
             </span>
             <div className="flex-1">
               <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">Caso do Dia</h2>
+                <h2 className="font-serif text-xl">
+                  {progress?.goalMet ? "Meta cumprida — continue" : "Sessão de hoje"}
+                </h2>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Conduta em 3 minutos. Correção no servidor, XP e sequência reais.
+                {progress?.goalMet
+                  ? "Você já fechou 1 sessão guiada. Faça outra para acelerar XP."
+                  : "Abra um curso, complete lâminas → chaves → caso. Mantém a sequência."}
               </p>
             </div>
           </Link>

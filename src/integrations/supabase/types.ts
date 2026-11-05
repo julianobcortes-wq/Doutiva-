@@ -852,6 +852,33 @@ export type Database = {
         }
         Relationships: []
       }
+      session_beat_awards: {
+        Row: {
+          user_id: string
+          lesson_id: string
+          beat: string
+          xp: number
+          meta: Json
+          created_at: string
+        }
+        Insert: {
+          user_id: string
+          lesson_id: string
+          beat: string
+          xp?: number
+          meta?: Json
+          created_at?: string
+        }
+        Update: {
+          user_id?: string
+          lesson_id?: string
+          beat?: string
+          xp?: number
+          meta?: Json
+          created_at?: string
+        }
+        Relationships: []
+      }
       review_cards: {
         Row: {
           case_key: string
@@ -1087,6 +1114,11 @@ export type Database = {
         Returns: Json
       }
       award_lesson: { Args: { _lesson_id: string }; Returns: Json }
+      award_session_beat: {
+        Args: { _lesson_id: string; _beat: string; _correct?: boolean | null }
+        Returns: Json
+      }
+      get_daily_session_goal: { Args: never; Returns: Json }
       claim_first_admin: { Args: never; Returns: boolean }
       get_leaderboard: {
         Args: never
