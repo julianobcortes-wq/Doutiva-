@@ -1,0 +1,302 @@
+{
+  "position": 12,
+  "module": "Módulo 7 · Composição corporal e populações especiais",
+  "module_position": 7,
+  "title": "Sarcopenia iatrogênica sob incretina: DEXA, proteína, treino de força, plateaus e comunicação sobre massa magra",
+  "description": "Revisão aprofundada sobre sarcopenia iatrogênica associada ao uso de agonistas de incretinas para manejo de obesidade e diabetes tipo 2, abordando fisiopatologia, evidências clínicas (DEXA), protocolos de ingestão proteica, treino resistido, monitoramento laboratorial e aspectos regulatórios no Brasil.",
+  "duration_minutes": 75,
+  "evidence_level": "B",
+  "key_points": [
+    "Perda ponderal induzida por agonistas de incretinas inclui perda de massa magra correspondendo a 20-25% do peso perdido sem intervenções específicas.",
+    "Ingestão proteica adequada (≥1,2–1,5g/kg/dia) e treino resistido supervisionado reduzem a perda de massa magra para menos de 15%.",
+    "DEXA deve ser realizada antes do início do tratamento, ao atingir 5-7% de perda de peso e a cada 3-6 meses para monitorar composição corporal, especialmente em populações vulneráveis.",
+    "O fenômeno “Ozempic face” e platôs de perda de peso alertam para catabolismo funcional e necessidade de revisão da estratégia terapêutica.",
+    "Nunca prescrever peptídeos manipulados ou research-use-only fora de protocolos clínicos aprovados; cumprir legislação ANVISA, CFM e WADA."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Sarcopenia iatrogênica sob incretina: diagnóstico, proteção e diretrizes práticas",
+      "subtitle": "Composição corporal, treino de força e comunicação clínica no manejo com GLP-1RA e agonistas dual/triplos."
+    },
+    {
+      "bars": [
+        {
+          "label": "STEP 1 Semaglutida 2,4 mg: ~20-30% massa magra do peso perdido",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "REDEFINE 1 (Semaglutida + Cagrilintida): ~25% massa magra",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Retatrutide (fase 2): ~20-25% massa magra",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Survodutide (fase 2): estimado ~20-25% massa magra",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Proporção da massa magra perdida na perda ponderal com agonistas de incretinas",
+      "source": "S16, S17, S18, S25"
+    },
+    {
+      "head": [
+        "Semana",
+        "Dose semaglutida (mg)",
+        "Proteína alvo (g/kg/dia)",
+        "Treino resistido (frequência/tempo)",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "0",
+          "0,25",
+          "≥1,2",
+          "2x/semana, 30 min, 10 exercícios",
+          "DEXA basal, função"
+        ],
+        [
+          "4",
+          "0,5",
+          "≥1,3",
+          "3x/semana, progressão de carga",
+          "Perímetros, exames básicos"
+        ],
+        [
+          "8",
+          "1,0",
+          "1,3-1,5",
+          "Treino progressivo com supervisão",
+          "Função, albumina, creatinina"
+        ],
+        [
+          "12",
+          "1,7",
+          "1,5",
+          "Supervisionado, carga adaptada",
+          "DEXA se perda >7-10% peso"
+        ],
+        [
+          "16+",
+          "2,4",
+          "1,5-2,0",
+          "Treino contínuo, aumento progressivo",
+          "DEXA 3-6 meses, avaliação funcional"
+        ]
+      ],
+      "title": "Algoritmo prático de doses, ingestão proteica e treino resistido",
+      "source": "Monografia"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliar composição corporal basal (DEXA)"
+        },
+        {
+          "label": "Orientar ingestão proteica ≥1,2g/kg/dia"
+        },
+        {
+          "label": "Prescrever treino resistido supervisionado ≥ 2x/semana"
+        },
+        {
+          "label": "Monitorar clínica e função (força de preensão, quedas)"
+        },
+        {
+          "label": "Solicitar DEXA a cada 3-6 meses ou se perda pesar >7%"
+        },
+        {
+          "label": "Se perda excessiva de massa magra: reforçar suplemento protéico e treino"
+        },
+        {
+          "label": "Considerar ajuste ou suspensão do fármaco"
+        },
+        {
+          "label": "Registrar consentimento e discutir riscos-benefícios"
+        }
+      ],
+      "title": "Fluxograma de conduta para preservação da massa magra durante tratamento com agonistas de incretinas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Evaluar percentuais de massa magra e gordura",
+          "Peso corporal: redução total é esperada",
+          "Perda magra >20-25% do peso perdido indica sarcopenia",
+          "Avaliar risco de funcionalidade e complicações",
+          "Integrar dados clínicos e laboratoriais"
+        ],
+        "label": "Avaliação DEXA"
+      },
+      "right": {
+        "items": [
+          "Considerar aporte protéico e treino resistido",
+          "Reforçar engajamento multidisciplinar",
+          "Rever metas terapêuticas e medicamentosas",
+          "Monitorar função renals/osteometabólica",
+          "Planejar seguimento com frequência adequada"
+        ],
+        "label": "Conduta Clínica"
+      },
+      "title": "DEXA basal versus pós-tratamento: interpretação clínica da composição corporal"
+    },
+    {
+      "head": [
+        "Sinais Clínicos",
+        "Achados Laboratoriais",
+        "Achados Imagem e Função",
+        "Medidas Indicadas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Fraqueza progressiva e quedas",
+          "Albumina <3,5 g/dL",
+          "Perda >20% massa magra no DEXA",
+          "Aumentar proteína, treino resistido"
+        ],
+        [
+          "‘Ozempic face’ e perda facial progressiva",
+          "Elevado creatinina e ureia",
+          "Perda óssea associada (DEXA)",
+          "Avaliar risco fratura, suplemento vitamina D"
+        ],
+        [
+          "Platô de perda de peso com deterioração funcional",
+          "Evolução negativa de função renal",
+          "Diminuição força preensão",
+          "Revisar dieta e medicações"
+        ],
+        [
+          "Ingestão proteica <0,8 g/kg/dia",
+          "Anemia, baixa albumina",
+          "Limitação muscular à mobilidade",
+          "Interferir com suporte nutricional imediato"
+        ]
+      ],
+      "title": "Red flags para sarcopenia iatrogênica e complicações associadas",
+      "source": "Monografia"
+    },
+    {
+      "kind": "bullets",
+      "title": "Aspectos regulatórios e éticos no uso de peptídeos para obesidade e sarcopenia",
+      "bullets": [
+        "Semaglutida e liraglutida têm registro ANVISA para obesidade, tirzepatida para DM2. Uso off-label para obesidade deve ser criteriosamente documentado.",
+        "Cagrilintida, retatrutide e survodutide não possuem registro ANVISA para uso clínico – restritos a protocolos clínicos aprovados.",
+        "Manipulação e prescrição fora de protocolo clínico configuram infração ética e legal segundo CFM Resolução 2.333/2023 e legislações vigentes.",
+        "WADA proíbe o uso desses peptídeos em atletas para performance – risco de sanções legais e desportivas.",
+        "Consentimento informado, monitoramento rigoroso e documentação detalhada são mandatório para prescrição ética."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "\"Sem proteína adequada e treino resistido supervisionado, não existe emagrecimento de qualidade — preservar massa magra é essencial para segurança e funcionalidade do paciente.\"",
+      "title": "Pérola final"
+    }
+  ],
+  "monograph": "# Sarcopenia Iatrogênica sob Incretina: DEXA, Proteína, Treino de Força, Plateaus e Comunicação sobre Massa Magra\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nO manejo da obesidade com agonistas de incretinas, notadamente GLP-1RAs (semaglutida, tirzepatida, entre outros), representou avanço paradigmático nas terapias farmacológicas voltadas à perda de peso e à melhora metabólica em pacientes com obesidade e diabetes tipo 2. Tais fármacos, porém, levantam preocupações crescentes acerca de repercussões sobre a composição corporal, sobretudo a preservação da massa magra (lean body mass, LBM) frente à perda ponderal significativa e rápida [S1, S3, S16, S17, S19, S25].\n\nA denominação “sarcopenia iatrogênica” refere-se à perda excessiva de tecido muscular esquelético (quantificável por DEXA ou métodos equivalentes) secundária ao tratamento, potencialmente acarretando fragilidade funcional, risco de quedas, deterioração metabólica e piora da qualidade de vida.\n\n- **Prevalência**: Dados de ECRs recentes de agonistas de incretina em obesidade reportam perdas de 20%-25% da LBM do peso eliminado, ao passo que a perda de massa gorda permanece dominante [S16, S25], mas raramente ausente.\n- **Populações em risco**: Idosos, mulheres pós-menopáusicas, indivíduos com baixa atividade física, portadores de osteopenia/osteoporose, portadores de doenças crônicas e pacientes em uso prolongado de glicocorticoides ou outras terapias catabólicas [S6, S9, S15].\n- **Implicações clínicas**: A perda desproporcional de massa magra pode resultar em “Ozempic face”, sarcopenia clínica, platôs de emagrecimento, piora funcional e risco de eventos adversos, como quedas e fraturas.\n\nA integração de peptídeos em estratégias de modulação favorável da composição corporal (preservação de LBM) demanda compreensão fisiopatológica, monitoramento preciso (DEXA), otimização nutricional (proteína), treinamento resistido supervisionado e comunicação eficaz sobre riscos-benefícios.\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1. Incretinas e Eixos Metabólicos\n\n- **GLP-1RA (agonistas do receptor de GLP-1, ex. semaglutida, tirzepatida)**: promovem saciedade, retardam o esvaziamento gástrico, potencializam ação insulínica, reduzem ingestão calórica e peso corporal [S16, S25].\n- **Ação sobre composição corporal**: ao promover balanço energético negativo, parte da perda de peso ocorre às custas de massa magra – indo de 20% a 40% do total perdido, dependendo de contexto fisiológico, estímulo muscular, ingestão proteica, idade e baseline do paciente [S16, S25].\n- **Outros peptídeos** (dual/triplo agonistas: retatrutide, survodutide): potencializam efeitos catabólicos, envolvendo também eixo do glucagon e GIP, alterando metabolismo de carboidratos, lipídios e proteínas [S17, S19, S22, S25].\n\n### 2.2. Mecanismo da Sarcopenia Iatrogênica\n\n- **Supressão do apetite/dispepsias**: Redução da ingestão energética e proteica, especialmente em platôs ou escalonamento de doses, limita substrato anabólico para manutenção proteica muscular.\n- **Desbalanço anabólico-catabólico**: Em contexto sem estímulo resistido, a sinalização mTORC1 e outras vias anabólicas tendem a ser inibidas, enquanto sinalização ubiquitina-proteassoma pode predominar.\n- **Suppression of GH/IGF-1 axis**: Em alguns contextos, perda calórica pronuncia inibição desse eixo anabólico, especialmente em idosos e pacientes crônicos [evidência C; extrapolação fisiológica].\n- **Disuse atrophy**: Redução da mobilidade ou da força física, comum em obesos em franca perda ponderal/drástica.\n\n### 2.3. Órgãos-Alvo e Vias Celulares\n\n- **Músculo esquelético**: Catabolismo proteico mediado por maior ubiquitinação de proteínas miofibrilares, acentuado em períodos de balanço nitrogenado negativo.\n- **Adipócito**: Lise lipídica preferencial ocorre, mas restrição energética não previne degradação muscular paralela sem contra-regulação.\n- **Ossos**: Risco de redução de densidade mineral óssea por sinergismo entre sarcopenia e fatores hormonais, especialmente em idosos [S6, S7, S13].\n\n---\n\n## 3. Farmacologia Comparada (PK/PD, Engenharia Molecular)\n\n### 3.1. Farmacocinética\n\n| Fármaco             | T1/2 (h) | Pico (h) | Via admin | Dose padrão         | Tempo púlsatil (residual/sus) | Reg. ANVISA |\n|---------------------|----------|----------|-----------|----------------------|-------------------------------|--------------|\n| Semaglutida         | 165      | 24-36    | SC/VO     | 2,4 mg/sem           | 1x/sem, ação prolongada       | Sim (obesid./DM2) |\n| Tirzepatida         | 116      | 24-48    | SC        | 10-15 mg/sem         | 1x/sem                        | Sim (DM2)        |\n| Cagrilintida        | 160-195  | 24-72    | SC        | 2,4 mg/sem           | 1x/sem                        | Não            |\n| Retatrutida         | ~150     | 12-36    | SC        | 6–12 mg/sem (trial)  | 1x/sem                        | Não            |\n| Survodutide         | ~150     | 12-36    | SC        | 2,4–4,8 mg/sem       | 1x/sem                        | Não            |\n\n- **PK/PD avançadas**: Formulações injetáveis SC, longa meia-vida, pequeno volume de distribuição, pouca penetração SNC exceto para sinalização central de saciedade. Não há acúmulo em tecidos magros.\n- **Interação entre agonistas**: Combinação de GLP-1RA + amilina (CagriSema) apresenta sinergia para perda de peso, sem sinergismo deletério documentado sobre LBM além da restrição [S16, S20, S21].\n\n### 3.2. Engenharia Molecular e Seleção Farmacológica\n\n- **GLP-1RAs**: Estruturalmente modificados para resistir dipeptidil peptidase, maior afinidade e meia-vida, dosagens semanais. Exemplo: semaglutida.\n- **Duais/Triplos agonistas**: Engenhados via alterações de resíduos aminoacídicos para atividade combinada sobre GIP, GLP-1, e glucagon (ex.: retatrutide, survodutide), potencializando perda ponderal, mas com potencial risco aumentado de perda de massa magra pela magnitude do balanço energético negativo [S17, S19, S25].\n- **Amilina e análogos**: Amilina nativa não disponível no Brasil; cagrilintida sob pesquisa, off-label manipulado sem registro ANVISA autorizado para weight loss.\n\n---\n\n## 4. Evidência Crítica: Ensaios Clínicos, Composição Corporal, LBM\n\n### 4.1. Ensaios de Fase 2/3 – Dados Críticos sobre Massa Magra\n\nSegue tabela comparativa com os dados mais relevantes para perda ponderal absoluta, proporção de massa magra perdida e efeito potencial mitigador do exercício/treinamento concomitante:\n\n**Tabela 1. Alterações de Peso e LBM em Ensaios Recentes com Incretinas**\n\n| Estudo         | População             | Droga(s)        | n   | Duração/Max dose | ∆ Peso (%) | ∆ LBM (%) / fat-free (%) | Proporção LBM perdida* | Exercício Acompanhado | Evidência |\n|----------------|----------------------|-----------------|-----|------------------|------------|----------------------|------------------------|----------------------|-----------|\n| REDEFINE 1 [S16] | Obesos, sem DM      | Semaglutida + Cagrilintida | 3417 | 68 sem. | -20,4% (CagriSema)   | -21% do peso magro (DEXA)  | ~25%† | Não padronizado       | A (fase 3) |\n| Retatrutide [S25]| Obesos, sem DM      | Retatrutide     | 338 | 48 sem. /12 mg   | -24,2%     | -20% LBM estimado      | ~20-25%      | Não padronizado       | A (fase 2) |\n| Survodutide [S17]| Obesos, sem DM      | Survodutide     | 386 | 46 sem. /4,8 mg  | -14,9%     | NS**                   | ~20-25%      | Não padronizado       | A (fase 2) |\n| STEP 1–4††     | Obesos/DM2           | Semaglutida     | >1500 | 68 sem. /2,4 mg  | -15%       | -20% LBM†              | ~20%         | Não padronizado       | A (fase 3) |\n| Cagrilintida [S18] | Obesos, sem DM    | Cagrilintida    | 706 | 26 sem. /4,5 mg  | -10,8%     | NS                     | NS           | Não padronizado       | A (fase 2) |\n\n\\* Proporção LBM perdida = % do peso total perdido correspondente à LBM (mass magra), derivada de subgrupos com DEXA; NS = não especificado; DEXA: Dual Energy X-Ray Absorptiometry.\n\n† Maior parte dos ECRs reporta 20–25% do peso perdido sendo LBM, cf. STEP 1–3, REDEFINE 1, Retatrutide.\n\n†† No STEP 1 subestudo DEXA (2019-2022), semaglutida 2,4mg: perda média de 8,4 kg, dos quais 6,0 kg (72%) de gordura total e 2,4 kg (28%) de LBM – o que corresponde a cerca de 20-30% do peso perdido [verificar].\n\n**Pontos-chave dos dados:**\n- Exercício resistido supervisionado reduz percentual de LBM perdido para 10–15%, mas é raramente padronizado em ECRs.\n- Adesão a ingestão proteica adequada (≥1,2–1,5g/kg) é preditor principal de preservação de LBM.\n- Em idosos, perda proporcionalmente maior de massa magra, mesmo para mesma perda total de peso.\n\n### 4.2. Limitações e Estimands\n\n- **Estimand**: Dados de composição corporal derivados especialmente de subgrupos (DEXA), com limitações por amostra e observacionalidade dos registros de atividade física em ECRs.\n- **Limitações**: Poucos ECRs parametrizam protocolos de exercício supervisionado ou monitoramento dietético rigoroso; interações medicamentosas e de suplementação frequentemente subnotificadas.\n- **Magnitude do problema**: A “sarcopenia iatrogênica” pode ser inadvertida clinicamente, detectando-se apenas com DEXA serial ou análise funcional (força de preensão, testes funcionais padronizados), raramente só pelo IMC.\n\n### 4.3. Impacto dos Plateaus e Efeito “Ozempic Face”\n\n- **Plateaus de Perda de Peso**: Muitos pacientes experimentam estabilização do peso em 6–9 meses; nesse ponto, risco de perda adicional de LBM aumenta se intervenção dietético-treinamental reforçado não for adotada.\n- **‘Ozempic face’**: Termo leigo para lipoatrofia facial, parte disto corresponde à perda de tecido subcutâneo (LBM e gordura), potencialmente agravada por déficit proteico e falta de estímulo muscular localizado.\n\n---\n\n## 5. Indicações, Contraindicações e Seleção de Pacientes (Fenótipos)\n\n### 5.1. Indicações Formais (ANVISA)\n\n- **Semaglutida 2,4 mg SC (Wegovy/Ozempic)**: Obesidade (IMC ≥30 kg/m²) ou sobrepeso (IMC ≥27 kg/m² + comorbidades), incluindo DM2, dislipidemia, apneia do sono.\n- **Tirzepatida**: DM2; off-label para obesidade, em uso crescente fora do Brasil.\n\n### 5.2. Uso Off-label/Manipulado\n\n- **Cagrilintida, retatrutida, survodutide**: NÃO registrados na ANVISA para nenhuma indicação; uso restrito a estudos clínicos. Proibido para fins esportivos pela WADA e pelo CFM (Res. 2.333/2023).\n- **Peptídeos manipulados/“research-use-only”**: Orientação expressa para NÃO utilizar fora de ensaios clínicos ou contextos de pesquisa aprovada [S1, S26, S27].\n\n### 5.3. Contraindicações Absolutas e Relativas\n\n| Categoria             | Contraindicação Absoluta  | Contraindicação Relativa     |\n|-----------------------|--------------------------|-----------------------------|\n| Idade                 | <18 anos (exceto ensaios)| >75 anos: risco funcional   |\n| Composição corporal   | Sarcopenia, caquexia, DMD| Funcao motora limítrofe     |\n| Nutrição              | Anorexia, bulimia        | Ingestão proteica cronicamente <0,8g/kg  |\n| Situações clínicas    | Gastroparesia grave      | Nefropatia, hepatopatia, IC (ajuste!) |\n| Situações ósseas      | Osteoporose sem manejo   | Osteopenia, risco de quedas |\n\n### 5.4. Fenótipos Críticos para Seleção\n\n- **Maior risco de sarcopenia iatrogênica**: Idosos ≥65 anos; IMC <27 pós-perda; reduzida atividade (sedentarismo/acamados); portadores de doenças osteometabólicas; histórico de perda ponderal rápida (>10% em 6 meses).\n\n---\n\n## 6. Conduta Prática Passo a Passo\n\n### 6.1. Prescrição Estruturada\n\n#### A. Antes da Iniciação\n\n1. Avaliação diagnóstica: IMC, perímetros, DEXA basal, função renal/hepática, força de preensão.\n2. Estratificação nutricional: calcular ingestão proteica basal, orientar suplementação.\n3. Educação: Riscos e necessidade de exercício resistido, acompanhamento multidisciplinar.\n4. Consentimento informado: Incluir risco de perda de massa magra; registro formal no prontuário.\n\n#### B. Escalonamento de Doses e Manutenção\n\n**Tabela 2 – Algoritmo Clínico de Preservação de Massa Magra sob Incretina**\n\n| Semana | Dose Semaglutida (mg) | Ingestão de Proteína Alvo (g/kg/dia) | Frequência Treino Resistido | Exame/Monitoramento |\n|--------|-----------------------|--------------------------------------|----------------------------|---------------------|\n| 0      | 0,25                  | ≥1,2                                 | 2x/semana, 10 exercícios   | DEXA basal          |\n| 4      | 0,5                   | ≥1,3                                 | Progressão para 3x/sem     | Perímetro, PA, enzimas hepáticas |\n| 8      | 1,0                   | 1,3–1,5                              | Progressão de carga        | Ferritina, função renal |\n| 12     | 1,7                   | 1,5                                  | Treinamento supervisionado | DEXA se >7-10% de perda peso |\n| 16+    | 2,4                   | 1,5–2,0 (ajuste conforme resposta)   | Carga progressiva          | DEXA 3/6/12 m, força, função |\n\n**Destaques Práticos:**\n- Proteína: 1,2–1,5 g/kg/dia (ideal≥1,6 g/kg/dia em idosos e vulneráveis), fracionada em ≥3 refeições.\n- Treino resistido supervisionado: Mínimo 2 sessões/semana, preferencialmente 3, com carga progressiva adaptada (médico pode referenciar para Fisioterapia ou Ed Física).\n- Suplementação: Considerar whey/caseína isolada se ingestão insuficiente; vitamina D obrigatória para grupos de risco ósteomuscular [S13].\n- Inclua monitoramento de sinais de perda funcional: quedas, fraqueza, redução de mobilidade.\n\n#### C. Manejo de Efeitos Adversos\n\n| Efeito Adverso                | Conduta                                 |\n|-------------------------------|-----------------------------------------|\n| Náuseas/dispepsia             | Fracionar refeições, aumentar proteína líquida, evitar jejum longo |\n| Constipação                   | Hidratação, ajustar fibra, considerar laxativo suave |\n| Hiporexia enérgica/aversão    | Orientar shake de proteína, avaliar reforço de suplementação pronta   |\n| Platô de peso com magra caindo| Reduzir meta de déficit calórico, ajustar treino resistido |\n| Fracasso farmacológico (LBM)| Reavaliar indicação, considerar reduzir dose ou suspender para recuperação |\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n### 7.1. Composição Corporal\n\n- **DEXA**: Exame referência para LBM, gordura visceral e total. Recomenda-se em:\n    - Basal (preferencialmente);\n    - Ao atingir 5–7% de perda de peso;\n    - A cada 3-6 meses, conforme velocidade da perda e fenótipo.\n- **Bioimpedância**: Útil como triagem, mas tendência a subestimar perda magra durante grandes flutuações hidreletrolíticas.\n\n### 7.2. Marcadores Laboratoriais\n\n| Parâmetro              | Indicação                                     | Frequência               |\n|------------------------|-----------------------------------------------|-------------------------|\n| Uréia/creatinina, eGFR | Risco de catabolismo, função renal            | 3/6 meses               |\n| Hemoglobina/albumina   | Estado nutricional geral                      | 3/6 meses               |\n| CPK, TGO/TGP           | Se sintomas musculares, risco de rabdomiólise | Orientado por sintomas  |\n| 25-OH Vitamina D       | Risco de sarcopenia/osteoporose              | 6/12 meses              |\n| Cálcio, fósforo        | Osteometabólico, monitorar risco de SHPT     | 6/12 meses              |\n\n### 7.3. Avaliação Funcional\n\n- Teste de força de preensão;\n- Timed Up & Go (mobilidade global);\n- Questionários asssistenciais (ex.: SARC-F).\n\n---\n\n## 8. Segurança, Interações e Perioperatório\n\n### 8.1. Perfil de Segurança (Evidência Classe A)\n\n- **GLP-1RA/Tirzepatida**: Prevalência de transtornos gastrointestinais atrasa progressão dietética, mas eventos graves raros.\n- **Iatrogenia muscular**: Deve ser monitorada ativamente; pacientes fraqueza progressiva devem ter reavaliação de pauta, ajuste de dose e suporte nutricional.\n- **Liberação perioperatória**: Considerar interrupção/\"wash-out\" de 1–2 semanas antes de cirurgias eletivas de grande porte devido ao esvaziamento gástrico retardado e risco de náusea pós-operatória.\n\n### 8.2. Interações e Restrição Regulamentar\n\n- **Potencial perda funcional**: Contraindica prescrição para atletas competitivos sem indicação médica reconhecida (ex.: WADA, CFM 2.333/2023: proíbe prescrição para performance).\n- **Com fármacos anti-proteólise**: (ex.: corticosteroides crônicos): alerta redobrado para síndrome de fragilidade.\n- **Imunossupressores/cancer**: Uso contraindicado exceto sob cuidadosa avaliação multidisciplinar e consentimento específico devido à potencial depleção proteica indesejada.\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n- Apenas **GLP-1 RAs (semaglutida, liraglutida, dulaglutida)** têm registro para obesidade (semaglutida 2,4mg/Wegovy; liraglutida 3,0mg/Saxenda) ou DM2.\n- **Cagrilintida, retatrutida, survodutide**: não possuem registro ANVISA; uso em clínicas/manipulação farmacêutica para emagrecimento é ilegal e antiético (CFM Res. 2.333/2023, Res. 1.512/1998 e correlatas), exceto em ensaios clínicos sob CONEP/ética aprovada.\n- **WADA e esportes**: Proíbem uso de agonistas de incretinas, peptídeos análogos de amilina, GH, secretagogos para desempenho.\n- **Consentimento**: Registro detalhado de risks-benefícios, alternativas e plano de proteção de LBM no prontuário (não vender apenas “frasco” ou “fantasia”).\n\n**Resumo prático para prescrição ética:**\n- Documentar indicações ANVISA e rationale individual.\n- Garantir supervisão e monitoramento.\n- Comunicar riscos, inclusive sarcopenia iatrogênica e consequências funcionais.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO Prescrever\n\n- **NÃO prescrever**:\n    - Peptídeos manipulados, research-use-only, de procedência duvidosa.\n    - Cagrilintida, retatrutida, survodutide, análogos de GH, BPC-157, TB-500 fora de protocolos clínicos.\n    - Dietas extremamente hipocalóricas associadas a incretinas sem rígido suporte multidisciplinar.\n- **Fronteira**:\n    - Estudos em andamento sobre uso de agonistas combinados (CagriSema) e triple agonists (retatrutide), com potenciais aplicações para obesidade refratária e doenças metabólicas associadas, mas sem diretriz para uso amplo até segunda ordem (classificação B para LBM).\n    - Pesquisa sobre análogos anabólicos para compensação de perda muscular, mas com grande risco ético e potencial para abuso (off-label hormonais em não hipogonádicos = contraindicado).\n- **Alvos promissores**: integração de plataformas digitais supervisionadas (ex.: Sword Health—NCT07179796) para garantir aderência ao treinamento de força durante emagrecimento, personalização do acompanhamento e mitigação da sarcopenia [S2].\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas\n\n- “A qualidade da perda de peso importa tanto quanto a quantidade.” Documente: composição corporal e função!\n- Exercício resistido supervisionado reduz a perda de massa magra a cerca de 10–15% do peso eliminado, versus 20–30% sem intervenção.\n- Proteína ≥1,2–1,5g/kg/dia é não-negociável para preservar LBM sob incretina.\n- O “plateau” é momento crítico para reforçar estímulos anabólicos e evitar escalada de dose inadvertida.\n- Monitoramento DEXA a cada 3–6 meses permite detecção precoce de catabolismo indesejado.\n- Comunicação clara sobre risco de ‘Ozempic face’ e impacto funcional engaja o paciente e reforça adesão ao manejo multidisciplinar.\n\n### Armadilhas\n\n- Não monitorar composição corporal = risco silencioso de sarcopenia e eventos.\n- Reduzir mobilidade/tolerar hiporexia intensa sem correção proteica = colapso funcional.\n- Uso de peptídeos manipulados/research peptides = infração ética, risco legal e para o paciente.\n- Não envolver nutricionista/fisioterapeuta = limitações práticas e maior índice de perda de magra.\n\n### Checklist 60s — Consulta Rápida\n\n| Item                                       | Checado |\n|---------------------------------------------|---------|\n| 1. DEXA basal/documentação de composição    | ☐       |\n| 2. Proteína prescrita ≥1,2g/kg              | ☐       |\n| 3. Treino resistido orientado/supervisionado| ☐       |\n| 4. Explicado risco de sarcopenia/Ozempic face| ☐      |\n| 5. Consentimento de riscos registrado       | ☐       |\n| 6. Acompanhamento laboratorial definido     | ☐       |\n| 7. Revisão de contraindicações individuaias | ☐       |\n\n---\n\n## 12. Referências\n\n1. [S1, S26, S27] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n2. [S16] Garvey WT, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.. N Engl J Med 2025. DOI 10.1056/nejmoa2502081.\n3. [S17] le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024. DOI 10.1016/s2213-8587(23)00356-x\n4. [S18] Lau DCW, et al. Once-weekly cagrilintide for weight management in people with overweight and obesity. Lancet 2021. DOI 10.1016/s0140-6736(21)01751-7.\n5. [S19] Sanyal AJ, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease. Nat Med 2024. DOI 10.1038/s41591-024-03018-2.\n6. [S20] Enebo LB, et al. Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management. Lancet 2021. DOI 10.1016/s0140-6736(21)00845-x.\n7. [S21] Frias JP, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet 2023. DOI 10.1016/s0140-6736(23)01163-7.\n8. [S22] Rosenstock J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. Lancet 2023. DOI 10.1016/s0140-6736(23)01053-x.\n9. [S23] Wharton S, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023. DOI 10.1056/nejmoa2302392.\n10. [S25] Jastreboff AM, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med 2023. DOI 10.1056/nejmoa2301972.\n11. [S2] Digital Physical Activity Program. Sword Health, SA. ClinicalTrials.gov 2025. https://clinicaltrials.gov/study/NCT07179796\n\n---\n\n### Caso Clínico (Teaching)\n\n**Paciente:** Carlos, 58 anos, masculino, IMC inicial 37 kg/m², DM2 há 8 anos, controle ruim (HbA1c 8,5%), nefropatia estágio 2, DEXA basal: magra absoluta 55 kg; massa gorda, 47 kg. Apresenta-se 7 meses após início de semaglutida 2,4mg/semana + metformina, tendo perdido 21 kg. Refere fraqueza progressiva, queda de performance na caminhada, relatando ingestão proteica <0,8 g/kg/dia, sem rotina fixa de exercício. Novo DEXA: perda de 14 kg de gordura e 7 kg de magra; magra absoluta atual: 48 kg.\n\n**Qual a melhor conduta?**\n\na) Escalonar semaglutida para 3,0mg/semana e orientar dieta VLCD para reiniciar perda\n\nb) Manter dose, iniciar whey proteína até meta de 1,5g/kg, direcionar para fisioterapia resistida, reavaliar composição em 8-12 semanas\n\nc) Acrescentar empagliflozina, manter tudo igual, e repetir DEXA só em 12 meses\n\nd) Suspender a medicação e iniciar secretagogo de GH manipulado\n\n**Comentário:** A resposta correta é **b)**, pois a abordagem prioritária é reforçar ingestão proteica, instituir treinamento resistido formal, manter (não escalonar) a dose da incretina e reavaliar composição corporal em tempo adequado. As opções a), c) e d) piorariam o déficit de massa magra ou aplicariam intervenções sem respaldo em evidência de segurança e eficácia (GH off-label é proibido). Nunca introduza dietas de ultra restrição calórica sem suporte multidisciplinar quando há sarcopenia em curso.\n\n---\n\n## Slides Sintéticos (Sugestão para Aula)\n\n1. **Título:** Sarcopenia iatrogênica sob incretina: diagnóstico, proteção e diretrizes práticas\n2. **Sumário visual — Hierarquia de evidência para peptídeos** [S27]\n3. **Bar chart:** Proporção de massa magra perdida em ECRs (DEXA) – STEP 1, REDEFINE, Retatrutide\n4. **Tabela:** Algoritmo de doses, ingestão proteica alvo e treino resistido semanal\n5. **Algoritmo de conduta:** Fluxograma preservação de magra sob incretina\n6. **Split contraste:** DEXA basal x pós-perda; interpretação clínica\n7. **Tabela red flags:** Quando suspeitar (e prevenir) “Ozempic face” e sarcopenia iatrogênica\n8. **Exercício resistido supervisionado – vantagens na protecção da LBM** (sintetizar STEP 1 subanálises)\n9. **Monitoramento:** Guia de exames e tempos (DEXA, função renal, força, albumina)\n10. **Aspectos regulatórios – o que NÃO prescrever (CFM, ANVISA, WADA)**\n11. **Pérola final:** “Sem proteína e treino não existe emagrecimento de qualidade”\n12. **Resumo visual:** Checklist consultório – 60s\n\n---\n\n## quick_ref: Guia de Bolso\n\n**Tabela doses e monitoramento:**\n| Fármaco             | Dose inicial | Escalona | Manutenção | DEXA | Proteína alvo | Red flags |\n|---------------------|-------------|----------|------------|------|---------------|-----------|\n| Semaglutida (Wegovy)| 0,25 mg     | 4 sem.   | 2,4 mg/sem | Base, 3/6 m      | 1,2–1,5 g/kg | <15% força, >20% magra |\n| Tirzepatida (off)   | 2,5 mg      | 4 sem.   | 10–15 mg   | Base, 3/6 m      | 1,2–1,5 g/kg | Igual acima |\n| Cagrilintida/retatrutida/survodutide | NO BR  | –        | –          | –    | –             | Proibido |\n\n**Red flags:** fraqueza progressiva, queda funcional, proteinúria nova, ingestão <0,8g/kg/dia, platô com perda de magra.\n\n### Checklist consultório 60 segundos\n\n- ☐ DEXA basal\n- ☐ Meta proteína ≥1,2 g/kg\n- ☐ Orientação formal treino resistido\n- ☐ Consentimento riscos/benefícios\n- ☐ Monitoramento funcional\n- ☐ Revisão contraindicações\n\n---\n\n## key_points\n\n1. A perda ponderal induzida por incretinas envolve, invariavelmente, perda de massa magra: cerca de 20–25% do total perdido sem intervenção ativa.\n2. Proteína ≥1,2–1,5g/kg/dia e treino resistido supervisionado reduzem a perda de LBM para patamares seguros (<15% do peso perdido).\n3. Solicite DEXA sempre antes do início, ao atingir 5–7% de perda de peso ou a cada 3–6 meses, especialmente em idosos, mulheres, diabéticos e pacientes de risco.\n4. “Ozempic face” e platôs de peso sinalizam risco de catabolismo funcional: revise plano nessas fases.\n5. Nunca prescreva peptídeos manipulados ou research-use-only fora de pesquisa aprovada; siga a legislação e registre consentimento informado documentando riscos e plano mitigatório de sarcopenia.\n6. Clínico habilidoso monitora, previne e comunica sobre composição corporal – vender emagrecimento de qualidade exige mais ciência e mais ética.\n7. O caminho da medicina de precisão é personalizar o balanço anabólico – não escalar doses ad infinitum.\n\n---",
+  "quick_ref": "# Quick Reference: Sarcopenia Iatrogênica sob Incretina\n\n| Fármaco             | Dose Inicial     | Escalona         | Manutenção       | Monitoramento DEXA | Proteína Alvo (g/kg/dia) | Red Flags               |\n|---------------------|------------------|------------------|------------------|-------------------|--------------------------|-------------------------|\n| Semaglutida (Wegovy)| 0,25 mg SC/sem   | 4 semanas        | 2,4 mg SC/sem    | Basal, 3/6 meses  | 1,2–1,5                  | Fraqueza, perda rápida   |\n| Tirzepatida (off-label)| 2,5 mg SC/sem  | 4 semanas        | 10–15 mg SC/sem  | Basal, 3/6 meses  | 1,2–1,5                  | Igual acima             |\n| Cagrilintida, Retatrutide, Survodutide | Não registrado ANVISA | Não escalonar | -                | -                 | -                        | Proibido uso fora pesquisa |\n\n**Red flags em consulta:** fraqueza progressiva, quedas, ingestão protéica insuficiente, perda >20% de massa magra, platôs com perda funcional.\n\n### Checklist Consulta 60 segundos:\n- ☐ DEXA basal disponível\n- ☐ Meta protéica ≥1,2 g/kg/dia estabelecida\n- ☐ Treino resistido orientado e supervisionado\n- ☐ Consentimento informado documentado\n- ☐ Exames laboratoriais e avaliação funcional agendados\n- ☐ Avaliação de contra-indicações revisada\n",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "58 anos"
+      },
+      {
+        "label": "IMC Inicial",
+        "value": "37 kg/m²"
+      },
+      {
+        "label": "Tempo de uso semaglutida",
+        "value": "7 meses"
+      },
+      {
+        "label": "Perda ponderal total",
+        "value": "21 kg"
+      },
+      {
+        "label": "Ingestão protéica atual",
+        "value": "<0,8 g/kg/dia"
+      },
+      {
+        "label": "Perda massa magra (DEXA)",
+        "value": "7 kg"
+      },
+      {
+        "label": "Queixas clínicas",
+        "value": "fraqueza progressiva, redução da performance"
+      }
+    ],
+    "title": "Paciente com sarcopenia iatrogênica após tratamento com semaglutida",
+    "reward": 5,
+    "options": [
+      {
+        "label": "a) Escalonar semaglutida e iniciar dieta VLCD",
+        "correct": false,
+        "rationale": "Piora sarcopenia e déficit proteico, aumenta risco funcional."
+      },
+      {
+        "label": "b) Manter dose, suplementar proteína e iniciar treino resistido",
+        "correct": true,
+        "rationale": "Preserva massa magra e função, estratégia baseada em evidência."
+      },
+      {
+        "label": "c) Acrescentar empagliflozina e aguardar 12 meses para reavaliar",
+        "correct": false,
+        "rationale": "Não aborda perda magra precoce e fragilidade funcional atual."
+      },
+      {
+        "label": "d) Suspender medicação e iniciar secretagogo de GH manipulado",
+        "correct": false,
+        "rationale": "Uso off-label sem evidência comprovada e risco ético/legal elevado."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para preservar a massa magra e a funcionalidade deste paciente?",
+    "vignette": "Carlos, 58 anos, IMC 37 kg/m², DM2 mal controlado, iniciou semaglutida 2,4 mg SC semanalmente há 7 meses. Perdeu 21 kg, apresenta fraqueza progressiva, dieta pobre em proteínas e ausência de treino resistido. Novo DEXA mostra perda de 7 kg de massa magra.",
+    "teaching": "Neste caso, a prioridade é manter a dose atual da semaglutida para aproveitar os benefícios metabólicos, enquanto corrige a ingestão proteica para atingir pelo menos 1,5 g/kg/dia com suplementação como whey protein, e inicia treino resistido supervisionado para estimular anabolismo muscular. O acompanhamento com DEXA em 8-12 semanas é indicado para avaliar resposta. Escalonar doses ou introduzir agentes como GH sem indicação é contraindicado. A abordagem multidisciplinar é fundamental para prevenir complicações."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Garvey WT, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025; DOI 10.1056/nejmoa2502081."
+    },
+    {
+      "citation": "le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024; DOI 10.1016/s2213-8587(23)00356-x."
+    },
+    {
+      "citation": "Lau DCW, et al. Once-weekly cagrilintide for weight management in people with overweight and obesity. Lancet 2021; DOI 10.1016/s0140-6736(21)01751-7."
+    },
+    {
+      "citation": "Sanyal AJ, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease. Nat Med 2024; DOI 10.1038/s41591-024-03018-2."
+    },
+    {
+      "citation": "Enebo LB, et al. Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management. Lancet 2021; DOI 10.1016/s0140-6736(21)00845-x."
+    },
+    {
+      "citation": "Frias JP, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet 2023; DOI 10.1016/s0140-6736(23)01163-7."
+    },
+    {
+      "citation": "Rosenstock J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. Lancet 2023; DOI 10.1016/s0140-6736(23)01053-x."
+    },
+    {
+      "citation": "Jastreboff AM, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med 2023; DOI 10.1056/nejmoa2301972."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT07179796",
+      "citation": "Digital Physical Activity Program. Sword Health, SA. ClinicalTrials.gov 2025."
+    }
+  ],
+  "status": "published"
+}

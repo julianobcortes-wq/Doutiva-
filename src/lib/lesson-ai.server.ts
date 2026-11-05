@@ -57,11 +57,11 @@ Regras inegociáveis:
 - Use apenas estudos, diretrizes e números reais que você conhece com segurança. NUNCA invente referências, DOIs, números ou datas. Se não tiver certeza, escreva "verificar" ou omita.
 - Indique nível de evidência (A: ECR fase 3/metanálise; B: fase 2/observacional robusto; C: farmacologia humana/série; D: pré-clínico).
 - Separe claramente: registrado na indicação, off-label, manipulado, sem registro. Considere ANVISA, CFM e WADA quando pertinente.
-- Monografia em markdown: 1.800–3.000 palavras, com seções numeradas (##), tabelas, mecanismo, evidência crítica, conduta prática passo a passo, monitoramento, segurança, aspectos regulatórios.
-- 6 a 9 slides variados (comece com kind "title"; use bars para resultados de ensaios, table para comparações/doses, flow para algoritmos, split para contrastes, pearl para encerrar).
-- Caso clínico realista com dados objetivos (6 itens), 4 alternativas plausíveis, exatamente 1 correta, justificativa em cada uma, e "teaching" em markdown.
-- quick_ref: guia de bolso em markdown, curto, com tabelas e alertas.
-- key_points: 4 a 6 frases objetivas. refs: 4 a 10 referências primárias reais (url só se tiver certeza, senão null).`;
+- Monografia em markdown: a monografia JÁ FOI ESCRITA — devolva-a INTEGRALMENTE no campo monograph (sem resumir, sem truncar).
+- 8 a 12 slides variados (comece com kind "title"; use bars para resultados de ensaios, table para comparações/doses, flow para algoritmos, split para contrastes, pearl para encerrar). Inclua pelo menos 1 table de doses/ensaios e 1 flow de algoritmo clínico.
+- Caso clínico realista com dados objetivos (6–8 itens), 4 alternativas plausíveis, exatamente 1 correta, justificativa em cada uma, e "teaching" em markdown denso.
+- quick_ref: guia de bolso em markdown com tabelas de dose, red flags e checklist de consultório.
+- key_points: 5 a 7 frases clínicas acionáveis. refs: 6 a 12 referências primárias reais (url só se tiver certeza, senão null).`;
 
 function toSlideFromAi(s: z.infer<typeof slideSchema>): Slide | null {
   const t = s.title;
@@ -126,12 +126,12 @@ export type GeneratedLesson = {
   refs: { citation: string; url?: string }[];
 } & RichLesson & { audit: string };
 
-const MONO_SYSTEM = `Você é o autor-chefe da Doutiva — a escola do médico do futuro. Escreva, em português do Brasil, a MONOGRAFIA de uma aula para médicos especialistas, com profundidade de tratado/UpToDate.
+const MONO_SYSTEM = `Você é o autor-chefe da Doutiva — a escola do médico do futuro. Escreva, em português do Brasil, a MONOGRAFIA de uma aula para médicos especialistas, com profundidade de tratado/capítulo de textbook (não de blog nem de resumo CME raso).
 - Nunca invente estudos, DOIs, números ou datas; se incerto, escreva "(verificar)".
 - Classifique evidência (A: ECR fase 3/metanálise; B: fase 2/observacional; C: farmacologia humana/série; D: pré-clínico).
 - Separe registrado / off-label / manipulado / sem registro; considere ANVISA, CFM, WADA quando pertinente.
-- Markdown com seções numeradas (##): 1. Contexto e relevância; 2. Fisiologia e mecanismo molecular; 3. Farmacologia; 4. Evidência crítica (ensaios nominais, desenho, n, desfechos, magnitude, limitações) com tabela; 5. Indicações e seleção de pacientes; 6. Conduta prática passo a passo (doses, titulação) com tabela; 7. Monitoramento; 8. Segurança, contraindicações e interações; 9. Aspectos regulatórios e éticos no Brasil; 10. Pérolas e armadilhas; 11. Referências (lista numerada de fontes primárias reais).
-- 3.000 a 4.500 palavras. Responda apenas com a monografia.`;
+- Markdown com seções numeradas (##): 1. Contexto clínico e relevância epidemiológica; 2. Fisiologia e mecanismo molecular (receptores, vias, órgãos-alvo); 3. Farmacologia comparada (PK/PD, engenharia molecular, vias de administração); 4. Evidência crítica (ensaios nominais, desenho, n, duração, desfechos primários/secundários, magnitude com %, HR, IC95%, limitações e estimands) com ≥1 tabela densa; 5. Indicações, contra-indicações e seleção de pacientes (fenótipos); 6. Conduta prática passo a passo (doses, titulação semanal/mensal, manejo de efeitos adversos) com tabela; 7. Monitoramento laboratorial e de composição corporal; 8. Segurança, interações e perioperatório; 9. Aspectos regulatórios e éticos no Brasil; 10. Fronteira terapêutica e o que NÃO prescrever; 11. Pérolas, armadilhas e checklist do consultório; 12. Referências (lista numerada de fontes primárias reais).
+- 4.500 a 7.000 palavras. Tabelas densas, números reais, raciocínio diferencial. Responda apenas com a monografia.`;
 
 const AUDIT_SYSTEM = `Você é revisor médico sênior (editor de periódico). Audite criticamente a aula fornecida para médicos. Liste, em markdown curto e objetivo (português):
 ## Possíveis erros factuais ou de dose
@@ -178,7 +178,7 @@ export async function generateLesson(input: {
       model: direct ? openai("gpt-4.1") : anthropic!("anthropic/claude-opus-5-5"),
       system: MONO_SYSTEM,
       prompt: context,
-      maxOutputTokens: 32000,
+      maxOutputTokens: 48000,
       maxRetries: 0,
       providerOptions: direct ? undefined : { anthropic: { effort: "high" } },
     });

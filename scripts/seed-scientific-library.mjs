@@ -57,38 +57,48 @@ async function getJson(url) {
 }
 
 async function searchPmc() {
-  const q =
-    '(semaglutide OR tirzepatide OR "GLP-1" OR "growth hormone releasing" OR BPC-157) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"meta-analysis" OR PUB_TYPE:"systematic review" OR PUB_TYPE:"practice guideline" OR PUB_TYPE:"clinical trial, phase iii") AND SRC:MED';
-  const url = `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(q)}&format=json&resultType=core&pageSize=12&sort=${encodeURIComponent("CITED desc")}`;
-  const j = await getJson(url);
-  return (j.resultList?.result ?? []).map((r) => {
-    const types = r.pubTypeList?.pubType ?? [];
-    const design =
-      types.filter((t) => !/journal article|research support/i.test(t)).join(", ") || "Artigo";
-    const pmid = String(r.pmid ?? r.id);
-    return {
-      source_type: "pubmed",
-      external_id: pmid,
-      title: strip(r.title),
-      authors: r.authorString ?? null,
-      journal: r.journalInfo?.journal?.isoabbreviation ?? r.journalInfo?.journal?.title ?? null,
-      year: r.pubYear ? Number(r.pubYear) : null,
-      doi: r.doi ?? null,
-      url: r.pmid
-        ? `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`
-        : `https://europepmc.org/article/MED/${r.id}`,
-      study_design: design,
-      evidence_level: evidence(design),
-      abstract: r.abstractText ? strip(r.abstractText).slice(0, 15000) : null,
-      full_text: null,
-      tags: ["peptídeos", "incretinas", "evidência"],
-      notes: "Seed Doutiva — Europe PMC",
-    };
-  });
+  const queries = [
+    '(semaglutide OR tirzepatide OR "GLP-1" OR "growth hormone releasing" OR BPC-157) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"meta-analysis" OR PUB_TYPE:"systematic review" OR PUB_TYPE:"practice guideline" OR PUB_TYPE:"clinical trial, phase iii") AND SRC:MED',
+    '(retatrutide OR cagrilintide OR orforglipron OR survodutide) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"clinical trial, phase ii" OR PUB_TYPE:"clinical trial, phase iii") AND SRC:MED',
+    '(setmelanotide OR tesamorelin OR teriparatide) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"practice guideline") AND SRC:MED',
+  ];
+  const seen = new Set();
+  const out = [];
+  for (const q of queries) {
+    const url = `https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=${encodeURIComponent(q)}&format=json&resultType=core&pageSize=10&sort=${encodeURIComponent("CITED desc")}`;
+    const j = await getJson(url);
+    for (const r of j.resultList?.result ?? []) {
+      const types = r.pubTypeList?.pubType ?? [];
+      const design =
+        types.filter((t) => !/journal article|research support/i.test(t)).join(", ") || "Artigo";
+      const pmid = String(r.pmid ?? r.id);
+      if (seen.has(pmid)) continue;
+      seen.add(pmid);
+      out.push({
+        source_type: "pubmed",
+        external_id: pmid,
+        title: strip(r.title),
+        authors: r.authorString ?? null,
+        journal: r.journalInfo?.journal?.isoabbreviation ?? r.journalInfo?.journal?.title ?? null,
+        year: r.pubYear ? Number(r.pubYear) : null,
+        doi: r.doi ?? null,
+        url: r.pmid
+          ? `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`
+          : `https://europepmc.org/article/MED/${r.id}`,
+        study_design: design,
+        evidence_level: evidence(design),
+        abstract: r.abstractText ? strip(r.abstractText).slice(0, 15000) : null,
+        full_text: null,
+        tags: ["peptídeos", "incretinas", "evidência", "fronteira"],
+        notes: "Seed Doutiva — Europe PMC v2",
+      });
+    }
+  }
+  return out;
 }
 
 async function searchTrials() {
-  const url = `https://clinicaltrials.gov/api/v2/studies?query.term=${encodeURIComponent("tirzepatide OR semaglutide obesity")}&pageSize=6&sort=${encodeURIComponent("EnrollmentCount:desc")}`;
+  const url = `https://clinicaltrials.gov/api/v2/studies?query.term=${encodeURIComponent("tirzepatide OR semaglutide OR retatrutide OR orforglipron obesity")}&pageSize=8&sort=${encodeURIComponent("EnrollmentCount:desc")}`;
   const j = await getJson(url);
   return (j.studies ?? [])
     .map((s) => {

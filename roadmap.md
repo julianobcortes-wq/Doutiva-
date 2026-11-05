@@ -29,6 +29,7 @@
 
 - [x] Trilha Peptídeos regenerada em profundidade de tratado (~216k chars de monografia, 9 aulas, ~11h)
 - [x] Script `scripts/deepen-peptides-lessons.mjs` para re-gerar aulas ancoradas na biblioteca
+- [x] Peptídeos v2 — 15 aulas (~20h, ~409k chars monografia, ~130 slides): fronteira dual/triplo/orais, organoproteção, sarcopenia, populações especiais, armamentário ampliado, clínica de excelência (+ exports em `scripts/peptides-exports/`)
 
 ## Produto (gaps fechados em `0022`)
 

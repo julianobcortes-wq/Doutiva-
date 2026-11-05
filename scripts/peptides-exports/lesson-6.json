@@ -1,0 +1,393 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Eixo do GH",
+  "module_position": 3,
+  "title": "Secretagogos de GH: tesamorelina (indicação real), CJC-1295, ipamorelina e o eixo GHRH–GH–IGF-1",
+  "description": "Esta aula aborda profundamente a fisiologia do eixo GHRH–GH–IGF-1, o perfil farmacológico, evidência clínica, indicações, contraindicações, monitoramento e aspectos regulatórios dos secretagogos de GH, com ênfase na tesamorelina, única substância aprovada para lipodistrofia associada ao HIV, e análise crítica das demais moléculas como CJC-1295, ipamorelina e MK-677. Inclui discussão ética e orientações para o especialista médico sob a perspectiva do julgamento clínico, segurança e legalidade.",
+  "duration_minutes": 90,
+  "evidence_level": "A",
+  "key_points": [
+    "Tesamorelina é o único secretagogo de GH com evidência sólida de fase 3 e registro internacional, para tratamento da lipodistrofia visceral associada ao HIV.",
+    "CJC-1295, ipamorelina e MK-677 carecem de prova clínica robusta, não possuem registro na ANVISA, e seu uso para anti-aging ou emagrecimento é proibido pelo CFM 2333/2023 e WADA.",
+    "Secretagogos de GH apresentam riscos relevantes como edema, síndrome do túnel do carpo, acromegalia subclínica, piora glicêmica e potencial promoção tumoral, requerendo monitoramento rigoroso.",
+    "A prescrição deve estar circunscrita à indicação correta, com esclarecimento ético/consentimento, documentação rigorosa e reavaliação periódica sob critério médico.",
+    "Médicos devem recusar eticamente pedidos fora da indicação validada, orientando paciente sobre riscos, ausência de evidência e implicações legais.",
+    "A fisiologia pulsátil é o fundamento para o uso da tesamorelina, que mimetiza adequadamente o pulso do GH, diferentemente dos agentes não peptídicos ou com meia-vida prolongada.",
+    "O julgamento clínico, segurança do paciente e conformidade regulamentar são sempre prioritários sobre a mera disponibilidade do medicamento ou apelos estéticos/fisiológicos."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Secretagogos de GH: Tesamorelina, CJC-1295, Ipamorelina e o Eixo GHRH–GH–IGF-1",
+      "subtitle": "Visão geral, farmacologia e prática clínica atualizada para médicos"
+    },
+    {
+      "bars": [
+        {
+          "label": "Tesamorelina: –15% redução gordura visceral vs placebo após 26 semanas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "CJC-1295: Não demonstrado redução clínica",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Ipamorelina: Não demonstrado redução clínica",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "MK-677: Não demonstrado redução clínica",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "N/D = não demonstrado clínico",
+      "unit": "%",
+      "title": "Redução de Gordura Visceral na Lipodistrofia HIV: Evidência Tesamorelina vs Outros Secretagogos",
+      "source": "Stanley et al., 2011; Makimura et al., 2012; Nas et al., 2008; Chapman et al., 1996"
+    },
+    {
+      "head": [
+        "Produto",
+        "Tipo/Mecanismo",
+        "Tamanho",
+        "Via Administração",
+        "Meia-vida",
+        "PK/PD",
+        "Status Regulat."
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tesamorelina",
+          "Análogo GHRH",
+          "44 aa",
+          "SC/dia",
+          "~30 min (pulsátil)",
+          "Estimula liberação pulsátil de GH",
+          "Aprovado FDA, Health Canada; Não registrado ANVISA"
+        ],
+        [
+          "CJC-1295 (DAC)",
+          "Análogo GHRH modificado",
+          "30 aa",
+          "SC/semana",
+          "6–8 dias",
+          "Ação prolongada, pulsátil lento",
+          "Manipulado, não registrado"
+        ],
+        [
+          "Ipamorelina",
+          "Agonista GHSR-1a (grelina)",
+          "5 aa",
+          "SC 2–3x/dia",
+          "2–4 h",
+          "Estimula GH via receptor da grelina",
+          "Manipulado, não registrado"
+        ],
+        [
+          "MK-677 (Ibutamoren)",
+          "Agonista GHSR-1a oral",
+          "---",
+          "Oral/dia",
+          "24 h",
+          "Liberação contínua GH/IGF-1",
+          "Research only, não registrado"
+        ]
+      ],
+      "title": "Farmacologia Comparada dos Secretagogos de GH",
+      "source": "Monografia Doutiva, 2026"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente HIV+ em TARV estável"
+        },
+        {
+          "label": "Avaliar características clínicas: suspeita de lipodistrofia (acúmulo de gordura visceral)"
+        },
+        {
+          "label": "Confirmar diagnóstico por TC abdome <130 cm² ou circunferência abdominal aumentada"
+        },
+        {
+          "label": "Exclusão de contraindicações absolutas: neoplasia ativa/recentes, retinopatia diabética, ICC descompensada, gravidez"
+        },
+        {
+          "label": "Consentimento informado com esclarecimento de riscos e benefícios"
+        },
+        {
+          "label": "Prescrição 2 mg SC/dia (abdome)"
+        },
+        {
+          "label": "Monitorar glicemia, IGF-1 e efeitos adversos em consultas regulares"
+        },
+        {
+          "label": "Reavaliar necessidade e segurança a cada 12 semanas; suspender se eventos adversos graves"
+        }
+      ],
+      "title": "Algoritmo para Indicação de Tesamorelina no Paciente HIV+ com Lipodistrofia"
+    },
+    {
+      "head": [
+        "Molécula",
+        "População",
+        "n",
+        "Duração",
+        "Desfecho Primário",
+        "Redução Gordura Visceral",
+        "Δ IGF-1",
+        "Efeitos adversos",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tesamorelina",
+          "HIV+ lipodistrofia",
+          "816",
+          "26 semanas",
+          "Redução gordura visceral por TC",
+          "–15% vs placebo",
+          "+81 ng/ml",
+          "Edema 11%, CTS 2%, artralgia 7%",
+          "A"
+        ],
+        [
+          "CJC-1295",
+          "Voluntários sãos e idosos frágeis",
+          "90",
+          "1-3 semanas",
+          "↑ GH/IGF-1 sem desfechos clínicos",
+          "N/D",
+          "+27 a +50%",
+          "Flush, reação local, dor leve",
+          "B"
+        ],
+        [
+          "Ipamorelina",
+          "Voluntários sãos",
+          "<40",
+          "5–10 dias",
+          "↑ GH e leve ↑ IGF-1",
+          "N/D",
+          "+10 a +20%",
+          "Raros edema e baixa prolactina",
+          "C"
+        ],
+        [
+          "MK-677",
+          "Idosos >60 anos",
+          "563",
+          "2 anos",
+          "Aumento massa magra sem melhora funcional",
+          "N/D",
+          "+60 a +70%",
+          "Edema, CTS 9%, hiperglicemia 6%",
+          "B"
+        ]
+      ],
+      "title": "Principais Ensaios Clínicos com Tesamorelina e Outros Secretagogos",
+      "source": "Stanley et al., 2011; Chu et al., 2004; Nass et al., 2008; Chapman et al., 1996"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Avaliação rigorosa do paciente e indicação aferida",
+          "Consentimento informado claro e documentado",
+          "Monitoramento laboratorial e clínico frequente",
+          "Registro detalhado e transparente no prontuário",
+          "Negativa ética para uso off-label estético/anti-aging"
+        ],
+        "label": "Boa prática"
+      },
+      "right": {
+        "items": [
+          "Prescrição de CJC-1295, Ipamorelina ou MK-677 para emagrecimento ou performance",
+          "Uso sem monitoramento ou documentação",
+          "Atender pressões de pacientes em demanda antiética",
+          "Manipulação sem rastreabilidade farmacêutica",
+          "Ignorar sinais de acromegalia ou hiperglicemia progressiva"
+        ],
+        "label": "Armadilhas comuns"
+      },
+      "title": "Práticas Recomendadas vs Armadilhas na Prescrição de Secretagogos de GH"
+    },
+    {
+      "head": [
+        "Item",
+        "Tesamorelina",
+        "CJC-1295 / Ipamorelina / MK-677"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Dose inicial",
+          "2 mg SC 1x/dia (abdome)",
+          "CJC: 1–2 mg SC 1x/semana (off-label); Ipamorelina: 100–200 mcg SC 2–3x/dia; MK-677: 12.5–25 mg VO 1x/dia (manipulados)"
+        ],
+        [
+          "Ajuste/titulação",
+          "Não recomendado, ajuste só por eventos adversos",
+          "Não há protocolo formal; uso empírico"
+        ],
+        [
+          "Tempo resposta",
+          "12–16 semanas para redução visível",
+          "Indefinido, relatos 4–12 semanas"
+        ],
+        [
+          "Duração máxima sugerida",
+          "26–52 semanas",
+          "Não estabelecido"
+        ],
+        [
+          "Reavaliação e interrupção",
+          "Suspender se neoplasia, edema, CTS grave, piora glicêmica relevante",
+          "Devem ser suspensos ao menor sinal de efeito adverso relevante ou uso não aprovado"
+        ]
+      ],
+      "title": "Manejo Prático da Tesamorelina e Secretagogos Alternativos",
+      "source": "Monografia Doutiva"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Na avaliação basal: glicemia jejum, HbA1c, IGF-1, perfil hepático, TC abdominal, peso, circunferência abdominal, sintomas neurológicos"
+        },
+        {
+          "label": "Reavaliação após 4 semanas: glicemia, IGF-1, peso, circunferência e sintomas neurológicos"
+        },
+        {
+          "label": "Avaliações trimestrais: glicemia, HbA1c, IGF-1, perfil hepático, lipidograma, sintomatologia neurológica"
+        },
+        {
+          "label": "TC abdominal a cada 6 meses para avaliar gordura visceral"
+        },
+        {
+          "label": "Interrupção imediata se: IGF-1 >2x ULN, piora glicêmica significativa, sintomas acromegaloides, edema refratário e sintomas neurológicos novos"
+        }
+      ],
+      "title": "Monitoramento Laboratorial e Clínico na Terapia com Tesamorelina"
+    },
+    {
+      "kind": "title",
+      "title": "Caso Clínico Aplicado",
+      "subtitle": "Homem, 44 anos, HIV+, com lipodistrofia visceral diagnosticada"
+    }
+  ],
+  "monograph": "# Secretagogos de GH: tesamorelina, CJC-1295, ipamorelina e o Eixo GHRH–GH–IGF-1\n\n---\n\n## 1. Contexto clínico e relevância epidemiológica\n\nO eixo hormônio liberador do hormônio do crescimento (GHRH)–GH–IGF-1 é fundamental na regulação do crescimento, composição corporal, metabolismo, função cardiovascular e envelhecimento tecidual. O manejo farmacológico deste eixo tem indicações restritas e baseadas em evidências para patologias específicas, sendo a lipodistrofia associada ao HIV a única indicação robusta de um secretagogo de GH—tesamorelina—com registro e respaldo em ensaios de fase 3.\n\nOs agonistas dos secretagogos de GH, como CJC-1295, ipamorelina e compostos orais como MK-677, geram intenso interesse na comunidade médica (notadamente em práticas de longevidade e performance esportiva), porém são desprovidos de aprovações regulatórias formais e evidência clínica robusta para uso em humanos para as indicações usualmente solicitadas (composição corporal, anti-aging, sarcopenia, aumento de performance) [S1][S26][S27].\n\n**Lipodistrofia associada ao HIV** afeta 30–50% dos pacientes portadores de HIV em terapias antirretrovirais, caracterizando-se por acúmulo central de gordura visceral, resistência insulínica, aumento de risco cardiovascular e estigma social. A tesamorelina é até o momento o único secretagogo de GH aprovado (FDA, Health Canada) para redução de gordura visceral nesses pacientes, com respaldo em ECRs fase 3 [Evidência A], magnitude clínica relevante e perfil de segurança documentado [S1].\n\n**No Brasil**, apenas a tesamorelina é citada em protocolos que seguem evidência global, mas até o momento não há registro na ANVISA (status: importar sob demanda, sem comercialização formal; verificar status mais recente). CJC-1295, ipamorelina e MK-677 são substâncias manipuladas, utilizadas off-label ou sob orientação de pesquisa, sem respaldo do CFM 2333/2023 ou de sociedades científicas, estando sujeitos a riscos éticos, legais e de segurança.\n\nA crescente popularidade dessas moléculas na medicina esportiva, estética e de longevidade expõe médicos ao conflito ético e à necessidade de expertise para seleção clínica, documentação e manejo de expectativas do paciente.\n\n---\n\n## 2. Fisiologia e mecanismo molecular do eixo GHRH–GH–IGF-1\n\n### 2.1. Fisiologia do eixo GHRH–GH–IGF-1\n\nO eixo GHRH–GH–IGF-1 compõe uma cascata reguladora de secreção pulsátil, com repercussão sistêmica (Figura 1):\n\n- **Hipotálamo:** secreta GHRH (hormônio liberador do GH) e somatostatina (inibitório).\n- **Hipófise anterior:** responde ao GHRH com liberação pulsátil de hormônio do crescimento (GH). A somatostatina inibe a liberação de GH.\n- **Fígado e tecidos periféricos:** o GH estimula produção de IGF-1 (fator de crescimento semelhante à insulina 1).\n- **Ações:** GH exerce efeitos lipolíticos, anabólicos ósseos e musculares, aumento da síntese proteica e regulação do metabolismo glicídico; IGF-1 potencializa efeitos anabólicos, promove crescimento e tem papel no feedback negativo.\n\nA secreção pulsátil do GH é essencial à eficácia fisiológica—administrações contínuas ou miméticas de GH amplificam efeitos adversos (acromegalia-like).\n\n### 2.2. Mecanismos moleculares dos secretagogos\n\n- **Tesamorelina:** análogo de GHRH (44 aa), resistente à degradação por DPP-IV, estimula o receptor de GHRH (GHRHR) na adenohipófise, promovendo secreção endógena pulsátil de GH [S1].\n- **CJC-1295:** peptídeo sintético (modified GHRH, 30 aa), com tecnologia de extensão de meia-vida (Drug Affinity Complex—DAC), prolongando ação até ~6-8 dias; ligação ao GHRHR.\n- **Ipamorelina:** pentapeptídeo, agonista do receptor secretagogo de GH (GHSR-1a ou receptor da grelina), estimula GH pela via grelino-mimética, sem estimular prolactina/cortisol de forma significativa.\n- **MK-677 (ibutamoren):** agonista oral não-peptídico do GHSR-1a, mimetizando grelina, promove liberação sustentada/contínua de GH/IGF-1, com perfil farmacodinâmico menos fisiológico e efeitos adversos mais pronunciados.\n\n### 2.3. Receptores e vias envolvidas\n\n- **Receptor GHRH (GHRHR):** Expressos em somatotrófos, acoplados a Gs, ativam cAMP/PKA, transcrição de GH.\n- **GHSR-1a:** Expressos em hipófise e SNC, ativados por grelina e análogos, promovem efeitos \"pulsáteis\" de GH, mas podem promover resistência à insulina.\n\n**Órgãos-alvo:**\n- **Fígado:** síntese de IGF-1.\n- **Músculo, tecido adiposo:** metabolismo de substratos, repartição de gordura.\n- **Sistema cardiovascular:** proteção endotelial (fisiológica), risco pro-aterogênico (excesso).\n\n### 2.4. Implicações e riscos\n\n- **Excesso crônico de GH/IGF-1:** risco de acromegalia (artropatia, edema, neuropatia compressiva, cardiomiopatia), aumento de neoplasias, piora do controle glicêmico.\n- **Eixos de feedback:** Somatostatina, IGF-1 e aumento de glicose inibem secreção de GH; uso exógeno pode suprimir mecanismos compensatórios, gerando efeitos adversos [Figura 1].\n\n---\n\n## 3. Farmacologia comparada\n\n| Produto            | Tipo/Mecanismo         | Tamanho | Via          | Meia-vida           | PK/PD        | Status regulatório                 |\n|--------------------|-----------------------|---------|--------------|---------------------|--------------|------------------------------------|\n| Tesamorelina       | GHRH análogo          | 44 aa   | SC/dia       | ~30min (GH pulse)   | Pulsátil     | FDA: lipodistrofia HIV; sem ANVISA |\n| CJC-1295 (DAC)     | GHRH análogo mod.     | 30 aa   | SC/semana    | ~6–8 dias           | Pulsátil lento| Não registrado; manipulado         |\n| Ipamorelina        | GHSR-1a agonista      | 5 aa    | SC – 2–3x/dia| 2–4 horas           | Pulsátil     | Não registrado; manipulado         |\n| MK-677 (Ibutamoren)| GHSR-1a agonista (oral)| ---  | Oral/dia      | 24 horas (contínuo) | Contínuo     | Não registrado; research only      |\n\n**Principais diferenças de PK/PD:**\n- **Tesamorelina:** imitação fiel do pulso fisiológico, curto efeito, menor exposição contínua.\n- **CJC-1295:** ação prolongada, mas ainda mimetiza pulsatilidade, riscos de descompasso por exposição sustentada.\n- **Ipamorelina/MK-677:** atua por receptor de grelina, maior impacto na glicemia (risco pró-diabetogênico), maior estimulação sustentada (MK-677 > Ipamorelina).\n- **GH recombinante:** estimulação contínua, maior incidência de acromegaloide/efeitos adversos (não foco desta aula).\n\n**Vias de administração:** Tesamorelina e peptídeos são via parenteral (subcutânea). MK-677, exceto, é via oral.\n\n---\n\n## 4. Evidência crítica\n\nA **tesamorelina** permanece como o único secretagogo de GH com estudos fase 3 randomizados e registro regulamentado para tratamento de lipodistrofia associada ao HIV [Evidência A]; os demais compostos se restringem a séries de caso, estudos farmacológicos humanos (fase 1–2) ou estudos pré-clínicos [B/C/D].\n\n### 4.1. Principais ensaios: tesamorelina em lipodistrofia HIV\n\n**Estudo principal:** Stanley TL et al., 2011, 2014 (ECR fase 3).\n- **População:** Adultos HIV+ em TARV com lipodistrofia (n = 816)\n- **Intervenção:** Tesamorelina 2 mg SC/dia x 26 semanas vs placebo.\n- **Desfechos primários:** Redução volume de gordura visceral por TC abdominal.\n- **Secundários:** Peso corporal, circunferência abdominal, sensibilidade insulínica.\n\n**Resultados principais:**\n- **Redução gordura visceral:** –15% a –18% vs placebo após 26 semanas.\n- **Redução circunferência abdominal:** –2,6 cm.\n- **IGF-1:** Aumento 81 ng/ml vs 11 ng/ml (p < 0,001).\n- **Glicemia/DM2:** Pequeno aumento glicêmica, mas sem aumento de DM2.\n- **Adversos:** Edema periférico (11%), CTS (<2%), artralgia (7%), leve piora glicêmica.\n- **Não aumento de neoplasias em 12 meses.**\n- **Follow-up extensão:** manutenção parcial da perda de gordura visceral em até 52 semanas.\n\n### 4.2. CJC-1295, ipamorelina e MK-677\n\n- **CJC-1295:** Estudos fase 1–2 em voluntários sadios e idosos frágeis (n < 150), documentando elevação transiente de GH/IGF-1, sem ECR em desfechos clínicos [B]; relatos de aumento de massa magra, mas sem redução comprovada de eventos cardiovasculares, funcionalidade, ou desfechos duros.\n- **Ipamorelina:** Série de casos/ensaios farmacológicos (n < 40), pouco incremento de prolactina/cortisol; aumentos transitórios de GH/IGF-1, sem demonstração de efeitos sobre composição corporal ou funcionalidade [C].\n- **MK-677:** Fase 2, idosos (n = 563, >60 anos): aumento de IGF-1 e massa magra, mas maior incidência de hiperglicemia, edema e CTS; sem redução de quedas, sarcopenia ou melhora funcional significativa [B].\n\n### 4.3. Tabela de evidência e magnitude dos principais estudos\n\n| Molécula       | População         | n     | Duração     | Desfechos primários/síntese                 | Redução gordura visceral | ΔIGF-1         | Efeitos adversos mais frequentes       | Limit/Estimand     | Evidência |\n|----------------|------------------|-------|-------------|----------------------------------------------|-------------------------|----------------|----------------------------------------|--------------------|-----------|\n| Tesamorelina   | HIV+ lipodistrofia| 816   | 26 sem      | ↓ gordura visceral, CT; circunf. abd.        | –15% vs placebo         | +81 ng/ml      | Edema (11%), CTS (2%), artralgia (7%)  | Excluídas neoplasias; 12m follow-up | A         |\n| CJC-1295       | Voluntários sãos, idosos frágeis| 90 | 1–3 sem.    | ↑ GH, IGF-1 (PK/PD); sem desfecho clínico   | N/D                     | +27 a +50%     | Flush, dor leve local                  | n pequeno; PK only  | B         |\n| Ipamorelina    | Voluntários sãos | <40   | 5–10 dias   | ↑ acentuado GH, leve ↑ IGF-1; bem tolerada   | N/D                     | +10–20%        | Raro edema, baixo risco prolactina      | curta duração       | C         |\n| MK-677         | Idosos (>60 anos)| 563   | 2 anos      | ↑ IGF-1, massa magra; sem ganho funcional    | N/D                     | +60–70%        | Edema, CTS (9%), hiperglicemia (6%)    | Risco glicemia      | B         |\n\n**Notas:**\n- N/D = não demonstrado (ausência de desfecho).\n- Efeitos clínicos muito mais robustos para tesamorelina no subgrupo indicado, ausência de ECRs para outros secretagogos [S1][S26][S27].\n- Meta-análises indisponíveis para peptídeos manipulados; basear decisões em lógica fisiológica, PK/PD, perfil risco-benefício.\n\n---\n\n## 5. Indicações, contra-indicações e seleção de pacientes\n\n### 5.1. Indicação formal (registro)\n\n**Tesamorelina**\n- **Indicação registrada (FDA, Health Canada):** Redução de gordura visceral em lipodistrofia associada ao HIV.\n- **Critérios para uso:**\n  - Diagnóstico de lipodistrofia HIV (acúmulo de gordura visceral ≥130 cm² por TC ou circunferência abd. ↑).\n  - Exclusão de pacientes com neoplasia ativa, retinopatia diabética, gravidez ou doença cardiovascular descompensada.\n\n### 5.2. Fora da bula/off-label\n\n- **Tesamorelina:** NÃO indicada para emagrecimento em não-HIV, anti-aging, sarcopenia, performance física ou estética (ausência de evidência, contraindicação ética e legal).\n- **CJC-1295, ipamorelina, MK-677:** NÃO registrados em nenhum país para qualquer indicação clínica; manipulação sem respaldo de sociedades, CFM 2333/23, ANVISA ou FDA. Classificação “research-only” ou off-label não formalizada.\n\n### 5.3. Seleção de pacientes e fenotipagem\n\n**Paciente candidato à tesamorelina:**\n- Adulto HIV+ sob TARV estável\n- Evidência de lipodistrofia visceral (física e/ou por TC)\n- Sem história recente de neoplasia maligna (<5 anos)\n- Controle glicêmico razoável (ideal: HbA1c <7,5%)\n- Sem história de CTS grave, edema refratário, ICC, retinopatia proliferativa\n\n**Contra-indicações absolutas:**\n- Neoplasia ativa ou história recente (<5 anos)\n- Gravidez/aleitamento\n- Retinopatia diabética ativa\n- ICC descompensada\n- Hipersensibilidade conhecida ao produto\n\n**Contra-indicações relativas (titulação cautelosa ou monitoramento intensivo):**\n- Diabetes descompensado\n- Síndrome do túnel carpal pré-existente\n- Edema periférico grave\n- Idade >65 anos (risco aumentado de adversos)\n- Doenças desmielinizantes do SNC\n\n### 5.4. Considerações regulatórias (CFM, WADA)\n\n- **CFM 2333/23** proíbe prescrição de peptídeos sem aprovação regulatória e base em ECRs em indicações não reconhecidas, especialmente para anti-aging, performance física e estética.\n- **WADA:** Todos os secretagogos de GH (tesamorelina, CJC, ipamorelina, MK-677) são proibidos para atletas (categoria S2, Substâncias e Métodos Proibidos).\n\n---\n\n## 6. Conduta prática passo a passo\n\n### 6.1. Tesamorelina: prescrição, titulação, manejo de adversos\n\n| Item                          | Tesamorelina                                              | CJC-1295 / Ipamorelina / MK-677         |\n|-------------------------------|----------------------------------------------------------|-----------------------------------------|\n| **Dose inicial**              | 2 mg SC 1x/dia (abdome), preferencialmente manhã         | CJC: 1–2 mg SC 1x/sem (`off-label`)<br>Ipamorelina: 100–200 mcg SC 2–3x/dia (`manipulado`)<br>MK-677: 12.5–25 mg VO 1x/dia (`manipulado`) |\n| **Ajuste / Titulação**        | Não recomendado titular (apenas ajustar por adversos)    | Sem protocolo formal, dose por prática empírica |\n| **Tempo de resposta**         | Redução visível em 12–16 semanas                         | Desconhecido; relatos 4–12 semanas      |\n| **Duração máxima sugerida**   | 26–52 semanas (protocolos ensaio)                        | Não estabelecido                        |\n| **Reavaliação e interrupção** | Parar em caso de: neoplasia, edema grave, CTS, piora glicêmica relevante, sintomas cardiovasculares | **DEVEM ser interrompidos se sinais de efeitos adversos ou uso em contexto não aprovado** |\n\n### 6.2. Tabela de manejo de efeitos adversos\n\n| Reação adversa          | Manejo rápido                         | Quando interromper     |\n|------------------------|---------------------------------------|------------------------|\n| Edema periférico       | Suporte, baixar ingestão sal; sintomático | Edema não controlado   |\n| CTS (túnel carpal)     | Fisioterapia, talas noturnas, analgésico | CTS novo ou grave      |\n| Hiperglicemia          | Ajuste dieta/antidiabéticos, monitorar  | HbA1c >8%/GJ persistente|\n| Artralgia/mialgia      | Analgésico leve, corrigir dose         | Dores incapacitantes   |\n| Nódulo local/púrpura   | Compressa fria, rodízio de local       | Infecção local         |\n| Sintomas neoplásicos   | Suspender, investigar                  | Toda suspeita          |\n\n### 6.3. Checklist de prescrição de tesamorelina no consultório\n\n1. Confirme diagnóstico de lipodistrofia HIV por clínica/imagem.\n2. Exclua contraindicações absolutas (anamnese e screening laboratorial).\n3. Explique riscos/benefícios ao paciente e registre consentimento.\n4. Prescreva dose única diária SC abdominal.\n5. Solicite exames basais: glicemia, HbA1c, IGF-1, profile hepático, TC abdome.\n6. Agende revisão em 4 semanas e, posteriormente, a cada 12 semanas.\n7. Documente avaliação e monitoramento rigoroso de eventos adversos.\n8. Registre justificativa clínica, pareceres e acompanhamento em prontuário.\n\n### 6.4. Orientação para CJC, Ipamorelina, MK-677\n\n**NÃO prescrever para finalidades fora de pesquisa clínica, anti-aging, estética ou performance; informe o paciente sobre ausência de registro, riscos legais/éticos e oriente sobre potencial efeitos adversos em caso de uso fora do seu acompanhamento.**\n\n---\n\n## 7. Monitoramento laboratorial e de composição corporal\n\n| Parâmetro              | Basal | Após 4 semanas  | Trimestral | Justificativa                            |\n|------------------------|-------|-----------------|------------|------------------------------------------|\n| Glicemia jejum / HbA1c | X     | X               | X          | Risco hiperglicemia/DM2                  |\n| IGF-1                  | X     | X               | X          | Surrogate de exposição e risco acromegaloide |\n| Função hepática/renal  | X     |                 | X          | Segurança global                         |\n| Lipidograma            | X     |                 | X          | Avaliação risco CV                        |\n| TC abdome              | X     |                 | 6 meses    | Avaliação de gordura visceral             |\n| Peso, circ. abdominal  | X     | X               | X          | Medidas antropométricas                   |\n| Sintomas neurológicos  | X     | X               | X          | CTS, parestesias                          |\n\n**Documentar sempre curva evolutiva — interrupção em caso de:**\n- Aumento progressivo de IGF-1 (>2x ULN)\n- Súbita piora de glicemia/HbA1c acima do basal (>1 ponto percentual)\n- Sinais de acromegalia\n- Sintomas neurológicos ou edema não responsivo\n\n---\n\n## 8. Segurança, interações e perioperatório\n\n### 8.1. Segurança\n\n- **Riscos principais:** edema, síndrome túnel do carpo, artralgia, descompensação glicêmica, potencial promoção tumoral (teórica – monitoramento constante), exacerbação de retinopatia.\n- **Efeito secundário:** pequenos aumentos em pressão arterial sistólica (<3 mmHg).\n- **Evento raro:** reações anafiláticas à proteína recombinante.\n\n### 8.2. Interações medicamentosas\n\n- **Potenciais:** insulina, secretagogos, corticoides (efeito glicêmico aditivo).\n- **População HIV+**: monitorar possíveis interações com TARV (nenhuma sinalizada relevante em ECR; acompanhar perfil hepático).\n\n### 8.3. Perioperatório\n\n- Suspender tesamorelina/CJC-1295/MK-677 em cirurgias eletivas pelo risco de edema e hiperglicemia.\n- Retomar após estabilidade metabólica (<7 dias postop e exames normais).\n\n---\n\n## 9. Aspectos regulatórios e éticos no Brasil\n\n### 9.1. Registro e autorização\n\n- **Tesamorelina:** Não registrada na ANVISA (verificar eventual atualização), mas possível importação via RDC 81/08 com relatório médico detalhado, justificativa de uso, laudo de diagnóstico e termo de informação firmado.\n- **CJC-1295, Ipamorelina, MK-677:** NÃO registrados, proibidos para prescrição clínica por CFM 2333/2023 em qualquer indicação não respaldada por ECRs fase 3 e aprovação da agência reguladora.\n- **CFM 2333/2023:** determina infração ética para uso de peptídeos para “anti-aging, emagrecimento, performance, estética” sem evidência robusta e registro formal.\n- **WADA:** proíbe TODOS os secretagogos e análogos de GH em atletas.\n\n### 9.2. Documentação clínica\n\n- É impostergável registro detalhado do raciocínio clínico, riscos, consentimento informado, exame físico e justificativa adaptada ao contexto da patologia registrada (exclusivamente lipodistrofia HIV).\n- Solicitante deve recusar (com justificativa fundamentada e por escrito em prontuário) qualquer pedido de emprego para fins estéticos, performance ou emagrecimento em não-HIV, orientando paciente sobre impossibilidade legal e riscos à saúde.\n\n---\n\n## 10. Fronteira terapêutica: o que NÃO prescrever\n\n### 10.1. O que está na fronteira (pesquisa; não clínica)\n\n- **Clinical trial:** avanços em design de peptídeos miméticos do GHRH com targeting tecidual (ex.: análogos com menor risk de IGF-1).\n- **Peptídeos multifuncionais** (GHRH-dual agonists): em fases pré-clínicas.\n\n### 10.2. O que NÃO fazer\n\n- **NÃO prescrever CJC-1295, Ipamorelina, MK-677 para anti-aging, estética, emagrecimento ou performance física.**\n- **NÃO manipular/comprar research peptides sem rastreabilidade e certificação farmacêutica (>95% do mercado global é de grau laboratorial, não humano).**\n- **NÃO usar GH/secretagogos em gestantes, lactantes, crianças/adolescentes sem indicação endocrinológica clássica documentada.**\n- **NÃO promover “ciclos” de GH nem associar a anabolizantes/esteróides.**\n- **NÃO extrapolar dados de ganho de massa magra para benefícios funcio0nais, ósseos ou metabólicos em população idosa/frágil ou saudável.**\n\n---\n\n## 11. Pérolas, armadilhas e checklist do consultório\n\n### Pérolas clínicas\n\n- O valor médico, na prescrição de secretagogos de GH, reside em avaliação rigorosa do INDIVÍDUO, julgamento baseado em critérios claros, monitoramento estrito e registro documental, e não na receita do frasco.\n- Pequenos aumentos de IGF-1 devem ser interpretados no contexto clínico—IGF-1 >2 ULN por semanas = sinal de risco acromegaloide.\n- Nenhuma evidência suporta uso de CJC-1295, Ipamorelina, MK-677 em indicação estética/emagrecimento.\n- O paciente HIV+ lipodistrófico que mais se beneficia tem perfil de gordura visceral dominante, controle glicêmico razoável e sem comorbidades vasculares/neoplásicas.\n- Monitoramento trimestral MÍNIMO: glicemia, IGF-1, sintomas de acromegalia/edema, TC abdominal (6m).\n- Comunicação ética e assertiva reduz desgaste e pedidos de judicialização/“shopping” de prescritores.\n\n### Armadilhas comuns\n\n- Falhar em documentar reações adversas e conduta clínica.\n- Pressão de pacientes/personal trainers para uso “anti-aging” (não ceder, redigir parecer técnico fundamentado).\n- Tentar “corrigir idade IGF-1” em adultos saudáveis — risco gigante de efeitos indesejados.\n- Deixar de monitorar hiperglicemia, CTS e edema.\n- Supor que peptídeo “manipulado” é mais seguro ou menos potente do que GH recombinante—riscos equiparáveis.\n\n### Checklist consultório (60 segundos)\n\n1. **Indicação é lipodistrofia HIV?** Se não, recuse com ética.\n2. **Excluídas neoplasias/CV graves/retinopatia?** Se não, contraindique.\n3. **Paciente alertado e consentido sobre riscos?**\n4. **Monitorou glicemia, IGF-1, TC abdome?**\n5. **Evento adverso? Reavaliou necessidade/continuidade?**\n6. **Documentação preenchida?**\n7. **Prescrição digital ou registro no processo?**\n8. **Educação do paciente registrada?**\n\n---\n\n## 12. Referências\n\n1. Stanley TL, Grinspoon SK. Effects of tesamorelin, a growth hormone-releasing factor analog, in HIV-infected patients with abdominal fat accumulation. N Engl J Med. 2010;362: 805–816. [ECR fase 3]\n2. Stanley TL, Fourman LT, et al. Effects of tesamorelin on visceral fat and metabolic risk factors in HIV patients. J Clin Endocrinol Metab. 2014;99: 693–701.\n3. Chu L, et al. Pharmacokinetics and pharmacodynamics of CJC-1295, a long-acting growth hormone releasing factor analog, in healthy adults. J Clin Endocrinol Metab. 2004;89: 1138–1144.\n4. Makimura H, Stanley TL, et al. Long-term safety and efficacy of tesamorelin in HIV-infected patients with lipodystrophy: A 52-week extension study. J Clin Endocrinol Metab. 2012;97: 3493–3502.\n5. Chapman IM, et al. Oral administration of the growth hormone secretagogue MK-677 increases serum insulin-like growth factor I, fat-free mass, and appetite in healthy older men. J Clin Endocrinol Metab. 1996;81: 1232–1237.\n6. Nass R, et al. Ipamorelin, a novel GHS, stimulates GH release in healthy volunteers. J Clin Endocrinol Metab. 2008;93: 3627–3633.\n7. WADA Prohibited List. https://www.wada-ama.org.\n8. Resolução CFM 2.333/2023. Conselho Federal de Medicina. https://www.cfm.org.br.\n9. ANVISA: RDC 81/2008 - Importação de medicamentos sem registro.\n10. S1, S26, S27 — Biblioteca Científica Doutiva. Posicionamento sobre peptídeos e hierarquia de evidência. Doutiva Editorial 2026.\n11. Melmed S, Kleinberg D. Disorders of the anterior pituitary and hypothalamus. In: Williams Textbook of Endocrinology, 14ed. Elsevier Saunders, 2020.\n12. FDA Label Tesamorelin (Egrifta). https://www.accessdata.fda.gov/\n13. Feldt-Rasmussen U, et al. Long-term safety of tesamorelin therapy in HIV-infected patients with lipodystrophy: A multi-year analysis. AIDS. 2011;25: 749–759.\n\n---\n\n---\n\n# Caso clínico: aplicação, raciocínio diferencial e ética\n\n**Homem, 44 anos, HIV+ há 12 anos, TARV estável (TDF+3TC+DTG), queixando-se há 2 anos de aumento abdominal e perda de contornos faciais. Exame: circunferência abdominal 108 cm, IMC 27 kg/m², dor leve ocasional em punhos. Glicemia jejum 104 mg/dl, HbA1c 6.6%, IGF-1 188 ng/mL (VR 90–260). TC de abdome: gordura visceral intra-abdominal 182 cm². Sem antecedentes de neoplasias ou retinopatia. Solicitou tratamento para melhora do \"barriga de lipodistrofia\".**\n\n**O que fazer?**\n\na) Prescrever tesamorelina 2 mg SC 1x/dia, monitorando glicemia e IGF-1.\n\nb) Prescrever CJC-1295 manipulado 2 mg SC semanal, argumentando ser “mais fisiológico”.\n\nc) Associar MK-677 (ibutamoren) VO 25 mg/dia ao tratamento habitual.\n\nd) Explicar ausência de evidência para GH secretagogo, sugerir somente dieta e exercício.\n\n**Resposta correta: a.**\n\n**Raciocínio:**\n- O paciente atende a todas as prerrogativas de uso formal de tesamorelina (HIV+, lipodistrofia visceral comprovada por TC, sem contraindicações relevantes).\n- O uso de CJC-1295 ou MK-677 seria infração ética e legal, além de não ter respaldo científico para essa indicação; ambos aumentam riscos sem evidência robusta de benefício clínico.\n- O manejo exclusivo com intervenção comportamental é fundamental, mas para o subgrupo lipodistrófico visceral confirmado, a tesamorelina é opção respaldada por evidência e respeita o princípio da beneficência.\n- Documentar, orientar e monitorar rigorosamente.\n\n**O que NÃO fazer:** \n- Fraudar receita para “uso empírico” de CJC/Ipamorelina/MK-677.\n- Omitir riscos/consentimento ou omitir avaliação laboratorial do IGF-1.\n- Usar tesamorelina fora do contexto HIV.\n\n---\n\n# Slides Sugestão (Modelo Resumido)\n\n**Slide 1—Título:** Secretagogos de GH: Tesamorelina, CJC-1295, Ipamorelina e o Eixo GHRH–GH–IGF-1\n\n**Slide 2—Epidemiologia:** Lipodistrofia HIV afeta 30–50% dos pacientes; riscos metabólicos e estigma social. Tesamorelina: ECRs fase 3; CJC-1295/ipamorelina: só dados farmacológicos.\n\n**Slide 3—Fisiologia/Pulsatilidade:** Diagrama eixo GHRH–GH–IGF-1; importância do pulso fisiológico.\n\n**Slide 4—Farmacologia Comparada:** Tabela (vide capítulo) comparando estrutura, meia-vida, via, registro.\n\n**Slide 5—Evidência Crítica:** Bar chart: Redução gordura visceral (tesamorelina –15% vs placebo). CJC/MK-677 = N/D.\n\n**Slide 6—Indicação Estrita:** Algoritmo candidato: HIV+ → lipodistrofia visceral → sem contraindicação → tesamorelina → monitoramento.\n\n**Slide 7—Manejo Prático:** Tabela de dose, titulação, efeitos adversos, suspensão.\n\n**Slide 8—Monitoramento:** Flow de laboratórios & reavaliação clínica trimestral.\n\n**Slide 9—Regulatório/Ethics:** ANVISA (tesamorelina: não registrada), CFM/WADA: proibição off-label, peptídeos manipulados.\n\n**Slide 10—Arm traps:** Split slide: Left = good practice (registro, monitoramento), Right = bad (CJC para emagrecimento/longevidade).\n\n**Slide 11—Caso Clínico:** Aplicação prática do raciocínio.\n\n**Slide 12—Pearl final:** O médico vende critérios, prudência e proteção—não frasco de research peptide.\n\n---\n\n# quick_ref: guia bolso dos secretagogos GH\n\n| Peptídeo       | Via      | Dose habitual        | Registro           | Red Flags/stop             |\n|----------------|----------|---------------------|--------------------|----------------------------|\n| Tesamorelina   | SC       | 2 mg 1x/d           | FDA (HIV lipodist) | Edema, CTS, ↑ glicemia     |\n| CJC-1295       | SC       | 1–2 mg/sem (empír.) | NÃO registrado     | Qualquer efeito adverso    |\n| Ipamorelina    | SC       | 100–200 mcg 2–3x/d  | NÃO registrado     | CTS, edema, ↑ IGF-1        |\n| MK-677         | Oral     | 12.5–25 mg/dia      | NÃO registrado     | Hiperglicemia persistente  |\n\n### Checklist 60 segundos\n- HIV+? Lipodistrofia comprovada?\n- Risco neoplásico/CV excluído?\n- Consentimento/documentação refeitos?\n- Lab (glicemia, IGF-1, TC abdome) OK?\n- Revisão já agendada?\n\n---\n\n### key_points\n\n1. Tesamorelina é o único secretagogo de GH com ECR fase 3, registro internacional e indicação: lipodistrofia visceral em HIV.\n2. CJC-1295, ipamorelina e MK-677 carecem de evidência clínica robusta, sendo proibidos pelo CFM em quaisquer indicações (performance, estética, anti-aging).\n3. Riscos relevantes de secretagogos incluem acromegalia subclínica, edema, CTS, piora glicêmica e potencial promoção tumoral; monitoramento rigoroso é essencial.\n4. Indicação de secretagogo deve ser estritamente documentada, com consentimento informado, detalhamento laboratorial e revisão periódica dos riscos/benefícios.\n5. O médico especialista agrega valor pelo julgamento criterioso, monitoramento longitudinal e proteção ética ao paciente—não pela facilitação de uso empírico de peptídeos de pesquisa.\n6. Prevalece a responsabilidade de recusar pedidos antiéticos/ilegais informando, registrando e protegendo ambas as partes.\n7. Atualize-se periodicamente sobre status regulatório/CFM/ANVISA, revisando riscos, registro e evidência sempre que novas demandas surgirem.\n\n---\n\n**(Fim da monografia — consulte referências para detalhes e regulamentação atualizada)**",
+  "quick_ref": "Secretagogos GH - Guia Rápido\n\n| Peptídeo       | Via      | Dose Habitual     | Registro            | Red Flags/Stop                   |\n|----------------|----------|------------------|---------------------|--------------------------------|\n| Tesamorelina   | SC       | 2 mg 1x/dia      | FDA (Lipodistrofia HIV) | Edema, CTS, hiperglicemia       |\n| CJC-1295       | SC       | 1–2 mg/sem (empírico) | Não registrado       | Qualquer efeito adverso         |\n| Ipamorelina    | SC       | 100–200 mcg 2-3x/dia | Não registrado       | CTS, edema, aumento IGF-1       |\n| MK-677         | Oral     | 12.5–25 mg/dia   | Não registrado       | Hiperglicemia persistente       |\n\nChecklist 60 segundos\n- HIV+? Lipodistrofia visceral confirmada?\n- Risco neoplásico e cardiovascular excluído?\n- Consentimento e documentação realizados?\n- Exames laboratoriais (glicemia, IGF-1, TC abdome) atualizados?\n- Revisões e monitoramento agendados?\n\nPérolas para Prescrição \n• Restrinja o uso de secretagogos à indicação aprovada: lipodistrofia em HIV.\n• Monitorar IGF-1: > 2x ULN = alerta para acromegalia.\n• Evitar e denunciar o uso off-label para anti-aging, performance e estética.\n• Documentação e ética protegem médico e paciente.\n• Estar atento a atualizações regulatórias no Brasil (ANVISA, CFM).",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "44 anos"
+      },
+      {
+        "label": "HIV+",
+        "value": "12 anos"
+      },
+      {
+        "label": "TARV",
+        "value": "TDF+3TC+DTG estável"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "108 cm"
+      },
+      {
+        "label": "IMC",
+        "value": "27 kg/m²"
+      },
+      {
+        "label": "Glicemia jejum",
+        "value": "104 mg/dl"
+      },
+      {
+        "label": "HbA1c",
+        "value": "6.6%"
+      },
+      {
+        "label": "IGF-1",
+        "value": "188 ng/mL (normal)"
+      },
+      {
+        "label": "TC abdominal",
+        "value": "182 cm² gordura visceral"
+      }
+    ],
+    "title": "Homem HIV+, lipodistrofia visceral: manejo de secretagogo de GH",
+    "reward": 7,
+    "options": [
+      {
+        "label": "Prescrever tesamorelina 2 mg SC 1x/dia, monitorando glicemia e IGF-1.",
+        "correct": true,
+        "rationale": "É a única opção com indicação aprovada, evidência científica robusta e segurança razoável para essa indicação específica."
+      },
+      {
+        "label": "Prescrever CJC-1295 manipulado 2 mg SC semanal, argumentando ser mais fisiológico.",
+        "correct": false,
+        "rationale": "Uso não aprovado, sem evidência robusta, risco ético e legal elevado."
+      },
+      {
+        "label": "Associar MK-677 VO 25 mg/dia ao tratamento habitual.",
+        "correct": false,
+        "rationale": "Não aprovado, com riscos compensatórios e ausência de indicação formal."
+      },
+      {
+        "label": "Explicar ausência de evidência e sugerir apenas dieta e exercício.",
+        "correct": false,
+        "rationale": "Intervenção comportamental é imprescindível, mas o paciente se enquadra na indicação formal para tesamorelina, que deve ser considerada. "
+      }
+    ],
+    "question": "Qual a conduta mais apropriada para manejo do eixo GH neste paciente?",
+    "vignette": "Homem, 44 anos, HIV+ há 12 anos, TARV estável, apresenta aumento abdominal progressivo e perda de volume facial. Circunferência abdominal 108 cm, IMC 27. Glicemia 104 mg/dl, HbA1c 6.6%, IGF-1 normal. TC abdominal confirma gordura visceral aumentada (182 cm²). Sem neoplasias ou retinopatia.",
+    "teaching": "Este paciente preenche critérios para prescrição de tesamorelina, único secretagogo com evidência robusta e registro para lipodistrofia em HIV. A tesamorelina promove redução significativa da gordura visceral com perfil aceitável de segurança. Prescrever CJC-1295 ou MK-677 configura infração ética e legal, com riscos desnecessários e inexistência de benefício comprovado. Optar somente por medidas comportamentais seria correto, mas para o caso comprovado e sintomático, o uso do secretagogo aprovado é a opção que reflete melhor benefício-risco. Sempre documente consentimento, monitore glicemia e sintomas neurológicos e mantenha vigilância rigorosa para efeitos adversos."
+  },
+  "refs": [
+    {
+      "citation": "Stanley TL, Grinspoon SK. Effects of tesamorelin, a growth hormone-releasing factor analog, in HIV-infected patients with abdominal fat accumulation. N Engl J Med. 2010;362: 805–816."
+    },
+    {
+      "citation": "Stanley TL, Fourman LT, et al. Effects of tesamorelin on visceral fat and metabolic risk factors in HIV patients. J Clin Endocrinol Metab. 2014;99: 693–701."
+    },
+    {
+      "citation": "Chu L, et al. Pharmacokinetics and pharmacodynamics of CJC-1295, a long-acting growth hormone releasing factor analog, in healthy adults. J Clin Endocrinol Metab. 2004;89: 1138–1144."
+    },
+    {
+      "citation": "Makimura H, Stanley TL, et al. Long-term safety and efficacy of tesamorelin in HIV-infected patients with lipodystrophy: A 52-week extension study. J Clin Endocrinol Metab. 2012;97: 3493–3502."
+    },
+    {
+      "citation": "Chapman IM, et al. Oral administration of the growth hormone secretagogue MK-677 increases serum insulin-like growth factor I, fat-free mass, and appetite in healthy older men. J Clin Endocrinol Metab. 1996;81: 1232–1237."
+    },
+    {
+      "citation": "Nass R, et al. Ipamorelin, a novel GHS, stimulates GH release in healthy volunteers. J Clin Endocrinol Metab. 2008;93: 3627–3633."
+    },
+    {
+      "url": "https://www.cfm.org.br",
+      "citation": "CFM Resolução 2333/2023. Conselho Federal de Medicina. https://www.cfm.org.br"
+    },
+    {
+      "url": "https://www.wada-ama.org",
+      "citation": "WADA Prohibited List. https://www.wada-ama.org"
+    },
+    {
+      "citation": "ANVISA RDC 81/2008 - Importação de medicamentos sem registro."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/",
+      "citation": "FDA Label Tesamorelin (Egrifta). https://www.accessdata.fda.gov/"
+    },
+    {
+      "citation": "S1, S26, S27 — Biblioteca Científica Doutiva. Posicionamento sobre peptídeos e hierarquia de evidência. Doutiva Editorial 2026."
+    }
+  ],
+  "status": "published"
+}

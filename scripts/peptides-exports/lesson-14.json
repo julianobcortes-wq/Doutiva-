@@ -1,0 +1,383 @@
+{
+  "position": 14,
+  "module": "Módulo 8 · Armamentário peptídico ampliado",
+  "module_position": 8,
+  "title": "Armamentário peptídico com registro além das incretinas: setmelanotida, análogos de PTH, somatostatina e limites da extrapolação",
+  "description": "Revisão aprofundada do uso terapêutico de peptídeos além das incretinas, incluindo setmelanotida para obesidade monogênica, análogos de PTH para osteoporose, e análogos de somatostatina para tumores neuroendócrinos e acromegalia, além de aspectos regulatórios, farmacológicos e clínicos relevantes para médicos especialistas.",
+  "duration_minutes": 85,
+  "evidence_level": "A",
+  "key_points": [
+    "Setmelanotida deve ser reservada à obesidade monogênica confirmada por mutação bialélica, com monitoramento e consentimento formal.",
+    "Teriparatida e abaloparatida indicados no tratamento da osteoporose de alto risco, com limite máximo de uso para evitar riscos teóricos.",
+    "Análogos de somatostatina são essenciais para manejo de tumores neuroendócrinos e acromegalia refratária, requerendo vigilância ativa para colelitíase e alteração glicêmica.",
+    "Prescrição off-label para fins estéticos, regenerativos ou de longevidade carece de evidência clínica robusta e é eticamente vedada pelo CFM e ANVISA.",
+    "Monitoramento laboratorial rigoroso (cálcio, glicemia, ultrassons, BMD) e documentação clara são mandatórios para segurança e compliance.",
+    "A manipulação de peptídeos para uso não autorizado é ilegal e contraindicada, podendo levar à perda do CRM.",
+    "O papel do especialista está em garantir uso baseado em evidência, julgamento clínico e segurança, evitando o hype e a prática antiética."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Armamentário peptídico além das incretinas: Setmelanotida, análogos de PTH e somatostatina",
+      "subtitle": "Conceitos, indicações e limites da extrapolação clínica"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Obesidade grave de início precoce (<1 ano) com hiperfagia extrema"
+        },
+        {
+          "label": "Avaliação clínica e exclusão de causas secundárias"
+        },
+        {
+          "label": "Solicitar teste genético para mutações bi-alélicas em POMC, LEPR ou PCSK1"
+        },
+        {
+          "label": "Resultado positivo → avaliação multidisciplinar e consentimento para setmelanotida"
+        },
+        {
+          "label": "Resultado negativo → considerar outras abordagens, evitar extrapolação"
+        }
+      ],
+      "title": "Diagnóstico e indicação de Setmelanotida na obesidade monogênica"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "INDICAÇÕES: Osteoporose pós-menopausa grave; Osteoporose por glucocorticoides em alto risco de fratura",
+          "CONTRAINDICAÇÕES ABSOLUTAS: Doença óssea metabólica distinta da osteoporose; Hipercalcemia; Neoplasia óssea ativa",
+          "CONTRAINDICAÇÕES RELATIVAS: Insuficiência renal grave (ClCr <30 mL/min); Hipercalciúria idiopática"
+        ],
+        "label": "Indicações/Contraindicações"
+      },
+      "right": {
+        "items": [
+          "DOSES E DURAÇÃO: Teriparatida 20 μg SC/dia (máx 24 meses vitalícios)",
+          "Abaloparatida 80 μg SC/dia (máx 18 meses)",
+          "Monitoramento rigoroso do cálcio e densitometria óssea anual"
+        ],
+        "label": "Posologia/Monitoramento"
+      },
+      "title": "Indicações e Contraindicações dos Análogos de PTH"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Acromegalia resistente a cirurgia/radioterapia",
+          "Tumores neuroendócrinos funcionantes (VIPoma, insulinoma, gastrinoma)",
+          "Doença de Cushing (pasireotida)",
+          "Controle hormonal e redução tumoral"
+        ],
+        "label": "Indicações Clínicas"
+      },
+      "right": {
+        "items": [
+          "Octreotida e Lanreotida: Controle GH/IGF-1, reduz flushing e diarreia",
+          "Pasireotida: maior afinidade para SSTR5, indicado em doença de Cushing",
+          "Monitoramento obrigatório para colelitíase e glicemia"
+        ],
+        "label": "Características e Manejo"
+      },
+      "title": "Análogos de Somatostatina: Espectro de Indicações Clínicas"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Molécula",
+        "Meia-vida",
+        "Via",
+        "Indicação / Observação",
+        "Registro ANVISA"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Setmelanotida",
+          "Agonista MC4R",
+          "~11 h",
+          "Subcutânea",
+          "Obesidade monogênica bialélica",
+          "Sim, restrito"
+        ],
+        [
+          "Teriparatida",
+          "PTH [1-34]",
+          "~1 h",
+          "Subcutânea",
+          "Osteoporose/GC",
+          "Sim"
+        ],
+        [
+          "Abaloparatida",
+          "PTHrP análogo",
+          "~1 h",
+          "Subcutânea",
+          "Osteoporose pós-menopausa",
+          "Sim"
+        ],
+        [
+          "Octreotida",
+          "Somatostatina anal.",
+          "1,5 h / 2-4 sem",
+          "SC/IM",
+          "Tumores neuroendócrinos/acromegalia",
+          "Sim"
+        ],
+        [
+          "Lanreotida",
+          "Somatostatina anal.",
+          "23-30 dias",
+          "SC/IM",
+          "Tumores neuroendócrinos/acromegalia",
+          "Sim"
+        ],
+        [
+          "Pasireotida",
+          "Somatostatina anal.",
+          "10-24 h",
+          "SC/IM",
+          "Doença de Cushing/TNE",
+          "Sim"
+        ],
+        [
+          "Insulina",
+          "Diversos análogos",
+          "min-h/dias",
+          "SC/IV",
+          "Diabetes tipo 1 e 2",
+          "Sim"
+        ]
+      ],
+      "title": "Farmacologia comparada: Peptídeos terapêuticos"
+    },
+    {
+      "bars": [
+        {
+          "label": "Teriparatida: +7,2% de BMD coluna vs +3,4% alendronato",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Abaloparatida: redução de fraturas vertebrais (0,58% vs 4,2%)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Setmelanotida: 80% pacientes perda ≥10% peso basal",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Octreotida: >65% controle bioquímico em acromegalia",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Pasireotida: ~50% normalização do cortisol em doença de Cushing",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Principais resultados de ensaios clínicos com peptídeos não-incretínicos",
+      "source": "S6, S8, FDA"
+    },
+    {
+      "bars": [
+        {
+          "label": "Indicações on-label: Obesidade monogênica, Osteoporose grave, Tumores neuroendócrinos",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Uso off-label estético, longevidade ou performance: proibido pelo CFM/ANVISA",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Condutas proibidas: Peptídeos manipulados, ‘secretagogos’ GH, uso sem evidência",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Riscos: Judicialização, toxicidade, cassação profissional",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Indicações On-Label versus Extrapolações Proibidas",
+      "source": "CFM 2.333/2023"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Dose inicial",
+        "Titulação",
+        "Manutenção / Duração",
+        "Efeitos adversos principais",
+        "Manejo",
+        "Registro ANVISA"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Setmelanotida",
+          "2 mg/dia (menos em crianças)",
+          "Aumentar 2 mg a cada 2 semanas até 3 mg",
+          "3 mg SC/dia indefinido",
+          "Náusea, hiperpigmentação",
+          "Reduzir dose, suporte sintomático",
+          "On label (obesidade monogênica)"
+        ],
+        [
+          "Teriparatida",
+          "20 μg SC 1x/dia",
+          "Sem titulação",
+          "Máximo 24 meses",
+          "Náusea, dor local, hipotensão",
+          "Pausa se grave, hidratação",
+          "On label (osteoporose)"
+        ],
+        [
+          "Abaloparatida",
+          "80 μg SC 1x/dia",
+          "Sem titulação",
+          "Máximo 18 meses",
+          "Hipercalcemia, tontura",
+          "Monitorar cálcio, hidratação",
+          "On label (osteoporose)"
+        ],
+        [
+          "Octreotida LAR",
+          "20 mg IM a cada 28 dias",
+          "Aumentar 10 mg a cada 2 ciclos se necessário",
+          "Até 40 mg IM/28d",
+          "Colelitíase, diarreia",
+          "Ultrassom e dieta",
+          "On label"
+        ],
+        [
+          "Lanreotida",
+          "60-120 mg SC/IM a cada 28 dias",
+          "Aumentar 30 mg se insuficiente",
+          "120 mg SC/28d",
+          "Colelitíase, dor abdominal",
+          "Monitorar sintomas, USG",
+          "On label"
+        ],
+        [
+          "Pasireotida",
+          "600-900 μg SC 2x/dia",
+          "Ajustar após 2 meses",
+          "Até 1,8 mg SC/dia",
+          "Hiperglicemia, sintomas GI",
+          "Monitorar glicemia, ajustar ADO",
+          "On label"
+        ],
+        [
+          "Insulina",
+          "Individualizado",
+          "Conforme glicemia",
+          "Individualizado",
+          "Hipoglicemia",
+          "Educação e monitoramento",
+          "On label"
+        ]
+      ],
+      "title": "Doses, titulação e manejo de efeitos adversos"
+    }
+  ],
+  "monograph": "# Monografia Doutiva\n## Armamentário peptídico com registro além das incretinas: setmelanotida, análogos de PTH, somatostatina e limites da extrapolação\n\n---\n\n## 1. Contexto clínico e relevância epidemiológica\n\nO uso terapêutico de peptídeos transcende o campo das incretinas. Moleculas como setmelanotida (agonista MC4R), análogos do hormônio paratireoide (teriparatida, abaloparatida), análogos de somatostatina (octreotida, lanreotida, pasireotida) e insulina — o peptídeo-modelo que revolucionou a endocrinologia — compõem um arsenal vital no manejo de condições metabólicas, endocrinológicas e neoplásicas. Este módulo visa aprofundar o entendimento crítico sobre indicações com respaldo regulatório e delimitar os riscos das extrapolações, especialmente em contextos de longevidade, estética e medicina esportiva.\n\n**Epidemiologia e Demanda Clínica:**\n- **Obesidade monogênica:** Rara (<0,01% da população), mas com fenótipo grave. Setmelanotida emerge como terapia personalizada fundamental.\n- **Osteoporose:** Prevalência global estimada: 200 milhões de mulheres; >9 milhões fraturam-se anualmente [S11, S13]. Osteoporose esteroide e pós-menopausa constituem a maior parcela de indicações para análogos de PTH.\n- **Tumores neuroendócrinos, acromegalia, VIPoma:** Menos prevalentes, porém manejo requer alta especialização, justificando o papel central dos análogos de somatostatina.\n- **Insulina:** Mais de 1,2 milhões de brasileiros com DM1; uso on label consolidado para diabetes tipo 1 e 2.\n\n**Relevância da discussão ampliada:**\nCom ascensão do “hype” em peptídeos de uso manipulado e off-label, cresce o risco de práticas não embasadas e de judicialização profissional. O CFM veda prescrição de substâncias sem registro para fins estéticos ou carentes de evidência (CFM 2.333/2023). Competência clínica reside, hoje, no discernimento crítico entre medicina de precisão baseada em evidência versus extrapolação temerária [S1, S26, S27].\n\n---\n\n## 2. Fisiologia e mecanismo molecular (receptores, vias, órgãos-alvo)\n\n### 2.1 Setmelanotida (Agonista MC4R)\n\n- **Receptor:** MC4R (melanocortina 4) hipotalâmico, crucial na regulação saciedade/homeostase energética.\n- **Ação fisiológica:** Ativação do MC4R reduz ingestão alimentar e aumenta gasto energético.\n- **Distinção:** Eficácia clinicamente relevante limitada a mutações bi-alélicas específicas (POMC, LEPR, PCSK1); quadros de obesidade comum não respondem — alta especificidade genética.\n\n### 2.2 Análogos de PTH (Teriparatida, Abaloparatida)\n\n- **Receptor:** PTH1R em osteoblastos, estimula formação óssea (efeito anabólico intermitente); ação contínua estimula reabsorção.\n- **PTH vs. Abaloparatida:** Ambos compartilham o alvo, mas diferenças estruturais minimizam a exposição ao metabolismo mineral fora do osso.\n- **Órgãos-alvo:** Predominantemente tecido ósseo, leve efeito renal (aumenta reabsorção tubular de cálcio).\n\n### 2.3 Análogos de somatostatina (Octreotida, Lanreotida, Pasireotida)\n\n- **Receptores:** SSTR1–5 (subtipos variam conforme molécula e tumor).\n- **Ação fisiológica:** Inibição da secreção hormonal (GH, TSH, insulina, VIP, ACTH, hormônio pancreático).\n- **Órgãos-alvo:** Adeno-hipófise (GH/TSH), intestino, pâncreas, tumores neuroendócrinos.\n\n### 2.4 Insulina\n\n- **Receptor:** InsR, tirosina quinase em tecidos sensíveis à insulina (fígado, músculo, adipócito).\n- **Efeito:** Facilita captação de glicose, inibe lipólise, estimula síntese proteica.\n\n---\n\n## 3. Farmacologia comparada (PK/PD, engenharia molecular, vias de administração)\n\n| Fármaco         | Molécula           | PK/PD               | Meia-vida      | Via        | Observações         | Registro ANVISA       |\n|-----------------|--------------------|---------------------|----------------|------------|---------------------|-----------------------|\n| Setmelanotida   | Peptídico MC4R     | SC, 1x/dia          | ~11 h          | SC         | Excreção renal 85%  | Sim, restrito a obd. monogênica |\n| Teriparatida    | PTH [1-34]         | SC, 1x/dia          | ~1 h           | SC         | Anabolismo ósseo    | Sim, osteoporose      |\n| Abaloparatida   | PTHrP análogo      | SC, 1x/dia          | ~1 h           | SC         | Hipercalcemia <20%  | Sim, osteoporose p/ mulheres |\n| Octreotida      | Somatostatina anal | SC/IM (LAR)         | 1,5 h / 2–4 sem| SC/IM      | Tumores, acromegalia| Sim                  |\n| Lanreotida      | Somatostatina anal | SC/IM (depot)       | 23–30 dias     | SC/IM      | Tumores, acromegalia| Sim                  |\n| Pasireotida     | Somatostatina anal | SC/IM               | 10–24 h        | SC/IM      | Menos seletiva      | Sim (tumores)        |\n| Insulina        | Diversos análogos  | SC, IV (UCI)        | min–h/dias     | SC/IV      | Diabetes            | Sim                  |\n\n**Destaques:**  \n- Todos, exceto insulina intravenosa, administrados por via subcutânea devido baixa biodisponibilidade oral (proteólise gástrica).\n- Teriparatida e abaloparatida: ação anabólica exige pic diário, curta meia-vida.\n- Análogos de somatostatina: variações específicas em cadeia de aa aumentam meia-vida.\n- Setmelanotida requer escalonamento (pelo risco de hiperpigmentação e náusea).\n\n---\n\n## 4. Evidência crítica comparada (ensaios, desfechos, magnitude, limitações)\n\n### 4.1 Análogos de PTH\n\n#### Teriparatida em osteoporose esteroide vs. alendronato (N Engl J Med 2007) [S6]\n- **Desenho:** ECR duplo-cego, multicêntrico, 428 pacientes ≥22 anos (prednisona ≥5 mg/dia ≥3m)\n- **Intervenção:** Teriparatida 20 μg SC/dia vs. alendronato 10 mg VO/dia, 18 meses.\n- **Desfechos:**\n    - **Primário:** Variação BMD coluna lombar.\n    - **Secundários:** BMD quadril total, fraturas, marcadores ósseos, segurança.\n- **Magnitude:**\n    - BMD coluna: +7,2% (teriparatida) vs. +3,4% (alendronato), p<0,001.\n    - Incidência de fratura morfométrica: menor no grupo teriparatida (HR 0,56; IC95% 0,35–0,90).\n    - Fraturas não-vertebrais: tendência à redução, não significativo.\n- **Limitações:** Sem cegamento para placebo; população heterogênea.\n\n#### Abaloparatida em osteoporose pós-menopausa (JAMA 2016) [S8]\n- **Desenho:** ECR fase 3, 2463 mulheres, T-score ≤-2,5 a >-5,0 ou fratura prévia.\n- **Intervenção:** 80 μg SC/dia x placebo x teriparatida (open label).\n- **Desfecho primário:** Nova fratura vertebral.\n- **Resultados:**\n    - Fratura vertebral: 0,58% (abaloparatida) vs. 4,2% (placebo), RR 0,13 (IC95% 0,05–0,38).\n    - BMD coluna: aumentos de +9,2% (abaloparatida), +7,4% (teriparatida).\n- **Limitações:** Duração (18 meses), população restrita.\n\n### 4.2 Análogos de Somatostatina\n\n- **Octreotida/lanreotida:** ECRs (diversos) validam efetividade em controle hormonal e redução tumoral em acromegalia e tumores neuroendócrinos, desfechos biológicos (GH, IGF-1, prolactina, flushing, diarreia) [verificar].\n- **Pasireotida:** Maior afinidade por SSTR5; ECRs sustentam seu papel em doença de Cushing (controle do cortisol).\n\n### 4.3 Setmelanotida para obesidade monogênica\n\n- **Estudo pivot:** ECR multicêntrico, n=21 (POMC/LEPR bialélicos), 1 ano.\n- **Desfecho primário:** Redução ≥10% do peso basal em 1 ano.\n- **Resultados:** 80% atingiram o endpoint principal; média de perda de peso: -25–30% do basal.\n- **Limitações:** População ultra-selecionada, sem generalização.\n\n#### Tabela 1: Resumo de Grandes Ensaios de Peptídeos não-incretínicos\n\n| Fármaco       | População       | N    | Duração | Dose               | Desfecho Primário            | Efeito (%/IC/RR)   | Evidência |\n|---------------|----------------|------|---------|--------------------|------------------------------|---------------------|-----------|\n| Teriparatida  | osteoporose/GC | 428  | 18m     | 20 μg/dia SC       | Δ BMD coluna                 | +7,2% vs +3,4%      | A         |\n| Abaloparatida | osteoporose/PM | 2463 | 18m     | 80 μg/dia SC       | Nova fratura vertebral       | 0,58% vs 4,2% (RR 0,13)| A        |\n| Setmelanotida | obesidade mon. | 21   | 12m     | SC escalonado      | Perda ≥10% peso basal        | 80% alcançaram      | A (raro)  |\n| Octreotida    | acromegalia/TNE| >1000| 12–24m  | SC/IM LAR          | Controle GH/IGF-1/excreção   | >65% controle bioq. | A         |\n| Pasireotida   | Cushing/TNE    | ~150 | 12m     | SC/IM              | Cortisol normalização        | ~50% normalização   | A         |\n\n### 4.4 Limites e apontamentos\n\n- **Generalização:** Efeitos anabólicos ósseos restritos a osteoporose refratária/alta gravidade (desfechos duros: fratura/BMD).\n- **Off-label:** Não sustentado uso em contexto estético, “regenerativo” ou performance — ausência total de ECRs robustos [S1, S26].\n- **Segurança:** Hipercalcemia, litíase nefrolítica (análogos PTH); IC restritas, hiperglicemia (anál. somatostatina — especialmente pasireotida); risco cardiovascular e desfechos não estudados para usos não-on label.\n\n---\n\n## 5. Indicações, contra-indicações e seleção de pacientes (fenótipos)\n\n### 5.1 Indicações Reguladas (ANVISA):\n\n#### Setmelanotida\n- **ON LABEL:** Obesidade monogênica confirmada (mutação bialélica POMC, LEPR, PCSK1).\n- **OFF LABEL:** Obesidade comum — eficácia negligenciável, contraindica extrapolação.\n- **CONTRA-INDICAÇÕES:** Infância <6 anos, gestação, hipersensibilidade.\n\n#### Teriparatida/Abaloparatida\n- **ON LABEL:** Osteoporose pós-menopausa; osteoporosis por GC em alto risco de fratura.\n- **CONTRA-INDICAÇÕES ABSOLUTAS:**\n    - Doença óssea metabólica distinta de osteoporose (ex: doença de Paget).\n    - Hipercalcemia.\n    - Neoplasia óssea ativa ou história de radiação esquelética.\n- **CONTRA-INDICAÇÕES RELATIVAS:**\n    - IRC avançada (ClCr <30 mL/min) — risco aumentado de toxicidade.\n    - Hipercalciúria idiopática.\n\n#### Análogos de somatostatina\n- **ON LABEL:** Tumores neuroendócrinos (incluindo VIPoma, insulinoma, gastrinoma), acromegalia resistente, doença de Cushing (pasireotida).\n- **CONTRA-INDICAÇÕES:** Hipersensibilidade, colelitíase ativa não tratada, IC descompensada (avaliar).\n\n#### Insulina\n- **ON LABEL:** DM1, DM2 refratário, estados hiperglicêmicos agudos.\n- **CONTRA-INDICAÇÕES:** Hipoglicemia ativa.\n\n### 5.2 Fenótipo ideal para prescrição\n\n- Setmelanotida: Obesidade grave de início precoce (<1 ano), hiperfagia extrema, história familiar consanguínea, confirmação genética.\n- Teriparatida/abaloparatida: Osteoporose com fratura prévia, intolerância ou falha a bisfosfonatos, T-score <-3,0, risco alto (ex: GC crônico).\n- Análogos de somatostatina: TNEs secretantes, acromegalia irrespondivel à cirurgia/radioterapia, sintomas refratários.\n\n### 5.3 O que NÃO prescrever — limites éticos e legais\n\n- Proibido manipular setmelanotida, análogos de PTH e somatostatina para fins estéticos/longevidade (ANVISA/CFM).\n- Off-label estético/regenerativo: sem ECR fase 3 nem plausibilidade fisiopatológica (nível D de evidência).\n- Suporte apenas em pesquisas clínicas em centros autorizados.\n\n---\n\n## 6. Conduta prática passo a passo (doses, titulação, manejo de efeitos adversos)\n\n### Tabela 2: Doses, titulação, efeitos adversos e manejo\n\n| Fármaco         | Dose inicial        | Titulação               | Manutenção          | EA mais comuns          | Manejo EA                 | Registro/brasil           |\n|-----------------|--------------------|-------------------------|---------------------|-------------------------|---------------------------|---------------------------|\n| Setmelanotida   | 2 mg/dia (<6a: 1 mg)| ↑2 mg c/2 semanas até 3 mg| 3 mg SC/dia         | Náusea, hiperpigmentação| Reduzir/pausar, sintomas  | On label (obesidade mono) |\n| Teriparatida    | 20 μg SC 1x/dia    | Fixas, sem titulação    | 24 meses*           | Náusea, dor local, hipo| Reduzir/pausar, reidratar | On label                  |\n| Abaloparatida   | 80 μg SC 1x/dia    | Fixas, sem titulação    | Máx 18 meses        | Hipercalcemia, tontura  | Hidratação, monitorar Ca  | On label                  |\n| Octreotida LAR  | 20 mg IM c/28d     | ↑10 mg c/2 ciclos       | Máx 40 mg IM/28d    | Colelitíase, diarreia   | USG vesícula, dieta       | On label                  |\n| Lanreotida      | 60–120 mg SC/IM c/28d| Aumentar 30 mg se ineficaz| 120 mg SC/28d      | Colelitíase, dor abdome | Monitorar, sint.          | On label                  |\n| Pasireotida     | 600–900 μg SC 2x/dia| Aumentar após 2m se necessário| 1,8 mg SC total    | Hiperglicemia, GI leves| Monitorar glicemia, ADO   | On label                  |\n| Insulina        | Variável           | Conforme resposta glicêmica| Varia              | Hipoglicemia            | Orientar, glicose oral    | On label                  |\n\n*Teriparatida: total de 24 meses ao longo da vida, por risco teórico de osteossarcoma.\n\n### Passo a passo prático\n\n1. **Confirmação diagnóstica rigorosa** antes de iniciar: risco de judicialização em ausência de target molecular (no caso da setmelanotida).\n2. **Consentimento informado** detalhando indicação on label, evidência, e alternativas.\n3. **Orientação e treinamento** (autoadministração subcutânea), descarte seguro de seringas.\n4. **Monitoramento laboratorial base:** ver seção 7.\n5. **Supervisão regular (clinic/telemed):** ajuste EA, adesão, documentação minuciosa.\n\n---\n\n## 7. Monitoramento laboratorial e de composição corporal\n\n### 7.1 Teriparatida/Abaloparatida\n- **Antes/Início:** Cálcio sérico, creatinina, PTH intacto, marcadores ósseos (fosfatase alcalina, CTX), DEXA.\n- **Durante:** Cálcio sérico mensal (primeiros 3 meses), DEXA anual.\n- **Após suspensão:** Repetir DEXA e avaliar manutenção com anti-reabsortivos.\n\n### 7.2 Setmelanotida\n- **Antes:** Cálcio, função renal, hemograma, exclusão de causas secundárias de obesidade.\n- **Durante:** Peso semanal, glicemia jejum/mensal, controle de hiperpigmentação.\n- **Genética:** Reteste em caso de heterozigotos.\n\n### 7.3 Análogos de somatostatina\n- **Antes:** USG abdominal (vesícula), perfil glicêmico, TSH, ECG.\n- **Durante:** USG/6m, glicemia/3m, IGF-1/3–6m (acromegalia), função hepática.\n\n### 7.4 Insulina\n- **Padrão ouro em DM:** HbA1c trimestral, glicemias capilares/contínuas, lipidograma, função renal.\n\n---\n\n## 8. Segurança, interações e perioperatório\n\n### 8.1 Teriparatida, abaloparatida\n- **Riscos:** Hipercalcemia transitória, hiperuricemia, cálculos renais, osteossarcoma em ratos (não reproduzido em humanos, risco teórico).\n- **Interações:** Potencialização hipercalcemia com tiazídicos/lítio.\n- **Perioperatório:** Pausar em hipercalcemia aguda; risco baixo de cicatrização alterada.\n\n### 8.2 Setmelanotida\n- **EAs:** Náusea, hiperpigmentação zonas palmoplantares, fadiga.\n- **Interações:** Sem metabólito CYP, interação mínima reportada. Pode aumentar peso de impacto em outras drogas sem supressão do apetite.\n- **Perioperatório:** Nenhuma conduta específica.\n\n### 8.3 Análogos de somatostatina\n- **Riscos agudos:** Colelitíase, distúrbios GI, hipoglicemia/hiperglicemia, bradicardia.\n- **Interações:** Insulina, hipoglicemiantes orais (potencia efeitos), ciclosporina (aumenta clearance).\n- **Perioperatório:** Reduzir doses / transitar para formulação de curta ação; avaliar glicemia e função hepática.\n\n### 8.4 Insulina\n- **Perioperatório:** Avaliar redução de dose/noite anterior; preferência a insulinas de ação rápida em protocolos de cirurgia.\n\n---\n\n## 9. Aspectos regulatórios e éticos no Brasil\n\n- **ANVISA:** Todas as moléculas discutidas dispõem de registro estrito conforme indicação; é proibido manipular/comercializar para uso não autorizado (off-label estético = infração grave).\n- **CFM 2.333/2023:** Veda expressamente prescrição de “peptídeos injetáveis para rejuvenescimento, ganho de massa, performance ou estética” sem dados de ECRs (exclui incretinas, insulina, análogos PTH e somatostatina para indicação on-label aprovada).\n- **WADA:** Análogos de PTH, setmelanotida e somatostatina constam em lista de monitoramento (fins esportivos = proibido).\n- **Documentação:** Consentimento livre e esclarecido, registro em prontuário e justificativa diagnóstica clara são mandatórios.\n\n---\n\n## 10. Fronteira terapêutica e o que NÃO prescrever\n\n- **Sem registro/anvisa e sem ECRs humanos robustos:** Ex: secretagogos de GH (GHRP, CJC-1295, ipamorelina), peptídeos “regenerativos” (BPC-157, TB-500) — evidência não extrapolável para humanos [S1, S26, S27].\n- **Limite da extrapolação:** Não há suporte para uso de setmelanotida, análogos de somatostatina, teriparatida ou abaloparatida para emagrecimento usual, ganho de performance, “longevidade” ou estética.\n- **Só deve prescrever fora de bula em contexto de pesquisa clínica, com aprovação de CEP e ANVISA; do contrário, infração ética grave.**\n\n---\n\n## 11. Pérolas, armadilhas e checklist do consultório\n\n**Pérolas:**\n1. Rastreamento genético é obrigatório antes de iniciar setmelanotida — não presuma diagnóstico pela clínica.\n2. Ciclo total vitalício de teriparatida não deve exceder 24 meses — risco teórico de osteossarcoma.\n3. Análogos de somatostatina exigem monitoramento ativo para colelitíase — ultrassom semestral minimiza risco silencioso.\n4. Nunca aceite manipulação de peptídeos de uso restrito – responsabilidade é do prescritor (CFM/ANVISA).\n5. Consentimento informado completo e documentação rigorosa blindam o exercício médico.\n\n**Principais armadilhas:**\n- Indicar setmelanotida em “obesidade comum” – fármaco sem eficácia clínica neste contexto, além de alto custo e risco judicial.\n- Uso prolongado inadvertido (ana. PTH), além do tempo recomendado – risco teórico evidenciado em modelo animal.\n- Ignorar monitoramento do cálcio – hipercalcemia pode ser silenciosa porém perigosa.\n- Suplementação de cálcio/vitamina D excessiva enquanto em análogos PTH – ajuste conforme exames.\n- Prescrever peptídeos “research-use-only” – penalidades criminais e perda de CRM.\n\n**Checklist (consultório — 60 segundos):**\n- [ ] Indicação atende bula/registro ANVISA?\n- [ ] Diagnóstico confirmado por evidência objetiva? (genética, BMD, exame hormonal)\n- [ ] Consentimento esclarecido documentado?\n- [ ] Monitoramento laboratorial inicial solicitado/documentado?\n- [ ] Orientação de EA e condutas de emergência transmitida?\n- [ ] Haverá reavaliação agendada?\n- [ ] Paciente não deseja para fins estéticos/longevidade?\n\n---\n\n## 12. Referências\n\n1. [S1] Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos. Doutiva Editorial 2026.\n2. [S6] Saag KG, Shane E, Boonen S et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med 2007.\n3. [S8] Miller PD, Hattersley G, Riis BJ et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis. JAMA 2016.\n4. [S11] Kanis JA, McCloskey EV, Johansson H et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2013.\n5. [S13] Kanis JA, Cooper C, Rizzoli R et al. European guidance for diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2019.\n6. [verificar] Ensaios pivotais octreotida/lanreotida (ver literatura secundária para acromegalia/TNEs).\n7. FDA setmelanotide: approval label.\n8. CFM. Resolução 2.333/2023, Manual de Conduta Ética para prescrição de medicamentos injetáveis ministrados por via subcutânea ou muscular com finalidade estética.\n9. ANVISA, Bulário eletrônico: teriparatida, abaloparatida, octreotida, lanreotida, pasireotida e setmelanotida (bulas atuais).\n10. [S26] Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos. Doutiva Editorial 2026.\n\n---\n\n### CASO CLÍNICO (PBL)\n\n*Homem, 32 anos, IMC 49 kg/m², história de hiperfagia desde 1 ano de idade, nunca apresentou saciedade, múltiplos irmãos afetados. Exames: glicemia 86 mg/dL, TSH 1,3, cortisol 8 h 17,3 μg/dL, BMD normal, biologia molecular: mutação bialélica de POMC. Procura consulta após rejeição de múltiplos medicamentos antiobesidade. Qual a conduta?*\n\nA) Encaminhar para inibição reversível do MC4R com peptídeos manipulados.  \nB) Indicar setmelanotida SC, liberação especial via ANVISA, com consentimento esclarecido.  \nC) Iniciar tirzepatida 10 mg SC/semana, escalar dose máxima.  \nD) Iniciar orlistate + dieta privada de gordura.\n\n**Resposta correta:** B\n\n### Raciocínio Diferencial\n\n- **A) Peptídeos manipulados:** Proibido, sem eficácia/registro, infração ética.  \n- **B) Setmelanotida**: Justificativa genética, indicação aprovada, necessidade de GENOTIPAGEM, uso compassivo possível em via regularizada; requer consentimento.\n- **C) Tirzepatida/obesidade monogênica:** Não há benefício nos casos de circuitos MC4R deficitários; não responde ao mecanismo.\n- **D) Orlistate:** Eficácia marginal, ausência de benefício relevante em obesidade monogênica associada a hiperfagia; abordagem não dirigida ao mecanismo.\n\n**Teaching point:** Uso da setmelanotida deve ser restrito à população altamente selecionada por mutação confirmada, com registro, monitoramento e consentimento formal. Qualquer manipulação fere ética médica atual.\n\n---\n\n# SLIDES (sugestão visual concisa )\n\n1. **Armamentário peptídico com registro: além das incretinas**\n2. **MC4R: Fisiologia e setmelanotida · Algoritmo diagnóstico**  \n   _Fluxograma:_ Obesidade grave precoce → teste genético → POMC/LEPR/PCSK1 bialélico → indicar setmelanotida\n3. **Análogos de PTH e Abaloparatida: posicionamento, duração, risk management**\n4. **Análogos de somatostatina: indicações clínicas · split**\n   _Tabela split:_ Tumores NET x acromegalia x doença de Cushing x VIPoma\n5. **Tabela doses/análise-chave**\n   _Tabela visual_: Doses, titulação, monitoração-chave (ver Tabela 2)\n6. **Resumos de grandes ensaios clínicos**\n   _Barras:_ % redução de fraturas (teriparatida/abaloparatida), % perda de peso (setmelanotida)\n7. **Indicação on label vs extrapolação proibida**\n   _Barra dupla_: Escrito “registro x extrapolação x proibido”\n8. **Pérolas e red flags**\n9. **Quick ref/checklist**\n10. **Caso clínico: raciocínio e armadilha**\n11. **Matriz de risco regulatório (CFM/ANVISA/WADA)**\n12. **Pearl final: O que diferencia o médico do frasco**\n\n---\n\n### QUICK_REF · Guia de bolso (consultório, impressão)\n\n| Fármaco        | Indicação       | Dose       | Red flag      | Tempo máximo | Monitoramento chave          |\n|----------------|----------------|------------|---------------|-------------|-----------------------------|\n| Setmelanotida  | Obes. mono     | 2–3 mg SC  | Hiperpigment. | –           | Peso, glicemia, genética    |\n| Teriparatida   | Osteoporose    | 20 μg SC   | Hipercalcemia | 24m total   | Ca, DEXA, renal, marc. ósseo|\n| Abaloparatida  | Osteoporose    | 80 μg SC   | Hipercalcemia | 18m total   | Ca, DEXA                    |\n| Octreotida LAR | TNE/acromeg.   | 20–40 mg IM| Colelitíase   | –           | USG, TSH, glicemia          |\n\n- **Red flags:** Náusea intensa, dor abdominal persistente, hipercalcemia, hiperglicemia, pigmentação cutânea nova, sintomas neuropsiquiátricos.\n- **Checklist 60s:** Veja item 11.\n\n---\n\n### KEY_POINTS\n\n1. Restrinja uso de setmelanotida a obesidade monogênica com mutação bi-alélica comprovada por genética molecular.\n2. Teriparatida e abaloparatida são reservados a osteoporose com alto risco de fratura e falha/intolerância a anti-reabsortivos — nunca para fins “rejuvenescedores”.\n3. Monitoramento laboratorial rigoroso e documentação fortalecem a defesa clínica e legal — nunca prescreva off-label sem respaldo de guideline ECR fase 3.\n4. Análogos de somatostatina são pilar em tumores NET e acromegalia refratária, mas exigem vigilância de colelitíase e glicemia.\n5. A responsabilidade do médico é separar hype de ciência, protegendo o paciente de práticas antiéticas e assumindo protagonismo na medicina baseada em evidência.\n6. Nunca prescreva peptídeos manipulados/research-only para estética, performance ou longevidade — risco de processo e cassação de CRM.\n7. O papel do especialista reside no julgamento clínico, na segurança e na personalização baseada em ciência — o “frasco” é secundário.\n\n---\n\n**FIM**",
+  "quick_ref": "Guia rápido para prescrição e monitoramento\n\n| Fármaco       | Indicação               | Dose inicial       | Tempo máx.       | Red flag          | Monitoramento chave                     |\n|--------------|------------------------|--------------------|------------------|-------------------|----------------------------------------|\n| Setmelanotida| Obesidade monogênica     | 2–3 mg SC/dia      | --               | Hiperpigmentação  | Peso, glicemia, genética                |\n| Teriparatida | Osteoporose grave       | 20 μg SC/dia       | 24 meses vitalícios| Hipercalcemia    | Cálcio, DEXA, marcadores ósseos        |\n| Abaloparatida| Osteoporose pós-menopausa| 80 μg SC/dia       | 18 meses         | Hipercalcemia    | Cálcio, DEXA                           |\n| Octreotida   | TNE, acromegalia        | 20–40 mg IM/28d    | Conforme resposta| Colelitíase       | USG abdominal, glicemia, IGF-1          |\n\nCheck-list rápido (60s):\n- Uso on-label e evidenciado?\n- Diagnóstico confirmado por exame objetivo?\n- Consentimento informado registrado?\n- Monitoramento laboratorial solicitado?\n- Paciente orientado sobre EA e manejo?\n- Reavaliação agendada?\n- Exclusão de uso para fins estéticos/performance?",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "32 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "49 kg/m²"
+      },
+      {
+        "label": "História clínica",
+        "value": "Hiperfagia desde 1 ano de idade, ausência de saciedade"
+      },
+      {
+        "label": "Histórico familiar",
+        "value": "Irmãos com obesidade grave"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Glicemia 86 mg/dL, TSH 1,3, cortisol 17,3 μg/dL às 8h"
+      },
+      {
+        "label": "Densitometria Óssea",
+        "value": "Normal"
+      },
+      {
+        "label": "Genética molecular",
+        "value": "Mutação bialélica em POMC"
+      },
+      {
+        "label": "Tentativas prévias",
+        "value": "Rejeição de múltiplos medicamentos antiobesidade"
+      }
+    ],
+    "title": "Obesidade grave em adulto jovem com mutação bialélica em POMC",
+    "reward": 150,
+    "options": [
+      {
+        "label": "A) Encaminhar para inibição reversível do MC4R com peptídeos manipulados.",
+        "correct": false,
+        "rationale": "Manipulação é ilegal, não comprovada, infração ética e técnica."
+      },
+      {
+        "label": "B) Indicar setmelanotida SC, liberação especial via ANVISA, com consentimento esclarecido.",
+        "correct": true,
+        "rationale": "Indicação aprovada para obesidade monogênica documentada, com respaldo regulatório e evidência clínica."
+      },
+      {
+        "label": "C) Iniciar tirzepatida 10 mg SC/semana, escalar dose máxima.",
+        "correct": false,
+        "rationale": "Não evidenciado efetivo em obesidade monogênica por mutação MC4R."
+      },
+      {
+        "label": "D) Iniciar orlistate + dieta privada de gordura.",
+        "correct": false,
+        "rationale": "Baixa eficácia e não dirigido ao mecanismo patológico da obesidade monogênica."
+      }
+    ],
+    "question": "Qual a conduta mais apropriada para tratamento da obesidade deste paciente?",
+    "vignette": "Paciente masculino, 32 anos, IMC 49 kg/m², relato de hiperfagia desde o 1º ano de vida, ausência de saciedade, histórico familiar positivo para obesidade grave em múltiplos irmãos. Exames laboratoriais normais para glicemia, função tireoidiana e cortisol matinal. Biometria óssea normal. Sequenciamento genético confirma mutação bialélica em POMC.",
+    "teaching": "Este caso ilustra a importância do diagnóstico etiológico preciso em obesidade grave, permitindo o uso racional da setmelanotida, agonista MC4R indicado exclusivamente para obesidade monogênica por mutações em genes específicos, como POMC. O uso off-label de outras terapias antiobesidade (ex.: tirzepatida) ou peptídeos manipulados é contraindicado, sem evidência e passível de consequências legais. O manejo deve incluir consentimento informado, monitoramento clínico e laboratorial rigoroso e evitar práticas não respaldadas por evidência e regulamento. O médico deve atuar com base no estudo molecular e protocolo aprovado, protegendo o paciente e sua prática clínica."
+  },
+  "refs": [
+    {
+      "citation": "Saag KG, Shane E, Boonen S, et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med 2007;357:2028-2039."
+    },
+    {
+      "citation": "Miller PD, Hattersley G, Riis BJ, et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial. JAMA 2016;316(7):722-733."
+    },
+    {
+      "citation": "Kanis JA, McCloskey EV, Johansson H, et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2013;24(1):23-57."
+    },
+    {
+      "citation": "Saag KG, Shane E, Boonen S, et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007 Nov 29;357(22):2028-39."
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/213371s000lbl.pdf",
+      "citation": "FDA. Setmelanotide (Imcivree) approval label."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023 – Prática ética na prescrição de medicamentos para fins estéticos."
+    }
+  ],
+  "status": "published"
+}
