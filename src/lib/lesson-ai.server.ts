@@ -235,3 +235,115 @@ export async function generateLesson(input: {
     friendly(e);
   }
 }
+
+const RAISE_BAR_NOTES = `PADRÃO RAISE-BAR DOUTIVA (meta profundidade 8,5–9/10):
+- Toda afirmação numérica de ensaio (n, %, HR, IC95%, dose rotulada) deve citar [S#] do material-fonte OU trazer "(verificar — não ancorado)".
+- Preferir cortar claim a inventar. Nunca fabricar DOI.
+- Incluir tabela "Registrado / off-label / manipulado / não prescrever" quando houver terapêutica.
+- Incluir fluxograma clínico em markdown (passos numerados) aplicável ao Brasil.
+- Incluir checklist de prontuário/TCLE (itens objetivos).
+- Separar evidência A/B/C/D explicitamente nas seções de ensaios.
+- Tom de professor USP/SBEM: sóbrio, anti-hype, acionável.`;
+
+const FIX_SYSTEM = `Você é editor médico sênior da Doutiva. Recebe uma MONOGRAFIA e um AUDIT crítico.
+Reescreva a MONOGRAFIA corrigindo erros factuais/de dose apontados, removendo claims sem suporte, reforçando âncoras [S#] do material-fonte, e acrescentando (se faltarem): (1) tabela regulatória registrado/off-label/manipulado/não prescrever; (2) fluxograma de conduta BR; (3) checklist de prontuário.
+Regras: não invente estudos/DOIs/números; se incerto use "(verificar)". Mantenha profundidade de tratado (não encurtar drasticamente). Responda APENAS com a monografia corrigida em markdown.`;
+
+/**
+ * Raise-bar pipeline: deeper generation + independent audit + mandatory fix rewrite + restructure.
+ */
+export async function raiseBarLesson(input: {
+  topic: string;
+  courseTitle: string;
+  moduleTitle: string;
+  sources: string;
+  notes: string;
+  existingMonograph?: string;
+}): Promise<GeneratedLesson> {
+  requireAiApiKey();
+  const openai = createGatewayOpenAI();
+  const direct = usesOpenAIDirect();
+  const notes = `${RAISE_BAR_NOTES}\n\n${input.notes || ""}`;
+
+  try {
+    let monograph = (input.existingMonograph || "").trim();
+
+    if (monograph.length < 3000) {
+      const base = await generateLesson({ ...input, notes });
+      monograph = base.monograph;
+      // continue to fix pass using base.audit
+      const fix = streamText({
+        model: direct ? openai("gpt-4.1") : createGatewayAnthropic()!("anthropic/claude-sonnet-5"),
+        system: FIX_SYSTEM,
+        prompt: `Tema: ${input.topic}\n\n=== MATERIAL-FONTE ===\n${input.sources.slice(0, 100000)}\n\n=== AUDIT ===\n${base.audit}\n\n=== MONOGRAFIA ===\n${monograph}`,
+        maxOutputTokens: 48000,
+        maxRetries: 0,
+      });
+      monograph = (await fix.text).trim() || monograph;
+    } else {
+      // Audit existing treatise then fix in place (cheaper raise-bar path).
+      const auditRun = streamText({
+        model: direct ? openai("gpt-4.1-mini") : createGatewayAnthropic()!("anthropic/claude-sonnet-5"),
+        system: AUDIT_SYSTEM,
+        prompt: `Tema: ${input.topic}\n\n=== MONOGRAFIA ===\n${monograph}`,
+        maxOutputTokens: 4000,
+        maxRetries: 0,
+      });
+      const audit = (await auditRun.text).trim();
+      const fix = streamText({
+        model: direct ? openai("gpt-4.1") : createGatewayAnthropic()!("anthropic/claude-sonnet-5"),
+        system: FIX_SYSTEM,
+        prompt: `Tema: ${input.topic}\nCurso: ${input.courseTitle}\nMódulo: ${input.moduleTitle}\nNotas:\n${notes}\n\n=== MATERIAL-FONTE ===\n${input.sources.slice(0, 120000)}\n\n=== AUDIT ===\n${audit}\n\n=== MONOGRAFIA ===\n${monograph}`,
+        maxOutputTokens: 48000,
+        maxRetries: 0,
+      });
+      monograph = (await fix.text).trim() || monograph;
+    }
+
+    if (monograph.length < 2000) throw new Error("Monografia raise-bar ficou curta demais.");
+
+    const structured = streamText({
+      model: doutivaChatModel(openai),
+      system:
+        SYSTEM +
+        `\n\nRAISE-BAR: devolva a monografia INTEGRALMENTE. Derive 8–12 slides densos (title, table de doses/ensaios, bars ou bullets numéricos, flow, split, pearl), caso clínico nível residência (4 opções plausíveis), quick_ref com tabela de dose/red flags, key_points 5–7, refs preferindo as do material-fonte.`,
+      prompt: `Curso: ${input.courseTitle}\nMódulo: ${input.moduleTitle}\nTema: ${input.topic}\nNotas:\n${notes}\n\n=== FONTES ===\n${input.sources.slice(0, 80000)}\n\n=== MONOGRAFIA ===\n${monograph}`,
+      output: Output.object({ schema: lessonSchema }),
+      providerOptions: doutivaOpenAIProviderOptions("medium"),
+    });
+    const o = await structured.output;
+
+    const auditFinal = streamText({
+      model: direct ? openai("gpt-4.1-mini") : createGatewayAnthropic()!("anthropic/claude-sonnet-5"),
+      system: AUDIT_SYSTEM,
+      prompt: `Tema: ${input.topic}\n\n=== MONOGRAFIA ===\n${monograph}\n\n=== CASO ===\n${JSON.stringify(o.clinical_case)}\n\n=== GUIA ===\n${o.quick_ref}`,
+      maxOutputTokens: 4000,
+      maxRetries: 0,
+    });
+    const audit = (await auditFinal.text).trim();
+
+    return {
+      title: o.title,
+      description: o.description,
+      evidence_level: o.evidence_level,
+      duration_minutes: Math.max(60, Math.round(o.duration_minutes || 75)),
+      key_points: o.key_points,
+      refs: o.refs.map((r) => ({ citation: r.citation, url: r.url ?? undefined })),
+      slides: o.slides.map(toSlideFromAi).filter((s): s is Slide => !!s),
+      monograph,
+      quickRef: o.quick_ref,
+      clinicalCase: toCase(o.clinical_case) ?? {
+        title: "",
+        vignette: "",
+        data: [],
+        question: "",
+        options: [],
+        teaching: "",
+        reward: 0,
+      },
+      audit,
+    };
+  } catch (e) {
+    friendly(e);
+  }
+}
