@@ -61,6 +61,10 @@ async function searchPmc() {
     '(semaglutide OR tirzepatide OR "GLP-1" OR "growth hormone releasing" OR BPC-157) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"meta-analysis" OR PUB_TYPE:"systematic review" OR PUB_TYPE:"practice guideline" OR PUB_TYPE:"clinical trial, phase iii") AND SRC:MED',
     '(retatrutide OR cagrilintide OR orforglipron OR survodutide) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"clinical trial, phase ii" OR PUB_TYPE:"clinical trial, phase iii") AND SRC:MED',
     '(setmelanotide OR tesamorelin OR teriparatide) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"practice guideline") AND SRC:MED',
+    '("testosterone replacement" OR "menopausal hormone therapy" OR "estradiol implant" OR hypogonadism) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"practice guideline" OR PUB_TYPE:"systematic review") AND SRC:MED',
+    '(sarcopenia OR "body composition" OR "lean mass" OR "resistance training" obesity) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"systematic review" OR PUB_TYPE:"practice guideline") AND SRC:MED',
+    '("artificial intelligence" OR "large language model" OR ChatGPT) AND (clinical OR medicine OR diagnostic) AND (PUB_TYPE:"randomized controlled trial" OR PUB_TYPE:"systematic review" OR PUB_TYPE:"practice guideline") AND SRC:MED',
+    '("intravenous vitamin" OR "parenteral nutrition" OR "compounding pharmacy" OR "sterile compounding") AND (PUB_TYPE:"review" OR PUB_TYPE:"practice guideline" OR PUB_TYPE:"systematic review") AND SRC:MED',
   ];
   const seen = new Set();
   const out = [];
