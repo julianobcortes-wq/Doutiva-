@@ -89,7 +89,25 @@ export function createGatewayOpenAI() {
   });
 }
 
+/** True when a first-party Anthropic key is present (Claude for treatise writing). */
+export function hasAnthropicDirect() {
+  return Boolean(process.env["ANTHROPIC_API_KEY"]);
+}
+
+/**
+ * Anthropic client.
+ * Prefer ANTHROPIC_API_KEY → api.anthropic.com.
+ * Lovable gateway only when no Anthropic key and gateway is Lovable.
+ */
 export function createGatewayAnthropic() {
+  const anthropicKey = process.env["ANTHROPIC_API_KEY"];
+  if (anthropicKey) {
+    return createAnthropic({
+      apiKey: anthropicKey,
+      // Default Anthropic API host — do NOT route through OpenAI base URL.
+    });
+  }
+
   const apiKey = requireAiApiKey();
   const baseURL = gatewayBaseUrl();
   const lovable = isLovableGateway(baseURL);
@@ -100,4 +118,13 @@ export function createGatewayAnthropic() {
       ? { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" }
       : undefined,
   });
+}
+
+/** Models for dual-provider raise-bar (OpenAI structure + Claude treatise). */
+export function doutivaClaudeTreatiseModel() {
+  return process.env["DOUTIVA_CLAUDE_TREATISE_MODEL"] || "claude-opus-4-5";
+}
+
+export function doutivaClaudeAuditModel() {
+  return process.env["DOUTIVA_CLAUDE_AUDIT_MODEL"] || "claude-haiku-4-5";
 }

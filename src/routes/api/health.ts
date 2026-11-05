@@ -9,6 +9,7 @@ export const Route = createFileRoute("/api/health")({
           service: "doutiva",
           stripe: Boolean(process.env["STRIPE_SECRET_KEY"]),
           openai: Boolean(process.env["OPENAI_API_KEY"]),
+          anthropic: Boolean(process.env["ANTHROPIC_API_KEY"]),
           ts: new Date().toISOString(),
         }),
     },
