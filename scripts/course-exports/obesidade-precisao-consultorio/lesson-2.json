@@ -1,0 +1,338 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Bases",
+  "module_position": 1,
+  "title": "Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada",
+  "description": "Esta aula aborda a fenotipagem clínica da obesidade com foco na identificação prática dos subtipos fenotípicos (fome, saciedade, emocional, sarcopênico e metabolicamente doente), essenciais para a prescrição segura, ética e eficaz da farmacoterapia, respeitando o contexto regulatório brasileiro (ANVISA, CFM, WADA). Baseada em evidências de alto nível e consensos, apresenta ferramentas anamnésticas, exames físicos e laboratoriais úteis à prática do endocrinologista, nutrólogo e clínico geral, correlacionando fenótipo e conduta terapêutica, com destaque para medicamentos aprovados (GLP-1 agonistas, tirzepatida, naltrexona/bupropiona, metformina) e restrições éticas em hormonioterapia e manipulação estéril.",
+  "duration_minutes": 90,
+  "evidence_level": "A (ECR fase 3, diretrizes ADA, metanálises)",
+  "key_points": [
+    "Fenotipagem clínica individualiza o manejo da obesidade, maximizando eficácia e segurança farmacológica.",
+    "GLP-1 agonistas e tirzepatida são tratamentos de primeira linha, respeitando status regulatório brasileiro e acompanhamento rigoroso.",
+    "Pacientes sarcopênicos necessitam foco em preservação da massa magra; incretínicos podem agravar perda muscular se não monitorados.",
+    "Evitar uso de GH e hormônios sem indicação comprovada (CFM 2.333/2023); manipulações oficiais restritas e documentadas.",
+    "Monitoramento multidimensional (clínico, laboratorial, composição corporal) é obrigatório para ajuste terapêutico.",
+    "Abordagem multidisciplinar (nutrição, psicologia, atividade física) potencializa resultados em obesidade fenotipada.",
+    "Checklist prático: anamnese dirigida, exame físico específico, exames laboratoriais, classificação fenotípica e escolha terapêutica ética."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada",
+      "subtitle": "Obesidade de Precisão no Consultório – Módulo 1: Bases Fenotípicas e Tratamento Individualizado"
+    },
+    {
+      "head": [
+        "Fenótipo",
+        "Prevalência*",
+        "Marcadores-chave",
+        "Estratégia de 1ª linha",
+        "Terapia farmacológica (registro BR)",
+        "Meta primária",
+        "Contra-indicações/alertas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Hiperfágico",
+          "20–35%",
+          "Fome persistente, lanches",
+          "Reeducação alimentar; Mindful Eating",
+          "GLP-1 agonista (semaglutida, liraglutida - A), tirzepatida (em aprovação)",
+          "Perda ponderal ≥10%",
+          "Evitar estimulantes; risco psiquiátrico"
+        ],
+        [
+          "Déficit de saciedade",
+          "15–20%",
+          "Pratos volumosos, saciedade reduzida",
+          "Fracionamento alimentar; Mastigação",
+          "GLP-1 agonista (A), tirzepatida (em aprovação), fentermina/topiramato (off-label)",
+          "Redução ingestão calórica",
+          "Cuidado com gastroparesia"
+        ],
+        [
+          "Emocional/compulsivo",
+          "25–35%",
+          "Comer sob estresse, ansiedade",
+          "Psicoeducação, TCC, mindfulness",
+          "Naltrexona/bupropiona (A), sertralina (off-label)",
+          "Redução episódios compulsivos",
+          "Risco suicida, história psiquiátrica instável"
+        ],
+        [
+          "Sarcopênico",
+          "8–15%",
+          "Redução força, massa magra",
+          "Nutrição protéica; exercício resistido",
+          "Hormônios androgênicos (com critério), GH (deficiência)",
+          "Preservar massa magra",
+          "Proibido uso cosmético ou sem critério"
+        ],
+        [
+          "Metabolicamente doente",
+          "25–30%",
+          "HOMA-IR elevado, dislipidemia",
+          "Restrição calórica, exercício aeróbio",
+          "Metformina, GLP-1, pioglitazona, SGLT2i (todos registrados)",
+          "Remissão de IR, redução NASH",
+          "Função renal, risco hipoglicemia"
+        ],
+        [
+          "Metabolicamente saudável",
+          "10–20%",
+          "Sem T2DM, HAS, dislipidemia",
+          "Prevenção de complicações",
+          "Intervenção comportamental, GLP-1 individualizado",
+          "Prevenir progressão",
+          "Evitar polifarmácia"
+        ]
+      ],
+      "title": "Tabela 1. Fenótipos da Obesidade: Características, Triagem e Estratégias Terapêuticas",
+      "source": "[S1] ADA 2010 e consensos Brasil/EUA"
+    },
+    {
+      "kind": "bullets",
+      "title": "Principais perguntas da anamnese dirigida para fenotipagem clínica",
+      "bullets": [
+        "Horários e número de refeições e snacks diários",
+        "Padrão de volume alimentar (tamanho e rapidez da ingestão)",
+        "Episódios de fome intensa, compulsão e comer noturno",
+        "Associação da alimentação a estados emocionais (ansiedade, estresse)",
+        "Percepção e duração da saciedade após refeições",
+        "Nível de atividade física resistida e força muscular",
+        "Histórico familiar e pessoal de diabetes e doenças metabólicas",
+        "Sintomas sugestivos de sarcopenia (fadiga, perda de força)"
+      ]
+    },
+    {
+      "bars": [
+        {
+          "label": "Hiperfágico: 12–15%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Déficit de saciedade: 10–13%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Emocional/compulsivo: 8–12% com suporte psicológico",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Sarcopênico: preservação massa magra + 5–7% perda gordura",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Metabólico doente: melhora metabólica e 10–14% perda peso",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Metabolicamente saudável: foco em manutenção e prevenção",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "% Perda de peso",
+      "title": "Impacto da Fenotipagem na Efetividade da Intervenção Farmacológica",
+      "source": "Metanálises clínicas [S1], estudos RCT 2021-2023"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente com obesidade atende consulta de avaliação inicial"
+        },
+        {
+          "label": "Coleta de anamnese estruturada (fome, saciedade, emocional, sarcopenia, metabólico)"
+        },
+        {
+          "label": "Avaliação física (IMC, circunferência abdominal, força manual, bioimpedância)"
+        },
+        {
+          "label": "Solicitação de exames básicos (glicemia, lipídios, hepáticos, HOMA-IR)"
+        },
+        {
+          "label": "Classificação fenotípica predominante e sobreposição"
+        },
+        {
+          "label": "Selecionar farmacoterapia baseada no fenótipo e estado regulatório"
+        },
+        {
+          "label": "Iniciar intervenção de estilo de vida e acompanhamento multidisciplinar"
+        },
+        {
+          "label": "Monitoramento periódico e ajuste terapêutico"
+        },
+        {
+          "label": "Reavaliação e prevenção de complicações"
+        }
+      ],
+      "title": "Algoritmo Prático para Fenotipagem e Decisão Terapêutica em Obesidade"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Fenotipar sempre o paciente antes da prescrição",
+          "Respeitar registro ANVISA e normativas CFM para cada fármaco",
+          "Monitorar efeitos adversos e composição corporal regular",
+          "Associe psicoterapia e atividade física adequada",
+          "Utilizar dose inicial e ajuste gradual dos medicamentos"
+        ],
+        "label": "Práticas Éticas e Recomendadas"
+      },
+      "right": {
+        "items": [
+          "Prescrever GH ou hormônios anabólicos sem comprovada deficiência",
+          "Usar peptídeos ou manipulações 'research' sem registro oficial",
+          "Indicar implantes ou drips cosméticos sem critério clínico",
+          "Ignorar contraindicações clínicas e psiquiátricas",
+          "Subestimar a importância do acompanhamento multidimensional"
+        ],
+        "label": "Condutas Proibidas/Irregulares"
+      },
+      "title": "O Que Fazer vs. O Que Jamais Fazer na Prescrição da Obesidade de Precisão"
+    },
+    {
+      "head": [
+        "Classe",
+        "Parâmetros para Monitorar",
+        "Frequência",
+        "Nota"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "GLP-1 Agonistas/Tirzepatida",
+          "PA, glicemia, sintomas gastrointestinais, bioimpedância",
+          "Inicial, 1-3 meses, trimestral ou conforme necessidade",
+          "Ajustar dose lento para evitar EA"
+        ],
+        [
+          "Naltrexona/Bupropiona",
+          "Pressão, humor, risco suicida, convulsões",
+          "Inicial, mensal no início, trimestral",
+          "Avaliar psiquiátrico; monitorar compulsão"
+        ],
+        [
+          "Testosterona (com critério)",
+          "Hemograma, PSA, T/FSH, função hepática",
+          "Semestral a anual",
+          "Contraindicado uso estético"
+        ],
+        [
+          "Metformina",
+          "Glicemia, função renal, acidose",
+          "Semestral",
+          "Evitar em TFG <40"
+        ],
+        [
+          "Manipulações estéreis (implantes)",
+          "Controle rigoroso da origem e esterilidade",
+          "Avaliação contínua",
+          "Usar só com prescrição criteriosa"
+        ]
+      ],
+      "title": "Monitoramento Essencial por Classe Farmacológica na Obesidade",
+      "source": "Consenso brasileiras, CFM, ANVISA"
+    },
+    {
+      "kind": "pearl",
+      "text": "Fenotipar rigorosamente o paciente com obesidade permite prescrição ética, maximizando a resposta clínica e minimizando riscos legais e médicos — é o pilar da obesidade de precisão no consultório.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada\n\n---\n\n## 1. Contexto e Relevância\n\n### 1.1. Obesidade: Diversidade Fenotípica, Risco Cardiometabólico e a Demanda de Precisão\n\nA obesidade, reconhecida como entidade multifatorial e heterogênea, representa um dos maiores desafios do século XXI, sendo responsável por significativo aumento do risco para doenças cardiovasculares, diabetes tipo 2, esteatose hepática, apneia do sono, neoplasias, entre outros. Dados brasileiros sugerem uma prevalência superior a 25% em adultos, porém, com enorme variação quanto a gravidade e expressão clínica dos pacientes obesos.\n\nDesenvolvimentos recentes nas terapias farmacológicas (ex. tirzepatida, agonistas GLP-1, combinação de múltiplos mecanismos incretínicos) e novas fronteiras em manipulação estéril potencializaram a necessidade de identificação prática do fenótipo prevalente em cada paciente, viabilizando a prescrição ética, segura e regulatória—inclusive sob os olhos do CFM (Resolução 2.333/2023)—e maximizando benefício clínico.\n\n### 1.2. O Paradigma do Manejo de Precisão\n\nA simples quantificação do IMC tornou-se insuficiente. Diversos consensos e guidelines destacam a importância de ir além do diagnóstico sindrômico, promovendo avaliação abrangente dos mecanismos de ganho de peso, padrões de comportamento alimentar e riscos individuais (Evidência A [S1]). A abordagem correta integra:\n\n- Fenotipagem clínica/metabólica (fome, saciedade, emocional, sarcopênico, metabolicamente doente)\n- Estratificação de risco\n- Personalização da conduta farmacológica e intervenção de estilo de vida\n- Vigilância de segurança e efetividade, com rigor regulatório e ético\n\n---\n\n## 2. Bases Científicas da Fenotipagem na Obesidade\n\n### 2.1. Determinantes e Trajetórias Fenotípicas\n\nCada indivíduo obeso pode expressar, de forma predominante ou sobreposta, distintos mecanismos fisiopatológicos que impactam diretamente não apenas o sucesso terapêutico, mas também a segurança, custo-eficácia e risco a longo prazo. Relevantes:\n\n- **Hiperfagia primária (“fome persistente”)**: predomínio de drive hedônico e neuroendócrino de ingestão.\n- **Déficit ou atraso de saciedade**: padrões de refeições volumosas.\n- **Obesidade emocional**: vínculo entre alimentação e estados emocionais, baixa resposta a sinais internos de fome/saciedade.\n- **Obesidade sarcopênica**: massa magra reduzida, baixa termogênese, maior risco de fragilidade.\n- **Fenótipo metabólico adverso**: resistência insulínica, esteatose, dislipidemia (ainda que IMC <35).\n- **Obesidade metabolicamente saudável**: sem critérios de síndrome metabólica, apesar de excesso de peso.\n\n### 2.2. Mecanismos Fisiopatológicos\n\n- *Eixos hormonais*: leptina, grelina, GLP-1, PYY, insulina e amilina\n- *Neurobiologia*: circuitos de recompensa (dopamina), controle inibitório cortical, eixo HHS\n- *Inflamação crônica subclínica*\n- *Composição corporal*: predominância de massa gorda versus muscular\n- *Plasticidade adaptativa pós-perda de peso: redução de gasto energético, hiperapetite compensatório\n\nEvidência: Estas descrições têm embasamento em metanálises de fisiologia humana, trials clínicos de agonistas incretínicos e conhecimento robusto de fisiologia endócrina (Evidência A [S1]).\n\n---\n\n## 3. Ferramentas Práticas para Fenotipagem no Consultório\n\n### 3.1. Anamnese Dirigida e Questionários Validados\n\nFerramentas ágeis são essenciais para triagem e para obter informações que direcionam conduta:\n\n**Itens obrigatórios na consulta de obesidade de precisão:**\n\n- Horários das refeições e snacks\n- Padrão de volume alimentar (pratos volumosos X pequenas porções)\n- Episódios de ingestão rápida, “ataque de fome”, comer noturno\n- Fatores emocionais: gatilhos de estresse, ansiedade, tristeza\n- Nível de saciedade pós-refeição e sua duração\n- Consumo/alvo proteico, padrões de ingestão de proteína\n- História de perda de força, fadiga, sarcopenia\n- História familiar de T2DM (^ risco fenótipo metabólico)\n- Revisão de sistemas: apneia de sono, dor musculoesquelética, diarreia obstinada (alerta para diagnóstico diferencial)\n\n#### Exemplos de Instrumentos (adaptados para o Brasil):\n\n- *Escala Visual Analógica de Fome/Saciedade* (VAS)\n- *Questionário de Alimentação Emocional DEBQ* (Dutch Eating Behavior Questionnaire)\n- *Mini Nutritional Assessment* (para triagem de sarcopenia)\n- *Checklist metabólico*: PA, circunferência abdominal, HOMA-IR, perfil lipídico, TGO/TGP, ultrassonografia hepática\n\n### 3.2. Exame Físico Direcionado\n\n- Avaliação da força (handgrip, teste de sentar-levantar)\n- Circunferência muscular do braço e panturrilha\n- Bioimpedância multifrequencial (preferencial)\n- Sinais cutâneos de insulinorresistência: acantose nigricans, acrocórdons\n\n---\n\n## 4. Fenótipo e Estruturação da Conduta: Evidências e Tabela Comparativa\n\nA seguir, sumarizamos as principais características fenotípicas, prevalência estimada, principais marcadores clínicos/laboratoriais, terapias preferenciais e impacto nos desfechos com base em literatura internacional e consenso brasileiro (verificar referências originais para métricas detalhadas).\n\n### Tabela 1. Fenótipos da Obesidade: Características, Triagem e Estratégias Terapêuticas\n\n| Fenótipo                         | Prevalência*   | Marcadores-chave | Estratégia de 1ª linha          | Terapia farmacológica: evidência e registro no BR                          | Meta primária | Contra-indicações/alertas |\n|----------------------------------|:--------------:|-----------------|----------------------------------|----------------------------------------------------------------------------|--------------|--------------------------|\n| Hiperfágico                      | 20–35%         | Fome persistente, lanches | Reeducação alimentar; Mindful Eating | GLP-1 agonista (A; registrado: semaglutida, liraglutida), tirzepatida (A; registro em andamento ANVISA; manipulado possível) | Perda ponderal ≥10% | Evitar estimulantes; risco psiquiátrico |\n| Déficit de saciedade             | 15–20%         | Pratos volumosos, sem saciedade | Fracionamento alimentar; Mastigação | GLP-1 agonista (A; registrado), tirzepatida (A; em registro), fentermina/topiramato (off-label, manipulado) | Redução ingestão calórica| Cuidados com gastroparesia |\n| Emocional/compulsivo             | 25–35%         | Comer sob estresse, ansiedade | Psicoeducação, TCC, mindfulness | Naltrexona/bupropiona (A; registrado), sertralina (off-label, registrado), GLP-1 (efeito parcial, A) | Redução episódios compulsivos | Risco suicida, história psiquiátrica instável |\n| Sarcopênico                      | 8–15% (idade/frágil) | Redução força, massa magra↓ | Nutrição protéica; atividade resistida | Hormônios androgênicos (Hipogonadismo com critério: testosterona IM, gel — registrado), GH (proibido \"anti-aging\"; apenas deficiência), SERM - avaliação off-label | Preservar/imprimir massa magra | Proibido implante cosmético sem critério |\n| Metabolicamente doente           | 25–30%         | Aumento HOMA-IR, dislipidemia | Restrição calórica; exercício aeróbio | Metformina (A; registrado), GLP-1/Tirzepatida (A; registrado ou manipulado — ver status ANVISA), pioglitazona (A; registrado), SGLT2i (A; registrado) | Remissão de IR, NASH | Cuidados: função renal, risco hipoglicemia |\n| Metabolicamente saudável         | 10–20%         | AUSÊNCIA de T2DM, HAS, dislipidemia | Prevenção de complicações | Intervenção comportamental, GLP-1 (individualizar) | Prevenir progressão | Evitar polifarmácia |\n\n\\* Estimativas a partir de coortes mistas Brasil-EUA-Europa; n = variabilidade alta.  \nEvidências: [S1], diretrizes ADA, consensos brasileiros de endócrino, metanálises farmacológicas (verificar).\n\n---\n\n## 5. Seleção de Pacientes e Protocolo de Fenotipagem no Fluxo de Consultório\n\n### 5.1. Algoritmo Prático: Fluxo de Fenotipagem em 15 Minutos\n\n**Etapa 1 — Anamnese estruturada:**  \nQuestionário de triagem adaptado (incluindo fome, saciedade, emocional, histórico familiar, sinais de sarcopenia).\n\n**Etapa 2 — Avaliação física e laboratorial básica:**  \nPeso, estatura, circunferência abdominal, força manual, exames básicos (glicemia, perfil lipídico, função hepática).\n\n**Etapa 3 — Classificação fenotípica (pode haver sobreposição):**  \nVer tabela 1 para critérios.\n\n**Etapa 4 — Mapeamento de risco metabólico e contraindicações:**  \nSíndrome metabólica, HAS, T2DM manifesto, TFG <40 ml/min etc.\n\n**Etapa 5 — Plano terapêutico individualizado, priorizando conduta de valor, benefício comprovado e ética regulatória.**\n\n---\n\n### Tabela 2. Conduta Farmacológica de Precisão: Registro e Regulatório (BR) para Obesidade\n\n| Fármaco                    | Registro ANVISA           | Manipulação Estéril*    | Off-label permitido CFM/ANVISA              | Proibições CFM/WADA    | Dose inicial recomendada (adulto)          | Monitoramento            | Estabilidade/Armazenamento |\n|----------------------------|---------------------------|-------------------------|---------------------------------------------|------------------------|--------------------------------------------|--------------------------|---------------------------|\n| Semaglutida                | Sim                      | Não                    | Não                                         | —                      | 0,25 mg SC/semana, ajuste progressivo      | PA, glicemia, náusea     | Refrigerado, luz          |\n| Tirzepatida                | Não (em aprovação)       | Possível†              | Autorizado para T2DM, off obese documentado | —                      | 2,5-15 mg SC/semana (dose alvo ≥ 10mg)     | Idem Semaglutida         | Refrigerado, luz           |\n| Liraglutida                | Sim                      | Não                    | Sim para DM2, obesidade                     | —                      | 0,6–3 mg SC/dia, ajuste lento              | Idem Semaglutida         | Refrigerado                |\n| Naltrexona/Bupropiona      | Sim (amplo)              | Não                    | Sim                                         | —                      | 8/90 mg 1xdia; elevar até 32/360 mg/dia    | PA, humor, convulsão     | Amb (25°C)                 |\n| Metformina                 | Sim                      | Não                    | Sim                                         | —                      | 500–2000 mg/dia, VO                        | GI, ácido láctico        | Amb                       |\n| Testosterona (def)         | Sim                      | Sim (c/ critério)     | Estritamente p/hipogonad.††                 | WADA (proíbe atletas)  | IM depot c/ intervalo de 2–4 sem.          | Hemograma, PSA, T/FSH    | Temperatura amb/refrig.    |\n| GH (somatrofina)           | Sim (def. comprovada)    | Sim (p/ deficiência)   | _Proibido anti-aging/estético_              | CFM, WADA              | Deficiência: dose ajustada por IGF-1       | IGF-1, glicemia, edema   | Refrigerado                |\n\n\\* Manipulação estéril: previsível para tirzepatida, implantes hormonais.  \n† Pendências regulatórias—tirzepatida: verificar permanência off-label via magistral.  \n†† Implante de testosterona: apenas com laudo, contraindicado uso cosmético ou sem hipogonadismo documentado (CFM 2.333/2023).\n\n---\n\n## 6. Caso Clínico (Brasil, 2024)\n\n**Homem, 48 anos, 115 kg, 1,67m (IMC 41), queixa de fome constante \"indomável\", relata episódios semanais de comer noturno associados à ansiedade, marca handgrip baixo, acantose nigricans. Relata perda de força e fadiga crônica. PA 144/86 mmHg, circunferência abdominal 124 cm. HOMA-IR 4,8, TGO/TGP elevadas, sem diabetes. Tinha múltiplas tentativas de dieta e cetose, com reganho rápido.**\n\n**Alternativas de classificação fenotípica e abordagem:**\n\nA. Predominantemente sarcopênico — priorizar reabilitação muscular, anabolizantes, evitar incretínicos  \nB. Predominantemente metabólico/hiperfágico/emocional — abordar apetite central, compulsão, insulinoresistência, considerar incretínico, suporte psicológico, evitar GH  \nC. Fenótipo metabólico saudável — abordagem só comportamental, sem farmacoterapia  \nD. Déficit de saciedade isolado — apenas fracionar dieta e reeducar parada alimentar, sem benefício de incretínico\n\n**Resposta correta e rationale:**  \n**B**. Paciente exibe múltiplos eixos: hiperfagia (fome intensa), emocional (compulsão noturna + ansiedade), metabólico (acantose, circunferência ↑, HOMA-IR↑), sarcopenia leve (*), e esteatose inicial. Justifica-se GLP-1 ou tirzepatida (mesmo sem registro de “obesidade” em bula, uso documentado e respaldo em DM2), sempre combinando com suporte psicológico e exercício resistido. Estilo de vida isolado foi falho; evite GH (ilegal) e implantes sem critério. Exclua causas orgânicas de hiperfagia (ex. Cushing).\n\n---\n\n## 7. Conduta de Precisão: Fluxo de Decisão\n\n```mermaid\nflowchart TD\n    A[Paciente com obesidade] --> B[Anamnese estruturada e triagem fenotípica]\n    B --> C{Fenótipo dominante?}\n    C --Hiperfagia/Saciedade--> D1[Incretínico GLP-1/TZP]\n    C --Emocional/Compulsivo--> D2[Naltrexona/Bupropiona + Psicoterapia]\n    C --Sarcopênico--> D3[Nutrição protéica + Resistido; Hormonal c/ critério]\n    C --Metabólico Doente--> D4[Metformina + GLP-1/TZP; SGLT2i/Pio]\n    C --Saudável--> D5[Conduta comportamental, vigilância]\n    D1 & D2 & D3 & D4 & D5 --> E[Monitoramento periódico de resposta e efeitos adversos]\n```\n\n---\n\n## 8. Monitoramento, Segurança e Alertas\n\n### 8.1. Monitorização no uso de incretínicos (GLP-1, tirzepatida)\n\n- **Sintomas gastrointestinais**: náusea, vômitos, constipação, diarreia — início lento, ajustar dose gradualmente\n- **Pâncreas**: casos raros de pancreatite aguda\n- **Função renal**: risco de IRA especialmente com desidratação/vômito\n- **Hipoglicemia**: particularmente em combinação com insulina\n- **Massa magra**: monitorar sarcopenia inadvertida (bioimpedância recomendada trimestral)\n- **Exclusão de contraindicações**: gastroparesia, história familiar de carcinoma medular de tireoide, MEN2\n\n### 8.2. Implantables e Manipulação Estéril\n\n- Utilizar fontes de princípios ativos com registro válido, laudos de esterilidade, estabilidade comprovada — evitar manipulação de peptídeos “research only”;\n- Documentar rigorosamente indicação, critérios, exames e termo de consentimento livre e esclarecido (evitar todo “drip” cosmético, uso de GH sem deficiência).\n- Respeitar a Resolução CFM 2.333/2023: hormônios apenas por critério clínico-laboratorial claro; proibido para fins cosméticos ou antiaging isolado.\n  \n---\n\n## 9. O que NÃO fazer\n\n1. Prescrever hormônios, peptídeos ou análogos sem robusta indicação clínica e bioquímica — jamais por apelo estético ou anti-aging isolado.\n2. Indicar GH na obesidade sem deficiência comprovada — violação expressa de ética (CFM/WADA).\n3. Utilizar manipulados de origem duvidosa (“research peptide”, “raw powder”) — risco legal e sanitário, inaceitável em prática ética.\n4. Empregar “drips” de vitaminas/aminoácidos/hormônios sem indicação formal ou com finalidade cosmética apenas.\n5. Negligenciar avaliação regular da força e composição corporal ao usar terapias de perda ponderal acelerada.\n6. Ignorar fatores emocionais: alto risco de recaída/insucesso na ausência de abordagem multidisciplinar.\n\n---\n\n## 10. Pérolas de Consultório & Checklist Prático\n\n### Pérolas\n\n- Sempre classifique o fenótipo dominante antes de prescrever — maior resposta terapêutica, menor risco.\n- O paciente sarcopênico requer foco duplo (anabolismo nutricional/muscular) — incretínicos podem intensificar perda de massa magra inadvertida.\n- Em pacientes compulsivos/emocionais, combine farmacoterapia com psicoterapia — efeito sinérgico comprovado.\n- A abordagem metabólica é válida mesmo para IMC <35, desde que presentes sinais/sintomas e exames alterados (“MONW”).\n- Monitoriza a massa magra a cada 3–6 meses, sobretudo em adultos >50 anos.\n- Documente sempre a indicação e esclareça ao paciente sobre os objetivos, riscos e efeitos possíveis de cada medicação.\n  \n### Checklist — Consulta Prática\n\n1. **Anamnese dirigida — fome, saciedade, padrão emocional, histórico familiar/metabólico**\n2. **Medidas físicas — IMC, circunferência, força manual, bioimpedância**\n3. **Exames laboratoriais — glicemia, HOMA, lipídios, função hepática, CKD**\n4. **Classificação fenotípica — determinar dominante; buscar sobreposição**\n5. **Estratificação de risco — função cardíaca, renal, história psiquiátrica**\n6. **Avaliar contraindicações para farmacoterapia**\n7. **Montar plano individualizado (incluindo prescrição magistral, quando pertinente)**\n8. **Consentimento informado documentado**\n9. **Agendar reavaliação sistemática — resposta clínica, EA, exames**\n10. **Atualização contínua com novidade regulatória — ANVISA/CFM/consensos internacionais**\n\n---\n\n## 11. Slides de Apoio (Proposta Visual; 8–12 slides)\n\n1. **Título**<br>Fenotipagem Prática da Obesidade — Bases para a Prescrição de Precisão\n2. **Figura**<br>Mapa dos principais fenótipo clínicos, sobreposição e prevalência (diagrama de Venn)\n3. **Tabela densa**<br>Resumo dos fenótipos, marcadores clínico-laboratoriais, terapia-alvo e status regulatório\n4. **Bullets**<br>Principais perguntas da anamnese dirigida, exemplos práticos\n5. **Bar Chart**<br>Impacto do ajuste terapêutico por fenótipo (Δ peso, Δ massa magra, Δ IR)\n6. **Flowchart**<br>Algoritmo prático de conduta baseada no fenótipo (consultório)\n7. **Split Slide**<br>Comparativo: o que fazer / o que jamais fazer — ética e regulamentação (ANVISA/CFM/WADA)\n8. **Tabela**<br>Monitoramento obrigatório por classe de fármaco (GLP-1, SERM, androgênicos, implantes)\n9. **Caso clínico**<br>Caso brasileiro ilustrado, discussão guiada — resposta e rationale\n10. **Pearl Slide**<br>Pérolas práticas e checklist rápido\n11. **Quick Reference**<br>Resumo-fenótipo, dose, contraindicações na ponta dos dedos\n12. **Final Slide**<br>Resumo: Valor de uma fenotipagem rigorosa — maximizar benefício, minimizar risco (citar referencia [S1])\n\n---\n\n## 12. Quick Reference de Bolso\n\n| Fenótipo      | Palavra-chave       | 1ª opção farmacológica | Dose inicial típica    | Contraindicação-chave       | Monitoramento essencial      |\n|---------------|--------------------|-----------------------|------------------------|-----------------------------|-----------------------------|\n| Hiperfagia    | Fome persistente   | GLP-1 / TZP           | Semaglutida 0,25 mg/s  | Gastroparesia, MTC/MEN2     | Náusea, bioimpedância       |\n| Saciedade     | Comida volumosa    | GLP-1                 | Liraglutida 0,6 mg/d   | GI grave                    | Sinais GI, resposta clínica |\n| Compulsivo    | Comer emocional    | Naltrexona/Bupropiona | 8/90 mg 1x/d           | Psicose, convulsões         | Humor, compulsão            |\n| Sarcopênico   | Fraqueza/muscular  | Androgênico c/ laudo  | Testost. 100–200mg IM  | Proibido sem hipogonadismo  | PSA, hemograma, força       |\n| Metabólico    | IR/esteatose       | Metformina (+GLP/TZP) | 500 mg 1-2x/d          | TFG <40, acidose            | Glicemia, renal, hepática   |\n\n---\n\n## 13. Key Points (5–7)\n\n1. **Fenotipagem clínica é determinante para o sucesso terapêutico, redução de risco e prescrição ética em obesidade.**\n2. **GLP-1 agonistas e tirzepatida são pilares do manejo farmacológico individualizado; manipulação só em farmácias estéreis e status regulatório atualizado.**\n3. **Sarcopenia demanda vigilância: incretínicos podem exacerbar a perda de massa magra — intervir prontamente.**\n4. **Jamais utilize GH, hormônios ou peptídeos sem critério laboratorial robusto — sob pena de infração ética.**\n5. **Monitoramento multidimensional (clínico, laboratorial, composição corporal) é obrigatório.**\n6. **O respeito rigoroso à regulamentação ANVISA/CFM/WADA diferencia excelência técnica de risco médico-legal.**\n7. **Abordagem multidisciplinar (nutrição, psicologia, educador físico) potencializa a resposta clínica e minimiza o reganho.**\n\n---\n\n## 14. Referências Científicas\n\n- [S1] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011 (Evidência A)\n- Directrices ADA 2023; Consenso SBEM/ABESO 2022; Resolução CFM 2.333/2023\n- Wilding J. et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384:989-1002. (Evidência A)\n- Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387:205-216. (A)\n- Bray GA, et al. The science of obesity management: an endocrine society scientific statement. Endocrine Rev. 2018;39(2):79-132. (A)\n- CFM Resolução 2.333/2023. Uso de hormônios para fins estéticos.\n\n---\n\n### NOTA FINAL\n\nA prática centrada no fenótipo, aliada à farmacoterapia de precisão com rigor regulatório e vigilância multidimensional, representa o avanço necessário na obesidade clínica. Consulte sempre as atualizações ANVISA/CFM e oriente-se pela ética, sobretudo em relação à manipulação e uso off-label. Obesidade não é doença monolítica — é espectro, e deve ser tratada como tal.",
+  "quick_ref": "# Obesidade de Precisão - Guia Rápido\n\n| Fenótipo      | Palavra-chave       | 1ª Opção Farmacológica | Dose Inicial               | Contraindicação Principal | Monitoramento Essencial     |\n|---------------|--------------------|-----------------------|---------------------------|---------------------------|----------------------------|\n| Hiperfagia    | Fome persistente    | GLP-1 / Tirzepatida   | Semaglutida 0,25 mg SC/sem| Gastroparesia, MEN2        | Náusea, bioimpedância       |\n| Saciedade     | Comida volumosa     | GLP-1                 | Liraglutida 0,6 mg SC/dia | Problemas gastrointestinais| Sintomas GI, peso corporal  |\n| Emocional     | Comer emocional     | Naltrexona/Bupropiona | 8/90 mg 1x/dia             | Psicose, convulsões        | Humor, compulsão            |\n| Sarcopênico   | Fraqueza muscular   | Androgênicos c/ critério| Testosterona 100–200 mg IM| Proibido sem hipogonadismo | PSA, hemograma, força       |\n| Metabólico    | IR / Esteatose      | Metformina + GLP-1    | Metformina 500 mg VO 1-2x  | TFG <40 ml/min            | Glicemia, função renal     |\n\n## Red Flags na Obesidade\n\n- Perda rápida de peso não intencional\n- Sintomas de apneia do sono não tratada\n- Sintomas depressivos ou psiquiátricos sem acompanhamento\n- Uso irregular de hormônios ou manipulados não registrados\n- Aparição súbita de acantose ou sinais de insulinorresistência\n\n## Checklist para Consultório\n\n- Anamnese focada: fome, saciedade, emocional, força muscular\n- Avaliar composição corporal com bioimpedância\n- Solicitar laboratório básico + HOMA-IR\n- Classificar fenótipo predominante\n- Escolher tratamento farmacológico respeitando regulatório\n- Documentar consentimento e plano\n- Avaliar retorno para monitorar resposta e EA",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "48 anos"
+      },
+      {
+        "label": "Peso/estatura",
+        "value": "115 kg/1,67 m"
+      },
+      {
+        "label": "IMC",
+        "value": "41 kg/m²"
+      },
+      {
+        "label": "PA",
+        "value": "144/86 mmHg"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "124 cm"
+      },
+      {
+        "label": "HOMA-IR",
+        "value": "4,8 (elevado)"
+      },
+      {
+        "label": "Força manual (handgrip)",
+        "value": "Reduzida"
+      },
+      {
+        "label": "História alimentar",
+        "value": "Fome intensa, comer noturno ansioso"
+      }
+    ],
+    "title": "Caso Clínico de Fenotipagem na Obesidade para Prescrição de Precisão",
+    "reward": 5,
+    "options": [
+      {
+        "label": "A. Fenótipo predominantemente sarcopênico – priorizar anabolizantes e evitar incretínicos",
+        "correct": false,
+        "rationale": "Embora apresente sarcopenia leve, o quadro principal envolve também hiperfagia e resistência insulínica; incretínicos são indicados para perda de peso e controle do apetite."
+      },
+      {
+        "label": "B. Fenótipo predominante metabólico/hiperfágico/emocional – abordagem combinada com incretínicos e suporte psicológico",
+        "correct": true,
+        "rationale": "Corresponde ao fenótipo complexo do paciente, justificando o uso de GLP-1 ou tirzepatida, psicoterapia e controle metabólico, conforme regulatório brasileiro."
+      },
+      {
+        "label": "C. Fenótipo metabólico saudável – apenas intervenção comportamental",
+        "correct": false,
+        "rationale": "O paciente apresenta sinais claros de resistência insulínica e alterações hepáticas, descaracterizando o fenótipo metabolicamente saudável."
+      },
+      {
+        "label": "D. Déficit isolado de saciedade – fracionamento alimentar somente",
+        "correct": false,
+        "rationale": "O paciente apresenta várias características além da saciedade diminuída, demandando abordagem multifatorial farmacológica e multidisciplinar."
+      }
+    ],
+    "question": "Qual o fenótipo predominante deste paciente e a melhor abordagem farmacoterapêutica considerando o contexto regulatório e clínico do Brasil?",
+    "vignette": "Homem, 48 anos, IMC 41 kg/m², relata fome intensa 'indomável', episódios semanais de comer noturno relacionados à ansiedade, apresenta acantose nigricans, handgrip baixo e fadiga crônica. PA 144/86 mmHg, circunferência abdominal 124 cm. HOMA-IR elevado, enzimas hepáticas alteradas, sem diabetes diagnosticado. Múltiplas tentativas prévias de dietas restritivas com reganho rápido.",
+    "teaching": "O paciente possui um quadro multifatorial predominante hiperfágico, emocional e metabolicamente doente, incluindo sinais de resistência insulínica (acantose, HOMA-IR elevado) e sarcopenia leve (baixa força manual). A abordagem indicada é o uso de agonistas de GLP-1 e possivelmente tirzepatida (mesmo off-label para obesidade, com respaldo para DM2), sempre associados a suporte psicológico e intervenções de atividade resistida para preservar massa magra. O uso de GH é contraindicado sem deficiência formal e a manipulação deve seguir regulamentos. Monitorar tolerabilidade e progressão clínica é essencial."
+  },
+  "refs": [
+    {
+      "citation": "Standards of Medical Care in Diabetes—2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11–S61."
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183",
+      "citation": "Wilding JPH et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. NEJM. 2021;384:989–1002."
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2206038",
+      "citation": "Jastreboff AM et al. Tirzepatide Once Weekly for the Treatment of Obesity. NEJM. 2022;387:205–216."
+    },
+    {
+      "url": "https://academic.oup.com/edrv/article/39/2/79/4838727",
+      "citation": "Bray GA et al. The Science of Obesity Management: An Endocrine Society Scientific Statement. Endocr Rev. 2018;39(2):79-132."
+    },
+    {
+      "citation": "Resolução 2.333/2023 do Conselho Federal de Medicina – Uso de hormônios para fins estéticos."
+    }
+  ],
+  "status": "published"
+}

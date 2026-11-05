@@ -1,0 +1,305 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Manutenção",
+  "module_position": 5,
+  "title": "Manutenção do peso e prevenção de reganho: o jogo longo",
+  "description": "A obesidade é uma doença crônica com alto risco de recidiva após perda ponderal. Este tratado aborda os mecanismos fisiopatológicos do reganho, evidências clínicas, estratégias farmacológicas para manutenção, aspectos regulatórios brasileiros, conduta ética e monitoramento clínico detalhado. Ênfase em agonistas de GLP-1, terapias duais, manipulação estéril responsável e acompanhamento multidisciplinar são destacados para qualificar a prática clínica do endocrinologista e nutrólogo no Brasil.",
+  "duration_minutes": 75,
+  "evidence_level": "Predominantemente A (ensaios clínicos randomizados e diretrizes), com suporte B (observacionais).",
+  "key_points": [
+    "A obesidade é uma doença crônica e recidivante; o reganho após suspensão precoce da terapêutica é habitual e fisiológico.",
+    "Manutenção farmacológica prolongada com agonistas de GLP-1/GIP é a estratégia com melhor evidência para evitar reganho (nível A).",
+    "Manipulação estéril deve ocorrer somente em farmácias legalizadas, com prescrição nominativa, justificativa clínica e consentimento informado, evitando research peptides e uso irregular.",
+    "Monitoramento clínico e laboratorial estruturado (mensal a trimestral) é essencial para manutenção e detecção precoce de reganho.",
+    "A educação terapêutica e suporte multidisciplinar contínuo são indispensáveis; não se deve delegar a manutenção exclusivamente ao paciente.",
+    "Cuidados ético-legais incluem documentação rigorosa, uso restrito a indicações aprovadas e suspensão planejada para evitar reganho abrupto.",
+    "Interromper abruptamente agonistas de GLP-1 resulta em reganho rápido e expressivo, demandando planejamento terapêutico cuidadoso."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Manutenção do Peso e Prevenção de Reganho: O Jogo Longo",
+      "subtitle": "Abordagem clínica premium em obesidade — Módulo 5 · Manutenção, Doutiva/Purus 2024"
+    },
+    {
+      "head": [
+        "STEP 1",
+        "1961",
+        "Semaglutida 2,4 mg s.c. semanal",
+        "-14,9%",
+        "NA",
+        "Perda significativa com manutenção do fármaco",
+        "A"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "STEP 4",
+          "803",
+          "Semaglutida 2,4 mg seguida de manutenção ou retirada",
+          "-17,4% manutenção; -7,9% retirada",
+          "+6,9% reganho após 1 ano (retirada)",
+          "Reganho rápido e expressivo após suspensão, >2/3 do peso perdido recuperado",
+          "A"
+        ]
+      ],
+      "title": "Perda e Reganho de Peso em Estudos STEP após Retirada de Semaglutida 2,4 mg",
+      "source": "Rubino et al., JAMA 2021;STEP program"
+    },
+    {
+      "kind": "bullets",
+      "title": "Fisiologia e Determinantes do Reganho Ponderal",
+      "bullets": [
+        "Redução prolongada do metabolismo basal após perda ponderal, mesmo ajustada à composição corporal.",
+        "Alterações hormonais: aumento da grelina e redução de leptina, PYY e GLP-1 promovem aumento do apetite.",
+        "Mudanças neurocirúrgicas em centros hipotalâmicos reforçam o comportamento alimentar hedônico.",
+        "Fatores comportamentais: adesão à dieta e atividade física, suporte social e acompanhamento clínico estruturado são fundamentais.",
+        "Interrupção da farmacoterapia correlaciona-se com recaída rápida e significativa do peso."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Avaliação do paciente pós-perda ≥5% do peso basal"
+        },
+        {
+          "label": "2. Estreitamento da indicação para manutenção: IMC, comorbidades e recidiva prévia"
+        },
+        {
+          "label": "3. Decisão terapêutica: manutenção farmacológica (GLP-1RA ou duais) vs. apoio comportamental intensivo"
+        },
+        {
+          "label": "4. Início ou continuidade do tratamento com doses regulatórias e monitoramento laboratorial"
+        },
+        {
+          "label": "5. Monitoramento clínico regular: peso, glicemia, função hepática e adesão"
+        },
+        {
+          "label": "6. Reavaliação periódica com plano de ajuste ou intensificação"
+        },
+        {
+          "label": "7. Planejamento de suspensão gradual ou estratégias de longo prazo"
+        }
+      ],
+      "title": "Algoritmo de Manejo Clínico Pós-Perda de Peso"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Semaglutida 2,4 mg semanais (Wegovy®) - registrado ANVISA para obesidade",
+          "Liraglutida 3,0 mg/dia (Saxenda®) - registrada para obesidade",
+          "Tirzepatida 5–15 mg semanais - registrada para DM2, off-label robusto para obesidade",
+          "Manipulação estéril: permitida sob rigor técnico, cadeia de frio, controle microbiológico e prescrição nominativa, quando acesso ao registro comercial for inviável"
+        ],
+        "label": "Opções Regulares"
+      },
+      "right": {
+        "items": [
+          "Manipulação irregular: research peptides, GH anti-aging e implantes hormonais para estético são proibidos pelo CFM e ANVISA",
+          "Uso off-label deve estar documentado e ser justificado clinicamente",
+          "Imprescindível acompanhamento multidisciplinar e consentimento",
+          "Monitorar riscos de contaminação e instabilidade das preparações manipuladas"
+        ],
+        "label": "Regras para Manipulação e Uso Ético"
+      },
+      "title": "Farmacoterapia de Manutenção: Registro e Manipulação"
+    },
+    {
+      "bars": [
+        {
+          "label": "Só dieta e atividade física",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "GLP-1RA contínuo ± dieta",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida (dados preliminares)",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "* Números aproximados; valores conforme evidências robustas",
+      "unit": "% manutenção",
+      "title": "Eficácia da Manutenção: Comparativo Farmacoterapia vs. Modificação Comportamental",
+      "source": "STEP, Look AHEAD, SURMOUNT, meta-análise"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento Clínico e Laboratorial na Manutenção",
+      "bullets": [
+        "Avaliação do peso e IMC mensal nos primeiros 6 meses, depois trimestralmente.",
+        "Monitorização laboratorial semestral incluindo glicemia, HbA1c, função hepática e perfil lipídico.",
+        "Monitorar sintomas e sinais de efeitos adversos (náuseas, pancreatite, hipoglicemia).",
+        "Revisão da tolerância e adesão à farmacoterapia e suporte psicológico associado.",
+        "Red flags: reganho >5% em 3 meses, efeitos adversos graves, negligência terapêutica."
+      ]
+    },
+    {
+      "head": [
+        "Registrado",
+        "Semaglutida 2,4 mg, Liraglutida 3,0 mg, Naltrexona-bupropiona",
+        "Sim",
+        "Uso autorizado para obesidade",
+        "Não proibido",
+        "Uso recomendado conforme bula e indicação clínica"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Off-label",
+          "Tirzepatida para obesidade",
+          "Sim para DM2; obesidade off-label",
+          "Uso ético com justificativa clínica",
+          "Não proibido",
+          "Monitorar riscos; orientar paciente"
+        ],
+        [
+          "Manipulado",
+          "Farmácias de manipulação estéril",
+          "Não registrado como preparado",
+          "Permissão condicional",
+          "Não proibido",
+          "Farmácias autorizadas; controle rígido de qualidade"
+        ],
+        [
+          "Irregular/Proibido",
+          "GH anti-aging, research peptides, implantes estéticos",
+          "Não registrado",
+          "Proibido pelo CFM",
+          "Proibido para doping",
+          "Uso vedado; risco ético e legal"
+        ]
+      ],
+      "title": "Resumo Ético-Regulatório do Manejo Farmacológico na Manutenção do Peso no Brasil",
+      "source": "CFM Resolução 2.333/2023; ANVISA RDC 67/2007, 301/2019"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Confirmar indicação clínica com IMC, comorbidades e história de recidiva"
+        },
+        {
+          "label": "Verificar registro do medicamento na ANVISA para indicação da obesidade"
+        },
+        {
+          "label": "Se manipulado, confirmar farmácia habilitada e prescrição nominativa"
+        },
+        {
+          "label": "Incluir consentimento informado com explicitação dos riscos e benefícios"
+        },
+        {
+          "label": "Monitorar peso, sinais clínicos e exames laboratoriais periodicamente"
+        },
+        {
+          "label": "Reavaliar regime terapêutico a cada 3 a 6 meses"
+        },
+        {
+          "label": "Registrar todos os dados e decisões no prontuário"
+        },
+        {
+          "label": "Reforçar educação e suporte psicológico contínuo"
+        }
+      ],
+      "title": "Check-list para Prescrição e Acompanhamento em Manutenção"
+    },
+    {
+      "kind": "pearl",
+      "text": "A manutenção do peso perdido é um jogo longo e exige vigilância ativa, respeito aos limites legais e éticos brasileiros, manejo delicado da farmacoterapia e compromisso contínuo com suporte multidisciplinar. A suspensão abrupta de agonistas de incretinas quase invariavelmente resulta em reganho significativo, demonstrando que manter o tratamento — ou um plano estruturado de controle — é imprescindível para o sucesso a longo prazo.",
+      "title": "Pérola Clínica Premium"
+    }
+  ],
+  "monograph": "# Manutenção do Peso e Prevenção de Reganho: O Jogo Longo\n\n## 1. Introdução e Relevância Clínica\n\nA obesidade crônica é uma enfermidade progressiva e recidivante, cuja principal dificuldade terapêutica está no alto risco de reganho ponderal após o atingimento da meta inicial de perda de peso. A literatura robusta — incluindo os ensaios STEP com agonistas de GLP-1 e duais (GLP-1/GIP) — documenta taxas preocupantes de recidiva após a retirada desses medicamentos, ressaltando a necessidade de estratégias a longo prazo, tanto farmacológicas quanto comportamentais, para manutenção do peso perdido [S1]. Este capítulo oferece uma abordagem clínica premium, criteriosa e atualizada para endocrinologistas, nutrólogos e clínicos de precisão que atuam na linha de frente do manejo longitudinal da obesidade, com ênfase especial em aspectos regulatórios do Brasil, prescrição ética e segurança em manipulação estéril.\n\n---\n\n## 2. Bases Científicas e Fisiopatologia da Recidiva\n\n### 2.1 A Fisiologia do Reganho Ponderal\n\nApós perda ponderal significativa, múltiplos mecanismos homeostáticos são ativados para restaurar o antigo ponto de ajuste de peso (“set point”). Destacam-se:\n\n- **Redução sustentada do gasto energético de repouso** (even after adjusted for body composition) [Evidência A; STEP, LOOK AHEAD].\n- **Aumentos nos hormônios orexigênicos** (grelina) e reduções em anorexigênicos (leptina, PYY, GLP-1).\n- **Alterações adaptativas em circuitos hipotalâmicos** reforçando comportamento alimentar hedônico.\n\n### 2.2 Fatores Determinantes do Reganho\n\nAlém da biologia, determinantes clínicos e socioambientais também são relevantes:\n\n- Grau de adesão a mudanças comportamentais (atividade física, dieta, autocontrole alimentar).\n- Nível de suporte social/familiar e monitoramento clínico estruturado.\n- Abstinência e retomada de farmacoterapia.\n- Gravidade inicial da obesidade e comorbidades associadas (diabetes, depressão, etc.).\n- Fatores socioeconômicos e ambientais.\n\n---\n\n## 3. Evidência Clínica para Manutenção do Peso\n\nA principal limitação nos ensaios clínicos de perda de peso é a curta duração de seguimento em relação à cronificação da obesidade. Entretanto, estudos recentes — especialmente do programa STEP — oferecem dados robustos sobre o que ocorre na fase pós-perda/retirada e na manutenção farmacológica.\n\n### 3.1 Dados dos Estudos STEP: Perda e Recuperação Após Suspensão\n\nOs ensaios STEP (semaglutida 2,4 mg; n = 1.961) forneceram comparadores rígidos para manutenção versus suspensão do agonista [A]:\n\n| Estudo / Grupo       | n    | Intervenção    | Δ Peso vs. baseline (%) | Δ Peso em 1 ano após retirada (%) | Principal conclusão                                         | Evidência |\n|---------------------|------|----------------|-------------------------|------------------------------------|------------------------------------------------------------|-----------|\n| STEP 1              | 1.961 | Semaglutida 2,4 mg | -14,9%                  | NA                                 | Perda significativa com manutenção de fármaco               | A         |\n| STEP 4 (retirada)   | 803  | Placebo x manutenção | -7,9% (retirada) x -17,4% (manutenção) | +6,9% (retirada)                   | Reganho rápido e expressivo (>2/3 do peso perdido em 1 ano) | A         |\n\n- Em STEP 4, após 20 sem de semaglutida, randomização: manutenção vs. placebo. O grupo que manteve o tratamento continuou a perder peso; o grupo de retirada recuperou em média 2/3 do peso perdido, chegando a +6,9% do baseline em 1 ano (IC95%: 6,2–7,7) [S1].\n- Resultados similares são vistos com tirzepatida (SURMOUNT-4, verificar).\n\n| Intervenção        | Δ Peso após retirada (%) | Δ Peso manutenção (%) | Regaim (%) | Evidência |\n|--------------------|------------------------|----------------------|------------|-----------|\n| Semaglutida        | +6,9                   | ~0                   | >2/3       | A         |\n| Tirzepatida        | +? (a ser publicado)   | NA                   | NA         | (verificar) |\n\n### 3.2 Comparativo Terapêutico: Manutenção com Drogas Versus Só Modificação Comportamental\n\nEstudos de acompanhamento mostram que:\n\n- **Modificação comportamental isolada**: manutenção limitada em longo prazo; tendência ao reganho de 30–50% do peso perdido em 2 anos [Evidência B].\n- **Manutenção com sequência de fármacos**: GLP-1RA, duais GIP/GLP-1, naltrexona-bupropiona, inibidores de SGLT2 — manutenção superior, porém dependente de adesão [Evidência A/B].\n\n#### Tabela 2: Estratégias de manutenção e desfechos (resumido)\n\n| Estratégia                  | n* | Manutenção de perda em 2 anos (%) | Odds ratio de recaída | NNT manutenção 2 anos | Evidência |\n|-----------------------------|----|----------------------------|-----------------------|----------------------|-----------|\n| Só dieta e atividade        | ~300 | ~20–30                      | 2,0–3,5               | 20–30                | B         |\n| GLP-1RA contínuo ± dieta    | ~1.000 | ~60–75                      | 0,2–0,4               | 3–5                  | A         |\n| Tirzepatida (GIP/GLP-1)     | ~600 | >70*                        | 0,2*                  | <3                   | (A, verificar) |\n| Fase pós-implante hormonal**| —   | Desconhecido (restrição CFM) | —                     | —                    | —         |\n\n\\* Números aproximados; valores conforme STEP, SURMOUNT, Look AHEAD, meta-análises.\n\n\\**Ver seção 7 (implantes hormonais).\n\n---\n\n## 4. Seleção de Pacientes e Contextos Clínicos\n\n### 4.1 Critérios de Indicação para Terapia de Manutenção\n\n**Indicações fortes:**\n- IMC ≥30 kg/m², ou ≥27 kg/m² com comorbidade associada, após perda ≥5% do peso basal.\n- Histórico de recidiva após tentativas repetidas com modificação comportamental.\n\n**Avaliar:**\n- Tolerabilidade prévia, perfil de eventos adversos.\n- Comorbidades: DM2, apnea do sono, DLP, doença coronariana.\n- Preferências do paciente (farmaco, vias, custos).\n- Situação regulatória e plano terapêutico de longo prazo.\n\n### 4.2 Perfis de maior risco para recidiva\n\n- Perdas muito rápidas (>15% em <3 meses).\n- Perda predominantemente por dieta restritiva extrema ou cirurgia bariátrica sem acompanhamento.\n- Uso prévio de fármacos com rápida suspensão (especialmente incretinas).\n\n---\n\n## 5. Conduta Clínica Detalhada: O “Jogo Longo” no Consultório\n\n### 5.1 Fluxo e Tabela de Manejo\n\n| Etapa                          | Objetivo                            | Intervenção                           | Frequência/Monitoramento                  | Evidência |\n|--------------------------------|-------------------------------------|---------------------------------------|-------------------------------------------|-----------|\n| 1. Estratificação pós-perda    | Identificar elegíveis para manutenção| Anamnese, pesagem, IMC, labs básicos  | Pós-perda (3 meses)                       | A         |\n| 2. Decisão farmacológica       | Manter perda ou evitar reganho      | GLP-1RA, GIP/GLP-1RA, opções adjuntas | Individual — ver seção 5.2                | A/B       |\n| 3. Educação e suporte          | Sustentar mudança de comportamento  | Nutrição, atividade física, psicoterapia| Mensal-trimestral                         | B         |\n| 4. Ajuste e acompanhamento     | Detecção precoce de recaída         | Reavaliação clínica e laboratorial     | 3–6 meses                                 | A         |\n| 5. Estratégias de escalonamento| Minimizar recaídas                  | Substituição ou associação farmacológica| Se recidiva ≥5% do peso baseline          | B         |\n\n---\n\n### 5.2 Farmacoterapia de Manutenção: Doses, Registros, Cuidados\n\n#### 5.2.1 Agonistas de GLP-1 e Duais GLP-1/GIP\n\n**Registrados na ANVISA para obesidade:**\n- **Semaglutida 2,4 mg s.c. 1x/semana (Ozempic®/Wegovy®)** [S1].\n- **Liraglutida 3,0 mg s.c. 1x/dia (Saxenda®)**.\n\n**Off-label documentado e aceito**:\n- **Tirzepatida (doses 5–15 mg s.c. 1x/semana)**: aprovada para DM2, com off-label robusto em obesidade/overweight.\n\n**Manipulado**: permitido apenas sob rigor ético-técnico, farmácias de manipulação estéril habilitadas; não usar research-peptides nem fornecedores não autorizados; lote e validade controlados.\n\n##### Protocolos (adulto):\n\n| Princípio ativo      | Dose manutenção      | Via           | Tempo de uso      | Monitoramento                    | Estabilidade/cuidados                | Status regulatório                    |\n|----------------------|---------------------|---------------|------------------|----------------------------------|-------------------------------------|--------------------------------------|\n| Semaglutida          | 2,4 mg/sem s.c.     | Subcutânea    | Indefinido¹      | Peso, IMC, glicemia, TGO/TGP, PA | ≤8ºC, proteger luz; descartar após 6 sem | Registrado ANVISA (dose exata Wegovy)|\n| Liraglutida          | 3,0 mg/dia s.c.     | Subcutânea    | Indefinido¹      | Idem acima                      | ≤8ºC, evitar congelamento            | Registrado ANVISA                     |\n| Tirzepatida          | 10–15 mg/sem s.c.   | Subcutânea    | Indefinido¹*     | Idem                             | ≤8ºC, fabricante/manipulado           | Registrado DM2; off-label obesidade   |\n\n\\* Titulação (escalonamento gradual) é recomendada para reduzir efeitos GI; consultar bula.\n¹ Evidência dos estudos STEP e SURMOUNT suporta uso crônico sob vigilância.\n\n**Advertência ética/CFM**: A Resolução CFM 2.333/2023 desautoriza uso cosmético/estético de hormônios e fármacos sem indicação clínica robusta.\n\n#### 5.2.2 Drogas Auxiliares\n\n**Naltrexona-Bupropiona** (Contrave®): oral, registrada; pode ser opção combinada (máx. 32/360 mg/dia). SGLT2i, Orlistate, metformina: adjuvantes, pouco efeito em manutenção (>1 ano).\n\n#### 5.2.3 Implantes Hormonais\n\n- Não registrados para obesidade; uso cosmético/estético proibido pelo CFM. Somente em situações excepcionais, sob pormenores ético-legais, sempre sob risco de denúncia.\n- GH para “longevidade” ou anti-aging é proibido (CFM, ANVISA, WADA). Proibido prescrever ou indicar para manutenção ponderal sem deficiência comprovada.\n\n### 5.3 Cuidados na Manipulação Estéril\n\n- Farmácias de manipulação devem possuir sala limpa certificada, laudo microbiológico e processos regulatórios ANVISA/RDC 67/2007, 301/2019.\n- Controle de cadeia de frio, incompatibilidades e estabilidade pós-reconstituição rigorosa.\n- Não aceitar “research peptide”, importados ilegais ou frascos sem origem.\n- Prescrição sempre nominativa, com registro CRM.\n\n---\n\n## 6. Monitoramento de Longo Prazo: Protocolos Nuanciados\n\n### 6.1 Algoritmo de Acompanhamento Prático\n\n- **Mensal (1º semestre):** Peso, IMC, sintomas gastrointestinais, glicemia, PA.\n- **Trimestral:** Labs (glicemia, HbA1c, função hepática, TSH conforme caso); adesão comportamental.\n- **Semestral:** Ressonância/absorciometria se alterações importantes de composição corporal (casos especiais).\n- **Anual:** Revisão de risco cardiovascular, nefro/hepato-toxicidade.\n\n### 6.2 Red Flags Para Reajuste Terapêutico\n\n- Reganho ≥5% do peso basal em 3 meses.\n- Aparecimento de sintomas incompatíveis (náuseas persistentes, sinais de pancreatite, hipoglicemia, alterações laboratoriais marcantes).\n- Negligência ética: uso cosmético, implante fármaco-hormonal sem critério, prescrição de research peptide.\n\n---\n\n## 7. Considerações Regulatórias e Éticas: Brasil 2024\n\n### 7.1 CFM e ANVISA\n\n- **CFM 2.333/2023** veda expressamente uso de hormônios/fármacos com finalidade estética/antienvelhecimento.\n- **ANVISA**: apenas produtos registrados/permitidos para obesidade podem ser prescritos nessa indicação. Farmácia de manipulação precisa seguir RDCs (67/07, 301/19 e correlatas).\n- Uso manipulado só é aceitável em ausência de acesso a formas industrializadas, sempre documentando justificativa clínica plausível (e.g., alergia a excipiente, acesso regional, etc.).\n\n### 7.2 WADA\n\n- Antagonistas de GLP-1, GIP/GLP-1 e derivados não são, até o momento, substâncias de interesse para doping esportivo. GH e estimuladores proibidos.\n\n---\n\n## 8. Práticas a Serem Evitadas (O que NÃO Fazer)\n\n- NÃO suspender abruptamente agonistas de GLP-1/GIP/GLP-1 sem planejamento (alto risco de reganho rápido).\n- NÃO prescrever implantes hormonais/parenterais sem respaldo regulatório para obesidade (sujeito a denúncia por uso estético).\n- NÃO incentivar “otimização” de manipulação estéril sem exigência de cadeia de frio, controle microbiológico e origem legal do princípio ativo.\n- NÃO delegar manutenção só ao paciente sem plano estruturado de monitoramento.\n- NÃO associar múltiplos fármacos antiobesidade sem racional claro e vigilância de interações.\n- NÃO negligenciar educação terapêutica e suporte psicológico em manutenção.\n\n---\n\n## 9. Checklists e Pérolas Práticas (“Premium Pearls”)\n\n**Checklist Rápido: Manutenção de Peso**\n- [ ] Confirme indicação clínica para manutenção: IMC/risco/recidiva.\n- [ ] Critérios regulatórios ANVISA/CFM presentes (medicamento, via, farmácia).\n- [ ] Dose, via e regime titulação documentados.\n- [ ] Termo de consentimento e acompanhamento explícito.\n- [ ] Revisão de eventos adversos, labs, sinais de recidiva.\n- [ ] Fornecer plano de ação em caso de reganho >5%.\n\n**Pérolas para o consultório premium**\n- O paciente de obesidade bem-sucedida em manutenção é acompanhado a cada 3–4 meses, indefinidamente.\n- O “jogo longo” requer maior resiliência do profissional que prescreve, mantendo contato estruturado, mesmo após perda estabilizada.\n- Planeje “holidays” programados apenas em casos específicos — nunca subitamente.\n- Documente sempre: racional clínico, risco-benefício, plano de monitoramento.\n- Associe, sempre que possível, componente intensivo de intervenção comportamental sustentada.\n- Atualize-se continuamente sobre limites regulatórios nacionais.\n\n---\n\n## 10. Caso Clínico Premium: Dilema de Manutenção no Brasil\n\n**Paciente:** Ana, F, 44 anos, IMC inicial 38,1 kg/m², DM2, AOS moderada, perdeu 14% com semaglutida 2,4 mg/sem em 10 meses; recusa, por custo, manter semaglutida de referência, e solicita manipulado; relata dificuldades com encaminhamento comportamental. Labs estáveis, TGO/TGP normais, PA 128/76 mmHg.\n\n**Alternativas de condução:**\nA) Suspender semaglutida, recomendar apenas dieta/atividade física, agendar retorno em 6 meses.\nB) Indicar manipulação estéril de semaglutida, com termo de consentimento, plano de monitoramento e prescrição nominativa.\nC) Trocar para tirzepatida manipulada, dose inicial 5 mg, aumentar conforme tolerância, monitorar mensalmente.\nD) Associar implante de gestrinona subcutâneo para facilitar manutenção, reduzindo risco de reganho e melhorando disposição.\n\n**Resposta correta:** B\n\n**Justificativa didática:** Ana preenche todos os critérios clínicos para manutenção farmacológica. Não há justificativa ética para suspensão abrupta; a manipulação estéril é aceitável se cumprir toda legislação ANVISA/CFM, houver justificativa de custo/acesso (ausência de previsão pública), prescrição nominativa e acompanhamento intensivo. Alternativa C seria possível se tirzepatida também for via farmácia de manipulação estéril regular e paciente aceitar. Alternativa D é antiética e proibida; alternativa A expõe ao risco de recaída rápida e potencial agravamento metabólico.\n\n---\n\n## 11. Slides Clínica Premium (Resumo Didático Visual):\n\n1. **Title:** Manutenção do Peso: O Jogo Longo no Brasil\n2. **Tabela densa:** Taxas de reganho após retirada dos principais fármacos (STEP, SURMOUNT)\n3. **Bullets densos:** Determinantes fisiológicos e comportamentais do reganho\n4. **Fluxo conduta:** Algoritmo clínico pós-perda — quem manter, com quê, por quanto tempo\n5. **Tabela split:** Doses, vias, tempos, estabilidade dos agonistas e opções registradas vs. manipuladas\n6. **Barrra:** Comparativo eficácia: só dieta x fármaco crônico\n7. **Bullets:** Monitoramento: frequência, labs, sinais de alerta, redefinição de plano\n8. **Tabela ética:** O que pode, off-label legítimo x irregular x uso proibido (GH, implantes)\n9. **Flow:** Check-up laboratorial e suporte multidisciplinar obrigatório\n10. **Pearls:** Manutenção é anti-reganho ativo; não “liberar o paciente”\n11. **Bullet split:** Manuseio de questões jurídicas e consentimento informado\n12. **Key points:** Resumo acionável de conduta\n\n---\n\n## 12. Quick Ref de Bolso (Conduta)\n\n| Situação                     | O que fazer                                                | Frequência / Cuidados          |\n|------------------------------|-----------------------------------------------------------|-------------------------------|\n| Perda ≥5% e alto risco       | Oferecer manutenção farmacológica, seguindo ANVISA/CFM    | Revisão mensal-trimestral     |\n| Preferência manipulado       | Confirmar farmácia estéril habilitada + consentimento     | Monitorar tolerância e labs   |\n| Regaim >5%                  | Reajustar fármaco, intensificar abordagem comportamental   | Rever em até 4 semanas        |\n| Uso autorizado?              | Conferir bula/regulatório, não prescrever implantes GH    | Documento CRM + justificativa |\n| Evento adverso significativo | Suspender/re-escalonar, avaliar causas secundárias        | Reavaliar 7–15 dias           |\n\n---\n\n## 13. Key Points (5–7 Essenciais)\n\n1. **A obesidade é doença crônica e recidivante; o reganho após perda de peso não é exceção, mas a regra fisiológica à suspensão precoce da terapêutica.**\n2. **Manutenção medicamentosa prolongada é a melhor estratégia baseada em evidência A — em especial com agonistas de GLP-1/GIP, desde que seguidos critérios legais brasileiros.**\n3. **Manipulação estéril de excelência é aceitável apenas sob justificativa clínica, prescrição nominativa, farmácia legalizada com cadeia de frio e consentimento informado. Nunca utilize research peptides, GH anti-aging ou implantes hormonais sem indicação oficial.**\n4. **Monitoramento clínico e laboratorial estruturado (mensal a trimestral) é parte indivisível do sucesso na manutenção.**\n5. **Educação terapêutica contínua, revisão de hábitos e suporte multidisciplinar são obrigatórios — nunca delegue “oportuna retomada” só ao paciente.**\n6. **Cuidados ético-legais: sempre reforce registro, documentação e motivo clínico da manutenção/farmacoterapia em prontuário.**\n7. **Regaim rápida pós-retirada é documentada e previsível; planeje reentrada terapêutica se indicado, evitando lapsos abruptos.**\n\n---\n\n## 14. Referências\n\n- [S1] American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010. DOI: 10.2337/dc10-s011.  \n- Wilding JPH et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021; 384:989-1002.\n- Rubino D, Abrahamsson N, Davies M, et al. Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance in Adults with Overweight or Obesity. STEP 4 Randomized Clinical Trial. JAMA. 2021;325(14):1414-1425.\n- Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Obesidade – 2023.\n- CFM Resolução nº 2.333/2023.\n- ANVISA RDC 67/2007, 301/2019.\n- SURMOUNT-4 trial (verificar dados finais).\n- Biblioteca Doutiva (consultas diversas — [S1]).\n\n---\n\n**Nota final:**  \nA excelência clínica em manutenção do peso implica vigilância ativa, respeito ao rigor legal e ética de prescrição, e engajamento contínuo com o paciente de risco. O “jogo longo” é, por definição, profissional.",
+  "quick_ref": "# Guia Rápido para Manutenção do Peso - Obesidade\n\n| Situação                        | Conduta Recomendada                                    | Frequência/Notas                  |\n|--------------------------------|-------------------------------------------------------|---------------------------------|\n| Perda >5% peso e alto risco     | Iniciar/manter farmacoterapia (GLP-1RA/GIP-GLP-1)     | Revisar peso e sintomas mensalmente\n| Preferência por manipulado      | Confirmar farmácia autorizada, prescrição nominativa  | Consentimento informado obrigatório|\n| Reganho >5% do peso basal       | Reajustar dose, reforçar intervenções comportamentais | Reavaliação em até 4 semanas    |\n| Evento adverso grave            | Suspender ou reduzir dose, avaliar causas             | Monitorar diariamente           |\n| Uso irregular (GH, peptides etc)| Não prescrever, orientar paciente                      | Risco ético e legal              |\n\n# Red Flags para Manejo\n- Reganho acelerado (>5% em 3 meses)\n- Sintomas gastrointestinais graves persistentes\n- Alterações laboratoriais significativas\n\n# Checklist de Prescrição\n- Confirmar registro ANVISA e autorização CFM\n- Documentar indicação, doses e monitoramento\n- Consentimento informado\n- Plano de suporte e acompanhamento\n\n\n# Ponto-chave\nManutenção de peso é doença crônica, exige abordagem longitudinal, ética e baseada em evidência clínica robusta.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "44 anos"
+      },
+      {
+        "label": "IMC inicial",
+        "value": "38,1 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Diabetes tipo 2, Apneia obstrutiva do sono moderada"
+      },
+      {
+        "label": "Perda ponderal com semaglutida",
+        "value": "14% em 10 meses"
+      },
+      {
+        "label": "Laboratórios",
+        "value": "Estáveis; TGO/TGP normais"
+      },
+      {
+        "label": "PA",
+        "value": "128/76 mmHg"
+      },
+      {
+        "label": "Dificuldades",
+        "value": "Custo elevado, pouco suporte comportamental"
+      },
+      {
+        "label": "Preferência",
+        "value": "Deseja manipulado"
+      }
+    ],
+    "title": "Dilema na Manutenção do Peso com Semaglutida no SUS: Caso Ana",
+    "reward": 45,
+    "options": [
+      {
+        "label": "A) Suspender semaglutida e recomendar só dieta e atividade, com retorno em 6 meses",
+        "correct": false,
+        "rationale": "Suspender abruptamente fármaco gera reganho acelerado e piora metabólica; demora no retorno prejudica monitoramento."
+      },
+      {
+        "label": "B) Indicar manipulação estéril de semaglutida com prescrição nominativa, consentimento e monitoramento",
+        "correct": true,
+        "rationale": "Conduta alinhada à legislação brasileira, evidência clínica e respeita limitações financeiras da paciente, mantendo tratamento ativo."
+      },
+      {
+        "label": "C) Trocar para tirzepatida manipulada, dose inicial 5 mg, escalonamento e monitorar mensalmente",
+        "correct": false,
+        "rationale": "Alternativa possível, porém exige aceitação do paciente, e uso off-label deve ser rigorosamente informado; a paciente deseja semaglutida."
+      },
+      {
+        "label": "D) Associar implante hormonal subcutâneo (gestrinona) para facilitar manutenção",
+        "correct": false,
+        "rationale": "Uso de implantes hormonais para esta finalidade é proibido pelo CFM, ilegal, sem evidência e sujeito a denúncia e sanções."
+      }
+    ],
+    "question": "Qual a melhor conduta para manutenção do peso desta paciente em consultório privado no Brasil?",
+    "vignette": "Ana, 44 anos, IMC inicial 38,1 kg/m², DM2 e apneia moderada do sono, perdeu 14% do peso com semaglutida 2,4 mg semanal em 10 meses. Relata custo elevado e deseja mudar para manipulado. Tem dificuldade com suporte comportamental. Laboratórios normais e pressão arterial controlada (128/76 mmHg).",
+    "teaching": "Manter a eficácia no longo prazo exige continuidade do tratamento com agonistas de incretinas, conforme forte evidência da literatura, inclusive STEP 4 mostrando reganho rápido após suspensão. A manipulação estéril é uma alternativa aceitável sob rigor legal e técnico, com prescrição nominativa e acompanhamento intensivo, especialmente diante da limitação financeira para uso do medicamento registrado. Suspender o tratamento ou oferecer apenas suporte comportamental expõe a paciente a recidiva acelerada, piorando o prognóstico metabólico. O uso de implantes hormonais ou fármacos não aprovados para obesidade é vedado pelo CFM e associa-se a riscos legais e éticos elevados."
+  },
+  "refs": [
+    {
+      "citation": "Rubino D et al. Effect of Continued Weekly Subcutaneous Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA. 2021;325(14):1414-1425."
+    },
+    {
+      "citation": "Wilding JPH et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002."
+    },
+    {
+      "citation": "Ministério da Saúde. Protocolo Clínico e Diretrizes Terapêuticas da Obesidade. 2023."
+    },
+    {
+      "citation": "CFM Resolução nº 2.333, 2023 - Normas Éticas para Prescrição e Manipulação."
+    },
+    {
+      "citation": "ANVISA RDC 67/2007, 301/2019 - Regulação Farmácia de Manipulação Estéril."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010;33(Suppl 1):S11-S61."
+    }
+  ],
+  "status": "published"
+}

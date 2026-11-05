@@ -1,0 +1,351 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Avaliação",
+  "module_position": 2,
+  "title": "Metas SMART e contrato terapêutico: o que é sucesso além da balança",
+  "description": "Esta aula aborda a definição e aplicação das metas SMART (Específicas, Mensuráveis, Atingíveis, Relevantes e Temporais) e do contrato terapêutico no manejo da obesidade, ressaltando que o sucesso não deve ser medido somente pela balança, mas por um conjunto de desfechos clínicos, laboratoriais e funcionais, alinhados à ética e à regulação brasileira. O conteúdo detalha evidências científicas robustas, condutas clínicas, prescrições farmacológicas dentro do registro da ANVISA, além de orientações para manipulação estéril ética e segura. Também enfatiza a importância da manutenção ativa do peso e do alinhamento claro de expectativas com o paciente para reduzir riscos de judicialização e frustração terapêutica.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Metas SMART multidimensionais são essenciais para o manejo ético e eficiente da obesidade, indo além do peso isoladamente.",
+    "Redução de 5–10% do peso inicial já impacta positivamente glicemia, pressão arterial, perfil lipídico e qualidade de vida.",
+    "Circunferência abdominal deve ser monitorada como parâmetro importante, com redução ≥5 cm associada à diminuição do risco cardiovascular.",
+    "Contrato terapêutico formaliza expectativas, responsabilidades e limitações, protegendo médico e paciente.",
+    "Manipulação estéril para fármacos injetáveis deve seguir rigorosa rastreabilidade e justificativa técnica, respeitando legislação ANVISA e ética do CFM.",
+    "Uso de hormônios e peptídeos fora das indicações aprovadas, como GH anti-aging ou research peptides, é vedado e antiético.",
+    "Manutenção ativa é fase obrigatória para evitar recidiva, com acompanhamento clínico e laboratorial periódico."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Metas SMART e Contrato Terapêutico: Sucesso Além da Balança",
+      "subtitle": "Obesidade de Precisão no Consultório – Módulo 2 · Avaliação"
+    },
+    {
+      "kind": "bullets",
+      "title": "O Paradigma Atual: Sucesso Não Se Mede Só na Balança",
+      "bullets": [
+        "Perda de 5–10% do peso: melhora glicemia, pressão arterial, perfil lipídico (Evidência A).",
+        "Circunferência abdominal reduzida correlaciona-se com menor risco cardiovascular (Evidência B).",
+        "Qualidade de vida, composição corporal e funcionalidade são desfechos clínicos vitais.",
+        "Ênfase na manutenção ativa para evitar weight cycling prejudicial (Evidência B)."
+      ]
+    },
+    {
+      "head": [
+        "Desfecho",
+        "Ganho Clínico",
+        "Número de Pacientes (N)",
+        "Magnitude",
+        "Estatística",
+        "Nível de Evidência",
+        "Referência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Perda Peso (%)",
+          "Melhora HbA1c, PA, lipídeos, remissão DM2",
+          "2800",
+          "5–10%",
+          "HbA1c: -0,5–1,2%",
+          "A",
+          "[S1]"
+        ],
+        [
+          "Circunferência Abdominal",
+          "Redução Risco CV e esteatose hepática",
+          "941",
+          "-4,5 cm",
+          "RR eventos: 0,85",
+          "B",
+          "[S1]"
+        ],
+        [
+          "Controle Pressórico",
+          "Redução eventos AVC e IAM",
+          "12450",
+          "-4 mmHg (PAS)",
+          "RR AVC: 0,89",
+          "A",
+          "[S1]"
+        ],
+        [
+          "Síndrome Metabólica",
+          "Prevenção DM2 e DAC",
+          "870",
+          "-19% incidência",
+          "HR: 0,78",
+          "B",
+          "[S1]"
+        ],
+        [
+          "Qualidade de Vida (SF-36)",
+          "Melhora bem-estar e funcionalidade",
+          "800",
+          "+8 a 11 pontos",
+          "—",
+          "B",
+          "—"
+        ],
+        [
+          "Manutenção >1 ano",
+          "Sustentação resultados",
+          "2100",
+          "35–58% mantêm perda >5%",
+          "RR recidiva: 0,64",
+          "B",
+          "[S1]"
+        ]
+      ],
+      "title": "Desfechos Clínicos em Intervenções para Obesidade"
+    },
+    {
+      "kind": "bullets",
+      "title": "Estrutura das Metas SMART",
+      "bullets": [
+        "Específicas: metas claras e operacionais (ex: reduzir 6 cm de cintura em 4 meses).",
+        "Mensuráveis: quantificáveis e monitoráveis (ex: manter glicemia <100 mg/dL).",
+        "Atingíveis: alinhadas à realidade do paciente e recursos disponíveis.",
+        "Relevantes: relacionadas a riscos e preferências do paciente.",
+        "Temporais: definição clara do prazo para avaliação."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Perda ≥8% do peso inicial em 6 meses",
+          "Redução da circunferência abdominal para <102 cm (homem) ou <88 cm (mulher)",
+          "Pressão arterial <135/85 mmHg",
+          "LDL colesterol <90 mg/dL",
+          "Manutenção da perda de peso por mais 6 meses"
+        ],
+        "label": "Metas SMART"
+      },
+      "right": {
+        "items": [
+          "Definido em consulta multidisciplinar",
+          "Monitoramento mensal no consultório",
+          "Avaliação laboratorial bimensal",
+          "Contrato terapêutico formalizado e documentado",
+          "Revisão e reajuste de metas conforme evolução"
+        ],
+        "label": "Estratégia de Implementação"
+      },
+      "title": "Exemplo Prático de Meta SMART"
+    },
+    {
+      "kind": "bullets",
+      "title": "Contrato Terapêutico: Ferramenta Ética e Clínica",
+      "bullets": [
+        "Formaliza corresponsabilidades entre médico e paciente.",
+        "Detalha metas SMART, ações esperadas e limites do tratamento.",
+        "Reduz judicialização por alinhamento claro de expectativas.",
+        "Previne promessas milagrosas e tratamentos antiéticos.",
+        "Deve ser registrado em prontuário digital para validade legal."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação inicial (IMC, circunferência, laboratórios, qualidade de vida)"
+        },
+        {
+          "label": "Discussão de expectativas e motivações pessoais"
+        },
+        {
+          "label": "Educação sobre a cronificação da obesidade e importância da manutenção"
+        },
+        {
+          "label": "Cocriação das metas SMART multidimensionais"
+        },
+        {
+          "label": "Formalização do contrato terapêutico no prontuário"
+        },
+        {
+          "label": "Definição da terapêutica farmacológica e/ou manipulada ética"
+        },
+        {
+          "label": "Monitoramento periódico (peso, circunferência, labs, QoL)"
+        },
+        {
+          "label": "Fase explícita de manutenção ativa e reforço comportamental"
+        }
+      ],
+      "title": "Fluxo Clínico para Avaliação e Implementação de Metas SMART"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Registro ANVISA",
+        "Via",
+        "Dose Usual",
+        "Indicação Aprovada",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida",
+          "Sim",
+          "SC (caneta)",
+          "2,5–15 mg semanal",
+          "DM2; Obesidade*",
+          "Glicemia, peso, laboratórios"
+        ],
+        [
+          "Semaglutida",
+          "Sim",
+          "SC (caneta)",
+          "0,25–2,4 mg semanal",
+          "DM2, Obesidade (Wegovy)",
+          "Glicemia, labs, PA"
+        ],
+        [
+          "Liraglutida",
+          "Sim",
+          "SC (caneta)",
+          "0,6–3,0 mg/dia",
+          "DM2, Obesidade",
+          "Glicemia, peso, labs"
+        ]
+      ],
+      "title": "Farmacoterapia Registrada para Obesidade: Aspectos Regulatórios e Doses",
+      "source": "ANVISA, CFM"
+    },
+    {
+      "kind": "bullets",
+      "title": "Manipulação Estéril de Fármacos Injetáveis",
+      "bullets": [
+        "Somente justificada pela indisponibilidade comercial e necessidade clínica.",
+        "Obrigatória rastreabilidade: lote, farmacêutico responsável, laudo de esterilidade anexado ao prontuário.",
+        "Validade máxima de 3 meses sob refrigeração controlada (2–8 °C).",
+        "Administração por profissional treinado e registro completo no prontuário eletrônico.",
+        "Vedada a manipulação para fins estéticos ou beneficios não comprovados.",
+        "Estrita observância das RDCs ANVISA 67/2007 e 356/2020."
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Práticas Proibidas e Condutas a Evitar",
+      "bullets": [
+        "Prescrição de GH para fins estéticos/anti-aging (vedada CFM Res. 2.333/2023).",
+        "Uso de research peptides sem registro e evidência clínica robusta.",
+        "Administração de soroterapia ‘iv drip’ sem indicação segura e baseada em evidência.",
+        "Promoção de metas ‘milagrosas’ ou ‘transformações radicais’.",
+        "Prescrição off-label sem consentimento informado e contrato terapêutico formal.",
+        "Negligenciar fase de manutenção, essencial para sustentabilidade dos resultados."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Homem, 47 anos, IMC 35, cintura 114 cm",
+          "HbA1c 6,4%, HDL 38 mg/dL, triglicerídeos 215 mg/dL",
+          "Queixa de fadiga e baixa disposição para atividade física",
+          "2 tentativas de perda de peso anteriores com recidiva total em 12 meses",
+          "Objetivo: definir metas viáveis e plano terapêutico"
+        ],
+        "label": "Dados Clínicos"
+      },
+      "right": {
+        "items": [
+          "A) Propor perda de 20% do peso em 6 meses (meta agressiva)",
+          "B) Focar exclusivamente no peso, ignorando outros parâmetros",
+          "C) Definir meta SMART: perda de 7–10% do peso, redução de 6 cm de cintura, metas glicêmicas e contrato terapêutico",
+          "D) Prescrever dieta altamente restritiva (<600 kcal/dia) com promessa de transformação"
+        ],
+        "label": "Possíveis Condutas"
+      },
+      "title": "Caso Clínico Prático"
+    },
+    {
+      "kind": "pearl",
+      "text": "Sucesso verdadeiro em obesidade é a combinação do alcance de metas SMART multidimensionais com a manutenção ativa do peso e qualidade de vida, formalmente alinhada via contrato terapêutico — evitando promessas ilusórias e práticas não éticas.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Metas SMART e Contrato Terapêutico: O Que é Sucesso Além da Balança\n\n## 1. Contexto e Relevância\n\nA crescente demanda por abordagens clínicas individualizadas no tratamento da obesidade, aliada à maior disponibilidade de fármacos injetáveis (como a tirzepatida), manipulação estéril de excelência e procedimentos hormonais, desafia médicos a revisarem conceitos clássicos de “sucesso” terapêutico. A balança, outrora protagonista única, tornou-se coadjuvante em um panorama mais complexo. Este capítulo aborda, em profundidade, a definição e implementação de metas SMART (Específicas, Mensuráveis, Atingíveis, Relevantes e Temporais), o contrato terapêutico, critérios objetivos de resultado para além do peso corporal, e fluxos de acompanhamento práticos e éticos — sempre alinhados à regulação brasileira e melhores evidências.\n\n---\n\n## 2. Bases Científicas: O Paradigma Atual no Manejo da Obesidade\n\nO entendimento contemporâneo da obesidade transcende a redução ponderal. A cura não existe; sua cronificação, as restrições de remissão e alta recidiva, e a multiplicidade de repercussões metabólicas e funcionais impõem metas multifatoriais. Diretrizes internacionais (ADA, Endocrine Society, ABESO) e consensos (NICE, AACE) [S1][S13] apontam para a necessidade de outcomes holísticos: composição corporal, cintura, desempenho físico, função orgânica, adesão, qualidade de vida, e parâmetros laboratoriais.\n\n**Evidências-áncora:**\n- Perda de 5–10% do peso inicial está associada a benefícios glicêmicos, pressóricos e de perfil lipídico (Evidência A).\n- Redução de 5 cm de circunferência abdominal correlaciona-se com menor risco cardiovascular independentemente do IMC (Evidência B).\n- “Weight cycling” (perdas e recuperações) pode ser deletério; ênfase na manutenção ativa do peso é prioritária para sustentabilidade dos resultados (Evidência B).\n\n---\n\n## 3. Evidência Crítica: O Que Medir, Por Quê?\n\n### Tabela 1. Desfechos de Intervenções em Obesidade (Principais Estudos e Diretrizes)\n\n| Desfecho                       | Ganho Clínico                      | N                   | Redução Absoluta           | HR/ARR/IC95%             | Evidência | Referência    |\n|-------------------------------|------------------------------------|---------------------|----------------------------|--------------------------|-----------|---------------|\n| Peso (% perda)                | HbA1c, PA, lipídeos, DM2 remissão  | 2.800 (meta-análise) | 5–10%                      | HbA1c: -0,5–1,2%         | A         | [S1]          |\n| Circunferência abdominal      | Risco CV, esteatose, insulina      | 941                 | -4,5 cm                    | RR eventos: 0,85         | B         | [S1]          |\n| Controle pressórico           | AVC, Miocárdio                     | 12.450              | -4 mmHg (PAS)              | RR AVC: 0,89             | A         | [S1]          |\n| Síndrome metabólica           | Prevenção de DM2, DAC              | 870                 | -19% incidência            | HR: 0,78                 | B         | [S1]          |\n| Qualidade de vida (SF-36)     | Bem-estar, funcionalidade          | 800                 | +8–11 pontos               | —                        | B         | —             |\n| Manutenção >1 ano             | Sustentação resultados             | 2.100               | 35–58% mantêm >5% perda    | RR recidiva: 0,64        | B         | [S1]          |\n\n**Interpretação:** A perda ponderal de 5–10% já implica melhorias relevantes em vários eixos. Focar apenas em peso é perda de oportunidade clínica e, potencialmente, risco de frustração e abandono.\n\n---\n\n## 4. Metas SMART: Da Teoria à Prática\n\n### 4.1. Definição e Características\n\n- **Específicas:** Indicadores claros e operacionais. Ex: “Reduzir 6 cm de cintura em 4 meses.”\n- **Mensuráveis:** Quantificáveis, repetíveis. Ex: “Manter glicemia de jejum < 100 mg/dL.”\n- **Atingíveis:** Adaptação ao padrão basal, recursos e limitações do paciente.\n- **Relevantes:** Vinculadas ao risco, funcionalidade e preferências do paciente.\n- **Temporais:** Delimitação clara do prazo de avaliação e reavaliação.\n\n### 4.2. Exemplo prático\n\n> “Manter perda ≥8% do peso inicial, com cintura <102 cm (homem) ou <88 cm (mulher), PA <135/85 mmHg e LDL <90 mg/dL, em 6 meses.”\n\n---\n\n### Tabela 2. Exemplos de Metas SMART – Consultório de Obesidade\n\n| Parâmetro                     | SMART?           | Meta ideal                          | Validade e Limite Regulatório              | Frequência de Monitoramento |\n|-------------------------------|------------------|-------------------------------------|--------------------------------------------|----------------------------|\n| Peso                          | Sim              | Perda ≥5–10% em 6 meses             | Aceito ABESO/ADA/CFM                      | Mensal                     |\n| Circunferência abdominal      | Sim              | Redução ≥5 cm em 6 meses            | IDF/CNV                                   | Mensal                     |\n| Glicemia de jejum             | Sim              | <100 mg/dL                          | ADA/CFM                                   | Bimensal                   |\n| HOMA-IR                       | Sim              | <2,5                                | Doces: uso razoável                       | Trimestral                 |\n| Escore SF-36 (QoL)            | Sim              | +6 pontos vs baseline                | Aceito em protocolos/estudos               | 6/12 meses                 |\n| Nível de atividade física     | Sim              | 150 min/semana, ≥8.000 passos/dia    | OMS/IDF                                   | Mensal                     |\n| IMC “ideal” (<25)             | Não              | —                                   | Não recomendado como meta isolada          | —                          |\n| “Corpo de revista”            | Não              | —                                   | Não ético, vedado (CFM Res. 2.333/2023)    | —                          |\n\n---\n\n## 5. Contrato Terapêutico: Alinhamento de Expectativas e Responsabilidades\n\n### 5.1. Definição e Mecanismo\n\nO contrato terapêutico formaliza a corresponsabilidade sobre as metas, adesão, comunicações, limites das intervenções e gerenciamento de expectativas. Deve ser redigido de forma clara, detalhando:\n- Critérios objetivos de sucesso (ver metas SMART).\n- Ações esperadas do paciente e do médico.\n- Critérios de manutenção, reajuste ou interrupção do tratamento.\n- Compromisso ético contra intervenções milagrosas ou fúteis.\n\n**Justificativa:** Esta abordagem reduz o risco de demandas judiciais, protege a autonomia e combate o “hype” ou promessas estéticas sem sustentação.\n\n---\n\n## 6. Seleção de Pacientes e Casos de Uso no Consultório Brasileiro\n\n### 6.1. Critérios para Definição de Metas\n\nA individualização depende de fatores como:\n- IMC, composição corporal, distribuição de gordura (visceralidade).\n- Comorbidades: DM2, dislipidemia, SAOS, síndrome metabólica.\n- Expectativas e história prévia de tentativas e recidivas.\n- Perfil laboratorial e genético (quando disponível).\n- Restrição funcional ou limitações orgânicas.\n\n### 6.2. Estratégias e exemplos de caso\n\n#### Caso Clínico Realista (Brasil, 2024)\n\n**Homem, 47 anos**, IMC 35, cintura 114 cm, HbA1c 6,4%, HDL 38 mg/dL, triglicerídeos 215 mg/dL, queixa de fadiga e baixa disposição para atividade física, 2 tentativas prévias de perda de peso seguidas de recidiva total em 12 meses.\n\n**Objetivo da consulta:** Definir metas viáveis e plano terapêutico.\n\n### Opções de Conduta Inicial\n\nA) Propor perda de 20% do peso em 6 meses (“meta agressiva”)  \nB) Focar exclusivamente em peso, sem metas de composição corporal ou perfil metabólico  \nC) Definir meta SMART: perda de 7–10% do peso em 6 meses, + redução de 6 cm de cintura, metas glicêmicas e plano de manutenção ativo, com contrato terapêutico firmado  \nD) Prescrever dieta altamente restritiva (<600 kcal/dia), citar promessa de “transformação radical”\n\n**Resposta correta:** C\n\n**Justificativa:** Opção C adere à melhor evidência e preceitos éticos — metas realistas, multifatoriais, rastreáveis e sustentáveis, com alinhamento formal de expectativas. Opções A e D são arriscadas, antiéticas e legalmente frágeis. Opção B é insuficiente.\n\n---\n\n## 7. Conduta Passo a Passo: Implementação Estruturada no Consultório\n\n### 7.1. Fluxograma de Implementação\n\n1. **Avaliação inicial:** IMC, cintura, labs, QoL (questionários validados), histórico prévio.\n2. **Elicitação de expectativas e motivações.**\n3. **Educação sobre cronificação da obesidade e riscos do “all-or-nothing”.**\n4. **Cocriação de metas SMART (ex: peso, cintura, PA, glicemia, funcionalidade, manutenção).**\n5. **Formalização do contrato terapêutico (documentado em prontuário digital).**\n6. **Escolha terapêutica baseada em critérios, segurança e regulamentação (ver seção 8).**\n7. **Acompanhamento mensal (consultas, labs, ajuste de metas e terapêutica).**\n8. **Fase de manutenção ativa planejada. Reforço comportamental, ajustes terapêuticos e vigilância de recidiva.**\n\n---\n\n### Tabela 3. Fluxo Resumido e Intervenções\n\n| Etapa                     | Instrumentos                      | Frequência          | Reforço/Comentário                                  |\n|---------------------------|-----------------------------------|---------------------|----------------------------------------------------|\n| Baseline                  | IMC, cintura, labs, QoL           | 0 (entrada)         | Fundamental para fomentar mensurabilidade           |\n| Elicitação de Expectativas| Entrevista motivacional           | 0                   | Previne desalinhamento                             |\n| Metas SMART               | Formulário + discussão            | 0                   | Documentar e rever periodicamente                  |\n| Contrato terapêutico      | Modelo escrito + registro digital | 0, revisar a cada 6m| Proteção ética/legal, reforço da aderência          |\n| Escolha terapêutica       | Protocolos CFM/ANVISA             | 0                   | Proibido off-label sem justificativa em registro    |\n| Monitoramento             | Peso, cintura, labs, QoL          | Mensal a Bimensal   | Monitorar ajustes, eventos adversos e recidiva      |\n| Manutenção ativa          | Reeducação + eventual fármaco     | Pós-perda de peso   | Fase fundamental, mantém status e minimiza recidiva |\n\n---\n\n## 8. Particularidades em Terapêutica Farmacológica e Manipulação Estéril\n\n### 8.1. Medicações: Quando Prescrever, Doses, Vias, Registro\n\n#### A. Registradas e Indicadas (ANVISA)\n\n| Droga         | Registro | Via           | Dose usual              | Indicação aprovada          | Monitoramento principal |\n|---------------|----------|---------------|-------------------------|-----------------------------|------------------------|\n| Tirzepatida   | Sim      | SC (caneta)   | 2,5–15 mg 1x/semana     | DM2/complementar obesidade* | Glicemia, peso, labs   |\n| Semaglutida   | Sim      | SC (caneta)   | 0,25–2,4 mg 1x/semana   | DM2, obesidade (Wegovy)     | Glicemia, labs, PA     |\n| Liraglutida   | Sim      | SC (caneta)   | 0,6–3,0 mg/dia          | DM2, obesidade              | Glicemia, peso, labs   |\n\n*Obs: Indicação primária é DM2; para obesidade sem DM2, ver off-label e manipulado.*\n\n#### B. Off-label Documentado e Manipulado\n\n- Exemplo: Tirzepatida manipulada (estéril).\n    - Legalidade: **Apenas se houver justificativa documentada de indisponibilidade comercial, prescrição individualizada e garantia de qualidade, conforme RDC 67/2007 e RDC 356/2020. Estrita documentação de rastreabilidade e laudos de esterilidade.**\n- Caso de uso: Obesidade sem DM2 e falha de medidas convencionais onde não disponível comercialmente no país.\n\n#### C. Intervenções NÃO recomendadas (Proibidas CFM/ANVISA)\n- GH “anti-aging” (proibido para fins estéticos/anti-aging – Res. CFM 2.333/23).\n- Research peptides sem registro e sem rastreio (imutável, ilegal).\n- “Soroterapia” em “drip” metabólico, sem indicação inexorável (deficiência comprovada) ou protocolo de suporte perioperatório oncológico/infeccioso.\n\n### 8.2. Cuidados de Estabilidade, Frasco e Manipulação (Injetáveis Estéreis)\n\n- **Validade:** Máx. 3 meses, sob refrigeração 2–8°C. Inspeção visual pré-administração.\n- **Rastreio:** Lote, data, farmácia, farmacêutico reponsável, laudo de esterilidade anexado ao prontuário.\n- **Administração:** Médico/enfermeiro treinado, registro em prontuário eletrônico.\n- **Monitoramento de segurança:** Protocolado (PA, glicemia, hipersensibilidade, sinais de infecção/contaminação).\n\n---\n\n## 9. Monitoramento, Segurança e Manutenção\n\n### 9.1. Critérios de Sucesso Dinâmico\n\nO desfecho de “sucesso” não é estático: é a convergência de metas SMART atingidas e sustentadas (peso, cintura, labs, QoL) + ausência de eventos adversos graves + engajamento em fase de manutenção.\n\n### 9.2. Manutenção: A Fase Negligenciada\n\n- **Educação reiterada:** Reforço sobre expectativa realista — pequenas oscilações são normais.\n- **Reforço farmacológico:** Permanece com fármaco em menor dose quando indicado, particularmente se risco de recidiva alto.\n- **Acompanhamento psicológico/comportamental:** Fundamental para manutenção de adesão.\n- **Monitoramento periódico:** Peso mensal; labs a cada 3–6 meses; parâmetros funcionais a cada 6–12 meses.\n\n---\n\n## 10. Regulação Brasileira, Ética e Responsabilidade\n\n### 10.1. CFM e ANVISA: Pilares\n\n- **CFM** (Res. 2.333/2023): Proíbe prescrição de GH para fins estéticos/anti-aging; exige critérios para todos os hormônios; veda promessas de “transformação radical”.\n- **ANVISA:** Obriga uso preferencial de produtos registrados e validação de processos na manipulação estéril. Manipulados só são admissíveis mediante justificativa técnica robusta e não podem ser publicizados como “melhores que padrão comercial”.\n\n### 10.2. Prontuário, Consentimento e Contrato\n\n- **Consentimento informado:** Explicita limites, riscos e critérios objetivos de sucesso.\n- **Contrato terapêutico:** Fortalece segurança jurídica e reforça ética da prescrição.\n\n---\n\n## 11. O Que NÃO Fazer\n\n1. **Não prometer metas “mágicas”** (ex: “10 kg/mês garantidos”, IMC “ideal” a qualquer custo, padrão estético de mídia).\n2. **Não banalizar riscos dos tratamentos farmacológicos e manipulação estéril** — obrigatória a rastreabilidade.\n3. **Não mover terapêutica além do escopo registrado/suportado sem robusta justificativa científica e regulatória**.\n4. **Não negligenciar contrato e consentimento documentados.**\n5. **Nunca utilizar hormônios, peptides ou “iv drips” sem deficiência comprovada e clara aderência à Res. CFM 2.333/2023.**\n\n---\n\n## 12. Pérolas e Checklist Operacional\n\n### Pearls\n\n- Sucesso real em obesidade só existe quando sustentado. Meta = perda + manutenção ativa.\n- Cintura e labs são, frequentemente, tão ou mais importantes que o peso.\n- O contrato terapêutico protege o médico — e o paciente — do mercantilismo e da judicialização.\n- Todo injetável manipulado requer sumária avaliação de qualidade, rastreabilidade e justificativa documentadas.\n- Evitar metas exclusivamente “cosméticas” ou inatingíveis é respeito ético e científico.\n\n### Checklist Rápido (Quick_ref)\n\n1. [ ] Realizei avaliação basal completa, incluindo labs e cintura.\n2. [ ] Discuti expectativas realistas e cronificação com o paciente.\n3. [ ] Formalizei metas SMART (peso/cintura/labs/QoL) documentadas.\n4. [ ] Contrato terapêutico assinado e arquivado.\n5. [ ] Se uso de manipulado estéril: lote, laudo e rastreio anexos.\n6. [ ] Planejamento explícito da fase de manutenção ativo.\n7. [ ] Consentimento especial em caso de off-label.\n8. [ ] Revisão clínica/laboratorial regular per protocolo.\n9. [ ] Jamais prometi resultados estéticos desproporcionais ou “de mídia”.\n\n---\n\n## 13. Key Points\n\n1. **Metas SMART multidimensionais e alinhamento formal pelo contrato terapêutico são essenciais para sucesso sustentável e ética clínica em obesidade.**\n2. **Sucesso vai além da balança: priorize cintura, labs, desempenho funcional e qualidade de vida.**\n3. **Prescrição de manipulado estéril só é justificável sob rígidos critérios legais e de rastreabilidade, jamais para “versão melhorada” do comercial.**\n4. **Nunca utilize GH, research peptides nem “iv drips” sem respaldo inequívoco; riscos éticos e legais elevados sob Res. CFM 2.333/2023.**\n5. **A manutenção ativa é fase obrigatória do plano de cuidados — sem ela, recidiva é regra, não exceção.**\n6. **Formalização de contrato terapêutico mitiga judicialização e desalinho de expectativas.**\n7. **O “não fazer” ético é tão importante quando o fazer bem feito no manejo da obesidade.**\n\n---\n\n## 14. Referências\n\n1. Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. [S1]  \n2. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. [S3]  \n3. 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. [S13]  \n4. Biblioteca Doutiva, capítulos “Obesidade - Tratamento Farmacológico”, “Manipulação Estéril - Boas Práticas”, “Responsabilidade Médica e Contrato Terapêutico”. [S1], [S3], [S13]  \n5. Resolução CFM 2.333/2023, RDC ANVISA 67/2007, RDC 356/2020.\n\n---\n\n## 15. Apêndice Didático: Slides para Discussão\n\n### Slide 1: Title  \n**Metas SMART e Contrato Terapêutico: Sucesso Além da Balança**\n\n---\n\n### Slide 2: O Paradigma — Sucesso Não Se mede Só na Balança\n- Perda de 5–10%: melhora pressão, glicemia, lipídeos\n- Circunferência abdominal: RCV e esteatose acima do peso\n- Qualidade de vida sobressai sobre apenas perda ponderal\n\n---\n\n### Slide 3: Tabela densa — Evidência Crítica\n\n| Desfecho         | N    | Magnitude | RR/IC95%                | Evidência |\n|------------------|------|-----------|-------------------------|-----------|\n| Peso (% perda)   | 2800 | 5–10%     | HbA1c: -0,5–1,2%        | A         |\n| Cintura          | 941  | -4,5 cm   | RR eventos: 0,85        | B         |\n| Qualidade vida   | 800  | +8 pts    | —                       | B         |\n\n---\n\n### Slide 4: Metas SMART — Estrutura\n\n- Específicas, mensuráveis, atingíveis, relevantes, temporais\n- Documentar, revisar, reajustar\n\n---\n\n### Slide 5: Exemplo Prático de Meta SMART\n\n> “Reduzir 8% do peso e 6 cm de cintura, manter PA <135/85, LDL <90, em 6 meses, além de manter perda por mais 6 meses”\n\n---\n\n### Slide 6: Contrato Terapêutico: Para quê?\n\n- Alinha expectativas\n- Fortalece adesão e proteção legal (prontuário digital)\n- Co-responsabiliza paciente\n\n---\n\n### Slide 7: Fluxo Conduta Consultório\n\n1. Avaliação inicial completa\n2. Metas SMART conjunto\n3. Contrato formal\n4. Escolha terapêutica legítima/ética\n5. Monitoramento estruturado\n6. Fase de manutenção explícita\n\n---\n\n### Slide 8: Tabela Resumida — Condutas e Frequências\n\n| Parâmetro     | Frequência | Como monitorar      |\n|---------------|------------|---------------------|\n| Peso,cintura  | Mensal     | Balança / fita      |\n| Labs          | 3-6 meses  | Perfil metabólico   |\n| QoL           | 6-12 meses | SF-36               |\n\n---\n\n### Slide 9: Medicações — Condutas conforme Registro\n\n- Registrado ANVISA: sempre preferir\n- Manipulado estéril: só com rastreio estrito, justificativa\n- Proibidos: GH, research peptide, “iv drip” cosmético\n\n---\n\n### Slide 10: Manutenção Ativa: O Grande Esquecido\n\n- Recidiva é risco maior sem fase explícita de manutenção\n- Educação, re-motivação, terapia, ajuste possivelmente de dose\n\n---\n\n### Slide 11: O Que Não Fazer — Bulletpoints\n\n- Não prometa “milagres”\n- Não prescreva sem contrato formal\n- Não banalize riscos do manipulado estéril\n\n---\n\n### Slide 12: Pérolas Clínicas\n\n- Cintura/labs > só peso\n- Contrato protege (clínica e legalmente)\n- Sucesso = atingimento + manutenção ativa\n\n---\n\n### Fim da Monografia",
+  "quick_ref": "# Guia Rápido para Metas SMART e Contrato Terapêutico em Obesidade\n\n| Passo                     | Ação                                       | Detalhes Rápidos                    |\n|--------------------------|--------------------------------------------|-----------------------------------|\n| Avaliação Inicial        | IMC, circunferência, labs, QoL              | Mensurar para base comparativa    |\n| Expectativas             | Entrevista motivacional                      | Alinhar expectativas reais         |\n| Metas SMART              | Documentar peso, cintura, glicemia, QoL     | Metas específicas e temporais      |\n| Contrato Terapêutico     | Formalizado, assinado e armazenado digital  | Cláusulas de corresponsabilidade   |\n| Terapêutica              | Preferir fármacos registrados; cuidado manipulação| Respeitando CFM e ANVISA       |\n| Monitoramento            | Peso e cintura mensal; labs cada 3–6 meses | Ajustar metas conforme progresso   |\n| Manutenção Ativa         | Reforço comportamental e farmacológico       | Prevenir recidiva                  |\n| Proibições               | GH anti-aging, peptides, drips sem critério | Riscos legais e éticos elevados   |\n| Documentação             | Consentimento e rastreabilidade da manipulação| Essencial para segurança jurídica |\n\n# Checklist para Consulta\n\n- [ ] Avaliação completa e atualizada\n- [ ] Metas SMART claras e documentadas\n- [ ] Contrato terapêutico formalizado\n- [ ] Prescrição conforme registro ANVISA\n- [ ] Documentação e laudos de manipulado anexados\n- [ ] Monitoramento e revisão periódica planejados\n- [ ] Educação sobre manutenção ativa para paciente\n- [ ] Nenhuma promessa milagrosa ou antiética feita",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Sexo",
+        "value": "Masculino"
+      },
+      {
+        "label": "Idade",
+        "value": "47 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "35 kg/m²"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "114 cm"
+      },
+      {
+        "label": "HbA1c",
+        "value": "6,4%"
+      },
+      {
+        "label": "HDL",
+        "value": "38 mg/dL"
+      },
+      {
+        "label": "Triglicerídeos",
+        "value": "215 mg/dL"
+      },
+      {
+        "label": "História",
+        "value": "2 tentativas prévias de perda de peso com recidiva total em 12 meses"
+      }
+    ],
+    "title": "Definição de metas terapêuticas em paciente obeso com comorbidades",
+    "reward": 40,
+    "options": [
+      {
+        "label": "A) Propor perda de 20% do peso em 6 meses (‘meta agressiva’)",
+        "correct": false,
+        "rationale": "Meta agressiva, sem individualização e pode ser inviável, aumentando risco de frustração e abandono."
+      },
+      {
+        "label": "B) Focar exclusivamente em peso, sem metas de composição corporal ou perfil metabólico",
+        "correct": false,
+        "rationale": "Falta de abordagem holística, ignorando parâmetros de risco relevantes."
+      },
+      {
+        "label": "C) Definir meta SMART: perda de 7–10% do peso em 6 meses, redução de 6 cm na cintura, metas glicêmicas e plano de manutenção ativo, com contrato terapêutico firmado",
+        "correct": true,
+        "rationale": "Abordagem baseada em evidências, realista e ética, promovendo sustentabilidade e segurança jurídica."
+      },
+      {
+        "label": "D) Prescrever dieta altamente restritiva (<600 kcal/dia), citar promessa de ‘transformação radical’",
+        "correct": false,
+        "rationale": "Conduta antiética, com risco de efeitos adversos e legal."
+      }
+    ],
+    "question": "Qual a abordagem mais correta para definição das metas e plano terapêutico neste paciente?",
+    "vignette": "Paciente masculino, 47 anos, IMC 35 kg/m², circunferência abdominal 114 cm, HbA1c 6,4%, HDL 38 mg/dL e triglicerídeos 215 mg/dL. Queixa-se de fadiga e baixa disposição para atividade física. Refere duas tentativas prévias de perda de peso com recidiva total em 12 meses. Procura avaliação para definir metas e plano terapêutico.",
+    "teaching": "O manejo efetivo da obesidade deve usar metas SMART alinhadas ao perfil clínico e expectativas do paciente, priorizando perda de 7–10% do peso inicial, redução da circunferência abdominal e controle glicêmico. O contrato terapêutico formaliza esse alinhamento e protege a relação médico-paciente. Optar por metas realistas e multidimensionais aumenta adesão e sustentação dos resultados, evitando frustrações e riscos legais. Dietas altamente restritivas ou promessas irreais não são indicadas por riscos éticos e clínicos. O uso rigoroso da farmacoterapia registrada, aliado ao acompanhamento regular, maximiza a segurança e eficácia."
+  },
+  "refs": [
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010."
+    },
+    {
+      "citation": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. J Am Coll Cardiol 2024."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 – Medicina Estética e Hormônios."
+    },
+    {
+      "citation": "RDC ANVISA nº 67/2007 e 356/2020 – Boas Práticas em Manipulação Estéril."
+    }
+  ],
+  "status": "published"
+}

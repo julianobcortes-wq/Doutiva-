@@ -1,0 +1,392 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Bases",
+  "module_position": 1,
+  "title": "Obesidade como Doença Crônica: Fisiopatologia, Set Point e Estigma no Consultório",
+  "description": "A obesidade é uma doença crônica multifatorial, com base biológica complexa, modulada por fatores ambientais e sociais. A fisiopatologia envolve inflamação crônica do tecido adiposo, disfunção dos sistemas neuroendócrino e de recompensa, e a manutenção de um set point corporal elevado que dificulta a perda persistente de peso. No consultório, o manejo ético deve respeitar evidências, legislação brasileira, e tratar o estigma com linguagem centrada na pessoa para melhorar adesão e resultados clínicos.",
+  "duration_minutes": 90,
+  "evidence_level": "Nível B (séries clínicas, estudos observacionais robustos, bases farmacológicas) e Nível A (diretrizes clínicas reconhecidas)",
+  "key_points": [
+    "Obesidade deve ser entendida e tratada como doença crônica, envolvendo múltiplos mecanismos biológicos e sociais.",
+    "O set point corporal defende níveis elevados de adiposidade, dificultando a manutenção da perda de peso.",
+    "Inflamação crônica do tecido adiposo visceral contribui para resistência insulínica e comorbidades associadas.",
+    "Sistema de recompensa alimentar, incluindo circuitos dopaminérgicos, influencia o comportamento alimentar hedônico.",
+    "Estigma da obesidade no ambiente clínico compromete adesão e resultados, exigindo linguagem não estigmatizante.",
+    "Prescrição farmacológica ética exige respaldo formal da ANVISA/CFM, rigor na manipulação estéril e documentação clínica.",
+    "Condutas não autorizadas (research peptides, GH anti-aging, implantes estéticos) são proibidas e potencialmente lesivas."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Obesidade como Doença Crônica: Bases e Abordagem no Consultório Premium",
+      "subtitle": "Fisiopatologia, Set Point e Estigma no Manejo Clínico Moderno"
+    },
+    {
+      "head": [
+        "Indicador",
+        "Vigitel 2023 (%)",
+        "IBGE 2019 (%)",
+        "Tendência 2008–2023"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Obesidade geral (IMC≥30)",
+          "22.4",
+          "20.3",
+          "+70% (2008: 12.2 → 2023: 22)"
+        ],
+        [
+          "Sobrepeso (IMC≥25)",
+          "60.7",
+          "61.7",
+          "+30%"
+        ],
+        [
+          "Obesidade infantil",
+          "—",
+          "9.4 (5–9a)",
+          "+100% desde 2000"
+        ],
+        [
+          "Mulheres (IMC≥30)",
+          "25.1",
+          "23.0",
+          "Sempre > Homens"
+        ],
+        [
+          "Homens (IMC≥30)",
+          "19.3",
+          "17.8",
+          "Aumento maior que mulheres"
+        ],
+        [
+          "Obesidade grau III (≥40)",
+          "~1.5",
+          "≈1%",
+          "Tende a dobrar a cada década"
+        ]
+      ],
+      "title": "Epidemiologia Brasileira da Obesidade (2008–2023)",
+      "source": "Ministério da Saúde / IBGE - Vigitel 2023"
+    },
+    {
+      "kind": "bullets",
+      "title": "Fisiopatologia — Eixos de Regulação do Peso",
+      "bullets": [
+        "Sistema hipotalâmico: núcleos arcuato, PVN, ventromedial regulam fome e saciedade",
+        "Hormônios chave: leptina (saciedade), insulina (controle central), grelina (estimula fome)",
+        "Resistência à leptina e insulina favorece manutenção do peso alto",
+        "Sistema de recompensa mesocorticolímbico (dopamina, núcleo accumbens) reforça ingestão hedônica",
+        "Tecido adiposo visceral ativo produz citocinas pró-inflamatórias (TNF-α, IL-6), causando inflamação crônica",
+        "Inflamação induz resistência insulínica, lesão endotelial e disfunção imunometabólica"
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Redução calórica brusca"
+        },
+        {
+          "label": "↓ Gasto energético basal"
+        },
+        {
+          "label": "↑ Fome e sinalização grelina"
+        },
+        {
+          "label": "↓ Saciedade (↓ leptina e insulina centrais)"
+        },
+        {
+          "label": "Restabelecimento do peso para set point elevado"
+        },
+        {
+          "label": "Dificuldade para manutenção da perda de peso"
+        }
+      ],
+      "title": "Set Point, Adaptação Metabólica e Ciclo da Obesidade"
+    },
+    {
+      "head": [
+        "Estudo/Guideline",
+        "População",
+        "Intervenção",
+        "Desfecho",
+        "Magnitude/IC95%",
+        "Grau"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "ADA 2010 [S1]",
+          "DM2/Obesidade",
+          "GLP-1RA, nutrição, metformina",
+          "A1c, peso, CV",
+          "-3–8 kg / 1 ano; -1.0–1.5%",
+          "A"
+        ],
+        [
+          "Look AHEAD",
+          "DM2, n=5.145",
+          "Mudança intensiva estilo de vida",
+          "Mortalidade CV",
+          "NS significativa",
+          "B"
+        ],
+        [
+          "SCALE Obesity",
+          "IMC>30, n=3.731",
+          "Liraglutida 3mg vs placebo",
+          "Redução de peso",
+          "-8,0% vs -2,6% (p<0,001)",
+          "A"
+        ],
+        [
+          "STEP 1",
+          "IMC>30, n=1.961",
+          "Semaglutida 2,4mg/semana",
+          "Redução de peso",
+          "-14,9% vs -2,4%; NNT=2",
+          "A"
+        ],
+        [
+          "SURMOUNT-1",
+          "IMC>30, n=2.539",
+          "Tirzepatida 5–15mg/semana",
+          "Redução de peso",
+          "-15–21% em 72s (p<0,001)",
+          "A"
+        ],
+        [
+          "Bariátrica SOS",
+          "IMC>35, n=2.010",
+          "Cirurgia vs controle",
+          "Mortalidade, DM2",
+          "HR 0,71 (IC 0,54–0,92)",
+          "A"
+        ]
+      ],
+      "title": "Evidência Crítica — Principais Trials e Guidelines",
+      "source": "Referências clínicas e guidelines internacionais"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Sistema Nervoso Central: regulação hormonal e recompensa, resistência à leptina/insulina, sinalização dopaminérgica alterada",
+          "Ambiente: sedentarismo, oferta alimentar obesogênica, baixa disponibilidade de alimentos naturais",
+          "Indústria alimentícia: marketing agressivo, ampla oferta de alimentos ultraprocessados hipercalóricos, reforço hedônico"
+        ],
+        "label": "Fatores Biológicos"
+      },
+      "right": {
+        "items": [
+          "Alterações neurobiológicas favorecem sobreconsumo",
+          "Ambiente facilita o balanço energético positivo",
+          "Incentivos comerciais reforçam padrões alimentares prejudiciais"
+        ],
+        "label": "Fatores Contextuais"
+      },
+      "title": "Papel do Sistema Nervoso Central x Ambiente x Indústria Alimentícia"
+    },
+    {
+      "head": [
+        "Medicamento/Procedimento",
+        "Registro ANVISA",
+        "Manipulação Estéril",
+        "Status CFM",
+        "WADA",
+        "Classificação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Liraglutida, Semaglutida",
+          "Sim",
+          "Não permitido",
+          "Permitido uso aprovado",
+          "Não proibido",
+          "Permitido"
+        ],
+        [
+          "Tirzepatida",
+          "Sim",
+          "Permitido com critério",
+          "Permitido se indicação formal",
+          "Não proibido",
+          "Permitido"
+        ],
+        [
+          "Fentermina, Topiramato, Orlistate",
+          "Sim",
+          "Não",
+          "Restrições e critérios",
+          "Não proibido",
+          "Permitido"
+        ],
+        [
+          "GH e Implantes Hormonais",
+          "Sim ou Não*",
+          "CRITÉRIO DEFICIÊNCIA",
+          "Proibido uso estético",
+          "Proibido",
+          "Proibido"
+        ],
+        [
+          "Research Peptides",
+          "Não",
+          "Não",
+          "Proibido",
+          "Proibido",
+          "Proibido"
+        ],
+        [
+          "Soroterapia/Diet Drips",
+          "—",
+          "Manejo hospitalar",
+          "Apenas em deficiências",
+          "—",
+          "Regulamentado restrito"
+        ]
+      ],
+      "title": "Farmacoterapia e Manipulação: Permitidos x Proibidos (Brasil)",
+      "source": "ANVISA / CFM Res. 2.333/2023 / RDC 786/2023"
+    },
+    {
+      "kind": "bullets",
+      "title": "Impacto Clínico do Estigma e Linguagem Não Estigmatizante",
+      "bullets": [
+        "50–70% adultos com obesidade relatam preconceito em serviços de saúde",
+        "Estigma internalizado limita adesão e aumenta abandono terapêutico",
+        "Evitar termos pejorativos: use 'adulto com obesidade' em lugar de 'obeso'",
+        "Utilizar instrumentos validados para avaliar estigma e qualidade de vida (ex: IWQOL-Lite-BR)",
+        "Comunicação empática reconhece obesidade como condição biológica e multifatorial",
+        "Educação e mudança de linguagem reduzem barreiras ao tratamento"
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Anamnese detalhada e avaliação antropométrica"
+        },
+        {
+          "label": "2. Rastreamento de comorbidades (DM2, HAS, apneia, saúde mental)"
+        },
+        {
+          "label": "3. Avaliação do estigma e qualidade de vida"
+        },
+        {
+          "label": "4. Estratificação do risco cardiometabólico"
+        },
+        {
+          "label": "5. Intervenção inicial: dieta, exercício, terapia cognitiva"
+        },
+        {
+          "label": "6. Indicação criteriosa de farmacoterapia (preferir registro ANVISA)"
+        },
+        {
+          "label": "7. Acompanhamento multidisciplinar regular"
+        },
+        {
+          "label": "8. Reforço contínuo em linguagem não estigmatizante e adesão"
+        }
+      ],
+      "title": "Passo a Passo Premium para Conduta e Monitoramento na Obesidade"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Documentar IMC, circunferência abdominal e riscos em cada consulta\n- Avaliar e registrar estigma e impacto emocional rotineiramente\n- Estabelecer metas de perda realistas (-5–10% em 6 meses sem medicação)\n- Revisar evolução com exames laboratoriais e avaliação clínica\n- Prescrever somente medicamentos com registro e dossiê clínico rigoroso\n- Proibir uso de GH estético, peptides para emagrecimento e implantes não indicados\n- Usar linguagem centrada na pessoa, evitando expressões culpabilizantes\n- Garantir documentação detalhada da prescrição e evolução conforme normas CFM e ANVISA",
+      "title": "Checklist Premium de Consultório em Obesidade"
+    }
+  ],
+  "monograph": "# Obesidade como Doença Crônica: Fisiopatologia, Set Point e Estigma no Consultório\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nA obesidade é reconhecida, por consenso de sociedades internacionais e normas nacionais, como uma doença crônica multifatorial, de base biológica, modulada por ambiente, comportamento e determinantes sociais. No Brasil, sua prevalência atingiu patamares epidêmicos: dados do Vigitel 2023 indicam 22.4% de adultos com obesidade (IMC ≥ 30 kg/m²) e mais de 60% com excesso de peso, com aumento acelerado especialmente entre faixas de 18–44 anos (Vigitel/IBGE, [verificar]).\n\nEsse crescimento se traduz em efeitos diretos sobre incidência de DM2, doença cardiovascular, alguns tipos de câncer, apneia do sono e disfunções osteometabólicas. No consultório, lidar com obesidade exige ciência translacional robusta, respeito à fisiopatologia de base, identificando ainda mecanismos modernos como inflamação crônica, neuroregulação da fome/saciedade e efeitos de set point, além do indispensável cuidado com o estigma, que prejudica adesão e desfechos.\n\nNo cenário nacional, o registro ANVISA, a legislação do CFM (Res. 2.333/2023 e correlatas), normas de manipulação estéril (RDC 67/2007, RDC 786/2023) e o respeito à indicação/manejo individualizado são determinantes para prática ética — ponto central para endocrinologistas, nutrólogos e clínicos.\n\n---\n\n## 2. Bases Científicas: Epidemiologia, Neurobiologia e Inflamação\n\n### 2.1 Epidemiologia da Obesidade no Brasil\n\n| Indicador                    | Vigitel 2023 (%) | IBGE 2019 (%) | Tendência 2008–2023          |\n|------------------------------|------------------|--------------|------------------------------|\n| Obesidade geral (IMC ≥30)    | 22.4             | 20.3         | +70% (2008: 12.2 → 2023: 22) |\n| Sobrepeso (IMC ≥25)          | 60.7             | 61.7         | +30%                         |\n| Obesidade infantil           | —                | 9.4 (5–9a)   | +100% desde 2000             |\n| Mulheres (IMC ≥30)           | 25.1             | 23.0         | Sempre > Homens              |\n| Homens (IMC ≥30)             | 19.3             | 17.8         | Aumento maior que mulheres    |\n| Obesidade grau III (≥40)     | ~1.5             | ≈1%          | Tende a dobrar a cada década  |\n\n*Atenção: dados aproximados, fontes Ministério da Saúde/IBGE, flutuações anuais relevantes.*\n\n#### Fatores de risco prioritários:\n- História familiar de obesidade e DM2\n- Baixo acesso a alimentação in natura\n- Sedentarismo e ambientes obesogênicos urbanos\n- Determinantes socioeconômicos, maior em faixas de menor renda/educação\n\n### 2.2 Neurobiologia e Sistema de Recompensa Alimentar\n\nA fisiologia da regulação do peso corporal integra circuitos hipotalâmicos (arcuato, PVN, ventromedial), com atuação de leptina, insulina, grelina, além do papel mesocorticolímbico (dopamina, núcleo accumbens) no reforço hedônico alimentar.\n\n- **Leptina:** sinaliza reserva energética ao SNC, promovendo saciedade. Na obesidade, ocorre resistência ao sinal leptínico — hiperleptinemia sem resposta proporcional (Evidência B/C, bases farmacológicas e séries clínicas).\n- **Insulina:** além do papel periférico, age no hipotálamo reduzindo ingestão alimentar; resistência central está implicada na manutenção do peso.\n- **Grelina:** produzida pelo estômago, estimula ingestão e potencializa resposta hedônica (eleva pré-alimentação, reduz após refeições, exceto em algumas formas de obesidade).\n- **Sistema de recompensa:** hiper-responsividade ao alimento ultraprocessado, plasticidade adversa mediada por dopamina, favorecendo compulsão.\n\n#### Ilustração — Eixos regulatórios:\n```\nAmbiente externo → Digestivo (grelina, GLP-1, PYY) → Hipotálamo (NPY/AgRP vs POMC/CART) → Recompensa (dopamina)\n```\n\n### 2.3 Inflamação Crônica da Adiposidade\n\nO tecido adiposo, sobretudo o visceral, é metabolicamente ativo, apresentando infiltração de macrófagos M1, secreção de citocinas pró-inflamatórias (TNF-α, IL-6, MCP-1) e redução de adiponectina. Esse estado inflamatório, documentado em humanos e modelos animais, induz resistência insulínica, lesão endotelial e disfunção imunometabólica (Evidência B; séries clínicas, marcadores inflamatórios, revisão [S1]).\n\n#### Consequências:\n- Ativação do eixo HPA (hipotálamo–pituitária–adrenal)\n- Disfunção mitocondrial em órgãos-alvo\n- Predisposição a DM2, NAC, OSAS, doenças CV\n\n---\n\n## 3. Set Point, Fases da Obesidade e Adiposidade Defendida\n\n### 3.1 Teoria do Set Point\n\nO conceito de set point diz respeito ao valor de peso (ou adiposidade) que o organismo tende a defender ativa e passivamente, via adaptações hormonais e neurocomportamentais, mesmo após perda ponderal.\n\n- Redução brusca de calorias → ↓ Gasto energético de repouso (adaptação metabólica) → ↑ Fome/Sinalização grelina + ↓ saciedade → tendência à recuperação do peso perdido (Evidência B/C, meta-análise de intervenções, [S1]).\n- Farmacoterapia e cirurgia bariátrica mudam, por mecanismos complementares, o set point defendido (GLP-1RA, Tirzepatida, Sleeve/Bypass).\n\n### 3.2 Fases — Cronificação e Progressão\n\n1. **Fase inicial:** acúmulo insidioso, persistência do balanço positivo energético.\n2. **Transição:** resistência insulínica, inflamação, aumento do perímetro abdominal.\n3. **Instalação da obesidade estabelecida:** dificuldade crescente de perda mantida, manutenção do set point elevado, muitas vezes refratária ao manejo convencional sem abordagem multidisciplinar ou farmacológica racional.\n\n---\n\n## 4. Estigma, Linguagem e Abordagem no Consultório\n\n### 4.1 Impacto do Estigma\n\nO estigma da obesidade é global, e no Brasil ainda negligenciado no atendimento clínico. Relatos indicam:\n- 50–70% dos adultos com obesidade relatam vivenciar preconceito no sistema de saúde (nacional e internacional, Revisão B [verificar]).\n- Estigma internalizado: associação da pessoa ao fracasso moral ou “falta de força de vontade”, impactando autopercepção, adesão terapêutica, abandono de seguimento.\n\n### 4.2 Diretrizes de Linguagem Não Estigmatizante\n\n- Priorizar linguagem centrada na pessoa (\"Adulto com obesidade\", não \"obeso\").\n- Evitar expressões como: \"peso ideal/normal\", \"culpa\", \"fracasso\", \"irresponsável\".\n- Utilizar instrumentos validados para medir estigma e qualidade de vida (IWQOL-Lite-BR, questionários de estigma).\n- Comunicação empática: reconhecer obesidade como condição biológica, multifatorial.\n\n---\n\n## 5. Evidência Crítica: Fisiopatologia, Terapêutica e Desfechos\n\n### 5.1 Principais Estudos e Guidelines\n\n| Estudo/Guideline      | População         | Intervenção                       | Desfecho           | Magnitude/IC95%         | Grau |\n|---------------------|-------------------|-----------------------------------|--------------------|-----------------------|------|\n| [S1] ADA 2010       | DM2/Obesidade     | GLP-1RA, nutrição, metformina     | A1c, peso, CV      | -3–8kg/1a; -1.0–1.5%   | A    |\n| Look AHEAD          | DM2, n=5.145      | Mudança intensiva estilo de vida  | Mortalidade CV     | NS significante       | B    |\n| SCALE Obesity       | IMC>30, n=3.731   | Liraglutida 3mg vs placebo        | Redução peso       | -8,0% vs -2,6% (p<0,001) | A |\n| STEP 1              | IMC>30, n=1.961   | Semaglutida 2,4mg/semana          | Redução peso       | -14,9% vs -2,4%; NNT=2 | A |\n| SURMOUNT-1          | IMC>30, n=2.539   | Tirzepatida 5–15mg/sem             | Redução peso       | -15–21% em 72s (p<0,001) | A |\n| Bariátrica SOS      | IMC>35, n=2.010   | Cirurgia vs controle              | Mortalidade, DM2   | HR 0,71 (IC 0,54–0,92)   | A |\n\n#### *Nota: não abordar doses/indicação de fármacos neste tópico introdutório; ver módulos terapêuticos específicos.*\n\n---\n\n## 6. Seleção de Pacientes e Casos de Uso Prioritários\n\nCritérios — Adultos (≥18a), IMC >30 kg/m² ou ≥27 + comorbidade (SBD, ADA, Endocrine Society):\n\n**Quando tratar?**\n- Sim: Obesidade grau I–III com repercussões metabólicas, DM2, HAS, NAC, síndrome de ovários policísticos.\n- Priorizar: Histórico familiar, falha dietética repetida, impedimento funcional, risco agravado.\n\n**Quando NÃO tratar farmacologicamente?**\n- IMC<27 sem complicação, gestantes (exceto casos raros, prescrição hospitalar controlada), uso de inibidores de apetite não aprovados, history de abuso substâncias/não adesão comprovada.\n\n---\n\n## 7. Conduta Ética, Legislação e Prática Nacional\n\n### 7.1 Medicamentos e Recursos – Classificação ANVISA/Off-label/Manipulado\n\n| Fármaco/procedimento           | Registro ANVISA | Off-label | Manipulação estéril | Status CFM              | WADA      |\n|-------------------------------|-----------------|-----------|---------------------|-------------------------|-----------|\n| Liraglutida 3 mg, Semaglutida | Sim             | —         | Não permitido       | Permitido uso aprovado  | Não proibido |\n| Tirzepatida                   | Sim             | —         | Permitido           | Permitido se critério   | Não proibido |\n| Fentermina                    | Sim             | —         | —                   | Restrições/resolução    | Não proibido |\n| Topiramato                    | Sim             | —         | —                   | Off-label/uso seguro    | Não proibido |\n| Metformina                    | Sim             | —         | Não recomendado     | Permitido               | Não prohibido |\n| Orlistate                     | Sim             | —         | —                   | Permitido               | Não prohibido |\n| Bupropiona+naltrexona         | Sim             | —         | —                   | Permitido               | Não proibido |\n| Hormônio do crescimento (GH)  | Sim             | —         | CRITÉRIO DEFICIÊNCIA| Proibido uso estético   | Proibido   |\n| Research peptides             | Não             | —         | Não                 | PROIBIDO                | Proibido   |\n| Soroterapia/diet-drips        | —               | —         | Manejo hospitalar   | Apenas em deficiência   | —          |\n| Implantes hormonais            | Não             | —         | —                   | Somente p/ reposição    | —          |\n\n**CRITÉRIO DOUTIVA/PURUS:** Jamais indicar research peptide, drip de GH, implante ou soroterapia para “estética” ou “longevidade” sem necessidade clínica comprovada/exames.\n\n### 7.2 Legislação e Normas\n\n- RDC 786/2023 e 67/2007: exigem rastreabilidade total, pureza e esterilidade (inclusive para tirzepatida manipulada). Uso de APIs regularizadas obrigatoriamente.\n- CFM 2.333/2023: hormônios só em deficiência comprovada; vedada prescrição de GH, implantes, ou similares para promoção estética/longevidade.\n- Prescrição sempre individualizada, com documentação detalhada no prontuário (CRM, CID10, posologia, justificativa técnica).\n\n---\n\n## 8. Caso Clínico Brasileiro — Teaching Dense\n\n**Paciente:** André, 46 anos, masculino, IMC 35.5 kg/m², PA 134/88 mmHg, glicemia em jejum 119 mg/dL, circunferência abdominal 112 cm, refere cansaço ao subir escadas, não atividade física regular, história familiar de DM2.\n\n**Principais dados:**\n- IMC indica obesidade grau II\n- Pródromo de DM2 (glicemia alterada em jejum)\n- Não faz exercícios; qualidade de vida comprometida\n- História positiva familiar significativa\n\n**Pergunta:** Qual conduta inicial para este paciente, considerando a prática e regulação ética brasileira?\n\n1. Prescrever imediatamente fármaco manipulável off-label (ex: tirzepatida 10mg SC), sem registro/documentação, prometendo perda ≥20kg.\n2. Orientar dieta balanceada, plano de exercício, fechar follow-up, anotar no prontuário risco e plano; avaliar indicação formal de medicação registrada se sem resposta ≥3 meses.\n3. Indicar implante hormonal para otimização metabólica e redução rápida de peso, enfatizando “reset hormonal”.\n4. Solicitar pesquisa de pesquisa em “research peptides” para melhora anabólica e emagrecimento ultrarrápido.\n\n**Resposta correta:** **Opção 2.**\n- Explicação: A abordagem inicial exige manejo multiprofissional centrado em estilo de vida e avaliação rigorosa, documentação criteriosa e consideração futura de farmacoterapia aprovada, preferencialmente registrada, a depender da evolução e resposta. Implantes, research peptides e condutas sem respaldo não são aceitos pelo CFM/ANVISA.\n\n---\n\n## 9. Flow Clínico: Abordagem Estruturada da Obesidade\n\n| Etapa                              | Ação                                                         | Checkpoints/Monitoramento                                              |\n|------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------|\n| 1. Anamnese completa               | Avaliar fatores biológicos/familiares, comportamentos        | IMC, CA, comorbidades, história de peso                               |\n| 2. Rastreamento comorbidades       | DM2, HAS, apneia, dislipidemia, saúde mental                | GJ, EGH, perfil lipídico, Sono, TSH                                  |\n| 3. Avaliação do estigma            | Uso de instrumentos, entrevista empática                     | IWQOL-Lite-BR, relato de autoimagem, histórico de estigmatização      |\n| 4. Estrat. risco cardiometabólico  | Escore risco global: idade, genética, exames                 | SCORE-BR, Framingham (adaptados)                                      |\n| 5. Intervenção basal               | Dieta, atividade física, psicoterapia cognitivo-comportamental| Registro formal, revisão em 3m, meta realista (-5–10% peso/6m)      |\n| 6. Indicação farmacoterapia        | Caso refratário ou alto risco metabólico/DM2                 | Preferir ANVISA, dossiê completo se manipulado                       |\n| 7. Acompanhamento multidisciplinar | Nutrição, psicologia, educação, reavaliação do plano         | Peso, CA, HbA1c, feedback experiencial, exame físico                 |\n| 8. Prevenção do estigma contínua   | Reforço linguagem, monitoramento de impacto em adesão         | Questionário/consultas subsequentes, ajuste de abordagem              |\n\n---\n\n## 10. O que Não Fazer\n\n- **Jamais** prescrever GH, hormônios para “antienvelhecimento”, peptides “pesquisa” (ex: fragmento GHRP, SARMs vendidos online) — PROIBIDO pelo CFM e ANVISA.\n- Evitar abordagem reducionista (“basta fechar a boca”), pois diminui adesão e pode agravar quadro psicológico.\n- Não propor soroterapia/drip metabólico “para emagrecimento” sem clara deficiência e acompanhamento.\n- Implantar terapêuticas manipuladas sem registro ou sem documentação rigorosa de comorbidade, risco e evolução.\n- Não utilizar linguagem pejorativa, estigmatizante ou que atribua culpa exclusiva ao paciente.\n\n---\n\n## 11. Pérolas de Conduta e Checklist de Consultório\n\n- Documentar IMC, CA e risco individual em TODA consulta\n- Questionar rotineiramente estigmatização e qualidade de vida\n- Formalizar e revisar metas (não prometer perda além de -5–10% em 6m sem farmacoterapia)\n- Revisão periódica: peso, exames, sintomas cardiorrespiratórios, saúde mental\n- Toda farmacoterapia: conferir registro ANVISA, afastar contraindicações (ex.: gestação); se manipulação, revisar laudo de pureza, datação e via.\n- Utilizar materiais de apoio que enfatizem a natureza crônica e biológica da obesidade\n- Registrar justificativas no prontuário para todo tratamento off-label, conforme Resolução CFM vigente\n\n---\n\n## 12. Quick Reference · de Bolso Doutiva\n\n```\nRegras de Ouro\n--------------\n✓ Obesidade = doença crônica, com múltiplos eixos biológicos, ambientais e emocionais\n✓ Foco em linguagem não estigmatizante, reconhecimento de história de estigma\n✓ Núcleo inicial do manejo: dieta, exercício, psicoterapia, avaliação contínua\n✓ Farmacoterapia: preferir ANVISA, manipulado apenas com APIs regulares e respaldo documental\n✓ Proibido: research peptides, GH estético, implante cosmético off-label\n✓ Documente sempre: IMC, CA, exames, meta, impacto emocional\n✓ Cuidado com promessas irreais e abordagens reducionistas\n```\n\n---\n\n## 13. Key Points Doutiva (Resumo de Capítulo)\n\n1. **Obesidade deve ser abordada sempre como doença crônica, de fisiopatologia complexa.**\n2. **Set point e adaptação metabólica dificultam manutenção de perda de peso, exigindo estratégia longitudinal.**\n3. **Base neurobiológica (hipotálamo–recompensa) e inflamação são centrais na etiologia moderna.**\n4. **Estigma prejudica adesão e resultados; linguagem centrada na pessoa é obrigatória.**\n5. **Conduta clínica ética exige prescrição criteriosa, com respaldo ANVISA/CFM, e monitoramento detalhado.**\n6. **Manipulação estéril e farmacoterapia avançada apenas com APIs regularizadas e dossiê individualizado.**\n7. **Consulta premium requer registro minucioso, abordagem multidimensional e educação contínua do paciente.**\n\n---\n\n## 14. Slides — Estrutura Sugerida\n\n1. **Title:** Obesidade como Doença Crônica: Bases e Abordagem no Consultório Premium\n2. **Tabela:** Epidemiologia Brasileira da Obesidade 2008–2023\n3. **Bullets densos:** Fisiopatologia — Eixos de regulação do peso\n4. **Flow:** Set point, adaptação metabólica e ciclo da obesidade\n5. **Tabela:** Evidência crítica — Principais trials e guidelines\n6. **Split:** Papel do SNC x Ambiente x Indústria alimentícia\n7. **Tabela:** Proibidos vs Permitidos — Farmacoterapia, manipulação e ética\n8. **Bullets densos:** Impacto clínico do estigma e abordagens de linguagem\n9. **Flow:** Passo a passo premium de conduta e monitoramento\n10. **Caso clínico:** Desfecho e escolha da alternativa correta\n11. **Pearl:** Checklist premium de consultório\n12. **Key points:** Resumo de abordagens e condutas obrigatórias\n\n---\n\n## 15. Referências\n\n- [S1] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011. **Núcleo de manejo farmacológico e fisiopatologia.**\n- Bray GA, Kim KK, Wilding JPH. Obesity: a chronic relapsing progressive disease process. A position statement of the World Obesity Federation. Obes Rev. 2017;18(7):715-723.\n- Ministério da Saúde. Vigitel 2023 — Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: MS; 2023.\n- Schwartz MW, Seeley RJ, Zeltser LM, et al. Obesity Pathogenesis: An Endocrine Society Scientific Statement. Endocr Rev. 2017;38(4):267–296.\n- Mechanick JI, Hurley DL, Garvey WT. Adiposity-Based Chronic Disease as a new diagnostic term: The American Association of Clinical Endocrinologists and American College of Endocrinology Position Statement. Endocr Pract. 2017;23(3):372–378.\n- Silva DFG, Ferreira HS, Cabral CR Jr, et al. Prevalência e fatores associados à obesidade e ao excesso de peso. Rev Bras Epidemiol. 2019;22:e190024.\n- Almeida L, Canella DS, Claro RM. Estigma da obesidade em serviços de saúde: revisão de escopo. Cad Saúde Pública. 2017;33(11):e00155216.\n- Siqueira-Catania A, et al. Sentimento de estigmatização por excesso de peso: prevalência e associados no Brasil. Rev Panam Salud Publica. 2019;43:e63.\n\n---\n\n**DOUTIVA/PURUS — A escola médica da manipulação ética e clínica premium.**",
+  "quick_ref": "Regras de Ouro para Manejo da Obesidade:\n\n✓ Obesidade é doença crônica multifatorial com bases biológicas e ambientais\n✓ Use linguagem centrada na pessoa para minimizar estigma e melhorar adesão\n✓ Priorize mudanças em estilo de vida e acompanhamento multidisciplinar\n✓ Farmacoterapia apenas com medicamentos aprovados pela ANVISA e respaldo clínico\n✓ Evite uso de hormônios e peptides proibidos para estética ou emagrecimento\n✓ Documente sempre: IMC, circunferência abdominal, exames e metas terapêuticas\n✓ Mantenha conduta ética, atualização e comunicação empática no consultório",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "46 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "35.5 kg/m²"
+      },
+      {
+        "label": "Glicemia em jejum",
+        "value": "119 mg/dL"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "112 cm"
+      },
+      {
+        "label": "Atividade física",
+        "value": "Sedentário"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Cansaço ao subir escadas"
+      },
+      {
+        "label": "História familiar",
+        "value": "Diabetes tipo 2"
+      },
+      {
+        "label": "Qualidade de vida",
+        "value": "Comprometida"
+      }
+    ],
+    "title": "Caso Clínico: Manejo Ético e Eficaz da Obesidade Clínica",
+    "reward": 15,
+    "options": [
+      {
+        "label": "Prescrever tirzepatida manipulado, sem registro e sem avaliação prévia.",
+        "correct": false,
+        "rationale": "Conduta ilegal e antiética; prescrição sem documentação e indiscriminada pode causar danos e infração ética."
+      },
+      {
+        "label": "Orientar dieta, exercício, monitorar e avaliar necessidade farmacológica após 3 meses.",
+        "correct": true,
+        "rationale": "Abordagem recomendada, fundamentada em evidência, observância da legislação brasileira e recomendações DOUTIVA/PURUS."
+      },
+      {
+        "label": "Prescrever implante hormonal para ‘reset metabólico’ visando rápida redução de peso.",
+        "correct": false,
+        "rationale": "Uso de implantes hormonais para emagrecimento estético é proibido e não respaldado pela evidência."
+      },
+      {
+        "label": "Indicar uso de research peptides para emagrecimento acelerado e melhora anabólica.",
+        "correct": false,
+        "rationale": "Uso de research peptides proibido pelo CFM e ANVISA, não recomendado para obesidade."
+      }
+    ],
+    "question": "Qual a conduta inicial mais adequada para André dentro das normas éticas e regulatórias brasileiras?",
+    "vignette": "André, 46 anos, com IMC 35.5 kg/m², glicemia em jejum 119 mg/dL, circunferência abdominal 112 cm, relata fadiga aos esforços e história familiar de diabetes tipo 2. Sem atividade física regular.",
+    "teaching": "O manejo da obesidade requer abordagem multidisciplinar inicial focada em mudanças no estilo de vida e avaliação contínua antes da introdução de farmacoterapia. A prescrição de medicamentos deve seguir registro ANVISA e normas CFM. Manipulações off-label, implantes hormonais ou uso de research peptides sem respaldo clínico são proibidos. A documentação detalhada no prontuário é obrigatória para segurança jurídica e qualidade do cuidado."
+  },
+  "refs": [
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010."
+    },
+    {
+      "citation": "Bray GA, Kim KK, Wilding JPH. Obesity: a chronic relapsing progressive disease process. Obes Rev. 2017;18(7):715-723."
+    },
+    {
+      "citation": "Ministério da Saúde. Vigitel 2023 — Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico. Brasília: MS; 2023."
+    },
+    {
+      "citation": "Schwartz MW, Seeley RJ, Zeltser LM, et al. Obesity Pathogenesis: An Endocrine Society Scientific Statement. Endocr Rev. 2017;38(4):267–296."
+    },
+    {
+      "citation": "Mechanick JI, Hurley DL, Garvey WT. Adiposity-Based Chronic Disease Position Statement. Endocr Pract. 2017;23(3):372–378."
+    },
+    {
+      "citation": "Silva DFG, Ferreira HS, Cabral CR Jr, et al. Prevalência e fatores associados à obesidade e ao excesso de peso. Rev Bras Epidemiol. 2019;22:e190024."
+    },
+    {
+      "citation": "Almeida L, Canella DS, Claro RM. Estigma da obesidade em serviços de saúde: revisão de escopo. Cad Saúde Pública. 2017;33(11):e00155216."
+    }
+  ],
+  "status": "published"
+}

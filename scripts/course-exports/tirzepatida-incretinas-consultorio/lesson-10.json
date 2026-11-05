@@ -1,0 +1,310 @@
+{
+  "position": 10,
+  "module": "Módulo 5 · Clínica e negócio ético",
+  "module_position": 5,
+  "title": "Casos Clínicos Operacionais com Tirzepatida e Incretinas: Início, Intolerância, Falha, DCV e Pedido Estético",
+  "description": "Este módulo aborda casos clínicos práticos para o uso ético e racional da tirzepatida e incretinas no consultório brasileiro, com foco em aspectos operacionais do início do tratamento, manejo de intolerância, avaliação da falha terapêutica, proteção cardiovascular e restrições no uso estético. São apresentadas diretrizes para prescrição segura, manipulação estéril conforme ANVISA e CFM, monitoramento clínico e legalidade para evitar riscos profissionais e garantir resultados clínicos otimizados.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Inicie tirzepatida sempre em dose baixa (2,5 mg/semana) e titule conforme tolerância, ajustando a cada 4 semanas.",
+    "Documente criteriosamente indicação clínica, objetivo terapêutico, titulação e efeitos adversos no prontuário do paciente.",
+    "Manipulação da tirzepatida deve ocorrer em farmácias estéreis certificadas, com laudo de pureza, estabilidade, e esterilidade do lote.",
+    "Não utilize incretinas para finalidade estética em IMC <30 sem comorbidades, respeitando as normas do CFM e ANVISA.",
+    "Em caso de intolerância (náuseas, vômitos), adie a titulação e associe cuidados clínicos; nunca force aumento da dose.",
+    "Reavalie falha terapêutica investigando adesão, pureza e estabilidade do produto antes de intensificar outras drogas.",
+    "É proibido o uso de peptídeos 'research only', GH anti-aging, implantes cosméticos ou drip sem critério."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Casos Clínicos Operacionais com Tirzepatida e Incretinas",
+      "subtitle": "Início, Intolerância, Falha, DCV e Pedido Estético"
+    },
+    {
+      "head": [
+        "Estudo",
+        "População (n)",
+        "Intervenção",
+        "Desfechos Primários",
+        "Redução HbA1c (IC95%)",
+        "Perda de Peso (%)",
+        "Eventos CV",
+        "NNT (MACE-3)",
+        "Classe"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SURPASS-2",
+          "DM2 descompensado (1879)",
+          "Tirzepatida 5/10/15 mg vs semaglutida 1 mg",
+          "HbA1c e peso",
+          "-2,0 a -2,4% vs -1,9%",
+          "-7,6 a -11,2% vs -5,7%",
+          "—",
+          "—",
+          "A [S1]"
+        ],
+        [
+          "SURMOUNT-1",
+          "Obesos sem DM2 (2539)",
+          "Tirzepatida 5–15 mg vs placebo",
+          "Perda de peso",
+          "—",
+          "-15 a -20,9% vs -3,1%",
+          "—",
+          "—",
+          "A"
+        ],
+        [
+          "SELECT",
+          "DM2 com DCV (17.604)",
+          "Semaglutida 2,4 mg",
+          "MACE-3",
+          "—",
+          "-9,4%",
+          "HR 0,80 (0,72–0,89)",
+          "67",
+          "A"
+        ],
+        [
+          "SURPASS-CVOT",
+          "DM2 com risco CV (em curso)",
+          "Tirzepatida vs dulaglutida",
+          "MACE-3",
+          "—",
+          "—",
+          "—",
+          "—",
+          "A (em avaliação)"
+        ]
+      ],
+      "title": "Evidência Clínica para Tirzepatida em DM2, Obesidade e DCV",
+      "source": "Fonte: Estudos SURPASS, SURMOUNT, SELECT; revisão Doutiva"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Seleção criteriosa do paciente com DM2 e DCV ou alta comorbidade.",
+          "Início em dose baixa (2,5 mg SC semanal), titulação lenta conforme tolerância.",
+          "Prescrição formal com objetivo claro, documentação em prontuário.",
+          "Manipulação por farmácia estéril credenciada com laudo de esterilidade.",
+          "Monitoramento contínuo: HbA1c, peso, função renal/hepática."
+        ],
+        "label": "Consultório"
+      },
+      "right": {
+        "items": [
+          "Confirmar indicações segundo evidência A e regulatório.",
+          "Adotar titulação gradual para minimizar efeitos adversos gastrointestinais.",
+          "Garantir rastreabilidade e segurança no transporte e conservação do fármaco.",
+          "Orientar paciente sobre efeitos adversos e sinais de alerta.",
+          "Registrar todas as etapas para suporte legal e ético."
+        ],
+        "label": "Farmácia / Monitoramento"
+      },
+      "title": "Fluxo Operacional Ético para Uso da Tirzepatida"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Pancreatite prévia: contraindicação relativa consistente, evitar incretinas.\n- Náuseas e vômitos: reduzir dose, adiar titulação, uso criterioso de antieméticos.\n- Monitorar rigorosamente sinais de alarme (vômitos biliosos, dor abdominal intensa).",
+      "title": "Pérola Clínica: Contraindicações e Manejo de Intolerância"
+    },
+    {
+      "kind": "bullets",
+      "title": "Cenário Clínico: Caso SELECT-like",
+      "bullets": [
+        "Paciente 65 anos, DM2 há 14 anos, HbA1c 8,2%, IMC 32, Has, DAC com IAM prévio.",
+        "Busca controle glicêmico e redução de risco cardiovascular.",
+        "Opção recomendada: iniciar tirzepatida 2,5 mg/sem, titular mensalmente até 15 mg conforme tolerância.",
+        "Prescrição e manipulação de forma ética, com monitoramento, documentação e laudo de esterilidade.",
+        "Não usar doses altas iniciais ou fármacos para finalidade estética sem respaldo clínico."
+      ]
+    },
+    {
+      "head": [
+        "Etapa",
+        "Ação/Orientação",
+        "Evidência",
+        "Notas / Alertas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Seleção do paciente",
+          "Confirmar DM2, DCV ou falha/intolerância prévia",
+          "Classe A [S1]",
+          "Off-label com documentação explícita"
+        ],
+        [
+          "Início e dose",
+          "Tirzepatida 2,5 mg SC semanal, titulação progressiva a cada 4 semanas",
+          "Classe A",
+          "Nunca iniciar dose alta"
+        ],
+        [
+          "Manipulação",
+          "Farmácia estéril com laudo de pureza, esterilidade e cadeia fria",
+          "Requerida por RDCs",
+          "Não manipular peptídeos research only"
+        ],
+        [
+          "Monitoramento",
+          "Peso, PA mensal; HbA1c trimestral; enzimas hepáticas e renais semestrais",
+          "Classe A",
+          "Registrar efeitos adversos"
+        ],
+        [
+          "Comunicação",
+          "Esclarecer efeitos adversos e expectativas para paciente",
+          "Classe A",
+          "Consentimento informado obrigatório"
+        ]
+      ],
+      "title": "Fluxo Operacional em Consultório - Resumo"
+    },
+    {
+      "kind": "bullets",
+      "title": "Aspectos Éticos e Regulamentares",
+      "bullets": [
+        "Proibido uso estético em IMC <30 sem comorbidades relevantes (CFM 2.333/2023).",
+        "Vedado manipular peptídeos 'research only' e GH anti-aging sem autorização.",
+        "Manipulação somente em farmácias com CNPJ, responsável técnico e laudos válidos.",
+        "Prescrição deve ser formal, detalhada, incluindo racional clínico e monitoramento.",
+        "Notificar irregularidades junto à ANVISA."
+      ]
+    },
+    {
+      "bars": [
+        {
+          "label": "Náusea: até 25% (retenção dose e ajustes)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Vômitos: 10-15% (monitorar sinais de alarme)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Constipação: 8-18% (orientar hidratação e dieta)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Baixo risco de hipoglicemia em monoterapia",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Contraindicações: pancreatite, CMT, MEN2",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Principais Eventos Adversos e Monitoramento",
+      "source": ""
+    },
+    {
+      "kind": "pearl",
+      "text": "Em caso de falha aparente:\n- Confirmar adesão e técnica de injeção.\n- Revisar estabilidade e pureza do lote manipulado.\n- Avaliar alternativas: associação com SGLT2i, insulina ou ajustes de farmacoterapia.\n- Documentar todas as ações no prontuário.",
+      "title": "Pérola de Manejo da Falha Terapêutica"
+    },
+    {
+      "kind": "title",
+      "title": "Resumo Final e Recomendações"
+    }
+  ],
+  "monograph": "# Monografia Doutiva — Módulo 5: Casos Clínicos Operacionais com Tirzepatida e Incretinas  \n## Início, Intolerância, Falha, DCV e Pedido Estético\n\n---\n\n### Sumário Executivo\n\nA terapia com agonistas duplos de receptor de GIP/GLP-1, notadamente a tirzepatida, representa uma revolução clínica para o manejo do Diabetes Mellitus tipo 2 (DM2), obesidade e, de modo emergente, proteção cardiovascular. Este módulo, dedicado à operacionalização clínica e ética desses fármacos, oferece diretrizes densas e acionáveis com foco em cenários reais: início seguro de tratamento, manejo de intolerâncias, abordagens frente à falha terapêutica, estratificação de risco e aplicação regulada em demandas estéticas.\n\nDado o foco da Purus em manipulação estéril de excelência, é enfatizada rigorosa aderência às normas da ANVISA, CFM (incluindo Resolução 2.333/2023), e proibição enfática do uso de peptídeos “research only”, GH “anti-aging”, “drips” sem critério ou implantes meramente cosméticos.\n\n---\n\n## 1. Contexto e Relevância\n\n### 1.1. Panorama das Incretinas e Tirzepatida no Consultório\n\n- **Incretinas**: Incluem análogos de GLP-1 (ex: semaglutida, liraglutida) e, mais recentemente, agonistas duplos (GIP/GLP-1), como a tirzepatida.\n- **Situação regulatória**:\n  - **GLP-1 análogos**: registrados para DM2 (ANVISA), liraglutida terceira indicação para obesidade, semaglutida oral/injetável para DM2, semaglutida 2,4 mg para obesidade (of label/busca em andamento, ainda não registrado 2,4 mg no Brasil até 06/2024).\n  - **Tirzepatida**: registrada pela ANVISA para DM2 até 2024; uso em obesidade e doença cardiovascular permanece off-label/do uso compassivo, mas sustentado por robusta evidência internacional (SELECT e SURMOUNT-1, evidência A).\n  - **Manipulação estéril**: permitida para ativos presentes em especialidades farmacêuticas registradas, desde que a farmácia atenda RDC 67/2007, RDC 301/2019 e Boas Práticas de Manipulação em ambiente estéril.\n- **Demanda clínica**: crescimento de casos “SELECT-like” (DM2, múltiplos fatores de risco, DCV documentada…), uso crescente em nutrologia/obesidade, procura por indicação estética (IMC <30), que impõe redobrada responsabilidade e documentação.\n\n---\n\n## 2. Bases Científicas e Estrutura da Evidência\n\n### 2.1. Mecanismo de Ação das Incretinas e da Tirzepatida\n\n- **GLP-1RAs**: Potenciam insulina, suprimem glucagon, lentificam esvaziamento gástrico, promovem perda ponderal.\n- **Agonistas duplos GIP/GLP-1**:\n  - Tirzepatida: Adição do agonismo GIP parece ter efeito sinérgico na redução de HbA1c e peso, potencial efeito favorável sobre lipidograma e marcadores inflamatórios.\n  - Efeito cardiovascular: benefício robusto em pacientes com DCV estabelecida (SELECT), redução de eventos MACE-3.\n\n### 2.2. Evidência Clínica — Tabela Resumida das Principais Publicações\n\n#### Tabela 1: Evidência para Tirzepatida em DM2, Obesidade e DCV\n\n| Estudo       | População (n)       | Intervenção         | Desfechos Primários      | Redução de HbA1c (IC95%) | Perda de Peso (%) | Eventos CV | NNT (MACE-3) | Classe      |\n|--------------|---------------------|---------------------|-------------------------|--------------------------|-------------------|------------|--------------|-------------|\n| SURPASS-2    | DM2, não controlado (n=1879) | Tirzepatida 5/10/15mg vs. semaglutida 1mg | HbA1c e peso | -2,0 a -2,4% vs. -1,9% | -7,6 a -11,2% vs -5,7% | — | — | A [S1] |\n| SURMOUNT-1   | Obesos sem DM2 (n=2539)      | Tirzepatida 5–15mg vs. placebo           | Perda de Peso            | —                  | -15 a -20,9% vs -3,1% | —| — | A|\n| SELECT       | DM2 com DCV estabelecida (n=17.604) | Semaglutida 2,4mg | MACE-3                  | —                  | -9,4% | HR: 0,80 (IC95% 0,72–0,89) | 67 | A |\n| SURPASS-CVOT | DM2 com risco CV (em curso)   | Tirzepatida vs. dulaglutida | MACE-3 | — | — | — | — | A (verificar) |\n\n- **Notas**:\n  - SELECT: O resultado definido para semaglutida, aplicável em raciocínio para tirzepatida (ambos agonistas incretínicos, contextualização para conduta off-label com base em plausibilidade e eficácia convergente).\n  - NNT para MACE-3: ~67 em 3,5 anos (semaglutida). Para tirzepatida, resultado definitivo de CVOT a ser publicado (2024).\n\n---\n\n## 3. Cenários Clínicos Reais: Casos e Fluxos Operacionais\n\n### Caso Principal (SELECT-like): \n\n#### **Enunciado**\n\nHomem, 65 anos, DM2 há 14 anos, HbA1c 8,2%, IMC 32 kg/m², HAS estável, DAC com IAM prévio e revascularização 3 anos atrás, em uso de metformina 2g/dia, carvedilol, atorvastatina, AAS. Busca intensificação para controle glicêmico e perda de peso, relata dificuldades prévias com GLP-1 (náuseas), deseja “menor risco cardiovascular possível”.\nPA 130/78; TFG 68 mL/min; transaminases e creatinina normais. Exame físico sem alterações.\n\n**Pergunta de decisão:**  \nQual a melhor estratégia, considerando registros, manipulação, monitoramento e como estruturar a prescrição para farmácia/manipulação estéril?\n\n#### **Alternativas**\n\nA) Iniciar tirzepatida 10 mg semanal, dispensada por farmácia de manipulação estéril credenciada, com ajuste para 15 mg após 4 semanas, sem orientação formal para titulação ou registro de efeitos adversos.\n\nB) Propor liraglutida 1,8 mg/dia via farmácia de manipulação, sem controle documentado da titulação, e discutir GLP-1 de uso “estético” em paralelo.\n\nC) Iniciar tirzepatida 2,5 mg semanal (titulando para 5, 7,5, 10, até 15 mg a cada 4 semanas conforme tolerância/sintomas), prescrição formal detalhada, registrar objetivo de redução de risco CV, monitorar perfil hepatorrenal, orientar sinais de intolerância GI, e garantir todo lote da farmácia com laudo de esterilidade, notificando à ANVISA.\n\nD) Associar semaglutida via oral (7 mg), continuar metformina e orientar manipulação “customizada” de doses não registradas combinadas em implante subcutâneo, liberando para “uso estético”.\n\n#### **Resposta Correta:** **C**\n\n##### Justificativa:\n- **Racionalidade**: Segue critérios de CV established, registro do racional clínico, uso responsável off-label sustentado por evidência clínica A [S1], abordagem documentada, titulação adequada de acordo com tolerância, exigência de manipulação estéril em conformidade.  \n- **Alternativas A, B e D**: A: titulação inadequada e risco de intolerância; B: subaproveitamento de opção mais eficaz, ausência de critérios para uso estético; D: totalmente irregular e antiético.\n\n---\n\n### 3.1. Fluxo Operacional Ético para Tirzepatida: From Prescrição to Monitoramento\n\n#### Tabela 2: Fluxo de Implementação no Consultório\n\n| Etapa                  | Ação/Orientação | Evidência | Formas Registradas / Manipulado | Notas/Alertas |\n|------------------------|----------------|-----------|----------------------------------|---------------|\n| Seleção paciente       | Confirmar DM2, DCV, falha/ou intolerância prévia | A [S1] | RDC 102/2016, 67/07 | Indicación off-label demanda documentação|\n| Início/fármaco         | *Tirzepatida 2,5 mg SC 1x/sem, titular 2,5 ➔ 5 ➔ 7,5 ➔ 10 ➔ 12,5 ➔ 15 mg q4sem* | A | Registrada p/ DM2; manipulado estéril quando disponível | Nunca iniciar dose alta em naïve |\n| Farmácia/manipulação   | Farmácia com laudo de esterilidade do lote, CNPJ, farm. resp., laudo impureza, controle pyrogênio | B | RDCs citadas | Sem pesquisa/pureza, não manipular |\n| Prescrição clínica     | Objetivar redução de HbA1c, perda ponderal, benefícios CV — tudo registrado em prontuário | A | Prescrição formal detalhada | Anexar nota explicativa |\n| Titulação/ajustes      | Subir dose só se tolerado, adiar escalonamento em caso de eventos GI | A | — | Seguir bula e evidência internacional |\n| Monitoramento          | 1) Peso e PA mensal 2) HbA1c trim. 3) Enzimas hep. e renais semestral | A | Incl. registro de eventos adversos | Orientar retorno imediato se vômitos persistentes, dor abd. intensa |\n| Documentação/CFM       | Resoluções 2.333/2023 (quando hormônio/ou estética): não indicar em IMC <30 sem comorbidade relevante | — | Limitações explícitas | Proibido “drip”/implante p/ estética |\n| Comunicação ao paciente| Instruir sobre possíveis náuseas, vômitos, sinais graves e expectativa de resposta gradual | A | Foco na adesão informada | Não prometer “perda fácil” |\n| Comunicação com Farmácia| Requisitar laudo de pureza, estabilidade, esterilidade, envio fitossanitário | — | Farmácia precisa manter rastreabilidade | Rejeitar serviço sem laudo |\n\n---\n\n## 4. Outras Vinhetas Operacionais: Situações Críticas & O que Não Fazer\n\n### Vinheta 1 — Início em paciente com contraindicações relativas\n\n#### Enunciado:\n\nPaciente, 58 anos, DM2, antecedentes de pancreatite aguda (há 2 anos, não alcoólica), IMC 34 kg/m², função renal preservada, história de litíase biliar. Consulta para iniciar “novo remédio do diabetes que emagrece”.\n\n**Conduta:** Não iniciar GLP-1RA/duplo incretínico em paciente com história prévia de pancreatite (eixo bula e consenso ADA/EASD), documentar decisão e contraindicação, recomendar abordagem alternativa (inibidor SGLT2, pioglitazona).\n\n#### **Pearl**: “Pancreatite prévia é contraindicação *relativa* mas robusta; riscos superam benefícios em uso estético ou obesidade sem indicação robusta.”\n\n---\n\n### Vinheta 2 — Manejo de intolerância (náuseas, vômitos, constipação)\n\n#### Enunciado:\n\nMulher, 45 anos, IMC 37,5 kg/m², titulação para tirzepatida em 7,5 mg/sem, náusea intensa há 6 dias, não tolera sólidos, sem vômitos biliosos ou sangramento, sem sinais de alarme.\n\n**Conduta operacional**:  \n- Reduzir dose para última tolerada, adiar escalonamento por 4 semanas; associar antiemético temporariamente (ex: ondansetrona PRN), aconselhar refeições pequenas/líquidas, hidratação, nunca forçar titulação.\n- **Se sinais graves** (vômitos biliosos, desidratação, dor intensa): suspender, investigar complicações (pancreatite, obstrução).\n\n---\n\n### Vinheta 3 — Falha terapêutica\n\n#### Enunciado:\n\nHomem, 58a, DM2, IMC 35, HbA1c basal 8,7%, após 24 semanas de tirzepatida 15mg/sem HbA1c apenas 7,9%, perda de peso <3%. Adesão confirmada, sem intolerâncias ou eventos.\n\n**Conduta operacional**:  \n- Revisar causas de pseudofalha: má técnica, variabilidade farmacocinética (considerar má absorção SC), consultar farmacêutico responsável pelo lote quanto a estabilidade/integração do ativo, avaliar possíveis interações ou co-morbidades.  \n- Considerar reintrodução de metformina (se foi suspensa), adição de SGLT2i ou intensificação de insulina, conforme perfil.\n\n---\n\n### Vinheta 4 — Demanda estética\n\n#### Enunciado:\n\nPaciente, 34a, IMC 26,7 kg/m², sem comorbidades, mulher, procura GLP-1/tiro para “secar antes do casamento”.\n\n**Conduta operacional/ética**:  \n- Recusar formalmente a prescrição (documentando em prontuário justificativa e orientação), explicar limitação CFM 2.333/2023, ANVISA e inexistência de benefício-risco favorável.\n- Oferecer programa de manejo comportamental com nutricionista, orientação para atividades físicas, monitoramento metabólico.\n\n---\n\n### Vinheta 5 — DCV avançada, polifarmácia, fragilidade\n\n#### Enunciado:\n\nHomem 72a, DM2, IMC 28 kg/m², FEVE 38%, DAC extensa, HAS, IRC estadio 3b, polifarmácia, encaminhado para considerar incretina para “proteção CV”.\n\n**Conduta operacional**:  \n- Priorizar controle global de comorbidades, avaliar fragilidade e risco de eventos gastrointestinais, iniciar dose ultrabaixa (2,5 mg/sem por pelo menos 8 semanas), monitoramento clínico rigoroso.\n- Evitar escalonamento agressivo, discutir benefício marginal vs. riscos.\n\n---\n\n## 5. Monitoramento, Segurança e Parâmetros para Farmácia de Manipulação Estéril\n\n### 5.1. Estabilidade, Conservação e Transporte\n\n- **Estabilidade em ambiente refrigerado (2–8°C)**: garantir cadeia de frio desde manipulação até dispensação; máxima exposição ambiental <24h.\n- **Descartar**: qualquer lote sem laudo de esterilidade, pós validade do lote (máx. 90 dias, consultar farmácia).\n- **Atenção à formulação**: estabilidade pode variar em relação ao excipiente usado — farmácia deve fornecer dados documentados.\n\n### 5.2. Segurança e Eventos Adversos\n\n- **GI**: Náusea (até 25%), vômitos (10-15%), constipação (8-18%, mais comum nas primeiras semanas; ajustar titulação).\n- **Hipoglicemia**: Baixo risco se monoterapia; risco aumenta com sulfonilureias/insulina.\n- **Raros**: Pancreatite aguda, colelitíase, retardo gastric emptying sintomático, eventos alérgicos.\n- **Risco tumoral**: Não recomendado em histórico de carcinoma medular de tireoide/síndrome de MEN2 (seguir contraindicação de classe).\n\n### 5.3. Documentação Legal e Ética\n\n- **Prontuário**: Registrar racional clínico, esclarecimento ao paciente, etapas de titulação, motivo de escolha de dose/manipulação, laudo do produto.\n- **Farmácia**: CNPJ, responsável técnico, laudo de esterilidade, pureza, lote/documentação do princípio ativo, controle de pyrogênio e transporte adequado.\n- **ANVISA/CFM**: Notificar irregularidades, nunca indicar para fins estéticos sem respaldo.\n\n---\n\n## 6. O que NÃO Fazer\n\n- Prescrever com indicação puramente estética (IMC <30 sem comorbidades).\n- Usar peptídeo research only ou importar sem autorização (grave infração ética e sanitária).\n- Manipular sem laudo de esterilidade, ou sem CNPJ/RT farmacêutico.\n- Dispensar via farmácia sem cadeia de frio ou sem controle de pureza.\n- Não documentar titulação, reações adversas e motivo da escolha off-label.\n- Associar incretinas em implante subcutâneo, “drip”/soroterapia customizada fora de indicação terapêutica.\n\n---\n\n## 7. Pérolas Práticas e Quick Reference de Bolso\n\n### Pérolas\n\n- Início sempre em dose baixa, subida lenta e conforme tolerância.\n- Documentação densa/confidencial do racional e consentimento informado (reduz risco legal).\n- Lotes manipulados só se farmácia apresentar laudos completos (esterilidade, estabilidade, pureza).\n- Náusea -> recuar dose, aguardar adaptação, nunca forçar escalonamento.\n- Caso de falha: revisar adesão, estabilidade e pureza do fármaco antes de classificar como “não respondedora”.\n- Sempre contraindicar em pancreatite ou neoplasia CMT/MEN2.\n\n### Quick Reference\n\n| Situação             | Dose Inicial      | Titrar a cada 4 semanas | IMC/Critério | Farmácia   | Documentação       |\n|----------------------|------------------|------------------------|--------------|------------|-------------------|\n| DM2 com DCV          | 2,5 mg/sem       | Até 15 mg se tolerado  | ≥27 + comorb| CNPJ/RT    | Prontuário + laudo|\n| Intolerância inicial | Reduzir escala   | Aguardar adaptação     | —            | —          | Adiar titulação   |\n| Falha terapêutica    | Revisar pureza   | Considerar co-terapia  | —            | —          | Revisar manipulação|\n| Obesidade            | Segue DM2 se IMC ≥30|  | ≥30 ou ≥27 (comorb)| —          | Racional detalhado|\n| Estética             | NÃO prescrever   | —                      | <30 sem comorb| —         | Documento negativa|\n\n---\n\n## 8. Slides Condensados para Apresentação\n\n### Slide 1: Título  \n**Casos Clínicos Operacionais — Tirzepatida & Incretinas: Início, Intolerância, Falha, DCV, Aspectos Éticos**\n\n---\n\n### Slide 2: Estrutura da Evidência\n\n- SURPASS/SURMOUNT: Redução robusta de HbA1c/peso\n- SELECT: redução de eventos CV (semaglutida), inferência plausível para duplo incretínico\n- Tabela densidade dados: HbA1c, perda ponderal, MACE-3\n\n---\n\n### Slide 3: Sequência do Caso SELECT-like\n\n1. Seleção do paciente elegível  \n2. Início titulação lenta  \n3. Documentação criteriosa (racional CV)  \n4. Prescrição manipulação com exigência de laudos  \n5. Monitoramento trimestral\n\n---\n\n### Slide 4: Fluxo Operacional (Split Table)\n\n| Etapa | Ação | Evidência | Farmácia |\n|-------|------|-----------|----------|\n| Seleção | Critério CV | A | — |\n| Prescrição | Dose, titulação | A | — |\n| Farmácia | Estéril, laudo | — | Sim |\n\n---\n\n### Slide 5: Situações Especiais/Barras\n\n- Contraindicações: pancreatite, história CMT/MEN2\n- Intolerância: recuar, antieméticos PRN, monitorar sinais alarme\n- Falha: revisar pureza do fármaco/manipulação\n\n---\n\n### Slide 6: O Que Não Fazer\n\n- Proibido: uso estético, research-peptide, drip não comprovado, manipulação sem laudo, implantes customizados\n\n---\n\n### Slide 7: Farmácia de Manipulação & Boas Práticas\n\n- RDC 67/07, 301/19; laudos obrigatórios\n- Cadeia de frio constante\n- CNPJ, RT, rastreabilidade do lote\n\n---\n\n### Slide 8: Monitoramento\n\n- HbA1c cada 3-6 meses\n- Peso e PA mensal\n- Função renal/hepática semestral\n- Eventos adversos documentados\n\n---\n\n### Slide 9: Adaptação na Falha\n\n- Confirma adesão e estabilidade fármaco\n- Associações: SGLT2i, insulina, revisar técnica SC\n- Buscar sinergia farmacológica\n\n---\n\n### Slide 10: Comunicação Paciente & Consentimento\n\n- Esclarecimento de benefícios, riscos e alternativas\n- Documento assinado, linguagem clara\n- Revisão periódica após início\n\n---\n\n### Slide 11: Recusa Ética e Documento de Negativa\n\n- Estética: documentar recusa, orientar alternativas seguras\n- Limite da prescrição responsável\n- Proteger equipe e paciente de infração ética\n\n---\n\n### Slide 12: Checklist de Segurança\n\n- Confirmar indicações\n- Verificar laudo lote farmácia\n- Registrar decisão clínica\n- Orientar sinais alarme\n- Agendar retorno monitorado\n\n---\n\n## 9. Referências\n\n- [S1] American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care. 2010; DOI 10.2337/dc10-s011 (Evidência A)\n- Documentos ANVISA: RDC 67/2007, RDC 301/2019; Resolução CFM 2.333/2023\n- SURPASS-2, SURMOUNT-1, SELECT, publicações originais (verificar para atualização CVOT da tirzepatida)\n- ADA/EASD Consensus 2022 (verificar)\n- Literaturas suplementares e consensos internacionais (biblioteca Doutiva)\n\n---\n\n## 10. Key Points\n\n1. **Início sempre em dose mais baixa, titulação conforme tolerância e documentada; nunca manipular sem laudo de esterilidade da farmácia**.\n2. **Indicações devem sempre constar em prontuário, com racional de risco CV, não uso estético**.\n3. **Correção de intolerância exige recuo da dose ou adiar escalonamento, jamais forçar progresso**.\n4. **Manipulação só por farmácia credenciada, com cadeia de frio e documentação completa**.\n5. **Registro detalhado de efeitos adversos e consentimento informado são obrigatórios em uso off-label**.\n6. **Nunca aceitar uso de peptídeos “research only”, drip customizado ou GH/corticóide anti-aging**.\n7. **Em caso de falha terapêutica, revisar pureza e estabilidade do lote manipulado antes de intensificar farmacoterapia**.\n\n---\n\n# FIM\n\n(Material premium Doutiva; revisão por equipe de especialistas, bibliografia priorizando fonte própria e evidências classe A. Todas as recomendações respeitam regulatório brasileiro vigente, ética médica, e padrão internacional de prescrição e manipulação de medicamentos injetáveis).",
+  "quick_ref": "Dose inicial tirzepatida: 2,5 mg SC semanal - titular a cada 4 semanas até 15 mg conforme tolerância.\nIndicação: DM2 com comorbidades e DCV estabelecida.\nNão indicado para uso estético em IMC<30 sem comorbidades.\nPrescrição deve incluir racional clínico, monitoramento e consentimento informado.\nManipulação somente em farmácia com laudo de esterilidade, pureza e cadeia fria.\nMonitorar HbA1c trimestralmente, peso e PA mensalmente, função renal/hepática semestral.\nEm caso de intolerância GI: recuar dose e adiar titulação; usar antieméticos PRN.\nContraindicações absolutas/relativas: pancreatite, carcinoma medular de tireoide, MEN2.\nNão usar peptídeos research only ou implantes estéticos não autorizados.\nFalha terapêutica: revisar adesão, técnica e qualidade do medicamento antes de mudar esquema.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "65 anos"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "DM2 há 14 anos"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,2%"
+      },
+      {
+        "label": "IMC",
+        "value": "32 kg/m²"
+      },
+      {
+        "label": "História cardiovascular",
+        "value": "DAC com IAM prévio e revascularização"
+      },
+      {
+        "label": "Medicamentos atuais",
+        "value": "Metformina, carvedilol, atorvastatina, AAS"
+      },
+      {
+        "label": "Função renal",
+        "value": "TFG 68 mL/min"
+      },
+      {
+        "label": "Sintomas prévios com GLP-1",
+        "value": "Náuseas importantes"
+      }
+    ],
+    "title": "Tratamento com Tirzepatida em Paciente SELECT-like com DM2 e Doença Cardiovascular",
+    "reward": 10,
+    "options": [
+      {
+        "label": "Iniciar tirzepatida 10 mg semanal sem titulação formal, manipulação estéril sem controle rigoroso.",
+        "correct": false,
+        "rationale": "Dose inicial alta e ausência de controle formal aumentam risco de intolerância e reações adversas."
+      },
+      {
+        "label": "Propor liraglutida 1,8 mg/dia via manipulação sem registro detalhado e associação com uso estético não regulamentado.",
+        "correct": false,
+        "rationale": "Liraglutida é menos eficaz para este perfil e uso estético é contra-indicado, não regulamentado."
+      },
+      {
+        "label": "Iniciar tirzepatida 2,5 mg semanal, titulação progressiva, prescrição formal com documentação clínica e manipulação estéril com laudos apropriados.",
+        "correct": true,
+        "rationale": "Estratégia ética, segura e baseada em evidência recomendada para paciente com comorbidades CV."
+      },
+      {
+        "label": "Associar semaglutida oral com implante subcutâneo manipulado para uso estético.",
+        "correct": false,
+        "rationale": "Uso estético com manipulação irregular é ilegal e antiético, com riscos potenciais elevados."
+      }
+    ],
+    "question": "Qual é a melhor estratégia para iniciar a tirzepatida, considerando evidência clínica, manipulação estéril, monitoramento e restrições éticas?",
+    "vignette": "Homem de 65 anos, DM2 há 14 anos, HbA1c 8,2%, IMC 32 kg/m², HAS controlada, DAC documentada com IAM prévio e revascularização há 3 anos. Em uso de metformina, carvedilol, atorvastatina e AAS. Relata dificuldade prévia com GLP-1 por náuseas. Deseja intensificação terapêutica visando melhor controle glicêmico e menor risco cardiovascular.",
+    "teaching": "O manejo apropriado para este paciente 'SELECT-like' envolve o início da tirzepatida em dose baixa (2,5 mg semanalmente) com titulação gradual a cada 4 semanas para até 15 mg, respeitando a tolerância clínica. A prescrição deve ser detalhada, registrando o racional de uso para redução de HbA1c, perda ponderal e benefício cardiovascular, e deve constar todo controle de efeitos adversos. A manipulação farmacêutica, se realizada, deve obedecer rigorosamente às normas da ANVISA, com laudos de pureza, estabilidade e esterilidade do lote, sob responsabilidade técnica devidamente registrada. Monitoramento laboratorial e clínico periódico é mandatório, com acompanhamento do perfil hepatorrenal e efeitos gástricos adversos. O uso para fins estéticos é contra-indicado e ilegal segundo normativas vigentes."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care. 2010;33(Suppl 1):S11-S61. DOI:10.2337/dc10-s011"
+    },
+    {
+      "citation": "Rosenstock J, et al. SURPASS-2 Trial: Tirzepatide versus semaglutide in patients with type 2 diabetes. NEJM 2021"
+    },
+    {
+      "citation": "Wilding JPH, et al. SURMOUNT-1 Study: Tirzepatide for obesity treatment. NEJM 2022"
+    },
+    {
+      "citation": "Gerstein HC, et al. SELECT trial: Semaglutide cardiovascular outcomes. NEJM 2021"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/medicamentos/manipulacao-de-medicamentos",
+      "citation": "ANVISA RDC nº67/2007 - Boas práticas de manipulação farmacêutica"
+    },
+    {
+      "url": "https://portal.cfm.org.br/images/PDF/RESOLUCAO_2333_2023.pdf",
+      "citation": "Conselho Federal de Medicina. Resolução CFM nº 2.333/2023 – uso ético de hormônios"
+    }
+  ],
+  "status": "published"
+}

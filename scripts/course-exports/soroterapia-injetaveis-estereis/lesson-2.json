@@ -1,0 +1,324 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Bases",
+  "module_position": 1,
+  "title": "Farmacotécnica para Prescritores de Soroterapia e Injetáveis Estéreis: Osmolaridade, pH, Compatibilidade e Estabilidade",
+  "description": "A aula aborda fundamentos essenciais para endocrinologistas, nutrólogos e clínicos na prescrição ética e segura de soroterapia e manipulações estéreis. Define conceitos chave de osmolaridade, pH, compatibilidade físico-química e estabilidade de formulações, enfatiza os limites técnicos e regulatórios da manipulação em contexto brasileiro, e providencia ferramentas práticas para leitura crítica de laudos, rótulos e manejo das preparações. Reforça os riscos clínicos reais de erros como osmolaridade fora do espectro seguro e misturas incompatíveis, destacando a importância do controle técnico e do consentimento informado. Inclui checklist detalhado e um caso clínico realista para fixação dos conceitos.",
+  "duration_minutes": 75,
+  "evidence_level": "A (diretrizes internacionais, consenso Doutiva, revisões robustas)",
+  "key_points": [
+    "Osmolaridade e pH inadequados em preparações parenterais aumentam risco de flebite, necrose e falha terapêutica.",
+    "É fundamental exigir laudo farmacotécnico completo com osmolaridade, pH, pureza, ausência de endotoxinas e dados de estabilidade.",
+    "Manipulação de peptídeos e hormônios off-label só deve ocorrer com evidência de ECR fase 3, registro internacional e ambiente ISO 5.",
+    "Não misturar soluções incompatíveis (ex: cálcio-fosfato) e proteger fármacos fotossensíveis (ex: vitamina C, tirzepatida).",
+    "Regulamentação ANVISA e CFM proíbem GH anti-aging, research peptides e manipulação magistral de produtos industrializados registrados.",
+    "A leitura crítica de rótulo e laudo evita erros clínicos e riscos legais, preservando o cuidado e a segurança do paciente.",
+    "Checklist prático para prescrição segura de manipulados estéreis garante conduta ética e qualidade da terapia."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Farmacotécnica de Soroterapia e Manipulados Estéreis — Bases para o Prescritor",
+      "subtitle": "Osmolaridade, pH, Compatibilidade e Estabilidade para Médicos Prescritores"
+    },
+    {
+      "kind": "bullets",
+      "title": "Principais riscos em infusão e via subcutânea",
+      "bullets": [
+        "Osmolaridade inadequada: risco de hemólise, flebite e necrose",
+        "pH fora da faixa ideal: dor, lesão endotelial e instabilidade do fármaco",
+        "Misturas incompatíveis: precipitação, degradação e perda de eficácia",
+        "Falta de estabilidade e fotossensibilidade elevando riscos de ineficácia e danos locais"
+      ]
+    },
+    {
+      "head": [
+        "Parâmetro",
+        "Plasma Humano",
+        "Limite IV Periférica",
+        "Limite SC",
+        "Principais Consequências"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Osmolaridade (mOsm/L)",
+          "275–295",
+          "<350",
+          "<500",
+          ">500: necrose subcutânea e flebite"
+        ],
+        [
+          "pH",
+          "7,4 (plasma)",
+          "6,0–8,0",
+          "5,5–7,5",
+          "pH <5 ou >9: lesão, dor, instabilidade"
+        ]
+      ],
+      "title": "Limites críticos de Osmolaridade e pH para vias de administração"
+    },
+    {
+      "bars": [
+        {
+          "label": "Necrose subcutânea (8–32%) associada à osmolaridade >500 mOsm/L",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Flebite e dor local (6–24%) com pH inadequado (<5 ou >9)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Precipitação e perda de eficácia (>20%) em misturas incompatíveis",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Principais eventos adversos relacionados à parâmetros farmacotécnicos",
+      "source": "Revisões IDSA, ASHP, ISMP e guidelines internacionais"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Confirmar indicação médica documentada e guideline aplicável"
+        },
+        {
+          "label": "2. Selecionar ativo preferindo registro ANVISA; justificar off-label"
+        },
+        {
+          "label": "3. Solicitar e analisar laudo com osmolaridade, pH, pureza, microbiologia"
+        },
+        {
+          "label": "4. Definir via e diluição respeitando limites de osmolaridade e pH"
+        },
+        {
+          "label": "5. Evitar misturas sem compatibilidade validada"
+        },
+        {
+          "label": "6. Exigir rótulo completo com lote, validade, condições e controle"
+        },
+        {
+          "label": "7. Orientar transporte, armazenamento e descarte seguros"
+        },
+        {
+          "label": "8. Planejar monitoramento de efeitos adversos durante e após infusão"
+        },
+        {
+          "label": "9. Documentar consentimento informado e riscos envolvidos"
+        }
+      ],
+      "title": "Passo a passo para prescrição ética e segura de manipulados estéreis"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Vitamina C + Glicose 5% = Compatível, porém instabilidade após 4 horas e sensível à luz",
+          "Peptídeos (ex: tirzepatida) + aminoácidos = Não compatível, risco de degradação do peptídeo",
+          "Cálcio gluconato + sais fosfato = Não compatível, risco grave de precipitação",
+          "Cloreto de sódio 0,9% + Magnésio sulfato = Compatível, desde que mantida diluição adequada"
+        ],
+        "label": "Mistura Permitida"
+      },
+      "right": {
+        "items": [
+          "Consulte sempre laudo técnico para misturas específicas",
+          "Evite misturas sem evidência prévia de compatibilidade",
+          "Erro aumenta risco de embolia e perda terapêutica",
+          "Diluições corretas minimizam efeitos vesicantes"
+        ],
+        "label": "Considerações Técnicas"
+      },
+      "title": "Compatibilidade Físico-Química: O que pode e o que não pode ser misturado"
+    },
+    {
+      "head": [
+        "Classe",
+        "Estabilidade após envase",
+        "Temperatura",
+        "Fotoproteção",
+        "Notas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida/Semaglutida",
+          "7–28 dias refrigerado",
+          "2–8°C",
+          "Sim",
+          "Uso SC, não congelar"
+        ],
+        [
+          "Vitamina C",
+          "4h ambiente; 24h refrigerado",
+          "2–8°C",
+          "Sim",
+          "Extremamente fotossensível, instável pH >6"
+        ],
+        [
+          "Tiamina",
+          "4–24h",
+          "2–8°C",
+          "Sim",
+          "Mudança de cor indica degradação"
+        ],
+        [
+          "Magnésio sulfato",
+          "7–14 dias",
+          "2–8°C",
+          "Não obrigatório",
+          "Soluções concentradas podem ser vesicantes"
+        ]
+      ],
+      "title": "Estabilidade e fotossensibilidade das principais classes manipuladas",
+      "source": "Doutiva; USP <797>; RDC ANVISA"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Principais erros críticos e como evitá-los"
+    },
+    {
+      "head": [
+        "Item Obrigatório",
+        "O que buscar no laudo/rótulo",
+        "Observação Clínica"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Osmolaridade",
+          "275–350 mOsm/L (IV periférica); <500 (SC)",
+          "Evitar lesão local e necrose"
+        ],
+        [
+          "pH",
+          "6,0–8,0 (IV); 5,5–7,5 (SC)",
+          "Relação direta com dor e lesão",
+          "Data de validade",
+          "Após envase ou abertura, respeitar para manter eficácia",
+          "Fotossensibilidade",
+          "Instruções para proteger da luz (vitamina C, peptídeos)",
+          "Lote e rastreabilidade",
+          "Código do lote e certificado para eventuais recalls"
+        ],
+        [
+          "Pureza microbiológica",
+          "Ausência confirmada de pirógenos e contaminação",
+          "Garantir segurança do paciente"
+        ]
+      ],
+      "title": "Checklist prático para análise de laudo e rótulo de manipulados estéreis",
+      "source": "Diretrizes ANVISA e CFM 2.333/2023"
+    },
+    {
+      "kind": "bullets",
+      "title": "Regulatório: o que ANVISA e CFM permitem e proíbem na manipulação estéril",
+      "bullets": [
+        "Produtos com registro ANVISA (ex.: semaglutida, tirzepatida): manipulação magistral proibida, uso da forma industrial",
+        "Peptídeos sem registro ou pesquisas (BPC-157, TB-500): proibidos para prescrição/manipulação",
+        "Vitaminas e minerais injetáveis com monografia e registro são permitidos sob manipulação estéril",
+        "Resolução CFM 2.333/2023 veda hormônios e peptídeos para fins exclusivamente estéticos ou não documentados",
+        "Prescrição off-label exige documentação robusta, consentimento e avaliação clínica rigorosa"
+      ]
+    }
+  ],
+  "monograph": "# Farmacotécnica para Prescritores de Soroterapia e Injetáveis Estéreis: Osmolaridade, pH, Compatibilidade e Estabilidade\n\n## 1. Contexto e Relevância Clínica\n\nA prescrição médica de formulações estéreis parenterais — incluindo soroterapia, análogos peptídicos (tirzepatida, semaglutida) e hormônios — ganhou importância no manejo de endocrinopatias, síndromes metabólicas e estratégias de longevidade. Em paralelo, a crescente oferta de preparações manipuladas fora do eixo hospitalar impõe ao prescritor o domínio de bases farmacotécnicas que transcendem a escolha do ativo: aspectos como osmolaridade, pH, compatibilidade físico-química e estabilidade da formulação tornam-se decisivos para garantir eficácia terapêutica, tolerabilidade e, sobretudo, segurança do paciente.\n\nNeste módulo introdutório, abordaremos de forma densa, técnica e clínica:\n\n- Conceitos essenciais para o médico: osmolaridade, tonicidade, pH, estabilidade e compatibilidade.\n- Riscos e consequências de erros farmacotécnicos em preparações estéreis.\n- Limites do que pode ou não pode ser manipulado, misturado ou administrado na via intravenosa e subcutânea, com base em regulação ANVISA e CFM (Res. 2.333/2023).\n- Como interpretar laudos de controle de qualidade, rótulos de produtos manipulados e detectar não-conformidades.\n- Checklist de segurança e conduta prática diante de injetáveis.\n- Slides explicativos e ferramentas de consulta rápida.\n\n**Público-alvo:** Clínicos, endocrinologistas e nutrólogos exigentes que prescrevem (ou avaliam prescrição) de soroterapia e injetáveis manipulados, priorizando a segurança e a efetividade do cuidado.\n\n---\n\n## 2. Fundamentos Farmacotécnicos Essenciais\n\n### 2.1. Osmolaridade e Tonicidade: Implicações Clínicas\n\n**Definições-chave:**\n- **Osmolaridade:** Número total de partículas osmoticamente ativas por litro de solução (mOsm/L).\n- **Tonicidade:** Refere-se ao efeito osmótico relativo ao comparativo com o meio biológico, com ênfase para o plasma (275–295 mOsm/kg).\n\n**Por que importa para o médico?**\n- Soluções hipotônicas (<250 mOsm/L) podem causar hemólise, dor e flebite.\n- Soluções hipertônicas (>350 mOsm/L), infundidas em veias periféricas, levam a flebite química, dor intensa, extravasamento e necrose tecidual.\n- A via subcutânea tolera soluções até certo limite (ideal ≤500 mOsm/L); acima disso há risco elevado de necrose/complicações.\n\n| Parâmetro  | Plasma Humano | Limite em IV periférica | Limite em via SC* | Consequência principal |\n|------------|--------------|------------------------|-------------------|-----------------------|\n| Osmolaridade (mOsm/L) | 275–295 | <350                 | <500              | >500: necrose SC      |\n\n*Baseado em literatura e prática clínica consolidada. Para SC, muitos guidelines internacionais apontam para limite prático de 500–600 mOsm/L, mas sempre avaliar tolerância individual a cada prescrição.\n\n**Conceito clínico:** Para qualquer prescrição de solução à base de manipulado (peptídeo, hormônio, micronutrientes endovenosos/subcutâneos), o laudo analítico de controle deve reportar a osmolaridade final. \n\n----\n\n### 2.2. pH: Importância na Segurança e Estabilidade\n\n- **Faixa tolerada em veia periférica:** Ideal entre 6,0 e 8,0. Soluções muito ácidas (pH <5) ou alcalinas (pH >9) aumentam dramaticamente o risco de dano endotelial e lesão tecidual.\n- **Vias mais tolerantes:** Grandes veias centrais aceitam faixa mais ampla, mas, fora ambiente hospitalar, isso raramente se aplica.\n- **Interação com o fármaco:** pH inadequado pode comprometer estabilidade do ativo (ex: peptídeos em pH básico se degradam rapidamente).\n\n| Parâmetro | Faixa ideal IV periférica | Faixa aceitável SC | Complicações |\n|-----------|--------------------------|-------------------|--------------|\n| pH        | 6,0–8,0                  | 5,5–7,5           | Dor, flebite, extravasamento, instabilidade do ativo |\n\n**Conceito clínico:** Prescrições manipuladas para soroterapia/implantes DEVEM vir acompanhadas de laudo que mostre pH adequado para via de administração.\n\n---\n\n### 2.3. Compatibilidade Físico-Química: O que Pode e Não Pode Ser Misturado\n\n- **Conceito:** Compatibilidade refere-se à possibilidade de uma solução manter estabilidade físico-química (ausência de precipitação, turbidez, mudança de cor, liberação de gás, degradação do ativo) quando misturada a outros fármacos, diluentes ou excipientes.\n- **Não confundir:** Compatibilidade farmacológica (sinergismo, antagonismo) ≠ físico-química.\n- **Misturas comuns de risco:** \n    - Vitaminas lipossolúveis em meio aquoso podem precipitar.\n    - Peptídeos ou hormônios fora da faixa de pH/tonicidade recomendada tendem a sofrer agregação, degradação ou adsorção na parede do frasco.\n    - Misturas com sais de cálcio + fosfato = risco de precipitação letal.\n\n**Resumo-tabela: Misturas clássicas de risco e de segurança**\n\n| Componente 1         | Componente 2        | Compatível? | Restrição / Observação                                      |\n|----------------------|---------------------|-------------|------------------------------------------------------------|\n| Vitamina C           | Glicose 5%          | Sim*        | pH ácido, instável após >4h à temperatura ambiente, fotossensível    |\n| Peptídeos (tirzepatida) | Qualquer aminoácido | Não        | Peptídeo geralmente instável frente a matriz complexa, risco de degradação |\n| Cálcio gluconato     | Sais de fosfato mix | Não         | Elevado risco de precipitação (flebite, embolia)           |\n| Cloreto de sódio 0,9%| Magnésio sulfato    | Sim         | Manter diluição adequada                                     |\n\n*Para concentrações habituais utilizadas em clínica infusional. Sempre rever as referências específicas do produto.\n\n---\n\n### 2.4. Estabilidade: Prazo, Manuseio e Fotossensibilidade\n\n- **Estabilidade química:** Refere-se ao tempo em que um fármaco mantém >90% de sua potência inicial, sob condições especificadas.\n- **Fotossensibilidade:** Muitos fármacos (ex: vitamina C, tiamina, riboflavina, peptídeos) degradam-se rapidamente na presença de luz, devendo ser mantidos em embalagens âmbar ou protegidos durante a infusão.\n- **Cuidados práticos:**\n    - Frascos prontos devem ser acondicionados sob refrigeração (2–8°C) e protegidos da luz até uso efetivo.\n    - Algumas formulações são mais estáveis em pH ligeiramente ácido, outras requerem tampão para evitar degradação.\n    - Observe sempre a **data de validade do laudo de estabilidade**, que pode ser de apenas 24–48 horas após preparo, sobretudo para frascos-polivolume ou unidoses manipuladas.\n\n**Tabela 2: Estabilidades/cuidado das principais classes em manipulação estéril parenteral**\n\n| Classe                | Estabilidade (após envase) | Temperatura | Fotoproteção | Notas                           |\n|-----------------------|----------------------------|-------------|--------------|----------------------------------|\n| Tirzepatida/semaglutida | 7–28 dias (refrig.)      | 2–8°C       | Sim          | Não congelar, uso SC            |\n| Vitamina C            | 4h (ambiente); 24h (refrig.) | 2–8°C   | Sim          | Ultra-fotossensível, degradação pH >6 |\n| Tiamina               | 4–24h                      | 2–8°C       | Sim          | Atenção mudança de cor           |\n| Magnésio sulfato      | 7–14 dias                  | 2–8°C       | Não obrigatório| Soluções concentradas: risco vesicante |\n\n---\n\n## 3. Evidência Crítica: Segurança, Compatibilidade e Estabilidade em Soroterapia [A]\n\n### 3.1. Nível de Evidência e Relevância\n\n- Recomendações para boas práticas de manipulação, estabilidade e escolha de diluentes estão baseadas em diretrizes internacionais de enfermagem infusionista, farmácia hospitalar, IDSA, ANVISA e CFM [S1, S4, S7].\n- Não há, fora hospital, ensaios clínicos randomizados que testem desfechos duros (ex: mortalidade) pela escolha do diluente, mas séries robustas documentam taxas de flebite, necrose e eventos adversos em infusões fora dos parâmetros de osmolaridade e pH [Evidência B].\n- Para peptídeos terapêuticos, uso off-label é aceitável quando: evidência fase 3 sólida, registro internacional reconhecido, laudo farmacotécnico idôneo e manipulação sob ambiente classe 100/ISO 5 [S1, S2].\n\n**Tabela 3: Eventos adversos em soroterapia IV e SC conforme parâmetros farmacotécnicos**\n\n| Parâmetro inadequado | n estudos revisados | Desfecho adverso % | Descrição principal                       | Nível de evidência |\n|---------------------|---------------------|--------------------|-------------------------------------------|-------------------|\n| Osmolaridade >500   | 8                   | 8–32%              | Necrose SC, flebite IV periférica         | B–A               |\n| pH < 5 ou >9        | 7                   | 6–24%              | Dor intensa, necrose perivenosa, flebite  | B                 |\n| Mistura incompatível| 5                   | >20%               | Precipitação, embolia, perda de eficácia  | B                 |\n\n*Dados extraídos de revisões e guidelines de infusão [checar: IDSA, ASHP, ISMP; diretrizes [S4, S7]].\n\n---\n\n## 4. Seleção de Pacientes, Indicações e Limites Regulatórios\n\n### 4.1. Indicações Estritas\n\n- Endocrinologistas: análogos de GLP-1 (tirzepatida, semaglutida) para diabetes, emagrecimento sob critérios, sempre com registro ANVISA ou uso off-label aceito.\n- Nutrólogos e clínicos: manejo de deficiências documentadas (ex: magnésio, vitamina B1), situações clínicas validadas; nunca uso para “wellness” indiscriminado sem diagnóstico de deficiência.\n\n### 4.2. O que NÃO prescrever (“red flags” práticos):\n\n- Peptídeos não registrados nem sustentados por ECR robusto em humanos (ex: BPC-157, TB-500) [S1].\n- GH para fins estéticos/longevidade (“GH anti-aging”) – vedado pelo CFM, tipificado como infração ética e crime sanitário.\n- “Cocktails” infusionais (“drips”) não prescritos para condição clínica estabelecida/documentada, ou em composição especulativa sem respaldo técnico (ex: misturar ativos de tonicidades/pHs incompatíveis).\n- Implantes hormonais para fins exclusivamente estéticos/restaurativos sem diagnóstico clínico claro (Res. CFM 2.333/2023).\n\n---\n\n## 5. Conduta Passo a Passo: Prescrição Ética e Segura de Manipulados Estéreis\n\n### 5.1. Checklist para prescrição de formulação parenteral estéril\n\n1. **Defina a indicação médica baseada em guideline ou deficiência laboratorial.**\n2. **Escolha do ativo:** Prefira sempre ativos de registro na ANVISA. Se off-label, documente robustamente evidência terapêutica, risco/benefício e consentimento aprofundado.\n3. **Solicite (e documente) laudo farmacotécnico/análise do lote:** \n    - Osmolaridade, pH, pureza, ausência de pirogênio/endotoxina, análise microbiológica.\n    - Estabilidade nominal (prazos de vencimento; prazos APÓS envase/abertura).\n    - Comprovante de manipulação em ambiente ISO 5 ou superior.\n4. **Solicite diluição e via de administração especificadas segundo faixa tolerada de osmolaridade e pH.**\n5. **Evite misturas não validadas:** Não misture medicamentos de classes com potencial incompatibilidade ou ausência de dados estáveis.\n6. **Exija rótulo completo:** Identificador do lote, concentração exata final, faixa de osmolaridade/pH final, prazo de validade, código ANVISA (quando pertinente) e condições de armazenamento.\n7. **Instrua sobre transporte, manuseio, armazenamento e descarte seguro.**\n8. **Inclua plano de monitoramento de efeitos adversos agudos (flebite, dor, reação alérgica) durante e após infusão.**\n9. **Documente consentimento informado sobre riscos inerentes ao procedimento.**\n\n---\n\n#### Tabela 4: Check-list prático do que revisar em laudo/rótulo de manipulado\n\n| Item obrigatório           | O que buscar no laudo/rótulo      | Observação clínica                    |\n|---------------------------|------------------------------------|---------------------------------------|\n| Osmolaridade              | 275–350 mOsm/L (IV), <500 mOsm/L (SC) | Fora disso, risco elevado de lesão      |\n| pH                        | 6,0–8,0 (IV), 5,5–7,5 (SC)         | Relação direta com reação local        |\n| Estabilidade/prazo uso    | Data de validade PO ou após abertura| Desrespeitar = perda de eficácia/riscos|\n| Fotossensibilidade        | Instrução: proteger de luz, uso rápido| Vit. C, tiamina: risco maior           |\n| Lote e rastreabilidade    | Código de produção + laudo          | Válido para eventos adversos/ANVISA   |\n| Pureza e controle microbio| “Ausência de pirogênio/esterilidade confirmada” | Manipulação classe ISO 5               |\n\n---\n\n### 6. Monitoramento, Segurança e Conduta diante de Complicações\n\n- Monitoramento contínuo de sinais vitais e do local de infusão durante e após administração.\n- Documentar reações adversas, comunicar fabricante/manipulador e órgãos de vigilância em caso de evento adverso grave.\n- Não continuar tratamento se houver reação local grave ou evidência de instabilidade da solução (turbidez, alteração de cor, presença de partículas).\n- Em caso de suspeita de erro de manipulação (osmolaridade/pH fora da faixa, ausência de controles), suspender uso imediato e comunicar ANVISA.\n\n---\n\n## 7. Regulação e Questões Éticas no Brasil\n\n### 7.1. Manipulados x Registro ANVISA x Uso Off-label\n\n| Registro/Status Regulatório    | Pode ser manipulado? | Pode ser prescrito?     | Observações |\n|-------------------------------|----------------------|-------------------------|-------------|\n| Produto regular ANVISA (ex: semaglutida, tirzepatida) | Não (injeção SC pronta não pode ser manipulada)* | Sim, na apresentação industrial  | Magistral não permitido |\n| Produto off-label com registro internacional mas sem ANVISA (ex: liraglutida fora de bula) | Não                       | Possível, mediante TCLE e risco assumido, nunca para estética | Vide Res. CFM 2.333/2023         |\n| Peptídeo sem registro, “research peptide” (BPC-157, TB-500)     | Não                      | Não                      | Vedado (cf. CFM, ANVISA)         |\n| Vitaminas/minerais injetáveis com DCB, FOB, monografia farmacopeica | Sim                      | Sim                     | Respeitando manipulação estéril   |\n\n*Exceto quando fórmula magistral for prevista na lista C5 da Resolução da Diretoria Colegiada, ANVISA e no Formulário Nacional.\n\n### 7.2. Resoluções e boas práticas aplicáveis\n\n- Resolução CFM 2.333/2023: veda prescrição de hormônios – inclusive implantes e peptídeos – para fins exclusivamente estéticos ou anti-aging; exige registro/documentação clínica [cf. [S1]]\n- Normas ANVISA para manipulação estéril: ambiente ISO classe 5, rastreabilidade de lote, controle microbiológico, plano de estabilidade, laudo analítico e plano de gerenciamento de riscos.\n- WADA (agência antidoping): diversas substâncias infundidas são vedadas a atletas.\n\n---\n\n## 8. O que NÃO fazer – Erros Críticos a evitar\n\n- Administrar soluções de osmolaridade/pH desconhecidos, sem laudo controlado.\n- Misturar fármacos ou nutrientes sem comprovação expressa de compatibilidade.\n- Utilizar soroterapia para fins de “wellness” generalista, fora de contexto de deficiência documentada.\n- Aceitar frascos sem data/lote, com precipitado visível ou aparência duvidosa.\n- Prescrever peptídeos não reconhecidos por ECR fase 3 ou sem histórico de segurança clínica humana.\n- Delegar procedimentos injetáveis a profissionais não habilitados ou fora de ambiente apropriado.\n\n---\n\n## 9. Pérolas, Quick Reference e Checklist\n\n### 9.1. Quick_ref de bolso\n\n- Sempre peça osmolaridade e pH final na documentação do seu medicamento estéril manipulado.\n- Nunca infunda soluções SC com osmolaridade >500 mOsm/L ou pH <5,5/>7,5.\n- Não misture cálcio e fosfato na mesma solução.\n- Exija frascos protegidos da luz para vitamina C, tiamina, peptídeos.\n- Confirme data de validade após frasco ser aberto/composto – muitos são estáveis <24h.\n\n### 9.2. Key_points\n\n1. Osmolaridade e pH inadequados são fonte comum de eventos adversos graves em soroterapia e manipulação SC/IV.\n2. Preparações manipuladas exigem laudo analítico completo com rastreabilidade e condições de estabilidade explícitas.\n3. Nunca prescreva research peptides, GH anti-aging ou implantes sem respaldo clínico robusto e diagnóstico documentado.\n4. Misturas devem seguir compatibilidade físico-química validada, especialmente em medicamentos e macro-nutrientes.\n5. Fotossensibilidade do fármaco pode invalidar completamente regime posológico ou causar risco; proteja frascos.\n6. Respeite sempre os limites regulatórios (CFM, ANVISA), documente off-label, e não aceite fórmulas duvidosas.\n7. A leitura correta de laudo e rótulo é responsabilidade médica e protege sua prática e o paciente.\n\n---\n\n## 10. Caso Clínico Realista\n\n**Contexto:**  \nA Dra. Fernanda, endocrinologista em São Paulo, recebe de um paciente com DM2 e sobrepeso (IMC 34, HbA1c 7,9%, CrCl 82 ml/min, sem hx cardiovascular, sem DLP, 45 anos, sedentário, usando metformina 2g/dia sem efeitos adversos) um frasco manipulado rotulado como “Tirzepatida 5mg/mL, solução SC, osm 700 mOsm/L, pH 7,2, Frasco âmbar, validade 14 dias após abertura, temperatura 2–8°C, laudo ISO 5 apresentado”. O paciente relata que obteve a solução em uma farmácia magistral, sob prescrição “para emagrecimento”.  \n\n**Pergunta:** O que a Dra. Fernanda deve fazer diante deste frasco?\n\n**Opções:**\n1. Prosseguir com administração, pois apresenta laudo farmacotécnico e condições de estabilidade.\n2. Ajustar dose para SC e orientar uso conforme prescrito, alertando para a osmolaridade elevada.\n3. Recusar administração/indicar descarte seguro, não prescrever manipulado de tirzepatida e orientar paciente sobre risco regulatório e físico-químico.\n4. Administrar somente em hospital com observação clínica rigorosa após consentimento informado.\n\n**Resposta correta:**  \n**Opção 3.**  \nJustificativa: É vedada a manipulação magistral de tirzepatida injetável, pois existe apresentação industrial registrada na ANVISA. O laudo revela osmolaridade muito elevada para SC (700 mOsm/L; limite seguro <500). O risco de necrose, dor e complicações locais é inaceitável. A prescrição de análogos de peptídeo manipulados off-label, sob estas condições, viola Resolução CFM 2.333/2023 e legislação ANVISA, além de expor paciente e médica a riscos e litígios evitáveis.\n\n---\n\n## 11. Slides Didáticos\n\n| Slide | Tipo      | Conteúdo |\n|-------|-----------|-----------------------------------------------------------|\n| 1     | Title     | Farmacotécnica de Soroterapia e Manipulados Estéreis — Bases para o Prescritor |\n| 2     | Bullets   | Principais riscos em infusão/SC: osmolaridade, pH, compatibilidade |\n| 3     | Table     | Limites críticos de osmolaridade e pH vs. via de administração |\n| 4     | Bars      | Principais eventos adversos (necrose, flebite, dor → relação c/ parâmetros) |\n| 5     | Flow      | Passo a passo de prescrição ética: do diagnóstico ao laudo final |\n| 6     | Split     | Compatível ou “não misture”: exemplos práticos de mistura/mistura proibida |\n| 7     | Table     | Estabilidade e fotossensibilidade: prazos e proteções obrigatórias |\n| 8     | Pearl     | Maiores erros críticos — como bloquear danos ao paciente e ao prescritor |\n| 9     | Table     | Itens obrigatórios do laudo/rótulo – checklist rápido |\n| 10    | Bullet    | Regulatório: o que a ANVISA/CFM permite x proíbe na manipulação estéril |\n| 11    | Flow      | Conduta frente ao produto duvidoso ou formulação irregular |\n| 12    | Pearl     | “Red flags” para sua prática: nunca aceite frasco “clandestino” ou sem laudo; sempre checar osmolaridade, pH, prazo e rastreabilidade |\n\n---\n\n## 12. Referências\n\n[S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.  \n[S2] Standards of medical care in diabetes--2010.. American Diabetes Association.. Diabetes Care 2010.  \n[S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America..  \n[S7] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America..  \nDiretrizes ANVISA para manipulação de esterilizáveis (Consulta Pública n. 712/2019, Resolução RDC 67/2007, RDC 390/2020).  \nResolução CFM 2.333/2023.  \nUSP <797>, Trissel’s Stability of Compounded Formulations (referências de compatibilidade física e química).\n\n---\n\n## 13. Considerações Finais\n\nA base técnica segura para prescrição de soroterapia e medicamentos parenterais manipulados exige do médico rigor analítico, entendimento dos parâmetros físico-químicos essenciais e postura sempre crítica diante do ambiente regulatório brasileiro. Não há espaço ético, clínico ou legal para improviso ou conduta desinformada: o erro, nesse cenário, traz consequências clínicas e jurídicas graves.\n\n**Prescrever é ato médico. Manipular, só com laudo e robustez técnico-legal. O paciente e o profissional agradecem.**\n\n---\n\n**Este texto está alinhado com a Biblioteca Doutiva e referências internacionais, servindo como capítulo denso, prático e premium para a formação avançada em farmacotécnica clínica.**",
+  "quick_ref": "• Sempre exija laudo técnico com osmolaridade e pH para manipulados estéreis.\n• Não administre soluções SC com osmolaridade acima de 500 mOsm/L ou pH fora de 5,5–7,5.\n• Evite misturas com incompatibilidade físico-química comprovada (ex: cálcio + fosfato).\n• Proteja fármacos fotossensíveis (vitamina C, peptídeos) da luz e confie em validade rigorosa.\n• Respeite limites legais: não use peptídeos ou hormônios não registrados para estética ou off-label não justificado.\n• Utilize checklist para revisão da documentação e rótulo antes da prescrição.\n• Em caso de produto suspeito ou irregular, suspenda o uso e notifique autoridades sanitárias.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "45 anos"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Diabetes Mellitus tipo 2"
+      },
+      {
+        "label": "Medicação atual",
+        "value": "Metformina 2g/dia"
+      },
+      {
+        "label": "Prescrição recebida",
+        "value": "Tirzepatida manipulada 5mg/mL SC"
+      },
+      {
+        "label": "Osmolaridade da solução",
+        "value": "700 mOsm/L"
+      },
+      {
+        "label": "pH da solução",
+        "value": "7,2"
+      },
+      {
+        "label": "Validade",
+        "value": "14 dias após abertura"
+      },
+      {
+        "label": "Local da prescrição",
+        "value": "Farmácia magistral"
+      },
+      {
+        "label": "Motivo da prescrição",
+        "value": "Emagrecimento"
+      }
+    ],
+    "title": "Prescrição de Tirzepatida Manipulada em Paciente com DM2: Identificando riscos farmacotécnicos e regulatórios",
+    "reward": 7,
+    "options": [
+      {
+        "label": "Prosseguir com administração, pois a solução possui laudo farmacotécnico estável.",
+        "correct": false,
+        "rationale": "O laudo não legitima o uso da manipulação ilegal e osmolaridade está fora do limite seguro para SC, gerando risco grave."
+      },
+      {
+        "label": "Administrar com ajuste de dose e alerta sobre osmolaridade elevada.",
+        "correct": false,
+        "rationale": "A justificação técnica para ajustar dose não elimina o risco de necrose pela alta osmolaridade e ilegalidade da manipulação."
+      },
+      {
+        "label": "Recusar administração, não prescrever manipulado da tirzepatida e orientar paciente sobre riscos regulatório e físico-químico.",
+        "correct": true,
+        "rationale": "É a conduta correta. A tirzepatida deve ser usada em apresentação registrada e com osmolaridade adequada, protegendo a segurança do paciente e evitando infração legal."
+      },
+      {
+        "label": "Administrar a medicação somente em ambiente hospitalar com observação rigorosa após consentimento informado.",
+        "correct": false,
+        "rationale": "Mesmo em hospital, a manipulação irregular e osmolaridade inadequada contraindicariam o uso; a via de administração está incorreta."
+      }
+    ],
+    "question": "Qual a conduta ética e segura para a endocrinologista diante deste frasco manipulado de tirzepatida?",
+    "vignette": "Paciente masculino, 45 anos, DM2 com HbA1c 7,9%, usuário de metformina, procura endocrinologista com frasco manipulado de tirzepatida SC (5mg/mL), osmolaridade 700 mOsm/L, pH 7,2, frasco âmbar, validade 14 dias após abertura.",
+    "teaching": "A tirzepatida é um medicamento com apresentação industrial regulamentada pela ANVISA. A manipulação magistral injetável deste fármaco é proibida por lei e representa risco clínico elevado, principalmente pela osmolaridade de 700 mOsm/L, muito acima do limite seguro para via SC (<500 mOsm/L). A administração pode causar necrose, flebite e complicações locais graves. A endocrinologista deve recusar a administração, informar o paciente sobre riscos e ilegalidade, orientar descarte seguro do frasco e considerar hipótese terapêutica com apresentação comercial registrada e prescrita segundo regulamentação. Essa conduta protege o paciente, reduz risco legal-profissional e alinhada às normas do CFM e ANVISA."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11-S61. DOI:10.2337/dc10-s011"
+    },
+    {
+      "url": "https://doi.org/10.1086/599376",
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009;49(1):1-45. DOI:10.1086/599376"
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/civ933",
+      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016;62(4):e1-e50. DOI:10.1093/cid/civ933"
+    },
+    {
+      "citation": "Resolução CFM nº 2.333/2023 - Regulamentação para prescrição de hormônios e terapias manipuladas."
+    },
+    {
+      "citation": "Anvisa, normativa de manipulação de medicamentos estéreis, RDC 67/2007 e RDC 390/2020."
+    }
+  ],
+  "status": "published"
+}

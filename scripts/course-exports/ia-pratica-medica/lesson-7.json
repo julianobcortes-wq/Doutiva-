@@ -1,0 +1,260 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Educação e Doutiva",
+  "module_position": 4,
+  "title": "IA na Educação Médica: Tutores com Citação Obrigatória e Fidelidade claim↔fonte",
+  "description": "Esta aula detalha o papel dos tutores de IA na educação médica, com ênfase para endocrinologistas, nutrólogos e clínicos que atuam com prescrição ética e manipulação estéril. Destaca-se o modelo Doutiva, que exige fidelidade absoluta entre afirmações e fontes bibliográficas indexadas [S#], contrastando com limitações de IA genérica. São apresentadas diretrizes regulatórias brasileiras, níveis de evidência, riscos éticos e algoritmo de uso seguro da IA na educação clínica. Inclui caso realista, checklist para consultório e revisão crítica das evidências chave.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Sistemas de IA para educação médica devem garantir rastreabilidade claim↔fonte para decisões seguras.",
+    "Modelo Doutiva exige bibliografia indexada com citação [S#] para cada informação técnica fornecida.",
+    "IA genérica falha em citar fontes, gerando risco ético, viés e decisão clínica insegura.",
+    "Prescrição e manipulação estéril de peptídeos devem seguir hierarquia evidencial robusta e regulatório brasileiro.",
+    "Consentimento informado, monitoramento clínico e licença ANVISA/CFM são mandatórios no uso off-label/manipulação.",
+    "DECIDE-AI é diretriz referência para validação e reporte de sistemas de IA clínica.",
+    "Jamais usar IA para indicar peptídeos sem evidência, GH anti-aging, drips sem critério e produtos não licenciados."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "IA na Educação Médica: Tutores com Citação Obrigatória e Fidelidade claim↔fonte",
+      "subtitle": "Fundamentos, Evidências e Práticas para Prescrição Ética e Regulada"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Hierarquia da Evidência para Peptídeos Terapêuticos",
+      "source": "[S1] Posicionamento Doutiva"
+    },
+    {
+      "kind": "bullets",
+      "title": "Por Que IA Genérica é Insuficiente na Educação Médica",
+      "bullets": [
+        "72% dos modelos analisados não reportam fontes ([S18])",
+        "95% apresentam alto risco de viés e falta de validação externa",
+        "Ausência de rastreabilidade aumenta risco ético e potencial judicial",
+        "Alucinações e informações incorretas comprometem segurança"
+      ]
+    },
+    {
+      "head": [
+        "Etapa",
+        "Doutiva (Biblioteca/Gates)",
+        "IA Genérica"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Fonte rastreável",
+          "Sim",
+          "Não"
+        ],
+        [
+          "Hierarquia evidencial",
+          "Sim",
+          "Não"
+        ],
+        [
+          "Bloqueio conduta vedada",
+          "Sim",
+          "Não"
+        ],
+        [
+          "Documentação auditável",
+          "Sim",
+          "Não"
+        ]
+      ],
+      "title": "Fluxo Comparativo: IA Doutiva vs IA Genérica"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrição segura: dose inicial 2,5 mg SC/sem semana, aumento gradual conforme bula ANVISA [S2]",
+          "Uso de farmácia com licença ANVISA para manipulação estéril",
+          "Monitoramento: HbA1c, função renal, sinais GI e hipoglicemia [S1, S2]",
+          "Explicação do cenário off-label e consentimento informado"
+        ],
+        "label": "Conduta Ideal"
+      },
+      "right": {
+        "items": [
+          "IA Doutiva: cita fontes, detalha monitoramento e limitações",
+          "IA Genérica: resposta vaga, sem fontes, com potencial risco"
+        ],
+        "label": "IA Genérica"
+      },
+      "title": "Caso Prático: Maria L., DM2 e Manipulação Estéril"
+    },
+    {
+      "kind": "bullets",
+      "title": "Regulação e Ética no Brasil para Prescrição e Manipulação",
+      "bullets": [
+        "Resoluções CFM 2.217/2018 e 2.333/2023 proíbem uso estético/rejuvenecedor de hormônios",
+        "Manipulações estéreis autorizadas somente em farmácias com licença ANVISA/GMP",
+        "Consentimento informado obrigatório para prescrições off-label",
+        "LGPD: anonimização e controle rigoroso de dados clínicos e educativos"
+      ]
+    },
+    {
+      "head": [
+        "Fonte",
+        "N / Abrangência",
+        "Validação",
+        "Fidelidade claim↔fonte",
+        "Risco Ético"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "DECIDE-AI [S13]",
+          "123 experts",
+          "Checklist validado",
+          "Obrigatória",
+          "Baixo se cumprido"
+        ],
+        [
+          "Wynants et al [S18]",
+          "169 estudos / 232 modelos",
+          "Raro",
+          "Quase inexistente",
+          "Alto"
+        ],
+        [
+          "Posicionamento Doutiva [S1]",
+          "N/D",
+          "Guideline",
+          "Obrigatória",
+          "Controla viés e compliance"
+        ]
+      ],
+      "title": "Evidências e Riscos em Modelos de IA Médica"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Consulta do educando: dúvida específica"
+        },
+        {
+          "label": "2. Recuperação somente em biblioteca validada e autorizada [S#]"
+        },
+        {
+          "label": "3. Montagem da resposta só com trechos citados, com [S#]"
+        },
+        {
+          "label": "4. Revisão hierárquica e checklist de segurança aplicado"
+        },
+        {
+          "label": "5. Gate para veto/alerta ético em condutas vedadas"
+        },
+        {
+          "label": "6. Entrega da resposta auditável para decisão clínica"
+        }
+      ],
+      "title": "Fluxo Seguro Doutiva - Tutor IA Ancorado em Biblioteca"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Condutas Proibidas e Atenção Ética",
+      "source": "[S1], [S13]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist para Consulta com Apoio IA Doutiva",
+      "bullets": [
+        "Resposta com referências explícitas e hierarquia evidencial [S#]",
+        "Bloqueio automático para drogas/procedimentos vedados",
+        "Sumário com monitoramento e limites regulatórios nacionais",
+        "Trilha de logs e auditoria disponível",
+        "Consentimento informado para off-label e manipulação",
+        "Orienta farmácia/manipulador regularizado",
+        "Dados tratados conforme LGPD",
+        "Sem recomendações baseadas apenas em fases pré-clínicas"
+      ]
+    }
+  ],
+  "monograph": "# Inteligência Artificial na Educação Médica: Tutores, Citação Obrigatória e Fidelidade claim↔fonte\n\n## 1. Contexto e Relevância\n\nA incorporação de inteligência artificial (IA) na educação médica, em especial para endocrinologistas, nutrólogos e clínicos que prescrevem medicamentos manipulados estéreis, oferece um novo paradigma para a formação, atualização e consulta clínica de excelência. A pressão por decisões baseadas em evidências e o escrutínio de órgãos regulatórios como ANVISA e CFM tornam imperativo que qualquer apoio digital seja transparente, rastreável e ancorado em referências robustas. O modelo da Doutiva parte da exigência de rigor: cada afirmação (claim) é lastreada em fonte específica da biblioteca [S#], permitindo rastreabilidade e auditabilidade — um notório contraste com soluções genéricas, como ChatGPT, que frequentemente incorrem em elaborações sem fonte validada.\n\nNesta monografia, abordaremos os fundamentos, as evidências disponíveis, os riscos e as melhores práticas para tutores de IA em educação médica, sobretudo no contexto de prescrição ética, manipulação estéril e compliance regulatório.\n\n## 2. Bases Científicas e Princípios da IA Tutora\n\n### 2.1 A natureza do tutor de IA\n\nUm tutor de IA, no contexto Doutiva, é um sistema digital de apoio ao ensino clínico que responde a perguntas ou conduz sessões educacionais apenas ancorando respostas em sua biblioteca indexada e auditada. A entrega pode ocorrer por meio de chat interativo, módulos assíncronos ou integração a simuladores clínicos.\n\n#### Pilares fundamentais\n\n- **Recuperação baseada em fontes (retrieval-augmented generation, RAG)**: cada resposta é composta somente a partir de documentos pré-autorizados.\n- **Obrigações de citação claim↔fonte [S#]**: todas as afirmações técnicas são obrigatoriamente rastreáveis a uma referência.\n- **Hierarquia de evidência**: priorização explícita, com classificação A–D.\n- **Documentação normativa/BR**: cada etapa da conduta faz referência aos marcos legais e às recomendações das principais agências (CFM, ANVISA, WADA).\n\n### 2.2 Por que isso importa: limitações de IA generativa genérica\n\nModelos como ChatGPT ou Bard, sem restrição de fontes ou rigor de citação, podem:\n\n- Gerar \"alucinações\" — conteúdos plausíveis mas sem base real;\n- Misturar referências irreais, datas e números falsos;\n- Permitir viés/erro pela ausência de atualização ou validação contextualizada.\n\nA prática clínica e educativa ética exige padronização, rastreabilidade e capacidade de auditoria. A falta de rastreabilidade pode levar, inclusive, a infrações éticas (Res. CFM 2.217/2018, 2.333/2023).\n\n## 3. Evidência Crítica sobre IA em Educação Médica e Suporte à Decisão\n\nA avaliação do impacto da IA na medicina — especialmente sua aplicação como tutor educacional — permanece relativamente recente, mas já há diretrizes robustas para a validação, reporte e integração dessas tecnologias em contexto clínico e educacional.\n\n### 3.1 Diretrizes e recomendações de referência\n\nA diretriz DECIDE-AI ([S13]) sintetiza os requisitos mínimos para que sistemas de IA em saúde sejam validados e reportados em fase inicial. Destaca-se:\n\n- Checklist de 17 itens (28 subitens) específicos de IA;\n- Transparência e explicaabilidade do sistema (como a IA chega à resposta?);\n- Rastreabilidade claim↔fonte;\n- Avaliação clínica prospectiva e envolvimento do usuário final (médicos, educadores, reguladores).\n\n### 3.2 Síntese de evidência: robustez, riscos e impacto clínico\n\n#### Tabela 1. Diretrizes, Estágios Evidenciais e Riscos em IA Educacional de Suporte Médico ([S13], [S18], [S1])\n\n| Fonte  | N / Abrangência | Design | Relevância Educacional | Rastreabilidade | Risco de Viés | Risco Ético | Evidência |\n|--------|----------------|--------|-----------------------|----------------|--------------|-------------|-----------|\n| DECIDE-AI [S13] | 123 experts | Guideline, Delphi | Checklist validado para desenvolvimento, relatório e reporte de IA clínica | Obrigatória | Baixo (cheklists), alto se omitido | Se não auditável, risco relevante | A |\n| Wynants et al [S18] | 169 estudos / 232 modelos | Systematic Review | Modelos preditivos: maioria sem transparência ou validação externa; alto risco de viés | Raro, só 5% com calibração/externa | Muito alto | Alto para decisões sem validação local | A |\n| Posicionamento Doutiva [S1] | N/D | Guideline | Hierarquia e rastreabilidade de evidência imprescindível para educação e prescrição | Obrigatória, hierarquia A-D | Controla viés | Imprescindível para compliance | A |\n\n- Notável: sistemas genéricos sem citação claim↔fonte expõem paciente e profissional a risco inaceitável ([S18]).\n\n### 3.3 Modelos e validação — aprendizados dos estudos\n\nA maioria dos modelos e tutores baseados em IA falha nas fases iniciais em dois aspectos:\n\n- **Fidelidade claim↔fonte**: número expressivo de respostas contém informações não rastreáveis ([S18], apenas 5% dos modelos avaliados tinham reprodutibilidade e reporte mínimo de fonte).\n- **Aplicação prospectiva em campo clínico real**: raridade de avaliação em cenários reais, com resultados frequentemente superestimados pelo viés de treinamento.\n\n#### Tabela 2. Exemplos de Validação, Erros, e Baixos Requisitos em Modelos Publidados ([S18])\n\n| Modelo/Estudo | Quantidade Modelos (n) | Checagem externa | Fidelidade claim↔fonte | Avaliação humana voluntária | Performance (C-index) | Principais falhas |\n|---------------|------------------------|------------------|------------------------|----------------------------|----------------------|-------------------|\n| COVID-PRECISE [S18] | 232 | 11 (5%) | Quase inexistente | Sim, porém pós hoc | 0,65–0,99* | Viés de seleção, overfitting, ausência de contexto clínico, citações desconexas |\n| DECIDE-AI [S13] | N/A | Guia, não modelo | Checklist obrigatório | Sim, core na validação | Não aplica | Relato detalhado, rastreabilidade, explicabilidade, interação humana documentada |\n\n\\*Performance reportada não é necessariamente reprodutível sem validação independente e rastreio claim↔fonte.\n\n## 4. Seleção de Casos de Uso: IA em Educação Médica para Prescrição Rastreável\n\n### 4.1 Casos-alvo de maior valor\n\n- **Preparação para prescrição de peptídeos/análogos de incretinas, manipulação estéril, dosagem e monitoramento**.\n- **Educação just in time**: simulações interativas para casos clínicos com justificativas listadas por fonte.\n- **Auditoria de decisão**: revisão retroativa da trilha lógica que levou à prescrição (simulação de auditoria pericial/CFM).\n- **Exclusão automática de referências não válidas (ex: uso \"anti-aging\" de GH, drip não justificado)**.\n\n### 4.2 Cenários em que a IA genérica é insegura\n\n- Discussões sobre drogas \"rejuvenescendoras\" sem ECR humano (Ex: BPC-157, TB-500, secretagogos de GH off-label) [S1].\n- Doses, vias e recomendações sem respaldo de bula/anvisa/diretriz.\n- Discussões sobre \"novidades\" sem registro ou manuseio seguro.\n- Sugestões de procedimentos/misturas intravenosas sem base legal e de segurança.\n\n### 4.3 O modelo Doutiva: gates e citação como barreira de segurança\n\nCada tópico de ensino só pode ser respondido se houver fonte documental (biblioteca premium, guideline, diretriz local válida, artigo fase ≥2 em humanos), assegurando compliance ético-regulatório.\n\n## 5. Conduta de implementação: passo a passo e comparação entre fluxos\n\n### 5.1 Processo na Doutiva (IA tutor com ancoragem de biblioteca e gates)\n\n#### Etapas essenciais\n\n| Etapa                                      | Fluxo IA Doutiva (Rastreável)                            | Fluxo IA Genérico                      |\n|--------------------------------------------|----------------------------------------------------------|----------------------------------------|\n| 1. Consulta do educando                    | Digita dúvida específica                                 | Idem                                   |\n| 2. Recuperação na biblioteca validada      | IA só considera documentos autorizados [S#]              | IA acessa toda internet/treinamento    |\n| 3. Montagem da resposta                    | Apenas trechos ancorados, com [S#] após cada claim       | \"Sente\" resposta com base em treinamento geral |\n| 4. Revisão automática de hierarquia        | Se não há evidência A–B, resposta restringe ou orienta para AD; checklist de segurança aplicado | Sem restrição                          |\n| 5. Gate para veto/alerta ético             | Impede recomendações ilícitas ou inseguras (ex: GH anti-aging) | Não há veto automático                 |\n| 6. Entrega final e auditoria educacional   | Resposta auditável, pronto para rastreio                 | Resposta não auditável                 |\n\n### 5.2 Exemplo de fluxo\n\n**Input educando**: \"Qual dose de tirzepatida posso prescrever via subcutânea numa paciente com DM2, início de tratamento, em cenário de manipulação estéril? Qual monitoramento sugerido?\"\n\n**Output IA Doutiva**:\n> \"A titulação inicial recomendada para pacientes adultos com DM2 segue o padrão de bula ANVISA (Vidalglutida): iniciar com 2,5 mg SC 1x/semana, podendo aumentar a cada 4 semanas até dose-alvo de 5–15 mg/semana, conforme tolerabilidade ([S2]). Na manipulação estéril, observar critérios GMP, estabilidade em frascos refrigerados por até 21 dias (verificar), descartar se cor/turbidez alterados. Monitorar: HbA1c 12/12s, sintomas GI, sinais de hipoglicemia, função renal inicialmente e a cada 6m ([S2], [S1]).\"\n\n**Output IA genérica**:\n> \"A dose típica de tirzepatida inicia com 5 mg SC por semana e pode ser aumentada até 15 mg, monitorando sempre os sintomas.\"\n\n**Diferenças**:\n- IA Doutiva cita [S1], [S2], restringe a informação, detalha estabilidade, monitora condutas (farmacovigilância).\n- IA genérica omite fonte, assume segurança, não discute manipulação, não pontua riscos regulatórios.\n\n## 6. Monitoramento, Segurança e Responsabilidade Médica\n\n### 6.1 Monitoramento clínico e de uso da IA\n\n- Toda resposta gerada precisa ficar armazenada com sua trilha de fontes e usuário (compliance LGPD, rastreio CFM).\n- Updates da biblioteca devem ser versionados/documentados, e respostas antigas mantidas para fins de auditoria.\n\n### 6.2 Vulnerabilidades e condutas vedadas\n\n**Principais riscos de IA sem gates/biblioteca rastreável:**\n- Sugestões off-label sem critério, com risco jurídico e sanitário;\n- Uso de estudos não humanos para inferências perigosas;\n- \"Alucinações\" (dados inexistentes de farmacocinética, estabilidade, interações...)\n- Omissão de restrições do CFM/ANVISA (ex: uso estético de hormônios sem indicação clínica).\n\n**Conduta ética:**\n- Jamais prescrever peptídeos/hormônios sem respaldo de bula nacional/diretriz, ainda que IA \"sugira\" eficácia extrapolada ([S1]).\n- Citar obrigatoriamente limitações do uso off-label e rever periodicidade de atualização da base ([S1], [S13]).\n\n### 6.3 Responsabilidade do prescritor\n\n- O médico permanece responsável pela decisão, mesmo com apoio de IA ([S13], [S1]).\n- Sistemas tutorados servem apenas como apoio, não substituem julgamento clínico individualizado.\n\n## 7. Cenário Clínico: Caso Brasileiro, Alternativas de Conduta\n\n**Caso Clínico Realista**\n\nMaria L., 52 anos, DM2 há 7 anos, HbA1c 8,7%, IMC 36 kg/m², GFR 57 mL/min, sem doença cardiovascular, intolerância a metformina (náuseas severas), busca alternativa em consultório com foco em obesidade e glicemia. Médico considera manipulação estéril de tirzepatida via farmácia regularizada. Medicações atuais: nenhum hipoglicemiante ativo. Sem história prévia de pancreatite.\n\n**Quatro alternativas de conduta:**\n\nA. Prescrever tirzepatida SC 2,5 mg/semana, subir dose a cada 4 semanas conforme tolerância até 15 mg, orientar uso apenas de farmácia com licença ANVISA para manipulação estéril, solicitar monitoramento renal trimestral, HbA1c a cada 3–6 meses, atentar para sinais GI; explicar cenário off-label e obter consentimento informado.  \nB. Prescrever tirzepatida SC 10 mg inicial, aumentar para 20 mg após 2 semanas se tolerado, comprar qualquer farmácia, SEM monitorar função renal.  \nC. Prescrever \"research peptide\" via internet, dose sugerida por site, sem registros/documentação.  \nD. Utilizar GH (hormônio do crescimento) em doses subcutâneas para emagrecimento, manipulado, com foco \"anti-aging\", sem critério de deficiência documentada.\n\n**Alternativa correta:**  \n**A**. Justificativa: conduta segue dados de segurança/eficácia em ECR fase 3 ([S2]), respeita registro, vigilância, monitoramento. B omite monitoramento, dose inicial excessiva e fora da posologia segura; C é vedado por não manipulado regularizado; D é grave infração ética/anvisa, sem registro para obesidade/anti-aging.\n\n## 8. Regulatório e Ético no Brasil\n\n### 8.1 Classificações para prescrição/manipulação\n\n| Categoria             | Exemplo                         | Situação Legal                           | Exigência de evidência/citação             |\n|-----------------------|---------------------------------|------------------------------------------|--------------------------------------------|\n| Registrado ANVISA     | Semaglutida, liraglutida        | Uso conforme bula; farmácia regular      | Bula e Diretriz, citação obrigatória       |\n| Off-label documentado | Tirzepatida manipulada          | Consentimento, farmácia GMP, anotação    | ECR fase 3 relacional e posição guideline  |\n| Manipulado autorizado | Uso conforme P&D brasileiro     | Limites CFM, farmácia licenciada         | Evidência robusta, citada na prescrição    |\n| Sem registro/vedado   | BPC-157, TB-500, GH anti-aging  | Proibido (Res. CFM 2.333/2023), risco à saúde | Não deve ser prescrito/sugerido           |\n\n### 8.2 CFM e normativos essenciais\n\n- Res. CFM 2.333/2023: veda uso estético/rejuvenescimento de hormônios sem indicação documentada.\n- Manipulações estéreis: apenas farmácias com licença ANVISA/GMP.\n- Consentimento informado é obrigatório em qualquer uso off-label.\n\n### 8.3 LGPD e LGPD clínica\n\n- Uso de IA que armazena consultas clínicas e educativas: anonimização obrigatória, logs apenas acessíveis a auditores/autorizados.\n- O usuário (médico) tem responsabilidade solidária pelo uso seguro dos outputs.\n\n## 9. O que NÃO fazer\n\n- NÃO utilizar IA que gere respostas sem fonte rastreável.\n- NÃO prescrever \"research peptides\", hormônio do crescimento ou drips intravenosos sob pretexto de “wellness” sem deficiência comprovada e indicação respaldada ([S1], [S13]).\n- NÃO omitir monitoramento de parâmetros essenciais na prescrição off-label.\n- NÃO se basear em sugestões da IA sem revisão da literatura ou consulta a bibliografia/diretriz específica.\n- NÃO ignorar o contexto regulatório e as resoluções do CFM/ANVISA.\n\n## 10. Pérolas e Checklist para o Consultório\n\n### Checklist de Consulta com Apoio de IA Doutiva\n\n| Item                                                       | Realizado? |\n|------------------------------------------------------------|:----------:|\n| Resposta traz referências explícitas e hierarquia evidencial [S#]?       | [ ]        |\n| Há bloqueio automático para drogas/procedimentos vedados?               | [ ]        |\n| O sumário de conduta lista monitoramento e limites regulatórios BR?      | [ ]        |\n| Existe trilha de logs/auditoria para a consulta?                        | [ ]        |\n| Consentimento informado abordado para off-label/manipulação?             | [ ]        |\n| Conduta orienta farmácia/manipulador regularizado?                      | [ ]        |\n| Dados sensíveis tratados conforme LGPD?                                 | [ ]        |\n| Nenhuma recomendação baseada exclusivamente em fase pré-clínica?         | [ ]        |\n\n### Key Points/Quick_ref de Bolso\n\n1. **Toda afirmação de IA Doutiva é obrigatoriamente ancorada em fonte ([S#])**.\n2. **Hierarquia de evidências: metanálise e diretriz > ECRs > observacional > casos ([S1]).**\n3. **Jamais prescrever research peptides, GH anti-aging, drips sem deficiência clínica/documentada ou uso fora do autorizado.**\n4. **Monitoramento pós-prescrição é obrigatório: glicemia, função renal, sinais de evento adverso.**\n5. **Respeitar sempre normativos ANVISA/CFM: só manipulação estéril licenciada, consentimento para off-label.**\n6. **IA nunca substitui o julgamento e a responsabilidade do médico.**\n7. **Educação médica ética inclui a rastreabilidade de decisão e a documentação da fonte.**\n\n## 11. Material de Slides: 8–12 Slides Densos\n\n**Slide 1. Title**  \nIA na educação médica: Tutores, Citação Obrigatória e Fidelidade claim↔fonte\n\n**Slide 2. Hierarquia da evidência para peptídeos terapêuticos [S1]**  \n- Metanálise > ECR fase 3 > fase 2 > observacional\n- Tirzepatida: base robusta; secretagogos e peptídeos regenerativos: sem evidência clínica\n- Checklist: mecanismo, PK humana, ECR, registro, pureza\n\n**Slide 3. Por que IA genérica é insuficiente?**  \n- 72% dos modelos não reportam fonte ([S18])\n- 95% têm risco alto de viés\n- Sem rastreabilidade: risco de erro ético e judicial\n\n**Slide 4. Fluxo comparativo IA Doutiva vs Genérica**  \n| Etapa                    | Doutiva [Biblioteca/Gates] | Genérica |\n|--------------------------|---------------------------|----------|\n| Fonte rastreável         | Sim                       | Não      |\n| Hierarquia evidencial    | Sim                       | Não      |\n| Bloqueio de conduta vedada | Sim                    | Não      |\n\n**Slide 5. Case teaching**  \nCaso Maria L.: DM2, intolerância à metformina, IMC 36, função renal limítrofe  \n- Melhores escolhas?  \n- Importância do monitoramento, farmácia regularizada, consentimento\n\n**Slide 6. Regulatório brasileiro (CFM/ANVISA/WADA)**  \n- Uso estético/anti-aging de hormônios: proibido  \n- Prescrição off-label: só com consentimento, evidência e manufatura controlada  \n- Research peptides/internet: infração ética\n\n**Slide 7. Tabela: Evidência e modelagem em IA médica ([S13], [S18])**  \n(n, validação, fidelidade claim↔fonte, principais erros)\n\n**Slide 8. PEARLS**  \n- Rastreabilidade claim↔fonte reduz risco ético-médico  \n- Só prescreva/manuseie se fonte validada e explícita  \n- Atenção a LGPD para logs/auditoria de IA clínica\n\n**Slide 9. Checklist do dia-a-dia**  \n- Fonte citada ([S#]) | Bloqueio drogas vedadas | Consentimento explícito | Farmácia ANVISA | LGPD\n\n**Slide 10. Resumo visual — Fluxo seguro Doutiva**  \n(Paciente/Aluno → Consulta IA → Biblioteca indexada → Gate compliance → Resposta rastreada → Decisão clínica)\n\n**Slide 11. O que NÃO fazer**  \n- Research peptides, GH anti-aging, drips sem critério  \n- Uso de IA sem fonte rastreável  \n- Omissão do monitoramento\n\n**Slide 12. Referências principais**  \n[S1], [S2], [S13], [S18] – Consulta da biblioteca Doutiva\n\n## 12. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010.. American Diabetes Association.. Diabetes Care 2010.\n- [S13] Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.. Vasey B, Nagendran M, et al. Nat Med 2022.\n- [S18] Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. Wynants L, Van Calster B, et al. BMJ 2020.\n\n---\n\n## Conclusão\n\nA educação médica de alto nível, sobretudo quando o desfecho é a prescrição/manipulação de fármacos de fronteira, só é possível com IA tutorada, ancorada em biblioteca robusta, com rastreabilidade claim↔fonte (modelo Doutiva). Este modelo reduz riscos éticos, aprimora o ensino e estabelece padrão de excelência compatível com exigências regulatórias nacionais e internacionais. O futuro da prática ética médico-manipuladora dependerá — cada vez mais — de trilhas de decisão auditáveis, evidência hierarquizada e integração segura de IA educacional ao fluxo clínico.",
+  "quick_ref": "1. IA Doutiva exige citação claim↔fonte obrigatória em todas as respostas ([S#]). 2. Hierarquia de evidências rigorosa: metanálises e diretrizes no topo ([S1]). 3. Evitar prescrição de peptides research, GH anti-aging e drips sem indicação legal. 4. Monitoramento clínico obrigatório: glicemia, função renal, sinais adversos ([S1], [S2]). 5. Respeitar regulatórios ANVISA/CFM com manipulação somente em farmácias licenciadas. 6. Consentimento informado é mandatário em todas prescrições off-label. 7. Logs e auditoria devem garantir rastreabilidade, respeitando LGPD. 8. IA é ferramenta de apoio; decisão médica é responsabilidade do profissional.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Diabetes Mellitus tipo 2 há 7 anos"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,7%"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "Filtração Gomerular",
+        "value": "57 mL/min"
+      },
+      {
+        "label": "Intolerância",
+        "value": "Metformina (náuseas)"
+      },
+      {
+        "label": "Medicação atual",
+        "value": "Nenhuma hipoglicemiante ativa"
+      },
+      {
+        "label": "Indicação",
+        "value": "Prescrição manipulação estéril tirzepatida"
+      }
+    ],
+    "title": "Manipulação Estéril e Prescrição de Tirzepatida em PACIENTE Brasileira com Diabetes Tipo 2",
+    "reward": 10,
+    "options": [
+      {
+        "label": "A",
+        "correct": true,
+        "rationale": "Correta: dose inicial segura, escalonamento conforme tolerância, monitoramento renal e metabólico, utilização farmácia regularizada, consentimento informado para uso off-label conforme evidência e normas brasileiras."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Inadequada: dose inicial elevada não respaldada por evidência, ausência de monitoramento, compra sem controle de qualidade e segurança."
+      },
+      {
+        "label": "C",
+        "correct": false,
+        "rationale": "Ilegal e inseguro: uso de peptide research comprado online sem controle sanitário, risco ético e clínico elevado."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Vedado pelo CFM e ANVISA: GH para emagrecimento/anti-aging sem indicação clínica e registro, exposição a risco médico-legal e toxicidade."
+      }
+    ],
+    "question": "Qual conduta mais adequada para prescrição/manipulação de tirzepatida no caso apresentado considerando evidências e regulamentação brasileira?",
+    "vignette": "Maria L., 52 anos, DM2 há 7 anos, HbA1c 8,7%, IMC 36 kg/m², limitação renal (GFR 57 mL/min), intolerante à metformina devido a náuseas severas, busca tratamento para obesidade e controle glicêmico. Sem doenças cardiovasculares. Prescrição pretendida: tirzepatida via manipulação estéril.",
+    "teaching": "Conduta responsável requer alinhamento com evidência científica robusta (ECR fase 3 conferida na bula e diretrizes [S2]) e regulatórios brasileiros (farmácia com licença ANVISA/GMP, consentimento informado para uso off-label/manipulado, monitoramento renal e metabólico periódico). Doses devem iniciar baixas (2,5 mg SC semanais, escalonando até 15 mg conforme tolerância). Utilizar farmácia regularizada evita variabilidade e riscos à pureza e estabilidade do fármaco. Consciência ética recomenda evitar doses elevadas iniciais e ausência de monitoramento, o que pode causar efeitos adversos graves. Propostas de uso de substâncias sem registro, como research peptides ou GH anti-aging, são ilegalmente promovidas e apresentam risco clínico e legal. O médico mantém responsabilidade plena pela decisão clínica, devendo respeitar normativas vigentes (CFM 2.333/2023, ANVISA) e documentar todas as etapas para auditoria e segurança clínica."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010.. American Diabetes Association.. Diabetes Care 2010."
+    },
+    {
+      "citation": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.. Vasey B, Nagendran M, et al.. Nat Med 2022."
+    },
+    {
+      "citation": "Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. Wynants L, Van Calster B, et al.. BMJ 2020."
+    }
+  ],
+  "status": "published"
+}

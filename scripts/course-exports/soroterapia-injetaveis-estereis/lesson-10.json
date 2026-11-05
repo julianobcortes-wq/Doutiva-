@@ -1,0 +1,303 @@
+{
+  "position": 10,
+  "module": "Módulo 5 · Integração",
+  "module_position": 5,
+  "title": "Casos Clínicos em Soroterapia: Deficiência Real vs Pedido de Drip 'Detox'",
+  "description": "Discussão aprofundada sobre soroterapia endovenosa no contexto clínico brasileiro, com enfoque na recusa ética e científica do pedido de drip \"detox\" em paciente sem deficiência laboratorial, orientações regulatórias e condutas alternativas embasadas em evidência robusta e normativas do CFM e ANVISA.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Sanejo da soroterapia IV é justificado somente mediante deficiência laboratorial comprovada ou indicação clínica robusta.",
+    "Drip 'detox' sem base diagnóstica ou evidência científica não é recomendado e pode configurar infração ética.",
+    "Prescrição irresponsável expõe o médico a sanções do CFM, ANVISA e riscos legais, independentemente do consentimento.",
+    "Manipulação estéril segundo RDC 67/2007 e seleção criteriosa da farmácia são mandatos para soroterapia injetável.",
+    "Registro detalhado no prontuário, consentimento esclarecido e monitoramento rigoroso pós-infusão são exigências mínimas.",
+    "Alternativas éticas incluem reforço do estilo de vida saudável e suplementação oral quando indicada.",
+    "É vedado prescrever peptides experimentais, GH anti-aging, implantes cosméticos e drips IV sem critério clínico claro."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Soroterapia IV no Consultório Brasileiro: Casos e Integridade Clínica",
+      "subtitle": "Deficiência Real, Pedido de Drip 'Detox', Reação Adversa e Escolha de Farmácia"
+    },
+    {
+      "head": [
+        "Nível",
+        "Características",
+        "Exemplo"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A",
+          "ECR fase 3, metanálise, diretriz",
+          "GLP-1 para DM2"
+        ],
+        [
+          "B",
+          "ECR fase 2, observacional robusto",
+          "Vitamina B12 IM para deficiência"
+        ],
+        [
+          "C",
+          "Farmacologia humana, séries",
+          "Magnésio IV para hipomagnesemia"
+        ],
+        [
+          "D",
+          "Pré-clínico, opinião",
+          "Drip detox em indivíduos saudáveis"
+        ]
+      ],
+      "title": "Hierarquia de Evidência Aplicada à Soroterapia",
+      "source": "S1"
+    },
+    {
+      "kind": "bullets",
+      "title": "Indicações Reais vs Demanda por Drip 'Detox'",
+      "bullets": [
+        "Deficiência documentada: indicação clara, evidência robusta (Níveis A-B) e benefício clínico evidente.",
+        "Drip detox em paciente saudável: ausência de benefício comprovado, risco potencial e prejuízo ético.",
+        "Exposição desnecessária a riscos infecciosos, metabólicos e legais na ausência de indicação.",
+        "Recomenda-se recusa fundamentada e oferta de alternativas seguras.",
+        "Prescrição empírica ou baseada em marketing fere Código de Ética Médica.",
+        "Manipulação inadequada amplia risco de eventos adversos graves.",
+        "Registro e consentimento são obrigatórios mesmo em indicações legítimas."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação clínica e laboratorial objetiva da deficiência"
+        },
+        {
+          "label": "Confirmação diagnóstica e contraindicações"
+        },
+        {
+          "label": "Discussão de opções: privilégios à via oral se viável"
+        },
+        {
+          "label": "Seleção de farmácia regularizada manipulando em ambiente estéril"
+        },
+        {
+          "label": "Consentimento informado explícito e documentado no prontuário"
+        },
+        {
+          "label": "Administração com monitoramento intensivo pós-infusão"
+        },
+        {
+          "label": "Reavaliação e ajuste de tratamento ou suspensão"
+        }
+      ],
+      "title": "Fluxo de Conduta para Soroterapia Injetável no Consultório"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Paciente sem sintomas e sem deficiência laboratorial.",
+          "Solicita infusão para “mais energia” baseada em marketing.",
+          "Riscos de infecção e reações adversas não justificam aroma placebo.",
+          "Alternativas éticas para manejo da queixa e da expectativa."
+        ],
+        "label": "Dados Clínicos"
+      },
+      "right": {
+        "items": [
+          "Respostas clínicas fundamentadas e educativas.",
+          "Negativa ética com argumentação baseada em evidência.",
+          "Oferecer reforço de hábitos saudáveis e suplementação oral se necessário.",
+          "Monitorar e acompanhar sintomas e bem-estar."
+        ],
+        "label": "Condutas Recomendada"
+      },
+      "title": "Dilema Clínico: Pedido de Myers’ Cocktail em Paciente Saudável"
+    },
+    {
+      "head": [
+        "Evento",
+        "Frequência",
+        "Gravidade",
+        "Conduta"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Dor e flebite local",
+          "Comum",
+          "Leve a moderada",
+          "Suspender infusão; cuidados locais"
+        ],
+        [
+          "Anafilaxia",
+          "Rara",
+          "Grave",
+          "Emergência médica; suporte ABC"
+        ],
+        [
+          "Insuficiência renal aguda por excesso de Vitamina C",
+          "Rara",
+          "Grave",
+          "Suspensão imediata; suporte clínico"
+        ],
+        [
+          "Infecção bacteriana/fúngica por manipulação inadequada",
+          "Rara, mas grave",
+          "Potentialmente fatal",
+          "Interromper, antibióticos; notificar"
+        ],
+        [
+          "Hipercalemia",
+          "Pouco comum",
+          "Moderada a grave",
+          "Monitorar e corrigir rapidamente"
+        ]
+      ],
+      "title": "Eventos Adversos da Soroterapia IV sem Indicação",
+      "source": "S4, S6, S7"
+    },
+    {
+      "head": [
+        "Itens",
+        "Pedido Drip 'Detox'",
+        "Deficiência Real"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Conformidade com CFM 2.333/2023",
+          "Contraindicado",
+          "Permitido com indicação clara"
+        ],
+        [
+          "Regulação ANVISA/RDC 67/2007",
+          "Fora do escopo legal",
+          "Fornecedor deve seguir manipulação estéril"
+        ],
+        [
+          "Consentimento informado",
+          "Não isenta infração ética",
+          "Obrigatório"
+        ],
+        [
+          "Risco de sanção ética",
+          "Alto",
+          "Baixo se cumpridos protocolos"
+        ],
+        [
+          "Prescrição Off-label",
+          "Frequente e não recomendada",
+          "Permitida quando com respaldo científico"
+        ],
+        [
+          "WADA - Monitoramento antidoping",
+          "Potencial preocupação",
+          "Monitorado em atletas com orientação"
+        ]
+      ],
+      "title": "Aspectos Regulatórios e Éticos no Brasil",
+      "source": "S1, RDC 67/2007, CFM 2.333/2023"
+    },
+    {
+      "kind": "bullets",
+      "title": "O que NÃO prescrever:",
+      "bullets": [
+        "Research peptides e secretagogos hormonais sem evidência clínica robusta.",
+        "GH anti-aging e implantes hormonais cosméticos sem indicação conservadora.",
+        "Drips IV sem critério diagnóstico ou deficiência laboratorial comprovada.",
+        "Manipulações estéreis em farmácias sem registro e RDC 67/2007.",
+        "Procedimentos que possam expor paciente e médico a riscos desnecessários e litigiosidade."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "\"O cuidado médico verdadeiramente eficaz começa pelo não fazer o que não agrega valor e não protege o paciente.\"",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Soroterapia e Injetáveis Estéreis com Critério  \n## Módulo 5 · Integração:  \n## Casos: Deficiência Real, Pedido de Drip ‘Detox’, Reação Adversa, Escolha de Farmácia\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nA crescente demanda por terapias parenterais – particularmente soroterapia e infusões de “cocktails” vitamínicos, como o popular “Myers’ cocktail” –, desafia o médico moderno não apenas do ponto de vista técnico, mas especialmente ético e regulatório. Pacientes engajados e expostos a marketing digital frequentemente solicitam infusões injetáveis com a promessa de “detox”, “imunidade” ou “rejuvenescimento”, pressionando prescritores a transitar em linha tênue entre autocuidado racional e a adoção de práticas sem respaldo científico.\n\nNo contexto brasileiro, endocrinologistas, nutrólogos e clínicos enfrentam uma realidade regulatória dualizada: de um lado, o avanço na manipulação estéril de ativos farmacológicos comprovados (p.ex., incretinas, imunobiológicos, implantes hormonais para indicações precisas); de outro, crescente judicialização e riscos éticos decorrentes da prescrição de IV drips sem indicação ou respaldo nas boas práticas, com destaque para a Resolução CFM 2.333/2023 e as normas da ANVISA.\n\nO desafio: como fundamentar a recusa ética e científica de solicitações de “drip detox” na ausência de deficiência laboratorial, zelar pela integridade do ato médico e oferecer alternativas que promovam saúde, mantendo uma postura empática e baseada em evidências.\n\n---\n\n## 2. Bases Científicas e Hierarquia de Evidências\n\n### 2.1 Definição dos Principais Conceitos\n\n- **Soroterapia**: Administração endovenosa de soluções eletrolíticas, vitaminas e/ou minerais para tratamento de deficiências específicas, estados hipovolêmicos ou condições clínicas precisas.\n- **Drip “Detox”**: Expressão popular para coquetéis endovenosos (com vitamina C, complexo B, magnésio, cálcio, muitas vezes glutationa e outros), comercializados para promoção da “desintoxicação”, “imunidade” e “vitalidade” sem necessariamente haver indicação clínica de deficiência [S1].\n- **Myers’ cocktail**: Mistura IV criada na década de 1960, composta de magnésio, cálcio, vitamina C e vitaminas do complexo B, difundido no meio alternativo como “energizante” e “curativo” inespecífico.\n\n### 2.2 Hierarquia de Evidência Aplicada à Soroterapia\n\n| Nível de Evidência | Características | Exemplo |\n|--------------------|----------------|---------|\n| **A** | ECR fase 3, metanálise, diretriz | Glucagon-like peptide-1 agonistas para DM2 |\n| **B** | ECR fase 2, observacional robusto | Vitamina B12 IM para deficiência provada |\n| **C** | Farmacologia humana, série de casos | Magnésio IV para hipomagnesemia sintomática |\n| **D** | Estudo pré-clínico, opinião | Drip detox em indivíduos saudáveis |\n\n**Ponto central:** Não há suporte em nível A ou B para infusões vitamínicas/micronutrientes em indivíduos sem deficiência ou patologia comprovada. Pelo contrário, há diretrizes que desaconselham a prática fora destas situações [S1].\n\n---\n\n## 3. Evidência Crítica: “Detox Drip” vs Correção de Deficiência Real\n\n### 3.1 Revisão de Ensaios e Diretrizes\n\n#### 3.1.1 Drip Myers e Equivalentes\n\n- **Estudos Controlados**: São escassos; ensaios randomizados com “Myers’ cocktail” não mostram benefícios substanciais em fadiga crônica, fibromialgia ou qualidade de vida geral quando comparados ao placebo em populações sem deficiência objetivada (n < 100 por estudo, power insuficiente; magnitude do efeito mínima e transiente; nível de evidência C-D) [consultar ensaios].\n- **Meta-análise**: Ausência de revisões sistemáticas de alto impacto sustentando as indicações populares.\n- **Riscos**: Reações adversas variam de irritação local e tromboflebite até anafilaxia, insuficiência renal aguda (excesso de vitamina C em nefropatas), hipercalemia e interação farmacodirética [S4, S7]; risco aumentado em manipulação não-estéril ou em farmácias fora da RDC 67/2007 (ANVISA).\n\n#### 3.1.2 Suplementação Endovenosa: Indicações Precisas\n\n- **Cenários validados**: Deficiências laboratoriais, síndrome de má-absorção, bypass gástrico, distúrbios críticos de eletrólitos, suporte ao paciente crítico [S2, S4].\n- **Vias**: Prioriza-se a via oral para micronutrientes sempre que há absorção adequada.\n- **Monitoramento**: Necessário em todo protocolo parenteral, incluindo dosagem sérica pré e pós-infusão, função renal/hepática, estabilidade clínica.\n\n#### 3.1.3 Tabela: Comparativo Crítico – “Detox Drip” x Correção Deficiência\n\n| Critério                | Drip “Detox” em Indivíduo Saudável | Correção Parenteral de Deficiência | Nível Evidência |\n|-------------------------|-------------------------------------|------------------------------------|-----------------|\n| Indicação laboratorial  | Ausente                             | Comprovada (deficiência real)      | A-B             |\n| Benefício comprovado    | Não demonstrado                     | Redução de morbi-mortalidade       | A               |\n| Risco relacionado       | Reações adversas, infecção, custo   | Risco controlado, benefício > risco| B-A             |\n| Regulação (ANVISA/CFM)  | Não contemplado, pode configurar infração ética | Permitido dentro das boas práticas | -               |\n| Alternativa             | Não recomendado                     | Indicação formal documentada       | -               |\n\n**Resumo:** Em indivíduos sem deficiência, o “drip” não se sustenta em evidência robusta nem em diretriz. Na deficiência comprovada, a conduta é claramente respaldada.\n\n---\n\n## 4. Seleção de Pacientes e Casos de Uso\n\n### 4.1 Quem Pode se Beneficiar de Soroterapia Parenteral?\n\n**Indicações clássicas (Evidência A-B):**\n- Enteropatia grave, doença inflamatória intestinal refratária com má-absorção.\n- Cirurgia bariátrica com má resposta à suplementação oral.\n- Pacientes oncológicos em quimioterapia aguda com náuseas/vômitos refratários.\n- Hipovitaminoses severas com repercussão clínica (ex: B12, tiamina, C) e/ou refratariedade à via oral ou contra-indicada.\n\n### 4.2 Quando Recusar: Critérios Objetivos\n\n- Exames laboratoriais em faixa de normalidade.\n- Ausência de sintomas específicos de carência.\n- Demanda baseada exclusivamente em apelo de marketing ou expectativa anticientífica (“detox”, “imunidade”, “vitalidade” em paciente hígido).\n\n---\n\n## 5. Caso Clínico de Ensino (Brasil): Pedido de Drip Myers sem Deficiência\n\n### 5.1 Contexto Clínico\n\n**Paciente:** M.R.L., 38 anos, sexo feminino, executiva, sem doenças crônicas conhecidas, práticas de vida saudável, apresenta-se ao consultório solicitando “Myers’ cocktail IV” após recomendação de influenciador digital, objetivando “mais energia” e “detoxificação”.  \n**Exames recentes:** Hemograma, eletrólitos, função renal e hepática, B12, ferritina, vitamina D – todas normalidade.  \n**Sintomas:** Nenhum, além de “leve cansaço do cotidiano”.\n\n### 5.2 Alternativas de Conduta\n\na) Prescrever Myers’ cocktail IV com advertência e termo de consentimento dedicado.\n\nb) Solicitar painel laboratorial ampliado e, na ausência de deficiência, liberar soroterapia por “autonomia do paciente”.\n\nc) Recusar a prescrição fundamentando em evidências, orientar sobre ausência de benefício, riscos e oferecer alternativas seguras.\n\nd) Prescrever a composição via oral, aceitando “placebo request”, sem registro formal no prontuário.\n\n**Escolha recomendada:**  \n**Alternativa (c)** – Recusar, fundamentar cientificamente, orientar alternativas.\n\n#### Justificativa Acadêmica\n\n- Não há respaldo em diretriz, nem evidência robusta para indicação da soroterapia.  \n- Exposição desnecessária a riscos (infecciosos, metabólicos, alérgicos) e custos.  \n- Prescrição por “solicitação do paciente” fere o princípio bioético da não maleficência e pode configurar infração ética conforme CFM 2.333/2023, art. 4º (prescrever ou indicar procedimentos/fármacos sem indicação baseada em evidências clínicas) [S1].\n- Alternativas: reforço de práticas saudáveis, revisão do estilo de vida, manejo de expectativas, suplementação oral se desejo persistir (desde que isenta de riscos relevantes).\n\n---\n\n## 6. Fluxo de Conduta: Soroterapia IV no Consultório Brasileiro\n\n### 6.1 Passo-a-passo Seguro para Prescrição de Injetáveis Estéreis\n\n| Etapa                        | Ação Recomendada                        | Justificativa |\n|------------------------------|-----------------------------------------|--------------|\n| 1. Avaliação laboratorial    | Checar deficiências específicas         | Evita overuse|\n| 2. Diagnóstico primário      | Identificar causas sistêmicas           | Etiológico   |\n| 3. Proposta terapêutica      | Indicação formal, opção oral antes da EV| Segurança    |\n| 4. Seleção de farmácia       | Exigir manipulação estéril conforme RDC 67/2007; registro farmacêutico, CNPJ autorizado, análise de lote | Reduz infecção|\n| 5. Registro em prontuário    | Detalhar indicação, composição, lote, consentimento | Legal/Ético|\n| 6. Monitoramento clínico     | Observação pós-infusão, checar reações  | Risco agudo  |\n| 7. Reavaliação               | Nova dosagem pós-ciclo terapêutico      | Controle     |\n\n---\n\n## 7. Monitoramento, Segurança e Gestão de Reações Adversas\n\n### 7.1 Eventos Adversos Associados\n\n- **Reações leves**: dor local, flebite, rubor facial.\n- **Reações graves**: Anafilaxia, insuficiência renal aguda (alta dose de vitamina C em nefropata), hipercalemia, arritmia.\n- **Infecção associada ao cateter**: Se não seguir padrão de manipulação estéril, risco significativo de bacteremia, candidemia (mortalidade associada >35% em candidemia hospitalar [S6, S7]).\n\n### 7.2 Condutas em Caso de Evento Adverso\n\n- Suspender infusão imediatamente.\n- Avaliar via ABC do suporte básico de vida.\n- Acionar equipe de emergência e notificar evento adverso em prontuário.\n- Encaminhar à instituição secundária se necessário (hospitalização para reação anafilática ou sepse confirmada).\n\n---\n\n## 8. Regulação e Aspectos Éticos no Brasil\n\n| Item                             | Situação “Drip Detox” | Situação Deficiência Real |\n|----------------------------------|----------------------|--------------------------|\n| **CFM 2.333/2023**               | Contraindicada       | Permitida com registro   |\n| **ANVISA/RDC 67/2007**           | Fora do escopo       | Parte do escopo          |\n| **WADA (antidoping)**            | Rastreamento possível (altas doses vitamina C, outros aditivos) | Monitoramento formal     |\n| **Boas Práticas Manipulação**    | Obrigatórias se manipulado | Obrigatórias          |\n| **Consentimento esclarecido**    | Não exime o erro; não mitiga infração | Recomendado              |\n\n**Destaque jurídico-ético:** A prescrição ou execução de procedimentos em desacordo com boas práticas, normativa ética ou sem respaldo de evidência pode ser considerada infração ética, passível de censura, advertência, multa e outras sanções no âmbito do CRM e ANVISA. [S1]\n\n---\n\n## 9. O Que NÃO Prescrever/NÃO Fazer\n\n- **Jamais** recomendar ou prescrever research peptides, GH “anti-aging”, drip IV cosmético ou implante hormonal sem critério diagnóstico/laboratorial.\n- Nunca ceder a solicitações baseadas em apelos de marketing sem indicação médica precisa.\n- Não prescrever soroterapia parenteral “preventiva” em pacientes eutróficos ou sem deficiência comprovada.\n- Evitar toda e qualquer manipulação parenteral fora de farmácias com manipulação estéril validada (RDC 67/2007).\n- Não omitir registro detalhado da indicação, consentimento e monitoramento no prontuário.\n\n---\n\n## 10. Pérolas & Checklist de Prática\n\n### Pérolas Clínicas\n\n- “O cuidado médico começa pelo não fazer o que não agrega ao paciente.”\n- Farmacoterapia injetável requer indicação formal, manipulação estéril rigorosa e monitoramento documental exaustivo.\n- Garantir que toda decisão terapêutica seja clara para o paciente, afastando práticas de “drip” como placebo institucionalizado.\n\n### Checklist do Consultório\n\n- [ ] Checagem laboratorial recente e completa\n- [ ] Indicação formal e compatível com protocolos/sociedades\n- [ ] Farmácia regularizada, manipulação estéril, análise de lote\n- [ ] Consentimento informado detalhado (procedimento, riscos, alternativas)\n- [ ] Registro no prontuário: indicação, dose, lote, reações\n- [ ] Monitoramento pós-infusão imediato (20 minutos)\n- [ ] Planejar reavaliação clínica e laboratorial\n\n---\n\n## 11. Slides para Discussão Clínica\n\n**Slide 1: Título**\n- Soroterapia IV no Consultório Brasileiro: Ética, Evidência, Segurança\n\n**Slide 2: Hierarquia de Evidência [Tabela comparativa]**\n- Níveis A (diretriz; ECR) a D (opinião; estudos pré-clínicos)\n\n**Slide 3: Indicações Reais vs. “Detox Drip” [Bullet]**\n- Deficiência comprovada x demanda sem respaldo\n\n**Slide 4: Mapa de Riscos [Diagrama de fluxo]**\n- Riscos infecciosos, metabólicos, jurídicos\n\n**Slide 5: Passo-a-passo Seguro [Tabela conduta]**\n- Avaliação, indicação, manipulação, monitoramento\n\n**Slide 6: Caso Clínico Resumido [Quadro de caso]**\n- Dados do paciente; 4 alternativas; resposta fundamentada\n\n**Slide 7: Bases Regulatórias [Tabela normativa]**\n- CFM/ANVISA/WADA\n\n**Slide 8: O que NÃO fazer [Bullet]**\n- “Drip” sem indicação; research peptide; implante cosmético\n\n**Slide 9: Alternativas Éticas [Bullet]**\n- Reforço do estilo de vida, suplementação oral detectável\n\n**Slide 10: Eventos Adversos [Tabela, bullets]**\n- Frequência, gravidade, condutas imediatas\n\n**Slide 11: Checklist Prático [Quadro de bolso]**\n- Itens obrigatórios do atendimento\n\n**Slide 12: Pérolas [Bullet]**\n- Cuidado é não fazer o que não agrega\n\n---\n\n## 12. Quick Reference (De Bolso)\n\n| Situação clínica         | Indicar IV? | Evidência? | Recomendável? | Monitoramento |\n|-------------------------|-------------|------------|---------------|--------------|\n| Deficiência documentada | Sim         | A-B        | Sim           | Sim          |\n| Má-absorção grave       | Sim         | B-A        | Sim           | Sim          |\n| Demanda “detox”         | Não         | D          | Não           | -            |\n| Influência digital      | Não         | D          | Não           | -            |\n\n---\n\n## 13. Key Points (5–7 Pontos-chave)\n\n1. **Soroterapia IV só se justifica com deficiência laboratorial comprovada ou indicação clínica robusta.**\n2. **“Drip detox” ou similares sem base diagnóstica não são respaldados por evidências nem diretrizes – evitar veementemente.**\n3. **Prescrições fora de critério científico ou ético expõem o médico a sanções do CFM/ANVISA, não sendo mitigadas por consentimento.**\n4. **Manipulação estéril e seleção criteriosa da farmácia de preparo são mandatórias – risco infeccioso é real.**\n5. **Registro detalhado em prontuário, consentimento esclarecido e monitoramento pós-infusão são obrigatórios.**\n6. **Alternativas éticas incluem reforço do estilo de vida e, caso desejado, suplementação oral com orientação nutricional.**\n7. **Nunca prescrever research peptides, GH anti-aging, drip ou implante cosmético sem critério, ainda que solicitação venha do próprio paciente.**\n\n---\n\n## 14. Referências Fundamentais\n\n- [S1] Posicionamento Doutiva – hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n- [S2] American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010. DOI 10.2337/dc10-s011.\n- [S4] Mermel LA, et al. Clinical practice guidelines for diagnosis and management of intravascular catheter-related infection: 2009 Update. Clin Infect Dis 2009. DOI 10.1086/599376.\n- [S6] Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis. Clin Microbiol Rev 2007. DOI 10.1128/cmr.00029-06.\n- [S7] Pappas PG, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update. Clin Infect Dis 2016. DOI 10.1093/cid/civ933.\n\n---\n\n*Este tratado visa instrumentalizar o médico brasileiro contemporâneo para uma atuação ética, crítica e segura frente às demandas crescentes por terapêuticas injetáveis com finalidade “wellness”, sem abrir espaço para práticas de baixo valor e alto risco regulatório. Mais do que negar, é necessário fundamentar e educar, convertendo consultas em decisões compartilhadas e terapeuticamente sólidas.*",
+  "quick_ref": "# Soroterapia – Guia de Bolso\n\n| Condição Clínica           | Indicação IV | Evidência   | Recomendação           | Monitoramento           |\n|----------------------------|--------------|-------------|-----------------------|------------------------|\n| Deficiência laboratorial   | Sim          | A-B         | Prescrição indicada   | Avaliação laboratorial  |\n| Má absorção grave          | Sim          | B-A         | Prescrição indicada   | Avaliação clínica       |\n| Pedido por marketing ('detox') | Não          | D (ausência) | Não prescrever        | Não aplicável           |\n| Pressão do paciente         | Não          | D (ausência) | Negar prescrição      | Não aplicável           |\n\n**Checklist para soroterapia IV:**\n- Avaliar deficiência clínica e laboratorial antes da prescrição.\n- Confirmar indicação baseada em diretrizes e evidências.\n- Exigir manipulação estéril e procedência segura da farmácia.\n- Obter consentimento informado detalhado.\n- Registrar no prontuário todos os dados clínicos, consentimentos e lote do produto.\n- Monitorar reações agudas após infusão por pelo menos 20 minutos.\n- Planejar reavaliação clínica e laboratorial periódica.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "38 anos"
+      },
+      {
+        "label": "Sexo",
+        "value": "Feminino"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Solicitação de 'Myers’ cocktail' para energia"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normais: hemograma, eletrólitos, vitaminas"
+      },
+      {
+        "label": "Doenças prévias",
+        "value": "Nenhuma"
+      },
+      {
+        "label": "Sintomas adicionais",
+        "value": "Leve cansaço não incapacitante"
+      },
+      {
+        "label": "Exposição a marketing digital",
+        "value": "Sim"
+      },
+      {
+        "label": "Estado geral",
+        "value": "Sem alterações clínicas significativas"
+      }
+    ],
+    "title": "Paciente solicita 'Myers’ Cocktail' sem deficiência laboratorial",
+    "reward": 30,
+    "options": [
+      {
+        "label": "Prescrever 'Myers’ cocktail' para atender à demanda do paciente.",
+        "correct": false,
+        "rationale": "Prescrever sem indicação clínica ou evidência configura infração ética e expõe a riscos desnecessários."
+      },
+      {
+        "label": "Negar a prescrição fundamentado na ausência de evidência e riscos potenciais, oferecendo alternativas sem uso IV.",
+        "correct": true,
+        "rationale": "Conduta alinhada com evidência e ética médica, protegendo paciente e médico."
+      },
+      {
+        "label": "Solicitar exames adicionais para justificar prescrição mesmo com exames iniciais normais.",
+        "correct": false,
+        "rationale": "Exames adicionais sem indicativo clínico são desnecessários e podem induzir a exames e procedimentos inapropriados."
+      },
+      {
+        "label": "Prescrever a composição oralmente como placebo para satisfazer o paciente, sem registro formal.",
+        "correct": false,
+        "rationale": "Exposição à prática que não documenta e manipula informação é eticamente problemático e potencialmente prejudicial."
+      }
+    ],
+    "question": "Como deve o médico proceder diante desse pedido?",
+    "vignette": "Paciente M.R.L., 38 anos, feminina, executiva, hígida, busca 'Myers' cocktail' para aumento de energia após indicação em redes sociais. Exames laboratoriais recentes revelam níveis normais de vitaminas e eletrólitos. Sem queixas clínicas relevantes além de leve sensação subjetiva de cansaço.",
+    "teaching": "O médico deve negar a prescrição fundamentado na ausência de evidência científica para benefício do 'Myers’ cocktail' em paciente sem deficiência laboratorial. Além disso, informar riscos potenciais da infusão, regulamentações da ANVISA e ética médica (CFM 2.333/2023). Deve-se oferecer orientações sobre estilo de vida saudável, avaliação nutricional e suplementação oral se clinicamente indicada. O consentimento do paciente não justifica prescrição sem indicação, e há risco legal e ético em ceder a pedidos motivados por marketing. Registro documental detalhado da decisão é mandatório para proteger médico e paciente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva – hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010. DOI 10.2337/dc10-s011."
+    },
+    {
+      "citation": "Mermel LA, et al. Clinical practice guidelines for diagnosis and management of intravascular catheter-related infection: 2009 Update. Clin Infect Dis 2009. DOI 10.1086/599376."
+    },
+    {
+      "citation": "Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis. Clin Microbiol Rev 2007. DOI 10.1128/cmr.00029-06."
+    },
+    {
+      "citation": "Pappas PG, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update. Clin Infect Dis 2016. DOI 10.1093/cid/civ933."
+    }
+  ],
+  "status": "published"
+}

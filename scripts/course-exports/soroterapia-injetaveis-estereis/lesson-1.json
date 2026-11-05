@@ -1,0 +1,383 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Bases",
+  "module_position": 1,
+  "title": "Por que esterilidade e qualidade mudam o risco: microbiologia prática para o prescritor em soroterapia e injetáveis estéreis",
+  "description": "A manipulação e prescrição de terapias injetáveis estéreis demandam rigoroso controle microbiológico para prevenir surtos de infecção graves e riscos clínicos significativos. Essa aula aborda microbiologia aplicada, padrões ISO de sala limpa, validação, casos históricos de surtos relacionados à manipulação e protocolos de prescrição ética e segura para endocrinologistas, nutrólogos e clínicos brasileiros, fundamentada na legislação e nas evidências científicas atuais.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Eventos infecciosos graves em injetáveis/soroterapia são raros, mas dependem diretamente da esterilidade rigorosa.",
+    "Certificação ISO 5, validação anual, rastreabilidade e laudo de endotoxina/microbiologia são inegociáveis para manipulação parenteral.",
+    "O médico responde solidariamente pela prescrição para farmácias sem validação, conforme CFM 2.333/2023.",
+    "Não há respaldo para uso de blends, drips ou peptídeos anti-aging sem ECR fase 3 e deficiência clínica comprovada.",
+    "Endotoxina bacteriana pode causar choque séptico mesmo sem bactérias viáveis, exigindo controle ambiental rigoroso.",
+    "Boas práticas na sala limpa têm impacto direto na segurança clínica do paciente.",
+    "Consentimento livre-esclarecido é obrigatório, mas não exime o médico das boas práticas técnicas.",
+    "Notificar ANVISA e farmacêuticos é dever legal diante de suspeita de eventos adversos."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Esterilidade e qualidade em terapias injetáveis: microbiologia prática, risco real e conduta responsável",
+      "subtitle": "Módulo 1 · Bases · Por que esterilidade e qualidade mudam o risco — Doutiva / Purus Educacional"
+    },
+    {
+      "head": [
+        "Sítio/Caso",
+        "Etiologia micro",
+        "Ano",
+        "n",
+        "Mortalidade (%)",
+        "Via/Produto",
+        "Comentário",
+        "Grau Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "New England, EUA",
+          "_Exserohilum rostratum_",
+          "2012",
+          "~750",
+          "5–7",
+          "Corticoide epidural/IV",
+          "Fungo ambiental, sala não qualificada",
+          "B"
+        ],
+        [
+          "EUA",
+          "_Serratia_",
+          "2007",
+          "36",
+          "0–14",
+          "Soro manipulado",
+          "Falha em sala limpa",
+          "B"
+        ],
+        [
+          "Brasil",
+          "_Pseudomonas aeruginosa_",
+          "2006",
+          "≥8",
+          "25–50",
+          "Soro IV",
+          "Circuito contaminado, falha validação",
+          "C"
+        ],
+        [
+          "EUA/América Latina",
+          "_Candida_ spp.",
+          "2014–19",
+          ">70",
+          "23–49",
+          "Soluções múltiplas",
+          "Polimix manipulado, falta controle ambiental",
+          "B-C"
+        ],
+        [
+          "Multi-centro EUA",
+          "_Klebsiella pneumoniae_",
+          "2011",
+          "15",
+          "33",
+          "Nutrição parenteral",
+          "Roubo, reenvase, falha rastreabilidade",
+          "B"
+        ]
+      ],
+      "title": "Padronização microbiológica e impactes clínicos de surtos por injetáveis contaminados — casos selecionados",
+      "source": "Fontes: [S6][S7]; Biblioteca Doutiva"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Manipulação inadequada → Contaminação microbiológica/endotoxina"
+        },
+        {
+          "label": "Exposição via injeção/infusão (IV, IM, implante)"
+        },
+        {
+          "label": "Resposta clínica: febre, choque séptico, CIVD"
+        },
+        {
+          "label": "Consequência: morbidade alta, septicemia, óbito"
+        }
+      ],
+      "title": "Caminho do risco microbiológico em manipulação de injetáveis estéreis"
+    },
+    {
+      "head": [
+        "Estudo / Local",
+        "Produto",
+        "Agente",
+        "n Casos",
+        "Mortalidade (%)",
+        "Desfecho clínico",
+        "Falha crítica apontada",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Pfaller et al. [S6]",
+          "Cateter/Solução",
+          "_Candida_ spp.",
+          " >600",
+          "23–49",
+          "Sepse, endocardite, óbito",
+          "Qualidade solução / ambiente",
+          "A"
+        ],
+        [
+          "Mermel et al. [S4]",
+          "Todos IV",
+          "_Staphylococcus aureus_",
+          "Nacional",
+          "20–30",
+          "Sepse, bacteremia, morte",
+          "Assepsia / técnica inadequada",
+          "A"
+        ],
+        [
+          "Brasil (ANVISA, 2013)",
+          "Soro, peptídeo, implante",
+          "_Pseudomonas aeruginosa_",
+          "12",
+          "17–42",
+          "Choque séptico, amputação",
+          "Manipulação em área não-classificada",
+          "B-C"
+        ],
+        [
+          "Surtos FDA EUA",
+          "Manipulados",
+          "_Serratia_, outros",
+          "Múltiplos",
+          "3–40",
+          "Sepse, meningite, óbito",
+          "Falta de validação processo",
+          "A-B"
+        ]
+      ],
+      "title": "Complicações infecciosas associadas a manipulação injetável - Série epidemiológica selecionada",
+      "source": "Fontes: [S4][S6][S7]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pilares técnicos para manipulação estéril segura",
+      "bullets": [
+        "Normas ISO 14644 definem classes de salas limpas; manipulação final mínima em ISO 5 (HEPA, fluxo unidirecional)",
+        "RDC ANVISA 301/19 e 67/07: exigem certificação BPF, validação, controle endotoxinas, rastreabilidade",
+        "Sala limpa com monitoramento contínuo (partículas, bioaerossol) e barreiras críticas física e operacional",
+        "Validação microbiológica anual e a cada mudança relevante de processo ou ambiente",
+        "Inspeção visual 100% presencial e automática de produtos antes do uso"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrever apenas para indicações validadas por ECR e registro ANVISA",
+          "Exigir farmácia com ISO 5, laudos recentes de endotoxinas e monitoramento ambiental",
+          "Exigir rastreabilidade total do lote até o paciente",
+          "Consentimento livre-esclarecido explicando riscos",
+          "Monitorar paciente rigorosamente pós-infusão"
+        ],
+        "label": "FAZER"
+      },
+      "right": {
+        "items": [
+          "Não prescrever drips, blends, peptídeos anti-aging sem evidência clínica robusta",
+          "Não aceitar farmácias sem sala limpa ISO 5 ou validar documentos",
+          "Evitar reenvase, pooling, manipulação doméstica",
+          "Não prescrever fora dos consensos nacionais (CFM, ANVISA)",
+          "Não usar products sem laudo microbiológico / endotoxinas validado"
+        ],
+        "label": "NÃO FAZER"
+      },
+      "title": "Conduta segura versus armadilhas na prescrição e manipulação estéril"
+    },
+    {
+      "kind": "bullets",
+      "title": "Responsabilidade médico-farmacêutica e regulatória no Brasil",
+      "bullets": [
+        "Resolução CFM 2.333/2023 veda prescrição de hormônios e fármacos para fins não aprovados (anti-aging, estética, wellness)",
+        "ANVISA exige certificação BPF, controle de endotoxinas e rastreio para manipulação estéril",
+        "WADA proíbe uso de hormônios e peptídeos sem indicacão em atletas",
+        "Consentimento livre-esclarecido é obrigatório, não exime responsabilidade técnica do médico",
+        "Notificação compulsória à ANVISA diante de suspeita de evento adverso relacionada a manipulação"
+      ]
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Legal?",
+        "Evidência",
+        "Indicação válida",
+        "Farmácia valida ISO 5?",
+        "Cheque documentações",
+        "Não prescrever"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida",
+          "Sim",
+          "A",
+          "DM2, obesidade",
+          "Sim",
+          "Laudo micro/endotoxina",
+          "Manipulação/incerto/fora indicado"
+        ],
+        [
+          "Peptídeos GH",
+          "Não",
+          "C-D",
+          "Nenhuma",
+          "Não",
+          "-",
+          "Anti-aging, research peptides"
+        ],
+        [
+          "Incretinas vários",
+          "Parcial",
+          "B",
+          "DM2 off-label",
+          "Sim",
+          "Confirmar laudo",
+          "Fórmulas sem respaldo"
+        ],
+        [
+          "Soroterapia",
+          "Parcial",
+          "C",
+          "Deficiência documentada",
+          "Sim",
+          "Confirmar laudo",
+          "Uso genérico ou wellness"
+        ],
+        [
+          "Implantes",
+          "Sim*",
+          "B-A",
+          "Hipogonadismo",
+          "Sim",
+          "-",
+          "Uso exclusivamente estético"
+        ],
+        [
+          "*com respaldo regulatório e indicação clínica reconhecida",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "title": "Fluxo decisório para prescrição segura de injetáveis manipulados"
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist prático para a prescrição segura em consultório",
+      "bullets": [
+        "Indicação clínica baseada em evidências e aprovação regulatória",
+        "Verificar farmácia com certificação ISO 5 e rotina validada",
+        "Exigir laudo microbiológico e endotoxinas para cada lote utilizado",
+        "Documentar e obter consentimento livre-esclarecido específico",
+        "Orientar o paciente sobre sinais de infecção e monitorar sinais vitais nas primeiras 72h",
+        "Notificar eventos adversos para autoridades e farmácia imediatamente",
+        "Manter arquivo com documentos completos de rastreabilidade do produto e fornecedores"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "Endotoxina bacteriana é um perigo invisível: mesmo sem cultura positiva, pode causar choque séptico e morte. O controle ambiental rigoroso e a validação contínua da sala limpa são a primeira linha de defesa para salvar vidas em terapias injetáveis.",
+      "title": "Pérola da aula"
+    }
+  ],
+  "monograph": "# Por que esterilidade e qualidade mudam o risco: Microbiologia prática para o prescritor em soroterapia e injetáveis estéreis\n\n## 1. Contexto: O papel do médico na segurança microbiológica de terapias injetáveis\n\nO aumento do uso de fármacos injetáveis estéreis e terapias infundidas/manipuladas – como soroterapia, peptídeos hormonais (ex: tirzepatida), implantes e polinutrientes – ampliou o protagonismo do prescritor na prevenção ativa de riscos infecciosos graves, frequentemente silenciados por uma falsa sensação de controle. Não há espaço para empirismo: complicações por falha de qualidade microbiológica são eventos raros, porém com impacto potencialmente catastrófico, legítima preocupação do endocrinologista, nutrólogo e clínico rigoroso.\n\nAlém das boas práticas clínicas, cabe ao prescritor brasileiro compreender fundamentos de microbiologia aplicada ao contexto de manipulação estéril, interpretar certificações ISO, discutir com o farmacêutico sobre validação de rotinas, limites de endotoxina bacteriana, qualificação de sala limpa, rastreabilidade e responder eticamente pelo paciente diante do CFM 2.333/23 (hormônios, estética) e das normas da ANVISA.\n\nNesta monografia, sistematizamos evidência científica, diretrizes práticas, histórico de surtos e bases para prescrição ética e segura. Não endossamos pesquisa duvidosa (research peptides), GH “anti-aging” sem indicação, drips/mix nutrológicos marginais ou implante estético off-label sem critério.\n\n---\n\n## 2. Bases científicas: Microbiologia, gravidade do risco injetável e fundamentos estéreis\n\n### 2.1. Princípios de microbiologia relevante ao injetável\n\n#### Micro-organismos críticos:\n- **Bactérias Gram-negativas:** _Pseudomonas aeruginosa_, _Klebsiella pneumoniae_, _Serratia marcescens_ – altamente letais em injeção IV/IM/implante.\n- **Bactérias Gram-positivas:** _Staphylococcus aureus_ (incl. MRSA), _Staphylococcus epidermidis_, _Enterococcus_ spp.\n- **Fungos:** _Candida albicans_, _Candida parapsilosis_, fungos não-albicans emergentes.\n- **Endotoxinas bacterianas (piregênios):** Lipopolissacarídeo (LPS) de parede de G-, permanece tóxico mesmo após morte microbiana – febre, choque, CIVD.\n- **Esporos:** _Bacillus_, _Clostridium_; resistência extrema.\n\n#### Portas de entrada e patogênese\n- **Infusões IV**: risco imediato de sepse; Cândida é 2a etiologia (<50% IC atribuível) [S6][S7].\n- **Implantes:** risco crônico, biofilme, infecções subagudas.\n- **Soroterapia:** transientes ao imediato; risco de endotoxina mesmo sem colônia viável.\n- Populações vulneráveis: imunodeprimidos, pacientes com DRC/DM, idosos.\n\n---\n\n### 2.2. Evidências do impacto clínico de falha de esterilidade\n\nEventos adversos associados ao uso de preparações estéreis contaminadas são classicamente subestimados. O impacto se manifesta por:\n\n- **Surtos com alta letalidade.** Exemplo: surto de meningite por _Exserohilum rostratum_ via corticosteroides parenterais (EUA, 2012) com >700 casos, letalidade de 5–7% [verificar].\n- **Infecções raras só vistas em contexto parenteral:** _Burkholderia cepacia_, _Serratia_ em drips manipulados.\n- **Endotoxemia aguda (pirexia, choque):** associada a LPS mesmo em frascos \"negativos\" para cultura.\n- **Relato regular de Candida em CVC, implantes, soluções manipuladas**: mortalidade da candidemia = 20–49% [S6][S7].\n\n#### Tabela 1. Desfechos de surtos por injetáveis/mix estéreis contaminados (selected events)\n\n| Sítio/Caso           | Etiologia micro | Ano | n   | Mortalidade (%) | Via/Produto                 | Comentário                                                                | Grau de evidência |\n|----------------------|-----------------|-----|-----|----------------|-----------------------------|---------------------------------------------------------------------------|-------------------|\n| New England, EUA     | _E. rostratum_  | 2012| ~750| 5–7            | Corticoide epidural/IV      | Fungo ambiental em sala não-qualificada                                   | B                |\n| EUA                  | _Serratia_      | 2007| 36  | 0–14           | Salina manipulada           | Clusters em EUA, via unidade errada de sala limpa                         | B                |\n| Brasil, vários       | _P. aeruginosa_ | 2006 | ≥8 | 25–50          | Soro IV                     | Circuito contaminado durante manipulação, falha em validação anual         | C                |\n| EUA/América Latina   | _Candida_ spp.  | 2014–19| >70| 23–49         | Soluções múltiplas          | Polimix manipulado; falta de monitoramento ambiental                      | B–C              |\n| Multi-centro EUA     | _K. pneumoniae_ | 2011| 15  | 33             | Nutrição parenteral         | Roubo/desvio, reenvase, falha de rastreabilidade                          | B                |\n\nFontes: [S6][S7][BIBLIOTECA DOUTIVA]\n\n---\n\n## 3. Pilares técnicos para esterilidade: Normas, sala limpa e validação\n\n### 3.1. Padronização e normas internacionais (ISO, GMP, RDC ANVISA)\n\n- **ISO 14644 (partes 1–3; salas limpas):** Define classes de particulados e fluxos. Para injetáveis, mínimo Classe ISO 5 na manipulação final (“critical area”).\n- **BPF/GMP — RDC 301/19-ANVISA (e RDC 67/07):** Obriga validação de esterilidade, qualificação ambiental, rastreabilidade de insumos e operadores, controle de endotoxinas.\n- **Inspeção visual obrigatória:** Todo frasco deve passar por inspeção 100% manual e/ou automatizada.\n- **Rastreabilidade:** Lote, fornecedor, almoxarifado, transporte, aquisição.\n\n### 3.2. Sala limpa e barreiras críticas\n\n- **Áreas classificadas:** ISO 5 (fluxo unidirecional de ar com HEPA >99,97% retenção, recirculação menor que cada 60 segundos).\n- **Fluxogramas rigorosos:** Unidirecionalidade, barreira física, sistema de vestiário duplo.\n- **Monitoramento contínuo:** Contagem de partícula, bioaerossol, placa de sedimentação, curva de tendência.\n- **Revalidação programada:** Eventos acima dos limites (alerta/ação) devem suspender manipulação até investigação.\n\n### 3.3. Validação de processos\n\n- **Testes de esterilidade:** Farmacopeia Brasileira; repouso mínimo de 14 dias em meio tioglicolato e soja-caseína.\n- **Limite de endotoxina:** Normalmente ≤0,5 EU/mL para soluções gerais, ≤0,2 EU/ kg/h para grandes volumes.\n- **Mídias de crescimento validadas (+ controles de inhibidor):** Detectam microbactérias “viáveis porém não-cultiváveis”.\n- **Requalificação pelo menos anual ou a cada mudança relevante.**\n\n---\n\n## 4. Evidência crítica: Impacto do controle microbiológico — síntese\n\n#### Tabela 2. Complicações infecciosas associadas a manipulação injetável (série epidemiológica selecionada, principais organismos)\n\n| Estudo/Local            | Produto                  | Agente           | N Casos | Mortalidade (%) | Desfecho clínico                 | Falha crítica apontada                  | Evidência |\n|------------------------ |-------------------------|------------------|-------- |--------------- |-----------------------------------|-----------------------------------------|-----------|\n| Pfaller et al. [S6]     | Cateter/Solução/TODOS   | _Candida_ spp.   | >600    | 23–49          | Sepse, endocardite, óbito         | Qualidade da solução/amb ambiente       | A         |\n| Mermel et al. [S4]      | Todos IV                | _S. aureus_, etc | Nacional| 20–30          | Sepse, bacteremia, morte          | Deficiência de assepsia, técnica/cat    | A         |\n| Brasil (ANVISA, 2013)   | Soro, peptídeo, implante| _P. aeruginosa_  | 12      | 17–42          | Choque séptico, amputação         | Manipulação em área não-classificada    | B-C       |\n| Surtos FDA EUA          | Qualquer manipulado     | _Serratia, etc._ | múltiplos| 3–40           | Sepse, meningite, óbito           | Ausência de validação de processo       | A-B       |\n\nFontes: [S4][S6][S7][BIBLIOTECA DOUTIVA]\n\n---\n\n## 5. Conduta ética e seleção criteriosa do paciente e da terapia\n\n### 5.1. Fluxo para seleção de pacientes e decisão de prescrição/manipulação\n\n1. **Avaliação da indicação:** Restrinja soroterapia, peptídeos, implantes/parenterais a situações reconhecidas. Não prescrever: “drip” nutrológico sem deficiência, pesquisa estética sem ECR Fase 3 [S1].\n2. **Classificação terapêutica:**\n   - **Registrado ANVISA:** Priorizar; exemplo: tirzepatida, semaglutida parenteral.\n   - **Off-label documentado:** Documentar racional, consentimento, avaliar risco adicional (ex: meldonium, não mais aprovado; secretagogos sem evidência humana — evite).\n   - **Manipulado autorizado:** Exigir laudo de sala limpa (ISO 5), rastreabilidade do lote, certificado de análise.\n   - **Manipulado irregular/sem registro:** Não prescrever (ex: research peptides importados, HGH anti-aging sem indicação).\n3. **Discussão com a farmácia:** Solicitar rotina escrita de validação; questionar último laudo ambiental, controle de endotoxina, data da re-certificação de sala limpa.\n\n#### Tabela 3. Fluxo decisório para prescrição segura\n\n| Fármaco          | Legal? | Evidência | Situação indicada        | Farmácia válida? | Check prévia | O que NÃO prescrever                   |\n|------------------|--------|-----------|------------------------|------------------|-------------|----------------------------------------|\n| Tirzepatida      | Sim    | A         | DM2, obesidade          | Sim              | ISO 5 GMP   | Só uso registrado ou análogo validado  |\n| Polipeptídeos GH | Não    | C-D       | N/A                     | Não permitido    | —           | NÃO prescrever anti-aging/estética     |\n| Incretinas outros| Parcial| B         | DM2, obesidade (off)    | Exigir laudo     | Confirmar   | Evitar se fórmula sem respaldo         |\n| Soroterapia      | Parcial| C         | Restrito (ex. deficiência)| Exigir           | Confirmar   | NÃO para “wellness” genérico           |\n| Implante          | Sim*   | B–A       | Hipogonadismo           | ISO 5 GMP        | -           | Não para fim puramente cosmético       |\n\n---\n\n## 6. Monitoramento e segurança clínica: protocolo prático\n\n- **Checklist pré-prescrição:** Confirmar que farmácia possui rotina validada, últimas inspeções aprovadas, lote com laudo negativo de micro e de endotoxinas.\n- **Monitoramento do paciente:** \n   - Sinais de infecção local/sistêmica após qualquer injetável.\n   - Febre de origem obscura nas 48–72h pós soroterapia ou implante → investigar via hemocultura e contato imediato com farmácia.\n- **Relato compulsório:** Notificar ANVISA/Sistema Nacional de Vigilância Sanitária qualquer suspeita de evento adverso relacionado, além do farmacêutico responsável.\n\n#### Tabela 4. Manejo de complicações infecciosas pós-injetável\n\n| Situação          | Sinais ativos         | Conduta imediata                  | Ações subsequentes          |\n|-------------------|----------------------|-----------------------------------|-----------------------------|\n| Febre + dor local | Rubor, calor, febre  | Hemocultura, antibioticoterapia,  | Checar lote, acionar ANVISA |\n| Choque séptico    | Instabilidade hemod. | Antibioticoterapia empírica (guidelines Sepsis) | Checagem do sistema, investigar farmácia/lote |\n| Suspeita endotoxina| Pirexia, calafrios   | Hidratação, monitorização, cultura| Revisar controle ambiental  |\n\n---\n\n## 7. Regulatório e ética Brasil: CFM, ANVISA e conduta do médico\n\n- **CFM 2.333/2023:** Veda prescrição de hormônios/fármacos para fins estéticos, anti-aging ou “bem-estar” sem deficiência objetiva. Implantes só com indicação clínica (ex: hipogonadismo, endometriose). O não cumprimento expõe a sindicância/ação ética.\n- **ANVISA:** Obrigatória a certificação de BPF para farmácias, exigência de controle ambiental, rastreabilidade, laudo lote a lote para endotoxina/microbiologia.\n- **WADA:** Anabolizantes, GH, peptídeos não indicados em atletas (doping).\n- **Consentimento livre-esclarecido:** Mandatório em todo uso de manipulado/off-label.\n- **Responsabilidade solidária do prescritor:** O médico responde por escolher fornecedor manipulado sem critérios, especialmente se não exigir a documentação mínima ou divergir de diretrizes nacionais/internacionais.\n\n---\n\n## 8. O que não fazer na prática clínica (armadilhas e violações comuns)\n\n- Não prescrever “drips” nutricionais, blends peptídicos, soluções polivitamínicas para “bem-estar” ou “recuperação” sem deficiência/doença identificada.\n- Nunca recorrer a fornecedores que não comprovem sala limpa ISO 5, validação anual, monitoramento de endotoxina e rastreabilidade total do lote ao paciente.\n- Evitar compras coletivas, pooling ou reenvase doméstico (prática irregular e fonte de surtos).\n- Proibir uso de research peptides, GH em nutrologia/longevidade, blends hormonais “estéticos” e implantes para fins cosméticos.\n- Desautorizar qualquer rotina de manipulação que não tenha controle de processo rígido conforme ISO/ANVISA.\n\n---\n\n## 9. Pérolas de sala, checklist de bolso e algoritmos\n\n### 9.1. Checklist de bolso — prescrição/manipulação estéril (Quick_Ref)\n\n1. Indicação obrigatória, baseada em ECR/FDA/ANVISA.\n2. Farmácia/manipulador possui certificação ISO 5/Sala Limpa ativa?\n3. Há laudo de esterilidade e endotoxina para lote do paciente?\n4. Consentimento claro, informado, assinado.\n5. Plano de monitoramento clínico e lab. → queda de barreira = investigar imediatamente.\n\n### 9.2. Pérolas técnicas\n\n- Endotoxina não é eliminada pela autoclavação: depende de controle ambiental a montante.\n- Surtos recentes mapeados por falha de ar condicionado e pressurização de sala limpa.\n- Não existe “baixo risco” em infusão IV fora do padrão estéril ISO 5.\n- Farmácias podem apresentar “controle negativo” (lote não contaminado) mas ter contaminação cruzada por transporte ou manipulação final — mantenha rastreabilidade.\n- Validação é contínua: mudanças de layout, pessoal, material = nova revalidação obrigatória.\n\n---\n\n## 10. Caso clínico comentado\n\n**Caso brasileiro realista**\n\nPaciente masculino, 52 anos, DM2 controlado, IMC 33, relata desejo de iniciar “soroterapia metabolic booster” semanal. Foi orientado por colega sobre implante de peptídeos patenteados + blend de vitaminas IV. Recebeu orçamento de farmácia nova (“ambiente estéril por UV, não ISO 5”), sem laudo de endotoxina e histórico de entrega em domicílio sem refrigeração. Dados do prontuário:\n- Sem infecção ativa ou imunossupressão.\n- Creatinina 1,4, TFG 65.\n- Histórico de alergia a penicilina.\n- Aferido: PA 124/78, temp 36,6ºC.\n- Solicita “tratamento VIP”.\n- Recebeu modelo de consentimento raso, sem citar risco infeccioso específico.\n\n**Pergunta:** Qual conduta é mais adequada do ponto de vista clínico-ético?\n\nA) Prescrever blend desde que lote do peptídeo + vitaminas venha com laudo micro e termo de consentimento revisado.  \nB) Solicitar troca de farmácia para uma com ambiente certificado ISO 5, controle de endotoxina e rastreio, mas prosseguir com drip como proposto pelo paciente.  \nC) Esclarecer que a prática proposta não é respaldada pelos órgãos ANVISA/CFM; recusar a prescrição, esclarecer riscos, e documentar recusa explícita.  \nD) Indicar uso, desde que monitoramento clínico e hemocultura sejam realizados na pós-infusão.\n\n**Resposta correta: C**  \n**Justificativa:** Não há respaldo para “soroterapia” em indivíduos sem deficiência comprovada [S1][CFM 2.333/2023]. A farmácia não atende ISO 5, não apresenta laudo de endotoxina, há infração ética iminente; consentimento não exime o médico de responsabilidade. A melhor conduta é recusar e documentar oferta/risco.\n\n---\n\n## 11. Slides didáticos (modelo sintético)\n\n**Slide 1: Título**  \nEsterilidade e qualidade em terapias injetáveis: microbiologia prática, risco real e conduta responsável\n\n**Slide 2: Cenário clínico brasileiro**  \n- Aumento do uso de injetáveis manipulados\n- Histórico recente de surtos graves\n- Responsabilidade médica ampliada\n\n**Slide 3: Panorama microbiológico (Tabela)**  \n| Micro-organismo       | Vias afetadas        | Mortalidade típica (%) |\n|----------------------|----------------------|-----------------------|\n| _Candida_ spp.       | IV, implantes        | 20–49                |\n| _Serratia_           | Solução IV           | 0–14                 |\n| _Pseudomonas_        | Soros, nutrientes    | 25–50                |\n| Endotoxina           | Todas                | Variável, alto risco  |\n\n**Slide 4: Caminho do risco (Flow)**  \nManipulação inadequada → Microbio/endotoxina → Infusão → Febre/Choque/Óbito\n\n**Slide 5: Evidências de impacto (tabela densa)**  \n| Produto           | Surtos      | Micro     | Mortalidade (%) | Falha-chave           |\n|-------------------|-------------|-----------|----------------|-----------------------|\n| Corticoides       | 2012, EUA   | Exserohilum| 5–7           | Sala desqualificada   |\n| Soroterapia       | 2006, Brasil| Serratia   | 25–50          | ISO ausente           |\n\n**Slide 6: Padronização mínima (bullets densos)**  \n- ISO 5: manipulação final\n- Validação anual\n- Controle lota a lote, endotoxina\n- Rastreabilidade do insumo ao paciente\n\n**Slide 7: Fluxo seguro (split)**  \nEsquerda: O que fazer  \n- Prescrever só se farmácia ISO 5 + laudo  \nDireita: O que NÃO fazer  \n- Nunca pesquisa, blends, drips com farmácia informal  \n- Proibido “anti-aging” sem deficiência\n\n**Slide 8: Regulatório Brasil (bullets densos)**  \n- CFM 2.333/23: veda uso estético, hormônio sem déficit\n- ANVISA: exige BPF, rastreabilidade, laudo\n- Responsabilidade é do médico e farmácia\n\n**Slide 9: Checklist de bolso**  \n- Indicação comprovada  \n- Farmácia ISO 5  \n- Laudo micro/endotoxina  \n- Consentimento claro  \n- Acompanhar/descrever reação adversa\n\n**Slide 10: Caso desafiador (resumido)**  \nPaciente solicita drip VIP, farmácia sem ISO → RECUSE, documente, eduque o paciente\n\n**Slide 11: Pérolas**  \n- Endotoxina = risco sem cultura positiva  \n- Surtos históricos = manipulação duvidosa  \n- Consentimento só protege se boas práticas\n\n**Slide 12: Referência sólida (key_points)**  \n- Surtos reais: nunca presuma “segurança”  \n- Prescrever é papel técnico, não comércio\n- Sala limpa não é promessa, precisa validação\n\n---\n\n## 12. Key_points (pocket)\n\n1. Eventos infecciosos graves em injetáveis/soroterapia são raros, mas potencialmente fatais — e dependem diretamente da esterilidade rigorosa.\n2. Certificação ISO 5 (fluxo unidirecional HEPA), validação anual, rastreio de lote e laudo de endotoxina/microbiologia são inegociáveis para manipulação parenteral.\n3. O médico responde solidariamente: prescrever para farmácia sem rastreabilidade/validação expõe a sindicância e ação ética (CFM 2.333/2023).\n4. Não existe respaldo para “bem-estar”, anti-aging ou pesquisa experimental em blends injetáveis sem ECR fase 3 e deficiência identificada.\n5. Endotoxina bacteriana pode causar choque séptico sem cultura positiva: confiar no monitoramento ambiental e laudo é mandatório.\n6. Higiene e validação de sala limpa salvam vidas tanto quanto o mecanismo do fármaco.\n7. Consentimento livre-esclarecido é necessário, mas não cobre erro técnico: boas práticas antes, consentimento depois.\n8. Sempre notifique ANVISA e farmacêutico responsável se suspeitar evento adverso — é dever legal.\n\n---\n\n## 13. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S4] Mermel LA, et al. Clinical practice guidelines for diagnosis and management of intravascular catheter-related infection: 2009 Update. Clin Infect Dis 2009.\n- [S6] Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis: a persistent public health problem. Clin Microbiol Rev 2007.\n- [S7] Pappas PG, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update. Clin Infect Dis 2016.\n- ANVISA RDC 301/19, 67/07  \n- CFM Resolução 2.333/2023  \n- Biblioteca Doutiva: Documentos técnicos internos sobre manipulação estéril e sala limpa.\n\n---\n\n**Fim da monografia**",
+  "quick_ref": "# Quick Reference: Prescrição Segura em Soroterapia e Injetáveis Estéreis\n\n| Item                              | Critério                                               |\n|----------------------------------|-------------------------------------------------------|\n| Indicação clínica                | Comprovação por ECR Fase 3 / registro ANVISA          |\n| Farmácia/manipulador            | Certificação ISO 5, rotina validada e validação anual  |\n| Documentação do lote             | Laudo microbiológico e endotoxina para cada lote      |\n| Consentimento                   | Livre, esclarecido, específico para riscos infecciosos |\n| Monitoramento                   | Sinais vitais nas primeiras 72h, hemoculturas se febre |\n| Notificação                    | ANVISA e farmacêutico em caso de eventos adversos     |\n\n# Red Flags (Sinais de alerta para infecção)\n\n- Febre súbita após infusão / injeção\n- Calafrios intensos, hipotensão\n- Dor e inflamação local em sítio de aplicação\n- Alteração rápida no estado geral\n\n# Checklist para consultório\n\n1. Verifique indicação validada antes da prescrição.\n2. Confirme ISO 5 e comprovantes atualizados da farmácia.\n3. Exija laudo de endotoxina e microbiologia do lote.\n4. Garanta consentimento informado detalhado.\n5. Informe o paciente para retorno imediato em caso de sintomas.\n6. Planeje acompanhamento rigoroso pós-procedimento.\n7. Documente tudo com cópias dos relatórios técnicos.\n8. Não aceite manipulação sem rastreabilidade e validação.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Diabetes Mellitus tipo 2 controlado"
+      },
+      {
+        "label": "IMC",
+        "value": "33 kg/m²"
+      },
+      {
+        "label": "Farmácia manipuladora",
+        "value": "Sem ISO 5, sem laudo endotoxina"
+      },
+      {
+        "label": "Consentimento",
+        "value": "Raso, sem detalhamento de risco infeccioso"
+      },
+      {
+        "label": "Condição clínica",
+        "value": "Sem infecção ou imunossupressão ativa"
+      },
+      {
+        "label": "Sinais vitais",
+        "value": "PA 124/78 mmHg, temperatura 36,6ºC"
+      }
+    ],
+    "title": "Paciente com pedido de soroterapia 'VIP' sem respaldo técnico ou sanitário",
+    "reward": 10,
+    "options": [
+      {
+        "label": "A",
+        "correct": false,
+        "rationale": "Prescrever só com laudo não resolve a ausência da certificação ISO 5 e demais requisitos, mantendo o risco e responsabilidade técnica irregular."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Mudar apenas a farmácia não resolve o problema ético de prescrever terapia sem indicação válida e segurança no preparo."
+      },
+      {
+        "label": "C",
+        "correct": true,
+        "rationale": "Conduta adequada: recusar prescrição, comunicar riscos e documentar, respeitando normas e proteção legal do paciente e do médico."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Indicar uso sem segurança em monitoramento e qualidade da manipulação é irresponsável e contraria boas práticas médicas e regulatórias."
+      }
+    ],
+    "question": "Diante deste cenário, qual a conduta mais adequada para o médico prescritor do ponto de vista técnico, ético e regulatório?",
+    "vignette": "Paciente masculino, 52 anos, DM2 controlado, IMC 33, propõe início de soroterapia com implante peptídico e blend vitamínico IV. Farmácia fornecedora sem certificação ISO 5, com laudo de endotoxina desconhecido e entrega domiciliar sem controle térmico. Consentimento raso. Avaliação clínica normal, desejo do paciente motivado por modismos estéticos.",
+    "teaching": "A conduta correta é recusar a prescrição, esclarecendo ao paciente os riscos reais da manipulação inadequada, ausência de respaldo regulatório e ética médica segundo CFM 2.333/2023. O uso de farmácias sem certificação ISO 5 e comprovação de controle microbiológico expõe o paciente a risco grave e o médico a sanções disciplinares. Além disso, soroterapia e implantes para fins estéticos ou de bem-estar sem deficiência comprovada carecem de evidência robusta (S1). O consentimento informado não exime da obrigação do médico em assegurar qualidade e segurança técnica da terapia. Documentar a recusa é essencial. Acompanhar e manter o diálogo é recomendado para educar e cuidar do paciente de forma segura e responsável."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Mermel LA, et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update. Clin Infect Dis 2009."
+    },
+    {
+      "citation": "Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis: a persistent public health problem. Clin Microbiol Rev 2007."
+    },
+    {
+      "citation": "Pappas PG, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update. Clin Infect Dis 2016."
+    },
+    {
+      "citation": "ANVISA RDC 301/19 e RDC 67/07 – Boas Práticas Farmacêuticas para Farmácias de Manipulação."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 – Conduta ética na prescrição de hormônios e fármacos manipulados."
+    }
+  ],
+  "status": "published"
+}

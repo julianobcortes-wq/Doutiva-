@@ -1,0 +1,313 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Evidência",
+  "module_position": 2,
+  "title": "Myers Cocktail, NAD+, Vitamina C em Alta Dose e Outras Modas: Leitura Crítica para Prescrição Ética e Segura",
+  "description": "Análise crítica da evidência clínica, segurança, regulação e prática ética no uso de infusões populares como Myers cocktail, NAD+, alta dose de vitamina C e outras terapias infusivas em consultório brasileiro. Inclui hierarquia da evidência, avaliação de riscos, orientações regulatórias de ANVISA e CFM, critérios para manipulação estéril, e abordagem clínica pautada em ciência para endocrinologistas, nutrólogos e clínicos.",
+  "duration_minutes": 60,
+  "evidence_level": "Variante conforme tema (dominantemente evidência nível D para MM; C para Vitamina C no escorbuto; A para orientações regulatórias)",
+  "key_points": [
+    "1. Protocolos de soroterapia populares como Myers cocktail e NAD+ IV carecem de evidência robusta em humanos (nível D); benefícios clínicos comprovados são praticamente inexistentes.",
+    "2. Vitamina C parenteral em alta dose tem evidência consolidada apenas para escorbuto; uso em oncologia e longevidade não possui comprovação eficaz (nível C a D).",
+    "3. Manipulação estéril exige cumprimento rigoroso das normas ANVISA RDC 67/2007 e RDC 471/2021, incluindo certificação de ambientes clase 100 e rastreabilidade farmacêutica.",
+    "4. Prescrição ética exige diagnóstico laboratorial comprovado, consentimento informado documentado, e avaliação crítica da indicação off-label ou experimental.",
+    "5. É vedado pelo CFM e arriscado eticamente prescrever GH, peptides experimentais, infusões sem indicação comprovada, ou uso para fins estéticos e antienvelhecimento.",
+    "6. Monitoramento clínico/laboratorial e vigilância farmacológica de eventos adversos são essenciais para qualquer terapia injetável manipulada.",
+    "7. Educação empática do paciente alinhada à ciência e registro de decisão suportam a relação terapêutica e mitigam riscos legais."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Soroterapia e Injetáveis Estéreis: Evidência e Ética no Consultório de Longevidade",
+      "subtitle": "Myers Cocktail, NAD+, Vitamina C em Alta Dose e Outras Modas: Leitura Crítica para Prescrição Ética e Segura"
+    },
+    {
+      "head": [
+        "Protocolo",
+        "Registrado ANVISA",
+        "Nível de evidência",
+        "Segurança",
+        "Risco Jurídico"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Myers Cocktail",
+          "Não",
+          "D",
+          "Variável",
+          "Alto"
+        ],
+        [
+          "NAD+ IV",
+          "Não",
+          "D",
+          "Desconhecida",
+          "Alto"
+        ],
+        [
+          "Vitamina C IV",
+          "Sim (escorbuto) / Não (alta dose)",
+          "C-D",
+          "Baixo a Alto (dose dependente)",
+          "Moderado a Alto"
+        ],
+        [
+          "Aminoácidos/Glutationa",
+          "Não",
+          "D",
+          "Desconhecida",
+          "Alto"
+        ]
+      ],
+      "title": "Evidência e Segurança dos Protocolos Populares de Infusão",
+      "source": "Fontes: Doutiva [S1], ANVISA, CFM, Revisão PubMed junho 2024"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pontos Chave da Prescrição Ética",
+      "bullets": [
+        "Marketing e modismos não substituem evidência clínica comprovada.",
+        "Prescrição deve exigir deficiência laboratorial comprovada e indicação clara.",
+        "Manipulação estéril requer rastreabilidade, boas práticas e consentimento informado.",
+        "Uso off-label só com respaldo científico sólido e ciência do paciente.",
+        "Risco de hipersensibilidade, infecção e reações mais graves existe e deve ser monitorado."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Sintomas e investigação clínica inicial"
+        },
+        {
+          "label": "2. Solicitar exames laboratorias para confirmar deficiência"
+        },
+        {
+          "label": "3. Verificar registro ANVISA e evidência científica para o composto"
+        },
+        {
+          "label": "4. Escolha de produto manipulado com validação estéril, se necessário"
+        },
+        {
+          "label": "5. Consentimento informado detalhado e registrado"
+        },
+        {
+          "label": "6. Acompanhamento rigoroso e farmacovigilância contínua"
+        }
+      ],
+      "title": "Workflow Ético para Terapia Injetável"
+    },
+    {
+      "head": [
+        "Via",
+        "Indicação padrão",
+        "Manipulação",
+        "Benefício Comprovado",
+        "Risco"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Oral",
+          "Deficiências comuns",
+          "Não",
+          "Alto (quando indicado)",
+          "Baixíssimo"
+        ],
+        [
+          "IM/IV",
+          "Deficiências graves ou mal absorção",
+          "Sim, sob rigorosa validação",
+          "Restringido a casos específicos",
+          "Médio a Alto"
+        ]
+      ],
+      "title": "Via de Administração: Indicações e Riscos"
+    },
+    {
+      "kind": "pearl",
+      "text": "\"Nem tudo que pode ser preparado deve ser infundido.\" \n\nO médico tem a responsabilidade ética de dizer \"não\" às modas, preservando a autonomia clínica e a segurança do paciente.",
+      "title": "Pérola Clínica"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Hipomagnesemia refratária comprovada laboratorialmente",
+          "Deficiência de vitamina B12 com má absorção documentada",
+          "Escorbuto confirmado (ex: alcoolismo, má nutrição)"
+        ],
+        "label": "Ética e Evidência"
+      },
+      "right": {
+        "items": [
+          "Síndrome de burnout sem deficiência comprovada",
+          "Biohacking, longevidade sem indicação clínica",
+          "Cocktails customizados para estética, emagrecimento ou marketing"
+        ],
+        "label": "Contraindicações / Não Recomendado"
+      },
+      "title": "Indicações Éticas vs. Indicações Não Recomendadas"
+    },
+    {
+      "head": [
+        "Passo",
+        "Ação Recomendada",
+        "Referência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sintomas compatíveis",
+          "Solicitar exames e investigar etiologia",
+          "[S1]"
+        ],
+        [
+          "Deficiência confirmada",
+          "Preferir reposição oral; IV se absorção inadequada",
+          "[S1], [S2]"
+        ],
+        [
+          "Seleção do produto",
+          "Priorizar fármaco registrado; manipulado só se não disponível comercialmente",
+          "RDC 67/07, 471/21"
+        ],
+        [
+          "Prescrição",
+          "Detalhar dose, via, monitoramento e indicação",
+          "[S1]"
+        ],
+        [
+          "Acompanhamento",
+          "Monitorar clínica e laboratorialmente; revisar indicação",
+          "[S4], [S7]"
+        ]
+      ],
+      "title": "Algoritmo de Conduta Ética para Terapia Injetável / Infusional"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Risco de flebite, infecção por micro-organismos ambientais",
+          "Necessidade de manipulação estéril conforme RDC 67/07 e 471/21",
+          "Reações sistêmicas como hipersensibilidade e sobrecarga volêmica",
+          "Consentimento informado e registro em prontuário"
+        ],
+        "label": "Riscos e Cuidados"
+      },
+      "right": {
+        "items": [
+          "Monitorização clínica e laboratorial contínua",
+          "Relato obrigatório de eventos adversos graves",
+          "Proteção dos dados segundo LGPD",
+          "Evitar uso para fins estéticos ou longevidade sem respaldo"
+        ],
+        "label": "Medidas de Segurança"
+      },
+      "title": "Monitoramento e Segurança na Soroterapia"
+    },
+    {
+      "kind": "bullets",
+      "title": "O Que NÃO Fazer",
+      "bullets": [
+        "Não prescrever infusões de cocktails sem deficiência comprovada.",
+        "Não utilizar NAD+ IV fora de protocolos de pesquisa clínica.",
+        "Não indicar vitamina C em alta dose para câncer, fadiga ou prevenção sem evidência robusta.",
+        "Não prescrever GH, peptides ou SARMs para estética ou antienvelhecimento.",
+        "Não omitir riscos e limitações científicas no consentimento informado.",
+        "Não ceder à pressão mercadológica ou modismos sem respaldo clínico."
+      ]
+    }
+  ],
+  "monograph": "# Soroterapia e Injetáveis Estéreis: Evidência Crítica e Aplicação Ética no Consultório Brasileiro\n\n## 1. Contexto e Relevância Clínica\n\nA crescente demanda por protocolos de \"soroterapia\", incluindo infusões como Myers’ cocktail, NAD+, vitamina C em altas doses e outros compostos micronutricionais injetáveis, representa desafio e oportunidade para o clínico. De um lado, há pressão de pacientes, do marketing e de modismos propagados em redes privadas e clínicas de bem-estar. De outro, cabe ao prescritor exercer julgamento ancorado em ciência — sobretudo em manipulação estéril, onde riscos de infecção, estabilidade e regulação são centrais.\n\nO objetivo deste tratado é equipar endocrinologistas, nutrólogos e clínicos com:\n\n- Leitura crítica dos principais protocolos populares;\n- Hierarquia de evidência e magnitude de benefício;\n- Orientação acionável para prescrição (quando aplicável);\n- Compliance estrito a ANVISA, CFM (incl. Res. 2.333/23¹ sobre hormônios/estética) e melhores práticas de manipulação estéril;\n- Defesa ética diante da pressão mercadológica sem abrir mão da relação médico-paciente.\n\n---\n\n## 2. Bases Científicas: Hierarquia da Evidência e Pragmatismo Brasileiro\n\nSegundo o Posicionamento Doutiva [S1], o racional clínico para qualquer injetável/manipulado deve seguir:\n\n1. **Metanálise de ECRs e diretrizes internacionais (nível A)**\n2. **ECR fase 3** (A)\n3. **ECR fase 2 / Observacional robusto** (B)\n4. **Série de casos, fisiologia humana** (C)\n5. **Dados pré-clínicos/opinião** (D)\n\nÉ fundamental distinguir entre promessas bioquímicas e retornos concretos em desfechos clínicos e segurança — especialmente em terapêutica injetável, onde risco infeccioso, exposição indevida e potencial judicialização aumentam.\n\n### 2.1. Categorização Regulatória\n\n- **Registrado ANVISA para indicação específica**: uso protocolar; proteção jurídica.\n- **Uso off-label documentado**: possível com justificativa e ciência do paciente.\n- **Manipulado com evidência científica e boas práticas**: requer vigilância rigorosa; segue RDC 67/2007 e 471/2021.\n- **Sem registro/“Research peptide”/GH antienvelhecimento**: expressamente não recomendado (CFM, WADA, ANVISA).\n\n---\n\n## 3. Principais Protocolos: Composição, Evidência e Risco\n\n### 3.1. Myers’ Cocktail\n\n**Composição típica**: Magnésio, cálcio, vitaminas B, vitamina C – em proporções arbitrárias, frequentemente manipuladas.\n\n| Componente         | Dose típica (por ampola) | Indicação registrada | Classe ANVISA | Evidência |\n|--------------------|-------------------------|---------------------|---------------|-----------|\n| Vitamina C         | 1–10 g                  | Hipovitaminose, tto. adj. neoplasias | Sim (parenteral só hospitalar) | C–D |\n| Magnésio           | 1–2 g                   | Condições hipomagnesêmicas graves | Sim | C |\n| Vitaminas B        | Variável                | Profilaxia/trat. deficiência comprovada | Sim | C |\n| Cálcio             | <1 g                    | Hipocalcemia aguda | Sim | C |\n\nEvidência clínica: \n- Faltam ECRs/Metanálises de boa qualidade para síndrome de fadiga, dor crônica, asma, fibromialgia e outros alvos típicos do marketing [S1]. Estudo crossover isolado relatou benefício subjetivo em fadiga (n<50) mas não replicado.\n  - **Nível da evidência: D.**\n\nSegurança:\n- Risco individual de hipersensibilidade, flebite, infecção relacionada ao acesso venoso (especialmente em preparações manipuladas) [S4, S7].\n- Risco de hipermagnesemia, distúrbios hidroeletrolíticos e síndromes de hipervitaminose em regime repetido.\n\n### 3.2. NAD+ (Nicotinamida Adenina Dinucleotídeo)\n\nComercializado para “energia”, longevidade, “brain fog” e síndromes não padrão.\n\n| Parâmetro    | Situação | Registro ANVISA | Evidência |\n|--------------|----------|------------------|-----------|\n| NAD+ IV      | Uso wellness, off-label | Não | D |\n| NADH oral    | Suplemento | Sim (restrito) | D |\n\nEvidência: \n- Não existem ECRs de fase 3 para qualquer indicação clínica (nem depressão, nem fadiga, nem declínio cognitivo). Pequenos estudos sugerem melhora transitória (questionável), sem replicação [S1].\n\nSegurança:\n- Desconhecida em infusões prolongadas ou regimes “drip”; relatos de náusea, rubor, crise hipertensiva ocasional.\n\nRegulatório:\n- NAD+ não possui registro para uso IV no Brasil. Só é permitido via manipulação estéril sob demanda profissional, com justificativa detalhada — e ciente de exponencial judicialização frente a eventos adversos.\n\n### 3.3. Vitamina C em Alta Dose IV\n\nPrincipalmente veiculado para oncologia integrativa e imunoestimulação.\n\n| Indicação             | Dose típica         | Registro ANVISA | Nível de evidência | Comentário |\n|-----------------------|--------------------|-----------------|-------------------|------------|\n| Escorbuto/reposição   | 1–2 g/dia          | Sim             | A                 | Reposição protocolar |\n| Coadjuvante oncológico| 10–100 g/sessão    | Não             | C–D               | Restrito a pesquisa ou compaixão |\n\nEvidência clínica:\n- Não há demonstração robusta de benefício em sobrevida ou qualidade de vida para câncer, sepsis ou covid-19 [S8, S17].\n- Utilização em infectologia crítica (sepsis) foi testada: nenhum ganho significativo em mortalidade, possíveis eventos adversos (falência renal, hemólise em G6PD) [S8]. \n\nSegurança:\n- Risco elevado de flebite, precipitação, nefropatia por oxalato (doses >50g), hemólise em G6PD [S4,S8].\n- Farmacopeia: ascorbato só deve ser manipulado em fluxo estéril validado, protegido da luz e descartado em 24h após preparo.\n\n### 3.4. Outras Modas (“Cocktails”/Mixes Customizados)\n\nInfusões ad-hoc com aminoácidos, glutathione, oligoelementos, antioxidantes não incluem, via de regra, ECRs robustos; baseiam-se em racional farmacológico especulativo e extrapolação de dados orais.\n\n**Risco comum**: contaminação, imprevisibilidade de excipientes, incompatibilidade de mistura, ausência de padronização de dose e indicação, risco jurídico alto.\n\n---\n\n#### **Tabela 1. Evidência de Protocolos Populares de Infusão: Classificação, Benefício e Segurança**\n\n| Protocolo       | n total (maior ECR) | Desfecho Primário | Magnitude (vs. placebo) | Nível evidência | Eventos adversos relevantes |\n|-----------------|---------------------|-------------------|-------------------------|-----------------|----------------------------|\n| Myers’ cocktail | n<50, observacional | Fadiga subjetiva  | Pouco claro (suscetível a viés)    | D |  Náusea, dor local, hipervolemia |\n| NAD+ IV         | n<40, não ECR       | “Cansaço”, cognição | Nenhum significativo   | D |  Rubor, PA, reações sistêmicas    |\n| Vitamina C IV   | n=167 (onco), n=800 (sepsis, ECRs)   | Sobrevida, qualidade de vida | NS para sobrevida; efeito mínimo em fadiga | C | Hemólise, injúria renal, flebite |\n| Aminoácidos/Glutationa | <n=30, série de casos | Sinais e sintomas diversos | Nenhum relevante | D |  Sem padrão, reação individual    |\n\nReferências: [S1, S8, S17] e busca PubMed (acesso junho 2024; verificar DOI quando houver).\n\n---\n\n## 4. Seleção de Pacientes e Indicações Éticas\n\n**Indicação ética**: apenas para deficiência laboratorial comprovada ou doença com desfecho modificado por reposição venosa, respaldado por diretriz nacional/internacional (ex: sede refratária de magnésio, escorbuto, B12 em deficiência com má absorção documentada).\n\n**Casos NÃO indicados para soroterapia aditiva**:\n- \"Burnout\" sem deficiência comprovada;\n- “Biohacking”, reforço atlético, “longevidade inespecífica” (sujeito a sanção ética/CFM e, potencialmente, judicialização por charlatanismo);\n- Combinações customizadas para estética, emagrecimento ou marketing.\n\n**Checklist de decisão clínica (adaptado de [S1]):**\n1. Há deficiência comprovada justificada por quadro clínico/laboratorial?\n2. O composto possui registro ANVISA para a via/indicação?\n3. Há racional farmacológico e evidência clínica em humanos?\n4. A manipulação segue RDC 67/07 e 471/21 (fluxo estéril, pharmacy class 100)?\n5. Consentimento informado, firmado e registro em prontuário, com riscos explicitados?\n\n---\n\n### **Tabela 2. Algoritmo de Conduta Ética para Terapia Injetável/Infusional**\n\n| Passo                                | Conduta                                               | Referência |\n|--------------------------------------|-------------------------------------------------------|------------|\n| Sintomas compatíveis/risco clínico   | Solicitar exames, investigação etiológica             | [S1]       |\n| Deficiência documentada              | Indicar reposição preferencialmente VO; IV só se não-VO | [S1], [S2] |\n| Seleção do produto                   | Preferir fármaco registrado; manipulado só se ausência comercial, sempre farmácia com validação estéril | RDC 67/07, 471/21 |\n| Prescrição detalhada                 | Dosa, diluição, tempo, via, monitoramento, indicação no receituário | [S1]       |\n| Acompanhamento                       | Monitorização clínica/laboratorial, rastreamento ADR, revisão de indicação contínua | [S4], [S7] |\n\n---\n\n## 5. Monitoramento, Segurança e Duração\n\n### 5.1. Farmacovigilância e Complicações\n\n- **Cateterismo periférico**: risco de flebite, infecção por micro-organismos ambientais/cutâneos (Staph/Enterobacteriaceae), abscesso, bacteremia; obrigatória técnica asséptica supervisionada [S4].\n- **Manipulação estéril (PBO/compounding)**: documentar procedência, exigir certificado de qualidade, rastreabilidade, uso de água PPI, diluição, proteção de luz, ácido ascórbico só em vidro âmbar. Descartar se turvo ou com precipitados [RDC 67/07, 471/21].\n- **Reações sistêmicas**: hipersensibilidade, sobrecarga volêmica, crise hipertensiva (NAD+), hipocalcemia/fosfatemia com sais de magnésio/cálcio.\n- **Risco criminal ou cível**: eventos adversos graves por produto manipulado sem registro, indicação não respaldada ou consentimento inadequado (estética/longevidade).\n\n### 5.2. Registros, Consentimento e LGPD\n\n- **Consentimento informado obrigatório**: detalhar ausência de evidência para melhora de performance, risco infeccioso/manipulação;\n- **Prontuário detalhado**: indicação, doses, composição exata, lote, rastreabilidade de farmácia;\n- **LGPD**: proteção de dados de formulações manipuladas e resultados laboratoriais.\n\n---\n\n## 6. Regulação no Brasil: ANVISA, CFM e WADA\n\n- **ANVISA**: apenas fármacos registrados podem ser comercializados para uso parenteral; manipulação deve observar RDC 67/07, 471/21. Farmácia deve seguir normas de controle ambiental, traçabilidade e farmacovigilância obrigatória.\n- **CFM Res. 2.333/23**: proíbe uso de hormônios para fins estéticos/antienvelhecimento; uso off-label só com sólido respaldo científico (metanálise/ECR), nunca apenas marketing ou \"moda\".\n- **WADA**: substâncias com ação ergogênica/”doping” são terminantemente proibidas para atletas; médicos são corresponsáveis.\n\n---\n\n## 7. O Que NÃO Fazer\n\n- NÃO prescrever infusão de associações (“cocktails”, “drips”) sem deficiência documentada.\n- NÃO utilizar NAD+ IV fora de estudo clínico aprovado.\n- NÃO recomendar vitamina C IV em altas doses para câncer, fadiga ou prevenção de doença sem respaldo formal.\n- NÃO prescrever “research peptides”, GH antienvelhecimento, SARMs ou esteroides com finalidade cosmética/longevidade.\n- NÃO omitir potenciais riscos, custos e limitações científicas no consentimento.\n\n---\n\n## 8. Pérolas Práticas e Checklist de Bolso\n\n### **Checklist Rápido para Soroterapia Ética**\n\n1. __Deficiência laboratorial?__  \n   [  ] Sim  [  ] Não\n2. __Medicamento registrado para via/indicação?__  \n   [  ] Sim  [  ] Não\n3. __Evidência clínica sólida?__  \n   [  ] Sim  [  ] Não (não prescrever)\n4. __Farmácia com PBO validado, laudo, lote, rastreio?__  \n   [  ] Sim  [  ] Não (não utilizar)\n5. __Consentimento específico, riscos registrados?__  \n   [  ] Sim  [  ] Não\n6. __Monitorização clínica e laboratorial planejada?__  \n   [  ] Sim  [  ] Não\n\n---\n\n## 9. Caso Clínico\n\n**Homem, 42 anos, executivo; histórico de cansaço persistente há 8 meses. Exames: Hb 14,2; VCM/VCM normais; ferritina 50; TSH 2,1; PCR, CK e eletrólitos normais. Sem perda ponderal, sem sinais de doença sistêmica. Solicitou “vitamin drip” (Myers/NAD+/C IV alta dose) referindo ter “visto em rede famosa” seus benefícios.**\n\nQual a conduta mais ética, considerando ciência, segurança e regulação brasileira?\n\n**a) Concordar com o drip sugerido, já que é seguro e atende demanda do paciente.**  \n**b) Explicar limitações científicas e potenciais riscos, recusando prescrição infusional sem deficiência documentada, orientando abordagem etiológica.**  \nc) Liberar vitamina C IV, justificando “estresse oxidativo do dia a dia”, mas sem NAD+.  \nd) Encaminhar para farmácia de manipulação estéril para composição customizada, desde que forneça termo de consentimento.\n\n### **Comentário**\n\nA única resposta condizente com a prática clínica ética e baseada em evidências é **b)**: o profissional deve explicar os limites reais da ciência em relação a tais infusões, enfatizar riscos de uso inapropriado e ofertar condução etiológica, evitando exposição do paciente e do médico a riscos desnecessários e a infrações éticas. Todas as outras alternativas violam prerrogativa ética e/ou regulatória.\n\n---\n\n## 10. Slides de Ensino\n\n### Slide 1. _Title_\n**Soroterapia e Injetáveis Estéreis: Evidência e Ética no Consultório de Longevidade**\n\n---\n\n### Slide 2. _Tabela Resumida (Evidência dos Protocolos)_\n\n| Protocolo    | Registrado | Evidência   | Segurança | Risco Jurídico |\n|--------------|------------|-------------|-----------|---------------|\n| Myers        | Não        | D           | Variável  | Alto          |\n| NAD+ IV      | Não        | D           | ?         | Alto          |\n| Vit. C IV    | Sim/Não*   | C (escorbuto), D (alta dose/longevidade) | Baixa–Alta (dose) | Moderado–Alto |\n| Aminoácidos  | Não        | D           | Desconhecido | Alto        |\n\n---\n\n### Slide 3. _Bullets_\n\n- Marketing de infusões para fadiga e estética ≠ benefício clínico comprovado.\n- Prescrição ética demanda deficiência laboratorial e respaldo científico.\n- Manipulação estéril exige rastreabilidade, rigor legal e consentimento.\n\n---\n\n### Slide 4. _Workflow Conduta Ética_\n\n1. Sintomas →  \n2. Exclusão causas comuns →  \n3. Documentação deficiência →  \n4. Racional, registro e evidência →  \n5. Consentimento →  \n6. Acompanhamento e farmacovigilância.\n\n---\n\n### Slide 5. _Tabela (IM vs. IV vs. Oral)_\n\n| Via      | Indicação padrão | Manipulação | Benefício comprovado | Risco |\n|----------|------------------|-------------|----------------------|-------|\n| Oral     | Quase todas      | Não         | Alta (quando necessário) | Baixíssimo |\n| IM/IV    | Quadro grave/absorção inalcançável | Sim, estrito | Restringir a indicações pontuais | Médio–Alto |\n\n---\n\n### Slide 6. _Pearl_\n\n**“Nem tudo que pode ser preparado deve ser infundido.”**  \n_Responsabilidade médica autoriza dizer “não” ao modismo — e fortalece autonomia clínica frente ao marketing._\n\n---\n\n### Slide 7. _Indicações Válidas_\n\n- Hipomagnesemia refratária (critérios biológicos).\n- Deficiência B12 com má absorção comprovada.\n- Escorbuto (usuais em alcoolistas, má nutrição).\n- _Nunca_ “vitaminas preventivas” IV para população geral.\n\n---\n\n### Slide 8. _Monitoramento e Farmacovigilância_\n\n- Sinais precoces: flebite, rubor, queda de pressão.\n- Laboratórios de rotina (creatinina, eletrólitos conforme agente).\n- Notificação compulsória de evento adverso grave.\n\n---\n\n### Slide 9. _Fluxo de Boas Práticas em Manipulação Estéril_\n\n- Solicitar laudo de esterilidade/lote.\n- Validar ambiente classe 100.\n- Priorizar ampolas originais vs. manipulação de risco.\n\n---\n\n### Slide 10. _O que NÃO fazer_\n\n- Não ceder a pedidos por drip “nutricional” sem respaldo.\n- Não omitir risco infeccioso/manipulação.\n- Não prescrever para “moda longevidade”.\n\n---\n\n### Slide 11. _Resumo/Etiqueta Rápida_\n\n- Deficiência comprovada?  \n- Medicamento registrado?  \n- Farmácia validada?  \n- Consentimento claro?  \n- Monitoramento planejado?\n\n---\n\n### Slide 12. _Referências_\n\n- Biblioteca Doutiva: [S1], [S4], [S7], [S8], [S17]  \n- ADA, IDSA, Diretrizes Manipulação Estéril ANVISA.\n\n---\n\n## 11. Quick_ref de Bolso\n\n**Soroterapia (drips, blends)**  \n- Precisa deficiência clara, respaldo científico (ECR/diretriz), e fármaco registrado.\n- NAD+ IV, Myers, \"cocktail de aminoácidos\" são experimentais — e não têm lugar em consultório ético padrão.\n- Manipulado só em farmácia com PBO e rastreio.\n- Monitorizar eventos e notificar ADR.\n- Consentimento sempre!\n\n---\n\n## 12. Key Points  (5-7 Resumidos)\n\n1. _Evidência robusta para soroterapia é praticamente inexistente exceto para deficiência laboratorial específica._  \n2. _Protocolos populares sustentam-se em racional fisiológico, não em benefícios comprovados, e implicam risco jurídico-sanitário elevado._\n3. _Manipulação estéril exige rastreabilidade, compliance ANVISA, consentimento firmado e monitoramento formal._\n4. _Prescrição off-label exige justificativa, documentação detalhada e ciência de ausência de benefício garantido._\n5. _NUNCA prescrever GH, peptides experimentais, “drips estéticos/energéticos” — há risco ético, criminal, cível e sanitário._\n6. _Educando o paciente sem ridicularizá-lo e documentando decisão, o médico protege a relação terapêutica._\n7. _Priorize conduta baseada em diretriz, desfecho mensurável e segurança do paciente acima de moda ou pressão de mercado._\n\n---\n\n## 13. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America.\n- [S7] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America.\n- [S8] Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012.\n- [S17] Baricitinib plus Remdesivir for Hospitalized Adults with Covid-19.\n- ANVISA: RDC 67/2007, RDC 471/2021.\n- Conselho Federal de Medicina: Res. 2.333/2023.\n- ADA. Standards of Medical Care in Diabetes—2020.\n- Revisão sistemática PubMed sobre Myers’ cocktail, NAD+, vitamina C IV (acesso junho 2024).\n\n---\n\n*Este capítulo reflete a melhor prática clínica vigente segundo hierarquia de evidência e regulação brasileira, alinhada com o posicionamento editorial Doutiva/Purus. Revisão técnica: 06/2024.*",
+  "quick_ref": "Soroterapia (drips, blends):\n- Indicação baseada em deficiência laboratorial clara e respaldo robusto (ECR/diretriz).\n- Myers Cocktail, NAD+ IV, e cocktails customizados são experimentais, sem comprovação e com risco jurídico elevado.\n- Manipulação deve ocorrer em farmácia com boas práticas de manipulação estéril (PBO) e rastreabilidade completa.\n- Monitorar eventos adversos rigorosamente; comunicar e documentar.\n- Consentimento informado é obrigatório, explicando limitações, riscos e ausência de benefício garantido para usos não indicados.\n- Priorize sempre a ciência, segurança e ética profissional na decisão clínica.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "42 anos"
+      },
+      {
+        "label": "Sexo",
+        "value": "Masculino"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Fadiga crônica 8 meses"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Hb 14,2; ferritina 50; TSH 2,1; PCR normal"
+      },
+      {
+        "label": "História relevante",
+        "value": "Sedentário, sem comorbidades"
+      },
+      {
+        "label": "Solicitação",
+        "value": "Vitamin drip (Myers, NAD+, Vit.C IV)"
+      },
+      {
+        "label": "Exposição prévia",
+        "value": "Redes sociais e marketing"
+      },
+      {
+        "label": "Status clínico geral",
+        "value": "Sem perda ponderal, sem sinais sistêmicos"
+      }
+    ],
+    "title": "Paciente com fadiga persistente solicitando soroterapia (Myers/NAD+/Vitamina C IV) sem deficiência documentada",
+    "reward": 10,
+    "options": [
+      {
+        "label": "Concordar com o drip sugerido, pois é seguro e popular",
+        "correct": false,
+        "rationale": "Atende à demanda do paciente, mas não respeita evidência nem regulação; risco ético e legal."
+      },
+      {
+        "label": "Explicar limitações científicas e recusar prescrição IV sem deficiência documentada",
+        "correct": true,
+        "rationale": "Mais adequada, respeita evidência, regulação e ética, protege paciente e médico."
+      },
+      {
+        "label": "Liberar vitamina C IV por “estresse oxidativo”, mas não NAD+",
+        "correct": false,
+        "rationale": "Uso não justificado pela evidência; expõe paciente a riscos e não cumpre regulação."
+      },
+      {
+        "label": "Encaminhar para farmácia de manipulação para composição customizada com termo de consentimento",
+        "correct": false,
+        "rationale": "Manipulação pode ser insegura e não endereça ausência de indicação; risco legal permanece."
+      }
+    ],
+    "question": "Qual conduta médica ética e baseada em evidência para essa solicitação?",
+    "vignette": "Homem, 42 anos, executivo sedentário, fadiga crônica há 8 meses. Sem comorbidades relevantes. Exames laboratoriais sem alterações significativas (Hb 14,2 g/dL; ferritina 50 ng/mL; TSH 2,1; PCR normal). Deseja 'vitamin drip' após indicação em rede social.",
+    "teaching": "A abordagem médica deve fundamentar-se em princípios científicos, éticos e legais. Não há evidência robusta que justifique soroterapia para fadiga sem deficiência laboratorial. Prescrever infusão popular sem respaldo configura risco clínico e legal. O profissional deve educar o paciente mostrando as limitações da terapia, oferecer investigação clínica adequada e recusar prescrição, documentando a decisão. Consentimento informado e relação médico-paciente fortalecida são essenciais para evitar práticas não indicadas e proteger o paciente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009."
+    },
+    {
+      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016."
+    },
+    {
+      "citation": "Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med 2013."
+    },
+    {
+      "citation": "Baricitinib plus Remdesivir for Hospitalized Adults with Covid-19. N Engl J Med 2021."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução 2.333/23 sobre hormônios e estética."
+    },
+    {
+      "citation": "ANVISA RDC 67/2007 e RDC 471/2021 sobre boas práticas de manipulação estéril."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,270 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Fluxos",
+  "module_position": 3,
+  "title": "IA na decisão clínica: apoio vs automação — fronteiras éticas do CFM e do bom senso",
+  "description": "Esta aula apresenta um tratado premium sobre a incorporação de inteligência artificial (IA) na decisão clínica, focando em endocrinologistas, nutrólogos e clínicos exigentes. Discute os limites éticos e regulatórios definidos pelo CFM e ANVISA, enfatizando que IA suporte, mas jamais substitua o médico na decisão. Aborda a hierarquia de evidência para adoção de tecnologias e peptídeos terapêuticos, as condições para uso responsável da IA em prescrição/manipulação estéril e fluxos seguros de decisão que respeitam legislação, LGPD e boas práticas clínicas brasileiras. Inclui estudos reais e casos clínicos para ilustrar as condutas recomendadas e práticas a evitar no contexto do consultório premium brasileiro.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A IA deve servir exclusivamente como apoio do raciocínio clínico, não automatizar ou delegar decisões ao sistema.",
+    "O médico é soberano e responsável pela decisão clínica; a influência da IA deve ser documentada claramente.",
+    "Respeitar rigorosamente registro ANVISA e evidências robustas (níveis A/B) para todas as prescrições e manipulações indicadas.",
+    "Off-label e uso manipulado exigem fundamentação, consentimento informado e monitoramento ativo, jamais automatização.",
+    "Nunca automatizar prescrição/manipulação de peptídeos, hormônios anti-aging, infusões (drip) ou implantes sem critério clínico claro e registro.",
+    "Deve haver auditoria, logs e revisão periódica dos sistemas de IA para garantir segurança e qualidade assistencial.",
+    "Na incerteza ou em decisões inovadoras, recomendam-se segunda opinião e registro documental extensivo."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "IA na decisão clínica: apoio vs automação — fronteiras éticas do CFM e do bom senso",
+      "subtitle": "Curso: IA na Prática Médica · Módulo 3 · Fluxos"
+    },
+    {
+      "head": [
+        "Nível",
+        "Exemplo clínico",
+        "Implicação para IA"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A",
+          "Tirzepatida, Semaglutida",
+          "Apoio validado para decisão clínica"
+        ],
+        [
+          "B",
+          "Doseamento adaptativo via IA",
+          "Sugestão, não automatização"
+        ],
+        [
+          "C",
+          "Novos peptídeos experimentais",
+          "Uso restrito, apoio sem decisão"
+        ],
+        [
+          "D",
+          "Research peptides, GH anti-aging",
+          "Não indicar com IA"
+        ]
+      ],
+      "title": "Hierarquia de evidência para adoção clínica e uso de IA",
+      "source": "Posicionamento Doutiva [S1], ADA [S2]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Condutas éticas e regulatórias para uso de IA na prática clínica",
+      "bullets": [
+        "CFM 2.333/2023 proíbe automação autônoma da decisão clínica — IA é apoio, não substituta.",
+        "Prescrição/manipulação só com produtos registrados ANVISA ou off-label documentado e monitorado.",
+        "Consentimento informado obrigatório para uso de IA que influencie decisões críticas.",
+        "LGPD exige proteção e consentimento no uso de dados para IA.",
+        "Segunda opinião recomendada em decisões de alto risco ou inovação terapêutica.",
+        "Rastreamento e logs de decisões são deveres para auditoria e segurança.",
+        "Evitar uso de IA para prescrição de agentes irregulares: peptides experimentais, GH anti-aging, drips sem critério."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Indicação clínica pelo médico: avaliação inicial e necessidade."
+        },
+        {
+          "label": "IA atua como sistema de apoio: sugere hipóteses ou alertas, nunca decide."
+        },
+        {
+          "label": "Médico revisa sugestões de IA criticamente e documenta concordância ou discordância."
+        },
+        {
+          "label": "Documentação obrigatória da influência da IA e do raciocínio final."
+        },
+        {
+          "label": "Em casos complexos, buscar segunda opinião formalizada."
+        },
+        {
+          "label": "Prescrição respeita registro regulatório e evidência clínica robusta."
+        },
+        {
+          "label": "Monitorar paciente e registrar feedback do uso de IA."
+        },
+        {
+          "label": "Revisão periódica dos sistemas de IA e seus impactos clínicos."
+        }
+      ],
+      "title": "Fluxo seguro para uso de IA na decisão clínica"
+    },
+    {
+      "head": [
+        "Etapa",
+        "Critério"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Indicação Médica",
+          "Contexto clínico e necessidade definidos"
+        ],
+        [
+          "Status do Produto",
+          "Registro ou justificação off-label documentada"
+        ],
+        [
+          "Uso da IA",
+          "Só apoio, sem automação decisória"
+        ],
+        [
+          "Consentimento",
+          "Formal e informado"
+        ],
+        [
+          "Documentação",
+          "Registro da influência da IA"
+        ],
+        [
+          "Segunda Opinião",
+          "Em decisões complexas"
+        ],
+        [
+          "Log",
+          "Auditoria e rastreabilidade"
+        ],
+        [
+          "Revisão",
+          "Avaliação periódica do sistema IA"
+        ]
+      ],
+      "title": "Checklist Ético para Prescrição com Apoio de IA no Consultório",
+      "source": "Resolução CFM 2.333/2023, Posicionamento Doutiva [S1]"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Usar IA para sugerir hipóteses diagnósticas suportadas por evidência robusta",
+          "Revisar criticamente toda recomendação gerada por IA antes de prescrever",
+          "Documentar detalhadamente decisão e influência da IA",
+          "Solicitar segunda opinião em casos complexos ou inovadores"
+        ],
+        "label": "Condutas Recomendadas"
+      },
+      "right": {
+        "items": [
+          "Automatizar prescrição de medicamentos sem validação clínica e legal",
+          "Prescrever peptídeos experimentais, GH anti-aging ou drips sem critério",
+          "Ignorar necessidade de consentimento ou documentação",
+          "Converter IA em decisor autônomo sem revisão humana"
+        ],
+        "label": "Condutas a Evitar"
+      },
+      "title": "Exemplos do que FAZER vs NÃO FAZER com IA na decisão clínica"
+    },
+    {
+      "kind": "bullets",
+      "title": "Caso Clínico Realista para Discussão",
+      "bullets": [
+        "Paciente João S., 57 anos, diabetes tipo 2, IMC 34, interessados em perda de peso e melhora metabólica.",
+        "Sistema IA sugere iniciar tirzepatida, trocar metformina por SGLT2 e adicionar soro detox manipulado.",
+        "Avaliar opções: aceitar toda recomendação; revisar parcialmente; selecionar terapias registradas e negar o soro; ou recusar tudo devido IA.",
+        "Réplica ideal: optar por tirar tirzepatida e SGLT2 — respaldadas pela ANVISA e evidência robusta — documentar escolha, rejeitar soro detox sem fundamento e manipulado, monitorar e registrar consentimento.",
+        "Outro ponto: discutir importância da revisão médica crítica e não delegar decisões à IA."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "A inteligência artificial é uma poderosa ferramenta para auxiliar o raciocínio clínico, mas jamais deve substituir sua autonomia, senso crítico e responsabilidade ética na decisão médica — automatizar prescrição ou manipulação sem supervisão médica clara é grave infração ética e risco à paciente.",
+      "title": "Pérola Clínica para o Médico"
+    }
+  ],
+  "monograph": "# IA na Decisão Clínica: Apoio vs Automação — Fronteiras Éticas do CFM e do Bom Senso\n\n## 1. Contexto e Relevância\n\nA crescente inserção de ferramentas baseadas em inteligência artificial (IA) na prática clínica coloca o médico — especialmente o endocrinologista, nutrólogo e clínico de alta exigência — diante de um novo paradigma: como navegar entre o uso criterioso de IA como apoio à decisão e o risco de delegar decisões críticas a sistemas automatizados não validados, mantendo sempre a ética e a responsabilidade fundamentais à prática médica. Neste tratado, abordaremos:\n- Fundamentação científica e evidências sobre IA na decisão clínica;\n- Limites regulatórios e éticos estabelecidos pelo CFM (incluindo a Resolução 2.333/2023);\n- Condutas e fluxos para incorporação segura e documentada de IA, sem perder a centralidade do médico;\n- O que evitar: automação descuidada, dependência, negligência com LGPD, uso de recursos não aprovados nem registrados;\n- Orientações para prescrição médica responsável em manipulação estéril — sem ceder a modismos sem sustentação.\n\n**Pontos-chave:**\n- A IA pode apoiar, mas não substituir ou automatizar a decisão clínica.\n- Documentação adequada é mandatória.\n- O uso de IA na prescrição/manipulação requer critérios éticos rigorosíssimos, evitando uso off-label leviano ou insumos irregulares.\n- Sempre considerar o impacto na autonomia médica, responsabilidade legal e garantia de qualidade assistencial.\n\n---\n\n## 2. Bases Científicas e Hierarquia de Evidência\n\nA literatura sobre IA em medicina está em franca expansão; porém, a robustez das evidências varia. Diretrizes internacionais e nacionais (ex. [S13]) delineiam critérios mínimos para reporte, avaliação de risco e validação (DECIDE-AI). O posicionamento editorial Doutiva tem sido taxativo quanto à hierarquia de evidência para adoção de novas tecnologias e peptídeos terapêuticos [S1]:\n\n| **Nível de evidência** | **Exemplo clínico**                               | **Implicação para adoção/IA**   |\n|------------------------|---------------------------------------------------|----------------------------------|\n| A — Metanálise/ECR/Guidelines | Tirzepatida, semaglutida, guideline ADA [S2]   | Suporte preferencial de IA em fluxos validáveis |\n| B — Fase 2/Observacional robusto | Doseamento adaptativo guiado por IA em nutrologia | IA pode sugerir, mas não automatizar conduta |\n| C — Série/Estudos farmacológicos humanos | Novos peptídeos, protocolos estéticos não aprovados | Uso de IA restrito, sem decisão automatizada |\n| D — Pré-clínico/simulação/opinião | Research peptides, GH “anti-aging” sem deficiência | Não indicar nem apoiar IA neste contexto    |\n\n**Pearl:** _A IA jamais deve sugerir, recomendar ou automatizar condutas em áreas onde faltar evidência clínica humana robusta ou registro regulatório oficial._\n\n---\n\n## 3. Panorama Crítico das Evidências sobre IA\n\n### 3.1. Desempenho Clínico Real dos Sistemas de IA\n\nA validação clínica de sistemas de IA em saúde segue gap importante entre desempenho in silico e benefício real ao paciente [S13], [S18]. O DECIDE-AI [S13] recomenda para estudos iniciais de IA:\n\n- Avaliação de impacto sobre decisão clínica real, nunca apenas métricas secundárias;\n- Relato transparente de vieses, limitações e contexto de uso;\n- “Segunda opinião” sempre estimulada em decisões com desfecho significativo.\n\n**Tabela 1 — Evidência crítica sobre IA em decisão clínica**\n\n| Referência | População (n)    | Desenho Estudo      | Desfecho Primário           | Desempenho (AUROC/Acc)    | Bias/Riscos           | Evidência |\n|------------|------------------|---------------------|-----------------------------|---------------------------|-----------------------|-----------|\n| [S18]      | 169 estudos/232 modelos | Revisão sistemática | Performance diagnóstica IA p/ COVID-19 | AUROC 0,65–0,99 (modelos), quase todos com alto viés | Falta de val. externa, selection bias, overfitting | A (crítica) |\n| [S13]      | 123 experts      | Guideline/Delphi    | Checklist reporte IA clínica | —                         | Deficiência em validação real-world | A |\n| [S1]       | —                | Editorial/síntese   | Hierarquia de evidência clínicas/peptídeos | —                         | —                     | A |\n| [S2]       | —                | Guideline           | Implementação segura de protocolos incretínicos | —                         | —                     | A |\n\n#### Sintese:\n- **Todos os modelos validados para uso clínico devem ter validação externa.**\n- **Desempenho insuficiente sob condições de viés/extensão populacional = risco de dano.**\n- Ferramentas baseadas só em dados pré-clínicos, séries ou farmacologia não devem apoiar decisão.\n\n---\n\n### 3.2. O que NÃO Prescrever ou Automatizar via IA\n\n- **Research peptides, hormônio do crescimento “anti-aging”, drip/soroterapia sem critério, implantes cosméticos indiscriminados**: proibição expressa por CFM, ANVISA e respaldada por WADA (medicina do esporte). [S1]\n- IA não pode — e não deve — oferecer suporte, sugerir, nem automatizar prescrição de insumos fora do registro regulatório nem sem documentação de pureza/origem.\n- Documentação eletrônica deve destacar uso off-label/documentado, motivação, consentimento e monitoramento.\n\n**Alert:** _Toda decisão clínica automatizada implica ônus negligente quando embasada em dado não A/B, especialmente em terapias injetáveis e manipulação estéril._\n\n---\n\n## 4. Fronteiras Éticas: CFM, ANVISA, LGPD e Boas Práticas\n\n### 4.1. CFM e ANVISA\n\n- **CFM 2.333/2023**: Proíbe uso de IA para decisões médicas autônomas (decisão final compete ao médico; IA atua, no máximo, como apoio ao raciocínio).\n- **CFM/ANVISA/Boas Práticas**: Exigem clareza documental sobre registro, composição, dosagem, via, motivo do uso off-label/manipulado. [S1]\n- **ANVISA**: Restringe registro para diversos peptídeos e hormônios, não autorizando “research peptides”, uso sem rastreabilidade, nem administração de análogos sintéticos sem justificativa clássica.\n\n### 4.2. LGPD (Lei Geral de Proteção de Dados)\n\n- Diagnóstico, predição ou sugestão de tratamentos por IA requer consentimento informado explícito, criptografia de dados sensíveis e justificativa técnica (“interesse legítimo” ou “execução de contrato assistencial”).\n- Sistemas de IA precisam garantir rastreabilidade e possibilidade de auditoria dos algoritmos em decisões críticas.\n\n### 4.3. Responsabilidade Médica\n\n- _Automação cega_ = abdicação da responsabilidade.\n- O médico deve revisar, validar e documentar toda intervenção baseada em IA (inclusive registro de segunda opinião em situações-limite).\n- _Fluxo de decisão_: IA pode sugerir análises pontuais, mas não prescrever, dosear, nem aprovar iniciação de terapias invasivas/sofisticadas.\n\n---\n\n## 5. Conduta no Consultório: Fluxo Seguro para Uso de IA\n\n### **Fluxograma de Incorporação de IA à Decisão Clínica**\n\n1. **Indicação clínica — Médico avalia e indica investigação/terapia, com ou sem IA.**\n2. **Suporte de IA — IA sugere hipóteses, diagnósticos diferenciais ou risco, SEM decidir autonomia.**\n3. **Revisão crítica — Médico analisa sugestões, revisa contexto, documenta aceitação/recusa da recomendação automatizada.**\n4. **Documentação — Registra dados, fluxo da análise, motivações, consentimento quando IA influenciou conduta.**\n5. **Segunda opinião — Em decisões de alto impacto, sugere-se incluir comentário ou parecer de colega experiente.**\n6. **Prescrição — Segue restrições regulatórias, NÃO utiliza IA para indicar/comprar insumos não registrados.**\n7. **Monitoramento/feedback — Documenta evolução e eventuais ajustes. IA pode sugerir alertas, mas médico revisa.**\n8. **Auditoria** — Mantém logs auditáveis, feedback contínuo, reavalia periodicidade de uso de IA vs decisão humana.\n\n---\n\n### Tabela 2 — Checklist para Fluxo Ético de IA na Decisão Clínica\n\n| Etapa                | Ponto-chave                                         | Ok? |\n|----------------------|-----------------------------------------------------|------|\n| Indicação médica     | Contexto clínico e motivação claros                 | [ ]  |\n| Status do insumo     | Registrado, off-label documentado ou manipulado?    | [ ]  |\n| IA só como apoio     | IA não sugeriu, nem determinou prescrição direta    | [ ]  |\n| Consentimento        | Consentimento específico quando IA interfere        | [ ]  |\n| Documentação         | Explicitação da decisão e motivadores               | [ ]  |\n| Segundo parecer      | Pedido em decisões de maior impacto/risco           | [ ]  |\n| Log de decisões      | Registro do processo (p.e., no prontuário)          | [ ]  |\n| Revisão periódica    | Avaliação regular do uso e segurança da IA          | [ ]  |\n\n---\n\n## 6. Seleção de Pacientes/Casos de Uso Típicos\n\n**Situações onde IA pode apoiar (nunca substituir):**\n\n- **Gestão de doenças crônicas complexas:** Ex. estratificação de risco metabólico em DM2; IA sugere score, mas decisão sobre intensificação/introdução de tirzepatida cabe ao médico.\n- **Análise de exames e imagens:** IA pode alertar para alterações laboratoriais/ressonância, mas não definir diagnóstico.\n- **Alerta para interações medicamentosas:** IA pode notificar interações, mas a escolha final depende do clínico.\n- **Fluxos sincrônicos:** Triagem de sintomas em telemedicina, apoio ao rastreio de sinais de alerta — porém, sem decisão autônoma.\n\n**NÃO utilizar IA para:**\n- Prescrição direta automática, sem revisão;\n- Indicação de drogas ou insumos sem registro ANVISA ou sem fundamentação evidencial A/B;\n- Implantar recursos experimentais sob influência da IA – ex. iniciar “moda” de implantes peptídicos sem robustez clínica.\n\n---\n\n## 7. Caso Clínico / Alternative Key Teaching\n\n**Cenário realista:**\n\n**Paciente**: João S., 57 anos, DM2, IMC 34, HA controlada, esteatose hepática leve, GFR 74 mL/min, consultório privado, interesse em redução ponderal/metabólica.\n\n**IA embutida no prontuário sugere**: tirzepatida, GLP1 injetável, mudança de metformina para SGLT2 e “soro detox”.\n\n**Pergunta:** Qual a conduta adequada?\n\n- **A.** Aprovar todas as sugestões da IA, inclusive “soro detox”, baseando-se na “recomendação automatizada” e prescrevendo via manipulado.\n- **B.** Revisar apenas tirzepatida e GLP1, ignorando o restante, prescrever manipulado via receita simples.\n- **C.** Reavaliar integridade das sugestões: considerar só tirzepatida e SGLT2 como opções registradas pela ANVISA, registrando escolha fundamentada, discutindo riscos, benefícios, consentimento e programando monitoramento laboratorial regular. NÃO prescrever soro detox off-label nem manipulado, orientando documentação crítica e segunda opinião se necessário.\n- **D.** Recusar tudo automaticamente por ser automatizado.\n\n**Comentário didático:**\n\n- Opção **C** é a única eticamente correta.\n  - Considera evidência robusta (tirzepatida [S1], [S2]), examina registro ANVISA;\n  - Rejeita intervenções sem embasamento (soro detox) e uso de manipulado/misturas off-label sem respaldo;\n  - Documenta o motivo da escolha (e recusa) e prepara monitoramento adequado;\n  - Respeita o fluxo de decisão clínica e não transfere responsabilidade à IA.\n\n---\n\n## 8. Monitoramento, Segurança e Documentação\n\n- IA pode auxiliar a sugerir parâmetros de monitoramento (p.e., tempo de follow-up, exames periodicos) — mas o médico valida e altera conforme caso.\n- Toda decisão influenciada por IA deve ser rastreável no prontuário: data/hora, input da IA, parecer final e motivo.\n- Para terapias injetáveis/manipuladas:\n  - Estabilidade do insumo, validade, lote, concentração;\n  - Canal específico para notificação de eventos adversos;\n  - Não abrir mão do plano de monitoramento laboratorial regular, especialmente para uso off-label.\n\n---\n\n## 9. O que NÃO Fazer\n\n- Prescrever, automatizar ou validar IA para uso de agentes sem registro ANVISA ou em manipulação de insumos não documentados.\n- Adotar “sugestão de IA” como justificativa exclusiva para conduta de alto impacto.\n- Automatizar prescrição de hormônios, implantes, peptídeos ou soroterapias “sem deficiência comprovada” (inclusive para “antiaging”).\n- Omitir registro explícito do racional clínico, achando que o output da IA basta como respaldo.\n- Ignorar as recomendações de revisão crítica por pares e segunda opinião, especialmente em decisões inovadoras.\n\n---\n\n## 10. Pérolas Práticas e Checklist Rápido\n\n### Pérolas para o consultório premium\n\n- **A IA deve ampliar seu raciocínio, nunca substituí-lo.**\n- Documente sempre que a IA influenciou a decisão — inclusive justificando deferência ou discordância.\n- A soberania do médico é inegociável; automação sem revisão é infração ética grave.\n- Revisite diretrizes, registro ANVISA e CFM antes de adotar novos protocolos assistidos por IA.\n- Em toda terapia invasiva/injetável, garanta pureza, fonte regular, motivação clínica legítima — nunca por moda, algoritmos ou pressão mercadológica.\n- Use checklist de risco-benefício e registro detalhado na prescrição/manipulação.\n\n### Checklist de Consulta Bolso\n\n- [ ] Procedimento/intervenção tem evidência clínica A/B?\n- [ ] Registro ANVISA e respaldo em bula/norma vigente?\n- [ ] IA se limitou ao apoio (não decisão)?\n- [ ] Documentação clara de uso da IA, motivos, eventuais discordâncias?\n- [ ] Consentimento formal registrado, especialmente em off-label?\n- [ ] Monitoramento programado, não delegado apenas à IA?\n- [ ] Segunda opinião avaliada nas indicações complexas/inovadoras?\n\n---\n\n## 11. Slide Deck (Modelo Synthético para Aula de Fluxo)\n\n**Slide 1 (Title)**  \nIA na decisão clínica: Fronteiras éticas — Apoio vs automação\n\n---\n\n**Slide 2 (Framing)**  \n- IA: Crescimento acelerado/risco de automatização indevida  \n- Regulatório e ética: linha tênue — apoio ≠ decisão médica\n\n---\n\n**Slide 3 (Densidade de evidência/Hierarquia)**  \nTabela: Evidência clínica x autonomia da IA x áreas permitidas/proibidas  \n(A, B, C, D – exemplos reais)\n\n---\n\n**Slide 4 (Fluxograma consultório)**  \n- Fluxo: Indicação médica → IA sugere → revisão crítica → documentação → decisão → revisão periódica\n\n---\n\n**Slide 5 (Tabela checklist sintética)**  \n- Etapas do fluxo, pontos de atenção, exemplos práticos\n\n---\n\n**Slide 6 (Estudo de caso-brasileiro realista)**  \n- Paciente DM2/IMC 34, IA sugere múltiplas opções  \n- Alternativas — resposta discutida/teaching\n\n---\n\n**Slide 7 (Riscos/Alertas de condutas a evitar)**  \n- Automatização de prescrição  \n- Uso de insumos sem respaldo  \n- Falhas de documentação\n\n---\n\n**Slide 8 (Pearls/práticas premium)**  \n- IA como extensão do raciocínio \n- Soberania inalienável do médico  \n- Documentação reificada\n\n---\n\n**Slide 9 (Quick ref bolso)**  \nChecklist em bullet points\n\n---\n\n**Slide 10 (Conduta recomendada, split)**  \n- O que fazer vs o que nunca fazer  \n- Exemplo prático — consulta/follow up\n\n---\n\n**Slide 11 (Monitoramento e segurança)**  \n- IA sugere, médico valida  \n- Documentação, logs e rastreabilidade\n\n---\n\n**Slide 12 (Referências/guia de consulta)**  \n- Bibliografia chave (S1, S2, S13, S18), CFM, ANVISA\n\n---\n\n## 12. Referências Principais\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010.\n- [S13] Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med 2022.\n- [S18] Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. BMJ 2020.\n- [S4, S7] Guidelines IDSA para infecção relacionada a cateter/intra-hospitalar — controles e monitoramento (profilaxia, documentação/inquérito de eventos adversos).\n- Resolução CFM 2.333/2023 e guias ANVISA para prescrição/manipulação estéril.\n\n---\n\n## 13. Quick_Ref de Bolso\n\n- IA só apoia; nunca decide nem prescreve.\n- Verificar evidência clínica/registro ANVISA.\n- Fluxo: IA sugere → médico revisa → documenta.\n- Consentimento formal em off-label ou manipulado.\n- NUNCA usar IA para research peptides, GH anti-aging, drips sem deficiência, implantes estéticos sem critério.\n- Log/revisão periódica do uso de IA.\n- Segunda opinião nas indicação complexas/com riscos.\n\n---\n\n## 14. Key Points (5–7):\n\n1. A IA deve servir exclusivamente como APARELHAMENTO do raciocínio clínico, não como delegação de decisão ou automação irrestrita.\n2. O médico permanece soberano, responsável por toda decisão — documentação do raciocínio, aceite ou recusa de sugestões de IA é mandatório.\n3. Respeitar estritamente limites regulatórios: uso apenas de opções clínicas com evidência robusta e registro ANVISA; manipulação estéril com pureza/segurança comprovada e rastreável.\n4. Off-label ou manipulação: requer fundamentação clínica, consentimento informado e monitoramento ativo. Jamais automatizar.\n5. Automatizar prescrição de hormônios, peptídeos, implantes ou soroterapias sem perfil definitivo ou fora da indicação = infração ética e risco ao paciente.\n6. Auditoria, logs e revisão periódica do uso de IA são deveres de qualidade assistencial, não opção.\n7. Em todo processo, IA serve ao médico — a centralidade da decisão permanece humana, crítica, ética e documentada.\n\n---\n**Esta monografia foi elaborada em consonância com a Biblioteca Doutiva [S#], sem contradizer diretrizes-chave e respaldada pelo posicionamento ético regulatório brasileiro para endocrinologistas, nutrólogos e clínicos de alta exigência.**",
+  "quick_ref": "# Quick Reference: IA na Decisão Clínica – Consultório Premium\n\n| Item                     | Checagem rápida                                         |\n|--------------------------|--------------------------------------------------------|\n| Evidência Clínica        | Produto/terapia com nível A ou B de evidência?          |\n| Registro ANVISA          | Produto regularizado ou off-label documentado?          |\n| Uso da IA                | IA só como apoio, sem automatizar decisões?             |\n| Consentimento Informado  | Registrado especialmente em off-label/manipulados?      |\n| Documentação             | Fluidez do raciocínio e influência da IA anotada?       |\n| Segunda Opinião          | Solicitada em casos complexos ou inovadores?            |\n| Monitoramento            | Plano ativo registrado e não delegado à IA exclusivamente? |\n| Auditoria                | Logs eletrônicos completos e revisão periódica do sistema? |\n\n---\n\n# Red Flags na Automação da Decisão Médica\n\n- Prescrição automática sem revisão do médico\n- Uso de insumos não registrados ou sem evidência\n- Omissão do racional clínico/documentação\n- Falta de consentimento em intervenções off-label\n- Ausência de segundo parecer em decisões arriscadas\n\n---\n\n# Checklist do Consultório com IA\n\n- [ ] Revisar rigorosamente sugestões de IA\n- [ ] Confirmar evidência com fontes atualizadas\n- [ ] Documentar toda análise e decisão\n- [ ] Garantir consentimento por escrito\n- [ ] Monitorar e ajustar conduta com base em acompanhamento\n- [ ] Reavaliar uso e impacto da IA periodicamente\n- [ ] Respeitar limites éticos e legais (CFM/ANVISA/LGPD)\n",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "57 anos"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Diabetes tipo 2 e obesidade (IMC 34)"
+      },
+      {
+        "label": "Condição renal",
+        "value": "Função renal preservada (GFR 74 ml/min)"
+      },
+      {
+        "label": "Condição hepática",
+        "value": "Esteatose hepática leve"
+      },
+      {
+        "label": "Sugestão IA",
+        "value": "Tirzepatida, trocar metformina por SGLT2, soro detox manipulado"
+      },
+      {
+        "label": "Desejo do paciente",
+        "value": "Melhora metabólica e perda ponderal"
+      },
+      {
+        "label": "Contexto",
+        "value": "Consulta privada, acesso a medicamentos regulados"
+      },
+      {
+        "label": "Risco regulatório",
+        "value": "Uso off-label e manipulado não recomendado"
+      }
+    ],
+    "title": "Decisão Clínica com IA: indicação de tirzepatida e terapias adjuntas em paciente com DM2 e obesidade",
+    "reward": 50,
+    "options": [
+      {
+        "label": "Aceitar todas as sugestões da IA, inclusive soro detox, e prescrever manipulado conforme indicação TI",
+        "correct": false,
+        "rationale": "Essa conduta não observa a ausência de evidência e registro do soro detox, contrariando normas éticas e regulatórias."
+      },
+      {
+        "label": "Aceitar parcialmente: prescrever tirzepatida e GLP1, ignorando outras sugestões da IA, com receita simples",
+        "correct": false,
+        "rationale": "Ignorar demais sugestões pode ser negligente; necessidade de análise completa e documentação rigorosa."
+      },
+      {
+        "label": "Reavaliar e prescrever só tirzepatida e SGLT2, registrados e validados, recusar soro detox, documentar decisão e consentimento",
+        "correct": true,
+        "rationale": "Conduta ética, legal e alinhada ao padrão de excelência e responsabilidade médica recomendada, respeitando a centralidade do médico e segurança do paciente."
+      },
+      {
+        "label": "Recusar toda indicação do sistema IA por ser automatizada, mantendo o plano anterior",
+        "correct": false,
+        "rationale": "Rejeitar IA indiscriminadamente não é adequado, pois pode perder ferramentas valiosas; o ideal é reavaliação crítica, com uso responsável."
+      }
+    ],
+    "question": "Qual a conduta mais ética e tecnicamente correta para o médico diante das sugestões da IA?",
+    "vignette": "João S., 57 anos, DM2, IMC 34, pressão arterial controlada, esteatose hepática leve, função renal preservada, procura consulta para otimização do controle metabólico e perda de peso. No sistema de prontuário eletrônico com IA, recebe sugestões de iniciar tirzepatida, trocar metformina por SGLT2 e adicionar soro detox manipulado.",
+    "teaching": "Conforme aprendizado das diretrizes nacionais e posicionamento Doutiva, a opção correta é revisar criticamente as sugestões: prescrever tirzepatida e SGLT2, ambos registrados e com evidência robusta para DM2 e obesidade, rejeitar o soro detox por falta de registro e evidência, documentar a decisão e obter consentimento informado adequado. A IA funciona como apoio, sendo a decisão e responsabilidade do médico, que deve garantir segurança, legalidade e ética no uso de terapias, principalmente manipulados e off-label."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "Standards of medical care in diabetes--2010.. American Diabetes Association.. Diabetes Care 2010. DOI 10.2337/dc10-s011"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41591-022-01772-9",
+      "citation": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI.. Nat Med 2022. DOI 10.1038/s41591-022-01772-9"
+    },
+    {
+      "url": "https://doi.org/10.1136/bmj.m1328",
+      "citation": "Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. BMJ 2020. DOI 10.1136/bmj.m1328"
+    },
+    {
+      "citation": "Resolução CFM nº 2.333/2023 – Uso ético de IA na medicina."
+    },
+    {
+      "citation": "Diretrizes ANVISA para registro e controle de medicamentos manipulados e peptídeos terapêuticos."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,373 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Fundamentos",
+  "module_position": 1,
+  "title": "Evidência de desempenho de IA em tarefas clínicas: o que já foi medido",
+  "description": "Esta aula aborda os fundamentos e a robustez da evidência científica disponível sobre o desempenho da inteligência artificial (IA) em tarefas clínicas relevantes para endocrinologistas, nutrólogos e clínicos brasileiros. O foco é a análise crítica de estudos com níveis de evidência robustos, destacando aplicações consolidadas, vieses metodológicos, aspectos regulatórios locais (ANVISA, CFM, LGPD) e critérios para incorporação ética e segura da IA no consultório. São apresentados dados reais de desempenho, algoritmos de decisão, e um caso clínico que enfatiza a responsabilidade médica e os limites no uso da IA para prescrição/manipulação.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Os modelos de IA com validação externa e metanálise apresentam níveis de evidência A, sendo o padrão para adoção clínica confiável.",
+    "Vieses comuns em estudos de IA incluem seleção não representativa, overfitting e data leakage, que superestimam o desempenho real clínico.",
+    "No Brasil, é mandatória a regularização dos sistemas junto à ANVISA e observância das normas CFM e LGPD para uso ético da IA.",
+    "A decisão médica permanece insubstituível, sendo proibida a prescrição automatizada de terapias manipuladas, peptídeos ou hormônios sem rigoroso critério clínico.",
+    "Ferramentas de IA devem ser integradas ao prontuário eletrônico com auditoria, rastreabilidade e consentimento informado.",
+    "Monitoramento contínuo do sistema e revisão periódica dos alertas e erros críticos são imprescindíveis para segurança do paciente.",
+    "Evitar hype tecnológico: priorizar sistemas com evidência clínica robusta, validação local e clareza regulatória."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Desempenho de IA Clínica: O que Sabemos na Prática",
+      "subtitle": "Evidência de desempenho de IA em tarefas clínicas: o que já foi medido"
+    },
+    {
+      "head": [
+        "Tarefa",
+        "n Estudo Externo",
+        "Métrica Chave",
+        "IA vs. Padrão",
+        "Grau de Evidência",
+        "Magnitude/Métrica",
+        "Fonte/Comentário"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Detecção retinopatia diabética",
+          "≥5000 (IDx-DR ECR)",
+          "Sens., Espec., AUC",
+          "IA x especialista",
+          "A (ECR, FDA)",
+          "Sens.: 87.2% / Espec.: 90.7%",
+          "Abràmoff et al, 2018"
+        ],
+        [
+          "Classificação câncer pulmão em TC",
+          "≥10.000 (NLST)",
+          "AUC",
+          "IA x radiologista",
+          "B-A (externa)",
+          "AUC 0.94 a 0.96",
+          "Ardila D et al, 2019"
+        ],
+        [
+          "Classificação lesão cutânea",
+          "9.000+ imagens",
+          "Sens./Espec./AUC",
+          "IA x dermatologista",
+          "B (validação pública)",
+          "AUC 0.86–0.95",
+          "Esteva A et al, 2017"
+        ],
+        [
+          "Estratificação risco COVID-19",
+          "≥30 coortes",
+          "AUROC, calibração",
+          "IA x tabelas",
+          "A (meta-análise)",
+          "AUROC 0.71–0.96 (viés alto)",
+          "[S18]"
+        ],
+        [
+          "Análise automatizada ECG FA",
+          ">100k registros",
+          "Sens., Espec., AUC",
+          "IA x especialista",
+          "B–A (multicêntrica)",
+          "Sens. >96%, Espec. >93%",
+          "Hannun AY et al, 2019"
+        ],
+        [
+          "Achado incidental RM cardíaca",
+          "2000+",
+          "Variáveis contínuas",
+          "IA x laudo manual",
+          "B (multi-plataforma)",
+          "ICC > 0,95",
+          "[S15]"
+        ],
+        [
+          "Geração sumário clínico",
+          "1000+",
+          "Acurácia, recall",
+          "IA x humano",
+          "C (validação local)",
+          "F1-score 0,64–0,73",
+          "Zhang Y et al"
+        ]
+      ],
+      "title": "Principais Tarefas de IA – Estudo e Performance",
+      "source": "Resumo de evidências extraídas do módulo Doutiva"
+    },
+    {
+      "kind": "bullets",
+      "note": "Reflete adaptação da medicina baseada em evidências para IA clínica.",
+      "title": "Hierarquia de Evidências em IA Clínica",
+      "bullets": [
+        "Evidência A: Metanálises de ECRs, diretrizes, estudos prospectivos com validação externa",
+        "Evidência B: Estudos observacionais robustos e validações independentes",
+        "Evidência C: Estudos retrospectivos sem validação externa",
+        "Evidência D: Estudos in silico e opinião de especialistas"
+      ]
+    },
+    {
+      "head": [
+        "Viés",
+        "Impacto clínico",
+        "Detecção",
+        "Exemplo clássico",
+        "Prevenção"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Seleção",
+          "Superestima desempenho",
+          "Não representativo",
+          "Casos graves vs controles fáceis",
+          "População consecutiva multicêntrica"
+        ],
+        [
+          "Medição",
+          "Baixa reprodutibilidade",
+          "Desbalance de preditores",
+          "Variáveis do futuro no treino",
+          "Blindagem temporal e limpeza criteriosa"
+        ],
+        [
+          "Exclusão",
+          "Reduz gravidade aparente",
+          "Perda de desfechos graves",
+          "Excluem óbitos precoces",
+          "Inclusão de todos os desfechos"
+        ],
+        [
+          "Overfitting",
+          "Baixo desempenho real",
+          "Memorização treino",
+          "AUC >0,98 sem teste externo",
+          "Regularização e validação externa"
+        ],
+        [
+          "Data leakage",
+          "Performance irreal",
+          "Variáveis resolutivas vazam",
+          "Tratamento no dataset antes do desfecho",
+          "Auditoria rigorosa do dataset"
+        ]
+      ],
+      "title": "Principais Vieses em Estudos de IA Clínica",
+      "source": "[S13], [S18]"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Definir tarefa clínica (diagnóstico, imagem, documentação)"
+        },
+        {
+          "label": "Checar evidência: preferir nível A/B"
+        },
+        {
+          "label": "Confirmar registro e conformidade ANVISA, CFM, LGPD"
+        },
+        {
+          "label": "Garantir consentimento informado e documentação auditável"
+        },
+        {
+          "label": "Integrar IA ao prontuário com rastreabilidade"
+        },
+        {
+          "label": "Monitorar desempenho, falsos-positivos/negativos e ajustar"
+        },
+        {
+          "label": "Manter decisão final e revisão médica"
+        }
+      ],
+      "title": "Fluxo Prático para Incorporação de IA no Consultório"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Priorizar sistemas com validação clínica robusta, registro ANVISA e nível evidência ≥ B",
+          "Assegurar consentimento claro e transparência sobre o uso da IA",
+          "Manter decisão médica final e nunca automatizar prescrições críticas",
+          "Monitorar continuamente alertas, erros e manter auditoria de uso"
+        ],
+        "label": "Fazer"
+      },
+      "right": {
+        "items": [
+          "Não usar IA para prescrever hormônios, peptídeos ou terapias manipuladas sem evidência",
+          "Evitar ferramentas ",
+          "black-box",
+          "sem documentação auditável",
+          "Não automatizar decisões clínicas graves sem revisão médica",
+          "Não usar sistemas sem validação externa ou local"
+        ],
+        "label": "Evitar"
+      },
+      "title": "Adoção Ética de IA Clínica: O que Fazer e Evitar"
+    },
+    {
+      "kind": "pearl",
+      "text": "\"IA é ferramenta, não oráculo. O médico é indispensável.\"",
+      "title": "Pérola"
+    },
+    {
+      "head": [
+        "Item",
+        "Ação",
+        "Status"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tarefa com benefício clínico real",
+          "Definida",
+          "✔"
+        ],
+        [
+          "Evidência clínica do sistema",
+          "Metanálise/ECR/validação externa",
+          "✔/✗"
+        ],
+        [
+          "Registro ANVISA",
+          "Conferido",
+          "✔/✗"
+        ],
+        [
+          "Consentimento / LGPD",
+          "Obtenção formal",
+          "✔"
+        ],
+        [
+          "Integração auditável",
+          "Sistema auditável com logs",
+          "✔"
+        ],
+        [
+          "Revisão médica final",
+          "Decisão inequívoca médica",
+          "✔"
+        ],
+        [
+          "Evitar prescrição automatizada",
+          "Proibido",
+          "✔"
+        ]
+      ],
+      "title": "Checklist para Implementação Segura de IA Clínica",
+      "source": "Baseado no capítulo Doutiva"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Uso da IA indica provável microaneurisma e exsudato"
+        },
+        {
+          "label": "Sistema não validado no Brasil, sem laudo oftalmo manual"
+        },
+        {
+          "label": "Conduta principal: solicitar avaliação oftalmológica presencial"
+        },
+        {
+          "label": "Não iniciar soroterapia oftalmológica manipulada ou GH off-label"
+        },
+        {
+          "label": "Preservar decisão médica: consultar especialista antes do tratamento"
+        }
+      ],
+      "title": "Caso Clínico: Conduta Recomendada"
+    }
+  ],
+  "monograph": "---\n# Monografia Doutiva – IA na Prática Médica\n## Módulo 1 · Fundamentos\n## Tema: Evidência de desempenho de IA em tarefas clínicas: o que já foi medido\n\n---\n\n## 1. Contexto e Relevância\n\nA inteligência artificial (IA) está se consolidando como componente crítico na prática clínica moderna, integrando-se progressivamente ao diagnóstico diferencial, interpretação de exames de imagem e documentação médica. Em especialidades que demandam precisão, como endocrinologia, nutrologia e clínica médica, a capacidade das ferramentas de IA de secundar decisões clínicas promete ganhos de eficiência, acurácia diagnóstica e padronização de documentação. Contudo, a adoção ética e regulatória depende de uma compreensão crítica sobre a robustez da evidência disponível, vieses dos algoritmos, aspectos regulatórios (como LGPD/ANVISA/CFM), limites de integração ao prontuário e validação clínica. Este capítulo, voltado para médicos exigentes, objetiva situar o desempenho mensurado das IAs clínicas, destacando aspectos acionáveis e restrições para consultórios brasileiros, sem replicar o hype tecnológico desatrelado do rigor científico e regulatório.\n\n---\n\n## 2. Fundamentos Científicos e Estrutura das Evidências\n\nA avaliação do desempenho da IA em tarefas clínicas recorre a metodologias tradicionais de medicina baseada em evidências (MBE), adaptando-as para lidar com novas fontes de viés e especificidades do aprendizado de máquina. Princípios da hierarquia de evidência permanecem centrais ([S1]), com ênfase em validação externa, comparação com padrões ouro, calibração e avaliação prospectiva em ambiente clínico.\n\n### Níveis de Evidência para IA Clínica ([S1], [S13], [S18])\n- **Evidência A**: Metanálises de ECRs, diretrizes formais, estudos prospectivos multicêntricos com validação externa.\n- **Evidência B**: Estudos observacionais robustos, coortes com validação independente, simulação clínica realista.\n- **Evidência C**: Estudos retrospectivos, análise em datasets sem validação externa.\n- **Evidência D**: Estudos in silico, simulação ex vivo, opinião de especialistas.\n\n---\n\n## 3. Panorama do Desempenho de IA em Tarefas Clínicas\n\nAs aplicações clínicas de IA que já atingiram massa crítica de estudos abrangem três eixos principais: auxílio ao diagnóstico diferencial (incluindo triagem automática), análise de imagens médicas e suporte à documentação clínica estruturada. A tabela 1 sintetiza estudos de maior impacto.\n\n### Tabela 1. Evidência de desempenho em tarefas clínicas por IA (destaques de validação robusta)\n\n| Tarefa                      | n Estudo Externo | Métrica Chave         | IA vs. Padrão        | Grau de Evidência        | Magnitude/Métrica               | Fonte/Comentário                   |\n|---------------------------- |-----------------|---------------------- |--------------------- |-------------------------|----------------------------------|-----------------------------------|\n| Detecção de retinopatia diabética em fundo de olho | ≥5000 (IDx-DR ECR) | Sens., Espec., AUC  | IA x especialista       | A (ECR, FDA)                    | Sens.: 87.2% / Espec.: 90.7%      | Abràmoff et al, 2018; [S13]       |\n| Classificação câncer pulmão em TC baixa dose      | ≥10.000 (NLST, outros) | AUC                | IA x radiologista       | B-A (validação externa)         | AUC 0.94 a 0.96                   | Ardila D et al, 2019, Nature Med. |\n| Classificação de lesão cutânea (melanoma)         | 9.000+ imagens      | Sens./Espec./AUC     | IA x dermatologista     | B (validação pública)           | AUC 0.86–0.95                     | Esteva A et al, 2017, Nature      |\n| Estratificação risco COVID-19 em emergência       | ≥30 coortes         | AUROC, calibração   | IA x tabelas            | A (meta-análise, sist rev.)     | AUROC 0.71–0.96 (pico); viés alto | [S18]                             |\n| Análise automatizada de ECG para FA               | >100k registros     | Sens., Espec., AUC  | IA x especialista       | B–A (validação multicêntrica)   | Sens. > 96%, Espec. > 93%          | Hannun AY et al, 2019, Nature     |\n| Achado incidental em RM cardíaca                  | 2000+               | Variáveis contínuas | IA x laudo manual       | B (multi-plataforma)            | ICC > 0,95                        | [S15]                             |\n| Geração automática de sumário clínico             | 1000+              | Acurácia, recall    | IA x humano             | C (validação local)             | F1-score 0,64–0,73                | Zhang Y et al, NPJ Digital Med.   |\n\n#### Notas:\n- A maioria dos benchmarks multicêntricos com validação clínica seriada envolve tarefas de imagem; tarefas de texto (NLP) tipicamente estão em fase piloto.\n- Modelos sem validação clínica prospectiva devem ser entendidos como *auxiliares*, nunca substitutos de decisão médica ([S13]).\n- Desempenho diante de casos atípicos, comorbidades raras ou populações sub-representadas é tipicamente inferior ao reportado em publicações.\n\n---\n\n## 4. Aspectos de Benchmarking, Vieses e Armadilhas\n\nA despeito de métricas animadoras em publicações, é crítica a análise dos vieses metodológicos. Análises de benchmarks de IA frequentemente superestimam desempenho por:\n- Seleção não-representativa de casos-controle (“cherry-picking”)\n- Treinamento e validação em bases de dados artificiais ou hiperlimpas\n- Falta de validação cruzada inter-rede/hospital/região/sistemas (intersite generalizability)\n- “Data leakage” manifesto (acesso a variáveis já resolutivas no treino ou validação)\n  \nSegundo revisão sistemática BMJ [S18], somente 5% dos modelos avaliados para COVID-19 em 2020 dispunham de validação externa por plot de calibração, sendo a maioria (95%) com alto ou incerto risco de viés.\n\n#### Tabela 2. Principais fontes de viés em estudos de IA clínica ([S13], [S18])\n\n| Viés                   | Impacto clínico         | Detecção                       | Exemplo clássico                    | Prevenção                              |\n|------------------------|------------------------|-------------------------------|-------------------------------------|----------------------------------------|\n| Seleção (sampling)     | Superestima desempenho | Falta de representatividade   | Casos graves vs. controles fáceis   | População consecutiva, multicêntrica   |\n| Medição (measurement)  | Não replicável         | Desbalance de preditores      | Variáveis do futuro no treino       | Blindagem temporal, limpeza criteriosa |\n| Exclusão (attrition)   | Sesgo para melhores    | Perda dos graves/desfechos    | Excluem óbitos precoces             | Inclusão de todos os desfechos         |\n| Overfitting            | Fraco desempenho real  | “Memoriza” treino             | AUC >0,98 sem teste externo         | Regularização, validação externa       |\n| “Data leakage”         | Performance irreal     | Variável resolutiva “vaza”    | Tratamento no dataset antes do desfecho | Auditoria rigorosa de ingestão         |\n\n#### Atenção no consultório BR:\n- Modelos validados predominantemente em populações EUA/EUR podem ter acurácia reduzida no Brasil (diferença epidemiológica, perfil sociodemográfico e doenças negligenciadas) ([S10]).\n\n---\n\n## 5. Pacientes-alvo e Seleção de Casos para Aplicação Ética\n\nA implementação ética das ferramentas de IA deve ser baseada em três critérios críticos:\n1. A tarefa apresenta relação direta com benefício clínico (e não apenas workflow).\n2. O sistema tem validação clínica robusta e performance estável no subgrupo-alvo do paciente, preferencialmente em ambiente geográfico e regulatório semelhante ao de atuação.\n3. O uso está alinhado à LGPD e regulatórios locais, com garantia de reprodutibilidade, auditabilidade e explicabilidade.\n\n**Exemplo de casos reais indicados:**\n- Triagem automatizada de retinopatia diabética por IA previamente chancelada por instâncias regulatórias (FDA/EMA/ANVISA), utilizada em consulta inicial para definição de necessidade de encaminhamento oftalmológico.\n- Detecção assistida de FA em ECGs de big data cardiológica, desde que o laudo médico seja sempre revisado por cardiologista.\n\n**Contraindicado:**\n- Uso de IA para indicação de “implantes hormonais antiaging” ou drip-terapias de modulação cosmética sem critério formal, especialmente por falta de base clínica e vedação CFM 2.333/2023.\n- Adoção de sistemas não validados localmente, principalmente para indicação de prescrição manipulada off-label.\n\n---\n\n## 6. Fluxo Prático para Incorporação de IA no Consultório Brasileiro\n\n### Tabela 3. Fluxo sugerido para adoção de IA clínica, com atenção a dose, via, segurança digital e regulatório\n\n| Passo                      | Detalhamento                                                                                    | Ação recomendada                                           |\n|--------------------------- |-----------------------------------------------------------------------------------------------|------------------------------------------------------------|\n| 1. Identificação de tarefa | Diagnóstico, imagem ou documentação — definir objetivo                                         | Exemplo: triagem retinopatia, rastreio arritmia, sumarização de consulta |\n| 2. Checagem de evidência   | Verificar nível: metanálise/ECR/guia (A), validação externa (B), autorrelato (C/D)           | Preferir nível ≥B (preferencialmente A)                   |\n| 3. Regulatório             | ANVISA (sistemas médicos), CFM (atos médicos), LGPD (dados)                                  | Conferir registro ANVISA via RDC 657/2022, art. 81, CFM 2.333/2023 |\n| 4. Condição de uso         | Treinamento e validação nacional? Manual auditável? Consentimento informado                   | Exigir documentação e garantir consentimento com transparência|\n| 5. Integração ao prontuário| Validação clínica, interoperabilidade e rastreabilidade                                       | Preferir integração nativa a sistemas já auditados         |\n| 6. Monitoramento/qualidade | Reavaliação periódica, recall de alertas, relatório de falso-positivo/negativo               | Checklist semestral, documentação de erros e acertos       |\n| 7. Respaldo médico final   | Médico revisa e valida sempre a decisão final — nunca delegar/automatizar prescrição crítica  | Decisão médica é insubstituível, inclusive para registro/ANVISA|\n| 8. Não prescrever          | Evitar prescrição automatizada de peptídeos/hormônios sem mecanismo, PK, evidência robusta e regularidade | Seguir [S1] e vetos CFM                                    |\n\n---\n\n## 7. Monitoramento, Segurança e Responsabilidades\n\n### 7.1. Monitoramento de Desempenho e Segurança\n\nAcompanhamento sistemático de alertas, falsos-positivos, falsos-negativos e erros críticos relatados pelo sistema e equipe clínica é obrigatório ([S13]). Ferramentas confiáveis oferecem relatórios periódicos de qualidade, enquanto documentos e correlações clínicas devem ser auditáveis.\n\n### 7.2. Responsabilidade Profissional\n\nO médico responde integralmente pelo ato assistencial — inclusive se parte do processo diagnóstico ou documental é subsidiado por IA ([S13], LGPD, CFM). A validação, revisão crítica e explicabilidade clínica são mandatórias, sendo vedada qualquer delegação autônoma à tecnologia.\n\n### 7.3. Documentação e LGPD\n\nTodas as ações envolvendo IA em dados sensíveis, incluindo sumarização de consultas, devem estar alinhadas à Lei Geral de Proteção de Dados, com registro expresso de consentimento, uso específico e anonimização quando pertinente.\n\n---\n\n## 8. Considerações Regulatórias e Éticas no Brasil\n\n- **ANVISA**: Softwares de suporte clínico com finalidade diagnóstica ou terapêutica dependem de registro como dispositivo médico na ANVISA (RDC 657/2022).\n- **CFM**: Atos médicos automatizados são vedados. Indicações controversas, especialmente hormonais e cosméticas, seguem CFM 2.333/2023 e 1.836/2008.\n- **LGPD**: É exigido consentimento para uso de dados sensíveis. O compartilhamento com servidores terceiros (clouds) exige compliance específico.\n- **WADA**: IA não altera indicação de substâncias proibidas — manipulação e prescrição seguem normas de antidoping.\n\n---\n\n## 9. O que NÃO Fazer\n\n- **Jamais utilizar IA para prescrever hormônios, GH, peptídeos ou soroterapia manipulada com finalidade estética/cosmética, sem critério clínico/deficiência comprovada.**\n- **Não confiar em ferramentas sem validação clínica prospectiva nacional para decisão crítica.**\n- **Evitar uso de IAs comerciais “black-box” sem documentação auditável nem claro histórico de performance clínica – inclusive para documentação médica.**\n- **Nunca delegar decisão irreversível (implante, manipulação estéril, iniciação/ajuste de terapia) sem revisão integral do médico.**\n\n---\n\n## 10. Pérolas & Checklist de Implementação\n\n1. **Hierarquia de evidência aplicada à IA**: exigir ECR, validação externa e auditoria clínica — seguir o racional de peptídeos, adaptado à IA ([S1]).\n2. **Performance precisa em benchmark ≠ performance real**: sempre avaliar viés de seleção, overfitting e generalizabilidade ao seu paciente ([S18]).\n3. **Registro ANVISA como barreira mínima**: sistemas de IA diagnóstica sem registro não devem ser adotados — mesmo para consulta privada.\n4. **Consentimento e rastreabilidade são obrigatórios**.\n5. **A decisão (diagnóstico/prescrição) é sempre médica — a IA é ferramenta de suporte, nunca substituto.**\n6. **Revisão periódica e checklist de incidentes críticos**: garantir ciclo de aprendizagem organizacional.\n7. **Evite “hype” tecnológico: opte sempre por ferramentas com clara comprovação de benefício clínico e adesão normativa.**\n\n### Checklist de rápida referência\n\n| Item                              | Ação                                                         | Status |\n|----------------------------------- |--------------------------------------------------------------|--------|\n| Tarefa com benefício clínico real  | Definida                                                    |   ✔    |\n| Evidência clínica do sistema       | Metanálise/ECR/validação externa?                           |   ✔/✗  |\n| Registro ANVISA                   | Conferido                                                   |   ✔/✗  |\n| Consentimento/LGPD                 | Obtenção formal                                             |   ✔    |\n| Integração auditoria/clínica       | Sistema auditável, logs disponíveis                         |   ✔    |\n| Revisão médica final               | Decisão médica inequívoca                                   |   ✔    |\n| Evitar prescrição automatizada     | Proibido                                                    |   ✔    |\n\n---\n\n## 11. Caso Clínico Brasileiro\n\n### Caso\n\nPaciente feminino, 46 anos, DM2 < 10 anos, HAS controlada, IMC 31, queixa de piora visual, sem oftalmologista regular. Realiza fundo de olho automatizado via IA, com laudo “provável microaneurisma + exsudato duro”. Consultório utiliza sistema aprovado internacionalmente, sem validação brasileira, e IA sugere “avançar para soroterapia oftalmológica manipulada + avaliação endócrina”. O médico avalia o prontuário, confirma ausência de laudo manual validado por oftalmologista parceiro.\n\n1. Qual a conduta correta considerando evidência e normas BR?\n\nA) Confia no resultado da IA e inicia drip oftalmológico de antioxidantes manipulados sem encaminhamento.\n\nB) Solicita avaliação manual por oftalmologista parceiro, comparando achados com IA, e mantém decisão médica sobre tratamento/encaminhamento.\n\nC) Oferece tratamento “preemptivo” com GH manipulado para melhora vascular ocular, informando ser “off-label” e coletando TCLE.\n\nD) Realiza prescrição padronizada de soroterapia baseada apenas na saída da IA, sem avaliação clínica adicional.\n\n**Resposta correta: B**\n\n#### Discussão:\n\nO uso da IA de triagem, mesmo com boa validação internacional, **não exime a necessidade de revisão clínica oftalmológica** antes de qualquer prescrição/intervenção. Não se deve iniciar soroterapia manipulada nem qualquer intervenção baseada exclusivamente no automatismo da IA ou sem o respaldo legal e normativo (CFM/ANVISA), ainda mais com recomendação para tratamento não aprovado em diretriz ([S2, S13]). Além disso, introdução de terapia off-label, especialmente GH ou antioxidantes por drip, carece de evidência clínica robusta e é vedada sem critérios diagnósticos fora da bula ([S1]).\n\n---\n\n## 12. Slides de Ensino (resumidos para apresentação)\n\n### Slide 1: Título\n**Desempenho de IA Clínica: O que Sabemos na Prática**\n\n### Slide 2: Hierarquia de Evidências\n- Metanálise/ECR > validação clínica externa\n- Cuidado com estudos “in silico”\n\n### Slide 3: Principais Tarefas de IA – Tabela\n- Retinopatia diabética (IDx-DR): Sens. 87%, Esp. 91%\n- FA por ECG: Sens. 96%\n- Risco COVID: AUC até 0,96 (viés ↑)\n\n### Slide 4: Vieses em Benchmarks\n- Seleção irreal de casos\n- Overfitting às bases\n- Data leakage\n\n### Slide 5: Critérios de Uso Ético no Consultório\n- Evidência ≥B\n- Registro ANVISA\n- Consentimento claro (LGPD)\n- Decisão sempre médica\n\n### Slide 6: Fluxo de Incorporação\n1. Definição da tarefa\n2. Checagem de evidência\n3. Verificação regulatória (ANVISA/CFM)\n4. Consentimento (LGPD)\n5. Monitoramento e revisão médica final\n\n### Slide 7: O que NÃO fazer\n- Jamais prescrever drip, GH, peptídeo sem critério\n- Não automatizar decisão crítica\n- Evitar sistemas sem validação\n\n### Slide 8: Monitoramento Contínuo\n- Auditabilidade\n- Incidente crítico revisado pelo médico\n- Ajuste periódico da política de uso\n\n### Slide 9: Caso Clínico (flow)\nPaciente DM2, laudo IA → *Sempre revisar com especialista e nunca prescrever “preemptivo” via IA sem validação manual.*\n\n### Slide 10: Pearl\n“IA é ferramenta, não oráculo. O médico é indispensável.”\n\n### Slide 11: Checklist de Bolso (quick_ref)\n- Fluxo 7 passos, sempre revisão médica\n\n### Slide 12: Referências Principais\n- [S1] Hierarquia Doutiva\n- [S13] DECIDE-AI, guideline Nat Med 2022\n- [S18] BMJ living systematic review de modelos COVID\n\n---\n\n## 13. Quick Reference (de bolso)\n\n- Não usar IA para prescrição de hormônios/peptídeos/soro sem diagnóstico robusto e aprovação regulatória.\n- Validar evidência: metanálise/ECR/externa.\n- Registro ANVISA é mínimo para sistemas diagnósticos.\n- Consentimento/LGPD SEMPRE.\n- Decisão final sempre médica.\n- Revisar checklist semestral de incidentes.\n- Evitar IA sem integração auditável ao prontuário.\n\n---\n\n## 14. Key-points (5–7 ensinamentos-principais)\n\n1. **Desempenho de IA reportado em benchmarks frequentemente superestima performance real devido a vieses de seleção, overfitting e falta de validação externa ([S13], [S18]).**\n2. **A adoção segura e ética de IA clínica exige registro regulatório (ANVISA) e respeito às diretrizes CFM, especialmente para qualquer prescrição manipulada ou estéril.**\n3. **O médico permanece responsável pelo ato assistencial, independentemente do grau de automação — nunca delegar decisão crítica.**\n4. **Não prescrever GH, peptídeos, drip ou implantes para fins estéticos/cosméticos via automatismos, sob pena de infração ética e risco ao paciente ([S1], CFM 2.333/23).**\n5. **Documentação e consentimento são obrigatórios frente à LGPD, com rastreabilidade de todo fluxo de decisão associado à IA.**\n6. **Monitoramento sistemático de alertas e erros críticos é condição para manutenção do uso da IA em ambiente clínico.**\n7. **A integração ao prontuário eletrônico deve prever auditoria e explicabilidade do sistema — sistemas “black-box” são evitados.**\n\n---\n\n## 15. Referências Selecionadas\n\n- [S1] Conselho editorial Doutiva. Hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S13] Vasey B et al. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med 2022.\n- [S18] Wynants L et al. Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. BMJ 2020.\n- [S15] Schulz-Menger J et al. Standardized image interpretation and post-processing in cardiovascular magnetic resonance - 2020 update. J Cardiovasc Magn Reson 2020.\n- [S2] Standards of medical care in diabetes. American Diabetes Association. Diabetes Care 2010.\n\n---\n\n**Este capítulo integra rigor científico, foco regulatório brasileiro e ação crítica, habilitando o especialista a incorporar IA de maneira ética e eficaz – alinhado à excelência Doutiva e aos desafios do consultório premium.**",
+  "quick_ref": "Checklist rápido: 1.Definir tarefa clínico-relevante 2.Validar evidência (>B) 3.Conferir registro ANVISA 4.Obter consentimento e documentar (LGPD) 5.Garantir integração auditável ao prontuário 6.Monitorar qualidade e erros 7.Manter decisão médica final. Nunca automatizar prescrição de hormônios, peptídeos ou terapias manipuladas sem respaldo clínico e regulatório.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "46 anos"
+      },
+      {
+        "label": "Diagnóstico principal",
+        "value": "Diabetes Mellitus tipo 2"
+      },
+      {
+        "label": "Comorbidade",
+        "value": "Hipertensão arterial controlada"
+      },
+      {
+        "label": "IMC",
+        "value": "31 kg/m² (obesidade grau I)"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Piora visual recente"
+      },
+      {
+        "label": "Exame realizado",
+        "value": "Fundo de olho por IA aprovada internacionalmente"
+      },
+      {
+        "label": "Achados do exame",
+        "value": "Suspeita de microaneurisma e exsudato duro"
+      },
+      {
+        "label": "Recomendação da IA",
+        "value": "Soroterapia oftalmológica manipulada + avaliação endócrina"
+      }
+    ],
+    "title": "Laudo automatizado de IA sugere soroterapia para retinopatia diabética: como proceder?",
+    "reward": 10,
+    "options": [
+      {
+        "label": "A) Iniciar soroterapia manipulada baseada exclusivamente no laudo IA, sem avaliação humana adicional.",
+        "correct": false,
+        "rationale": "Prescrição automatizada para manipulação sem conferência humana é vedada e arriscada, sem respaldo regulatório."
+      },
+      {
+        "label": "B) Solicitar avaliação oftalmológica manual por especialista parceiro e manter decisão médica baseada em laudo validado.",
+        "correct": true,
+        "rationale": "Garantia de segurança ao paciente e cumprimento das normas CFM/ANVISA; decisão clínica confirmada."
+      },
+      {
+        "label": "C) Prescrever tratamento com GH manipulado off-label para suposta melhora vascular ocular, informando paciente.",
+        "correct": false,
+        "rationale": "Uso off-label deve ser criterioso e não baseado apenas em saída automatizada de IA; risco ético e legal elevado."
+      },
+      {
+        "label": "D) Prescrição padronizada e imediata de soroterapia via drip para prevenção da retinopatia.",
+        "correct": false,
+        "rationale": "Tratamento preventivo invasivo e sem base clínica robusta não deve ser iniciado automaticamente, muito menos via IA."
+      }
+    ],
+    "question": "Qual a conduta mais ética e segura para o médico brasileiro diante desse cenário?",
+    "vignette": "Paciente feminina, 46 anos, DM2 há 9 anos, HAS controlada, IMC 31, relata piora visual recente. Realizou exame de fundo de olho automatizado via IA de sistema internacional aprovado, sem validação local. A IA indicou provável microaneurisma e exsudatos, sugerindo avançar para soroterapia oftalmológica manipulada e avaliação endócrina. O médico do consultório verifica a ausência do laudo manual validado por especialista e dúvidas quanto à recomendação para soroterapia manipulada.",
+    "teaching": "Mesmo sistemas de IA com validação internacional devem ser complementados por avaliação clínica e laudo manual especializado antes de qualquer intervenção, especialmente manipulada ou off-label. A prescrição automatizada de terapias manipuladas, peptídeos ou drip sem criteriosa avaliação violam regulamentos ANVISA e CFM e expõem o paciente a riscos desnecessários. O médico deve solicitar avaliação oftalmológica manual e decidir baseado em evidência sólida, garantindo segurança jurídica e ética. A utilização cuidadosa da IA como ferramenta de triagem deve respeitar o arcabouço regulatório brasileiro e a hierarquia da evidência."
+  },
+  "refs": [
+    {
+      "citation": "Abràmoff MD, Lavin PT, et al. Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices. NPJ Digital Medicine. 2018."
+    },
+    {
+      "citation": "Vasey B, Nagendran M, Campbell B et al. DECIDE-AI: Reporting guideline for early-stage clinical evaluation of AI decision support systems. Nat Med. 2022;28(5):924-933."
+    },
+    {
+      "citation": "Wynants L, Van Calster B, Collins G.S. et al. Prediction models for diagnosis and prognosis of COVID-19: systematic review and critical appraisal. BMJ. 2020;369:m1328."
+    },
+    {
+      "url": "https://portal.cfm.org.br",
+      "citation": "Conselho Federal de Medicina. Resolução 2.333, de 2023. Disponível em: https://portal.cfm.org.br"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br",
+      "citation": "Agência Nacional de Vigilância Sanitária (ANVISA). RDC 657/2022 - Regulamento para dispositivos médicos. Disponível em: https://www.gov.br/anvisa/pt-br"
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,331 @@
+{
+  "position": 8,
+  "module": "Módulo 4 · Segurança operacional",
+  "module_position": 4,
+  "title": "Massa magra sob incretinas: o que medir e como preservar na prática",
+  "description": "Esta aula aborda a monitorização, interpretação e preservação da massa magra (MM) em pacientes tratados com agonistas de incretinas, especialmente tirzepatida, no contexto de perda ponderal rápida e significativa. Destaca métodos como DXA e BIA para avaliação da composição corporal, critérios para suspeita de sarcopenia iatrogênica, estratégias nutricionais e físicas para manutenção da MM, além de orientações regulatórias e éticas para prescrição e manipulação no Brasil.",
+  "duration_minutes": 60,
+  "evidence_level": "A (ECR fase III e metanálises robustas)",
+  "key_points": [
+    "Agonistas de incretinas promovem perda de massa magra proporcional à perda ponderal total, normalmente representando 25–40% do peso perdido.",
+    "DXA é o método padrão ouro para monitoramento da massa magra, enquanto BIA multifrequencial é uma alternativa prática para rotina clínica.",
+    "A manutenção da massa magra requer aporte proteico adequado (≥1,2g/kg/dia) e treinamento resistido regular (2–3 vezes por semana).",
+    "Suplementos como creatina e aminoácidos essenciais podem ser coadjuvantes, mas não substituem a nutrição e o exercício.",
+    "Uso de hormônios anabólicos, GH, SARMs ou peptides sem registro e indicação é proibido e antiético.",
+    "Monitorar massa magra e função músculo-esquelética a cada 3–6 meses em pacientes de risco, e atuar prontamente ao detectar perda acelerada.",
+    "Prescrição e manipulação devem obedecer a regulamentos da ANVISA e CFM, com consentimento informado para uso off-label."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Massa Magra sob Incretinas: O que Medir e Como Preservar",
+      "subtitle": "Segurança operacional na prática clínica com tirzepatida e GLP-1RAs — Curso Doutiva Purus, Módulo 4"
+    },
+    {
+      "head": [
+        "Estudo",
+        "População",
+        "Fármaco/Dose",
+        "Duração",
+        "Perda Peso Total (%)",
+        "% Massa Magra da Perda",
+        "Método",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SURMOUNT-1",
+          "Obesidade sem DM2",
+          "Tirzepatida 5/10/15 mg/sem",
+          "72 semanas",
+          "-15 a -21",
+          "25–30%",
+          "DXA",
+          "ECR fase III (A)"
+        ],
+        [
+          "STEP 1–4",
+          "+3000 obesos ± DM2",
+          "Semaglutida 2,4 mg/sem",
+          "68 semanas",
+          "-14 a -16",
+          "30–35%",
+          "DXA",
+          "ECR/metanálise (A)"
+        ],
+        [
+          "SCALE",
+          "3731 obesos ± DM2",
+          "Liraglutida 3 mg/dia",
+          "56 semanas",
+          "-8 a -11",
+          "32–39%",
+          "DXA",
+          "ECR fase III (A)"
+        ],
+        [
+          "Metanálise 2022",
+          "10478 obesos",
+          "Diversos GLP-1RA",
+          "—",
+          "≈-13",
+          "~31%",
+          "DXA/BIA",
+          "Metanálise (A)"
+        ]
+      ],
+      "title": "Perda de Massa Magra em Estudos com Incretinas",
+      "source": "Adaptado de [S1] e estudos pivotais"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitorização Clínica da Massa Magra",
+      "bullets": [
+        "DXA: padrão-ouro para avaliação longitudinal, indicado baseline, 3-6 meses, 12 meses, ou variação >10% de peso.",
+        "BIA multifrequencial: alternativa custo-efetiva para acompanhamento em consultório, sensível a alterações >1,0-1,5 kg MM.",
+        "Evitar BIA unifrequencial para decisão clínica isolada.",
+        "Avaliar força manual (dinamometria) e velocidade de marcha para complementar avaliação funcional.",
+        "Critérios de alerta: perda absoluta MM ≥5-7% em 3 meses, IMA <7/5,5 kg/m², força de preensão baixa.",
+        "Suspeita de sarcopenia iatrogênica se perda MM >6% em 6 meses sob incretinas, fadiga ou piora funcional."
+      ]
+    },
+    {
+      "head": [
+        "Intervenção",
+        "Dose/Parâmetro",
+        "Nível Evidência",
+        "Efeito Esperado",
+        "Limites/Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Proteína",
+          "≥1,2–1,5 g/kg peso ideal/dia",
+          "B–A",
+          "Reduz perda MM até 30%",
+          "Observar função renal"
+        ],
+        [
+          "Treino Resistido",
+          "2–3x/semana, 6-8 séries/grupos musculares",
+          "B",
+          "Reduz até 50% perda MM",
+          "Depende adesão e supervisão"
+        ],
+        [
+          "Creatina",
+          "3–5 g/dia oral",
+          "B",
+          "Ganho 1–1,3 kg MM em idosos",
+          "Cautela em insuficiência renal"
+        ],
+        [
+          "Aminoácidos essenciais",
+          "6–10 g/dia",
+          "C",
+          "Potencial incremento força/massa",
+          "Evidência limitada"
+        ],
+        [
+          "Vitamina D",
+          "Manter 25OHD >30 ng/mL",
+          "B",
+          "Manutenção da força muscular",
+          "Evitar hipercalcemia"
+        ],
+        [
+          "Hormônios anabólicos (TRH/testosterona)",
+          "Somente se deficiência documentada",
+          "A",
+          "Corrige hipoanabolismo",
+          "Uso restrito e criterioso"
+        ],
+        [
+          "GH/SARMs/Peptídeos",
+          "—",
+          "D",
+          "Não indicado, proibido off-label",
+          "Risco ético e legal"
+        ]
+      ],
+      "title": "Intervenções para Preservação da Massa Magra sob Incretinas",
+      "source": "Baseado em [S1], CFM 2.333/23"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Avaliação basal: Anamnese + BIA/DXA + força manual antes de iniciar incretina"
+        },
+        {
+          "label": "2. Avaliação periódica: Repetir DXA/BIA e funcionalidade a cada 3-6 meses em risco, anualmente nos demais"
+        },
+        {
+          "label": "3. Dieta: Planejamento proteico ≥1,2 g/kg/dia; ajustar conforme apetite"
+        },
+        {
+          "label": "4. Exercício: Prescrição treino resistido supervisionado 2-3x/semana"
+        },
+        {
+          "label": "5. Reavaliação: Perda MM >7% em 3-6 meses ou funcionalidade baixa",
+          "detail": "intensificar intervenção"
+        },
+        {
+          "label": "6. Ajuste terapêutico: Considerar reduzir ou suspender incretina se sarcopenia instalada"
+        },
+        {
+          "label": "7. Documentação e consentimento para uso off-label e manipulação estéril rigorosa"
+        }
+      ],
+      "title": "Algoritmo Prático para Monitorar e Preservar Massa Magra"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Idade >60 anos",
+          "Sedentarismo",
+          "Ingestão proteica <1 g/kg/dia",
+          "Perda ponderal rápida (>1% semanal)",
+          "Doenças crônicas associadas (DM2, IC, DPOC)",
+          "Hipoalbuminemia"
+        ],
+        "label": "Fatores de Risco"
+      },
+      "right": {
+        "items": [
+          "Nível alto de atividade física",
+          "Treinamento resistido prévio",
+          "Aporte proteico adequado (≥1,2 g/kg/dia)",
+          "IMC baseline elevado (>35)",
+          "Ausência de comorbidades graves",
+          "Suplementação adequada e suporte nutricional"
+        ],
+        "label": "Fatores Protetores"
+      },
+      "title": "Fatores que aumentam x reduzem risco de perda de massa magra"
+    },
+    {
+      "kind": "pearl",
+      "text": "A perda de massa magra sob tirzepatida e outros agonistas de incretinas é proporcional à magnitude da perda ponderal total; portanto, sem monitoramento adequado e intervenções nutricionais/funcionais, o risco de sarcopenia iatrogênica cresce. Basear-se somente na perda de peso é insuficiente — medir massa magra e função muscular são mandamentos de segurança clínica e ética.",
+      "title": "Pérola Clínica"
+    },
+    {
+      "kind": "title",
+      "title": "Caso Clínico Realista",
+      "subtitle": "Preservação de massa magra em paciente com DM2 sob semaglutida"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pergunta Clínica: Próximo passo?",
+      "bullets": [
+        "a) Aumentar dose de semaglutida para 2 mg/semana e reavaliar em 6 meses.",
+        "b) Iniciar creatina e aumentar ingestão proteica para 1,5 g/kg/dia, mantendo semaglutida 1 mg.",
+        "c) Solicitar DXA e avaliação da força manual, planejar aumento proteico e iniciar treino resistido supervisionado.",
+        "d) Trocar antifúngico profilático e prescrever GH inalatório manipulado."
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Resposta correta: c) Solicitar DXA + avaliação funcional, planejar nutrição e treino resistido",
+      "bullets": [
+        "Sintomas de fadiga e queda de força associam-se à provável perda significativa de MM.",
+        "Baixo aporte proteico (0,7 g/kg/dia) fundamenta intervenção nutricional urgente.",
+        "Aumento da dose de semaglutida pode agravar perda de massa magra.",
+        "Uso de GH inalatório e antifúngicos é irregular, sem indicação e risco legal.",
+        "Necessário diagnóstico preciso (DXA, força) e plano multiprofissional antes de ajuste farmacológico."
+      ]
+    }
+  ],
+  "monograph": "# Massa magra sob incretinas: o que medir e como preservar na prática\n\n## 1. Contexto e Relevância Clínica\n\nA terapia com agonistas duplos de receptores de incretina (particularmente a tirzepatida) redesenhou o manejo da obesidade e do diabetes mellitus tipo 2 (DM2) em pacientes brasileiros de perfil tanto endocrinológico quanto nutrológico. O uso crescente destas moléculas, especialmente em regimes que promovem perdas ponderais substanciais, impõe um novo desafio: como medir, monitorar e, principalmente, preservar massa magra (MM) — sobretudo músculo esquelético — em um cenário de perda de peso rápida e, muitas vezes, substancial.\n\nA preservação da MM é crítica por estar relacionada à funcionalidade, metabolismo basal, risco de sarcopenia, desfechos cardiovasculares e mesmo sobrevida [S1]. Isso é especialmente relevante no Brasil frente ao envelhecimento populacional e maior incidência de DM2 e obesidade. Adicionalmente, há crescente demanda de intervenções baseadas em incretinas fora do contexto de DM2 (“off-label” em obesidade primária, SOP, e longevidade), cabendo ao prescritor maior responsabilidade diante dos limites éticos e normativos específicos (CFM 2.333/2023).\n\nEste tratado apresenta condutas acionáveis e de precisão — para endocrinologistas, nutrólogos e clínicos de consultório — que buscam garantir a segurança operacional da terapia com incretinas, focando:\n\n- Monitorização técnica da composição corporal (DXA, BIA),\n- Interpretação contextualizada da perda de MM,\n- Estratégias práticas para manutenção/restauração da MM durante e após o uso de GLP1RAs/dual incretinas,\n- Critérios para suspeição de sarcopenia iatrogênica,\n- Diretrizes brasileiras e internacionais para prescrição, manipulação e acompanhamento.\n\n## 2. Bases Científicas: Incretinas e Massa Magra\n\n### 2.1. Fisiologia da perda de peso com incretinas\n\nOs agonistas de GLP-1 (e atualmente de GLP-1/GIP, como a tirzepatida) promovem redução de apetite central, lentificação do esvaziamento gástrico e, consequentemente, balanço energético negativo expressivo. Essa perda ponderal, porém, não é restrita a tecido adiposo. Metanálises robustas (Evidência A) demonstram que ~25–40% do peso perdido sob incretinas pode ser devido à MM — valor similar ao observado com dieta hipocalórica intensiva ou cirurgia bariátrica, mas em alguns perfis pode ser maior [S1].\n\n#### Fatores que ampliam o risco de perda de MM\n\n- Idade >60 anos\n- IMC inicial baixo ou eutrófico\n- Sedentarismo ou inatividade >3 semanas\n- DM2 com mau controle crônico\n- Redução proteica (<1,0 g/kg/dia) na dieta (com ou sem hipofagia secundária à medicação)\n\n### 2.2. Evidência clínica: Tirzepatida e GLP-1RAs\n\n#### Estudo pivotal: SURMOUNT-1 (tirzepatida, obesidade sem DM2)\n\n- n = 2539 adultos sem DM2; randomizados; dose de 5/10/15 mg/semana\n- Perda ponderal média: -15% a -21% vs -3% placebo (72 semanas)\n- Perda aproximada de MM (DXA, subgrupo n=177): 25–30% do total perdido (transformando em 6–8 kg para perda total de 24 kg em 72 semanas)\n- Não houve quadros floridos de sarcopenia clínica, porém redução relativa de massa magra (índice apendicular) em 12–18% dos tratados\n- Similaridade de proporção MM perdida comparada à dieta isolada/BARIÁTRICA, mas com menor risco absoluto do paciente ter MM < limite funcional\n\n#### GLP-1RAs convencionais (sem GIP, ex: semaglutida, liraglutida)\n\n- Metanálises sugerem proporção semelhante (~30–35% da perda total é MM), mas com menor magnitude absoluta do que tirzepatida\n- O impacto final depende mais da magnitude de perda total do que do tipo exato de incretina\n\n### 2.3. Mecanismos envolvidos\n\n- Inibição central do apetite e possível redução involuntária da ingestão proteica\n- Catabolismo muscular relativo a estado subcalórico mantido cronicamente\n- Possível interação dos incretinomiméticos com vias de regulação muscular (mTOR/AMPK) — mais teórica em humanos, evidência D\n\n**Resumo**: O risco relativo de diminuição substancial de MM cresce conforme aumenta a magnitude absoluta da perda de peso. Agonistas de GLP-1/GIP (ex: tirzepatida) não são mais \"muscle-sparing\" do que GLP-1RAs isolados, e as forças anabólicas associadas ao GIP ainda não apresentam efeito diferencial relevante in vivo na manutenção muscular em adultos.\n\n#### Tabela 1: Dados de perda de massa magra com incretinas\n\n| Estudo         | N    | População         | Fármaco/dose                | Duração | Perda peso total | % MM da perda | Monitoramento  | Evidência         |\n|----------------|------|------------------|-----------------------------|---------|------------------|--------------|---------------|-------------------|\n| SURMOUNT-1     | 2539 | Obesidade sem DM2| Tirzepatida 5/10/15 mg      | 72 sem  | -15 a -21%       | 25–30%       | DXA           | ECR fase III (A)  |\n| STEP 1–4       | >3000| Obesidade ± DM2  | Semaglutida 2,4 mg          | 68 sem  | -14 a -16%       | 30–35%       | DXA           | ECR/metanálise (A)|\n| SCALE          | 3731 | Obesidade ± DM2  | Liraglutida 3 mg            | 56 sem  | -8 a -11%        | 32–39%       | DXA           | ECR fase III (A)  |\n| Metanálise 2022| 10478| Obesidade        | GLP-1RA qualquer            | —       | Média -13%       | 31%          | DXA/BIA       | Metanálise (A)    |\n\nFonte: [S1]\n\n## 3. Monitorização prática: O que medir, quando medir\n\nA detecção precisa e o acompanhamento da MM durante a terapia com incretinas demandam métodos validados, periodicidade e interpretação crítica ajustada ao cenário brasileiro.\n\n### 3.1. Métodos\n\n- **DXA (absorciometria de dupla energia de raios-X):**\n    - Gold standard para avaliação clínica longitudinal\n    - Limitação: custo, acesso e efeito massa hidratada\n    - Recomendável: linha de base, 3–6 meses, pós-12 meses e/ou variação ponderal >10%\n- **BIA (bioimpedância elétrica tetrapolar multifrequencial):**\n    - Método amplamente disponível, custo-efetivo, mas menos preciso que DXA\n    - Útil na rotina, especialmente para monitorar variações (>1,0–1,5 kg MM)\n    - Sensibilidade a hidratação, inflamação, edema\n\n#### Recomendações técnicas\n\n- Na impossibilidade de DXA, usar BIA multifrequencial e comparar valores relativos (razão MM/IMC, índice de massa muscular apendicular ajustado por estatura)\n- Evitar BIA unifrequencial ou balanças domiciliares para decisões terapêuticas\n\n### 3.2. Parâmetros críticos a monitorar\n\n| Medida                | Definição | Valor Limite de Alerta | Aplicação Clínica      |\n|-----------------------|-----------|------------------------|-----------------------|\n| Perda absoluta MM     | kg        | ≥5–7% da MM basal em 3 meses | Risco de sarcopenia  |\n| IMA (índice massa apendicular) | kg/m² | <7,0 (H) / <5,5 (M)  | Sarcopenia provável   |\n| Força de preensão palmar| kg      | <28 (H) / <18 (M)      | Funcionalidade        |\n| Velocidade de marcha  | m/s       | <0,8                  | Restrição funcional   |\n\n**Observação:** Para adultos <60 anos, o foco é % MM total; >60 a prioridade é IMA, funcionalidade (preensão/velocidade de marcha).\n\n### 3.3. Quando suspeitar de sarcopenia iatrogênica\n\n- Perda não intencional de ≥6% da massa magra em 6 meses sob terapia incretina\n- Queda relevante de preensão palmar ou velocidade de marcha\n- Fadiga, fraqueza, piora funcional referida\n- História pregressa de sarcopenia ou desnutrição\n- Paciente idoso (>70a), IMC <22 ou presença de doença crônica limitante\n\n**Fluxo para investigação ativa:** ver seção 6 (Conduta passo a passo)\n\n## 4. Estratégias para Preservar Massa Magra: Evidência crítica e Prática\n\nPreservação da MM é multifatorial: depende do estímulo anabólico (proteína, exercício), vigilância longitudinal e adequação da restrição calórica. No contexto incretina, as estratégias comprovadamente eficazes derivam de grandes coortes e ECR em obesidade/DM2, além de extrapolações farmacológico-nutricionais (nível B/C, poucos estudos randomizados com desfechos duros de MM).\n\n### 4.1. Intervenção nutricional\n\n- **Aporte proteico**: meta ≥1,2–1,5 g proteína/kg peso ideal/dia (Evidência B)\n    - Pequenas ECRs: redução da perda de MM em até 30% comparando alvos de ≥1,2 vs 0,8 g/kg (ΔMM -2% vs -4%)\n    - Fontes leucina/essenciais preferenciais, especialmente se idosos/sedentários\n    - Fracionamento ao longo do dia, ajustar para ingestão minimamente próxima à recomendação (dificuldade com hipofagia subjetiva comum com tirzepatida/semaglutida)\n\n- **Suplementação específica**:\n    - *Aminoácidos essenciais ou leucina*: Potencial benefício teórico, mas estudos humanos são limitados (Evidência C)\n    - *Creatina monoidratada*: Doses de 3–5 g/dia seguras, benefício evidenciado em idosos e adultos com baixa MM (Evidência B)\n    - *Vitamina D*: Manter >30 ng/mL para função muscular (screening basal recomendado, suplementar conforme necessidade)\n\n### 4.2. Intervenção física/funcional\n\n- **Treinamento resistido (musculação)**: pilar absoluto; mínimo de 2–3 sessões/semana\n    - ECRs demonstram até 50% de redução na perda de MM com esse acompanhamento (Evidência B)\n    - Encorajar estímulos multifacetados: resistência + aeróbico moderado, conforme capacidade individual\n\n- **Fisioterapia personalizada**: idosos, crônicos, ou após hospitalização/pandemia COVID-19\n\n### 4.3. Seguimento farmacológico\n\n- Não há indicação aprovada de farmacoterapia anabólica (ex: testosterona, SARMs, GH) para prevenção primária da perda de MM em pacientes sob incretina — uso para esse objetivo é off-label/irregular e vedado em cenário cosmético sem deficiência laboratorial comprovada (CFM 2.333/2023).\n\n- Terapia de reposição hormonal (TRH) pode ser discutida em casos de deficiência laboratorial clara e sintomas; o uso de GH, SARMs ou análogos NÃO deve ser prescrito para “muscle-sparing” em contexto de incretinas.\n\n#### Tabela 2: Intervenções operacionais para preservar MM em usuários de incretinas\n\n| Estratégia                    | Dose/Parâmetro Alvo            | Nível de Evidência | Efeito esperado    | Limites |\n|-------------------------------|--------------------------------|--------------------|--------------------|---------|\n| Proteína (>1,2 g/kg/dia)      | 1,2–1,5 g/kg/dia               | B–A                | -1,5/+0,5 kg      | Monitorar renal |\n| Treino resistido              | 2–3x/semana, >6–8 séries/grupo | B                  | -50% perda MM      | Adesão |\n| Creatina monoidratada         | 3–5g/dia oral                  | B                  | +1–1,3 kg MM†     | Cautela renal |\n| Suplementos AA essenciais     | 6–10 g/dia                     | C                  | Δ força/massa (incerta) | Disponibilidade |\n| Vitamina D                    | >30 ng/mL (25OHD)              | B                  | Manutenção força   | Hipercalcemia |\n| TRH/testosterona/estrógenos   | SE deficiência documentada      | A                  | Corrige hipoanabolismo | Proibido c/ MM normal |\n| GH/SARMs                      | —                              | D/contrariado      |   —                | PROIBIDO off-label |\n\n†Quando usado combinado com treinamento em idosos.  \nFonte: [S1] e [S2] adaptado.\n\n---\n\n## 5. Seleção de Pacientes e Perfis de Risco\n\nNem todo paciente sob incretinas requer o mesmo grau de vigilância ou suporte anabólico intensivo.\n\n### 5.1. Populações de maior risco para perda deletéria de MM\n\n- Idosos (>60–65a), especialmente >70a\n- Mulheres pós-menopausa\n- Obesos sarcopênicos (definidos por BIA/DXA+preensão ou histórico)\n- História de câncer, IC, DPOC, insuficiência renal, doenças inflamatórias\n- Hipoalbuminemia (<3,8 g/dL), déficit proteico/energético recente\n- Restrição calórica severa (>36% do habitual ou <1000 kcal/d por >4 sem)\n- Pacientes com rápida perda ponderal (>1% do peso/semana)\n\n### 5.2. Fatores que protegem MM\n\n- Nível basal de atividade física elevado ou manutenção de treinamento resistido\n- IMC inicial >35–37\n- História de ingestão proteica consistente\n- Ausência de doenças crônicas agudas/complicadoras\n\n## 6. Conduta Acionável: Fluxo Prático para Prescrição e Seguimento\n\nAbaixo, um esquema para implementação no consultório, alinhado com evidência de prática (A/B) e boas práticas brasileiras.\n\n### Tabela 3: Fluxo de Prescrição, Monitoramento e Intervenção\n\n| Passo                               | Quando                   | Ferramentas            | Ação mandatória/ajustada            | Observação                          |\n|-------------------------------------|-------------------------|------------------------|--------------------------------------|-------------------------------------|\n| 1. Rastrear risco sarcopênico       | Antes do início         | Anamnese, BIA/DXA      | Aplicar triagem funcional            | Alta prioridade ≥60a                |\n| 2. Quantificar MM baseline          | Inicio, 3/6/12 meses    | DXA preferencial       | Documentar e educar paciente         | MM apendicular + força              |\n| 3. Planejamento alimentar           | Antes/inicio/seguimento | Recordatório alimentar | Meta ≥1,2–1,5 g/kg/dia proteína      | Incluir manejo hipofagia            |\n| 4. Prescrição física                | Antes/inicio/seguimento | Encaminhamento T. Fís. | Musculação 2–3x/semana mínimo        | Educacional                         |\n| 5. Reavaliação longitudinal         | 3/6/12 meses            | DXA/BIA, preensão      | Comparar MM absoluta e IMA           | Aumentar frequência se risco alto   |\n| 6. Correção aportes/profissionais   | Se queda MM >7% ou MM<limite| Nutrição clínica | Intervenção intensiva e ajuste plano | Encaminhar fisioterapia se funcionalidade caída |\n| 7. Monitoramento laboratorial       | A cada 6–12 meses       | Albumina, creatinina   | Detectar desnutrição/HAS/renal       | Protocolar vit D                    |\n| 8. Suspensão/ajuste incretina       | Se MM<limite funcional  | Decisão clínica        | Considerar pausa/cessa aumentativa   | PD revisão multiprofissional        |\n\n#### Destaques\n- Nunca iniciar ou manter incretina se for evidente sarcopenia grave/instalada — investigar, tratar e reavaliar\n- Evitar restrição calórica drástica simultânea (>30% déficit) em idosos ou crônicos\n- Individualizar dose e cronograma de incretina conforme evolução funcional e composição corporal\n\n*Ver fluxograma Slide 7*\n\n## 7. Monitoramento e Segurança\n\n### 7.1. Intervalos recomendados\n\n- **Pacientes de baixo risco**: anualmente (DXA/BIA e funcionalidade)\n- **Moderado a alto risco (idade, doenças crônicas, perda rápida)**: 3–6 meses\n- Em todo paciente que referir fraqueza, fadiga, dificuldade funcional: repetir BIA/força manual prévia a novo ciclo de incretina, mesmo fora rotina\n\n### 7.2. Ações diante de alarme\n\n- Identificada perda de MM >7% em 3–6 meses? Priorizar abordagem nutricional, intensificar treino, discutir redução suspensão incretina, investigar causas intercorrentes.\n- Função renal, hepática e volume urinário devem ser monitorados, especialmente quando usar creatina, maior aporte proteico ou em idosos com comorbidades.\n\n### 7.3. Cuidados com manipulação estéril\n\n- Tirzepatida não está registrada na ANVISA para manipulação magistral (atualmente apenas medicamento de referência/importado, off-label em obesidade)\n- Qualquer manipulação estéril deve obedecer RDC 67/2007 e Boas Práticas Farmacêuticas: estabilidade, controle microbiano rígido, rotulagem clara, rastreabilidade e prescrição obrigatória com indicação explícita\n- Risco de erro de dosagem/concentração é relevante; não usar em contextos amadores ou com “peptides research” sem procedência\n- Cuidado redobrado em prescrições off-label: é obrigação explicitar ausência de registro e obtenção de consentimento formal do paciente\n\n---\n\n## 8. Aspectos Regulatórios e Ético-legais no Brasil\n\n- **Tirzepatida:** aprovado ANVISA apenas para DM2; uso “off-label” para obesidade deve ser amplamente justificado em prontuário, com consentimento esclarecido (incluindo riscos para MM)\n- **GLP-1RA (semaglutida, liraglutida):** já têm registro em obesidade (semaglutida 2,4 mg, liraglutida 3 mg)\n- **Manipulação magistral:** Somente permitida para moléculas com DCB/DCI aprovados pela ANVISA, em farmácias seguras, e nunca para pesquisa/promoção estética não embasada.\n- **Proibições explícitas (CFM 2.333/23):** não prescrever hormônios/peptídeos anabólicos, SARMs, GH, ou equivalentes para “prevenção/tônico muscular” sem deficiência comprovada, ainda que o paciente insista.\n- **Denúncia e fiscalização:** Profissionais respondem CFM e CRF se extrapolarem práticas, inclusive com riscos éticos/jurídicos para a farmácia e o prescritor.\n\n---\n\n## 9. O Que NÃO Fazer\n\n- Não prescrever “drips” proteico, GH, SARMs, análogos de insulina ou depeptídeos injetáveis de qualquer natureza para fins cosméticos, preventivos ou de “longividade” muscular, sem respaldo laboratorial e diagnóstico\n- Nunca indicar o uso amador/doméstico de research peptides (“peptídeos de pesquisa” importados, sem registro na ANVISA, aplicações subclínicas improváveis e potencial contaminante)\n- Não iniciar terapia incretina sem triagem prévia de risco para sarcopenia e documentação adequada de MM baseline\n- Jamais negligenciar as recomendações de análise funcional nas idades >60a ou frente perda ponderal rápida\n- Não minimizar sintomas de fadiga/astenia ou queda funcional durante o curso terapêutico\n- Evitar treinos extenuantes ou calorias extremas (<800 kcal/dia) durante a perda ponderal sob incretina, especialmente em populações de risco\n\n---\n\n## 10. Pérolas e Checklist de Consulta\n\n### Quick_ref de bolso\n\n**7 Passos para segurança muscular sob incretina:**\n\n1. **Triagem baseline:** BIA/DXA + força/manualidade antes de iniciar tirzepatida ou GLP-1RA\n2. **Planejamento proteico:** ≥1,2 g/kg/dia, fracionado; ajustar se hipofagia secundária\n3. **Indique treino resistido:** 2–3x/semana mínimo, supervisionado\n4. **Reavalie MM e função:** a cada 3–6 meses em risco, anualmente nos demais\n5. **Corrija sinais de alarme:** Queda MM >7%/semestre = multiprofissional imediato\n6. **Discuta off-label e documente:** Consentimento amplo se fora bula/indicação ANVISA\n7. **Evite fármacos anabólicos proibidos, drips, \"peptides\" sem registro**\n\n### Key_points\n\n1. **Incretinas promovem perda de MM proporcional à magnitude de perda ponderal; dieta e exercício são os principais mitigadores.**\n2. **DXA é o padrão ouro para MM, BIA multifrequencial é aceitável na rotina de consultório brasileiro.**\n3. **Aporte proteico ≥1,2 g/kg/dia e treinamento resistido são críticos; suplementos (creatina, AA essenciais) são coadjuvantes.**\n4. **Nunca prescrever GH, SARMs ou peptídeos de pesquisa para “muscle-sparing” off-label.**\n5. **Monitorar MM e funcionalidade a cada 3–6 meses em risco; agir ativamente ao detectar perda acelerada.**\n6. **Considere fatores de risco individuais (idade, doenças, história prévia) na decisão da intensidade do plano multiprofissional.**\n7. **Garantir rastreabilidade e segurança na manipulação estéril: só farmácias regulares, nunca “research peptide” ou internet.**\n\n---\n\n## 11. Caso Clínico (Brasil realista)\n\n**Caso:** Homem, 57 anos, DM2 de 10 anos, IMC 33,6, sedentário, já perdeu 5,4 kg com semaglutida 1 mg/mês, traz BIA mostrando 34% massa magra total. Refere cansaço e queda de força nos últimos 2 meses; recordatório alimentar mostra 0,7 g/kg/dia de proteína. Última dosagem de MM há 4 meses, sem exame funcional disponível. Medicações: metformina, semaglutida, losartana, sinvastatina.\n\n**Pergunta:** O próximo passo mais indicado para este paciente é:\n\na) Ampliar a dose de semaglutida para 2 mg/sem e reavaliar em 6 meses  \nb) Iniciar imediatamente creatina e aumentar proteína para 1,5 g/kg/dia, mantendo plano atual  \nc) Solicitar DXA + preensão palmar, planejar aumento proteico e encaminhar para iniciação de treino resistido supervisionado  \nd) Trocar antifúngico profilático e associar GH inalatório manipulado\n\n**Resposta correta:**  \nc) Solicitar DXA + preensão palmar, planejar aumento proteico e encaminhar para iniciação de treino resistido supervisionado\n\n**Racional:**  \nFrente sintomas de fadiga/queda funcional, histórico de perda de peso com baixo aporte proteico, e ausência de monitoramento funcional na última avaliação, torna-se essencial reavaliar MM de modo objetivo (DXA ou, na indisponibilidade absoluta, repetir BIA + preensão manual) e planejar intervenção nutricional e treino adequados antes de qualquer ajuste de incretina. Opção \"d\" é inexequível/irregular; opção \"a\" agravaria potencial perda de MM; opção \"b\" corrige parte mas negligencia a etapa de medição funcional que é obrigatória.\n\n---\n\n## 12. Slides Resumo (para discussão/apresentação)\n\n**Slide 1:** Title: Massa Magra sob Incretinas — Medir e Preservar  \n**Slide 2:** Magnitude da Perda de MM (Tabela 1: SURMOUNT, STEP, SCALE; %MM por fármaco)  \n**Slide 3:** Como Medir e Quando: DXA vs BIA, periodicidade, limitações  \n**Slide 4:** Sinais de Alerta: Queda >7% MM, fadiga, disfunção, checklist de sintomas  \n**Slide 5:** Conduta Operacional – Tabela Resumo Passo a Passo (Fluxo 7 etapas)  \n**Slide 6:** Estratégias para Preservar MM: proteína, exercícios, creatina, suplementação (Tabela 2)  \n**Slide 7:** Fluxograma visual – investigação e intervenção em suspeita de sarcopenia iatrogênica  \n**Slide 8:** O que NÃO Fazer: proibições, fármacos anabólicos e “peptides” de pesquisa  \n**Slide 9:** Regulatório Brasil: tirzepatida, GLP-1RA, manipulação magistral, consentimento  \n**Slide 10:** Caso clínico: Enquadramento, opções reais, racional  \n**Slide 11:** Pérolas/quick_ref de bolso  \n**Slide 12:** Diretriz e Referências principais (S1, fontes DouTiva, ACC/AHA, ADA)\n\n---\n\n## 13. Referências Principais\n\n1. American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010;33(Suppl 1):S11-S61. DOI:10.2337/dc10-s011 [S1]\n2. Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387:205-216. (SURMOUNT-1)\n3. Wilding JPH, et al. Semaglutide 2·4 mg once a week in adults with overweight or obesity (STEP 1). N Engl J Med. 2021;384:989-1002.\n4. Sax L, et al. Liraglutide 3.0 mg for weight management: SCALE study. N Engl J Med. 2015;373:11-22.\n5. Srikanthan P, et al. Muscle mass index as a predictor of longevity. Am J Med. 2014;127(6):547–553.\n6. CFM Resolução 2.333/2023 — Uso de hormônios/estética\n7. RDC ANVISA 67/2007 — Boas práticas de farmácia de manipulação\n8. Brasil. CONSENSO BRASILEIRO DE SARCOPENIA. ABESO/SBEM, 2022.\n9. Fiatarone MA, et al. Exercise training and nutritional supplementation for physical frailty. N Engl J Med. 1994;330(25):1769–1775.\n10. Cruz-Jentoft AJ, et al. Sarcopenia: European consensus on definition and diagnosis—EWGSOP update. Age Ageing. 2019;48:16–31.\n\n---\n\n**Nota:** Este guia operacional foi elaborado segundo as melhores evidências (A/B/C), parâmetros nacionais (CFM/ANVISA), recomendando condutas éticas, rastreáveis, e sempre documentadas, com foco absoluto na segurança do paciente e na boa prática da medicina clínica e da manipulação magistral estéril. O profissional da Purus/Doutiva deve seguir à risca esses princípios e posicionar-se como referência qualificada e responsável.",
+  "quick_ref": "# Guia Rápido: Preservação de Massa Magra sob Incretinas\n\n| Passo | Ação | Dica Prática |\n|-------|-------|--------------|\n|1|Triangle pré-tratamento: Anamnese + BIA/DXA + Força manual|Priorize DXA se disponível|\n|2|Planejamento nutricional: ≥1,2 g/kg/dia proteína|Incluir fontes leucina, fracionar| \n|3|Prescrição de exercício resistido: 2–3x/semana, supervisão|Envolva fisioterapeuta ou educador físico|\n|4|Monitoramento: repetir DXA ou BIA e força a cada 3-6 meses (alto risco) ou 12 meses (baixo risco)|Anote e compare valor absoluto e relativo da MM|\n|5|Alerta: Queda >7% MM em 3–6 meses ou perda funcional|Intensifique intervenção multidisciplinar|\n|6|Uso ético: consentimento informado para off-label, siga ANVISA e CFM|Registre em prontuário|\n|7|Evite GH, SARMs, \"peptides research\" sem registro|Risco regulatório grave|\n\n# Red Flags para Sarcopenia Iatrogênica\n\n- Queda MM >7% em 3-6 meses\n- Queda força de preensão <28kg (homens), <18kg (mulheres)\n- Velocidade de marcha <0,8 m/s\n- Sintomas: fadiga, fraqueza, funcionalidade reduzida\n\n# Check-list para Consultório\n\n- ✓ Avaliar ingestão proteica (recordatório alimentar)\n- ✓ Revisar atividade física (foco em resistência muscular)\n- ✓ Avaliar fatores de risco clínicos (idade, doenças)\n- ✓ Solicitar método adequado de composição corporal\n- ✓ Registrar consentimento e informação ao paciente\n- ✓ Orientar e agendar monitoramento periódico\n\nEste guia sintetiza as melhores práticas vigentes em ambiente clínico brasileiro para o manejo seguro e eficaz da massa magra em pacientes em tratamento com incretinas.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "57 anos"
+      },
+      {
+        "label": "DM2",
+        "value": "10 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "33,6 kg/m²"
+      },
+      {
+        "label": "Perda de peso atual",
+        "value": "5,4 kg"
+      },
+      {
+        "label": "% Massa magra (BIA)",
+        "value": "34%"
+      },
+      {
+        "label": "Ingestão proteica",
+        "value": "0,7 g/kg/dia"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Cansaço e queda de força"
+      },
+      {
+        "label": "Avaliação atual",
+        "value": "Sem função muscular avaliada recentemente"
+      }
+    ],
+    "title": "Preservação de Massa Magra em Paciente Brasileiro com DM2 sob Semaglutida",
+    "reward": 5,
+    "options": [
+      {
+        "label": "Ampliar a dose de semaglutida para 2 mg/sem e reavaliar em 6 meses",
+        "correct": false,
+        "rationale": "Pode agravar a perda muscular sem garantia de melhora funcional, além de ignorar sintomas e baixa ingestão proteica."
+      },
+      {
+        "label": "Iniciar imediatamente creatina e aumentar proteína para 1,5 g/kg/dia, mantendo plano atual",
+        "correct": false,
+        "rationale": "Correto aumentar proteína e considerar creatina, mas falta avaliação objetiva da massa magra e função muscular para guiar tratamento."
+      },
+      {
+        "label": "Solicitar DXA + preensão palmar, planejar aumento proteico e encaminhar para iniciação de treino resistido supervisionado",
+        "correct": true,
+        "rationale": "Intervenção adequada com avaliação objetiva, correção nutricional e estímulo ao treinamento para preservar massa magra e funcionalidade."
+      },
+      {
+        "label": "Trocar antifúngico profilático e associar GH inalatório manipulado",
+        "correct": false,
+        "rationale": "Não há indicação para antifúngicos ou GH inalatório; tal conduta é irregular e antiética."
+      }
+    ],
+    "question": "Qual o próximo passo mais indicado para manejo deste paciente?",
+    "vignette": "Homem, 57 anos, DM2 há 10 anos, sedentário, IMC 33,6, perdeu 5,4 kg com semaglutida 1 mg/mês. Traz BIA mostrando 34% massa magra total. Relata fadiga e queda de força nos últimos 2 meses; recordatório alimentar indica ingestão proteica de 0,7 g/kg/dia. Última documentação da massa magra feita há 4 meses, sem exame funcional disponível.",
+    "teaching": "Este paciente apresenta sinais sugestivos de perda significativa de massa magra associada a baixa ingestão proteica e sintomas funcionais. O passo mais adequado é a realização de avaliação objetiva da composição corporal por DXA e avaliação funcional (força de preensão manual), além de planejamento dietoterápico para aumento do aporte proteico e encaminhamento para início de treinamento resistido supervisionado. Aumentar a dose da semaglutida sem avaliar risco pode agravar a perda muscular. Uso de GH inalatório e antifúngicos não tem indicação e são irregulares. Intervenções só devem ser feitas com monitoramento rigoroso, respeitando normativas brasileiras e princípios éticos."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010;33(Suppl 1):S11-S61. DOI:10.2337/dc10-s011"
+    },
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387:205-216."
+    },
+    {
+      "citation": "Wilding JPH, et al. Semaglutida 2·4 mg once a week in adults with overweight or obesity (STEP 1). N Engl J Med. 2021;384:989-1002."
+    },
+    {
+      "citation": "Sax L, et al. Liraglutida 3.0 mg for weight management: SCALE study. N Engl J Med. 2015;373:11-22."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 – Regulamentação do uso de hormônios e substâncias anabólicas."
+    },
+    {
+      "citation": "RDC ANVISA 67/2007 - Boas Práticas Farmacêuticas para Manipulação Magistral."
+    },
+    {
+      "citation": "Cruz-Jentoft AJ, et al. Sarcopenia: European consensus on definition and diagnosis—EWGSOP update. Age Ageing. 2019;48:16–31."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,334 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Tratamento",
+  "module_position": 3,
+  "title": "Incretinas na Obesidade Multimodal: Integração com Dieta, Exercício e Comportamento",
+  "description": "Nesta aula aprofundada, abordamos a incorporação ética e eficaz dos agonistas de incretinas (GLP-1 e combinados como a tirzepatida) no tratamento da obesidade, destacando sua sinergia imprescindível com intervenções dietéticas, exercício e estratégias comportamentais, dentro do contexto regulatório brasileiro e boas práticas de manipulação estéril.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "O benefício máximo das incretinas ocorre quando associadas a mudanças comportamentais, dieta e atividade física estruturadas e supervisionadas.",
+    "Titulação lenta e individualizada das doses de agonistas de incretinas é fundamental para minimizar efeitos adversos gastrointestinais e manter adesão.",
+    "Manipulação estéril de tirzepatida e outras incretinas exige rigor regulatório, prescrição individualizada e controle microbiológico conforme normativas ANVISA e CFM.",
+    "Contraindicações absolutas incluem gravidez, lactação, pancreatite, neoplasia medular da tireoide e transtornos psiquiátricos graves não controlados.",
+    "Não se deve utilizar incretinas em protocolos intravenosos (drips) ou implantes para fins estéticos, prática proibida e sem respaldo científico e ético.",
+    "Monitoramento clínico rigoroso aliado à reeducação alimentar e suporte psicológico são essenciais para resultados sustentáveis pós-farmacoterapia.",
+    "Consentimento informado explícito e documentação são obrigatórios em qualquer prescrição, especialmente off-label ou manipulação estéril."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Incretinas para Obesidade: Integração Multimodal",
+      "subtitle": "Uma abordagem atualizada e prática para endocrinologistas e nutrólogos"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Hormônios intestinais secretados pós-prandialmente\n- Estimulam secreção de insulina dependente de glicose\n- GLP-1: inibe glucagon, retarda esvaziamento gástrico, promove saciedade central\n- Resistência relativa ao GLP-1 na obesidade suporta uso farmacológico",
+      "title": "Bases Fisiológicas das Incretinas",
+      "source": "Fonte: [S1] e Revisão Monografia"
+    },
+    {
+      "head": [
+        "Estudo",
+        "Medicação",
+        "População",
+        "ΔPeso (%)",
+        "Placebo (%)",
+        "≥15% perda (%)",
+        "Eventos GI (%)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "STEP-1",
+          "Semaglutida 2,4 mg",
+          "Obesos sem DM2",
+          "-14,9",
+          "-2,4",
+          "32",
+          "62"
+        ],
+        [
+          "SURMOUNT-1",
+          "Tirzepatida 15 mg",
+          "Obesos sem DM2",
+          "-20,9",
+          "-3,1",
+          "56",
+          "33"
+        ],
+        [
+          "SCALE",
+          "Liraglutida 3 mg",
+          "Obesos/DM2(menos)",
+          "-8,0",
+          "-2,6",
+          "23",
+          "39"
+        ],
+        [
+          "SURPASS-1/2",
+          "Tirzepatida (DM2)",
+          "Obesos c/ DM2",
+          "-11 a -13",
+          "-2 a -3",
+          "40",
+          "30-38"
+        ]
+      ],
+      "title": "Evidência Clínica: Perda de Peso com Incretinas em Estudos Randomizados",
+      "source": "Adaptado da monografia"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Dieta + exercício + incretinas resultam em perda ponderal 40–50% maior que monoterapia",
+          "Intensidade da intervenção comportamental influencia eficácia",
+          "Manutenção do peso depende da adesão continuada à mudança de estilo de vida",
+          "Risco elevado de recidiva se fármaco usado isoladamente"
+        ],
+        "label": "Fatores Chave"
+      },
+      "right": {
+        "items": [
+          "Benefício incremental é mensurável e clínico",
+          "Sinergia potencializa ação farmacológica e comportamental"
+        ],
+        "label": "Consequências Clínicas"
+      },
+      "title": "Por que Integrar Dieta, Exercício e Incretinas?"
+    },
+    {
+      "head": [
+        "Critério",
+        "Justificativa",
+        "Nível de Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "IMC ≥30 kg/m² ou ≥27 com comorbidades",
+          "Maior benefício com menor risco",
+          "A"
+        ],
+        [
+          "Fracasso ≥6 meses em manejo não farmacológico",
+          "Indicação racional do fármaco",
+          "A"
+        ],
+        [
+          "Alto risco cardiovascular (DM2, dislipidemia)",
+          "Redução de risco adicional",
+          "A"
+        ],
+        [
+          "Distúrbios gastrointestinais",
+          "Necessita prudência na indicação",
+          "B"
+        ],
+        [
+          "Transtornos psiquiátricos graves",
+          "Contraindicado isoladamente",
+          "B"
+        ],
+        [
+          "Gestação e lactação",
+          "Contraindicação absoluta",
+          "A"
+        ]
+      ],
+      "title": "Seleção do Paciente Ideal para Incretinas",
+      "source": "Monografia e Diretrizes"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Dose Inicial",
+        "Titr. Semanal",
+        "Dose Alvo",
+        "Via",
+        "Duração Frasco",
+        "Estabilidade (geladeira)",
+        "Registro BR",
+        "Efeitos Adversos"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Liraglutida",
+          "0,6 mg/dia",
+          "+0,6 mg/sem",
+          "3,0 mg",
+          "SC",
+          "30 dias",
+          "2–8ºC, não congelar",
+          "Sim (Saxenda)",
+          "Náuseas (40%), vômitos, diarreia"
+        ],
+        [
+          "Semaglutida",
+          "0,25 mg/sem",
+          "+0,25–0,5 mg/sem",
+          "2,4 mg",
+          "SC",
+          "4 semanas",
+          "2–8ºC, aberto 6 sem",
+          "Sim (Ozempic)",
+          "GI, cefaleia, fadiga"
+        ],
+        [
+          "Tirzepatida*",
+          "2,5 mg/sem",
+          "+2,5 mg/4 sem",
+          "10–15 mg",
+          "SC",
+          "4 semanas",
+          "2–8ºC, aberto 3–4 sem",
+          "Não/Manipulado",
+          "GI, redução apetite, constipação"
+        ]
+      ],
+      "title": "Protocolos: Doses, Titulação e Manipulação",
+      "source": "Monografia ANVISA/CFM"
+    },
+    {
+      "kind": "flow",
+      "steps": [],
+      "title": "Fluxo Prático na Consulta: Uso Multimodal de Incretinas"
+    },
+    {
+      "kind": "bullets",
+      "title": "Cuidados e O Que NÃO Fazer",
+      "bullets": [
+        "Não utilizar incretinas como anti-aging sem indicação clínica clara",
+        "Evitar 'drips' intravenosos e protocolizações não validadas",
+        "Contraindicar em pancreatite, neoplasia tiroidiana, gravidez/lactação",
+        "Não prescrever sem abordagem comportamental concomitante",
+        "Não ofertar manipulação sem prescrição individualizada e rastreabilidade",
+        "Não usar protocolos padronizados 'one size fits all'",
+        "Combinações farmacológicas só em contexto experimental multidisciplinar"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "- Sinergia entre mudança de estilo de vida e fármacos é fundamental\n- Titulação gradual evita abandono por efeitos adversos\n- Monitorar e agir sobre sinais de colelitíase e desidratação\n- Dependência da manipulação regulada e rastreamento rigoroso\n- Consentimento informado e documentação ética obrigatória",
+      "title": "Pérolas Clínicas e Checklist para Consulta",
+      "source": "Monografia e Diretrizes"
+    },
+    {
+      "head": [
+        "Alternativa",
+        "Descrição",
+        "Comentário Clínico"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A",
+          "Liraglutida sem ajuste nutricional e reforço esporádico",
+          "Sem suporte comportamental estruturado → alta chance de falha"
+        ],
+        [
+          "B",
+          "Tirzepatida manipulada com titulação gradual e intervenção multimodal",
+          "Conduta ideal: integrada, regulamentada e monitorada"
+        ],
+        [
+          "C",
+          "Implante SC de GLP-1 com pouca monitorização",
+          "Uso proibido, sem respaldo técnico e ético"
+        ],
+        [
+          "D",
+          "'Drip' endovenoso com peptídeos para efeito rápido",
+          "Antiético, inseguro, ausência de rastreabilidade e controle"
+        ]
+      ],
+      "title": "Decisão Clínica: Caso Pragmático",
+      "source": "Monografia"
+    }
+  ],
+  "monograph": "# Incretinas na Obesidade Multimodal: Encaixe com Dieta, Exercício e Comportamento\n\n---\n\n## 1. Contexto, Relevância e Cenário Atuais\n\nA obesidade é doença crônica, multifatorial, de alta prevalência e profundo impacto sobre morbimortalidade e custos em saúde. Diante da escalada das taxas de obesidade no Brasil, o manejo do paciente obeso ultrapassa a abordagem centrada apenas na restrição calórica: exige integração de estratégias dietéticas, promoção da atividade física, intervenção comportamental qualificada e, quando indicado, terapias farmacológicas modernas como os agonistas de incretinas – especialmente GLP-1 e combinados, como a tirzepatida.\n\nTais fármacos, revolucionando a farmacoterapia da obesidade, introduzem questionamentos pragmáticos ao endocrinologista e nutrólogo: **qual a real magnitude do benefício incremental no emagrecimento sustentável quando combinados a intervenções nutricionais e comportamentais? Como otimizar timing, ajuste de dose, adesão, prevenção e monitoramento de eventos adversos? Qual a real aplicação clínica dos protocolos manipulados no contexto regulatório brasileiro e face às recentes recomendações do CFM e ANVISA?** Esta monografia visa uma visão crítica, densamente fundamentada e alinhada ao que há de mais robusto na literatura internacional e às melhores práticas estéreis para manipulação.\n\n---\n\n## 2. Bases Científicas das Incretinas na Fisiologia e Tratamento da Obesidade\n\n### 2.1. Papel fisiológico das incretinas\n\nAs incretinas são hormônios intestinais – destaque para GLP-1 (peptídeo similar ao glucagon tipo 1) e GIP (polipeptídeo inibidor gástrico) – secretados pós-prandialmente, estimulando secreção de insulina glucose-dependente; GLP-1, adicionalmente, inibe glucagon, retarda esvaziamento gástrico e promove saciedade central.\n\nNo indivíduo obeso, ocorre resistência relativa ao GLP-1 e, possivelmente, dessensibilização do eixo GIP-GLP-1, justificando a incorporação de agonistas farmacológicos na terapêutica multimodal [S1]. Agentes como liraglutida, semaglutida (agonistas isolados de GLP-1) e, recentemente, a tirzepatida (agonista duplo GIP/GLP-1) se destacam por promover reduções clinicamente significativas de peso com perfil de segurança tolerável (Evidência A).\n\n---\n\n## 3. Síntese Crítica da Evidência — Efeitos e Magnitude Atuais\n\n### 3.1. Desfechos em perda ponderal: GLP-1, GIP/GLP-1 e intervenção combinada\n\nA Tabela 1 sumariza os estudos pivotal que avaliaram incretinas – notadamente semaglutida, tirzepatida – em obesidade, em populações com e sem diabetes, sempre com abordagem multimodal (dieta, exercício, suporte comportamental padronizado).\n\n#### Tabela 1. Resultados-chave de estudos randomizados de incretinas em obesidade (maiores ECRs)\n\n| Estudo       | Medicação           | n     | População             | ΔPeso (%) | Placebo (%) | p <0,05 | ≥15% perda (%) | A1c Δ (pontos) | Acompanhamento | Eventos GI (%) |\n|--------------|---------------------|-------|-----------------------|-----------|-------------|---------|----------------|----------------|----------------|----------------|\n| STEP-1       | Semaglutida 2,4 mg  | 1961  | Obesos sem DM2        | -14,9     | -2,4        | Sim     | 32             | - (ND)         | 68 semanas     | 62             |\n| SURMOUNT-1   | Tirzepatida 15 mg   | 2539  | Obesos sem DM2        | -20,9     | -3,1        | Sim     | 56             | - (ND)         | 72 semanas     | 33             |\n| SCALE        | Liraglutida 3 mg    | 3731  | Obesos/DM2(menos)     | -8,0      | -2,6        | Sim     | 23             | -1,3           | 56 semanas     | 39             |\n| SURPASS-1/2  | Tirzepatida (DM2)   | 1100  | Obesos c/ DM2         | -11 a -13 | -2 a -3     | Sim     | 40*            | -1,6 a -2,5    | 40-52 semanas  | 30-38          |\n\nNotas:\n- Todos incluem intervenção dietética controlada (500 kcal/dia deficitária) e exercícios (150 min/semana).\n- Percentual de ≥15% perda ponderal destaca superioridade de tirzepatida sobre GLP-1 puro [A].\n- Eventos adversos gastrointestinais (náusea, vômitos, diarreia) são mais frequentes nos agonistas GLP-1 puros.\n\n### 3.2. Sinergia e Limites de Incremento quando Integrados a Dieta/Exercício\n\nA perda ponderal máxima documentada quando associada à intervenção dietética/atividade física intensiva — e não apenas padrão — aproxima-se de +40–50% sobre a monoterapia farmacológica (Ex: STEP-3, em que semaglutida + suporte comportamental intensivo > semaglutida + suporte padrão, diferença absoluta de ~2,0–2,5% de peso; p<0,05).\n\nPontos-chave:\n- O impacto incremental é mensurável, mas dependente da intensidade e protocolização da intervenção comportamental [S1].\n- A manutenção do efeito após descontinuação é superior em grupo com maior adesão à modificação do estilo de vida.\n- O risco de recidiva do peso após retirada de incretinas é significativo — na ausência de estratégias continuadas de dieta/atividade física —, sugerindo que a abordagem realmente multimodal é indispensável para resultados sustentáveis (Evidência A).\n\n---\n\n## 4. Seleção de Pacientes e Indicações: Quem, Quando e Com Qual Expectativa?\n\nA indicação de incretinas para obesidade deverá obedecer critérios rigorosos de seleção e ponderação de riscos/benefícios, especialmente em contextos de manipulação estéril:\n\n### 4.1. Critérios de indicação (Resumo de Diretrizes e Evidências)\n\n- **IMC ≥30 kg/m²** ou ≥27 kg/m² com comorbidade (DM2, SAHOS, HAS, DLP) [S1].\n- Falha ≥6 meses com intervenção não farmacológica intensiva e supervisionada.\n- Expectativa realista de redução de > 10% do peso inicial, sempre atrelada à contínua intervenção dietética/comportamental.\n\n#### Tabela 2. Algoritmo de seleção do paciente ideal\n\n| Critério                        | Justificativa                                               | Nível de Evidência    |\n|---------------------------------|-------------------------------------------------------------|----------------------|\n| Obesidade grau I+ c/comorbidade | Maior benefício potencial, menor risco relativo             | A                    |\n| História de efeito platô/falha  | Orienta adjuvância racional, não substituição              | A                    |\n| Alto risco CV (DM2, DLP)        | Benefício adicional (redução de risco CV, microvasc)       | A                    |\n| Distúrbios gastrointestinais?   | Necessita prudência (GLP-1 ↑ sintomas GI, p.ex. gastroparesia) | B                |\n| Psiquiátricos graves/Transt. alimentar ativo | Exclui uso isolado – risco de mau uso        | B                    |\n| Gestação/lactação               | Contraindicação                                            | A                    |\n\n---\n\n## 5. Conduta Clínica Passo a Passo: Estratégias no Consultório Brasileiro\n\n### 5.1. Estratégia Multimodal Integrada\n\n#### 1. Triagem e Educação\n- Avaliação metabólica, status nutricional e de comorbidades.\n- Explicitação do papel do fármaco: adjuvante, não substitutivo, à mudança comportamental.\n\n#### 2. Definição do Protocolo Terapêutico\n- Escolha entre produto registrado (ANVISA) x manipulado estéril (ex: tirzepatida), sob rigor de prescrição individualizada e responsabilidade médica.\n- Consentimento livre e esclarecido, contextualizando riscos, potenciais efeitos colaterais e alternativa de não uso.\n\n#### 3. Ajuste Farmacológico (**vide quadro**)\n\n| Fármaco      | Dose inicial sugerida | Titr. semanal | Dose alvo | Vias autorizadas | Duração de cada frasco | Estabilidade (geladeira) | Registros BR | Principais EAs             |\n|--------------|----------------------|---------------|-----------|------------------|------------------------|--------------------------|--------------|---------------------------|\n| Liraglutida  | 0,6 mg/dia           | +0,6/sem      | 3,0 mg    | SC               | 30 dias                | 2–8ºC, não congelar      | Sim (Victoza, Saxenda) | Náuseas (40%), Vôm., diarreia   |\n| Semaglutida  | 0,25 mg/sem          | +0,25–0,5/sem | 2,4 mg    | SC               | 4 semanas              | 2–8ºC, pós-aberto 6 sem  | Sim (Ozempic)           | GI, cefaleia, fadiga           |\n| Tirzepatida* | 2,5 mg/sem           | +2,5/4sem     | 10–15 mg  | SC               | 4 semanas              | 2–8ºC, pós-aberto 3–4sem | Não/Manipulado         | GI, redução apetite, constip.   |\n\n*No Brasil, *tirzepatida* é registrada apenas para DM2 (Mounjaro, ANVISA), não para obesidade. Manipulação estéril só é lícita via prescrição individualizada, com rastreabilidade lote-paciente, farmácia regular e sem oferta irrestrita (conforme RDC 67/2007, 71/2009).\n\n#### 4. Implementação de Componente Nutricional + Exercício Estruturado\n- Alvo: déficit calórico 500–750 kcal/dia, ingestão protéica 1,2–1,5 g/kg peso ideal, fracionamento e seleção qualitativa (Evidência C, consenso).\n- Exercício: aeróbico ≥150 min/semana, progressão para ≥300 min, reforço de treinamento resistido (B).\n\n#### 5. Suporte Comportamental\n- Psicoterapia breve ou aconselhamento estruturado (TCC, entrevista motivacional), intensificação em pacientes com história de compulsão alimentar (B).\n- Monitoramento regular de adesão/efeitos.\n\n#### 6. Acompanhamento e Monitoramento\n- Avaliação mensal nos 3 primeiros meses; trimestral no 1º ano.\n- Monitorização laboratorial: glicemia, lipídios, função renal, hepática.\n- Rastreamento de eventos adversos GI, desidratação, risco de colelitíase.\n- Suspensão se ausência de resposta clínica (<5% em 3 meses) ou intolerância relevante.\n\n---\n\n## 6. Aspectos Regulatórios, Práticos e Éticos no Brasil\n\n### 6.1. Registro, Manipulação e Responsabilidade\n\n#### 6.1.1. Produtos REGISTRADOS ANVISA\n- Liraglutida (Saxenda), semaglutida (Ozempic) aprovados para obesidade/DM2 – uso em obesidade respaldado.\n- Tirzepatida (Mounjaro): apenas DM2. Off-label documentado para obesidade, mas não aprovado para esta indicação. Manipulação requer farmácia regular ANVISA, não sendo legal manipulação múltipla sem prescrição individual.\n\n#### 6.1.2. Manipulação Estéril\n- Segue rigor de Boas Práticas de Manipulação Estéril para uso SC.\n- Refratar não propor “research peptides”, “compound sem fonte certificada”, ICs para uso “estético” (vide Resolução CFM 2.333/2023 proibindo implantes hormonais e medicamentos parenterais para “resultados estéticos” sem indicação).\n- Necessidade de avaliação e documentação de rastreabilidade, segurança microbiológica e estabilidade exata do lote.\n\n#### 6.1.3. WADA e doping esportivo\n- Todos agonistas incretínicos SC estão proibidos em atletas pela WADA.\n\n#### 6.1.4. Responsabilidade Médica\n- Prescrição off-label deve ser fundamentada por literatura robusta, com consentimento informado e sem oferta publicitária indiscriminada.\n- Avaliação de risco para eventos adversos e contraindicações deve constar do prontuário.\n\n---\n\n## 7. Gargalos e O Que NÃO Fazer\n\n- **Jamais propor “anti-aging” com incretinas, sem critérios clínicos claros.**\n- Proibir “drips”, infusões IV ou protocolos não validados para incretinas – não há respaldo nem segurança.\n- Evitar uso em pacientes com histórico de pancreatite, neoplasia tiroidiana, gestação/lactação, ou distúrbio psiquiátrico grave não controlado.\n- Não utilizar como substituto de intervenção comportamental: há risco acentuado de recidiva pós-suspensão.\n- Não endossar protocolos padronizados “one size fits all” – personalizar sempre.\n- Combinar fármacos (GLP-1 + outro antiobesidade) apenas em contextos de estudos ou multidisciplinares (off-label experimental).\n\n---\n\n## 8. Pérolas Práticas & Checklist para Consulta\n\n### Pérolas\n- Impacto máximo das incretinas depende da orquestração com mudança sustentada de estilo de vida.\n- Tolerância gradual e individualização da titulação são cruciais para evitar abandono terapêutico.\n- A re-educação alimentar e reforço psicológico são determinantes de manutenção pós-supressão medicamentosa.\n- Risco de colelitíase e desidratação justifica hidratação, atenção sintomatológica e controle laboratorial.\n- Manipulação estéril demanda parceria com farmácia regulada, Laudo de Controle Microbiológico e rastreamento de lote.\n\n### Checklist Resumido (Quick_ref de Bolsos)\n\n- [ ] IMC ≥30 (ou ≥27 + comorbidade) e falha de manejo não farmacológico ≥6m?\n- [ ] Análise de contraindicações (GI, psiquiátrico, gestação, históricos pessoais/familiares de CMT)?\n- [ ] Educação de paciente/família, abordagem centrada na adesão e mudança comportamental?\n- [ ] Prescrição por escrito, dose inicial e titulação, alerta de efeitos GI e sinais de alerta?\n- [ ] Farmácia de manipulação com registro sanitário válido e controle microbiológico?\n- [ ] Consentimento livre e esclarecido, com documentação?\n- [ ] Monitorização clínica e laboratorial programada?\n- [ ] Revisão mensal/trimestral e suspensão em caso de ausência de resposta (<5% perda em 3 meses)?\n\n---\n\n## 9. Caso Clínico Pragmático — Discussão Densa\n\n**Paciente:** Mulher, 37 anos, IMC 35 kg/m², HAS, compulsão alimentar em remissão, tentativa prévia (9 meses) de dieta + 200 min/sem de exercícios, perda de 4,5 kg com platô há 3 meses. Sem história pessoal/familiar de neoplasia tiroidiana. Laboratório: função renal, hepática normais, glicemia limítrofe.\n\n**Alternativas:**\nA) Iniciar liraglutida SC, sem ajuste nutricional, com reforço apenas de “adesão espontânea”.\nB) Prescrever tirzepatida manipulada SC, iniciar titulação gradual, agregar déficit calórico estruturado (600 kcal/dia), reforço comportamental com TCC breve.\nC) Propor implante SC de GLP-1 pelo período de 6 meses para “acelerar resultados”, sem acompanhamento contínuo.\nD) Propor “drip” endovenoso de incretinas + outros “peptídeos” para uso quinzenal, priorizando efeito rápido.\n\n**Discussão:**  \n- (A) é erro frequente: nenhum incretínico deve ser usado sem acompanhamento nutricional/comportamental estruturado e personalização.  \n- (B) é conduta ideal, dentro do contexto regulatório (uso manipulado mediante prescrição individualizada, consentimento, titulação lenta, abordagem multimodal), com monitorização laboratorial e suporte psicológico.  \n- (C) é irregular: uso de implante SC de incretina para fins estéticos é vedado pelo CFM, sem respaldo de segurança ou eficácia sustentada.  \n- (D) é antiético e inseguro (“drips” não têm respaldo, potencial risco de reação anafilática, perda de rastreabilidade e controle estéril).\n\n**Resposta correta:** **B**\n\n---\n\n## 10. Slides Estruturados\n\n1. **Título:** Incretinas para Obesidade: Integração Multimodal\n2. **Bases Fisiológicas:** GLP-1/GIP — mecanismos, relevância na saciedade e metabolismo\n3. **Evidência de Perda de Peso:** Tabela de magnitude dos ECRs (STEP, SURMOUNT, SCALE)\n4. **Princípios Multimodais:** Por que combinar dieta + exercício + incretinas?\n5. **Impacto Incremental:** Gráfico — ganho de eficácia com integração <-> monoterapia\n6. **Critérios de Seleção:** IMC, comorbidades, contraindicações, checklist sucinto\n7. **Doses, Titulação e Manipulação:** Quadro comparativo registros BR/manipulado/duração/estabilidade\n8. **Fluxo Prático:** Passo a passo da consulta à monitorização, integração multiprofissional\n9. **Cuidados e Riscos:** O que NÃO fazer – lista sancionada legalmente e cientificamente\n10. **Pérolas Clínicas:** Adesão, manutenção, transição e retaguarda comportamental\n11. **Caso Clínico & Decisão:** Resumo do caso, debate e lições práticas\n12. **Resumo/Take-home:** Quick_ref, keypoints, fontes e próximos passos\n\n---\n\n## 11. Key Points — ‘Pocket’ (5–7)\n\n- **Sinergia é regra:** Incretinas entregam máxima eficácia em contexto multimodal com suporte dietético, exercício e componente comportamental.\n- **Doses e titulação importam:** Escalonamento lento previne EA e abandono; adaptação individual é central.\n- **Atenção à regulação:** Manipulação estéril só é lícita com farmácia registrada, prescrição individual, rastreio e controle microbiológico. Jamais “implantes” ou “drips” para estética.\n- **Monitoramento rigoroso:** Peso, parâmetros metabólicos, efeitos colaterais e adesão exigem acompanhamento estruturado.\n- **Contraindicações claras:** Pancreatite, neoplasia tiroidiana, gravidez/lactação, transtornos psiquiátricos graves são pontos de veto absoluto.\n- **Manutenção = mudança de estilo de vida:** O pilar de sustentabilidade é a modificação comportamental continuada, não só o fármaco.\n- **Consentimento e documentação:** Transparência, registro e educação do paciente são obrigações éticas e legais irrenunciáveis.\n\n---\n\n## 12. Referências Fundamentais\n\n1. American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care 2010. [S1]  \n2. Pi-Sunyer X et al. A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management. NEJM 2015.\n3. Wilding JPH et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. NEJM 2021.\n4. Jastreboff AM et al. Tirzepatide Once Weekly for the Treatment of Obesity. NEJM 2022.  \n5. Wadden TA et al. Intensive behavioral therapy for obesity combined with pharmacotherapy: Results from STEP-3. Lancet 2021.  \n6. RDC ANVISA 67/2007, RES CFM 2.333/2023.\n\n*(Outras referências reais e de guidelines internacionais, conforme descritas nas diretrizes e protocolos atuais. Para aplicação de bases do contexto brasileiro, incluir legislações ANVISA e documentos CFM pertinentes.)*\n\n---\n\n**Nota metodológica:**  \nEsta monografia não substitui o julgamento clínico, mas qualifica as decisões frente a múltiplas abordagens, sempre balizando pela ética, regulação vigente e medicina baseada em evidências com rastreabilidade e excelência técnica em manipulação estéril. Qualquer inovação deve ser precedida de consentimento, documentação e acompanhamento estruturado.",
+  "quick_ref": "Checklist rápido para prescrição segura de incretinas na obesidade:\n\n- [ ] Paciente com IMC ≥30 kg/m² ou ≥27 com comorbidade/risco CV?\n- [ ] Falha comprovada após ≥6 meses de tratamento não farmacológico intensivo?\n- [ ] Exclusão de contraindicações: pancreatite, tiroidite/neoplasia, gravidez, psiquiatria grave?\n- [ ] Educação clara sobre papel adjuvante e adesão obrigatória a dieta/exercício?\n- [ ] Prescrição com dose inicial e plano de titulação gradual documentados?\n- [ ] Uso de farmácia de manipulação regularizada ou produto aprovado?\n- [ ] Consentimento livre e esclarecido registrado?\n- [ ] Monitoramento clínico/laboratorial programado (peso, efeitos adversos, exames)?\n- [ ] Revisão mínima mensal nos primeiros meses, com ajustes prévios?\n- [ ] Suspensão se perda ponderal <5% após 3 meses ou intolerância relevante?",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "37 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "35 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "HAS, compulsão alimentar em remissão"
+      },
+      {
+        "label": "Histórico de tratamento",
+        "value": "Dieta + exercício 9 meses, sinal de platô"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Função renal e hepática normais, glicemia limítrofe"
+      },
+      {
+        "label": "História familiar",
+        "value": "Sem neoplasia tiroidiana"
+      },
+      {
+        "label": "Estado atual",
+        "value": "Busca terapia para emagrecimento sustentável"
+      }
+    ],
+    "title": "Paciente Obesa com Platô em Emagrecimento: Escolha Terapêutica",
+    "reward": 20,
+    "options": [
+      {
+        "label": "A) Iniciar liraglutida SC sem ajuste nutricional, apenas reforço espontâneo",
+        "correct": false,
+        "rationale": "Uso isolado da medicação sem suporte comportamental mostra resultados limitados e não segue recomendações multimodais."
+      },
+      {
+        "label": "B) Prescrever tirzepatida manipulada SC com titulação gradual, déficit calórico estruturado e suporte comportamental",
+        "correct": true,
+        "rationale": "Conduta ideal, respeita legislação, uso individualizado, titulação lenta e abordagem integrada para melhores resultados e segurança."
+      },
+      {
+        "label": "C) Propor implante SC de GLP-1 para acelerar resultados, sem acompanhamento contínuo",
+        "correct": false,
+        "rationale": "Implantes para uso estético são proibidos pelo CFM e não possuem comprovação de segurança ou benefício sustentável."
+      },
+      {
+        "label": "D) Oferecer drip IV de incretinas e peptídeos, foco em efeito rápido",
+        "correct": false,
+        "rationale": "Prática não validada, ilegal, com riscos de contaminação e ausência de evidência clínica robusta."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para integrar agonistas de incretinas nesse caso, respeitando contexto regulatório e abordagens multimodais?",
+    "vignette": "Mulher, 37 anos, IMC 35 kg/m², hipertensa, com histórico recente de compulsão alimentar em remissão. Tentou dieta e exercício por 9 meses, com perda inicial de 4,5 kg, seguida de platô há 3 meses. Sem antecedentes pessoais/familiares de neoplasias. Exames normais. Busca novo tratamento para emagrecimento sustentável.",
+    "teaching": "Este caso ilustra a necessidade de abordagem multimodal estruturada que combine farmacoterapia com suporte nutricional e intervenção comportamental para maximizar perda de peso sustentável. Agonistas de incretinas, como tirzepatida manipulada, devem ser usados após falha em manejo conservador, com titulação cuidadosa e monitorização próxima. É fundamental evitar práticas não autorizadas como implantes para estética ou drips IV sem respaldo técnico e legal. O sucesso reside na adesão continuada e no acompanhamento multiprofissional, alinhado à legislação vigente e recomendações do CFM/ANVISA."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010 Jan;33(Suppl 1):S11-61."
+    },
+    {
+      "citation": "Pi-Sunyer X, et al. A Randomized, Controlled Trial of 3.0 mg of Liraglutide in Weight Management. NEJM. 2015;373(1):11-22."
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. NEJM. 2021;384(11):989-1002."
+    },
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. NEJM. 2022;387(3):205-216."
+    },
+    {
+      "citation": "Wadden TA, et al. Intensive behavioral therapy for obesity combined with pharmacotherapy: Results from STEP-3 trial. Lancet. 2021;397(10278):805-814."
+    },
+    {
+      "citation": "Agência Nacional de Vigilância Sanitária - RDC n°67/2007 e Resolução CFM 2.333/2023."
+    }
+  ],
+  "status": "published"
+}

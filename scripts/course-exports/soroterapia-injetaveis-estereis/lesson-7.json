@@ -1,0 +1,310 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Prescrição e Purus",
+  "module_position": 4,
+  "title": "Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio",
+  "description": "Esta aula aborda a prescrição ética e tecnicamente adequada de medicamentos injetáveis manipulados, com foco em endocrinologistas, nutrólogos e clínicos brasileiros. Apresenta fundamentos científicos, critérios regulatórios do CFM e ANVISA, elementos técnicos da prescrição, seleção e avaliação da farmácia manipuladora estéril (padrão Purus), monitoramento, farmacovigilância e rastreabilidade, além de um caso clínico realista, materiais resumidos e checklists práticos para o consultório.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Prescrição de injetáveis manipulados requer justificativa clínica robusta e CID explícito, respaldada por evidência científica (preferencialmente níveis A ou B).",
+    "Não prescrever peptídeos de pesquisa (research peptides), GH para anti-aging, nem “drip” vitamínico sem diagnóstico laboratorial que justifique.",
+    "Escolher farmácias de manipulação estéril que atendam ao padrão Purus: cleanroom ISO 5–7, rastreabilidade total de lotes e laudos de pureza e esterilidade.",
+    "Monitorar ativamente o paciente após início da terapia, registrar reações adversas e notificar ANVISA e a farmácia em caso de eventos graves.",
+    "Receita deve conter dados completos: identificação do paciente, CID, dose, via, duração, justificativa clínica com referência a evidência e dados da farmácia manipuladora.",
+    "Orientar o paciente a guardar comprovantes de lote e comunicar qualquer reação adversa imediatamente.",
+    "Manter prontuário robusto com consentimento informado, histórico de tentativas terapêuticas, e documentação rigorosa para ética e defesa legal."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio",
+      "subtitle": "Curso: Soroterapia e Injetáveis Estéreis • Módulo 4\nPúblico-alvo: Endocrinologistas, Nutrólogos e Clínicos Brasileiros Exigentes - Doutiva & Purus"
+    },
+    {
+      "head": [
+        "Classe de Produto",
+        "Evidência Necessária",
+        "Registro/Status",
+        "Exemplos"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Medicamento registrado",
+          "ECR fase 3/diretriz; bula",
+          "ANVISA",
+          "Insulina, vacinas"
+        ],
+        [
+          "Off-label documentado",
+          "Observacional robusto; posicionamento",
+          "Registro ANVISA ≠ CID",
+          "Tirzepatida para obesidade sem DM2"
+        ],
+        [
+          "Manipulado",
+          "Série/PK humana; farmacologia",
+          "Farmacotécnicos; normativas",
+          "Complexo B IM, soros, implantes hormonais"
+        ],
+        [
+          "Irregular/sem registro",
+          "Opinião, pré-clínico, modismo",
+          "NUNCA PRESCREVER",
+          "Peptídeos research, GH anti-aging"
+        ]
+      ],
+      "title": "Hierarquia de Evidência e Status Regulatório dos Injetáveis Clínicos no Brasil"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente avaliado e candidato?"
+        },
+        {
+          "label": "Indicação com evidência e diretriz?"
+        },
+        {
+          "label": "Elaborar justificativa clínica clara e CID correto"
+        },
+        {
+          "label": "Selecionar farmácia estéril qualificada (padrão Purus)"
+        },
+        {
+          "label": "Emitir receita detalhada (dose, via, duração, conservação)"
+        },
+        {
+          "label": "Receber laudo e código de lote da farmácia"
+        },
+        {
+          "label": "Iniciar farmacovigilância e monitorar o paciente"
+        },
+        {
+          "label": "Reavaliar e ajustar conforme segurança e resposta"
+        }
+      ],
+      "title": "Fluxo Ético para Prescrição de Injetável Manipulado"
+    },
+    {
+      "kind": "bullets",
+      "title": "Elementos Obrigatórios da Receita para Injetáveis Manipulados",
+      "bullets": [
+        "Identificação completa do paciente (nome, sexo, idade, peso)",
+        "Diagnóstico formal com CID correspondente",
+        "Indicação clínica com justificativa sustentada em evidência (citar estudos e diretrizes)",
+        "Nome farmacológico do medicamento, dose, via de administração, frequência e duração clara",
+        "Informação do lote e fornecedor da farmácia manipuladora",
+        "Dados da farmácia manipuladora (CRF, licença sanitária)",
+        "Data, assinatura manuscrita ou digital e CRM do médico prescritor"
+      ]
+    },
+    {
+      "head": [
+        "Critério",
+        "Requisito Essencial",
+        "Sinalização de Risco",
+        "Padrão Purus"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Certificação Sanitária",
+          "Licença ANVISA e CRF ativo",
+          "Ausência = farmácia não segura",
+          "Sim"
+        ],
+        [
+          "Estrutura Física",
+          "Cleanroom ISO 5–7, pressão positiva, fluxo unidirecional",
+          "Ambiente geral ou sem cleanroom",
+          "Sim"
+        ],
+        [
+          "Controle de Qualidade",
+          "Testes de endotoxinas e esterilidade regulares",
+          "Falta de laudos ou testes",
+          "Sim"
+        ],
+        [
+          "Qualificação Técnica",
+          "Farmacêuticos treinados em manipulação estéril",
+          "Ausência de farmacêutico responsável",
+          "Sim"
+        ],
+        [
+          "Rastreabilidade do Lote",
+          "Documentação completa do lote e pureza",
+          "Falta de rastreio e ocultação",
+          "Sim"
+        ]
+      ],
+      "title": "Critérios Objetivos para Escolha da Farmácia Estéril (Padrão Purus)"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Peptídeos “research” sem registro e sem laudo de pureza/esterilidade",
+          "Hormônios e anabolizantes para fins estéticos ou anti-aging não autorizados pelo CFM",
+          "“Drip” vitamínico sem deficiência laboratorial comprovada",
+          "Produtos manipulados sem farmácia certificada nem rastreabilidade"
+        ],
+        "label": "Práticas Inadequadas"
+      },
+      "right": {
+        "items": [
+          "GH anti-aging: Resolução CFM 2.333/2023 proíbe uso estético",
+          "Importação ilegal de medicamentos via sites não regulamentados",
+          "Uso off-label sem CID ou justificativa clínica válida",
+          "Manipulação irregular: riscos de infecção e eventos adversos graves"
+        ],
+        "label": "Consequências e Regras CFM/ANVISA"
+      },
+      "title": "O Que Jamais Prescrever em Consulta Clínica"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento e Farmacovigilância",
+      "bullets": [
+        "Documentar efeitos adversos locais e sistêmicos no prontuário",
+        "Conferir e registrar lote/fornecedor em cada administração",
+        "Notificar ANVISA e farmácia na ocorrência de eventos sérios (ex: anafilaxia, sepse)",
+        "Orientar o paciente sobre conservação, validade e cuidados",
+        "Reavaliar a terapia regularmente e ajustar dose ou suspender se necessário"
+      ]
+    },
+    {
+      "head": [
+        "Produto",
+        "Evidência",
+        "Registro ANVISA",
+        "Uso Off-label",
+        "Manipulado",
+        "Permitido pelo CFM"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida (obesidade)",
+          "A",
+          "Sim (aprovado para DM2)",
+          "Sim (obesidade sem DM2)",
+          "Sim (SC por farmácia qualificada)",
+          "Sim"
+        ],
+        [
+          "BPC-157",
+          "C/D",
+          "Não",
+          "Não",
+          "Não recomendado",
+          "Não"
+        ],
+        [
+          "GH (anti-aging)",
+          "D",
+          "Sim (patologias específicas)",
+          "Não",
+          "Não uso estético",
+          "Não"
+        ],
+        [
+          "Soro complexo vitamina C",
+          "C",
+          "Não",
+          "Sim",
+          "Sim",
+          "Sim"
+        ]
+      ],
+      "title": "Resumo Comparativo: Opções Terapêuticas e Status no Brasil"
+    }
+  ],
+  "monograph": "# Como Prescrever Injetável Manipulado com Qualidade: Receita, Justificativa e Rastreio\n\n*Para Endocrinologistas, Nutrólogos e Clínicos Brasileiros Exigentes*\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nO uso criterioso de terapias injetáveis manipuladas – sejam elas hormônios, peptídeos (p. ex., tirzepatida, semaglutida), vitaminas ou soros customizados – ampliou de modo significativo o arsenal de atuação de endocrinologistas, nutrólogos e clínicos voltados à medicina de precisão, longevidade e gestão metabólica. Contudo, práticas não lastreadas em evidências, ausência de rigor na escolha de laudos/farmácias, e erros na documentação legal vêm expondo médicos e pacientes a riscos éticos, sanitários e jurídicos consideráveis.\n\n**Nesta monografia**, delineia-se conduta baseada em tratado – não em blog ou marketing –, oferecendo subsídio para:\n\n- Elaboração criteriosa de prescrição e justificativa clínica;\n- Avaliação de evidência, segurança, registro, rastreabilidade de lotes;\n- Seleção técnica da farmácia estéril;\n- Cumprimento das normas do CFM (incluindo Res. 2.333/2023), ANVISA e boas práticas manipulativas.\n\nNosso escopo evita modismos: não se aborda ou estimula o uso de \"peptídeos de pesquisa\" (research peptides), GH para anti-aging cosmético, \"drip\" sem deficiência laboratorial, nem implantes meramente estéticos.\n\n**Referência normativa, de segurança e rastreabilidade: Purus** (escola-modelo de manipulação estéril de excelência).\n\n---\n\n## 2. Fundamentos Científicos e Hierarquia de Evidência\n\nA prescrição injetável individualizada deve sempre obedecer à hierarquia de evidência, à farmacologia humana, e ao posicionamento do CFM e órgãos regulatórios. Destacamos:\n\n|   Classe de Produto    | Evidência Necessária                  | Registro/Status           | Exemplos                                                    |\n|:----------------------:|:--------------------------------------|:-------------------------:|:------------------------------------------------------------|\n| Medicamento registrado | ECR fase 3/diretriz; bula             | ANVISA                    | Meningite C, insulina, vacinas                              |\n| Off-label documentado  | Observacional robusto; posicionamento | Registro ANVISA ≠ CID     | Tirzepatida para emagrecimento em obesidade (sem DM2) (*[S1]*) |\n| Manipulado             | Série/PK humana; farmacologia         | Farmacotécnicos; normativas| Complexo B IM, soro, implantes hormonais                     |\n| Irregular/sem registro| Opinião, pré-clínico, modismo         | NUNCA PRESCREVER          | Semaglutida \"canetinha\" sem registro, peptides \"research\"    |\n\n**Table 1: Hierarquia de Evidência e Status Regulatório dos Injetáveis Clínicos no Brasil**\n\n| Produto                   | Evidência (A–D) | Registro ANVISA | Uso Off-label | Manipulação Estéril | Permitido CFM* |\n|---------------------------|-----------------|:---------------:|:-------------:|:------------------:|:--------------:|\n| Tirzepatida (obesidade)** | A               | Sim (DM2)       | Sim           | Sim (individual)   | Sim            |\n| BPC-157                   | C/D             | Não             | Não           | Não recomendado    | Não            |\n| GH (anti-aging)           | D               | Sim (patologias)| Não           | Não (estético)     | Não            |\n| Soro complexo vitamina C  | C               | Não             | Sim           | Sim (critérios)    | Sim            |\n\n\\*Segundo Resolução CFM 2.333/2023 e posicionamento Doutiva [S1].  \n**Na ausência de DM2, uso para obesidade é off-label (há ECRs de obesidade, mas não registro específico) [S2].\n\n---\n\n## 3. Elementos Fundamentais da Prescrição de Injetáveis Manipulados\n\nA prescrição de terapia injetável manipulada exige formalismo inquestionável, contemplando os seguintes pontos:\n\n### 3.1 Elementos Obrigatórios da Receita\n\n- **Identificação do paciente**: Nome completo, sexo, idade, peso (importante para cálculo de dose individualizada de injetáveis).\n- **Diagnóstico/CID**: Obrigatório para rastreabilidade e justificativa clínica. Exemplo: E66.0 (Obesidade), E11.9 (Diabetes tipo 2).\n- **Produto e dose**: Nome farmacológico (sem nomes comerciais exclusivos), concentração, volume total e por administração, via (IM, SC, IV), frequência, duração.\n- **Justificativa clínica explícita**: Texto sucinto, referenciando diretriz, ECR ou racional farmacológico. Ex: “Tirzepatida utilizada para redução ponderal, com ECRs em obesidade [S2], ausência de DM2, após falha de medidas não farmacológicas.”\n- **Informação de lote/fornecedor**: Em anexo ou via laudo/etiqueta, sempre que possível.\n- **Responsável técnico da farmácia**: Citar CRF/Farmácia de preferência.\n- **Data, CRM e assinatura manuscrita/digital certificada**.\n\n### 3.2 Justificativa Clínica e Documental\n\n- **Relacionamento explícito CID ↔ racional farmacológico**;\n- Citar evidência aplicada (preferencialmente A ou B, ver seção 2);\n- Mencionar falha/contraindicação/intolerância a terapêutica padrão, se off-label ou manipulado;\n- Documentar – em prontuário – tentativa de opções já estabelecidas (quando cabível).\n\n### 3.3 Rastreabilidade e Farmacovigilância\n\n- **Lote e fornecedor**: Solicitar ao paciente e farmácia comprovante de lote e laudo de pureza/esterilidade.\n- **Registro de reações adversas**: Monitorar e documentar em prontuário; notificar a ANVISA/farmácia em caso de eventos adversos graves (protocolo de farmacovigilância obrigatório).\n- **Checagem periódica do estoque e validade (farmácia)**: A responsabilidade da farmácia inclui registro, guarda e rastreio de lotes.\n\n---\n\n## 4. Critérios para Escolha de Farmácia de Manipulação Estéril\n\nA manipulação estéril é o elo crítico para garantir segurança do paciente e proteção legal do prescritor. O padrão Purus deve ser adotado como balizador:\n\n### 4.1 Critérios Objetivos\n\n| Critério                  | Requisito Purus (Referência)                                                                 |\n|--------------------------|---------------------------------------------------------------------------------------------|\n| Certificação/Regularização| ANVISA, CRF ativo, licença sanitária específica para manipulação estéril individualized     |\n| Procedência e pureza      | Laudos de matéria-prima; rastreabilidade do lote por paciente; pureza ≥99%; ausência de “research”| \n| Estrutura física          | Sala cleanroom ISO 5-7, fluxo unidirecional, pressão positiva, controle de partículas       | \n| Qualificação dos operadores| Farmacêutico responsável com expertise em estéreis, paramentação completa, treinamento regular|\n| Controle de qualidade     | Testes de endotoxina, esterilidade em amostras, retenção de biblioteca de lotes             |\n| Rotulagem                 | Nome químico, concentração, lote, vencimento, via, instrução de conservação                 |\n\n**Tabela 2: Checklist Purus para Contratação de Farmácia de Manipulação Estéril**\n\n| Item                      | Exigência mínima         | Sinalização crítica              | Purus como exemplo |\n|---------------------------|--------------------------|----------------------------------|--------------------|\n| Farmacêutico CRF ativo    | Sim                      | Ausência → NÃO usar              | Sim                |\n| Cleanroom ISO 5–7         | Sim                      | Ambiente geral                   | Sim                |\n| Documento de lote e C.Q.  | Sim                      | Sem rastreio → NÃO usar          | Sim                |\n| Receituário detalhado     | Sim                      | “Receituário aberto”/genérico    | Sim                |\n| Relatório de não-conformidade | Registrar e comunicar | “Desaparecimento” ou ocultação   | Sim                |\n\n---\n\n## 5. Fluxo Passo a Passo para Prescrição e Gestão de Injetáveis Manipulados (Figura/Sumário)\n\n### 5.1 Algoritmo Sistematizado\n\n```\nPaciente é candidato a terapia injetável?\n    ⇓\nIndicação respaldada por diretriz/ECR?\n    ⇒ NÃO: NÃO prescrever.\n    ⇒ SIM\n        ⇓\nAvaliar CID, status regulatório, histórico terapêutico.\n        ⇓\nElaborar justificativa clínica robusta (CID + racional + evidência).\n        ⇓\nSelecionar farmácia de manipulação estéril qualificada (padrão Purus).\n        ⇓\nEmitir receita formal detalhada, incluindo CID, doses, via, duração, conservação.\n        ⇓\nSolicitar/arquivar comprovante de lote/fornecedor e laudo de esterilidade/pureza.\n        ⇓\nInstalar farmacovigilância: rastreio de reações adversas, monitoramento de lote.\n        ⇓\nRevisitar conduta, ajustar ou suspender se insegurança/suspeita de evento adverso.\n```\n\n---\n\n## 6. Cenário Clínico Brasileiro Realista\n\n### Caso\n\nMulher, 43 anos, IMC 36 kg/m2, circunferência abdominal 112 cm, HbA1c 5,7%, sem DM, esteatose hepática grau 1 por USG, dislipidemia leve, tentou dieta-atividade supervisionada por 8 meses (perda <2 kg). História familiar de DAC precoce. Queixa de cansaço, autoestima afetada. Não faz uso de antidepressivos. Exames hepáticos e renais normais. Deseja perder peso, recusa cirurgia bariátrica.\n\nMédico avalia incluir tirzepatida SC manipulada, via farmácia Purus.\n\n#### Qual a alternativa mais robusta para prescrição ética, seguindo padrões Purus e regulação brasileira?\n\nA. Prescrever tirzepatida manipulado, sem justificativa, só CID E66 em receita simples.  \nB. Prescrever “research peptide” tirzepatida de fonte estrangeira via site, sem documentação de lote.  \nC. Prescrever tirzepatida SC, CID E66.0, detalhando dose, vias, duração, falha prévia a medidas padrão, citando evidência do uso em obesidade e anexando laudo de lote, escolhendo farmácia com laudo estéril, solicitando farmacovigilância ativa no prontuário.  \nD. Prescrever GH, DHEA e polivitamínico IV customizado via farmácia sem cleanroom, com soro “drip” semanal preventivo.\n\n**Resposta correta: C**\n\n#### Discussão\n\nA alternativa C detalha:\n\n- Critério: paciente falhou em intervenção não farmacológica;\n- Indicação respaldada por ECRs (tirzepatida em obesidade, evidência A, [S1][S2]);\n- Prescrição explícita (dose, via SC, frequência, CID, racional);\n- Seleção da farmácia manipuladora padrão Purus, com laudo de lote e esterilidade;\n- Documentação ativa de farmacovigilância e rastreabilidade no prontuário.\n\n*As demais alternativas: ilegais (B, D), juridicamente frágeis (A), antiéticas (D) ou inseguras (B).*\n\n---\n\n## 7. Monitoramento, Segurança e Rastreabilidade em Terapia Injetável Manipulada\n\n### 7.1 Aspectos Críticos de Segurança\n\n- **Monitoramento clínico pós-início**: registrar perdas ponderais, eventos adversos (náuseas, vômitos, reação local, sinais de infecção);\n- **Registro de lote/fornecedor**: conferência ativa de cada lote adquirido e administrado; documentação por etiqueta/fotografia no prontuário;\n- **Notificação compulsória**: qualquer reação grave (choque anafilático, sepse, abscesso, síndrome de extravasamento) deve ser documentada e notificada à ANVISA e à farmácia;\n- **Conservação térmica e validade**: produtos biotecnológicos demandam refrigeração (2–8 °C), uso em até X dias após abertura — variar conforme substância e apresentação;\n- **Evitar uso além do racional**: não prolongar terapêutica ou aumentar dose sem respaldo evidente.\n\n### 7.2 O que NÃO Prescrever\n\n- Não utilizar ou sugerir **peptides “research”, sem rastreio de pureza/esterilidade**.\n- Não indicar **GH, gonadotrofinas, análogos ou esteroides para finalidades puramente estéticas/anti-aging** (Res. CFM 2.333/2023, [S1]).\n- Não utilizar “drips” vitamínicos sem documentação de carência laboratorial.\n- Jamais prescrever, importar ou administrar substâncias não registradas.\n\n---\n\n## 8. Quadros Resumo, Pérolas, Tabelas e Checklist de Bolso\n\n### 8.1 Slides (Sumário Visual de Orientação)\n\n**Slide 1**: Título — Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio  \n**Slide 2**: Hierarquia de evidência dos injetáveis (Tabela densa)  \n**Slide 3**: Fluxo de conduta ética para prescrição manipulada  \n**Slide 4**: Elementos obrigatórios da receita (checklist)  \n**Slide 5**: Justificativa e CID: como redigir com critérios  \n**Slide 6**: Como escolher farmácia estéril: padrão Purus  \n**Slide 7**: Monitoramento, lote e farmacovigilância obrigatório  \n**Slide 8**: O que jamais fazer: research peptide, off-label sem CID  \n**Slide 9**: Caso clínico e alternativas (com resposta)  \n**Slide 10**: Pérolas de segurança em manipulação estéril  \n**Slide 11**: Checklist de bolso  \n**Slide 12**: Referências essenciais e normas  \n\n### 8.2 Pérolas e Checklist\n\n- Toda prescrição de injetável manipulado exige racional de evidência e CID explícito.\n- Nunca prescrever sem laudo de pureza, esterilidade e rastreio de lote.\n- Se houver efeito adverso, documentar e notificar ANVISA imediatamente.\n- Escolher farmácias exclusivamente com cleanroom ISO 5–7 e rastreabilidade confirmada.\n- Rejeite qualquer oferta de “peptídeos de pesquisa” ou importados sem registro.\n\n---\n\n## 9. Regulatório e Ética no Brasil (CFM, ANVISA, WADA)\n\n### 9.1 Conselho Federal de Medicina\n\n- Resolução 2.333/2023: proíbe uso de hormônios, análogos, anabolizantes para fins exclusivamente estéticos ou “anti-aging”;\n- Prescrição deve ser lastreada por diagnóstico médico (CID), racional farmacológico, evidência clínica e assinatura certificada;\n- Prontuário médico robusto, com anamnese, justificativa e consentimento informado.\n\n### 9.2 ANVISA\n\n- Manipulação de estéreis exige farmácia com licença sanitária e rastreabilidade total de lotes;\n- Requer laudos de controle de qualidade, rotulagem com lote, validade, data de manipulação;\n- Notificação obrigatória de efeitos adversos graves.\n\n### 9.3 WADA (World Anti-Doping Agency)\n\n- Diversos peptídeos, análogos, hormônios (GH, anabolizantes) constam em lista de substâncias proibidas para atletas — advertência absoluta para não prescrever nesses contextos sem indicação clínica aceita.\n\n---\n\n## 10. Key Points\n\n1. **A prescrição criteriosa de injetáveis manipulados exige robusta justificativa clínica, CID explícito e baliza em evidência categoria A–B**.\n2. **Jamais prescrever \"peptides research\", hormônios para fins estéticos ou soluções não respaldadas por diretriz**.\n3. **A seleção da farmácia é elemento crítico: cleanroom ISO 5–7, rastreio de lotes, laudo de pureza e controle de endotoxina são inegociáveis**.\n4. **Monitoramento ativo pós-início é obrigatório — farmacovigilância, registro de efeitos, e notificação à ANVISA e farmácia**.\n5. **Elabore receita formal, com nome químico, via, dose, CID, racional, dados da farmácia e assinatura certificada**.\n6. **Pacientes devem ser orientados a documentar lote, guardar comprovantes e relatar quaisquer reações imediatamente**.\n7. **Proteja seu CRM: prontuário robusto, consentimento informado e rastreabilidade são os maiores escudos éticos e legais**.\n\n---\n\n## 11. Quick Ref de Bolso: Prescrição Ética de Injetáveis Manipulados\n\n- **CID + racional farmacológico lastreado em evidência**\n- **Receita detalhada**: dose, via, frequência, duração, instrução de conservação\n- **Farmácia padrão Purus**: cleanroom, rastreio de lote, laudo estéril\n- **Arquivar/fotografar etiqueta/QR de lote**\n- **Monitorar e notificar eventos adversos**\n- **Jamais sugerir research peptides, hormônios ou soro drip para estética/longevidade sem déficit laboratorial**\n- **Documentar opções convencionais tentadas (quando off-label/manipulado)**\n\n---\n\n## 12. Referências Selecionadas\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011\n- Resolução CFM n. 2.333/2023. Conselho Federal de Medicina. https://portal.cfm.org.br/\n- ANVISA — RDC 67/2007 (manipulação de estéreis) e normas complementares.\n- [S4] Clinical practice guidelines for diagnosis/management of intravascular catheter-related infection. Clin Infect Dis 2009. DOI 10.1086/599376\n\n---\n\n**Doutiva Editorial / Purus Referência — Consulta médica premium requer rigor, ciência e rastreabilidade. Prescreva com excelência, proteja o paciente e sua ética.**",
+  "quick_ref": "# Guia Rápido de Prescrição Ética de Injetáveis Manipulados\n\n| Item                           | Orientação                                   |\n|--------------------------------|----------------------------------------------|\n| CID e Justificativa             | Deve ser explícita com base em evidência A-B |\n| Receita Completa                | Nome, dose, via, duração, conservação rigorosa |\n| Farmácia Manipuladora           | Padrão Purus: cleanroom ISO 5-7, laudo lote    |\n| Registro de Lote               | Fotografar, arquivar e guardar comprovantes    |\n| Monitoramento Pós-Início       | Avaliar efeitos adversos, documentar reações  |\n| Notificação de Eventos Graves  | ANVISA e farmácia, obrigatória                   |\n| Proibição                      | Não prescrever peptides research, GH anti-aging, drips indevidos |\n| Consentimento Informado        | Obrigatório documentar no prontuário             |\n\n_Utilize este checklist para a prescrição segura e ética no consultório brasileiro._",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "43 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "112 cm"
+      },
+      {
+        "label": "HbA1c",
+        "value": "5,7%"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Obesidade, sem diabetes tipo 2"
+      },
+      {
+        "label": "Histórico",
+        "value": "Dieta e atividade com baixa resposta"
+      },
+      {
+        "label": "Exames",
+        "value": "Esteatose hepática leve, dislipidemia leve"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Cansaço e autoestima afetada"
+      }
+    ],
+    "title": "Prescrição ética de tirzepatida manipulada para obesidade sem DM2",
+    "reward": 10,
+    "options": [
+      {
+        "label": "A",
+        "correct": false,
+        "rationale": "Prescrever tirzepatida sem justificativa e CID caracteriza prescrição incompleta, fragilizando ética e risco legal."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Uso de peptide research importado sem controle e documentação é ilegal e inseguro."
+      },
+      {
+        "label": "C",
+        "correct": true,
+        "rationale": "Conformidade total com protocolo ético, regulatório e científico, incluindo prescrição detalhada, justificativa clínica robusta, rastreamento e farmácia qualificada."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Uso de GH e soro drip sem indicação é proibido e carece de base científica e regulatória."
+      }
+    ],
+    "question": "Qual a conduta mais ética e adequada para prescrição da tirzepatida manipulada, considerando regulação e padrões de segurança brasileiros?",
+    "vignette": "Mulher, 43 anos, IMC 36, circunferência abdominal 112 cm, HbA1c 5,7%, esteatose hepática grau 1, dislipidemia leve. Tentou dieta e atividade por 8 meses com perda <2 kg. História familiar de DAC precoce. Queixa de cansaço e baixa autoestima. Recusa cirurgia bariátrica. Avaliada para terapia com tirzepatida SC manipulado.",
+    "teaching": "A prescrição deve conter: CID correto (E66.0); justificativa clínica explicita, citando falha da abordagem não farmacológica e evidência de uso da tirzepatida em obesidade (off-label, porém com ECR consolidados); receita detalhada com dose, via e duração; escolha de farmácia manipuladora estéril certificada (padrão Purus) com laudo válido de lote e pureza; rastreamento no prontuário; farmacovigilância ativa; e orientação clara ao paciente para conservação e notificação de reações adversas. Evitar formas irregulares, peptides research ou substâncias não registradas. Este procedimento protege o paciente e o médico juridicamente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care. 2010;33 Suppl 1:S11-61."
+    },
+    {
+      "url": "https://portal.cfm.org.br",
+      "citation": "Resolução CFM nº 2.333/2023. Conselho Federal de Medicina, Brasil."
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br",
+      "citation": "ANVISA. RDC nº 67/2007 e normas complementares."
+    },
+    {
+      "citation": "Mermel LA, et al. Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 update. Clin Infect Dis. 2009."
+    }
+  ],
+  "status": "published"
+}

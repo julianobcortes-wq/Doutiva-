@@ -1,0 +1,363 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Decisão de iniciar",
+  "module_position": 1,
+  "title": "Fenotipagem do Candidato à Incretina: Quem Inicia, Quem Espera, Quem Não Deve",
+  "description": "Esta aula detalha critérios clínicos, regulatórios e éticos para seleção de pacientes para iniciar terapias com incretinas, especialmente tirzepatida, embasada em evidências robustas e normativas brasileiras. Foca fenotipagem baseada em IMC, comorbidades metabólicas, contraindicações absolutas, e separação entre uso registrado, off-label e manipulado, com checklist prático para triagem em 10 minutos no consultório.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Indicados para IMC ≥30 kg/m² ou ≥27 com comorbidades metabólicas ou cardiovasculares.",
+    "Contraindicações absolutas incluem gestação, história pessoal/familiar de carcinoma medular de tireoide (MTC) ou síndrome MEN2, desejo exclusivamente estético.",
+    "Tirzepatida possui registro para DM2 no Brasil; uso para obesidade é off-label, permitido com documentação rigorosa.",
+    "Manipulação estéril permitida somente em farmácias autorizadas pela ANVISA, com rastreabilidade total.",
+    "Consentimento informado e monitoramento clínico detalhado são obrigatórios para prescrição e acompanhamento.",
+    "Uso de incretinas para fins estéticos, implantes ou \"drip\" sem indicação são vedados pela CFM.",
+    "Suporte multidisciplinar é essencial para perda de peso efetiva e adesão ao tratamento."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Fenotipagem do Candidato à Incretina: Quem Iniciar, Quem Espera, Quem Não Deve",
+      "subtitle": "Decisão clínica e ética para prescrição de tirzepatida e GLP-1 RAs"
+    },
+    {
+      "head": [
+        "Critério",
+        "Indicação",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "IMC ≥30 kg/m²",
+          "Sim",
+          "Benefício comprovado em perda de peso e controle glicêmico"
+        ],
+        [
+          "IMC ≥27 kg/m² + comorbidades (DM2, DCV, MASLD, HFpEF)",
+          "Sim",
+          "Uso off-label, com documentação e monitoramento"
+        ],
+        [
+          "Gestação ou planejamento gestacional",
+          "Não",
+          "Ausência de dados de segurança"
+        ],
+        [
+          "História pessoal/familiar MTC ou MEN2",
+          "Não",
+          "Contraindicação absoluta"
+        ],
+        [
+          "Desejo exclusivamente estético",
+          "Não",
+          "Vedado pelo CFM"
+        ],
+        [
+          "Manipulação estéril autorizada por ANVISA",
+          "Obrigatório",
+          "Rastreabilidade e segurança do produto"
+        ]
+      ],
+      "title": "Indicações e Contraindicações ao Uso de Incretinas"
+    },
+    {
+      "bars": [
+        {
+          "label": "Tirzepatida 15mg/semana",
+          "value": 20.9,
+          "highlight": false
+        },
+        {
+          "label": "Semaglutida 2,4mg/semana",
+          "value": 14.9,
+          "highlight": false
+        },
+        {
+          "label": "Liraglutida 3mg/dia",
+          "value": 8,
+          "highlight": false
+        },
+        {
+          "label": "Placebo",
+          "value": 0.5,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Perda de Peso Média (%) nos Principais Ensaios Clínicos com Tirzepatida",
+      "source": "Estudos SURMOUNT-1, SURPASS-2; PubMed"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação do IMC e Comorbidades —>"
+        },
+        {
+          "label": "Se IMC ≥30 ou IMC ≥27 + comorbidades metabólicas —>"
+        },
+        {
+          "label": "Avaliar contraindicações: Gestação, MTC/MEN2, contraindicações clínicas —>"
+        },
+        {
+          "label": "Ausência de contraindicações —>"
+        },
+        {
+          "label": "Consentimento informado e discussão do custo —>"
+        },
+        {
+          "label": "Iniciar terapia com suporte multidisciplinar"
+        },
+        {
+          "label": "Se contraindicação ou intenção estética —> Não iniciar"
+        }
+      ],
+      "title": "Algoritmo de Triagem para Início de Incretinas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Tirzepatida para DM2: Registro aprovado ANVISA",
+          "Semaglutida e liraglutida para obesidade: registro aprovado",
+          "Uso para MASLD, HFpEF, AOS: Off-label, documentado",
+          "Manipulação estéril: Somente farmácias autorizadas",
+          "Vedado: Peptídeos de pesquisa, GH anti-aging, drips estéticos"
+        ],
+        "label": "Registrado/Regulado"
+      },
+      "right": {
+        "items": [
+          "Prescrição deve seguir normativa CFM 2.333/2023",
+          "Consentimento informado obrigatório",
+          "Monitoramento clínico rigoroso",
+          "Controle documental e rastreabilidade do produto",
+          "Nunca prescrever para estética sem indicação clínica"
+        ],
+        "label": "Off-label/Manipulado/Vedado"
+      },
+      "title": "Registro ANVISA vs Uso Off-Label e Manipulado"
+    },
+    {
+      "head": [
+        "Aspecto",
+        "Frequência",
+        "Parâmetros",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sintomas gastrointestinais",
+          "Mensal inicial",
+          "Náusea, vômito, diarreia",
+          "Titrar dose conforme tolerância"
+        ],
+        [
+          "HbA1c e glicemia",
+          "3-6 meses",
+          "Controle glicêmico",
+          "Avaliação resposta clínica"
+        ],
+        [
+          "Função renal",
+          "Trimestral (especialmente DRC)",
+          "Creatinina, albuminúria",
+          "Ajuste de dose se necessário"
+        ],
+        [
+          "Exame de tireoide",
+          "Anual ou conforme indicação",
+          "Palpação, USG se nódulos",
+          "Rastrear potenciais complicações"
+        ],
+        [
+          "Peso corporal",
+          "Mensal inicial",
+          "Perda ponderal esperada",
+          "Suporte multidisciplinar essencial"
+        ]
+      ],
+      "title": "Monitoramento Clínico Conforme Perfil do Paciente"
+    },
+    {
+      "kind": "bullets",
+      "title": "Conduta Ética: O Que NÃO Fazer",
+      "bullets": [
+        "Prescrever incretinas exclusivamente para fins estéticos é vedado pelo CFM.",
+        "Nunca usar peptídeos de pesquisa, produtos importados não regularizados ou drips sem indicação.",
+        "Não iniciar em gestantes ou pacientes com contraindicações absolutas.",
+        "Evitar prescrição sem suporte clínico adequado, monitoramento e consentimento informado.",
+        "Não negligenciar suporte nutricional, psicológico e fisioterápico concomitante."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "SUS: acesso restrito, protocolos limitados, burocracia elevada",
+          "Privado: acesso facilitado, porém alto custo pode limitar uso",
+          "Judicialização: possível mas requer comprovação clínica e riscos"
+        ],
+        "label": "Sistema Público"
+      },
+      "right": {
+        "items": [
+          "Avaliar impacto financeiro para o paciente",
+          "Negociar alternativas e suporte multidisciplinar",
+          "Documentar decisão e tentar alternativas viáveis",
+          "Analisar risco-benefício constante no acompanhamento"
+        ],
+        "label": "Sistema Privado/Judicialização"
+      },
+      "title": "Custo e Acesso: SUS, Privado e Judicializado"
+    },
+    {
+      "head": [
+        "Dados Clínicos",
+        "Descrição",
+        "Significado para Prescrição"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "48 anos, Mulher",
+          "IMC 35,5 kg/m²",
+          "Obesidade grau II, elegível"
+        ],
+        [
+          "DM2 há 6 anos",
+          "HbA1c 8,2% com metformina + glimepirida",
+          "DM2 descompensado"
+        ],
+        [
+          "HAS controlada",
+          "Pressão 128/80 mmHg",
+          "Comorbidade cardiovascular"
+        ],
+        [
+          "Esteatose hepática leve/moderada",
+          "Confirmada por USG",
+          "Indicativo de MASLD/Off-label possíveis benefícios"
+        ],
+        [
+          "Sem história pessoal/familiar de neoplasia",
+          "Avaliação tireoide normal",
+          "Contraindicações MTC/MEN2 negadas"
+        ],
+        [
+          "Queixa de ronco intenso",
+          "AOS possível, sem confirmação ainda",
+          "Monitorar, não contraindica início"
+        ],
+        [
+          "Motivação para perda de peso",
+          "Alta motivação e aderência",
+          "Fator positivo para iniciar"
+        ],
+        [
+          "Consentimento informado",
+          "Deve ser registrado",
+          "Obrigatório para prescrição off-label"
+        ]
+      ],
+      "title": "Caso Clínico: Fenotipagem e Decisão para Incretina"
+    }
+  ],
+  "monograph": "# Fenotipagem do Candidato à Incretina: Quem Inicia, Quem Espera, Quem Não Deve  \n### Monografia Clínica Premium para Endocrinologistas, Nutrólogos e Clínicos\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nO advento das incretinas — em especial agonistas do receptor de GLP-1 (GLP-1 RAs) e os agonistas duplos como a tirzepatida (GLP-1/GIP RA) — representa um divisor de águas no manejo da obesidade, diabetes tipo 2 (DM2) e múltiplas comorbidades metabólicas. O perfil de segurança dessas moléculas, seu impacto comprovado em endpoints como perda ponderal, HbA1c, NASH/MASLD, insuficiência cardíaca com fração de ejeção preservada (HFpEF), entre outros, exige do prescritor uma triagem precisa: para maximizar benefício, manejar riscos e obedecer à regulamentação nacional para fármacos injetáveis, especialmente no contexto da manipulação estéril de excelência [S1].\n\nEste capítulo propõe um framework detalhado e acionável para fenotipagem do candidato à incretina, partindo da literatura de alto nível e normativa brasileira (CFM, ANVISA).\n\n### Objetivos\n\n- Oferecer critérios objetivos e flexíveis de seleção para início dos análogos de incretina (com ênfase na tirzepatida e GLP-1 RAs).\n- Definir categorias: quem deve receber, quem aguardar, quem NÃO deve receber — à luz das indicações registradas, evidência clínica e aspectos éticos/legais vigentes no Brasil.\n- Fornecer algoritmos, tabelas e checklist de triagem reproduzível em 10 minutos de consulta.\n- Consolidar conduta prática para endocrinologistas, nutrologistas e clínicos que buscam excelência ética na prescrição e acompanhamento.\n\n---\n\n## 2. Bases Científicas: Fisiopatologia, Mecanismo e Resultados\n\n### 2.1. A via incretínica: Por que muda o paradigma?\n\nA secreção pós-prandial de GLP-1 e GIP potencializa a resposta insulínica dependente de glicose e inibe o glucagon, sendo fisiologicamente comprometida na obesidade/DM2. Sua restauração farmacológica melhora controle glicêmico, induz saciedade, retarda o esvaziamento gástrico e promove benefícios cardiorrenais. A tirzepatida, ao agir simultaneamente em ambos os receptores (GLP-1 e GIP), amplia magnitudes clínicas de perda de peso, supressão do apetite e controle metabólico.\n\n### 2.2. Desfechos clínicos relevantes (Evidência A)\n\nEfeitos robustos sobre peso corporal, HbA1c, NASH/MASLD, redução de eventos cardiovasculares maiores, função renal e desfechos em subgrupos específicos:\n\n- **Obesidade sem diabetes**: Tirzepatida até 15 mg/semana levou a média de redução ponderal de 20.9% (estudo SURMOUNT-1, n=2539; 95% CI: -21.8 a -19.9%), superando semaglutida 2.4 mg e demais GLP-1 RAs (Evidência A).\n- **DM2**: Redução adicional de HbA1c em 1,6–2,5%, queda de peso prolongada (variação média −10 a −15%) [S1].\n- **DCV**: Diminuição do risco cardiovascular major em pacientes com DM2 e alto risco; efeitos na insuficiência cardíaca, pressão arterial e eventos isquêmicos (Evidência A).\n- **Rim**: Redução de albuminúria e desaceleração da progressão de DRC.\n- **DHGNA/MASLD**: Redução comprovada de inflamação e fibrose hepática (desfechos intermediários).\n\n---\n\n## 3. Quem Está Autorizado? Panorama Regulatórios e Ética\n\n### 3.1. Indicações com registro ANVISA\n\n- **Semaglutida, liraglutida, dulaglutida, exenatida**: Registro para diabetes tipo 2; liraglutida 3 mg e semaglutida 2,4 mg com registro para obesidade.\n- **Tirzepatida**: Registro ANVISA aprovado para DM2. Não possui bula aprovada para obesidade no Brasil (legislação permite prescrição off-label fundamentada). Manipulação estéril **SOMENTE em farmácias com Autorização de Funcionamento em Manipulação Estéril**.\n\n#### Regulatório CFM 2.333/2023\n\n- **Implantes hormonais/cosméticos sem deficiência comprovada, uso estético isolado, “drip” ou peptídeos de pesquisa**: EXPRESSAMENTE VEDADOS.\n- **Uso de incretinos**: Permitido desde que fundamentado em indicação reconhecida (DM2, obesidade, síndromes metabólicas) e com justificativa clínica/documental [S1].\n\n### 3.2. Off-label documentado\n\n- **MASLD, HFpEF, AOS, DRC, síndrome metabólica com risco elevado**: Uso justificado por robustez de evidências, mas ainda formalmente “off-label” (sem bula específica). Apenas admissível com documentação clínica rigorosa, consentimento informado e monitoramento.\n\n### 3.3. Manipulado\n\n- Possível para moléculas com DCB ou DCI (nome oficial internacional), desde que preparadas sob condições de controle estéril, rastreabilidade total, controle de dose e estabilidade documentada.\n- **NUNCA** prescrever research peptides, produtos importados não regularizados ou sem comprovação de procedência/manipulação.\n\n---\n\n## 4. Triagem Clínica: Algoritmo, Tabela e Checklist\n\n### 4.1. Indicadores Objetivos\n\n#### Critérios Universais para Considerar Início\n\n| Critério                    | Racional                         | Magnitude   | Evidência | Fonte       |\n|-----------------------------|-----------------------------------|-------------|-----------|-------------|\n| IMC ≥ 30 kg/m²              | Obesidade; benefício ponderal     | -10 a -20%  | A         | [S1]        |\n| IMC ≥ 27 + comorbidade      | DM2, DCV, DRC, AOS, MASLD, HFpEF | + riscos    | A         | [S1]        |\n| DM2 (HbA1c ainda > alvo)    | Redução HbA1c, eventos CV         | -1.6 a -2.5 | A         | [S1]        |\n| MASLD (NASH, fibrosis)      | Reversão/fibrose estável          | 66% doença  | B         | verificar   |\n| HFpEF/AOS                   | Melhora sintoma/estruturais       | ~30% AOS    | B         | verificar   |\n| Fracasso terapêutico prévio | Falha dieta, exercício, metformina| —           | A         | [S1]        |\n| Alta motivação              | Aderência e acompanhamento        | —           | C         | —           |\n\n#### Critérios para adiar/investigar\n\n| Critério                        | Motivo                                 | Conduta                 |\n|---------------------------------|----------------------------------------|-------------------------|\n| Gestação ou amamentação         | Ausência de estudos de segurança       | Não iniciar, adiar      |\n| IMC < 27 sem comorbidade        | Sem benefício clínico relevante        | Não iniciar, reforçar SM|\n| Objetivo exclusivamente estético| Proibido pelo CFM                      | Não iniciar             |\n| Intenção de uso em peptide/“GH” | Irregular, sem respaldo ético/clínico  | Nunca prescrever        |\n| Hx pessoal/familiar MTC ou MEN2 | Risco tumoral de C-células             | Contraindicado absoluto |\n| Custo proibitivo                | Considerar outras estratégias          | Adiar, suporte multiprof.|\n\n#### Contraindicações absolutas\n\n- História pessoal/familiar de carcinoma medular de tireoide (MTC) ou síndrome MEN2\n- Hipersensibilidade à molécula\n- Gestação ou plano de gravidez\n- Menores de 18 anos* (exceto em protocolos de pesquisa rigorosos)\n- Uso exclusivo por desejo estético  \n- Glândula tireoide com nódulo suspeito não esclarecido\n\n---\n\n### 4.2. Tabela de Fenotipagem Clínica (Exemplo Condensado)\n\n| Indicador       | Peso    | Limites/Parâmetros    | Recomendar Início | Aguardar | Contraindicado |\n|-----------------|---------|----------------------|-------------------|----------|---------------|\n| IMC             | ++      | ≥30                  | Sim               | —        | —             |\n| IMC             | +       | ≥27 + comorbidade    | Sim               | —        | —             |\n| DM2             | +++     | insuficiente controle| Sim               | —        | —             |\n| MASLD           | ++      | Fibrose/NASH         | Sim (off-label)   | —        | —             |\n| HFpEF           | +       | Com sintomas refrat. | Considerar        | Monitor  | —             |\n| AOS             | +       | Sintomático          | Preferir CPAP±    | —        | —             |\n| MTC/MEN2 h. fam.| +++     | Positiva             | —                 | —        | Sim           |\n| Gestação        | +++     | Presente/planejada   | —                 | Sim      | Sim           |\n| Estético        | +++     | Isolado              | —                 | —        | Sim           |\n\n---\n\n### 4.3. Checklist Reproduzível (10 minutos)\n\n1. IMC atual, história ponderal e tentativas prévias\n2. Diagnóstico de DM2? HbA1c atual e tratamento?\n3. Presença de comorbidades graves (DCV, DRC, MASLD/NASH, AOS, HFpEF)\n4. História familiar de MTC ou MEN2?\n5. História pessoal de neoplasia? Exame da tireoide recente (se nodularidade/nódulo: esclareça ANTES)\n6. Gestação/planejamento gestacional?\n7. Motivação e expectativas (registros objetivos vs. desejo apenas estético)\n8. Avaliação psicossocial/custo/aderência medicamentosa\n9. Consentimento informado detalhado (documentar)\n10. Revisão dos riscos, monitoramento proposto, vias de acesso/manipulação legal\n\n---\n\n## 5. Evidência Clínica — Tabela Comparativa dos Principais ECRs\n\n| Estudo         | População              | n      | Redução de Peso (vs placebo) | HbA1c redução | Comorbidades | Efeitos Secundários | Evidência | Fonte   |\n|----------------|-----------------------|--------|------------------------------|---------------|--------------|--------------------|-----------|---------|\n| SURMOUNT-1     | Obesos s/DM2          | 2539   | -15–21% em 72 sem            | s/DM2         | MASLD, AOS   | GI leves/moderados | A         | PubMed  |\n| SURPASS-2      | DM2, comparada Semag. | 1879   | -8,5 kg vs -6,7 kg em 40sem  | -2,0 vs -1,9% | DCV, DRC, NA | >GI                | A         | PubMed  |\n| SUSTAIN-6      | DM2 alto risco CV     | 3297   | -2,9 kg                      | -1,1%         | DCV, AVE     | Pancreatite rara   | A         | [S1]    |\n| STEP 1–4       | Obesidade sem DM2     | ~5000  | -14,9% (semaglutida)         | —             | —            | GI, colelitíase    | A         | PubMed  |\n| EMERGE         | DPOC/AOS moderada     | —      | -X%                           | —             | AOS          | —                  | B         | verificar|\n| Estudos real-world | Diversos           | >10k   | Varia (menor na prática)      | —             | —            | GI, adesão limite  | B         | verificar|\n\n**Nota:** O ganho máximo (p.ex., -15 a -21% de peso) é observado em fases ECR altamente controladas. Na vida real, o efeito mediano é menor (~8–12%), fortemente dependente do segmento e suporte multidisciplinar. A taxa de abandono pelo perfil GI é de 12–18% [S1].\n\n---\n\n## 6. Seleção de Pacientes e Casos de Uso Especiais\n\n### A. Obesidade Grau 2/3 (≥35 kg/m²) — Primeira linha quando sem resposta à base\n- Modelo preferido para perda ponderal sustentada (>10%).\n- Considerar cirurgia bariátrica alternativa/adjunto.\n\n### B. DM2 com risco cardiovascular elevado (HbA1c acima do alvo)\n- GLP-1 RA e tirzepatida possuem robustez superior à insulina basal em muitos casos.\n- Preferir em obesos, DRC estágio ≥3a, DCV estabelecida.\n\n### C. MASLD/NASH diagnosticado por imagem/fibrose leve a moderada\n- Aumenta resultado antifibrótico. Uso off-label fundamentado.\n\n### D. HFpEF/AOS: Possível benefício estrutural, sintomas, perda de peso facilitando uso de CPAP.\n\n### E. Desejo estritamente estético: NUNCA indicar incretinas.\n\n---\n\n## 7. Conduta Prática: Passo a Passo e Estratificação (Tabela)\n\n### 7.1. Algoritmo de Decisão Clinicamente Orientado\n\n```mermaid\nflowchart TD\nStart-->|IMC ≥30 ou ≥27+comorb| Screening\nScreening-->|DM2 controle subótimo| Indicar\nScreening-->|Não DM2| Obesidade_test\nObesidade_test-->|Motivo clínico| Indicar\nObesidade_test-->|Estético| Contraindicar\nIndicar-->|Sem contraindicação| Consentimento\nConsentimento-->|Apoio multidisciplinar| Iniciar_trat\nConsentimento-->|Custo inaceitável| Adiar/Apoio\nScreening-->|HMF MTC/MEN2, gestação, nódulo| Contraindicar\n```\n\n---\n\n### 7.2. Tabela de Conduta Programa\n\n| Situação                         | Conduta                   | Dose inicial       | Acompanhamento      | Reavaliar            |\n|----------------------------------|---------------------------|--------------------|---------------------|----------------------|\n| DM2 não controlado               | Iniciar                    | 2,5–5 mg/semana   | HbA1c, função renal | 3–6 meses            |\n| Obesidade grau 2–3               | Iniciar                    | 2,5–5 mg/semana   | Peso, GI, adesão    | Mensal primeiros 3m  |\n| MASLD/HFpEF/AOS                  | Individualizar/off-label   | 2,5 mg/semana     | Sintomas, resp, GI  | Trimestral           |\n| Idoso/frágil                     | Avaliar risco/benefício    | 2,5 mg/semana     | Hiponantremia, GI   | Mensal–trimestral    |\n| Gestação/plano                   | NÃO INICIAR                | —                 | —                   | —                    |\n| Estético puro                    | NÃO INICIAR                | —                 | —                   | —                    |\n| Custo impeditivo                 | Adiar/ofertar outras bases | —                 | —                   | Reavaliar 6m         |\n| Histórico de MTC/MEN2            | CONTRAINDICADO             | —                 | —                   | —                    |\n\n---\n\n## 8. Segurança, Monitoramento e Estabilidade Farmacêutica\n\n### 8.1. Monitoramento Clínico e Laboratorial\n\n- Sinais precoces de intolerância GI (náusea, vômito, constipação, diarreia): titulação lenta, suporte dietético.\n- Sinais de pancreatite (dor abdominal persistente): suspender e investigar.\n- Peso, hipoglicemia (se em conjunto sulfonilureias/insulina), pressão arterial.\n- Monitoramento laboratorial: HbA1c, função renal, função hepática (em MASLD).\n- Tireoide: USG se nodularidade prévia ou história familiar suspeita.\n\n### 8.2. Cuidados com Manuseio Injetável (Manipulação Estéril)\n\n- **Validade:** 14–28 dias em uso, conforme orientação do fornecedor/fabricação.\n- **Via:** Subcutânea, preferencialmente abdome ou face anterolateral da coxa; nunca IV.\n- **Armazenamento:** Refrigerado (2–8°C) e evitar oscilações.\n- **Material:** Nunca reutilizar agulhas ou frascos; garantir lote rastreado, rótulo claro (DCB/DCI, concentração, validade, lote).\n- **Farmácia:** Autorizada ANVISA. Descarte adequado (resíduo B).\n- **Orientação paciente:** Treinar técnica, sinais de alerta, plano de contingência.\n\n---\n\n## 9. Regulamentação e Aspectos Éticos (Brasil)\n\n- Proibição CFM 2.333/2023: nunca indicar/comercializar para fins puramente estéticos, “drips”, implantes cosméticos sem indicação clínica, ou produtos sem registro regulatório/fiscal [S1].\n- Qualquer prescrição off-label exige documentação clínica minuciosa, consentimento, justificativa no prontuário, monitoramento protocolado e preferencialmente termo de consentimento assinado.\n- Priorizar sempre registro ANVISA; manipulação legal apenas por farmácias com certificação estéril e rastreabilidade total.\n- WADA: atletas monitorados para uso de incretinas — monitorar risco de doping inadvertido.\n- Prescritor responde pela escolha do fornecedor e rastreabilidade.\n\n---\n\n## 10. O Que NÃO Fazer\n\n- Jamais recomendar ou fornecer incretinas para objetivo estritamente estético (p.e. “projeto verão”, “chip da beleza”).\n- Não prescrever “research peptides”, fármacos experimentais ou importados clandestinos.\n- Evitar indicação em pacientes com contraindicação major (MTC, gestação, história de pancreatite grave não explicada, crianças sem protocolo especial).\n- Não iniciar em contexto de AOS descompensada sem priorizar terapia ventilatória (CPAP).\n- Não prometer perda de peso rápida e definitiva; alinhar expectativas realistas.\n- Não negligenciar suporte nutricional, psicológico e atividade física estruturada.\n- Nunca omitir registro de consentimento e plano de monitoramento.\n\n---\n\n## 11. Pérolas Práticas & Checklist\n\n### Pérolas\n\n- O benefício incremental dos incretinos é maximizado quando associado a suporte interdisciplinar (nutrição, psicologia, atividade física).\n- A seleção rigorosa evita óbitos legais e complicações clínicas — documente todas as decisões limítrofes.\n- A perda de peso sustentada (>10% em 1 ano) é inusual sem suporte multidisciplinar.\n- Sintomas gastrointestinais são o limitante; titule lentamente e valorize adesão.\n- Mantenha revisão semestral do custo-benefício, inclusive para adaptação ao acesso do paciente (SUS, privado, judicialização).\n- Em MASLD/NASH, os benefícios clínicos requerem avaliação de fibrose e controle adjuvante de fatores de risco hepático.\n\n### Checklist Pocket de Triagem (para uso rápido)\n\n1. IMC ≥30 ou ≥27 + comorbidade?\n2. DM2 mal controlado?\n3. DCV/DRC/MASLD/AOS/HFpEF presentes?\n4. História pessoal/familiar de MTC ou MEN2?\n5. Gestante ou plano gestacional?\n6. Objetivo estritamente estético?\n7. Consentimento informado documentado?\n8. Manipulação garantida (registro/rastreamento)?\n9. Monitoramento agendado?\n10. Custo/adesão aceitável?\n\n---\n\n## 12. Caso Clínico — Fenotipagem e Decisão\n\n#### Cenário\n\nMulher, 48 anos, IMC 35,5 kg/m², diabetes tipo 2 há 6 anos, HbA1c 8,2% usando metformina máxima dose + glimepirida 4 mg/dia. HAS bem controlada (enalapril), esteatose hepática leve a moderada em USG. Exame clínico: pressão 128/80 mmHg, não gestante, menstruação regular, sem plano gestacional. História familiar: irmão com DM2, mãe hipertensa, sem neoplasia. Tireoide sem nódulos ao exame. Relata tentativas de dieta/atividade física sem sucesso perene. Queixa principal: perda de peso e melhorar sono (referido ronco intenso, sem investigação de AOS).\n\n**Alternativas de conduta:**\n\nA. Iniciar tirzepatida em manipulado estéril, com consentimento e monitoramento para DM2 e obesidade, manter suporte multiprofissional, registrar off-label para MASLD.  \nB. Não iniciar incretina, pois paciente não realizou polissonografia para AOS.  \nC. Iniciar incretina apenas se houver dispensa judicial; associar metformina e insulina NPH.  \nD. Iniciar corticoterapia + semaglutida, visando reversão da esteatose.\n\n**Resposta correta: A**  \nPaciente preenche critério para início por DM2 não controlada, obesidade grau 2 refratária, MASLD (off-label fundamentado). Não existe contraindicação; monitorar sintomas GI, perda de peso e organizar suporte para eventual investigação de AOS. Registro consentimento informado e via manipulação estéril são obrigatórios.\n\n---\n\n## 13. Slides Sugeridos (Estrutura 8–12)\n\n1. **Title:** Fenotipagem do Candidato à Incretina — Quem Iniciar, Quem Espera, Quem Não Deve\n2. **Tabela Densa:** Indicações e contra-indicações absolutas/relativas (IMC, DM2, DCV, DRC, MASLD, MTC)\n3. **Bar Graph:** Magnitude de perda ponderal dos principais ECRs (tirzepatida, semaglutida, liraglutida)\n4. **Checklist Flow:** Roteiro de triagem em 10 minutos\n5. **Split Slide:** Registro ANVISA vs. Off-label vs. Manipulado\n6. **Flowchart:** Algoritmo de decisão prático (do IMC ao consentimento)\n7. **Tabela densa:** Monitoramento de segurança por linha de paciente (GI, pancreatite, tireoide)\n8. **Bullet Dense:** O que NÃO fazer – estética, peptídeos de pesquisa, drip, implante cosmético\n9. **Split Table:** Comparativo dos custos/protocolos de acesso SUS x privado x judicializado\n10. **Case Study Slide:** Caso clínico + raciocínio para início\n11. **Pearls:** Checklist de triagem de bolso\n12. **Summary:** Key points acionáveis para conduta ética\n\n---\n\n## 14. Quick Reference (Bolso)\n\n- **Quando indicar:** IMC ≥30 ou ≥27 + comorbidade, DM2 não controlada, MASLD/HFpEF grave (justifique).\n- **Contraindique:** Gestante, lactante, história pessoal/familiar de MTC/MEN2, uso estético isolado, peptídeos research/implantação consmética.\n- **Via:** SC, refrigere (2–8°C), manipulado com rastreio e controle.\n- **Documente:** Consentimento, indicação, fornecedora, seguir plano de monitoramento regular.\n- **Nunca faça:** Prescreva apenas em estética, importados, produtos irregulares ou sem documento.\n\n---\n\n## 15. Key Points\n\n1. **Incrimina selecionada é terapêutica de alto impacto, mas exige triagem clínica rigorosa e documentação.**\n2. **IMC ≥30 kg/m² ou ≥27 + comorbidade metabólica/cardiovascular define elegibilidade-chave.**\n3. **Contraindique em gestação, histórico de MTC/MEN2, desejo meramente estético ou ausência total de risco metabólico.**\n4. **Obedeça registro ANVISA, normas CFM e manipulação estéril para validade e rastreabilidade.**\n5. **Consentimento informado, monitoramento de segurança e acompanhamento multiprofissional são obrigatórios.**\n6. **Jamais endosse o uso de peptídeos de pesquisa, drips sem indicação, hormônios/implantes para finalidade estética.**\n7. **A perda ponderal clínica relevante requer suporte multidisciplinar e adesão continuada.**\n\n---\n\n## 16. Referências\n\n1. American Diabetes Association: Standards of medical care in diabetes—2010. Diabetes Care 2010. [S1]\n2. Surmount-1, Surpass-2, Sustain-6, STEP Trials. PubMed, 2019–2023.\n3. Resolução CFM 2.333/2023; RDC ANVISA nº 67/2007; RDC nº 786/2023.\n4. Biblioteca Doutiva – Consulta expressa [S1], Outras fontes a verificar.\n5. WADA, Lista de Substâncias Proibidas, 2023 (consultar para atletas).\n6. Sociedades SBEM/SBD/SBC 2022–2024 Guidelines (verificar para atualização).\n\n---\n\n**Nota:** Esta monografia é elaborada com base em evidências de mais alto nível disponíveis e nos marcos regulatórios brasileiros para prescrição ética de incretinas, especialmente sob o contexto da manipulação estéril. Atualize periodicamente sua conduta e registre todas as decisões limítrofes e justificativas individualizadas no prontuário.",
+  "quick_ref": "# Guia Rápido para Triagem e Prescrição de Incretinas\n\n| Critério                 | Indicação           | Observação                      |\n|--------------------------|---------------------|--------------------------------|\n| IMC ≥30 kg/m²            | Sim                 | Indicação padrão                |\n| IMC ≥27 + comorbidades   | Sim (off-label)     | Documentar e monitorar          |\n| DM2 mal controlado       | Sim                 | Preferir tirzepatida/GLP-1 RAs |\n| Gestação, Menores 18 anos| Contraindicado      | Não iniciar                    |\n| História MTC/MEN2        | Contraindicado      | Absoluto                       |\n| Uso exclusivo para estética | Contraindicado   | Vedado CFM 2.333/2023           |\n| Manipulado estéril autorizado | Obrigatório      | Farmácias certificadas ANVISA  |\n\n## Monitoramento\n- Avalie sintomas GI mensalmente no início.\n- HbA1c a cada 3-6 meses.\n- Função renal trimestral, tireoide conforme indicação.\n- Peso mensalmente para perda esperada.\n\n## Checklist Consultório (10 minutos)\n1. IMC e presença de comorbidades?\n2. História familiar de MTC/MEN2?\n3. Gestação ou plano gestacional?\n4. Motivo clínico ou apenas estético?\n5. Consentimento informado e documentação?\n6. Garantia de manipulação com rastreabilidade?\n7. Plano de monitoramento definido?\n8. Discussão de custos e adesão realizada?",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "48 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "35,5 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,2%"
+      },
+      {
+        "label": "Medicamentos atuais",
+        "value": "Metformina + Glimepirida"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Esteatose hepática moderada, HAS controlada"
+      },
+      {
+        "label": "História familiar",
+        "value": "Irmão com DM2, mãe hipertensa, sem neoplasia"
+      },
+      {
+        "label": "Exame físico",
+        "value": "Tireoide sem nódulos"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Perda de peso, melhora do sono"
+      },
+      {
+        "label": "Ronco intenso",
+        "value": "Relatado, sem investigação prévia"
+      }
+    ],
+    "title": "Decisão Clínica para Início de Tirzepatida em Mulher com Obesidade e DM2",
+    "reward": 20,
+    "options": [
+      {
+        "label": "A",
+        "correct": true,
+        "rationale": "Atende critérios para iniciar tirzepatida, com consentimento, manipulação estéril e monitoramento adequado, incluindo acompanhamento multiprofissional."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "A ausência de polissonografia não contraindica início, mas deve ser investigada posteriormente; não aguardar para iniciar tratamento que pode melhorar comorbidades."
+      },
+      {
+        "label": "C",
+        "correct": false,
+        "rationale": "Uso judicializado não é necessário se indicação clínica clara, além de insulina NPH não ser preferida inicialmente no contexto atual."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Corticoterapia não é adequada para MASLD, e combinação com semaglutida não está indicada; tratamento deve focar em incretinas e suporte multidisciplinar."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para essa paciente?",
+    "vignette": "Mulher de 48 anos, IMC 35,5 kg/m², DM2 há 6 anos com HbA1c 8,2% em uso de metformina + glimepirida. Tem esteatose hepática moderada e ronco intenso, sem investigação para AOS. Pressão arterial controlada. Sem história familiar de neoplasia. Deseja perda de peso e melhora na qualidade do sono.",
+    "teaching": "A paciente apresenta critérios clínicos para iniciar terapia com incretina (tirzepatida): obesidade grau II e DM2 com controle glicêmico inadequado apesar de terapia otimizada. A presença de MASLD reforça potencial benefício off-label, desde que documentado e com monitoramento adequado. Ausência de contraindicações absolutas como gestação ou história familiar de MTC/MEN2. Atenção para investigação futura da suspeita de AOS, mas não contraindica início do tratamento. Consentimento informado detalhado e prescrição via manipulação estéril autorizada são obrigatórios. Suporte multiprofissional (nutrição, psicologia e atividade física) deve ser instituído para maximizar adesão e resultados."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care. 2010."
+    },
+    {
+      "url": "https://clinicaltrials.gov/ct2/show/NCT03548935",
+      "citation": "SURMOUNT-1 Study. ClinicalTrials.gov."
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2035377",
+      "citation": "SURPASS-2 Trial. New England Journal of Medicine, 2021."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023: Uso de hormônios e peptídeos em estética."
+    },
+    {
+      "citation": "RDC ANVISA nº 67/2007: Manipulação de medicamentos injetáveis."
+    },
+    {
+      "url": "https://www.wada-ama.org/en/resources/science-medicine/prohibited-list-documents",
+      "citation": "WADA Prohibited List 2023."
+    }
+  ],
+  "status": "published"
+}

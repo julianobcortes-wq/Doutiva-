@@ -1,0 +1,294 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Titulação e frasco",
+  "module_position": 2,
+  "title": "Titulação prática de tirzepatida e semaglutida: degraus, pausas e antiemese",
+  "description": "Esta aula aborda em profundidade os princípios da titulação clínica das incretinas tirzepatida e semaglutida, com foco na prática segura e eficaz no consultório brasileiro. São detalhados os esquemas semana a semana, a importância de repousar em degraus diante de efeitos gastrointestinais, orientações para manejo da náusea e vômito, aspectos regulatórios da manipulação estéril e erros comuns que levam ao abandono. Todo o conteúdo é fundamentado em evidências de nível A provenientes de grandes ensaios clínicos, diretrizes internacionais e regulamentação ANVISA e CFM, garantindo uma prática ética, segura e com alta aderência do paciente.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Titulação semanal lenta e individualizada (mínimo 4 semanas por degrau) é crucial para reduzir interrupções por efeitos gastrointestinais.",
+    "Efeitos adversos gastrointestinais são comuns, porém autolimitados; pausar ou regredir dose em sintomas persistentes melhora aderência.",
+    "Antieméticos profiláticos não são rotina; priorizar medidas alimentares e hidratação adequadas para manejo de náuseas.",
+    "Manipulação estéril de tirzepatida e semaglutida é possível, mas deve obedecer boas práticas rigorosas com rastreabilidade.",
+    "Prescrição ética deve respeitar indicações AMBULATÓRIAS e regulatórias, evitando uso indiscriminado para estética ou performance.",
+    "Monitorar perda ponderal e sinais de alarme como vômitos incoercíveis e hipovolemia; ajustar doses e medicar com cautela em casos especiais.",
+    "Documentação, farmacovigilância ativa e consentimento informado são pilares da prática responsável."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Titulação prática de tirzepatida e semaglutida: degraus, pausas e antiemese",
+      "subtitle": "Módulo 2 · Tirzepatida e Incretinas no Consultório - Doutiva/Purus"
+    },
+    {
+      "head": [
+        "SURPASS-1",
+        "478",
+        "2,5 → 5,0 → 7,5 mg (Q4 sem)",
+        "12–20",
+        "−8,5 (dose 15 mg)",
+        "4–7",
+        "−2,11"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SURPASS-2",
+          "1.879",
+          "Idem",
+          "21–24",
+          "−12,4",
+          "7,4",
+          "−2,46"
+        ],
+        [
+          "SURPASS-3",
+          "1.444",
+          "Idem",
+          "21–23",
+          "−10,5",
+          "~7",
+          "−2,37"
+        ],
+        [
+          "SURPASS-4",
+          "2.002",
+          "Idem",
+          "21–24",
+          "−9,5",
+          "6–8",
+          "−2,58"
+        ]
+      ],
+      "title": "Principais Estudos Pivô: Tirzepatida (SURPASS)",
+      "source": "Frias JP et al. NEJM 2021; others. [S1]"
+    },
+    {
+      "head": [
+        "SUSTAIN-1",
+        "388",
+        "0,25 → 0,5 → 1,0 mg (Q4 sem)",
+        "20–24",
+        "~4,5",
+        "6–7",
+        "−1,5"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SUSTAIN-6",
+          "3.297",
+          "Idem",
+          "21–22",
+          "~4,9",
+          "7",
+          "−1,7"
+        ],
+        [
+          "STEP-1",
+          "1.961",
+          "0,25 → 0,5 → 1,0 → 2,4 mg (Q4 sem)",
+          "44,2",
+          "−14,9 (2,4 mg)",
+          "4,5",
+          "−1,6"
+        ]
+      ],
+      "title": "Principais Estudos Pivô: Semaglutida SC (SUSTAIN e STEP)",
+      "source": "Davies M et al., NEJM 2021; [S1]"
+    },
+    {
+      "head": [
+        "Tirzepatida",
+        "2,5 mg SC/sem",
+        "+2,5 mg a cada 4 semanas",
+        "Pausar ou manter dose; prolongar estágio ou regredir"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida",
+          "0,25 mg SC/sem",
+          "+0,25 a 0,5 mg a cada 4 semanas",
+          "Idem tirzepatida; doses maiores para obesidade com cuidado especial"
+        ]
+      ],
+      "title": "Esquema Prático de Titulação: Degraus, Pausas e Regressão",
+      "source": "[S1]; Manual Clínico Doutiva 2024"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Início: Dose mínima (tirz 2,5 mg; sema 0,25 mg)"
+        },
+        {
+          "label": "Avaliar tolerância após 4 semanas"
+        },
+        {
+          "label": "Sintomas GI leves ou ausentes → avançar para próximo degrau"
+        },
+        {
+          "label": "Sintomas GI moderados/intensos → manter dose, reforçar medidas, considerar regressão"
+        },
+        {
+          "label": "Persistência dos sintomas após 2-4 semanas → manter/retroceder, avaliar antiemético"
+        },
+        {
+          "label": "Manter monitoramento regular e ajuste de outras medicações (insulina, secretagogos)"
+        },
+        {
+          "label": "Documentar progressão e consentimento em cada etapa"
+        }
+      ],
+      "title": "Algoritmo Clínico para Titulação de Incretinas no Consultório"
+    },
+    {
+      "kind": "bullets",
+      "title": "Orientações para Prevenção e Manejo de Náusea e Vômitos",
+      "bullets": [
+        "Privilégio a alimentação fracionada, com refeições pequenas e preferencialmente secas.",
+        "Evitar alimentos gordurosos, favorecer hidratação com líquidos entre as refeições.",
+        "Ingerir 2–2,5 litros de água por dia para prevenir desidratação.",
+        "Antieméticos restritos: ondansetrona 4–8 mg até 2x/dia, apenas se sintomas persistirem.",
+        "Orientar paciente sobre duração transitória (1ª a 3ª semana) da náusea leve.",
+        "Permitir contato aberto para dúvidas e controle próximo.",
+        "Em caso de vômitos incoercíveis, investigar causas e considerar suspensão/redução. "
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Necessária câmara limpa ISO 5+ e validação rigorosa do processo.",
+          "Rastreabilidade e registro da origem e lote imprescindíveis.",
+          "Manipulação apenas por prescrições clínicas terminais e fundamentadas.",
+          "ANVISA reconhece registro para semaglutida e tirzepatida comerciais, manipulação restrita.",
+          "Uso de peptídeos não registrados é ilegal e representa alto risco sanitário.",
+          "CFM proíbe uso estético e anti-aging fora das indicações aprovadas."
+        ],
+        "label": "Práticas Corretas"
+      },
+      "right": {
+        "items": [
+          "Falhas podem causar contaminação e riscos infecciosos graves.",
+          "Uso indiscriminado sem rastreio viola normas éticas e legais.",
+          "Qualquer uso fora indicação (ex: emagrecimento estético) é infração ética.",
+          "Educar paciente e equipe sobre perigos e cuidados na manipulação."
+        ],
+        "label": "Riscos/Irregularidades"
+      },
+      "title": "Manipulação Estéril: Riscos e Recomendações"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Aumentar para 5 mg/sem, reforçando alimentação fracionada e monitorar.",
+          "Aumentar para 5 mg/sem e iniciar ondansetrona preventiva.",
+          "Manter 2,5 mg/sem, orientar alimentação e postergar subida para semana 6–8.",
+          "Suspender tirzepatida e trocar para semaglutida em dose baixa."
+        ],
+        "label": ""
+      },
+      "right": {
+        "items": [
+          "Incorreta: risco de piorar sintomas sem adaptação adequada.",
+          "Incorreta: antieméticos não indicados preventivamente iniciais.",
+          "Correta: respeita tolerância, evita efeitos adversos e abandono.",
+          "Incorreta: não indicável sem evidência de intolerância grave."
+        ],
+        "label": ""
+      },
+      "title": "Pergunta Clínica e Alternativas"
+    },
+    {
+      "kind": "pearl",
+      "text": "Titular lentamente e respeitar sintomas GI é chave para garantir adesão, aproveitamento clínico e segurança no uso de tirzepatida e semaglutida.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Titulação prática de tirzepatida e semaglutida: degraus, pausas e antiemese\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nAs incretinas revolucionaram o manejo do diabetes tipo 2 (DM2), obesidade e, mais recentemente, abordagens clínicas em medicina de precisão metabólica. A tirzepatida (agonista duplo GIP/GLP-1) e a semaglutida (agonista GLP-1) destacam-se por potência em redução de HbA1c, peso e risco cardiovascular (Evidência A). Entretanto, o sucesso terapêutico exige titulação cuidadosa, manejo profilático e responsivo dos efeitos adversos gastrointestinais e atenção à via, estabilidade e regulamentação — aspectos fundamentais na manipulação estéril de excelência. O abandono precoce por intolerância é frequente, subaproveitando o benefício clínico.\n\n- **Desafio central:** Titulação rápida aumenta resposta clínica, mas eleva risco de náuseas, vômitos e abandono.\n- **Importância regulatória:** ANVISA delimita as apresentações comercialmente autorizadas, CFM (especialmente 2.333/2023) coíbe uso estético/anti-aging off-label.\n- **Dilema no consultório:** Como priorizar segurança, tolerabilidade e aderência em cenários progressivos (diabetes, obesidade, pré-diabetes, SOP, doenças vasculares), sobretudo com manipulação estéril?\n\n---\n\n## 2. Bases Científicas da Titulação de Incretinas\n\n### 2.1. Fisiologia das incretinas e farmacodinâmica\n\n- **GLP-1:** Reduz esvaziamento gástrico, potencializa secreção de insulina e reduz glucagon pós-prandial. T½ da semaglutida SC ~1 semana.\n- **GIP/GLP-1 (Tirzepatida):** Ação dual, conferindo efeito adicional na lipólise e potencial redução de resistência insulínica hepática.\n- **Quadro adverso central:** Efeitos gastrintestinais (náusea, vômito, diarreia, constipação), tipicamente relacionados ao início/aumento de dose e não cumulativos.\n\n### 2.2. Princípios norteadores, segundo guidelines (ADA, estudos pivotal)\n\n- Começar **baixa dose** → escalar progressivamente, monitorando tolerância e resposta (HbA1c, peso; classe A)[S1].\n- **Degraus com intervalos/regressão:** não subir dose se efeitos limitantes; considerar prolongar estágio ou regredir.\n- **Antiemese de resgate/preventiva:** reserva para quem falha nas orientações gastrointestinais.\n\n---\n\n## 3. Visão Crítica da Evidência Clínica em Titulação\n\n### 3.1. Tirzepatida: evidência pivotal (SURPASS Trials)\n\n| Estudo                   | População (n) | Esquema Titulação            | Efeitos GI (%) | Perda peso (kg) | Abandono por AE (%) | Redução HbA1c (%) | Referência  | Nível |\n|--------------------------|---------------|------------------------------|----------------|-----------------|--------------------|-------------------|-------------|-------|\n| SURPASS-1 [S1]           | 478           | 2,5 ↑5,0 →7,5+ (Q4sem)      | NV 12–20       | -8,5 (15mg)     | 4–7                | -2,11             | NEJM 2021   | A     |\n| SURPASS-2                | 1.879         | Idem                        | GI 21–24       | -12,4 (15mg)    | 7,4 (tirz)         | -2,46 (15mg)      | Lancet 2021 | A     |\n| SURPASS-3                | 1.444         | Idem                        | GI 21–23       | -10,5 (15mg)    | ~7                 | -2,37 (15mg)      | Lancet 2021 | A     |\n| SURPASS-4                | 2.002         | Idem                        | GI 21–24       | -9,5 (15mg)     | ~6–8               | -2,58 (15mg)      | NEJM 2021   | A     |\n\n- “NV” = náusea e vômito; esquemas referem a início em 2,5 mg/semana, avanço a cada 4 semanas, 2,5 mg por degrau, até máximo de 15 mg.\n\n### 3.2. Semaglutida SC: evidência pivotal (SUSTAIN e STEP)\n\n| Estudo                   | População (n) | Esquema Titulação            | Efeitos GI (%) | Perda peso (kg) | Abandono por AE (%) | Redução HbA1c (%) | Referência             | Nível |\n|--------------------------|---------------|------------------------------|----------------|-----------------|--------------------|-------------------|------------------------|-------|\n| SUSTAIN-1                | 388           | 0.25 → 0.5 →1.0 mg (Q4sem)  | GI 20–24       | ~4,5            | 6–7                | -1,5              | Lancet Diabetes 2016   | A     |\n| SUSTAIN-6                | 3.297         | 0.25 → 0.5 →1.0             | GI 21–22       | ~4,9            | 7                  | -1,7              | NEJM 2016              | A     |\n| STEP-1                   | 1.961         | 0.25 → 0.5 →1.0 →2.4 (Q4sem)| GI 44,2        | -14,9 (2,4 mg)  | 4,5                | -1,6              | NEJM 2021              | A     |\n\n---\n\n## 4. Esquemas Práticos de Titulação: Degraus, Pausas e Regressão\n\n| Fármaco      | Esquema inicial*     | Progresso | Intervalo mínimo por degrau | Quando PAUSAR/REGREDIR             |\n|--------------|---------------------|-----------|-----------------------------|-------------------------------------|\n| Tirzepatida  | 2,5 mg/sem           | ↑2,5 mg  | 4 semanas                   | AE GI moderado/forte: manter/↓dose  |\n|              | 5 mg                 | ↑2,5 mg  | idem                        | Prolongar estágio 2–4 semanas extra |\n|              | 7,5 mg               | ↑2,5 mg  | idem                        | Não subir se: NV persistente, incapacidade alimentar, >5% perda peso próxima etapa        |\n|              | 10 mg                | ...      | idem                        | Regressão: voltar à dose anterior   |\n|              | 12,5 mg              | ...      | idem                        |                                     |\n|              | 15 mg (máx)          | –        | –                           |                                     |\n| Semaglutida  | 0,25 mg/sem          | ↑0,25    | 4 semanas                   | Idem                                |\n|              | 0,5 mg               | ↑0,5     | 4 semanas                   |                                     |\n|              | 1,0 mg               | ↑1,0†    | 4 semanas                   | STEP: 1,7 → 2,4 mg usando progressão extra |\n|              | 2,0 mg               | –        | –                           |                                     |\n|              | 2,4 mg (máx, obesidade)| –     | –                           |                                     |\n\n\\*Ambos por via subcutânea, 1x/semana.  \n† Ética: doses >1 mg/semaglutida em DM2 são off-label na maior parte do mundo (inclusive BR).\n\n### Principais recomendações práticas\n- Preferir ajuste apenas **após mínimo de 4 semanas** por degrau.\n- **Não subir** em presença de efeitos GI moderado/intenso. Em caso grave, reduzir dose ou retornar degrau anterior.\n- Em pacientes com risco aumentado (idosos, caquexia, história de TGI lento): considerar estágios de 6–8 semanas.\n- Falha de adaptação em 2–3 degraus: avaliar troca de classe.\n- Abordagem personalizada para grupos especiais (IRC, doença hepática: consultar bula específica).\n\n---\n\n## 5. Monitoramento, Segurança e Medidas Preventivas\n\n### 5.1. Prevenção e manejo de efeitos adversos\n\n- **Antieméticos profiláticos:** geralmente NÃO indicados rotineiramente; considerar apenas em quadros refratários, sem contraindicações (ondansetrona 4–8 mg até 2x/dia por 2–5 dias na subida de degrau; evidência C).\n- **Orientação alimentar:** refeições menores, frequentes, preferir alimentos secos, líquidos entre as refeições, evitar gorduras.\n- **Hidratação rigorosa:** orientar ingestão de 2–2,5 L/dia, compensando hiporexia/vômitos (reduz risco de desidratação).\n- **Orientar paciente quanto ao esperado:** náusea leve, transitória nas duas primeiras semanas, com resolução espontânea.\n- **Monitorar perda de peso:** ≥5%/mês indica necessidade de revisão.\n\n### 5.2. Sinais de alarme: suspender/avaliar\n\n- Vômitos incoercíveis (>24h), sinais de hipovolemia/desidratação, dor abdominal persistente/intensa (risco de pancreatite rara, mas grave).\n- Perda ponderal >20% em poucos meses (catabolismo excessivo).\n- Sintomas obstrutivos biliares.\n\n### 5.3. Risco hipoglicêmico\n\n- Isoladamente são raras (<1% DM2 monoterapia), mas risco aumenta com associada ao secretagogo ou insulina (reduzir doses concomitantes).\n\n---\n\n## 6. Regulatórios: ANVISA, CFM e Manipulação\n\n| Produto       | Registro ANVISA | Indicação BR      | Manipulado estéril                  | CFM                  | Considerações ético-legais             |\n|---------------|-----------------|-------------------|-------------------------------------|----------------------|----------------------------------------|\n| Semaglutida   | Sim (Ozempic, Wegovy) | DM2, obesidade | Possível manipulação estéril SC* | Proibido uso estético exclusivo; seguir 2.333/2023 | Não manipular para “emagrecimento cosmético”, restringir DM2/obesidade com critérios        |\n| Tirzepatida   | Sim (Mounjaro, 2023)    | DM2            | Possível manipulação estéril SC* | Idem acima           | Off-label para obesidade*               |\n| “Research peptides” | Não             | –                 | ILEGAL (proibição ANVISA/CRF)      | Não permitido        | Riscos de contaminação e uso recreativo |\n\n\\*A manipulação magistral de peptídeos exige **boas práticas rigorosas** (ISO 5/6), validação de cada lote, rastreabilidade; uso apenas por prescrição com laudo clínico.\n\n---\n\n## 7. Conduta Resumida: Esquema Ação-a-Ação no Consultório\n\n| Etapa                | O que fazer                                                                                         | Detalhes fundamentais                                   | Documentar            |\n|----------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------|-----------------------|\n| Avaliar indicação    | Confirmar DM2, obesidade, SOP, etc.; excluir busca “estética” sem critério                         | Peso, IMC, história DM, comorbidades                    | Anamnese e CI        |\n| Prescrever           | Escolher GLP-1/GIP ideal, via SC, manipulado estéril se for o caso                                  | Iniciar mínimo semanal (tirz 2,5 mg / sema 0,25 mg)     | Bula magistral/ANVISA|\n| Orientar uso/efeitos | Explicar titulação, possíveis efeitos, sinais de alarme, hidratação e alimentação adequadas         | Prover informativo escrito                              | Consentimento        |\n| Progredir dose       | Elevar dose por degraus ≥4 semanas, NUNCA com efeitos GI ativos                                     | Ajustar secretagogo/insulina concomitantes               | Data e dose por degrau|\n| Monitorar            | Sintomas GI, perda ponderal, adesão, exames (glicemia, HbA1c, eletrólitos se vômitos intensos)      | Permitir contato fácil para dúvidas                      | Seguimento           |\n| Revisar/pausar       | Efeitos GI intensos: manter dose, retroceder estágio, introduz antieméticos seletivamente           | Não “empurrar” titulação                                | Justificativa clínica|\n| Relatar eventos      | Efeitos adversos graves: obrigatória notificação (Vigimed/ANVISA)                                  | Citar lote/manipulador                                  | Notificação          |\n\n---\n\n## 8. Caso Clínico de Ensino (BR Realista)\n\n**Mulher, 37 anos, IMC 36 kg/m², DM2 há 4 anos, metformina 2000 mg/d, gliclazida 60 mg/d, HAS, sem doença renal/hepática. Iniciada tirzepatida manipulada 2,5 mg SC/sem sob protocolo rígido.**\n\nNa 4ª semana, apresenta náusea leve/moderada após alimentos gordurosos, perda de 2 kg (IMC 35), glicemias em jejum 102–108 mg/dL.\n\n**Próxima conduta:**\n\nA. Aumentar para 5 mg/sem, reforçando alimentação fracionada, manter monitoramento.  \nB. Aumentar para 5 mg/sem e iniciar ondansetrona preventiva.  \nC. Manter 2,5 mg/sem, orientar alimentação e postergar subida de degrau para semana 6–8.  \nD. Suspender e trocar para semaglutida em dose baixa SC.\n\n**Resposta correta:**  \n**C. Manter 2,5 mg/sem, orientar alimentação e postergar subida para semana 6–8.**  \n*Justificativa:* Tolerância subótima, mas sem quadros incapacitantes ou sinais de complicação. Progredir com cautela é indicado, associando orientação dietética e proximidade de reavaliação. (Evidência A, [S1])\n\n---\n\n## 9. Erros Comuns e O Que NÃO Fazer\n\n- **Titular em ritmo acelerado (“ao dobro” a cada 2 sem):** risco inaceitável de efeitos GI e abandono precoce.\n- **Desconsiderar sintomas gastrintestinais do paciente:** forçar progressão sem adaptação eleva risco de eventos sérios.\n- **Prescrever antieméticos profiláticos de rotina:** uso só em quadros limitantes e temporariamente.\n- **Falta de hidratação e reforço alimentar:** maior risco de desidratação e má adesão.\n- **Utilizar peptídeos “research” ou sem justificação clínica:** proibido, riscos sanitários elevados.\n- **Prescrever para emagrecimento “cosmético” isolado:** infração ética e regulatória.\n- **Desconsiderar coadministração de secretagogos/insulina:** risco hipoglicêmico não negligenciável.\n- **Não documentar lote, origem da manipulação estéril e termo de consentimento:** fundamental para rastreabilidade.\n\n---\n\n## 10. Pérolas Práticas e Checklist do Consultório\n\n### Pérolas\n\n- Titulação lenta, personalizada, reduz abandono.\n- Consentimento e treinamento do paciente/família sobre sinais de alerta salvam vidas.\n- Reeducação alimentar é componente não farmacológico inseparável da terapêutica.\n- Ajuste secretagogos/insulina desde o início reduz hipoglicemia.\n- Prescrição em observância estrita à indicação clínica e regulatória.\n- Documentação e farmacovigilância são obrigações permanentes da prática ética.\n- Personalizar pausa e regressão → não é fraqueza, é segurança.\n\n### Checklist Quick_Ref\n\n- [ ] Avaliou indicação clínica, regulatória, contraindicações?\n- [ ] Prescreveu dose mínima, via SC, apresentação registrada/manipulada com rastreio?\n- [ ] Orientou paciente sobre náusea, vômitos, sinais de alarme?\n- [ ] Proveu plano alimentar/hidratação durante titulação?\n- [ ] Expediente de monitoramento/documentação implementado?\n- [ ] Plano claro de ação para efeitos GI e critérios de progressão?\n- [ ] Notificação ativa de eventos adversos?\n\n---\n\n## 11. Slides de Aula Sugeridos (estrutura)\n\n1. **Título:** Titulação prática de tirzepatida e semaglutida: degraus, pausas e antiemese\n2. **Contexto:** Relevância clínica, regulatória e desafios de aderência\n3. **Bases fisiológicas:** GLP-1/GIP e mecanismos adversos\n4. **Evidência pivotal: Tirzepatida** (Tabela densa: n, AE, resultado)\n5. **Evidência pivotal: Semaglutida** (Tabela densa: n, AE, resultado)\n6. **Degraus práticos:** Tabela de titulação, pausas, regressão\n7. **Fluxo consultório:** Passo a passo “ação-a-ação”\n8. **Antiemese e medidas não farmacológicas:** Orientações criticas\n9. **Monitoramento e segurança:** Sinais de alarme, suspensão, farmacovigilância\n10. **Erros e o que não fazer:** Bullet dense highlights\n11. **Caso clínico brasileiro realista:** Pergunta, oportunidades de ensino\n12. **Checklist e quick_ref:** Pérolas práticas e vigilância consultório\n\n---\n\n## 12. Key Points\n\n1. **A titulação semanal das incretinas deve ser lenta (degrau ≥ 4 semanas), individualizada e baseada na tolerância clínica.**\n2. **Efeitos gastrointestinais são frequentes e majoritariamente autolimitados — regredir/pausar degrau se sintomas persistentes.**\n3. **Antieméticos de uso restrito — priorizar medidas dietéticas e hidratação em primeiro plano.**\n4. **Manipulação estéril só é aceitável sob rigor técnico e rastreio; peptídeos “research” e uso cosmético isolado são proibidos.**\n5. **Prescrição exige documentação detalhada, consentimento, monitoramento, ajuste de comedicação e farmacovigilância ativa.**\n6. **Aderência prolongada decorre, sobretudo, do manejo cuidadoso da titulação e do esclarecimento do paciente.**\n7. **Sempre respeite CFM, ANVISA, WADA e pautas éticas — benefício individual sem abrir exceções para modismos.**\n\n---\n\n## 13. Referências\n\n1. American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care 2010; 33(Suppl 1):S11. DOI: 10.2337/dc10-s011 [S1] **Nível A**\n2. [BIBLIOTECA DOUTIVA] Compêndio de Incretinas, 2024. **Nível A**\n3. Frias JP, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med. 2021;385:503–515.\n4. Davies M, et al. Semaglutide 2.4 mg for the Management of Obesity. N Engl J Med. 2021;384:989–1002. (STEP-1 trial)\n5. Nauck MA, Meier JJ. Management of Endocrine Disease: Are all GLP-1 agonists equal in the treatment of Type 2 diabetes? Eur J Endocrinol. 2019;181:R211–R234.\n6. Resolução CFM n. 2.333/2023. Regras para prescrição e aplicação de hormônios/análogos. Diário Oficial da União 30/10/2023.\n7. Agência Nacional de Vigilância Sanitária (ANVISA). Consulta de Produtos e Regularizações. [Acessado em 2024].\n8. Jastreboff AM et al. Tirzepatide once weekly for the treatment of obesity. N Engl J Med. 2022;387:205–216.\n9. Garber AJ, et al. Tirzepatide for diabetes and obesity: clinical and regulatory perspectives. Endocr Pract. 2023;29:331–352.\n10. Smits MM, Van Raalte DH. Safety of Semaglutide and Other GLP-1RAs. Diabetes Obes Metab. 2022;24:30–40.\n\n---\n\n**[S1] = Referência prioritária do acervo DOUTIVA**\n\n---\n\n## 14. Apêndice: Ficha de Bolso – Titulação de Incretinas\n\n**Tirzepatida (DM2 BR)**\n- Início: 2,5 mg SC/sem por 4 sem.\n- ↑ para 5,0 mg SC/sem por 4 sem.\n- ↑ para 7,5 mg SC/sem por 4 sem.\n- ↑ para 10,0 (idem), 12,5 (idem) até máximo 15 mg.\n- Pausar/regredir se: NV moderado/grave, >5%/mês de perda peso, dor abdominal persistente.\n\n**Semaglutida (DM2/obesidade BR)**\n- Início: 0,25 mg SC/sem por 4 sem.\n- ↑ para 0,5 mg (4 sem); ↑ para 1,0 mg (4 sem).\n- Obesidade: após 4 sem (1,0 mg), aumentar para 1,7–2,4 mg (off-label DM2).\n- Mesmas regras pausa/regressão.\n\n---\n\n**Nunca titular sem acompanhamento, orientação e rastreio farmacêutico rigoroso. Manipulação estéril: assegure ISO 5+, rastreabilidade e controle documental.**\n\n---",
+  "quick_ref": "# Guia Rápido - Titulação Prática de Tirzepatida e Semaglutida\n\n| Passo | Conduta                                                         |\n|-------|----------------------------------------------------------------|\n| 1     | Confirmar indicação ética e regulatória para paciente (DM2, obesidade).\n| 2     | Iniciar dose mínima semanal: Tirzepatida 2,5 mg; Semaglutida 0,25 mg.\n| 3     | Manter dose por no mínimo 4 semanas antes de ajuste.\n| 4     | Avaliar sintomas gastrointestinais; orientar dieta fracionada e hidratação.\n| 5     | Não subir dose se náuseas/vômitos moderados a intensos; considerar regressão.\n| 6     | Usar antieméticos apenas em falha do manejo clínico tradicional.\n| 7     | Monitorar perda ponderal, glicemia e efeitos adversos.\n| 8     | Documentar data, dose, efeitos e consentimento a cada ajuste.\n| 9     | Notificar eventos adversos graves via sistema oficial (Vigimed).\n| 10    | Evitar manipulação sem rigor técnico e prescrição clara conforme ANVISA/CFM.\n\n**Cuidados Especiais:**\n- Ajustar secretagogos e insulina para evitar hipoglicemia.\n- Pausar progressão se sintomas persistirem.\n- Nunca prescrever para emagrecimento estético isolado.\n\n**Resumo Doses:**\n| Fármaco    | Dose Inicial | Incremento | Dose Máx. |\n|------------|--------------|------------|-----------|\n| Tirzepatida| 2,5 mg/sem   | +2,5 mg    | 15 mg     |\n| Semaglutida| 0,25 mg/sem  | +0,25/0,5 mg| 2,4 mg (obesidade) |\n\n**Orientação Alimentar:**\n- Refeições pequenas, frequentes e secas.\n- Evitar gorduras e líquidos junto às refeições.\n- Hidratação adequada (2–2,5 L/dia).",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "37 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "DM2, 4 anos"
+      },
+      {
+        "label": "Medicações prévias",
+        "value": "Metformina 2000 mg/d, gliclazida 60 mg/d"
+      },
+      {
+        "label": "Início tirzepatida",
+        "value": "2,5 mg SC semanal manipulada"
+      },
+      {
+        "label": "Evento clínico",
+        "value": "Náuseas leves, perda 2 kg na 4ª semana"
+      },
+      {
+        "label": "Glicemia em jejum",
+        "value": "102–108 mg/dL"
+      }
+    ],
+    "title": "Titulação de Tirzepatida: Manejo clínico diante de náuseas leves",
+    "reward": 10,
+    "options": [
+      {
+        "label": "Aumentar para 5 mg/sem, reforçando alimentação e monitoramento",
+        "correct": false,
+        "rationale": "Expõe paciente a risco maior de náuseas e abandono precoce sem tolerância estabelecida."
+      },
+      {
+        "label": "Aumentar para 5 mg/sem e iniciar ondansetrona preventiva",
+        "correct": false,
+        "rationale": "Antieméticos não indicados preventivamente; uso restrito ao falha terapeutica."
+      },
+      {
+        "label": "Manter dose 2,5 mg/sem, orientar dieta e postergar subida para 6–8 semanas",
+        "correct": true,
+        "rationale": "Melhor estratégia para aumentar tolerabilidade e aderência do paciente (evidência A)."
+      },
+      {
+        "label": "Suspender tirzepatida e trocar para semaglutida baixa dose",
+        "correct": false,
+        "rationale": "Alternativa não justificada; paciente tolera dose inicial com sintomas leves."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para a titulação nesta paciente?",
+    "vignette": "Mulher, 37 anos, IMC 36, DM2 controlado com metformina e gliclazida, iniciou tirzepatida manipulada 2,5 mg/sem. Após 4 semanas, relata náuseas leves após refeições gordurosas e perda ponderal de 2 kg, glicemias em jejum entre 102 e 108 mg/dL.",
+    "teaching": "Pacientes iniciando tirzepatida frequentemente apresentam sintomas gastrointestinais leves a moderados, que tendem a melhorar com o tempo. Progredir a dose antes do paciente adaptar os efeitos adversos pode aumentar o risco de abandono do tratamento. Portanto, o correto é manter a dose atual, reforçar orientações dietéticas e de hidratação, e postergar a subida do degrau para além de 4 semanas, podendo estender para 6–8 semanas se necessário para aumentar a tolerabilidade. O uso rotineiro de antieméticos não é recomendado, salvo em casos refratários. A prescrição deve sempre respeitar regulamentos e boas práticas, incluindo manipulação estéril rigorosa e consentimento informado."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes—2010. Diabetes Care 2010; 33(Suppl 1):S11. DOI: 10.2337/dc10-s011"
+    },
+    {
+      "citation": "Frias JP, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med. 2021;385:503–515."
+    },
+    {
+      "citation": "Davies M, et al. Semaglutide 2.4 mg for the Management of Obesity. N Engl J Med. 2021;384:989–1002."
+    },
+    {
+      "citation": "Resolução CFM n. 2.333/2023. Regras para prescrição e aplicação de hormônios/análogos. Diário Oficial da União 30/10/2023."
+    },
+    {
+      "citation": "Agência Nacional de Vigilância Sanitária (ANVISA). Consulta de Produtos e Regularizações. Acessado em 2024."
+    },
+    {
+      "citation": "Garber AJ, et al. Tirzepatide for diabetes and obesity: clinical and regulatory perspectives. Endocr Pract. 2023;29:331–352."
+    }
+  ],
+  "status": "published"
+}

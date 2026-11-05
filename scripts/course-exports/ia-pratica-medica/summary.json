@@ -1,0 +1,85 @@
+{
+  "course": {
+    "id": "d94e611b-9240-4dd6-a35a-bbd771ed3ba3",
+    "slug": "ia-pratica-medica",
+    "title": "IA na Prática Médica",
+    "subtitle": "Evidência, ética, LGPD e fluxo clínico",
+    "description": "Curso para médicos que querem usar IA com rigor: fundamentos, evidência de desempenho, vieses, LGPD, responsabilidade, prontuário, educação médica e o modelo Doutiva (Tutor com citação e gate de fidelidade).",
+    "duration_minutes": 705
+  },
+  "mono_total": 191526,
+  "slides_total": 95,
+  "duration": 705,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "O que o médico precisa entender de modelos generativos sem virar engenheiro",
+      "mono_len": 21515,
+      "slides": 9,
+      "duration": 75
+    },
+    {
+      "position": 2,
+      "title": "Evidência de desempenho de IA em tarefas clínicas: o que já foi medido",
+      "mono_len": 20445,
+      "slides": 9,
+      "duration": 75
+    },
+    {
+      "position": 3,
+      "title": "Alucinações, vieses, inequidade e erros silenciosos: como auditar sistemas de IA na prática médica",
+      "mono_len": 19179,
+      "slides": 10,
+      "duration": 90
+    },
+    {
+      "position": 4,
+      "title": "LGPD, Sigilo e Dados de Saúde: o Mínimo Legal para Usar Ferramentas de IA",
+      "mono_len": 18532,
+      "slides": 12,
+      "duration": 90
+    },
+    {
+      "position": 5,
+      "title": "IA na documentação clínica: SOAP, sumários e risco de ‘nota bonita e errada’",
+      "mono_len": 20505,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 6,
+      "title": "IA na decisão clínica: apoio vs automação — fronteiras éticas do CFM e do bom senso",
+      "mono_len": 17448,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 7,
+      "title": "IA na Educação Médica: Tutores com Citação Obrigatória e Fidelidade claim↔fonte",
+      "mono_len": 19811,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 8,
+      "title": "Desinformação Médica Amplificada por IA e Redes: Defesa do Prescritor",
+      "mono_len": 20537,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 9,
+      "title": "Como implantar IA no consultório/clínica em 90 dias com governança mínima",
+      "mono_len": 18377,
+      "slides": 8,
+      "duration": 75
+    },
+    {
+      "position": 10,
+      "title": "Implantação Segura de IA na Prática Médica: Evitando Erros de Conduta por 'Alucinação' de Modelos de Linguagem",
+      "mono_len": 15177,
+      "slides": 10,
+      "duration": 60
+    }
+  ]
+}

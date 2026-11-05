@@ -1,0 +1,356 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Clínica e negócio ético",
+  "module_position": 5,
+  "title": "Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua com Tirzepatida e Incretinas",
+  "description": "A aula aborda os aspectos éticos, regulatórios e práticos para prescrição responsável de tirzepatida e agonistas de incretinas manipulados estéreis no Brasil, com enfoque em documentação clínica, Termo de Consentimento Livre e Esclarecido (TCLE), análise custo-benefício e modelo de proposta de valor para terapia contínua sustentável.\n\nTrata também das evidências clínicas atuais da tirzepatida, regulamentações ANVISA, CFM e WADA, seleção criteriosa do paciente, organização do fluxo clínico-documental e orientações para manutenção da terapia, contrapondo-se ao uso irregular de research peptides e práticas antiéticas no mercado.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Prescrição ética de tirzepatida manipulada exige documentação criteriosa, TCLE robusto e assinatura do paciente.",
+    "Terapia contínua é superior a ciclos curtos para manter benefício clínico, minimizando reganho de peso.",
+    "Consentimento deve incluir explicitação de custo mensal, risco-benefício, limitações do off-label e plano de monitoramento.",
+    "Manipulação somente em farmácias certificadas para preparações estéreis, com rastreabilidade e responsabilidade legal.",
+    "Proibição de uso em atletas segundo WADA e vedação ética pelo CFM para fins estéticos/ou anti-aging sem deficiência.",
+    "Educação Doutiva suporta conduta madura, evitando influências comerciais ou práticas irregulares com peptídeos.",
+    "Avaliação regular com monitorização clínica e laboratorial é fundamental para segurança e efetividade da terapia."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua com Tirzepatida e Incretinas",
+      "subtitle": "Aspectos Éticos, Clínicos e Regulatórios para Prescrição Segura no Consultório"
+    },
+    {
+      "kind": "bullets",
+      "title": "Contexto e Relevância das Incretinas no Brasil",
+      "bullets": [
+        "Avanços da tirzepatida: agonismo duplo GLP-1/GIP com eficácia superior comprovada",
+        "Demanda crescente e desafios éticos/regulatórios na prescrição de incretinas manipuladas",
+        "Necessidade de documentação rigorosa, TCLE robusto e sustentabilidade terapêutica",
+        "Rejeição ao mercado paralelo e práticas antiéticas (peptídeos não registrados)"
+      ]
+    },
+    {
+      "head": [
+        "Fármaco",
+        "ANVISA (registro)",
+        "Manipulação legal",
+        "Off-label documentado",
+        "WADA",
+        "CFM 2.333/2023"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Liraglutida",
+          "Sim (Victoza, Saxenda)",
+          "Proibido injetável",
+          "Em obesidade",
+          "Proibido",
+          "Aceito, com indicação clínica"
+        ],
+        [
+          "Semaglutida",
+          "Sim (Ozempic, Wegovy)",
+          "Proibido",
+          "Em obesidade",
+          "Proibido",
+          "Aceito, idem"
+        ],
+        [
+          "Tirzepatida",
+          "Sim (Mounjaro, registro em andamento)",
+          "Permitido apenas em farmácia regularizada estéril, sob prescrição documentada",
+          "Off-label para obesidade",
+          "Proibido",
+          "Somente com critério, documentação reforçada"
+        ],
+        [
+          "Dulaglutida",
+          "Sim",
+          "Proibido",
+          "—",
+          "Proibido",
+          "Aceito"
+        ],
+        [
+          "Research peptides (ex: tirzepatide powder)",
+          "Não",
+          "Ilegal",
+          "Não",
+          "Proibido",
+          "Repreendido"
+        ]
+      ],
+      "title": "Regulamentação e Status dos Agonistas Incretínicos no Brasil",
+      "source": "Monografia Sec.2.1"
+    },
+    {
+      "head": [
+        "Estudo",
+        "n",
+        "População",
+        "Desfechos Primários",
+        "Dose Tirzepatida",
+        "Comparador",
+        "Redução Peso (%)",
+        "HbA1c Δ (%)",
+        "Eventos Graves (%)",
+        "Nível Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SURPASS-1",
+          "706",
+          "DM2 naïve",
+          "HbA1c, peso",
+          "5/10/15 mg/sem",
+          "Placebo",
+          "-7.0 a -9.5",
+          "-1.9 a -2.3",
+          "<5",
+          "A"
+        ],
+        [
+          "SURPASS-2",
+          "1879",
+          "DM2 com metformina",
+          "HbA1c, peso",
+          "5/10/15 mg/sem",
+          "Semaglutida 1 mg",
+          "-8.5 a -12.4 (vs -6.2)",
+          "-2.1 a -2.6 (vs -1.9)",
+          "Sem diferença",
+          "A"
+        ],
+        [
+          "SURMOUNT-1",
+          "2539",
+          "Obesidade s/ DM2",
+          "Peso ≥5%, ≥10%, ≥15%",
+          "5/10/15 mg/sem",
+          "Placebo",
+          "85% ≥5%; 50% ≥15%",
+          "NA",
+          "5-8% eventos GI leves/mod",
+          "A"
+        ]
+      ],
+      "title": "Principais Ensaios Clínicos da Tirzepatida — Eficácia e Segurança",
+      "source": "Monografia Sec.2.2"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação criteriosa do paciente: comorbidades, contraindicações e elegibilidade"
+        },
+        {
+          "label": "Aplicação do algoritmo de indicação e documentação detalhada"
+        },
+        {
+          "label": "Discussão detalhada com entrega do TCLE específico"
+        },
+        {
+          "label": "Prescrição formal com dose, via e duração"
+        },
+        {
+          "label": "Manipulação em farmácia estéril certificada com comprovação"
+        },
+        {
+          "label": "Educação do paciente com materiais personalizados"
+        },
+        {
+          "label": "Monitoramento inicial com reavaliação em 2-4 semanas"
+        },
+        {
+          "label": "Revisão periódica da terapia e renovação do TCLE"
+        }
+      ],
+      "title": "Fluxo Clínico e Documental para Prescrição de Tirzepatida Manipulada"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Manutenção prolongada: benefício robusto e sustentável, menor reganho ponderal, TCLE com plano formal, monitoramento e reavaliação constante",
+          "Ciclo curto (3-6 meses): benefício transitório, alto risco de reganho (70-85%), recomendação restrita a casos clínicos específicos, não para estética",
+          "Ambas com riscos e custos diferentes, mas manutenção ética e cientificamente preferível"
+        ],
+        "label": "Manutenção Prolongada"
+      },
+      "right": {
+        "items": [
+          "Evidência consistente, graus A-B",
+          "Transiente; baixa eficácia a longo prazo",
+          "Risco pequeno de reganho com adesão",
+          "Maior risco de reganho, menos custo inicial",
+          "Monitoramento e plano rigorosos",
+          "Orientar afastamento de uso estético ou só estético"
+        ],
+        "label": "Ciclo Curto"
+      },
+      "title": "Manutenção Contínua vs. Ciclo Curto na Tirzepatida"
+    },
+    {
+      "kind": "bullets",
+      "title": "Elementos Obrigatórios do TCLE para Tirzepatida Manipulada",
+      "bullets": [
+        "Título claro: “Consentimento para Uso Off-label de Tirzepatida Manipulada”",
+        "Descrição da indicação clínica e limitações do registro",
+        "Evidências clínicas e alternativas terapêuticas",
+        "Descrição do produto, via administração e estabilidade",
+        "Consentimento revogável e liberdade do paciente",
+        "Informação transparente sobre custos, duração e plano de desmame",
+        "Responsabilidades do paciente e equipe para monitoramento e reporte de efeitos"
+      ]
+    },
+    {
+      "bars": [
+        {
+          "label": "Custo mensal estimado: R$ 900 a 1.800 para manipulado em farmácia certificada",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Benefício clínico: redução ponderal ≥10% em ~80% dos pacientes aderentes",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Risco de reganho ponderal alto sem manutenção (70-85%)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Eventos adversos majoritariamente gastrointestinais leves/moderados",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Remissão parcial de DM2 em 30-50% dos casos",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Evitar peptídeos não registrados, pesquisa e uso não autorizado",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "Reais / Mês",
+      "title": "Custo-Benefício Estimado da Tirzepatida Manipulada",
+      "source": "Monografia Sec.4.1"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Top 5 Erros Éticos e Práticas a Evitar",
+      "source": "Monografia Sec.5.5 e 8.1"
+    },
+    {
+      "kind": "bullets",
+      "note": "Alternativa correta: explicação detalhada + TCLE + prescrição responsável.",
+      "title": "Resumo do Caso Clínico e Conduta Ética Recomendável",
+      "bullets": [
+        "Múltiplas tentativas prévias com metformina e estilo de vida",
+        "Histórico negativo para câncer ou complicações relevantes",
+        "Tentativas prévias de peptídeos não prescritos com efeitos adversos",
+        "Conduta correta: informar riscos, custos e alternativas de forma clara",
+        "Entrega de TCLE detalhado e prescrição transparente para manipulado estéril",
+        "Monitoramento rigoroso, ajuste de dose gradual e revisão constante"
+      ]
+    }
+  ],
+  "monograph": "# **Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua**\n\n## **1. Contexto, Relevância e Fronteiras Éticas na Prescrição de Incretinas**\n\nAs terapias incretínicas, especialmente agonistas de GLP-1 e, mais recentemente, agonistas duplos de GLP-1/GIP como a tirzepatida, representam um dos avanços mais relevantes na abordagem da obesidade, diabetes e comorbidades cardiometabólicas na clínica contemporânea (Evidência A) [S1]. No Brasil, a crescente demanda por prescrição de análogos de incretina — amplificada por práticas de manipulação — impõe desafios éticos, de responsabilidade civil, regulatória e de sustentabilidade do atendimento médico.\n\nNo ambiente da Purus, farmácia de manipulação estéril, e sob a égide da Doutiva, a qualificação ética extrapola a farmacodinâmica: envolve documentação criteriosa, obtenção de consentimento informado (TCLE) robusto, comunicação transparente do custo-benefício e manutenção ou ciclos terapêuticos baseados em literatura e regulação. Tal prática se opõe abertamente ao mercado paralelo de “research peptides”, hormônios anti-aging sem critério e dripterapias de efeito desconhecido, para os quais não há respaldo legal, ético ou científico.\n\n## **2. Fundamentos Científicos e Regulamentação das Incretinas — Foco na Tirzepatida**\n\n### **2.1. Mecanismos, Indicações, Eficácia, Riscos — Bases Clínico-Científicas**\nA tirzepatida é um agonista duplo de GLP-1 e GIP, com múltiplos estudos pivôs fase 3 demonstrando eficácia superior em redução ponderal, glicemia e melhora metabólica frente ao GLP-1 isolado (sem aumentar eventos adversos graves) [S1]. Resumo de registros disponíveis no Brasil:\n\n| Fármaco         | ANVISA (registro)       | Manipulação legal | Off-label documentado¹ | WADA² | CFM 2.333/2023³ |\n|-----------------|------------------------|-------------------|----------------------|-------|---------|\n| Liraglutida     | Sim (Victoza, Saxenda) | Proibido injetável| Em obesidade         | Proibido | Aceito, com indicação clínica |\n| Semaglutida     | Sim (Ozempic, Wegovy)  | Proibido          | Em obesidade         | Proibido | Aceito, idem |\n| Tirzepatida     | Sim (Mounjaro, registro em andamento) | **Permitido apenas em farmácia regularizada estéril, sob prescrição documentada** | Off-label para obesidade | Proibido | Somente com critério, documentação reforçada |\n| Dulaglutida     | Sim                    | Proibido          | —                    | Proibido | Aceito |\n| Research peptides (ex: \"tirzepatide powder\") | Não | **Ilegal** | Não | Proibido | Repreendido |\n\n¹Obesidade ainda fora da bula para tirzepatida, porém respaldo em trials robustos; manipulação exige rigor documental e ética (ver seção 6).  \n²WADA proíbe uso em atletas em competição (tanto agonista de GLP-1 quanto duplos).  \n³Resolução CFM 2.333/2023: veda hormônio/anabolizante para fins estéticos, anti-aging ou sem deficiência comprovada/documentada.\n\n### **2.2. Evidência Crítica: Benefício e Limitações**\nSíntese dos principais ensaios com tirzepatida em contexto de terapia contínua versus ciclo curto:\n\n| Estudo     | n | População          | Desfechos Primários          | Tirzepatida (Dose) | Comparador       | Redução de Peso (%) | HbA1c Δ (%) | Eventos Graves (%) | Nível Evidência |\n|------------|---|-------------------|------------------------------|---------------------|------------------|---------------------|-------------|--------------------|-----------------|\n| SURPASS-1  |706|DM2, naïve         |HbA1c, peso                   |5/10/15 mg/sem      |Placebo           | -7.0 até -9.5       | -1.9 a -2.3 | <5                 | A [S1]         |\n| SURPASS-2  |1.879|DM2, metformina    |HbA1c, peso                   |5/10/15 mg/sem      |Semaglutida 1mg   | -8.5 a -12.4 (vs -6.2) | -2.1 a -2.6 (vs -1.9) | Sem diferença | A [S1]         |\n| SURMOUNT-1 |2.539|Obesidade s/DM2    |Peso ≥5%, ≥10%, ≥15%          |5/10/15 mg/sem      |Placebo           | 85% perdem ≥5%; 50% ≥15% | NA        | 5-8 (GI leves-mod)  | A [S1]         |\n\n**Principais limitações**: Dependência de uso crônico para manutenção do benefício; reganho significativo após suspensão; eventos adversos gastrointestinais (náuseas < 35%, vômitos < 10%, descontinuação por intolerância <6%) [S1]. Não recomendado combinação com insulinas sem titulação cautelosa.\n\n## **3. Documentação Clínica e Consentimento Informado (TCLE)**\n\n### **3.1. Por que documentar além do padrão?**\n- **Exigência ética e legal:** Garantia de autonomia, segurança e respaldo em caso de litígio.\n- **Complexidade farmacológica e de manipulação:** Produtos injetáveis, off-label ou sem registro ANVISA exigem níveis máximos de consentimento e rastreabilidade.\n- **Valor x custo x risco x benefício:** Decisão partilhada, balanço explícito entre custo mensal e benefício esperado [S1].\n\n### **3.2. Elementos Obrigatórios do TCLE em Incretinas Manipuladas**\n\n- Título (claro: “Tirzepatida Manipulada — Consentimento para Uso Off-label fora de Bula”)\n- Indicação clínica específica, diagnóstico, limitations do registro vigente\n- Principais evidências, alternativas, limitações (remissão rara, dependência contínua, eventos, incerteza de long-term data)\n- Descrição do produto, via de administração, preparo e estabilidade (vide seção específica)\n- Consentimento revogável, liberdade de recusa contínua\n- Custo mensal estimado, duração prevista, revisão periódica, plano para descalonamento ou manutenção\n- Responsabilidade do paciente e equipe quanto à monitorização e notificação de efeitos adversos\n\n**Modelo-resumo de TCLE** (formato detalhado na seção 5.2 — QuickRef/Checklist)\n\n**Atenção**: O TCLE deve ser revisado frente a atualizações CFM/ANVISA e customizado para cada sala clínica. Para pacientes de longevidade, estética ou com histórico de uso inadequado de peptídeos, o detalhamento legal e farmacológico é crucial.\n\n## **4. Custo-Benefício, Proposta de Valor e Discussão Transparente com o Paciente**\n\n### **4.1. Estruturação da Proposta de Valor na Consulta**\n\nA relação terapêutica ética obriga à comunicação frontal dos componentes do custo-benefício:\n\n- **Custo direto** (referência: R$ 900-1.800/mês para tirzepatida manipulada estéril regularizada; custos superiores para produtos originais importados; jamais promover peptídeos não registrados/research peptides)\n- **Benefício clínico realista**: Redução ponderal ≥10% geralmente em ≥80% dos aderentes após 9-12 meses; remissão do DM2 em 30-50% (estudo SURPASS) [S1]; manutenção exige continuidade.\n- **Riscos**: GI comuns, risco pequeno de pancreatite, colecistopatia, eventos cardiovasculares neutros ou favoráveis; documentação rigorosa de antecedente pessoal/familiar de CMT [S1].\n- **Alternativas e limitação**: Opções não farmacológicas, outras moléculas registradas, exposição de off-label versus registrado.\n- **Reversibilidade/custo de descontinuação**: Reganho ponderal frequente (70-85%) a partir do 3º mês pós-suspensão.\n\n**Discussão transparente** é facilitada por amparo educacional da Doutiva — que orienta inclusive a recusa, quando manejo sustentável não é possível, e nunca empurra uso disfuncional/meramente comercial do produto.\n\n### **4.2. Manutenção vs. Ciclo Curto: Considerações Éticas e Científicas**\n\n**Evidência:**  \n- Manutenção crônica é a estratégia comprovadamente associada à menor taxa de reganho e maior estabilidade metabólica (Evidência A).  \n- Ciclos curtos (ex: 3-6 meses) podem ser considerados para situações especiais (pré-operatório de bariátrica, otimização metabólica pré-fecundação, etc.), mas a expectativa deve ser de perda transitória e reganho provável.  \n- NÃO indicar ciclos curtos para fins estéticos (“verão”, “noiva”, etc.), sem plano formal de sustentabilidade/alternativa.  \n- Monitorar long-term safety (não existe evidência de dano cumulativo na ausência de contraindicação, mas ausência de dados robustos >5 anos).\n\n**Tabela 2 – Manutenção Versus Ciclo Curto de Tirzepatida:**\n\n| Aspecto                         | Manutenção Prolongada               | Ciclo Curto (3-6 meses)                 |\n|----------------------------------|-------------------------------------|----------------------------------------|\n| Evidência de benefício           | Consistente, graus A-B              | Transiente, baixa                      |\n| Custo mensal                     | Variável, sustentado                | Menor, mas sem manutenção de benefício |\n| Risco de reganho                 | Baixo (com adesão)                  | Elevado (~70-85%)                      |\n| Estrutura do TCLE                | Deve incluir plano de manutenção    | Explicitar limitação e risco de reganho|\n| Papel do médico                  | Monitoramento e reavaliação formal  | Nunca estimular estética, só benefício objetivo |\n| Recomendação ética               | Sim, quando sustentada              | Sim, apenas para casos clinicamente justificados|\n\n## **5. Conduta Acionável: Passo a Passo para Prescrição Segura, Elegível e Ética de Tirzepatida/GLP-1 Manipulado**\n\n### **5.1. Seleção de Paciente: Critérios Rigorosos**\n\n#### Critérios Objetivos para indicação de terapia incretínica manipulada estéril:\n- **Obesidade grau ≥ 2** (IMC ≥ 35), ou grau 1 (IMC ≥ 30) com comorbidades\n- **DM2** inadequadamente controlado por mudança de estilo de vida ± metformina\n- **Contraindicação ou recusa a fármacos orais** padrão\n- Avaliação e documentação de contraindicações: histórico familiar/pessoal de carcinoma medular de tireoide, MEN 2, pancreatite prévia, gestação e lactação, idade <18 anos.\n- Disponibilidade de monitoramento e seguimento clínico/laboratorial\n\n#### Exclusões:\n- Desejo exclusivo de emagrecimento estético (“verão”, “casamento”)\n- Atletas em competição (proibição WADA)\n- Iniciativa do paciente baseada em pressão de redes sociais (“celebridade”, “influencer”)\n- Inexistência de respaldo documental\n\n### **5.2. Fluxo Clínico e Documental Exemplificado — tabela resumida**\n\n| Etapa                   | Ação Recomendada                    | Instrumento                          |\n|-------------------------|-------------------------------------|--------------------------------------|\n| Avaliação inicial       | Anamnese, comorbidades, risco CMT   | Prontuário detalhado                 |\n| Critérios elegibilidade | Aplicação de algoritmo de indicação | Formulário de seleção                |\n| Explicação e TCLE       | Discussão detalhada + entrega       | TCLE específico de incretina         |\n| Prescrição              | Fármaco, dose, via, duração descrita| Receita detalhada, codificação CID10 |\n| Manipulação             | Farmácia certificada grau estéril   | Nota fiscal, comprovação BPF         |\n| Educacional             | Material Doutiva (customizado)      | Kit informativo, QR code             |\n| Monitoramento inicial   | Reavaliação 2-4 semanas, exames     | Planilha de follow up, alerta eventos|\n| Revisão periódica       | 12, 24, 36 semanas, TCLE renovado   | Novo termo, novo consentimento       |\n\n### **5.3. Prescrição, Dose, Via e Manuseio**\n\n- **Dose habitual inicia**: 2,5 mg/sem, escalonado de modo individual (frequentemente até 10-15 mg/sem na fase alvo, conforme tolerância/adversos e literatura [S1]).\n- **Via**: subcutânea, em seringas individuais; manuseio estritamente asséptico, orientação sobre estabilidade (armazenar sob refrigeração, prazo de validade <30 dias após manipulação — **cada farmácia certificada pode detalhar teste real**).\n- **Cuidados**: descarte correto, nunca reaproveitar dispositivos, evitar exposição à luz; não manipular em ambiente doméstico não controlado.\n\n### **5.4. Monitoramento, Segurança e Revisão de Terapia**\n\n- **Monitorização mínima**: peso, IMC, circunferência abdominal, pressão arterial, frequência cardíaca, função renal/hepática (TGO, TGP, amilase, lipase, creatinina) cada 8-12 semanas.\n- **Reações adversas**: GI, investigar sintomas incomuns; interromper se pancreatite (dor abdominal persistente, vômitos) ou colestase.\n- **Checklist de segurança**: ver tabela 3 (Quick_Ref na seção 8.1)\n- **Revisão de TCLE/documentação**: obrigatória no ajuste de dose e a cada 6-12 meses.\n\n### **5.5. O Que NÃO Fazer**\n\n- Nunca prescrever incretinas manipuladas:\n  - Para fins estéticos puros ou “drip anti-aging”\n  - Em associação deliberada com anabolizantes, hormônio do crescimento, outras substâncias hormonais sem deficiência comprovada\n  - Sem documentação formal individualizada (não copiar offline/online)\n  - Para atletas em competição, mesmo se comorbidades\n  - Fora de farmácia regularizada e certificada para manipulação estéril\n  - Sem plano de desmame/alternativa em caso de descontinuação\n\n## **6. Regulatório e Ética no Brasil — Documento Vivo e Responsável**\n\n- **ANVISA**: só permite manipulação de tirzepatida se farmácia for certificada para preparações estéreis, seguindo BPF, com rastreabilidade documental do lote e farmacovigilância ativa.\n- **CFM Resolução 2.333/2023**: maior rigor para agonistas incretínicos usados fora da bula (“off-label obesity/ longevidade/estética”), obrigando documento de consentimento reforçado, detalhamento de base científica e proibição de “anabolizante” ou “hormônio anti-aging” sem deficiência orgânica.\n- **WADA**: proibição para atletas em competição.\n- **Responsabilidade civil**: ausência de documentação amplia risco de repercussão ética, judicial e criminal.\n\n**Educação Doutiva**: a escola sustenta o médico na construção contínua de conduta ética, atualização dos checklists e adaptação dos processos ao avanço regulatório e de tecnologia médica.\n\n## **7. Caso Clínico Realista — Ensino Aplicado**\n\n### **Paciente**\n- Sexo feminino, 42 anos, IMC 36 kg/m², DM2 há 6 anos, HbA1c pré-terapia 8,1%, HAS controlada, sem histórico de câncer, pancreatite, doença tiroidiana, nem histórico familiar para CMT ou MEN 2.\n- Já tentou metformina máxima + estilo de vida, intolerância a inibidor de SGLT2; trabalha em home-office (tempo sedentário alto); relatou já ter feito “compra online de research peptides” sem prescrição médica, sem sucesso e com reações adversas inespecíficas.\n- Está decidida a investir em terapia incretínica, aceitando manipulado estéril, buscando resultado clínico sustentado — mas preocupada com custo-contínuo e possíveis efeitos adversos.\n\n**Alternativas de conduta (apenas uma correta)**\nA) Iniciar tirzepatida manipulada, sem necessidade de TCLE ou documentação especial, já que paciente conhece a substância.  \nB) Indicar “ciclo curto de 3 meses” com tirzepatida manipulada, prometendo efeito sustentado independente de manutenção.  \nC) Explicar riscos, custos e limites da terapêutica, entregar TCLE detalhado, prescrever início gradativo da tirzepatida manipulada estéril (farmácia regularizada), reforçando acompanhamento e plano de manutenção revisável, com checks regulares de segurança.  \nD) Sugerir uso de “tirzepatida importada/research peptide” por ser mais barato e rápido, sem necessidade de receita.\n\n**Resposta Correta:** **C**.  \nJustificativa: Única opção que respeita rigor ético, documentação, regulação ANVISA/CFM, necessidade de TCLE customizado e plano formal de manutenção/monitoramento. As demais descumprem requisitos legais ou estimulam práticas de risco inaceitável.\n\n---\n\n## **8. Materiais de Apoio Prático para o Consultório**\n\n### **8.1. Quick_Ref de Bolso (Checklist Essencial)**\n\n- Avaliação criteriosa de indicação, risco, benefícios e alternativas (documentar)\n- Discussão detalhada sobre custo mensal, compromisso de manutenção, plano ante reganho\n- Elaboração/entrega de TCLE específico para incretina manipulada estéril\n- Prescrever apenas via farmácia certificada, registro/documentação do lote\n- Programar monitoramento regular clínico e laboratorial (GI, renal, hepático, glicêmico)\n- Revisar TCLE e indicar alternativa sempre que houver modificação de plano\n- Recusar/se recusar a prescrever em cenários proibidos (estética pura, atletas, sem respaldo, manipulação inferior)\n\n### **8.2. Slides Didáticos (Sugestão 8–12 Slides Premium)**\n1. **Título/agenda:** Documentação, Custo-Benefício e Ética na Terapia de Incretinas\n2. **Evidência-chave:** Tabela comparativa dos trials tirzepatida vs. semaglutida/placebo\n3. **Regulatório Brasil:** ANVISA x CFM x WADA x manipulação estéril – fluxograma\n4. **Critérios de Seleção:** Tabela/algoritmo objetivo para elegibilidade\n5. **Fluxo documental:** Passo a passo desde TCLE até prescription renewal\n6. **Custo x Benefício x Desfecho:** Gráfico barra – % que mantêm vs. % que reganham\n7. **Manutenção vs. ciclo curto:** Tabela split, limitações e recomendações\n8. **Monitoramento/Checklist:** Template/bolso\n9. **Caso clínico:** Discussão, racional e escolha correta (gráfico decision tree)\n10. **Pearls/Pitfalls:** Top 5 erros éticos, dicas premium de consulta\n11. **Material Doutiva/Purus:** Como baixar TCLE, checklists e atualização\n12. **Referências:** Diretrizes-chave e [S1]\n\n### **8.3. Key Points Premium**\n1. Prescrever incretinas (tirzepatida, GLP-1) manipuladas só é aceitável sob rigor documental, checklist de elegibilidade e consulta de excelência.\n2. O TCLE para agonista incretínico manipulável precisa ser detalhado, atualizado e individualizado, informando custo, benefício, riscos, alternativas — e, sempre que possível, entregue em duplicata.\n3. Terapia de manutenção crônica é a única modalidade sustentada por evidência robusta para benefício prolongado; ciclos curtos só devem ser considerados sob indicação clínica clara e aviso explícito de limitação temporal/risco de reganho.\n4. O valor da terapia para o paciente depende tanto do resultado clínico objetivo quanto da sustentabilidade financeira e compromisso mútuo — balanço só atingido por meio de educação, partilha e revisão contínua.\n5. Nunca “normalizar” pesquisa de peptides/research chemicals — uso fora de registro, importação, compra online, drip injetável sem rigor, ou qualquer estratégia não rastreável expõe médico e paciente a risco real (ético, clínico, legal).\n6. A educação contínua, baseada em evidência e norma, incorporada ao suporte premium Doutiva, é o diferencial para manutenção da conduta ética e protegida no consultório evolutivo.\n7. Revisar regulamentos (CFM, ANVISA) a cada prescrição: legislação e normatizações podem sofrer alterações que invalidam modelos anteriores de TCLE ou prescrições.\n  \n---\n\n## **9. Referências Fundamentais**\n\n- [S1] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011\n- Diretrizes ANVISA/Boas Práticas de Manipulação Estéril (consultar site ANVISA)\n- CFM Resolução 2.333/2023 e atualizações subsequentes\n- SURPASS, SURMOUNT e outros trials de fase 3 para tirzepatida, semaglutida, liraglutida (verificar DOI específico em meta-análises/consensos de especialidade)\n- Estudo WADA sobre substâncias proibidas em esportes\n- Biblioteca Doutiva – materiais originais e síntese regulatória [S#]\n\n---\n\n**Nota:** Este tratado é um guia referencial premium, elaborado para ambientes clínicos de alta responsabilidade. A adaptação constante ao cenário regulatório nacional, a incorporação de material educativo Doutiva e o respeito à autonomia do paciente sustentam o diferencial de excelência e proteção profissional da Purus.",
+  "quick_ref": "Checklist Essencial para Prescrição de Tirzepatida e Incretinas Manipuladas:\n- Avaliar rigorosamente indicação, contraindicações e elegibilidade\n- Discutir custo-benefício e riscos com o paciente de forma transparente\n- Fornecer TCLE personalizado, detalhado e revogável\n- Prescrever apenas farmácia estéril certificada, registrando lote\n- Instruir sobre uso, dose iniciando em 2,5 mg/sem com escalonamento\n- Monitorar clinicamente e laboratorialmente a cada 8-12 semanas\n- Renovar TCLE e revisar plano terapêutico periodicamente\n- Recusar prescrição em casos proibidos ou ausência de documentação\n- Educar e apoiar o paciente com materiais oficiais e atualizados\n- Manter-se atualizado com normas CFM, ANVISA e WADA para segurança jurídica e ética",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "42 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,1%"
+      },
+      {
+        "label": "Histórico farmacológico",
+        "value": "Intolerância ao SGLT2"
+      },
+      {
+        "label": "Uso prévio de peptides",
+        "value": "Research peptides sem prescrição - não eficaz"
+      },
+      {
+        "label": "Objetivo da paciente",
+        "value": "Uso manipulado estéril com sustentação clínica"
+      },
+      {
+        "label": "Preocupações",
+        "value": "Custo mensal e efeitos adversos"
+      },
+      {
+        "label": "Comorbidades associadas",
+        "value": "HAS controlada"
+      }
+    ],
+    "title": "Decisão Ética na Prescrição de Tirzepatida Manipulada: Caso Realista",
+    "reward": 10,
+    "options": [
+      {
+        "label": "Iniciar tirzepatida manipulada sem TCLE, já que paciente conhece substância",
+        "correct": false,
+        "rationale": "Falta documentação essencial e exposição ao risco legal ético."
+      },
+      {
+        "label": "Prescrever ciclo curto de 3 meses com tirzepatida manipulada, prometendo efeito sustentado",
+        "correct": false,
+        "rationale": "Ciclos curtos não sustentam benefício e não são prática ética padrão."
+      },
+      {
+        "label": "Conversar detalhadamente, entregar TCLE, prescrever dose gradativa manipulada estéril com acompanhamento",
+        "correct": true,
+        "rationale": "Atende todos os critérios éticos, legais e clínicos recomendados."
+      },
+      {
+        "label": "Sugerir uso de tirzepatida importada/research peptide por ser mais barato",
+        "correct": false,
+        "rationale": "Uso ilegal e proibido, expõe a riscos éticos e clínicos graves."
+      }
+    ],
+    "question": "Qual a conduta ética e correta para iniciar terapia com tirzepatida manipulada neste caso?",
+    "vignette": "Paciente feminina de 42 anos, IMC 36 kg/m², com diabetes tipo 2 controlado parcialmente (HbA1c 8,1%), apresenta histórico de intolerância a inibidor de SGLT2 e uso prévio não prescrito de peptides comerciais sem sucesso. Deseja iniciar terapia com tirzepatida manipulada estéril, mas está preocupada com custo e efeitos adversos.",
+    "teaching": "A conduta clínica ética exige completa conversa sobre riscos, benefícios e custos, seguida da entrega e assinatura de TCLE detalhado, prescrição criteriosa com plano de dose e monitoramento, manipulação em farmácia legalizada, além de revisão e seguimento contínuo. Opções que ignoram TCLE, incentivem ciclos curtos sem manutenção ou uso de produtos ilegais são incorretas e expõem paciente e médico a riscos éticos, legais e clínicos."
+  },
+  "refs": [
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11-S61."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 regula uso ético de hormônios e anabolizantes no Brasil."
+    },
+    {
+      "citation": "Diretrizes ANVISA para boas práticas de manipulação estéril, consulta online oficial."
+    },
+    {
+      "citation": "Pesquisa SURPASS e SURMOUNT, estudos clínicos fase 3 para tirzepatida e semaglutida."
+    },
+    {
+      "url": "https://www.wada-ama.org/en/prohibited-list",
+      "citation": "Lista de substâncias proibidas pela WADA (World Anti-Doping Agency), incluindo agonistas de incretinas."
+    },
+    {
+      "citation": "Guia de Consentimento Informado e Documentação Ética, Biblioteca Doutiva [S1]."
+    }
+  ],
+  "status": "published"
+}

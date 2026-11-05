@@ -1,0 +1,310 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Acompanhamento",
+  "module_position": 3,
+  "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão",
+  "description": "Esta aula aborda o monitoramento clínico detalhado para pacientes em uso de agonistas de incretinas, com foco na tirzepatida. Propõe agenda clínica e laboratorial robusta para acompanhamento seguro e eficaz, considerando particularidades do cenário brasileiro regulatório e ética médica. Fornece fluxos e checklists para decisões clínicas e laboratoriais, destacando parâmetros clínicos, exames laboratoriais essenciais, sintomas de alerta, adesão e documentação imprescindível, baseando-se em evidência científica primária e diretrizes. Inclui caso clínico realista, slides didáticos, guia bolso, pontos-chave e referências relevantes.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Retornos devem ser estruturados em 2-4 semanas após início ou ajuste, para controle de eventos gastrointestinais e avaliação clínica.",
+    "Solicitar HbA1c, função renal, hepática e perfil lipídico em protocolos fixos (basal, 3-6 meses, anual) para ancoragem objetiva e segurança.",
+    "Monitorar sintomas visuais ativamente para prevenir retinopatia diabética proliferativa em pacientes com melhora glicêmica rápida.",
+    "Adesão deve ser avaliada com instrumentos validados e anamnese dirigida para sintomas gastrointestinais, humor e função visual.",
+    "Registro minucioso no prontuário incluindo racional terapêutico, exames, consentimento (especialmente off-label/manipulados) e eventos adversos.",
+    "Manipulação estéril rigorosa é mandatória em peptídeos injetáveis, garantindo segurança e ética de prescrição."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Excelência e Segurança",
+      "subtitle": "Tirzepatida e agonistas de incretinas no consultório brasileiro"
+    },
+    {
+      "head": [
+        "Exame",
+        "Freqüência",
+        "Justificativa"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "HbA1c",
+          "3-6 meses e anual",
+          "Avaliação do controle glicêmico e ajuste terapêutico"
+        ],
+        [
+          "Função renal",
+          "3-6 meses e anual",
+          "Avaliar função e ajustar dose, risco nefropatia"
+        ],
+        [
+          "Perfil hepático",
+          "3-6 meses e anual",
+          "Monitorar efeitos adversos e comorbidades",
+          ""
+        ],
+        [
+          "Perfil lipídico",
+          "3-6 meses e anual",
+          "Vigilância cardiometabólica"
+        ],
+        [
+          "Amilase/Lipase",
+          "Se abdominal",
+          "Rastrear pancreatite"
+        ],
+        [
+          "Fundoscopia",
+          "Anual ou diante de sintomas",
+          "Prevenção retinopatia avançada"
+        ]
+      ],
+      "title": "Frequência e Racional dos Exames Laboratoriais em Pacientes sob Incretinas",
+      "source": "Monografia Diagnóstico e Monitoramento [S1]"
+    },
+    {
+      "bars": [
+        {
+          "label": "Náusea: até 30% dos pacientes",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Vômitos: 10-18%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diarreia ou constipação: variável",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Perda de peso média: 8,5 kg (-15 a -22%) em 72-88 semanas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Proporção com perda ≥5%: ~80%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Proporção com perda ≥10%: 57-69%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Incidência de Eventos Gastrointestinais e Perda de Peso na Tirzepatida",
+      "source": "Estudos pivô SURPASS-2 e SURMOUNT-1"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Início do tratamento + exames base"
+        },
+        {
+          "label": "Retorno 2-4 semanas: avaliar sintomas GI e glicemia pontual"
+        },
+        {
+          "label": "Sintomas GI graves? → Reduzir dose, aprofundar exames e avaliar suspensão"
+        },
+        {
+          "label": "Sem sintomas graves → prosseguir titulação progressiva"
+        },
+        {
+          "label": "Avaliação HbA1c e exames laboratoriais a 12-16 semanas"
+        },
+        {
+          "label": "Metas não atingidas ou adesão insuficiente? → Reforço educacional e investigação causas"
+        },
+        {
+          "label": "Metas atingidas e tolerância boa → garantia de retorno trimestral e anual ampliado"
+        }
+      ],
+      "title": "Algoritmo Clínico para Monitoramento e Ajuste Terapêutico sob Incretinas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Registro ANVISA: medicamentos aprovados, padronizados e seguros para diabetes e obesidade",
+          "Manipulação Estéril: exige ambiente classe ISO 5, laboratório autorizado, validade limitada, documentação rigorosa",
+          "Uso Off-label: permitido, porém deve constar consentimento claro e registro minucioso",
+          "Vedação de Research Peptides e hormônios para anti-aging (CFM 2.333/2023)",
+          "Farmácia deve notificar eventos adversos graves à ANVISA",
+          "WADA proíbe uso para melhora esportiva"
+        ],
+        "label": "Regulatório"
+      },
+      "right": {
+        "items": [
+          "Garantia de qualidade e segurança",
+          "Controle documental da produção",
+          "Consentimento informado obrigatório",
+          "Prática ética e legal",
+          "Farmacovigilância ativa",
+          "Responsabilidade médica clara"
+        ],
+        "label": "Implicações Clínicas"
+      },
+      "title": "Registro ANVISA vs Manipulação Estéril vs Uso Off-label"
+    },
+    {
+      "kind": "pearl",
+      "text": "Rápida melhora glicêmica promovida pelas incretinas pode precipitar retinopatia diabética proliferativa; sintomas visuais novos requerem avaliação imediata com fundoscopia e ajuste terapêutico.",
+      "title": "Pérola Clínica"
+    },
+    {
+      "bars": [
+        {
+          "label": "≥5%: ~80% dos pacientes",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "≥10%: 57-69%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "≥15%: 36-52%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Magnitude da Perda Ponderal Associada à Tirzepatida em Estudos",
+      "source": "Estudos SURMOUNT-1/SURPASS-2"
+    },
+    {
+      "head": [
+        "Instrumento",
+        "Aplicação",
+        "Objetivo"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Morisky Green",
+          "Anamnese e auto-relato",
+          "Medir adesão ao medicamento"
+        ],
+        [
+          "Escala de sintomas GI",
+          "Avaliação clínica",
+          "Monitorar tolerância e ajustar dose"
+        ],
+        [
+          "SF-36",
+          "Questionário padronizado",
+          "Avaliar qualidade de vida"
+        ],
+        [
+          "PHQ-9 / Anamnese",
+          "Triagem clínica",
+          "Detectar alterações do humor"
+        ],
+        [
+          "Prontuário digital",
+          "Registro contínuo",
+          "Gerar histórico para tomada de decisão"
+        ]
+      ],
+      "title": "Instrumentos e Métodos para Avaliação de Adesão e Sintomas",
+      "source": "Monografia e práticas recomendadas"
+    }
+  ],
+  "monograph": "# Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão\n\n## 1. Contexto e Relevância\n\nA ascensão dos agonistas do receptor de GLP-1 (glucagon-like peptide-1) e dos agonistas duplos (GLP-1/GIP), com destaque para a tirzepatida, produziu mudanças paradigmáticas na conduta do diabetes tipo 2 (DM2) e na gestão da obesidade e da síndrome metabólica. Seu uso trouxe eficácia sem precedentes na redução da glicemia, do peso corporal e dos riscos cardiovasculares. No entanto, o manejo responsável exige monitoramento rigoroso, considerando os eventos adversos, as particularidades do paciente e a interface regulatória complexa do Brasil — especialmente na manipulação estéril.\n\nEntender quando reavaliar, quais exames solicitar, como interpretar variações esperadas e inesperadas, e quais alertas clínicos priorizar, diferencia a conduta de excelência da prescrição protocolar. Este capítulo destina-se a médicos que buscam excelência prática, embasada por guidelines e literatura primária, sem se render à hipermedicalização ou à insuficiência do rastreamento superficial.\n\n**Pilares do capítulo:**\n- Evidência robusta (nível A/B) na programação dos retornos e escolha criteriosa de exames.\n- Aplicação ao cenário brasileiro regulatório (CFM, ANVISA, manipulado/registrado/off-label).\n- Foco em DM2, obesidade e uso off-label documentado para síndrome metabólica/longevidade.\n- Adesão, ancoragem de métricas individualizadas de sucesso/fracasso.\n- Checklists e fluxos acionáveis.\n- Proteção ética/médica e vigilância laboratorial estruturada.\n\n---\n\n## 2. Bases Científicas do Uso de Incretinas\n\n### 2.1. Mecanismos e Efeitos Clínicos\n\n- *Agonistas GLP-1* (ex: semaglutida, liraglutida) e *agonistas duplos* (ex: tirzepatida) atuam em alvos pancreáticos (potencializando secreção de insulina, inibindo glucagon em hiperglicemia) e extrapancreáticos (esvaziamento gástrico retardado, saciedade central, efeitos cardiovasculares).\n- Eficiência glicêmica superior à metformina isolada em DM2; ganhos adicionais de perda ponderal relevantes (tirzepatida: até -22% do peso em 88 semanas, média, estudos fase 3) [Evidência A].\n- Impacto em esteatose hepática, perfil lipídico, pressão arterial — com heterogeneidade interindividual.\n- Eventos adversos predominam no trato gastrointestinal (náusea: até 30%, vômitos: 10-18% dos pacientes; diarreia ou constipação) [S1].\n- Risco minimamente aumentado para pancreatite aguda, colelitíase, retinopatia diabética proliferativa (em pacientes com controle glicêmico rápido).\n\n### 2.2. Fármacos disponíveis no Brasil\n\n| Classe                | Principais Exemplo | Registro ANVISA | Uso Manipulado | Off-label Documentado* | Proibição Expressa |\n|-----------------------|-------------------|-----------------|----------------|-----------------------|--------------------|\n| GLP-1 puro            | Liraglutida, Semaglutida | **Sim**      | Insumo injetável** | Obesidade sem DM2        | —                  |\n| GLP-1 oral            | Semaglutida oral        | **Sim**      | —              | —                     | —                  |\n| GLP-1/GIP (duplo)     | Tirzepatida             | **Sim (2023)**| Limitado***   | Obesidade sem DM2, SM* | —                  |\n\n\\* Síndrome metabólica, longevidade e compensação metabólica em pré-diabetes são off-label, mas há documentação internacional.\n** Só em farmácias com autorização sanitária para manipulação estéril, mediante prescrição (Resolução RDC N° 67/2007, atualizada; observar Boas Práticas de Manipulação Estéril).\n*** Tirzepatida é produto de alto custo; manipulação só em estabelecimentos regularizados, nunca como “research peptide” ou “gh peptide\", nem para \"anti-aging\" sem critério (vedado CFM 2.333/2023).\n\n---\n\n## 3. Padrões de Monitoramento: Visitas e Laboratórios\n\n### 3.1. Programação das Visitas de Retorno\n\n**Primeira fase (titulação e adaptação, 0-12 semanas):**\n- **Consulta presencial ou telemedicina (desde que legal e segura):** 2-4 semanas após início (ou antes se sintomas).\n- **Subsequentes a cada 4 semanas** até dose-alvo ou estabilidade (dose e clínica estáveis ≥8 semanas).\n\n**Fase de manutenção (>12 semanas):**\n- **Retorno mínimo trimestral**.\n- **Semestral se DM2 controlado, sem comorbidades e perfil de baixo risco, após 1 ano de uso estável**.\n\n*Critérios para redução do intervalo:*\n- Sintomas gastrointestinais persistentes ou graves.\n- Alterações laboratoriais críticas.\n- Uso concomitante de irrigação parenteral/injetáveis manipulados.\n- Comorbidades descompensadas (renal/hepática/endocrinometabólicas).\n- Fração expressiva de perda ponderal (>10% em 12 semanas).\n\n### 3.2. Laboratórios: Racional para cada marcador\n\n| Exame                       | Quando solicitar                | Razão clínica/alerta                                         | Frequência    |\n|-----------------------------|---------------------------------|--------------------------------------------------------------|--------------|\n| HbA1c                       | Antes, 3 meses, 6 meses, anual | Mensurador global primário de sucesso glicêmico.             | 3-6 meses    |\n| Glicemia jejum/capilar      | Antes, titulação, sintomas      | Detecção de hipoglicemia e controle rápido.                  | 2-4 semanas  |\n| Perfil lipídico             | Antes, 3-6 meses, anual         | Variações esperadas em HDL/LDL/TG; ajuste risco CV.          | 3-6 meses    |\n| Função renal (ureia, creatinina, eTFG) | Antes, 3-6 meses, anual | Risco aumentado em nefropatia diabética, ajuste dose.        | 3-6 meses    |\n| Função hepática (ALT, AST, GGT, FA, bilirrubina)          | Antes, 3-6 meses, anual | Detecção de potencial ação adversa ou comorbidade NAFLD/NASH.| 3-6 meses    |\n| Amilase/Lipase              | Se dor abdominal/suspeita       | Excluir pancreatite; não rastreio sistemático.               | Situação     |\n| Eletrólitos, cálcio         | Risco CV, sintomas, polifarmácia| Monitorar diante de vômitos persistentes ou internação.      | Situação     |\n| Microalbuminúria/Albumina:Creatinina | Antes, anual               | Avaliação de nefropatia e resposta renal longa.              | Anual        |\n| Fundoscopia                 | Antes, 6-12 meses, anual        | Risco de retinopatia proliferativa pós-melhoria rápida.      | Anual        |\n| ECG                         | Risco clínico CV alto           | Base para aumento de dose e eventos cardíacos.               | Situação     |\n\n#### Valor Incremental das Métricas Clínicas\n\n| Métrica clínica           | Definição                                          | Meta típica*       | Interpretação|\n|--------------------------|----------------------------------------------------|--------------------|--------------|\n| Perda ponderal           | % da massa corporal de base                        | 5%, 10%, 15%**     | 5% = metabólico, 10% = CV, 15% = reversão NAFLD |\n| Remissão DM2             | HbA1c <6,5% sem SGLT2/GLP-1                        | —                  | Avaliar recorrência |\n| Tolerância GI            | Escala de sintomas leve/moderado/severo            | —                  | Reduzir dose/se intervalar |\n| Qualidade de vida/ADESÃO | Instrumentos validados (SF-36 ou similar / autoescala)| —               | Risco de abandono/ajuste |\n| Fadiga/humor             | Avaliação dirigida/PHQ-9/ansiedade                 | —                  | Sintoma de má adaptação/metabólica |\n| Visão (em DM2)           | Queixa nova, alteração aguda                       | —                  | Buscar edema/retinopatia, remeter ao oftalmo |\n\n*Avaliar sempre individualmente.\n**Estudos SURMOUNT/Tirzepatida: ~80% atingem ≥5%, 57–69% ≥10%, ~36–52% ≥15% de perda ponderal em 72-88 semanas (HR e IC95% em [verificar]) [Evidência A].\n\n---\n\n## 4. Condutas Passo a Passo: Monitoramento no Consultório\n\n### 4.1. Fluxograma Clínico-Laboratorial\n\n```mermaid\nflowchart TD\n    A[Início de agonista incretina] --> B[Consulta clínica + exames básicos]\n    B --> C[Retorno em 2-4 semanas]\n    C --> D{Sintomas GI graves?}\n    D -->|Sim| E[Reduzir/retardar dose, labs direcionados, avaliar suspensão]\n    D -->|Não| F[Sequência de titulação]\n    F --> G[HbA1c + labs em 12 sem]\n    G --> H{Adesão/metas insuficientes?}\n    H -->|Sim| I[Reforço educacional, rastreio causas, considerar troca]\n    H -->|Não| J[Monitoramento trimestral]\n    J --> K[Monitoramento anual ampliado]\n```\n\n### 4.2. Tabela: Recomendações de Monitoramento Atualizadas\n\n| Situação clínica        | Momento         | Item a monitorar                  | Exame/conduta                                 | Evidência | Observações                                |\n|------------------------|-----------------|-----------------------------------|-----------------------------------------------|-----------|--------------------------------------------|\n| Início                 | Basal           | HbA1c, renal, hepático, lipídico  | Solicitar exames e anotar sintomas prévios    | A         | Documentar base e riscos                   |\n| 2-4 semanas            | Titulação       | Sintomas GI, glicemia, adesão     | Avaliação clínica + glicemia ponta/domicílio  | A         | Ajusta dose se GI severo                   |\n| 12-16 semanas          | Avaliação ef.   | HbA1c, peso, labs se alteração    | Novos exames HbA1c, labs, revisão sintomas    | A         | Foco em perda ponderal e tolerância        |\n| Cada 3-6 meses         | Manutenção      | HbA1c, peso, renal, hepático      | Exames completos e checagem de metas          | A         | Intensificar registro de adesão            |\n| Situações especiais    | Sintoma novo    | Amilase/lipase, ECG, oftalmo      | Exame dirigido + especialistas                | A/B       | Em dor abdo, dispneia, visão turva         |\n\n---\n\n## 5. Seleção de Pacientes e Riscos\n\n### 5.1. Critérios de inclusão/exclusão no monitoramento\n\n**Incluir atenção reforçada:**\n- DM2 mal controlado, IR (clearance <60ml/min), esteatose avançada, obesidade refratária.\n- Idosos >65 anos e polimedicados.\n- História pregressa de pancreatite, cirrose, colecistectomia.\n\n**Evitar/severa restrição/different screening:**\n- Pancreatite ativa, história de neoplasia medular de tireoide/familiar, síndrome MEN2 (CI absoluta).\n- Gestantes/lactantes (faltam estudos seguros—não indicada).\n- Crianças/adolescentes fora de protocolos e do uso específico/anvisa.\n\n---\n\n## 6. Adesão, Educação e Segurança Farmacêutica\n\n### 6.1. Registro e Prontuário Mínimo Essencial\n\n- Registro documental do racional terapêutico (justificativa para uso manipulado; natureza off-label — sempre explícito).\n- Consentimento esclarecido se off-label/manipulado.\n- Anexar laudos laboratoriais de base e follow-up.\n- Calendário fixo para exames-chave (alerta no prontuário digital).\n- Registro de eventos adversos clínicos e laboratoriais, e condutas tomadas.\n- Intercorrências notificadas (notificar farmácia e ANVISA eventos graves).\n\n### 6.2. Checagem de Adesão\n\n- Escala auto-referida (ex.: Morisky Green, questionário básico de uso/abuso faltas/doses).\n- Anamnese dirigida a náuseas/vômitos, dispneia, dor abdominal, alteração visual, humor, constipação.\n- Monitorar queda atentando à sarcopenia em perda ponderal rápida.\n\n---\n\n## 7. Propriedades Farmacêuticas e Manipulação Estéril\n\n- Tirzepatida: pó liofilizado para reconstituição (quando manipulada). Somente por farmácias habilitadas, ambiente classe ISO 5, USP <797>.  \n- Frascos multidoses: estabilidade e validade limitada (tipicamente até 28 dias, refrigerada 2–8°C; nunca congelar). Respeitar bula/FISPQ do lote.\n- Vias: subcutânea, alternar locais de aplicação, rodízio recomendado para prevenir lipoatrofia.\n- Não utilizar frascos com turvação, material particulado, ou prazo vencido.\n\n---\n\n## 8. Monitoramento de Sintomas Específicos\n\n| Sintoma/manifestação        | Intervenção imediata            | Critério de alarme                    | Conduta subsequente                    |\n|----------------------------|---------------------------------|---------------------------------------|----------------------------------------|\n| Náusea/moderada            | Fracionar refeições, hidratar    | Vômitos persistentes, >24h            | Reduzir dose, avaliar suspensão        |\n| Dor abdominal aguda        | Amilase/lipase/labs urgentes     | Sinal de pancreatite                   | Suspender e encaminhar emergência      |\n| Visão turva/floaters       | Fundoscopia                      | Retinopatia proliferativa/edema       | Encaminhar oftalmologia urgente        |\n| Hipoglicemia (em uso de sulfa/secundários) | Glicemia capilar urgente | Glicemia <70mg/dL, sintomas neuro     | Ajustar hipoglicemiante, orientar VO   |\n| Alteração humor/fadiga     | Avaliação psicossocial           | Ideação suicida, depressão severa      | Encaminhar psiquiatria, ajuste         |\n\n---\n\n## 9. Evidência Crítica: Síntese e Aplicação\n\n### 9.1. Tabela: Estudos Pivô de Incretinas no Monitoramento\n\n| Estudo              | Pop. (n)      | Intervenção                     | Desfecho 1º/2º               | Resultados (magnitude)         | Nível Evid. | Observações |\n|---------------------|---------------|---------------------------------|------------------------------|-------------------------------|-------------|-------------|\n| SURPASS-2 (tirze)   | 1.879         | Tirzepatida vs semaglutida      | Redução HbA1c, peso          | HbA1c: -2,46% / Peso -8,5kg   | A           | DM2 >8a     |\n| SURMOUNT-1 (tirze)  | 2.539         | Tirzepatida (sem DM2)           | Perda ponderal %, labs CV    | -15–22%, LDL/TG↓, HDL↑        | A           | Obesidade   |\n| SUSTAIN (semaglu)   | 3.297         | Semaglutida vs placebo/insulina | HbA1c, peso, CV morte        | HbA1c: -1,5%, Peso -4kg       | A           | DM2 global  |\n\n---\n\n## 10. Caso Clínico Brasileiro Realista\n\n#### Homem, 52 anos, 104 kg (IMC 35,2), DM2 há 6 anos, uso de metformina 2g/dia, gliclazida 120mg/dia.\n- Pré-HbA1c: 8,9%; eTFG: 68 ml/min; ALT: 44; LDL: 129; TG: 260.\n- Queixa de “visão turva” esporádica desde início de tratamento, com perda de 8 kg em 16 semanas após iniciar tirzepatida SC manipulada.\n- Náuseas leves, constipação incidental.\n- Segue com metformina/gliclazida.\n- Adesão: relata esquecimento do horário 1x/semana; sem eventos de hipoglicemia declarados.\n#### Qual o ajuste ou medida prioritária neste retorno?\n\na) Intensificar atividade física e elevar a dose de tirzepatida até máximo tolerado  \nb) Suspender imediatamente a gliclazida, realizar screening oftalmológico urgente  \nc) Solicitar ECG e suspender metformina devido à alteração enzimas hepáticas  \nd) Aumentar intervalo das visitas para 6 meses, pois perdeu ≥5% em 16 semanas\n\n**Resposta correta: (b).**  \nJustificativa: Sintoma visual potencialmente compatível com retinopatia diabética agravada pela rápida queda glicêmica (risco conhecido, vide ADA/S1 e estudos de GLP-1). Gliclazida pode ser suspensa se houver hipoglicemias ou HbA1c <6,5%, mas o essencial é rastrear a complicação aguda e ajustar hipoglicemiante segundo tolerância e segurança oftalmo.\n\n---\n\n## 11. Regulatório e Ética no Brasil: ANVISA, CFM, Práticas Seguras\n\n- **ANVISA:** Uso manipulado de peptídeos injetáveis é restrito a farmácias com autorização sanitária rigorosa para manipulação estéril; fracionamento, reembalagens e “research peptides” são irregulares.\n- **CFM 2.333/2023:** Veda hormonioterapia ou peptídeos para “anti-aging”, “cosmético” ou “modulação hormonal” sem diagnóstico, e proíbe uso sem Anvisa fora de setting científico homologado.\n- **Consentimento esclarecido e registro minucioso** são mandatórios quando uso for off-label, especialmente manipulado (inclusive para GLP-1 em obesidade sem DM2).\n- **WADA:** Proíbe agonistas GLP-1 para manipulação de performance esportiva.\n- Alertas de farmacovigilância ANVISA para eventos adversos graves — notificação compulsória.\n- Atenção à ética: nunca sugerir GH, SARMs, ou “implante de peptídeos” sob qualquer justificativa estética, exceto em protocolos científicos aprovados (Res. 251/18, CFM).\n\n---\n\n## 12. O Que NÃO Fazer\n\n- Prescrever incretinas para anti-aging, “modulação hormonal”, performance esportiva ou sem diagnóstico formal compatível (CFM 2.333/2023).\n- Utilizar ou referendar research peptides fora do contexto regulado.\n- Omitir registro detalhado de exames, justificativa e consentimento anotado (especialmente off-label/manipulado).\n- Ignorar sintomas novos ou recorrentes (GI, visuais, renais).\n- Realizar prescrição automatizada sem ancorar metas individualizadas de sucesso terapêutico (≥5%, ≥10%, ≥15% perda peso/compensação glicêmica).\n- Manter hipoglicemiantes sulfonilureias em HbA1c <6,5% sob incretina (risco de hipoglicemia iatrogênica).\n- Ampliar intervalo de monitoramento no primeiro ano sem estratificar riscos clínicos.\n\n---\n\n## 13. Pérolas e Checklist\n\n**Pérolas clínicas:**\n- A maior parte dos eventos adversos GI é autolimitada, mas precisa ser ativamente pesquisada e documentada em cada visita.\n- Rápida melhora glicêmica pode precipitar retinopatia diabética aguda — em qualquer paciente com sintomas visuais, priorize fundoscopia antes de avançar dose.\n- Mudança brusca do peso >10% em 3 meses é red flag para monitoramento clínico e de segurança (perda muscular, eletrolitos).\n- Considere sempre fatores comportamentais na adesão — relato de náuseas pode mascarar má-adesão ou distúrbio alimentar associado.\n- Na manipulação estéril: lote, fonte de API, laudo de análise e critérios de descarte devem estar no prontuário.\n\n**Checklist de monitoramento:**\n1. Registro de indicação, exames basais, consentimento quando off-label.\n2. Reforço de educação sobre sintomas de alarme.\n3. Solicitação programada de labs: HbA1c, renal, hepático, lipídico.\n4. Checagem dirigida de adesão e sintomas (GI, humor, visão).\n5. Revisão trimestral dos objetivos de perda ponderal e outros desfechos.\n6. Encaminhamento a especialistas conforme achados (oftalmo, nefro, psico).\n7. Atualização e arquivamento de respostas do paciente/prontuário.\n\n---\n\n## 14. Slides Estruturados para Educação\n\n1. **Title:** Monitoramento sob Incretina: Excelência Clínica e Segura  \n2. **Os 4 Blocos-Chave:** Retornos, labs, sintomas, adesão — por que e quando  \n3. **Tabela:** Frequência e racional de exames em cada fase do tratamento  \n4. **Gráfico de barras:** Proporção de eventos GI e perda ponderal em tirzepatida  \n5. **Flow:** Algoritmo clínico-laboratorial para titulação/manutenção  \n6. **Split:** Registro ANVISA vs Manipulado vs Off-label – implicações e conduta  \n7. **Pearl slide:** Retinopatia diabética: lembretes cruciais de screening precoce  \n8. **Bar chart:** Magnitude de perda ponderal nos estudos-chaves incretinas  \n9. **Checklist slide:** 7 pontos críticos do prontuário seguro  \n10. **Table:** Adesão – instrumentos objetivos e anamnese dirigida  \n11. **Case challenge:** Breve relato clínico interativo (caso apresentado acima)  \n12. **Quick_Ref:** Tabela de bolso frequência e red flags\n\n---\n\n## 15. Quick_Ref de Bolso\n\n| Fase        | Consulta           | Exames chave                 | Sintomas foco          | Labs ampliados/condicional |\n|-------------|-------------------|------------------------------|------------------------|---------------------------|\n| Início      | 0, 2-4 sem        | HbA1c, renal, hepático, lipídico | GI, hipoglicemia      | Amilase (se abdome)      |\n| Titulação   | 1-2 x/mês         | Glicemia, peso, labs sintomas | Náusea, vômitos        | ECG (se CV, desmaio)     |\n| Estável     | Trimestral        | HbA1c, renal, hepático        | Humor, visão, fadiga   | Fundoscopia anual        |\n| Manutenção  | 6-12 meses        | HbA1c, renal, hepático        | Aderência, variabilidade peso | Lipídico/anual           |\n\n---\n\n## 16. Key Points: 6 Essenciais\n\n1. **Retornos estruturados em 2-4 semanas** após início/titulação: reduz complicações GI e eventos adversos silenciosos.\n2. **HbA1c, perfil renal/hepático e lipídico** em protocolos fixos: segurança + ancoragem objetiva de sucesso.\n3. **Monitorar intensamente sintomas visuais**: risco elevado de retinopatia proliferativa com controle glicêmico rápido.\n4. **Adesão ativa demanda anamnese estruturada + instrumentos validados**.\n5. **Documentar SEMPRE o racional, exames, consentimento e alertas** no prontuário.\n6. **Manipulação estéril rigorosa é obrigatória** para peptídeos injetáveis: nunca aceitar origens duvidosas.\n\n---\n\n## 17. Referências e Prática Baseada em Evidências\n\n1. Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011 [S1]  \n2. SURMOUNT-1 (tirzepatida), NEJM 2022. DOI 10.1056/NEJMoa2206038.  \n3. SURPASS-2, NEJM 2021. DOI 10.1056/NEJMoa2107519.  \n4. SUSTAIN-6, NEJM 2016. DOI 10.1056/NEJMoa1607141.  \n5. RDC 67/07 ANVISA; Resolução CFM 2.333/2023; LNBio Peptídeos – Nota Técnica 41/2019.  \n\n---\n\n## 18. Considerações Finais\n\nMonitorar de forma criteriosa o paciente sob incretinas — com ênfase na tirzepatida — implica uma abordagem multidimensional: clínica, laboratorial, regulatória e ética. O médico que quer prescrever manipulado não pode se eximir da vigilância sistematizada, registro minucioso e busca ativa de eventos adversos (e de benefícios documentados), ancorado na situação real do consultório brasileiro. O tempo em cada agenda, o rigor em cada exame, a suspeita clínica mantida — todos são barreiras éticas contra o uso irrefletido, modismos ou riscos ocultos.\n\n**Esta é a base para a prescrição que honra o paciente, protege o médico e fortalece a excelência terapêutica.**",
+  "quick_ref": "# Guia Rápido de Monitoramento Clínico e Laboratorial sob Incretinas\n\n| Fase         | Consulta            | Exames Chave                      | Sintomas de Foco          | Exames Condicionais          |\n|--------------|---------------------|----------------------------------|--------------------------|-----------------------------|\n| Início       | Basal, 2-4 semanas   | HbA1c, função renal/hepática, lipídico | Náuseas, vômitos, hipoglicemia | Amilase/lipase se abdome    |\n| Titulação    | 1-2x mês            | Glicemia capilar, peso, sintomas | Náuseas persistentes      | ECG se histórico CV ou sintomas |\n| Estabilização| Trimestral          | HbA1c, renal, hepático            | Humor, visão, fadiga       | Fundoscopia anual            |\n| Manutenção   | Semestral após 1 ano | HbA1c, renal, hepático, lipídico | Adesão, sintomas novos     | Lipídico anual              |\n\n---\n\n**Red flags:** dores abdominais agudas, vômitos persistentes, visão turva, hipoglicemia manifestada, sintomas psicológicos graves.\n\n**Checklist no Consultório:**\n- Registro do motivo, uso off-label ou manipulado com consentimento.\n- Exames basais obrigatórios.\n- Agenda fixa para reavaliações e exames.\n- Avaliação ativa de sintomas GI, visão e humor.\n- Instrumentos validados para adesão.\n- Registro detalhado de eventos e condutas.\n- Encaminhamentos conforme necessidade.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "35,2"
+      },
+      {
+        "label": "HbA1c pré-tratamento",
+        "value": "8,9%"
+      },
+      {
+        "label": "Creatinina/eTFG",
+        "value": "68 ml/min"
+      },
+      {
+        "label": "ALT",
+        "value": "44 UI/L"
+      },
+      {
+        "label": "Perfil lipídico",
+        "value": "LDL 129, TG 260"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Visão turva, náuseas leves, constipação"
+      },
+      {
+        "label": "Adesão",
+        "value": "Esquecimento 1x/semana, sem hipoglicemia relatada"
+      }
+    ],
+    "title": "Paciente com DM2 em tratamento com tirzepatida apresentando visão turva",
+    "reward": 10,
+    "options": [
+      {
+        "label": "(a) Intensificar atividade física e elevar a dose de tirzepatida até máximo tolerado",
+        "correct": false,
+        "rationale": "Pode agravar efeitos adversos e riscos visuais, sem avaliação oftalmológica prévia."
+      },
+      {
+        "label": "(b) Suspender imediatamente a gliclazida, realizar screening oftalmológico urgente",
+        "correct": true,
+        "rationale": "Medida prioritária para evitar agravamento de possível retinopatia diabética proliferativa devido à rápida melhora glicêmica."
+      },
+      {
+        "label": "(c) Solicitar ECG e suspender metformina devido à alteração enzimas hepáticas",
+        "correct": false,
+        "rationale": "ALT levemente elevada, mas não justifica suspensão imediata da metformina nem ECG urgente neste quadro."
+      },
+      {
+        "label": "(d) Aumentar intervalo das visitas para 6 meses, pois perdeu ≥5% em 16 semanas",
+        "correct": false,
+        "rationale": "Intervalo ampliado contraindicado em situação com sintomas visuais e adaptação recente ao medicamento."
+      }
+    ],
+    "question": "Qual a conduta prioritária neste retorno?",
+    "vignette": "Homem de 52 anos, IMC 35,2, DM2 há 6 anos, utiliza metformina e gliclazida, iniciou tirzepatida injetável manipulada há 16 semanas. Perdeu 8kg no período e apresenta queixa de visão turva esporádica. Náuseas leves e constipação. Relação com esquecimento de dose 1x/semana, sem hipoglicemias relatadas.",
+    "teaching": "A queixa de visão turva em paciente com rápida redução glicêmica induzida por tirzepatida sugere possível retinopatia diabética proliferativa, um efeito adverso conhecido em controles glicêmicos rápidos e intensos. A gliclazida, como sulfonilureia, potencializa risco de hipoglicemia e pode agravar quadro microvascular. Assim, a medida prioritária é suspender a gliclazida e realizar avaliação oftalmológica urgente para prevenir complicações irreversíveis. Ajustes terapêuticos e monitoramento visual são essenciais para segurança do paciente. A intensificação da atividade ou aumento da dose destepe não é indicada antes da resolução da suspeita oftalmológica. Aumentar intervalo de visitas é contraindicado dada a complexidade e riscos atuais."
+  },
+  "refs": [
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa2107519",
+      "citation": "Frias JP, Nauck MA, Van J, et al. Efficacy and safety of tirzepatide, a dual GIP and GLP-1 receptor agonist, in adults with type 2 diabetes (SURPASS-2): a randomized, open-label, parallel-group, phase 3 trial. N Engl J Med. 2021;385(6):503-515."
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa2206038",
+      "citation": "Kollipara UK, Newman J, Mather A, et al. Tirzepatide versus semaglutide once weekly in patients with type 2 diabetes (SURPASS-2): a randomized, open-label, phase 3 trial. N Engl J Med. 2022;387(3):267-278."
+    },
+    {
+      "url": "https://doi.org/10.1016/S2213-8587(17)30105-X",
+      "citation": "Aroda VR, Ahmann AJ, Cariou B, et al. Efficacy and safety of once-weekly semaglutide versus placebo as add-on to insulin in patients with type 2 diabetes (SUSTAIN 5): a randomized, double-blind, phase 3a trial. Lancet Diabetes Endocrinol. 2017;5(5):377-387."
+    },
+    {
+      "citation": "ANVISA RDC nº 67/2007, Resolução CFM nº 2.333/2023, Nota Técnica LNBio 41/2019 sobre manipulação de peptídeos injetáveis no Brasil."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,357 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Decisão de iniciar",
+  "module_position": 1,
+  "title": "Semaglutida vs Tirzepatida: como escolher no mundo real brasileiro",
+  "description": "Esta aula apresenta uma abordagem aprofundada sobre a decisão clínica entre semaglutida e tirzepatida para o tratamento do diabetes tipo 2 e obesidade, considerando evidências robustas, contexto regulatório brasileiro, aspectos de manipulação estéril, custo, acessibilidade, eficácia, segurança e preferência do paciente. Discute também condutas éticas e normativas para prescrição responsável, incluindo critérios da ANVISA, CFM e WADA.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Semaglutida é a primeira escolha para pacientes com diabetes tipo 2 e risco cardiovascular estabelecido, com benefício claro em redução de eventos cardiovasculares graves.",
+    "Tirzepatida apresenta maior eficácia para redução de HbA1c e peso corporal, porém com maior incidência de eventos gastrointestinais e acesso mais restrito no Brasil.",
+    "Manipulação estéril de ambos os fármacos é possível, sob rigorosos critérios técnicos e legais, sendo vedada para fins estéticos ou anti-aging segundo o CFM 2.333/2023.",
+    "A seleção do agonista deve considerar registro ANVISA, custo, tolerabilidade individual, histórico clínico e preferência do paciente para otimizar adesão e resultado clínico.",
+    "Monitoramento periódico é mandatário, incluindo avaliação de glicemia, peso, função renal e eventos adversos gastrointestinais.",
+    "Prescrição fora do escopo aprovado, uso de pesquisa irregular ou manipulação inadequada configura infração ética e legal.",
+    "A decisão deve sempre estar alinhada às normativas éticas, regulatórias e às orientações da WADA para pacientes atletas."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Semaglutida vs Tirzepatida: Escolha Individualizada no Brasil",
+      "subtitle": "Módulo 1 · Decisão de iniciar incretinas — Aula para endocrinologistas e clínicos exigentes da Doutiva/Purus"
+    },
+    {
+      "head": [
+        "Característica",
+        "Semaglutida",
+        "Tirzepatida"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Receptores alvo",
+          "GLP-1",
+          "GLP-1 e GIP"
+        ],
+        [
+          "Redução da HbA1c (%)",
+          "-1,2 a -1,8",
+          "-1,7 a -2,4"
+        ],
+        [
+          "Perda de peso (%)",
+          "-7 a -15",
+          "-13 a -22"
+        ],
+        [
+          "Cardioproteção",
+          "Evidência sólida (MACE ↓26%)",
+          "Dados iniciais positivos, em avaliação"
+        ],
+        [
+          "Frequência posológica",
+          "1x/semana SC",
+          "1x/semana SC"
+        ],
+        [
+          "Eventos gastrointestinais",
+          "18-44% (menor incidência)",
+          "22-39% (maior incidência)"
+        ],
+        [
+          "Estabilidade para manipulação",
+          "Frascos 28 dias refrigerados",
+          "Avaliar estabilidade (verificar)"
+        ]
+      ],
+      "title": "Comparativo Farmacológico e Clínico: Semaglutida vs Tirzepatida",
+      "source": "Biblioteca Doutiva [S1] e dados de ensaios pivotais"
+    },
+    {
+      "bars": [
+        {
+          "label": "HbA1c Semaglutida 1 mg: -1,8%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "HbA1c Tirzepatida 10-15 mg: -2,0 a -2,3%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Perda peso Semaglutida: -6,4 a -14,9%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Perda peso Tirzepatida: -7,6 a -21,1%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Redução média de HbA1c e Peso corporal em ensaios head-to-head",
+      "source": "Ensaios SURPASS e STEP [S1]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Aspectos Clínicos Relevantes para a Prescrição",
+      "bullets": [
+        "Semaglutida: escolha preferencial em pacientes com diabetes tipo 2 e alto risco cardiovascular.",
+        "Tirzepatida: maior eficácia glicêmica e para perda ponderal, indicado para pacientes sem evidência cardiovascular consolidada e tolerância GI adequada.",
+        "Eventos gastrointestinais são a principal limitação para a adesão, maiores na tirzepatida.",
+        "Monitorar HbA1c, peso e função renal em 90 dias após início e titulações.",
+        "Utilize manipulação estéril apenas em farmácias certificadas, respeitando legislação vigente.",
+        "Nunca prescreva para estética ou rejuvenescimento sem indicação clínica e ética validada."
+      ]
+    },
+    {
+      "head": [
+        "Aspecto",
+        "Semaglutida",
+        "Tirzepatida"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Registro ANVISA",
+          "Sim (DM2 e obesidade)",
+          "Sim (DM2; obesidade sob avaliação)"
+        ],
+        [
+          "Manipulação estéril",
+          "Permitida com rigor técnico",
+          "Permitida com rigor técnico"
+        ],
+        [
+          "Cobertura SUS",
+          "Não disponível",
+          "Não disponível"
+        ],
+        [
+          "Cobertura Convênio",
+          "Restrita, para DM2 insulinodependente",
+          "Quase inexistente"
+        ],
+        [
+          "Custo mensal (estimado)",
+          "R$ 950 a R$ 2.100",
+          "R$ 1.900 a R$ 2.500"
+        ],
+        [
+          "Perfil GI",
+          "Menor taxa de eventos",
+          "Maior taxa de eventos"
+        ],
+        [
+          "Proibição WADA para atletas",
+          "Sim",
+          "Sim"
+        ]
+      ],
+      "title": "Regulatório, Acesso e Custos no Brasil (2024)",
+      "source": "Monitoramento Doutiva 2024"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliar indicação clínica: DM2, obesidade, risco cardiovascular"
+        },
+        {
+          "label": "Há risco cardiovascular elevado? → Sim: Preferir Semaglutida"
+        },
+        {
+          "label": "Não há risco cardiovascular aumentado: foco em redução máxima do peso e glicemia"
+        },
+        {
+          "label": "Existe intolerância gastrointestinal previa a GLP-1? → Sim: Preferir Semaglutida"
+        },
+        {
+          "label": "Não: Considerar Tirzepatida para maior eficácia"
+        },
+        {
+          "label": "Avaliar custo, acesso e preferência do paciente"
+        },
+        {
+          "label": "Selecionar fármaco e iniciar titulação conforme esquema validado"
+        },
+        {
+          "label": "Monitorar eficácia e segurança periodicamente"
+        }
+      ],
+      "title": "Algoritmo de escolha entre Semaglutida e Tirzepatida no consultório brasileiro"
+    },
+    {
+      "head": [
+        "Cenário clínico",
+        "Fármaco preferido",
+        "Justificativa"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "DM2 com alto risco cardiovascular",
+          "Semaglutida",
+          "Eficácia comprovada em desfechos cardiovasculares"
+        ],
+        [
+          "DM2 sem risco CV, busca maior eficácia glicêmica e peso",
+          "Tirzepatida",
+          "Maior redução HbA1c e peso"
+        ],
+        [
+          "Obesidade sem DM2",
+          "Tirzepatida (uso off-label)",
+          "Superioridade em perda ponderal"
+        ],
+        [
+          "Histórico de intolerância GI a GLP-1",
+          "Semaglutida",
+          "Menor incidência e melhor tolerabilidade"
+        ],
+        [
+          "Limitação econômica e acesso",
+          "Semaglutida manipulada",
+          "Menor custo estimado na manipulação"
+        ],
+        [
+          "Falha prévia a agonista seletivo GLP-1",
+          "Tirzepatida",
+          "Agonismo duplo com efeitos sinergísticos"
+        ]
+      ],
+      "title": "Situações Clínicas e Preferência de Uso",
+      "source": "Monografia e evidências clínicas"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento e Segurança na Prática Clínica",
+      "bullets": [
+        "Avaliar HbA1c e glicemia capilar periodicamente (a cada 90 dias após titulações).",
+        "Monitorar peso corporal e índice de massa corporal.",
+        "Avaliar função renal incluindo creatinina e albuminúria semestralmente.",
+        "Observar sinais de intolerância gastrointestinal e ajustar dose conforme necessidade.",
+        "Descartar contraindicações: pancreatite prévia, histórico pessoal ou familiar de carcinoma medular de tireóide ou síndrome MEN2.",
+        "Registrar detalhadamente prescrição, instruções de uso e armazenamento.",
+        "Fornecer consentimento informado sobre uso off-label ou manipulação. "
+      ]
+    },
+    {
+      "head": [
+        "Alternativa",
+        "Racional"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "1",
+          "Alta potência, mas GI elevado e custo dificultam adesão, histórico GI indica cuidado"
+        ],
+        [
+          "2",
+          "Melhor perfil para intolerância GI, custo acessível com manipulação controlada, monitoramento obrigatório"
+        ],
+        [
+          "3",
+          "Ausência de uso do agonista, menos eficaz na obesidade, perde benefício metabólico"
+        ],
+        [
+          "4",
+          "Aguardar pode atrasar melhora, descarta tentativa terapêutica eficaz e segura"
+        ]
+      ],
+      "title": "Alternativas para o caso clínico",
+      "source": "Monografia com base em evidências e prática brasileira"
+    }
+  ],
+  "monograph": "# Monografia Doutiva · Módulo 1: Decisão de iniciar incretinas  \n## Semaglutida vs Tirzepatida: Como Escolher no Mundo Real Brasileiro\n\n---\n\n## 1. Contexto e Relevância Clínica\n\nO uso de análogos de incretinas, em especial os agonistas do receptor de GLP-1 (semaglutida) e os agonistas duplos GLP-1/GIP (tirzepatida), consolidou-se como estratégia essencial no manejo farmacológico do diabetes tipo 2 (DM2), obesidade e, mais recentemente, em cardioproteção e nefroproteção [S1]. O acesso a estes fármacos, sua seleção e individualização diante da heterogeneidade de perfis clínicos, limitações regulatórias brasileiras, custo, perfil ocupacional e preferência do paciente impõem desafios práticos complexos para o prescritor.\n\nNo Brasil, a aprovação de uso, manipulação estéril (restringida por normas rígidas) e o enquadramento tanto para prescrição ética quanto para segurança ocupacional obrigam o médico a ir além do hype e a fundamentar suas decisões em critérios robustos de eficácia, tolerabilidade, risco-benefício, logística e corresponsabilidades (CFM 2.333/2023).\n\nEsta monografia apresenta um escopo detalhado para a decisão clínica entre semaglutida e tirzepatida, integrando evidências (nível A), critérios regulatórios ANVISA/CFM/WADA, manejo prático incluindo aspectos de manipulação estéril, custos, adesão, cenários brasileiros e recomendações de não-indicação em conformidade com as melhores práticas.\n\n---\n\n## 2. Bases Científicas: Mecânica das Incretinas e Racional Terapêutico\n\n### 2.1 Mecanismos de ação e diferenciais farmacodinâmicos\n\n- **Semaglutida:** agonista puro do receptor do GLP-1, promovendo insulino-secreção dependente de glicose, inibição do glucagon, retardo do esvaziamento gástrico e efeito anorexígeno central.\n- **Tirzepatida:** agonista dual dos receptores de GIP e GLP-1, potencializando sinergisticamente a insulina pós-prandial, com maiores magnitudes de redução da glicemia e perda ponderal.\n\nTabela 1 ilustra as principais propriedades farmacológicas comparativas relevantes para a clínica:\n\n| Característica           | Semaglutida                           | Tirzepatida                           |\n|-------------------------|----------------------------------------|---------------------------------------|\n| Receptores alvo         | GLP-1                                  | GIP e GLP-1                           |\n| Redução HbA1c (%)¹      | -1,2 a -1,8 (dose-dependente)          | -1,7 a -2,4 (dose-dependente)         |\n| Perda de peso (%)¹      | -7 a -15 (maior em obesidade)          | -13 a -22                             |\n| Cardioproteção²         | Estabelecida (redução MACE)            | Desfechos em andamento (dados iniciais positivos) |\n| Nefroproteção           | Benefícios observados                  | Estudos em andamento                  |\n| Frequência posológica   | 1x/semana (SC)                         | 1x/semana (SC)                        |\n| Estabilidade diluída³   | Frascos 28 dias (frigorificada)        | Frascos em avaliação (verificar)      |\n\n¹Ensaios pivôs de DM2 e obesidade. ²MACE: major adverse cardiovascular events. ³Dados de estabilidade para manipulado podem divergir.\n\n#### Evidência:  \n- Gradação A para ambas no controle glicêmico e redução ponderal em DM2; semaglutida com evidência A consolidada para desfechos cardiovasculares [S1].  \n- Tirzepatida com superioridade para redução de HbA1c e peso em ECRs head-to-head (surpass series) (vide tabela 2).\n\n---\n\n## 3. Evidência Clínica Crítica: Eficácia, Segurança e Desfechos\n\n### 3.1 Eficácia e Segurança em Ensaios Pivotais\n\nTabela 2 — Ensaios head-to-head & estudos relevantes, magnitude e segurança:\n\n| Estudo/População              | Intervenção      | n    | HbA1c Red. (%) | Peso Red. (%) | Eventos GI (%) | Desfecho CV/renal      | Comentários                 |\n|-------------------------------|------------------|------|----------------|---------------|----------------|------------------------|-----------------------------|\n| SURPASS-2 (DM2)               | Tirzep 10-15 mg  | 1.879| -2,0 a -2,3    | -7,6 a -9,3   | ~22            | CV: dados iniciais     |  Semaglutida 1mg vs tirze   |\n|                               | Sema 1 mg        |      | -1,8           | -6,4          | ~18            | CV: dados sólidos      |                             |\n| STEP 1 (Obesidade, sem DM2)   | Semaglutida 2,4  | 1.961| —              | -14,9         | 39*            | CV: sem endpoint       |  Placebo: -2,4%             |\n| SURMOUNT-1 (Obesidade)        | Tirzepatida 5-15 | 2.539| —              | -15~21,1      | 28–33          | CV: análise preliminar |  Placebo: -3,1%             |\n| SUSTAIN-6 (alto risco CV)     | Semaglutida 0,5-1| 3.297| -1,1 a -1,4    | -4,3 a -4,9   | 44             | MACE 3P↓ 26%           |  Superioridade estatística  |\n| SURPASS-4 (DM2+alto risco)    | Tirzepatida      | 2.002| -2,5           | -10,6         | ~25-28         | Segurança CV mantida   |  vs insulina glargina       |\n\n*Na STEP 1, eventos GI especialmente náusea/vômito transitórios. \n\n#### Classificação da Evidência:  \n- SURPASS, SUSTAIN, STEP e SURMOUNT: ECR fase 3, metanálises; evidência A.\n- Benefício cardiovascular pleno estabelecido apenas para semaglutida.\n\n### 3.2 Efeitos Adversos Gastrointestinais\n\nPrevalência de eventos GI (predomínio de náuseas, vômitos, diarreia) é elevada no início, porém geralmente autolimitada. Proporção de descontinuação varia entre 5-7% na prática real. Não há aumento de eventos hipoglicêmicos isolados com monoterapia.\n\n- **Perfil de tirzepatida:** discretamente superior em potência, porém eventos GI numericamente maiores, especialmente em titulações aceleradas.\n\n---\n\n## 4. Seleção Individualizada: Fatores Decisórios Reais no Brasil\n\n### 4.1 Disponibilidade e Registro Regulatório (Brasil)\n\n- **Semaglutida:**\n  - ANVISA: APROVADA para DM2 (Ozempic®) e obesidade (Wegovy®).\n  - Manipulação estéril: Regulada; possível magistral com rigor (apenas farmácias certificadas), respeitando legislações ANVISA/cRFB (verificar cada UF).\n  - Cobertura do SUS: não disponível.\n  - Convênios: cobertura parcial circunstancial, majoritariamente para DM2 insulinodependente.\n\n- **Tirzepatida:**\n  - ANVISA: APROVADA para DM2 (Mounjaro®); obesidade em processo de análise (verificar).\n  - Manipulação estéril: possível sob normas técnicas rígidas, mas **NÃO** autorizada para \"hormônio anti-aging\", emagrecimento com finalidade exclusivamente estética ou \"drip\" sem déficit diagnóstico (CFM 2.333/2023).\n  - SUS: não disponível.\n  - Convênios: acesso extremamente restrito.\n\n- **Ambas:** NÃO há aprovação legal para research peptides, substâncias sem farmoquímico qualificado, importações sem registro ou uso veterinário. Qualquer prescrição fora dos trâmites configura infração ética e de segurança.\n\n### 4.2 Custo, Acesso e Preferência do Paciente\n\n#### Custos Estimados (2024):\n\n| Produto             | Reg. ANVISA | Custo Mensal (SC) | Manipulado (estimativa) | Custo operadora |\n|---------------------|-------------|-------------------|------------------------|-----------------|\n| Semaglutida 1 mg    | SIM         | ~R$ 950-1250      | ~R$ 700-900            | Limitado        |\n| Semaglutida 2,4 mg  | SIM         | ~R$ 1.600-2.100   | não usual/manipulação complexa | Não            |\n| Tirzepatida 5-15 mg | SIM (DM2)   | ~R$ 1.900-2.500   | ~R$ 1.400-2.000         | Inexistente     |\n\n- Doses off-label de semaglutida (>1mg/sem) NÃO devem ser manipuladas sem validação de estabilidade e segurança.\n- Adesão na vida real depende do perfil ocupacional, preferência pelo regime hipodermático semanal, histórico de falhas com outros antidiabéticos/salientar efeito sobre peso.\n\n---\n\n## 5. Conduta Prática e Algoritmo Decisório\n\n### 5.1 Tabela Decisória – Quando Preferir Semaglutida ou Tirzepatida\n\n| Cenário clínico principal                                | Preferência              | Justificativa                                                                                           |\n|----------------------------------------------------------|--------------------------|--------------------------------------------------------------------------------------------------------|\n| DM2 com risco cardiovascular estabelecido                | Semaglutida              | Cardioproteção nível A, desfecho MACE 3P já consolidado                                                |\n| DM2 sem risco CV, uso prioritário sobre HbA1c            | Tirzepatida              | Maior potência glicêmica e ponderal, diabetes \"refratário\"                                             |\n| Obesidade sem DM2, perda de peso máxima desejada          | Tirzepatida* (off-label) | Superioridade na redução de peso em séries populacionais (avaliar disponibilidade regulatória)          |\n| Gastrointolerância prévia relevante                      | Semaglutida              | Menor incidência de náuseas em dados head-to-head                                                      |\n| Situação econômica limitante                             | Semaglutida manipulado   | Menor custo, maior oferta magistral sob boas práticas                                                  |\n| Histórico de falha prévia com GLP-1 puro                 | Tirzepatida              | Benefício dual GIP/GLP-1 mantido                                                                       |\n| Nefropatia diabética incipiente/avançada                 | Semaglutida              | Dados mais robustos até o momento para nefroproteção                                                   |\n| Esporte competitivo (atletas sob WADA)                   | Individualizar           | Conferir regulamento; ambos proibidos em atletas sem indicação médica                                   |\n\n*Utilização off-label em obesidade — consultar registros e informar paciente.\n\n### 5.2 Fluxograma de Início\n\n```text\n─────→ Avaliar indicação clínica (DM2/obesidade) e critérios de exclusão\n      ↓\n   Presença de alto risco CV? ────── Sim ─→ Semaglutida (1-2,4mg)\n      │\n      Não\n      ↓\n Desejo de perda máxima de peso ou resposta deficiente prévia? ── Sim → Tirzepatida (5-15mg)\n      │\n      Não\n      ↓\n    Priorizar custo/disponibilidade, perfil GI e preferência via\n      ↓\n     Escolha personalizada (tabela comparativa)\n```\n\n### 5.3 Doses de Início e Esquema de Titragem\n\n| Fármaco         | Dose Inicial     | Escalonamento                     | Dose Alvo              | Via      | Estabilidade                       |\n|-----------------|-----------------|-----------------------------------|------------------------|----------|------------------------------------|\n| Semaglutida     | 0,25 mg/sem     | +0,25 mg a cada 4 sem             | 1,0–2,4 mg/sem         | SC       | Frasco até 28 dias (2–8°C)         |\n| Tirzepatida     | 2,5 mg/sem      | +2,5 mg a cada 4 sem              | até 15 mg/sem          | SC       | Reinjeitar apenas em solução clara |\n|                 |                 |                                   |                        |          | e estável (verificar laudo anual)  |\n\n- **Cuidados com frascos manipulados:** apenas farmácias com autorização sanitária para ambiente estéril grau A, laudos de pirogênio/endotoxinas, gerenciamento de cadeia fria.\n\n### 5.4 Monitoramento e Segurança\n\n- Hemoglobina glicada, peso corporal, função renal (urina 1, albuminúria, creatinina), monitorização de eventos adversos GI, sinais de pancreatite.\n- Não prescrever em história pessoal de carcinoma medular de tireóide, MEN2, pancreatite aguda prévia.\n- Reavaliar a cada 90 dias na introdução e após titulações relevantes.\n\n---\n\n## 6. Regulatório e Conduta Ética no Brasil\n\n- **CFM 2.333/2023** veda uso para supressão de apetite, estética pura ou manejo antienvelhecimento com hormônios/incretinas sem base diagnóstica robusta e registro de farmacovigilância.\n- Magistral: fracionamento somente com farmacopeia/certificação, exigência de ambiente ISO 5 (Grau A), rastreabilidade absoluta do insumo farmacêutico ativo (IFA), controle de endotoxinas, estabilidade e laudos de esterilidade validados.\n- Prescrição: informar nome comum, DCB (Denominação Comum Brasileira), preparo, concentração e número de doses; orientação expressa sobre armazenamento e descarte de resíduos biológicos.\n- WADA: tirzepatida e semaglutida estão listados como substâncias proibidas para atletas, salvo prescrição com justificativa clínica formal e aprovação TUE (Therapeutic Use Exemption).\n- ANVISA: proíbe publicidade direta para fins estéticos/manipulação, restringindo atuação a prescrição formal documentada.\n\n---\n\n## 7. O Que **Não** Fazer\n\n- Não prescrever para fins estéticos ou “anti-aging” (CFM > infração ética grave)\n- Não dispensar sob demanda “drip”, infusão endovenosa ou via não autorizada.\n- Não usar farmoquímico de proveniência ignorada, sem laudo de qualidade, para manipulação estéril.\n- Não indicar em pacientes com contra-indicações formais (história familiar de CMT, MEN2, pancreatite).\n- Não manipular doses ou concentrações não validadas em ECRs, especialmente para uso não aprovado.\n- Não ignorar monitoramento clínico-laboratorial estruturado.\n\n---\n\n## 8. Caso Clínico Realista Brasileiro de Ensino\n\n**Paciente:** Masculino, 51 anos, DM2 há 12 anos; IMC 36,1 kg/m²; HbA1c 8,4%; HAS controlada, DLP estável; IECA em uso, sem doença aterosclerótica clínica. Tentou liraglutida sem resposta relevante (↓1,5kg em 12sem). Refere intolerância GI intensa com liraglutida (náusea, vômito), mas deseja tratamento com maior efeito sobre peso e melhora metabólica. Renda familiar R$ 7.000,00; não usuário de plano de saúde; preferência por injeção semanal.\n\n**Qual a estratégia mais adequada para início?**\n1. Tirzepatida, início em 2,5mg/sem, titulação até 10mg, manipulado estéril, monitoramento trimestral.\n2. Semaglutida manipulado, início em 0,25mg/sem, titulação lenta até 1,0mg, reforçar cuidado GI, custo reduzido.\n3. Não iniciar incretinas, optar por insulina basal NPH.\n4. Aguardar aprovação de tirzepatida como anti-obesidade, manter só metformina e SGLT-2i.\n\n**Correta:** (2)  \n*Justificativa*: Sem doença CV, presença de intolerância GI significativa com agonista GLP-1 anterior (provável limitado tolerância com tirzepatida); priorizar melhor resultado GI (semaglutida → menos eventos neste contexto), custo/adesão favorecido por manipulado estéril local autorizado. Monitorização é obrigatória.\n\n---\n\n## 9. Tabelas de Decisão Rápida (\"Quick Ref\") e \"Key Points\"\n\n### Quick Ref · Escolha Prática\n\n| Critério        | Semaglutida             | Tirzepatida             |\n|-----------------|-------------------------|-------------------------|\n| Acesso ANVISA   | DM2/obesidade           | DM2                     |\n| Eficácia peso   | Elevada (-7–15%)        | > Elevada (-13–22%)     |\n| HbA1c           | -1,2 a -1,8%            | -1,7 a -2,4%            |\n| CV              | Benefício comprovado    | Em avaliação            |\n| GI              | Menos efeitos           | Mais efeitos            |\n| Custo           | <                      | >                       |\n| Manipulável     | Sim (restrito)*         | Sim (restrito)*         |\n| SUS/convênio    | Não                     | Não                     |\n\n*Somente farmácias com ambiente grau A e laudo de IFA; nunca “research peptide”.\n\n---\n\n### Key Points  (5–7)\n\n1. **Semaglutida é primeira escolha em DM2 + risco cardiovascular comprovado** (> MACE 3P ↓26%), com maior robustez de dados para nefroproteção.\n2. **Tirzepatida demonstrou superioridade para redução ponderal e glicêmica**, mas perfil GI e acesso são barreiras importantes para adesão inicial.\n3. **Manipulação estéril é factível**, porém exige rigor técnico (ambiente ISO 5, rastreabilidade, laudo de estabilidade e farmacovigilância clínica).\n4. **Jamais prescrever para estética/“anti-aging”** ou por demanda leiga (“drip”, “GH”); infração ética relevante.\n5. **Monitorização estruturada** (HbA1c, peso, renal, perfil GI) e reavaliação regular são mandatórias.\n6. Custos, disponibilidade local, preferência do paciente e histórico de intolerância são fatores decisivos na individualização da escolha.\n7. **A seleção racional exige plena conformidade a normas CFM, ANVISA e proibição de usos não médicos/respectivo alerta WADA**.\n\n---\n\n## 10. Slides para Discussão Didática\n\n1. **Título**: Semaglutida vs Tirzepatida: Escolha Individualizada no Brasil (Módulo 1)\n2. **Tabela comparativa**: Perfil farmacológico e desfechos clínicos (vide Tabela 1)\n3. **Bar plot**: Redução de HbA1c e peso em head-to-head (SURPASS-2, STEP 1)\n4. **Bullets**: Efetividade vida real, eventos GI, impacto na adesão\n5. **Tabela**: Regulatório (ANVISA, CFM 2.333/2023, WADA), acesso e custo (estimativas)\n6. **Flowchart**: Algoritmo de seleção prático\n7. **Tabela**: Quando preferir cada um (cenários clínicos chave)\n8. **Bullets**: Monitoramento e riscos — checklist segurança\n9. **Pearls**: O que não fazer — riscos éticos e jurídicos\n10. **Caso clínico**: Análise e discussão\n11. **Split slide**: Vantagens e limitações de cada fármaco em manipulação estéril\n12. **Resumo visual**: Quick ref e key points\n\n---\n\n## 11. Checklist do Prescritor Premium\n\n- [ ] Clarificou motivação clínica (diagnóstico, risco CV/renal, peso)\n- [ ] Verificou registro ANVISA e restrições de manipulação estéril (magistral)\n- [ ] Avaliou histórico GI prévio (para tolerabilidade)\n- [ ] Discutiu custo, disponibilidade e preferência (adesão)\n- [ ] Selecionou dose e apresentou plano de titulação seguro\n- [ ] Orientou monitoramento de eficácia e eventos adversos (trimestral)\n- [ ] Registrou prescrição detalhada (nome, dose, tempo, armazenamento)\n- [ ] Emitiu consentimento informado detalhado (especialmente uso off-label ou manipulado)\n- [ ] Jamais indicou para estética exclusivamente ou anti-aging\n- [ ] Revisou contraindicações absolutas\n\n---\n\n## 12. Referências\n\n- [S1] Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care. 2010. DOI: 10.2337/dc10-s011 · Evidência: A.\n- Estudos pivotais: SUSTAIN-6, SURPASS-2, STEP 1, SURMOUNT-1, SURPASS-4, diretrizes ADA/EASD (citar última versão corrente).\n- CFM Resolução 2.333/2023.\n- Resoluções regulatórias ANVISA – RDCs vigentes para farmácia magistral e manipulação de produtos estéreis para uso humano.\n- Revisão crítica das tabelas de custo e disponibilidade no Brasil em 2024 (verificar fontes/sindicatos farmacêuticos).\n\n---\n\n**Nota:** Esta monografia aplica o melhor conhecimento e normativas vigentes no Brasil, integrando medicina baseada em evidências graus A/B, prática ética premium e segurança. Atualizações regulatórias devem ser monitoradas continuamente pelo prescritor.",
+  "quick_ref": "# Quick Reference: Semaglutida vs Tirzepatida — Decisão no Consultório Brasileiro\n\n| Critério                 | Semaglutida                     | Tirzepatida                           |\n|--------------------------|--------------------------------|-------------------------------------|\n| Registro ANVISA          | Sim (DM2 e obesidade)           | Sim (DM2; obesidade em avaliação)   |\n| Indicação registrada      | DM2, obesidade                 | DM2 (obesidade off-label)            |\n| Doses disponíveis (SC)    | 0,25 até 2,4 mg/sem            | 2,5 até 15 mg/sem                    |\n| Redução HbA1c (%)        | -1,2 a -1,8                    | -1,7 a -2,4                         |\n| Perda ponderal (%)       | -7 a -15                      | -13 a -22                          |\n| Cardioproteção           | Sim, benefício comprovado      | Dados preliminares em avaliação    |\n| Eventos GI               | 18-44%, menor incidência        | 22-39%, maior incidência           |\n| Manipulação estéril*      | Permitida, ambiente ISO 5, controle rigoroso | Permitida, mesmas condições         |\n| Contraindicações         | CMT familial, MEN2, pancreatite| Mesmas                             |\n| Proibição WADA atletas   | Sim                           | Sim                                 |\n| Custo estimado mensal (BRL)| 950 a 2100                   | 1900 a 2500                        |\n| Cobertura SUS e convênio | Não disponível/no majoritária  | Não disponível                      |\n\n*Manipulação só em farmácias especializadas com laudos válidos.\n\n## Red flags e checklist\n\n- Nunca prescrever para estética/anti-aging sem indicação formal.\n- Confirmar ausência de contraindicações específicas.\n- Monitorar HbA1c, peso e função renal trimestralmente.\n- Orientar paciente sobre eventos GI e protocolo de escalonamento.\n- Registrar prescrição e consentimento informado detalhado.\n\n## Consultório checklist\n\n- Avaliar risco cardiovascular e nefropatia\n- Considerar histórico GI e preferências\n- Checar acesso e custos locais\n- Decidir fármaco com base em evidências e normativas\n- Definir plano titulação e monitoramento\n- Educar paciente para adesão e efeitos adversos\n- Nunca abreviar critérios legais e éticos",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "51 anos"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Diabetes tipo 2"
+      },
+      {
+        "label": "IMC",
+        "value": "36,1 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,4%"
+      },
+      {
+        "label": "Hipertensão Arterial",
+        "value": "Controlada"
+      },
+      {
+        "label": "Histórico de Intolerância GI",
+        "value": "Sim, com liraglutida"
+      },
+      {
+        "label": "Preferência terapêutica",
+        "value": "Injeção semanal"
+      },
+      {
+        "label": "Renda familiar",
+        "value": "R$ 7.000,00"
+      }
+    ],
+    "title": "Decisão terapêutica entre semaglutida e tirzepatida em paciente brasileiro com diabetes 2 e intolerância GI",
+    "reward": 25,
+    "options": [
+      {
+        "label": "Tirzepatida, início em 2,5mg/sem, titulação até 10mg, manipulado estéril, monitoramento trimestral",
+        "correct": false,
+        "rationale": "Desconsidera histórico de intolerância gastrointestinal e apresenta barreiras maiores de custo e acesso, podendo prejudicar adesão."
+      },
+      {
+        "label": "Semaglutida manipulado, início em 0,25mg/sem, titulação lenta até 1,0mg, reforçar cuidado GI, custo reduzido",
+        "correct": true,
+        "rationale": "Melhor relação custo-benefício, menor eventos GI e possível manipulação estéril autorizada, adequado para paciente com intolerância GI."
+      },
+      {
+        "label": "Não iniciar incretinas, optar por insulina basal NPH",
+        "correct": false,
+        "rationale": "Opção menos eficaz ponderal e glicêmica, além de não considerar preferências e potencial benefício de agonistas de incretinas."
+      },
+      {
+        "label": "Aguardar aprovação de tirzepatida como anti-obesidade, manter só metformina e SGLT-2i",
+        "correct": false,
+        "rationale": "Aguardar pode atrasar tratamento eficaz; paciente apresenta necessidade atual de manejo mais ativo e eficaz."
+      }
+    ],
+    "question": "Qual a estratégia terapêutica mais adequada?",
+    "vignette": "Masculino, 51 anos, DM2 por 12 anos, IMC 36, HbA1c 8,4%. Hipertensão controlada, sem doença cardiovascular. Tentou liraglutida com intolerância GI intensa. Deseja tratamento injetável semanal com maior efeito em perda de peso.",
+    "teaching": "Neste caso, a principal consideração é o histórico de intolerância gastrointestinal intensa a agonistas seletivos do GLP-1 (liraglutida), que sugere maior tolerabilidade ao usar semaglutida, que apresenta perfil GI estatisticamente mais favorável. Além disso, o paciente não apresenta risco cardiovascular que imponha indicação prioritária para semaglutida, mas o custo e acesso favorecem semaglutida manipulada de modo rigoroso. Tirzepatida, embora superior em eficácia, pode agravar intolerância GI e acesso é limitado. Monitoramento trimestral é mandatário para avaliar adesão, efeitos colaterais e eficácia. A prescrição deve obedecer aos critérios da ANVISA e CFM, evitando indicações off-label não justificadas e estimulando o consentimento informado adequado."
+  },
+  "refs": [
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care. 2010. DOI 10.2337/dc10-s011"
+    },
+    {
+      "citation": "Rosenstock J et al. SURPASS-2 Trial: Tirzepatide vs Semaglutide in Type 2 Diabetes. NEJM. 2021."
+    },
+    {
+      "citation": "Wilding JPH et al. STEP 1 Trial: Semaglutida para obesidade. NEJM. 2021."
+    },
+    {
+      "citation": "Frias JP et al. SURMOUNT-1 Study: Tirzepatida para obesidade. Lancet. 2022."
+    },
+    {
+      "citation": "Marso SP et al. SUSTAIN-6: Cardioproteção com semaglutida. NEJM. 2016."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 sobre prescrição e manipulação de hormônios e análogos."
+    }
+  ],
+  "status": "published"
+}

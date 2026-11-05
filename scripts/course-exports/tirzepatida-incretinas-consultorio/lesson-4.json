@@ -1,0 +1,289 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Titulação e frasco",
+  "module_position": 2,
+  "title": "Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro",
+  "description": "A aula aborda os fundamentos essenciais para prescrição ética e técnica da tirzepatida e incretinas manipuladas estéreis no contexto brasileiro, focando na importância da esterilidade, cadeia de frio rigorosa, legislação ANVISA/CFM e sinais de alerta para qualidade farmacotécnica, visando a segurança e eficácia clínica sem concessões.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A esterilidade rigorosa é mandatória em manipulação magistral de peptídeos injetáveis para evitar infecções graves.",
+    "Transporte e armazenamento contínuo na cadeia de frio entre 2–8°C são essenciais para manter a integridade da tirzepatida.",
+    "Prescrição sem laudo de lote, controle de endotoxinas e rastreabilidade configura erro técnico e risco clínico.",
+    "Manipulação para fins estéticos ou cosméticos é proibida e sujeita a sanções éticas e legais.",
+    "Frascos multi-dose abertos devem ser descartados após 14–28 dias; nunca devem ser compartilhados entre pacientes.",
+    "Monitoramento e documentação pós-administração são essenciais para segurança e defesa jurídica do médico.",
+    "Rejeitar insumos sem registro, pesquisa não autorizada ou manipulação sem ambiente ISO 5 são medidas fundamentais para a prática segura."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Manipulação Estéril, Estabilidade, Armazenamento e Frasco: Incretinas e Tirzepatida",
+      "subtitle": "Módulo 2 · Titulação e frasco · Curso Tirzepatida e Incretinas no Consultório - Doutiva/Purus Brasilia 2024-06-01"
+    },
+    {
+      "kind": "bullets",
+      "title": "Relevância Clínica e Desafio Atual",
+      "bullets": [
+        "Uso crescente de peptídeos injetáveis na endocrinologia contemporânea.",
+        "Riscos sérios associados à manipulação estéril inadequada, incluindo infecções e inatividade do fármaco.",
+        "Necessidade de cadeia de frio robusta e rastreabilidade no tratamento com tirzepatida.",
+        "Exigência crescente do médico por padrões técnicos e éticos rigorosos na prescrição.",
+        "Alinhamento com normas da ANVISA, CFM e boas práticas farmacêuticas."
+      ]
+    },
+    {
+      "head": [
+        "Produto/Tipo",
+        "Registro ANVISA",
+        "Magistral permitido?",
+        "Vias aceitas",
+        "Uso em estética?",
+        "Posição WADA",
+        "Observação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida caneta industrial",
+          "Sim",
+          "—",
+          "SC",
+          "Não",
+          "Proibido em atletas",
+          "Primeira linha quando disponível"
+        ],
+        [
+          "Tirzepatida manipulada",
+          "Não",
+          "Excepcional",
+          "SC",
+          "Não",
+          "Proibido",
+          "Só se inacessível forma industrial"
+        ],
+        [
+          "GLP-1 análogos industriais",
+          "Sim",
+          "—",
+          "SC",
+          "Não",
+          "Proibido",
+          "Uso conforme bula"
+        ],
+        [
+          "Manipulados research peptides",
+          "Não",
+          "Não",
+          "—",
+          "Não",
+          "Proibido",
+          "Risco ético e legal"
+        ],
+        [
+          "Implantes peptídicos",
+          "Não",
+          "Não",
+          "—",
+          "Não",
+          "Proibido",
+          "Nunca aprovados"
+        ]
+      ],
+      "title": "Resumo Regulatório das Formas de Tirzepatida e Incretinas no Brasil",
+      "source": "ANVISA RDC 67/2007; CFM 2.333/2023; WADA 2024"
+    },
+    {
+      "kind": "bullets",
+      "title": "Cadeia de Frio e Estabilidade",
+      "bullets": [
+        "Tirzepatida deve ser transportada e armazenada 100% do tempo entre 2 e 8°C.",
+        "Frasco multi-dose aberto tem estabilidade microbiológica e química de 14 a 28 dias a <25°C.",
+        "Exposição a temperaturas acima de 25°C resulta em rápida degradação e perda de atividade.",
+        "Transporte deve ser com embalagem isotérmica validada, preferencialmente com datalogger.",
+        "Congelamento pode destruir molécula e é absolutamente contraindicado."
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Boas Práticas na Manipulação Magistral",
+      "bullets": [
+        "Ambiente ISO 5 (fluxo laminar) é obrigatório para manipulação estéril de peptídeos.",
+        "Frascos de vidro borossilicato e tampas farmacêuticas garantem integridade do produto.",
+        "Laudo de esterilidade, endotoxinas, análise da dose (HPLC/MS) e partículas devem ser emitidos por lote.",
+        "Farmácia deve garantir rastreabilidade integral do insumo e do processo.",
+        "Rotulagem clara e QR code são essenciais para verificação e segurança do médico e paciente."
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Sinais de Alerta (“Red Flags”) no Consultório",
+      "bullets": [
+        "Ausência de laudo técnico/análise microbiológica do lote manipulado.",
+        "Rótulo genérico sem data, validade ou QR code.",
+        "Preço muito baixo e entrega imediata sem controle de temperatura.",
+        "Frascos com odor estranho, cor alterada ou turbidez.",
+        "Informações vagas ou ausência de dados sobre cadeia de frio e procedência do insumo.",
+        "Prescrição sem individualização ou justificativa clínica formal.",
+        "Compartilhamento de frascos multi-dose entre pacientes (prática ilegal e insegura)."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Diagnóstico formal e indicação clínica clara do paciente."
+        },
+        {
+          "label": "Prescrição individualizada detalhada (dose, concentração, via, validade, farmácia específica)."
+        },
+        {
+          "label": "Seleção da farmácia com ambiente ISO 5 e exigência de laudo de lote individualizado."
+        },
+        {
+          "label": "Recebimento: conferência do armazenamento, temperatura, integridade do frasco e QR code."
+        },
+        {
+          "label": "Orientação rigorosa para o paciente sobre uso, armazenamento e descarte do frasco aberto."
+        },
+        {
+          "label": "Monitoramento clínico e registro de eventos adversos no prontuário."
+        },
+        {
+          "label": "Notificação imediata à Anvisa/Purus em caso de reações suspeitas ou falhas do produto."
+        }
+      ],
+      "title": "Fluxo Clínico para Prescrição Responsável de Tirzepatida Manipulada"
+    },
+    {
+      "kind": "bullets",
+      "title": "Condução Ética e Técnica na Prescrição",
+      "bullets": [
+        "Jamais prescrever incretinas manipuladas para fins estéticos ou longevidade.",
+        "Manipulação apenas para condições que contraindiquem a forma industrial registrada.",
+        "Documentação completa para garantia de rastreabilidade e defesa ética/civil.",
+        "Orientar paciente que frascos abertos devem ser descartados após 14–28 dias.",
+        "Nunca reutilizar ou compartilhar seringas e agulhas.",
+        "Investigar prontamente qualquer sinal de infecção local ou sistêmica após aplicação.",
+        "Reforçar que a queda da atividade pode indicar má qualidade alinhada a ruptura da cadeia de frio."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Paciente com alergia ao excipiente industrial e acesso remoto à farmácia certificada.",
+          "Recebe frasco multi-dose em caixa isotérmica, temperatura aferida 11°C no recebimento.",
+          "Histórico prévio de complicações com formulações manipuladas inadequadas.",
+          "Necessidade de decisão segura para manter terapia efetiva e evitar infecção."
+        ],
+        "label": "Contexto Clínico"
+      },
+      "right": {
+        "items": [
+          "A) Usar o frasco sem restrição, orientar refrigeração domiciliar.",
+          "B) Exigir novo frasco com comprovação do transporte correto e laudo de esterilidade, uso limitado a 14 dias após abertura.",
+          "C) Suspender manipulado, insistir na industrial mesmo com alergia.",
+          "D) Usar frasco e compartilhar entre pacientes para evitar desperdício."
+        ],
+        "label": "Respostas possíveis"
+      },
+      "title": "Caso Clínico Brasileiro: Transporte e Qualidade em Tirzepatida Magistral"
+    },
+    {
+      "kind": "pearl",
+      "text": "A segurança do paciente e o sucesso terapêutico com tirzepatida manipulada residem na manipulação sob ambiente Certificado ISO 5, transporte rigoroso em cadeia de frio, laudo detalhado de cada lote e documentação clínica criteriosa — nenhum atalho ou improviso está aceitável em uma terapia injetável de alta complexidade.",
+      "title": "Pérola Prática: Priorize Esterilidade e Rastreabilidade"
+    }
+  ],
+  "monograph": "# Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro\n\n---\n\n## 1. Contexto: Por Que Esterilidade Importa em Incretinas Injetáveis\n\nA crescente adoção clínica de incretinas, em especial a tirzepatida, trouxe à linha de frente demandas inéditas sobre manipulação estéril, rastreabilidade e qualidade farmacotécnica dos frascos. Endocrinologistas, nutrólogos e clínicos são corresponsáveis pela segurança do processo — da prescrição à administração — em um cenário brasileiro onde a manipulação magistral avança (inclusive com peptídeos), mas não pode se dissociar de padrões industriais e rigor ético. \n\nA manipulação inadequada de formas estéreis, especialmente parenterais (subcutâneas, infusões, implantes), implica riscos de infecção grave, endotoxemia, deterioração do fármaco, perda de eficácia e desfechos litigiosos — fatos sabidamente subdiagnosticados na prática diária [S3,S5–S7]. Protocolos robustos de esterilização, CADEIA DE FRIO, validação e documentação técnica não são detalhismo: são barreiras essenciais a eventos adversos sérios, septicemias e mortalidade evitável.\n\nA prescrição de incretinas manipuladas demanda compreensão dos critérios técnicos e regulatórios aplicáveis. Não há espaço para placebo ético: o sucesso terapêutico está inexoravelmente atrelado ao domínio de normas, rastreio de lotes e farmácias que passam ilesas por inspeções reais.\n\n### Atos Normativos Centrais\n- **ANVISA RDC 67/2007, RDC 304/2019:** Manipulação, transporte, rastreabilidade e boas práticas para formas estéreis.\n- **CFM 2.333/2023:** Restringe hormônios/peptídeos a indicações reconhecidas, veda uso estético/cosmético sem critério fundado.\n- **WADA:** Lista de substâncias vedadas em atletas, inclui peptídeos agonistas GLP-1, GIP e análogos.\n- **Código Penal art. 282:** Responsabiliza prescriptores por colaboração em prática irregular.\n\n---\n\n## 2. Fundamentos da Manipulação Estéril em Peptídeos: GLP-1, GIP, Tirzepatida\n\nPeptídeos como tirzepatida são moléculas de alto peso molecular, sensíveis a hidrólise, oxidação e contaminação microbiológica. A manipulação magistral da tirzepatida (ou de outros análogos incretínicos) só se justifica**:\n- Quando não disponível como medicamento regular de indústria;\n- Sob absoluta rastreabilidade, Boas Práticas de Manipulação Estéril garantidas;\n- Documentação rigorosa (prescrição, lote, controles de esterilidade e estabilidade).\n\n**Pontos críticos biológicos e físico-químicos:**\n- Tirzepatida perde atividade em temperaturas >25°C. A exposição acidental ao calor de bancada pode ser suficiente para deterioração parcial.\n- Toda manipulação de formulações injetáveis exige ambiente grau ISO 5 ou superior, com áreas de segregação e validadores de processo (endotoxinas, partículas, esterilidade).\n- Frasco multi-dose é um ponto de risco adicional: cada punção é um potencial ponto de entrada microbiana.\n  \n**Bases para exigir padrão de indústria:**\n- Peptídeos não toleram falha: endotoxinas bacterianas, fungos (ex.: Candida spp., Burkholderia spp.) ou mesmo pequenas partículas contaminantes podem induzir quadros de febre, reações locais, septicemia — especialmente em pacientes propensos (diabéticos, imunossuprimidos) [S5, S6]. \n- A validade e integridade do produto é dependente direto do correto controle ambiental, da cadeia de frio e do tempo em uso após primeira punção [S7].\n- Não há “jeito brasileiro” que contorne infecção, endotoxina, precipitação ou inatividade farmacológica.\n\n---\n\n## 3. Panorama Regulatório: Industrial, Manipulado, Off-Label, Irregular\n\n### 3.1. Produtos Indústria e ANVISA\n- **Tirzepatida** (nome comercial aprovado: *Mounjaro*): registro Anvisa desde 2023, injetável solução em caneta pré-cheia, uso exclusivo subcutâneo.\n- **Semaglutida, Liraglutida (GLP-1 RA):** ambos têm registro regular.\n- **Formas de frasco-ampola multi-dose:** não registradas para tirzepatida ou semaglutida; qualquer formulação fora destes padrões é, por definição, manipulação.\n\n### 3.2. Manipulados e Magistral\n- **Manipulação magistral de tirzepatida:** legal como exceção, desde que existam justificativas clínicas e o produto industrial seja comprovadamente inacessível ou incompatível ao paciente.\n- É obrigatória prescrição individualizada, laudo de controle de qualidade do lote, rastreio documental.\n- **Proibições:** Não utilizar insumos importados sem papelada regular, “peptides research” (pesquisa animal), off-label sem fundamento, implante para fins estéticos. \n- **CFM 2.333/2023:** prescrição estético-cosmética de hormônios/peptídeos é passível de responsabilidade ética e judicial.\n\n### 3.3. Produtos sem registro e irregularidades\n- “Research peptides” importados, revendidos em marketplaces, são proibidos para uso humano.\n- Farmácias que manipulam sem ambiente ISO e sem rastreabilidade respondem por expor a risco grave a saúde pública.\n\n**Tabela 1. Resumo das Situações Regulatórias: Tirzepatida e Incretinas no Brasil**\n\n| Produto/Tipo          | Registro ANVISA | Magistral permitido? | Vias aceitas | Uso em estética? | WADA | Observação                                                                           |\n|-----------------------|-----------------|---------------------|--------------|------------------|------|--------------------------------------------------------------------------------------|\n| Tirzepatida (caneta)  | Sim             | —                   | SC           | Não              | Proibido em atletas | Primeira linha quando disponível                                                     |\n| Tirzepatida manipulada| Não             | Excepcional         | SC           | Não              | Proibido           | Só se impossível ou contraindicado uso industrial                                    |\n| GLP-1 análogos industriais | Sim        | —                   | SC           | Não              | Proibido           | Uso conforme bula                                                                    |\n| Manipulado “research peptide” | Não     | Não                 | Não          | Não              | Proibido           | Risco ético e legal, sujeito a apreensão e cassação                                  |\n| Implantes peptídicos  | Não             | Não                 | Não          | Não              | Proibido           | Nunca aprovado, veda uso em estética/longevidade                                     |\n\n---\n\n## 4. Cadeia de Frio, Transporte e Estabilidade: Da Farmácia ao Consultório\n\n### 4.1. Cadeia de Frio: Ponto Fraco Logístico\n\n- A tirzepatida, como a maioria dos peptídeos, necessita de **transporte e armazenamento contínuo entre 2–8°C**. Quebras na refrigeração são causa relevante de perda de potência e degradação (aceleração da clivagem peptídica e oxidação de resíduos sensíveis).\n- **Exigir:** Logística de entrega rastreável com embalagens isotérmicas validadas, datalogger opcional, orientações de armazenamento em cada transferência.\n\n### 4.2. Estabilidade e Duração\n\n- Uma vez retirado da refrigeração, a solução reconstituída ou o frasco multi-dose mantém estabilidade química e microbiológica por até **28 dias** à temperatura ambiente (<25°C), segundo dados industriais.\n- No contexto magistral, é prudente adotar estabilidade máxima validada por estudo laboratorial do lote, raramente excedendo **30 dias após manipulação** e **14–28 dias após abertura**.\n\n| Situação do Frasco             | Temperatura recomendada | Estabilidade típica (dias) | Cuidados adicionais               |\n|-------------------------------|------------------------|----------------------------|----------------------------------|\n| Não aberto, manipulado        | 2–8°C                  | 30                         | Não expor à luz                  |\n| Em uso (multi-dose, aberto)   | <25°C                  | 14–28                      | Descartar se odor, turbidez      |\n| Transporte                    | 2–8°C                  | ≤24h                       | Embalagem refrigerada validada   |\n| Congelamento                  | Não permitido          | —                          | Dano irreversível à molécula     |\n\n---\n\n## 5. Validação e Controle de Qualidade Magistral: O que Perguntar à Farmácia\n\n### 5.1. O Checklist Essencial\n\n- **Ambiente de manipulação:** A farmácia deve realizar todo processo sob fluxo laminar/ISO 5, com barreiras físicas e controle de partículas (ANVISA RDC 67/2007).\n- **Material da embalagem:** Frascos de vidro borossilicato; tampa com membrana de elastômero grau farmacêutico.\n- **Validação de processo:** Relatório do lote idealmente contendo:\n  - Controle de esterilidade (método membrana filtrante/USP <71>)\n  - Teste de endotoxinas (<0,5 EU/mL via LAL)\n  - Assay por HPLC/MS para confirmar dose peptídica por frasco\n  - Contagem de partículas subvisíveis (<10 µm; USP <788>)\n  - QR code/rastreio do lote\n- **Rotulagem clara:** Nome químico, concentração, validade, número do lote, armazenagem, lote/análise.\n- **Documentos acessíveis:** Certificados de análise do insumo ativo, laudo do produto final, NOTA FISCAL rastreável.\n\n### 5.2. Perguntas mandatórias ao selecionar farmácia:\n\n1. Quais ambientes (Grau ISO) são utilizados na manipulação do meu lote?\n2. Fornecem certificado individual de análise para este lote?\n3. Todos os frascos possuem laudo de esterilidade/endotoxina?\n4. A embalagem é validada para uso multi-dose? Possui sistema antiadulteração/QR code?\n5. O rastreio do lote cobre insumo ativo (data de importação, procedência) e excipiente (buffer, adjuvantes)?\n6. Qual procedimento em caso de quebra de cadeia de frio no transporte?\n\n---\n\n## 6. Sinais de Alerta (“Red Flag”) para Qualidade Duvidosa\n\n### 6.1. “Red Flags” no Consultório\n\n- Ausência de laudo do lote entregue ao prescritor.\n- Prescrição pronta para “qualquer paciente”, sem personalização.\n- Preço muito abaixo do mercado ou entrega em menos de 12h.\n- Embalagem não profissional, frascos visualmente sem inviolabilidade.\n- Odor, cor ou turbidez fora do padrão.\n- Rótulo genérico (“GLP-1 5 mg/mL”), sem dados da farmácia ou QR code.\n- Informações vagas sobre origem do insumo (“importado dos EUA”, sem documentação).\n- Ausência de orientação rígida de cadeia de frio e descarte seguro do frasco em uso.\n\n### 6.2. Consequências da Falha\n- Infecções graves relatadas após uso de formas estéreis manipuladas deficientes [S3,S5].\n- Vários casos de recall nacional de farmácias com falhas graves (2017–2024, verificar), frequentemente com interdição da manipulação estéril.\n\n---\n\n## 7. Seleção de Pacientes e Cenários Clínicos para Magistral\n\n### Critérios Éticos e Técnicos\n- Falha documentada/intolerância à formulação industrial.\n- Necessidade de concentração ou volume diferente (ex.: restrição de volume em idosos).\n- Alergia comprovada a excipiente da indústria.\n- Logística ou acesso impeditivo ao produto regular.\n\n### Nunca indicar\n- Demanda estética/cosmética.\n- Vantagem apenas de preço.\n- Paciente sem contato de retorno.\n- Prescrever “para emagrecer” sem diagnóstico formal.\n\n---\n\n## 8. Conduta Clínica: Passo a Passo Magistral Responsável\n\n**Tabela 2. Fluxo detalhado: do diagnóstico ao frasco utilizável**\n\n| Etapa                       | Ação detalhada                                                  | Evidência | Documentos mínimos         |\n|-----------------------------|-----------------------------------------------------------------|-----------|---------------------------|\n| Indicação formal            | Diagnóstico elegível, contraindicação a industrial              | A         | CID, registro detalhado   |\n| Prescrição individualizada  | Nome químico, dose, via, fracionamento, validade, farmácia      | A         | Receita manuscrita ou digital |\n| Seleção da farmácia         | Conferir ambiente ISO 5 e laudos do lote                        | B         | Cópia dos laudos, NF      |\n| Chegada do frasco           | Conferir QR/rastreio, refrigeração, integridade                | A         | Cópia, anexar ao pront.   |\n| Orientação ao paciente      | Uso, estocagem, sinais de deterioração/contaminação             | A         | Cartilha, orientações     |\n| Monitoramento pós-admin.    | Checagem local, sintomas sistêmicos, registrar eventos           | A         | Anamnese, registro        |\n| Notificação de eventos      | Relatar reações adversas ou suspeitas à Anvisa/Purus             | A         | Formulário padrão         |\n\n---\n\n## 9. Monitoramento, Segurança e Notificação de Efeitos Adversos\n\n- **Monitoramento pós-dose:** Documentar local de aplicação, checar rubor, edema, dor, sinais sistêmicos até 14 dias.\n- **Registrar eventos adversos:** Qualquer episódio de febre, abscesso, septicemia, ou diminuição abrupta de efeito terapêutico deve ser notificado às autoridades sanitárias.\n- **Eventos graves:** Suspeita de erro de manipulação → suspender uso, avisar imediatamente a farmácia e emitir notificação compulsória à Anvisa.\n\n---\n\n## 10. O que NÃO Fazer: Armadilhas Repetidas\n\n- **NUNCA** aceitar fórmulas sem laudo de esterilidade e rastreabilidade.\n- **NÃO** prescrever para “uso estético”/“anti-aging” sem base diagnóstica formal (CFM/Anvisa/WADA).\n- **NÃO** recomendar research peptides, marketplaces ou insumo sem controle de qualidade farmacêutico.\n- **NÃO** armazene frascos abertos acima de 25°C ou por mais que 28 dias, mesmo que aparentemente “bons”.\n- **NÃO** reutilize seringas ou agulhas, jamais compartilhe frascos multi-dose entre pacientes.\n- **NÃO** se omita na documentação pós-administração e orientação rígida ao paciente.\n\n---\n\n## 11. Pérolas Práticas & Checklist Quick_Ref\n\n### Pérolas do especialista\n- O comprometimento da esterilidade é o maior risco clínico associado a formas injetáveis manipuladas — e frequentemente só se revela tardiamente, via infecção.\n- Exija rastreabilidade do lote; prescreva de forma personalizada, guarde laudos e orientações para defesa ética e civil.\n- Oriente sempre: descarte o frasco se houver mudança inexplicada de cor, cheiro, ou precipitado.\n- Investigue qualquer evento adverso “menor” — febre baixa pode preceder bacteremia de risco letal.\n- O paciente deve saber: “Se saiu da refrigeração, contar no máximo 28 dias e descartar.”\n\n### Quick_Ref Checklist: Consulta sobre Incretinas Magistral\n\n- [ ] Indicação clínica formal avaliada/documentada?\n- [ ] Falha/intolerância real à formula industrial?\n- [ ] Receita detalhada (dose, nome químico, via, farmácia específica)?\n- [ ] Farmácia fornece laudo do lote, controle de esterilidade e QR code?\n- [ ] Recebimento sob cadeia de frio validada, conferido no ato?\n- [ ] Orientação por escrito ao paciente sobre uso e armazenamento?\n- [ ] Documento de lote escaneado/anexado ao prontuário?\n- [ ] Monitoramento pós-aplicação já agendado/registrado?\n\n---\n\n## 12. Caso Clínico Brasileiro Realista\n\n**Paciente:** Renata, 52 anos, IMC 39, DM2, história de recusa à caneta industrial de tirzepatida por alergia documentada ao excipiente poloxamer 188. Mora em cidade do interior (5h da capital), sem acesso rotineiro à indústria.\n\n**Dados relevantes:**\n- HbA1c: 8,3% (meta <7,5%)\n- GFR: 76 mL/min\n- Cardiopatia hipertensiva estável\n- Histórico de gastroenterite após uso de formulações manipuladas para outros fármacos\n- Ausência de imunodepressão\n- Demanda de tratamento peptídico subcutâneo mensal\n- Única farmácia magistral com ambiente ISO 5 e entrega em 24h\n- Traz frasco multi-dose (30 mg / 3 mL), transportado em caixa isotérmica sem datalogger, temperatura aferida ao receber: 11°C\n\n**Opções de conduta:**\nA) Utilizar o frasco recebido; orientar apenas refrigeração em casa (2–8°C).\nB) Solicitar novo frasco, exigindo comprovante de transporte ≤8°C e laudo de esterilidade, e orientando uso máximo de 14 dias após abertura.\nC) Descartar uso magistral e tentar reintroduzir caneta industrial.\nD) Utilizar o frasco, mas compartilhar entre pacientes para evitar desperdício.\n\n**Resposta correta:**  \nB — Exigir atribuição de responsabilidade da farmácia pelo transporte, laudo atualizado do lote e orientação de abandono do frasco após 14 dias em uso. Utilização de produto com pico de temperatura fora da janela (<8°C) pode implicar perda de atividade e risco infeccioso. Compartilhamento de frasco é inaceitável eticamente.\n\n**Teaching points:**  \n- A rastreabilidade e controle de temperatura durante o transporte são mandatórios para fármacos peptídicos.\n- O histórico de infecção prévia agravaria risco; toda decisão clínica é lastreada em evidências e barreiras físicas.\n- Documentar orientação, retenção de laudo e resposta a eventos adversos são partes essenciais da conduta defensiva e premium.\n\n---\n\n## 13. Slides de Apoio (Resumo Visual)\n\n**Slide 1 — Title:**  \nManipulação Estéril, Estabilidade, Armazenamento e Frasco: Incretinas e Tirzepatida\n\n**Slide 2 — Relevância Clínica**  \n- Crescente uso de peptídeos injetáveis\n- Frascos multi-dose: risco vs. benefício\n- Erros comuns e consequências\n\n**Slide 3 — Tabela Densa Regulatório**  \n| Produto | Registro ANVISA | Off-label | Magistral | Estética/Longevidade? |  \n|---------|-----------------|-----------|-----------|---------------------|  \n| Tirzepatida (caneta) | Sim | — | — | Não |  \n| Tirzepatida manipulada | Não | Sim | Sim (restrito) | Não |  \n| Research peptide | Não | Não | Não | Proibido |\n\n**Slide 4 — Cadeia de Frio & Estabilidade**  \n- 2–8°C do início ao fim\n- Frasco aberto: uso ≤28 dias (<25°C)\n- Transporte validado + datalogger quando possível\n\n**Slide 5 — Boas Práticas Magistral**  \n- Ambiente ISO 5/fluxo laminar\n- Estojo de vidro grau farmacêutico\n- Laudo de lote: esterilidade | endotoxinas | dose\n\n**Slide 6 — Red Flags – Qualidade**  \n- Rótulo genérico\n- Falta de laudo/lote\n- Frasco sem QR code\n- Entrega sem controle térmico\n\n**Slide 7 — Fluxo Conduta Responsável (Flowchart)**  \nDiagnóstico → Prescrição detalhada → Farmácia avaliada → Recebimento conferido → Orientação reforçada → Monitoramento documentado\n\n**Slide 8 — Casos a Nunca Indicar**  \n- Estética/longevidade\n- Preço baixo sem qualidade\n- Compartilhamento de frascos\n\n**Slide 9 — Monitoramento Pós-Dose**  \n- Checagem sistemática dos sinais locais\n- Notificação de eventos adversos à Anvisa\n\n**Slide 10 — Pérolas & Checklist**  \n- “Não existe ‘meio-esterilizado’”\n- Checklist rápido do consultório\n\n**Slide 11 — Caso Realista (split slide)**  \nSituação | Opções | Justificativa correta\n\n**Slide 12 — Referências Reais + Key_points**\n\n---\n\n## 14. Key_Points para Prática Clínica\n\n1. **Esterilidade rigorosa** é irrenunciável em toda manipulação magistral de peptídeos; falhas podem ser fatais.\n2. **Transporte e armazenamento sob cadeia de frio (2–8°C)** são mandatórios; toda quebra invalida o frasco.\n3. **Nunca prescrever sem laudo do lote**, controle de esterilidade, e rastreabilidade total do insumo e do frasco.\n4. **Nunca aceitar fórmulas manipuladas para finalidade estética** ou sem respaldo científico e diagnóstico formal.\n5. **Frascos abertos têm tempo limitado de uso (14–28 dias);** nunca compartilhe entre pacientes.\n6. **Documentação rigorosa e monitoramento pós-administração** são a melhor defesa ética e civil.\n7. **Sinais precoces de contaminação (odor, cor, turbidez)** impõem descarte imediato — oriente o paciente!\n\n---\n\n## 15. Referências Principais\n\n- [S1] ADA. Standards of medical care in diabetes. Diabetes Care 2010. Evidência A  \n- [S3] Mermel LA et al. Infectious Diseases Society of America Guidelines Catheter-related Infection. Clin Infect Dis. 2009. Evidência A  \n- [S5] Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis. Clin Microbiol Rev. 2007.  \n- [S6] Pappas PG et al. Clinical Practice Guideline for Management of Candidiasis. Clin Infect Dis. 2016. Evidência A  \n- [S7] Surviving Sepsis Campaign. Intensive Care Med 2013. Evidência A  \n- [S9] Schmidt M et al. The Danish National Patient Registry. Clin Epidemiol 2015.  \n- [S12] Vasey B et al. DECIDE-AI: reporting guideline for AI-based decision support. Nat Med 2022. Evidência A  \n- [ANVISA] RDC 67/2007, RDC 304/2019 — Boas Práticas Manipulação Estéril  \n- [CFM] Resolução 2.333/2023 — Restrição de hormônios e peptídeos ao uso justificado clínico  \n\n---\nEsta monografia sintetiza os padrões técnicos, clínicos e éticos para manipulação estéril de incretinas e tirzepatida, instrumentalizando o prescritor para decisões seguras — sem concessões à complacência ou à improvisação. Segurança do paciente é resultado de processo, rastreio e vigilância meticulosa em cada etapa.\n\n---",
+  "quick_ref": "# Quick Reference: Manipulação Magistral de Tirzepatida e Incretinas\n\n| Item                        | Conduta Essencial                                   |\n|-----------------------------|----------------------------------------------------|\n| Indicação clínica           | Diagnóstico confirmado, contraindicação a indústria|\n| Prescrição                  | Individualizada, detalhada, com dados da farmácia |\n| Farmácia                   | Ambiente ISO 5, laudo lote obrigatório              |\n| Transporte                  | Cadeia de frio 2–8°C, embalagem isotérmica         |\n| Recebimento                | Conferir integridade, temperatura, QR code         |\n| Armazenamento              | 2–8°C no refrigerador, evitar luz e calor          |\n| Uso do frasco aberto       | Limite máximo 14–28 dias, não compartilhar          |\n| Monitoramento pós-uso      | Checagem local e sistêmica até 14 dias               |\n| Notificação                | Relatar suspeitas à Anvisa/Purus imediatamente       |\n\n---\n\n## Red Flags para evitar\n- Falta de laudo técnico\n- Rótulos genéricos sem identificação\n- Preço muito baixo e entrega rápida\n- Frascos com odor ou aparência alterada\n- Ausência de condicionamento térmico\n\n---\n\n# Checklist para Consulta\n- Indicação adequada?\n- Receita individualizada e completa?\n- Farmácia com laudo e controle térmico?\n- Recebimento sob frio garantido?\n- Orientação clara ao paciente?\n- Documento de lote arquivado?\n- Monitoramento agendado?",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "Comorbidade",
+        "value": "DM2, IMC 39"
+      },
+      {
+        "label": "Alergia",
+        "value": "Poloxamer 188 na caneta industrial"
+      },
+      {
+        "label": "Acesso",
+        "value": "Cidade do interior, 5h da capital"
+      },
+      {
+        "label": "Farmácia",
+        "value": "Única magistério ISO 5 local"
+      },
+      {
+        "label": "Temperatura no recebimento",
+        "value": "11°C (fora da faixa 2-8°C)"
+      },
+      {
+        "label": "Histórico",
+        "value": "Gastroenterites pós-manipulados (outros fármacos)"
+      },
+      {
+        "label": "Necessidade",
+        "value": "Continuar tirzepatida mensal subcutânea"
+      }
+    ],
+    "title": "Paciente com alergia ao excipiente do tirzepatida industrial: manejo de tirzepatida manipulada com controle rigoroso",
+    "reward": 12,
+    "options": [
+      {
+        "label": "A) Usar o frasco recebido; orientar refrigeração domiciliar apenas.",
+        "correct": false,
+        "rationale": "Risco de perda de eficácia e contaminação devido à quebra da cadeia de frio."
+      },
+      {
+        "label": "B) Solicitar novo frasco, exigir comprovação da cadeia de frio (<8°C), laudo de esterilidade e orientar uso até 14 dias após abertura.",
+        "correct": true,
+        "rationale": "Condução ética e técnica que preserva segurança, eficácia e rastreabilidade."
+      },
+      {
+        "label": "C) Descartar manipulado e tentar reintroduzir caneta industrial apesar da alergia.",
+        "correct": false,
+        "rationale": "Pode comprometer tratamento; alergia é contraindicação formal e deve ser considerada."
+      },
+      {
+        "label": "D) Usar o frasco e compartilhar entre pacientes para evitar desperdício.",
+        "correct": false,
+        "rationale": "Prática ilegal, insegura, aumenta risco de infecção e contraria normas sanitárias."
+      }
+    ],
+    "question": "Qual a conduta mais segura e ética para utilização deste frasco?",
+    "vignette": "Renata, 52 anos, DM2 descompensado, intolerante à caneta industrial de tirzepatida por alergia ao poloxamer 188. Mora no interior, distante 5 h da capital. Necessita manutenção da terapia peptídica subcutânea. Farmácia local autorizada ISO 5 envia frasco multi-dose em caixa isotérmica sem datalogger; ao receber, temperatura aferida 11°C.",
+    "teaching": "O manejo seguro de tirzepatida manipulada exige controle absoluto da cadeia de frio, documentação e análise rigorosa do lote. Frasco recebido em temperatura fora da faixa recomendada (<8°C) pode ter comprometimento da molécula, aumentando risco de falha terapêutica e infecções. A prescrição só deve prosseguir após comprovação documental do transporte correto e laudo de esterilidade, além da orientação clara para uso máximo de 14 dias após aberto. Compartilhar frascos entre pacientes é ilegal e inseguro. A troca por caneta industrial, contraindicação ao paciente, deve ser avaliada e documentada, mas não pode comprometer tratamento efetivo por falta de alternativa. O médico deve preservar sempre a segurança, rastreabilidade e o respaldo ético-legislativo em todas as etapas do processo."
+  },
+  "refs": [
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care. 2010 Jan;33 Suppl 1:S11-61."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America.. Mermel LA et al. Clin Infect Dis. 2009 Aug 1;49(4): 1-45."
+    },
+    {
+      "citation": "Epidemiology of invasive candidiasis: a persistent public health problem. Pfaller MA, Diekema DJ. Clin Microbiol Rev. 2007 Jan;20(1):133-63."
+    },
+    {
+      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Pappas PG et al. Clin Infect Dis. 2016 Feb 15;62(4):e1-e50."
+    },
+    {
+      "citation": "Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Dellinger RP et al. Intensive Care Med. 2013 Feb;39(2):165-228."
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/regulamentacao/rdc/2007/rdc-67-2007.pdf",
+      "citation": "RDC ANVISA 67/2007 - Boas práticas de manipulação estéril."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 - uso racional de hormônios e peptídeos."
+    }
+  ],
+  "status": "published"
+}

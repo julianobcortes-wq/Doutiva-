@@ -1,0 +1,308 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Segurança clínica",
+  "module_position": 3,
+  "title": "Seleção de paciente, acesso venoso, monitoramento e manejo de reações na soroterapia estéril",
+  "description": "Esta aula aborda os aspectos cruciais de segurança na prática da soroterapia estéril no consultório, focada em endocrinologistas, nutrólogos e clínicos exigentes. Abrange a seleção criteriosa do paciente mediante identificação de contraindicações, triagem detalhada e consentimento informado; os cuidados técnicos e éticos na escolha e manejo do acesso venoso periférico; o checklist pré-infusão para garantir preparo seguro; monitoramento contínuo para detecção precoce de reações adversas graves; e protocolos de manejo de complicações como extravasamento, anafilaxia, sobrecarga hídrica e distúrbios hidroeletrolíticos. Tudo embasado nas normas da ANVISA, resoluções do CFM (especialmente a 2.333/2023) e orientações internacionais. A aula inclui condutas acionáveis para o consultório brasileiro, com doses, fluxogramas e tabelas práticas, enfatizando o rigor ético e a proibição de prescrições off-label não fundamentadas, como research peptides e GH anti-aging, conforme recomendação do conselho editorial Doutiva.",
+  "duration_minutes": 75,
+  "evidence_level": "A (ECR, diretrizes nacionais e internacionais)",
+  "key_points": [
+    "A seleção criteriosa do paciente é fundamental; contraindicações absolutas incluem hipersensibilidade, insuficiência cardíaca descompensada, sepse ativa e insuficiência renal aguda sem terapia substitutiva.",
+    "Checklist pré-infusão obrigatório, documentado, incluindo avaliação clínica, laboratorial, preparo da solução e kit de emergência pronto antes da infusão.",
+    "Monitoramento contínuo do paciente durante e após a infusão para detectar precocemente sinais de extravasamento, anafilaxia e sobrecarga hídrica.",
+    "Manejo imediato e protocolado das principais complicações: extravasamento exige suspensão, aspiração e compressa; anafilaxia demanda adrenalina IM e suporte avançado; sobrecarga hídrica requer suspensão, oxigenação e diuréticos IV.",
+    "Prescrição ética e regulatória exige uso de fármacos com registro ANVISA e evidência robusta; vetado o uso de research peptides, GH anti-aging e infusões sem indicação clínica definida (CFM 2.333/2023).",
+    "Registro rigoroso, documentação no prontuário e consentimento informado são imperativos legalmente e eticamente.",
+    "Kit de emergência com adrenalina IM, oxigênio, ambu e medicamentos anti-histamínicos e corticoides deve estar sempre disponível na sala de infusão."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Segurança Clínica na Soroterapia Estéril",
+      "subtitle": "Seleção, Acesso Venoso, Monitoramento e Manejo de Reações — Módulo 3 · Doutiva & Purus"
+    },
+    {
+      "bars": [
+        {
+          "label": "Extravasamento",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Anafilaxia",
+          "value": 0.1,
+          "highlight": false
+        },
+        {
+          "label": "Sobrecarga hídrica",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tromboembolia associada",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Infecção sistêmica",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Distúrbios eletrolíticos",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Reação local leve",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Anafilaxia é rara mas apresenta maior risco de fatalidade.",
+      "unit": "",
+      "title": "Prevalência e Gravidade das Principais Complicações da Infusão Intravenosa",
+      "source": "Baseado em referências [S2, S4, S6, S7, S8]"
+    },
+    {
+      "head": [
+        "Contraindicações Absolutas",
+        "Contraindicações Relativas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Hipersensibilidade conhecida a qualquer componente",
+          "História prévia de anafilaxia medicamentosa"
+        ],
+        [
+          "Edema agudo de pulmão/ICC descompensada",
+          "Doenças crônicas estáveis (DRC, ICC compensada)"
+        ],
+        [
+          "Instabilidade hemodinâmica não tratada",
+          "Transtornos psiquiátricos descompensados"
+        ],
+        [
+          "Sepse ativa, foco infeccioso sem controle",
+          "Diabetes descontrolada"
+        ],
+        [
+          "Falência renal aguda com anúria sem terapia substitutiva",
+          "Imunodeficiência avançada"
+        ]
+      ],
+      "title": "Principais Contraindicações para Infusão Venosa Estéril Eletiva",
+      "source": "S1, S2, S8"
+    },
+    {
+      "kind": "flow",
+      "note": "Documentar todo o processo de triagem.",
+      "steps": [
+        {
+          "label": "Anamnese detalhada",
+          "detail": "comorbidades, alergias, medicações"
+        },
+        {
+          "label": "Exame físico",
+          "detail": "sinais vitais, turgor, edema, acesso venoso"
+        },
+        {
+          "label": "Laboratórios recentes",
+          "detail": "creatinina, eletrólitos, glicemia, hemograma"
+        },
+        {
+          "label": "Consentimento informado",
+          "detail": "riscos explicados e documento assinado"
+        },
+        {
+          "label": "Revisar contraindicações",
+          "detail": "aplicar checklist obrigatoriamente"
+        },
+        {
+          "label": "Decisão: liberar infusão ou aguardar correção/adiar"
+        }
+      ],
+      "title": "Algoritmo de Triagem Pré-Infusão Segura"
+    },
+    {
+      "kind": "bullets",
+      "note": "A falha nesta etapa correlaciona-se a maior ocorrência de eventos adversos.",
+      "title": "Checklist Pré-Infusão Essencial para Segurança",
+      "bullets": [
+        "Paciente avaliado no dia: sinais vitais e estado geral",
+        "Solução estéril, rotulada com fármaco, concentração, validade e lote",
+        "Integridade visual da solução confirmada: ausência de partículas ou turvação",
+        "Kit de acesso e equipo estéreis e descartáveis para uso único",
+        "Kit de emergência disponível: adrenalina IM, anti-histamínico, corticoide, oxigênio, ambu",
+        "Consentimento informado documentado e assinado",
+        "Monitoramento contínuo garantido durante e após infusão (mín. 30 min)",
+        "Últimos exames laboratoriais disponíveis e revisados"
+      ]
+    },
+    {
+      "head": [
+        "Complicação",
+        "Sinais Precoces",
+        "Conduta",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Extravasamento",
+          "Edema, dor, rubor local",
+          "Suspender infusão; aspirar fluído; compressa fria; elevar membro; documentar",
+          "Reavaliar local a cada 10 minutos"
+        ],
+        [
+          "Anafilaxia",
+          "Prurido, desconforto respiratório, hipotensão",
+          "Adrenalina IM 0,5 mg; oxigênio; volume IV; anti-histamínico; corticoide; emergenciar",
+          "Monitorar sinais vitais contínuos e ECG"
+        ],
+        [
+          "Sobrecarga hídrica",
+          "Dispneia, estertores pulmonares, turgência jugular",
+          "Suspender infusão; furosemida IV; suporte ventilatório",
+          "Monitorar diurese, pressão arterial, oxímetro"
+        ],
+        [
+          "Distúrbios eletrolíticos",
+          "Arritmia, parestesia",
+          "Suspender infusão; corrigir eletrólitos conforme necessidade; ECG contínuo",
+          "Dosar eletrólitos seriados e monitorar ECG"
+        ]
+      ],
+      "title": "Condutas Frente às Principais Complicações da Infusão IV",
+      "source": "S2, S4, S8"
+    },
+    {
+      "kind": "bullets",
+      "note": "Treinamento antecipado da equipe é fundamental para resposta eficaz.",
+      "title": "Manejo Prático em Situações Críticas",
+      "bullets": [
+        "Extravasamento: suspender, não massagear, aspirar, compressa fria e elevação",
+        "Anafilaxia: adrenalina IM imediata, oxigênio, fluidos IV, medicações adjuntas",
+        "Sobrecarga hídrica: suspender infusão, diuréticos IV, fornecer suporte ventilatório",
+        "Distúrbios eletrolíticos: interromper infusão, corrigir desequilíbrio conforme protocolo, monitorar ECG"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "ANVISA: Registro obrigatório da solução e manipulação estéril segundo RDC 786/2023",
+          "CFM 2.333/2023: Banimento de GH anti-aging, research peptides e infusões off-label sem indicação",
+          "WADA: Limitação para atletas de 100 mL IV em 12h salvo autorização",
+          "Consentimento informado obrigatório documentado",
+          "Rastreamento e monitoramento rigorosos para qualidade e segurança"
+        ],
+        "label": "Aspectos Regulatórios - Nacional"
+      },
+      "right": {
+        "items": [
+          "Prescrição apenas de soluções com evidência clínica robusta",
+          "Manipulação estéril deve ocorrer em ambiente certificado",
+          "Proibição de promoções comerciais a tratamentos não validados",
+          "Responsabilidade legal e ética do médico ao prescrever e executar",
+          "Documentação completa é defesa legal e segurança do paciente"
+        ],
+        "label": "Aspectos Éticos e Legais"
+      },
+      "title": "Regulamentação e Ética na Soroterapia Estéril no Brasil"
+    },
+    {
+      "kind": "pearl",
+      "text": "Nunca iniciar infusão venosa sem ter disponível e saber usar imediatamente adrenalina IM e kit completo de emergência. Segurança começa pelo preparo e prevenção, não só no manejo da crise.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "---\n# Seleção do Paciente, Acesso Venoso, Monitoramento e Manejo de Reações na Soroterapia Estéril\n\n**Módulo 3 · Segurança clínica • Doutiva & Purus — Monografia Premium**\n\n## Sumário\n\n1. Contexto e relevância\n2. Bases científicas da segurança em soroterapia estéril\n3. Evidências e riscos: contraindicações, reações e complicações\n    - 3.1 Tabela 1: Complicações de infusão intravenosa – prevalência, gravidade e evidência\n4. Seleção criteriosa do paciente\n    - 4.1 Algoritmo de triagem segura\n5. Abordagem do acesso venoso\n6. Checklist pré-infusão – preparo seguro do paciente e solução\n7. Monitoramento e detecção precoce de reações adversas graves\n    - 7.1 Tabela 2: Conduta frente às principais complicações — passo a passo\n8. Manejo: extravasamento, anafilaxia, sobrecarga, distúrbios hidroeletrolíticos\n9. Regulatório e ética: Anvisa, CFM 2.333/2023, WADA e manipulação estéril\n10. O que não fazer (não prescrever)\n11. Pérolas clínicas & Checklist de Bolso\n12. Caso clínico integrado (com alternativas e racional)\n13. Slides síntese (8–12 slides)\n14. Quick_reference & Key_points\n15. Referências\n\n---\n\n## 1. Contexto e relevância\n\nA crescente adoção da soroterapia estéril — seja infusão venosa de peptídeos, hormônios, eletrólitos, vitaminas ou soluções de suporte com finalidade metabólica ou de suporte nutricional — impõe novos padrões de segurança e rigor à atuação dos endocrinologistas, nutrólogos e clínicos. Tal prática, crescente nas clínicas brasileiras, carrega potenciais benefícios na reversão de deficiências e otimização metabólica, porém está inextricavelmente vinculada a riscos graves, desde choque anafilático até erros de hidratação e infecções graves [S1, S2, S4].\n\nAs experiências negativas, inclusive judicializadas, estão associadas sobretudo à falta de seleção adequada do paciente, falhas no preparo da solução e monitoramento deficiente. A conduta ética deve ser pautada pela prescrição criteriosa — jamais impulsionada por demandas não médicas ou por ofertas de produtos \"research peptide\", GH antiaging ou soro drip desenhado sem clara indicação clínica e respaldo científico (CFM 2.333/2023, ANVISA).\n\n### Por que este módulo importa mais hoje?\n\n- Maior busca por intervenções intravenosas na prática clínica geral e integrativa.\n- Maior exposição da clínica a litígios e riscos reputacionais.\n- Inovações (tirzepatida, peptídeos) sendo implementadas via manipulação estéril [S1].\n\nAssim, este tratado aborda \"do consultório para a prescrição ética\": identificação do paciente certo, método de infusão estéril, monitoramento proativo, detecção precoce de problemas e resposta rápida a urgências.\n\n---\n\n## 2. Bases científicas da segurança em soroterapia estéril\n\nA prática da soroterapia intravenosa em consultório demanda domínio de três pilares:\n\n- **Classificação dos riscos**: Desde efeitos leves até eventos potencialmente fatais.\n- **Hierarquia de evidência**: Seguir recomendações sustentadas por ECRs, metanálises e guidelines, priorizando peptídeos e fármacos com robustez científica e SUS/ANVISA/CFM.\n- **Protocolos de manipulação estéril e rastreabilidade**: Toda solução deve obedecer à RDC 67/2007, 87/2008 e atualização RDC 786/2023 da ANVISA no preparo, conservação e dispensação.\n\n**Ponto-chave**: Os procedimentos requerem não apenas conhecimento farmacotécnico, mas sólida integração de farmacologia clínica, fisiologia hemodinâmica e princípios de segurança, conforme destacado por S1, S2, S4.\n\n---\n\n## 3. Evidências e riscos: contraindicações, reações e complicações\n\nCom base em guidelines (A) e grandes reviews/multicentros, os principais riscos da soroterapia estéril são sumarizados a seguir. O entendimento das contraindicações absolutas e relativas, bem como das reações adversas mais frequentes/graves — anafilaxia, extravasamento, sobrecarga hídrica, distúrbios eletrolíticos — define a segurança do ato.\n\n**Evidência**\n- Diretrizes de peptídeos (ECR Fase 3): semaglutida, tirzepatida [S1, S2].\n- Diretrizes infusão venosa segura (IDSA, ANVISA): Prevenção de infecção e manejo de reações [S4, S6, S7].\n- Overdose/sobrecarga: Descrito em coortes de infusão, hospitalar e pós-marketing [B][C][S2].\n\n### 3.1 Tabela 1: Complicações de infusão intravenosa – prevalência, gravidade e evidência\n\n| Complicação              | Prevalência (%) | Risco de gravidade | Potencial fatal | Fator de risco | Evidência | Referência   |\n|------------------------- |:--------------:|:-----------------:|:---------------:|:--------------:|:---------:|--------------|\n| Extravasamento           | 2–6            | Médio-alto         | Baixo           | Veia fina, agitação | B | [S4],[S7] |\n| Anafilaxia               | <0,1           | Muito alto         | Alto            | Alergia prévia, imunoterapia | A | [S4],[S8] |\n| Sobrecar. hídrica        | 1,8–4,3        | Alto               | Alto (IC em idosos) | DRC, ICC, idosos | B | [S2],[S8] |\n| Tromboembolia associada  | 0,05–0,2       | Alto               | Alto            | Cateter central, repouso | B | [S4] |\n| Infecção sistêmica       | 0,02–0,4       | Muito alto         | Alto            | Quebra de técnica asséptica | A | [S4],[S6] |\n| Distúrbios eletrolíticos | 3–10 (metabólicos) | Médio-alto | Médio | Politerapia, soluções ↑[Na+]/[K+] | B | [S2] |\n| Reação local leve (flebite, dor) | 7–20 | Baixo | Nenhum | Veia calibrosa, irritante | B | [S4] |\n| Queda glicêmica pós-GLP-1 | <1            | Médio              | Raro            | Uso concomitante ADO | B | [S2] |\n\n---\n\n## 4. Seleção criteriosa do paciente\n\nA chave do risco-benefício está na triagem. Não basta que haja indicação metabólica: é imperativo identificar contraindicações absolutas/relativas e fatores de risco. A ausência de triagem robusta expõe o médico a risco ético e de danos graves.\n\n**Contraindicações ABSOLUTAS** para infusão venosa estéril eletiva:\n- Hipersensibilidade conhecida a qualquer componente da solução.\n- Edema agudo de pulmão/ICC descompensada.\n- Instabilidade hemodinâmica não tratada.\n- Sepse ativa, foco infeccioso sem controle.\n- Falência renal aguda com anúria sem terapia substitutiva.\n\n**Contraindicações RELATIVAS**:\n- História prévia de anafilaxia medicamentosa.\n- DRC estável, ICC compensada — monitoramento reforçado.\n- Transtornos psiquiátricos descompensados (maior risco de retirada venosa, agitação).\n- Diabetes descontrolado (risco de descompensação glicêmica).\n- Imunodeficiência avançada (CI relativa a infusão não absolutamente indicada).\n\n### 4.1 Algoritmo de triagem segura\n\n**Passos pré-infusão:**\n\n1. Anamnese dirigida: Comorbidades, alergias, história de extravasamento, ICC, IR/DRC, IAM prévio.\n2. Exame físico: Avaliar ausculta, edema, turgor da pele, acesso venoso visível e palpável.\n3. Exames laboratoriais recentes (<30 dias): Creatinina, eletrólitos, glicemia, hemograma.\n4. Consulta de medicamentos em uso: Anticoagulantes, diuréticos, ADO, imunossupressores.\n5. Consentimento informado específico, nominando riscos acima.\n\n---\n\n## 5. Abordagem do acesso venoso\n\n**Seleção, técnica e manutenção**\n\n- **Tipo de acesso:** Preferir acesso periférico de bom calibre em regiões de fácil inspeção. Evitar veias finas, tortuosas ou em áreas de articulação.\n- **Momento de punção:** Realizar somente após checklist e com kit estéril.\n- **Tempo de permanência:** Proceder à infusão, retirada do acesso imediatamente ao término. Não manter cateter para sessões futuras domiciliares sem indicação oncohematológica (ANVISA, CFM).\n- **Assépsia:** Clorexidina ou álcool 70%, técnica sem toque direto. Uso de paramentação estéril.\n\n**Complicações do acesso**\n- Flebite (7%–20%): Reduzida com rotação de sítio e infusão lenta [S4].\n- Extravasamento: Infusões irritantes (vitamina C >10g, peptídeos liofilizados mal reconstituídos, eletrólitos concentrados) impõem risco elevado.\n- Infecção: <0,4% quando respeitados protocolos [S4, S6].\n\n---\n\n## 6. Checklist pré-infusão – preparo seguro\n\nO checklist pré-infusão é a principal barreira à ocorrência de eventos graves. Recomenda-se adoção compulsória. Deve ser documentado no prontuário.\n\n**Checklist essencial:**\n- Paciente avaliado no dia da infusão (sinais vitais, sinais de congestão, alergia).\n- Solução recém-preparada, rotulada (fármaco, concentração, validade, volume, lote).\n- Integridade visual comprovada (sem partículas, sem turvação).\n- Equipamento de veia (cateter, equipo) estéreis, descartados ao final do uso.\n- Bolsa/soro armazenado em condições entre 2–8°C (quando pertinente, p.ex, peptídeos).\n- Presença de kit de emergência (adrenalina IM, anti-histamínico, corticoide, ambu, O₂).\n- Supervisão contínua — paciente monitorado até 30 minutos após infusão.\n- Documento de consentimento livre e esclarecido, assinado.\n- Avaliação laboratorial no prontuário.\n- Sinalização de contraindicações relativas/absolutas.\n\n---\n\n## 7. Monitoramento e detecção precoce de reações\n\nO monitoramento requer atenção contínua — não apenas aferição pré e pós. Os sinais precoces de reações são subtis nos primeiros minutos, aumentando a partir de 10 minutos.\n\n**Monitoramento recomendado:**\n- **Sinais vitais:** Pré-infusão, a cada 10 min intrainfusão e 30 min após término. Documentar.\n- **Avaliação do sítio de punção:** Continuamente observar edema local, infiltração, calor, rubor.\n- **Sintomas sistêmicos:** Dispneia, sudorese, prurido, desconforto torácico.\n- **Diurese/controlar balanço hídrico** em idosos, DRC, ICC.\n- **Alertar paciente:** Para relatar qualquer mal-estar imediatamente.\n\n### 7.1 Tabela 2: Conduta frente às principais complicações — protocolo estruturado\n\n| Complicação         | Sinais precoces                | Conduta Passo a Passo                                                                              | Monitoramento evolutivo | Referência |\n|---------------------|-------------------------------|---------------------------------------------------------------------------------------------------|------------------------|------------|\n| Extravasamento      | Edema, dor, calor, rubor      | 1. Suspender imediatamente. 2. Aspirar fluido (não forçar); 3. Remover acesso; 4. Compressa fria (exceto vasoconstritor); 5. Elevar membro; 6. Documentar e monitorar | Reavaliação local cada 10 min, analgesia local | [S4] |\n| Anafilaxia          | Prurido, desconforto, estridor, queda PA | 1. Suspender infusão; 2. Adrenalina IM 0,5 mg em vasto lateral; 3. Acesso O₂; 4. Volume IV rápido (20 ml/kg NaCl 0,9%); 5. Antihistamínico; 6. Corticoide; 7. Chamar emergência | Sinais vitais contínuos (cada 2 min), ECG, oxímetro | [S4] |\n| Sobrecarga hídrica  | Dispneia, estertor, turgência jugular | 1. Suspender infusão; 2. O₂, BIPAP se necessário; 3. Furosemida IV 20–40 mg; 4. Monitorar SatO₂ | SatO₂, PA, diurese | [S8] |\n| Distúrbio eletrolítico | Arritmia, parestesia, dor abdominal | 1. Suspender infusão; 2. Dosar eletrólitos; 3. Corrigir conforme distúrbio (ex: gluconato Ca²⁺ 10ml IV se hipercalemia grave) | ECG contínuo, eletrólitos seriados | [S2] |\n\n---\n\n## 8. Manejo: extravasamento, anafilaxia, sobrecarga, distúrbios hidroeletrolíticos\n\n**Extravasamento**\n- Suspender, não infundir.\n- Aspirar o máximo do conteúdo, sem irrigação.\n- Cuidado: não usar calor se a substância for vesicante.\n- Compressa fria/soro fisiológico.\n- Avaliar necessidade de avaliação vascular.\n\n**Anafilaxia**\n- Adrenalina IM (ampola 1mg/mL), 0,01 mg/kg, dose máxima 0,5 mg adulto IM, repetir a cada 5–15 min se necessário.\n- Antihistamínico (prometazina/difenidramina) após estabilizar.\n- Corticoides só para reduzir recorrência tardia.\n- Intubar precoce se via aérea ameaça.\n\n**Sobrecarga hidroeletrolítica**\n- Suspensão imediata da infusão.\n- Diuréticos IV na ausência de choque hipovolêmico.\n- Monitorar sinais congestivos e ajuste eletrolítico frequente [S8].\n\n**Distúrbios eletrolíticos**\n- Hipercalemia: Ressuscitação com gluconato de cálcio, insulina/glucose, salbutamol nebulizado, diálise se refratário.\n- Hiponatremia: Nunca corrigir >10–12mmol/L/24h.\n- Hipermagnesemia: Gluconato cálcico se há sintomas.\n\n---\n\n## 9. Regulatório e ética: ANVISA, CFM 2.333/2023, WADA, manipulação estéril\n\n**Registro ANVISA x off-label x manipulado**\n- Toda infusão deve ter princípio ativo farmacologicamente caracterizado, com monografia pública e rastreabilidade.\n- Peptídeos: apenas GLP-1 (semaglutida, tirzepatida) têm evidência fase 3 e registro ANVISA para uso injetável [S1, S2].\n- Manipulação estéril: Estritamente conforme RDC 786/2023; exigir laudo de estéril para cada lote.\n\n**CFM**\n- Resolução 2.333/2023 veta prescrição de GH e implantes/cosméticos/of-labels hormonais para “antiaging” ou sem deficiência clara/diagnosticada.\n- Proibidos: qualquer research peptide, GH para longevidade, infusão drip sem deficiência laboratorial (“suplementação” cosmética ou “bem-estar”).\n\n**WADA**\n- Em atletas, toda infusão IV superior a 100mL em 12h pode configurar doping, salvo autorização formal.\n\n---\n\n## 10. O que NÃO fazer\n\n- Não administrar soroterapia intravenosa sem avaliação médica recente e abertura de prontuário.\n- Nunca prescrever ou utilizar research peptides, GH anti-aging, NAD+ ou outras substâncias sem deficiência laboratorial/evidência clínica robusta devidamente documentada.\n- Não reutilizar equipo, soro ou acesso venoso de sessão pregressa.\n- Não infundir eletrólitos concentrados (ex: KCl >40 mEq/L) em acesso periférico.\n- Evitar infusão venosa de peptídeos ou hormônios manipulados sem monografia/boas práticas.\n\n---\n\n## 11. Pérolas clínicas & Checklist de Bolso\n\n### Pérolas\n\n- Sempre manter adrenalina IM pronta e seringas separadas antes de iniciar qualquer infusão venosa de potencial alergênico.\n- Em DRC/ICC, optar por volumes e taxas reduzidas, registrar balanço hídrico e reavaliar ausculta a cada 15 minutos.\n- O extravasamento inicial pode ser silencioso – qualquer queixa de dor exige inspeção imediata e suspensão.\n- A documentação do checklist é tão relevante quanto a execução para a defesa ética e legal do ato.\n- Na dúvida sobre estabilidade ou integridade da solução, descarte sem hesitação.\n\n### Checklist de bolso (início de toda sessão)\n\n1. Indicação e contraindicação revisadas?\n2. Paciente consentiu por escrito?\n3. Solução rotulada/lote válido?\n4. Veia calibrosa, sem edema prévio?\n5. Kit de emergência à mão (adrenalina IM, O₂, ambu)?\n6. Monitorização contínua garantida?\n7. Laboratórios e status clínico recentes revisados?\n8. Registro fotográfico pré-infusão do sítio venoso (opcional, valor forense)?\n\n---\n\n## 12. Caso clínico integrado\n\n**Paciente:** Mulher, 65 anos, DRC estágio 3a, ICC classe II, diabética controlada, ex-fumante, sem eventos cardiovasculares nos últimos 2 anos, apresenta fadiga, Mg 1,6 mg/dL, creatinina 1,7, uso de metformina e carvedilol. Vem para infusão magnesiana (1g MgSO₄ EV diluída em 250ml SG5%).\n\n**Durante a infusão:** Em 15 min — queixa súbita de calor, náusea, discreto edema local, PA 95/60 mmHg (pré: 120/80), FR 18 irpm, SatO₂ 95%, ausculta normal, sem estertores pulmonar.\n\n**Qual a melhor conduta?**\n\n**A) Suspender a infusão, monitorar, aguardar em observação, pedir ECG e dosar eletrólitos**\n- Racional: Sintomas leves, mas com hipotensão >20 mmHg abaixo do basal e edema local, sugerindo início de extravasamento + possível reação adversa delicada em paciente de risco renal/cardiaco.\n\n**B) Prosseguir a infusão lentamente, apenas aumentar o monitoramento**\n- Incorreto: Prosseguir pode agravar extravasamento e sobrecarga.\n\n**C) Administrar Furosemida 40mg IV imediatamente sem interromper**\n- Incorreto: Uso de diurético sem interrupção e sem base para ação de sobrecarga aguda, sem congestão confirmada.\n\n**D) Manter infusão, por tratar-se de efeito vasodilatador esperado**\n- Incorreto: Reação não é fisiológica, devendo sempre priorizar a segurança.\n\n**Resposta correta:**  \n**A) Suspender a infusão, monitorar, aguardar em observação, pedir ECG e dosar eletrólitos**  \n*Justificativa:* O quadro sugere início de extravasamento (edema local), além do risco em paciente DRC/ICC, com diminuição abrupta de PA indicando sensibilidade aumentada (potencial reação adversa precoce). ECG e eletrólitos são obrigatórios antes de decidir por nova tentativa. Notificar evento em prontuário e revisar critérios de indicação para próximas infusões.\n\n---\n\n## 13. Slides síntese (modelo sugerido: 8–12 slides)\n\n### Slide 1: Title\n**SEGURANÇA CLÍNICA NA SOROTERAPIA ESTÉRIL: SELEÇÃO, ACESSO, MONITORAMENTO E RESPOSTA**\n\n---\n\n### Slide 2: Panorama e epidemiologia das reações IV\n\n- >15% dos pacientes com algum efeito adverso leve [S4]\n- Anafilaxia <0,1%, porém 70% dos eventos fatais em consultório\n- Sobrecar. hídrica: >3% em idoso, ICC, DRC [S2],[S8]\n\n---\n\n### Slide 3: Contraindicações e triagem\n\n- **Absolutas:** Hipersensib., ICC/drc descomp., instáb. hemodinâmica, infecção ativa\n- **Relativas:** Alergia, doenças crônicas, imunodeficiência\n- **Checklist obrigatório**\n    - Revisão laboratorial e clínica no ato\n\n---\n\n### Slide 4: Tabela — principais complicações IV\n\n| Evento              | Prevalência | Gravidade | Evidência | Referência |\n|---------------------|-------------|-----------|-----------|------------|\n| Extravasamento      | 2–6%        | Média     | B         | [S4], [S7] |\n| Anafilaxia          | <0,1%       | Alta      | A         | [S4], [S8] |\n| Sobrecarga hídrica  | 1,8–4,3%    | Alta      | B         | [S2], [S8] |\n\n---\n\n### Slide 5: Checklist pré-infusão\n\n- Paciente avaliado e consciente\n- Solução rotulada e íntegra\n- Acesso em veia adequada\n- Kit emergência preparado\n- Monitorização pronta\n\n---\n\n### Slide 6: Flow — algoritmo de conduta em reação aguda\n\n1. Suspender imediatamente\n2. Identificar padrão: extravasamento, reacional, congestivo, metabólico\n3. Protocolo de resposta específico\n4. Monitoramento pós-evento\n\n---\n\n### Slide 7: Conduta específica em extravasamento\n\n- Retire, aspire, NÃO massagear\n- Compressa fria (exceto vesicantes)\n- Fotografar, documentar\n- Analgésico local, observação\n\n---\n\n### Slide 8: Anafilaxia — manejo imediato\n\n- Parar tudo, O₂ imediato\n- Adrenalina IM — 0,3–0,5 mg em vasto lateral\n- Hidratação, suporte avançado\n- Hospitalização se refratário\n\n---\n\n### Slide 9: Sobrecarga hídrica\n\n- Suspender\n- Furosemida IV, titular de acordo com resposta\n- Monitorar SatO₂\n- Investigar sinais de congestão\n\n---\n\n### Slide 10: Distúrbios eletrólitos — manejo rápido\n\n- Corrigir K, Ca, Na conforme protocolos\n- ECG contínuo em alterações críticas\n- Interromper infusão imediatamente\n\n---\n\n### Slide 11: Regulatório obrigatório (BR)\n\n- ANVISA: manipulação estéril e rastreio\n- CFM: proibição de research peptide, GH/implante antiaging, drip sem deficiência\n- WADA: máximo 100mL/12h em atletas\n\n---\n\n### Slide 12: Key points, referência rápida de bolso\n\n- Checklist obrigatório\n- Não infundir sem indicação clínica robusta\n- Agir antes do evento crítico: suspender > tratar\n- Manter documentação rigorosa\n\n---\n\n## 14. Quick_reference & Key_points\n\n### Quick Reference — Conduta Prática\n\n- **Sinais leves locais:** Suspender, observar, compressa local.\n- **Anafilaxia:** Adrenalina IM, O₂, volume, suporte.\n- **Suspeita de sobrecarga:** Parar, diurético IV, oxigenar.\n- **Distúrbio eletrolítico:** Parar, dosar eletrólitos, ECG, suporte específico.\n- **Sempre documentar, notificar e obter novo consentimento em caso de evento adverso.**\n\n### Key_points\n\n1. **Seleção ética do paciente e contraindicações revisadas em cada sessão.**\n2. **Checklist documentado de preparação e monitoramento obrigatório.**\n3. **Kit de emergência (adrenalina IM, O₂) deve estar pronto — nunca começar sem acesso.**\n4. **Monitorização contínua do sítio venoso e dos sinais vitais.**\n5. **Suspensão da infusão ao menor sinal de complicação.**\n6. **Nunca research peptide, GH anti-aging ou soro “bem-estar” sem deficiência clínica e laboratorial.**\n7. **Registro ANVISA, laudo estéril, prontuário rigoroso e consentimento informado são exigências legais.**\n\n---\n\n## 15. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.  \n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010.\n- [S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009.\n- [S6] Epidemiology of invasive candidiasis: a persistent public health problem. Clin Microbiol Rev 2007.\n- [S7] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016.\n- [S8] Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med 2013.\n- Demais documentos regulatórios: RDC ANVISA 67/2007; 786/2023; CFM 2.333/2023.\n\n---\n\n**Monografia Doutiva — voltada para a excelência clínica ética, rastreabilidade e segurança máxima em soroterapia estéril no consultório brasileiro.**",
+  "quick_ref": "# Guia Rápido: Segurança Clínica na Soroterapia Estéril\n\n| Item                     | Conduta/Parâmetro                         |\n|--------------------------|------------------------------------------|\n| **Triagem paciente**      | Avaliar contraindicações absolutas e relativas, exames recentes, medicações e consentimento.\n| **Checklist pré-infusão** | Confirmar solução rotulada e íntegra, acesso venoso adequado, kit emergência pronto.\n| **Monitoramento**         | PA, FC, FR a cada 10 min na infusão e 30 min pós; observação do local; sintomas gerais.\n| **Extravasamento**        | Suspender infusão, aspirar fluido, compressa fria, elevar membro, documentar.\n| **Anafilaxia**            | Adrenalina IM 0,3-0,5mg, oxigênio, volume IV, anti-histamínico, corticoide.\n| **Sobrecarga hídrica**    | Suspender infusão, oxigenar, furosemida IV, monitorar diurese.\n| **Distúrbios eletrolíticos**| Interromper infusão, dosar eletrólitos, ECG, corrigir conforme protocolo.\n\n**Red Flags:**\n- Queda abrupta de PA, dispneia, edema súbito local, sintomas alérgicos\n- Evolução rápida e agravamento dos sinais vitais\n\n**Checklist consultório:**\n- Paciente triado e consentido\n- Solução rotulada e integra\n- Equipe treinada e kit pronto\n- Monitoramento contínuo\n- Documentação rigorosa",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "65 anos"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "DRC estágio 3a, ICC classe II, diabetes controlada"
+      },
+      {
+        "label": "Solução infundida",
+        "value": "1g MgSO4 em 250ml SG5%"
+      },
+      {
+        "label": "Tempo de reação",
+        "value": "15 minutos"
+      },
+      {
+        "label": "Sinais vitais na reação",
+        "value": "PA 95/60 mmHg, FR 18 irpm, SatO₂ 95%"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Calor súbito, náusea, edema local"
+      },
+      {
+        "label": "Exame físico",
+        "value": "Ausculta pulmonar normal, sem estertores"
+      },
+      {
+        "label": "Medicações em uso",
+        "value": "Metformina e carvedilol"
+      }
+    ],
+    "title": "Hipotensão súbita e edema local durante infusão magnesiana em paciente com DRC",
+    "reward": 5,
+    "options": [
+      {
+        "label": "A) Suspender a infusão, monitorar, aguardar em observação, pedir ECG e dosar eletrólitos",
+        "correct": true,
+        "rationale": "Suspender infusão para evitar agravamento dos sintomas, monitorar e investigar causas com exames para manejo adequado."
+      },
+      {
+        "label": "B) Prosseguir infusão lentamente, aumentar monitoramento",
+        "correct": false,
+        "rationale": "Prosseguir pode agravar extravasamento e risco de hipovolemia ou reação alérgica."
+      },
+      {
+        "label": "C) Administrar furosemida IV 40mg imediatamente sem suspender infusão",
+        "correct": false,
+        "rationale": "Furosemida deve ser usada com critério após avaliação; infusão sem suspensão pode piorar quadro."
+      },
+      {
+        "label": "D) Manter infusão, pois sintoma é efeito vasodilatador esperado",
+        "correct": false,
+        "rationale": "Sinais não são efeitos esperados e indicam complicação que requer suspensão imediata."
+      }
+    ],
+    "question": "Qual a conduta mais apropriada diante do quadro descrito?",
+    "vignette": "Paciente do sexo feminino, 65 anos, com DRC estágio 3a e ICC classe II, controlada para diabetes, apresenta fadiga e indicação para infusão intravenosa de sulfato de magnésio 1g em 250ml de SG5%. Após 15 minutos de infusão, relata calor súbito, náusea e apresenta edema discreto local, PA 95/60 mmHg (pré-infusão 120/80), FR 18 irpm e SatO₂ 95%. Ausculta pulmonar normal, sem estertores.",
+    "teaching": "A paciente apresenta sinais sugestivos de início de extravasamento associado a possível reação adversa, considerando edema local e queda significativa da pressão arterial no contexto de DRC e ICC, que aumentam o risco de complicações. A conduta correta é suspender imediatamente a infusão para evitar agravamento, monitorar sinais vitais e sintomas, solicitar exames complementares como ECG e dosagem de eletrólitos para identificar alterações e orientar suporte conforme evolução. Prosseguir com a infusão colocaria em risco a integridade do tecido e o equilíbrio hemodinâmico. Administração precoce da furosemida sem avaliação pode ser prejudicial. Essa abordagem está alinhada com protocolos de segurança clínica assistida e responde ao risco aumentado de complicações em cardiopatias e doenças renais crônicas. O registro detalhado no prontuário e o consentimento atualizado são imprescindíveis para a segurança do paciente e justificativa clínica."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11–61."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2009;49(1):1-45."
+    },
+    {
+      "citation": "Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med. 2013;39(2):165-228."
+    },
+    {
+      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2016;62(4):e1-e50."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 – Normas Éticas para Prescrição e Manipulação de Peptídeos e Hormônios."
+    }
+  ],
+  "status": "published"
+}

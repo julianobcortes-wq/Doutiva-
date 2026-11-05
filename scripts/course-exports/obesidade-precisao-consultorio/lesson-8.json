@@ -1,0 +1,308 @@
+{
+  "position": 8,
+  "module": "Módulo 4 · Cirurgia e especial",
+  "module_position": 4,
+  "title": "Transtorno Alimentar, Compulsão e Quando NÃO Empurrar Só Farmacoterapia",
+  "description": "Nesta aula premium, exploramos o manejo clínico do transtorno alimentar (TA), compulsão alimentar periódica (CAP/BED) em pacientes com obesidade, destacando a importância da triagem adequada, diagnóstico diferencial e condutas éticas e regulatórias no Brasil. Apresentamos evidências para orientar a combinação de psicoterapia com farmacoterapia no contexto brasileiro, alertando contra medicalização inadequada, uso irrestrito de hormônios, manipulados e soroterapia estéril, em concordância com normas do CFM e ANVISA.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A triagem formal com SCOFF e EDE-Q, aliada à avaliação psiquiátrica, é essencial antes de iniciar farmacoterapia em pacientes com suspeita de transtornos alimentares associada à obesidade.",
+    "A psicoterapia cognitivo-comportamental é a primeira linha para compulsão alimentar e bulimia, sendo farmacoterapia (ISRS, lisdexanfetamina) indicada preferencialmente em casos moderados a graves, e sempre combinada com acompanhamento multidisciplinar.",
+    "Implantes hormonais, peptides research, GH estético, e soroterapia sem indicação específica configuram infração ética e legal no Brasil, devendo ser rigorosamente evitados.",
+    "Manipulação estéril de agonistas de incretinas ou topiramato requer rigor técnico e documentação, sendo off-label para transtornos alimentares, com substancial limitação de evidência para uso isolado.",
+    "Encaminhamento a psiquiatria ou equipe multiprofissional é obrigatório em casos refratários, com sinais psiquiátricos graves ou uso abusivo de substâncias e medicamentos.",
+    "O uso descontrolado de múltiplos fármacos sem diagnóstico formal e documentado expõe o paciente a riscos de saúde e médica judicialização.",
+    "Registro detalhado de consentimento informado, indicação clínica e monitoramento frequente são fundamentais para segurança médica e legal."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Transtornos Alimentares, Compulsão e Farmacoterapia Ética em Obesidade",
+      "subtitle": "Obesidade de Precisão no Consultório - Módulo 4: Cirurgia e Especialidades"
+    },
+    {
+      "head": [
+        "Transtorno",
+        "Critério central",
+        "Duração mínima",
+        "Compulsão alimentar",
+        "Comportamentos compensatórios"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Compulsão Alimentar Periódica (TCAP/BED)",
+          "Episódios recorrentes de ingestão alimentar excessiva com perda de controle",
+          "≥3 meses",
+          "Sim",
+          "Não"
+        ],
+        [
+          "Bulimia Nervosa (BN)",
+          "Episódios de compulsão com perda de controle",
+          "≥3 meses",
+          "Sim",
+          "Sim (mín. 1x/semana)"
+        ],
+        [
+          "Anorexia Nervosa (AN)",
+          "Restrição alimentar severa, baixo peso",
+          "≥3 meses",
+          "Não",
+          "Não aplicável"
+        ],
+        [
+          "Outros Transtornos Alimentares",
+          "Características variáveis",
+          "Variável",
+          "Variável",
+          "Variável"
+        ]
+      ],
+      "title": "Definições e Critérios DSM-5 para Transtornos Alimentares em Obesidade"
+    },
+    {
+      "kind": "bullets",
+      "title": "Triagem e Red Flags no Consultório",
+      "bullets": [
+        "Aplicar SCOFF: ≥2 respostas positivas indicam alto risco de TA.",
+        "Investigar histórico de uso abusivo de medicamentos, síndromes purgativas e medical shopping.",
+        "Identificar sintomas psiquiátricos associados: ansiedade, depressão, trauma, bullying.",
+        "Observar flutuações de peso incoerentes com a dieta relatada.",
+        "Recusa ou pressão irregular para terapias hormonais, manipulados, peptides e soroterapia.",
+        "Avaliar rotina alimentar, percepção corporal e sinais de compulsão ou purgação."
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Triagem inicial com SCOFF"
+        },
+        {
+          "label": ">2 pontos e/ou presença de Red Flags?"
+        },
+        {
+          "label": "Sim → Aplicar EDE-Q e/ou avaliação psiquiátrica"
+        },
+        {
+          "label": "Diagnóstico confirmado de TCAP ou BN?"
+        },
+        {
+          "label": "Sim → Avaliar gravidade (leve/moderado x grave/comórbido)"
+        },
+        {
+          "label": "Leve a moderado → TCC + acompanhamento nutricional"
+        },
+        {
+          "label": "Grave ou comórbido psiquiátrico → Encaminhar para psiquiatria especializada"
+        },
+        {
+          "label": "Monitorar resposta; Se refratário → considerar farmacoterapia autorizada"
+        },
+        {
+          "label": "Manter controle estrito nos casos em uso de manipulação estéril/off-label"
+        },
+        {
+          "label": "Não → Monitorar e reavaliar periodicamente no consultório"
+        }
+      ],
+      "title": "Fluxo de Avaliação e Manejo de Transtornos Alimentares no Consultório"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Indicação",
+        "Registro ANVISA",
+        "Status Regulatório",
+        "Evidência",
+        "Observação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Inibidores seletivos da recaptação de serotonina (ISRS)",
+          "TCAP / Bulimia Nervosa",
+          "Sim",
+          "Registrado, uso aprovado",
+          "A",
+          "Primeira linha, com TCC"
+        ],
+        [
+          "Lisdexanfetamina",
+          "TCAP (BED)",
+          "Sim, aprovado para BED",
+          "Registrado restrito",
+          "A",
+          "Uso restrito para TCAP, termo consentimento obrigatório"
+        ],
+        [
+          "Topiramato",
+          "Compulsão alimentar, peso",
+          "Sim (epilepsia)",
+          "Off-label para TA",
+          "B",
+          "Uso com termo de consentimento, manipulado"
+        ],
+        [
+          "Agonistas GLP-1 (liraglutida, semaglutida)",
+          "Diabetes tipo 2 e obesidade (sem TEA registrado)",
+          "Sim",
+          "Uso off-label para TA sem evidencia robusta",
+          "B",
+          "Estudos em fase inicial; não indicado para TA"
+        ],
+        [
+          "Tirzepatida",
+          "Diabetes mellitus tipo 2",
+          "Sim",
+          "Uso off-label, manipulação estéril obrigatória",
+          "C",
+          "Uso experimental para TEA não aprovado"
+        ],
+        [
+          "Implantes hormonais para questão metabólica",
+          "Nenhum",
+          "Não permitido",
+          "Vedado pelo CFM/ANVISA",
+          "D",
+          "Prática ilegal e antiética"
+        ],
+        [
+          "Research peptides, GH anti-aging",
+          "Nenhum",
+          "Não permitido",
+          "Vedado",
+          "D",
+          "Proibido, risco legal e ético"
+        ]
+      ],
+      "title": "Tratamentos Farmacológicos: Evidência, Registro ANVISA e Uso no Brasil"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Ausência de triagem formal para transtorno alimentar.",
+          "Solicitação repetida e inadequada de hormônios, peptides ou soroterapia.",
+          "Predomínio de sintomas depressivo-ansiosos não tratados.",
+          "Sinais de medical shopping, uso abusivo de múltiplas drogas.",
+          "Pressão para terapias sem validação clínica e regulatória."
+        ],
+        "label": "Condições para não prescrição"
+      },
+      "right": {
+        "items": [
+          "Pacientes com indicação clara e avaliação psiquiátrica realizada.",
+          "Opções de psicoterapia estruturada e acompanhamento clínico multidisciplinar.",
+          "Uso racional e regulamentado de farmacoterápicos autorizados.",
+          "Encaminhamento para equipe interdisciplinar para cuidado integral.",
+          "Registro rígido e consentimento informado para uso off-label/manipulado."
+        ],
+        "label": "Contexto adequado para prescrição segura"
+      },
+      "title": "Quando NÃO Insistir em Farmacoterapia"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pontos Críticos Éticos e Regulatórios no Brasil",
+      "bullets": [
+        "Manipulação de peptídeos, hormônios e GH sem indicação clínica configuram infração ética e legal (CFM 2.333/2023).",
+        "Farmacoterapia só deve ser iniciada após avaliação formal e diagnóstico confirmado.",
+        "Implantes hormonais não têm registro ANVISA para obesidade/TA e são proibidos para esta indicação.",
+        "Consentimento informado e documentação detalhada são mandatórios para off-label e manipulações.",
+        "Encaminhamento a psiquiatria e equipe multiprofissional é obrigatório nos casos graves e refratários.",
+        "Medicalização indiscriminada pode levar à judicialização e danos à saúde do paciente."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "A saúde mental em pacientes com obesidade e transtornos alimentares deve preceder e orientar todas as decisões farmacológicas: priorizar psicoterapia e avaliação multidisciplinar evita medicalização prejudicial e melhora a remissão a longo prazo.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Transtorno Alimentar, Compulsão e Quando NÃO Empurrar Só Farmacoterapia  \n#### Manual Premium Doutiva — Obesidade de Precisão no Consultório: Módulo 4\n\n---\n\n## 1. Contexto Clínico e Relevância  \n**Obesidade, compulsão alimentar (CA) e transtornos alimentares (TAs)** desafiam a abordagem baseada apenas em farmacoterapia. A última década testemunhou crescimento de prescrições de agonistas de GLP-1, tirzepatida, soros e manipulação estéril — muitas vezes sem triagem ou manejo adequado de bases psicopatológicas e transtornos alimentares subjacentes.\n\n**Obesidade não é igual a transtorno alimentar, mas coocorrem frequentemente**: até 40% dos obesos graves apresentam traços ou episódios de compulsão alimentar periódica (CAP/BED). Adultos com obesidade encaminhados para cirurgia bariátrica exibem prevalência aumentada de bulimia nervosa (BN), transtorno de compulsão alimentar periódica (TCAP/BED) ou uso irregular de medicamentos, diuréticos, insulinolaxantes ou purgativos.\n\n**O risco de medicalização excessiva e empurrar terapias sem respaldo psiquiátrico/psicológico é central**: o Conselho Federal de Medicina (CFM), ANVISA e sociedades internacionais são categóricos quanto à priorização do diagnóstico correto, abordagem multimodal e indicações restritas para implantes, hormônios, fármacos ou soroterapia.\n\n---\n\n## 2. Bases Científicas: TAs e Compulsão Alimentar\n\n### 2.1. Definições Core\n\n- **Transtorno de Compulsão Alimentar Periódica (TCAP/BED)**: episódios recorrentes, rápida ingestão excessiva de alimentos, seguido de sofrimento, sem comportamentos compensatórios regulares.\n- **Bulimia Nervosa (BN)**: episódios de compulsão acompanhados por medidas compensatórias inadequadas (vômitos, laxantes, jejum).\n- **Outros TAs**: anorexia nervosa (pouco prevalente em obesidade clínica), transtorno alimentar restritivo evitativo, PICA.\n\n### 2.2. Epidemiologia e Interface Clínica  \n- TCAP: prevalência em obesidade de 20–40% (evidência B).\n- BN: prevalência 2–8% em obesos, 6–12% nos que buscam cirurgia bariátrica (verificar).\n- Mulheres > homens; associação forte com ansiedade, depressão, trauma, abuso infantil/histórico de bullying.\n- Altíssimo risco de uso abusivo/iatrogênico de medicamentos (sibilinos, diuréticos, hormônios) e de “shopping médico”.\n\n### 2.3. Critérios Diagnósticos (DSM-5)\n| Transtorno | Critério central | Duração mínima | Compulsão? | Comportamentos compensatórios |\n|------------|-----------------|---------------|------------|------------------------------|\n| TCAP/BED   | Compulsão alimentar, perda de controle | 3 meses | Sim | Não |\n| BN         | Compulsão alimentar, perda de controle | 3 meses | Sim | Sim (mín. 1x/semana) |\n| AN         | Restrição severa, baixo peso | 3 meses | Não | Não aplicável |\n| Outras     | Características variáveis | Variável | Variável | Variável |\n\n---\n\n## 3. Triagem: Screening, Red Flags e Diagnóstico Diferencial\n\n### 3.1. Ferramentas Validadas\n\n- **SCOFF** (abreviação; ≥2 “sim” → alto risco):\n    - Você faz vômitos porque se sente desconfortavelmente cheio?\n    - Você perde o controle sobre quanto come?\n    - Perdeu mais de 6kg em 3 meses?\n    - Você se acha gordo quando outros dizem que está magro?\n    - Alimento domina sua vida?\n- **EDE-Q**: questionário estruturado padrão-ouro para ensaio clínico/pesquisa.\n\n### 3.2. Red Flags no Consultório\n\n- Flutuações de peso incoerentes com balanço calórico informado.\n- Prescrição insistente, já testada, de múltiplos fármacos (particularmente inibidores de apetite, hormônios “bioidênticos” ou implantes sem critério rigoroso).\n- Relato de comportamentos compensatórios: vômito, uso de laxantes, exercícios extremos, diuréticos.\n- Ansiedade intensa em torno de pesagem, consultas ou prescrições.\n- História de trauma, abuso, bullying, doença psiquiátrica.\n- Solicitação ativa de \"potencializadores\", peptídeos research ou soroterapia estética.\n\n### 3.3. Diagnóstico Diferencial Ampliado\n\n- Hipotireoidismo, Cushing, farmacogenética adversa, uso de PSIQ.\n- Transtornos orgânicos e outras causas de sobrepeso, síndrome metabólica.\n- Pacientes pós-bariátrica: avaliar dumping, hipoglicemias, risco de “transferência de vícios”.\n\n---\n\n## 4. Evidências Críticas — Intervenção nos TAs/Compulsão em Obesidade  \n### 4.1. Eficácia e Limites da Farmacoterapia, Psicoterapia e Abordagem Combinada\n\n| Intervenção                | N estudos | Desfecho primário | Efeito clínico | Evidência | Observações |\n|----------------------------|-----------|-------------------|---------------|-----------|------------|\n| ISRS/ISNR (ex. fluoxetina, sertralina) | ≥10 ECR | Redução episódios CA, score EDE | -25 a -45% CA vs placebo | A | Primeira linha no TCAP, BN |\n| Lisdexanfetamina 50–70mg/d | 3 ECR (BED) | Remissão/Episódios CA | OR 2,0–2,5 vs placebo | A | Registrado ANVISA para BED |\n| Topiramato 100–300mg/d     | 7 ECR      | CA, peso, score EDE | 15–30% redução CA | B | Off-label; manipulado |\n| Terapia Cognitivo-comportamental (TCC) | ≥15 ECR/Metanálise | Remissão CA, abstinência | RR 1,7–2,5 vs controle | A | Primeira linha para TCAP/BN |\n| GLP-1RA (ex. liraglutida, semaglutida, tirzepatida) | 3 estudos observacionais | Redução peso; CA variável | peso -7–13%, episódios CA: não sistemático | B | Não aprovado para TA|\n| Inibidores apetite/implantes sintéticos | 0 ECR | Desfechos de TA | Sem evidência | D | Não prescrever |\n| “Research peptides”, GH estético, soroterapia sem deficiência | 0 | — | Sem benefício, risco legal | D | NÃO recomendar |\n\n#### Notas  \n- Nenhum estudo apoia pesquisa clínica ou uso de research-peptides para TA (grave infração/CFM 2.333/2023).\n- Implantes hormonais, soroterapia/drops estéticos ou GH sem deficiência config: infração ética (CFM).\n- GLP-1RA/tirzepatida não registradas para TEA, apenas para DM2/obesidade sem TEA ou quando coexiste BED documentado (ANVISA).\n\n---\n\n### 4.2. Tabela Resumo: Medicações, Status Regulatório e Evidência\n\n| Fármaco / Procedimento           | Registro ANVISA | Off-label Documentado | Manipulado | Sem Registro | Nota Regul/Sociedade | Evidência    |\n|----------------------------------|-----------------|----------------------|------------|--------------|----------------------|--------------|\n| ISRS/ISNR (fluox, sertral, venla) | Sim             | —                    | —          | —            | Aprovado CFM, ANVISA | A            |\n| Lisdexanfetamina                 | Sim, para BED    | —                    | —          | —            | Aprovada para BED, restrita | A        |\n| Topiramato                       | Sim, epilepsia  | Doc. para TA         | Disp.      | —            | Off-label CFM, uso com termo | B      |\n| Agonistas GLP-1 (liraglutida, semaglutida) | Sim para DM2/Obesid. | Não para TEA | Disp.      | —            | Off-label restrito, atuação ética | B |\n| Tirzepatida                      | Sim (DM2)      | Obesidade/documentada | Disp.      | —            | Não para TA; manipulação requer rigor estéril | C |\n| Implantes hormonais para \"questão metabólica\" sem critério | — | — | Disp. | — | Expressamente vedado (CFM/Anvisa) | D |\n| Research peptides, GH estético   | —               | —                    | Não legal  | —            | Proibido absolutamente | D           |\n\n---\n\n## 5. Seleção de Pacientes: Quando NÃO Insistir em Farmacoterapia\n\n### 5.1. Indicações e Contraindicações\n\n**Indicações para farmacoterapia (sempre em combinação com psicoterapia/TCC):**\n- BED/TCAP moderado-grave, após falha de TCC ou incapacidade de acesso a psicoterapia.\n- BN refratária ou com risco iminente.\n- Comorbidade psiquiátrica em acompanhamento conjunto.\n\n**Contraindicações / Momentos de NÃO prescrever:**\n- Paciente sem triagem formal para TEA/TCAP/BN.\n- Solicitação expressa de múltiplas terapias/doses fora de bula.\n- Predomínio de sintomas ansioso-depressivos não tratados.\n- Sinais de medical shopping, história de uso abusivo de substâncias.\n- Pressão para prescrição de implantes, “peptides”, soros, GH (sem deficiência documentada).\n\n---\n\n## 6. Conduta Passo a Passo para Transtorno Alimentar no Consultório\n\n### 6.1. Fluxo Integrado — Screening, Diagnóstico, Encaminhamento e Prescrição Ética\n\n```mermaid\ngraph TD\nA[Triagem Clínica+SCOFF] --> B{>2 +/Red Flag?}\nB -- Não --> E[Acompanhar rotina, monitorar]\nB -- Sim --> C[Aplicar EDE-Q/Entrev. psiquiátrica]\nC --> D{TCAP/BN confirmado?}\nD -- Não --> E\nD -- Sim --> F{Gravidade?}\nF -- Leve/Moderado --> G[TCC 12-20 sessões, Nutri Educa., Aval. Recorrente]\nF -- Grave/comórbido psiquiátrico --> H[Encaminhar Psiquiatria especializada, TCC intensivo]\nG --> I{Refratário?}\nI -- Sim --> J[Adicionar farmacoterapia: LSX ou ISRS; topiramato off-label]\nH -- Envolvimento médico/psicossocial continuado\nJ --> L[Ajustar, monitorar, não avançar dose/implantes/soros sem indicação]\n```\n\n### 6.2. Monitoramento e Segurança\n\n| Medida                     | Frequência | Responsável | Sinal de Alerta (Suspender)           |\n|----------------------------|------------|-------------|--------------------------------------|\n| Peso e comportamento       | Cada 2-4s  | Médico      | Flutuação abrupta, relato compulsão  |\n| Avaliação psiquiátrica     | Mensal     | Psiq/Med    | Ideação suicida, automutilação       |\n| Efeitos adversos ISRS/LSX  | Cada 2-4s  | Médico      | Hipertensão, insônia, euforia        |\n| Uso abusivo/demandas atípicas | Cada consulta | Médico | Solicitação de peptides, hits, smarts|\n| Revisão término farmacotx  | Após 12s   | Equipe      | Manutenção dos sintomas     |\n\n---\n\n## 7. Regulatório, Ética e Jurisprudência no Brasil  \n\n### 7.1. CFM, ANVISA, Sociedade\n\n| Prática                                           | Base Legal                                                     | Permitido?                    | Consequência                 |\n|---------------------------------------------------|----------------------------------------------------------------|-------------------------------|------------------------------|\n| ISRS, LSX em BED/BN por médicos especialistas     | ANVISA + CFM + diretriz psiquiátrica                          | Sim, com termo de consentim.  | —                            |\n| Implantes hormonais/metabólicos para TEA/Obesidade sem critério rigor | CFM 2.333/2023, Anvisa                  | Não                          | Processo ético, multa, interdição|\n| Research peptides, GH anti-aging, peptides em drip | Norma CFM, ANVISA                                              | Não, nikdy                    | Processo ético, risco penal  |\n| Farmacoterapia alone em TEA                       | Diretrizes nacionais/internacionais, SBEM, CFM                 | Não recomendado               | Risco de iatrogenia, judicialização|\n| Encaminhamento para psiquiatria/TCC               | CFM, diretriz psiquiátrica, SBEM                               | Obrigatório se refractory/severe| —                          |\n| Prescrição de fármacos sem triagem/diagnóstico    | Boa prática médica                                              | Não recomendado               | Responsabilização civil/prof.     |\n\n---\n\n## 8. O Que Não Fazer: Erros Críticos e Riscos\n\n**Nunca:**\n- Prescrever GH para emagrecimento geral ou “anti-aging” (ilegal).\n- Avançar para implantes ou gotejamentos de hormônios/soros peptídicos sem critério clínico e documentação.\n- Ignorar sinais/sintomas de TEA ou compulsão alimentar — aumenta morbidade, cronifica obesidade e judicializa o atendimento.\n- Prescrever “combinações inovadoras” de peptídeos ou manipular sem comprovação de segurança/estabilidade para uso injetável estéril.\n- Negligenciar encaminhamento para especialista em comorbidade psiquiátrica grave.\n- Priorizar perda de peso > saúde mental/comportamental.\n\n---\n\n## 9. Pérolas Clínicas e Checklist Prático de Consultório\n\n### Pérolas\n\n- TCC + farmacoterapia (quando indicado) previne recaída melhor que cualquiera isolada.\n- Prescrição ética e sob consentimento informado reduzem risco de judicialização.\n- Registre tentativas terapêuticas, indicação, consentimento e monitoramento — especialmente com manipulado/estéril.\n- Red flags “shopper” = alta probabilidade de abuso futuro de outras terapias/cirurgias.\n- Equipes multidisciplinares (psiquiatra, nutri, educador físico) aumentam taxa de remissão e resposta sustentada.\n\n### Checklist\n\n- [ ] SCOFF aplicado, ≥2 pontos “sim”\n- [ ] História detalhada da alimentação e do peso\n- [ ] Sinais/relato de purgação, abuso, compulsão?\n- [ ] Comorbilidades psiquiátricas rastreadas\n- [ ] Consentimento informado registrado\n- [ ] Avaliação regular de comportamento alimentar\n- [ ] Encaminhamento imediato se grave/riscos\n- [ ] Rejeitada pressão para hormônios/implantes sem base\n\n---\n\n## 10. Caso Clínico Realista — Discussão Densa\n\n### Caso\n\nPaciente feminina, 36 anos, IMC 39 kg/m², procura endocrinologista solicitando \"tratamento personalizado com peptídeos e hormônios\" após múltiplas dietas e uso prévio de sibutramina manipulada, topiramato e \"dieta detox intravenosa\". Refere episódios semanais de ingestão alimentar descontrolada (4-5x/semana), sensação de culpa intensa, mas nega vômitos ou uso de laxantes. SCOFF: 3 respostas positivas. História de ansiedade generalizada, mãe com TCAP, exame físico sem anormalidades exceto obesidade grau II, glicemia de jejum 94 mg/dL, TSH normal, lipidograma alterado.\n\nQual a conduta MAIS adequada?\n\nA) Iniciar imediatamente agonista GLP-1 ou tirzepatida manipulada, vistoriando estabilidade estéril, e orientar continuidade das abordagens comportamentais já tentadas.  \nB) Solicitar avaliação psiquiátrica formal e iniciar TCC estruturada, mantendo acompanhamento clínico e nutrológico, postergando introdução de fármacos até diagnóstico definitivo.  \nC) Prescrever Lisdexanfetamina 50mg/dia, já que os critérios de BED estão presentes e a paciente cronificou tentativas clínicas, com termo de consentimento e programação de TCC.  \nD) Iniciar \"combo inovador\" com GLP-1 + topiramato + implante hormonal de gestrinona manipulada, com acompanhamento mensal e soroterapia adjuvante para controle metabólico.\n\n**Resposta Correta: B.**  \nJustificativa: triagem positiva para BED/TCAP exige confirmação psiquiátrica. Não há urgência/emergência clínica (sem risco de morte ou sintomas graves). TCC e avaliação multidisciplinar precedem farmacoterapia - especialmente manipulação estéril/combos polimedicados, que são fora de bula quando não há indicação registrada, além de riscos de medicalização e infração ao CFM/ANVISA (ver seção 7).\n\n---\n\n## 11. Slides de Aula (estrutura exemplo)\n\n1. **Titulo:** Transtornos Alimentares e Obesidade no Consultório  \n2. **Epidemiologia:**  \n   - 20–40% BED em obesidade  \n   - 6–12% BN em pré-bariátrica  \n\n3. **Core Definitions Table** (DSM-5)\n4. **Screening/Red Flags Table**\n   - SCOFF\n   - História de abuso e “medical shopping”\n5. **Conduta Flowchart** (mermaid ou visual)\n6. **Abordagem Multimodal Table**\n   - Psicoterapia, farmacoterapia, contraindicação de certos fármacos\n7. **Tabela: Registro, Off-label, Manipulado**  \n8. **What Not To Do** (Bullets vermelhos: GH estético, implantes indevidos, drip, peptides research)\n9. **Regulatório BR**\n   - CFM 2.333/2023: Hormônio/estética com restrição\n   - ANVISA: uso restrito para obesidade\n10. **Caso Clínico pulgado**\n    - Dados, alternativas, racional\n11. **Pearls**\n    - Checklist de abordagem\n12. **Quick-ref Pocket Slide**\n    - Triagem → Encaminhamento → O que não prescrever\n\n---\n\n## 12. Quick Reference (de bolso)\n\n| Situação | Conduta Rápida | Não Fazer |\n|----------|----------------|-----------|\n| Suspeita TEA/BED | SCOFF, EDE-Q, avaliação psiq. | Não prescrever \"à la carte\" |\n| Confirma BED/BN | iniciar TCC, avaliar ISRS/LSX | Não prescrever implante/hormônio |\n| Demanda por peptides | Negar, orientar, registrar | Não manipular sem registro |\n| Flutuação peso/purgativo | Encaminhar especialista | Não oferecer combo polifármaco |\n\n---\n\n## 13. Key Points (Resumão)\n\n1. **Triagem formal (SCOFF, EDE-Q) e anamnese psiquiátrica são obrigatórios antes de farmacoterapia para obesidade com suspeita de TA/compulsão.**\n2. **Farmacoterapia (ISRS, LSX) só após avaliação multidisciplinar e quando bem indicada; muitos casos respondem à TCC isolada.**\n3. **Implantes hormonais, peptides fora do registro, GH estético e soroterapias não devem ser prescritos para TEA ou compulsão — risco ético, jurídico e saúde.**\n4. **Manipulação estéril só com indicação precisa/documentada e registro ANVISA; uso off-label requer termo e documentação robusta.**\n5. **Encaminhamento para psiquiatria/TCC é OBRIGATÓRIO em casos refratários, graves ou com sintomas psicopatológicos relevantes.**\n6. **Registro, consentimento informado e seguimento rigoroso — essenciais para segurança legal e do paciente.**\n7. **A saúde mental/comportamental tem precedência sobre a medicalização e a busca de “shortcuts” farmacológicos.**\n\n---\n\n## 14. Referências Realmente Relevantes\n\n- [S1] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010.  \n- National Institute for Health and Care Excellence. Eating Disorders Overview [NG69].  \n- Associação Brasileira de Psiquiatria. Diretrizes da Associação Brasileira de Psiquiatria para Transtornos Alimentares, 2023.  \n- Conselho Federal de Medicina. Resolução CFM 2.333/2023.  \n- Samba, W. et al. Lisdexanfetamina em TCAP: revisão sistemática. Rev Bras Psiquiatria, 2021.  \n- American Psychiatric Association. Practice guideline for the treatment of patients with eating disorders. 4th ed.  \n- McElroy, S.L. et al. Pharmacologic treatment of binge eating disorder: update. J Clin Psychiatry. 2016.\n\n---\n\n**Este conteúdo foi elaborado conforme os princípios premium Doutiva/Purus, visando excelência regulatória, ética e clínica em obesidade de precisão no Brasil.**",
+  "quick_ref": "# Guia Rápido - Transtornos Alimentares e Compulsão na Obesidade\n\n| Situação Clínica                  | Conduta Rápida                                   | Evitar/Pitfalls                            |\n|---------------------------------|-------------------------------------------------|-------------------------------------------|\n| Suspeita de transtorno alimentar | Aplicar SCOFF; se ≥2, realizar EDE-Q/avaliar psiq. | Prescrever fármacos sem diagnóstico formal |\n| Diagnóstico confirmado (BED/BN)  | Iniciar TCC e acompanhamento multidisciplinar    | Usar implantes hormonais ou peptides indiscriminadamente |\n| Paciente pede peptides ou “drip”  | Negar, educar, documentar                      | Permitir manipulação sem critérios e sem consentimento   |\n| Sintomas graves ou refratários    | Encaminhar para psiquiatria e equipe multidis. | Falta de encaminhamento e monitoramento adequado         |\n| Farmacoterapia indicada           | ISRS ou lisdexanfetamina com termo e comorbidade | Polifarmácia sem justificativa clínica e legal          |\n\n# Checklist de Consultório\n\n- [ ] SCOFF aplicado\n- [ ] Histórico alimentar e psiquiátrico registrado\n- [ ] Identificação de red flags\n- [ ] Consentimento informado documentado\n- [ ] Encaminhamento para psicoterapia / psiquiatria quando indicado\n- [ ] Monitoramento e reavaliação periódica\n- [ ] Evitar prescrição de hormônios, peptides e GH sem indicação e registro\n- [ ] Evitar manipulação de fármacos fora do padrão e registro\n\n# Red Flags para Encaminhamento Imediato ou Cautela\n\n- Uso indevido de múltiplos medicamentos\n- Solicitação frequente de terapias sem evidência\n- História ou sinais de abuso, trauma, ansiedade grave\n- Flutuações ponderais inexplicadas\n- Evidência de purgação ou dismorfia corporal grave",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "36 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "39 kg/m²"
+      },
+      {
+        "label": "Episódios de compulsão alimentar",
+        "value": "4-5 vezes/semana"
+      },
+      {
+        "label": "SCOFF",
+        "value": "3 respostas positivas"
+      },
+      {
+        "label": "Histórico psiquiátrico",
+        "value": "Ansiedade generalizada"
+      },
+      {
+        "label": "Exame físico",
+        "value": "Obesidade grau II, sem outras alterações"
+      },
+      {
+        "label": "Laboratório",
+        "value": "Glicemia 94 mg/dL, TSH normal, lipidograma alterado"
+      }
+    ],
+    "title": "Caso Clínico: Abordagem Ética e Multidisciplinar em Obesidade e Compulsão Alimentar",
+    "reward": 100,
+    "options": [
+      {
+        "label": "A) Iniciar agonista GLP-1 ou tirzepatida manipulada imediatamente, orientando continuidade das terapias comportamentais já tentadas.",
+        "correct": false,
+        "rationale": "Sem avaliação psiquiátrica formal, uso de manipulados e off-label implica riscos éticos e clínicos; não indicado neste estágio."
+      },
+      {
+        "label": "B) Solicitar avaliação psiquiátrica formal e iniciar TCC estruturada, mantendo acompanhamento clínico e nutrológico, postergando fármacos até diagnóstico definitivo.",
+        "correct": true,
+        "rationale": "Conduta ética e baseada em evidência, priorizando psicoterapia e diagnóstico formal antes de intervenções farmacológicas."
+      },
+      {
+        "label": "C) Prescrever Lisdexanfetamina 50 mg/dia com termo de consentimento e programar TCC, dada cronificação dos sintomas.",
+        "correct": false,
+        "rationale": "Embora indicada em TCAP grave, farmacoterapia deve ocorrer após diagnóstico formal e avaliação especializada; imediata prescrição não recomendada."
+      },
+      {
+        "label": "D) Iniciar combinação com GLP-1 + topiramato + implante hormonal manipulado, com soroterapia adjuvante.",
+        "correct": false,
+        "rationale": "Uso múltiplo de fármacos e manipulações sem critério são ilegais, antiéticos e sem comprovação de segurança/eficácia."
+      }
+    ],
+    "question": "Qual a conduta MAIS adequada para essa paciente?",
+    "vignette": "Paciente feminina, 36 anos, IMC 39 kg/m², procura endocrinologista solicitando \"tratamento personalizado com peptídeos e hormônios\". Relata episódios semanais de alimentação descontrolada (4-5x/semana), culpa intensa, nega vômitos/laxantes. SCOFF = 3 respostas positivas. História de ansiedade; mãe com TCAP. Exame físico sem outras anormalidades, glicemia e TSH normais, lipidograma alterado.",
+    "teaching": "A triagem com SCOFF positiva e sintomas de compulsão alimentar periódica indicam necessidade de avaliação formal por psiquiatria. Prioriza-se tratamento psicoterápico (TCC) e acompanhamento multidisciplinar antes de iniciar farmacoterapia. Agonistas GLP-1 ou tirzepatida manipulada não são indicados sem diagnóstico confirmado, e combinações com hormônios/manipulados são contraindicadas eticamente. Lisdexanfetamina e ISRS requerem prescrição cuidadosa, termo de consentimento e acompanhamento. O encaminhamento para psiquiatria é essencial para manejo integrado e segurança do paciente, minimizando risco de medicalização inadequada e riscos legais."
+  },
+  "refs": [
+    {
+      "citation": "American Psychiatric Association. Practice guideline for the treatment of patients with eating disorders. 4th ed. 2016."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023 sobre manipulação hormonal e práticas médicas éticas."
+    },
+    {
+      "citation": "Samba, W. et al. Uso da Lisdexanfetamina em Transtorno de Compulsão Alimentar. Rev Bras Psiquiatria, 2021."
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng69",
+      "citation": "National Institute for Health and Care Excellence. Eating Disorders Overview [NG69]. 2017."
+    },
+    {
+      "citation": "McElroy SL, Guerdjikova AI, Mori N, O’Melia AM. Pharmacologic treatment of binge eating disorder. CNS Spectr. 2015;20(2):157-165."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010;33(Suppl 1):S11-S61."
+    }
+  ],
+  "status": "published"
+}

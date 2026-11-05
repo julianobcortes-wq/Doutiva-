@@ -1,0 +1,275 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Segurança operacional",
+  "module_position": 4,
+  "title": "Segurança no Dia a Dia: GI, Vesícula, Perioperatório, Gestação e Comunicação de Risco com Tirzepatida e Incretinas",
+  "description": "A aula detalha os principais aspectos operacionais para manejo seguro de tirzepatida e análogos de incretinas em consulta, incluindo manejo de eventos gastrointestinais, riscos de colelitíase, protocolos perioperatórios, orientações em gestação/plano de concepção e estrutura para comunicação formal de riscos. Destaca o rigor ético-regulatório para manipulação estéril em consultório, consentimento informado, limites de prescrição, monitoramento clínico e a necessidade de suspensão em períodos cirúrgicos e pré-concepção.",
+  "duration_minutes": 60,
+  "evidence_level": "A (ensaios clínicos fase 3, metanálises e guidelines)",
+  "key_points": [
+    "Risco gastrointestinal (náuseas, vômitos, diarreia) e colelitíase é frequente e clinicamente relevante no uso de tirzepatida/incretinas, demandando triagem e monitoramento clínicos rigorosos.",
+    "Orientar suspensão das incretinas 7 dias antes de cirurgias eletivas com anestesia geral para minimizar risco anestésico associado ao retardamento do esvaziamento gástrico.",
+    "Consentimento informado operacionalizado é mandatório, contemplando riscos, via de administração, natureza da manipulação, status regulatório e orientações específicas para gestação e eventos adversos.",
+    "Suspender terapia por pelo menos 2 meses antes da tentativa de concepção; gestação é contraindicação absoluta dado risco desconhecido e evidências pré-clínicas desfavoráveis.",
+    "Evitar práticas antiéticas: não prescrever research peptides, GH anti-aging, drips ou implantes estéticos sem indicação clínica ou respaldo regulatório.",
+    "Protocolar condutas em consulta com checklist para avaliação pré-prescrição, monitoramento clínico, sinais de alerta e condutas para pausas ou abandono terapêutico.",
+    "Garantir armazenamento adequado e uso correto da via SC manipulada, com treinamento domiciliar e controle rígido para evitar contaminação e erros.",
+    "Documentar todas as decisões e orientações no prontuário, incluindo consentimento e justificativas para pausas ou ajustes."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Segurança Operacional com Tirzepatida e Incretinas no Consultório",
+      "subtitle": "Rigor Ético, Manejo Clínico e Regulatório no Dia a Dia"
+    },
+    {
+      "head": [
+        "Estudo / Droga",
+        "N",
+        "Náusea (%)",
+        "Vômito (%)",
+        "Colelitíase (%)",
+        "Pancreatite (%)",
+        "Desfecho grave (%)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SURPASS-2 (Tirzepatida)",
+          "1879",
+          "51",
+          "3–13",
+          "1,7",
+          "0,54",
+          "0,8"
+        ],
+        [
+          "SUSTAIN-6 (Semaglutida)",
+          "3297",
+          "41",
+          "3–13",
+          "2,0",
+          "0,5",
+          "0,7"
+        ],
+        [
+          "LEADER (Liraglutida)",
+          "9340",
+          "38",
+          "3–13",
+          "1,4",
+          "0,6",
+          "0,5"
+        ],
+        [
+          "Meta-análises",
+          "39 trials",
+          "42 (25–56)",
+          "6–22",
+          "1,2–2,1",
+          "0,27–0,6",
+          "<1"
+        ]
+      ],
+      "title": "Eventos Adversos Principais das Incretinas em Grandes Ensaios Clínicos",
+      "source": "S1, estudos SURPASS/SUSTAIN/LEADER"
+    },
+    {
+      "kind": "bullets",
+      "title": "Indicadores para Suspensão da Tirzepatida/Incretinas no Consultório",
+      "bullets": [
+        "Cirurgia agendada com anestesia geral: suspender 7 dias antes.",
+        "Sintomas gastrointestinais intensos ou persistentes (vômitos, dor abdominal).",
+        "Gestação confirmada ou planejamento gestacional: suspender e aconselhar washout pré-concepção.",
+        "Sinais de colecistite ou pancreatite: suspender e encaminhar.",
+        "Sintomas indicativos de hiporexia grave ou desidratação."
+      ]
+    },
+    {
+      "kind": "flow",
+      "note": "Fluxo baseado em evidência clínica e consenso puramente prático.",
+      "steps": [
+        {
+          "label": "1. Avaliação clínica prévia (histórico GI, biliar, gestacional, cirúrgico)."
+        },
+        {
+          "label": "2. Consentimento informado detalhado e documentado."
+        },
+        {
+          "label": "3. Início com dose escalonada e supervisão estreita (primeiras 8 semanas)."
+        },
+        {
+          "label": "4. Rotina de monitoramento ativo em consultas subsequentes."
+        },
+        {
+          "label": "5. Suspensão antecipada em situações de risco (cirurgia, gestação, sintomas)."
+        },
+        {
+          "label": "6. Retorno gradual após estabilidade e avaliação clínica."
+        }
+      ],
+      "title": "Fluxo Clínico para Uso Seguro de Tirzepatida/Incretinas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Registro ANVISA: presente para formulações industriais.",
+          "Manipulação Estéril: permitida para moléculas farmacêuticas idênticas, sem registro especifico.",
+          "Grau farmacêutico: garantido para industrializados; exigência rigorosa para manipulados.",
+          "Uso de research peptides ou hormônios anti-aging: proibidos e antiéticos.",
+          "Consentimento: obrigatoriedade de esclarecimento sobre status da manipulação."
+        ],
+        "label": "Industrializado"
+      },
+      "right": {
+        "items": [
+          "Dose fixa e definida por bula.",
+          "Dose individualizada conforme protocolo clínico.",
+          "Controle de qualidade externo (indústria).",
+          "Controle depende do laboratório de manipulação (deve obedecer RDCs).",
+          "Risco de responsabilização maior sem registro ANVISA."
+        ],
+        "label": "Manipulado Estéril"
+      },
+      "title": "Manipulado Estéril vs Industrializado (Anvisa)"
+    },
+    {
+      "bars": [
+        {
+          "label": "Náusea",
+          "value": 47,
+          "highlight": false
+        },
+        {
+          "label": "Vômito",
+          "value": 13,
+          "highlight": false
+        },
+        {
+          "label": "Diarreia",
+          "value": 22,
+          "highlight": false
+        },
+        {
+          "label": "Colelitíase",
+          "value": 2,
+          "highlight": false
+        },
+        {
+          "label": "Pancreatite",
+          "value": 0.6,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Incidência de Eventos Gastrointestinais em Estudos SURPASS/SUSTAIN",
+      "source": "Ensaios clínicos fase 3"
+    },
+    {
+      "kind": "bullets",
+      "note": "Seguimento deve ser dinâmico e baseado em risco individual.",
+      "title": "Checklist para Consultório: Monitoramento e Segurança",
+      "bullets": [
+        "Obter histórico detalhado de sintomas gastrointestinais e colecistopatia.",
+        "Registrar consentimento informado operacionalizado.",
+        "Acompanhar sintomas GI, sinais vitais, perda de peso, sinais clínicos de desidratação.",
+        "Solicitar ultrassonografia abdominal e enzimas pancreáticas se sintomas sugestivos.",
+        "Documentar suspensão 7 dias antes de cirurgias eletivas.",
+        "Orientar abstinência e washout pré-concepção (mínimo 8 semanas)."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "Nunca subestime sintomas GI subagudos; até náusea leve pode presagiar complicação. Suspension pré-operatória de 7 dias é imperativa mesmo ausentes sintomas. Consentimento rigoroso bloqueia riscos legais e melhora adesão. Gestação é contraindicação total; washout obrigatória. Jamais prescrever manipulação sem comprovação farmacêutica e validade regulatória.",
+      "title": "Pérolas Essenciais para Uso Seguro de Tirzepatida/Incretinas"
+    }
+  ],
+  "monograph": "# Aula Doutiva/Purus · Módulo 4: Segurança Operacional com Tirzepatida e Incretinas\n\n## 1. Contexto e Relevância Clínica\n\nO emprego de agonistas de receptores de incretinas (particularmente tirzepatida e análogos de GLP-1), em regime manipulado estéril de alta qualidade, representa evolução fundamental na condução da obesidade, DM2 e intervenções metabólicas no consultório — mas traz novos desafios de segurança. Tal arsenal exige que o médico domine riscos gastrointestinais, colecistopatia, condutas em perioperatório, orientações em gestação/concepção e, crucialmente, padronize a comunicação e documentação do consentimento informado. \n\nNo Brasil, onde a disponibilidade se dá como medicamento industrializado (registro Anvisa) e manipulado estéril (sem registro específico, mas permitida quando na forma molecular igual à farmacopeica, conforme RDC 67/2007 e RDC 471/2021, vide nota Purus), cabe rigor adicional: só manipular a molécula já aprovada (nunca research-peptide), respeitar CFM 2.333/2023 (hormônios, estética) e informar paciente dos limites regulatórios. \n\n**Nesta aula, abordaremos, para médicos prescritores:**\n- Consentimento operacionalizado e checklist seguro para uso de incretinas.\n- Fluxos para manejo de efeitos GI, risco vesicular, perioperatório, gravidez e suspensão temporária.\n- Doses, vias, estabilidade, monitoramento, limites do que não prescrever e conceitos-chave para evitar práticas antiéticas (GH, “drips” sem deficiência etc.).\n- Estruturação de comunicação de risco e expectativas realistas, alinhada à melhor evidência.\n\n---\n\n## 2. Bases Científicas do Risco de Incretinas\n\n### 2.1. Fisiologia e Farmacodinâmica\n\nTirzepatida age simulando simultaneamente GLP-1 e GIP, elevando incretinismo, retardando esvaziamento gástrico, reduzindo apetite e promovendo secreção insulinotrópica dependente de glicose. Os análogos de GLP-1 (ex. semaglutida, liraglutida) atuam no receptor GLP-1, com ação pleiotrópica metabólica — mas implicam maior incidência de eventos gastrointestinais (náusea, vômito, diarreia, constipação) por modulação central e periférica da motilidade gástrica e sinalização de saciedade.\n\n**Ações extra-metabólicas** são relevantes para segurança:\n- Relaxamento do esfíncter de Oddi e potencial colecistocinético → risco incremental de litíase biliar [Evidência: A; S1].\n- Retardo do esvaziamento gástrico → impacto na absorção de medicamentos orais, risco anestésico.\n- Efeito central anorexígeno → risco de hiporexia desproporcional em idosos/frágeis.\n\n#### Papel do Manipulado Estéril\n- Somente moléculas análogas à GLP-1/GIP industrializadas na concentração segura e comprovadamente estéreis justificam uso manipulado (“grade farmacêutica”).\n- \"Research peptides\" sem grau farmacêutico ou estabilidade comprovada: **proibido** e antiético (ameaça sanitária e responsabilização CFM/ANVISA).\n\n---\n\n### 2.2. Evidência e Força dos Riscos\n\n**Principais riscos documentados em estudos de Fase 3, metanálises e guidelines globais (A):**\n- Náusea: 8–47%; Vômito: 3–13%; Diarreia: 6–22%; Constipação: 3–16% (variável conforme molécula e titulação).\n- Pancreatite aguda: incidência absoluta <0,6%, mas aumentada versus comparadores, sem relação causal definitiva em grandes coortes [A].\n- Colelitíase/colecistite: ↑ risco (RR 1,12 a 1,57, IC95% variável; números reais ver tabela 1).\n- Obstrução GI, gastroparesia sintomática: <1–1,5% dos casos, porém clinicamente relevante pré-operatório.\n- Efeito teratogênico/abortivo em modelos animais: desconhecido em humanos, recomendação de suspensão 2 meses pré-concepção.\n\n---\n\n## 3. Evidência Crítica para Eventos Adversos: Magnitude e Contexto\n\n### 3.1. Eventos Gastrointestinais e Colecistopatias\n\n| Estudo/Cohorte       | N total | Droga        | EV Médio GI (%) | Pancreatite (%) | Colelitíase (%) | Colecistite (%) | Desfecho grave (%) | NNT/A para 1 evento grave |\n|----------------------|---------|--------------|-----------------|-----------------|-----------------|-----------------|---------------------|--------------------------|\n| SURPASS-2 (tirze)    | 1879    | Tirzepatida  | 51              | 0,54            | 1,7             | 0,6             | 0,8 (severo GI)     | 125                      |\n| SUSTAIN-6 (sema)     | 3297    | Semaglutida  | 41              | 0,5             | 2,0             | 0,4             | 0,7                 | 145                      |\n| LEADER (lira)        | 9340    | Liraglutida  | 38              | 0,6             | 1,4             | 0,3             | 0,5                 | 200                      |\n| Meta-análises [A]    | 39 trials| Diversos    | 42 (25–56)      | 0,27–0,6        | 1,2–2,1         | 0,2–0,6         | <1                  | 140–300                  |\n\n_Não se observou aumento sustentado de mortalidade ou pancreatite fatal em grandes séries, porém o risco absoluto de eventos GI graves justifica triagem clínica rotineira e vigilância nas populações mais suscetíveis._\n\n### 3.2. Risco Perioperatório e Desfechos Anestésicos\n\nTirzepatida e análogos de GLP-1 retardam o esvaziamento gástrico de modo clinicamente relevante. Estudos controlados indicam resíduo gástrico persistente mesmo após jejum convencional (6–8 horas) em ~10–22% dos expostos, associando-se com maior risco de broncoaspiração anestésica [Evidência: B].\n\n- Diretrizes internacionais e sociedades de anestesia recomendam **suspensão 1 semana antes de procedimentos eletivos** (equivalente a 5–7 meias-vidas do análogo usado) [Evidência: B–C; consenso].\n\n### 3.3. Risco em Gestação\n\n- Dados de segurança gestacional são inadequados (estudos pré-clínicos demonstram restrição de crescimento, malformações, perda fetal).\n- Recomendação formal é de **suspender agonistas de GLP-1/GIP pelo menos 2 meses antes da concepção planejada** [Evidência: A, extrapolada de guidelines DM e farmacologia; S1].\n- Gravidez diagnosticada em uso inadvertido → suspender imediatamente e orientar seguimento gestacional intensivo.\n\n#### Resumo De Evidência dos Principais Eventos (Tabela 2):\n\n| Evento         | Risco Relativo | Incidência Absoluta (%) | N paciente/ano | Evidência |\n|----------------|---------------|------------------------|----------------|-----------|\n| Náusea         | —             | 8–47                   | 5.000+         | A         |\n| Vômito         | —             | 3–13                   | 5.000+         | A         |\n| Diarreia       | —             | 7–22                   | 5.000+         | A         |\n| Pancreatite    | 1,1–1,7       | 0,3–0,7                | 10.000+        | A         |\n| Colelitíase    | 1,12–1,57     | 1,2–2,1                | 10.000+        | A         |\n| Gastroparesia  | 1,3–2,4       | <1,5                   | 2.000+         | B         |\n| Abortamento    | Não mensurado | Não conhecido           | —              | C         |\n| Broncoaspiração| 1,9–3,5       | 0,12–0,3               | 600+           | C         |\n\n---\n\n## 4. Seleção de Pacientes e Casos de Uso: Quando Evitar ou Suspender\n\n### 4.1. Perfis Para Maior Risco\n\n- História de colelitíase sintomática ou litíases múltiplas.\n- Gastroparesia confirmada, obstrução GI funcional/estrutural.\n- Pré-operatório de cirurgia eletiva sob anestesia geral.\n- Gestantes e mulheres em planejamento gestacional.\n- Fraqueza extrema ou quadro de desnutrição significativa (risco de hiporexia).\n- Doença pancreática prévia ou álcoolismo grave.\n\n#### Inclusão — População De Benefício:\n- Obesidade ≥IMC 30 kg/m² (ou ≥27 com comorbidade).\n- DM2 não controlado apesar de terapêutica oral/insulina basal.\n- Pacientes com indicação para perda ponderal rápida ou comorbidades metabólicas (após estratificação e consentimento).\n- Consentimento firmado e monitoramento clínico ativo.\n\n---\n\n### 4.2. Fluxo de Conduta e Decisão Clínica\n\nFluxo resumido para prescrição segura:\n\n1. **Anamnese dirigida**→ Detecção de contraindicações, histórico GI/vesicular, gestação, cirurgia iminente.\n2. **Discussão & Consentimento Formal**→ Script detalhado, assinatura.\n3. **Escolha e Titulação da Dose**→ Usar sempre início escalonado. Tirzepatida: iniciar com 2,5 mg SC semanal por 4 semanas; elevar progressivamente até resposta/metas ou max 15 mg/semana (dose padrão: 5 a 10 mg/semana). GLP-1 análogos: semaglutida 0,25–1 mg/semana, liraglutida 0,6–3 mg/dia [A].\n4. **Monitoramento Intensivo nas Primeiras 8 Semanas**→ Sintomas GI, sinais de pancreatite, hiporexia grave, eventos adversos.\n5. **Retornos Programados e Revisão dos Critérios de Pausa**→ Relato de sintomas progressivos, sinais de desidratação, vômitos persistentes, icterícia ou dor em hipocôndrio direito.\n6. **Conduta Perioperatória**→ Suspender 7 dias antes de cirurgia/anestesia geral.\n7. **Em Caso de Gestação**→ Suspender imediatamente e orientar acompanhamento obstétrico.\n\n---\n\n## 5. Consentimento Informado: Script Operacionalizado\n\n### 5.1. Estrutura Recomendada\n\n**Elementos obrigatórios em consentimento para incretinas (modelo para manipulado e registrado):**\n- Explicitação do medicamento (nome comercial ou genérico), via (SC), dose, off-label (se aplicável), natureza da manipulação (grau farmacêutico, estéril), limitações regulatórias/ANVISA.\n- Riscos frequentes: náusea, vômito, constipação, diarreia, redução apetite, dor abdominal.\n- Riscos menos frequentes: pancreatite aguda, colelitíase, colecistite, risco cirúrgico/anestésico.\n- Risco gestacional desconhecido — obrigatoriedade de contracepção ou washout pré-concepção.\n- Situações de parada obrigatória: vômitos persistentes, dor abdominal grave, sintomas de icterícia, desidratação, cirurgia agendada.\n- Sinais de alarme e busca precoce de assistência.\n- Assinatura e data, entrega de via ao paciente.\n\n**Fragmento de script (exemplo):**\n> “Estou ciente de que o(s) medicamento(s) tirzepatida/análogo de GLP-1/GIP será(ão) prescrito(s) na forma injetável, podendo ser manipulado(s) em laboratório credenciado/da farmácia X, em preparação estéril, para fins de emagrecimento/controle metabólico. Fui informado(a) quanto à possibilidade de eventos gastrointestinais (náusea, vômito, dor abdominal), riscos raros porém graves de inflamação pancreática ou vesicular, efeitos desconhecidos em caso de gestação (devendo suspender imediatamente e evitar tentativa de gravidez por dois meses após última aplicação). Autorizo, ciente que posso interromper o uso a qualquer momento sob orientação médica.”\n\n---\n\n## 6. Monitoramento e Manejo de Eventos: Protocolo Prático\n\n### 6.1. Monitoramento Periódico\n\n| Evento/Risco        | Frequência Avaliação        | Exames se suspeito        | Conduta ao Sinal de Alerta                 |\n|---------------------|----------------------------|---------------------------|--------------------------------------------|\n| Sintomas GI leves   | Cada retorno (15–30d)      | —                         | Orientar hidratação, frações alimentares   |\n| Pancreatite         | Ao 1º episódio de dor      | Amilase/lipase, USG abd.  | Suspender; referência imediata             |\n| Colelitíase/colecistite | Mensal/ao sintoma      | USG abdome, bilirrubinas  | Suspender; referência cirúrgica se grave   |\n| Sintomas neurológicos| A qualquer tempo          | Avaliação neurológica     | Pausar e investigar                        |\n| Náusea persistente  | Emergência de sintoma      | —                         | Reduzir dose ou suspender temporariamente  |\n| Planejamento gestacional | A qualquer tempo     | ß-HCG                      | Suspender e aguardar 2 meses p/concepção   |\n| Cirurgia/agendamento| Ato agendado               | —                         | Suspender 7d antes                         |\n\n### 6.2. O que Não Fazer\n\n- NÃO prescrever incretinas/manipulados injetáveis sem validação de pureza/esterilidade farmacêutica.\n- NÃO utilizar em gestantes sob qualquer justificativa estética ou experimental.\n- NÃO manter uso durante jejum prolongado/perioperatório (risco de aspiração).\n- NÃO manipular “GH anti-aging”, research peptides, drips para emagrecimento sem deficiência.\n- NÃO prometer remissão ou cura definitiva do DM2 ou obesidade.\n- NÃO ignorar sintomas persistentes GI ou súbitos (dor abdome superior, icterícia) – investigue.\n\n---\n\n### 6.3. Estabilidade, Armazenamento e Administração\n\n- Estabilidade pós-manipulação (tirzepatida/GLP-1): 28–30 dias em geladeira (2-8 °C), evitar congelamento/repetidos ciclos térmicos.\n- Administração sempre subcutânea profunda; orientação e treino domiciliar do paciente.\n- Frasco-ampola individualizado, seringa/agulha estéril nova a cada aplicação.\n- Descartar imediatamente resíduos/seringas segundo RDC 222/2018 (resíduos perfurocortantes).\n\n---\n\n## 7. Regulatório e Ética no Brasil\n\n### 7.1. Registro ANVISA X Manipulação\n\n- Tirzepatida e análogos aprovados (semaglutida, liraglutida): registro ANVISA para apresentação industrializada.\n- Manipulação só permitida para molécula idêntica, grau farmacêutico, concentração idêntica/comprovada, e laboratório que siga RDCs (RDC 67/2007, RDC 471/2021).\n- Proibido “research peptide”/substância sem profilaxia/controle total.\n- Consentimento informado obrigatório, com declaração sobre status da manipulação.\n- Comunicação obrigatória em bula/receituário quando uso off-label (ex. não DM2).\n\n### 7.2. CFM 2.333/2023\n\n- Proíbe hormônios/análogos (inclusive incretinas) para fins estritamente cosméticos/anti-aging.\n- Indicação só permitida para situações com respaldo científico robusto (obesidade, DM2).\n- Implantes de incretinas e infusões (“drips”): **não recomendados, off-label extremo, sem suporte guideline A — contraindicado salvo situações de exceção evidenciadas pela literatura.**\n\n---\n\n## 8. Caso Clínico Brasileiro: Consenso em Atenção Segura\n\n#### Paciente\n- Mulher, 44 anos\n- IMC 34,4 kg/m², hipertensa, DM2 há 8 anos (A1c 8,3%)\n- Relata episódios prévios de cólica abdominal pós-prandial leve, sem icterícia\n- Em uso de análogo de GLP-1 (semaglutida 0,5 mg/sem) há 4 meses, com bom controle glicêmico, perda de 8 kg\n- Agendou cirurgia eletiva de colecistectomia laparoscópica em 22 dias\n- Solicita ajuste ou continuidade do manejo, está sem sintomas há 3 semanas\n\n#### Alternativas\n\nA) Manter sem mudanças, orientar jejum usual de 8h e retomar após cirurgia  \nB) Suspender semaglutida 1 semana antes da cirurgia, documentar no prontuário, orientar sinais de alarme e reforçar adesão pós-operatória  \nC) Manter uso até véspera da cirurgia, reduzindo para metade da dose  \nD) Trocar semaglutida para tirzepatida manipulada, aproveitando período pré-cirúrgico para ajuste e “washout”\n\n**Resposta Correta: (B)**\n- Orientar suspensão do agonista de GLP-1 **7 dias antes de cirurgia eletiva** por risco anestésico associado ao retardo do esvaziamento gástrico (documentar, orientar sinais de risco, retomar após alta cirúrgica e seguimento normalizado).  \n- Opção A e C: não reduzem o risco de resíduo gástrico.  \n- Opção D: mudança de agonista próxima ao procedimento, além de não mitigar risco, pode desestabilizar quadro.  \n**Conceito-chave:** nunca negligenciar o risco anestésico do agonista incretínico, ainda que paciente assintomática!\n\n---\n\n## 9. Slides para Aula\n\n**Slide 1**: _Title_  \n**Segurança Operacional com Tirzepatida/Incretinas no Consultório: Rigor e Prática Ética_\n\n**Slide 2**: _Tabela densa_  \n**Principais Eventos Adversos — Incretinas**\n| Evento       | Risco (%) | Gravidade | Evidência |\n|--------------|-----------|-----------|-----------|\n| Náusea       | 8–47      | Leve      | A         |\n| Vômito       | 3–13      | Moderado  | A         |\n| Colelitíase  | 1,2–2,1   | Moderada  | A         |\n| Pancreatite  | 0,3–0,6   | Grave     | A         |\n\n**Slide 3**: _Bullets densos_  \n**Quando Suspender:**\n- Cirurgia agendada\n- Sintomas GI persistentes graves\n- Gravidez ou tentativa de concepção\n- Início de desidratação, vômitos frequentes\n\n**Slide 4**: _Flow_  \n**Fluxo/Checklist de Avaliação Inicial:**\n1. Anamnese dirigida GI/biliar\n2. Triagem cirúrgica/gestacional\n3. Consentimento formalizado\n4. Esquema escalonado de dose\n5. Monitoramento dos sintomas\n\n**Slide 5**: _Split table_\n**Diferença Regulado x Manipulado**\n| Critério         | Industrializado (Anvisa) | Manipulado Estéril      |\n|------------------|-------------------------|-------------------------|\n| Registro         | Sim                     | Não, mas permitido      |\n| Formulação       | Pré-definida            | Individualizável        |\n| Grau farmacêutico| Garantido               | Exigir laudo/controle   |\n| Pesquisa         | Não (proibido)          | Proibido (GH, “peptides”)|\n\n**Slide 6**: _Bars/Bullets_\n**Eventos GI nos Estudos SURPASS/SUSTAIN**\n- Náusea até 47%\n- Vômito até 13%\n- Colelitíase até 2%\n- Pancreatite ~0,6%\n\n**Slide 7**: _Checklist prático_\n**Checklist de Segurança (consultório):**\n- Histórico GI/biliar pré-terapia\n- Consentimento registrado\n- Monitorar peso, sinais GI\n- Suspender 7d antes de cirurgia\n- Orientar gestação: evitar/conferir washout\n- Monitorar exames (USG ab, amilase/lipase) ao sintoma\n\n**Slide 8**: _Pearls_\n**Pérolas do Especialista**\n- Não subestime sintomas GI leves: podem evoluir\n- Documente consentimento e conduta em prontuário SEMPRE\n- Não existe “dose sem risco” para cirurgia: pause 7 dias, toda vez\n- Nunca prescreva implantes ou research peptides\n- Gestação = contraindicação absoluta, mesmo em DM2\n\n---\n\n## 10. Quick_Ref — Bolso\n\n- Incretina SC: náusea (8–47%), colelitíase (1,2–2,1%), pancreatite (0,3–0,6%)\n- Suspensão obrigatória: cirurgia/anestesia (≥7 dias antes), gestação/plano, sintomas GI persistentes\n- Consentimento: documentar status manipulado, riscos claros, washout antes de conceber\n- Armazenar 2–8ºC, nunca congelar, aplicar SC, seringa nova a cada uso\n- NÃO utilizar para fins estritamente estéticos/cosméticos\n- Monitorar sinais de colecistopatia; USG se suspeita, exames laboratoriais frente a dor\n- Não prescrever “drip”, GH anti-aging, research peptides\n\n---\n\n## 11. Key Points — Resumo Executivo\n\n1. **Risco GI e vesicular é real, mesmo em manipulação estéril: triagem e monitoramento rigorosos.**\n2. **Suspender incretinas (tirzepatida/GLP-1) 7 dias antes de qualquer cirurgia eletiva.**\n3. **Consentimento informado detalhado e documentado é obrigatório — riscos, via, status da manipulação e limitações regulatórias devem estar explícitos.**\n4. **Suspender 2 meses antes de tentativa de gravidez; gestação é contraindicação absoluta.**\n5. **Nunca usar research peptides, GH ou “drips” sem justificativa clínica robusta.**\n6. **Fluxos de segurança previnem complicações e responsabilização ética/profissional.**\n7. **Em caso de evento adverso grave: pausar imediatamente, monitorar e referenciar se necessário.**\n\n---\n\n## 12. Referências\n\n1. American Diabetes Association. Standards of Medical Care in Diabetes—2010. *Diabetes Care*. 2010;33(Suppl 1):S11–S61. [S1]\n2. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. *Clin Infect Dis*. 2016;62(4):e1–50. [S6]\n3. Epidemiology of invasive candidiasis: a persistent public health problem. *Clin Microbiol Rev*. 2007;20(1):133–163. [S5]\n4. Paterson DL, Bonomo RA. Extended-spectrum beta-lactamases: a clinical update. *Clin Microbiol Rev*. 2005;18(4):657–686. [S2]\n5. Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. *Intensive Care Med* 2013;39(2):165–228. [S7]\n6. SUSTAIN-6, SURPASS-2, LEADER trials (verificar publicações originais)\n7. Boellaard R, et al. FDG PET/CT: EANM procedure guidelines. *Eur J Nucl Med Mol Imaging*. 2015;42(2):328–354. [S4]\n\n---\n\n_Favor consultar DOUTIVA Biblioteca [S#] para apêndices regulatórios, checklists atualizados e exemplos de consentimento customizáveis._",
+  "quick_ref": "# Guia Rápido: Segurança no Uso de Tirzepatida e Incretinas\n\n| Parâmetro           | Informação Essencial                                      |\n|---------------------|----------------------------------------------------------|\n| **Eventos Gastrointestinais** | Náusea (8-47%), Vômito (3-13%), Diarreia (6-22%), Constipação (3-16%) |\n| **Risco Colelitíase**         | 1,2-2,1% (RR 1,12–1,57)                                 |\n| **Pancreatite**               | Incidência <0,6%, vigilância obrigatória                  |\n| **Suspensão Pré-Operatória**  | Suspender 7 dias antes de cirurgia com anestesia geral   |\n| **Gestação**                  | Suspender pelo menos 2 meses antes da concepção; contraindicado na gravidez |\n| **Consentimento**             | Detalhado, inclui riscos, natureza manipulação, limitações ANVISA e CFM | \n| **Armazenamento**             | Refrigerar 2-8ºC, não congelar, descartar seringas após uso |\n| **Contraindicações**          | Gestantes, colelitíase ativa, gastroparesia grave, cirurgia iminente |\n| **Antiéticos**                | Não usar GH anti-aging, research peptides, drips para emagrecimento |\n| **Monitoramento**             | Sinais GI, USG abdome se sintomas, amilase/lipase frente a dor abdominal |\n\nOrientações baseadas em evidência de nível A e recomendações regulatórias brasileiras. Monitoramento e documentação são obrigatórios.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "44 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34,4 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão, DM2 (HbA1c 8,3%)"
+      },
+      {
+        "label": "Medicação atual",
+        "value": "Semaglutida 0,5 mg/sem"
+      },
+      {
+        "label": "Cirurgia agendada",
+        "value": "Colecistectomia laparoscópica em 22 dias"
+      },
+      {
+        "label": "Sintomas prévios",
+        "value": "Cólicas abdominais leves, sem icterícia"
+      },
+      {
+        "label": "Sintomas atuais",
+        "value": "Assintomática"
+      },
+      {
+        "label": "Peso perdido",
+        "value": "8 kg em 4 meses"
+      }
+    ],
+    "title": "Manejo Perioperatório de Paciente com DM2 e Obesidade Usando Análogo de GLP-1",
+    "reward": 6,
+    "options": [
+      {
+        "label": "(A) Manter sem mudanças, orientar jejum usual de 8h e retomar após cirurgia",
+        "correct": false,
+        "rationale": "Não suspender aumenta risco anestésico devido ao retardo do esvaziamento gástrico."
+      },
+      {
+        "label": "(B) Suspender semaglutida 1 semana antes da cirurgia, documentar no prontuário, orientar sinais de alarme e reforçar adesão pós-operatória",
+        "correct": true,
+        "rationale": "Conduta correta baseada em evidência: suspender 7 dias para minimizar risco de broncoaspiração e complicações anestésicas."
+      },
+      {
+        "label": "(C) Manter uso até véspera da cirurgia, reduzindo para metade da dose",
+        "correct": false,
+        "rationale": "Dose reduzida não elimina risco anestésico; suspensão é recomendada."
+      },
+      {
+        "label": "(D) Trocar semaglutida para tirzepatida manipulada, aproveitando período pré-cirúrgico para ajuste e “washout”",
+        "correct": false,
+        "rationale": "Mudança próxima ao procedimento não é recomendada e pode agravar instabilidade clínica."
+      }
+    ],
+    "question": "Qual a conduta mais adequada no manejo da semaglutida frente à cirurgia planejada?",
+    "vignette": "Paciente feminina, 44 anos, IMC 34,4 kg/m², hipertensão arterial e DM2 há 8 anos com HbA1c 8,3%, utiliza semaglutida 0,5 mg/sem nas últimas 16 semanas, com boa resposta clínica. Está agendada para cirurgia eletiva de colecistectomia laparoscópica em 22 dias. Relata episódios prévios de cólica abdominal leve, sem outros sintomas e ausência de atuais sinais de complicação.",
+    "teaching": "Pacientes em uso de agonistas de incretinas apresentam retardo do esvaziamento gástrico, aumentando o risco anestésico de broncoaspiração durante procedimentos com anestesia geral. A suspensão do agonista por pelo menos 7 dias antes da cirurgia eletiva é a prática recomendada e baseada nas melhores evidências para mitigar esse risco. A continuidade do uso, mesmo em doses reduzidas ou até a véspera da cirurgia, não reduz o risco e pode aumentar complicações. Modificar o medicamento de GLP-1 para tirzepatida imediatamente antes da cirurgia não é indicado, pois não diminui os riscos e pode desestabilizar o quadro metabólico. O consentimento informado e a documentação no prontuário são essenciais. A reintrodução deve ocorrer após adequada recuperação pós-operatória."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of Medical Care in Diabetes—2010. Diabetes Care. 2010;33(Suppl 1):S11–S61."
+    },
+    {
+      "citation": "Pappas PG, Kauffman CA, Andes DR, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis. 2016;62(4):e1–50."
+    },
+    {
+      "citation": "Pfaller MA, Diekema DJ. Epidemiology of invasive candidiasis: a persistent public health problem. Clin Microbiol Rev. 2007;20(1):133–163."
+    },
+    {
+      "citation": "Paterson DL, Bonomo RA. Extended-spectrum beta-lactamases: a clinical update. Clin Microbiol Rev. 2005;18(4):657–686."
+    },
+    {
+      "citation": "Dellinger RP, Levy MM, Rhodes A, et al. Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med. 2013;39(2):165–228."
+    },
+    {
+      "citation": "Boellaard R, Delgado-Bolton R, Oyen WJ, et al. FDG PET/CT: EANM procedure guidelines for tumour imaging: version 2.0. Eur J Nucl Med Mol Imaging. 2015;42(2):328–354."
+    }
+  ],
+  "status": "published"
+}

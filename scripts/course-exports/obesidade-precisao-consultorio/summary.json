@@ -1,0 +1,85 @@
+{
+  "course": {
+    "id": "17cab608-8777-40d8-9e5c-6f55143cb3c3",
+    "slug": "obesidade-precisao-consultorio",
+    "title": "Obesidade de Precisão no Consultório",
+    "subtitle": "Fenótipos, multimodalidade e realidade brasileira",
+    "description": "Abordagem completa da obesidade para endócrino e nutrólogo: fenótipos, anti-obesidade oral e injetável, comportamento, cirurgia, pós-bariátrica e manutenção — com foco em desfecho e acesso no Brasil.",
+    "duration_minutes": 675
+  },
+  "mono_total": 201028,
+  "slides_total": 96,
+  "duration": 675,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Obesidade como Doença Crônica: Fisiopatologia, Set Point e Estigma no Consultório",
+      "mono_len": 18976,
+      "slides": 10,
+      "duration": 90
+    },
+    {
+      "position": 2,
+      "title": "Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada",
+      "mono_len": 20989,
+      "slides": 8,
+      "duration": 90
+    },
+    {
+      "position": 3,
+      "title": "Avaliação Inicial Completa na Obesidade de Precisão: História, Exames, Composição Corporal, Sono, Humor e Metas",
+      "mono_len": 23064,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 4,
+      "title": "Metas SMART e contrato terapêutico: o que é sucesso além da balança",
+      "mono_len": 19968,
+      "slides": 12,
+      "duration": 60
+    },
+    {
+      "position": 5,
+      "title": "Farmacoterapia anti-obesidade oral no Brasil: evidência, doses e combinação",
+      "mono_len": 24972,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 6,
+      "title": "Incretinas na Obesidade Multimodal: Integração com Dieta, Exercício e Comportamento",
+      "mono_len": 17580,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 7,
+      "title": "Indicação cirúrgica, preparo clínico e cuidado pós-bariátrica no consultório clínico",
+      "mono_len": 18991,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 8,
+      "title": "Transtorno Alimentar, Compulsão e Quando NÃO Empurrar Só Farmacoterapia",
+      "mono_len": 17744,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 9,
+      "title": "Manutenção do peso e prevenção de reganho: o jogo longo",
+      "mono_len": 19332,
+      "slides": 10,
+      "duration": 75
+    },
+    {
+      "position": 10,
+      "title": "Casos Integrados de Obesidade de Precisão: Fenótipo Emocional, Sarcopênico, Pós-Bariátrica e DCV na Manutenção",
+      "mono_len": 19412,
+      "slides": 9,
+      "duration": 60
+    }
+  ]
+}

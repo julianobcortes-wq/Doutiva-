@@ -1,0 +1,341 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Integração",
+  "module_position": 5,
+  "title": "Encaixe com Obesidade, Hormônios e Performance: Quando a Soroterapia IV Agrega e Quando Atrapalha",
+  "description": "A integração da soroterapia intravenosa (IV) e injetáveis estéreis no tratamento da obesidade, distúrbios hormonais e melhora da performance demanda rigorosa avaliação ética, científica e regulatória. Este tratado aborda critérios clínicos para uso legítimo de infusões IV versus práticas irregulares, destacando que soroterapia não substitui condutas basilares como dieta, exercícios ou farmacoterapia validada. Expõe indicações legítimas (deficiências documentadas, casos agudos), contra-indicações (protocolos 'detox', uso off-label de hormônios, peptídeos não registrados) e orienta conduta segura conforme normas ANVISA, CFM e WADA.",
+  "duration_minutes": 75,
+  "evidence_level": "A para principais indicações clínicas; D para uso off-label e práticas não respaldadas",
+  "key_points": [
+    "Soroterapia IV deve ser reservada a indicações clínicas documentadas, não para usos estéticos ou de performance sem base sólida.",
+    "Em obesidade, o foco deve ser abordagens baseadas em evidência: dieta, exercício e fármacos aprovados (ex: tirzepatida SC), jamais infusões IV não comprovadas.",
+    "Hormônios parenterais (ex: testosterona IM) têm indicação formal; GH anti-aging e peptídeos manipulados IV são proibidos pela ética médica e regulação brasileira.",
+    "Manipulação parenteral somente em farmácias licenciadas, com rastreabilidade total e preparo sob condições estéreis rigorosas.",
+    "WADA proíbe infusões >100 mL/12 h em atletas sem justificativa clínica, caracterizando doping.",
+    "Consentimento informado detalhado é obrigatório, mas não exime o médico de sua responsabilidade ética e legal.",
+    "Monitoramento pré, intra e pós-infusão com registro sistemático é essencial para segurança do paciente."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Encaixe com Obesidade, Hormônios e Performance: Quando a Soroterapia IV Agrega e Quando Atrapalha",
+      "subtitle": "Integração de Soroterapia Estéril ao Tratamento Médico no Brasil"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Legítima:\n- Deficiência B12 na má-absorção documentada\n- Distúrbios hidreletrolíticos graves\n- Adjuvância em doenças graves e hospitalização",
+          "Abusiva:\n- Drips vitamínicos ou antioxidantes estéticos\n- Uso para emagrecimento rápido sem base\r\n- Infusões para melhora de performance sem déficit"
+        ],
+        "label": "Uso Legítimo"
+      },
+      "right": {
+        "items": [],
+        "label": "Uso Abusivo"
+      },
+      "title": "Indicações Legítimas vs. Abusivas da Soroterapia IV"
+    },
+    {
+      "head": [
+        "Indicação",
+        "Evidência",
+        "Principais Estudos",
+        "Registro ANVISA",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Deficiência B12 má-absorção",
+          "A",
+          "ECRs > 1000 pacientes",
+          "Ampolas B12 registradas",
+          "IV se oral/IM impossível"
+        ],
+        [
+          "GLP-1 (semaglutida, tirzepatida) para obesidade",
+          "A",
+          "ECRs SURMOUNT > 2000",
+          "SC, não IV",
+          "Jamais manipular IV"
+        ],
+        [
+          "Drips vitamínicos e antioxidantes p/performance",
+          "D",
+          "Sem ECR",
+          "Não aprovado",
+          "WADA proíbe abuso IV"
+        ],
+        [
+          "Testosterona IM hipogonadismo",
+          "A",
+          "ECRs, diretrizes",
+          "Ampolas registradas",
+          "Nunca IV"
+        ],
+        [
+          "GH anti-aging/performance",
+          "D",
+          "Sem suporte; risco alto",
+          "Não aprovado",
+          "Proibido por CFM/ANVISA/WADA"
+        ],
+        [
+          "Peptídeos (BPC-157, TB-500) IV/IM",
+          "D",
+          "Ausência de ECR fase 3",
+          "Não registrado",
+          "Vedado por CFM e ANVISA"
+        ],
+        [
+          "Reposição eletrólitos em acidose/sepsis",
+          "A",
+          "Diretrizes SSC/IDSA",
+          "Suplementos EV registrados",
+          "Uso hospitalar, não consultório"
+        ]
+      ],
+      "title": "Nível de Evidência para Soroterapia em Obesidade, Hormônios e Performance",
+      "source": "[S1], [S2], diretrizes internacionais"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Existência de deficiência laboratorial documentada?"
+        },
+        {
+          "label": "Incapacidade de via oral ou IM?"
+        },
+        {
+          "label": "Produto registrado e manipulado conforme padrão?"
+        },
+        {
+          "label": "Efeito esperado respaldado por evidências?"
+        },
+        {
+          "label": "Avaliação de risco-benefício e conformidade regulatória?"
+        },
+        {
+          "label": "Consentimento informado obtido?"
+        },
+        {
+          "label": "Preparo estéril e administração controlada"
+        },
+        {
+          "label": "Monitoramento e reavaliação clínica/laboratorial"
+        }
+      ],
+      "title": "Algoritmo para Indicação de Soroterapia Estéril IV"
+    },
+    {
+      "kind": "bullets",
+      "title": "Condutas Proibidas e Alertas Éticos",
+      "bullets": [
+        "Não prescrever drips vitamínicos/antioxidantes para fins estéticos sem déficit comprovado",
+        "Não usar hormônios (GH, testosterona, peptídeos) off-label para longevidade ou performance",
+        "Evitar manipulação de substâncias sem registro ou estudos de estabilidade",
+        "Nunca misturar múltiplos ativos sem evidência farmacocinética adequada",
+        "Não ceder a pressões mercadológicas ou modismos em desrespeito à ciência"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Pérolas Doutiva: Insights Críticos para o Consultório"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Avaliar clínica e exames laboriais rigorosamente",
+          "Prescrever substância registrada ou manipulação autorizada",
+          "Respeitar volume e velocidade de infusão seguros (<100 mL/12h)",
+          "Observar estabilidade pós-preparo e procedimentos estéreis",
+          "Registrar termo de consentimento e monitorar eventos adversos",
+          "Reavaliar paciente antes de repetir ciclo"
+        ],
+        "label": "Fase Clínica e Prescrição"
+      },
+      "right": {
+        "items": [],
+        "label": "Fase Prática e Segurança"
+      },
+      "title": "Estrutura do Plano de Soroterapia IV no Consultório"
+    },
+    {
+      "head": [
+        "Protocolo",
+        "Dose",
+        "Via",
+        "Indicação",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Reposição Vitamina B12",
+          "1000 mcg/semana",
+          "IV",
+          "Deficiência por má absorção",
+          "Níveis séricos, sinais vitais"
+        ],
+        [
+          "Tirzepatida",
+          "2,5-15 mg/semana",
+          "SC (não IV)",
+          "Obesidade e diabetes",
+          "Glicemia, função hepática/renal"
+        ],
+        [
+          "Electrólitos em acidose",
+          "Conforme diretrizes",
+          "IV",
+          "Correcção em acidose metabólica",
+          "Sinais vitais, equilíbrio ácido-base"
+        ]
+      ],
+      "title": "Exemplos de Protocolos Rigorosos em Soroterapia IV"
+    },
+    {
+      "kind": "bullets",
+      "title": "Resumo Regulatório: ANVISA, CFM e WADA",
+      "bullets": [
+        "ANVISA: registro obrigatório para ativos parenterais e manipulação em farmácias autorizadas",
+        "CFM Resolução 2.333/2023: proíbe hormônios off-label para estética e longevidade",
+        "WADA: proíbe infusão > 100 mL/12 h para performance sem indicação clínica",
+        "Consentimento informado obrigatório e registro completo",
+        "Responsabilidade penal e ética do prescritor reforçada"
+      ]
+    },
+    {
+      "head": [
+        "Alternativas",
+        "Decisão",
+        "Justificativa"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Prescrição de drip antioxidante e peptídeos manipulados IV",
+          "Não adequada",
+          "Sem evidência, risco ético e legal"
+        ],
+        [
+          "Autorização para 1 ciclo de drip sob consentimento",
+          "Não recomendada",
+          "Não respaldado pela regulação e evidência"
+        ],
+        [
+          "Prescrever B12 IM e monitorar resposta",
+          "Adequada",
+          "1ª linha para deficiência, segura e eficaz"
+        ],
+        [
+          "Prescrever GH + testosterona + antioxidantes IV",
+          "Contraindicado",
+          "Prática ilegal, sem respaldo científico"
+        ],
+        [
+          "",
+          "Correta: Prescrição B12 IM e reavaliação",
+          "Conforme diretrizes e segurança clínica"
+        ]
+      ],
+      "title": "Caso Clínico: Orientação para Paciente com Deficiência de B12 e Pedido de Drip Detox"
+    }
+  ],
+  "monograph": "# Integração da Soroterapia Estéril ao Tratamento da Obesidade, Distúrbios Hormonais e Performance: Critérios, Evidências e Conduta no Consultório Brasileiro\n\n---\n\n## 1. Contexto, Relevância e Princípios Éticos\n\nA integração de terapias intravenosas (soroterapia) e injetáveis estéreis ao manejo da obesidade, distúrbios hormonais e performance atlética tornou-se tema candente na endocrinologia, nutrologia e clínica brasileira, motivada pelo avanço das tecnologias de manipulação estéril, surgimento de peptídeos terapêuticos, e procura crescente por intervenções personalizadas. Contudo, paralelamente à inovação, há crescente risco de medicalização sem critério, prática off-label temerária, e oferta de produtos de qualidade ou respaldo científico duvidosos, frequentemente impulsionados por tendências mercadológicas ou pressões extrínsecas ao melhor interesse do paciente.\n\nO presente tratado destina-se a médicos exigentes que buscam integrar soroterapia de excelência ao plano terapêutico sem criar atalhos indevidos, respaldando condutas na melhor evidência disponível, rigor regulatório (ANVISA/CFM/WADA), fundamentos de farmacologia clínica, boas práticas de prescrição/manipulação estéril e monitoramento sistemático (vide [S1], [S2]).\n\n---\n\n## 2. Bases Científicas: Evidências Para Soroterapia em Obesidade, Hormônios e Performance\n\nA literatura sobre os benefícios de terapêuticas intravenosas neste contexto pode ser classificada por grau de robustez (ver Tabela 1):\n\n- **Obesidade**: Não há ECR fase 3 sustentando uso rotineiro de soroterapia para emagrecimento, exceto contextos de reposição vitamínico-mineral em deficiência comprovada (Evidência A/B – [S2]).\n- **Distúrbios Hormonais**: Terapias injetáveis têm lugar claro (ex.: tirzepatida ou GLP-1 via subcutânea para diabetes/obesidade, testosterona IM para hipogonadismo – ambos registrados e com prática bem definida [S1], [S2]). “Soros de hormônios” manipulados IV, GH anti-aging, ou peptídeos sem ECR robusto não têm indicação (Evidência A contrária – [S1]).\n- **Performance**: Infusões de aminoácidos, antioxidantes, coquetéis vitamínicos (“drips”) não melhoram performance em indivíduos saudáveis, não devendo substituir estratégias nutricionais/treinamento individualizado (Evidência C/D; [S1], diretrizes esportivas internacionais/WADA). Exceções restritas: repor deficiência documentada (Ex: B12 IV na má-absorção grave).\n- **Situações Legítimas**: Síndromes de deficiência nutricional com falha da via oral/enteral, rápida correção de acidose metabólica/hipovolemia (em contexto hospitalar), ou uso adjuvante em regimes oncológicos/comorbidades (Evidência A/B) – não na clínica estética/fitness rotineira ([S1], [S2]).\n\n---\n\n### Tabela 1: Nível de evidência para soroterapia em obesidade, hormônios e performance\n\n| Indicação                                      | Evidência | n / Principais estudos          | Registro ANVISA                  | Observação                                                         |\n|------------------------------------------------|-----------|---------------------------------|-----------------------------------|--------------------------------------------------------------------|\n| Deficiência B12 em má-absorção                  | A         | ECRs > 1000                     | Ampolas B12 registradas           | IV só se oral/IM não possível                                     |\n| GLP-1 (semaglutida/tirzepatida) p/ obesidade   | A         | ECRs (SURMOUNT > 2000)          | SC, não IV; registrado BR         | Jamais manipular IV                                                |\n| \"Drips\" de vitaminas/antioxidantes p/ performance | D         | Não há ECR                       | Não aprovado                      | WADA proíbe abuso de IV p/ performance; risco de dano             |\n| Testosterona IM em hipogonadismo               | A         | ECRs, diretrizes                | Ampolas registradas               | Jamais IV                                                        |\n| GH em anti-aging/performance                   | D         | Não há suporte; risco alto       | Não aprovado                      | CFM/ANVISA proíbem; WADA bane                                     |\n| Peptídeos (BPC-157, TB-500) IV/IM em performance | D         | Ausência de ECR fase 3           | Não registrado; manipulação irregular | CFM e ANVISA vedam                                                |\n| Reposição de eletrólitos em acidose/sepsis     | A         | Diretrizes (SSC/IDSA)            | Suplementos EV registrados        | Hospitais, não consultórios de performance                        |\n\n---\n\n## 3. Discussão Crítica: Oportunidades e Limites da Soroterapia no Consultório\n\n### 3.1. Obesidade\n\n- **Foco deve ser tratamento núcleo:** dieta estruturada, atividade física supervisionada, mobilização comportamental, e, conforme indicado, farmacoterapia baseada em ECRs (ex.: tirzepatida, semaglutida). Infusões IV não aceleram lipólise, oxidação de gordura ou modificação de set point.\n- **Justificativas legítimas para IV:** perda ponderal grave com deficiência nutricional/má-absorção refratária, distúrbios eletrolíticos graves — sempre em contexto médico controlado.\n- **Inaceitável:** drip “detox” ou “emagrecedor”, infusão de substâncias potencialmente adrenérgicas fora das indicações validada, manipulação ousada para fins exclusivamente estéticos.\n\n### 3.2. Hormônios\n\n- **Hormônios licenciados:** testosterona IM/testes implantáveis para hipogonadismo, GLP-1 RA subcutâneo para obesidade/DM, hidroxocobalamina IM/IV em particularidade de deficiência. Nenhuma diretriz ou ECR respalda GH anti-aging, implantes hormonais estéticos universais ou soros peptídicos manipulados IV.\n- **CFM 2.333/2023:** reforça veto a uso de hormônios para fins estéticos, melhora de performance ou “longevidade” em ausência de deficiência documentada.\n- **Monitoramento rigoroso:** fundamental para qualquer prescrição hormonal, com avaliação multidimensional e risco-benefício individualizado.\n\n### 3.3. Performance\n\n- **Desempenho esportivo:** IV não substitui suplementação oral adequada, planejamento de treino, acompanhamento nutricional. Infusões na ausência de déficit podem mascarar doping, levar a overload hídrico, infecções ou desequilíbrio eletrolítico, especialmente se realizadas em ambiente não hospitalar.\n- **WADA:** proibição clara de infusões (>100 mL/12h) salvo indicação clínica; abuso pode configurar doping mesmo de substâncias lícitas.\n\n---\n\n## 4. Critérios de Seleção de Pacientes: Uso Legítimo da Via IV\n\n### 4.1. Indicações Potencialmente Aceitas\n\n- Deficiência comprovada de micronutrientes (ex.: B12, ferro, tiamina) com falha da via oral/IM.\n- Desidratação grave/metabólica, distúrbios hidreletrolíticos sem acesso/absorção oral possível.\n- Doenças do trato GI com má-absorção franca (ex.: Crohn refratário, síndromes pós-cirurgia bariátrica grave).\n- Situação hospitalar aguda, suporte nutricional parenteral total/ parcial.\n\n### 4.2. Sinais de Alerta para NÃO Indicar\n\n- Pedido “preventivo” ou “estético” de soros antioxidantes/energéticos.\n- Uso rotineiro sem déficit documentado.\n- Combinação de múltiplos ativos manipulados IV sem ECR, com intenção estética ou de “supra-performance”.\n\n### Tabela 2: Algoritmo de decisão para indicação de soroterapia estéril\n\n| Critério                                                     | Sim         | Não           | Conduta                               |\n|--------------------------------------------------------------|-------------|---------------|----------------------------------------|\n| Déficit laboratorial/documentado de micronutrientes?         | Prosseguir  | NÃO prescrever| Seguir protocolo seguro                |\n| Incapacidade absortiva ou contraindicação VO/IM?             | Prosseguir  | NÃO prescrever|                                      |\n| Substância registrada para uso IV e manipulada com pureza?   | Prosseguir  | NÃO prescrever|                                      |\n| Efeito esperado respaldado em ECR/Diretriz?                  | Prosseguir  | NÃO prescrever|                                      |\n| Risco-benefício favorável, adesão a CFM/ANVISA/WADA?         | Prosseguir  | NÃO prescrever|                                      |\n\n---\n\n## 5. Conduta Prática no Consultório: Fluxo, Doses e Cuidados\n\n### 5.1. Planejamento de Soroterapia IV\n\n- **Prescrição ética:** sempre partir da avaliação clínica, laboratorial e indicação formal. Nunca para “prevenção/vitalidade” sem déficit comprovado.\n- **Escolha segura do ativo:** preferir fármacos com registro ANVISA e estabilidade comprovada. Manipulação apenas quando autorizado, em farmácia de excelência e sob prescrição criteriosa.\n- **Via de administração:** priorizar parenteral apenas quando via oral/IM impossível ou ineficaz.\n- **Volume e velocidade:** respeitar limites de segurança (<100 mL/12h para não configurar doping; infusões lentas, monitorizadas).\n- **Controle de estabilidade:** observar prazos de validade pós-abertura/preparo, compatibilidade de ativos e risco de contaminação microbiana.\n- **Registros e consentimento:** assinar TERMO detalhado, registrada a indicação clínica, riscos, possíveis eventos adversos.\n\n### 5.2. Exemplos de Protocolos Consistentes\n\n#### Exemplo 1: Reposição B12 IV para má-absorção documentada\n\n- **Dose:** 1.000 mcg IV, 1x/semana, por 4-8 semanas, reavaliando níveis séricos na 4ª semana.\n- **Frasco:** usar ampolas registradas; diluir em 100 mL SF 0,9% se IV.\n- **Estabilidade:** preparar imediatamente antes da infusão; descartar sobras.\n- **Monitoramento:** sinais vitais, reação alérgica, resposta laboratorial (B12, hemograma reticulócitos).\n\n#### Exemplo 2: Tirzepatida para obesidade\n\n- **Registro:** subcutânea, nunca IV; manipulação IV irregular e não respaldada, NÃO prescrever [S1].\n- **Doses:** 2,5 a 15 mg SC semanal (vide bula), ajuste gradual sob monitoramento.\n- **Monitoramento:** glicemia, função hepática/renal, efeitos gastrointestinais.\n\n### 5.3. Síntese do Fluxo de Conduta\n\n```\n[Indicação documentada] ——> [Estudo de registro/ECR?] ——> [Existência de produto ANVISA/admissão manipulação?] ——> [Consentimento informado formal] ——> [Preparo estéril, descarte imediato após uso, registro assistencial e farmacológico] ——> [Monitoramento pós-administrativo]\n```\n\n---\n\n## 6. Monitoramento e Segurança: Protocolos de Acompanhamento\n\n- **Antes da infusão IV:** anamnese dirigida a reações prévias, alergias, aferição de sinais vitais.\n- **Durante:** acompanhamento de PV, sintomas (prurido, dor local, alterações sistêmicas); manter acesso venoso periférico sob visualização.\n- **Após:** observação mínima de 30 min pós-infusão, reforço de sinais de alerta.\n- **Reavaliação periódica:** obrigatória para regimes repetidos (ex.: soroterapia nutricional), laboratórios de controle no intervalo preconizado.\n- **Gestão de eventos adversos:** equipo de emergência disponível; reporte compulsório de eventos graves à farmácia e órgãos regulatórios conforme legislação.\n\n**Riscos principais reportados:** flebite, reação anafilactóide, overload volêmico, contaminação microbiana (bactérias/fungos – ver [S4], [S6], [S7]), erros de identificação do paciente/frasco.\n\n---\n\n## 7. Regulação Brasileira, Ética e Boas Práticas (CFM, ANVISA, WADA)\n\n- **ANVISA**: define registro e condições de manipulação, concentrações permitidas, normas para farmácias magistrais/laboratórios estéreis; quaisquer ativos parenterais devem ser oriundos de fornecedores/facções com Boas Práticas de Fabricação. Produtos irregulares ou sem autorização, incluindo peptídeos não aprovados e “research compounds”, não podem ser prescritos.\n- **CFM Res. 2.333/2023**: veda uso off-label de hormônios com fim estético/longevidade, proíbe manipulação de hormônios \"sem critério clínico robusto\". Responsabiliza o prescritor por eventos adversos.\n- **WADA:** proíbe infusão de >100 mL a cada 12 horas exceto contextos clínicos. Proibição absoluta de GH, peptídeos anabolizantes sem ECR/FDA/ANVISA.\n- **Consentimento informado:** obrigatório, detalhando risco/benefício e alternativas.\n- **Registro assistencial e farmacêutico:** manter ficha individualizada e rastreabilidade do insumo, lote, nome da farmácia e farmacêutico responsável.\n- **Auditoria e supervisão:** evidência documental da indicação clínica, termo assinado, notas fiscais do insumo, licença sanitária da farmácia.\n\n---\n\n## 8. O Que NÃO Fazer: Alertas Críticos\n\n- **Jamais prescrever \"drip\" de vitaminas/aminos/antioxidantes IV sem deficiência documentada** ou com finalidade estética, detox ou melhora de performance isolada.\n- **Nunca prescrever hormônios/parenterais (GH, testosterona, peptídeos não aprovados) off-label para fins de longevidade, rejuvenescimento, emagrecimento rápido ou performance** sem indicação médica formal – risco ético, legal e criminal.\n- **Evitar manipulação parenteral de moléculas sem registro, como research peptides, em qualquer contexto, mesmo com \"demanda do paciente\"** – risco direto de dano e corresponsabilização.\n- **Não autorizar misturas de ativos sem fundamentação farmacocinética/estudo de estabilidade/compatibilidade pública e adequada.**\n- **Jamais abrir exceções a protocolos de segurança sob “pressão social/paciente influencer/market trend”.**\n\n---\n\n## 9. Pérolas, Checklist Final e Quick_ref de Bolso\n\n### Pérolas Doutiva\n\n- Em situações não respaldadas (ex: drip “anti-aging”), o risco (iatrogênico, ético, regulatório) supera qualquer benefício especulativo.\n- Como \"herdar\" paciente em uso regular de infusão irregular? Avalie: descontinue com segurança, explique ciência/risco, monitore possíveis efeitos rebote/deficiências não diagnosticadas.\n- Consentimento informado não blinda o médico do risco CFM/ANVISA se a conduta for prospectivamente inadequada.\n\n### Checklist Rápido (Quick_ref)\n\n- [ ] Indicação clínica e laboratorial sólida, registrada\n- [ ] Produto registrado ANVISA OU manipulação autorizada, farmácia licenciada\n- [ ] Prescrição detalha substância, dose, via, duração, objetivo\n- [ ] Consentimento informado assinado pelo paciente e arquivado\n- [ ] Preparo estéril, realizado sob supervisão farmacêutica, protocolo de validade\n- [ ] Monitoramento clínico padrão, registro de eventos adversos\n- [ ] Nota fiscal e rastreamento do ativo\n- [ ] Reavaliação clínica/laboratorial antes de repetir ciclo\n\n---\n\n## 10. Caso Clínico Brasileiro Realista\n\n**Paciente:** Feminino, 39 anos, IMC 34, queixa de fadiga e desejo de emagrecimento rápido com integração de IV “detox”. Anamnese: dieta restritiva autônoma, emagreceu 7 kg em 3 meses, exames mostram B12 121 pg/mL, ferritina normal, função hepática ok, GGT 18. Refere ter lido sobre “drip” antioxidante e peptídeos em rede social. Sem antecedentes de doença GI, sem DPAC. Atende em consultório convencional.\n\n**Alternativas de conduta:**\nA) Prescrever infusão manipulada de “cocktail” antioxidante+aminos+B12+peptídeo estético IV.\nB) Orientar limitação dos drips IV a 1 ciclo de “reposição” sob consentimento e monitoramento.\nC) Prescrever apenas B12 IM, avaliar resposta; orientar que infusão IV só para B12 se falha de absorção IM/ou indicação hospitalar.\nD) Encaminhar para infusão de GH + testosterona + antioxidantes para efeito metabólico full.\n\n**Correta: C.**\n\n**Discussão:** \n- Indicação clínica documentada limita-se à deficiência de B12, preferindo-se via IM (primeira linha, menor risco, evidência A); IV apenas se falha de absorção/parâmetro hospitalar (ECRs, [S2]).\n- “Cocktail” antioxidante ou infusão de estéticos é proibida/regulatório vedado, não respaldada por evidência, não indicado.\n- Consentimento não autoriza transgredir diretrizes CFM/ANVISA.\n- GH, testosterona e peptídeos sem indicação não são éticos nem seguros, proibidos.\n\n---\n\n## 11. Slides Resumidos (Esboço Conceitual)\n\n**Slide 1: Título**\nIntegração de Soroterapia e Injetáveis Estéreis: Critério Médico em Obesidade, Hormônios e Performance\n\n**Slide 2: Hierarquia da Evidência**\n- ECR fase 3 (GLP-1, testosterona IM, def. B12) > Observacional > Série Casos > Opinião/Marketing\n- Produtos: ANVISA registrado > Manipulado regular > Research peptide = NÃO\n\n**Slide 3: Indicações Legítimas vs. Abusivas (Tabela Split)**\n| Legítima                                        | Abusiva                                    |\n|-------------------------------------------------|--------------------------------------------|\n| B12 IV por má-absorção documentada              | Drip detox, antioxidante, peptídio estético|\n| Distúrbios eletrolíticos, desidratação grave    | Soroterapia para emagrecimento rápido      |\n| Adjuvante em doença grave                       | Performance em saudáveis                   |\n\n**Slide 4: Evidências e Resultados – Tabela Densa** \n- Principais substâncias, n, desfechos, magnitude, nível de evidência, registro\n\n**Slide 5: Algoritmo de Indicação (Flowchart)**\nIndicação clínica ➝ Produto registrado/regular ➝ Consentimento/monitoramento ➝ Supervisão farmacêutica ➝ Reavaliação\n\n**Slide 6: Condutas Proibidas (Bullets Rápidos)**\n- Nunca research peptide/GH/“super drip” para estética\n- Nunca substituir abordagem núcleo (dieta, atividade física, terapia medicamentosa de evidência robusta)\n- Cuidado extremo na manipulação estéril: farmácias licenciadas, documentação total\n\n**Slide 7: Monitoramento (Tabela/Tópicos)**\n- Antes, durante, após infusão – Sinais vitais, sintomas, laboratório\n- Termo, rastreabilidade, reporte compulsório AE\n\n**Slide 8: CFM/ANVISA/WADA – Síntese Regulatório**\n- Resoluções, o que é permitido, o que é proibido, formular padrão de prescrição\n\n**Slide 9: Caso Clínico – Questão e Discussão**\n- Quadro, alternativas, justificativa\n\n**Slide 10: Checklist Rápido**\n- Indicação? Produto autorizado? Termo? Monitoramento realizado?\n\n**Slide 11: Pérolas Final**\n- Consentimento não blinda má prática\n- Atalhos IV não suplantam reeducação e acompanhamento\n\n**Slide 12: Take Home**\n- Soroterapia: exceção, nunca atalho\n- Liderança ética = profissionalismo premium\n\n---\n\n## 12. Key Points\n\n1. **Soroterapia IV não substitui conduta núcleo (dieta, exercício, farmacoterapia com ECR) em obesidade, distúrbios hormonais ou performance.**\n2. **Reservar infusão parenteral a déficits documentados, má-absorção ou contextos clínicos hospitalares, jamais por apelo estético, detox ou hiper-performance.**\n3. **Jamais prescrever hormônio/parenteral (GH, peptídeos, drips antioxidantes) sem indicação clínica/laboratorial robusta e amparo legal.**\n4. **Manipulação apenas em farmácias licenciadas, com validação de estabilidade, pureza e plano de rastreabilidade completo, sob registro ANVISA.**\n5. **Monitoramento estrito – antes, durante, após – incluindo termo de consentimento, controle de reação adversa e documentação pós-prescrição.**\n6. **Cumprir CFM 2.333/2023 e normativas ANVISA; WADA proíbe abuso IV para performance (>100 mL/12h).**\n7. **Consentimento informado não cobre má prática – responsabilidade final é do médico prescritor.**\n\n---\n\n## 13. Referências Selecionadas\n\n1. [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. [S2] Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011.\n3. [S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009.\n4. [S6, S7] Epidemiology/guidelines of invasive candidiasis. Clin Microbiol Rev 2007, Clin Infect Dis 2016.\n5. Resolução CFM no 2.333/2023. Disponível em https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2023/2333\n6. WADA Prohibited List 2024. Disponível em: https://www.wada-ama.org\n7. Ministério da Saúde – Portal ANVISA.\n\n---\n\n**Doutiva — Tratado Clínico de Integração da Soroterapia. Atualizado em 2026.**\n\n---",
+  "quick_ref": "Checklist Rápido para Soroterapia IV\n\n- Indicação clínica e laboratorial documentada e registrada\n- Produto com registro ANVISA ou manipulado em farmácia licenciada\n- Prescrição detalhando substância, dose, via, duração e objetivo\n- Consentimento informado assinado e arquivado\n- Preparo estéril e infusão controlada respeitando volumes legais\n- Monitoramento durante e após, com registro de eventos adversos\n- Nota fiscal e rastreamento completo do insumo\n- Reavaliação clínica e laboratorial antes de renovar ciclos\n\nDoutiva – Ética, Evidência e Segurança em Soroterapia",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "39 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34"
+      },
+      {
+        "label": "B12",
+        "value": "121 pg/mL"
+      },
+      {
+        "label": "Ferritina",
+        "value": "Normal"
+      },
+      {
+        "label": "GGT",
+        "value": "18"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Fadiga e desejo de emagrecimento rápido"
+      },
+      {
+        "label": "Antecedentes gastrointestinais",
+        "value": "Nenhum significativo"
+      },
+      {
+        "label": "Uso sugerido pelo paciente",
+        "value": "Infusão IV \"detox\" e peptídeos estéticos"
+      }
+    ],
+    "title": "Paciente com Obesidade Querendo Infusão 'Detox' para Emagrecimento Rápido",
+    "reward": 45,
+    "options": [
+      {
+        "label": "A) Prescrever infusão manipulada antioxidante + aminocácidos + B12 + peptídeos IV",
+        "correct": false,
+        "rationale": "Uso de múltiplos ativos manipulados IV para estética não tem respaldo científico e é proibido pela ética e regulação."
+      },
+      {
+        "label": "B) Permitir drips IV limitados sob consentimento e monitoramento",
+        "correct": false,
+        "rationale": "Consentimento não autoriza prática sem evidência ou aprovação regulatória."
+      },
+      {
+        "label": "C) Indicar B12 IM para reposição, monitorar e orientar contra IV sem indicação",
+        "correct": true,
+        "rationale": "A conduta adequada para hipovitaminose é reposição IM, reservando IV para falha de absorção ou casos hospitalares."
+      },
+      {
+        "label": "D) Prescrever GH + testosterona + antioxidantes IV para recuperação metabólica",
+        "correct": false,
+        "rationale": "Uso off-label de hormônios e peptídeos IV é proibido e desprovido de evidência."
+      }
+    ],
+    "question": "Qual a conduta mais ética e baseada em evidência para este caso?",
+    "vignette": "Mulher de 39 anos, IMC 34, relata fadiga e busca emagrecimento rápido com protocolo IV \"detox\" recomendado por rede social. Exames: B12 baixo (121 pg/mL), outros parâmetros normais, sem antecedentes de má absorção.",
+    "teaching": "O caso ilustra uso inadequado frequente de terapias intravenosas manipuladas sem indicação. A melhor prática é tratar a deficiência documentada de B12 por via IM, monitorando resposta. Não há base para 'drip' ou misturas IV para emagrecimento ou revitalização sem evidência. Prescrição de hormonais ou peptídeos é antiética e ilegal sem indicação. Consentimento informado não legitima prática irregular."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009. DOI 10.1086/599376."
+    },
+    {
+      "citation": "Epidemiology of invasive candidiasis and clinical practice guidelines. Clin Microbiol Rev 2007; Clin Infect Dis 2016."
+    },
+    {
+      "url": "https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2023/2333",
+      "citation": "Resolução CFM nº 2.333/2023. https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/2023/2333"
+    },
+    {
+      "url": "https://www.wada-ama.org",
+      "citation": "World Anti-Doping Agency (WADA) Prohibited List 2024. https://www.wada-ama.org"
+    },
+    {
+      "url": "https://www.gov.br/anvisa/pt-br",
+      "citation": "Portal ANVISA - Ministério da Saúde Brasil"
+    }
+  ],
+  "status": "published"
+}

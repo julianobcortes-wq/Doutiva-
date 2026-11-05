@@ -30,6 +30,7 @@
 - [x] Trilha Peptídeos v1 em profundidade de tratado (~216k chars, 9 aulas) — supersedida pela v2 abaixo
 - [x] Script `scripts/deepen-peptides-lessons.mjs` para re-gerar aulas ancoradas na biblioteca
 - [x] Peptídeos v2 — 15 aulas (~20h, ~409k chars monografia, ~130 slides): fronteira dual/triplo/orais, organoproteção, sarcopenia, populações especiais, armamentário ampliado, clínica de excelência (+ exports em `scripts/peptides-exports/`)
+- [x] Doutiva v3 — 6 cursos Purus-aligned (10 aulas cada, ~60h total monografias): tirzepatida operacional, hormônios/implantes, soroterapia estéril, obesidade de precisão, sarcopenia/performance, IA na prática médica (+ exports em `scripts/course-exports/`)
 
 ## Produto (gaps fechados em `0022`)
 

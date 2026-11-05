@@ -1,0 +1,336 @@
+{
+  "position": 10,
+  "module": "Módulo 5 · Prática",
+  "module_position": 5,
+  "title": "Módulo 5 · Prática: Casos Clínicos em Hormônios e Implantes com Critério",
+  "description": "Abordagem clínica prática e ética para o manejo do hipogonadismo real, pedidos sem indicação clínica (anti-aging), menopausa sintomática e complicações associadas a implantes hormonais. Fundamenta prescrição baseada em evidências reais, respeito ao registro ANVISA, resoluções CFM e rigor na manipulação estéril. Aponta condutas acionáveis para endocrinologistas, nutrólogos e clínicos pesquisando excelência na prescrição hormonal no Brasil.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Reposição hormonal apenas em casos com deficiência verdadeira e sintomas claros, implantes são estratégias off-label e exceção ética.",
+    "Não prescrever hormônios, GH ou peptídeos para anti-aging, estética ou performance sem base clínica/laboratorial real; prática vedada pelo CFM e ANVISA.",
+    "Implantes subcutâneos exigem manipulação estéril rigorosa, consentimento formal e monitoramento contínuo.",
+    "Em presença de complicações infecciosas ou inflamatórias do implante, a conduta é explante cirúrgico e antibioticoterapia dirigida.",
+    "Terapia hormonal da menopausa deve ser iniciada com dose mínima eficaz, via oral ou transdérmica preferencial, respeitando contraindicações.",
+    "Monitoramento laboratorial e clínico estruturado (testosterona, PSA, hematócrito, rastreio mamográfico, pressão arterial) é mandatório.",
+    "O principal erro é prescrever hormônios sem deficiência diagnosticada, ocasionando riscos cardiovasculares, infertilidade e problemas éticos."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Hormônios e Implantes com Critério: Casos Clínicos Reais",
+      "subtitle": "Módulo 5 · Prática Doutiva – Manejo Ético e Baseado em Evidência no Brasil"
+    },
+    {
+      "head": [
+        "Terapia",
+        "Evidência",
+        "Registro ANVISA",
+        "Nota Reguladora"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Testosterona (hipogonadismo)",
+          "A",
+          "Sim",
+          "Indicação formal"
+        ],
+        [
+          "Estrogênio para menopausa",
+          "A",
+          "Sim",
+          "Indicação formal"
+        ],
+        [
+          "Implantes de testosterona (pellets)",
+          "B",
+          "Manipulado",
+          "Off-label, manipulação estéril ética"
+        ],
+        [
+          "DHEA (implante)",
+          "C",
+          "Manipulado",
+          "Off-label, sem registro farmacêutico"
+        ],
+        [
+          "GH para deficiência documentada",
+          "A",
+          "Sim",
+          "Indicação formal"
+        ],
+        [
+          "GH e peptides anti-aging",
+          "D",
+          "Proibido",
+          "Vedado CFM e ANVISA"
+        ],
+        [
+          "Implantes estéticos sem critério",
+          "D",
+          "Proibido",
+          "Vedado por CFM 2.333/2023"
+        ]
+      ],
+      "title": "Hierarquia da Evidência e Status Regulatório para Hormonioterapia e Implantes",
+      "source": "Monografia Doutiva Módulo 5, 2024"
+    },
+    {
+      "head": [
+        "Caso",
+        "Diagnóstico",
+        "Indicação Hormonal",
+        "Via Recomendada",
+        "Regulamentação",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Hipogonadismo masculino real",
+          "Hipogonadismo primário/ secundário",
+          "Sim",
+          "IM, gel, implante (off-label)",
+          "Regular / Manipulado",
+          "TT, E2, PSA, hematócrito"
+        ],
+        [
+          "Pedido anti-aging sem deficiência",
+          "Eutestosteronemia fisiológica",
+          "Não",
+          "-",
+          "-",
+          "Orientação e acompanhamento"
+        ],
+        [
+          "Menopausa sintomática",
+          "Menopausa com sintomas vasomotores",
+          "Sim",
+          "Oral, transdérmico, vaginal",
+          "Regular",
+          "Mamografia, PA, E2"
+        ],
+        [
+          "Implante complicado",
+          "Complicações infecciosas ou locais",
+          "-",
+          "Explante, antibiótico IV",
+          "-",
+          "Cultura, antibiograma"
+        ]
+      ],
+      "title": "Quadro Prático: Casos Clínicos e Condutas",
+      "source": "Monografia Doutiva Módulo 5, 2024"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente com sintomas sugestivos (fadiga, baixa libido) →"
+        },
+        {
+          "label": "Coleta de testosterona total (7-10h, em jejum) ×2 →"
+        },
+        {
+          "label": "Testosterona total < 300 ng/dL confirmada →"
+        },
+        {
+          "label": "Avaliação da etiologia (LH, FSH, prolactina, etc.) →"
+        },
+        {
+          "label": "Ausência de contraindicações (câncer, policitemia) →"
+        },
+        {
+          "label": "Início terapia com testosterona gel ou IM (forma regular) →"
+        },
+        {
+          "label": "Monitoramento clínico e laboratorial trimestral/semestral →"
+        },
+        {
+          "label": "Considerar implante off-label se intolerância / não adesão à terapia regular"
+        }
+      ],
+      "title": "Fluxo de Diagnóstico e Tratamento do Hipogonadismo Masculino Real"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pedido ‘Anti-Aging’ sem Deficiência: Conduta e Riscos",
+      "bullets": [
+        "Teste normal de testosterona total e livre.",
+        "Ausência de sintomas claros de deficiência.",
+        "Prescrição fora de indicação: infração ética e legal (CFM 2.333/2023).",
+        "Riscos de prescrição indevida: infertilidade, eventos cardiovasculares, alteração do perfil lipídico.",
+        "Orientar mudanças comportamentais e investigar causas secundárias de fadiga.",
+        "Registrar negativa da prescrição no prontuário para segurança jurídica."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Terapia Hormonal de Menopausa (TOS)",
+          "Implante hormonal manipulado não recomendado"
+        ],
+        "label": "Conduta Recomendada"
+      },
+      "right": {
+        "items": [
+          "Evidência robusta (RR redução fogachos ≥ 70%) [A].",
+          "Dose mínima eficaz via oral, transdérmica ou vaginal.",
+          "Monitoramento da pressão arterial, mamografia e perfil CV.",
+          "Uso restrito a indicados, sem histórico de contra-indicações.",
+          "",
+          "Ausência de registro ANVISA e evidência para implantes off-label.",
+          "Risco aumentado de complicações locais e sistêmicas.",
+          "Potencial para infecções, tumefações, necrose.",
+          "Vedado no Brasil por resoluções do CFM e ANVISA."
+        ],
+        "label": "Prática a Evitar"
+      },
+      "title": "Menopausa Sintomática: Terapia Hormonal vs Implante não Recomendado"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Sinais clínicos de infecção local (dor, rubor, nódulo inflamado, febre baixa) →"
+        },
+        {
+          "label": "Avaliar gravidade clínica →"
+        },
+        {
+          "label": "Encaminhar para explante cirúrgico imediato →"
+        },
+        {
+          "label": "Enviar material para cultura e antibiograma →"
+        },
+        {
+          "label": "Iniciar antibioticoterapia empírica IV →"
+        },
+        {
+          "label": "Ajustar antibiótico conforme cultura →"
+        },
+        {
+          "label": "Notificar evento adverso à ANVISA e CFM, se manipulação irregular →"
+        },
+        {
+          "label": "Monitorar evolução, apoio clínico e evitar reintrodução precoce"
+        }
+      ],
+      "title": "Abordagem de Complicação de Implante Hormonal"
+    },
+    {
+      "bars": [
+        {
+          "label": "Baricitinib + Remdesivir",
+          "value": 7,
+          "highlight": false
+        },
+        {
+          "label": "Remdesivir isolado",
+          "value": 8,
+          "highlight": false
+        },
+        {
+          "label": "Controle placebo",
+          "value": 10,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Estudo exemplifica importância da escolha terapêutica baseada em evidência e contexto clínico.",
+      "unit": "dias",
+      "title": "Tempo para Recuperação e Melhora Clínica em Estudo Combinando Terapias (Contexto Relacionado)",
+      "source": "Kalil AC et al. NEJM 2021 [S17]"
+    },
+    {
+      "kind": "pearl",
+      "text": "Não prescreva hormônios ou implantes fora da indicação clínica documentada; a segurança do paciente e a ética médica dependem do rigor diagnóstico, fundamentação científica e respeito a normativas vigentes.",
+      "title": "Pérola Clínica Final"
+    }
+  ],
+  "monograph": "# Módulo 5 · Prática – Hormônios e Implantes com Critério  \n## Casos: Hipogonadismo real, pedido anti-aging, menopausa sintomática, implante complicado\n\n---\n\n## 1. Contexto e Relevância\n\nA modulação hormonal, seja via farmacoterapia tradicional, seja por implantes subcutâneos, exige critério diagnóstico e terapêutico fundamentado em evidências robustas, legítimos marcos regulatórios e ética médica, especialmente frente à crescente demanda por terapias “anti-aging” ou estéticas sem indicação clínica consolidada.  \nNeste módulo prático, apresentamos o manejo criterioso de quatro situações clínicas frequentemente enfrentadas nos ambulatórios de endocrinologia, nutrologia e clínica médica, onde a prescrição hormonal, especialmente manipulada/implantes, pode ser indicada, vetada ou exigir vigilância redobrada.\n\n**Destaques da abordagem Doutiva/Purus:**\n- Estrito respeito à Resolução CFM 2.333/2023, ANVISA e WADA.\n- Separação rigorosa entre terapias registradas, off-label documentadas, manipulação estéril ética e práticas de risco (GH, “research peptides” e implantes meramente cosméticos).\n- Conduta baseada em evidência hierarquizada ([S1]).\n\n---\n\n## 2. Bases Científicas e Classificações Regulatórias\n\n### 2.1 Hierarquia da Evidência para Terapia Hormonal\n\n| Terapia                                          | Evidência | Registro | Nota Regulátoria                      |\n|--------------------------------------------------|-----------|----------|---------------------------------------|\n| Testosterona (hipogonadismo)                     | A         | ANVISA   | Indicação formal, registro regular    |\n| Terapia estrogênica (menopausa)                  | A         | ANVISA   | Indicação formal, registro regular    |\n| Implantes de testosterona (pellets)              | B         | Manip.   | Off-label, manipulação estéril        |\n| Desidroepiandrosterona (DHEA, implante)          | C         | Manip.   | Off-label, sem registro farmacêutico  |\n| GH para deficiência documentada                  | A         | ANVISA   | Indicação específica, registro        |\n| GH para “anti-aging”, estética ou wellness       | D         | Proibido | Vedado CFM/ANVISA                     |\n| “Research peptides” (ex: secretagogos, SARMs)    | D         | Proibido | Não recomendado, sem respaldo ético   |\n| Implante estético (sem critério clínico)         | D         | Proibido | Vedado pela CFM 2.333/2023            |\n\n#### Referencial\n- Classificação Doutiva do escalonamento evidencial [S1]: Metanálises e diretrizes (A) > ECR fase 3 (A) > fase 2/observacional robusto (B) > estudos menores ou farmacologia humana (C) > dados pré-clínicos/opinião (D).\n- Critério de manipulação estéril: apenas quando ausência de forma regular e mediante justificativa clínica ética.\n\n---\n\n### 2.2 Pilares Diagnóstico-Terapêuticos\n\n- **Diagnóstico etiológico e laboratorial minucioso.**\n- Estabelecimento de deficiência hormonal real versus variação fisiológica/pseudodeficiência.\n- Seleção da via, dose e monitoramento conforme contexto (registro regular preferencial).\n- Exigência de consentimento e registro de indicação em prontuário para uso off-label/implante.\n- Adesão à Resolução CFM 2.333/2023 para hormônios/estética: proíbe uso não justificado clinicamente e delega prescrição à especialidade.\n\n---\n\n## 3. Casos Clínicos e Condutas\n\n### Tabela 1. Quadro Resumido dos Cenários Práticos\n\n| Caso                               | Diagnóstico/Nosologia              | Indicação Hormonal | Via recomendada                      | Regulação/ANVISA | Reserva/Monitoramento                  |\n|-------------------------------------|------------------------------------|--------------------|--------------------------------------|------------------|----------------------------------------|\n| Hipogonadismo masculino real        | Hipogonadismo primário/secundário  | Sim                | IM/gel/implante                      | Regular/Manip.   | Testosterona total+livre, E2, PSA, Ht  |\n| Pedido “anti-aging” sem deficiência | Eutestosteronemia, fisiológico     | Não                | —                                    | —                | Não prescrever, orientação, follow-up  |\n| Menopausa sintomática               | Menopausa + sintomas vasomotores   | Sim                | TOS oral/transdérmica/vaginal        | Regular/Manip.   | Risco CV, mamografia, PA, E2, perfil   |\n| Implante complicado                 | Complicações locais/sistêmicas     | —                  | Eventual explante, suporte           | —                | Afastar infecção, necrose, trombose    |\n\n---\n\n### 3.1 CASO 1: Hipogonadismo Masculino Real\n\n#### Vinheta Clínica\nHomem, 51 anos, queixa-se de fadiga, diminuição da libido, disfunção erétil e piora do rendimento físico. Exames: testosterona total 242 ng/dL (ref. 300-800); LH 8,5 mUI/mL (ref. 1,3-8,0); FSH 8,9 mUI/mL (ref. 1,4-18,1); SHBG normal. Repetiu dosagem, testosterona total 262 ng/dL. Sem história de opioides, corticoides, tumores hipofisários, trauma testicular ou varicocele. IMC 27,6 kg/m², esteatose leve ao USG hepático. PSA 0,8 (limite normal), hematócrito 45%. Previamente hígido. Solicita “implante de testosterona”.\n\n#### Alternativas de Conduta\n\nA. Indicar implante subcutâneo de testosterona, dose proporcional ao déficit laboratorial.\n\nB. Propor início de testosterona gel 50 mg/dia, reavaliando resposta clínica e laboratorial, evitando manipulado.\n\nC. Reforçar dieta/atividade física e repetir exames em 6 meses apenas.\n\nD. Prescrever DHEA manipulada em associação à testosterona para “otimizar síntese androgênica”.\n\n##### Resposta Correta: **B.**\n- Justificativa: Este paciente apresenta hipogonadismo confirmado por duas dosagens basais baixas, sintomas compatíveis, sem contraindicações absolutas para reposição. O tratamento pode ser iniciado preferencialmente com preparado regular (testosterona gel) [Evidência A]. Implantes são alternativas quando o paciente não tolera/aderiu formas convencionais (off-label, manipulação estéril ética), desde que com consentimento formal.\n\n---\n\n### 3.2 CASO 2: Pedido “Anti-Aging” sem Deficiência\n\n#### Vinheta Clínica\nHomem, 44 anos, executivo. Queixa-se de “cansaço”, quer “otimizar vitalidade”. Testosterone total 433 ng/dL (ref. 300-800), livre normal, LH/FSH normais. Relata treinos diários, sono adequado. Solicitou “chip da beleza” de testosterona para performance e emagrecimento.\n\n#### Alternativas de Conduta\n\nA. Atender pedido e prescrever implante manipulável de testosterona (chip).\n\nB. Prescrever testosterona oral para potencializar treino.\n\nC. Recomendar mudanças comportamentais, não prescrever hormônio.\n\nD. Testar com doses baixas de DHEA e monitorar ganho de performance.\n\n##### Resposta Correta: **C.**\n- Justificativa: Não há indicação laboratorial ou clínica de hipogonadismo, tampouco segurança em uso para “anti-aging” ou estética. Prescrição seria infração ética (CFM), aumentaria risco cardiovascular, infertilidade, eventos adversos. “Chip da beleza” é vedado à manipulação para esta finalidade.\n\n---\n\n### 3.3 CASO 3: Menopausa Sintomática\n\n#### Vinheta Clínica\nMulher, 52 anos, menopausa há 2 anos; sintomas vasomotores intensos, insônia, irritabilidade, ressecamento vaginal. Sem história pessoal ou familiar de câncer de mama ou doenças tromboembólicas. PA 126/78 mmHg, IMC 25,9. Mamografia e USG TV negativos. Hepatoesplenomegalia ausente.\n\n#### Alternativas de Conduta\n\nA. Não prescrever hormônio devido ao risco cardiovascular.\n\nB. Iniciar terapia hormonal padrão (estrogênio/MPA oral) em dose mínima eficaz.\n\nC. Prescrever implante de gestrinona e testosterona manipulados para climatério.\n\nD. Recomendar antidepressivos e fitoterápicos apenas.\n\n##### Resposta Correta: **B.**\n- Justificativa: TOS regular possui impacto positivo robusto nos sintomas vasomotores (RR redução ≥70%) [Evidência A], desde que prescritora atenda critérios de ausência de contraindicações (risco/tromboembolismo, câncer). Implantes de gestrinona/testosterona não são recomendados (sem registro, sem benefício estabelecido).\n\n---\n\n### 3.4 CASO 4: Complicação de Implante\n\n#### Vinheta Clínica\nMulher, 41 anos, realizou implante subcutâneo de “hormônio combinado” há 3 semanas (sem registro do composto). Evoluiu com dor, rubor e induração em região glútea. Tem febre baixa, sem sintomas sistêmicos. História pregressa sem comorbidades relevantes. Solicitou atendimento de emergência.\n\n#### Alternativas de Conduta\n\nA. Prescrever antibiótico oral empírico, observação em casa, sem necessidade de investigação.\n\nB. Encaminhar para explante cirúrgico urgente e cultura do material, iniciar antibioticoterapia IV.\n\nC. Orientar compressas e aguardar resolução espontânea.\n\nD. Iniciar corticoide IM para reduzir inflamação local.\n\n##### Resposta Correta: **B.**\n- Justificativa: Complicações infecciosas são graves. O padrão-ouro é explante cirúrgico, coleta para cultura e antibiograma, antibioticoterapia conforme gravidade [S4]. Não usar corticoide isoladamente, nem aguardar resolução espontânea. Relatar evento adverso à autoridade sanitária se manipulação irregular.\n\n---\n\n## 4. Condutas Detalhadas e Clínica Prática\n\n### 4.1 Hipogonadismo Masculino Real\n\n#### Diagnóstico e Critérios\n\n- Sintomas compatíveis + testosterona total < 300 ng/dL em duas ocasiões matinais (preferir amostra 7–10h da manhã, em jejum) [Evidência A].\n- Avaliar: testosterona livre (se SHBG alterado), LH, FSH, prolactina, ferritina, TSH, perfil hepatorrenal.\n- Identificar etiologia: primário (testicular) vs. secundário (eixo hipotálamo-hipofisário).\n\n#### Terapêutica\n\n| Forma             | Dose inicial*          | Considerações e Regulatórios  | Monitoramento                      |\n|-------------------|-----------------------|-------------------------------|------------------------------------|\n| Testosterona IM   | Undecanoato 1000 mg IM, 0, 6, 18 sem/3-4m | ANVISA registrada         | TT, HT, PSA, E2, Bx, DRE           |\n| Testosterona gel  | 50 mg/dia (2-5g)      | ANVISA registrada             | Menor risco policitemia/virilização|\n| Implante SC**     | 600-1200 mg SC c/ 4-6m | Manipulação estéril ética; off-label documentada | Consentimento, risco infecção       |\n\n\\*Ajustar conforme resposta clínica/laboratorial  \n\\**Reservar p/ intolerância às formas regulares\n\n##### Manejo Prático\n\n1. **Confirmar indicação e ausência de contraindicações** (câncer prostático/mamário ativo, policitemia, insuficiência cardíaca grave, apneia do sono descompensada).\n2. **Preferir via regular** (gel/IM); implante apenas com justificativa clínica, manipulação estéril, registro documental e consentimento.\n3. Iniciar dose, reavaliar sintomas, laboratorial aos 3, 6, 12 meses.\n4. Monitorizar PSA, hematócrito, E2, perfil lipídico ao menos 1–2x/ano.\n5. Suspender se surgirem eventos adversos.\n\n---\n\n### 4.2 Pedido “Anti-Aging” sem Deficiência\n\n#### Conduta Ética\n\n- Ausência de indicação laboratorial e clínica:\n  - **Não prescrever hormônio, implante, GH ou “peptídeos” off-label para anti-aging** – explícito em diretrizes CFM e ANVISA (resolução 2.333/2023, portaria 344, normativas WADA).\n  - Orientar paciente sobre riscos (infertilidade, CV, psicogênicos, eventos tromboembólicos).\n  - Recomendar abordagem multidisciplinar: sono, exercício, alimentação, rastreio de causas secundárias de fadiga.\n  - Registrar negativa da prescrição em prontuário.\n\n---\n\n### 4.3 Menopausa Sintomática\n\n#### Diagnóstico e Abordagem\n\n- Menopausa — ausência de menstruação >12 meses após os 45 anos.\n- Indicação de TOS: sintomas moderados/intensos (fogachos, insônia, dispareunia), sem contraindicações absolutas.\n\n#### Terapia\n\n| Forma                       | Dose Inicial      | Segurança/Monitoramento          | Registro |\n|-----------------------------|------------------|----------------------------------|----------|\n| Estrogênio conjugado oral   | 0,3-0,625 mg/dia | Perfil CV, mamografia, USG TV    | ANVISA   |\n| Estradiol transdérmico      | 25-50 mcg/dia    | Menor risco trombótico           | ANVISA   |\n| Terapia vaginal             | 25 mcg 2x/semana | Avaliar apenas sintomas locais   | ANVISA   |\n| Implante (não recomendado)  | —                | Ausente robustez, risco infecção | Manip.   |\n\n##### Manejo Prático\n\n1. **Confirmar critérios e rastrear contraindicações**.\n2. Escolher via e formulação registrada de menor risco possível.\n3. Dose mínima eficaz.\n4. Monitorar pressão arterial, risco CV, mamografia anual.\n5. Restrição de uso apenas sintomático; revisar necessidade periodicamente.\n6. Evitar implantes de testosterona/gestrinona/clomifeno off-label como rotina para menopausa — não prescritos nas principais diretrizes nacionais ou internacionais.\n\n---\n\n### 4.4 Implante Complicado\n\n#### Abordagem de Complicações\n\n| Complicação        | Conduta                                              | Evidência | Notificação                       |\n|--------------------|------------------------------------------------------|-----------|-----------------------------------|\n| Infecção local     | Explante cirúrgico, cultura, antibiótico IV/VO       | A [S4]    | ANVISA, farmacovigilância         |\n| Necrose/hematoma   | Suporte, explante se necessário, hemostasia          | C         |                                   |\n| Tromboembolismo    | Suspender implante e tratar evento, investigar trombofilia | B         | CFM se manipulação irregular      |\n| Reação inflamatória| Diferenciar infecção, suporte sintomático, biópsia se dúvida | C         |                                   |\n\n##### Fluxo Prático\n\n1. **Suspeita de infecção:** Explante imediato, enviar fragmento para bacterioscopia/fungo, iniciar antibioticoterapia baseada em cultura.\n2. Avaliar necessidade de internação.\n3. Notificar evento adverso se manipulação irregular ou complicação grave, conforme portaria sanitária.\n\n---\n\n## 5. Monitoramento, Segurança e O que NÃO Fazer\n\n### 5.1 Monitoramento Rigoroso\n\n- Documentar: indicação clínica, consentimento, plano de acompanhamento.\n- Para hormônios sexuais masculinos: TT, E2, PSA, hematócrito, perfil lipídico 3-6/6m.\n- Menopausa: mamografia anual, PA, perfil CV, reavaliação regular da necessidade.\n- Implantes: vigilância de efeitos adversos locais e sistêmicos em todos os retornos.\n\n### 5.2 O que NÃO Prescrever\n\n- Testosterona, DHEA, gestrinona, GH, SARMs, “peptídeos research”, “chips da beleza” ou hormônios via implante para:  \n  - Eutestosteronêmicos;  \n  - Mulheres eutestosteronêmicas sem sintomas ou só estéticos;  \n  - Qualquer indicação “anti-aging” não respaldada por deficiência laboratorial e clínica;\n  - Perfil cosmético, wellness ou de performance sem critério clínico.\n\n- Não utilizar manipulação estéril fora do estrito critério clínico, sem consentimento e registro.\n\n---\n\n## 6. Regularidade e Ética no Brasil\n\n- **CFM 2.333/2023**: Proíbe estritamente hormônios para fins exclusivamente estéticos, anti-aging ou performance.\n- **ANVISA**: Proibição da manipulação de GH, SARMs, alguns peptídeos anabolizantes; exigência de pureza, rastreio do lote, farmácias regularizadas.\n- **WADA**: Proibição para atletas das substâncias anabolizantes e hormônios sem indicação clínica.\n- **Princípios éticos**: Consentimento, segurança, registro, notificação compulsória de eventos adversos.\n\n---\n\n## 7. Checklist e Pérolas para o Consultório\n\n#### Checklist Rápido\n\n1. **Deficiência Real?** Sintomas + 2 exames confirmatórios.\n2. **Indicação formal?** Confere diretriz/direito regulatório.\n3. **Via regular disponível?** Priorizar medicamento ANVISA.\n4. **Manipulação ética?** Apenas se ausência de forma regular e com justificativa.\n5. **Consentimento/documento?** Obrigatório para off-label/implantes.\n6. **Monitoramento estruturado?** Sim, c/ exames periódicos e registro de AE.\n7. **Proibição absoluta nas indicações anti-aging/estéticas sem base clínica.**\n\n#### Pérolas Práticas\n\n- “Implante cosmético” = infração ética e sanitária.\n- Efeitos adversos graves nos implantes: documente, notifique e dê suporte imediato.\n- Hormônios não são solução para fadiga inespecífica, estafa ou queda de rendimento sem etiologia definida.\n- Terapia hormonal = dose mínima eficaz, menor espectro de risco, revisão continuada da necessidade.\n- Farmácias de manipulação estéril requerem certificações e rastreabilidade rígidas.\n\n---\n\n## 8. Slides Didáticos\n\n_(Resumo para apresentação visual. Na entrega real, recomenda-se produção gráfica profissional segundo este roteiro.)_\n\n**Slide 1**: Título – Conduta Hormonal Ética – Casos Clínicos.  \n**Slide 2**: Hierarquia de Evidência e Registro (Tabela resumida).  \n**Slide 3**: Cenários práticos – comparação rápida (Tabela 1).  \n**Slide 4**: Caso 1: Hipogonadismo real – critérios, fluxograma diagnóstico.  \n**Slide 5**: Caso 1 detalhado – algoritmo (diagnóstico, tratamento, monitoramento).  \n**Slide 6**: Caso 2: Pedido anti-aging – riscos e proibições (bullets).  \n**Slide 7**: Caso 3: Menopausa sintomática – condutas e monitoramento.  \n**Slide 8**: Caso 4: Implante complicado – fluxo de urgência, cuidados.  \n**Slide 9**: Conduta frente ao implante irregular (bullets/regra).  \n**Slide 10**: Maior erro: prescrever hormônio sem deficiência – consequências (split proibição e riscos).  \n**Slide 11**: Pérolas e Checklist rápido (imagem/checklist).  \n**Slide 12**: Key Points e contate a equipe em caso de dúvida.\n\n---\n\n## 9. Quick_Ref de Bolso\n\n- Hipogonadismo = sintomas + TT <300 ng/dL (2x) → iniciar via regular.\n- Implante SC: apenas se contraindicação/intolerância às vias padrão, consentimento.\n- Jamais prescrever/testar para anti-aging, performance, estética ou sem deficiência.\n- Menopausa: TOS regular, avaliar contraindicação rigorosamente, revisar necessidade.\n- Complicações de implantes: explante, cultura, antibiótico, notificação.\n- Registrar, monitorar e documentar sempre.\n\n---\n\n## 10. Key Points\n\n1. **Reposição hormonal só se deficiência verdadeira + sintomas; implante é exceção ética, não regra.**\n2. **Anti-aging, estética e performance sem deficiência – nunca prescrever, proibido CFM/ANVISA.**\n3. **Implantes = manipulação estéril rigorosa; registro, consentimento e monitoramento estruturado.**\n4. **Toda complicação de implante: notificar, tratar e investigar.**\n5. **TOS na menopausa: indicativo sintomático com menor dose, menor risco, jamais via implante hormonal não licenciado.**\n6. **Monitoramento padronizado (TT, E2, PSA, hematócrito, exames de imagem/mama) fundamental.**\n7. **Conduta ética, buscando sempre a segurança e justificativa científica acima da satisfação imediatista do paciente.**\n\n---\n\n## 11. Referências\n\n- [S1] Posicionamento Doutiva — Hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- Standards of Medical Care in Diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI: 10.2337/dc10-s011\n- Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the IDSA. Clin Infect Dis 2009. DOI: 10.1086/599376\n- Resolução CFM 2.333/2023. Conselho Federal de Medicina – Hormônios, estética e práticas anti-aging.\n- Normativas ANVISA para farmácias de manipulação estéril e substâncias sujeitas a controle especial.\n- (Outras diretrizes internacionais e literatura robusta citada na BIBLIOTECA DOUTIVA, conforme aplicável.)\n\n---\n\n# Fim da Monografia Premium  \n(Estruturada para alunos Doutiva – uso exclusivo em qualificação ética, consultório premium, farmácia de manipulação estéril de excelência)",
+  "quick_ref": "# Guia Rápido - Hormonioterapia e Implantes (Módulo 5)\n\n| Indicação                                 | Critério Diagnóstico                                   | Terapia Preferencial                     | Monitoramento                                           |\n|------------------------------------------|--------------------------------------------------------|-----------------------------------------|---------------------------------------------------------|\n| Hipogonadismo masculino real              | Sintomas + TT <300 ng/dL em 2 amostras matinais         | Testosterona gel ou IM (ANVISA)          | TT, PSA, hematócrito, E2, sintomas (3-6m iniciais)       |\n| Implante testosterona subcutâneo         | Contra indicar formas regulares / intolerância           | Implante manipulado, consentido          | Documentar, monitorar infecção e hematócrito             |\n| Pedido anti-aging sem deficiência         | TT e livre normais, ausente sintomas                      | Não prescrever hormonal                      | Aconselhar estilo de vida, não medicamentoso             |\n| Menopausa sintomática moderada a grave   | Ausência de contra-indicações, sintomas vasomotores      | TOS via oral ou transdérmica (ANVISA)      | Mamografia anual, PA, acompanhamento clínico             |\n| Implante hormonal complicado ou infeccioso| Quadro de dor, rubor, febre baixa, nódulo glúteo          | Explante cirúrgico + antibiótico           | Cultura, antibiograma, notificar ANVISA/CFM              |\n\n*Notas importantes:*\n- Jamais prescrever hormônio para anti-aging, estética ou performance sem deficiência comprovada.\n- Manipulação estéril deve ter rastreabilidade e consentimento documental.\n- Documentar sempre a indicação e consentimento no prontuário.\n- Orientar riscos e monitorar efeitos adversos rigorosamente.\n\n---\n\n# Sinais de Alerta\n\n- Febre ou sinais de infecção local no implante.\n- Elevação abrupta da hematócrito (>54%).\n- Dor torácica, palpitações, dispneia durante testosterona.\n- Sintomas sugestivos de tromboembolismo.\n\n# Checklist Consultório\n\n1. Confirmar deficiência hormonal laboratorial + sintomas.\n2. Verificar via e forma farmacêutica REGISTRADA ANVISA.\n3. Avaliar contraindicações absolutas.\n4. Conceituar uso implantáveis só se manipulação ética, consentimento.\n5. Monitorar exames e efeitos-clínicos em agendas regulares.\n6. Evitar prescrições “anti-aging” sem suporte clínico.\n7. Registrar todo o processo, consentimentos e decisões.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "51 anos"
+      },
+      {
+        "label": "Sintomas",
+        "value": "fadiga, baixa libido, disfunção erétil"
+      },
+      {
+        "label": "Testosterona total",
+        "value": "242-262 ng/dL (baixa)"
+      },
+      {
+        "label": "LH/FSH",
+        "value": "8,5 / 8,9 mUI/mL (discretamente elevados)"
+      },
+      {
+        "label": "IMC",
+        "value": "27,6 kg/m²"
+      },
+      {
+        "label": "PSA",
+        "value": "0,8 ng/mL (normal)"
+      },
+      {
+        "label": "Hematócrito",
+        "value": "45%"
+      },
+      {
+        "label": "História prévia",
+        "value": "sem doenças crônicas, sem uso de opiáceos/corticoides"
+      }
+    ],
+    "title": "Homem com sintomas, testosterona limítrofe, pedido de implante - conduta clínica",
+    "reward": 6,
+    "options": [
+      {
+        "label": "Indicar implante subcutâneo de testosterona, dose proporcional ao déficit laboratorial.",
+        "correct": false,
+        "rationale": "Implante é off-label e reserva-se para intolerância às formas regulares, não recomendável inicialmente."
+      },
+      {
+        "label": "Propor início de testosterona gel 50 mg/dia, reavaliando resposta clínica e laboratorial, evitando manipulado.",
+        "correct": true,
+        "rationale": "Tratamento com gel tópico é indicado, registrado pela ANVISA, eficaz e seguro para tratamento inicial."
+      },
+      {
+        "label": "Reforçar dieta/atividade física e repetir exames em 6 meses apenas.",
+        "correct": false,
+        "rationale": "Paciente possui deficiência hormonal confirmada e sintomas; espera pode retardar melhora clínica e qualidade de vida."
+      },
+      {
+        "label": "Prescrever DHEA manipulada em associação à testosterona para otimizar síntese androgênica.",
+        "correct": false,
+        "rationale": "DHEA não tem indicação clara, manipulação pode aumentar riscos sem benefício comprovado."
+      }
+    ],
+    "question": "Qual a conduta mais adequada diante do quadro apresentado?",
+    "vignette": "Paciente masculino, 51 anos, relata fadiga progressiva há meses, diminuição da libido e disfunção erétil. Exames iniciais mostram testosterona total 242 ng/dL (ref. 300-800 ng/dL), com repetição confirmando 262 ng/dL. LH e FSH discretamente elevados. Sem história de doenças crônicas, uso de opiáceos ou corticoides. IMC 27,6 kg/m². PSA e hematócrito normais. Solicita implante subcutâneo de testosterona para melhora dos sintomas.",
+    "teaching": "Paciente apresenta hipogonadismo masculino real confirmado por sintomas característicos e baixa testosterona total em duas dosagens matinais. A conduta recomendada é iniciar reposição hormonal com preparado registrado e seguro, preferencialmente gel transdérmico ou injeções intramusculares, conforme guidelines e regulatório ANVISA. Implantes subcutâneos de testosterona são considerados off-label e devem ser reservados para casos de intolerância às formas regulares, sempre com manipulação estéril ética, consentimento documentado e acompanhamento rigoroso (monitoramento laboratorial e clínico). Prescrição inadequada pode levar a riscos cardiovasculares e legais. A opção B (iniciar gel 50 mg/dia com monitoramento) é a que atende critérios clínicos, regulatórios e de segurança do paciente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023. Conselho Federal de Medicina – Hormônios, estética e práticas anti-aging."
+    },
+    {
+      "citation": "Normativas ANVISA para farmácias de manipulação estéril e substâncias sujeitas a controle especial."
+    }
+  ],
+  "status": "published"
+}

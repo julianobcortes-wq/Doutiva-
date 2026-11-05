@@ -1,0 +1,312 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Hormônio e limites",
+  "module_position": 4,
+  "title": "Testosterona, Menopausa e Massa Magra: quando hormônio entra na equação",
+  "description": "Esta aula aborda o uso ético e baseado em evidência da testosterona na sarcopenia relacionada à menopausa e ao envelhecimento masculino. Explora os critérios diagnósticos, evidências clínicas de benefício sobre massa magra e performance, limites regulatórios no Brasil, condutas seguras e contraindicações, visando qualificar prescrição responsável e segura para endocrinologistas e nutrólogos clínicos.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Reposição hormonal é indicada apenas para deficiência comprovada (testosterona total <230 ng/dL com sintomas característicos).",
+    "Ganho de massa magra com testosterona em hipogonadismo masculino é modesto (~1–2 kg em 6–12 meses) e não justifica uso em eugonádicos.",
+    "Em mulheres pós-menopausa, o uso de testosterona para sarcopenia é off-label e apresenta risco de efeitos adversos; reposição rotineira não indicada.",
+    "Monitorar rigorosamente hematócrito, PSA, perfil hepático e lipídico durante o tratamento com testosterona.",
+    "É proibida a prescrição de hormônios para finalidade estética, anti-aging ou performance sem indicação clínica, conforme normas CFM e ANVISA.",
+    "Implantes hormonais manipulados devem ser feitos em farmácias com controle estéril rigoroso e registro ANVISA apropriado.",
+    "Priorizar sempre intervenções não farmacológicas: exercícios resistidos e nutrição adequada são base fundamental contra a sarcopenia."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Testosterona, Menopausa e Massa Magra",
+      "subtitle": "Critérios, Evidências e Limites Ético-Regulatórios para Prescrição Clínica no Brasil"
+    },
+    {
+      "kind": "bullets",
+      "title": "Bases Fisiopatológicas Essenciais",
+      "bullets": [
+        "Testosterona: síntese em testículos e ovários; papel anabólico na massa muscular e ossos.",
+        "Declínio progressivo de testosterona em homens a partir de 30-40 anos (~1-2% ao ano).",
+        "Na menopausa, queda abrupta de estrogênio e testosterona na mulher contribui para perda muscular e alteração da composição corporal.",
+        "Sarcopenia na menopausa é multifatorial, mas o eixo hormonal é componente central.",
+        "Outros hormônios (GH, IGF-1, DHEA) também influenciam, porém testosterona e estrogênios são foco clínico para reposição."
+      ]
+    },
+    {
+      "head": [
+        "Intervenção",
+        "População",
+        "Número (n)",
+        "Mudança Massa Magra",
+        "Mudança Força",
+        "Mudança Função Física",
+        "Adversidades",
+        "Nível Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Testosterona IM (enantato/cipionato)",
+          "Homens ≥50 anos, hipogonadismo",
+          "~2000",
+          "+1–2 kg em 6-12 meses",
+          "+8–13% efeito moderado",
+          "Sutil, controverso",
+          "↑Hematócrito, risco prostático",
+          "A"
+        ],
+        [
+          "Testosterona em homens com TT normal/baixo normal",
+          "~900",
+          "~0 kg",
+          "Nenhum",
+          "Nenhum",
+          "Risco semelhante",
+          "A"
+        ],
+        [
+          "Testosterona tópica em mulheres pós-menopausa",
+          "~350",
+          "+0,9 kg média 6-12 meses",
+          "Não consistente",
+          "Ausente",
+          "Acne, hirsutismo",
+          "B"
+        ],
+        [
+          "Estrogênio/progesterona em mulheres pós-menopausa",
+          "~2100",
+          "Sem aumento significativo de massa magra",
+          "Nenhum",
+          "Nenhum",
+          "Risco tromboembólico aumentado",
+          "A"
+        ]
+      ],
+      "title": "Reposição Hormonal e Ganho de Massa Magra: Evidência de ECRs",
+      "source": "Bhasin et al. J Clin Endocrinol Metab 2018; Davis et al. J Clin Endocrinol Metab 2019; Evidências Doutiva [S1]"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Hipogonadismo masculino verdadeiro: sintomas + TT <230 ng/dL confirmado.",
+          "Mulheres pós-ooforectomia com HSDD refratária (off-label e com cautela).",
+          "Contraindicação absoluta: câncer próstata ou mama, tromboses ativas, hepatopatias graves.",
+          "Não usar para otimizar massa muscular, performance ou estética em eugonádicos.",
+          "Regulação CFM 2.333/2023 proíbe uso estético e anti-aging.",
+          "ANVISA permite testosterona padrão, restringe implantes e manipulação estéril controlada.",
+          "WADA proíbe uso para doping sem TUE aprovada."
+        ],
+        "label": "Indicações/Proibições"
+      },
+      "right": {
+        "items": [
+          "Indicação registrada: Hipogonadismo confirmado",
+          "Indicacão off-label: HSDD na mulher pós-ooforectomia",
+          "Contraindicações claras e permanentes",
+          "Proibições para fins estéticos/anti-aging",
+          "Regulamentação rigorosa ANVISA/CFM",
+          "Fiscalização e sanções éticas e legais",
+          "Esporte: substância proibida pela WADA"
+        ],
+        "label": "Regulação e Ética Brasil"
+      },
+      "title": "Indicações e Limites Regulatórios no Brasil"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente com sintomas sugestivos (fadiga, baixa libido, sarcopenia) →"
+        },
+        {
+          "label": "Dosar testosterona total em jejum 8–10h, repetir teste confirmatório"
+        },
+        {
+          "label": "Testosterona total <230 ng/dL + sintomas → avaliar contraindicações"
+        },
+        {
+          "label": "Sem contraindicações → considerar reposição testoterona"
+        },
+        {
+          "label": "Testosterona total >300 ng/dL → não repor testosterona"
+        },
+        {
+          "label": "Sintomas ausentes → não rastrear testosterona"
+        },
+        {
+          "label": "Contraindicações absolutas presentes → não repor, abordagem alternativa"
+        }
+      ],
+      "title": "Algoritmo Diagnóstico para Reposição de Testosterona em Homens"
+    },
+    {
+      "head": [
+        "Fármaco/Forma",
+        "Via de Administração",
+        "Dose Usual",
+        "Status Registro ANVISA"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Testosterona Enantato/Cipionato",
+          "IM",
+          "100–200 mg a cada 2-3 semanas",
+          "Registrado"
+        ],
+        [
+          "Testosterona Undecanoato",
+          "IM",
+          "1000 mg a cada 10-14 semanas após dose inicial",
+          "Registrado"
+        ],
+        [
+          "Gel de Testosterona",
+          "Tópica",
+          "50–100 mg/dia",
+          "Registrado"
+        ],
+        [
+          "Implantes Hormonais",
+          "Subcutâneo",
+          "75–200 mg a cada 3–6 meses",
+          "Manipulado com controle estéril — restrito"
+        ]
+      ],
+      "title": "Doses Usuais e Registro ANVISA dos Preparados de Testosterona",
+      "source": "ANVISA"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento Clínico e Laboratorial Após Início da Terapia",
+      "bullets": [
+        "Dosagem de testosterona total e livre aos 3, 6 e 12 meses e depois anual.",
+        "Hematócrito: monitorar para evitar eritrocitose >54%; ajustar dose ou suspender se >54%.",
+        "PSA em homens >40 anos a cada 6-12 meses para rastrear alterações prostáticas.",
+        "Perfil lipídico e função hepática para monitorar efeitos adversos metabólicos.",
+        "Avaliação clínica contínua para possível apneia do sono e eventos trombóticos.",
+        "Em mulheres, monitorar sinais de virilização como acne, hirsutismo e alterações vocais irreversíveis.",
+        "Consentimento informado e documentação rigorosa da terapia."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrição para pacientes eugonádicos com testosterona normal-baixa sem sintomas.",
+          "Uso de supradose ou protocolos não baseados em evidência (ciclos, ergogênicos).",
+          "Aplicação de implantes sem rastreabilidade e manipulação estéril controlada.",
+          "Ignorar monitoramento laboratorial e clínico após início de reposição.",
+          "Prescrição para fins estéticos, anti-aging ou aumento de performance esportiva.",
+          "Uso concomitante ou substitutivo com peptídeos, DHEA, SARMs e GH anti-aging não aprovados."
+        ],
+        "label": "Práticas Comuns Incorretas"
+      },
+      "right": {
+        "items": [
+          "Ausência de diagnóstico claro e documentação clínica.",
+          "Prática não ética e ilegal segundo regulatórios brasileiros.",
+          "Riscos aumentados de eventos adversos sérios.",
+          "Falta de adesão a protocolos de segurança clínica.",
+          "Penalidades éticas e criminais previstas para uso irregular.",
+          "Falta de eficácia comprovada e potencial dano ao paciente."
+        ],
+        "label": "Consequências e Penalidades"
+      },
+      "title": "Erros Comuns e Práticas a Serem Evitadas"
+    },
+    {
+      "kind": "pearl",
+      "text": "Reposição hormonal não é um atalho para a sarcopenia ou performance. Priorize terapia baseada em evidência e monitoramento rigoroso; o exercício resistido e nutrição adequada são pilares insubstituíveis na abordagem da perda de massa magra relacionada à menopausa e envelhecimento.",
+      "title": "Pérola Clínica Final"
+    }
+  ],
+  "monograph": "# Testosterona, Menopausa e Massa Magra: Critérios, Limites e Papel dos Hormônios na Composição Corporal\n\n---\n\n## 1. Contexto e Relevância: Sarcopenia, Menopausa e o Dilema Hormonal\n\n### 1.1 Introdução\n\nO declínio da massa muscular com a idade (sarcopenia) é agravado por alterações hormonais, sobretudo na menopausa e no envelhecimento masculino (“andropausa”). A perda de massa magra impacta funcionalidade, metabolismo, risco de quedas, fragilidade e prognóstico em múltiplos contextos clínicos. Surge então a tentação — e o risco — do uso de hormônios sexuais (particularmente testosterona e, secundariamente, estrógenos/progestagênios) como estratégia de combate à sarcopenia, especialmente na endocrinologia e nutrologia aplicadas à longevidade e performance.\n\nNo entanto, o uso de testosterona e outros hormônios para fins meramente estéticos, esportivos ou fora dos critérios patológicos bem definidos esbarra em limites éticos (CFM nº 2.333/2023), regulatórios (ANVISA), esportivos (WADA) e de segurança clínica baseada em evidência — além de nuances críticas quanto à manipulação estéril de excelência.\n\n### 1.2 O Dilema Clínico\n\n- O que é deficiência vs. o que é uso “para performance”?\n- Há benefício na composição corporal (massa magra, gordura) com reposição hormônios sexuais em mulheres na menopausa e homens com “baixa normal” de testosterona?\n- Quais critérios diagnósticos, indicações registradas no Brasil, limites legais e parâmetros de monitoramento para uso responsável?\n- E, principalmente: quando *não* prescrever hormônios como “atalho” esportivo ou “booster” na ausência de doença?\n\n## 2. Bases Fisiopatológicas: Testosterona, Estrogênios e Massa Muscular\n\n### 2.1 Testosterona: Função, Sinalização e Contexto\n\nA testosterona promove síntese proteica, inibe degradação muscular e estimula pluripotência de células satélite. No homem, é produzida predominantemente nos testículos (células de Leydig), sendo fundamental para manutenção da massa magra, força e densidade mineral óssea. No envelhecimento, níveis séricos caem progressivamente (cerca de 1–2% ao ano a partir dos 30–40 anos) [Evidência B: coortes].\n\nEm mulheres, a testosterona é sintetizada em menor escala, com ação menos pronunciada mas relevante para libido, densidade óssea e potencial anabólico.\n\n### 2.2 Menopausa\n\nNa mulher, o colapso do eixo HHO leva abruptamente à queda de estrogênio e, em menor grau, de testosterona, acelerando perda óssea e muscular. O impacto sobre sarcopenia é multifatorial, mas o declínio hormonal contribui para desbalanceamento de composição corporal, acúmulo de gordura central e redução da capacidade funcional.\n\n### 2.3 O Eixo Hormonal e a Sarcopenia\n\nAlterações no GH/IGF-1, DHEA, tiroxina e insulina também afetam sarcopenia, mas testosterona e estrógenos são epicentro dos estudos clínicos sobre reposição com vistas à composição corporal.\n\n---\n\n## 3. Evidência Clínica: Benefício Real da Testosterona e Terapia Hormonal sobre Massa Magra\n\n### 3.1 Testosterona em Homens\n\n**População:** Homens ≥50 anos, hipogonadismo (TT < 230 ng/dL, sintomas clássicos), ECRs e meta-análises.\n\n#### Ganho de Massa Magra: Quantitativo\n\n- Ganho magro: ~1–2 kg em 6–12 meses (vs. placebo) em ECRs com doses fisiológicas (enantato/cipionato IM 100–200 mg/semana ou gel 50–75 mg/dia) [Evidência A].\n- Melhora modesta de força; impacto funcional clínico controverso além do nicho geriátrico/sarcopênico grave.\n\n#### População “Borderline” (TT normal-baixo): Sem benefício robusto.\n- Estudos em homens com TT > 350 ng/dL não mostram aumento significativo de massa magra ou função física.\n\n### 3.2 Testosterona em Mulheres Pós-Menopausa\n\nReposição rotineira não é indicada para sarcopenia ou estética (CFM, ANVISA). Raros trabalhos (doses baixas de testosterona transdérmica ou implantes) sugerem ganho limitado (~0,5–1,5 kg, média 6 a 12 meses), mas riscos superam benefícios em mulheres sem deficiência explícita [Evidência B].\n\n### 3.3 Terapia Estrogênica\n\nECRs com reposição isolada ou combinada não demonstram aumento relevante de massa magra, apenas menor taxa de perda.\n\n### 3.4 Magnitudes dos Efeitos: Resumo Crítico\n\nTabela 1. **Reposição Hormonal e Massa Magra: Magnitude dos Efeitos em ECRs**\n\n| Intervenção            | População        | n   | Δ Massa Magra | Δ Força | Δ Função Física | Adversidades | Nível de evidência |\n|------------------------|------------------|-----|---------------|---------|-----------------|--------------|-------------------|\n| TT IM fisiológico      | Homens >50a HHG  |~2000| +1–2kg (6m)   | +8–13%  | Nenhum/sutil    | ↑Hct, PSA    | A                |\n| TT “baixa-normal”      | Homens TT >350   |~900 | ~0 kg         | NS      | NS              | Risco igual  | A                |\n| Testosterona tópica    | Mulheres pós-MP* |~350 | +0,9kg (12m)  | ±       | NS              | Acne, hirsut.| B                |\n| Estrogênio/progesterona| Mulheres pós-MP  |~2100| ~0 kg         | NS      | NS              | ↑TEV        | A                |\n\n*Reposição em mulheres sem deficiência clinicamente estabelecida é fora de registro (off-label) no Brasil.\n\nNotas:\n- NS = Não significativo estatisticamente; HHG = Hipogonadismo hipergonadotrófico.\n- Adversidades incluem: eritrocitose, apneia do sono, risco CV potencialmente aumentado, alterações prostáticas em homens; acne/hirsutismo/virilização em mulheres; risco tromboembólico com estrogênios.\n\n---\n\n## 4. Critérios e Seleção: Diagnóstico de Deficiência, Rastreamento e Indicações\n\n### 4.1 Testosterona em Homens: Critérios Diagnósticos\n\n- **Sintomas clássicos**: Disfunção erétil, baixa libido, fadiga, perda de massa ou força muscular, osteoporose precoce.\n- **Confirmar laboratório**: TT em jejum 8–10h, repetido 2 vezes, < 230–280 ng/dL (< 8–10 nmol/L).\n- Avaliar SHBG e calcular testosterona livre se TT limítrofe ou alterações em SHBG (obesidade, DPOC, esteroides, tireoideopatia).\n\n#### Fluxo-resumo (Tabela 2):\n\n| Passo                                      | Justificativa                                 | Evidência |\n|---------------------------------------------|-----------------------------------------------|-----------|\n| Sintomas + TT baixa confirmada              | Critério gold standard                        | A         |\n| Sem sintomas, TT > 300 ng/dL                | NÃO repor                                     | A         |\n| Abaixo de 230–280 + sintomas clássicos      | Considerar reposição                          | A         |\n| Rastreamento populacional sem sintomas      | NÃO indicado                                  | A         |\n| Comorbidades graves (CA próstata, AVE, TEV) | CONTRAINDICAÇÃO absoluta                      | A         |\n\n### 4.2 Mulheres Pós-Menopausa\n\n- **Indicação registrada:** Única indicação de testosterona documentada por diretriz internacional: mulheres pós-ooforectomia (<50 anos) com HSDD refratária, após falha da reposição estrogênica** (diretriz sexológica, off-label BR).\n- Fora deste contexto, é uso não aprovado/ético (“hormônio cosmético”).\n\n---\n\n## 5. Conduta Clínica Detalhada\n\n### 5.1 Testosterona: Dose, Via, Formulação e Monitoramento\n\n#### 5.1.1 Homens\n\n- **Formas Registradas ANVISA:** Cipionato, enantato de testosterona IM; undecanoato IM; gel transdérmico.\n- **Doses usuais terapêuticas:**\n    - Cipionato/enantato: 100–200 mg IM a cada 2-3 semanas.\n    - Undecanoato: 1000 mg IM cada 10–14 semanas (após loading).\n    - Gel: 50–100 mg/dia aplicados na pele intacta.\n- **Manipulação estéril:** Apenas implantes hormonais de pellet (desde que farmácia tenha registro ANVISA categoria beta ou superior, seguindo BPF de manipulação estéril).  \n- **Estabilidade/cuidados:** Uso de seringas e vias IM profundas; não apostar em formulações orais (baixa biodisponibilidade e risco).\n- **Monitoramento:** TT total/livre, Hct, função hepática, PSA (se >40 anos), perfil lipídico, glicemia, exame de mamas/testículos pré e pós-início.\n\n#### 5.1.2 Mulheres\n\n- **Formas e doses (off-label):**\n    - Gel transdérmico “feminino” (0,5%): 300 mcg/dia; implante subcutâneo 50–100 mg a cada 3–6 meses (não registrado; manipulação restrita, sob responsabilidade).\n- **Monitoramento:** Virilização, acne, hirsutismo, perfil lipídico, função hepática, avaliação do risco trombótico e tumores hormônio-dependentes.\n\n#### 5.1.3 O Que NÃO Prescrever\n\n- Não usar testosterona, DHEA, GH ou SARMs para “performance”, estética, melhora de composição corporal em pacientes eugonádicos, idade avançada, “baixa normal” ou sem sintomas e deficiência laboratorial.\n- GH anti-aging, peptides ditos anabólicos, SARMs, research compounds — sem registro ANVISA, sem robustez — proibição expressa (vide [S1]).\n\n---\n\n## 6. Monitoramento, Segurança e Adversidades\n\n### 6.1 Homens\n\n**Principais riscos:**\n- Eritrocitose (>54%), apneia do sono piora, descompensação prostática (HPB, CA), fenômenos tromboembólicos, dislipidemia, aumento de ECV (risco ainda discutido).\n\n**Tabela 3. Parâmetros de monitoramento para reposição de testosterona em homens**\n\n| Parâmetro        | Frequência Inicial   | Intervenção se alteração  |\n|------------------|---------------------|--------------------------|\n| TT total/livre   | 3, 6, 12 meses      | Ajustar dose/interromper |\n| Hematócrito      | 3, 6, 12, anual     | >54%: suspender/venesse  |\n| PSA              | 3, 6, 12, anual     | ↑PSA: investigar/suspender|\n| Lipidograma      | 6, 12, anual        | Dislipidemia: tratar     |\n| Função hepática  | 6, 12, anual        | Alterar dose/cessar      |\n\n### 6.2 Mulheres\n\n- Acne/hirsutismo, alopecia, voz rouca irreversível, resposta cardiovascular indesejada.\n- Risco reprodutivo, virilização fetal (se gestante inadvertida).\n\n### 6.3 Contrapontos\n\n- Terapias neutras ou pouco eficazes em pacientes eugonádicos: revisar objetivos e pactuar expectativas.\n- Monitoramento rigoroso evita iatrogenia e potencial penalização ética e criminal.\n\n---\n\n## 7. Guia Ético e Regulatório no Brasil\n\n### 7.1 Deliberações do CFM\n\n- **Resolução 2.333/2023:** Proíbe uso estético/anti-aging de hormônios, incluindo testosterona e derivados, GH, SARMs, DHEA.\n- **Ética:** Implantes hormonais ou manipulados só podem ser empregados mediante indicação clara (deficiência laboratorial e clínica), com prescrição médica fundamentada, consentimento esclarecido e monitorização.\n- **Penalidades:** Conduta fora das indicações pode configurar infração ética grave, sujeita a sanções administrativas, civis e criminais, além de fiscalização sanitária.\n\n### 7.2 ANVISA\n\n- **Testosterona:** Cipionato, enantato, undecanoato, propionato registrados; manipulação só em farmácias autorizadas para produtos estéreis.\n- **Implantes hormonais:** Não há produto comercial, manipulação permitida restritivamente (procedimento invasivo, monitoramento rigoroso).\n- **Proibição de comercialização**: SARMs, “peptídeos anabólicos”, DHEA e afins, exceto em protocolos experimentais autorizados.\n\n### 7.3 WADA (Esporte)\n\n- Testosterona e análogos constam da lista de substâncias proibidas para atletas.\n- O uso em contexto esportivo, independentemente de finalidade, exceto TUE (Therapeutic Use Exemption) regulado, é infração dopagem.\n\n---\n\n## 8. O que NÃO Fazer: Armadilhas e Erros Comuns\n\n- Prescrever testosterona, GH, ou outros hormônios anabólicos para “performance” física, sarcopenia de envelhecimento normal, perda de peso ou estética/beleza.\n- Utilizar doses suprafisiológicas (“ciclos”) ou protocolos de influenciadores/mídias sociais.\n- Não monitorar Hct, PSA, perfil hepático/lipídico ou não checar contraindicações clássicas (CA próstata/mama, TEV, doença hepática grave…).\n- Usar peptídeos “antienvelhecimento” sem registro ou respaldo em ECRs em humanos ([S1]).\n- Realizar implantes de testosterona em farmácias sem rigor de manipulação estéril e rastreio de lote.\n- Prescrever para pacientes eugonádicos apenas para “otimizar massa magra”.\n\n---\n\n## 9. Pérolas Práticas e Checklist de Segurança\n\n### 9.1 Check-list Rápido\n\n- Sintomas + TT < 230? Sim → prosseguir rastreio.\n- Contradição absoluta (CA próstata, TEV, hepatopatia)? Sim → contra-indicado.\n- Consentimento esclarecido registrado.\n- Opção por via IM, gel ou implante? Confirmar manipulação estéril, procedência do produto.\n- Iniciar monitorando Hct, PSA, função hepática/lipídica.\n- Monitoramento frequente inicial — nunca “prescreva e esqueça”.\n- Consentimento e registro completo no prontuário.\n- Revisão periódica: interromper diante de eventos adversos ou ausência de benefício após 6 a 12 meses.\n\n### 9.2 Pérolas\n\n- A magnitude do ganho magro com testosterona substitutiva é modesta e restrita a hipogonadismo.\n- Mulheres tendem a maior risco de virilização; benefícios limitados a nicho “sexológico” (off-label).\n- Prótese legal e ética é tão relevante quanto farmacotécnica na prescrição hormonal.\n- “Normal baixo” NÃO é justificativa ética, legal ou clínica para intervenção hormonal.\n- Terapia hormonal mal indicada não evita sarcopenia do envelhecimento normal — priorize sempre estimulação física e nutrição correta.\n\n---\n\n## 10. Quick Reference (Card de Bolso)\n\n**Testosterona para sarcopenia/composição corporal**\n- Indicação: Apenas hipogonadismo comprovado (sintomas + TT <230 ng/dL em jejum, 2x).\n- Dose usual: Cipionato/enantato IM 100–200 mg a cada 2-3 semanas (ou equivalente).\n- Monitoramento: TT, Hct, PSA, função hepática/lipídica — início aos 3, 6, 12 meses.\n- Contra-indicação: Câncer próstata/mama, AVE/TEV ativos, apneia grave, hepatopatia.\n- NÃO usar: Para estética, performance, emagrecimento, “baixa-normal”.\n- Implantados: Procedência, registro e rastreio de lote obrigatórios.\n- Regra geral: Sempre considerar riscos legais (CFM 2.333/23, ANVISA, WADA).\n- Prioridade: Exercício resistido + nutrição adequada como força-base contra sarcopenia.\n\n---\n\n## 11. Caso Clínico Realista\n\n**Caso:** Sra. Maria, 58 anos, pós-menopausa, queixa-se de diminuição da força, leve perda do desejo sexual, cansaço. Sem histórico de histerectomia, sem contraindicações formais conhecidas. Exame: IMC 24, massa magra baixa (DXA), ausência de sinais virilizantes, valor de testosterona total 25 ng/dL. Bioquímica normal, sem fatores de risco cardiovascular ou tromboembólico. Já usou terapia estrogênica, com melhora parcial dos fogachos, mas sem impacto sobre força.\n\n**Alternativas de conduta:**\nA) Implantar testosterona subcutânea para ganho de massa magra.\nB) Iniciar testosterona gel 300 mcg/dia, sem monitoramento laboratorial, com objetivo de performance funcional.\nC) Otimizar exercícios resistidos e nutrição, não iniciar testosterona, monitorar evolução clínica.\nD) Iniciar DHEA em farmácia de manipulação.\n\n**Comentário:** A única indicação potencialmente aceitável para TD seria disfunção sexual grave, refratária a tratamento convencional (off-label, e mesmo assim requer monitorização rigorosa e consentimento documentado). Para sarcopenia isolada, NÃO há respaldo legal/ético.\n\n**Resposta Correta:**  \n**C)** Otimizar exercício e nutrição; não iniciar testosterona para fins de composição corporal.\n\n---\n\n## 12. Slides Didáticos\n\n### Slide 1: Título\n**Testosterona, Menopausa e Massa Magra: Critérios, Evidência e Limites Ético-Regulatórios**\n\n### Slide 2: Bases Fisiopatológicas\n- Testosterona: síntese e função anabólica\n- Declínio com idade\n- Impactos da menopausa sobre massa magra\n\n### Slide 3: Evidência Clínica Densa\nTabela: Ganhos absolutos de massa magra em ECRs (homem vs. mulher, TT baixo vs. normal, estrogênio)\n\n### Slide 4: Indicações Registradas/Off-label/Proibidas\n- Registrado: Hipogonadismo masculino bem documentado\n- Off-label: Mulher pós-ooforectomia com HSDD refratária\n- Proibido: \"Atalho\" esportivo, estética, SARMs, DHEA, peptides não registrados\n\n### Slide 5: Fluxo-Decisão Diagnóstico (Homem)\n- Sintomas? TT anterior?\n- TT <230 + sintomas → considerar reposição\n- TT normal / sem sintomas → não repor\n\n### Slide 6: Doses e Formas (Tabela)\n| Fármaco            | Via        | Dose usual           | Registro |\n|--------------------|------------|----------------------|----------|\n| Test. enantato     | IM         | 100–200 mg 2-3sem    | ANVISA   |\n| Gel Testosterona   | tópica     | 50–100 mg/dia        | ANVISA   |\n| Implante           | SC         | 75–200 mg/3–6m*      | Manip/β  |\n\n*Implante: uso manipulado, restrito, monitorização intensiva.\n\n### Slide 7: Monitoramento e Segurança\n- Hct, PSA, perfil lipídico/hepático\n- Riscos: eritrocitose, evento CV, virilização\n\n### Slide 8: Limites Legais/Ethicos (Tabela Split)\n| CFM n° 2.333/23 | ANVISA | WADA |\n|-----------------|--------|------|\n| Proíbe estética | Registro restrito | Bane atletas |\n\n### Slide 9: Conduta Segura — O que NÃO fazer\n- Não prescrever hormônio “para performance”\n- Não endossar research peptides, GH anti-aging\n- Não usar implantes sem rastreabilidade e boas práticas\n\n### Slide 10: Pérolas e Quick Points\n- Ganho magro modesto\n- Sempre priorizar treino + nutrição\n- Monitoramento rigoroso\n- Consentimento e registro\n\n### Slide 11: Caso Clínico Denso (split)\nCenário realista, respostas, discussão (vide seção caso)\n\n### Slide 12: Key Points & Checklist\n\n---\n\n## 13. Key Points (Resumo Premium)\n\n1. **Reposição hormonal só é indicada para deficiência comprovada (TT <230 + sintomas); jamais como atalho para estética ou performance.**\n2. **Ganho de massa magra com testosterona substitutiva é modesto e raramente funcional.**\n3. **Em mulheres, indicação legítima é raríssima e sempre off-label (sexologia); reposição para composição corporal NÃO é respaldada.**\n4. **Monitoramento rigoroso de Hct, PSA, perfil hepático/lipídico e busca ativa de adversidades, antes e após início.**\n5. **Proibição ética e legal de prescrição “anti-aging” com hormônios, implantes cosméticos ou research compounds não aprovados.**\n6. **Implantes/soluções injetáveis exigem manipulação estéril com registro, rastreio de lote e farmácias com BPF avançada.**\n7. **Sempre priorizar estratégias não farmacológicas — exercício resistido e nutrição adequada — como pilares contra sarcopenia.**\n\n---\n\n## 14. Referências (seleção crítica e fontes Doutiva)\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026. Evidência A.\n- Bhasin S, et al. Testosterone Therapy in Men with Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103(5):1715-1744.\n- Santen RJ, et al. Endocrine Treatment of Menopausal Symptoms. N Engl J Med. 2016;374:803-807.\n- Davis SR, et al. Global Consensus Position Statement on the Use of Testosterone Therapy for Women. J Clin Endocrinol Metab. 2019;104(10):4660-4666. [Off-label].\n- U.S. FDA/ANVISA registros. Lista de medicamentos registrado para terapia hormonal.\n- CFM Res 2.333/2023. Código de Ética Médica — uso de hormônios estéticos e anti-aging.\n- WADA Prohibited List (versão 2024).\n- Séries de casos e ECRs relevantes: Basaria S, et al. NEJM 2010; Snyder PJ, et al. J Clin Endocrinol Metab 2016; Fernandez-Balsells MM, Ann Intern Med. 2010.\n\n---\n\n**Este conteúdo é propriedade intelectual Doutiva® — Proibida reprodução sem prévia autorização.**",
+  "quick_ref": "# Quick Reference: Testosterona na Sarcopenia e Menopausa\n\n| Item                      | Detalhes                                                |\n|---------------------------|---------------------------------------------------------|\n| **Indicação**             | Hipogonadismo confirmado (sintomas + TT <230 ng/dL, 2x) |\n| **Doses Comuns**           | Cipionato/enantato IM 100–200 mg a cada 2-3 semanas; gel 50–100 mg/dia |\n| **Monitoramento Inicial** | TT total/livre, hematócrito, PSA (>40 anos), perfil hepático e lipídico aos 3, 6 e 12 meses |\n| **Contraindicações**      | Câncer próstata/mama, eventos trombóticos ativos, hepatopatias graves, apneia do sono grave |\n| **Uso proibido**          | Estético, anti-aging, performance em eugonádicos; SARMs, GH, DHEA sem indicação |\n| **Implantes manipulados** | Somente em farmácias com registro e manipulação estéril, com rastreio rígido |\n| **Recomendações prioritárias** | Exercício resistido e nutrição adequada sempre\n\n**NOTA:** Seguir sempre as normas CFM 2.333/2023, ANVISA e WADA para prescrição e monitoramento.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "58 anos"
+      },
+      {
+        "label": "Sexo",
+        "value": "Feminino"
+      },
+      {
+        "label": "Teste de testosterona total",
+        "value": "25 ng/dL"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, redução de força, discreto hipodesire sexual"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Ausentes"
+      },
+      {
+        "label": "Medicamentos prévios",
+        "value": "Terapia estrogênica para fogachos (melhora parcial)"
+      },
+      {
+        "label": "Exames complementares",
+        "value": "Bioquímica normal, DXA mostra massa magra baixa"
+      },
+      {
+        "label": "Contraindicações",
+        "value": "Nenhuma aparente"
+      }
+    ],
+    "title": "Mulher pós-menopausa com sarcopenia: como agir?",
+    "reward": 10,
+    "options": [
+      {
+        "label": "A) Implantar testosterona subcutânea para ganho de massa magra.",
+        "correct": false,
+        "rationale": "Implante de testosterona em mulher pós-menopausa para sarcopenia não é indicação aprovada, risco elevado de efeitos adversos e ilegal conforme normas CFM e ANVISA."
+      },
+      {
+        "label": "B) Iniciar testosterona gel 300 mcg/dia, sem monitoramento laboratorial, com objetivo de performance funcional.",
+        "correct": false,
+        "rationale": "Uso sem monitoramento e para performance é contrário a ética médica e legislação; não há suporte no caso clínico para testosterona."
+      },
+      {
+        "label": "C) Otimizar exercícios resistidos e nutrição, não iniciar testosterona, monitorar evolução clínica.",
+        "correct": true,
+        "rationale": "Conduta ética, segura e baseada em evidência; prioriza abordagem não farmacológica e monitoramento clínico antes de considerar terapia hormonal."
+      },
+      {
+        "label": "D) Iniciar DHEA em farmácia de manipulação.",
+        "correct": false,
+        "rationale": "Uso de DHEA manipulado sem indicação validada não é recomendado, carece de registro ANVISA e apresenta riscos desconhecidos."
+      }
+    ],
+    "question": "Qual a conduta mais ética e baseada em evidência para o manejo da Sra. Maria?",
+    "vignette": "Sra. Maria, 58 anos, pós-menopausa, queixa-se de redução de força e fadiga, com testosterona total de 25 ng/dL, bioquímica normal e sem contraindicações clínicas.",
+    "teaching": "A avaliação da Sra. Maria evidencia queda de massa magra associada à menopausa, com testosterona total abaixo do limite considerado normal, mas sem indicação formal para reposição hormonal, pois sua testosterona está baixa mas as evidências não apontam benefício claro de testosterona para sarcopenia isolada em mulheres pós-menopausa, além do potencial risco de virilização e outras adversidades. A conduta indicada prioriza otimização da atividade física com exercícios resistidos e acompanhamento nutricional, monitorando a evolução sem iniciar testosterona, respeitando a legislação brasileira e o código de ética médica. Uso indiscriminado de hormônios ou DHEA, especialmente sem monitoramento adequado, é contraindicado e pode acarretar riscos sérios e implicações legais."
+  },
+  "refs": [
+    {
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men with Hypogonadism: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103(5):1715-1744."
+    },
+    {
+      "citation": "Davis SR, et al. Global Consensus Position Statement on the Use of Testosterone Therapy for Women. J Clin Endocrinol Metab. 2019;104(10):4660-4666."
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 - Código de Ética Médica: uso de hormônios estéticos e anti-aging."
+    },
+    {
+      "citation": "WADA Prohibited List 2024."
+    },
+    {
+      "citation": "ANVISA - Registros e Normas para Hormônio Testosterona e Implantes."
+    }
+  ],
+  "status": "published"
+}

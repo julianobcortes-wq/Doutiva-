@@ -1,0 +1,397 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Fundamentos",
+  "module_position": 1,
+  "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio – O Mínimo Inegociável",
+  "description": "Abordagem clínica e laboratorial estruturada para prescrição criteriosa de hormônios, contemplando painéis laboratoriais específicos por sexo e idade, interferências, avaliação sintomática versus dados laboratoriais, avaliação de riscos e contraindicações, checklist rigoroso pré-prescrição, monitoramento e aspectos regulatórios brasileiros atualizados (CFM, Anvisa). Educacional para especialistas em endocrinologia, nutrologia e clínicos exigentes, focando na ética, evidência científica e regulatório nacional.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Avaliação clínica e laboratorial detalhada é inegociável antes da prescrição hormonal.",
+    "SHBG e interferências metabólicas/farmacológicas afetam interpretação — calcule testosterona livre e correlacione sintomas.",
+    "Prescrição off-label e manipulação só com documentação, sem alternativas registradas, e consentimento formal.",
+    "Monitoramento inicial e periódico rigoroso previne eventos adversos e mitiga riscos éticos.",
+    "Nunca indicar hormônios para estética, anti-aging ou performance sem déficit comprovado.",
+    "Siga estritamente as diretrizes CFM 2.333/2023 e normas ANVISA.",
+    "Documente detalhadamente cada etapa clínica e laboratorial no prontuário."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio – O Mínimo Inegociável",
+      "subtitle": "Aula Doutiva: Módulo Inaugural em Prescrição Hormonal Segura e Ética"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Medicações registradas na Anvisa (Categoria A)\n- Uso off-label documentado e justificado (B/C)\n- Manipulação estéril somente se ausência de análogos comerciais (B/C)\n- Prescrição irregular para fins estéticos ou anti-aging proibida (Categoria D)\n- CFM Resolução 2.333/2023 reforça limites éticos e legais",
+      "title": "Pirâmide da Evidência e Regulação no Brasil",
+      "source": "Resolução CFM 2.333/2023; Anvisa"
+    },
+    {
+      "head": [
+        "Situação Clínica",
+        "Sexo",
+        "Idade Estimada",
+        "Exames Laboratoriais",
+        "Repetição Recomendada",
+        "Interferências Comuns",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Hipogonadismo masculino",
+          "M",
+          "18–75",
+          "Testosterona total, SHBG, Alb, LH, FSH",
+          "2–3x manhã jejum",
+          "Obesidade, opioides, SNC, doenças crônicas",
+          "TSH, Prolactina se suspeita central"
+        ],
+        [
+          "Menopausa/sintomas vasomotores",
+          "F",
+          "≥45",
+          "FSH, LH, E2, TSH, PRL",
+          "1–2x conforme sintomas",
+          "Anticoncepcionais, glucocorticoides, tireoidopatias",
+          "<40 anos: excluir insuficiência ovariana primária"
+        ],
+        [
+          "SOP/androgenismo",
+          "F",
+          "14–50",
+          "Testosterona total/livre, SHBG, DHEA-S, 17-OHP, LH/FSH",
+          "1–2x ciclo folicular",
+          "Anticoncepcional, biotina",
+          "USG transvaginal, excluir tumores"
+        ],
+        [
+          "Insuficiência tireoidiana",
+          "M/F",
+          "Todas",
+          "TSH, FT4, T3, anti-TPO, anti-Tg",
+          "Se TSH fora dos limites",
+          "Amiodarona, lítio, ciclo menstrual",
+          "Sintomatologia e ATC em casos suspeitos"
+        ],
+        [
+          "Andropausa",
+          "M",
+          "≥50",
+          "Testosterona total, SHBG, LH, FSH",
+          "2x manhã jejum",
+          "DM2, obesidade, doenças agudas, AAS",
+          "Evitar testosterona isolada sem investigação"
+        ],
+        [
+          "Insuficiência adrenal",
+          "M/F",
+          "Todas",
+          "Cortisol 8h, ACTH, Na, K, Renina, Aldosterona",
+          "2x se limite",
+          "Estresse, depressão, hipoglicemia",
+          "Avaliação clínica complementar"
+        ],
+        [
+          "Deficiência GH",
+          "M/F",
+          "Crianças/Adultos",
+          "IGF-1, GH após estímulo",
+          "2x testes provocativos",
+          "Jejum, IMC",
+          "Usar só em déficit documentado"
+        ],
+        [
+          "Terapia hormonal trans",
+          "M/F*",
+          "Todas",
+          "E2, T, SHBG, hemograma, função hepática",
+          "Trimestral início",
+          "AAS, ARVs, outros hormônios",
+          "Monitorar trombofilias, poliglobulia"
+        ],
+        [
+          "Uso de implantes",
+          "M/F",
+          "Adultos",
+          "Painel hormonal completo, perfil hepático, renal, hemograma",
+          "Sempre antes do 1º implante",
+          "Infecção, estados inflamatórios",
+          "Não para fins estéticos isolados"
+        ]
+      ],
+      "title": "Tabela 1 – Painel Laboratorial Inicial por Situação Clínica",
+      "source": "Compilado Doutiva & Diretrizes Nacionais"
+    },
+    {
+      "head": [
+        "Hormônio/Exame",
+        "Interferência Principal",
+        "Magnitude/Prevalência",
+        "Conduta Recomendada"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Testosterona total",
+          "SHBG alterado (obesidade, DM2, hepatopatia)",
+          "Subestima valor livre até 40%",
+          "Dosar SHBG e albumina para cálculo de livre"
+        ],
+        [
+          "Estradiol (E2)",
+          "Fase do ciclo, biotina",
+          "Erro até 0,5 ng/dL",
+          "Colher D2–5 ciclo, suspender biotina"
+        ],
+        [
+          "Prolactina (PRL)",
+          "Estresse, microadenoma, medicamentos dopaminérgicos",
+          "Aumenta até 2–3x",
+          "Repetir em repouso e avaliar imagem"
+        ],
+        [
+          "Cortisol",
+          "Estresse, drogas, ritmo circadiano",
+          "Variação até 50% manhã/noite",
+          "Colher 8h, repetir se dúvida"
+        ],
+        [
+          "IGF-1",
+          "Nutrição, idade, disfunção hepática/renal",
+          "Redução em má nutrição e idade avançada",
+          "Interpretar no contexto clínico"
+        ],
+        [
+          "LH/FSH",
+          "ACO, ciclo menstrual, insuficiência ovariana",
+          "Resultados falsamente alterados",
+          "Preparo apropriado, suspender ACO que puderem"
+        ]
+      ],
+      "title": "Tabela 2 – Interferências Mais Prevalentes na Avaliação Hormonal",
+      "source": "Base Científica Doutiva e Literatura"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Sintomas sugestivos de deficiência/excesso hormonal"
+        },
+        {
+          "label": "2. Dosagem hormonal mínima em 2 ocasiões (preferencialmente manhã e jejum)"
+        },
+        {
+          "label": "3. Exclusão de causas secundárias e avaliação de interferências laboratoriais"
+        },
+        {
+          "label": "4. Estratificação de riscos e identificação de contraindicações absolutas"
+        },
+        {
+          "label": "5. Consulta regulatória (Anvisa, CFM)"
+        },
+        {
+          "label": "6. Consentimento livre e esclarecido formalizado"
+        },
+        {
+          "label": "7. Prescrição monitorada com plano de seguimento"
+        }
+      ],
+      "title": "Algoritmo Simplificado para Avaliação Pré-Terapia Hormonal"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "A) Prescrição imediata de testosterona intramuscular manipulada",
+          "B) Repetir testosterona total e SHBG em 2 ocasiões matinais, avaliar testosterona livre, reavaliar sintomas e causas secundárias",
+          "C) Solicitar IGF-1 e iniciar implantes de testosterona",
+          "D) Encaminhar para psiquiatria; fadiga pode ser psicossomática"
+        ],
+        "label": "A"
+      },
+      "right": {
+        "items": [
+          "Resposta correta: B",
+          "Justificativa: Confirmar diagnóstico com dosagens em condições ideais, analisar fração livre, descartar causas secundárias antes de prescrever. Conduta preciptada pode causar danos e riscos éticos."
+        ],
+        "label": "B"
+      },
+      "title": "Caso Clínico Denso para Discussão"
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist Estruturado para Prescrição Hormonal Segura",
+      "bullets": [
+        "1. Anamnese dirigida incluindo história familiar e uso de medicamentos",
+        "2. Exame físico segmentar com atenção a sinais relevantes",
+        "3. Painel laboratorial detalhado e repetido conforme faixa etária e sexo",
+        "4. Avaliação crítica dos resultados e exclusão de interferências conhecidas",
+        "5. Investigação de contraindicações absolutas e riscos clínicos",
+        "6. Consulta às bases oficiais e protocolos regulatórios",
+        "7. Documentação do consentimento consciente do paciente",
+        "8. Estabelecimento de plano de monitoramento laboratorial e clínico pós-prescrição",
+        "9. Registro detalhado das decisões e justificativas no prontuário"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Não prescrever hormônios para fins estéticos, anti-aging ou performance sem deficiência comprovada",
+          "Jamais usar peptídeos 'research' ou produtos sem registro e pureza certificada",
+          "Evitar testes laboratoriais não validados ou sem rastreabilidade",
+          "Não indicar tratamentos hormonais/manipulados sem base clínica/laboratorial robusta",
+          "Não aplicar terapias controversas (GH, testosterona, implantes) fora de indicação clínica",
+          "Manter atenção constante à legislação (CFM 2.333/2023, Anvisa)"
+        ],
+        "label": "A"
+      },
+      "right": {
+        "items": [],
+        "label": "B"
+      },
+      "title": "O que NÃO Fazer na Prescrição Hormonal"
+    },
+    {
+      "head": [
+        "Parâmetro",
+        "Frequência",
+        "Sinal de Alerta"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Testosterona livre",
+          "Trimestral inicial",
+          "Poliglobulia, PSA elevado"
+        ],
+        [
+          "Hematócrito",
+          "Trimestral inicial",
+          "Valores >54%"
+        ],
+        [
+          "Perfil hepático (ALT, AST)",
+          "Semestral",
+          "Aumento das enzimas"
+        ],
+        [
+          "Integridade e Pureza (implantes)",
+          "Antes e após implantes",
+          "Infecções, reações locais"
+        ],
+        [
+          "Perfil lipídico",
+          "Anual ou mais frequente",
+          "Alterações cardiovasculares"
+        ],
+        [
+          "Função tireoidiana",
+          "Semestral",
+          "Hipotireoidismo/hipertireoidismo"
+        ]
+      ],
+      "title": "Monitoramento Laboratorial e Clínico Pós-Prescrição",
+      "source": "Guia Clínico Doutiva 2024"
+    },
+    {
+      "kind": "pearl",
+      "text": "- SHBG é crucial na interpretação hormonal, especialmente em obesidade, diabetes e idosos.\n- Sintomas subjetivos requerem correlação rigorosa e frequentemente exames complementares como imagem.\n- Atualizar-se constantemente nas normas do CFM e Anvisa é imperativo para atuação ética e segura.\n- Documentação clara garante proteção legal e facilita auditorias clínicas e sanitárias.\n- Evite rotinas laboratoriais e prescrições sem embasamento clínico e laboratorial robusto.",
+      "title": "Pérolas Clínicas e Dicas Premium",
+      "source": "Experiência Doutiva e Literatura Atual"
+    }
+  ],
+  "monograph": "# Aula Doutiva: Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio — O Mínimo Inegociável\n\n## 1. Contexto e Relevância\n\nA prescrição criteriosa de hormônios (bioidênticos, tradicionais ou sintéticos), seja por via oral, transdérmica, injetável ou por implantes, exige uma abordagem clínica e laboratorial estruturada e atualizada. O cenário brasileiro de endocrinologia, nutrologia e clínica de longevidade se depara com polarizações entre terapias consagradas com registro sanitário e o uso crescente — muitas vezes sem embasamento robusto — de abordagens manipuladas ou off-label, frequentemente impulsionadas por pressões de mercado, falta de formação específica ou interpretações superficiais da literatura [S1].\n\nPortarias recentes do CFM (incluindo 2.333/2023) e notas técnicas da Anvisa intensificam a necessidade de rigor pré-terapêutico, especialmente diante de riscos de judicialização, eventos adversos e potenciais danos irreversíveis. Neste módulo inaugural, delinearemos o mínimo inegociável da avaliação clínica e laboratorial que antecede QUALQUER intervenção hormonal, com ênfase na aplicação em consultórios brasileiros de alto padrão — do diagnóstico de deficiência real até a estratificação de riscos e contraindicações absolutas.\n\n---\n\n## 2. Bases Científicas para Avaliação Hormonal\n\nA decisão de suplementar, substituir ou bloquear hormônios nunca deve ser pautada apenas por sintomas, nem apenas por números laboratoriais isolados. A literatura de maior evidência (diretrizes internacionais, metanálises e consensos, evidência nível A) destaca que sintomas de deficiência hormonal têm espectros variados conforme sexo, idade, contexto metabólico, uso de fármacos, ciclo menstrual, menopausa, andropausa, composição corporal, doenças crônicas e uso concomitante de outras terapias [S2, S14].\n\nAlém disso, exames hormonais estão sujeitos a interferências pré-analíticas, variações biológicas (ex: ritmo circadiano, ciclos, alimentação), medicamentosas e laboratoriais; assim, a repetição e a correlação clínica são passos obrigatórios, e não opcionais, principalmente quando valores se situam entre limites de referência [S1].\n\nPara qualquer iniciativa, do ECR ao uso manipulado, a pirâmide de evidência e o contexto regulatório brasileiro obrigam a separar:\n- Medicações hormonais **registradas** e aprovadas com indicações clássicas (A)\n- Usos **off-label** devidamente documentados e justificados (B/C)\n- Manipulação estéril apenas quando não houver análogos comerciais ou em condições formais documentadas pelo prescritor (B/C)\n- Prescrição irregular ou cosmética sem respaldo ético ou científico (D) — estritamente não recomendada [S1]\n\n---\n\n## 3. Painéis Laboratoriais Específicos: Sexo, Idade e Ponto de Corte\n\nA seguir, a sistematização dos principais exames hormonais, suas indicações obrigatórias e recomendações de repeat test, organizando por sexo, idade e relação sintomas-laboratório.\n\n### 3.1 Tabela 1 – Painel Laboratorial Inicial nas Principais Situações Clínicas de Deficiência/Excesso Hormonal\n\n| Situação Clínica             | Sexo | Idade Estimada | Exames Laboratoriais                                        | Repetição Recomendada  | Situações de Interferência                               | Observações                                              |\n|-----------------------------|------|---------------|-------------------------------------------------------------|-----------------------|----------------------------------------------------------|----------------------------------------------------------|\n| Hipogonadismo masculino     | M    | 18–75         | Testosterona total, SHBG, albumina, LH, FSH                 | 2–3x, manhã, jejum    | Obesidade, opioides, SNC, doenças crônicas               | Uso de E2, TSH, prolactina se suspeita central          |\n| Menopausa/sintomas vasomotor| F    | ≥45           | FSH, LH, E2, TSH, PRL                                       | 1–2x, conforme sintomas | Anticoncepcionais, glucocorticoides, tireoidopatias      | <40 anos: excluir insuficiência ovariana primária        |\n| SOP/androgenismo            | F    | 14–50         | Testosterona total/livre, SHBG, DHEA-S, 17-OHP, LH/FSH      | 1–2x, ciclo folicular | Anticoncepcional, biográficos, biotina                   | USG transvaginal e exclusão causas tumorais             |\n| Insuficiência tireoidiana   | M/F  | Todas         | TSH, FT4, T3 (prn), anti-TPO, anti-Tg                       | Se TSH <0.4 ou >4.5   | Amiodarona, lítio, biotina, ciclo menstrual              | Sinceralizar sintomas e ATC em casos suspeitos           |\n| Andropausa (idade ≥50)      | M    | ≥50           | Testosterona total, SHBG, LH, FSH                            | 2x, manhã, jejum      | DM2, obesidade, doenças agudas, AAS                      | Evitar testosterona isolada sem investigação            |\n| Insuficiência adrenal       | M/F  | Todas         | Cortisol (8h), ACTH, Na, K, renina, aldosterona              | 2x se resultado limítrofe | Estresse, depressão, hipoglicemia                       | Avaliar sinais clínicos e exames complementares          |\n| Deficiência GH              | M/F  | Crianças/adulto| IGF-1, GH após estímulo                                     | 2x com testes provocativos | Jejum, IMC, ingestão proteica                            | Usar estritamente em déficit com ECR registrado          |\n| Terapia hormonal trans      | M/F* | Todas         | Estradiol, testosterona, SHBG, hemograma, perfil hepático    | Trimestral no início   | AAS, ARVs, outros hormônios                              | Excluir trombofilias, monitorar poliglobulia            |\n| Uso potencial de implantes  | M/F  | Adultos       | Perfil completo hormonal, testes de função hepática, renal, hemograma | Sempre antes do primeiro implante e reaplicação | Inflamação, infecções, doenças sistêmicas, gravidez     | Não indicar para fins estéticos isolados (CFM 2.333/2023)|\n\n*Sexo biológico e sexo trans (determinar painel conforme terapia pretendida)\n\n#### Notas:\n- Sempre correlacionar sintomas, sinais físicos e pontuação/escala clínica com valores laboratoriais, especialmente quando resultados são indeterminados.\n- Para testosterona total: valores limítrofes (ex: 250–350 ng/dL) em homens exigem repetição e dosagem de SHBG para cálculo de testosterona livre [S1, BIBLIOTECA DOUTIVA].\n- SHBG deve ser obrigatoriamente dosado quando houver suspeita de alteração na ligação hormonal (obesidade, diabetes, uso de esteroides, hepatopatias).\n\n---\n\n## 4. Interpretação Crítica: Sintomas versus Números\n\nA abordagem moderna baseia-se no primado da medicina centrada no indivíduo, evitando tanto o \"tratamento laboratorial\" (hormonioterapia a partir de valores isolados) quanto a negação de sintomas incapacitantes frente a valores normais para a população, mas subótimos para o caso concreto. Princípios-chave:\n\n- Sempre desconfiar de 'deficiências' hormonais leves em pessoas assintomáticas (risco de medicalização/overuse).\n- Em sintomas significativos e valores limítrofes, repetir os exames em condições ideais (horário, jejum, ausência de doença aguda).\n- Priorizar sempre terapias aprovadas e, se for o caso de manipulação, documentar exaustivamente tentativa/falha prévia ou ausência de forma comercial [S1].\n- Em populações especiais (idosos, inférteis, pacientes oncológicos), ajustar os valores de referência e acompanhar a resposta bioclínica.\n\n---\n\n### 4.1 Tabela 2 – Interferências Mais Prevalentes na Avaliação Hormonal\n\n| Hormônio/Exame              | Interferência Principal                | Magnitude/prevalência (estimada)           | Conduta                                                  |\n|-----------------------------|----------------------------------------|--------------------------------------------|----------------------------------------------------------|\n| Testosterona total          | SHBG alterado (obesidade, DM2, hepata) | Subestima valor livre (até 40% dos casos)  | Dosar SHBG, calcular livre, avaliar albumina              |\n| E2 (estradiol)              | Fase do ciclo, biotina, anti-E2        | Até 0,5 ng/dL erro                         | Colher entre D2–5 do ciclo, suspender biotina antes       |\n| PRL                         | Estresse, microadenoma, dopaminérgicos | PRL↑ até 2–3x                              | Repetir em situações tranquilas, avaliar imagem sela turca|\n| Cortisol                   | Estresse, drogas, ritmicidade          | Variação até 50% entre manhã/noite         | Colher 8h, repetir se dúvida, correlacionar sintomas      |\n| IGF-1                       | Nutrição, idade, hepato/nefropatia     | ↓ em má nutrição ou avanço idade           | Avaliar em contexto (não isoladamente)                    |\n| LH/FSH                      | ACOs, ciclo, insuficiência ovariana    | FSH pode ser falsamente baixo ou alto      | Preparo cíclico, suspender ACO quando permitido           |\n\n---\n\n## 5. Seleção do Paciente e Estratificação de Risco\n\nA indicação terapêutica deve partir de algoritmo rigoroso:\n\n1. **Clareza do quadro clínico** — Sintomas clássicos (fadiga, perda/massa muscular, alterações sexuais, termorregulação, densidade mineral óssea, libido).\n2. **Confirmação laboratorial** — Mínimo de duas dosagens em condições ideais, considerando interferências e fisiologia do eixo em questão.\n3. **Avaliação de contraindicações absolutas** — história de câncer hormônio-responsivo, eventos trombóticos, cirrose descompensada, gestação, IC avançada.\n4. **Avaliação de risco cardiovascular e metabólico** — estratificação prévia obrigatória para testosterona, estrogênios, tireoide, GH.\n5. **Definição da via, dose e formulação** com base no registro regulatório e disponibilidade (ver item 7).\n\n---\n\n## 6. Checklist de Conduta Pré-Prescrição Hormonal\n\n### 6.1 Passo a passo (com referências da BIBLIOTECA DOUTIVA [S1])\n\n| Passo | Descrição                                                                                                     | Risco de ignorar                            | Evidência |\n|-------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------|-----------|\n| 1     | Anamnese dirigida (sintomas, história familiar, fármacos, comorbidades, tumores, trombose, infertilidade)    | Indicação inadequada, dano iatrogênico      | A         |\n| 2     | Avaliação clínica física segmentar (IMC, hirsutismo, atrofia, ginecomastia, acantose, psicossomático)        | Falha em identificar causas secundárias     | A         |\n| 3     | Exames laboratoriais completos e repetidos conforme painel e sexo (vide tabela 1)                            | Falso diagnóstico ou doença subjacente      | A         |\n| 4     | Interpretação crítica dos resultados; excluir interferências (vide tabela 2)                                 | Overdiagnosis e overtreatment               | A         |\n| 5     | Solicitação de exames complementares (imagem, função hepática/renal, perfil lipídico, hemograma)             | Eventos adversos não antecipados            | A         |\n| 6     | Consulta a bases de dados sobre registro na Anvisa e diretrizes CFM                                          | Judicialização, infração ética/sanitária    | A         |\n| 7     | Discussão franca e documento de consentimento esclarecido                                                    | Riscos legais e ético-deontológicos         | A         |\n| 8     | Definição de parâmetros de monitoramento (seguimento mínimo trimestral inicial)                              | Atraso em detectar eventos adversos         | A         |\n| 9     | Registro detalhado do racional e dos resultados no prontuário/protocolo                                      | Falha de rastreabilidade em auditoria       | A         |\n\n---\n\n### 6.2 Slide flow: Algoritmo Simplificado (Laboratório → Critério)  \n**1. Sintomas sugestivos → 2. Dosagem hormonal (mínimo 2x) → 3. Exclusão de causas secundárias/interferências → 4. Estratificação de riscos e contraindicações → 5. Verificação regulatória → 6. Consentimento e esclarecimento → 7. Prescrição monitorizada**\n\n---\n\n## 7. Monitoramento e Segurança Pós-Prescrição\n\nToda e qualquer terapêutica hormonal exige plano explícito de monitoramento. Aspectos mandatórios:\n\n- **Repetição laboratorial inicial**: entre 8–12 semanas do início, depois semestral em uso estável.\n- **Monitoramento de desfechos adversos**: PSA, perfil lipídico, poliglobulia/hematócrito, enzimas hepáticas, função tireoidiana, densidade mineral óssea, ferritina, transaminases.\n- **Vigilância para eventos agudos**: IC, AVC, IAM, fenômenos trombóticos, ginecomastia progressiva, disfunção hepática.\n\nA documentação de cada evolução/ajuste é ponto crítico, além do registro do racional terapêutico conforme as diretrizes [S1, S2]. No contexto manipulado, monitorar lote, estabilidade, validade do frasco e sempre exigir laudos de pureza.\n\n---\n\n## 8. Aspectos Regulatórios e Éticos no Brasil\n\n### 8.1 Delimitação de usos aprovados e vedados\n- O CFM veda “implantes e uso de hormônios para fins estéticos, antiaging ou melhora de performance em pessoas sem deficiência comprovada, sobretudo sem documentação clínica/laboratorial robusta” (Resolução 2.333/2023).\n- A prescrição manipulada só se justifica na ausência de análogo comercial ou em razão técnica registrada em prontuário.\n- A Anvisa exige origem rastreável, pureza certificada e boas práticas de manipulação estéril para fórmulas injetáveis/implantes.\n- GH — só aprovado para deficiência formal documentada, nunca para “rejuvenescimento” ou “bem-estar” [S1].\n- A WADA segue proibindo hormônios/peptídeos em atletas em contexto de performance.\n\n### 8.2 O que NÃO fazer — Orientações Premium Doutiva\n\n- Não prescrever peptídeos/hormônios baseando-se apenas em biografia, sintomas inespecíficos ou laboratórios isolados.\n- Não usar “research peptides” ou produtos sem registro, pureza garantida e rastreio documental.\n- Evitar testes rápidos de farmácia ou plataformas laboratoriais terceirizadas sem confirmação ISO e rastreável (risco de falso diagnóstico).\n- Jamais indicar GH, testosterona, estrogênios, implantes ou drip endovenoso para fins anti-aging, emagrecimento rápido ou “biohacking” sem déficit real documentado [S1].\n\n---\n\n## 9. Caso Clínico Denso — Ensino para Consultório Brasileiro\n\n**Paciente**: Masculino, 52 anos, queixa principal de fadiga persistente, redução de libido, emagrecimento involuntário nos últimos 8 meses. Antecedente de hipertensão controlada, IMC 28, uso regular de losartana. Sem tabagismo/etilismo.  \n**Exames recentes:**\n- Testosterona total 260 ng/dL (VR: 264–916)\n- SHBG 30 nmol/L (VR: 10–57)\n- LH 4,1 mUI/mL (VR: 1,7–8,6)\n- TSH 1,6 mUI/L (VR: 0,4–4,5)\n- Prolactina 13 ng/mL (VR: <17)\n- Ferritina 89 ng/mL (VR: 30–400)\n- Hematócrito 46%\n- Ureia/creatinina, perfil hepático e lipidograma normais\n\nQual a melhor conduta inicial?\n\nA) Prescrever testosterona intramuscular manipulada imediatamente devido ao quadro sugestivo e valor abaixo do mínimo.  \nB) Repetir dosagem de testosterona total e SHBG em 2 ocasiões matinais, avaliar testosterona livre, reavaliar sintomas e pesquisar comorbidades ou causas secundárias de hipogonadismo.  \nC) Solicitar exame de GH, IGF-1 e implante de testosterona, pois há sinais e sintomas compatíveis.  \nD) Encaminhar para psiquiatria, pois fadiga pode ser sintoma psicossomático.\n\n**Resposta Correta:** **B** — Justificativa: Apesar do sintoma e do valor discretamente baixo (aliás, próximo ao ponto de corte inferior), recomenda-se repetir a dosagem em pelo menos 2 manhãs diferentes, calcular testosterona livre (a partir de SHBG e albumina), reavaliar a intensidade e o início dos sintomas e, antes de terapêutica definitiva, descartar causas secundárias (obesidade, DM2, fármacos, doenças sistêmicas), bem como documentar contraindicações.  \n**Pearls**: Condutas precipitadas, especialmente sem confirmação laboratorial robusta e estratificação de risco, expõem o médico a censura ética, eventos adversos e judicialização. A manipulação só deve ser considerada após falha documentada de alternativas registradas quando disponíveis.\n\n---\n\n## 10. Slides Premium\n\n### Slide 1: Título\n**Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio – O Mínimo Inegociável**\n\n### Slide 2: Pirâmide da evidência e regulação (BR)\n- Registrado Anvisa (A)\n- Off-label documentado (B/C)\n- Manipulado bem indicado (C)\n- Não indicado: estético, bem-estar, anti-aging (D)\n- CFM 2.333/23: proibição categórica versus déficit comprovado\n\n### Slide 3: Checklist Estruturado\n1. Anamnese e escore sintomatológico\n2. Exame físico dirigido\n3. Laboratório inicial ampliado (vide Tabela 1)\n4. Interferências/lab critical (vide Tabela 2)\n5. Rastreio de contraindicações e fatores de risco\n6. Discussão e consentimento formal\n7. Registro completo e plano de monitoramento\n\n### Slide 4: Tabela densa — Painel Hormonal Sex/Age\n[Como na seção 3.1]\n\n### Slide 5: Interferências e Erros Freqüentes\n[Como na seção 4.1, tabela 2]\n\n### Slide 6: Sintomas versus Laboratório – Fluxo\nSintoma → Dosar 2x em jejum/manhã → Excluir causas secundárias/interferentes → Revisar registros → Consentimento/documentar → Prescrição (SE e SOMENTE SE critérios preenchidos)\n\n### Slide 7: Conduta Passo a Passo\n[Check & Flow resumido do item 6]\n\n### Slide 8: O que NÃO fazer — Riscos premium\n- Nunca para fins estéticos sem deficiência\n- Não “research peptide”\n- Não drip, GH anti-aging, testosterona sem déficit & contraindicações\n\n### Slide 9: Caso Clínico Split\nQuestão + racional comentado\n\n### Slide 10: Monitoramento — Tabela\nParâmetro | Frequência | Alerta para\n--- | --- | ---\nTestosterona livre | Trimestral inicial | Poliglobulia, PSA↑\nHematócrito | Idem | >54%\nPerfil hepático | Semestral | ↑ALT/AST\nImplante: integridade do dispositivo/lote | Sempre | infecção, rejeição\n\n### Slide 11: Pérolas e Dicas Premium\n- SHBG: o fiel da balança (obesidade, DM2, idosos)\n- Radiologia/tradução de sintomas subjetivos\n- Legislação CFM/Anvisa sempre documentada\n\n### Slide 12: Quick Ref & Key Points\n\n---\n\n## 11. Quick Reference de Bolso\n\n**1. Nunca prescrever hormônio sem pelo menos duas dosagens laboratoriais matinais e documentação clínica robusta.**  \n**2. SHBG, LH/FSH, PRL, TSH, perfil hepático/renal e contra-indicações sempre antes de iniciar, especialmente em implantes/manipulados.**  \n**3. Repetir sempre que resultados limítrofes, sintomas atípicos ou contexto interferente.**  \n**4. Consentimento e plano de monitoramento explícitos, com registro detalhado.**  \n**5. Atualize periodicamente o racional clínico conforme novas diretrizes e literatura.**\n\n---\n\n## 12. Key Points (5–7)\n\n1. **Avaliação clínica e laboratorial aprofundada é inegociável antes de QUALQUER prescrição hormonal.**\n2. **SHBG, interferências farmacológicas e contexto metabólico alteram a interpretação — calcule sempre frações livres e correlacione sintomas.**\n3. **Prescrição off-label ou manipulação só se justifica diante de ausência/fracasso de alternativas registradas, com documentação e consentimento formal.**\n4. **Monitoramento rigoroso inicial e periódico previnem (e documentam) desfechos adversos e minimizam riscos éticos/jurídicos.**\n5. **Jamais indique hormônios/implantes para estética, anti-aging ou performance sem déficit documentado — risco de infração ética e dano ao paciente.**\n6. **Siga rigorosamente CFM 2.333/2023, regras da Anvisa e boas práticas de manipulação para fármacos estéreis.**\n7. **Organize sempre dados clínicos no prontuário, justificando cada etapa, inclusive não-indicação quando critérios não forem preenchidos.**\n\n---\n\n## 13. Referências Reais\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI: 10.2337/dc10-s011\n- [S14] 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: J Am Coll Cardiol 2024. DOI: 10.1016/j.jacc.2023.08.017\n- Conselho Federal de Medicina. Resolução CFM nº 2.333/2023.\n- ANVISA. Determinações sobre prescrição e manipulação de hormônios — Boletins e NOTAS TÉCNICAS, 2022–2024.\n- BIBLIOTECA DOUTIVA, Painéis e consensos internos sobre hormônio/implantes (consultar pelo código específico conforme tema subspecialty).\n\n---\n\n**Material desenvolvido pelo corpo editorial Doutiva, com rigor científico atualizado e alinhamento pleno às regras brasileiras e à prática ética premium. Use, revise e consulte a cada paciente.**",
+  "quick_ref": "1. Prescrição hormonal exige ao menos duas dosagens laboratoriais matinais e documentação clínica clara.\n2. Sempre dosar SHBG e outros marcadores que possam afetar interpretação hormonal.\n3. Repetir exames se resultado limítrofe ou contexto interferente.\n4. Consentimento formal e plano de monitoramento são mandatórios.\n5. Nunca prescrever para fins estéticos ou anti-aging sem deficiência comprovada.\n6. Consulte as normas CFM 2.333/2023 e Anvisa antes de iniciar qualquer terapia.\n7. Documentação detalhada no prontuário protege paciente e profissional.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "Testosterona total",
+        "value": "260 ng/dL (VR 264–916)"
+      },
+      {
+        "label": "SHBG",
+        "value": "30 nmol/L (VR 10–57)"
+      },
+      {
+        "label": "LH",
+        "value": "4,1 mUI/mL (VR 1,7–8,6)"
+      },
+      {
+        "label": "TSH",
+        "value": "1,6 mUI/L (VR 0,4–4,5)"
+      },
+      {
+        "label": "Prolactina",
+        "value": "13 ng/mL (VR <17)"
+      },
+      {
+        "label": "Ferritina",
+        "value": "89 ng/mL (VR 30–400)"
+      },
+      {
+        "label": "Hematócrito",
+        "value": "46%"
+      },
+      {
+        "label": "IMC",
+        "value": "28"
+      },
+      {
+        "label": "Histórico",
+        "value": "Hipertensão controlada com losartana, não fumante/etilista"
+      }
+    ],
+    "title": "Paciente com suspeita de hipogonadismo masculino aos 52 anos – Manejo inicial",
+    "reward": 20,
+    "options": [
+      {
+        "label": "A) Prescrever testosterona intramuscular manipulada imediatamente.",
+        "correct": false,
+        "rationale": "Prescrição imediata é inadequada sem confirmação laboratorial repetida e manutenção da avaliação clínica rigorosa."
+      },
+      {
+        "label": "B) Repetir dosagens de testosterona total e SHBG em 2 ocasiões matinais, avaliar testosterona livre, reavaliar sintomas e causas secundárias.",
+        "correct": true,
+        "rationale": "É a conduta recomendada para confirmar diagnóstico, avaliar fatores interferentes e excluir causas tratáveis antes da terapia hormonal."
+      },
+      {
+        "label": "C) Solicitar exame de GH, IGF-1 e iniciar implante de testosterona.",
+        "correct": false,
+        "rationale": "Exames adicionais de GH não são prioridade aqui, e implantes prematuros não indicados sem avaliação criteriosa."
+      },
+      {
+        "label": "D) Encaminhar para psiquiatria, pois fadiga pode ser psicossomática.",
+        "correct": false,
+        "rationale": "Embora sintomas possam ser multifatoriais, exames mostram alteração hormonal que deve ser investigada antes de atribuir etiologia psiquiátrica."
+      }
+    ],
+    "question": "Qual a melhor conduta inicial para esse paciente?",
+    "vignette": "Masculino, 52 anos, fadiga persistente, redução de libido e perda peso leve nos últimos 8 meses. Hipertenso controlado, IMC 28, sem tabagismo ou etilismo. Laboratório mostra testosterona total de 260 ng/dL (VR: 264–916), SHBG 30 nmol/L, LH e TSH normais, prolactina e ferritina dentro de limites. Hematócrito 46%.",
+    "teaching": "Apesar do quadro sugestivo clínico e laboratorial (testosterona total ligeiramente abaixo do limite inferior), recomenda-se refazer as dosagens em ao menos duas manhãs diferentes para confirmar o diagnóstico, avaliar testosterona livre usando SHBG e excluir causas secundárias como obesidade e uso de opioides. Prescrição imediata de testosterona ou implantes não é indicada sem essa confirmação. O monitoramento e avaliação devem ser estruturados para evitar iatrogenias e garantir segurança e eficácia. O uso precoce de hormônios manipulados sem documentação expõe ao risco ético e jurídico."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva, 2026."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of Medical Care in Diabetes—2010. Diabetes Care 2010;33(Suppl 1):S11–S61. DOI: 10.2337/dc10-s011"
+    },
+    {
+      "citation": "2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation. J Am Coll Cardiol 2024; DOI: 10.1016/j.jacc.2023.08.017"
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM nº 2.333/2023."
+    },
+    {
+      "citation": "ANVISA. Notas técnicas e portarias sobre manipulação estéril e prescrição de hormônios, 2022–2024."
+    }
+  ],
+  "status": "published"
+}

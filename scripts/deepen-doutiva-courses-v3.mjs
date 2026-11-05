@@ -55,26 +55,43 @@ Profundidade obrigatória (produto premium Doutiva):
 - quick_ref de bolso; key_points 5–7.
 - Nunca endossar research peptides, GH anti-aging, drip sem deficiência ou implante cosmético sem critério.`;
 
+/** Postgres text rejects \\u0000 — strip nulls from all string leaves. */
+function sanitize(value) {
+  if (typeof value === "string") return value.replace(/\u0000/g, "");
+  if (Array.isArray(value)) return value.map(sanitize);
+  if (value && typeof value === "object") {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) out[k] = sanitize(v);
+    return out;
+  }
+  return value;
+}
+
 function redactCase(c) {
   if (!c) return null;
-  return {
+  return sanitize({
     title: c.title,
     vignette: c.vignette,
     data: c.data,
     question: c.question,
     options: (c.options || []).map((o) => ({ label: o.label })),
     reward: c.reward ?? 40,
-  };
+  });
 }
 
 function keysFromCase(c) {
   const opts = c.options || [];
   const correct = opts.findIndex((o) => o.correct);
+  const rewardRaw = Number(c.reward);
+  const reward = Number.isFinite(rewardRaw) ? Math.max(1, Math.round(rewardRaw)) : 40;
   return {
     correct_option: correct >= 0 ? correct : 0,
-    options: opts.map((o) => ({ label: o.label, rationale: o.rationale || "" })),
-    teaching: c.teaching || "",
-    reward: c.reward ?? 40,
+    options: opts.map((o) => ({
+      label: String(o.label || ""),
+      rationale: String(o.rationale || ""),
+    })),
+    teaching: String(c.teaching || ""),
+    reward,
   };
 }
 
@@ -163,8 +180,8 @@ async function deepenCourse(courseDef) {
       continue;
     }
     const elapsed = Math.round((Date.now() - t0) / 1000);
-    const clinical = generated.clinicalCase;
-    const patch = {
+    const clinical = sanitize(generated.clinicalCase);
+    const patch = sanitize({
       title: generated.title || spec.topic,
       description: generated.description,
       evidence_level: generated.evidence_level,
@@ -181,10 +198,18 @@ async function deepenCourse(courseDef) {
       reviewed_at: new Date().toISOString(),
       status: "published",
       updated_at: new Date().toISOString(),
-    };
+    });
     const { error: uerr } = await supabase.from("lessons").update(patch).eq("id", lesson.id);
-    if (uerr) throw uerr;
-    const keys = keysFromCase(clinical);
+    if (uerr) {
+      console.error("UPDATE_FAIL", courseDef.slug, spec.position, uerr.message);
+      summary.push({ position: spec.position, error: uerr.message });
+      writeFileSync(
+        `/tmp/deepen-v3/${courseDef.slug}/${spec.position}.error.json`,
+        JSON.stringify({ error: uerr.message }, null, 2),
+      );
+      continue;
+    }
+    const keys = sanitize(keysFromCase(clinical));
     const { error: kerr } = await supabase.from("lesson_case_keys").upsert(
       {
         lesson_id: lesson.id,
@@ -195,7 +220,11 @@ async function deepenCourse(courseDef) {
       },
       { onConflict: "lesson_id" },
     );
-    if (kerr) throw kerr;
+    if (kerr) {
+      console.error("KEYS_FAIL", courseDef.slug, spec.position, kerr.message);
+      summary.push({ position: spec.position, error: kerr.message, mono_saved: true });
+      continue;
+    }
 
     const snap = {
       position: spec.position,

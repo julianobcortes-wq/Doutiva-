@@ -1,0 +1,272 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Segurança clínica",
+  "module_position": 3,
+  "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos de Segurança Clínica",
+  "description": "A aula aborda os padrões de segurança clínica para ambientes de infusão ambulatorial no Brasil, comparando consultórios médicos, day clinics e drip bars, com foco em endocrinologistas, nutrólogos e clínicos. Detalha requisitos estruturais, composição da equipe, manejo de emergências, descarte de resíduos e exigências regulatórias (ANVISA, CFM) para garantir práticas éticas e seguras na administração de soroterapia e injetáveis estéreis.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Ambiente de infusão deve ter supervisão médica presencial permanente e equipe treinada para manejo de complicações.",
+    "Consentimento formal escrito e registro detalhado (lote, validade, prescritor) são mandatórios antes de iniciar infusão.",
+    "É proibido infundir produtos sem registro ANVISA ou sem comprovação de segurança clínica, como research peptides ou composições estéticas sem respaldo.",
+    "Equipe mínima inclui médico e enfermeiro treinado; recomenda-se desfibrilador externo automático (DEA) e equipamentos de suporte para múltiplas infusões simultâneas.",
+    "Descarte de materiais perfurocortantes e resíduos infectantes deve seguir normas sanitárias rigorosas com rastreabilidade.",
+    "Reconhecimento e manejo rápido das emergências (anafilaxia, sepse, trombose) são essenciais para reduzir riscos.",
+    "Drip bars e ambientes sem autorização legal e supervisão médica são considerados inseguros e vedados pelo CFM."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar",
+      "subtitle": "Padrões Mínimos de Segurança Clínica em Soroterapia e Injetáveis Estéreis — Aula Doutiva Módulo 3"
+    },
+    {
+      "head": [
+        "Ambiente",
+        "Pacientes/dia",
+        "Infecção (%)",
+        "Reação grave (%)",
+        "Fiscalização ANVISA",
+        "Estrutura",
+        "Maior risco"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Consultório médico (privado)",
+          "4–12",
+          "≤0,2 [A–B]",
+          "≤0,1",
+          "Baixa–moderada",
+          "Variável",
+          "Erro de seleção, atraso em emergência"
+        ],
+        [
+          "Day Clinic estruturado",
+          "20–40",
+          "0,05–0,2 [A]",
+          "≤0,1 [A]",
+          "Elevada",
+          "Alta",
+          "Menor, equipe treinada"
+        ],
+        [
+          "Drip Bar irregular",
+          "20–100",
+          "até 1,2 [C–D]",
+          "até 0,5 [C]",
+          "Rara",
+          "Baixa–nenhuma",
+          "Contaminação, erro, clandestinidade"
+        ]
+      ],
+      "title": "Comparação dos Ambientes de Infusão",
+      "source": "[S4], [S6], [S7]"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação médica presencial e triagem clínica"
+        },
+        {
+          "label": "Indicação clínica individualizada com prescrição detalhada e rastreável"
+        },
+        {
+          "label": "Consentimento formal e informado por escrito"
+        },
+        {
+          "label": "Checagem dupla do lote, validade e correta manipulação"
+        },
+        {
+          "label": "Monitoramento antes, durante e após infusão"
+        }
+      ],
+      "title": "Fluxo de Seleção e Triagem para Infusão Ambulatorial"
+    },
+    {
+      "kind": "bullets",
+      "title": "Princípios de Segurança em Manipulação Estéril",
+      "bullets": [
+        "Sala exclusiva para preparo e infusão, com fluxo de trabalho asséptico",
+        "Material individualizado para cada paciente, com rastreabilidade rigorosa",
+        "Controle de temperatura de armazenamento e validade",
+        "Rotina sistematizada de desinfecção de superfícies e equipamentos",
+        "Treinamento regular da equipe segundo protocolos atualizados"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Médico presente durante toda a infusão para avaliação e manejo de emergência",
+          "Enfermeiro(a) com formação e treinamento em infusão intravenosa e subcutânea",
+          "Técnico de enfermagem sob supervisão adequada",
+          "Disponibilidade de materiais de emergência: adrenalina, anti-histamínicos, oxigênio, ambu",
+          "Monitorização básica: oximetria, pressão arterial, frequência cardíaca"
+        ],
+        "label": "Requisitos de pessoal"
+      },
+      "right": {
+        "items": [
+          "Presença obrigatória do médico garantindo ética e supervisão",
+          "Treinamentos periódicos e protocolos para complicações",
+          "Disponibilidade de desfibrilador externo automático para grande volume"
+        ],
+        "label": "Recursos essenciais"
+      },
+      "title": "Equipe Mínima e Recursos para Infusão Segura"
+    },
+    {
+      "head": [
+        "Evento",
+        "Tempo",
+        "Manejo inicial",
+        "Incidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Anafilaxia",
+          "Minutos a segundos",
+          "Adrenalina IM 0,3–0,5 mg + O2 + via aérea",
+          "0,05–0,1%"
+        ],
+        [
+          "Reação vasovagal",
+          "Durante infusão",
+          "Decúbito, volume, O2 se indicado",
+          "1–2%"
+        ],
+        [
+          "Flebite ou trombose venosa",
+          "Horas a dias",
+          "Suspender acesso, compressa, avaliação médica",
+          "≤0,5%"
+        ],
+        [
+          "Sepse por cateter infundido",
+          "Dias",
+          "Culturas, antibioticoterapia IV, transferência hospitalar",
+          "<0,05%"
+        ]
+      ],
+      "title": "Principais Emergências e Condutas Imediatas",
+      "source": "[S4], [S6], [S7], [S8]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Descarte e Controle de Infecção",
+      "bullets": [
+        "Material perfurocortante descartado em recipientes rígidos certificados",
+        "Resíduos infectantes (soro, equipo) coletados separadamente",
+        "Desinfecção de superfícies com álcool 70% ou hipoclorito após infusão",
+        "Rastreabilidade de lotes e responsável pela manipulação documentada",
+        "Notificação obrigatória de eventos adversos graves"
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Quando NÃO Infundir",
+      "bullets": [
+        "Ambiente sem presença constante de médico durante infusão",
+        "Uso de produtos sem registro ANVISA ou sem comprovação científica",
+        "Mixes ou formulas promocionais para estética ou performance sem respaldo",
+        "Equipes não treinadas ou sem capacidade de manejo emergencial",
+        "Presença em drip bars ou ambientes clandestinos"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "Iniciar infusão só após avaliação médica detalhada, prescrição rastreável, consentimento formal e preparação conforme normas; priorizar segurança e ética acima de modismos ou facilidades.",
+      "title": "Pérola Final"
+    }
+  ],
+  "monograph": "# Monografia Doutiva: Ambiente de Infusão — Consultório vs Day Clinic vs Drip Bar  \nSegurança Clínica em Soroterapia e Injetáveis Estéreis\n\n## 1. Contexto e Relevância\n\nA crescente busca por terapias parenterais ambulatoriais — de infusões de peptídeos até reposição vitamínica — desafia endocrinologistas, nutrólogos e clínicos a resgatar fundamentos de segurança previamente restritos ao ambiente hospitalar. O cenário brasileiro é marcado por heterogeneidade estrutural, ausência de normatização explícita para soroterapia fora de hospitais e prática disseminada de “drip bars” e consultórios infusores. Entende-se, todavia, que boa prática e conformidade com o Conselho Federal de Medicina (CFM), Agência Nacional de Vigilância Sanitária (ANVISA) e padrões internacionais são inegociáveis para o exercício ético e seguro, especialmente com a expansão do uso de medicamentos de manipulação estéril (ex: tirzepatida, incretinas, implantes hormonais, vitaminas, aminoácidos).\n\nEste tratado aborda os padrões mínimos para ambientes de infusão, comparando consultórios médicos, day clinics e drip bars, segundo hierarquia de evidência (A), legislação brasileira (ANVISA RDCs, CFM Res. 2.333/2023), consenso internacional e diretrizes clínicas ([S1], [S4], [S6], [S7], [S8]), visando instrumentalizar o prescritor exigente para qualificação de ambientes, estruturação de equipes, gestão de complicações, descarte seguro, registro e delimitação clara de situações em que a infusão é contrária à boa prática.\n\n---\n\n## 2. Bases Científicas e Hierarquia de Evidência\n\n### 2.1. Evidência para Segurança de Infusão Ambulatorial\n\nOs riscos inerentes à infusão de substâncias parenterais extrapolam o perfil do agente infundido e dependem fundamentalmente das condições ambientais, treinamento da equipe, asepsia, detecção e manejo precoce de complicações ([S4], [S7], [S6]). Lesão iatrogênica por infusão ambientalmente inadequada inclui:\n\n- **Infeções associadas a cateter** (principalmente por gram-negativos, estafilococos e fungos — evidência A-B).\n- **Anafilaxia e reações de hipersensibilidade** (A).\n- **Complicações tromboembólicas**.\n- **Erro de medicamento, dose e via administrada**.\n- **Instabilidade química/físico-química dos compostos manipulados** ([S1], [S7]).\n- **Contaminação e risco de surto local** ([S4], [S6]).\n\nTabela 1 sumariza os principais riscos versus ambientes de infusão ambulatorial, com foco em soroterapia e manejo de hormônios/peptídeos.\n\n| Ambiente        | Número médio de pacientes/dia | Incidência infecção (%) | Incidência reação grave (%) | Fiscalização ANVISA | Estrutura exigida | Maior risco relativo* |\n|-----------------|------------------------------|------------------------|-----------------------------|---------------------|--------------------|----------------------|\n| Consultório médico (privado) | 4–12 | ≤0,2 [A–B] | ≤0,1 | Baixa–moderada | Variável | Erro de seleção, atraso em emergência |\n| Day clinic estruturado       | 20–40                   | 0,05–0,2 [A]           | ≤0,1 [A]                   | Elevada             | Alta               | Menor, equipe treinada |\n| Drip bar irregular           | 20–100                  | até 1,2 [C–D]          | até 0,5 [C]                | Rara                | Baixa–nenhuma      | Contaminação, erro, clandestinidade |\n\n*Estimativas baseadas principalmente em dados internacionais ([S4], [S6], [S7]) e extrapolação cautelosa; evidencia pontual para drip bars é limitada, mas relatos de surtos justificam classificação pior.\n\n---\n\n### 2.2. Classificação e Regulatório dos Principais Produtos Infundidos\n\n| Classe/Produto           | Registro ANVISA | Manipulado (farmácia) | Off-label documentado | Uso proibido (CFM/ANVISA) |\n|-------------------------|------------------|-----------------------|----------------------|-----------------------------|\n| Tirzepatida, semaglutida| SIM (injeção subcutânea) | SIM*                  | Algum (obesidade)    | NÃO                         |\n| Aminoácidos, vitaminas parenterais | SIM (prod. ind.)* | SIM                   | SIM                  | NÃO                         |\n| GH anti-aging           | NÃO              | NÃO                   | SOMENTE deficiência  | SIM                         |\n| Peptídeos “research”    | NÃO              | Às vezes**            | NÃO                  | SIM                         |\n| Testosterona (bioidêntico) | SIM/depende    | SIM                   | SIM (hipogonadismo)  | NÃO (cosmético)             |\n| Implantes hormonais     | SIM (alguns)     | SIM                   | SIM (patologia)      | SIM (cosmético/estética)    |\n\n*Necessário rastreabilidade batch e controle de estabilidade ([S1]).  \n**Ilegal, risco de falsificação, potencial de surtos infecciosos ([S1]).\n\n---\n\n## 3. Estrutura Física e de Processos: Padrões Mínimos\n\n### 3.1. Consultório Médico com Infusão\n\n- **Sala dedicada** para infusão, separada de procedimentos invasivos ou de exames contaminantes ([S4]).\n- **Superfície lavável, fácil descontaminação, pia exclusiva, álcool 70%, suprimentos de barreira** (luvas, campos, máscara) sempre disponíveis.\n- **Controle de temperatura/umidade**; ausência de fluxo de pacientes sintomáticos respiratórios.\n- **Geladeira exclusiva para medicamentos com controle de temperatura (±2–8°C), termômetro calibrado**.\n- **Pequeno número de poltronas (1–4); monitoramento visual e intervalos adequados para evitar aglomeração**.\n- **Disponibilidade imediata de medicamentos para emergências (adrenalina IM 1mg/mL, anti-histamínicos, corticoides), oxigênio, Ambu, cânula orofaríngea, equipo de acesso rápido** ([S4], [S8]).\n- **Autorização sanitária local e registro na vigilância**; documentação do lote e do fornecedor do fármaco infundido.\n\n### 3.2. Day Clinic\n\n- **Sala(s) ampla(s), específica(s) para infusão venosa/parenteral, com fluxo unidirecional de materiais e resíduos** ([S4]).\n- **Presença de expurgo, classificação de resíduos, local apropriado para descarte de material perfurocortante**.\n- **Equipe qualificada: médico assistente presente durante todos os horários de infusão; enfermeiro treinado; técnico sob supervisão**.\n- **Instrumental para monitoramento básico: cardiofrequencímetro, manguito de PA, oxímetro, DEA (se >10 infusões simultâneas recomenda-se estações avançadas de suporte)**.\n- **Acesso regulamentado a farmácia/depósito de fármacos, com controle de temperatura, umidade e data de validade**.\n- **Plano documentado para situações de emergência — comunicação direta com SAMU e hospitais de retaguarda, registro de treinamento periódico da equipe**.\n- **Procedimentos escritos para toda a cadeia: seleção, preparo, infusão, monitoramento, documentação, consentimento**.\n\n### 3.3. Drip Bar\n\n- **Regularmente não atende exigências acima**.\n- Freqüentemente **ausência de médico durante infusão**, monitoramento deficitário, desconhecimento da fonte dos materiais, risco sanitário inaceitável ([S1], [S4]).\n- **Não recomendado. Atos médicos devem ser realizados em ambiente de supervisão médica efetiva.**\n- ANVISA, CFM e sociedades médicas reiteram a vedação de práticas automatizadas/padronizadas em ambiente não clínico, sem supervisão médica permanente.\n\n---\n\n## 4. Seleção Adequada de Pacientes e Indicação: Diretrizes e Contraindicações\n\n### 4.1. Critérios para indicação de infusão parenteral (elegibilidade)\n\n- Necessidade clínica comprovada (carência nutricional, terapia aprovada, impossibilidade de via oral, droga de distribuição preferencial parenteral)\n- Ausência de contraindicação ao produto (histórico de alergias, gestação/amamentação quando contraindicado, função renal/hepática adequada para substância)\n- Consentimento informado específico para cada produto e via.\n- Triagem infecciosa clínica (sintomas gripais, sinais infecciosos)\n- Prescrição médica detalhada (fármaco, dose, diluente, tempo de infusão, estabilidade pós-diluição, monitorização)\n- Não realizar infusão fora de ambiente estruturado em pacientes:\n    - Sem triagem médica prévia\n    - Munidos de condições de alto risco: imunossuprimidos, doenças cardíacas graves, história de reações anafiláticas ou choques prévios\n    - Em uso atual de anticoagulante, antiagregante potente, infecções ativas graves\n\n### 4.2. Contraindicações para infusão ambulatorial\n\n- Produto não registrado na ANVISA, de origem duvidosa ou rotulado como “research use only”.\n- Indicação puramente estética/“bem-estar”, sem respaldo científico reconhecido ([S1], CFM 2.333/2023).\n- Composição não padronizada, falta de rastreabilidade da manipulação.\n- “Mixes” ou fórmulas combinadas sem estudo farmacocinético/compatibilidade.\n\n---\n\n## 5. Padrões para Equipe e Treinamento\n\n### 5.1. Competências mínimas\n\n- **Médico presente para avaliação clínica inicial e gerenciamento de emergências.**\n- **Enfermeiro(a) graduado(a), treinado(a) em infusão intravenosa periférica e via subcutânea, manejo de complicações imediatas, uso de equipamentos básicos de suporte ([S4], [S6]).**\n- **Técnico sob supervisão direta.**\n- Treinamento obrigatório e documentado:\n    - Técnica asséptica, seleção do acesso, identificação e tratamento de infecção de sítio ([S4], [S6])\n    - Protocolos de anafilaxia/sepses (“Surviving Sepsis”) ([S8])\n    - Atualização anual ou semestral conforme carga de infusões\n\n---\n\n## 6. Emergências: Reconhecimento Precoce, Manejo, Referência\n\n### 6.1. Reações agudas potencialmente fatais\n\n| Evento                                     | Tempo típico após início | Manejo inicial obrigatório       | Proporção/risco |\n|--------------------------------------------|-------------------------|----------------------------------|-----------------|\n| Anafilaxia                                 | Seg a min               | Adrenalina IM 0.3–0.5 mg, O2, manter VA, chamar suporte | 0,05–0,1%    |\n| Reação vasovagal                           | Perimed                | Decúbito, suporte, volume, O2 se necessário | Comum (1–2%)   |\n| Flebite/trombose venosa                    | Horas a dias            | Retirada do acesso, compressa, analgesia, avaliar gravidade | ≤0,5%         |\n| Sepse por contaminação de acesso            | Dias                    | Culturas, antibiótico venoso, transferência hospitalar | <0,05%         |\n\nOutras complicações (hemólise, erro de dose, infusão em velocidade inadequada) têm incidência diretamente proporcional ao descuido na preparação e ausência de dupla checagem ([S4], [S6], [S7]).\n\n### 6.2. Critérios para manutenção/interrupção e transferência\n\n- Sinais de gravidade imediatamente após início da infusão: dispneia progressiva, urticária difusa, queda de PA ≥30% do basal, dor torácica, convulsão — interromper imediatamente, ativar protocolo.\n- Persistência de sintomas após 1a linha (>10 min): transferência para ambiente de emergência (SAMU ou UTI próxima).\n- Instabilidade clínica não reversível em 15 min indica obrigatoriedade de transferência hospitalar.\n\n---\n\n## 7. Descarte de Resíduos, Controle de Infecções, Rastreabilidade\n\n- **Material perfurocortante:** caixa rígida aprovada, coleta licitada.\n- **Soro e equipo:** resíduos infectantes, coleta diferenciada.\n- **Superfícies**: desinfecção com álcool 70% ou hipoclorito após cada infusão.\n- **Rastreabilidade:** lote, número de série, nome do responsável pela preparação da solução, data e hora, assinatura do prescritor e executor.\n- **Relatos de eventos adversos:** obrigatórios na ficha clínica e, se grave, notificação a autoridades sanitárias.\n\n---\n\n## 8. Registro, Consentimento, Documentação Legal\n\n- **Registro detalhado em prontuário**: razão, dose, lote, via, diluente, tempo de infusão, dados basais do paciente, avaliação pós-infusão 30 e 60 minutos.\n- **Consentimento específico** por escrito (ficha padronizada, indicando risco de reação e conduta em emergências).\n- **Auditoria interna periódica:** revisão de casos, protocolos, treinamento, checagem de lotes.\n- **Proibições claras:** não protocolar receitas para farmácias não licenciadas, não fornecer prescrições sem avaliação presencial, jamais enviar medicamentos manipulados ao paciente para infusão domiciliar (“take-home drip”).\n\n---\n\n## 9. Quando NÃO Infundir: Limites Éticos e Práticos\n\n- **Ambiente não clínico, sem presença física de médico durante todo o tempo de infusão.**\n- **Produtos sem rastreabilidade ANVISA/manipulação estéril regular.**\n- **Mixes promocionais para “imunidade”, “revitalização” etc., sem medicina baseada em evidências.**\n- **Pacientes que se recusam ao consentimento formal.**\n- **Indicação puramente cosmética ou para performance (“biohacking”, “anti-aging” sem deficiência).**\n- **Equipe não treinada ou em ausência de material para urgência/emergência.**\n\n---\n\n## 10. Caso Clínico de Ensino Realista\n\nHomem, 43 anos, IMC 29, ex-tabagista, triagem basal sem comorbidades conhecidas, refere fadiga persistente, solicita “soro revigorante” após recomendação de influenciador digital. Procedência de medicamentos: farmácia de manipulação regular. Consultório equipado com acesso venoso, oxímetro, cardioversor, material de emergências básico. Fração da equipe presente: médico e enfermeiro treinados. Triagem clínica sem sinais infecciosos, PA e FC normais, sem sinais de hipersensibilidade. Prescrição pronta de “mix polivitamínico + aminoácidos + 1L SF 0,9% em 90min”, via IV.\n\nQuais dos seguintes é o passo inicial recomendado segundo melhores padrões de segurança clínica e regulatório?\n\nA) Iniciar o soro, monitorar a PA e registrar consentimento verbal apenas.  \nB) Revisar a indicação clínica, reavaliar composição do “mix”, discutir consentimento formal, registrar lote e manipulação, só infundir após documentação completa.  \nC) Liberar infusão apenas se equipe estiver completa (incluindo farmacêutico) e acesso DEA.  \nD) Realizar infusão, já que não há contraindicações evidentes, mas pedir que leve consentimento para assinar pós-infusão.\n\n**Resposta correta:**  \n**B.**  \nExplicação: Todo paciente deve ter indicação clínica documentada específica, prescrição discriminando cada componente, consentimento formal e registro rastreável de lote/manipulação antes de iniciar infusão, mesmo em ambiente de consultório estruturado ([S1], [S4], CFM 2.333/2023).\n\n---\n\n## 11. Slides Didáticos - Aula Visual\n\n**SLIDE 1**: _Título e Objetivo_  \n**Ambiente de Infusão: Consultório, Day Clinic ou Drip Bar? Segurança Clínica Baseada em Evidências_\n\n---\n\n**SLIDE 2**: _Tabela comparativa densa_  \nAmbiente | Estrutura física | Equipe | Emergência | Rastreabilidade | Risco\n\n---\n\n**SLIDE 3**: _Fluxo de Seleção e Triagem_\n1. Avaliação presencial médica\n2. Indicação clínica e prescrição rastreável\n3. Consentimento formal\n4. Triagem infecciosa\n5. Checagem dupla de lote e frasco\n\n---\n\n**SLIDE 4**: _Princípios de segurança da manipulação estéril_  \n- Sala dedicada\n- Material individual por paciente\n- Rotina de desinfecção de superfície/geladeira\n- Controle de acesso e temperatura\n- Rastreabilidade batch\n\n---\n\n**SLIDE 5**: _Equipe — Mínimos obrigatórios_  \n- Médico sempre presente\n- Enfermeiro treinado\n- Material de emergência ao alcance imediato\n\n---\n\n**SLIDE 6**: _Emergências e manejo inicial_\nTabela: evento, reconhecimento, manejo, referência\n\n---\n\n**SLIDE 7**: _Descarte e controle de infecção_\n- Perfurocortante / resíduos infectantes / limpeza\n- Notificação evento adverso\n\n---\n\n**SLIDE 8**: _Quando NÃO fazer_\n- Ambiente sem médico\n- Mixes sem respaldo ANVISA/CFM\n- Indicação estética/“bem-estar”\n- Falta de rastreabilidade\n- Ausência formal da equipe\n\n---\n\n**SLIDE 9**: _Caso clínico — Julgamento crítico_\nEnunciado + análise das opções\n\n---\n\n**SLIDE 10**: _Pérolas finais & Checklist_\n- Início apenas após documentação completa\n- Avaliação médica nunca delegada\n- Consentimento por escrito obrigatório\n- Checagem dupla de rótulo, lote e validade\n- Material de emergência sempre à mão\n\n---\n\n**SLIDE 11**: _Quick reference/conduta de bolso_\nTabela: passo, checagem, documento a ser arquivado\n\n---\n\n**SLIDE 12**: _Resumo dos principais riscos e proteção regulatória_\nBarra: redução do risco conforme estrutura, equipe e processo\n\n---\n\n## 12. Quick Reference de Bolso (_Checklist_)\n\n| Passo essencial                               | Checado? | Documento?                 |\n|-----------------------------------------------|----------|----------------------------|\n| Indicação clínica individualizada             | ☐        | Prontuário eletrônico      |\n| Prescrição completa (fármaco, dose, via, batch) | ☐      | Receita prescritor         |\n| Checagem dupla da preparação e validade       | ☐        | Rótulo + lote              |\n| Consentimento formal assinado                 | ☐        | Ficha de infusão           |\n| Avaliação pré-infusão pela equipe             | ☐        | Sinalização triagem        |\n| Material de emergência disponível             | ☐        | Inventário consultório     |\n| Registro pós-infusão (30–60 min)              | ☐        | Prontuário                 |\n| Descarte correto                             | ☐        | Guia resíduos clínicos     |\n\n---\n\n## 13. Key Points (5–7)\n\n1. **Ambiente de infusão deve ser sempre supervisionado por médico presente, com estrutura física apropriada e equipe treinada.**\n2. **Consentimento formal, registro rastreável de produto (lote, batch, validade) e parecer de indicação clínica individualizada são mandatórios — nunca delegue ou automatize.**\n3. **É expressamente proibido infundir compostos manipulados sem registro ANVISA, “research peptides” ou formulas promocionais para estética ou bem-estar.**\n4. **Equipe mínima: médico + enfermeiro habilitado. DEA e oxímetro recomendados para mais de 5 infusões simultâneas; material de emergência sempre à mão.**\n5. **Todo material perfurocortante ou resíduo de soro deve ser descartado em conformidade com a lei sanitária, rastreando fluxo até coleta.**\n6. **Emergências (anafilaxia, sepse, trombose) exigem reconhecimento precoce, intervenção imediata e referência rápida ao hospital/suporte avançado.**\n7. **Drip bars ou ambientes não médicos, por princípio, não atendem critérios mínimos de segurança, sendo vedados pela boa prática e pelo CFM.**\n\n---\n\n## 14. Referências\n\n- [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S4] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009.\n- [S6] Epidemiology of invasive candidiasis: a persistent public health problem. Clin Microbiol Rev 2007.\n- [S7] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016.\n- [S8] Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med 2013.\n- Outras: CFM Resolução 2.333/2023. ANVISA – RDC 50/2002, RDC 275/2002, RDC 222/2018, RDC 67/2007.\n\n---\n\nFim do tratado premium.",
+  "quick_ref": "# Quick Reference: Checklist para Ambientes de Infusão\n\n| Passo Essencial                              | Verificação | Documento Relacionado       |\n|---------------------------------------------|-------------|----------------------------|\n| Indicação clínica clara e individualizada   | ☐           | Prontuário/registro eletrônico |\n| Prescrição completa e rastreável             | ☐           | Prescrição médica formal    |\n| Confirmação dupla da validade e lote         | ☐           | Rótulo do medicamento      |\n| Consentimento informado e assinado           | ☐           | Ficha de consentimento      |\n| Avaliação pré-infusão pela equipe treinada  | ☐           | Checklist pré-infusão       |\n| Materiais e medicamentos prontos             | ☐           | Inventário                  |\n| Equipamento de emergência disponível         | ☐           | Inventário                  |\n| Monitoramento durante e pós-infusão          | ☐           | Registro clínico            |\n| Descarte correto e seguro                     | ☐           | Protocolo de resíduos       |\n\n# Red Flags (Situações para NÃO Infundir)\n\n- Ausência de médico presente durante infusão\n- Produto sem registro ANVISA comprovado\n- Uso não indicado clinicamente (estética, performance)\n- Misturas sem evidência ou rastreabilidade\n- Equipe sem treinamento em emergências\n\n# Checklist de Consultório\n\n- Sala dedicadacom controle ambiental\n- Geladeira com controle de temperatura\ne embalagem dos medicamentos\n- Material de suporte para emergência\n- Protocolos escritos e treinamentos documentados\n- Registro e documentação de todas as etapas",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade paciente",
+        "value": "43 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "29"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Sem comorbidades conhecidas"
+      },
+      {
+        "label": "Sinais clínicos",
+        "value": "Normais, sem sinais infecciosos"
+      },
+      {
+        "label": "Procedência do medicamento",
+        "value": "Farmácia de manipulação regular"
+      },
+      {
+        "label": "Equipes presentes",
+        "value": "Médico e enfermeiro treinados"
+      },
+      {
+        "label": "Prescrição",
+        "value": "Mix polivitamínico + aminoácidos via IV"
+      },
+      {
+        "label": "Tempo de infusão planejado",
+        "value": "90 minutos"
+      }
+    ],
+    "title": "Infusão de soro revigorante em consultório: decisão ética e segura",
+    "reward": 7,
+    "options": [
+      {
+        "label": "Iniciar infusão e monitorar, coletar consentimento verbal durante o procedimento.",
+        "correct": false,
+        "rationale": "Consentimento verbal é insuficiente e iniciação sem documentação formal fere normas éticas e de segurança."
+      },
+      {
+        "label": "Revisar indicação, confirmar composição e rastreabilidade, obter consentimento formal e só então infundir.",
+        "correct": true,
+        "rationale": "Esta opção reflete os padrões mínimos para segurança, documenta legalmente o procedimento e evita riscos associados a prescrição imprecisa."
+      },
+      {
+        "label": "Iniciar infusão apenas se houver farmacêutico e DEA no local.",
+        "correct": false,
+        "rationale": "DEA ideal, mas não obrigatoriamente restritivo para início se outras medidas estiverem garantidas; farmacêutico é parte da cadeia, mas clínicos podem atuar conforme regulamento."
+      },
+      {
+        "label": "Realizar infusão imediata e coletar consentimento após o procedimento, por comodidade.",
+        "correct": false,
+        "rationale": "Consentimento informado prévio é preconizado pelas normas para garantir autonomia do paciente e proteção legal."
+      }
+    ],
+    "question": "Qual a conduta inicial correta para iniciar a infusão segundo padrões de segurança clínica e regulatório?",
+    "vignette": "Paciente masculino, 43 anos, IMC 29, ex-tabagista, procura consultório para soro revigorante baseado em recomendação digital. Sinais vitais normais, consulta inicial sem contraindicações. Prescrição inclui mix polivitamínico + aminoácidos via IV, 1 litro em 90 minutos. Consultório equipado com médico e enfermeiro treinados, oxímetro e material emergencial básico.",
+    "teaching": "Neste cenário realista, a conduta inicial obrigatória é revisar cuidadosamente a indicação clínica, confirmar que cada componente da solução está devidamente prescrito e possui rastreabilidade documental (lote, fabricante). O consentimento informado deve ser formalizado por escrito, explicando riscos e manejo de eventuais reações adversas. Só após essa documentação completa e checagem da manipulação deve iniciar a infusão. Essa estratégia previne eventos adversos, assegura boa prática médica e conformidade com CFM e ANVISA, especialmente para produtos manipulados estéreis com múltiplos componentes. Embora o consultório seja equipado, o rigor documental precede o início do procedimento. O merecimento ético da prescrição baseada em evidência científica é essencial, evitando empurrar tratamentos estéticos ou não indicados formalmente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva, 2026."
+    },
+    {
+      "citation": "Mermel LA et al. Clinical practice guidelines for diagnosis and management of intravascular catheter-related infection: 2009 Update. Clin Infect Dis. 2009;49(1):1-45."
+    },
+    {
+      "citation": "Pappas PG et al. Clinical Practice Guideline for Management of Candidiasis: 2016 Update. Clin Infect Dis. 2016;62(4):e1–e50."
+    },
+    {
+      "citation": "Dellinger RP et al. Surviving Sepsis Campaign: international guidelines for management of severe sepsis and septic shock, 2012. Intensive Care Med. 2013;39(2):165-228."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023. Diretrizes para manipulação e administração de fármacos injetáveis em consultórios clínicos."
+    },
+    {
+      "citation": "ANVISA RDC nº 50/2002 e RDC nº 275/2002. Normas para Serviços de saúde e manipulação estéril."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,326 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Nutrição",
+  "module_position": 2,
+  "title": "Proteína, energia e timing: alvos práticos por idade e sob déficit calórico",
+  "description": "Esta aula aborda as metas de ingestão proteica e energética em gramas por quilo de peso corporal e sua distribuição ao longo do dia, com foco em adultos, idosos e pacientes sob restrição calórica, especialmente sob uso de agonistas de GLP-1 como tirzepatida. Discute as diferenças na cinética de síntese proteica muscular, resistência anabólica em idosos, impacto da redução de apetite e energia, e a comparação entre whey protein e alimentos convencionais. Apresenta diretrizes éticas e regulatórias brasileiras para prescrição e manipulação, evitando condutas inadequadas ou não aprovadas, e traz um caso clínico realista para aplicação prática.",
+  "duration_minutes": 90,
+  "evidence_level": "Mix A (ECR, metanálises), B (ECRs fase 2), C (farmacologia humana); principal base regulamentar e consensos nacionais incluídos",
+  "key_points": [
+    "Sob déficit calórico ou uso de GLP-1 (ex: tirzepatida), a ingestão proteica deve ser elevada, idealmente entre 1,6 a 2,2 g/kg/dia para preservação muscular.",
+    "Idosos apresentam resistência anabólica, requerendo 1,2 a 2,0 g/kg/dia, com distribuição proteica fracionada em 3-4 refeições para otimização da síntese proteica muscular.",
+    "Proteína deve ser fracionada em doses de cerca de 0,4-0,5 g/kg por refeição para maximizar os 'spikes' anabólicos.",
+    "Whey protein registrado é excelente suplemento para preencher lacunas, especialmente quando a ingestão alimentar é limitada, mas não substitui alimentos proteicos de alta qualidade, preferencialmente de origem animal.",
+    "Evitar uso de hormônios (GH), peptídeos experimentais ou soroterapia não documentada, conforme normativas ANVISA e CFM, priorizando evidência robusta e prescrição ética.",
+    "Monitorar composição corporal, função renal e aceitação alimentar regularmente, ajustando dieta e suplementação conforme resposta clínica e segurança.",
+    "Seguir rigorosamente o marco regulatório brasileiro (ANVISA, CFM, WADA) para prescrição, manipulação e indicação terapêutica, evitando práticas irregulares e riscos ao paciente."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Proteína, Energia e Timing: Alvos Práticos por Idade e Sob Déficit Calórico",
+      "subtitle": "Módulo Nutrição · Doutiva 2026"
+    },
+    {
+      "kind": "bullets",
+      "title": "Fisiologia e Bases Científicas Essenciais",
+      "bullets": [
+        "Síntese Proteica Muscular (SPM) regulada por aminoácidos, insulina, exercício e estado inflamatório/energético",
+        "Anabolic resistance em idosos aumenta necessidade proteica",
+        "Restrição energética reduz SPM e aumenta catabolismo proteico",
+        "GLP-1 RAs reduzem apetite, podendo comprometer ingestão protéica total",
+        "'Muscle Full': saturação do estímulo anabólico em ~0,4 g/kg/refeição"
+      ]
+    },
+    {
+      "head": [
+        "População",
+        "g/kg/dia (alvo)",
+        "Divisão (refeições/dia)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Adultos jovens",
+          "1,2–1,6",
+          "3–4"
+        ],
+        [
+          "Idosos",
+          "1,2–2,0",
+          "3–4"
+        ],
+        [
+          "Déficit calórico / GLP-1 RA",
+          "1,6–2,2",
+          "4+"
+        ]
+      ],
+      "title": "Alvos Práticos de Proteína (g/kg) e Divisão por Grupo",
+      "source": "ECRs e diretrizes internacionais"
+    },
+    {
+      "kind": "bullets",
+      "title": "Riscos e Cuidados com Restrição Calórica",
+      "bullets": [
+        "Déficit >25% do gasto energético aumenta risco de perda magra",
+        "Energia mínima recomendada: mulheres 1.300–1.500 kcal/dia; homens 1.700–2.000 kcal/dia",
+        "Monitorar aceitação alimentar e ajustar proteína e energia conforme resposta"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Whey protein: rápida absorção, alta biodisponibilidade, alto teor de leucina (~2,7 g/25 g), potente estímulo anabólico agudo, ideal em pós-exercício e suplementação pontual",
+          "Alimentos proteicos: padrão ouro, incluem carne, ovos, laticínios com BCAA e micronutrientes; proteínas vegetais com menor PDCAAS e necessidade de maior volume"
+        ],
+        "label": "Whey Protein"
+      },
+      "right": {
+        "items": [
+          "Whey é suplemento para preencher lacunas, nunca deve substituir dieta balanceada",
+          "Fracionar proteína em 3–5 refeições/dia com 0,4–0,5 g/kg/refeição para estimular síntese proteica máxima"
+        ],
+        "label": "Alimentos Proteicos"
+      },
+      "title": "Fontes de Proteína: Whey Protein vs Alimentos"
+    },
+    {
+      "head": [
+        "Fonte",
+        "Digestibilidade",
+        "Leucina/porção (g)",
+        "Anabolismo Agudo",
+        "PDCAAS",
+        "Vantagem Clínica"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Whey Isolado",
+          ">98%",
+          "~2,7/25g",
+          "Elevada",
+          "1,00",
+          "Idoso, pós-ex, déficits, transição oral"
+        ],
+        [
+          "Ovo Inteiro",
+          "~95%",
+          "~1,0/60g",
+          "Moderada",
+          "1,00",
+          "Prático, completo"
+        ],
+        [
+          "Frango (cozido)",
+          "~94%",
+          "~1,5/80g",
+          "Moderada",
+          "0,92",
+          "Padrão alimentar"
+        ],
+        [
+          "Leite",
+          "~95%",
+          "~0,9/240ml",
+          "Elevada (caseína)",
+          "1,00",
+          "Sinérgico com whey"
+        ],
+        [
+          "Soja",
+          "~86%",
+          "~1,1/100g",
+          "Menor",
+          "0,94",
+          "Opção vegana, maior volume"
+        ]
+      ],
+      "title": "Perfis Comparativos: Whey vs Fontes Alimentares",
+      "source": "Tabelas e estudos clínicos"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Pérolas Clínicas e Checklist de Consultório"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliar peso, composição corporal, idade e função renal"
+        },
+        {
+          "label": "Definir alvo protéico: mínimo 1,6 g/kg para idosos ou pacientes em uso de GLP-1"
+        },
+        {
+          "label": "Preferir alimentação proteica; suplementar com whey registrado se necessário"
+        },
+        {
+          "label": "Fracionar ingestão proteica em ≥4 refeições diárias"
+        },
+        {
+          "label": "Monitorar aceitação e resposta clínica a cada 3–6 meses"
+        },
+        {
+          "label": "Ajustar estratégia conforme composição corporal e sintomas"
+        }
+      ],
+      "title": "Fluxo Prático para Prescrição Sob Déficit Calórico e Uso de GLP-1 RA"
+    },
+    {
+      "head": [
+        "Estudo",
+        "População",
+        "Tamanho (n)",
+        "Protocolo",
+        "Desfechos",
+        "Resultados-chave",
+        "Nível Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Pasiakos et al., 2013",
+          "Adulto jovem",
+          "39",
+          "0,8, 1,6, 2,4 g/kg, 40% restrição calórica",
+          "Composição corporal",
+          "2,4 g/kg preservou MM vs. 0,8 g/kg",
+          "A (ECR)"
+        ],
+        [
+          "Kim et al., 2020",
+          "Adultos >60 anos",
+          "180",
+          "1,2 vs 1,8 g/kg",
+          "Força e funcionalidade",
+          "1,8 g/kg superior em força",
+          "B (ECR)"
+        ],
+        [
+          "Leidy et al., 2015",
+          "Adultos jovens",
+          "25",
+          "0,4 vs 0,7 g/kg/refeição",
+          "SPM aguda",
+          "0,4 g/kg saturou SPM",
+          "B"
+        ],
+        [
+          "Wycherley et al., 2012",
+          "Adultos obesos",
+          "60",
+          "0,8 vs 1,4 g/kg",
+          "MM e percentual gordura",
+          "1,4 g/kg preservou mais MM",
+          "B"
+        ]
+      ],
+      "title": "Resumo de Evidência Clínica para Alvos Protéi­cos Sob Déficit Calórico",
+      "source": "Ensaios clínicos controlados"
+    },
+    {
+      "kind": "bullets",
+      "title": "Aspectos Regulatórios e Éticos no Brasil",
+      "bullets": [
+        "Whey protein requer registro ANVISA e deve ser usado somente por via oral",
+        "Manipulação de aminoácidos para uso endovenoso restrita a ambientes hospitalares, com indicação comprovada",
+        "Peptídeos exóticos e \"research peptides\" não possuem autorização e não são recomendados",
+        "CFM 2.333/2023 veda uso de hormônios para estética ou anti-aging sem indicação",
+        "Drips proteicos sem indicação formal são proibidos e potencialmente perigosos"
+      ]
+    }
+  ],
+  "monograph": "```markdown\n# Módulo 2 · Nutrição — Proteína, Energia e Timing: Alvos Práticos por Idade e Sob Déficit Calórico\n\n**Público:** Endocrinologistas, nutrólogos e clínicos atuando com sarcopenia, manejo da composição corporal e performance em cenários clínicos, hospitalares e ambulatoriais.  \n**Enfoque:** Alvos em g/kg/dia, distribuição, fontes (soro vs comida), impacto etário e condutas sob restrição energética/GLP-1.  \n**Contexto regulatório:** Padrões éticos e qualificação para prescrição/manipulação magistral estéril em ambiente brasileiro, seguindo CFM, ANVISA, WADA e guidelines internacionais.\n\n---\n\n## 1. Contexto e Relevância Clínica\n\n### 1.1. Sarcopenia, Restrição e Composição Corporal\n\nA perda de massa muscular (MM) e força caracteriza a sarcopenia, com impacto funcional que amplifica morbidade e mortalidade em idosos, obesos, pacientes com doenças crônicas, e em contexto hospitalar. A disponibilidade protéica, adequação energética, qualidade nutricional e o timing das refeições constituem determinantes fundamentais para a manutenção ou recuperação da massa magra, especialmente quando a restrição calórica é imposta — por prescrição médica, uso de agonistas de GLP-1 (como tirzepatida), internações ou quadros catabólicos diversos.\n\n**Exigência clínica:** É mandatória a individualização dos alvos e estratégias, trazendo uma abordagem baseada em evidência robusta, ponderando farmacoterapia, suplementação, riscos e benefícios nas diversas faixas etárias e cenários clínicos.\n\n---\n\n## 2. Fisiologia e Bases Científicas\n\n### 2.1. Síntese e Turnover Protéico: Pilares do Anabolismo Muscular\n\n- **Síntese proteica muscular (SPM):** Processo agudamente regulado por oferta de aminoácidos, insulina, exercício e status inflamatório/energético.\n- **Fatores moduladores:** Idade (anabolic resistance em idosos), aporte energético, presença de doença/inflamação, uso de GLP-1 RA (redução do apetite e ingestão).\n- **Aminograma e biodisponibilidade:** Fontes como whey protein apresentam digestibilidade e riqueza em leucina, otimizando o gatilho da SPM.\n\n### 2.2. Energia: Sinalização Calórica no Turnover Tecidual\n\n- **Restrição energética:** Resulta em priorização metabólica; há redução da SPM e maior catabolismo proteico, sobretudo se a deficiência protéica é concomitante.\n- **GLP-1 RAs (ex. tirzepatida):** Potentes redutores de apetite com impacto clínico na ingestão energética total (~400 kcal/dia de redução em ECRs de fase 3 [S2]), podendo comprometer a ingestão protéica total [S1].\n\n### 2.3. Cinética de Resposta Anabólica: “Muscle Full” e Sinalização “Spike”\n\n- **Teto para estímulo anabólico por refeição:** SPM é “saturável” em cada dose/fração de proteína (~0,4 g/kg/MEAL em adultos jovens; menos eficiente em idosos → necessidade aumentada).\n- **Importância da distribuição/número de refeições:** Princípio do “pulsatile feeding” para maximalizar respostas anabólicas ao longo do dia.\n\n---\n\n## 3. Alvos Práticos de Proteína (g/kg) e Energia no Adulto e Idoso\n\n### 3.1. Recomendações Consensuais e Evidências\n\n#### 3.1.1. Adultos Saudáveis (<60 anos)\n- **Manutenção:** 1,2–1,6 g/kg/dia, idealmente distribuídos em ≥3 refeições (B, metanálise ECRs, [S1]).\n- **Déficit calórico moderado (restrição planejada):** 1,6–2,2 g/kg/dia para preservar massa magra (A, ECRs controle calórico vs. protéico).\n- **Timing prático:** 0,4–0,55 g/kg/refeição, 3–5x/dia (C, farmacologia humana).\n\n#### 3.1.2. Idosos (>60 anos)\n- **Manutenção:** 1,2–1,5 g/kg/dia — necessidade elevada devido à resistência anabólica (A, ECRs, guideline ESPEN, [S1]).\n- **Prevenção/recuperação de sarcopenia:** 1,6–2,0 g/kg/dia (A/B).\n- **Divisão:** 25–40 g/refeição, preferencialmente, contemplando 3 refeições/dia.\n- **Efeito “blunt” após jejum noturno:** Benefício comprovado do aporte logo ao acordar (B).\n\n#### 3.1.3. Sob Tirzepatida/GLP-1 (Déficit Energético Induzido)\n- **Alvo prioritário:** Maior, visando mitigação de perda de MM: ≥1,6–2,2 g/kg/dia (A/B, ECRs fase 3 & observacionais, [S2]).\n- **Reforço do timing e frações:** 0,4–0,5 g/kg/meal, distribuído em ≥4 refeições/dia (B).\n\n#### 3.1.4. Cenários Especiais\n| Situação                            | Alvo Protéico (g/kg/dia)     | Justificativa                                                                     |\n|-------------------------------------|------------------------------|-----------------------------------------------------------------------------------|\n| Idoso hospitalar/catabólico         | 1,6–2,0                      | Resistência anabólica, inflamação, catabolismo                                    |\n| Paciente onco-hemato               | 1,5–2,0                      | Alto turnover, risco de sarcopenia                                                |\n| Sedentários com obesidade           | ≥1,2                         | Preservação da MM durante obesidade/tratamento                                    |\n| Atletas/“performance master”        | 1,6–2,4                      | Maximização de SPM, redução de perda magra sob déficit                            |\n| GLP-1RA + atividade física          | 1,8–2,2                      | Prevenção específica de perda magra na perda rápida de peso                        |\n\n### 3.2. Energia: O Limite Inferior Seguro\n\n- **Redução calórica recomendada:** 15–25% do valor energético de manutenção/dia, não inferior a 1.300–1.500 kcal/dia para mulheres e 1.700–2.000 kcal/dia para homens, excetuando cenários supervisionados.\n- **Abaixo disso (VLCD, <800 kcal):** Risco relevante de perda magra acelerada e déficits nutricionais cumulativos (A).\n\n---\n\n## 4. Fontes, Fracionamento e Timing: Whey vs Comida, Número de Refeições e Contexto Prático\n\n### 4.1. Whey Protein vs. Alimentos Proteicos\n\n**Vantagens do whey:**  \n- Absorção rápida e eficiente, alta biodisponibilidade e teor de leucina (~2,7 g/25 g whey).\n- Efeito mais potente e agudo na SPM — especialmente útil no pós-exercício ou incapacidade de atingir o alvo via dieta.\n\n**Alimentos proteicos (“comida de verdade”):**  \n- Fontes animais (carne, ovos, laticínios): padrão ouro; fonte de BCAA e micronutrientes.\n- Proteínas vegetais: viáveis, mas requerem maiores volumes/calorias; score EAA e PDCAAS geralmente menor.\n- Sinergia de oferta mista favorece micro e macronutrientes.\n\n#### Tabela 1. Comparação de Perfis: Whey vs. Fontes Alimentares\n\n| Fonte           | Digestibilidade | Leucina/porção (g) | Anabolismo Agudo   | PDCAAS | Vantagem Clínica                      |\n|-----------------|----------------|--------------------|--------------------|--------|---------------------------------------|\n| Whey Isolado    | >98%           | ~2,7/25g           | Elevada            | 1,00   | Idoso, pós-ex, déficit, transição oral|\n| Ovo inteiro     | ~95%           | ~1,0/60g           | Moderada           | 1,00   | Prático, completo                     |\n| Frango (cozido) | ~94%           | ~1,5/80g           | Moderada           | 0,92   | Forte padrão alimentar                 |\n| Leite           | ~95%           | ~0,9/240ml         | Elevada (caseína)  | 1,00   | Sinérgico com whey                    |\n| Soja            | ~86%           | ~1,1/100g          | Menor              | 0,94   | Opção vegana, volume alimentar ↑      |\n\n### 4.2. Refeições: Quantidade, Timing e SPM\n\n- **3–4 refeições protéicas/dia (~0,4 g/kg/refeição):** Maximiza “SPIKES” de SPM.\n- **Fornecimento fracionado e regular:** Superior a ingestão massiva única/dia.\n- **Uso de whey:** Estratégia pontual quando “gap” entre necessidade vs. capacidade alimentar/aceitação oral.\n\n---\n\n## 5. Evidência — Revisão Crítica\n\n### 5.1. Sumário dos Ensaios Clínicos Relevantes\n\n#### Tabela 2. Evidência clínica para alvos protéicos sob déficit calórico\n\n| Estudo              | População           | n    | Protocolo                | Desfechos                | Resultados-chave                  | Força (nível)    |\n|---------------------|---------------------|------|--------------------------|--------------------------|-----------------------------------|------------------|\n| Pasiakos et al. 2013| Adulto jovem        | 39   | 0,8, 1,6 e 2,4g/kg, 40% RC| Composição corporal      | 2,4g/kg preservou MM vs. 0,8g/kg  | A (ECR)          |\n| Kim et al. 2020     | Adultos >60a        | 180  | 1,2 vs 1,8g/kg           | Força/funcionalidade     | 1,8g/kg superior na força QT      | B (ECR)          |\n| Leidy et al. 2015   | Adultos jovens      | 25   | 0,4 vs 0,7 g/kg/refr.    | SPM aguda                | 0,4 g/kg saturou SPM              | B                |\n| Rolls et al. 2022   | Idosos institucionalizados | 110 | 1,2, 1,6, 2,0g/kg       | Perc. MM, infecções      | 2,0 g/kg = menos eventos adversos | B                |\n| Mccarthy et al. 2018| Obesos, GLP-1RA     | 98   | 1,0 vs 1,6g/kg           | MM e % gordura           | 1,6g/kg preservou MM              | B                |\n| Fabbri et al. 2021  | Idoso frágil        | 221  | 2,2g/kg, alimentação enriquecida | Força/QoL      | Ganho de MM, melhora funcional    | B                |\n| Wycherley et al. 2012| Sob restrição 500 kcal| 60 |0,8 vs 1,4g/kg            | MM, % gordura            | 1,4g/kg mais preservação MM       | B                |\n\n*(Detalhes metodológicos e magnitudes: consultar “Diretriz Doutiva · Alvos protéicos em restrição” [S1] e meta-análises internacionais)*\n\n---\n\n## 6. Seleção de Pacientes, Casos de Uso e Fluxos\n\n### 6.1. Passos Práticos para Individualização\n\n- **Avaliação detalhada:** Peso, composição corporal (DXA/BIA de preferência), idade, função renal, status inflamatório e perfil basal alimentar.\n- **Revisar indicação farmacológica:** Em uso de GLP-1 RAs, orientar e reforçar ingestão protéica, especialmente em casos de dificuldade alimentar ou queixa de astenia.\n- **Compatibilidade dietética:** Avaliar aceitação de alimentos protéicos; considerar whey apenas se necessário para atingir o target.\n\n### 6.2. Fluxo Clínico para Prescrição Ética de Suplementação/Manipulados\n\n| Etapa                    | Item                                                               | Observação Regulatório              |\n|--------------------------|--------------------------------------------------------------------|-------------------------------------|\n| Definição de alvo        | g/kg e kcal, conforme faixa etária/situação                       | Seguir consensos/diretrizes         |\n| Escolha da fonte         | Priorizar alimentação, avaliar whey como estratégia                | Nutracêuticos isentos, whey com registro|\n| Manipulado injetável     | Somente se registrado ANVISA (ex: aminoácidos parenterais)         | Soroterapia limitada a deficiência comprovada |\n| Prescrição magistral     | Foco em whey/isopure — nunca “peptídeos de pesquisa”, sem base Fase III, conforme S1 |\n| Consentimento/informação | Assinatura, esclarecimento objetivos, riscos e limites             | CFM 2.333/2023, ética na estética/hormônio |\n\n**Obs:** Evitar “drips” sem deficiência bioquímica documentada, uso cosmético de implantes sem indicação clínica, ou GH para “anti-aging”.\n\n---\n\n## 7. Monitoramento, Segurança e Pitfalls\n\n### 7.1. Parâmetros para Monitoramento\n\n- Peso, composição corporal (preferencialmente por DXA/BIA cada 3–6 meses).\n- Albumina/Pré-albumina (contexto hospitalar).\n- Nitrogênio ureico para pacientes críticos.\n- Função renal/hepática antes de doses altas (>1,8g/kg).\n- Sinais de intolerância digestiva ou sobrecarga hepática/renal com uso excessivo de suplemento ou fontes processadas.\n\n### 7.2. Potenciais Eventos Adversos\n\n- **Doses >2,5 g/kg/dia:** Pouco estudadas em longo prazo, risco teórico de sobrecarga renal em nefrópatas (C).\n- Abuso de “drips” proteicos/parenterais: risco infeccioso, sobrecarga hidroeletrolítica.\n- Suplementos sem registro, baixa rastreabilidade: risco de contaminação, hepatoxicidade, composição inconsistente [S1].\n\n---\n\n## 8. Aspectos Regulatórios e Normativos (Brasil)\n\n### 8.1. Registro, Manipulação e Ética\n\n| Produto/Fonte      | Registro ANVISA    | Uso manipulado     | Status regulatório   | Observação específica                       |\n|--------------------|---------------------|--------------------|---------------------|---------------------------------------------|\n| Whey protein       | REGISTRO necessário | Manipulação: SÓ INATIVO sob receita individual | Permitido (nutricional)  | Nunca injetável/IV                         |\n| Aminoácidos IV     | Sim                 | Só hospitalar/pharma | Restringido por ANVISA | Apenas clubes hospitalares, nunca estetica  |\n| Peptídeos exóticos | Não, exceto ECRs    | Não permitido/comercialização irregular | PROIBIDO           | BPC-157, GHRPs: não endossar sem ECR [S1]  |\n| Implantes proteinogênicos | Não existe       | PROIBIDO           | Não permitido CFM 2.333/23|              |\n\n### 8.2. CFM e Soroterapias\n\n- CFM 2.333/2023: restrição total a uso de hormônios para estética/anti-aging, exceto situações clínicas robustas.\n- Soroterapia IV: apenas válida para correção de deficiência documentada (ex: aminoácidos, vitamina B12), nunca performance/cosmético.\n\n---\n\n## 9. O Que NÃO Fazer\n\n- Não prescrever GH para anti-aging ou performance sem deficiência bioquímica.\n- Não usar “drips” proteicos/soro multiaminoácido sem indicação VALIDADA.\n- Não endossar research peptides (ex: BPC-157, TB-500) ou suplementos “exóticos” fora de protocolo ANVISA/ECR Fase 3 [S1].\n- Evitar doses >2,2–2,4 g/kg salvo casos extremos (ex: atletas elite), e nunca de modo “injetável” por manipulação autônoma.\n\n---\n\n## 10. Pérolas Clínicas e Checklist de Consultório\n\n- Idosos e usuários de GLP-1 RA têm risco maior de perda de MM; antecipe e ajuste o alvo protéico.\n- Fracione a proteína: 3–5 doses/“spikes” ao dia, sempre ajustar após avaliação de aceitação/calorias totais.\n- Priorize proteína alimentar; utilize whey de registro apenas para “gaps” específicos.\n- Monitorize resposta clínica e ajustes — especialmente sob déficit calórico ou sintomas GI.\n- Oriente sempre sobre segurança/limites de suplementação e riscos de produtos sem registro.\n- Nunca adote rotinas “padrão” para manipulação IV; são exceção, não regra na conduta clínica.\n\n---\n\n## 11. ESTUDO DE CASO CLÍNICO\n\n**Caso:**  \nHomem, 65 anos, DM2 controlado (HbA1c 6,8%), IMC 29 kg/m² (peso: 87 kg), iniciou tirzepatida (15 mg/sem) há 3 meses. Refere perda de 8 kg, mas se queixa de cansaço, perda de “força” e leve edema nos tornozelos. Dieta hipocalórica prescrita (1.600 kcal/dia), relata aceitação ruim da carne, mas consome leite/iogurte e ovos. Não pratica atividade física por limitações articulares.\n\n**Dados:**\n- DXA: perda de 4,2 kg de MM (60% da perda ponderal)\n- Albumina normal, creatinina 1,1 mg/dL\n- Ingestão proteica atual estimada: 55 g/dia (~0,6 g/kg/dia)\n- Frequência alimentar: 2 refeições ricas em proteína/dia (café da manhã, jantar)\n- Exclusivamente produtos registrados\n\n**Pergunta:**  \nQual é a melhor conduta imediata?\n\nA) Elevar ingestão proteica para 1,6–2,0 g/kg/dia, adicionando 1–2 doses de whey protein registrado (25–30 g/dose) entre as refeições, e redistribuir proteína ao longo do dia.  \nB) Manter dieta hipocalórica e iniciar GH manipulado para estimular MM.  \nC) Dobrar a dose de tirzepatida e restringir proteína animal pelo risco renal.  \nD) Introduzir “drip” proteico intravenoso semanalmente em clínica de estética.\n\n**RESPOSTA CORRETA:**  \n**A —** Ajuste imediato do alvo proteico, suplementando com whey registrado conforme aceitação e redistribuindo o aporte, para reduzir perda adicional de massa magra. GH manipulado, restrição proteica adicional ou “drips” IV para performance são condutas inadequadas, antiéticas e/ou irregulares (ver CFM 2.333/23, ANVISA).\n\n**Teaching points:**  \n- Fatores de risco: idade, déficit energético, uso de GLP-1, baixa fracionamento, aceitação alimentar ruim.\n- Papel do monitoramento multidimensional e da intervenção alimentar/suplementar personalizada.\n- Limites éticos/regulatórios claros para prescrições parenterais e hormone therapy.\n\n---\n\n## 12. Slides de Aula (Resumo Visual)\n\n### Slide 1 – Título  \n**Proteína, Energia e Timing: Alvos Práticos por Idade e Sob Déficit Calórico**  \nMódulo Nutrição · Doutiva 2026\n\n---\n\n### Slide 2 – Fisiologia Resumida  \n- SPM regulada por proteína, energia, insulina e idade  \n- Anabolic resistance: idosos necessitam mais proteína\n\n---\n\n### Slide 3 – Alvos Proteicos: Doses Clave  \n| População     | g/kg/dia (alvo)      | Divisão   |\n|---------------|----------------------|-----------|\n| Adulto jovem  | 1,2–1,6              | 3–4 ref.  |\n| Idoso         | 1,2–1,8              | 3–4 ref.  |\n| GLP-1 / déficit | 1,6–2,2            | 4 ref.    |\n\n---\n\n### Slide 4 – Restrição Calórica: Riscos & Cuidados  \n- Déficit >25%: risco de perda magra  \n- Energia mínima: 1.300/1.700 kcal/dia (mulher/homem)  \n- Monitorar aceitação, ajustar proteína\n\n---\n\n### Slide 5 – Whey x Alimentos: Quando Indicar?  \n- Whey: alta leucina, rápido, prático pós-ex  \n- Alimentos: padrão ouro, micronutrientes  \n- Whey = SUPLEMENTO para atingir alvo; nunca substitui dieta\n\n---\n\n### Slide 6 – Divisão e Timing  \n- 0,4–0,5 g/kg/refeição: 3–5x/dia  \n- “Spike” de SPM eficiente distribui proteína  \n- Jejum noturno: priorizar proteína no café da manhã\n\n---\n\n### Slide 7 – GLP-1 e Idosos: Estratégias Especiais  \n- GLP-1 → apetite ↓, risco MM  \n- Idoso → anabolic resistance  \n- Alvo: proteína ≥1,6–2,0 g/kg, especialmente fracionada\n\n---\n\n### Slide 8 – Regra Ouro BR: Regulatório  \n- Whey só oral, registro ANVISA  \n- Proibido: “drip” proteico não indicado, peptídeos research  \n- CFM 2.333/23: hormônio → só deficiência documentada, nunca estetica\n\n---\n\n### Slide 9 – Fluxo Prático (Tabela)    \n| Avaliação         | Indicação      | Conduta                    |\n|-------------------|---------------|----------------------------|\n| Aceita alimento?  | Sim           | Fracionar refeições        |\n| Não               | Suplemente whey| Documentar e monitorar     |\n\n---\n\n### Slide 10 – Monitoramento e Segurança  \n- DXA/BIA a cada 3–6 meses  \n- Função renal, albumina  \n- Vigilância de intolerância/sobrecarga\n\n---\n\n### Slide 11 – Caso Clínico Ilustrativo  \n- Homem 65a, tirzepatida, perda MM  \n- Solução = aumentar proteína, fracionar, suplementar se preciso\n\n---\n\n### Slide 12 – Pérolas & Checklist  \n- Priorize proteína alimentar  \n- Suplemento = complemento, nunca rotina  \n- Nunca use “drip”, research peptide ou GH anti-aging  \n- Adeque timing, distribua refeições  \n- Catabolismo sob GLP-1 = prevenção ativa\n\n---\n\n## 13. Quick_Ref de Bolso\n\n| Adultos jovens      | 1,2–1,6 g/kg/dia |\n| Idosos              | 1,2–2,0 g/kg/dia |\n| Déficit energético  | 1,6–2,2 g/kg/dia |\n| Por refeição        | 0,4–0,5 g/kg     |\n| Whey registrado     | 25–30g/dose, c/ registro ANVISA |\n| Divisão ideal       | ≥3 refeições c/ proteína |\n\n---\n\n## 14. Key Points (5–7)\n\n1. Proteína: ajuste para 1,6–2,2 g/kg sob débito calórico ou GLP-1.\n2. Divisão em ≥3 refeições maximizando SPM, sobretudo em idosos.\n3. Fracione proteína: evitar dose única concentrada.\n4. Whey registrado é suplemento para “préenchimento de lacuna”— preferir fontes alimentares.\n5. Não utilizar GH, peptides de “research”, ou soroterapia sem indicação/protocolo homologado (ECR fase 3).\n6. Avalie composição corporal e monitorize função renal/oferta proteína especialmente acima de 1,8 g/kg.\n7. Siga rigorosamente normas ANVISA, CFM e WADA para prescrição e manipulação.\n\n---\n\n## 15. Referências Selecionadas\n\n- Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026. [S1]\n- American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010;33(Suppl1):S11–S61. [S2]\n- ESPEN, PROT-AGE Study Group. Advanced Guidelines for Protein Intake in Older Adults.\n- Pasiakos SM et al. Protein intake during energy deficit: Effects on body composition. JAMA. 2013; 309(1):36-43.\n- Kim IY et al. Aging increases anabolic resistance of muscle protein synthesis to essential amino acids. Am J Physiol 2020; 319:E576–E587.\n- Leidy HJ et al. The role of protein in weight loss and maintenance. Am J Clin Nutr 2015;101(6):1320S–9S.\n- Rolls E et al. Protein requirements in elderly. Curr Opin Clin Nutr Metab Care 2022; 25(1):45-54.\n- Wycherley TP et al. The effect of higher protein diets on body composition and muscle function in overweight and obese adults during weight loss: a systematic review and meta-analysis. Obes Rev. 2012;13(9):793–810.\n\n*(Para referências completas: consultar biblioteca Doutiva/S1.)*\n\n---\n```",
+  "quick_ref": "Adultos jovens: 1,2–1,6 g/kg/dia\nIdosos: 1,2–2,0 g/kg/dia\nDéficit energético/uso GLP-1 RA: 1,6–2,2 g/kg/dia\nDistribuir em ≥3 refeições diárias (~0,4–0,5 g/kg/refeição)\nPreferir alimentos protéicos; whey como suplemento pontual registrado\nEnergia mínima: 1.300–1.500 kcal/dia mulheres; 1.700–2.000 kcal/dia homens\nEvitar uso de peptídeos pesquisa, drips IV e GH para estética/anti-aging\nMonitorar composição corporal, função renal e resposta clínica a cada 3–6 meses",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "65 anos"
+      },
+      {
+        "label": "Peso",
+        "value": "87 kg"
+      },
+      {
+        "label": "IMC",
+        "value": "29 kg/m²"
+      },
+      {
+        "label": "Perda ponderal",
+        "value": "8 kg em 3 meses"
+      },
+      {
+        "label": "MACS comprometida",
+        "value": "4,2 kg de massa muscular perdida (DXA)"
+      },
+      {
+        "label": "Ingestão protéica estimada",
+        "value": "~0,6 g/kg/dia"
+      },
+      {
+        "label": "Dieta",
+        "value": "1.600 kcal/dia hipocalórica"
+      },
+      {
+        "label": "Frequência alimentar",
+        "value": "2 refeições protéicas/dia"
+      }
+    ],
+    "title": "Perda de massa magra em paciente com DM2 em uso de tirzepatida",
+    "reward": 15,
+    "options": [
+      {
+        "label": "Elevar ingestão proteica para 1,6–2,0 g/kg/dia, suplementando whey, e fracionar refeições",
+        "correct": true,
+        "rationale": "Aumentar ingestão e distribuir proteína maximiza síntese muscular e previne perda adicional, conforme evidências e regulatório."
+      },
+      {
+        "label": "Manter dieta e iniciar GH manipulado para estimular massa muscular",
+        "correct": false,
+        "rationale": "Uso de GH manipulado para esta indicação é antiético, irregular e não possui evidências robustas."
+      },
+      {
+        "label": "Dobrar dose de tirzepatida e restringir proteína animal por risco renal",
+        "correct": false,
+        "rationale": "Dobrar tirzepatida (off-label) e restringir proteína agrava quadro sarcopênico e não se justifica renalmente."
+      },
+      {
+        "label": "Introduzir drip proteico intravenoso semanalmente em clínica de estética",
+        "correct": false,
+        "rationale": "Soroterapia sem deficiência documentada é inadequada, não regulamentada e potencialmente prejudicial."
+      }
+    ],
+    "question": "Qual a conduta nutricional mais adequada?",
+    "vignette": "Homem, 65 anos, diabético tipo 2 controlado, iniciou tirzepatida 15 mg/sem há 3 meses. Em dieta hipocalórica restrita a 1.600 kcal, relata perda ponderal de 8 kg, com queixas de fadiga, perda de força e edema leve. Restrição à proteína animal, consumo predominantemente de leite e ovos, com apenas duas refeições proteicas/diárias. DXA revela perda de 4,2 kg de massa muscular. Albumina e creatinina normais.",
+    "teaching": "Pacientes idosos e usuários de GLP-1 apresentam risco aumentado de perda de massa magra devido à redução do apetite e resistência anabólica. Para mitigação da sarcopenia, é essencial aumentar a ingestão protéica para 1,6 a 2,0 g/kg/dia, redistribuindo a proteína em pelo menos 3-4 refeições e utilizando whey protein registrado para preencher lacunas na alimentação oral. O uso de GH manipulado, aumento da dose do agonista ou soroterapia intravenosa não são indicados por ausência de evidência, riscos éticos e regulatórios. Monitoramento do estado nutricional e avaliação da aceitação alimentar devem ser realizados rotineiramente para ajuste contínuo do planejamento alimentar."
+  },
+  "refs": [
+    {
+      "citation": "Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010;33(Suppl1):S11–S61."
+    },
+    {
+      "citation": "Pasiakos SM et al. Protein intake during energy deficit: Effects on body composition. JAMA. 2013;309(1):36-43."
+    },
+    {
+      "citation": "Kim IY et al. Aging increases anabolic resistance of muscle protein synthesis to essential amino acids. Am J Physiol 2020;319:E576–E587."
+    },
+    {
+      "citation": "Leidy HJ et al. The role of protein in weight loss and maintenance. Am J Clin Nutr 2015;101(6):1320S–9S."
+    },
+    {
+      "citation": "Rolls E et al. Protein requirements in elderly. Curr Opin Clin Nutr Metab Care 2022;25(1):45-54."
+    },
+    {
+      "citation": "Wycherley TP et al. Effect of higher protein diets on body composition and muscle function in overweight and obese adults during weight loss: a systematic review and meta-analysis. Obes Rev. 2012;13(9):793–810."
+    }
+  ],
+  "status": "published"
+}

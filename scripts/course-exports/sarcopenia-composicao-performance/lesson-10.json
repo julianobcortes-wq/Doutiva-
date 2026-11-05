@@ -1,0 +1,306 @@
+{
+  "position": 10,
+  "module": "Módulo 5 · Populações",
+  "module_position": 5,
+  "title": "Casos Clínicos em Sarcopenia e Obesidade com Uso de Incretinas e GH: Manejo Integrado e Ético",
+  "description": "Estudo aprofundado de casos clínicos reais que ilustram o manejo da obesidade sarcopênica submetida a terapias baseadas em agonistas de GLP-1 e GIP/GLP-1 (tirzepatida), destacando preservação da massa magra, plano multidisciplinar, e a avaliação ética rigorosa para uso de hormônio do crescimento (GH) em contexto executivo. Com base em evidências robustas e orientações regulatórias brasileiras, este módulo foca em intervenções farmacológicas combinadas com estratégias nutricionais e de exercício físico para otimizar resultados funcionais e prevenir iatrogenia.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Perda de massa magra pode representar até 25-30% da perda total de peso com terapias incretínicas, demandando apoio nutricional e exercício resistido para mitigação.",
+    "Tirzepatida e semaglutida têm evidência robusta de ensaios fase 3 para obesidade com impacto significativo na redução de peso e manutenção funcional.",
+    "Plano integrado inclui dose escalonada de incretina, dieta normo-hiperproteica (1,6–2,2g/kg/dia) e treino resistido supervisionado para preservar massa e força.",
+    "Prescrição de GH para performance estética ou anti-aging não é aprovada pela ANVISA/CFM, salvo indicação formal com deficiência documentada.",
+    "Manipulação de peptídeos deve seguir boas práticas de farmácia (BPF), com rastreabilidade e consentimento esclarecido do paciente, vedado uso de peptídeos de pesquisa não regulados.",
+    "Monitoramento da força de preensão, velocidade de marcha, DXA/BIA e parâmetros laboratoriais é mandatário a cada 8-16 semanas.",
+    "Abordagem multidisciplinar ética melhora a eficácia, segurança e reduz riscos de fraqueza, quedas e complicações metabólicas."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Obesidade Sarcopênica: Manejo Clínico Ético com Incretinas e GH",
+      "subtitle": "Módulo 5 · Populações · Sarcopenia + Obesidade em Clínica Avançada, 16 semanas de acompanhamento em consultório no Brasil"
+    },
+    {
+      "head": [
+        "Parâmetro",
+        "Limite Diagnóstico",
+        "Método Padrão",
+        "Considerações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Força de preensão",
+          "<27 kg (homem); <16 kg (mulher)",
+          "Dinamometria",
+          "Valor prognóstico robusto"
+        ],
+        [
+          "Massa magra apendicular/estatura²",
+          "<7,0 kg/m² (H); <5,5 kg/m² (M)",
+          "DXA",
+          "BIA útil, mas limitada em edemas"
+        ],
+        [
+          "Percentual de gordura",
+          ">25% (H); >35% (M)",
+          "DXA, BIA",
+          "Distribuição predominantemente visceral importante"
+        ],
+        [
+          "Circunferência de panturrilha",
+          "<31 cm",
+          "Fita métrica",
+          "Screening em pacientes frágeis"
+        ],
+        [
+          "Velocidade de marcha",
+          "<0,8 m/s em 4 metros",
+          "Cronometrada",
+          "Associação forte com incapacidade"
+        ]
+      ],
+      "title": "Parâmetros Diagnósticos de Sarcopenia e Obesidade Sarcopênica",
+      "source": "EWGSOP2, FNIH Sarcopenia, [S1, S2]"
+    },
+    {
+      "bars": [
+        {
+          "label": "Tirzepatida: -15 kg (total), -3,2 kg (massa magra, 21,5%)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Semaglutida: -14,9 kg (total), -4,1 kg (massa magra, 30%)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Meta-análise GLP-1: perda peso -6,2 a -15,3 kg; magra -2 a -4 kg",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "kg",
+      "title": "Resultados de Pesos e Massa Magra em Ensaios com Incretinas",
+      "source": "[S1, S2]"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação inicial: força, composição corporal, laboratórios"
+        },
+        {
+          "label": "Critérios de inclusão para tratamento com incretina (IMC >30, sarcopenia limítrofe)"
+        },
+        {
+          "label": "Prescrição escalonada de tirzepatida/semaglutida"
+        },
+        {
+          "label": "Plano nutricional: 1,6–2,2 g/kg/dia proteína, fracionamento alimentar"
+        },
+        {
+          "label": "Programa supervisionado de exercício resistido 2–3x/semana"
+        },
+        {
+          "label": "Monitoramento a cada 8 semanas (força, massa magra, sintomas)"
+        },
+        {
+          "label": "Ajuste terapêutico conforme evolução"
+        },
+        {
+          "label": "Evitar GH e peptídeos não autorizados"
+        },
+        {
+          "label": "Registrar consentimento e planos multidisciplinares"
+        }
+      ],
+      "title": "Fluxograma para Manejo de Obesidade Sarcopênica com Incretinas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrição baseada em evidência e indicação clínica",
+          "Uso escalonado e monitorado de tirzepatida/semaglutida",
+          "Dieta normocalórica rica em proteínas, suporte nutricional",
+          "Exercício físico supervisionado e adaptado",
+          "Consentimento informado e registro clínico",
+          "Prescrição de GH apenas com deficiência documentada",
+          "Uso de peptídeos ‘anti-aging’ e ‘research’ proibido",
+          "Manipulação em farmácias não certificadas é ilegal",
+          "Prescrição para estética ou performance vetada pelo CFM"
+        ],
+        "label": "Conduta recomendada"
+      },
+      "right": {
+        "items": [
+          "Erro clínico e iatrogenia funcional",
+          "Uso indiscriminado e sem monitoramento",
+          "Dietas restritivas desbalanceadas",
+          "Exercício não supervisionado ou inexistente",
+          "Falta de documentação e consentimento",
+          "Risco legal e sanções do CFM",
+          "Exposição a substâncias sem controle de pureza",
+          "Manipulação ilegal, risco de contaminação",
+          "Conduta antiética e vulnerabilidade"
+        ],
+        "label": "Condutas a evitar"
+      },
+      "title": "Contraste: Prescrição Ética vs. Práticas Inadequadas em Obesidade Sarcopênica"
+    },
+    {
+      "head": [
+        "Alternativa",
+        "Ação proposta",
+        "Risco/Benefício",
+        "Justificativa",
+        "Rank"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A",
+          "Tirzepatida 10 mg SC semanal, dieta hipocalórica livre, sem exercício",
+          "Alto risco de perda magra, descontrole funcional",
+          "Falta suporte físico e nutricional, aumenta risco funcional",
+          "Errado"
+        ],
+        [
+          "B",
+          "Semaglutida manipulada, creatina, treino resistido baixíssimo volume",
+          "Manipulação sem comprovação, treino muito leve",
+          "Manipulação insegura; carga insuficiente para preservar massa",
+          "Errado"
+        ],
+        [
+          "C",
+          "Tirzepatida escalonada, dieta normocalórica hiperproteica, treino resistido supervis",
+          "Alto benefício em perda peso e manutenção massa magra",
+          "Plano multidisciplinar, escalonamento, acompanhamento contínuo",
+          "Correto"
+        ],
+        [
+          "D",
+          "GH manipulável 1 UI/dia, dietas restritivas",
+          "Risco legal, sem indicação, altas iatrogenias",
+          "GH não indicado sem deficiência, risco ético e legal",
+          "Errado"
+        ]
+      ],
+      "title": "Quadro Clínico e Alternativas de Manejo do Caso - Executivo com Obesidade Sarcopênica",
+      "source": "Monografia Doutiva"
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist para Prescrição Consciente de Incretinas em Obesidade Sarcopênica",
+      "bullets": [
+        "Confirmar diagnóstico de obesidade sarcopênica com medidas objetivas",
+        "Avaliar contraindicações e risco de desnutrição proteica",
+        "Prescrever tirzepatida ou semaglutida registrado pela ANVISA",
+        "Assegurar dieta com adequada ingestão proteica (1,6–2,2g/kg/dia)",
+        "Planejar exercício resistido profissional supervisionado",
+        "Monitorar função muscular e composição corporal regularmente",
+        "Evitar uso de peptídeos não regulamentados e GH sem indicação formal",
+        "Documentar consentimento informado e acompanhamento multiprofissional"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "\"O manejo eficaz da obesidade sarcopênica exige mais do que redução ponderal: é imprescindível preservar a massa e a função muscular por meio de abordagem farmacológica ética e integrada, respeitando os limites legais brasileiros e assegurando a segurança do paciente.\"",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Sarcopenia e Obesidade em Populações Especiais: Conduta Clínica Integrada com Incretinas (GLP-1/RA e GIP/GLP-1) e Gestão da Massa Magra\n\n## 1. Introdução e Contexto Clínico\n\nA coexistência de sarcopenia e obesidade, denominada obesidade sarcopênica (OS), representa um significativo desafio clínico, especialmente em adultos de meia-idade e idosos com múltiplas comorbidades metabólicas. O paradigma terapêutico mudou nos últimos anos: além da perda ponderal clássica, a preservação de massa muscular esquelética e otimização da funcionalidade tornaram-se objetivos centrais diante do robusto impacto prognóstico da massa magra em mortalidade geral, fragilidade, dependência e risco cardiovascular.\n\nA introdução dos agonistas de receptor de GLP-1 (semaglutida, liraglutida) e dos duplos agonistas (tirzepatida—GIP/GLP-1) revolucionaram o arsenal farmacológico para obesidade e DM2, proporcionando reduções de peso raramente observadas com intervenções tradicionais. Entretanto, seu potente efeito anorexígeno pode precipitar ou acelerar a perda de massa magra, particularmente em indivíduos sob risco de sarcopenia, demandando estratégias integradas de prevenção, monitoramento e intervenção multidisciplinar [S1, S2].\n\nNo contexto brasileiro, a manipulação estéril e ética dessas terapias exige rigor adicional: distinção entre usos registrados na ANVISA, off-label documentados, manipulação magistral sob boas práticas, e estrita observância das normas do CFM e dos marcos éticos regulamentares do país.\n\n---\n\n## 2. Bases Epidemiológicas e Fisiopatologia\n\n### 2.1. Definição e Prevalência\n\n**Sarcopenia**: síndrome caracterizada por queda progressiva e generalizada da massa muscular esquelética e força, levando à incapacidade funcional, hospitalizações e mortalidade aumentada.\n\n**Obesidade sarcopênica (OS)**: presença concomitante de excesso de massa gorda/principalmente visceral e déficit de massa magra, sendo subdiagnosticada em adultos com IMC normais ou aumentados.\n\n- Estima-se prevalência de OS entre 5-19% na população ≥60 anos, chegando a 25% em diabéticos e ≥30% em obesos com comorbidades metabólicas.\n- O risco de eventos cardiovasculares, quedas e mortalidade é superior à obesidade isolada ou sarcopenia isolada [verificar].\n\n#### Tabela 1. Parâmetros diagnósticos para sarcopenia e obesidade sarcopênica (consenso EWGSOP2, FNIH)\n\n| Parâmetro              | Limite Diagnóstico                 | Método Padrão       | Considerações                      |\n|------------------------|------------------------------------|---------------------|------------------------------------|\n| Força de preensão      | <27 kg (homem); <16 kg (mulher)   | Dinamometria        | Valor prognóstico mais robusto     |\n| Massa magra apendicular/estatura² | <7,0 kg/m² (H); <5,5 kg/m² (M) | DXA                 | BIA pode subestimar em edemas      |\n| % massa gorda          | >25% (H); >35% (M)                | DXA, BIA            | Avaliar padrão de distribuição     |\n| Circunf. panturrilha   | <31 cm                            | Fita métrica        | Screening em populações frágeis    |\n| Velocidade de marcha   | <0,8 m/s (4 m)                    | Cronometrada        | Forte associação com incapacidade  |\n\n**Referências**: EWGSOP2, FNIH Sarcopenia, [S1, S2].\n\n---\n\n## 3. Mecanismos Moleculares da Perda de Massa Magra em Terapias Incretínicas\n\n### 3.1. GLP-1 e GIP: efeitos metabólicos\n\n- GLP-1: retarda esvaziamento gástrico, aumenta saciedade, reduz ingestão calórica, potencializa secreção de insulina e inibe glucagon.\n- GIP/GLP-1 (tirzepatida): duplo agonismo, amplifica efeito incretínico supressivo de apetite e glucotoxicidade.\n\n#### Impacto sobre massa magra\n\n- Perda ponderal induzida por GLP-1/RA: geralmente >25% da perda ocorre às custas de tecido magro (variação: 20–40%), refletindo balanço energético negativo abrupto, menor ingestão proteica e possível inibição anabólica via mTOR.\n- Em indivíduos sarcopênicos ou idosos, esse efeito pode acentuar perda funcional/mobilidade, especialmente se sem acompanhamento nutricional e físico específico.\n\n### 3.2. Tirzepatida: dados robustos de ECRs\n\n- Estudos fase 3 (SURMOUNT-1, SURMOUNT-2): redução média de 15–21% do peso, dos quais ~3,2 kg (28–32%) correspondem a massa magra em média (DXA).\n- Redução absoluta da força muscular é menos acentuada, mas possível em subset populacional.\n\n**Evidência**: A (metanálise de ECRs) [S1, S2].\n\n---\n\n## 4. Evidências Clínicas: Controle de Peso com Incretinas e Massa Magra\n\n### 4.1. Principais Ensaios Clínicos Randomizados\n\n#### Tabela 2. Sumário de Grandes ECRs: Incretinas em Obesidade/Sarcopenia\n\n| Estudo (n)         | População                       | Intervenção            | Δ Peso (kg, 72 sem) | Δ Massa magra (kg) | Δ Força | Desfecho funcional | Risco hipoglicemia/má nutrição | Ref. | Nível evid. |\n|--------------------|---------------------------------|------------------------|---------------------|-------------------|---------|--------------------|-------------------------------|------|-------------|\n| SURMOUNT-1 (2539)  | Obesos não-DM, 46a, IMC 38      | Tirzepatida 5–15 mg SC semanal | -15,0 (-20,9%)    | -3,2 (21,5% do total) | ~estável | Melhora mobilidade 6% | Muito baixo; perda magra dócil | [verificar] | A           |\n| STEP 1 (1961)      | Obesos não-DM, 47a, IMC 38      | Semaglutida 2,4 mg SC semanal  | -14,9 (-15%)      | -4,1 (30% do total)   | ~reduz | Melhora mobilidade 3% | Baixo | [verificar] | A           |\n| SURMOUNT-2 (938)   | Obesos DM2                      | Tirzepatida 10–15 mg SC semanal| -12,8 a -14,7     | -3,0 a -3,4           | —       | —                  | Muito baixo | [verificar] | A           |\n| RCTs GLP-1 (meta, 12.568)| Obesidade, 41–69a         | Diversos GLP-1/RA      | -6,2 a -15,3        | -2 a -4              | —       | Melhora física 1-7%  | Baixo | [S1, S2]    | A           |\n\n**Observações**:\n- A maior parte da perda de massa magra pode ser mitigada por orientação nutricional, priorização de proteínas e exercício resistido durante terapia incretínica.\n- Pacientes idosos, fragilizados, polimedicados e com DM2 são mais suscetíveis às quedas e comprometimento funcional.\n\n---\n\n## 5. Seleção de Pacientes e Avaliação Pré-Terapêutica\n\n### 5.1. Critérios de Inclusão\n\n- Obesidade (IMC >30 kg/m² ou >27 kg/m² com comorbidade)\n- Indício de sarcopenia: força/<31 cm panturrilha, massa magra reduzida\n\n### 5.2. Avaliação Estrutural Inicial\n\n- Medida de força de preensão manual e velocidade de marcha\n- Antropometria (IMC, circunferência abdominal)\n- Avaliação de composição corporal (DXA é padrão ouro; BIA útil para monitoramento)\n- Dosagem laboratorial: função hepática, renal, TSH, 25(OH)VitD, dosagem de albumina, PCR/HS para risco cardiovascular, glicemia/insulina/HbA1c (se DM2)\n- Excluir causas secundárias (neoplasias, endocrinopatias, DPOC avançada)\n\n### 5.3. Seleção Ética: contraindicações\n\n- Fraqueza extrema, desnutrição proteica (<3,5 g/dL albumina)\n- Distúrbio de deglutição grave/desordem cognitiva avançada sem suporte multidisciplinar\n- Solicitação motivada por performance estética, sem indicação clínica (contrário ao CFM 2.333/2023)\n\n---\n\n## 6. Conduta Clínica: Plano Integrado (Exemplo Prático: Caso Brasileiro)\n\n### 6.1. Caso Clínico Integrador\n\n**Resumo do Caso Realista:**\n\n- João, 62 anos, executivo, IMC 34, força de preensão 23kg, circunferência abdominal 108cm, DXA: massa magra apendicular 6,5kg/m², HbA1c 5,9%, TSH 3,2, VitD 23, albumina 4,2g/dL, sem história de neoplasia ou insuficiência hepática.\n- Queixa: “Perdi força e disposição, mas quero emagrecer rápido e ganhar tônus”.\n\n**Pergunta:** Qual conduta estruturada traz maior benefício seguro, na ótica de prática clínica e regulatória brasileira?\n\n#### Alternativas\n\nA) Iniciar tirzepatida 10 mg SC semanal, dieta hipocalórica livre, sem acompanhamento físico.\n\nB) Iniciar semaglutida manipulada, prescrever 5g creatina, suporte nutricional hiperproteico, treino resistido baixíssimo volume.\n\nC) Iniciar tirzepatida SC semanal (dose escalonada), dieta normocalórica com 1,6–2,2g prot/kg/dia, exercício resistido supervisionado + aeróbico, monitorar força/massa magra e sintomas.\n\nD) GH injetável manipulado em farmácia não regularizada, dose 1 UI/dia, orientar “dietas secas”.\n\n**Resposta Correta: C**\n\n**Justificativa:**\n- A manipulação de incretinas só deve ser considerada quando há impossibilidade de dispensação regular e farmácia segue rigor estrito de BPF, pureza/prescrição vinculada, sem qualquer apelo estético/antienvelhecimento.\n- Plano multidisciplinar com aporte proteico adequado (1,6–2,2g/kg/d), exercício resistido supervisionado 2–3x/semana, monitoramento rigoroso a cada 4–8 semanas.\n- GH não é indicado na ausência de deficiência comprovada (CFM 2.333/2023).\n- O uso de GLP-1/RA sem suporte físico e nutricional potencializa perda de massa magra, podendo ser deletério.\n\n#### Tabela 3. Fluxo de Conduta para OS com Incretina\n\n| Etapa                | Ação                                                                                           | Referência |\n|----------------------|------------------------------------------------------------------------------------------------|------------|\n| Avaliação inicial    | Força, DXA/BIA, laboratórios, risco funcional                                                  | S1, S2     |\n| Metas clínicas       | Δ peso 8–15% em 16 sem, preservar massa magra, aumentar força/funcionalidade                   | S1         |\n| Farmacoterapia       | Tirzepatida SC 2,5mg→5mg→10mg (escalonamento), 12–16 semanas                                  | S2         |\n| Nutrição            | Dieta normo/hiperproteica, 1,6–2,2g/kg/d, prescrever creatina 3–5g/dia se necessário            | [verificar]|\n| Exercício            | Resistido 2–3x/sem, aeróbico leve/moderado, supervisionado                                     | S1, S2     |\n| Monitoramento        | Força, DXA/BIA 8/16 sem, sintomas gastrointestinais, estado funcional, risco de hipoglicemia    | S2         |\n| Contraindicações     | Não prescrever peptídeos não autorizados (“research peptides”), GH sem deficiência              | S1         |\n| Documentação         | Consentimento, registro de indicação clínica justificada, acompanhamento multidisciplinar       | S1, CFM    |\n\n---\n\n## 7. Orientações Práticas para Prescrição e Manipulação de Incretinas\n\n### 7.1. Registro, Off-label, Manipulação\n\n- **Tirzepatida**: registrada ANVISA para DM2; uso off-label em obesidade deve seguir checklist ético e documentado.\n- **Semaglutida**: registrada para DM2 e obesidade (via ANVISA); manipulação apenas em farmácias com certificado BPF, rastreabilidade, controle de ativos GMP, prescrição individualizada.\n- **GH e peptídeos “anti-aging”**: apenas em deficiência documentada, nunca para performance estética/longevidade (CFM 2.333/2023)\n- **“Research peptides”**: nunca prescrever nem recomendar em clínica—falta de controle de pureza, ausência de ECRs em humanos (S1).\n\n### 7.2. Doses e Especificidades do Manejo\n\n#### Tirzepatida (off-label em OS; ANVISA: DM2)\n\n- Escalonamento: 2,5 mg SC/sem (4 sem) → 5 mg (4 sem) → 10 mg (restante)\n- Máximo usual: 15 mg/sem (a depender da tolerância e objetivos)\n- Apresentação magistral: via SC, conservante: ácido cítrico 0,1% em diluição (monitorar estabilidade—segue diretrizes RDC 67, BPF).\n- Estabilidade: manter refrigerada, descartar em 21 dias após abrir frasco multidose.\n- Monitorar sinais sugestivos de infeção local; jamais frascos reutilizados, garantir manipulação asséptica.\n- Nunca indicar via endovenosa ou “drip” fora de protocolos registrados.\n\n#### Estratégias Adjuvantes\n\n- **Consumo de proteína**: 1,6–2,2g/kg/dia, fracionada 4–5x/dia.\n- **Creatina**: 3–5g/dia, favorece manutenção de massa magra, particularmente em >60a\n- **Exercício resistido**: supervisão presencial, carga progressiva, 24–48h intervalo, mínimo 2x/sem.\n\n---\n\n## 8. Monitoramento, Segurança e Prevenção de Complicações\n\n### 8.1. Parâmetros de acompanhamento\n\n- Avaliação funcional: força de preensão, velocidade de marcha, subida de degraus\n- Antropometria: IMC, circunferência abdominal, DXA/BIA (ideal: 0–8–16 sem)\n- Laboratórios: albumina, função renal, CK (se sintomas de rabdomiólise), glicemia/HbA1c (risco hipoglicemia em DM2)\n- Queixas gastrointestinais: observar náuseas, constipação, risco de desidratação\n- Sintomas sugestivos de déficit proteico: queda de cabelos, fraqueza, edema\n\n### 8.2. Situações de parada/ajuste\n\n- Redução abrupta de massa magra (>10% em 8 sem)\n- Declínio funcional (queda velocidade de marcha >0,1 m/s; incapacidade de subir degraus)\n- Intolerância GI ou sintomas de desnutrição persistentes (>2 sem)\n- Sinais de hipoglicemia, síncope\n\n### 8.3. Segurança e Regulatórios (BR)\n\n- Só prescrever manipulado se ANVISA inviabilizar o acesso comercial OU desabastecimento documentado; garantir rastreabilidade GMP\n- Não usar para performance cosmética, anti-aging, sarcopenia fisiológica — limitações do CFM e WADA (atletas)\n- Documentar justificativa clínica individualizada, consentimento informado detalhado\n\n---\n\n## 9. O que NÃO Fazer: Erros Críticos a Evitar\n\n- Prescrever GLP-1/RA ou tirzepatida sem equipe multiprofissional (nutricionista, educador físico)\n- Omitir rastreio e monitoramento de força/massa magra ao longo do tratamento\n- Usar GH, IGF-1, secretagogos, SARMs sem indicação aprovada, para fins estéticos/longevidade (CFM 2.333/2023, ANVISA, WADA)\n- Indicar “research peptides” sem pureza comprovada e consentimento sob risco ético\n- Manipular incretinas sem garantia de ambiente estéril, rastreabilidade e padrão GMP\n\n---\n\n## 10. Pérolas Práticas e Checklist de Bolso\n\n### Quick_ref de Bolso\n\n- **Avalie:** força + função (preensão, marcha), DXA/BIA\n- **Increta seu paciente:** apenas se critérios + suporte nutricional/proteico + exercício resistido\n- **Dieta:** priorize proteína 1,6–2,2g/kg/d\n- **Exercício:** resistido 2–3x/semana, ajuste individual\n- **Nunca:** research peptide, GH anti-aging, drip sem deficiência\n- **Monitoramento:** repita força/DXA 0–8–16 semanas\n- **Documente:** tudo; indique engajamento multiprofissional!  \n\n### Key_points\n\n1. A perda de massa magra em terapias incretínicas pode ser >25% do total perdido; mitigação exige suporte nutricional, proteico e físico.\n2. Só prescrever peptídeos com base em ECR fase 3/diretriz, usando farmácia BPF, controle de pureza e indicação clínica individualizada (S1).\n3. Monitoramento funcional e de composição corporal é imperativo em toda intervenção farmacológica para obesidade em pacientes com risco sarcopênico.\n4. Protocolos brasileiros vedam uso cosmético/estético de peptídeos anabolizantes; uso ético exige consentimento, rastreabilidade e multidisciplinaridade.\n5. Abordagem integrada traz melhores desfechos funcionais e menor risco de iatrogenia em OS.\n6. GH e principais secretagogos de uso estético seguem proibidos; não usar “research peptides” sem ECR robusto.\n7. Explique riscos e documente minuciosamente—proteja paciente e médico.\n\n---\n\n## 11. Slides Sugeridos para o Módulo Didático\n\n**Slide 1:** Título. Sarcopenia + Obesidade: Incretina e Preservação de Massa Magra  \n**Slide 2:** Conceitos-Chave. Definições clínicas, implicações prognósticas  \n**Slide 3:** Tabela diagnóstica (força, massa magra, critérios DXA)  \n**Slide 4:** Epidemiologia: prevalência, impacto funcional/mortalidade  \n**Slide 5:** Mecanismo: Como incretinas afetam massa magra (fluxo molecular)  \n**Slide 6:** Tabela de ECRs: efeitos sobre peso, massa magra, função  \n**Slide 7:** Fluxo de conduta (plano multidisciplinar em 16 semanas)  \n**Slide 8:** Caso clínico: dados do paciente e discussão das opções  \n**Slide 9:** Alternativas e resposta correta (justificativa densa, tabela)  \n**Slide 10:** Monitoramento: parâmetros, segurança, ajuste (gráfico/tabela)  \n**Slide 11:** O que não fazer (split: erros críticos regulatórios e de prática)  \n**Slide 12:** Pérolas práticas, checklist de bolso, resumo de key_points  \n\n---\n\n## 12. Referências\n\n- [S1] Posicionamento Doutiva—Hierarquia de Evidência para Peptídeos Terapêuticos. Doutiva Editorial 2026.  \n- [S2] Standards of medical care in diabetes—American Diabetes Association. Diabetes Care 2010; e atualizações.\n- (Demais referências: EWGSOP2, FNIH Sarcopenia, consensos internacionais de GLP-1/RA e tirzepatida, diretrizes CFM/ANVISA.)\n\n---\n\nEsta monografia oferece framework clínico-ético, fluxos e detalhes técnicos para o manejo prático de obesidade sarcopênica sob terapias incretínicas, orientando endocrinologistas e nutrólogos a preservar e reabilitar massa e função muscular enquanto oferecem emagrecimento real, seguro e regulatório na clínica contemporânea de alta exigência.",
+  "quick_ref": "# Guia Rápido: Manejo de Obesidade Sarcopênica com Incretinas\n\n| Item                           | Recomendação                                   |\n| ------------------------------|-----------------------------------------------|\n| Diagnóstico                   | Força preensão <27 kg (H)/<16 kg (M), DXA/BIA |\n| Paciente elegível             | IMC >30 ou >27 com comorbidade + sinal sarcopenia |\n| Farmacoterapia                | Tirzepatida escalonada 2,5→5→10 mg SC semanal |\n| Nutrição                      | 1,6–2,2g/kg/d proteína, fracionar 4-5x/dia     |\n| Exercício                    | Resistido supervisionado 2-3x/sem, aeróbico leve |\n| Monitoramento                | Força/massa magra 0-8-16 semanas, sinais intolerância |\n| Restrições                   | Não prescrever GH para anti-aging, evitar “research peptides” |\n| Documentação                 | Consentimento, indicação formal, acompanhamento multiprofissional |\n\n# Red Flags (para ajuste/parar)\n\n- Perda massa magra >10% em 8 semanas\n- Queda velocidade marcha >0,1 m/s\n- Sinais de desnutrição ou hipoglicemia\n- Sintomas gastrointestinais persistentes >2 semanas\n\n# Checklist Consultório\n\n- Avaliar força manual e marcha\n- Solicitar DXA ou BIA para composição corporal\n- Avaliar laboratório básico (albumina, função renal, TSH, vit D)\n- Mapear comorbidades (DM2, CVD)\n- Prescrever incretina com plano de suporte\n- Planejar supervisão nutricional e física\n- Registrar consentimento informado\n- Agendar monitoramento multidisciplinar",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "62 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m²"
+      },
+      {
+        "label": "Força de preensão",
+        "value": "23 kg (reduzida)"
+      },
+      {
+        "label": "Circunf. abdominal",
+        "value": "108 cm"
+      },
+      {
+        "label": "Massa magra apendicular",
+        "value": "6,5 kg/m² (limítrofe)"
+      },
+      {
+        "label": "HbA1c",
+        "value": "5,9%"
+      },
+      {
+        "label": "Vitamina D",
+        "value": "23 ng/mL"
+      },
+      {
+        "label": "Albumina",
+        "value": "4,2 g/dL"
+      }
+    ],
+    "title": "Adulto com Obesidade Sarcopênica Iniciando Tirzepatida: Conduta Integrada",
+    "reward": 120,
+    "options": [
+      {
+        "label": "A) Tirzepatida 10 mg SC semanal, dieta hipocalórica livre, sem exercício",
+        "correct": false,
+        "rationale": "Esta abordagem pode levar a maior perda de massa magra e prejuízo funcional devido à ausência de suporte nutricional e exercício."
+      },
+      {
+        "label": "B) Semaglutida manipulada, creatina, treino resistido baixíssimo volume",
+        "correct": false,
+        "rationale": "Manipulação questionável e exercício insuficiente para manutenção muscular."
+      },
+      {
+        "label": "C) Tirzepatida escalonada, dieta normocalórica hiperproteica, treino resistido supervisionado + aeróbico, monitoramento regular",
+        "correct": true,
+        "rationale": "Abordagem multidisciplinar alinhada à evidência para preservar massa magra, promover emagrecimento seguro e funcionalidade."
+      },
+      {
+        "label": "D) GH injetável manipulado em farmácia não regularizada, dose 1 UI/dia, orientar dietas restritivas",
+        "correct": false,
+        "rationale": "Uso de GH sem indicação formal e manipulação não certificada viola normas éticas e regulações brasileiras."
+      }
+    ],
+    "question": "Qual conduta mais adequada para garantir perda de peso com preservação e ganho funcional seguro, alinhada a critérios éticos e regulatórios brasileiros?",
+    "vignette": "João, 62 anos, executivo, IMC 34, força de preensão 23kg (baixa), circunferência abdominal 108cm, DXA mostrando massa magra apendicular 6,5kg/m² (limítrofe). Relata perda de força e que deseja emagrecimento rápido associado a ganho de tônus muscular. Laboratórios normais (HbA1c 5,9%, albumina 4,2g/dL, Vit D 23). Sem comorbidades graves.",
+    "teaching": "O manejo de obesidade sarcopênica exige mais que simples perda ponderal: é fundamental a preservação da massa e força muscular para evitar piora funcional, quedas e dependência. Tirzepatida, com evidência robusta, promove significativa perda de peso, mas até 25-30% da redução ponderal pode ser de massa magra se não monitorada e apoiada adequadamente. O suporte nutricional hipoproteico inadequado e a ausência de treino resistido agravam a sarcopenia. O uso de GH ou peptídeos para fins estéticos ou anti-aging é proibido juridicamente e eticamente, salvo indicações formais e documentadas. O plano ideal contempla dose escalonada de tirzepatida, dieta hiperproteica normocalórica (1.6-2.2g/kg/dia), programa de atividade resistida supervisionada 2–3 vezes por semana e monitoramento clínico-laboratorial sistemático. Consentimento esclarecido é obrigatório, assim como registro e supervisão multidisciplinar."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011"
+    },
+    {
+      "citation": "SurMOUNT-1 Trial Investigators. Tirzepatide versus placebo for obesity. NEJM 2022."
+    },
+    {
+      "citation": "STEP 1 Trial Investigators. Semaglutide for weight management. NEJM 2021."
+    },
+    {
+      "citation": "European Working Group on Sarcopenia in Older People 2 (EWGSOP2) Consensus. Age Ageing. 2019."
+    },
+    {
+      "citation": "CFM Resolution 2.333/2023 - Normas éticas para prescrição e uso de hormônios e peptídeos."
+    },
+    {
+      "citation": "Rossi AP et al. Sarcopenic obesity: epidemiology, pathophysiology, diagnosis, and treatment. Nutrients 2020."
+    }
+  ],
+  "status": "published"
+}
