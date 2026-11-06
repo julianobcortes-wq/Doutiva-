@@ -20,13 +20,18 @@ export function SiteFooter() {
           <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Produto</h4>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             <li>
+              <Link to="/cursos" className="transition hover:text-foreground">
+                Cursos
+              </Link>
+            </li>
+            <li>
               <Link to="/oferta" className="transition hover:text-foreground">
-                Protocolos · Oferta
+                Planos
               </Link>
             </li>
             <li>
               <a href="/evento" className="transition hover:text-foreground">
-                A Origem
+                Evento
               </a>
             </li>
             <li>
@@ -34,24 +39,19 @@ export function SiteFooter() {
                 Começar grátis
               </Link>
             </li>
-            <li>
-              <Link to="/auth" className="transition hover:text-foreground">
-                Entrar
-              </Link>
-            </li>
           </ul>
         </div>
         <div>
-          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Em breve</h4>
+          <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Instituto</h4>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             <li>
               <Link to="/mentores" className="transition hover:text-foreground">
-                Mentores
+                Mentoria
               </Link>
             </li>
             <li>
               <Link to="/parceiros" className="transition hover:text-foreground">
-                Parceiros · take rate
+                Parceiros
               </Link>
             </li>
             <li>

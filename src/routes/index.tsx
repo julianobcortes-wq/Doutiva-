@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import grainGold from "@/assets/grain-gold.jpg";
 import { OFFER_TIERS, INDEPENDENCE_LINE } from "@/lib/offer-ladder";
+import { PUBLIC_COURSES } from "@/lib/public-catalog";
 import { ArrowUpRight, Shield, CalendarDays, BookOpen, Lock } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -103,6 +104,54 @@ function HomePage() {
               <h2 className="mt-4 font-display text-2xl tracking-tight md:text-3xl">{x.t}</h2>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{x.d}</p>
             </div>
+          ))}
+        </div>
+      </section>
+
+      <section id="cursos" className="mx-auto max-w-7xl scroll-mt-20 px-6 py-28">
+        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <span className="text-[10px] uppercase tracking-[0.35em] text-gold">Cursos</span>
+            <h2 className="mt-4 max-w-2xl font-display text-4xl tracking-tight md:text-5xl">
+              O que você estuda na Doutiva.
+            </h2>
+            <p className="mt-4 max-w-xl text-muted-foreground">
+              Catálogo publicado hoje: Peptídeos grátis e seis trilhas clínicas em Protocolos.
+            </p>
+          </div>
+          <Button asChild variant="outline" className="shrink-0 rounded-sm">
+            <Link to="/cursos">
+              Ver catálogo <ArrowUpRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+        <div className="mt-12 grid gap-3 md:grid-cols-2">
+          {PUBLIC_COURSES.map((course) => (
+            <Link
+              key={course.slug}
+              to="/cursos"
+              className="group flex items-start justify-between gap-4 rounded-sm border border-border/60 bg-card/30 px-5 py-4 transition hover:border-gold/40"
+            >
+              <div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground">
+                    {course.category}
+                  </span>
+                  {course.free ? (
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-gold">Grátis</span>
+                  ) : (
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                      Protocolos
+                    </span>
+                  )}
+                </div>
+                <h3 className="mt-2 font-display text-lg tracking-tight group-hover:text-gold md:text-xl">
+                  {course.title}
+                </h3>
+                <p className="mt-1 text-sm text-muted-foreground">{course.subtitle}</p>
+              </div>
+              <ArrowUpRight className="mt-1 h-4 w-4 shrink-0 text-muted-foreground group-hover:text-gold" />
+            </Link>
           ))}
         </div>
       </section>
@@ -213,7 +262,7 @@ function HomePage() {
           </Button>
           <Button asChild variant="ghost" className="rounded-sm text-muted-foreground">
             <a href="/evento">
-              <CalendarDays className="mr-2 h-4 w-4 inline" /> A Origem
+              <CalendarDays className="mr-2 h-4 w-4 inline" /> Evento
             </a>
           </Button>
         </div>

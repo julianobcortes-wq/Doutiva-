@@ -24,17 +24,17 @@ export function SiteHeader() {
           <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
-          <a href="/#protocolos" className="transition hover:text-foreground">
-            Protocolos
-          </a>
+          <Link to="/cursos" className="transition hover:text-foreground">
+            Cursos
+          </Link>
           <Link to="/oferta" className="transition hover:text-foreground">
-            Oferta
+            Planos
           </Link>
           <a href="/evento" className="transition hover:text-foreground">
-            A Origem
+            Evento
           </a>
           <Link to="/mentores" className="transition hover:text-foreground">
-            Mentores
+            Mentoria
           </Link>
           <Link to="/parceiros" className="transition hover:text-foreground">
             Parceiros
