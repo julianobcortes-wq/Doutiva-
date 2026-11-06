@@ -83,7 +83,7 @@ function AuthPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-black via-neutral-950 to-black" />
         <div className="relative flex h-full flex-col justify-between p-12">
           <Link to="/" className="inline-flex" aria-label="Doutiva — início">
-            <DoutivaMark size="md" className="rounded-sm" />
+            <DoutivaMark size="md" title="" />
           </Link>
           <div>
             <p className="font-serif text-3xl leading-snug">

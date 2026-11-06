@@ -51,7 +51,7 @@ function HomePage() {
             Instituto de Medicina e Negócios
           </p>
           <h1 className="mt-6 animate-in fade-in slide-in-from-bottom-3 duration-700">
-            <DoutivaMark size="hero" title="Doutiva" className="drop-shadow-[0_24px_60px_rgba(0,0,0,0.55)]" />
+            <DoutivaMark size="hero" animate title="Doutiva" />
           </h1>
           <p className="mt-8 max-w-xl text-lg font-light leading-relaxed text-foreground/85 md:text-xl animate-in fade-in slide-in-from-bottom-4 duration-700">
             Protocolos clínicos com evidência — para o médico que decide na segunda-feira.

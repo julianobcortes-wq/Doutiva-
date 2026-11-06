@@ -156,6 +156,144 @@
   }
 }
 
+/* ===== Doutiva wordmark (Syne + detalhe ciano no D / traço) ===== */
+.doutiva-mark {
+  --dm-ink: oklch(0.93 0.01 220);
+  --dm-ink-hi: oklch(0.98 0.005 210);
+  --dm-ink-lo: oklch(0.62 0.02 230);
+  --dm-cyan: oklch(0.82 0.13 205);
+  --dm-cyan-hot: oklch(0.9 0.12 195);
+  --dm-size: 1.35rem;
+  --dm-tracking: 0.22em;
+  display: inline-flex;
+  align-items: flex-end;
+  line-height: 1;
+  user-select: none;
+}
+.doutiva-mark--sm { --dm-size: 1.15rem; --dm-tracking: 0.2em; }
+.doutiva-mark--md { --dm-size: 1.35rem; --dm-tracking: 0.22em; }
+.doutiva-mark--lg { --dm-size: 2.35rem; --dm-tracking: 0.16em; }
+.doutiva-mark--hero {
+  --dm-size: clamp(3.25rem, 11vw, 7rem);
+  --dm-tracking: 0.08em;
+}
+.doutiva-mark__word {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 0.02em;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: var(--dm-size);
+  letter-spacing: var(--dm-tracking);
+  text-transform: uppercase;
+}
+.doutiva-mark__d {
+  position: relative;
+  display: inline-flex;
+  align-items: flex-end;
+  font-size: 1.42em;
+  line-height: 0.82;
+  margin-right: -0.04em;
+}
+.doutiva-mark__d-letter {
+  background: linear-gradient(
+    165deg,
+    var(--dm-ink-hi) 0%,
+    var(--dm-ink) 42%,
+    var(--dm-ink-lo) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 1px 0 oklch(0.2 0.02 250 / 0.55));
+}
+.doutiva-mark__spine {
+  position: absolute;
+  left: 0.085em;
+  top: 0.12em;
+  bottom: 0.08em;
+  width: 0.055em;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    var(--dm-cyan-hot),
+    var(--dm-cyan) 55%,
+    oklch(0.7 0.12 210)
+  );
+  box-shadow:
+    0 0 10px color-mix(in oklab, var(--dm-cyan) 75%, transparent),
+    0 0 22px color-mix(in oklab, var(--dm-cyan) 35%, transparent);
+}
+.doutiva-mark__flare {
+  position: absolute;
+  left: 0.055em;
+  width: 0.12em;
+  height: 0.12em;
+  border-radius: 999px;
+  background: radial-gradient(circle, white 0%, var(--dm-cyan-hot) 35%, transparent 70%);
+  box-shadow: 0 0 10px var(--dm-cyan);
+  pointer-events: none;
+}
+.doutiva-mark__flare--top { top: 0.06em; }
+.doutiva-mark__flare--bottom { bottom: 0.02em; }
+.doutiva-mark__rest {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 0.12em;
+}
+.doutiva-mark__letters {
+  background: linear-gradient(
+    180deg,
+    var(--dm-ink-hi) 0%,
+    var(--dm-ink) 50%,
+    var(--dm-ink-lo) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  line-height: 0.95;
+  filter: drop-shadow(0 1px 0 oklch(0.2 0.02 250 / 0.45));
+}
+.doutiva-mark__rule {
+  display: block;
+  height: 0.07em;
+  margin-top: 0.14em;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    var(--dm-cyan-hot),
+    var(--dm-cyan) 40%,
+    oklch(0.7 0.1 210 / 0.35)
+  );
+  box-shadow:
+    0 0 8px color-mix(in oklab, var(--dm-cyan) 70%, transparent),
+    0 0 18px color-mix(in oklab, var(--dm-cyan) 30%, transparent);
+}
+.doutiva-mark--animate .doutiva-mark__spine,
+.doutiva-mark--animate .doutiva-mark__rule {
+  animation: doutiva-mark-glow 3.2s ease-in-out infinite;
+}
+.doutiva-mark--animate .doutiva-mark__flare {
+  animation: doutiva-mark-flare 3.2s ease-in-out infinite;
+}
+@keyframes doutiva-mark-glow {
+  0%, 100% { filter: brightness(1); opacity: 0.92; }
+  50% { filter: brightness(1.25); opacity: 1; }
+}
+@keyframes doutiva-mark-flare {
+  0%, 100% { opacity: 0.75; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .doutiva-mark--animate .doutiva-mark__spine,
+  .doutiva-mark--animate .doutiva-mark__rule,
+  .doutiva-mark--animate .doutiva-mark__flare {
+    animation: none;
+  }
+}
+
 .lesson-md h2 { margin-top: 2.25rem; margin-bottom: .75rem; font-size: 1.35rem; font-weight: 300; letter-spacing: .01em; color: var(--foreground); }
 .lesson-md h3 { margin-top: 1.5rem; font-size: 1.1rem; font-weight: 400; }
 .lesson-md p { margin: .75rem 0; }

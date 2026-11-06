@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
           <Link to="/" className="inline-flex" aria-label="Doutiva — início">
-            <DoutivaMark size="md" className="rounded-sm" />
+            <DoutivaMark size="md" title="" />
           </Link>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
             Instituto de Medicina e Negócios. Peptídeos livres; Protocolos Online agora; imersão,
