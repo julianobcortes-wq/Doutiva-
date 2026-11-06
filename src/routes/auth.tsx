@@ -42,22 +42,34 @@ function AuthPage() {
     return () => sub.subscription.unsubscribe();
   }, [navigate]);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const client = getSupabase();
     if (!client) {
       toast.error("Login indisponível: configure as variáveis Supabase na Vercel.");
       return;
     }
+
+    // Prefer FormData so login works even if controlled-state sync lags.
+    const form = new FormData(e.currentTarget);
+    const formEmail = String(form.get("email") || email).trim();
+    const formPassword = String(form.get("password") || password);
+    const formName = String(form.get("name") || name).trim();
+    if (!formEmail || !formPassword) {
+      toast.error("Informe e-mail e senha.");
+      return;
+    }
+
     setLoading(true);
     setStoredClass(userClass);
     try {
       if (mode === "signup") {
         const { data, error } = await client.auth.signUp({
-          email, password,
+          email: formEmail,
+          password: formPassword,
           options: {
             emailRedirectTo: `${window.location.origin}/dashboard`,
-            data: { full_name: name },
+            data: { full_name: formName },
           },
         });
         if (error) throw error;
@@ -68,7 +80,10 @@ function AuthPage() {
         }
         toast.success("Conta criada. Verifique seu e-mail se a confirmação estiver ativa.");
       } else {
-        const { data, error } = await client.auth.signInWithPassword({ email, password });
+        const { data, error } = await client.auth.signInWithPassword({
+          email: formEmail,
+          password: formPassword,
+        });
         if (error) throw error;
         if (!data.session) throw new Error("Sessão não criada. Tente novamente.");
         toast.success("Login realizado.");
@@ -188,16 +203,40 @@ function AuthPage() {
             {mode === "signup" && (
               <div>
                 <Label className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Nome completo</Label>
-                <Input value={name} onChange={(e) => setName(e.target.value)} required className="mt-2 h-11 rounded-sm bg-card border-border" />
+                <Input
+                  name="name"
+                  autoComplete="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                  className="mt-2 h-11 rounded-sm bg-card border-border"
+                />
               </div>
             )}
             <div>
               <Label className="text-xs uppercase tracking-[0.2em] text-muted-foreground">E-mail</Label>
-              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} required className="mt-2 h-11 rounded-sm bg-card border-border" />
+              <Input
+                name="email"
+                type="email"
+                autoComplete="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+                className="mt-2 h-11 rounded-sm bg-card border-border"
+              />
             </div>
             <div>
               <Label className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Senha</Label>
-              <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required minLength={6} className="mt-2 h-11 rounded-sm bg-card border-border" />
+              <Input
+                name="password"
+                type="password"
+                autoComplete={mode === "signin" ? "current-password" : "new-password"}
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                minLength={6}
+                className="mt-2 h-11 rounded-sm bg-card border-border"
+              />
             </div>
             <Button
               type="submit"
