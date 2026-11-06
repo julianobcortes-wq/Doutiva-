@@ -20,18 +20,18 @@ export function SiteFooter() {
           <h4 className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Produto</h4>
           <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
             <li>
-              <a href="/#protocolos" className="transition hover:text-foreground">
-                Protocolos
-              </a>
-            </li>
-            <li>
               <Link to="/oferta" className="transition hover:text-foreground">
-                Oferta completa
+                Protocolos · Oferta
               </Link>
             </li>
             <li>
-              <Link to="/eventos" className="transition hover:text-foreground">
-                Eventos · A Origem
+              <a href="/origem/" className="transition hover:text-foreground">
+                A Origem
+              </a>
+            </li>
+            <li>
+              <Link to="/auth" className="transition hover:text-foreground">
+                Começar grátis
               </Link>
             </li>
             <li>
