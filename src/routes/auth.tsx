@@ -53,7 +53,7 @@ function AuthPage() {
     setStoredClass(userClass);
     try {
       if (mode === "signup") {
-        const { error } = await client.auth.signUp({
+        const { data, error } = await client.auth.signUp({
           email, password,
           options: {
             emailRedirectTo: `${window.location.origin}/dashboard`,
@@ -61,13 +61,27 @@ function AuthPage() {
           },
         });
         if (error) throw error;
-        toast.success("Conta criada. Bem-vindo à Doutiva.");
+        if (data.session) {
+          toast.success("Conta criada. Bem-vindo à Doutiva.");
+          await navigate({ to: "/dashboard" });
+          return;
+        }
+        toast.success("Conta criada. Verifique seu e-mail se a confirmação estiver ativa.");
       } else {
-        const { error } = await client.auth.signInWithPassword({ email, password });
+        const { data, error } = await client.auth.signInWithPassword({ email, password });
         if (error) throw error;
+        if (!data.session) throw new Error("Sessão não criada. Tente novamente.");
+        toast.success("Login realizado.");
+        await navigate({ to: "/dashboard" });
       }
     } catch (err) {
-      toast.error(err instanceof Error ? err.message : "Erro ao autenticar");
+      const message =
+        err && typeof err === "object" && "message" in err
+          ? String((err as { message: unknown }).message)
+          : err instanceof Error
+            ? err.message
+            : "Erro ao autenticar";
+      toast.error(message);
     } finally {
       setLoading(false);
     }
