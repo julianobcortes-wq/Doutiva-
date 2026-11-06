@@ -9,26 +9,31 @@ export const lesson1: RichLesson = {
       title: "O peptídeo terapêutico",
       subtitle:
         "Entre a pequena molécula e o biológico — a classe que redefine a decisão clínica da próxima década.",
+      image: "/slides/peptide-molecule.jpg",
+      imageAlt: "Molécula peptídica em fita luminosa",
     },
     {
-      kind: "split",
+      kind: "media",
+      eyebrow: "Decisão clínica",
       title: "O que o médico precisa decidir",
-      left: {
-        label: "Antes da dose",
-        items: [
-          "Categoria regulatória (registrado · off-label · magistral · irregular)",
-          "Nível de evidência humana (fase 3 vs pré-clínico)",
-          "Procedência e cadeia de qualidade do produto",
-        ],
-      },
-      right: {
-        label: "Na consulta",
-        items: [
-          "Farmacocinética real (t½, via, biodisponibilidade)",
-          "Indicação de bula vs desejo do paciente",
-          "Documentação e consentimento quando off-label",
-        ],
-      },
+      body: "Antes da dose e na consulta — a ordem importa tanto quanto a molécula.",
+      bullets: [
+        "Categoria regulatória e nível de evidência humana",
+        "Procedência e cadeia de qualidade do produto",
+        "Farmacocinética real · indicação · consentimento",
+      ],
+      image: "/slides/clinical-decision.jpg",
+      imageAlt: "Médico diante de diagramas moleculares",
+      imageSide: "right",
+    },
+    {
+      kind: "figure",
+      title: "Três escalas, três lógicas",
+      caption:
+        "Pequena molécula · peptídeo · biológico (mAb). Massa, seletividade e via mudam juntos — não trate as classes como sinônimos.",
+      image: "/slides/scale-compare.jpg",
+      imageAlt: "Comparação visual de escala farmacológica",
+      credit: "Ilustração Doutiva · baseado em Muttenthaler 2021",
     },
     {
       kind: "table",
@@ -54,19 +59,23 @@ export const lesson1: RichLesson = {
         "Instabilidade física — agregação, oxidação de Met/Trp, desamidação de Asn.",
       ],
       note: "Cada fraqueza explica uma estratégia de engenharia — e um risco quando o produto não a resolve.",
+      image: "/slides/peptide-molecule.jpg",
+      imageAlt: "Estrutura peptídica sob luz clínica",
     },
     {
-      kind: "table",
-      title: "Engenharia que transformou minutos em dias",
-      head: ["Estratégia", "Mecanismo", "Exemplo clínico"],
-      rows: [
-        ["Aminoácido não natural", "Bloqueia sítio de DPP-4", "Aib8 · semaglutida"],
-        ["Lipidação (ácido graxo)", "Ligação reversível à albumina", "C18 semaglutida · C20 tirzepatida"],
-        ["Fusão a Fc / albumina", "Reciclagem via FcRn", "Dulaglutida"],
-        ["PEGilação", "↑ raio hidrodinâmico", "Pegvisomanto"],
-        ["Ciclização", "Rigidez + resistência proteolítica", "Octreotida"],
-        ["Potenciador de absorção", "SNAC eleva pH local gástrico", "Semaglutida oral"],
+      kind: "media",
+      eyebrow: "Engenharia molecular",
+      title: "Lipidação e albumina",
+      body: "Ácido graxo + albumina transformam minutos em dias — a base da dose semanal.",
+      bullets: [
+        "Aib8 bloqueia DPP-4 (semaglutida)",
+        "C18 / C20: ligação reversível à albumina",
+        "t½ > 100 h → platô em ~4–5 semanas",
       ],
+      image: "/slides/albumin-binding.jpg",
+      imageAlt: "Peptídeo ligado à albumina",
+      imageSide: "left",
+      credit: "Conceito · bulas FDA/EMA",
     },
     {
       kind: "bars",
@@ -83,8 +92,17 @@ export const lesson1: RichLesson = {
       note: "t½ > 100 h → dose semanal e platô em ~4–5 semanas. Titulação impaciente = GI evitável.",
     },
     {
-      kind: "flow",
+      kind: "figure",
       title: "Do aminoácido ao frasco",
+      caption:
+        "Síntese → purificação → caracterização → formulação → cadeia fria. É nestas etapas que “research use only” falha — e onde nasce o risco ao paciente.",
+      image: "/slides/cold-chain-vial.jpg",
+      imageAlt: "Frascos estéreis de peptídeo na cadeia fria",
+      credit: "Qualidade · esterilidade · rastreabilidade",
+    },
+    {
+      kind: "flow",
+      title: "Cadeia de fabricação — checklist",
       steps: [
         { label: "Síntese", detail: "SPPS ou DNA recombinante" },
         { label: "Purificação", detail: "HPLC · pureza ≥ 98%" },
@@ -92,7 +110,6 @@ export const lesson1: RichLesson = {
         { label: "Formulação", detail: "Tampão · conservante · liofilização" },
         { label: "Cadeia fria", detail: "2–8 °C · estabilidade validada" },
       ],
-      note: "É nestas etapas que “research use only” falha — e onde nasce o risco ao paciente.",
     },
     {
       kind: "bullets",
@@ -105,6 +122,8 @@ export const lesson1: RichLesson = {
         "Procedência: indústria · magistral RDC 67 · “research only”?",
       ],
       note: "Se qualquer resposta for “não sei”, a conduta é não prescrever até saber.",
+      image: "/slides/clinical-decision.jpg",
+      imageAlt: "Protocolo clínico e decisão médica",
     },
     {
       kind: "pearl",

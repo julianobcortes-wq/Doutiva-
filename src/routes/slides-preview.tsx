@@ -20,7 +20,7 @@ function SlidesPreviewPage() {
         <p className="text-[10px] uppercase tracking-[0.35em] text-gold">Prévia · Peptídeos · Aula 1</p>
         <h1 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">Lâminas novas</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          Deck redesenhado — {slides.length} lâminas · use as setas ou Continuar
+          Deck com ilustrações — {slides.length} lâminas · setas ou chips abaixo
         </p>
         <div className="mt-8">
           <ClinicalSlideDeck slides={slides} index={index} onIndexChange={setIndex} showChrome />

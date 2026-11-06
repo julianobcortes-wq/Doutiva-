@@ -47,6 +47,7 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
 
   if (!n) return null;
   const s = slides[i];
+  const bleed = s.kind === "figure" || (s.kind === "title" && !!s.image);
 
   return (
     <div className={full ? "fixed inset-0 z-50 flex flex-col bg-background p-3 md:p-8" : "relative"}>
@@ -63,37 +64,48 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
           touch.current = null;
         }}
       >
-        {/* Atmosphere */}
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,oklch(0.82_0.13_205/0.14),transparent_50%),radial-gradient(ellipse_at_100%_100%,oklch(0.77_0.15_165/0.08),transparent_45%)]"
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 opacity-[0.07]"
-          style={{
-            backgroundImage:
-              "linear-gradient(oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px), linear-gradient(90deg, oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px)",
-            backgroundSize: "48px 48px",
-            maskImage: "radial-gradient(ellipse at center, black 20%, transparent 75%)",
-          }}
-        />
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
+        {!bleed && (
+          <>
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,oklch(0.82_0.13_205/0.14),transparent_50%),radial-gradient(ellipse_at_100%_100%,oklch(0.77_0.15_165/0.08),transparent_45%)]"
+            />
+            <div
+              aria-hidden
+              className="pointer-events-none absolute inset-0 opacity-[0.07]"
+              style={{
+                backgroundImage:
+                  "linear-gradient(oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px), linear-gradient(90deg, oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px)",
+                backgroundSize: "48px 48px",
+                maskImage: "radial-gradient(ellipse at center, black 20%, transparent 75%)",
+              }}
+            />
+          </>
+        )}
+        <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
 
         {showChrome && (
-          <div className="relative z-10 flex items-center justify-between px-6 pt-5 text-[10px] uppercase tracking-[0.32em] text-muted-foreground">
+          <div
+            className={cn(
+              "relative z-20 flex items-center justify-between px-6 pt-5 text-[10px] uppercase tracking-[0.32em]",
+              bleed ? "text-white/70" : "text-muted-foreground",
+            )}
+          >
             <span>
               Doutiva <span className="text-gold/80">·</span> Lâmina{" "}
-              <span className="tabular-nums text-foreground">
+              <span className={cn("tabular-nums", bleed ? "text-white" : "text-foreground")}>
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <span className="text-muted-foreground/50"> / {String(n).padStart(2, "0")}</span>
+              <span className="opacity-50"> / {String(n).padStart(2, "0")}</span>
             </span>
             <button
               type="button"
               onClick={() => setFull((f) => !f)}
               aria-label="Tela cheia"
-              className="rounded-sm border border-border/60 p-1.5 transition hover:border-gold/40 hover:text-gold"
+              className={cn(
+                "rounded-sm border p-1.5 transition hover:border-gold/40 hover:text-gold",
+                bleed ? "border-white/25 text-white/80" : "border-border/60",
+              )}
             >
               {full ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5" />}
             </button>
@@ -102,18 +114,31 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
 
         <div
           key={i}
-          className="relative z-10 flex flex-1 flex-col justify-center px-6 py-8 animate-in fade-in slide-in-from-right-3 duration-400 md:px-14 md:py-10"
+          className={cn(
+            "relative z-10 flex flex-1 flex-col animate-in fade-in slide-in-from-right-3 duration-400",
+            bleed ? "justify-end" : "justify-center px-6 py-8 md:px-14 md:py-10",
+          )}
         >
           <SlideBody s={s} />
         </div>
 
         {showChrome && (
-          <div className="relative z-10 flex items-center justify-between border-t border-border/40 bg-background/40 px-3 py-2.5 backdrop-blur-sm">
+          <div
+            className={cn(
+              "relative z-20 flex items-center justify-between border-t px-3 py-2.5 backdrop-blur-sm",
+              bleed ? "border-white/10 bg-black/35" : "border-border/40 bg-background/40",
+            )}
+          >
             <button
               type="button"
               onClick={() => go(-1)}
               disabled={i === 0}
-              className="rounded-sm p-2 text-muted-foreground transition hover:bg-secondary hover:text-foreground disabled:opacity-25"
+              className={cn(
+                "rounded-sm p-2 transition disabled:opacity-25",
+                bleed
+                  ? "text-white/70 hover:bg-white/10 hover:text-white"
+                  : "text-muted-foreground hover:bg-secondary hover:text-foreground",
+              )}
               aria-label="Anterior"
             >
               <ChevronLeft className="h-5 w-5" />
@@ -136,7 +161,12 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
               type="button"
               onClick={() => go(1)}
               disabled={i === n - 1}
-              className="rounded-sm p-2 text-muted-foreground transition hover:bg-secondary hover:text-foreground disabled:opacity-25"
+              className={cn(
+                "rounded-sm p-2 transition disabled:opacity-25",
+                bleed
+                  ? "text-white/70 hover:bg-white/10 hover:text-white"
+                  : "text-muted-foreground hover:bg-secondary hover:text-foreground",
+              )}
               aria-label="Próxima"
             >
               <ChevronRight className="h-5 w-5" />
@@ -148,9 +178,54 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
   );
 }
 
+function SlideImage({
+  src,
+  alt,
+  className,
+}: {
+  src: string;
+  alt?: string;
+  className?: string;
+}) {
+  return (
+    <img
+      src={src}
+      alt={alt ?? ""}
+      className={cn("h-full w-full object-cover", className)}
+      loading="lazy"
+      decoding="async"
+    />
+  );
+}
+
 function SlideBody({ s }: { s: Slide }) {
   switch (s.kind) {
     case "title":
+      if (s.image) {
+        return (
+          <div className="absolute inset-0">
+            <SlideImage src={s.image} alt={s.imageAlt ?? s.title} className="scale-105" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/25" />
+            <div className="absolute inset-x-0 bottom-0 px-6 pb-10 pt-24 md:px-14 md:pb-14">
+              {s.eyebrow && (
+                <div className="inline-flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.4em] text-gold">
+                  <span className="h-px w-8 bg-gold/60" />
+                  {s.eyebrow}
+                  <span className="h-px w-8 bg-gold/60" />
+                </div>
+              )}
+              <h3 className="mt-5 max-w-3xl font-display text-[clamp(2rem,5vw,3.6rem)] font-medium leading-[1.05] tracking-[-0.03em] text-white">
+                {s.title}
+              </h3>
+              {s.subtitle && (
+                <p className="mt-4 max-w-2xl text-base font-light leading-relaxed text-white/75 md:text-lg">
+                  {s.subtitle}
+                </p>
+              )}
+            </div>
+          </div>
+        );
+      }
       return (
         <div className="mx-auto max-w-4xl text-center">
           {s.eyebrow && (
@@ -171,26 +246,106 @@ function SlideBody({ s }: { s: Slide }) {
         </div>
       );
 
+    case "figure":
+      return (
+        <div className="absolute inset-0">
+          <SlideImage src={s.image} alt={s.imageAlt ?? s.title} />
+          <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 px-6 pb-10 md:px-14 md:pb-12">
+            <h3 className="max-w-3xl font-display text-[clamp(1.6rem,3.5vw,2.8rem)] font-medium leading-tight tracking-tight text-white">
+              {s.title}
+            </h3>
+            {s.caption && (
+              <p className="mt-3 max-w-2xl text-sm font-light leading-relaxed text-white/75 md:text-base">
+                {s.caption}
+              </p>
+            )}
+            {s.credit && (
+              <p className="mt-4 text-[10px] uppercase tracking-[0.25em] text-white/45">{s.credit}</p>
+            )}
+          </div>
+        </div>
+      );
+
+    case "media": {
+      const imageLeft = (s.imageSide ?? "right") === "left";
+      return (
+        <div className="mx-auto grid w-full max-w-5xl gap-6 md:grid-cols-2 md:items-center md:gap-10">
+          <div className={cn("order-2", imageLeft ? "md:order-2" : "md:order-1")}>
+            {s.eyebrow && (
+              <div className="text-[10px] uppercase tracking-[0.3em] text-gold">{s.eyebrow}</div>
+            )}
+            <h3 className="mt-2 font-display text-2xl font-medium tracking-tight md:text-4xl">{s.title}</h3>
+            {s.body && (
+              <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground md:text-base">
+                {s.body}
+              </p>
+            )}
+            {!!s.bullets?.length && (
+              <ul className="mt-6 space-y-3">
+                {s.bullets.map((b) => (
+                  <li key={b} className="flex gap-3 text-sm font-light leading-relaxed">
+                    <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-gold" />
+                    {b}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {s.credit && (
+              <p className="mt-6 text-[10px] uppercase tracking-[0.25em] text-muted-foreground/70">
+                {s.credit}
+              </p>
+            )}
+          </div>
+          <div
+            className={cn(
+              "order-1 overflow-hidden rounded-sm border border-gold/20 shadow-[var(--shadow-elegant)]",
+              imageLeft ? "md:order-1" : "md:order-2",
+            )}
+          >
+            <div className="relative aspect-[4/3] md:aspect-[5/4]">
+              <SlideImage src={s.image} alt={s.imageAlt ?? s.title} className="absolute inset-0" />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-black/25 via-transparent to-gold/10" />
+            </div>
+          </div>
+        </div>
+      );
+    }
+
     case "bullets":
       return (
-        <div className="mx-auto w-full max-w-3xl">
-          <h3 className="font-display text-2xl font-medium tracking-tight md:text-4xl">{s.title}</h3>
-          <ul className="mt-8 space-y-0 border-t border-border/50">
-            {s.bullets.map((b, idx) => (
-              <li
-                key={b}
-                className="grid grid-cols-[3rem_1fr] gap-4 border-b border-border/40 py-4 md:grid-cols-[4rem_1fr]"
-              >
-                <span className="font-display text-sm tabular-nums text-gold/80">
-                  {String(idx + 1).padStart(2, "0")}
-                </span>
-                <span className="text-sm font-light leading-relaxed text-foreground/90 md:text-base">
-                  {b}
-                </span>
-              </li>
-            ))}
-          </ul>
-          {s.note && <p className="mt-6 text-xs leading-relaxed text-muted-foreground">{s.note}</p>}
+        <div
+          className={cn(
+            "mx-auto w-full",
+            s.image ? "grid max-w-5xl gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-center" : "max-w-3xl",
+          )}
+        >
+          <div>
+            <h3 className="font-display text-2xl font-medium tracking-tight md:text-4xl">{s.title}</h3>
+            <ul className="mt-8 space-y-0 border-t border-border/50">
+              {s.bullets.map((b, idx) => (
+                <li
+                  key={b}
+                  className="grid grid-cols-[3rem_1fr] gap-4 border-b border-border/40 py-4 md:grid-cols-[4rem_1fr]"
+                >
+                  <span className="font-display text-sm tabular-nums text-gold/80">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <span className="text-sm font-light leading-relaxed text-foreground/90 md:text-base">
+                    {b}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {s.note && <p className="mt-6 text-xs leading-relaxed text-muted-foreground">{s.note}</p>}
+          </div>
+          {s.image && (
+            <div className="overflow-hidden rounded-sm border border-gold/20">
+              <div className="relative aspect-[4/3]">
+                <SlideImage src={s.image} alt={s.imageAlt ?? s.title} className="absolute inset-0" />
+              </div>
+            </div>
+          )}
         </div>
       );
 
@@ -201,7 +356,10 @@ function SlideBody({ s }: { s: Slide }) {
           <h3 className="font-display text-2xl font-medium tracking-tight md:text-4xl">{s.title}</h3>
           <div className="mt-10 space-y-5">
             {s.bars.map((b) => (
-              <div key={b.label} className="grid grid-cols-[7rem_1fr_4.5rem] items-center gap-3 md:grid-cols-[10rem_1fr_5rem] md:gap-5">
+              <div
+                key={b.label}
+                className="grid grid-cols-[7rem_1fr_4.5rem] items-center gap-3 md:grid-cols-[10rem_1fr_5rem] md:gap-5"
+              >
                 <span className="truncate text-xs font-light text-muted-foreground md:text-sm">
                   {b.label}
                 </span>
