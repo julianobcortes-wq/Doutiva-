@@ -4,6 +4,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { DoutivaMark } from "@/components/doutiva-mark";
 import { toast } from "sonner";
 import { setStoredClass } from "@/lib/use-city-profile";
 import { classInfo, type UserClass } from "@/lib/valley";
@@ -81,9 +82,8 @@ function AuthPage() {
       <div className="relative hidden md:block">
         <div className="absolute inset-0 bg-gradient-to-br from-black via-neutral-950 to-black" />
         <div className="relative flex h-full flex-col justify-between p-12">
-          <Link to="/" className="flex items-center gap-3">
-            <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 text-gold font-serif text-lg">D</span>
-            <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
+          <Link to="/" className="inline-flex" aria-label="Doutiva — início">
+            <DoutivaMark size="md" title="" />
           </Link>
           <div>
             <p className="font-serif text-3xl leading-snug">

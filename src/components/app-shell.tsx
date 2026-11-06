@@ -2,6 +2,7 @@ import { Link, useRouter, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
+import { DoutivaMark } from "@/components/doutiva-mark";
 import { useValleyProfile } from "@/lib/use-city-profile";
 import { StatusHud } from "@/components/valley/status-hud";
 import { districtLabels, classLabel } from "@/lib/city";
@@ -151,11 +152,10 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       className={`min-h-screen bg-background text-foreground${isFaculty ? " theme-expert" : ""}`}
     >
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 flex-col border-r border-border/60 bg-sidebar md:flex">
-        <div className="flex h-16 items-center gap-3 border-b border-border/60 px-6">
-          <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 text-gold font-serif text-lg">
-            D
-          </span>
-          <span className="font-serif text-base tracking-tight">DOUTIVA</span>
+        <div className="flex h-16 items-center border-b border-border/60 px-6">
+          <Link to="/dashboard" className="inline-flex" aria-label="Doutiva">
+            <DoutivaMark size="sm" title="" />
+          </Link>
         </div>
 
         <div className="flex-1 overflow-y-auto px-4 pt-6">
@@ -240,7 +240,9 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <div className="md:pl-64">
         <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-border/60 bg-background/80 px-6 backdrop-blur-xl">
           <div className="flex items-center gap-4">
-            <span className="md:hidden font-serif text-base">DOUTIVA</span>
+            <span className="md:hidden inline-flex">
+              <DoutivaMark size="sm" title="" />
+            </span>
             <span className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground lg:block">
               {currentLabel}
             </span>
