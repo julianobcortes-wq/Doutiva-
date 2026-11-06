@@ -2,7 +2,6 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
-import { DoutivaMark } from "@/components/doutiva-mark";
 
 export function SiteHeader() {
   const [signedIn, setSignedIn] = useState(false);
@@ -18,8 +17,11 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
-        <Link to="/" className="flex items-center" aria-label="Doutiva — início">
-          <DoutivaMark size="sm" title="" />
+        <Link to="/" className="flex items-center gap-3">
+          <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 font-serif text-lg text-gold">
+            D
+          </span>
+          <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
           <a href="/#protocolos" className="transition hover:text-foreground">

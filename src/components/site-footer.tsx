@@ -1,14 +1,16 @@
 import { Link } from "@tanstack/react-router";
-import { DoutivaMark } from "@/components/doutiva-mark";
 
 export function SiteFooter() {
   return (
     <footer className="border-t border-border/60 bg-background">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-4">
         <div className="md:col-span-2">
-          <Link to="/" className="inline-flex" aria-label="Doutiva — início">
-            <DoutivaMark size="md" title="" />
-          </Link>
+          <div className="flex items-center gap-3">
+            <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 font-serif text-lg text-gold">
+              D
+            </span>
+            <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
+          </div>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
             Instituto de Medicina e Negócios. Peptídeos livres; Protocolos Online agora; imersão,
             mentoria e clube em breve. 100% independente de farmácia, laboratório e indústria.

@@ -1,7 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { DoutivaMark } from "@/components/doutiva-mark";
 import { Button } from "@/components/ui/button";
 import heroDoctor from "@/assets/hero-doctor.jpg";
 import grainGold from "@/assets/grain-gold.jpg";
@@ -50,8 +49,8 @@ function HomePage() {
           <p className="text-[11px] font-medium uppercase tracking-[0.42em] text-gold animate-in fade-in slide-in-from-bottom-2 duration-700">
             Instituto de Medicina e Negócios
           </p>
-          <h1 className="mt-6 animate-in fade-in slide-in-from-bottom-3 duration-700">
-            <DoutivaMark size="hero" animate title="Doutiva" />
+          <h1 className="mt-6 max-w-[14ch] font-display text-[clamp(3.5rem,12vw,7.5rem)] font-medium leading-[0.92] tracking-[-0.03em] animate-in fade-in slide-in-from-bottom-3 duration-700">
+            Doutiva
           </h1>
           <p className="mt-8 max-w-xl text-lg font-light leading-relaxed text-foreground/85 md:text-xl animate-in fade-in slide-in-from-bottom-4 duration-700">
             Protocolos clínicos com evidência — para o médico que decide na segunda-feira.
