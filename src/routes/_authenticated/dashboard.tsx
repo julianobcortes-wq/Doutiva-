@@ -190,7 +190,7 @@ function DashboardPage() {
           to="/billing"
           icon={ShoppingBag}
           title="Meu plano"
-          desc="Protocolos Online · R$ 297/mês."
+          desc="Peptídeos livres · Protocolos R$ 297/mês."
         />
         <Action
           to="/ranking"

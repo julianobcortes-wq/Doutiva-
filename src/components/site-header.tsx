@@ -66,7 +66,7 @@ export function SiteHeader() {
                 className="bg-gold text-primary-foreground hover:bg-gold-soft"
               >
                 <Link to="/auth" search={{ mode: "signup" } as never}>
-                  Assinar Protocolos
+                  Começar grátis
                 </Link>
               </Button>
             </>

@@ -2,6 +2,19 @@ import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
 import { redactClinicalCaseJson } from "@/lib/clinical-case-public";
+import { accessForCourse, isFreeCourseSlug, subscriptionIsActive } from "@/lib/freemium";
+
+async function loadSubStatus(
+  supabase: { from: (t: string) => any },
+  userId: string,
+): Promise<string | null> {
+  const { data } = await supabase
+    .from("user_subscriptions")
+    .select("status")
+    .eq("user_id", userId)
+    .maybeSingle();
+  return (data?.status as string | undefined) ?? null;
+}
 
 export const listCourses = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
@@ -13,7 +26,14 @@ export const listCourses = createServerFn({ method: "GET" })
       .order("featured", { ascending: false })
       .order("created_at", { ascending: true });
     if (error) throw error;
-    return data ?? [];
+    const status = await loadSubStatus(context.supabase, context.userId);
+    const paid = subscriptionIsActive(status);
+    return (data ?? []).map((c) => ({
+      ...c,
+      free: isFreeCourseSlug(c.slug),
+      access: accessForCourse(c.slug, status),
+      subscribed: paid,
+    }));
   });
 
 export const getCourseBySlug = createServerFn({ method: "GET" })
@@ -71,11 +91,33 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
       clinical_case: redactClinicalCaseJson(l.clinical_case) ?? null,
     }));
 
+    const status = await loadSubStatus(supabase, userId);
+    const access = accessForCourse(course.slug as string, status);
+    const locked = access === "locked";
+
+    // Locked courses: keep syllabus metadata, strip session payloads.
+    const lessonsOut = locked
+      ? safeLessons.map((l) => ({
+          ...l,
+          content: null,
+          key_points: null,
+          refs: null,
+          slides: null,
+          clinical_case: null,
+          quick_ref: null,
+          video_url: null,
+          has_monograph: false,
+        }))
+      : safeLessons;
+
     return {
       ...course,
-      lessons: safeLessons,
+      lessons: lessonsOut,
       enrolled: !!enrollment,
       progress: progressIds,
+      access,
+      free: isFreeCourseSlug(course.slug as string),
+      subscribed: subscriptionIsActive(status),
     };
   });
 
@@ -86,11 +128,19 @@ export const getLessonMonograph = createServerFn({ method: "GET" })
   .handler(async ({ context, data }) => {
     const { data: lesson, error } = await context.supabase
       .from("lessons")
-      .select("id, title, monograph, refs, quick_ref")
+      .select("id, title, monograph, refs, quick_ref, courses!inner(slug)")
       .eq("id", data.lessonId)
       .maybeSingle();
     if (error) throw error;
     if (!lesson) throw new Error("Aula não encontrada");
+    const slug = (lesson as { courses?: { slug?: string } | { slug?: string }[] }).courses;
+    const courseSlug = Array.isArray(slug) ? slug[0]?.slug : slug?.slug;
+    if (courseSlug) {
+      const status = await loadSubStatus(context.supabase, context.userId);
+      if (accessForCourse(courseSlug, status) === "locked") {
+        throw new Error("Monografia disponível em Protocolos.");
+      }
+    }
     return {
       id: lesson.id as string,
       title: lesson.title as string,
@@ -104,6 +154,17 @@ export const enrollInCourse = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
   .inputValidator((d: { courseId: string }) => z.object({ courseId: z.string().uuid() }).parse(d))
   .handler(async ({ context, data }) => {
+    const { data: course, error: courseErr } = await context.supabase
+      .from("courses")
+      .select("slug")
+      .eq("id", data.courseId)
+      .maybeSingle();
+    if (courseErr) throw courseErr;
+    if (!course) throw new Error("Curso não encontrado");
+    const status = await loadSubStatus(context.supabase, context.userId);
+    if (accessForCourse(course.slug as string, status) === "locked") {
+      throw new Error("Esta trilha exige Protocolos. Assine para matricular.");
+    }
     const { error } = await context.supabase
       .from("enrollments")
       .insert({ course_id: data.courseId, user_id: context.userId });

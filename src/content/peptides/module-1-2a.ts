@@ -3,44 +3,115 @@ import type { RichLesson } from "../lesson-types";
 /* Aula 1 — O que é um peptídeo terapêutico */
 export const lesson1: RichLesson = {
   slides: [
-    { kind: "title", eyebrow: "Módulo 1 · Fundamentos", title: "O peptídeo terapêutico", subtitle: "Entre a pequena molécula e o biológico: por que esta classe redefine a farmacologia da próxima década." },
-    { kind: "table", title: "Três espaços farmacológicos", head: ["Atributo", "Pequena molécula", "Peptídeo", "Biológico (mAb)"], rows: [
-      ["Massa", "< 0,9 kDa", "0,5–5 kDa", "~150 kDa"],
-      ["Seletividade", "Moderada", "Alta", "Muito alta"],
-      ["Via oral", "Sim", "Rara (SNAC)", "Não"],
-      ["Meia-vida nativa", "Horas", "Minutos", "Dias–semanas"],
-      ["Toxicidade off-target", "Mais frequente", "Baixa", "Baixa"],
-      ["Imunogenicidade", "Rara", "Baixa", "Variável"],
-    ], source: "Muttenthaler et al., Nat Rev Drug Discov 2021" },
-    { kind: "bullets", title: "As quatro fraquezas do peptídeo nativo", bullets: [
-      "Proteólise rápida — GLP-1 nativo tem meia-vida de ~2 min (DPP-4 e NEP 24.11).",
-      "Filtração renal — moléculas < 60 kDa são depuradas rapidamente.",
-      "Biodisponibilidade oral < 1–2% — ácido gástrico, pepsina e baixa permeabilidade epitelial.",
-      "Baixa estabilidade física — agregação, oxidação de Met/Trp, desamidação de Asn.",
-    ] },
-    { kind: "table", title: "Engenharia que transformou minutos em dias", head: ["Estratégia", "Mecanismo", "Exemplo"], rows: [
-      ["Substituição por aminoácido não natural", "Bloqueia sítio de DPP-4", "Aib8 na semaglutida"],
-      ["Lipidação (ácido graxo)", "Ligação reversível à albumina", "Semaglutida (C18), tirzepatida (C20)"],
-      ["Fusão a Fc / albumina", "Reciclagem via FcRn", "Dulaglutida"],
-      ["PEGilação", "Aumenta raio hidrodinâmico", "Pegvisomanto"],
-      ["Ciclização", "Rigidez conformacional, resistência", "Octreotida"],
-      ["Potenciador de absorção", "SNAC eleva pH local gástrico", "Semaglutida oral"],
-    ] },
-    { kind: "bars", title: "Meia-vida: o efeito da engenharia", unit: " h", bars: [
-      { label: "GLP-1 nativo", value: 0.03 },
-      { label: "Exenatida", value: 2.4 },
-      { label: "Liraglutida", value: 13 },
-      { label: "Tirzepatida", value: 116 },
-      { label: "Semaglutida", value: 165, highlight: true },
-    ], source: "Bulas FDA/EMA", note: "Meia-vida > 100 h permite dose semanal e níveis estáveis em ~4–5 semanas." },
-    { kind: "flow", title: "Do aminoácido ao frasco", steps: [
-      { label: "Síntese", detail: "SPPS (fase sólida) ou DNA recombinante" },
-      { label: "Purificação", detail: "HPLC; pureza ≥ 98% para uso humano" },
-      { label: "Caracterização", detail: "Espectrometria de massas, endotoxinas, esterilidade" },
-      { label: "Formulação", detail: "Tampão, conservante, liofilização" },
-      { label: "Cadeia fria", detail: "2–8 °C; estabilidade validada" },
-    ], note: "Cada etapa é onde produtos “research use only” falham — e onde o risco ao paciente nasce." },
-    { kind: "pearl", title: "Para o consultório", text: "Peptídeo não é sinônimo de natural nem de seguro. É uma molécula com farmacocinética, pureza e evidência próprias — avalie cada uma.", source: "Doutiva · Princípio 1" },
+    {
+      kind: "title",
+      eyebrow: "Módulo 1 · Fundamentos",
+      title: "O peptídeo terapêutico",
+      subtitle:
+        "Entre a pequena molécula e o biológico — a classe que redefine a decisão clínica da próxima década.",
+    },
+    {
+      kind: "split",
+      title: "O que o médico precisa decidir",
+      left: {
+        label: "Antes da dose",
+        items: [
+          "Categoria regulatória (registrado · off-label · magistral · irregular)",
+          "Nível de evidência humana (fase 3 vs pré-clínico)",
+          "Procedência e cadeia de qualidade do produto",
+        ],
+      },
+      right: {
+        label: "Na consulta",
+        items: [
+          "Farmacocinética real (t½, via, biodisponibilidade)",
+          "Indicação de bula vs desejo do paciente",
+          "Documentação e consentimento quando off-label",
+        ],
+      },
+    },
+    {
+      kind: "table",
+      title: "Três espaços farmacológicos",
+      head: ["Atributo", "Pequena molécula", "Peptídeo", "Biológico (mAb)"],
+      rows: [
+        ["Massa", "< 0,9 kDa", "0,5–5 kDa", "~150 kDa"],
+        ["Seletividade", "Moderada", "Alta", "Muito alta"],
+        ["Via oral", "Sim", "Rara (SNAC)", "Não"],
+        ["Meia-vida nativa", "Horas", "Minutos", "Dias–semanas"],
+        ["Toxicidade off-target", "Mais frequente", "Baixa", "Baixa"],
+        ["Imunogenicidade", "Rara", "Baixa", "Variável"],
+      ],
+      source: "Muttenthaler et al., Nat Rev Drug Discov 2021",
+    },
+    {
+      kind: "bullets",
+      title: "Quatro fraquezas do peptídeo nativo",
+      bullets: [
+        "Proteólise rápida — GLP-1 nativo: t½ ~2 min (DPP-4 e NEP 24.11).",
+        "Filtração renal — moléculas < 60 kDa são depuradas em horas.",
+        "Biodisponibilidade oral < 1–2% — ácido gástrico, pepsina, baixa permeabilidade.",
+        "Instabilidade física — agregação, oxidação de Met/Trp, desamidação de Asn.",
+      ],
+      note: "Cada fraqueza explica uma estratégia de engenharia — e um risco quando o produto não a resolve.",
+    },
+    {
+      kind: "table",
+      title: "Engenharia que transformou minutos em dias",
+      head: ["Estratégia", "Mecanismo", "Exemplo clínico"],
+      rows: [
+        ["Aminoácido não natural", "Bloqueia sítio de DPP-4", "Aib8 · semaglutida"],
+        ["Lipidação (ácido graxo)", "Ligação reversível à albumina", "C18 semaglutida · C20 tirzepatida"],
+        ["Fusão a Fc / albumina", "Reciclagem via FcRn", "Dulaglutida"],
+        ["PEGilação", "↑ raio hidrodinâmico", "Pegvisomanto"],
+        ["Ciclização", "Rigidez + resistência proteolítica", "Octreotida"],
+        ["Potenciador de absorção", "SNAC eleva pH local gástrico", "Semaglutida oral"],
+      ],
+    },
+    {
+      kind: "bars",
+      title: "Meia-vida: o efeito da engenharia",
+      unit: " h",
+      bars: [
+        { label: "GLP-1 nativo", value: 0.03 },
+        { label: "Exenatida", value: 2.4 },
+        { label: "Liraglutida", value: 13 },
+        { label: "Tirzepatida", value: 116 },
+        { label: "Semaglutida", value: 165, highlight: true },
+      ],
+      source: "Bulas FDA/EMA",
+      note: "t½ > 100 h → dose semanal e platô em ~4–5 semanas. Titulação impaciente = GI evitável.",
+    },
+    {
+      kind: "flow",
+      title: "Do aminoácido ao frasco",
+      steps: [
+        { label: "Síntese", detail: "SPPS ou DNA recombinante" },
+        { label: "Purificação", detail: "HPLC · pureza ≥ 98%" },
+        { label: "Caracterização", detail: "MS · endotoxinas · esterilidade" },
+        { label: "Formulação", detail: "Tampão · conservante · liofilização" },
+        { label: "Cadeia fria", detail: "2–8 °C · estabilidade validada" },
+      ],
+      note: "É nestas etapas que “research use only” falha — e onde nasce o risco ao paciente.",
+    },
+    {
+      kind: "bullets",
+      title: "Cinco perguntas antes de qualquer peptídeo",
+      bullets: [
+        "Alvo e mecanismo definidos em humanos?",
+        "Farmacocinética humana conhecida (não só roedor)?",
+        "Melhor evidência: fase 3, fase 2, série ou pré-clínico?",
+        "Status ANVISA para esta indicação?",
+        "Procedência: indústria · magistral RDC 67 · “research only”?",
+      ],
+      note: "Se qualquer resposta for “não sei”, a conduta é não prescrever até saber.",
+    },
+    {
+      kind: "pearl",
+      title: "Para o consultório",
+      text: "Peptídeo não é sinônimo de natural nem de seguro. É molécula com farmacocinética, pureza e evidência próprias — avalie cada uma.",
+      source: "Doutiva · Princípio 1",
+    },
   ],
   monograph: `## 1. Definição operacional
 

@@ -12,8 +12,8 @@ export function SiteFooter() {
             <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
           </div>
           <p className="mt-4 max-w-md text-sm text-muted-foreground">
-            Instituto de Medicina e Negócios. Protocolos Online agora; imersão, mentoria e clube em
-            breve. 100% independente de farmácia, laboratório e indústria.
+            Instituto de Medicina e Negócios. Peptídeos livres; Protocolos Online agora; imersão,
+            mentoria e clube em breve. 100% independente de farmácia, laboratório e indústria.
           </p>
         </div>
         <div>

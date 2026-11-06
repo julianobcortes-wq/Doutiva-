@@ -126,8 +126,9 @@
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
   --color-sage: var(--sage);
-  --font-serif: "Outfit", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Syne", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", ui-sans-serif, system-ui, sans-serif;
 }
 
 @layer base {
@@ -144,8 +145,14 @@
 
   h1, h2, h3, .font-serif {
     font-family: var(--font-serif);
-    font-weight: 200;
-    letter-spacing: -0.01em;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.025em;
   }
 }
 

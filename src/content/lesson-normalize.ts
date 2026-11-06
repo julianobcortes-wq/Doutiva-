@@ -45,17 +45,25 @@ export function toCase(raw: unknown): ClinicalCase | null {
 
 type LessonLike = { position: number; slides?: unknown; monograph?: string | null; clinical_case?: unknown; quick_ref?: string | null };
 
-/** Database content wins; built-in course files are the fallback. */
+/**
+ * Built-in curated decks (Peptídeos) win for the freemium flagship.
+ * Other courses: database content wins; files are the fallback.
+ */
 export function resolveRich(lesson: LessonLike, courseSlug: string): RichLesson | null {
+  const curated = getRichLesson(courseSlug, lesson.position);
+  if (curated && curated.slides.length >= 5) return curated;
+
   const slides = toSlides(lesson.slides);
   const c = toCase(lesson.clinical_case);
   const mono = lesson.monograph?.trim() ?? "";
   const qr = lesson.quick_ref?.trim() ?? "";
   if (slides.length || c || mono || qr) {
     return {
-      slides, monograph: mono, quickRef: qr,
+      slides,
+      monograph: mono,
+      quickRef: qr,
       clinicalCase: c ?? { title: "", vignette: "", data: [], question: "", options: [], teaching: "", reward: 0 },
     };
   }
-  return getRichLesson(courseSlug, lesson.position);
+  return curated;
 }

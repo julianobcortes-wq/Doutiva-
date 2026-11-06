@@ -10,7 +10,7 @@ import { getCourseBySlug, enrollInCourse, toggleLessonComplete } from "@/lib/cou
 import { LessonMarkdown } from "@/components/lesson-markdown";
 import { LessonPlayer } from "@/components/lesson-player";
 import { resolveRich } from "@/content/lesson-normalize";
-import { ArrowLeft, BookOpen, CheckCircle2, Circle, Clock, FlaskConical, ListTree, ShieldAlert } from "lucide-react";
+import { ArrowLeft, BookOpen, CheckCircle2, Circle, Clock, FlaskConical, ListTree, Lock, ShieldAlert } from "lucide-react";
 import { toast } from "sonner";
 import { refreshProgress } from "@/lib/use-progress";
 
@@ -54,6 +54,8 @@ function CoursePage() {
   const [activeId, setActiveId] = useState<string | null>(course.lessons[0]?.id ?? null);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const locked = course.access === "locked";
+
   const enrollMut = useMutation({
     mutationFn: enrollFn,
     onSuccess: () => {
@@ -61,6 +63,7 @@ function CoursePage() {
       qc.invalidateQueries({ queryKey: ["course", slug] });
       router.invalidate();
     },
+    onError: (e: Error) => toast.error(e.message || "Não foi possível matricular"),
   });
   const toggleMut = useMutation({
     mutationFn: toggleFn,
@@ -146,7 +149,7 @@ function CoursePage() {
           <div className="mt-6 grid gap-8 md:grid-cols-[1.6fr_1fr] md:items-end">
             <div className="min-w-0">
               <span className="text-[10px] uppercase tracking-[0.3em] text-gold">{course.category}</span>
-              <h1 className="mt-3 text-balance text-3xl font-extralight leading-tight tracking-tight md:text-5xl">
+              <h1 className="mt-3 text-balance font-display text-3xl font-medium leading-tight tracking-tight md:text-5xl">
                 {course.title}
               </h1>
               <p className="mt-3 text-base font-light text-muted-foreground md:text-lg">{course.subtitle}</p>
@@ -158,14 +161,29 @@ function CoursePage() {
                 <span>
                   {modules.length} módulos · {total} aulas
                 </span>
-                {rich && <span className="text-gold">Sessão guiada · Aprofundar</span>}
+                {course.free && <span className="text-gold">Acesso livre</span>}
+                {locked && (
+                  <span className="inline-flex items-center gap-1 text-muted-foreground">
+                    <Lock className="h-3 w-3" /> Protocolos
+                  </span>
+                )}
+                {!locked && rich && <span className="text-gold">Sessão guiada · Aprofundar</span>}
               </div>
             </div>
             <div className="rounded-sm border border-border/60 bg-card p-6">
               <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Corpo docente</div>
               <div className="mt-2 text-lg font-light">{course.instructor_name}</div>
               <div className="text-xs text-muted-foreground">{course.instructor_title}</div>
-              {course.enrolled ? (
+              {locked ? (
+                <div className="mt-5 space-y-3">
+                  <p className="text-sm font-light text-muted-foreground">
+                    Esta trilha faz parte de Protocolos.
+                  </p>
+                  <Button asChild className="h-11 w-full rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
+                    <Link to="/billing">Assinar Protocolos · R$ 297</Link>
+                  </Button>
+                </div>
+              ) : course.enrolled ? (
                 <div className="mt-5">
                   <div className="flex justify-between text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                     <span>Progresso</span>
@@ -195,7 +213,33 @@ function CoursePage() {
           {syllabus}
         </aside>
 
-        {lesson && (
+        {locked && (
+          <article className="min-w-0">
+            <div className="relative overflow-hidden rounded-sm border border-gold/25 bg-gradient-to-br from-gold/10 via-card to-card p-10 md:p-14">
+              <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-gold/10 blur-3xl" />
+              <div className="relative mx-auto max-w-lg text-center">
+                <Lock className="mx-auto h-8 w-8 text-gold" />
+                <h2 className="mt-6 font-display text-3xl tracking-tight">Conteúdo em Protocolos</h2>
+                <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
+                  A ementa está visível. Sessões, lâminas e casos abrem com a assinatura. A trilha de
+                  peptídeos permanece livre na Universidade.
+                </p>
+                <div className="mt-8 flex flex-wrap justify-center gap-3">
+                  <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
+                    <Link to="/billing">Assinar Protocolos</Link>
+                  </Button>
+                  <Button asChild variant="outline" className="rounded-sm">
+                    <Link to="/academy/$slug" params={{ slug: "peptideos-medicina-de-precisao" }}>
+                      Ir para Peptídeos
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </article>
+        )}
+
+        {!locked && lesson && (
           <article className="min-w-0">
             <div className="flex items-center justify-between gap-3">
               <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
@@ -219,7 +263,9 @@ function CoursePage() {
                 </SheetContent>
               </Sheet>
             </div>
-            <h2 className="mt-3 text-balance text-2xl font-extralight leading-snug md:text-3xl">{lesson.title}</h2>
+            <h2 className="mt-3 text-balance font-display text-2xl font-medium leading-snug tracking-tight md:text-3xl">
+              {lesson.title}
+            </h2>
             <p className="mt-2 font-light text-muted-foreground">{lesson.description}</p>
             <div className="mt-4 flex flex-wrap gap-2 text-[10px] uppercase tracking-[0.2em]">
               {lesson.evidence_level && (

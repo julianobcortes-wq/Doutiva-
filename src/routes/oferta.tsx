@@ -12,7 +12,7 @@ export const Route = createFileRoute("/oferta")({
       {
         name: "description",
         content:
-          "Escada Doutiva: Protocolos Online, Imersão, Mentoria, Clube e Encontros. Começamos pelo Online; o restante abre em breve.",
+          "Peptídeos grátis. Protocolos Online R$ 297/mês. Imersão, mentoria, clube e encontros em breve.",
       },
       { property: "og:title", content: "Oferta — Doutiva" },
       { property: "og:type", content: "website" },
@@ -28,13 +28,15 @@ function OfertaPage() {
 
       <section className="mx-auto max-w-7xl px-6 pb-16 pt-28">
         <span className="text-[10px] uppercase tracking-[0.3em] text-gold">A escada</span>
-        <h1 className="mt-4 max-w-3xl font-serif text-5xl leading-tight md:text-6xl">
-          Instituto completo. Lançamento pelo Online.
+        <h1 className="mt-4 max-w-3xl font-display text-5xl leading-tight tracking-tight md:text-6xl">
+          Entre pela trilha livre.
+          <br />
+          <span className="text-gold">Escale com Protocolos.</span>
         </h1>
         <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-          Protocolos a R$ 297/mês já abrem a porta. Imersão, mentoria, clube e encontros estão
-          desenhados — entram como <span className="text-foreground">em breve</span> enquanto
-          costuramos mentores, Semana Doutiva e o evento de março.
+          Peptídeos sem cartão. Protocolos a R$ 297/mês abre o catálogo. Imersão, mentoria, clube e
+          encontros entram como <span className="text-foreground">em breve</span> no calendário do
+          instituto.
         </p>
       </section>
 
@@ -63,11 +65,13 @@ function OfertaPage() {
                   </span>
                 )}
               </div>
-              <h2 className="mt-3 font-serif text-3xl md:text-4xl">{tier.name}</h2>
-              <p className="mt-2 font-serif text-2xl text-gold">
+              <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">{tier.name}</h2>
+              <p className="mt-2 font-display text-2xl text-gold">
                 {tier.price}
                 {tier.priceNote ? (
-                  <span className="ml-2 text-base text-muted-foreground">{tier.priceNote}</span>
+                  <span className="ml-2 text-base font-sans font-light text-muted-foreground">
+                    {tier.priceNote}
+                  </span>
                 ) : null}
               </p>
               <p className="mt-4 max-w-2xl text-muted-foreground">{tier.blurb}</p>
@@ -84,9 +88,7 @@ function OfertaPage() {
                 <Button
                   asChild
                   className={`rounded-sm ${
-                    tier.status === "live"
-                      ? "bg-gold text-primary-foreground hover:bg-gold-soft"
-                      : ""
+                    tier.status === "live" ? "bg-gold text-primary-foreground hover:bg-gold-soft" : ""
                   }`}
                   variant={tier.status === "live" ? "default" : "outline"}
                 >
@@ -125,11 +127,18 @@ function OfertaPage() {
             </div>
             <p className="mt-4 text-muted-foreground">{INDEPENDENCE_LINE}</p>
           </div>
-          <Button asChild size="lg" className="h-12 shrink-0 rounded-sm bg-gold px-8 text-primary-foreground hover:bg-gold-soft">
-            <Link to="/auth" search={{ mode: "signup" } as never}>
-              Assinar Protocolos
-            </Link>
-          </Button>
+          <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
+            <Button asChild size="lg" variant="outline" className="h-12 rounded-sm px-8">
+              <Link to="/auth" search={{ mode: "signup" } as never}>
+                Começar grátis
+              </Link>
+            </Button>
+            <Button asChild size="lg" className="h-12 rounded-sm bg-gold px-8 text-primary-foreground hover:bg-gold-soft">
+              <Link to="/auth" search={{ mode: "signup" } as never}>
+                Assinar Protocolos
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 

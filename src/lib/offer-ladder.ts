@@ -17,21 +17,39 @@ export type OfferTier = {
 
 export const OFFER_TIERS: OfferTier[] = [
   {
+    id: "freemium",
+    name: "Peptídeos",
+    price: "Grátis",
+    priceNote: "trilha completa",
+    blurb:
+      "Trilha liberada sem cartão: peptídeos na medicina de precisão — sessão guiada, evidência e casos clínicos.",
+    status: "live",
+    statusLabel: "Acesso livre",
+    href: "/auth",
+    cta: "Começar grátis",
+    features: [
+      "Trilha Peptídeos completa",
+      "Sessão lâminas → chaves → caso",
+      "Revisão espaçada na trilha",
+      "Conta de médico, sem cartão",
+    ],
+  },
+  {
     id: "online",
     name: "Protocolos (Online)",
     price: "R$ 297",
     priceNote: "/mês",
     blurb:
-      "A plataforma: aulas de protocolo e gestão, sessão guiada, revisão espaçada, painel e fichas. Onde começamos — e a base de tudo que vem depois.",
+      "Todas as trilhas publicadas, Professores de IA, prioridade em eventos e a base digital da Semana Doutiva.",
     status: "live",
-    statusLabel: "Disponível agora",
+    statusLabel: "Assinatura",
     href: "/auth",
-    cta: "Começar Protocolos",
+    cta: "Assinar Protocolos",
     features: [
-      "Sessão do dia (lâminas → chaves → caso)",
-      "Trilhas com monografia e evidência",
-      "Revisão espaçada e Professores de IA",
-      "Comunidade de médicos",
+      "Todas as trilhas além de Peptídeos",
+      "Sessão do dia e revisão completa",
+      "Professores de IA",
+      "Lista prioritária A Origem",
     ],
   },
   {

@@ -391,11 +391,15 @@ export function LessonPlayer({
   return (
     <div id="lesson-player-anchor" className="mt-6 pb-28">
       {/* Session HUD */}
-      <div className="rounded-sm border border-border/60 bg-card/80 p-4 backdrop-blur-sm">
+      <div className="relative overflow-hidden rounded-sm border border-gold/20 bg-card/90 p-5 shadow-[var(--shadow-elegant)] backdrop-blur-sm">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent"
+        />
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="min-w-0">
-            <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Sessão guiada</div>
-            <div className="mt-1 text-sm font-light text-muted-foreground">{stepLabel}</div>
+            <div className="text-[10px] uppercase tracking-[0.32em] text-gold">Sessão clínica</div>
+            <div className="mt-1 font-display text-base tracking-tight text-foreground/90">{stepLabel}</div>
           </div>
           <div className="flex flex-wrap items-center gap-3">
             <DailyGoalPill
@@ -435,7 +439,9 @@ export function LessonPlayer({
               onIndexChange={setSlideIdx}
               showChrome
             />
-            <p className="text-xs font-light text-muted-foreground">Uma ideia por tela. Use Continuar ou as setas.</p>
+            <p className="text-xs font-light text-muted-foreground">
+              Uma ideia por lâmina · setas do teclado · Continuar fecha o circuito
+            </p>
           </div>
         )}
 

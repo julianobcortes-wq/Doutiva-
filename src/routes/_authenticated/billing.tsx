@@ -67,14 +67,15 @@ function BillingPage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-10 pb-28">
       <span className="text-[10px] uppercase tracking-[0.3em] text-gold">Assinatura</span>
-      <h1 className="mt-3 font-serif text-4xl">Meu plano</h1>
+      <h1 className="mt-3 font-display text-4xl tracking-tight">Meu plano</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">
-        Agora o lançamento é <strong className="text-foreground">Protocolos Online</strong>. Imersão,
-        mentoria e clube entram na{" "}
+        A trilha de <strong className="text-foreground">Peptídeos</strong> já está livre na sua
+        conta. <strong className="text-foreground">Protocolos</strong> abre o restante do catálogo.
+        Imersão, mentoria e clube na{" "}
         <Link to="/oferta" className="text-gold underline">
           escada completa
-        </Link>{" "}
-        como em breve. Sem Stripe configurado, ativamos cortesia para validar.
+        </Link>
+        . Sem Stripe, ativamos cortesia para validar.
       </p>
 
       {sub && (
