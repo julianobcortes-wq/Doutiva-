@@ -27,7 +27,7 @@ export function SiteHeader() {
           <Link to="/oferta" className="transition hover:text-foreground">
             Protocolos
           </Link>
-          <a href="/origem/" className="transition hover:text-foreground">
+          <a href="/origem/index.html" className="transition hover:text-foreground">
             A Origem
           </a>
           <Link to="/mentores" className="transition hover:text-foreground">
@@ -63,7 +63,7 @@ export function SiteHeader() {
                 variant="outline"
                 className="rounded-sm border-border/60"
               >
-                <a href="/origem/">A Origem</a>
+                <a href="/origem/index.html">A Origem</a>
               </Button>
               <Button
                 asChild

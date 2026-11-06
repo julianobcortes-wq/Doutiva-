@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
 /** Marketing home matches doutiva.com.br — static fidelity build at /origem. */
 function HomeRedirect() {
   useEffect(() => {
-    window.location.replace("/origem/");
+    window.location.replace("/origem/index.html");
   }, []);
   return (
     <div className="grid min-h-screen place-items-center bg-[#070A10] text-[#EEF4F5]">

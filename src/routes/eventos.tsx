@@ -20,7 +20,7 @@ export const Route = createFileRoute("/eventos")({
 /** Serve the fidelity landing at /origem (replica of doutiva.com.br). */
 function EventosRedirect() {
   useEffect(() => {
-    window.location.replace("/origem/");
+    window.location.replace("/origem/index.html");
   }, []);
   return (
     <div className="grid min-h-screen place-items-center bg-[#070A10] text-[#EEF4F5]">
