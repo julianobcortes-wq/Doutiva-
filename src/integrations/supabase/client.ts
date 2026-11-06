@@ -2,6 +2,10 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "./types";
 import { brokeredPreviewStorage } from "./previewAuthStorage";
+import {
+  PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+  PUBLIC_SUPABASE_URL,
+} from "./public-config";
 
 function isNewSupabaseApiKey(value: string): boolean {
   return value.startsWith("sb_publishable_") || value.startsWith("sb_secret_");
@@ -15,14 +19,20 @@ type SupabaseConfig = {
 };
 
 function readSupabaseConfig(): SupabaseConfig | null {
-  // Use import.meta.env for client-side (Vite build-time replacement)
-  // Fall back to process.env for SSR (server-side rendering)
-  const url = (import.meta.env["VITE_SUPABASE_URL"] || process.env["SUPABASE_URL"] || "")
+  // Prefer Vercel/build env; fall back to committed public config so login
+  // works even when VITE_SUPABASE_* was missing at deploy time.
+  const url = (
+    import.meta.env["VITE_SUPABASE_URL"] ||
+    process.env["SUPABASE_URL"] ||
+    PUBLIC_SUPABASE_URL ||
+    ""
+  )
     .toString()
     .replace(/\/+$/, "");
   const key = (
     import.meta.env["VITE_SUPABASE_PUBLISHABLE_KEY"] ||
     process.env["SUPABASE_PUBLISHABLE_KEY"] ||
+    PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
     ""
   ).toString();
   if (!url || !key) return null;
