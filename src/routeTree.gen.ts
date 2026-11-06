@@ -18,6 +18,7 @@ import { Route as OfertaRouteImport } from './routes/oferta'
 import { Route as ParceirosRouteImport } from './routes/parceiros'
 import { Route as PoliticaIaRouteImport } from './routes/politica-ia'
 import { Route as PrivacidadeRouteImport } from './routes/privacidade'
+import { Route as SlidesPreviewRouteImport } from './routes/slides-preview'
 import { Route as TermosRouteImport } from './routes/termos'
 import { Route as AuthenticatedAchievementsRouteImport } from './routes/_authenticated/achievements'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
@@ -107,6 +108,11 @@ const PoliticaIaRoute = PoliticaIaRouteImport.update({
 const PrivacidadeRoute = PrivacidadeRouteImport.update({
   id: '/privacidade',
   path: '/privacidade',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SlidesPreviewRoute = SlidesPreviewRouteImport.update({
+  id: '/slides-preview',
+  path: '/slides-preview',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TermosRoute = TermosRouteImport.update({
@@ -365,6 +371,7 @@ export interface FileRoutesByFullPath {
   '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
@@ -421,6 +428,7 @@ export interface FileRoutesByTo {
   '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
@@ -479,6 +487,7 @@ export interface FileRoutesById {
   '/parceiros': typeof ParceirosRoute
   '/politica-ia': typeof PoliticaIaRoute
   '/privacidade': typeof PrivacidadeRoute
+  '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
   '/_authenticated/achievements': typeof AuthenticatedAchievementsRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
@@ -537,6 +546,7 @@ export interface FileRouteTypes {
     | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
+    | '/slides-preview'
     | '/termos'
     | '/achievements'
     | '/admin'
@@ -593,6 +603,7 @@ export interface FileRouteTypes {
     | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
+    | '/slides-preview'
     | '/termos'
     | '/achievements'
     | '/admin'
@@ -650,6 +661,7 @@ export interface FileRouteTypes {
     | '/parceiros'
     | '/politica-ia'
     | '/privacidade'
+    | '/slides-preview'
     | '/termos'
     | '/_authenticated/achievements'
     | '/_authenticated/admin'
@@ -708,6 +720,7 @@ export interface RootRouteChildren {
   ParceirosRoute: typeof ParceirosRoute
   PoliticaIaRoute: typeof PoliticaIaRoute
   PrivacidadeRoute: typeof PrivacidadeRoute
+  SlidesPreviewRoute: typeof SlidesPreviewRoute
   TermosRoute: typeof TermosRoute
   ApiHealthRoute: typeof ApiHealthRoute
   ApiPreceptorRoute: typeof ApiPreceptorRoute
@@ -780,6 +793,13 @@ declare module '@tanstack/react-router' {
       path: '/privacidade'
       fullPath: '/privacidade'
       preLoaderRoute: typeof PrivacidadeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/slides-preview': {
+      id: '/slides-preview'
+      path: '/slides-preview'
+      fullPath: '/slides-preview'
+      preLoaderRoute: typeof SlidesPreviewRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/termos': {
@@ -1234,6 +1254,7 @@ const rootRouteChildren: RootRouteChildren = {
   ParceirosRoute: ParceirosRoute,
   PoliticaIaRoute: PoliticaIaRoute,
   PrivacidadeRoute: PrivacidadeRoute,
+  SlidesPreviewRoute: SlidesPreviewRoute,
   TermosRoute: TermosRoute,
   ApiHealthRoute: ApiHealthRoute,
   ApiPreceptorRoute: ApiPreceptorRoute,
