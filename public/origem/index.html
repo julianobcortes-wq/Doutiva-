@@ -274,7 +274,7 @@ footer .logo img{height:48px;margin-bottom:1rem}
   <div class="pill">
     <a href="#scrub">Manifesto</a><a href="#origem">A Origem</a><a href="#eco">Ecossistema</a><a href="#stack">Pilares</a><a href="#gal">Experiência</a><a href="#spons">Parceiros</a>
   </div>
-  <div class="cta"><a class="btn btn-g" href="/oferta">Protocolos</a><a class="btn btn-c" href="/auth?mode=signup">Começar grátis</a></div>
+  <div class="cta"><a class="btn btn-c" href="#lead">Lista de fundadores</a></div>
 </nav>
 
 <!-- HERO -->
@@ -422,9 +422,8 @@ footer .logo img{height:48px;margin-bottom:1rem}
     <label>Seu nome<input name="nome" placeholder="Nome completo" required autocomplete="name"></label>
     <label>Especialidade<input name="esp" placeholder="Ex.: Nutrologia, Dermatologia, Endocrinologia" required></label>
     <div class="two"><label>Cidade<input name="cidade" placeholder="Cidade" required></label><label>UF<input name="estado" maxlength="2" placeholder="PR" required style="text-transform:uppercase"></label></div>
-    <label>Interesse principal<select name="interesse" required><option value="" disabled selected>Selecione</option><option>Peptídeos e ciência (trilha livre)</option><option>Cursos e imersões</option><option>Evento A Origem</option><option>Parceria com a Doutiva</option></select></label>
-    <button class="btn btn-c" type="submit" style="justify-content:center">Começar grátis</button>
-    <p class="mute" style="margin-top:.75rem;font-size:.78rem;letter-spacing:.04em">Trilha de peptídeos liberada · Protocolos R$ 297/mês</p>
+    <label>Interesse principal<select name="interesse" required><option value="" disabled selected>Selecione</option><option>Peptídeos e ciência</option><option>Cursos e imersões</option><option>Evento A Origem</option><option>Parceria com a Doutiva</option></select></label>
+    <button class="btn btn-c" type="submit" style="justify-content:center">Entrar na lista</button>
     <div class="msg" id="leadMsg"></div>
   </form>
 </div></div></section>
@@ -433,7 +432,7 @@ footer .logo img{height:48px;margin-bottom:1rem}
 <div id="pinCTA">
   <div>
     <h2 class="display">A origem <b>começa aqui.</b></h2>
-    <div class="a"><a class="btn btn-c" href="/auth?mode=signup">Começar grátis</a><a class="btn btn-g" href="#origem">O evento</a></div>
+    <div class="a"><a class="btn btn-c" href="#lead">Lista de fundadores</a><a class="btn btn-g" href="#origem">O evento</a></div>
   </div>
 </div>
 <footer>
@@ -443,7 +442,7 @@ footer .logo img{height:48px;margin-bottom:1rem}
   <div class="in"><div class="top">
     <div><a class="logo" href="#hero"><img src="/origem/assets/logo.png" alt="Doutiva"></a><p class="mute" style="max-width:36ch">Biotecnologia, ciência dos peptídeos e ecossistema de negócios para a medicina de alta performance.</p></div>
     <div class="col"><h3>Navegar</h3><a href="#scrub">Manifesto</a><a href="#origem">A Origem</a><a href="#eco">Ecossistema</a><a href="#stack">Pilares</a><a href="#lead">Lista de fundadores</a></div>
-    <div class="col"><h3>Canais</h3><a href="/auth">Área do médico</a><a href="/oferta">Protocolos</a><a href="/academy">Universidade</a><span class="soon">Instagram</span></div>
+    <div class="col"><h3>Canais</h3><span class="soon">Área do médico</span><span class="soon">Instagram</span><span class="soon">WhatsApp</span><span class="soon">Blog</span></div>
   </div></div>
   <div class="big" aria-hidden="true">Doutiva</div>
   <div class="bottom"><span>© 2026 Doutiva. Todos os direitos reservados.</span><span>doutiva.com.br</span></div>
@@ -558,10 +557,10 @@ gsap.to('#pinCTA > div',{scale:.9,opacity:.35,ease:'none',scrollTrigger:{trigger
 const f=document.getElementById('leadForm'),m=document.getElementById('leadMsg');
 f.addEventListener('submit',e=>{e.preventDefault();
   if(!f.checkValidity()){f.reportValidity();return;}
-  const d=Object.fromEntries(new FormData(f).entries());
-  try{localStorage.setItem('doutiva_lead',JSON.stringify(d));}catch(_){ }
-  m.className='msg ok';m.textContent='Abrindo sua conta…';
-  location.href='/auth?mode=signup';
+  const d=new FormData(f);
+  const msg='Olá! Vim pelo site da Doutiva.\n\nNome: '+d.get('nome')+'\nEspecialidade: '+d.get('esp')+'\nCidade/UF: '+d.get('cidade')+'/'+(d.get('estado')||'').toUpperCase()+'\nInteresse: '+d.get('interesse')+'\n\nQuero entrar na lista de médicos fundadores.';
+  if(WHATSAPP){m.className='msg ok';m.textContent='Abrindo o WhatsApp…';window.open('https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(msg),'_blank');}
+  else{m.className='msg';m.textContent='Canal de atendimento em configuração. Volte em breve.';toast('A lista de fundadores abre em breve.');}
 });
 </script>
 </body>

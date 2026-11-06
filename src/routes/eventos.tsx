@@ -1,30 +1,28 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect } from "react";
 
 export const Route = createFileRoute("/eventos")({
   head: () => ({
     meta: [
-      { title: "A Origem — Doutiva" },
+      { title: "DOUTIVA · A origem da nova medicina de alta performance" },
       {
         name: "description",
         content:
-          "A Origem: imersão multissensorial e lançamento do ecossistema Doutiva. Biotecnologia, peptídeos e medicina de alta performance.",
+          "DOUTIVA une biotecnologia, ciência dos peptídeos e um ecossistema de negócios para médicos. Cursos, imersões e o evento A ORIGEM.",
       },
-      { property: "og:title", content: "A Origem — Doutiva" },
-      { property: "og:type", content: "website" },
+      { property: "og:title", content: "DOUTIVA · A origem da nova medicina de alta performance" },
+      { property: "og:image", content: "/origem/assets/gen/img0.jpg" },
+      { "http-equiv": "refresh", content: "0;url=/origem/index.html" } as never,
+    ],
+    scripts: [
+      {
+        children: `location.replace("/origem/index.html");`,
+      },
     ],
   }),
-  component: EventosRedirect,
+  component: function EventosRedirect() {
+    if (typeof window !== "undefined") {
+      window.location.replace("/origem/index.html");
+    }
+    return null;
+  },
 });
-
-/** Serve the fidelity landing at /origem (replica of doutiva.com.br). */
-function EventosRedirect() {
-  useEffect(() => {
-    window.location.replace("/origem/index.html");
-  }, []);
-  return (
-    <div className="grid min-h-screen place-items-center bg-[#070A10] text-[#EEF4F5]">
-      <p className="text-sm tracking-[0.2em] uppercase text-[#8BEBF7]">Abrindo A Origem…</p>
-    </div>
-  );
-}

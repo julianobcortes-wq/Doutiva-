@@ -60,19 +60,9 @@ export function SiteHeader() {
               <Button
                 asChild
                 size="sm"
-                variant="outline"
-                className="rounded-sm border-border/60"
-              >
-                <a href="/origem/index.html">A Origem</a>
-              </Button>
-              <Button
-                asChild
-                size="sm"
                 className="bg-gold text-primary-foreground hover:bg-gold-soft"
               >
-                <Link to="/auth" search={{ mode: "signup" } as never}>
-                  Começar grátis
-                </Link>
+                <a href="/origem/index.html">A Origem</a>
               </Button>
             </>
           )}
