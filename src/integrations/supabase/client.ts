@@ -80,15 +80,25 @@ function createSupabaseFetch(supabaseUrl: string, supabaseKey: string): typeof f
   };
 }
 
+function authStorage() {
+  // Production / local: persist in localStorage so refresh tokens survive reloads.
+  // Lovable preview iframe still uses the brokered storage when applicable.
+  if (typeof window === "undefined") return undefined;
+  return brokeredPreviewStorage() ?? window.localStorage;
+}
+
 function buildSupabaseClient(cfg: SupabaseConfig): DoutivaSupabase {
   return createClient<Database>(cfg.url, cfg.key, {
     global: {
       fetch: createSupabaseFetch(cfg.url, cfg.key),
     },
     auth: {
-      storage: brokeredPreviewStorage(),
+      storage: authStorage(),
+      storageKey: "doutiva-auth-v1",
       persistSession: true,
       autoRefreshToken: true,
+      detectSessionInUrl: true,
+      flowType: "pkce",
     },
   });
 }
