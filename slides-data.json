@@ -1,0 +1,47 @@
+[
+  {
+    "kind": "title",
+    "eyebrow": "Módulo 1 · Fundamentos",
+    "title": "O peptídeo terapêutico",
+    "subtitle": "Entre a pequena molécula e o biológico — a classe que redefine a decisão clínica da próxima década.",
+    "image": "slides/peptide-molecule.jpg"
+  },
+  {
+    "kind": "media",
+    "eyebrow": "Decisão clínica",
+    "title": "O que o médico precisa decidir",
+    "body": "Antes da dose e na consulta — a ordem importa tanto quanto a molécula.",
+    "bullets": [
+      "Categoria regulatória e nível de evidência humana",
+      "Procedência e cadeia de qualidade do produto",
+      "Farmacocinética real · indicação · consentimento"
+    ],
+    "image": "slides/clinical-decision.jpg"
+  },
+  {
+    "kind": "figure",
+    "title": "Três escalas, três lógicas",
+    "caption": "Pequena molécula · peptídeo · biológico (mAb). Massa, seletividade e via mudam juntos.",
+    "image": "slides/scale-compare.jpg",
+    "credit": "Ilustração Doutiva · Muttenthaler 2021"
+  },
+  {
+    "kind": "figure",
+    "title": "Do aminoácido ao frasco",
+    "caption": "Síntese → purificação → caracterização → formulação → cadeia fria.",
+    "image": "slides/cold-chain-vial.jpg",
+    "credit": "Qualidade · esterilidade · rastreabilidade"
+  },
+  {
+    "kind": "media",
+    "eyebrow": "Engenharia molecular",
+    "title": "Lipidação e albumina",
+    "body": "Ácido graxo + albumina transformam minutos em dias — a base da dose semanal.",
+    "bullets": [
+      "Aib8 bloqueia DPP-4 (semaglutida)",
+      "C18 / C20: ligação reversível à albumina",
+      "t½ > 100 h → platô em ~4–5 semanas"
+    ],
+    "image": "slides/albumin-binding.jpg"
+  }
+]

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lâminas Peptídeos — Doutiva</title>
+<style>
+:root{--bg:#070A10;--ink:#EEF4F5;--mute:#8a9aa3;--cy:#22D3EE;--gold:#5FD4E0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:system-ui,sans-serif;min-height:100vh}
+a{color:var(--cy)}
+.wrap{max-width:1100px;margin:0 auto;padding:24px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+.top a{text-decoration:none;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase}
+h1{font-weight:300;font-size:clamp(1.6rem,4vw,2.4rem)}
+.deck{position:relative;aspect-ratio:16/9;border:1px solid rgba(34,211,238,.25);border-radius:4px;overflow:hidden;background:#0c111a;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.slide{position:absolute;inset:0;display:none}
+.slide.on{display:block}
+.slide img{width:100%;height:100%;object-fit:cover;display:block}
+.veil{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.92),rgba(0,0,0,.35) 45%,rgba(0,0,0,.2))}
+.copy{position:absolute;left:0;right:0;bottom:0;padding:clamp(16px,4vw,48px)}
+.eyebrow{color:var(--cy);font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;margin-bottom:10px}
+.title{font-size:clamp(1.4rem,3.5vw,2.6rem);font-weight:500;line-height:1.1;max-width:18ch}
+.sub{margin-top:12px;color:rgba(255,255,255,.78);max-width:52ch;font-weight:300;line-height:1.5}
+.bullets{margin-top:14px;list-style:none}
+.bullets li{padding:6px 0 6px 14px;position:relative;font-weight:300;color:rgba(255,255,255,.85)}
+.bullets li:before{content:"";position:absolute;left:0;top:14px;width:5px;height:5px;border-radius:50%;background:var(--cy)}
+.credit{margin-top:14px;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.45)}
+.chrome{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+.chrome button{background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.3);color:var(--ink);padding:10px 16px;border-radius:999px;cursor:pointer}
+.chrome button:disabled{opacity:.3;cursor:default}
+.dots{display:flex;gap:6px}
+.dots i{width:6px;height:6px;border-radius:99px;background:rgba(255,255,255,.2)}
+.dots i.on{width:22px;background:var(--cy)}
+.nav{margin-top:18px;display:flex;flex-wrap:wrap;gap:8px}
+.nav button{border:1px solid rgba(255,255,255,.12);background:transparent;color:var(--mute);padding:8px 10px;border-radius:4px;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.nav button.on{border-color:var(--cy);color:var(--cy);background:rgba(34,211,238,.1)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="eyebrow">Prévia · Peptídeos · Aula 1</div>
+      <h1>Lâminas com ilustração</h1>
+    </div>
+    <a href="./index.html">← A Origem</a>
+  </div>
+  <div class="deck" id="deck"></div>
+  <div class="chrome">
+    <button id="prev" type="button">Anterior</button>
+    <div class="dots" id="dots"></div>
+    <button id="next" type="button">Próxima</button>
+  </div>
+  <div class="nav" id="nav"></div>
+</div>
+<script>
+const slides = [{"kind": "title", "eyebrow": "Módulo 1 · Fundamentos", "title": "O peptídeo terapêutico", "subtitle": "Entre a pequena molécula e o biológico — a classe que redefine a decisão clínica da próxima década.", "image": "slides/peptide-molecule.jpg"}, {"kind": "media", "eyebrow": "Decisão clínica", "title": "O que o médico precisa decidir", "body": "Antes da dose e na consulta — a ordem importa tanto quanto a molécula.", "bullets": ["Categoria regulatória e nível de evidência humana", "Procedência e cadeia de qualidade do produto", "Farmacocinética real · indicação · consentimento"], "image": "slides/clinical-decision.jpg"}, {"kind": "figure", "title": "Três escalas, três lógicas", "caption": "Pequena molécula · peptídeo · biológico (mAb). Massa, seletividade e via mudam juntos.", "image": "slides/scale-compare.jpg", "credit": "Ilustração Doutiva · Muttenthaler 2021"}, {"kind": "figure", "title": "Do aminoácido ao frasco", "caption": "Síntese → purificação → caracterização → formulação → cadeia fria.", "image": "slides/cold-chain-vial.jpg", "credit": "Qualidade · esterilidade · rastreabilidade"}, {"kind": "media", "eyebrow": "Engenharia molecular", "title": "Lipidação e albumina", "body": "Ácido graxo + albumina transformam minutos em dias — a base da dose semanal.", "bullets": ["Aib8 bloqueia DPP-4 (semaglutida)", "C18 / C20: ligação reversível à albumina", "t½ > 100 h → platô em ~4–5 semanas"], "image": "slides/albumin-binding.jpg"}];
+let i = 0;
+const deck = document.getElementById('deck');
+const dots = document.getElementById('dots');
+const nav = document.getElementById('nav');
+function render(){
+  deck.innerHTML = slides.map((s,idx)=>{
+    const bullets = (s.bullets||[]).map(b=>`<li>${b}</li>`).join('');
+    return `<div class="slide ${idx===i?'on':''}">
+      <img src="${s.image}" alt=""/>
+      <div class="veil"></div>
+      <div class="copy">
+        ${s.eyebrow?`<div class="eyebrow">${s.eyebrow}</div>`:''}
+        <div class="title">${s.title}</div>
+        ${s.subtitle||s.body||s.caption?`<p class="sub">${s.subtitle||s.body||s.caption}</p>`:''}
+        ${bullets?`<ul class="bullets">${bullets}</ul>`:''}
+        ${s.credit?`<div class="credit">${s.credit}</div>`:''}
+      </div>
+    </div>`;
+  }).join('');
+  dots.innerHTML = slides.map((_,idx)=>`<i class="${idx===i?'on':''}"></i>`).join('');
+  nav.innerHTML = slides.map((s,idx)=>`<button type="button" class="${idx===i?'on':''}" data-i="${idx}">${String(idx+1).padStart(2,'0')} · ${s.kind}</button>`).join('');
+  document.getElementById('prev').disabled = i===0;
+  document.getElementById('next').disabled = i===slides.length-1;
+}
+document.getElementById('prev').onclick=()=>{i=Math.max(0,i-1);render()};
+document.getElementById('next').onclick=()=>{i=Math.min(slides.length-1,i+1);render()};
+nav.addEventListener('click',e=>{const b=e.target.closest('button[data-i]');if(!b)return;i=+b.dataset.i;render()});
+window.addEventListener('keydown',e=>{if(e.key==='ArrowRight')document.getElementById('next').click();if(e.key==='ArrowLeft')document.getElementById('prev').click()});
+render();
+</script>
+</body>
+</html>
