@@ -61,7 +61,7 @@ export const OFFER_TIERS: OfferTier[] = [
       "Protocolos que pagam a clínica, presencial na Semana Doutiva. Porta de entrada do instituto — turmas a partir da Semana de março.",
     status: "soon",
     statusLabel: "Em breve",
-    href: "/eventos",
+    href: "/evento",
     cta: "Ver A Origem / lista",
     features: [
       "3 dias presenciais + mesas com mentores",
@@ -114,7 +114,7 @@ export const OFFER_TIERS: OfferTier[] = [
       "Dia 4 da Semana Doutiva. Incluído para mentoria, clube e sócios; ex-alunos e público convidado pagam.",
     status: "soon",
     statusLabel: "Em breve",
-    href: "/eventos",
+    href: "/evento",
     cta: "Ver eventos",
     features: [
       "Quatro encontros por ano",

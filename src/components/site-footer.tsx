@@ -25,7 +25,7 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
-              <a href="/origem/index.html" className="transition hover:text-foreground">
+              <a href="/evento" className="transition hover:text-foreground">
                 A Origem
               </a>
             </li>

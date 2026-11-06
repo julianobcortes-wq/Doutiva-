@@ -104,7 +104,7 @@ function MentoresPublicPage() {
             </p>
           </div>
           <Button asChild size="lg" variant="outline" className="h-12 shrink-0 rounded-sm border-gold/40 px-8">
-            <Link to="/eventos">Ver A Origem</Link>
+            <a href="/evento">Ver A Origem</a>
           </Button>
         </div>
       </section>

@@ -223,7 +223,7 @@ function DashboardPage() {
           <SoonCard
             title="Semana Doutiva"
             desc="Imersão + Encontro. A Origem em março."
-            href="/eventos"
+            href="/evento"
           />
           <SoonCard
             title="Clube Doutiva"

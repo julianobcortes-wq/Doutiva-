@@ -97,9 +97,9 @@ function OfertaPage() {
                       {tier.cta} <ArrowUpRight className="ml-2 h-4 w-4" />
                     </Link>
                   ) : (
-                    <Link to={tier.href as "/eventos"}>
-                      {tier.cta} <ArrowUpRight className="ml-2 h-4 w-4" />
-                    </Link>
+                    <a href={tier.href}>
+                      {tier.cta} <ArrowUpRight className="ml-2 h-4 w-4 inline" />
+                    </a>
                   )}
                 </Button>
               ) : (

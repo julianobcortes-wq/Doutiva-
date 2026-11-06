@@ -24,10 +24,13 @@ export function SiteHeader() {
           <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
-          <Link to="/oferta" className="transition hover:text-foreground">
+          <a href="/#protocolos" className="transition hover:text-foreground">
             Protocolos
+          </a>
+          <Link to="/oferta" className="transition hover:text-foreground">
+            Oferta
           </Link>
-          <a href="/origem/index.html" className="transition hover:text-foreground">
+          <a href="/evento" className="transition hover:text-foreground">
             A Origem
           </a>
           <Link to="/mentores" className="transition hover:text-foreground">
@@ -62,7 +65,9 @@ export function SiteHeader() {
                 size="sm"
                 className="bg-gold text-primary-foreground hover:bg-gold-soft"
               >
-                <a href="/origem/index.html">A Origem</a>
+                <Link to="/auth" search={{ mode: "signup" } as never}>
+                  Começar grátis
+                </Link>
               </Button>
             </>
           )}

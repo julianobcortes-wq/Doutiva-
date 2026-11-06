@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
+import { Route as EventoRouteImport } from './routes/evento'
 import { Route as EventosRouteImport } from './routes/eventos'
 import { Route as MentoresRouteImport } from './routes/mentores'
 import { Route as OfertaRouteImport } from './routes/oferta'
@@ -78,6 +79,11 @@ const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EventoRoute = EventoRouteImport.update({
+  id: '/evento',
+  path: '/evento',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventosRoute = EventosRouteImport.update({
@@ -365,6 +371,7 @@ const AuthenticatedEditorCursoCourseIdRoute =
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+  '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
@@ -422,6 +429,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+  '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
@@ -481,6 +489,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
+  '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
@@ -540,6 +549,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/auth'
+    | '/evento'
     | '/eventos'
     | '/mentores'
     | '/oferta'
@@ -597,6 +607,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/auth'
+    | '/evento'
     | '/eventos'
     | '/mentores'
     | '/oferta'
@@ -655,6 +666,7 @@ export interface FileRouteTypes {
     | '/'
     | '/_authenticated'
     | '/auth'
+    | '/evento'
     | '/eventos'
     | '/mentores'
     | '/oferta'
@@ -714,6 +726,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
+  EventoRoute: typeof EventoRoute
   EventosRoute: typeof EventosRoute
   MentoresRoute: typeof MentoresRoute
   OfertaRoute: typeof OfertaRoute
@@ -751,6 +764,13 @@ declare module '@tanstack/react-router' {
       path: '/auth'
       fullPath: '/auth'
       preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/evento': {
+      id: '/evento'
+      path: '/evento'
+      fullPath: '/evento'
+      preLoaderRoute: typeof EventoRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/eventos': {
@@ -1248,6 +1268,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
+  EventoRoute: EventoRoute,
   EventosRoute: EventosRoute,
   MentoresRoute: MentoresRoute,
   OfertaRoute: OfertaRoute,

@@ -34,7 +34,7 @@ Rotas de API (`/api/cron/*`, `/api/stripe/webhook`, `/api/tutor`, `/api/precepto
 
 ## Domínio doutiva.com.br (Registro.br → Vercel)
 
-O site público (`/`, `/eventos`, legais) e o app autenticado são o **mesmo** deploy. Não hospede a landing antiga em paralelo.
+O site público (`/`, `/evento`, legais) e o app autenticado são o **mesmo** deploy. Não hospede a landing antiga em paralelo. `/eventos` redireciona para `/evento`.
 
 1. Deploy em produção na Vercel (passo acima) e anote o host `*.vercel.app`.
 2. No projeto Vercel → Domains → adicione `doutiva.com.br` e `www.doutiva.com.br`.
