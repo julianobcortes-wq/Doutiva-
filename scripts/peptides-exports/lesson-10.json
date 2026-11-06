@@ -1,0 +1,355 @@
+{
+  "position": 10,
+  "module": "Módulo 6 · Fronteira terapêutica",
+  "module_position": 6,
+  "title": "Agonistas dual/triplo e incretinas orais: retatrutida, CagriSema, survodutida, orforglipron — o que a fronteira muda na prática",
+  "description": "Esta aula aborda os avanços recentes no uso de agonistas duais e triplos dos receptores GIP, GLP-1 e glucagon, além do primeiro agonista oral não peptídico de GLP-1, com foco nos agentes retatrutida, CagriSema, survodutida e orforglipron. São explorados os mecanismos moleculares integrados, evidências clínicas robustas dos ensaios fase 2 e 3 com dados de eficácia em perda ponderal, controle glicêmico e aspectos de segurança, além do status regulatório e implicações práticas para o médico especialista. O papel ético e regulatório da prescrição desses agentes exclusivamente em cenários de pesquisa clínica no Brasil é enfatizado, assim como a importância do manejo clínico, escalonamento, monitoramento laboratorial e comunicação transparente com pacientes.",
+  "duration_minutes": 90,
+  "evidence_level": "A",
+  "key_points": [
+    "Os agonistas duais e triplos (GIP/GLP-1/glucagon) apresentam mecanismos integrados que potencializam a perda de peso e a melhora metabólica, chegando a reduções superiores a 20% do peso corporal.",
+    "Atualmente, no Brasil, as moléculas retatrutida, CagriSema, survodutida e orforglipron são exclusivas para uso em pesquisa clínica, sem registro ANVISA, sendo vetado seu uso off-label ou manipulado segundo a Resolução CFM 2.333/2023.",
+    "As evidências clínicas disponíveis derivam principalmente de ensaios randomizados fase 2 e 3 internacionais, demonstrando eficácia significativa em obesidade (com e sem diabetes tipo 2) e MASH, porém com alta incidência de efeitos gastrointestinais leves a moderados.",
+    "A titulação lenta e o manejo pró-ativo dos eventos adversos, principalmente gastrintestinais, são fundamentais para garantir adesão, segurança e eficácia do tratamento com esses agonistas peptídicos e small molecules.",
+    "O médico deve priorizar a prescrição ética, fundamentada em protocolos de pesquisa aprovados, com consentimento informado detalhado e monitoramento laboratorial sistemático, evitando manipulação, importação irregular ou prescrições não regulamentadas.",
+    "A fronteira terapêutica atual ainda carece de dados sobre desfechos cardiovasculares e de mortalidade, demandando vigilância e atualização contínua para adoção clínica segura, evitando-se promessas infundadas.",
+    "Monitoramento da composição corporal para prevenir sarcopenia e acompanhamento multiprofissional são essenciais para maximizar benefícios e minimizar riscos na prática clínica avançada."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Fronteira terapêutica: Retatrutida, CagriSema, Survodutida, Orforglipron",
+      "subtitle": "Agonistas dual/triplo e incretinas orais na prática clínica atual"
+    },
+    {
+      "kind": "bullets",
+      "title": "Objetivos do módulo",
+      "bullets": [
+        "Apresentar mecanismos moleculares e farmacológicos dos agonistas dual/triplo e incretinas orais recentes",
+        "Discutir evidências clínicas, segurança, manejo e aspectos regulatórios para uso na prática médica"
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Público-alvo e contexto clínico",
+      "bullets": [
+        "Endocrinologistas, metabologistas, clínicos, médicos do esporte e longevidade",
+        "Pacientes com obesidade grave, diabetes tipo 2 não controlado, MASH refratária às terapias convencionais"
+      ]
+    },
+    {
+      "head": [
+        "Molécula",
+        "Estudo (fase, n)",
+        "População",
+        "Dose",
+        "Δ Peso (%)",
+        "Δ HbA1c (%)",
+        "AEs GI (%)",
+        "Registro"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Retatrutida",
+          "N Engl J Med 2023 (Fase 2, 338)",
+          "Obesos sem DM2",
+          "1,4,8,12 mg SC semanal",
+          "-22,8% a -24,2% (8-12mg)",
+          "Até -2,02% em DM2",
+          "75–89% leves/moderados",
+          "Não aprovado"
+        ],
+        [
+          "Survodutida",
+          "Lancet 2024 (Fase 2, 386)",
+          "Obesos sem DM2",
+          "0,6–4,8 mg SC semanal",
+          "-14,9% (dose alta)",
+          "NM",
+          "91% (maioria leve)",
+          "Não aprovado"
+        ],
+        [
+          "Survodutida (MASH)",
+          "NEJM 2024 (Fase 2, 293)",
+          "MASH + fibrose",
+          "2,4-6 mg SC semanal",
+          "-11,2% (dose alta)",
+          "NM",
+          "85% leves",
+          "Não aprovado"
+        ],
+        [
+          "CagriSema",
+          "NEJM 2025 (Fase 3, 3417)",
+          "Obesos sem DM2",
+          "2,4+2,4 mg SC semanal",
+          "-20,4%",
+          "-",
+          "57-70% leves a moderados",
+          "Não aprovado"
+        ],
+        [
+          "Orforglipron",
+          "NEJM 2023 (Fase 2, 272)",
+          "Obesos sem DM2",
+          "12-45 mg oral diária",
+          "-9,4% a -14,7%",
+          "Até -2,1%",
+          "56-74% leves",
+          "Não aprovado"
+        ]
+      ],
+      "title": "Ensaios clínicos selecionados: Doses, população e resultados (48 semanas)",
+      "source": "Ref.: S16, S17, S21, S22, S23, S24, S25"
+    },
+    {
+      "bars": [
+        {
+          "label": "-24,2% Retatrutida (12 mg)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "-20,4% CagriSema",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "-14,9% Survodutida",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "-14,7% Orforglipron",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Comparativo: Redução média percentual de peso em 48 semanas",
+      "source": "Dados: ensaios clínicos citados"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação clínica: indicações e contra-indicações rigorosas"
+        },
+        {
+          "label": "Confirmação do status regulatório local (uso restrito à pesquisa)"
+        },
+        {
+          "label": "Disponibilidade para inclusão em pesquisa clínica autorizada"
+        },
+        {
+          "label": "Instrução ao paciente sobre riscos e ausência de aprovação comercial"
+        },
+        {
+          "label": "Titulação lenta e monitoramento laboratorial rigoroso"
+        },
+        {
+          "label": "Manejo interdisciplinar e suspensão antecipada para eventos adversos graves"
+        }
+      ],
+      "title": "Algoritmo para uso ético e seguro dos agonistas dual/triplo"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Consentimento livre e pesquisa clínica rigorosa",
+          "Manipulado e propaganda comercial ilegal"
+        ],
+        "label": "Postura científica/estrita"
+      },
+      "right": {
+        "items": [
+          "Documentação minuciosa e monitoramento intensivo",
+          "Uso off-label não autorizado no consultório"
+        ],
+        "label": "Riscos e práticas ofensivas"
+      },
+      "title": "Contraste ético: Fronteira terapêutica vs. Hype e práticas não recomendadas"
+    },
+    {
+      "head": [
+        "Droga",
+        "Dose inicial",
+        "Titulação",
+        "Dose alvo",
+        "Principal ajuste",
+        "Suspensão por AE (%)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Retatrutida",
+          "2 mg SC semanal",
+          "+2mg a cada 4 semanas até 12mg",
+          "8–12 mg",
+          "Reduzir dose se GI",
+          "15%"
+        ],
+        [
+          "Survodutida",
+          "0,6–2,4 mg SC semanal",
+          "+1,2 mg a cada 20 semanas",
+          "4,8 mg",
+          "Reduzir titulação",
+          "10–20%"
+        ],
+        [
+          "CagriSema",
+          "0,25+0,25 mg SC semanal",
+          "+0,25 mg a cada 4 semanas",
+          "2,4+2,4 mg",
+          "Ajustar se GI",
+          "12%"
+        ],
+        [
+          "Orforglipron",
+          "8-12 mg VO diária",
+          "+12 mg a cada 4 semanas",
+          "36–45 mg",
+          "Escalonar devagar",
+          "10–17%"
+        ]
+      ],
+      "title": "Manejo prático: Titulação e efeitos adversos",
+      "source": "Fonte: Seção 6 da monografia"
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist rápido para consulta com agonistas dual/triplo",
+      "bullets": [
+        "Confirmação de indicação clínica robusta e ausência de contra-indicações",
+        "Verificação do status regulatório e exclusividade para pesquisa",
+        "Consentimento esclarecido e documentação detalhada",
+        "Planejamento detalhado de titulação e monitoramento laboratorial",
+        "Avaliação contínua de efeitos adversos gastrointestinais e risco de pancreatite",
+        "Planejamento de interrupção pré-operatória se aplicável",
+        "Proibição absoluta do uso de manipulado ou off-label fora de protocolos autorizados"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Nenhuma molécula (retatrutida, survodutida, cagrisema, orforglipron) aprovada ANVISA para uso comercial",
+          "Uso exclusivo em estudos clínicos ou programas de uso compassivo"
+        ],
+        "label": "Brasil"
+      },
+      "right": {
+        "items": [
+          "EUA, UE e Japão fazem aprovações emergentes, com uso restrito",
+          "CFM proíbe manipulação e prescrição off-label para essas moléculas",
+          "Risco ético e legal para prescrição privada",
+          "Documentação e esclarecimento ao paciente são mandatórios"
+        ],
+        "label": "Mundo/Regulação"
+      },
+      "title": "Aspectos regulatórios nacionais x Internacional"
+    },
+    {
+      "kind": "pearl",
+      "text": "Pacientes com obesidade severa e DM2 refratário demandam medicina baseada em ciência e ética rigorosa — nenhuma molécula experimental deve ser prescrita fora de protocolos autorizados. A titulação lenta combinada ao manejo ativo de eventos gastrointestinais é essencial para alcançar perdas ponderais expressivas (>20%). Manter sempre a transparência e documentação detalhada em todas as abordagens.",
+      "title": "Pérola clínica"
+    }
+  ],
+  "monograph": "# Monografia Doutiva · Módulo 6 – Fronteira terapêutica: Agonistas Dual/Triplo e Incretinas Orais (Retatrutida, CagriSema, Survodutida, Orforglipron)\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nNos últimos anos, a epidemia metabólica — caracterizada por obesidade, diabetes tipo 2 (DM2), doença hepática gordurosa associada à disfunção metabólica (MASH), e complicações cardiovasculares — tornou-se o epicentro do desafio clínico global. O avanço nas incretinas e peptídeos tem sido um dos pilares na redefinição de paradigmas terapêuticos, trazendo resultados sustentados em perda ponderal (>20%), controle glicêmico e potenciais repercussões em desfechos de órgãos-alvo [S1,S27].\n\nAs terapias consagradas baseadas em agonistas do receptor de GLP-1 (agonistas de GLP-1RA — ex: semaglutida) e dual (ex: tirzepatida — GIP/GLP-1), ganharam rapidamente destaque. Mas a busca por mecanismos multiplicadores — combinando amilina, glucagon ou formulações orais não peptídicas — ignitou uma nova fronteira terapêutica. Os agentes de maior destaque científico neste cenário são:\n\n- **Retatrutida:** Agonista triplo GIP/GLP-1/glucagon [S19, S22, S25].\n- **CagriSema:** Associação de semaglutida (GLP-1RA) + cagrilintida (análogo de amilina) [S16, S20, S21].\n- **Survodutida:** Agonista dual GLP-1/glucagon [S17, S24].\n- **Orforglipron:** Primeiro agonista GLP-1RA oral, não peptídico, com dados robustos em fase 2 [S23].\n\nNo Brasil, conforme diretrizes ANVISA e Resolução CFM 2.333/2023, nenhuma dessas moléculas encontra-se disponível para prescrição* (*status: verificar), sendo todas, à redação desta monografia, exclusivas para uso experimental/investigacional ou em países com aprovação emergente (EUA, UE, Japão).\n\nO público-alvo para essa fronteira engloba: endocrinologistas, metabologistas, clínicos, médicos do esporte/longevidade e outras especialidades envolvidas no cuidado de obesidade, DM2 e MASH não responsiva ao tratamento padrão.\n\n**Dados Epidemiológicos:**\n- Obesidade global (>650 milhões de adultos) e tendência ascendente em todas as faixas etárias.\n- DM2: Atinge 9,3% da população adulta mundial.\n- MASH/esteatose: Acomete ~25% dos adultos globalmente; progressão para fibrose clinicamente significativa em 5-8%/ano.\n\n**Necessidade clínica não atendida:** Grande parcela dos pacientes permanece refratária a perda ponderal >15% ou remissão metabólica com terapias atuais, especialmente em obesidade grave ou DM2 de longa data.\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular: Diferenciando as Novas Incretinas\n\n### 2.1. Vias Clássicas: GLP-1, GIP e Glucagon\n\n**GLP-1 (Peptídeo-1 semelhante ao glucagon):**\n- Origem: Células L do intestino distal, resposta pós-prandial.\n- Atua via receptor GLP-1R: Estimula secreção de insulina (dependente de glicose), inibe glucagon, retarda o esvaziamento gástrico, induz saciedade [S26].\n\n**GIP (Peptídeo insulinotrópico dependente de glicose):**\n- Origem: Células K do duodeno e jejuno.\n- Aumenta secreção de insulina (quando níveis glicêmicos elevados), efeitos complexos em tecido adiposo.\n\n**Glucagon:**\n- Origem: Células alfa pancreáticas.\n- Atua em receptor hepático — aumento da glicogenólise, lipólise, beta-oxidação; efeito final depende do “balanço” de agonismo GIP/GLP-1 (anabólico) × glucagon (catabólico/lipolítico).\n\n### 2.2. Duais e Triplos: Integração Metabólica Avançada\n\n- **Retatrutida:** Primeira molécula com agonismo triplo GIP/GLP-1/glucagon — efeito aditivo no controle glicêmico, potencialização da lipólise hepática e depleção de peso [S19, S22, S25].\n    - GIP: Amplificação insulinotrópica, possível redução de efeitos colaterais GI do GLP-1.\n    - Glucagon: Aumento de despesa energética e especial destaque para redução de gordura hepática.\n    - GLP-1: Base robusta em redução de peso, apetite e risco cardiovascular.\n\n- **Survodutida:** Agonista dual GLP-1/glucagon [S17, S24].\n    - Sinergia orientada para perda ponderal e impacto em MASH/fibrose.\n\n- **CagriSema:** GLP-1RA (semaglutida) + análogo de amilina (cagrilintida) [S16, S18, S20, S21].\n    - Amilina: Hormônio co-secretado com insulina, promove saciedade central e retardo do esvaziamento gástrico, reduz eficiência alimentar.\n\n- **Orforglipron:** Modula GLP-1R — porém, estrutura é pequena, não peptídica, mimetizando incretina oral de tomada única diária [S23].\n\n---\n\n## 3. Farmacologia Comparada (PK/PD, Engenharia Molecular, Vias de Administração)\n\n| Molécula      | Mecanismo                             | Estrutura        | Admin.      | T1/2 (h) | Destaques PK/PD               | Ref |\n|---------------|--------------------------------------|------------------|-------------|----------|-------------------------------|-----|\n| Retatrutida   | Agonista triplo – GIP, GLP-1, Gcg    | Peptídico        | SC semanal  | ~130-160 | Dose-dep. (8–12mg), PK linear | S22, S25 |\n| Survodutida   | Dual GLP-1/Gcg                       | Peptídico        | SC semanal  | ~130-160 | 20 sem. titulação, up to 4.8mg | S17 |\n| CagriSema     | GLP-1RA + amilina (cagrilintida)     | 2 peptídicos     | SC semanal  | 145-190  | PK estáveis, co-escalonamento | S16, S20 |\n| Orforglipron  | GLP-1RA não peptídico (small molec.) | Pequena moléc.   | Oral diária | ~24-36   | Cmáx. rápida, 1x ao dia       | S23 |\n| Tirzepatida*  | Dual GIP/GLP-1                       | Peptídico        | SC semanal  | ~116     | Referência prática aprovada   | [apenas referência; não foco do módulo] |\n\n#### * Tirzepatida incluída a título de comparação entre duais.\n\n**Engenharia molecular:**\n- Peptídeos avançados com resistências a DPP4, dissociação prolongada do receptor e modificações hidrofóbicas (acilação/peguilação).\n- Orforglipron: Não depende de DPP4-resistance, penetra via absorção gastrointestinal ativa; estrutura patenteada, primeira geração oral.\n\n**Administração:**\n- SC semanal: retatrutida, survodutida, CagriSema.\n- Oral diária: orforglipron — potencial disruptivo (não demanda frio, caneta, treinamento).\n\n---\n\n## 4. Evidência Crítica: Ensaios de Peso e Desfechos\n\n### 4.1. Metodologia — Hierarquia de Evidência\n\nDe acordo com a diretriz Doutiva/SBEM [S1, S26, S27]:\n- Metanálises de ECRs/diretrizes > ECR fase 3 > fase 2 > observacional > relato de caso.\n- Os agentes fronteira ainda carecem de ensaios de mortalidade cardiovascular; endpoints primários até aqui: perda ponderal, glicemia, NASH/MASH, biomarcadores.\n\n### 4.2. Tabela 1: Ensaios Randomizados de Destaque em Fronteira Incretínica (ver notas)\n\n| Molécula         | Estudo (fase, n)    | População                     | Dose(s)                | Duração   | Δ Peso % (48sem)        | Δ HbA1c (36sem) | MASH/NASH | Efeitos AEs GI % | Registro |\n|------------------|---------------------|-------------------------------|------------------------|-----------|------------------------|-----------------|-----------|------------------|----------|\n| **Retatrutida**  | N Engl J Med 2023 [S25] | Obesos (n=338); sem DM2    | 1, 4, 8, 12mg SC/sem   | 48 sem.   | -22,8% (8mg) -24,2% (12mg) | até -2,02% (T2D) [S22] | - | 75–89% leves/mod. | Não |\n| **Survodutida**  | Lancet 2024 [S17]      | Obesos (n=386); sem DM2     | 0,6–4,8mg SC/sem       | 46 sem.   | -14,9% (4,8mg)         | NM              | | 91% (75% GI leves) | Não |\n| **Survodutida (MASH)** | NEJM 2024 [S24] | MASH+fibrose (n=293)         | 2.4–6mg SC/sem         | 48 sem.   | -11,2% (6mg) [2°]      | NM              | até 62% de reversão | 85% GI leves | Não |\n| **CagriSema**    | NEJM 2025 [S16]        | Obesos (n=3417); sem DM2    | 2,4mg+2,4mg SC/sem     | 68 sem.   | -20,4%                 | -               | -         | 57–70% GI leves a moderados | Não |\n| **CagriSema (DM2)** | Lancet 2023 [S21] | DM2 (n=92; met/SGLT2i)       | 2,4+2,4mg SC/sem       | 32 sem.   | -15,6%                 | -2,2%           | -         | 20–40% GI         | Não |\n| **Orforglipron** | NEJM 2023 [S23]        | Obesos (n=272); sem DM2     | 12-45mg oral/dia       | 36 sem.   | -9,4% (12mg) a -14,7% (45mg) | até -2,1%      | -         | 56-74% GI leves   | Não |\n\n### 4.3. Detalhes Metodológicos e Limitações\n\n**Retatrutida** (N Engl J Med 2023, n=338; 24-48 semanas) [S25]:\n- Reduções de peso sem precedentes (-23% em média nas doses altas).\n- Níveis de HbA1c caíram até -2,02% em DM2 (fase 2 específica) [S22].\n- Efeitos adversos: GI leves/moderados, dose dependentes; redução de frequência com escalonamento lento.\n\n**CagriSema** (NEJM 2025, n=3417) [S16]:\n- Δ peso de -20,4% após 68 semanas — superior à semaglutida isolada (-15,5%).\n- Hipoglicemia <2%; AEs predominantemente GI.\n- Subgrupo DM2: Δ HbA1c -2,2%; perda de peso -15,6% [S21].\n\n**Survodutida** (Lancet 2024, n=386) [S17]:\n- Redução dose-dependente de peso (-14,9% na dose máxima), semelhante a tirzepatida.\n- População sem DM2; aplicação: MASH/NASH, onde demonstrou regresso histológico em 60% dos casos [S24].\n\n**Orforglipron** (NEJM 2023, n=272) [S23]:\n- Redução ponderal de até -14,7% (alta dose, 36 sem).\n- Eventos GI são principais limitantes da titulação (~10-17% interropem).\n\n### 4.4. Limitações Transversais\n\n- Duração máxima: até 68 semanas.\n- Dropout relevante em todos (>20–40%) — em parte, devido a efeitos GI e requisitos de pesquisa.\n- Baixa representação de idosos, múltiplas etnias ou comorbidades avançadas.\n- Não avaliado em desfecho “hard” (MACE) — estudos em andamento comparando vs semaglutida/dulaglutida em grandes bancos de dados [S3, S28].\n- Nenhum agente (ainda) aprovado ANVISA/FDA/EMA para uso fora de pesquisa clínica.\n\n---\n\n## 5. Indicações, Contra-indicações e Seleção de Pacientes\n\n### 5.1. Indicações Potenciais (ECR fase 2/3)\n\n- Obesidade (IMC ≥30 kg/m²) ou ≥27 kg/m² com comorbiedade (HAS, dislipidemia, MASH, apneia OB).\n- DM2 não controlado (HbA1c >7,0%) com sobrepeso/obesidade.\n- MASH/esteatohepatite com fibrose — especialmente para survodutida [S24], retatrutida [S19].\n- Possibilidade futura: manutenção ponderal pós-bariátrica, prevenção de complicações retardo longitudinal (ainda não estudado).\n\n### 5.2. Fenótipos Ideais\n\n- Paciente jovem a meia-idade, obesidade classe II/III, falha das abordagens comportamentais e/ou farmacológicas convencionais.\n- DM2 com difícil controle, polifarmácia, risco CV elevado porém sem insuficiência avançada de órgãos.\n- Doença hepática gordurosa avançada, fibrose comprovada biópsia/elastografia.\n\n### 5.3. Contra-indicações (base GLP-1RA + extrapolação pré-clínica)\n\n| Contra-indicação Absoluta           | Contra-indicação Relativa           |\n|-------------------------------------|-------------------------------------|\n| História de carcinoma medular tireoide/familiar MEN2 (GLP-1RAs) | Gastroparesia grave                  |\n| Pancreatite prévia                  | ICC grave NYHA III/IV, doença coronária instável                  |\n| Doença renal terminal (clear. <15-30) | Hepatopatia Child-Pugh C (ainda não estudado)         |\n| Gravidez/lactação                   | Desnutrição ou sarcopenia grave     |\n| <18 anos, >75 anos                  | Idade avançada, múltiplas fraquezas |\n\n---\n\n## 6. Conduta Prática e Titulação: Passo a Passo\n\n> **Nenhuma molécula registrada ANVISA. Nunca utilizar manipulação (CFM 2.333/2023, off-label de fase 2/3 em consultório fora de ensaio é antiético e potencialmente ilegal). Utilizar sempre via programas de pesquisa clínico-hospitalar.**\n\n### 6.1. Instruções Referenciais (em ensaios):\n\n| Droga         | Dose Inicial          | Titulação             | Dose Alvo (semana 16-24) | Frequência | Principal Ajuste | Suspensão por AE (%) |\n|---------------|----------------------|-----------------------|-------------------------|------------|------------------|---------------------|\n| Retatrutida   | 2mg/SC semanal       | +2mg / 4 sem (até 12) | 8–12mg                  | SC semanal | Lenta se GI      | até 15%             |\n| Survodutida   | 0,6–2,4mg/SC         | +1,2mg/20 sem         | 4,8mg                   | SC semanal | Reduzir titulação | 10–20%              |\n| CagriSema     | 0,25+0,25mg/SC       | +0,25mg/4 sem         | 2,4mg+2,4mg             | SC semanal | GI comum         | 12%                 |\n| Orforglipron  | 8-12mg/dia oral      | +12mg/4sem (até 45mg) | 36–45mg                 | VO diária  | Escalonar devagar | 10–17%              |\n\n**Principais orientações de titulação:**\n- Administrar sempre a noite ou em momentos de mínima demanda operacional.\n- Instruir paciente sobre sinais de intolerância GI (náuseas, vômitos, constipação severa); considerar redução temporária da dose.\n- Nunca pular escalonamentos em >50% dos casos sem supervisão.\n- Não substituir abruptamente GLP-1RA convencional por triplo/dual sem acompanhamento laboratorial.\n\n### 6.2. Tabela de Manejo de Efeitos Adversos\n\n| AE Principal   | Estratégia de Manejo                                   | Repetição?  |\n|----------------|-------------------------------------------------------|-------------|\n| Náusea/vômito  | Pause de 1-2 semanas, reduzir dose para anterior      | Se ≤2x      |\n| Constipação    | Fibra, água, laxantes osmóticos se necessário         | Orient. dietética |\n| Diarreia       | Reavaliar dose, hidratação oral                       | Monitorar   |\n| Hipoglicemia*  | Muito raro, exceto sulfonilureias/insulina concomit.  | Suspender SU |\n| Pancreatite    | Suspensão imediata, investigação diagnóstica          | Não reiniciar |\n| Dispneia/disp. gástrica | Parcial, reavaliação posológica               | Individualizar |\n\n*Hipoglicemia segundo REDUCE-IT e ensaios era infrequente (<2%), exceto em associação a SU/insulina.\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n### 7.1. Pré-início\n\n- HbA1c, glicemia jejum e pós-prandial\n- Perfil hepático (TGO/TGP, FA, GGT), lipidograma, função renal (ureia, creatinina, eGFR), amilase/lipase\n- B12, ferritina (em contextos de perda ponderal e risco de carência)\n- Peso, IMC e bioimpedância (massa magra vs. gordura), idealmente DEXA\n\n### 7.2. Durante o Tratamento (T1/3/6/12 meses)\n\n| Parâmetro       | Frequência        | Relevância                   |\n|-----------------|------------------|------------------------------|\n| HbA1c           | 3-6/12 meses     | Metas de controle glicêmico  |\n| Bioimpedância   | 3/6/12 meses     | Rastreio perda muscular      |\n| Função hepática | 1/3/6 meses      | MASH, segurança              |\n| Amilase/lipase  | 3/6 meses        | Pancreatite silenciosa       |\n| Lipidograma     | 3/6/12 meses     | Avaliação global do risco    |\n\n- Perda de massa muscular >5% de magra é sinal* de risco de sarcopenia; avaliar suplemento proteico/resistência muscular ou refazer estratégia.\n\n---\n\n## 8. Segurança, Interações e Considerações Perioperatórias\n\n### 8.1. Principais AEs e Interações\n\n- Eventos GI: O maior limitante (náusea, vômito, constipação); maioria autolimitada, manejo por titulação ajustada [S16, S17, S25].\n- Síndrome de hipoglicemia grave rara, principalmente quando em uso concomitante de SU/insulina.\n- Eventos pancreáticos: Pancreatite aguda é rara mas risco não pode ser subestimado; monitoramento laboratorial crítico.\n- Reações de hipersensibilidade/local na injeção: Casuística <3%.\n- Potencial atraso do esvaziamento gástrico: Considerar jejum ampliado pré-cirúrgico (parada 1-2 semanas pré-anestesia).\n- Uso concomitante com glico-insulínicos: Monitorar risco de hipoglicemia; doseamento conservador de SU/insulina.\n\n### 8.2. Considerações Perioperatórias e Esportivas\n\n- WADA: Todos os agentes em estudo presentes em listas de monitoração e sujeitos a restrições esportivas (categoria 2) — contraindicado para atletas.\n- Cirurgia eletiva: Suspender 7–14 dias antes pela inibição do esvaziamento gástrico e risco de broncoaspiração.\n- Internação/internação prolongada: Considerar risco de hipovolemia, hipotensão, ajustar via oral conforme tolerância.\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n- Nenhum dos agonistas triplo/dual (retatrutida, survodutida, orforglipron) está registrado ANVISA* (consultar status em www.anvisa.gov.br).\n- Proibição expressa do CFM sob Resolução 2.333/2023 ao uso clínico de moléculas pré-aprovação; uso off-label/manipulado não se sustenta eticamente.\n- Pesquisa clínica pode incluir pacientes via protocolos (Research-use-only, programa Compassione).\n- Médicos devem documentar completamente eventuais abordagens orientadas a pesquisa, esclarecendo não disponibilidade comercial e repúdio explícito à “farmácia paralela”.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO prescrever\n\n**O que representa fronteira real:**\n- Terapêutica baseada em ECR fase 2-3 com endpoints robustos (Δ peso >15%, controle glicêmico, regressão MASH).\n- Combinação de mecanismos (GLP-1+GIP+glucagon, GLP-1+amilina).\n- Formulação oral de incretina — promessa em acesso e adherência.\n\n**O que NÃO fazer:**\n- Não prescrever peptídeo manipulado para uso estético/metabólico fora de pesquisa monitorada.\n- Não prescrever para menores de 18 anos, gestantes, atletas profissionais.\n- Não induzir ou prometer ao paciente acesso particular (“jeitinho”) a substâncias de research use only.\n- Não substituir GLP-1RA de eficácia conhecida por agente experimental em ausência de ensaio/caso justificável.\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas\n\n- O efeito aditivo/abalador em perda ponderal (>20%) depende de adesão rigorosa à titulação e manejo ativo de eventos GI.\n- “Mágica” da tripla incretina não substitui manejo multiprofissional, dieta hiperproteica, musculação, psicoterapia.\n- Fronteira atual é promissora, mas imatura — resultados finais de mortalidade/desfecho CV aguardados; o médico precisa da humildade da incerteza.\n- Não existe benefício se houver perda relevante de massa magra — reavaliar estratégia em caso de perda >5% da magra.\n- Abordagem ética/documentada é o maior ativo do consultório premium — documente tudo.\n- Pacientes bem informados (“vi no jornal/o influenciador falou…”) valorizam mais dúvidas e explicações do que promessas exageradas.\n\n### Armadilhas\n\n- Uso off-label sem respaldo = risco para o paciente e para o CFM/cruzamento judicial.\n- Redução abrupta de dose ou escalonamento acelerado ← risco de AE GI graves e abandono.\n- Uso de manipulado ou importado não controlado — erro ético fatal.\n- “Só para emagrecer” em paciente com risco de sarcopenia, hepatopatia avançada ou cardiopatia descompensada = risco aumentadíssimo.\n- Avalie sempre contra-indicações com checklist rígido.\n\n### Checklist Rápido (60 segundos)\n\n1. Confirmou mecanismo, PK e status regulatório da molécula?\n2. Está documentando a indisponibilidade comercial/necessidade de pesquisa?\n3. Paciente tem indicação clínica robusta e ausência de contra-indicação?\n4. Risco GI, pancreatite e perda muscular monitorados?\n5. Discussão inequívoca e consentimento esclarecido registrado?\n6. Não está utilizando manipulado/research-only fora de protocolos?\n7. Planejou titulação lenta e monitoramento laboratorial/recomposição?\n8. Planejou suspensão pré-operatória (se aplicável)?\n9. Documentou plano de manejo de emergência AE grave?\n\n---\n\n## 12. Referências\n\n1. [S1, S26, S27] Posicionamento Doutiva — Hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. [S16] Garvey WT, et al. \"Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.\" N Engl J Med 2025. DOI 10.1056/nejmoa2502081.\n3. [S17] le Roux CW, et al. \"Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a phase 2 trial.\" Lancet Diabetes Endocrinol 2024. DOI 10.1016/s2213-8587(23)00356-x.\n4. [S19] Sanyal AJ, et al. \"Retatrutide for MASH: a randomized phase 2a trial.\" Nat Med 2024. DOI 10.1038/s41591-024-03018-2.\n5. [S21] Frias JP, et al. \"Efficacy and safety of co-administered Cagrilintide with Semaglutide in type 2 diabetes.\" Lancet 2023. DOI 10.1016/s0140-6736(23)01163-7.\n6. [S22] Rosenstock J, et al. \"Retatrutide for people with type 2 diabetes: phase 2 trial.\" Lancet 2023. DOI 10.1016/s0140-6736(23)01053-x.\n7. [S23] Wharton S, et al. \"Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity.\" N Engl J Med 2023. DOI 10.1056/nejmoa2302392.\n8. [S24] Sanyal AJ, et al. \"A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis.\" N Engl J Med 2024. DOI 10.1056/nejmoa2401755.\n9. [S25] Jastreboff AM, et al. \"Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial.\" N Engl J Med 2023. DOI 10.1056/nejmoa2301972.\n10. [S3, S5, S28] Brigham & Women's Hospital, ensaios observacionais em incretinas/diabetes, ClinicalTrials.gov.\n11. [S18, S20] Lau DCW et al., Enebo LB et al. \"Once-weekly cagrilintide for weight management\"/\"Safety, tolerability, PK, and PD of cagrilintide with semaglutide\", Lancet 2021.\n12. [S4, S6-S14] Referências suplementares em desfechos secundários de incretinas, osteoporose, MASH.\n\n---\n\n# Caso clínico: Fronteira terapêutica em Obesidade/Refratariedade\n\n**Paciente:** Maria A., 41 anos, IMC 39 kg/m², DM2 (HbA1c 8,1%), hipertensão leve controlada. Já tentou mudança comportamental + metformina + liraglutida até dose máxima, perda total de peso <6%. Tem microesteatose hepática confirmada na elastografia, sem fibrose significativa (F1). Sem história de pancreatite, câncer ou doença renal/hepática grave.\n\n#### Como abordar as novas moléculas?\n\nA) Prescreve manipulado de retatrutida, escalonando para 8mg, em consultório privado, dado o \"desespero\" do paciente.  \nB) Encaminha para estudo clínico aberto de CagriSema pelo hospital universitário, explicando que ainda não há moléculas aprovadas nem off-label liberado.  \nC) Inicia tirzepatida com monitoramento laboratorial e exercício supervisionado, enquanto aguarda desfechos dos ensaios CagriSema/retatrutida.  \nD) Associa metformina + orforglipron prescrito por farmácia de manipulação online, justificando “base científica sólida”.\n\n**Resposta correta:**  \n**B) Encaminha para estudo clínico aberto de CagriSema, explicando que ainda não há moléculas aprovadas nem off-label liberado.**\n\n*Racional:*\n- B é a única alternativa ética e tecnicamente correta. O paciente tem indicação clínica e perfil de alto risco, mas as moléculas são de uso exclusivo de protocolos de pesquisa/compaixão; prescrição de manipulado é temerária e vedada (CFM 2.333/2023).\n- A e D violam orientação regulatória e ética.\n- C poderá ser opção adequada (já aprovada, base robusta fase 3), mas não aborda a pergunta sobre “fronteira terapêutica experimental”.\n\n---\n\n# Slides\n\n## Slide 1: Título\n**Fronteira terapêutica: Retatrutida, CagriSema, Survodutida, Orforglipron**\n\n## Slide 2: Mecanismos de Ação: Dual e Triplo\n- GIP/GLP-1/glucagon (retatrutida)\n- GLP-1/glucagon (survodutida)\n- GLP-1 + amilina (CagriSema)\n- Small-molecule oral GLP-1R (orforglipron)\n![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Enteroinsular_axis.svg)\n\n## Slide 3: Tabela comparativa (Ensaio, Dose, Δ Peso, HbA1c)\n(ver tabela acima)\n\n## Slide 4: Barras — Δ Peso em 48 semanas\n![](https://chart-studio.plotly.com/~docs/Bar.html)\n- Retatrutida 12mg: -24,2%\n- Cagrisema: -20,4%\n- Survodutida: -14,9%\n- Orforglipron: -14,7%\n\n## Slide 5: Algoritmo prático\n(Indicação → Critérios de inclusão → Verifica registro → Se “não disponível”, → Pesquisa clínica/Estudo prospectivo; Se “foco comercial”, → Tirzepatida/Semaglutida++)\n\n## Slide 6: Split – Contraste: Fronteira ética\n\n| Científico/Estrito                  | Hype/Ofensivo           |\n|-------------------------------------|-------------------------|\n| Consentimento livre, pesquisa clínica| Manipulado, propaganda  |\n| Documentação minuciosa              | Falta de registro, fórum|\n| Monitoramento intensivo             | Negligência             |\n\n## Slide 7: Tabela rápida de titulação e manejo AE\n(ver seção 6)\n\n## Slide 8: Pearl final\n**Pacientes de alto risco demandam medicina baseada em ciência e ética rigorosa — e não promessas de marketing ou jeitinhos.**\n\n---\n\n# Quick_ref · Guia de Bolso\n\n| Molécula   | Dose inicial | Titulação         | Dose alvo         | AEs GI (%) | Duração ensaio | Δ Peso (%) |\n|------------|--------------|------------------|-------------------|------------|---------------|------------|\n| Retatrutida| 2mg SC/sem   | +2mg/4sem        | 8–12mg            | 79–89%     | 48 sem        | -24,2      |\n| Survodutida| 0,6mg SC/sem | +1,2mg/20sem     | 4,8mg             | 91%        | 46 sem        | -14,9      |\n| CagriSema  | 0,25mg duo   | +0,25mg/4sem     | 2,4mg+2,4mg       | 70%        | 68 sem        | -20,4      |\n| Orforglipron|12mg oral/dia| +12mg/4sem       | 36–45mg           | 56–74%     | 36 sem        | -14,7      |\n\n### Red Flags\n\n- História pessoal/familiar de carcinoma medular, MEN2, pancreatite.\n- Gastroparesia grave, insuficiência orgânica terminal.\n- Sintomas GI persistentes/severos.\n\n### Checklist 60 segundos\n\n1. Indicação clínica robusta?\n2. Monitoramento laboratorial em dia?\n3. Consentimento para pesquisa/documentação?\n4. Conhece status regulatório?\n5. Tabela de titulação/documentada?\n6. Manejo de AEs planejado?\n7. Interrupção perioperatória definida?\n8. Proibido manipulado/off-label fora de pesquisa.\n\n---\n\n## Key points (pearl do consultório)\n\n1. Todos os agonistas triplo/dual/oral discutidos são *exclusivos de pesquisa clínica* no Brasil até nova aprovação ANVISA.\n2. Perdas ponderais >20% são possíveis, mas o sucesso depende de titulação lenta e manejo de eventos adversos sob monitoramento especializado.\n3. Não prescrever, manipular ou importar peptídeo para uso individual fora de protocolo ético/hospitalar — risco regulatório e à saúde.\n4. Instrução do paciente pautada em transparência, reforçando limitações de acesso, benefícios potenciais e comprometimento com segurança.\n5. O maior ativo do médico do futuro está no julgamento clínico rigoroso, atualização e documentação — não em “acessar a molécula”.\n6. Futuro próximo exigirá análise de desfechos “hard” (MACE, cirrose, retardo de complicações microvasculares); hoje, foco é segurança e peso.\n7. Monitoramento multiprofissional da recomposição corporal e do bem-estar metabólico é obrigatório; risco sarcopênico não é irrelevante.\n\n---\n\n# FIM",
+  "quick_ref": "\nMolécula   | Dose inicial         | Titulação          | Dose alvo       | AEs GI (%) | Duração(s)  | Δ Peso (%)\n-----------------------------------------------------------------------------  \nRetatrutida| 2mg SC semanal       | +2mg/4 sem         | 8–12 mg        | 79–89%     | 48 semanas  | -24,2\nSurvodutida| 0,6mg SC semanal     | +1,2mg/20 sem      | 4,8 mg         | 91%        | 46 semanas  | -14,9\nCagriSema  | 0,25mg + 0,25mg SC  | +0,25mg/4 sem     | 2,4+2,4 mg    | 70%        | 68 semanas  | -20,4\nOrforglipron| 12mg oral diária    | +12mg/4 sem        | 36–45 mg       | 56–74%     | 36 semanas  | -14,7\n\nRed Flags:\n- História pessoal/familiar carcinoma medular, MEN2, pancreatite\n- Gastroparesia grave, insuficiência orgânica terminal\n- Sintomas gastrointestinais persistentes ou severos\n\nChecklist 60s:\n1. Indicação clínica adequada?\n2. Monitoramento laboratorial em dia?\n3. Consentimento informado e documentação?\n4. Conhecer status regulatório?\n5. Plano de titulação definido?\n6. Manejo de eventos adversos estabelecido?\n7. Interrupção perioperatória planejada?\n8. Não prescrever manipulado ou off-label sem protocolo.\n",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "41 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "39 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,1%"
+      },
+      {
+        "label": "Doença hepática",
+        "value": "Microesteatose hepática, fibrose F1"
+      },
+      {
+        "label": "Histórico medicamentoso",
+        "value": "Metformina e liraglutida, perda peso <6%"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão leve controlada"
+      },
+      {
+        "label": "Contraindicações",
+        "value": "Ausentes"
+      },
+      {
+        "label": "Histórico pancreatite/câncer",
+        "value": "Negativo"
+      }
+    ],
+    "title": "Frente terapêutica avançada em obesidade refratária - abordagem ética e prática",
+    "reward": 150,
+    "options": [
+      {
+        "label": "Prescrição manipulado de retatrutida no consultório, escalonando até 8mg",
+        "correct": false,
+        "rationale": "Risco ético e legal. Manipulados fora de pesquisa são vedados pela Resolução CFM 2.333/2023."
+      },
+      {
+        "label": "Encaminhar para estudo clínico aberto de CagriSema com explicação sobre não aprovação comercial",
+        "correct": true,
+        "rationale": "Conduta ética e recomendada, respeita status regulatório e oferece acesso seguro em pesquisa."
+      },
+      {
+        "label": "Iniciar tirzepatida com monitoramento regular como ponte aguardando ensaios dos novos agentes",
+        "correct": false,
+        "rationale": "Embora tirzepatida esteja aprovada, a questão direciona para as moléculas na fronteira; além disso, a paciente já usou liraglutida e nova abordagem deve considerar pesquisa clínica."
+      },
+      {
+        "label": "Prescrever orforglipron via farmácia de manipulação online, justificando base científica",
+        "correct": false,
+        "rationale": "Prescrição via manipulado ou importação não regularizada é ilegal e insegura. Farmácias de manipulação não autorizadas não devem ser utilizadas."
+      }
+    ],
+    "question": "Qual a abordagem mais adequada para Maria considerando as moléculas dual/triplo incretinas e status regulatório atual no Brasil?",
+    "vignette": "Maria A., 41 anos, IMC 39 kg/m², DM2 com HbA1c 8,1%, hipertensão leve controlada. Uso prévio de metformina + liraglutida com perda de peso ≤6%. Confirmada microesteatose hepática (fibrose F1), sem pancreatite, câncer ou insuficiência orgânica grave. Busca opções avançadas para perda ponderal.",
+    "teaching": "A paciente apresenta indicação clínica potencial para os agonistas dual/triplo de incretinas por obesidade severa, DM2 e MASH leve, porém as moléculas discutidas ainda não possuem aprovação ANVISA para uso comercial. Portanto, a conduta ética está no encaminhamento para pesquisa clínica, com consentimento esclarecido, não se recomendando prescrição off-label/manipulado dessas drogas em consultório. Tirzepatida poderia ser opção, porém não substitui os agonistas em estudo nesta fronteira, e não foi o foco da questão. Evitar uso não autorizado protege o paciente de riscos não controlados, previne infrações regulatórias e reforça a atuação médica baseada em evidência e segurança."
+  },
+  "refs": [
+    {
+      "citation": "Garvey WT, Blüher M, Osorto Contreras CK, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2025; DOI 10.1056/nejmoa2502081."
+    },
+    {
+      "citation": "le Roux CW, Steen O, Lucas KJ, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomized, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024; DOI 10.1016/s2213-8587(23)00356-x."
+    },
+    {
+      "citation": "Sanyal AJ, Kaplan LM, Frias JP, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med. 2024; DOI 10.1038/s41591-024-03018-2."
+    },
+    {
+      "citation": "Frias JP, Deenadayalan S, Erichsen L, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet. 2023; DOI 10.1016/s0140-6736(23)01163-7."
+    },
+    {
+      "citation": "Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. Lancet. 2023; DOI 10.1016/s0140-6736(23)01053-x."
+    },
+    {
+      "citation": "Wharton S, Blevins T, Connery L, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med. 2023; DOI 10.1056/nejmoa2302392."
+    },
+    {
+      "citation": "Sanyal AJ, Bedossa P, Fraessdorf M, et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med. 2024; DOI 10.1056/nejmoa2401755."
+    },
+    {
+      "citation": "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med. 2023; DOI 10.1056/nejmoa2301972."
+    }
+  ],
+  "status": "published"
+}

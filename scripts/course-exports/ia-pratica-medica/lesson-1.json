@@ -1,0 +1,327 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Fundamentos",
+  "module_position": 1,
+  "title": "O que o médico precisa entender de modelos generativos sem virar engenheiro",
+  "description": "Esta aula aborda os fundamentos essenciais que endocrinologistas, nutrólogos e clínicos médicos premium devem conhecer sobre modelos generativos (LLMs) para utilização ética e eficaz na prática médica brasileira. Comparamos LLMs com Machine Learning clássico, explicamos conceitos críticos como alucinação, temperatura, contexto e Retrieval Augmented Generation (RAG). Discutimos evidências reais de desempenho, riscos, vieses, aspectos regulatórios brasileiros (CFM, ANVISA, LGPD) e estabelecemos condutas práticas para uso seguro, especialmente em manipulação estéril e prescrição responsável. Um caso clínico realista ilustra as aplicações e limites atuais, finalizando com checklist de bolso e pontos-chave para referência rápida em consultório.",
+  "duration_minutes": 75,
+  "evidence_level": "B (baseado em guidelines, estudos de validação e posição editorial)",
+  "key_points": [
+    "Modelos generativos (LLMs) são ferramentas poderosas para sumarização e auxílio, mas carregam risco de alucinação informacional, gerando dados plausíveis porém incorretos.",
+    "ML clássico é focado e auditável, enquanto LLM é versátil porém caixa-preta e sujeito a vieses, exigindo supervisão médica rigorosa.",
+    "Parâmetros como temperatura e contexto (janela de tokens) influenciam qualidade e confiabilidade das respostas geradas por LLMs.",
+    "A técnica RAG (Recuperação Aumentada por Geração) melhora segurança ao ancorar respostas em bases de dados confiáveis e rastreáveis, essencial para uso clínico.",
+    "Normativas brasileiras (CFM 2.333/2023, ANVISA, LGPD) delimitam fortemente o uso ético e legal da IA na prática médica, especialmente para prescrição e manipulação estéril.",
+    "A responsabilidade final pela conduta clínica permanece sempre com o médico, não podendo ser delegado ao LLM.",
+    "Em manipulação e prescrição, só usar fármacos com evidência robusta (ECR, registro ANVISA), evitando off-label não sustentado e research peptides."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "LLM em Medicina Premium: O que o Médico Precisa Saber",
+      "subtitle": "Fundamentos para endocrinologistas, nutrólogos e clínicos - IA na prática médica Doutiva"
+    },
+    {
+      "head": [
+        "Característica",
+        "ML Clássico",
+        "Modelo Generativo (LLM)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Input/Output",
+          "Dados estruturados → label",
+          "Texto livre → texto livre"
+        ],
+        [
+          "Validação",
+          "Métricas objetivas (ROC, AUC)",
+          "Avaliação subjetiva, difícil métrica objetiva"
+        ],
+        [
+          "Interpretação",
+          "Modelo transparente ou auditável",
+          "Modelo caixa-preta"
+        ],
+        [
+          "Risco de 'Alucinação'",
+          "Nulo",
+          "Médio a alto"
+        ],
+        [
+          "Foco",
+          "Tarefa específica",
+          "Multitarefas, versátil"
+        ],
+        [
+          "Exemplo Clínico",
+          "Previsão HbA1c baseado em dados",
+          "Sumarização textual de guidelines"
+        ]
+      ],
+      "title": "ML Clássico × Modelos Generativos: Diferenças Chave"
+    },
+    {
+      "kind": "bullets",
+      "title": "Conceitos Críticos em LLM",
+      "bullets": [
+        "Alucinação: geração de informações factualmente incorretas porém linguísticamente plausíveis, risco importante em decisões clínicas.",
+        "Temperatura: parâmetro que controla criatividade do modelo; baixa temperatura gera respostas conservadoras, alta aumenta variabilidade e risco de erro.",
+        "Contexto: LLM processa somente um número limitado de tokens (janela de contexto), limitando compreensão de casos longos/detalhados.",
+        "RAG (Retrieval Augmented Generation): técnica que restringe respostas a documentos ou bases confiáveis, reduzindo alucinação e aumentando segurança clínica."
+      ]
+    },
+    {
+      "head": [
+        "Aplicação",
+        "n Estudos",
+        "Acurácia (%)",
+        "Risco de Alucinação",
+        "Referência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sumarização de guidelines",
+          "5",
+          "78–90%",
+          "Baixo-médio",
+          "[S13]"
+        ],
+        [
+          "Resolução de questões USMLE",
+          "≥4",
+          "60–85%",
+          "Médio",
+          "Verificar"
+        ],
+        [
+          "Prescrição/dosagem específica",
+          "1+",
+          "<70%",
+          "Alto",
+          "Verificar"
+        ],
+        [
+          "Geração de referências ECR",
+          "2",
+          "<50% válidas",
+          "Muito alto",
+          "[S13]"
+        ],
+        [
+          "Consulta com RAG peer-reviewed",
+          "2",
+          "≥95%",
+          "Muito baixo",
+          "Verificar"
+        ]
+      ],
+      "title": "Evidência de desempenho e riscos dos LLMs em aplicações clínicas"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Exame laboratorial: ML clássico com saída clara, auditável e validada.",
+          "Residente brilhante: LLM, capaz de construir raciocínios e respostas plausíveis porém inventa fatos em ausência de supervisão."
+        ],
+        "label": "ML Clássico"
+      },
+      "right": {
+        "items": [
+          "Decisão médica: baseada em dados robustos e auditados.",
+          "Decisão via LLM sem controle: risco de erros e alucinações com impacto clínico severo."
+        ],
+        "label": "Modelos Generativos (LLM)"
+      },
+      "title": "Analogias Clínicas para Entender Machine Learning e LLM"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Pergunta clínica ou administrativa formulada ao LLM"
+        },
+        {
+          "label": "LLM gera sumarização ou texto baseado em base rastreável (idealmente com RAG)"
+        },
+        {
+          "label": "Revisão detalhada pelo médico, crítica e comparativa com guideline original"
+        },
+        {
+          "label": "Decisão clínica tomada exclusivamente pelo médico"
+        },
+        {
+          "label": "Documentação da decisão é registrada no prontuário (com observação da ajuda da IA)"
+        }
+      ],
+      "title": "Fluxo Prático de Uso Seguro de LLM na Rotina Médica Premium"
+    },
+    {
+      "kind": "bullets",
+      "title": "Erros Críticos e Condutas Vedadas",
+      "bullets": [
+        "Não aceitar prescrição de dose, indicação ou posologia sugerida pelo LLM sem revisão fundamentada e fonte rastreável.",
+        "Jamais transferir dados identificáveis de pacientes a ferramentas de LLM públicas ou não autorizadas (risco LGPD).",
+        "Evitar uso de LLM para decisões clínicas primárias, diagnóstico ou prescrição, especialmente com peptídeos não aprovados.",
+        "Não usar GH, secretagogos ou peptídeos 'research' para finalidades estéticas/anti-aging — conduta vedada CFM e ANVISA.",
+        "Não confiar em referências bibliográficas geradas automaticamente pelo LLM sem validação.",
+        "Jamais substituir o julgamento clínico por recomendações automatizadas sem revisão crítica."
+      ]
+    },
+    {
+      "head": [
+        "Entidade",
+        "Diretriz/Norma",
+        "Repercussão"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "CFM",
+          "Proíbe uso veterinário, off-label não sustentado e anti-aging sem base clínica",
+          "Médico deve seguir evidência; responsabilidade integral"
+        ],
+        [
+          "ANVISA",
+          "Falência de registro impede manipulação estéril não autorizada",
+          "Somente substâncias registradas e com PK humano"
+        ],
+        [
+          "LGPD",
+          "Proteção de dados pessoais; consentimento explícito para tratamento e uso",
+          "Não enviar dado de paciente para LLM sem autorização"
+        ],
+        [
+          "WADA",
+          "Lista de substâncias proibidas inclui GH e secretagogos em atletas",
+          "Cuidado legal para pacientes atletas; restrição de uso"
+        ]
+      ],
+      "title": "Regulatório e Ética na Aplicação de IA na Medicina Brasileira"
+    },
+    {
+      "head": [
+        "Dado",
+        "Detalhe"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Queixa principal",
+          "Desejo de emagrecimento rápido, consulta para avaliação de peptídeos"
+        ],
+        [
+          "Histórico",
+          "Busca web sobre GH anti-aging e peptídeos manipulados"
+        ],
+        [
+          "Dados laboratoriais",
+          "Perfil hepato-renal normal; A1c 7.6%"
+        ],
+        [
+          "Alternativas consultadas no LLM",
+          "Parecer sumário guideline aprovada; posologia tirzepatida indicada; manipulação sem registro evidentemente incorreta; GH anti-aging não indicado"
+        ],
+        [
+          "Decisão ética",
+          "Responder apenas baseada em guidelines aprovadas e evidência robusta"
+        ],
+        [
+          "Conduta recomendada",
+          "Orientação para tratamento com incretinas aprovadas, evitar research peptides e GH sem indicação"
+        ],
+        [
+          "Justificativa regulatória",
+          "Conforme CFM 2.333/2023 e ANVISA, alinhada à proteção LGPD"
+        ]
+      ],
+      "title": "Características do Caso Clínico para Uso Ético de LLM (Exemplo)"
+    }
+  ],
+  "monograph": "# O que o médico precisa entender de modelos generativos sem virar engenheiro ## 1. Contexto e relevância: Por que IA generativa importa para o consultório premium As tecnologias baseadas em inteligência artificial (IA) têm modificado fundamentalmente a prática clínica, o acesso à informação e as possibilidades diagnósticas e terapêuticas em endocrinologia, nutrologia e clínica médica de excelência. Dentre essas inovações, destacam-se os chamados modelos generativos de linguagem (Large Language Models — LLMs), como ChatGPT, Bard e similares, que oferecem suporte ao raciocínio clínico, resumo de literatura e até sugestões de condutas, inclusive nos cenários de prescrição complexa para manipulação estéril. Embora disruptivos, tais ferramentas não substituem o discernimento clínico — e carregam vieses e limitações inerentes que exigem crítica e literacia tecnológica do médico moderno. Neste tratado, delineio o mínimo fundamental para médicos exigentes — sem viés apaixonado de marketing digital ou excesso técnico-prográmatico — sobre o que realmente importa para incorporar IA generativa na prática brasileira ética e segura. O foco é no entendimento pragmático dos riscos, potencialidades e fronteiras atuais dos LLMs, comparando-os com modelos clássicos de machine learning, explorando conceitos-chave (alucinação, temperatura, contexto, RAG) e estabelecendo paralelos clínicos robustos. Evidências, limitações regulatórias (CFM, LGPD, ANVISA), desempenho e caminhos validados para integração real ao consultório brasileiro serão discutidos, sempre com ênfase em práticas de manipulação estéril, ensino ético e preceitos da medicina baseada em evidências [S1, S13]. --- ## 2. Fundamentos de IA em Medicina: Machine Learning clássico versus Modelos Generativos ### 2.1 O que é Machine Learning (ML) Clássico? O ML clássico refere-se a algoritmos capazes de aprender padrões a partir de dados rotulados, visando prever categorias, valores contínuos ou probabilidades. Tais sistemas, largamente empregados em diagnósticos automatizados (por exemplo, classificação de imagens de fundo de olho diabético), têm características marcantes: - **Entradas e saídas bem definidas:** Exemplo: “Imagem → retinopatia diabética: sim/não”\n- **Treinamento específico para cada tarefa:** Modelos para diagnóstico não servem para sumarização textual.\n- **Transparência (em modelos lineares) e validação objetiva:** Curvas ROC/AUC, sensibilidade, especificidade. #### Exemplo clínico:\nUm sistema para predição de doença cardiovascular a partir de dados laboratoriais e antropométricos utiliza ML clássico regulado; seus pontos de corte, risco residual e acurácia são transparentes, validados em coortes específicas e auditáveis [S18]. ### 2.2 O que é um Modelo Generativo de Linguagem (LLM)? LLMs são redes neurais profundas treinadas em imensos volumes de texto, \"aprendendo\" padrões de linguagem, raciocínio e contexto. Ao invés de apenas classificar, são capazes de gerar respostas, textos, resumos e explicações — frequentemente plausíveis, mas nem sempre verdadeiras. **Características-chave:**\n- **Versatilidade:** Responde a milhares de perguntas, escreve pareceres, resume artigos.\n- **Não supervisionado/predição de tokens:** Em vez de prever um label, gera a próxima palavra plausível.\n- **Capacidade de imitação:** Excelente para simular raciocínio clínico, mas pode alucinar fatos com facilidade.\n- **Treinamento contínuo:** Constantemente actualizado com mais dados, mas sujeitos a vieses originais das fontes. #### Analogias clínicas:\n- ML clássico é como um exame laboratorial: tem um resultado definido, validado, com parâmetros conhecidos.\n- LLM é mais similar a um residente brilhante exposto a milhões de prontuários: entrega respostas convincentes, mas pode inventar/inferir fatos não documentados se não for supervisionado. ### Tabela 1 — Comparação entre Modelos de ML Clássico vs Modelos Generativos (LLMs) | Característica | ML Clássico | Modelo Generativo (LLM) |\n|------------------------------|-----------------------------|-------------------------------|\n| Input/Output | Dados estruturados → label | Texto livre → texto livre |\n| Validação | Métricas objetivas | Difícil; avaliações subjetivas|\n| Interpretação | Transparente (linear) | Caixa-preta |\n| Risco de \"alucinação\" | Nulo | Moderado a alto |\n| Foco | Uma tarefa x vez | Versátil, multitarefas |\n| Exemplo clínico | Previsão de HbA1c | Sumarização de guideline |\n| Regulação | Mais consolidada | Em transição | **Fontes:** [S13, S18], experiência editorial Doutiva. --- ## 3. Conceitos críticos em LLM: Alucinação, Temperatura, Contexto e RAG ### 3.1 Alucinação em LLM — Definição, impacto e analogia clínica **Definição:** Alucinação, nos modelos generativos, refere-se à geração de informações factualmente incorretas, mas linguísticamente plausíveis. O LLM pode ‘inventar’ dados, artigos, doses, até nominar estudos e DOIs inexistentes. **Analogias clínicas:**\n- Um estudante que, confiante, inventa referência bibliográfica para parecer mais completo — sem ter visto o artigo.\n- Um prontuário redigido onde parte da história clínica nunca existiu, mas está escrita de forma convincente. #### Impacto clínico:\n- Gera risco concreto de decisões incorretas, referência a práticas não recomendadas e, no Brasil, pode violar o CFM 2.333/2023 ao sugerir prescrição fora da boa técnica.\n- **Exemplo extremo:** LLM sugere GH para “bem-estar” na ausência de deficiência real — conduta VEDADA pelo CFM, perigosa e antiética. ### 3.2 Temperatura — Do determinismo ao criativo **Temperatura** é um parâmetro matemático que ajusta a diversidade das saídas do LLM:\n- **Baixa (0 a 0.3):** Resposta mais estável, tende a repetir padrões e outputs “conservadores”.\n- **Alta (≥0.7):** Respostas mais variadas, mas maior risco de plausibilidade enganadora. **Paralelo clínico:** É como calibrar o limiar de referência para liberação de hemoglobina glicada em laboratório: valor mais baixo tende a entregar resultado padrão; valor alto pode disparar falsos positivos/negativos. ### 3.3 Contexto e limite do \"window\" Os LLMs processam apenas um número limitado de \"tokens\" (palavras/unidades) por vez, chamado \"context window\". Da mesma maneira que um médico com prontuário incompleto toma decisão parcial, um LLM pode perder o histórico ou gerar inconsistência se o caso for longo/denso. ### 3.4 RAG — Retrieval Augmented Generation **Um divisor de águas para uso clínico controlado:** RAG consiste em acoplar o LLM a bases externas (guidelines, consensos, artigos), garantindo que respostas sejam fundamentadas em documentação rastreável e não geradas apenas da \"memória\" do modelo. **Exemplo aplicado:** Na Doutiva, é possível prover o LLM com a biblioteca de guidelines, como [S1], para que só recomende peptídeos conforme o grau de evidência A, jamais sugerindo research peptides de eficácia e registro duvidosos. --- ## 4. Evidências de desempenho, vieses e validação clínica — O que a literatura realmente mostra ### 4.1 Desempenho real de LLMs em tarefas clínicas **Estudos com dados reais:**\n- Um benchmark (verificar) mostrou que a acurácia de LLMs em resolver questões do USMLE (prova médica americana) varia de 60% a 90% a depender das versões. Tarefas envolvendo guideline-based decision apresentam melhor desempenho (~80%) quando input totalmente estruturado e contexto breve é fornecido.\n- Em sumarizações de guideline e busca de contraindicações, performance tende a ser aceitável, desde que acoplada a fonte rastreável (RAG). ### 4.2 Vieses e percalços - **Bias dos dados:** Modelos aprendem padrões de textos disponíveis; se houver predominância de dados anglófonos, elitizados ou de guidelines desatualizados, ocorre enviesamento.\n- **Desbalanceamento:** Questões minoritárias (por ex., doenças raras, condutas típicas do SUS brasileiro) tendem a ser omitidas ou distorcidas.\n- **Risks de equidade:** LLMs podem reproduzir visões preconceituosas presentes na massa textual; já foram detectados vieses de gênero (“diabetes tipo 2 como doença masculina”) e de cor de pele em diagnósticos dermatológicos (verificar literatura específica).\n- **Segurança do paciente:** Todos os modelos públicos são categorizados como ferramentas de apoio, não de decisão. A literatura e as normativas DT/CFM reforçam que a responsabilidade clínica persiste com o prescritor humano [S13]. ### 4.3 Validação clínica: O que já tem suporte robusto (Tabela 2) | Aplicação LLM em Medicina | n Estudos/Benchmarks | Acurácia (média) | Risco de Alucinação | Referência | Evidência |\n|--------------------------------------------|----------------------|------------------|---------------------|------------|-----------|\n| Sumarização de guidelines | 5 | 78–90% | Baixo-médio | [S13] | B–A |\n| Resolução de questões clínicas USMLE | ≥4 | 60–85% | Médio | (verificar)| B |\n| Apoio à escolha farmacológica (top-level) | 3 | 70–90% | Risco relevante | [S13] | B |\n| Sugestão de doses/posologias específicas | 1+ | <70% | Alto | (verificar)| C |\n| Geração de referências/dados bibliográficos| 2 | <50% válidas | Muito alto | [S13] | C |\n| Consulta peer-reviewed via RAG | 2 | ≥95% | Muito baixo | (verificar)| B–A | **Fontes:** [S13], meta-análises consultadas, experiência Doutiva Editorial. --- ## 5. Seleção prática de casos de uso seguros: Do consultório ao fluxo digital premium ### 5.1 Quando faz sentido usar LLM? - **Sumarização rápida de guidelines para preparo de aula/prescrição**\n- **Sugestão de alternativas terapêuticas (registradas/consolidadas)**\n- **Estruturação de fluxos ou checklists de conduta padronizada**\n- **Revisão ortográfica, coesão textual de documentos médicos**\n- **Geração de materiais educativos para pacientes (após revisão)** **Nunca como fonte primária para definição de dose, indicação de off-label não validada, ou referência bibliográfica sem validação dupla.** ### 5.2 Integração ao prontuário digital e LGPD #### Padrão seguro:\n- Assegurar que dados dos pacientes não sejam enviados a LLMs comerciais sem consentimento claro (LGPD Artigos 7º e 11).\n- Preferir LLMs institucionalizados ou “on-premises” para fluxos sensíveis.\n- Utilizar LLM apenas para tarefas desvinculadas do dado pessoal: sumarização de guideline, revisão de texto científico, etc. #### Analogias:\nEncarar LLM como um macro do Office “superinteligente” — útil para acelerar tarefas administrativas, não para decidir condutas ou salvar resultados em núvem sem proteção. --- ## 6. Caso clínico realista brasileiro: LLM na decisão de manipulação estéril ### Dados do caso\nPaciente feminina, 54 anos, IMC 32, A1c 7.6%, história de HAS e colecistectomia. Com queixas de ganho ponderal refratário e desejo de iniciar medicamento injetável para emagrecimento rápido. Traz busca no Google de “peptídeos magros” e “GH antienvelhecimento”. Considera-se uso de manipulado, pois não tem cobertura integral para Wegovy®. Laboratório mostra perfil hepato-renal sem alterações. ### Alternativas para uso do LLM em apoio clínico: 1. Geração de um parecer sobre tirzepatida, doses, vias, evidências e segurança, baseado apenas na memória do LLM.\n2. Geração de sumário crítico das guidelines para incretinas, citando apenas classes medicamentosas aprovadas.\n3. Orientação para manipulação off-label de semaglutida oral 10 mg, sem ECR humano, sugerida por pesquisa no LLM.\n4. Oferta de dose e protocolo de GH para perda de peso em adulto, conforme blogs ‘funcionais’, automatizado via LLM sem filtro. #### Qual conduta é ética e sustentada pelo fluxo premium Doutiva? **Opção correta:** 2 Explicação: O uso do LLM só é seguro/ético quando conectado a base RAG que limita saída a guidelines aprovadas [S1, S2]. Propostas envolvendo GH anti-aging/manipulação “cosmética” sem déficit documentado violam CFM 2.333/2023, assim como research peptides não aprovados. --- ## 7. Conduta estruturada: Incorporação prática de LLM na rotina médica premium ### 7.1 Checklist de segurança e fluxo para uso de IA generativa na medicina premium | Etapa | Ação/O que checar | Justificativa/Evidência |\n|--------------------------------------|------------------------------------------------------|----------------------------|\n| 1. Identifique a natureza da pergunta| É para sumarizar guideline? Gerar texto? | Usos administrativos/suporte|\n| 2. Evite dúvidas/doses diretas | Nunca aceite dose ou posologia sem fonte rastreável | [S1], [S13] |\n| 3. Exija attach® a fonte (use RAG) | LLM só é seguro se ancorado em base controlada | [S13] |\n| 4. Nunca use para prescrição em si | Decisão clínica é do médico; IA é um auxílio, não juízo| CFM, ética médica |\n| 5. Não transfira dados sensíveis | Respeite LGPD: evite input de dados de paciente | LGPD Art. 7º/11 |\n| 6. Sempre revise o output | Toda resposta deve ser revisada criticamente | [S13], B |\n| 7. Documente limites do uso | Reforce em laudos/prontuários a natureza de apoio | ANVISA, CFM | ### 7.2 Fluxo simplificado para uso/validação em consultório (figura nos slides): 1. Pergunta ➔\n2. IA sumariza com link para guideline ➔\n3. Revisão médica (+/− bibliografia validada) ➔\n4. Aplicação clínica ou descarte ➔\n5. Documentação da decisão (não da IA) no prontuário --- ## 8. Regulatório e Ética no Brasil: O que é permitido, o que é vedado - **CFM (2.333/2023):** Proíbe prescrição de hormônio em doses suprafisiológicas, uso de peptídeos sem ECR ou indicação reconhecida, e condutas meramente estéticas/anti-aging sem critério.\n- **ANVISA:** Só permite manipulação estéril de compostos com PK em humanos, validade regulatória clara.\n- **LGPD:** Proíbe transferência de dado identificável a sistemas sem consentimento do paciente; exige rastreabilidade e proteção.\n- **Responsabilidade Médica:** Não se transfere ao software. O médico responde pelas decisões clínicas, não o programador do LLM [S13].\n- **WADA (Agência Mundial Antidoping):** GH, secretagogos e outros peptídeos são proibidos em atletas; recomenda-se aplicação das listas a pacientes que tenham potencial uso esportivo. --- ## 9. O que NÃO fazer: Erros críticos e condutas vedadas - **Nunca aceitar prescrição de GH, secretagogos de GH, peptídeos “research” em contexto não aprovado por ANVISA, especialmente em estética/anti-aging [S1].**\n- **Jamais delegar decisão diagnóstica ou terapêutica ao LLM — sempre validar conduta com literatura primária/guideline.**\n- **Não inserir dados sensíveis de pacientes em plataformas públicas/comerciais (violação grave da LGPD).**\n- **Evitar reprodução acrítica de referências bibliográficas fornecidas pelo LLM — risco de alucinação extremamente alto [S13].**\n- **Não prescrever nenhuma formulação manipulada de peptídeo sem evidência clínica e farmacocinética humana robusta [S1].** --- ## 10. Pérolas, quick_ref e checklist de bolso ### Quick_ref de bolso para médico premium 1. LLM = residente hiper-exposto, não oráculo. Atenção às alucinações.\n2. Só utilize outputs de LLM que estejam atrelados (RAG) às diretrizes ou artigos primários rastreáveis.\n3. Nunca aceite indicação de dose/posologia sem revisar fonte original.\n4. Em manipulação estéril, só aprovar compostos com ECRs em humanos e registro ANVISA.\n5. Não transferir dados de paciente a LLMs externos — LGPD é inegociável.\n6. Toda decisão clínica é do médico; LLM é ferramenta auxiliar, não substitutiva.\n7. Se duvidar, descarte — responsabilidade ética é sempre sua. ### Key_points (resumo crítico) - Modelos generativos são valiosos para sumarizar, revisar e estruturar conhecimento, mas apresentam risco considerável de alucinação factual e decisão não auditável.\n- O uso ético e eficiente no consultório premium requer limitação do LLM ao âmbito de apoio (RAG), nunca de decisão ou prescrição.\n- Princípios regulatórios brasileiros, incluindo normas do CFM, ANVISA e LGPD, limitam sobremaneira o que pode (e não pode) ser feito com IA generativa em saúde.\n- Manipulação estéril ética depende de evidência classe A (ECR, guideline), registro e rastreabilidade. Jamais usar peptídeos de “research only” ou hormônios para fins meramente estéticos.\n- Integração segura ao prontuário digital requer protocolos claros de revisão, consentimento e documentação dos limites da IA.\n- O médico premium segue sempre a hierarquia da evidência, mesmo frente às novas tecnologias. O brilho do “novo” não isenta do crivo crítico. --- ## 11. Slides (para módulo Doutiva, 8–12 slides) ### Slide 1 – Título\n**LLM em Medicina Premium: O que o Médico Precisa Saber** --- ### Slide 2 – ML Clássico × Modelos Generativos: Diferenças Chave | Aspecto | ML Clássico | LLM/Generativo |\n|--------------------------|----------------|------------------------|\n| Input/Output | Estruturados | Texto livre |\n| Interpretação | Auditável | Caixa preta |\n| Risco de Alucinação | Nulo | Relativo/Alto |\n| Exemplo consultório | Previsão HbA1c | Sumarização de guideline| --- ### Slide 3 – Conceitos Críticos: Alucinação, Temperatura, Contexto, RAG - **Alucinação:** Risco de resposta falsa convincente\n- **Temperatura:** ‘Criatividade’ da saída (0 = padrão, 1 = inventivo)\n- **Contexto (‘window’):** Limitação de memória recente\n- **RAG:** Restringe ao que está documentado (segurança aumentada) --- ### Slide 4 – Evidência de Desempenho: Tabela comparativa | Tarefa | Acurácia (%) | Risco Alucinação | Fonte/Evidência |\n|-------------------------|--------------|------------------|-----------------|\n| Sumarização guideline | 78–90 | Baixo-médio | [S13] |\n| Dose específica | <70 | Alto | (verificar) |\n| Referências/ECRs | <50 válidas | Muito alto | [S13] |\n| Peer-reviewed via RAG | ≥95 | Muito Baixo | (verificar) | --- ### Slide 5 – Analogias Clínicas - ML clássico = exame laboratorial\n- LLM = residente brilhante (mas “criativo”); supervisionar sempre --- ### Slide 6 – Checkpoints Éticos - Nunca usar outputs de LLM para decisão clínica sem validação externa\n- Evitar dado sensível; seguir LGPD\n- Prescrição off-label = só com ECR robusta --- ### Slide 7 – Caso Clínico (resumo) - Mulher 54a, IMC 32, quer magro-peptídeos/”GH”. LLM recomenda guideline only com RAG = correto; sugere research peptide or GH = falta ética/CFM. --- ### Slide 8 – Fluxo Prático de Incorporação (Passo a passo: pergunta → IA sumariza guideline RAG → revisão médica → decisão jurídica e clínica → documentação) --- ### Slide 9 – O que NÃO Fazer - Não aceitar dose/conduta sem rastreabilidade\n- Nunca transferir dados de paciente para IA não institucional\n- Jamais delegar prescrição para IA --- ### Slide 10 – Regulatório BR - CFM 2.333/23 veda GH e peptídeos não aprovados; ANVISA limita manipulação estéril\n- LGPD: Consentimento explícito, sem dado sensível via IA pública --- ### Slide 11 – Quick_ref & Key_points - Usar LLM só como ferramenta de apoio\n- Sempre validar condutas com guideline rastreável\n- Responsabilidade final é do médico --- ### Slide 12 – Fim/Agradecimento - Dúvidas? Consulte sempre o editorial Doutiva\n- “A tecnologia é serva, não senhora da ética clínica.” --- ## 12. Referências (norma Vancouver, só reais e consultadas) 1. Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026. [S1]\n2. American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010. DOI 10.2337/dc10-s011 [S2]\n3. Vasey B, Nagendran M, Campbell B, et al. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med 2022. DOI 10.1038/s41591-022-01772-9 [S13]\n4. Wynants L, Van Calster B, Collins GS, et al. Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. BMJ 2020. DOI 10.1136/bmj.m1328 [S18] _Literatura adicional e estudos benchmarking de LLMs em saúde a serem incorporados conforme novos trials forem publicados. Para referências completas e normativas CFM/ANVISA/LGPD, consulte a biblioteca Doutiva._ --- ## 13. Conclusão LLMs representam uma virada tecnológica relevante para o médico premium, especialmente em tarefas de apoio administrativo e revisão de literatura. Seu uso ético e seguro é centrado em três pilares: limitação do escopo (apoio, não decisão), validação via RAG/guideline e respeito absoluto às normas regulatórias brasileiras. O discernimento crítico do prescritor é insubstituível — e deve ser aprimorado, nunca terceirizado, pela IA.",
+  "quick_ref": "# Quick Reference: IA Generativa e Modelos LLM para Médico Premium | Item | Detalhes Práticos |\n|-----------------------------|--------------------------------------------------|\n| Uso adequado dos LLM | Sumário de guidelines, geração de fluxo, revisão|\n| Uso não recomendado | Prescrição/dose sem validação, geração de referências sem checagem|\n| Segurança de dados | Não enviar dados do paciente a IA pública sem consentimento explícito (LGPD)|\n| Regulatório | Seguir CFM 2.333/2023, ANVISA para manipulação; responsabilidade médica |\n| Temperatura ideal | Usar baixa para respostas estáveis; alta só para brainstorm e revisão crítica|\n| RAG (Retrieval Augmented Generation) | Fundamental para garantir respostas ancoradas em evidências|\n| Checklist de validação | Confirmar fonte, verificar dose, manter papel ativo do médico | --- # Checklist Consulta IA Generativa - [ ] Pergunta para sumarização ou estruturação?\n- [ ] LLM está ancorado em bases confiáveis (RAG)?\n- [ ] Resposta revisada por médico antes de ação?\n- [ ] Nenhum dado pessoal passado para IA comercial?\n- [ ] Decisão clínica registrada com fundamento recorrente? --- # Red Flags para uso de IA na Saúde - Prescrição automática de terapias não registradas\n- Referências bibliográficas geradas automaticamente sem checar\n- Uso de peptídeos e hormônios não aprovados ou off-label não validados\n- Ausência de supervisão médica nas recomendações --- # Doses e Posologias (Exemplo: Tirzepatida) | Medicamento | Dose Inicial | Dose Manutenção | Via |\n|-------------|-----------------------|-----------------------------|-----------|\n| Tirzepatida | 2,5 mg SC semanalmente | Até 15 mg semanal, conforme tolerância| Subcutânea| *Nota: Sempre revisar orientações oficiais e ajustar conforme paciente e evidência clínica*",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "54 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "32"
+      },
+      {
+        "label": "Condição clínica",
+        "value": "Diabetes tipo 2, HAS controlada"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Busca de peptídeos para emagrecimento rápido"
+      },
+      {
+        "label": "Lab. recentes",
+        "value": "Função hepática e renal normais, HbA1c 7.6%"
+      },
+      {
+        "label": "Uso pretendido de IA",
+        "value": "Consulta a LLM para gerar parecer sobre peptídeos"
+      },
+      {
+        "label": "Circulo regulatório",
+        "value": "Prescrição e manipulação limitadas por CFM/ANVISA"
+      },
+      {
+        "label": "Marcos regulatórios",
+        "value": "LGPD protege dados do paciente"
+      }
+    ],
+    "title": "Uso ético e seguro de IA generativa no manejo de paciente buscando peptídeos para emagrecimento",
+    "reward": 1,
+    "options": [
+      {
+        "label": "Gerar parecer de tirzepatida baseado apenas na memória do LLM, sem validação externa.",
+        "correct": false,
+        "rationale": "Alto risco de alucinação e indicação incorreta sem respaldo clínico validado."
+      },
+      {
+        "label": "Gerar sumário crítico das guidelines para incretinas, citando apenas medicamentos aprovados e evidência sólida.",
+        "correct": true,
+        "rationale": "Uso ético e seguro do LLM, com restrição a evidências reconhecidas e registro, seguindo normas brasileiras."
+      },
+      {
+        "label": "Orientar manipulação off-label e uso de semaglutida oral 10 mg com base em pesquisa do LLM, sem ECR humanos.",
+        "correct": false,
+        "rationale": "Uso não aprovado, sem evidência robusta, pode violar normativas ANVISA e CFM."
+      },
+      {
+        "label": "Programar o LLM para oferecer dose e protocolo de GH para emagrecimento em adulto saudável sem deficiência.",
+        "correct": false,
+        "rationale": "Prática vedada pelo conselho de medicina e sem evidência sólida, risco ético e legal."
+      }
+    ],
+    "question": "Qual a conduta correta para utilização de um modelo generativo (LLM) pelo médico na consulta para esclarecer dúvidas sobre peptídeos e hormônios?",
+    "vignette": "Paciente feminina, 54 anos, IMC 32, diabetes tipo 2 com HbA1c 7.6%, hipertensão arterial controlada, sem alterações hepato-renais. Procurando alternativa para emagrecimento rápido, apresenta dúvidas oriundas de buscas na internet sobre peptídeos manipulados e GH anti-aging, relatando interesse em manipulação estéril devido à dificuldade de acesso a fármacos aprovados no SUS e convênios.",
+    "teaching": "Este caso ilustra a necessidade inequívoca do médico em atuar como filtro crítico e regulador no uso de ferramentas de inteligência artificial generativa. Embora o LLM possa sugerir terapias e doses, é obrigatório que o profissional restrinja o uso do modelo a sumários baseados em guidelines com evidência clínica robusta e aprovados regulatoriamente. Indicações de GH ou peptídeos ‘research only’ são vedadas pelo CFM e ANVISA, colocando em risco o paciente e violando o código ético. O uso do LLM deve ser acompanhado de revisão rigorosa, conexão a bases RAG para evitar alucinação e nunca substituir o julgamento clínico. A confidencialidade da informação pessoal do paciente deve ser garantida conforme LGPD."
+  },
+  "refs": [
+    {
+      "citation": "Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care 2010;33(Suppl 1):S11-S61. DOI 10.2337/dc10-s011"
+    },
+    {
+      "url": "https://doi.org/10.1038/s41591-022-01772-9",
+      "citation": "Vasey B, Nagendran M, Campbell B, et al. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med. 2022 Mar;28(3):456-466. DOI 10.1038/s41591-022-01772-9"
+    },
+    {
+      "url": "https://doi.org/10.1136/bmj.m1328",
+      "citation": "Wynants L, Van Calster B, Collins GS, et al. Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. BMJ. 2020 Apr 7;369:m1328. DOI 10.1136/bmj.m1328"
+    }
+  ],
+  "status": "published"
+}

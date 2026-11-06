@@ -1,0 +1,1 @@
+ALTER TABLE public.lessons ADD COLUMN IF NOT EXISTS slides jsonb, ADD COLUMN IF NOT EXISTS clinical_case jsonb, ADD COLUMN IF NOT EXISTS quick_ref text;

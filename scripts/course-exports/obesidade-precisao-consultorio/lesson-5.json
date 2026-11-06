@@ -1,0 +1,334 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Tratamento",
+  "module_position": 3,
+  "title": "Farmacoterapia anti-obesidade oral no Brasil: evidência, doses e combinação",
+  "description": "Esta aula aborda profundamente a farmacoterapia oral para obesidade disponível no Brasil, com foco em evidências clínicas robustas, doses recomendadas, critérios para seleção e combinação terapêutica, além dos aspectos regulatórios, éticos e de monitoramento no contexto nacional. São detalhados os fármacos registrados, off-label e a prática manipulada, com destaque para a prescrição ética e segura conforme normas da ANVISA e CFM.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Exclusão rigorosa de contraindicações cardiovasculares e psiquiátricas, especialmente para sibutramina.",
+    "As opções aprovadas oralmente (sibutramina, orlistate, naltrexona/bupropiona) têm eficácia moderada e perfil de segurança distinto; incretinas orais ainda não disponíveis.",
+    "Monitorar resposta terapêutica (≥5% de perda ponderal em 3-4 meses) e sintomas adversos com descontinuação em casos de falha.",
+    "Nunca combinar múltiplos anorexígenos ou usar substâncias não registradas, hormônios ou peptídeos em manipulação sem registro e comprovação.",
+    "Consentimento informado é obrigatório para uso off-label e manipulação, detalhando benefícios e riscos.",
+    "Manipulação deve ser feita somente por farmácias com controle e rastreabilidade, evitando fórmulas mágicas proibidas.",
+    "Tratamento oral deve estar inserido em abordagem multidisciplinar e integração com mudanças comportamentais."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Farmacoterapia Anti-obesidade Oral no Brasil",
+      "subtitle": "Evidência, Doses e Combinação - Visão Geral Nacional"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Classe",
+        "Indicação",
+        "Contraindicações Essenciais",
+        "Eventos Adversos Principais"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sibutramina",
+          "Inibidor recaptador de monoaminas",
+          "IMC ≥30 ou ≥27 c/ comorbidades",
+          "Doença cardiovascular ativa, AVC recente, arritmia",
+          "↑ Pressão arterial, aumento frequência cardíaca"
+        ],
+        [
+          "Orlistate",
+          "Inibidor de lipase gastrointestinal",
+          "IMC ≥30 ou ≥27 c/ comorbidades",
+          "Síndrome de má-absorção, colestase, gravidez",
+          "Diarreia, esteatorreia, déficit vitaminas lipossolúveis"
+        ],
+        [
+          "Naltrexona/bupropiona (associação)",
+          "Modulação opioide-dopaminérgica",
+          "IMC ≥30 ou ≥27 c/ comorbidades",
+          "Epilepsia, uso opioides, PA não controlada",
+          "Náusea, cefaleia, ansiedade, aumento PA"
+        ]
+      ],
+      "title": "Resumo dos Medicamentos Registrados pela ANVISA para Obesidade",
+      "source": "Resolução ANVISA e Resolução CFM 2.333/2023"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Confirmar indicação: IMC ≥30 ou ≥27 com comorbidades"
+        },
+        {
+          "label": "2. Avaliar contraindicações específicas (CV, psiquiátrica, hepat/renal)"
+        },
+        {
+          "label": "3. Selecionar fármaco adequado: Orlistate (segurança), Sibutramina (risco CV), Naltrexona-bupropiona (compulsão alimentar)"
+        },
+        {
+          "label": "4. Iniciar tratamento com dose inicial e titulação conforme tolerância"
+        },
+        {
+          "label": "5. Monitorar PA, FC, sintomas neuropsiquiátricos e laboratoriais"
+        },
+        {
+          "label": "6. Avaliar resposta em 3–4 meses; se perda de peso <5%, descontinuar"
+        }
+      ],
+      "title": "Algoritmo de Escolha e Conduta na Farmacoterapia Oral Anti-obesidade"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "N em ECRs",
+        "Redução de peso média (kg)",
+        "% com perda ≥5%",
+        "Eventos adversos principais",
+        "Contraindicações absolutas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sibutramina",
+          ">12.000",
+          "4-5",
+          "~41%",
+          "↑ PA, FC, risco CV em alto risco",
+          "Doença CV ativa, AVC, arritmia"
+        ],
+        [
+          "Orlistate",
+          ">5.000",
+          "2,9-4,2",
+          "~39%",
+          "GI: diarreia, esteatorreia, déficit vitamínicos",
+          "Má-absorção, colestase, gravidez"
+        ],
+        [
+          "Naltrexona/Bupropiona",
+          ">4.000",
+          "4-5,5",
+          "~48%",
+          "Náusea, cefaleia, ansiedade, ↑ PA",
+          "Epilepsia, uso opioides, PA não controlada"
+        ],
+        [
+          "Metformina (off-label)",
+          "<2.000",
+          "2-3",
+          "ND",
+          "GI, déficit B12",
+          "IRC avançada, acidose"
+        ],
+        [
+          "Topiramato (off-label)",
+          "500-800",
+          "5-8",
+          "Variável",
+          "Efeitos SNC, nefrolitíase",
+          "Gravidez, glaucoma, psicose"
+        ]
+      ],
+      "title": "Eficácia e Segurança dos Principais Fármacos Orais para Obesidade",
+      "source": "Ensaios clínicos múltiplos e guidelines brasileiros"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Sibutramina: 10 mg/dia, aumentar até 15 mg se tolerado após 4 semanas. Monitorar PA e FC a cada 2–4 semanas.",
+          "Orlistate: 120 mg três vezes ao dia com as refeições. Sem titulação. Educação dietética para reduzir gordura.",
+          "Naltrexona/bupropiona: iniciar com 8/90 mg 1 comprimido ao dia, aumentar progressivamente até 32/360 mg após 4 semanas. Monitorar PA, sintomas neuropsiquiátricos.",
+          "Metformina (off-label): começar com 500 mg/dia, aumentar 500 mg a cada semana até dose alvo, monitorar função renal e efeitos GI.",
+          "Topiramato (off-label): iniciar 25 mg/dia, aumentar 25–50 mg semanalmente, monitorar efeitos SNC e função renal."
+        ],
+        "label": "Farmacoterapia Oral"
+      },
+      "right": {
+        "items": [],
+        "label": "Doses e Cuidados"
+      },
+      "title": "Doses Iniciais, Titulação e Monitoramento"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Pérolas Clínicas e Erros Graves a Evitar"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Contraindicações Absolutas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Sibutramina",
+          "Doença cardiovascular ativa ou recente, AVC, arritmia, insuficiência cardíaca, hipertensão descontrolada, uso concomitante de IMAO"
+        ],
+        [
+          "Naltrexona/Bupropiona",
+          "Epilepsia, uso corrente ou abstinência de opioides, hipertensão não controlada, história de convulsões"
+        ],
+        [
+          "Orlistate",
+          "Síndrome de má-absorção crônica, colestase, gravidez, crianças <12 anos"
+        ],
+        [
+          "Metformina",
+          "Insuficiência renal grave (TFG<30), acidose metabólica, doença renal crônica avançada"
+        ],
+        [
+          "Topiramato",
+          "Gravidez, glaucoma, litíase renal ativa, psicose não controlada"
+        ]
+      ],
+      "title": "Critérios de Exclusão Absoluta para Uso dos Principais Fármacos",
+      "source": "FDA, ANVISA, Resolução CFM 2.333/2023"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrever somente fármacos registrados pela ANVISA para obesidade ou com justificativa científica e termo de consentimento (off-label).",
+          "Evitar manipulação de fórmulas combinadas com substâncias proibidas ou sem registro específico para obesidade.",
+          "Seguir Resolução CFM 2.333/2023 quanto ao uso ético de medicamentos e restrição a hormônios para emagrecimento estético.",
+          "Utilizar farmácias com rastreabilidade e controle de qualidade para manipulação, preferindo monocomponentes.",
+          "Informar ao paciente os benefícios reais, riscos e necessidade de associação a mudanças de estilo de vida.",
+          "Monitorar continuamente efeitos adversos e manter registro completo do tratamento e consentimentos."
+        ],
+        "label": "Aspectos Éticos e Regulatório"
+      },
+      "right": {
+        "items": [],
+        "label": "B"
+      },
+      "title": "Regulatório, Ética e Boas Práticas na Prescrição"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Checklist Prático para Prescrição em Obesidade"
+    },
+    {
+      "head": [
+        "Opção de Tratamento",
+        "Análise",
+        "Comentário"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A) Sibutramina 10 mg/dia",
+          "Prescrição possível, porém risco cardiovascular e sintomas compensação alimentar presentes",
+          "Desaconselhada pela história e perfil do paciente"
+        ],
+        [
+          "B) Metformina 1700 mg/dia",
+          "Uso off-label sem forte indicação para peso isolado",
+          "Não recomendada neste caso sem resistência à insulina"
+        ],
+        [
+          "C) Naltrexona/bupropiona, titulação progressiva",
+          "Associação registrada, eficaz para compulsão alimentar",
+          "Opção mais adequada, monitorar PA e sintomas SNC"
+        ],
+        [
+          "D) Manipular sibutramina + cafeína + orlistate",
+          "Associação proibida, risco legal e clínico",
+          "Contraindicado por normas ANVISA e CFM"
+        ]
+      ],
+      "title": "Estudo de Caso Clínico – Decisão de Tratamento",
+      "source": "Discussão baseada na monografia e legislações vigentes"
+    }
+  ],
+  "monograph": "# Farmacoterapia Anti-obesidade Oral no Brasil: Evidência, Doses e Combinação --- ## 1. Contexto e Relevância A obesidade é doença crônica, multifatorial, de impacto epidemiológico, clínico e social relevante, sendo imprescindível manejo eficiente para redução da morbimortalidade e melhora de qualidade de vida. No Brasil, prevalências de excesso de peso e obesidade crescem, atingindo mais da metade da população adulta [S1]. A farmacoterapia anti-obesidade é componente validado de intervenções multimodais, com indicações precisas e limitações regulatórias e clínicas, especialmente para profissionais que atendem públicos exigentes, como endocrinologistas, nutrólogos e clínicos focados em medicina de precisão. No contexto nacional, há especificidades: poucos medicamentos aprovados pela ANVISA para obesidade, uso frequente de off-label e de compostos manipulados (com zoneamento claro entre excelência técnica e práticas vedadas por órgãos como CFM), ambiente de inspeção e risco regulatório acentuado, e a necessidade de atualização diante do advento de incretinas injetáveis (p. ex., tirzepatida, GLP-1-RA) – que, embora não foco deste capítulo, balizam a racionalidade na escolha dos orais. Este tratado detalha, com rigor e aplicabilidade, o estado da arte para farmacoterapia oral anti-obesidade no Brasil, doses, seleção de pacientes, combinações e fluxos de conduta, sempre ancorado em evidência e vigilância ética. --- ## 2. Fisiopatologia resumida e bases farmacológicas A obesidade envolve circuitos centrais (sistema hipotalâmico, recompensa dopaminérgica), adaptações metabólicas (termogênese, resistência à insulina), fatores genéticos, inflamatórios e ambientais [S1]. A resposta terapêutica sustentada exige, além do pilar comportamental, medicação que atue sobre o apetite, a saciedade e/ou absorção/excreção de nutrientes. **Mecanismos alvos dos agentes orais:** - **Inibição da recaptação de noradrenalina/serotonina/dopamina (e.g., sibutramina)** - Aumento de saciedade, leve elevação termogênese, potencial risco cardiovascular.\n- **Modulação opioide/dopamina (naltrexona/bupropiona)** - Atuação central na via de recompensa, reduzindo compulsão alimentar.\n- **Inibição de lipases gastrointestinais (orlistate)** - Redução da absorção de gorduras dietéticas.\n- **Outros mecanismos investigados** (não registrados para obesidade: metformina, topiramato, zonisamida, cetilistate, etc) verificados apenas off-label, devendo ser usados com extrema cautela. **ENFOQUE:** O tratamento oral visa redução ponderal ≥5–10% em 6–12 meses com manutenção a médio prazo e perfil risco/benefício favorável (Evidence A para uso em associação a mudanças de estilo de vida em pacientes com IMC ≥30 kg/m² ou ≥27 kg/m² com comorbidades [S1]). --- ## 3. Panorama regulatório e status dos medicamentos no Brasil ### 3.1 Medicamentos Registrados pela ANVISA para Obesidade | Fármaco | Status ANVISA | Classe | CFM/Res. 2.333/2023 | WADA* | Manipulável | Indicação oficial |\n|--------------------------------------------|-------------------|----------------------------------|---------------------|-------|-------------|------------------------------------------|\n| Sibutramina | Registrado | Inibidor recapt. monoaminérgicos | Restrições severas | SIM | NÃO | IMC ≥30 ou ≥27 com comorb. |\n| Orlistate | Registrado | Inib. lipase gastrointestinal | Permitido | NÃO | NÃO | Idem acima |\n| Naltrexona/bupropiona (associação fixa) | Registrado | Modulación opioid/dopaminérgic | Permitido (uso médico)| NÃO| NÃO | Idem acima | \\*WADA: Sibutramina consta como substância sob vigilância. ### 3.2 Principais “off-label” e manipulados (sem registro para obesidade) | Fármaco | Status ANVISA | Motivo | CFM/Res. 2.333/2023 | Manipulável | Risco ético |\n|---------------------------|--------------------|--------------------|---------------------|-------------|------------------------------|\n| Metformina | Registrado, off-label p/ obesidade | Antidiabético | Permitido c/ justificativa | SIM | Baixo (diabetes/RI), restrito |\n| Topiramato | Registrado, off-label | Antiepiléptico | Restrito | SIM | Restrito ao especialista |\n| Zonisamida | Não registrado p/ obesidade | Antiepiléptico | Restrito | SIM | Restrito, monitorização |\n| Cetilistate | Não registrado | Similar ao orlistate| Vedado p/ manipulação | NÃO | Não recomendado (irregular) | **Proibições expressas:** Anfepramona, femproporex e mazindol estão SUMARIAMENTE PROIBIDOS (ANVISA RDC 50/2014; vedação nacional). **Nota:** Não abordaremos norpseudoefedrina, fentermina, niquitina, GH, research peptides, SARMs ou qualquer substância não-oficializada para o tratamento da obesidade. --- ## 4. Evidência clínica crítica dos principais agentes orais ### 4.1 Eficácia e segurança: síntese de ensaios e guidelines #### Tabela 1 – Eficácia, Segurança e Classificação da Evidência (estudos pivotais multibras, N e magnitude de efeito) | Fármaco | n em ECRs | Redução de peso (média, 1 ano) | % atinge ≥5% | % atinge ≥10% | Retenção | Eventos adversos relevantes | HR/OR RR* | NNH** | Evidência |\n|---------------------------------|---------------|-------------------------------|--------------|---------------|----------|-----------------------------------------|----------------|-------|-----------|\n| Sibutramina 10–15 mg/d | >12.000 (SCOUT, outros) | 4–5 kg vs placebo [IC95% 3–6] | ~41% vs 27% | ~16% vs 8% | Média (até 1/3 descontinua) | ↑PA/FC, ↑Risco CV (em alto risco: HR 1,16 p/ MACE) | HR 1,16 (MACE alto risco) | ~18*** | A |\n| Orlistate 120 mg 3x/d | >5000 | 2,9–4,2 kg vs placebo | ~39% vs 21% | ~10% vs 4% | Alta | GI: diarreia, esteatorreia, déficit vitaminas lipossol.| NS | 40–70 | A |\n| Naltrexona 32 mg/bupropiona 360 mg (ass.)| >4.000 | 4–5,5 kg vs placebo | ~48% vs 19% | ~25% vs 7% | Moderada | Náusea, cefaleia, ansiedade, aumento PA | OR 2,1 (≥5%)| 13–20 | A |\n| Metformina | <2.000*** | 2–3 kg (paciente RI/DM) | -- | -- | Alta | GI, risco B12 | — | — | B |\n| Topiramato (off-label) | 500–800**** | 5–8 kg (monoterapia ou comb.) | Variável | Variável | Baixa | SNC, psic., parestesia, nefrolitíase | — | — | B | *\\* HR/OR de evento cardiovascular majorado no SCOUT (alto risco cardiovascular), sem aumento significativo em população geral de baixo risco. ** NNH: “number needed to harm” (NNH baseado em eventos adversos severos; exemplo: eventos CV em paciente de alto risco). *** Amostra total referencial; estudos com metformina em obesidade não-diabética são pequenos. **** Doses variam (25–100 mg/d).* #### Resumo Magnitude do Benefício - **Redução média ponderal:** Sibutramina/Naltrexona-bupropiona ≈4–6 kg/ano; Orlistate ≈3–4 kg; Topiramato pode atingir 8–10 kg (menos dados, mais eventos adversos), metformina útil apenas em insulino-resistência.\n- **Sustentabilidade:** Só persiste se associado à mudança de estilo de vida.\n- **Risco CV:** Sibutramina aumenta eventos em indivíduos com doença cardiovascular estabelecida (SCOUT: HR 1,16 para MACE), contraindicado nesse grupo, reforçado em bula e normativas CFM. --- ### 4.2 Meta-análises e Diretrizes: Síntese Crítica - **ADA, FDA, Diretrizes Brasileiras de Obesidade e SBD:** Indicam orais em segunda linha pós-falha de mudança comportamental, e reforçam contraindicação de sibutramina/cautela com antecedentes CV [S1, Diretrizes ABESO, SBD].\n- **Metanálises Cochrane/NEJM (verificar):** Magnitude do efeito dos principais fármacos é semelhante (diferença <2 kg em média entre eles), exceto incretinas que têm efeito superior.\n- **NNT para ≥5% de perda:** Orlistate ≈5, Sibutramina ≈5, Naltrexona-bupropiona ≈4. --- ## 5. Seleção de Pacientes e Indicações (Perspectiva Clínica Nacional) ### 5.1 Indicações formais - **IMC ≥30 kg/m²** OU\n- **IMC ≥27 kg/m² com ≥1 comorbidade (DM2, HAS, dislipidemia, apneia, doença articular, entre outras)** ### 5.2 Critérios de exclusão e riscos essenciais | Fármaco | Contrindicações absolutas |\n|----------------------|-----------------------------------------------------------------------------|\n| Sibutramina | Doença CV atual/recente, AVC, arritmia, IC, PA descontrolada, DM2 com complicação macrovascular, uso de IMAO | | Naltrexona/bupropiona| Epilepsia, uso de opioides crônicos/abstinência álcool, PA não controlada, histórico convulsivo | | Orlistate | Síndrome má-absorção crônica, colestase, gravidez, <12 anos |\n| Metformina | IRC (TFG<30), acidose, DRC avançada |\n| Topiramato | Gravidez, glaucoma, litíase ativa, psicose não controlada | ### 5.3 Casos clínicos ideais - Jovens adultos sem doença cardiovascular ou DM macrovascular, com desejo de intervenção oral, baixo risco psiquiátrico/neurocognitivo, boa adesão e sem contraindicações formais.\n- Pacientes com resistência à insulina ou pré-diabetes: considerar metformina off-label, sobretudo com esteatose. --- ## 6. Conduta Prática Detalhada: Fluxo de Prescrição e Manuseio ### 6.1 Passo a passo para o consultório brasileiro #### Tabela 2 – Fluxo racional de conduta: escolha e monitoramento | Passo | Detalhe prático |\n|-----------------------------------------------------|---------------------------------------------------------------------------------------------------------|\n| 1. Confirmar indicação e exclusão | IMC e perfil de comorbidade, triagem rigorosa de contraindicações do fármaco escolhido |\n| 2. Escolha do fármaco | Preferir orlistate/sibutramina/associação naltrexona-bupropiona conforme perfil do paciente |\n| 3. Orientação clara do início | Duração inicial: 4 semanas (até máxima de 12–16 sem. para avaliação resposta), com reorientação contínua|\n| 4. Dose e titulação | Ajustar conforme resposta e tolerância, ver abaixo |\n| 5. Monitoramento | PA, FC, escore psiquiátrico, perfil metabólico, EAMs adversos GI/SNC/reais, QTc, exames laboratoriais |\n| 6. Descontinuação se resposta <5% em 90–120 dias | “Não resposta” definida como <5% de perda do peso inicial em 3–4 meses, descontinue | #### Algoritmo visual (texto): 1. **IMC ≥30 (ou ≥27+comorb.)** ⟶ 2. **Exclusões** (CV, psiquiátrica, GI) ⟶\n3. **Opção oral?** —> - **CV estável, preferir orlistate / naltrexona-bupropiona** - **Sem CV, avaliar sibutramina** - **RI/prediabetes, considerar metformina** - **Foco em compulsão, considerar naltrexona-bupropiona**\n4. **Ajuste de dose, monitoramento trimestral, suspender se ausência de resposta** #### 6.2 Doses, esquemas e cuidados de cada droga (oral) | Fármaco | Dose inicial | Teto usual | Esquema de titulação | Observações práticas |\n|------------------------------|-----------------------------|------------------------|------------------------------|------------------------------------|\n| Sibutramina | 10 mg/dia | 15 mg/dia | Aumentar após 4 semanas se resposta insuficiente e tolerado | Monitorar PA e FC cada 2–4 sem., não prolongar uso em ausência de resposta. |\n| Orlistate | 120 mg TID c/ refeições | 120 mg TID | Não há titulação | Educar para dieta pobre em gordura, risco de déficit vit. lipossolúveis, associar polivitamínico se uso prolongado. |\n| Naltrexona/bupropiona | 8/90 mg 1 comp. QD, ↑ progressivamente 1 comp. 2x/d (semana 2), até 2 comp. 2x/d (32/360 mg – semana 4 )| 32/360 mg/d| Titulação obrigatória, iniciar 1 comp/d e escalar gradualmente |Monitorar PA e sintomas neuropsiquiátricos; descontinuar se sintomas severos. |\n| Metformina (off-label) | 500 mg/d | 2000–2550 mg/d | ↑ 500 mg a cada 7 dias | Iniciar com refeições p/ minimizar sintomas GI, monitore função renal. |\n| Topiramato (off-label) | 25 mg/d | 100 mg/d | ↑ 25–50 mg por semana | Monitorizar efeitos neuropsiquiátricos e função renal; não recomendado para uso populacional. | --- ## 7. Combinação farmacológica: racional, evidência e limites ### 7.1 Combinações válidas e “off-label” aceitas - **ÚNICA combinação registrada e recomendada (Evidência A):** Naltrexona/bupropiona, em associação fixa oral.\n- **Demais combinações:** Não recomendadas sistemicamente (ausência de ECRs robustos, sinergia limitada, risco ampliado de eventos adversos; recomendação restrita a protocolos de exceção e sempre sob termo esclarecido). ### 7.2 O que NÃO prescrever: proibições, riscos éticos e jurídicos - **Jamais associar sibutramina + outros anorexígenos** (anfepramona, fenproporex, mazindol — proibidos).\n- **Vedar polifarmácia anecdótica/experimental** (compostos “manipulados” com soma de estimulantes, diuréticos, laxantes, sachês injetáveis não regulados, research peptides, SARMs, GH anti-aging).\n- **Jamais recomendar ou defender uso promovido de substâncias non-ANVISA para obesidade**, nem drip de componentes injetáveis para fins estéticos ou de emagrecimento sem sólida indicação clínica. --- ## 8. Monitoramento e Segurança ### 8.1 Fluxo de acompanhamento | Intervalo | Medidas recomendadas | Laboratoriais indicados |\n|----------------------|------------------------------------------------------------------|----------------------------------|\n| Basal (pré-início) | PA, FC, ECG (risco CV), glicemia, HbA1c, lipidograma, função renal/hepática, TSH, escore psiquiátrico | Exames acima, além de urina tipo I se topiramato/metf. |\n| 4 semanas | PA, FC, sintomas adversos, avaliação de adesão/resposta | Repetir selectivamente conforme sintomas |\n| Cada 3 meses | Repetir monitoramento, avaliar necessidade de continuidade/descontinuação | Idem acima |\n| Anualmente | Checar perfil metabólico/laboratorial global | Vitamina B12 (se metformina) | ### 8.2 Critérios de descontinuação - Ausência de perda de ≥5% do peso em 3–4 meses.\n- Efeitos adversos intoleráveis ou risco cardiovascular emergente.\n- Sintomas neuropsiquiátricos graves. --- ## 9. Regulatório, boas práticas e ética: Brasil 2024 - **Prescrever apenas fármacos aprovados pela ANVISA (ou off-label com justificativa robusta) usando via regular**, nunca “importação pessoal de substâncias não registradas”, SARMs, peptídeos research, etc.\n- **Manipulação oral**: Preferir formulas monocomponente, explicitamente justificadas, em farmácias com rastreabilidade, controle de contaminação cruzada/qualidade plena. Evitar “fórmulas mágicas” multi-infratoras (risco legal/profissional máximo).\n- **CFM Res 2.333/2023**: Não implantar hormônio, substância anabolizante, GH ou derivados apenas para “melhora estética” em obesidade.\n- **Consentimento esclarecido**: Obrigatório para qualquer off-label, detalhando magnitude do benefício, riscos, e embasamento científico.\n- **WADA**: Sibutramina é substância monitorada para atletas (declarar uso em relatórios obrigatoriamente). --- ## 10. Checklists, Pérolas e Erros Graves ### Checklist prático de bolso (QuickRef) - [ ] Confirmar IMC e exclusão de CV/psiquiátrico\n- [ ] Validar indicação formal e vetar contraindicação\n- [ ] Escolher fármaco registrado (exceto exceções científicas, nunca sem termo de consentimento)\n- [ ] Explicar expectativa realista de resposta\n- [ ] Iniciar dose mínima, titular conforme tolerância\n- [ ] Monitorar PA, FC, perfil metabólico, sintomas neuro/SNC\n- [ ] Descontinuar farmacoterapia após 3–4 meses se resposta <5%\n- [ ] Proibir qualquer associação clandestina/composta proibida\n- [ ] Manter termo de consentimento assinado s/ off-label\n- [ ] Integrar tratamento a abordagem multidisciplinar ### Pérolas - **Nunca usar sibutramina em paciente com histórico de evento cardiovascular clínico ou subclínico** (SCOUT: aumento consistente do risco).\n- **Orlistate é opção mais segura, ideal para idoso/paciente com maior risco de evento, embora pouco potente.**\n- **Naltrexona/bupropiona é competição de primeira linha para compulsão alimentar, com título obrigatório e cautela em HAS borderline.**\n- **O ganho de peso de volta (“reganho”) é comum após suspensão, reforçando pilar comportamental e abordagem crônica.**\n- **Jamais incentive uso de “fórmulas de emagrecimento” não autorizadas, mesmo sob pressão de paciente. O risco legal é do prescritor.**\n- **Metformina só para obesidade com resistência à insulina/esteatose ou DM2**, nunca para “apenas emagrecimento”. --- ## 11. Estudo de Caso Clínico: Aplicação e Discussão **Caso:** Mulher, 39 anos, IMC 34 kg/m², PA 128/84 mmHg, sem DM2, antecedente familiar de HAS, sedentarismo, queixa de compulsão noturna ocasional. A avaliação cardiovascular é negativa. ECG sem alterações. TSH, função renal e hepática normais. Deseja tratamento farmacológico oral e mostra resistência a uso de injetáveis. Não usa medicamentos contínuos, sem história psiquiátrica. **Qual das seguintes condutas é a mais adequada e baseada em evidência de excelência, considerando o cenário BR e limitações da Resolução CFM 2.333/2023?** A) Iniciar sibutramina 10 mg/dia, com controle trimestral, sem restrição adicional. B) Prescrever metformina 1700 mg/dia, pela facilidade e segurança, como monoterapia. C) Iniciar associação oral naltrexona/bupropiona, com titulação gradual e monitoramento de PA e sintomas SNC. D) Manipular formula com sibutramina, cafeína e orlistate, para sinergismo de ação, com termo de consentimento. **Discussão:** - **A** está errada: paciente sem contraindicação maior, mas compulsão alimentar ocasional e desejo de evitar risco cardiovascular sugere cautela com sibutramina (associada a efeitos colaterais em cardiovasculares, além de não ser primeira escolha em compulsão).\n- **B** inadequada: metformina não é indicada em monoterapia para obesidade isolada, sobretudo sem resistência à insulina ou DM; efeito moderado e off-label sem racional patofisiológico forte aqui.\n- **C** correta: associação naltrexona-bupropiona é opão moderna, registrada, eficaz para compulsão leve/moderada, baixa incidência de eventos CV, com titulação obrigatória e monitoramento dos principais riscos.\n- **D** contraindicação absoluta: manipulação de compostos com múltiplos ingredientes, ainda mais contendo sibutramina (não permite manipulação REGULAR), cafeína (sem registro), orlistate (proibido manipular), viola explicitamente normas ANVISA, CFM e segurança do paciente. **Resposta correta:** **C** --- ## 12. Slides para Discussão Didática ### Slide 1: Farmacoterapia Oral Anti-obesidade no Brasil – Estado da Arte - Acesso restrito: 3 fármacos principais aprovados (sibutramina, orlistate, naltrexona/bupropiona)\n- Registro, eficácia e limites legais: impacto direto no consultório --- ### Slide 2: Tabela Comparativa de Eficácia e Segurança | Fármaco | Redução de peso* | Principais EA | Contraindicações |\n|----------------|------------------|-------------------|---------------------------------|\n| Sibutramina | 4–5 kg | ↑PA/FC, SNC | CV, HAS grave, DM macrovasc. |\n| Orlistate | 3–4 kg | GI, vitamínicos | Sínd. má-absorção, colestase |\n| Naltrexona/Bup | 4–5.5 kg | SNC, PA | Opióides, convulsão, PA grave | --- ### Slide 3: Algoritmo de Seleção Racional - IMC ≥30 (ou 27+comorb.)\n- Avaliar risco CV\n- Contraindicações específicas\n- Opção oral preferida e monitoramento --- ### Slide 4: Doses, Titulação e Monitoramento - Sibutramina: 10–15 mg/d, PA/FC\n- Orlistate: 120 mg TID, dieta baixo teor lipídeos\n- Naltrexona/bupropiona: titulação obrigatória 4 sem, monitor PA/SNC --- ### Slide 5: Fluxo de Acompanhamento e Critério de Sucesso - Reavaliação aos 3-4 meses: <5% de perda = descontinuar\n- Manutenção: exames periódicos, ajuste de dose, reforçar mudança de estilo de vida --- ### Slide 6: Complicações e O que Não Fazer - Sibutramina em CV = proibição\n- Polifarmácia, fórmulas mágicas e manipulação irregular = erro grave\n- Termo de consentimento é obrigatório em off-label --- ### Slide 7: Checkpoints Ético-Regulatórios - Registro ANVISA, nunca research peptide/SARM/GH\n- Consentimento esclarecido e rastreabilidade\n- Não manipular compostos que incluem drogas controladas ou sem registro --- ### Slide 8: Pérolas e Armadilhas na Prática Clínica - Orlistate ideal em idosos/risco CV\n- Naltrexona/bupropiona para compulsão/baixa tolerância a estímulo adrenérgico\n- Nunca inovar “fora da curva” sem evidência de N de fase 3 --- ### Slide 9: Estudo de Caso – Decisão Ética e Técnica - 39 anos, IMC 34, compulsão noturna, PA normal, sem DM, sem CV\n- Melhor escolha: naltrexona/bupropiona, titulação progressiva\n- Nunca manipular associações “custom” ou usar polifármacos --- ### Slide 10: Resumo – Farmacoterapia Oral Anti-obesidade no Brasil - Escolha racional, limitações regulatórias, monitoramento estruturado\n- Primeira linha: orlistate, naltrexona/bupropiona, sibutramina (restrições)\n- Ênfase na segurança, ética e sustentabilidade --- ### Slide 11: Impacto – Números e Evidências - Média redução 3–6 kg/ano (NNT ≈4-5, NNH >13)\n- 1/3 dos pacientes desiste por EA ou ineficácia\n- Mudança sustentável exige acompanhamento multidisciplinar --- ### Slide 12: Checklist de Excelência no Consultório - [ ] Avaliação clínica e exclusões rígidas\n- [ ] Prescrição ética, rastreável, com termo consentido\n- [ ] Monitoramento e ajuste contínuo\n- [ ] Não ceder à pressão por “fórmulas” ou modismos --- ## 13. Key Points 1. **Exclusão rigorosa de contraindicações (CV, psiquiátrico, abuso), especialmente com sibutramina.**\n2. **As opções aprovadas (orlistate, sibutramina, naltrexona/bupropiona) têm magnitude de efeito semelhante à exceção das incretinas, mas perfil de segurança divergente.**\n3. **Monitoramento frequente de sintomas, exames laboratoriais, efeito terapêutico (>5% em 3–4 meses), com descontinuação em não respondedores.**\n4. **Jamais prescrever/defender associação de múltiplos anorexígenos, research peptides, compostos injetáveis ou hormônios/derivados para emagrecimento.**\n5. **Consentimento esclarecido e documentação são obrigatórios em qualquer prescrição fora de bula.**\n6. **A realidade nacional exige alerta máximo sobre manipulação: proibido compor “fórmulas mágicas” ou associar substâncias não registradas.**\n7. **A escolha só é sustentada em abordagem multimodal com acompanhamento multiprofissional.** --- ## 14. Referências 1. American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care. 2010;33 Suppl 1:S11-61. [S1]\n2. Diretrizes Brasileiras de Obesidade 2022. Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica (ABESO). 3. Bray GA, et al. Effect of Sibutramine and Lifestyle Modification on Cardiovascular Outcomes in Overweight and Obese Subjects (SCOUT). NEJM 2010;363:905-917.\n4. Wadden TA, et al. Naltrexone–Bupropion Combination and Weight Loss in Obesity: COR-I trial. Lancet 2011;377:1341-1352.\n5. Li Z, et al. Efficacy and safety of orlistat for weight loss: a systematic review and meta-analysis. Obes Rev. 2005;6:17-30.\n6. Aronne LJ, et al. Efficacy and tolerability of topiramate in obese subjects: a randomized, placebo-controlled trial. Obes Res. 2003;11:722-728.\n7. Ministério da Saúde. Consenso sobre o tratamento farmacológico da obesidade no Brasil. Available at: [http://bvsms.saude.gov.br/bvs/publicacoes/consenso_tratamento_obesidade.pdf](http://bvsms.saude.gov.br/bvs/publicacoes/consenso_tratamento_obesidade.pdf)\n8. RDC ANVISA nº 50/2014 – Proibição de anorexígenos “clássicos”. *Para referências adicionais, consultar registro ANVISA de cada produto, diretrizes internacionais de obesidade, SBD.* --- # FIM",
+  "quick_ref": "Confirmar IMC e exclusão de contraindicações; optar por fármaco aprovado para perfil do paciente; iniciar com dose mínima e titular lentamente; monitorar PA, FC, efeitos adversos e exames laboratoriais; reavaliar resposta em 3–4 meses (descontinuar se perda <5%); proibir associações não reguladas e manipulações irregulares; manter termo de consentimento para off-label; integrar sempre tratamento farmacológico com abordagem multidisciplinar.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "39 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m²"
+      },
+      {
+        "label": "PA",
+        "value": "128/84 mmHg"
+      },
+      {
+        "label": "Compulsão alimentar",
+        "value": "Ocasional, noturna"
+      },
+      {
+        "label": "ECG",
+        "value": "Normal"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "TSH, função renal e hepática normais"
+      },
+      {
+        "label": "Histórico psiquiátrico",
+        "value": "Ausente"
+      }
+    ],
+    "title": "Caso Clínico: Mulher com Obesidade Grau I e Compulsão Alimentar Ocasional",
+    "reward": 30,
+    "options": [
+      {
+        "label": "A) Iniciar sibutramina 10 mg/dia, sem restrições adicionais",
+        "correct": false,
+        "rationale": "Sibutramina aumenta risco cardiovascular e não é primeira escolha para compulsão alimentar; exige cautela."
+      },
+      {
+        "label": "B) Prescrever metformina 1700 mg/dia monoterapia",
+        "correct": false,
+        "rationale": "Metformina não tem indicação formal para obesidade sem resistência insulínica e apresenta efeito modesto."
+      },
+      {
+        "label": "C) Iniciar naltrexona/bupropiona oral, titulação gradual e monitoramento",
+        "correct": true,
+        "rationale": "É a combinação fixa aprovada, eficaz para compulsão alimentar, com perfil de segurança favorável e titulação obrigatória."
+      },
+      {
+        "label": "D) Manipular fórmula com sibutramina, cafeína e orlistate",
+        "correct": false,
+        "rationale": "Associar múltiplos fármacos proibidos e manipular orlistate é ilegal e inseguro, contra normas regulatórias e éticas."
+      }
+    ],
+    "question": "Qual a conduta farmacoterápica oral mais indicada e segura para esta paciente, considerando a evidência clínica e o contexto regulatório brasileiro atual?",
+    "vignette": "Mulher, 39 anos, IMC 34 kg/m², PA 128/84 mmHg, sem diabetes, história familiar de HAS, apresenta queixa de compulsão alimentar noturna ocasional. ECG normal, TSH, função renal e hepática normais. Deseja tratamento farmacológico oral para obesidade, rejeitando injetáveis. Sem comorbidades relevantes ou histórico psiquiátrico.",
+    "teaching": "Nesta paciente sem contraindicações cardiovasculares ou psiquiátricas, a associação comprovada e registrada pela ANVISA de naltrexona/bupropiona é a opção ideal, dada sua eficácia na redução de compulsão alimentar e segurança cardiovascular relativa, com titulação rigorosa para minimizar efeitos adversos. A sibutramina, apesar do registro, apresenta risco cardiovascular aumentado, especialmente em pacientes com fatores de risco; não é a primeira escolha para compulsão alimentar. Metformina tem uso off-label limitado a pacientes com resistência insulínica e seu efeito para perda ponderal em pacientes normoglicêmicos é modesto. A manipulação de fórmulas combinadas é ilegal, insegura, e desaconselhada, ferindo resoluções ANVISA e CFM. O manejo deve estar inserido em um contexto multidisciplinar com acompanhamento próximo e avaliação contínua da eficácia e segurança."
+  },
+  "refs": [
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010."
+    },
+    {
+      "citation": "Bray GA, et al. Effect of Sibutramine and Lifestyle Modification on Cardiovascular Outcomes (SCOUT). NEJM. 2010;363:905-17."
+    },
+    {
+      "citation": "Wadden TA, et al. Naltrexone–Bupropion Combination and Weight Loss in Obesity. Lancet. 2011;377:1341-52."
+    },
+    {
+      "citation": "Li Z, et al. Efficacy and safety of orlistat for weight loss: a systematic review and meta-analysis. Obes Rev. 2005;6:17-30."
+    },
+    {
+      "citation": "Aronne LJ, et al. Efficacy and tolerability of topiramate in obese subjects: a randomized, placebo-controlled trial. Obes Res. 2003;11:722-728."
+    },
+    {
+      "citation": "RDC ANVISA nº 50/2014 – Proibição de anorexígenos clássicos."
+    },
+    {
+      "citation": "Diretrizes Brasileiras de Obesidade 2022, ABESO."
+    }
+  ],
+  "status": "published"
+}

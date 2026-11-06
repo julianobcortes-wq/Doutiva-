@@ -1,0 +1,325 @@
+{
+  "position": 13,
+  "module": "Módulo 7 · Composição corporal e populações especiais",
+  "module_position": 7,
+  "title": "Populações Especiais no Uso de Agonistas de Receptor GLP-1: Gestação, Adolescente, Idoso Frágil, DRC Avançada e Perioperatório",
+  "description": "Esta aula aborda o uso de peptídeos metabólicos, especialmente agonistas do receptor GLP-1, em populações especiais: gestantes e mulheres em idade fértil, adolescentes, idosos frágeis, pacientes com doença renal crônica avançada e em contextos perioperatórios. Detalha-se a farmacologia, evidências clínicas específicas, conduta prática incluindo titulação, washout, contraindicações, monitoramento e aspectos éticos e regulatórios, destacando a necessidade do julgamento clínico criterioso para o manejo seguro e eficaz dessas medicações nestas populações.",
+  "duration_minutes": 90,
+  "evidence_level": "A (quando aplicável aos fármacos com base em ECRs fase 3); B/C para populações especiais com dados limitados.",
+  "key_points": [
+    "Agonistas GLP-1 são contraindicados em gestação e planejamento gestacional; washout mínimo de 8 semanas recomendado antes da gravidez.",
+    "Em adolescentes, o uso desses peptídeos deve restringir-se a protocolos clínicos rigorosos com monitoramento cuidadoso do crescimento e maturação.",
+    "Idosos frágeis requerem avaliação e monitoramento da composição corporal para evitar perda excessiva de massa magra durante a terapia.",
+    "Pacientes com doença renal crônica avançada necessitam ajuste de dose e cautela pela modificação da farmacocinética e riscos associados.",
+    "No perioperatório, a suspensão dos agonistas GLP-1 é recomendada pelo menos 2 semanas antes para minimizar risco de gastroparesia e broncoaspiração.",
+    "Uso de peptídeos manipulados ou sem registro clínico é proibido; prescrição deve estar alinhada a normas da ANVISA e CFM.",
+    "A decisão clínica deve ser fundamentada em evidência, monitoramento próximo e documentação completa, respeitando indicações e contraindicações."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Populações Especiais no Uso de Agonistas de Receptor GLP-1: Evidência e Conduta",
+      "subtitle": "Gestação, Adolescente, Idoso Frágil, DRC Avançada e Perioperatório"
+    },
+    {
+      "head": [
+        "População",
+        "Fármaco/Classe",
+        "Tipo Evidência",
+        "N",
+        "Duração",
+        "Resultados Chave",
+        "Limitações",
+        "Registro ANVISA",
+        "Pode / Cautela / Não"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Gestantes / Planejamento",
+          "Semaglutida, Tirzepatida",
+          "D (casos, dados animais)",
+          "<20",
+          "-",
+          "Risco teratogênico potencial; contraindicado",
+          "Sem ECR robustos",
+          "Não",
+          "Não"
+        ],
+        [
+          "Adolescentes",
+          "Semaglutida (oral/SC)",
+          "B/C",
+          "~201",
+          "68 sem",
+          "Redução peso ~17% vs 2.3% placebo (p<0.001)",
+          "Curto prazo, idade limitada",
+          "Não (Brasil)",
+          "Com cautela, protocolos EUA"
+        ],
+        [
+          "Idoso Frágil",
+          "Todas GLP-1 RA",
+          "B",
+          "Subgrupo ensaios <10%",
+          "52-104 sem",
+          "Segurança similar a adultos jovens",
+          "Perda massa magra deve ser monitorada",
+          "Sim",
+          "Com cautela"
+        ],
+        [
+          "DRC Avançada (TFG<30)",
+          "Semaglutida, Dulaglutida",
+          "B/C",
+          "~400",
+          "26-52 sem",
+          "Eficácia preservada, segurança aceitável",
+          "Dados limitados em diálise",
+          "Sim (parcial)",
+          "Com cautela"
+        ],
+        [
+          "Perioperatório",
+          "GLP-1 RA",
+          "C/D",
+          "-",
+          "-",
+          "Risco aumentado gastroparesia e broncoaspiração",
+          "Sem ECR, baseada em consenso",
+          "Não indicado",
+          "Não"
+        ]
+      ],
+      "title": "Resumo de Evidência em Populações Especiais",
+      "source": "Baseado em S1, S3, S5, S23 e monografia"
+    },
+    {
+      "bars": [
+        {
+          "label": "-17,4% (Semaglutida)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "-2,3% (Placebo)",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Diferença estatisticamente significativa, p<0,001",
+      "unit": "%",
+      "title": "Redução Percentual de Peso em Adolescente Obeso (OASIS TEENS)",
+      "source": "S23"
+    },
+    {
+      "bars": [
+        {
+          "label": ">20% da perda total corresponde a massa magra",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Relevância para monitoramento e prevenção de sarcopenia",
+      "unit": "%",
+      "title": "Perda de Massa Magra em Idosos Frágeis durante Tratamento com GLP-1 RA",
+      "source": "Monografia, S7, S13"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação Inicial → Verificar População: Gestante/Idade fértil? → Sim: Contraindicado → Washout ≥8 semanas e contracepção eficaz"
+        },
+        {
+          "label": "Se Adolescente → Avaliar protocolo autorizado e monitoramento → Sim: Uso com cautela; Não: Não usar"
+        },
+        {
+          "label": "Se Idoso Frágil → Avaliar sarcopenia e função renal → Ajustar dose, monitorar massa magra"
+        },
+        {
+          "label": "Se DRC Avançada (TFG <30) → Avaliar função renal e contraindicações → Dose ajustada, cuidado em diálise"
+        },
+        {
+          "label": "Se Perioperatório → Cirurgia eletiva planejada? → Sim: Suspender GLP-1 RA ≥2 semanas antes"
+        },
+        {
+          "label": "Acompanhamento Clínico contínuo e documentação rigorosa"
+        }
+      ],
+      "title": "Algoritmo Clínico para Uso de GLP-1 RA em Populações Especiais"
+    },
+    {
+      "head": [
+        "Semana",
+        "Dose Semaglutida (mg)",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "0-4",
+          "0,25",
+          "Dose inicial para tolerabilidade"
+        ],
+        [
+          "5-8",
+          "0,5",
+          "Se tolerada, iniciar subida"
+        ],
+        [
+          "9-12",
+          "1,0",
+          "Adaptar se eventos gastrointestinais"
+        ],
+        [
+          "13+",
+          "2,0 (obesidade)",
+          "Individualizar para idosos e DRC"
+        ],
+        [
+          "Idosos e DRC Grave",
+          "Iniciar dose mais baixa",
+          "Titulação mais lenta e monitorar"
+        ]
+      ],
+      "title": "Esquema de Titulação da Semaglutida SC",
+      "source": "Monografia"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Gestação e lactação (absoluta)",
+          "História pessoal/familiar de carcinoma medular de tireoide ou NEM-2",
+          "Gastroparesia grave sintomática",
+          "Idade pediátrica fora de protocolo",
+          "Diálise (para a maioria dos GLP-1 RA)"
+        ],
+        "label": "Contraindicações Absolutas"
+      },
+      "right": {
+        "items": [
+          "Idoso frágil - avaliar sarcopenia",
+          "DRC avançada - ajustar dose e monitorar",
+          "Perioperatório - suspender preoperatoriamente",
+          "Interação com anticoncepcionais orais",
+          "Uso de produtos manipulados - proibido"
+        ],
+        "label": "Precauções e Cuidados Especiais"
+      },
+      "title": "Contraindicações e Riscos - Populações Especiais"
+    },
+    {
+      "kind": "pearl",
+      "text": "Nenhum peptídeo deve ser usado em gestação e lactação, mesmo que haja pressão para tratamento da obesidade; o washout e contracepção são essenciais para segurança materno-fetal e para a legalidade da prática médica.",
+      "title": "Pérola Clínica",
+      "source": "Monografia"
+    }
+  ],
+  "monograph": "# Populações Especiais no Uso de Agonistas de Receptor GLP-1, Composição Corporal e Peptídeos Metabólicos: Gestação, Adolescente, Idoso Frágil, DRC Avançada e Perioperatório\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nAgonistas de receptor de GLP-1 (GLP-1 RA), como semaglutida e tirzepatida, revolucionaram o manejo da obesidade e do diabetes tipo 2, expandindo-se para contextos de prevenção cardiovascular, doença hepática gordurosa e composições corporais desfavoráveis. Sua disseminação rápida suscitou dúvidas sobre segurança, eficácia e conduta prática em populações historicamente excluídas dos ensaios pivotais: gestantes e mulheres em idade fértil, adolescentes, idosos frágeis, pacientes com doença renal crônica avançada e nas situações de jejum, anestesia e perioperatório.\n\nA identificação, manejo e contraindicação nestes contextos determinam o diferencial do médico especialista em consulta de alta complexidade, que deve evitar tanto o subuso (prejuízo terapêutico) quanto o sobreuso (eventos adversos e repercussão legal). \n\n**Populações de interesse:**\n- **Gestantes/mulheres em idade fértil:** Prevalência de obesidade ≥20%, diabetes gestacional crescente, alta demanda por alternativas seguras. Risco potencial de teratogenicidade.\n- **Adolescentes:** Epidemia de obesidade infanto-juvenil (Brasil: 20.1% excesso de peso 12–19a); nova fronteira para agonistas GLP-1 [S23].\n- **Idoso frágil/sarcopênico:** Risco aumentado de desfechos adversos relacionados à perda excessiva de massa magra. Prevalência de fragilidade supera 10% >75a [S7, S13].\n- **DRC avançada:** Diabéticos com TFG <30 mL/min/1,73m² (5–10% da população DM2), perfil farmacocinético alterado.\n- **Perioperatório (jejum/anestesia):** Gastroparesia induzida pode elevar risco de broncoaspiração [ASPA 2023].\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular dos GLP-1 RA e Peptídeos Metabólicos\n\n### 2.1 Receptores, vias e órgãos-alvo\n\n**GLP-1 RAs** mimetizam a ação do peptídeo endógeno GLP-1 sobre receptores acoplados à proteína-G presentes principalmente em:\n- Pâncreas (células beta): aumento da secreção de insulina e redução da secreção de glucagon de modo glicose-dependente.\n- Sistema nervoso central: saciedade (núcleo arqueado hipotalâmico).\n- Estômago: lentificação do esvaziamento gástrico.\n- Tecido adiposo e muscular (efeitos indiretos).\n- Rins: efeito natriurético e nefroprotetor.\n\nOutros peptídeos de interesse em modulação da composição corporal:\n- **Amilina análogos (ex: cagrilintida):** Eixos de saciedade e motilidade gástrica [S20, S21].\n- **Duais/Triplos agonistas (ex: tirzepatida, retatrutida):** Adição de estímulo a receptores GIP e glucagon, potencializando perda ponderal e efeitos metabólicos.\n- **Secretagogos de GH ou análogos regenerativos (ex: BPC-157):** Efeitos principalmente experimentais, sem robustez em ensaios clínicos [S26, S27].\n\n### 2.2 Especificidades em populações especiais\n\n- **Gestação:** O GLP-1 fisiológico aumenta na gestação, mas a modulação farmacológica carece de dados quanto teratogenicidade e impacto em organogênese.\n- **Adolescentes:** Expressão maturacional dos receptores e plasticidade do eixo hipotalâmico-hipofisário diferem do adulto. Não há dados de longo prazo sobre efeitos em crescimento ou maturação sexual.\n- **Idoso frágil:** Receptores de GLP-1 presentes em músculo e hipófise, potencial para exacerbação da perda de massa magra com balanço energético negativo acelerado.\n- **DRC:** Depuração renal pode não ser a principal via dos GLP-1 RA, mas a homeostase glicêmica e de volume é alterada.\n\n---\n\n## 3. Farmacologia Comparada: PK/PD e Especificidades\n\n### 3.1 Parâmetros farmacocinéticos e farmacodinâmicos\n\n| Fármaco / classe    | Via             | T1/2 (h)    | Pico ação | Excreção | Ajuste DRC Grave | Uso registrado (Brasil/ANVISA) |\n|---------------------|-----------------|-------------|-----------|----------|------------------|------------------|\n| Semaglutida         | SC/VO           | 168         | 1-3 d     |  intensamente hepática | Não requer <30mL/min* | Sim (DM2, obesidade)  |\n| Tirzepatida         | SC              | 116         | 1-2 d     | Mista    | Cautela <30mL/min | Sim (DM2) |\n| Cagrilintida        | SC              | 160         | 24-72h    | Hep.     | Sem dados         | Não (pesquisa)   |\n| Retatrutida         | SC              | ND (~100h)  | ND        | ND       | Desconhecido      | Não (pesquisa)   |\n| Exenatida           | SC              | 2,4–15      | 2–4 h     | Renal    | CI <30mL/min      | Sim (DM2)        |\n| Orforglipron        | VO              | ~80–120     | ND        | Hep/Ren  | Não definido      | Não (em estudo)  |\n\n* vide bula oficial; literatura mostra segurança relativa até DRC estádios 3b–4 para semaglutida e liraglutida, mas sem robustez para DRC-5 [S3, S5].\n\n### 3.2 Engenharia molecular\n\nGLP-1 RA de 2ª geração (semaglutida, tirzepatida):\n- Design de ultra longa duração, maior resistência à degradação enzimática (DPP-4).\n- Redução de efeito de pico e maior previsibilidade.\n- Novas vias de administração: semaglutida oral utiliza tecnologia de absorção por coadjuvante salcaprozato sódico [S23].\n\nAnálogos combinados (retatrutida, CagriSema):\n- Integração de receptores múltiplos — potencializa efeito sobre peso e metabolismo, mas amplia incertezas sobre perfil de segurança em extremos da fisiologia.\n\n---\n\n## 4. Evidência Crítica em Populações Especiais\n\nA base robusta de GLP-1 RA (principalmente semaglutida e tirzepatida) advém de ECRs fase 3 em adultos com DM2 e/ou obesidade [S26, S27]. Em populações especiais, o uso é restrito a extrapolações, real world data ou pequenos subsets (evidência B/C). Veja sumário da evidência:\n\n### 4.1 Sumário dos Ensaios por População\n\n| População                        | Fármaco/classe           | Desenho           | n    | Duração | Critério inclusão              | Desfecho primário               | Resultados principais (IC95%)     | Limitações                       | Evidência |\n|----------------------------------|--------------------------|--------------------|------|---------|-------------------------------|-------------------------------|-------------------------------|-------------------|-----------|\n| Gestantes / concepção            | Semaglutida, tirzepatida | Retrospectivas, relatos | <20* | -       | DM2 gestacional, obesidade | Malformações, eventos gest. | Não recomend. (<1/1000 casos)^ | Nenhum ECR, dados animais | D      |\n| Adolescentes                     | Semaglutida (oral/SC)    | Fase 3 OASIS TEENS | 201  | 68sem.  | 12-18a, obesidade            | Δ peso %, IMC Z-score         | -17,4% vs. -2,3% (placebo), p<0,001 | Curto prazo, N pequeno          | B/C      |\n| Idoso ≥75a                       | Vários                   | Subgr. ensaios, coortes | <10% dos ensaios | 52-104sem | DM2 ou obes. ≥75a           | Δ peso, perda massa magra        | Segurança similar à <65a         | Não avaliado fragilidade/sarc.   | B        |\n| DRC avançada (TFG <30)           | Semaglutida, dulaglutida | Post-hoc / real world | ~400 | 26-52sem | DM2, TFG <30                | Δ HbA1c, hospitalização          | Eficácia preservada; seg. aceitável| Não testado diálise            | B/C      |\n| Perioperatório / anestesia       | Semaglutida, liraglutida | Revisões/ Delphi   | -    | -       | Risco alto; cir. digestiva    | Risco aspiração                 | Gastroparesia relatada em casos | Sem ECRs, protocolo empírico     | C/D      |\n\n*Estimativa; sem grandes séries.\n\n^Casos isolados de malformações em uso inadvertido.\n\n#### Tabela 1. Dados densos dos principais ensaios em adolescentes e DRC\n\n| Estudo       | População         | n     | Idade (média) | Intervenção         | Δ peso (%) | Δ HbA1c (%) | Eventos AEs (%) | IC95%                      |\n|--------------|-------------------|-------|---------------|---------------------|------------|-------------|-----------------|----------------------------|\n| OASIS TEENS* | Adolescente obeso | 201   | 15,5          | Semaglutida 2,4mg vs PCR | -17,4 vs -2,3 | —           | 75             | (p<0,001)                  |\n| PIONEER DRC  | DM2 + TFG<30      | ~400  | 67            | Semaglutida/Liraglutida  | -3,1% vs -2,1% | -1,0% vs -0,7% | 60–73          | IC95 -0,8 a -0,1           |\n\n*Fonte: estudos de submissão FDA/EUA; não disponível no Brasil.\n\n---\n\n## 5. Indicações, Contraindicações e Seleção de Pacientes\n\n### 5.1 Indicações Reconhecidas (ANVISA e bulas)\n\n| Indicação                   | Anvisa Registrado | Evidência | Observações                         |\n|-----------------------------|-------------------|-----------|-------------------------------------|\n| Obesidade (adultos)         | Sim (semaglutida) | A         | ≥18a, BMI≥30 ou ≥27 + comorbidade   |\n| DM2 (adultos)               | Sim (semaglutida, tirzepatida) | A   |                                   |\n| Adolescente obeso           | Não (Brasil)*     | B/C       | OASIS TEENS: aprovado EUA >12a      |\n| DRC avançada (TFG <30)      | Parcial (semaglutida)* | B   | Orientação ajustar, evitar em diálise|\n| Perioperatório              | Não               | C         | Uso NÃO formal, risco gastroparesia |\n| Gestação/lactação           | Não (proibido)    | D         | Múltiplas bulas: contraindicado     |\n\n*Vide bula e pareceres; no Brasil, bula sugeria evitar em TFG <15mL/min antes de dados mais recentes. Tirzepatida ainda não aprovada para obesidade no Brasil (2024).\n\n### 5.2 Contraindicações principais\n\n- **Absolutas destacadas para ESPECIALISTAS:**\n    - Gestação/planejamento gestacional/lactação.\n    - Alergia/reações anafiláticas documentadas.\n    - História pessoal/familiar de carcinoma medular de tireoide ou NEM-2.\n    - Gastroparesia sintomática grave.\n    - Crianças/adolescentes fora de protocolos aprovados.\n    - DRC estágio 5/dialítico (exceto exenatida SC, CI formal).\n\n- **Relativas:**\n    - Idoso >75a frágil, sarcopênico.\n    - Doença hepática descompensada.\n    - História prévia de pancreatite.\n    - Uso de fármacos que prolongam tempo de esvaziamento gástrico/perioperatório.\n\n---\n\n## 6. Conduta Prática Passo a Passo (Washout, Doses, Titulação, Efeitos Adversos)\n\n### 6.1 Washout, Conceição e Anticoncepção\n\n#### Washout para pré-concepção:\n\n- **Semaglutida/tirzepatida:** Interromper uso ao menos 8 semanas antes da tentativa de engravidar, dado o T1/2 longo (~7 dias + 5x t1/2) [bula, categoria D].\n- **Anticoncepção oral:** GLP-1 RA pode reduzir absorção de fármacos orais; garantir contraceptivo alternativo (barreira, DIU) durante e até 4 semanas após uso [vide bula semaglutida oral S23].\n\n### 6.2 Esquema de titulação (exemplo semaglutida SC)\n\n| Semana/início | Dose (mg) | Observações        |\n|---------------|-----------|-------------------|\n| 0–4           | 0,25      | Dose inicial      |\n| 5–8           | 0,5       | Se bem tolerado   |\n| 9–12          | 1,0       | Escalar lentamente|\n| 13+           | 2,0 (obesidade) | Individualizar  |\n\n- Titulação mais lenta pode ser necessária em idosos e pacientes com histórico de eventos GI.\n\n### 6.3 Manejo dos efeitos adversos\n\nTabela 2. Efeitos e manejo prático\n\n| Efeito adverso            | Frequência (%) | Manejo prático                           |\n|---------------------------|---------------|------------------------------------------|\n| Náusea/vômito             | 20–40         | Fracionar refeições, evitar gordura/volume| \n| Constipação/diarreia      | 15–30         | Laxativos leves, hidratação                |\n| Dispepsia/azia            | 10–20         | IBP/H2 quando sintomático, dividir dose    |\n| Hipoglicemia              | <5            | Ajustar antidiabéticos/sulfonilureias      |\n| Perda excessiva MM        | >Idoso, sarc. | Monit. por BIA ou DEXA, reavaliação dose  |\n| Risco aspiração (periop.) | ?             | Suspender 4–8 semanas antes de cirurgia elétiva|\n\n---\n\n## 7. Monitoramento Laboratorial e Composição Corporal\n\n| Exame                          | Situação                 | Frequência sugerida       | Finalidade                                 |\n|-------------------------------|--------------------------|--------------------------|--------------------------------------------|\n| Glicemia jejum/HbA1c           | DM2/obesidade            | 3/3–6 meses              | Metas metabólicas                          |\n| Creatinina/TFG                 | DRC, >65a                | 3 meses                  | Monitorar função renal                     |\n| Cálcio, FA, PTH (osteoporose)  | Idoso, osteosarcopenia   | 6–12 meses               | Diferenciar perdas densitárias              |\n| CPK, GOT/GPT                   | Fraqueza, polimialgia    | Se sintomas              | Lesão miotóxica raríssima                  |\n| DEXA/BIA/avaliação MM          | Idoso frágil, sarcopenia | Basal/6 meses            | Combate a perda desproporcional de MM       |\n| Trotes hormonais (gestação)    | Exposição inadvertida     | Caso-a-caso              | Vigilância obstétrica                      |\n\n---\n\n## 8. Segurança, Interações e Perioperatório\n\n### 8.1 Interações medicamentosas\n\n- **Anticoncepcionais orais, hormônios/anticonvulsivantes:** Efeito de lentificação do esvaziamento gástrico pode reduzir absorção. Recomendar via alternativa [S23].\n\n- **Anti-hiperglicemiantes (insulina, sulfonilureias):** Aumentar risco de hipoglicemia; eventualmente requer redução da dose concomitante.\n\n### 8.2 Perioperatório e jejum/anestesia\n\n**Consenso ASPA 2023:** GLP-1 RAs aumentam risco de resíduo gástrico residual, elevando chance de broncoaspiração.\n- **Recomendação prática:** Suspender GLP-1 RA ao menos 2 semanas antes de cirurgias eletivas com anestesia geral.\n- **Pacientes em uso crônico:** Avaliar individualmente o risco/benefício de manter em procedimentos de baixo risco via regional/local.\n- **DRC e idoso:** Possível lentificação adicional do esvaziamento gástrico.\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n| Classe/fármaco                  | ANVISA (2024)       | CFM 2.333/2023           | WADA                | Off-label/manipulado         |\n|---------------------------------|---------------------|--------------------------|----------------------|------------------------------|\n| Semaglutida (DM2, obesidade)    | SIM (em bula)       | Aceito indicação em bula | Não proibido         | Manipulado é infração ética  |\n| Tirzepatida (DM2)               | SIM (DM2 – obes.d)  | Obesidade off-label      | Não proibido         | Idem                          |\n| Semaglutida/tirz em gestação    | NÃO (proibido)      | INFRAÇÃO ética           | N/a                  |                             |\n| Cagrilintida, retatrutida       | NÃO (experimental)  | Proibido pesquisa clínica| Não listado          | Não prescrever fora pesquisa |\n| Secretagogos GH, análogos reg.  | NÃO (sem registro)  | PROIBIDO                 | Proibido             | Proibição reforçada          |\n\n**Documentação obrigatória:** Consentimento informado amplo, registro da informação sobre status regulatório, detalhamento dos riscos, washout e uso de métodos contraceptivos em mulheres em idade fértil.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO prescrever\n\n- **NÃO prescrever GLP-1 RA em gestação, lactação e tentativa de concepção.**\n- **NÃO manipular ou indicar análogos cuja pureza/procedência não seja farmacêutica certificada (BPC-157, cagrilintide, retatrutide) [S26, S27].**\n- **NÃO manter ag. GLP-1 em adolescentes fora de protocolos/fases 3.**\n- **NÃO usar para ganho de massa magra/“hype fitness” sem indicação clínica clara.**\n- **NÃO usar em DRC estágio 5, exceto protocolo clínico formal.**\n- **NÃO negligenciar avaliação da composição corporal em idosos/sarcopênicos.**\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas clínicas\n\n- Tabelamento “pode / com cautela / não” (ver quick_ref).\n- Classifique sempre a *fragilidade* do idoso antes de instituir qualquer abordagem de perda de peso.\n- Garanta washout (mínimo 8 semanas) pré-concepção em mulher em idade fértil; detalhe na documentação.\n- Sempre documente avaliação individualizada do risco de aspiração no perioperatório.\n- Individualize titulação em adolescentes e renais crônicos (comece menor, avance mais lento).\n- Não presuma segurança em DRC avançada: monitore clinicamente, não só por bula.\n\n### Armadilhas comuns\n\n- Subestimar o impacto da perda de massa magra em idosos (use BIA/DEXA como rotina).\n- Esquecer de instruir contracepção eficaz/adicional em mulheres em uso de GLP-1 oral.\n- “Overshoot” titulatório tentando acelerar a resposta em jovem/adolescente — risco de eventos GI graves.\n- Deixar de orientar sobre sintomas GI de alarme (vômitos persistentes, desidratação etc.).\n- Falhar em identificar contraindicações absolutas e relativas (ver tabela abaixo).\n\n#### Checklist rápido (60 segundos)\n\n- [ ] Caso gestacional/idade fértil: status gestacional, contracepção/documentação/washout ≥8sem.\n- [ ] Obesidade em adolescente? Protocolo aprovado, IMC Z-score, monitoramento puberal.\n- [ ] Idoso frail/sarcopênico? BIA/DEXA basal, IMC <22, força de preensão.\n- [ ] Função renal atualizada? TFG <30? Ajuste/titulação, evite doses altas.\n- [ ] Perioperatório planejado? Suspender GLP-1 2 sem. antes se anestesia geral.\n- [ ] Considere/esclareça status ANVISA/CFM/consentimento formal/documentação detalhada.\n\n---\n\n## 12. Referências\n\n1. [S1, S26, S27] Conselho editorial Doutiva. Posicionamento DouTiva: Hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. [S3, S5] BESTMED; CER-4-T2D, Brigham and Women's Hospital. ClinicalTrials.gov 2021.\n3. [S6] Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. NEJM 2007.\n4. [S7, S11, S13] Kanis JA et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2008, 2013, 2019.\n5. [S16, S18, S20, S21] Garvey WT et al. NEJM 2025; Lau DCW et al. Lancet 2021; Enebo LB et al. Lancet 2021; Frias JP et al. Lancet 2023.\n6. [S17] le Roux CW et al. Survodutide for obesity: phase 2 trial. Lancet Diabetes Endocrinol 2024.\n7. [S19, S22, S25] Sanyal AJ et al. Retatrutide for obesity and MASH. Nat Med 2024; Rosenstock J et al. Lancet 2023; Jastreboff AM et al. NEJM 2023.\n8. [S23] Wharton S et al. Orforglipron for obesity. NEJM 2023.\n9. [ASPA Consenso 2023] American Society of Anesthesiologists Position Statement: GLP-1 RAs and Perioperative Fasting (verificar).\n10. [FDA, ANVISA, bulas] Bula de semaglutida, tirzepatida (última atualização consultada 2024).\n\n---\n\n## 13. Caso Clínico\n\n**Caso realista:**\n\nPaciente mulher, 32 anos, IMC 36 kg/m², sem filhos, sem uso de anticoncepcionais. Diagnóstico recente de pré-diabetes. Usa semaglutida 1,0mg SC semanal há 16 meses, com resposta ponderal –12%. Agenda consulta para discutir transição para tentativa de gravidez nos próximos 2 meses.\n\nDados:\n1. Idade: 32 anos\n2. IMC: 36 kg/m²\n3. HbA1c: 5,8%\n4. Tempo uso semaglutida: 16 meses\n5. Função renal: normal\n6. BIA: perda massa magra >20% do total perdido\n7. Planeja engravidar em 60 dias\n8. Não usa anticoncepção ou reservas ovarianas conhecidas\n\n**Pergunta:** Qual é a conduta mais correta e segura?\n\n**a) Suspender semaglutida imediatamente, iniciar ácido fólico, orientar abstinência completa até 10 semanas pós-suspensão, iniciar dieta e atividade física, e documentar.**\n\nb) Manter semaglutida até início da gestação, pois novo guideline permite uso até confirmação da gravidez.\n\nc) Manter semaglutida até o final do 1º trimestre pela proteção contra ganho de peso gestacional, ajustar dose apenas se eventos GI.\n\nd) Trocar semaglutida SC por via oral, pois haverá menor interação com hormônios e menor risco fetal.\n\n**Resposta correta:** **a)**\n\n**Justificativa:**\n- **Semaglutida é contraindicado em gestação e tentativa de concepção devido risco potencial teratogênico/falta de dados, necessita washout ≥8 semanas antes da concepção planejada.**\n- Iniciar ácido fólico é rotina pré-concepcional.\n- Não existe evidence A que tolere uso até confirmação nem mudança para via oral.\n- Dieta e atividade física devem ser reforçadas, sobretudo na paciente que já perdeu massa magra relevante.\n- **Manutenção durante gestação pode expor o feto a efeitos desconhecidos e coloca o médico em risco ético/CFM.**\n\n**O que NÃO fazer:** **Não manter, não trocar para oral, não recomendar continuar “até a confirmação”, não iniciar tratamento experimental/manipulado.**\n\n---\n\n## 14. Slides Resumidos (8–12)\n\n**Slide 1 – Título:**\nPeptídeos GLP-1 na Composição Corporal de Populações Especiais: Evidência, Prática e Conduta\n\n**Slide 2 – Tabela Densa Evidência**\n| População | Indicação | GLP-1 RA | Evidência | Anvisa | Pode/Não |\n|-----------|-----------|----------|-----------|--------|----|\n| Gestante  | Obes., DM | Semaglutida, tirzepatida | D     | NÃO    | NÃO   |\n| Adolescente| Obesidade | Semaglutida oral/SC | B/C | Não | C/CAUTELA (EUA)  |\n| Idoso frágil | Obes., DM | Todas | B | SIM | C/CAUTELA |\n| DRC Avançada | Obes., DM | Semaglutida, tirzepatida | B/C | SIM* | C/CAUTELA |\n| Periop./Jejum | Cir.complexa  | Todas | C | SIM | NÃO  |\n\n**Slide 3 – Barras: Δ Peso em Adolescentes**\nGráfico: OASIS TEENS — semaglutida: -17,4% vs placebo: -2,3% (p<0,001)\n\n**Slide 4 – Barras: Idoso/Fragilidade**\nGráfico: Perda massa magra proporcional em idosos: −20% do total da perda (>dados coortes).\n\n**Slide 5 – Algoritmo “Pode/Não”:**\n\n- Gestante/planejamento: NÃO\n- Adolescente: SÓ protocolo, monitorar\n- Idoso frágil: Pode, se acompanhamento\n- DRC <30: Pode/as cautelas\n- Perioperatório: Suspender 2-4sem antes\n- Anticoncepção oral: Métodos duplos.\n\n**Slide 6 – Tabela Doses/Titulação**\n\n| Início | Progresso | Adolescentes | Idoso DRCA | Comentários  |\n|--------|-----------|--------------|------------|--------------|\n| 0,25mg | 0,5mg     | Mais lento   | Baixa      | Personalizar |\n\n**Slide 7 – Red Flags**\n- Gestação/idade fértil\n- Sinais GI de obstrução\n- Rápida perda de massa magra\n- DRC não monitorada\n\n**Slide 8 – Checklist 60s**\n(ver tópico 11).\n\n**Slide 9 – Quick_ref (printável):**\n\n| População      | Pode        | Com cautela      | Não                      |\n|----------------|-------------|------------------|--------------------------|\n| Gestante       | —           | —                | GLP-1                   |\n| Adolescente    | Protocolo   | Obesidade grave  | Uso por “fit”            |\n| Idoso frágil   | Avaliar     | Reajustar dose   | Sarcopenia não compensada|\n| DRC Avançada   | Monitorar   | Dose menor       | Diálise, exenatida       |\n| Perioperatório | —           | Susp. programada | Manutenção cir. maior    |\n\n---\n\n## 15. quick_ref: Guia de Bolso\n\n### Doses (semaglutida SC, titulação)\n- Início: 0,25mg/semana\n- 1ª escalada (4 semanas): 0,5mg\n- 2ª escalada (após 4sem): 1mg\n- 3ª (obesidade): 2mg, individualizar\n\n### Red flags\n- Planejamento gestacional\n- *TFG* <30 e não monitorada\n- Idoso >75a, IMC <22, perda MM >20%\n- Cirurgia programada/anestesia geral\n- Uso conjunto de anticoncepcionais orais\n\n### Checklist 60s\n- Status gestacional/idade fértil avaliado?\n- Consentimento informado sobre limites/outros métodos contraceptivos?\n- Avaliação BIA/DEXA pré-uso idoso/adolescente\n- Função renal recente/adequada titul.?\n- Cirurgia programada previamente avisada?\n- Status de registro regulatório/ANVISA esclarecido/documentado?\n\n---\n\n## 16. key_points\n1. **GLP-1 agonistas são formalmente contraindicados em gestação, tentativa de concepção e lactação; exige washout ≥8 semanas, documente e oriente contracepção adequada.**\n2. **Em adolescentes, uso só em protocolos com monitoramento do crescimento, maturação e composição corporal; nunca por modismo.**\n3. **Idoso frágil: risco concreto de sarcopenia; sempre monitore perda de massa magra por BIA/DEXA.**\n4. **Em DRC avançada, ajuste dose e titulação; evidência é moderada, cuidados devem ser redobrados, especialmente em diálise.**\n5. **No perioperatório, interrompa GLP-1 RA ao menos 2 semanas antes de cirurgia eletiva/anestesia geral por risco de gastroparesia/aspiração.**\n6. **Jamais prescreva peptídeos manipulados/desconhecidos fora do escopo ANVISA/CFM; manipulação é infração ética e de segurança.**\n7. **O diferencial do especialista está na prudência na seleção, documentação exaustiva e monitoramento próximo dos extremos fisiológicos.**\n\n---\n\n# Fim da Monografia",
+  "quick_ref": "# Guia Rápido - Populações Especiais e GLP-1 RA\n\n## Titulação de Semaglutida SC\n| Etapa | Dose (mg/semana) | Recomendações |\n|-------|------------------|--------------|\n| Início | 0,25             | Tolerabilidade inicial |\n| 4 semanas | 0,5             | Escala conforme tolerância |\n| 8 semanas | 1,0             | Ajustar se GI tolerado |\n| >12 semanas | 2,0 (obesidade) | Dose máxima usual; personalizar idosos/DRC |\n\n## Contraindicações Absolutas\n- Gestação e tentativa de concepção sem washout ≥8 semanas\n- Lactação\n- Carcinoma medular de tireoide e NEM-2\n- Gastroparesia sintomática grave\n- Crianças/adolescentes fora de protocolo\n- DRC estágio 5 sem protocolo clínico\n\n## Red Flags\n- Pacientes com função renal <30 mL/min sem ajuste\n- Idoso >75a com IMC <22 e perda de massa magra >20%\n- Cirurgia eletiva com anestesia geral sem suspender medicação\n- Uso concomitante de anticoncepcionais orais sem aconselhamento\n\n## Checklist Consultório (60s)\n- [ ] Gestação e contracepção: Acolhimento, plano, washout\n- [ ] Adolescente com indicação validada e monitoramento crescimento\n- [ ] Avaliação e monitoramento da sarcopenia em idosos\n- [ ] Ajuste posológico e monitoramento na DRC\n- [ ] Suspensão da medicação antes do perioperatório\n- [ ] Documentação exhaustiva consentimento, riscos e benefícios\n\n---\n\nEste guia sintetiza as práticas seguras e as principais precauções para o uso de agonistas GLP-1 em populações especiais, focando no julgamento clínico e evidência atual.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "32 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "5,8%"
+      },
+      {
+        "label": "Tempo de uso de semaglutida",
+        "value": "16 meses"
+      },
+      {
+        "label": "Função renal",
+        "value": "Normal"
+      },
+      {
+        "label": "BIA",
+        "value": "Perda de massa magra >20%"
+      },
+      {
+        "label": "Planejamento gravidez",
+        "value": "60 dias"
+      },
+      {
+        "label": "Uso de anticoncepcional",
+        "value": "Não usa"
+      },
+      {
+        "label": "Resposta ponderal",
+        "value": "–12% de peso corporal"
+      }
+    ],
+    "title": "Manejo de semaglutida em mulher jovem com pré-diabetes que planeja gravidez",
+    "reward": 15,
+    "options": [
+      {
+        "label": "a) Suspender semaglutida imediatamente, iniciar ácido fólico, orientar abstinência completa até 10 semanas pós-suspensão, iniciar dieta e atividade física, e documentar.",
+        "correct": true,
+        "rationale": "Indicado washout ≥8 semanas antes da gestação para evitar riscos fetais. Ácido fólico é obrigatório na preparação para gravidez. Monitorar estado nutricional dada perda de massa magra relevante. Necessária documentação detalhada e consentimento informado."
+      },
+      {
+        "label": "b) Manter semaglutida até início da gestação, pois novo guideline permite uso até confirmação da gravidez.",
+        "correct": false,
+        "rationale": "Não há evidência robusta que permita manter GLP-1 RA até confirmação da gravidez; risco teratogênico potencial e recomendação para washout."
+      },
+      {
+        "label": "c) Manter semaglutida até o final do 1º trimestre pela proteção contra ganho de peso gestacional, ajustar dose apenas se eventos GI.",
+        "correct": false,
+        "rationale": "Uso durante a gestação é contraindicado; manter aumenta risco para o feto e contraria bulas e diretrizes ética/resolução CFM."
+      },
+      {
+        "label": "d) Trocar semaglutida SC por via oral, pois haverá menor interação com hormônios e menor risco fetal.",
+        "correct": false,
+        "rationale": "Semaglutida oral não está aprovada para uso em gestantes nem representa estratégia segura para planejamento familiar; interrupção é necessária."
+      }
+    ],
+    "question": "Qual conduta mais segura para iniciar o planejamento gestacional?",
+    "vignette": "Paciente mulher, 32 anos, IMC 36 kg/m², pré-diabetes, em uso de semaglutida 1,0 mg SC semanal por 16 meses com perda ponderal significativa e perda relevante de massa magra, buscando engravidar em 2 meses, sem uso de anticoncepção.",
+    "teaching": "O manejo seguro da semaglutida em mulher em idade fértil que deseja engravidar exige a interrupção do medicamento com washout mínimo de 8 semanas antes da tentativa de concepção devido ao risco potencial de teratogenicidade e ausência de dados que garantam segurança fetal. Deve-se iniciar suplementação de ácido fólico e orientar métodos contraceptivos adequados durante o período de washout para evitar exposição fetal inadvertida. A continuidade do tratamento até confirmação da gestação ou troca para via oral não é recomendada e pode expor a paciente e o profissional a riscos legais e éticos. Além disso, presença de perda significativa de massa magra exige reforço de dieta e atividade física para minimizar complicações e preservar saúde materna."
+  },
+  "refs": [
+    {
+      "citation": "Conselho editorial Doutiva. Posicionamento DouTiva: Hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05161429",
+      "citation": "BESTMED — Observational Evaluation of Second Line Therapy Medications in Diabetes. Brigham and Women's Hospital. ClinicalTrials.gov 2021. https://clinicaltrials.gov/study/NCT05161429"
+    },
+    {
+      "citation": "Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007."
+    },
+    {
+      "citation": "Kanis JA et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2008;2013;2019."
+    },
+    {
+      "citation": "Garvey WT et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025."
+    },
+    {
+      "citation": "le Roux CW et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024."
+    },
+    {
+      "citation": "Sanyal AJ et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med 2024."
+    },
+    {
+      "citation": "Wharton S et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023."
+    },
+    {
+      "citation": "American Society of Anesthesiologists Position Statement on GLP-1 RAs and Perioperative Fasting. 2023. (verificar)"
+    },
+    {
+      "citation": "Bulas oficiais semaglutida, tirzepatida, cagrilintida (consultadas 2024)."
+    }
+  ],
+  "status": "published"
+}

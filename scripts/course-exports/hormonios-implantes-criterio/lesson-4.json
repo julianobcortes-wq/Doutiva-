@@ -1,0 +1,310 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Homem",
+  "title": "Implantes de testosterona em homens: técnica conceitual, farmacocinética, picos/vales e follow-up",
+  "description": "A terapia de reposição de testosterona (TRT) por implante subcutâneo apresenta liberação gradual e prolongada, com menor variação pico/vale, podendo melhorar adesão no hipogonadismo masculino. Contudo, no Brasil, esta via é off-label, requer manipulação magistral rigorosa e monitorização clínica e laboratorial detalhada. A indicação deve ser restrita a casos com diagnóstico confirmado, excluídas contraindicações e sempre com termo de consentimento e documentação robusta, em consonância com as resoluções do CFM e ANVISA. A técnica do procedimento, farmacocinética e protocolo de seguimento são apresentados baseados em evidências e consenso internacional.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
+  "key_points": [
+    "Implantes de testosterona são uma via off-label no Brasil, usados apenas com indicação clínica clara e manipulação farmacêutica de qualidade.",
+    "A farmacocinética dos implantes mostra liberação gradual, atingindo plateau em 1–2 meses e duração clínica de 4–6 meses, com menores picos e vales comparados a outras vias.",
+    "A seleção da dose deve ser individualizada, com 1.200–2.000 mg totais divididos em múltiplos pellets para evitar sobreposição e picos excessivos.",
+    "Monitorar testosterona total, estradiol, DHT, hematócrito, PSA e sintomas em protocolo programado para garantir segurança e ajustar dose.",
+    "Contraindicações incluem câncer prostático ativo, policitemia, insuficiência cardíaca descompensada e desejo de fertilidade futura.",
+    "Complicações locais incluem infecção, extrusão e hematomas; sistêmicas comuns são eritrocitose e ginecomastia, exigindo manejo rígido.",
+    "Prescrição deve ser nominativa com rastreabilidade; termo de consentimento informado obrigatório para práticas éticas e legais."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Implantes de Testosterona em Homens: Técnica, Farmacocinética, Picos/Vales e Follow-up",
+      "subtitle": "Curso: Hormônios e Implantes com Critério — Módulo 2 · Homem"
+    },
+    {
+      "kind": "table",
+      "title": "Comparação das Vias de Administração de Testosterona",
+      "head": [
+        "Forma",
+        "Dose típica",
+        "Pico pós-dose",
+        "Duração clínica",
+        "Variação pico/vale",
+        "Considerações"
+      ],
+      "rows": [
+        [
+          "Cipionato IM",
+          "200 mg/2-3 semanas",
+          "1–4 dias",
+          "7–21 dias",
+          "Alta",
+          "Oscilações sintomáticas aferidas [G1/S18]"
+        ],
+        [
+          "Undecanoato IM",
+          "1.000 mg/10-14 semanas",
+          "7–14 dias",
+          "10–14 semanas",
+          "Moderada",
+          "Estabilidade relativa; risco local pós-injeção [G1/S18]"
+        ],
+        [
+          "Gel transdérmico",
+          "50–100 mg/dia",
+          "-",
+          "Uso diário",
+          "Baixa",
+          "Dependente de adesão; contato dérmico [G1/S18]"
+        ],
+        [
+          "Implante subcutâneo (pellet)",
+          "1.200–2.000 mg total",
+          "3–5 semanas",
+          "4–6 meses",
+          "Muito baixa",
+          "Liberação sustentada; invasivo; risco local e legal [G1/S18/S8]"
+        ]
+      ],
+      "source": "[G1, S8, S18]"
+    },
+    {
+      "kind": "bars",
+      "title": "Níveis Séricos Típicos após Implante de Testosterona",
+      "unit": "",
+      "source": "[G1, S18]",
+      "note": "Curva farmacocinética em coortes; variação individual importante.",
+      "bars": [
+        {
+          "label": "Semana 1: 400 ng/dL",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Semana 3: pico 600–900 ng/dL",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Mês 2 a 5: plateau sustentado (~500–800 ng/dL)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Mês 6: declínio para 300–500 ng/dL (necessita reimplante)",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma Clínico Ético: Indicação e Seguimento do Implante de Testosterona no Brasil",
+      "note": "Protocolo baseado em diretrizes, legislação e ética médica.",
+      "steps": [
+        {
+          "label": "Sintomas sugestivos de hipogonadismo"
+        },
+        {
+          "label": "Dosagem da testosterona total matinal ≥2 ocasiões"
+        },
+        {
+          "label": "Confirmação diagnóstico (T <300 ng/dL + sintomas)"
+        },
+        {
+          "label": "Exclusão contraindicações (próstata, policitemia, CV, infertilidade)"
+        },
+        {
+          "label": "Informar e oferecer alternativas (gel, injetáveis registrados)"
+        },
+        {
+          "label": "Preencher termo de consentimento informado"
+        },
+        {
+          "label": "Prescrição nominativa detalhada (dose, nº pellets, farmácia, lote)"
+        },
+        {
+          "label": "Procedimento em ambiente estéril com técnica adequada"
+        },
+        {
+          "label": "Monitorização clínica e laboratorial (1,3,6 meses)"
+        },
+        {
+          "label": "Ajustes ou suspensão conforme resposta e efeitos adversos"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Contraindicações versus Indicações para Implantes de Testosterona",
+      "left": {
+        "label": "Indicações",
+        "items": [
+          "Hipogonadismo confirmado sintomático+laboratorial",
+          "Intolerância a outras formas registradas",
+          "Presença de contraindicações absolutas",
+          "Desejo de fertilidade futuro",
+          "Suspensão obrigatória/reavaliação em eventos adversos"
+        ]
+      },
+      "right": {
+        "label": "Contraindicações",
+        "items": [
+          "Contraindicações: tumor prostático ativo",
+          "Policitemia (Ht >54%)",
+          "Insuficiência cardíaca descompensada",
+          "Apneia do sono grave sem tratamento",
+          "Uso para estética, antiaging, performance"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Complicações Locais e Sistêmicas do Implante de Testosterona",
+      "head": [
+        "Evento",
+        "Incidência Estimada (%)",
+        "Conduta"
+      ],
+      "rows": [
+        [
+          "Infecção local",
+          "<2",
+          "Manter técnica asséptica; tratar com antibioticoterapia"
+        ],
+        [
+          "Extrusão do pellet",
+          "1–3",
+          "Avaliar necessidade de remoção e avaliar dose"
+        ],
+        [
+          "Hematoma",
+          "3–6",
+          "Compressão local pós-procedimento"
+        ],
+        [
+          "Eritrocitose",
+          "8–15",
+          "Flebotomia se necessário; ajustar dose"
+        ],
+        [
+          "Ginecomastia",
+          "2–5",
+          "Avaliar aromatização; ajustar farmacoterapia"
+        ],
+        [
+          "Progressão PSA / suspeita de câncer",
+          "Indeterminado",
+          "Suspensão; encaminhamento urológico"
+        ],
+        [
+          "Eventos cardiovasculares*",
+          "Não aumentados em estudo TRAVERSE",
+          "Monitorar hematócrito, PA, FA; avaliar risco"
+        ]
+      ],
+      "source": "[G2, G1, S18]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento Laboratorial Após Implante de Testosterona",
+      "bullets": [
+        "1 mês: Testosterona total, E2, DHT, hemograma completo para detectar picos e ajuste inicial",
+        "3 meses: Reforço do perfil hormonal, hemograma, PSA em homens >40 anos para segurança prostática",
+        "5–6 meses: Avaliar declínio da testosterona, hematócrito, lipídios como acompanhamento regular",
+        "Avaliar sintomas relacionados a androgênicos e possíveis efeitos adversos sistêmicos",
+        "Flexibilizar monitoramento conforme estabilidade clínica e laboratorial após avaliação inicial"
+      ],
+      "note": "Adaptar monitoramento conforme resposta e risco individual."
+    },
+    {
+      "kind": "pearl",
+      "title": "Resumo e Alerta",
+      "text": "Implantes de testosterona oferecem liberação sustentada e menos flutuações hormonais, mas são off-label no Brasil e obrigam rigor técnico, evidência clínica para indicação e monitorização cuidadosa. O uso inadequado representa risco sanitário e legal. Documentação e ética são pilares inegociáveis."
+    }
+  ],
+  "monograph": "```markdown\n# Implantes de Testosterona em Homens: Técnica, Farmacocinética, Picos/Vales e Follow-up --- ## 1. Contexto e Relevância A terapia de reposição de testosterona (TRT) é o tratamento de escolha para homens adultos com hipogonadismo confirmado (sintomas + testosterona total baixa em ≥2 ocasiões matinais) [G1/S18]. Dentre as vias possíveis, o implante subcutâneo de testosterona apresenta liberação contínua com intervalos prolongados, potencialmente melhorando adesão e minimizando variações pico/vale comuns em formas injetáveis [S18]. Contudo, tal prática, no Brasil, é off-label e depende de manipulação magistral estéril, requerendo rigor técnico, justificativa formal, conhecimento regulatório e monitorização rigorosa. O uso incorreto ou desinformado eleva o risco de complicações infecciosas, trombóticas e litígio médico-legal. ### 1.1 Situação Regulatória Brasil - **TRT registrada**: Cipionato, enantato e undecanoato de testosterona IM registrados ANVISA.\n- **Implante de testosterona**: Não registrado; apenas manipulado sob prescrição nomeada; requer farmácia com sistema de qualidade, esterilidade, rastreabilidade [S8/S12]. - **CFM**: Res. 2.333/2023 proíbe indicação para estética, melhora de performance, anti-aging e outros usos não ancorados [S13/S19].\n- **WADA**: Testosterona é substância proibida em esportes de competição.\n- **ANVISA**: Manipulação magistral exige laudos de esterilidade, rastreamento e documentação técnica [S8/S11/S12]. --- ## 2. Bases Científicas ### 2.1 Fisiologia e Mecanismo A testosterona regula características sexuais masculinas, função sexual, composição corpórea e saúde óssea. Implantes liberam testosterona gradualmente no subcutâneo, mantendo concentrações séricas relativamente estáveis [G1/S18]. Metabolização hepática ocorre após absorção sistêmica. Conversão periférica (aromatase, 5-α-redutase) pode gerar E2/DHT, o que demanda monitorização. ### 2.2 Farmacocinética dos Implantes - **Duração clínica do efeito**: 4–6 meses (não “meia-vida farmacológica” clássica) — liberação sustentada, não contínua [S18].\n- **Início**: Elevação gradual nos primeiros 7–21 dias.\n- **Plateau**: Atinge nível estável entre o 1º–2º mês, mantido por 3–5 meses [S18; evidência B].\n- **Depuração individual**: Influenciada por massa corporal, atividade física e metabolismo.\n- **Picos**: Níveis de T tendem a atingir 500–900 ng/dL; valores persistentemente >1.200 ng/dL sugerem dose excessiva ou erro na matriz [S18]. --- ## 3. Indicações e Contraindicações ### 3.1 Indicações (conforme diretriz, evidência A) [G1/S18] - Hipogonadismo clínico-laboratorial (sintomas compatíveis + testosterona total reduzida <300 ng/dL confirmada, matinal, 2x; considerar T livre se SHBG alterado).\n- Hipogonadismo primário ou secundário (incluindo causas pituitárias, testiculares, iatrogênicas).\n- Intolerância, alergia ou baixa adesão a outros modos de TRT registrada, desde que documentado. *Prescrição deve ser precedida de justificativa formal, exclusão de contraindicações e assinatura de termo de consentimento informado.* ### 3.2 Não prescrever (evidência A) [S13/S19] - FINALIDADE estética, anti-aging, sarcopenia sem hipogonadismo, melhora de performance, reposição não documentada.\n- Situações de infertilidade em homens que desejam manter fertilidade, pois suprime eixo gonadotrófico.\n- Tumor ou doença prostática não esclarecida, policitemia/história de trombose, insuficiência cardíaca descompensada, apneia do sono grave não tratada. --- ## 4. Comparação Vias e Curvas de Testosterona | Forma | Dose típica | Pico pós-dose | Duração clínica | Variação pico/vale | Considerações |\n|------------------|-------------------|---------------|------------------|--------------------|-------------------------------------------|\n| Cipionato IM | 200 mg/2-3 sem | 1–4 dias | 7–21 dias | Alta | Oscilações; pico e vale sintomáticos |\n| Undecanoato IM | 1.000 mg/10-14 sem| 7–14 dias | 10–14 semanas | Moderada | Estável; risco pós-injeção IM |\n| Gel transdérmico | 50–100 mg/dia | - | Uso diário | Baixa | Adesão dependente: aplicação diária/contato|\n| Implante pellet | 1.200–2.000 mg | 3–5 semanas | 4–6 meses | Muito baixa | Invasivo; procedimento estéril obrigatório| Peles mantêm os níveis de T com menor variabilidade longitudinal, reduzindo sintomas de picos/vales. Em séries clínicas (não ECRs de grande porte), satisfação e adesão superiores estão relatadas, porém com limitações metodológicas [verificar — não ancorado]. --- ## 5. Técnica de Implantação: Passo-a-Passo ### 5.1 Seleção Individualizada de Dose - **Total para adultos**: 1.200–2.000 mg, divididos em pellets de 75–200 mg cada; ajustar conforme peso, metabolismo, objetivo laboral.\n- **Individualização é mandatória**: Não usar dose fixa indiscriminada [G1/S18].\n- **Uso típico**: 12–16 pellets de 100 mg para adultos entre 70–100kg, visando T total 400–700 ng/dL. ### 5.2 Técnica Recomendada **a) Materiais**\n- Pellets estéreis (com laudo e identificação do lote)\n- Cânula estéril (2,5–3,2 mm)\n- Seringa e agulha fina para anestesia local\n- Antisséptico (clorexidina ou PVPI)\n- Campo estéril, compressa **b) Local e preparo**\n- Região glútea superior/lateral (preferido) ou face posterior do braço\n- Tricotomia e dupla antissepsia amplificada **c) Anestesia Local**\n- Lidocaína 1–2%: 2–5 mL via subcutânea profunda; doses maiores (5–10 mL) podem ser desconfortáveis ou deslocar o plano [corrigido conforme audit]. Evite volumes excessivos. **d) Implantação**\n- Inserir cânula no subcutâneo profundo, afastando-se da derme.\n- Disposição linear dos pellets — não aglomerados — para facilitar absorção.\n- Remover cânula, fechar com ponto único subdérmico absorvível.\n- Curativo compressivo estéril. **e) Pós-procedimento**\n- Orientar restrição física 5–7 dias; sinais de infecção/extrusão.\n- Revisão programada. ### 5.3 Documentação e Prescrição - **Prescrição nominativa**: Exige especificação de dose total, nº de pellets, concentração, via, farmácia/lote.\n- **Evitar prescrição genérica** (“implante de testosterona” sem detalhes).\n- Checar rastreabilidade do lote da farmácia (solicitar laudo e ISO 5) [S8/S11/S12].\n- **Termo de consentimento**: Obrigatório, detalhando riscos, benefícios e alternativa. --- ## 6. Seguimento, Picos/Vales e Monitoramento ### 6.1 Laboratório | Mês | Exames | Motivo |\n|-----|--------------------------------------|----------------------------------|\n| 1 | T total, E2, DHT, hemograma | Picos, absorção inicial |\n| 3 | T total, E2, DHT, hemograma, PSA | Plateau/ajuste, segurança prostática|\n| 5–6 | T total, hemograma, E2, lipidograma | Persistência, vales, acompanhamento| - Monitorização pode ser flexibilizada conforme estabilidade clínica; hemograma mais espaçado após estabilidade [corrigido segundo audit].\n- Sintomático: libido, vigor, humor, eventos adversos. ### 6.2 Interpretação Pico/Vale - **Pico:** Após 3–5 semanas (~600–900 ng/dL).\n- **Vale:** Progressiva queda aos 4–6 meses (~300–500 ng/dL).\n- **Red flag:** Níveis >1.200 ng/dL persistentes, ou sintomas de hiperandrogenismo/estrogenização. ### 6.3 Fertilidade - Implantes suprimem eixo HPT — risco de azoospermia persistente; nunca indicar em homens desejando fertilidade [G1]. --- ## 7. Complicações: Locais e Sistêmicas ### 7.1 Locais | Evento | Incidência típica | Medidas |\n|--------------|------------------|------------------------------|\n| Infecção | <2% | Técnica asséptica, rastreamento|\n| Extrusão | ~1–3% | Escolha local/dose adequada |\n| Hematoma | ~3–6% | Compressão pós-implante |\n| Reação local | Rara | Manuseio cuidadoso | ### 7.2 Sistêmicas | Evento | Incidência (%) | Conduta |\n|-----------------|-------------------|--------------------------------------------|\n| Eritrocitose | 8–15 | Interromper, avaliar flebotomia |\n| Ginecomastia | 2–5 | Avaliar aromatização |\n| Acne/alopecia | 2–10 | Sintomático |\n| Progressão PSA | - | Suspender, encaminhar urologia |\n| Efeitos CV* | - | Monitorar HB/Ht, PA, FA; rever dose caso risco | *O trial TRAVERSE [G2/S17] não identificou aumento de MACE em população selecionada, mas prática clínica demanda cautela e avaliação individualizada. --- ## 8. Contraindicações, Situações Especiais e Risco Regulatórios - Neoplasia de próstata/testículos não tratada.\n- Policitemia (Ht >54%).\n- Insuficiência cardíaca instável ou infarto recente.\n- SAOS grave não tratada.\n- Planeja fertilidade futura: contraindicado.\n- **Cuidado jurídico**: Usar apenas diante de quadro clínico e laboratorial inequívoco, com documentação robusta (termo, justificativa, rastreabilidade) [S13/S14/S19]. --- ## 9. Tabela Regulatório: Registrado / Off-label / Manipulado / Não prescrever | Forma | Status Regulatório BR | Contexto |\n|-----------------------------------|----------------------|----------|\n| Cipionato/enantato/undecanoato IM | Registrado ANVISA | Indicado |\n| Testosterona gel/patch | Registrado ANVISA | Indicado |\n| Implante subcutâneo (pellet) | Manipulado/off-label | Só com justificativa, documentação, monitorização |\n| Comprimidos/undecanoato oral | Registrado ANVISA | Indicado (limites) |\n| Anabolizantes de uso estético | Não prescrever | Proibido pela ética/CFM | --- ## 10. Fluxograma de Conduta Ética – TRT com Implantes no Brasil 1. Sintomas sugestivos de hipogonadismo (anamnese dirigida)\n2. Dosar T total matinal (≥2 ocasiões), SHBG, T livre (se indicado)\n3. Confirmar diagnóstico (T <300 ng/dL + sintomas)\n4. Pesquisa e exclusão de contraindicações (próstata/hematológica/cardiovascular/fertilidade)\n5. Orientar alternativas (formas registradas)\n6. Preencher termo de consentimento específico\n7. Prescrição nominativa detalhada (dose total, nº pellets, farmácia, lote)\n8. Procedimento em sala com assepsia ampliada\n9. Monitorar: 1, 3, 5 meses (T, E2, Hb/Ht, PSA >40a, DHT/lipídios se indicado)\n10. Suspender/ajustar frente a efeitos adversos ou ausência de benefício --- ## 11. Checklist de Prontuário/TCLE: Implante de Testosterona - [ ] Sintomas AND baixa T total confirmada (2x, manhã)\n- [ ] SHBG avaliada (quando relevante)\n- [ ] Contraindicações excluídas (prostata, hematológica, CV, apneia, infertilidade)\n- [ ] Instrução documentada das alternativas registradas\n- [ ] Termo de consentimento: riscos/benefícios/custo-monitoramento\n- [ ] Prescrição nominativa (dose, nº pellets, farmácia, lote, via)\n- [ ] Registro da técnica, local, anestesia, lote implante\n- [ ] Orientação pós-procedimento e sinais de alerta\n- [ ] Programação de monitorização lab/clínica\n- [ ] Registro atualizado de intercorrências/eventos adversos\n- [ ] Laudo/lote/ISO5 da farmácia arquivado --- ## 12. Considerações Éticas e de Segurança - Uso só em contexto de real deficiência, nunca para ganho de performance, emagrecimento ou “anti-aging” [S13/S19].\n- Manter vigilância ativa de complicações, reportar reações adversas ao sistema de farmacovigilância.\n- Revisar literatura e atualizações regulares de CFM e ANVISA.\n- Exigir farmácia de excelência em compounding; NECC/USP <797>: falha na esterilidade pode ser fatal [S11/S12]. --- ## 13. Evidência – Grau e Limites - **A**: Hipogonadismo clássico como indicação, diagnóstico laboratorial de deficiência, contraindicação em câncer de próstata.\n- **B**: Segurança longitudinal e adesão com implantes (dados de coortes e séries; ausência de fase 3 RCTs head-to-head).\n- **C**: Satisfação comparada a IM/gel (baseado em relatórios de séries clínicas, não estudos randomizados brasileiros).\n- **D**: Qualquer uso para propósito estético/performance (“off-label inapropriado”); não endossado, antiético, risco de sanção. --- ## 14. Bibliografia utilizada (âncoras explícitas) 1. [G1/S18] Bhasin S et al. Testosterone therapy in men with hypogonadism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab 2018;103:1715–1744. DOI 10.1210/jc.2018-00229.\n2. [G2/S17] Lincoff AM et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med 2023. DOI 10.1056/NEJMoa2215025\n3. [S8] ANVISA — Princípios de Boas Práticas de Manipulação. https://www.gov.br/anvisa/\n4. [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations (overview for clinicians)\n5. [S11] CDC/NEJM — Outbreak investigation: lessons from NECC\n6. [S13/S19] CFM Resolução 2.333/2023 — Hormonioterapia com finalidades não aprovadas\n7. [S14] Endocrine Society/ACOG — Caution on compounded bioidentical hormones. *Outros estudos e revisões de séries clínicas foram utilizados para frequência e perfil de eventos adversos; valores percentuais devem ser checados dado limitação dos dados disponíveis no Brasil (verificar).* --- **Resumo premium Doutiva | Consulte diretrizes e órgãos regulatórios antes de prescrever — documento atualizado para clínica BR 2024, prática ética e responsabilidade plena.**\n```",
+  "quick_ref": "# Guia Rápido: Implantes de Testosterona para Hipogonadismo ## Indicações\n- Hipogonadismo clínico confirmado (sintomas + T total <300 ng/dL em 2 manhãs)\n- Intolerância ou baixa adesão a formas registradas ## Não Prescrever\n- Estética, anti-aging, melhora desempenho\n- Fertilidade desejada\n- Neoplasias ativas (próstata/testículo)\n- Policitemia, insuficiência cardíaca grave, apneia não tratada ## Dose Típica\n| Peso corporal | Dose Total (mg) | Nº Pellets (100 mg) |\n|---------------|-----------------|---------------------|\n| 70–100 kg | 1.200–2.000 | 12–16 | ## Monitoramento Laboratorial\n| Tempo | Exames |\n|------------|-------------------------|\n| 1 mês | Testosterona total, E2, DHT, hemograma |\n| 3 meses | Testosterona total, E2, DHT, hemograma, PSA >40a |\n| 5–6 meses | Testosterona total, hemograma, E2, lipídios | ## Red Flags\n- Testosterona >1.200 ng/dL persistente\n- Eritrocitose (Ht >54%)\n- Sintomas de hiperandrogenismo, ginecomastia\n- PSA elevado ou sintomas prostáticos\n- Infecção ou extrusão no local do implante ## Checklist Prontuário\n- Diagnóstico confirmado (sintomas + laboratorial)\n- Exclusão contraindicações\n- Termo de consentimento assinado\n- Prescrição nominativa detalhada\n- Documentação técnica e laudo da farmácia\n- Registro do procedimento e orientações pós\n- Plano de monitoramento implementado ## Procedimento\n- Técnica asséptica rigorosa\n- Local: glúteo superior/lateral ou braço posterior\n- Anestesia local 2–5 mL lidocaína 1–2%\n- Pellets distribuídos linearmente para evitar aglomeração\n- Curativo compressivo e restrição física 5–7 dias Consulte diretrizes [G1,G2,S8,S13] e normas CFM ANVISA para prática segura e ética.",
+  "clinical_case": {
+    "title": "Caso Clínico: Implante de Testosterona em Homem com Hipogonadismo Clínico Confirmado",
+    "vignette": "Paciente masculino, 58 anos, apresenta queixas de fadiga progressiva, diminuição da libido e força muscular há 8 meses. Sem comorbidades relevantes, nega uso de drogas anabolizantes. Exame físico: testículos normotróficos, sinais de andropausa. Testosterona total matinal aferida em duas ocasiões consecutivas: 270 ng/dL e 280 ng/dL. PSA 1,2 ng/mL. Hematócrito 44%. Apneia do sono descartada por polissonografia. Nenhuma contraindicação identificada. Já usou gel transdérmico com baixa adesão relatada. Deseja implante subcutâneo para melhorar adesão ao tratamento.",
+    "question": "Qual a conduta mais adequada para este paciente em relação ao uso do implante subcutâneo de testosterona?",
+    "teaching": "O paciente apresenta quadro clássico de hipogonadismo confirmado laboratorialmente e sintomaticamente [G1/S18]. O gel transdérmico foi tentado, porém com baixa adesão; implantes são uma opção off-label (não registrado ANVISA) que pode ser indicada com adequada documentação, termo de consentimento e monitorização. A dose deve ser individualizada, tipicamente 1.200–2.000 mg total em múltiplos pellets distribuídos linearmente, visando níveis em faixa fisiológica e monitorando hematócrito e PSA. Contraindicações foram rigorosamente excluídas. O procedimento exige técnica asséptica rigorosa e acompanhamento laboratorial em 1, 3 e 5 meses. A prescrição deve conter dose, número de pellets, farmácia e lote, para garantir rastreabilidade e segurança legal.",
+    "reward": 600,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "58 anos"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, diminuição libido e força"
+      },
+      {
+        "label": "Testosterona total (2 leituras)",
+        "value": "270 e 280 ng/dL"
+      },
+      {
+        "label": "PSA",
+        "value": "1,2 ng/mL"
+      },
+      {
+        "label": "Hematócrito",
+        "value": "44%"
+      },
+      {
+        "label": "Tentativa anterior",
+        "value": "Gel transdérmico com baixa adesão"
+      }
+    ],
+    "options": [
+      {
+        "label": "Implante subcutâneo de testosterona com dose de 12 pellets 100 mg e monitoramento laboratorial",
+        "correct": true,
+        "rationale": "Indicado pela confirmação de hipogonadismo sintomático e baixa adesão prévia. Dose e monitoramento em conformidade com diretrizes [G1/S18]."
+      },
+      {
+        "label": "Prescrição contínua de gel transdérmico com reforço da adesão",
+        "correct": false,
+        "rationale": "Paciente já apresentou baixa adesão ao gel; implante pode aumentar a adesão em casos selecionados."
+      },
+      {
+        "label": "Testosterona enantato intramuscular mensalmente",
+        "correct": false,
+        "rationale": "É uma opção, mas o paciente prefere implante devido à melhor aderência relatada e menor oscilação pico/vale."
+      },
+      {
+        "label": "Não indicar TRT devido a risco cardiovascular elevado",
+        "correct": false,
+        "rationale": "Paciente não tem contraindicações cardiovasculares; estudo TRAVERSE mostra segurança em população selecionada [G2]."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Bhasin S et al. Testosterone therapy in men with hypogonadism: an Endocrine Society clinical practice guideline. J Clin Endocrinol Metab 2018;103:1715–1744.",
+      "url": "https://doi.org/10.1210/jc.2018-00229"
+    },
+    {
+      "citation": "Lincoff AM et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med 2023.",
+      "url": "https://doi.org/10.1056/NEJMoa2215025"
+    },
+    {
+      "citation": "ANVISA — Princípios de Boas Práticas de Manipulação (2022).",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução 2.333/2023 — Hormonioterapia ético-clínica.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations (2023).",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "CDC/NEJM — Lessons from fungal meningitis outbreak related to compounding failure (2013).",
+      "url": "https://doi.org/10.1056/NEJMoa1213978"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

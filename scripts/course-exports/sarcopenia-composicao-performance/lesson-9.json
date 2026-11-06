@@ -1,0 +1,336 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Populações",
+  "module_position": 5,
+  "title": "Idoso frágil, mulher perimenopausa e recuperação pós-emagrecimento acentuado",
+  "description": "A aula aborda a sarcopenia e disfunções musculares em três populações especiais: idosos frágeis, mulheres na perimenopausa e indivíduos em recuperação após emagrecimento acentuado. Explora definições clínicas, fisiopatologia, avaliação funcional e estratégias terapêuticas embasadas em evidências robustas, com ênfase em segurança, regulatório brasileiro (ANVISA, CFM), e limites éticos para prescrições farmacológicas/manipuladas. Protocolos diferenciados enfatizam otimização nutricional, exercício resistido, reposição hormonal restrita a casos documentados e prevenção de uso inadequado de peptídeos e secretagogos de GH.",
+  "duration_minutes": 90,
+  "evidence_level": "A",
+  "key_points": [
+    "A sarcopenia no idoso frágil envolve perda simultânea de massa, força e função muscular, associada a alto risco de quedas e dependência, devendo ser diagnosticada por critérios EWGSOP2 com avaliação funcional e composição corporal.",
+    "A perimenopausa promove perda significativa de massa magra e ganho de adiposidade visceral independente do envelhecimento, exigindo abordagem multiprofissional e, se indicado, reposição hormonal restrita a sintomas e contraindicações claras.",
+    "Pacientes pós-emagrecimento acentuado apresentam hipometabolismo adaptativo e dificuldade na recomposição muscular, demandando aporte nutricional otimizado, suplementação adequada e avaliação endócrina cuidadosa.",
+    "Terapias injetáveis/manipuladas (hormônios, incretinas, secretagogos de GH, peptídeos) devem ser prescritas somente baseadas em evidência A e registro ANVISA, com monitoramento rigoroso e justificativa clínica, evitando abusos e intervenções não regulamentadas.",
+    "A prescrição ética inclui consentimento informado, rastreamento rigoroso da procedência/manipulação e estrito cumprimento da resolução do CFM 2.333/2023; drogas não registradas (ex: BPC-157, GH para anti-aging) são contraindicadas.",
+    "A recomposição corporal eficiente requer estratégias multimodais priorizando ingestão proteica elevada (1,2–1,5g/kg/dia), exercício resistido supervisionado e, quando indicado, suplementação com creatina e HMB.",
+    "O monitoramento funcional (teste de preensão, velocidade de marcha, SPPB) e laboratorial deve ser periódico para avaliar resposta e segurança das intervenções, com suspensão imediata se riscos detectados."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Idoso frágil, mulher perimenopausa e recuperação pós-emagrecimento acentuado",
+      "subtitle": "Sarcopenia, composição corporal e performance — Protocolos diferenciados e segurança clínica — Doutiva"
+    },
+    {
+      "head": [
+        "População",
+        "Ponto-chave",
+        "Risco principal"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Idoso frágil",
+          "Força ↓, massa magra ↓, quedas",
+          "Fraturas, dependência"
+        ],
+        [
+          "Mulher perimenopausa",
+          "Massa magra ↓, adiposidade visceral ↑",
+          "Síndrome metabólica, queda de performance"
+        ],
+        [
+          "Pós-emagrecimento",
+          "Reconstrução lenta, fadiga, força ↓",
+          "Incapacidade funcional"
+        ]
+      ],
+      "title": "Características clínicas e riscos em populações especiais"
+    },
+    {
+      "bars": [
+        {
+          "label": "Incretinas (Tirzepatida) - Evidência A, registro ANVISA",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Reposição hormonal estrita (testosterona, estrógenos) - Evidência A, registro ANVISA",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Creatina e proteína - Evidência A, suplementos seguros",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Secretagogos de GH e peptídeos research - Evidência D, contraindicados",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Soroterapia manipulada - Limitação ética e técnica",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Posicionamento Doutiva [S1], ANVISA, CFM",
+      "unit": "",
+      "title": "Nível de evidência para intervenções farmacológicas e manipuladas",
+      "source": ""
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Definir população: idoso frágil, mulher perimenopausa, pós-emagrecimento"
+        },
+        {
+          "label": "Avaliar deficiência hormonal documentada e sintomas"
+        },
+        {
+          "label": "Se sim, considerar reposição conforme registro"
+        },
+        {
+          "label": "Se não, contraindicar reposição hormonal"
+        },
+        {
+          "label": "Otimizar via nutricional e exercício resistido supervisionado"
+        },
+        {
+          "label": "Em obesidade/DM2, avaliar uso autorizado de incretinas"
+        },
+        {
+          "label": "Monitorar peso, força, performance e exames laboratoriais"
+        },
+        {
+          "label": "Ajustar intervenções conforme resposta clínica e segurança"
+        }
+      ],
+      "title": "Algoritmo clínico para intervenção em sarcopenia e recomposição muscular"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Registro",
+        "População",
+        "Dose",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida",
+          "Sim",
+          "Obesos, DM2",
+          "2,5-15mg SC/semana",
+          "GI discomfort, hipoglicemia"
+        ],
+        [
+          "Testosterona",
+          "Sim",
+          "Hipogonadismo masculino",
+          "1000mg IM/10-14 semanas",
+          "PSA, hematócrito, sintomas adversos"
+        ],
+        [
+          "Estrógenos/progesterona",
+          "Sim",
+          "Mulheres perimenopausa sintomáticas",
+          "Individualizado",
+          "Mamas, endométrio, coagulação"
+        ],
+        [
+          "Creatina",
+          "Não (suplemento)",
+          "Idosos e perimenopausa",
+          "3-5g/dia",
+          "Segurança elevada"
+        ],
+        [
+          "Secretagogos GH",
+          "Não (não recomendado)",
+          "Não indicado",
+          "N/A",
+          "Edema, DM, risco neoplásico"
+        ]
+      ],
+      "title": "Resumo das principais terapêuticas e segurança (Doses e monitoramento)"
+    },
+    {
+      "kind": "bullets",
+      "note": "Posicionamento ético e regulatório CFM 2.333/2023",
+      "title": "Erros comuns e contraindicações",
+      "bullets": [
+        "Não prescrever peptides research (BPC-157, TB-500) fora de protocolos formais",
+        "Não usar GH/secretagogos em aging ou perfomance sem deficiência clara",
+        "Evitar hormonalização estética sem exame e critério clínico rigoroso",
+        "Não iniciar soroterapia drip sem indicação formal, risco elevado de infecção",
+        "Evitar doses suprafisiológicas de hormônios devido a risco cardiovascular",
+        "Jamais omitir avaliação funcional e reavaliação contínua dos tratamentos"
+      ]
+    },
+    {
+      "head": [
+        "Critério",
+        "Status"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Deficiência diagnosticada",
+          "Sim"
+        ],
+        [
+          "Registro ANVISA",
+          "Obrigatório"
+        ],
+        [
+          "Farmácia com ambiente estéril",
+          "ISO 5"
+        ],
+        [
+          "Consentimento informado",
+          "Completo"
+        ],
+        [
+          "Monitoramento",
+          "Regular/trimestral"
+        ],
+        [
+          "Revisão e ajuste",
+          "Essencial"
+        ]
+      ],
+      "title": "Checklist para prescrição ética e segura em consultório"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pérolas clínicas para populações especiais",
+      "bullets": [
+        "A recomposição muscular eficiente demanda estratégias multimodais – exercício, nutrição, e suporte hormonal restrito.",
+        "Suplementos como creatina têm evidência robusta para aumento de força e massa em idosos e mulheres perimenopáusicas.",
+        "Qualquer intervenções injetáveis obedecem a critérios regulatórios rígidos e requerem farmacotecnia especializada.",
+        "Documente sempre indicações, consentimentos e monitoramento para segurança clínica e legal.",
+        "Nunca use terapias não aprovadas para fins anti-aging ou estética, como peptides ou secretagogos de GH.",
+        "Treinamento supervisionado oferece 30–50% dos ganhos funcionais, complementando terapias médicas."
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "ANVISA: medicamentos e manipulações devem ter registro e controle conforme RDC nº 67/2007",
+          "CFM: Resolução 2.333/2023 regula uso de hormônios e implantes — indicações clínicas e vedação a uso anti-aging",
+          "WADA: lista antidoping proíbe uso de secretagogos de GH e hormônios para atletas",
+          "Farmácias devem operar sob ambiente ISO 5, com rastreamento microbiológico e farmacêutico responsável",
+          "Consentimento deve informar riscos, off-label, alternativas, e ser documentado no prontuário"
+        ],
+        "label": "Restrições e requisitos regulatórios"
+      },
+      "right": {
+        "items": [
+          "Uso irregular pode gerar repercussão legal e riscos severos de saúde",
+          "Manipulações não controladas aumentam risco de infecções e reações adversas",
+          "Uso não clínico (estético/anti-aging) é fortemente desaconselhado e antiético",
+          "Prescrição segura requer atualização contínua em leis e recomendação médica"
+        ],
+        "label": "Consequências da inobservância"
+      },
+      "title": "Regulatório e Ética na Prescrição de Farmacoterapias Manipuladas"
+    },
+    {
+      "kind": "pearl",
+      "text": "Na sarcopenia e recomposição muscular em idosos frágeis, mulheres perimenopausa e pós-emagrecimento, priorize condutas baseadas em evidência robusta, registro regulatório e ética clínica; integre nutrição, exercício e terapêutica farmacológica segura, evitando modismos e intervenções sem respaldo.",
+      "title": "Mensagem Final"
+    }
+  ],
+  "monograph": "```markdown\n# Sarcopenia, Composição Corporal e Performance ## Módulo 5 · Populações Especiais\n### Idoso frágil, mulher perimenopausa, recuperação pós-emagrecimento acentuado --- ## 1. Contexto e Relevância Clínica A deterioração da massa e função muscular — sarcopenia — é reconhecida como evento central no declínio funcional do idoso, mas também se manifesta em cenários críticos como o pós-emagrecimento acentuado e nas transições hormonais, como a perimenopausa. Endocrinologistas, nutrólogos e clínicos têm o desafio de manejar essas populações com rigor técnico e visão regulatória, dado o crescimento da demanda por intervenções farmacológicas injetáveis/manipuladas (ex: incretinas, hormônios, soroterapia) e a pressão para prescrições off-label no Brasil. A monografia estrutura condutas diferenciadas, parâmetros para performance/composição corporal, nuances de segurança e referências regulatórias explícitas para: - Idoso frágil com sarcopenia - Mulher perimenopausa com declínio de massa muscular/fraqueza - Recuperação muscular após emagrecimento acentuado (ex: pós-bariátrica, grandes perdas ponderais) Bases: [S1]–[S2]; ANVISA, CFM, WADA; consensos. --- ## 2. Bases Científicas: Sarcopenia, Composição e Performance Metabólica ### 2.1 Sarcopenia e Idoso Frágil Definição: Redução progressiva da massa, força e desempenho muscular, levando a maior risco de quedas, perda de independência e mortalidade. Prevalências no Brasil variam: 13%–40% de idosos, maior em institucionalizados (até 50%). **Critérios diagnósticos (EWGSOP2, 2019):**\n- Força muscular reduzida (grip <27kg para homens, <16kg para mulheres);\n- Massa muscular baixa (DXA: <7.0kg/m² H; <5.5kg/m² M);\n- Desempenho: velocidade de marcha <0,8 m/s. A sarcopenia é agravada por:\n- Baixa ingestão proteica ( < 1g/kg/dia)\n- Inflamação crônica, comorbidades (DM2, ICC, doença renal)\n- Disfunção hormonal: declínio de GH/IGF-1, testosterona, DHEA e estrogênio ### 2.2 Perimenopausa: Risco Feminino Sobredimensionado A transição menopausal impacta massa magra independentemente do envelhecimento crônico. O hipoestrogenismo leva a:\n- Redução de síntese proteica\n- Maiores taxas de adiposidade central\n- Resistência à insulina Estudos longitudinais demonstram perdas de 0,5–1,0 kg de massa magra nos 3 anos ao redor da menopausa, com aumento de até 12% da gordura visceral na janela perimenopausal (n=518; SWAN cohort, evidência B). ### 2.3 Recuperação pós-emagrecimento acentuado Pacientes submetidos a perda de peso expressiva — dieta restritiva, cirurgia bariátrica, doença grave — comumente desenvolvem sarcopenia aguda, dificuldade de ganho de massa magra e risco de deficiência micronutricional persistente. *Recovery* é dificultada por:\n- Supressão da síntese proteica pós-aguda - Hipometabolismo adaptativo persistente - Baixos níveis de anabolismo endógeno (GH/IGF-1 e esteroides sexuais) - Catabolismo persistente, especialmente sem apoio intensivo. Tabela 1 resume diferenciais clínicos de cada cenário: | Padrão Populacional | Critérios/Sinais-Chave | Fatores Agravantes | Maior risco de... |\n|----------------------------|------------------------------------------------------|------------------------------------------|---------------------|\n| Idoso frágil | Baixa força muscular, quedas, massa magra ↓ | Inflamação, multimorbidade, polifarmácia | Fraturas, dependência|\n| Mulher perimenopausa | Perda de magra, ganho visceral, fadiga | Queda de estrógeno, resistência insulínica| Síndrome metabólica, queda de performance |\n| Pós-emagrecimento acentuado| Dificuldade para recomposição, fadiga, perda de força| Hipometabolismo, deficiência micronutricional | Recaída, incapacidade funcional | Fontes: EWGSOP2, SWAN Cohort, [S1–S2]. --- ## 3. Estratificação de Evidência para Estratégias Intervencionistas Conforme [S1], hierarchy para prescrições inovadoras/manipuladas: - **A**: Metanálise de ECRs/Diretriz formal (ex: incretinas para DM2/obesidade, hormônios sexuais para deficiência clara)\n- **B–C**: Estudos fase 2/observacionais robustos; farmacodinâmica humana; série de casos (ex: GH/secretagogos em idosos normais — limitado)\n- **D**: Pré-clínico/opinião — não recomendada para manipulação clínica sem respaldo formal **Nota Ética/Regulatória:** - *Estritamente evitar*: research peptides sem registro, GH para fins “anti-aging”, soroterapia “drip” indiscriminada\n- Sempre: checar registro ANVISA (medicamentos/produtos manipulados), legislação CFM (incl. Resolução 2.333/2023), contraindicações WADA em atletas. --- ## 4. Terapêutica: Protocolos Farmacológicos e Nutricionais ### 4.1 Reposição Anabólica—Condições, Critérios e Produtos #### 4.1.1 Incretinas (GLP-1/GIP agonistas) **Exemplo: Tirzepatida**\n- INDICAÇÃO: Tratamento de DM2 & obesidade; off-label: auxílio em recomposição corporal em geral apenas em contexto de comorbidade metabólica.\n- Registro ANVISA: Tirzepatida aprovada (subcutânea, caneta pronto-uso).\n- Doses: inicial 2,5mg/semana SC; titulação lenta até 15mg/semana.\n- Monitoramento: náuseas, constipação, risco de hipoglicemia (com SU/insulina), TSH, função renal. Evitar demais incretinas em parkinsonismo/dig transitório lento.\n- Estabilidade: solução preservada, frascos/em canetas refrigeradas (2–8ºC); descartar após 28 dias em temperatura ambiente. **Evidência:** Magnitude média de perda de peso (~15% em 72 semanas [SURMOUNT-1, n=2539, evidência A]), porém sem ECRs direcionados para aumento de massa magra em não-obesos. **Não prescrever**: para uso estético isolado, manipulação sem controle de pureza, associação com outros peptídeos não registrados. #### 4.1.2 Hormônios Sexuais **Testosterona (Homens com deficiência bioquímica/sintomática):**\n- Registro ANVISA: gel, injetável (enantato/cipionato/undecanoato), implante subcutâneo.\n- Doses: Individualizadas; ex: undecanoato IM 1000mg cada 10–14 semanas.\n- Monitoramento: PSA, hematócrito, hemácias, perfil lipídico, transaminases, testosterona total/livre, sintomas.\n- Conduta: estritamente para deficiência documentada/andropausa, NUNCA para performance/“anti-aging” ou uso cosmético [CFM 2.333/2023].\n- Mulheres: uso restrito (<300mcg/dia transdérmico), apenas em disfunção sexual refratária/documentada. **Estrógenos/Progesterona (Mulheres perimenopausa):**\n- Registro: vários, inclusive combinados.\n- Indicação: alívio de sintomas vasomotores, redução do risco de osteopenia; nunca para “fit” isolado ou indicacão estética.\n- Contraindicações: história de tromboembolismo, câncer hormônio-sensível.\n- Monitoramento semestral: mamas, endométrio, perfis coagulação/lipídico. #### 4.1.3 Secretagogos de GH - SERMORELINA, IPAMORELINA, CJC-1295, etc.: **NÃO RECOMENDADO** (nível D), sem registro ANVISA, ausência de ECRs robustos em humanos para ganhos funcionais em idosos/menopausa/recomposição.\n- Eventual uso de GH manipulado/injetável restrito ao hipopituitarismo e situações regulatórias claras — não para aging/fraqueza simples. #### 4.1.4 Soroterapia Nutricional Indicações restritas: deficiência mensurável, incapacidade de via oral (ex: pós-cirurgia bariátrica complexa, síndromes de má-absorção).\n- Soluções exclusivamente com rastreamento microbiológico, estabilidade validada, via periférica de curta duração, manipulação estéril de alto rigor (farmácias com ISO 5, USP <797>). #### 4.1.5 Proteína, Creatina e Anabolismo Nutricional - Otimizar ingestão proteica (1,2–1,5g/kg/dia, preferível na faixa alta para sarcopenia, evidência A).\n- Creatina monohidratada: 3–5g/dia, segurança robusta na população idosa e perimenopausa (redução de perda funcional em ensaios controlados, n=400+, A).\n- Leucina/beta-hidroxi-beta-metilbutirato (HMB): dados B/C, pode ser adjuvante. Tabela 2: Resumo das intervenções farmacológicas válidas e segurança | Fármaco/Substância | Registro ANVISA | Evidência | População | Dose/Frequência | Riscos/Monitoramento |\n|---------------------|----------------|---------------|-----------------------------|---------------------------|--------------------------|\n| Tirzepatida | Sim | A | Obesos, DM2 | 2,5–15mg SC/semana | GI, hipoglicemia |\n| Testosterona | Sim | A (deficiência)| Homens com hipogonadismo | Individualizada | PSA, sangue, efeitos 2º |\n| Soroterapia AA/vit | Manipulado | C | Nécessidade documentada | Individualizada | IV, microbiologia |\n| Creatina | Suplemento | A | Todos | 3–5g/dia | Raro: GI |\n| GH/Secretagogos | Não/Manip. irreg.| D | Rare/hipopituitarismo apenas| cf. bula – não p/ aging | Edema, DM2, neoplasia | --- ## 5. Estratégia de Conduta: Diagnóstico, Intervenção e Monitoramento ### 5.1 Diagnóstico Diferencial e Seleção de Casos **Idoso frágil com sarcopenia** - Avaliação multidimensional: força de preensão, marcha, SPPB, aplicação de EWGSOP2.\n- Excluir: miopatias secundárias, distúrbios endócrinos/eletrólitos, síndrome de imobilização. **Perimenopausa** - Rastreio de sintomas clássicos + DXA (densitometria) se alto risco.\n- Dosagens: FSH, estradiol, perfil lipídico, avaliação metabólica. **Pós-emagrecimento acentuado**\n- Rastreio: massa/força muscular, função hepática/renal, status ferritina/B12/zinco, proteinúria, bioimpedância/massa magra. ### 5.2 Conduta Passo a Passo — Algoritmo ```mermaid\nflowchart TD A[1. Definir população] --> B{Presença de deficiência hormonal?} B -- Sim --> C{Deficiência documentada e sintomática?} C -- Sim --> D[Reposição conforme registro] C -- Não --> E[NÃO repor hormônio] B -- Não --> F[2. Otimizar via nutricional e física] D --> G[3. Avaliar indicação de incretinas se DM2/obesidade] F --> G G --> H[4. Monitorar resposta: massa, força, performance] E --> I[Nutracêutico/adjuvante – somente com respaldo]\n``` ### 5.3 Checklist Doutiva — Prescrição para Populações Especiais - ❑ Deficiência documentada por exame laboratorial/funcional?\n- ❑ Fármaco registrado na ANVISA e uso on-label/off-label justificado?\n- ❑ Manipulação em farmácia habilitada, ambiente estéril e rastreamento de lote?\n- ❑ Consentimento informado detalhado e registro no prontuário?\n- ❑ Monitoramento planificado para riscos principais (ex: hematócrito, PSA, eletrólitos, eficiência nutricional)?\n- ❑ Revisão periódica com ajuste/suspensão quando sinais de risco ou ausência de benefício? --- ## 6. Monitoramento, Segurança e “O que não fazer” **Monitoramento**\n- Exames trimestrais/semestrais conforme intervenção: hormônios sexuais/testosterona (lipidograma, hemograma, enzimas hepáticas), função renal/hepática pós-soroterapia.\n- Rastreamento objetivo da função muscular (grip-test, SPPB, marcha, quedas).\n- Documentação rigorosa de efeitos adversos, consentimento, riscos. **O que NÃO prescrever/realizar**\n- Peptídeos “research” (ex: BPC-157, TB-500), não há registro ou ECRs clínicos ([S1]).\n- GH/secretagogos para fins de performance/longevidade em pacientes sem deficiência diagnosticada.\n- Soroterapia “drip” sem indicação clínica validada (risco de infecção, custos desnecessários).\n- Implantes de hormônios para fins cosméticos/estéticos sem deficiência documentada.\n- Doses suprafisiológicas de testosterona/estrógeno (maior risco CV, eventos adversos).\n- Omissão de avaliação funcional e laboratorial de evolução. --- ## 7. Pérolas e Prontuário - **Composição corporal funcional > números isolados**: priorize força, desempenho, mobilidade sustentável.\n- **Nutracêuticos nunca substituem diagnóstico ou farmacológico formal** — são adjuvantes.\n- **Registro e rastreabilidade**: garanta toda prescrição off-label/manipulada com justificativa e consentimento claro.\n- **Protocolos devem privilegiar intervenção multimodal** — aprox. 30–50% do ganho funcional advém do treinamento físico monitorado, não apenas reposição.\n- **Observe sempre:** qualquer manipulado injetável requer farmácia ISO 5, rastreio microbiológico e farmacêutico responsável. --- ## 8. Caso Clínico Brasileiro Realista **Mulher, 62a, chegou ao consultório com fadiga, dificuldade progressiva para levantar-se da cadeira, queda recente, IMC 27kg/m², circunferência abdominal 97cm, hipoatividade física. Exames: força de preensão 13kg, velocidade de marcha 0,7 m/s, DXA: massa magra apendicular 5,2kg/m². FSH 45 mUI/mL, estradiol 18 pg/mL.** Qual a melhor conduta inicial? A) Reposição de estrógeno transdérmico, prescrição de tirzepatida, indicação de soroterapia com aminoácidos e peptídeos anabólicos. B) Otimização proteica dietética, exercício resistido supervisionado, considerar estrógeno para sintomas vasomotores se presentes, sem farmacoterapia anabólica indiscriminada. C) Prescrição de testosterona injetável, uso de BPC-157 manipulado, treinamento funcional. D) Implementação de soroterapia IV semanal e início de GH manipulado. **Resposta correta:** B — Assegura conduta baseada em evidência (otimização nutricional e física, estrógeno se sintomática, avaliação funcional) sem uso não respaldado de anabólicos/fármacos não registrados/manipulados injetáveis como primeira linha. **Justificativa detalhada**: Estrógeno só deve ser considerado se sintomas vasomotores relevantes, nunca para ganho estético/muscular puro. Otimização proteica e exercício resistido são pilar insubstituível (evidência A). Prescrição de peptídeos anabólicos/BPC-157/GH sem registro/ECRs robustos é inadequada e não sustentada regulatoriamente. --- ## 9. Slides-resumo (8–12) ### Slide 1: Título\n#### Sarcopenia e recomposição corporal — Idoso, Perimenopausa, Recuperação Pós-Emagrecimento (Protocolos diferenciados, metas funcionais, segurança — Doutiva) ### Slide 2: Tabela Populacional\n| População | Ponto-chave | Risco principal |\n|-------------------|--------------------------------------|---------------------------|\n| Idoso frágil | Força↓, massa magra↓, quedas | Fraturas, dependência |\n| Perimenopausa | M. magra↓, V. visceral↑ | Sopreposição metabólica |\n| Pós-emagrecimento | Recomposição lenta, fadiga, força↓ | Incapacidade funcional | ### Slide 3: Pirâmide de evidência\n- A: Incretinas/hormônios sexuais (deficiência) - B–C: Nutracêuticos (creatina), manejo exercício/proteína - D: Secretagogos, research peptides (não usar) ### Slide 4: Algoritmo de conduta (mermaid flow prévio) ### Slide 5: Protocolos válidos — tabela detalhada (ver Tabela 2) ### Slide 6: Contra-indicações e erros comuns (bullets)\n- NÃO usar peptídeos não registrados\n- NÃO hormonizar/embelezar sem deficiência - NÃO soroterapia drip sem critério ### Slide 7: Monitoramento e segurança\n- Hemograma, PSA, função hepática/renal\n- Força muscular e marcha a cada 4–6 meses ### Slide 8: Pérolas clínicas\n- Composição funcional > estética\n- Multimodalidade = mais efetividade a longo prazo ### Slide 9: Caso clínico (texto resumido para discussão) ### Slide 10: Regulatório e ética BR (bullet)\n- ANVISA\n- CFM 2.333/2023 - Farmácia estéril ISO 5 ### Slide 11: Resumo rápido de prescrição (quick_ref, ver abaixo) ### Slide 12: Key Points (6 bullets) --- ## 10. Quick_Ref de Bolso | Situação | 1ª linha | 2ª linha / Considerações |\n|----------------------------------------------|---------------------------------------------|-----------------------------|\n| Idoso frágil/sarcopenia | Proteína 1,2–1,5g/kg/dia+exercício | Creatina 3–5g/dia, avaliar deficiência hormonal |\n| Mulher perimenopausa sem deficiência clara | Nutrição + exercício; reposição SÓ se sintomática e sem contraindicação | – |\n| Pós-emagrecimento agudo | Aporte energético + proteico, correção de microdeficiências | Creatina, avaliação médica endócrina |\n| Prescrição injetável/manipulada | SÓ registrada ANVISA, farmácia ISO 5 | Consentimento e follow-up | --- ## 11. Key Points (Bullet 5–7) - Prescrever intervenções farmacológicas apenas quando deficiência laboratorial e funcional estiver confirmada; nunca para melhoria estética isolada.\n- Preferir estratégias de recomposição multimodal — nutrição proteica otimizada, exercício resistido e manejo de comorbidades.\n- Qualquer manipulado injetável deve cumprir rigor ANVISA e farmacotecnia estéril (ISO 5); prescrição com consentimento e rastreamento.\n- Respeite as Resoluções CFM (incluindo 2.333/2023) ao indicar hormônios/implantes e documente tudo no prontuário.\n- Incretinas (GLP-1/GIP) são restritas a obesidade/DM2 — nunca para “modulação muscular” isolado.\n- Secretagogos de GH, research peptides e drip “wellness” não têm suporte científico-regulatório, devendo ser evitados.\n- Monitoramento funcional e laboratorial é obrigatório, incluindo ajuste/suspensão ao menor sinal de risco ou ineficácia. --- ## 12. Referências - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011\n- SWAN Study (Study of Women's Health Across the Nation): Santoro N, Sutton-Tyrrell K, Lasley BL, et al. Am J Obstet Gynecol. 2004;191(3):895-901. (Evidência B)\n- Cruz-Jentoft AJ et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31. (EWGSOP2, Evidência A)\n- WADA Prohibited List 2023.\n- CFM Resolução n° 2.333/2023.\n- ANVISA RDC nº 67/2007 (Boas Práticas de Manipulação em Farmácias).\n- Jäger R et al. International Society of Sports Nutrition Position Stand: Creatine Supplementation and Exercise. J Int Soc Sports Nutr. 2017;14:18.\n- Baseline clinical experience, bibliografia Doutiva e consensos internacionais. ```",
+  "quick_ref": "# Guia de Bolso: Sarcopenia em Populações Especiais | Situação | 1ª Linha Diagnóstico e Intervenção | 2ª Linha / Considerações |\n|---------------------------------|----------------------------------------------------|---------------------------------------------------|\n| Idoso frágil/sarcopenia | Avaliar força (grip <16/27kg), marche <0,8 m/s Otimizar proteína 1,2–1,5g/kg/dia, exercício resistido | Criatina 3–5g/dia, avaliação hormonal para deficiência |\n| Mulher perimenopausa sintomática | Avaliação DXA e hormonal FSH/estradiol Nutrição + exercício Reposição hormonal SOMENTE se sintomas e sem contraindicação | Monitorar riscos, suspender se efeitos adversos |\n| Pós-emagrecimento acentuado | Avaliar composição corporal e deficiências nutricionais Reposição calórica/proteica + corrigir vitaminas/minerais | Suplementar creatina, manejo endócrino integrado |\n| Prescrição injetável/manipulada | Somente fármacos registrados ANVISA e indicados\nManipulação em farmácia ISO 5 | Consentimento informado, monitoramento sistemático | **Red Flags:**\n- Uso de peptídeos não registrados (BPC-157, TB-500)\n- GH/secretagogos para fins anti-aging\n- Reposição hormonal estético sem deficiência documentada **Checklist Rápido:**\n- Deficiência diagnóstica clara?\n- Registro ANVISA?\n- Farmácia manipuladora autorizada (ISO 5)?\n- Consentimento informado registrado?\n- Monitoramento laboratorial e funcional agendado? *Alvo: segurança, eficácia e ética na prescrição em endocrinologia e nutrologia avançada.*",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "62 anos"
+      },
+      {
+        "label": "Força de preensão",
+        "value": "13 kg"
+      },
+      {
+        "label": "Velocidade de marcha",
+        "value": "0,7 m/s"
+      },
+      {
+        "label": "Massa magra apendicular (DXA)",
+        "value": "5,2 kg/m²"
+      },
+      {
+        "label": "FSH",
+        "value": "45 mUI/mL"
+      },
+      {
+        "label": "Estradiol",
+        "value": "18 pg/mL"
+      },
+      {
+        "label": "IMC",
+        "value": "27 kg/m²"
+      },
+      {
+        "label": "Circunferência abdominal",
+        "value": "97 cm"
+      }
+    ],
+    "title": "Mulher 62 anos com sarcopenia em perimenopausa",
+    "reward": 300,
+    "options": [
+      {
+        "label": "Reposição estrógeno transdérmico + tirzepatida + soroterapia peptídica",
+        "correct": false,
+        "rationale": "Uso excessivo e não respaldado de peptídeos e tirzepatida para recomposição muscular em ausência de obesidade/metabólica não indicado; risco de efeitos adversos e não recomendação regulatória."
+      },
+      {
+        "label": "Otimização proteica + exercício resistido + avaliar reposição estrógenos se sintomas presentes",
+        "correct": true,
+        "rationale": "Conduta alinhada à evidência e regulatório, priorizando medidas conservadoras e baseadas em déficit clássico e sintomas, evitando tratamentos manipulados sem base."
+      },
+      {
+        "label": "Testosterona injetável + BPC-157 manipulado + exercício funcional",
+        "correct": false,
+        "rationale": "Testosterona em mulher sem indicação clara não é recomendada e BPC-157 não possui registro ou evidência robusta, configurando potencial risco e prática antiética."
+      },
+      {
+        "label": "Soroterapia IV semanal + início de GH manipulado",
+        "correct": false,
+        "rationale": "Uso de soroterapia e GH manipulados em esquema não indicado, falta de respaldo científico e risco aumentado de complicações graves."
+      }
+    ],
+    "question": "Qual a melhor conduta inicial para manejo dessa paciente?",
+    "vignette": "Mulher de 62 anos procura atendimento por fadiga progressiva, dificuldade para levantar da cadeira, e episódio recente de queda. Apresenta IMC 27, circunferência abdominal 97 cm, inatividade física significativa. Avaliação funcional revela força de preensão manual de 13 kg e velocidade de marcha de 0,7 m/s. DXA evidencia massa magra apendicular de 5,2 kg/m². Perfil hormonal mostra FSH 45 mUI/mL e estradiol 18 pg/mL.",
+    "teaching": "O manejo ideal prioriza a otimização da nutrição proteica e o exercício resistido supervisionado, fundamentais para ganho funcional e recomposição da massa magra, com evidência robusta (nível A). A reposição de estrógeno é indicada apenas se sintomas vasomotores severos e ausência de contraindicações, sendo avaliada de forma criteriosa. Evitar terapias não respaldadas, como peptídeos anabólicos, secretagogos de GH, ou soroterapia manipulada, cuja segurança e eficácia são limitadas e sem registro ANVISA. A abordagem multidisciplinar e monitoramento funcional e laboratorial periódicos são essenciais para segurança e resposta terapêutica."
+  },
+  "refs": [
+    {
+      "citation": "Cruz-Jentoft AJ et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31."
+    },
+    {
+      "citation": "Santoro N, Sutton-Tyrrell K, Lasley BL, et al. Menopause-related changes in body fat distribution. Am J Obstet Gynecol. 2004;191(3):895-901."
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "American Diabetes Association. Standards of medical care in diabetes--2010. Diabetes Care. 2010;33 Suppl 1:S11."
+    },
+    {
+      "citation": "Jäger R et al. International Society of Sports Nutrition Position Stand: Creatine Supplementation and Exercise. J Int Soc Sports Nutr. 2017;14:18."
+    },
+    {
+      "citation": "CFM Resolução nº 2.333/2023, Código de Ética Médica e Normativas sobre Hormônios."
+    }
+  ],
+  "status": "published"
+}

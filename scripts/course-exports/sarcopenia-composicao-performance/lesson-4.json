@@ -1,0 +1,272 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Nutrição",
+  "module_position": 2,
+  "title": "Micronutrientes e adjuvantes: creatina, vitamina D, ômega-3 — evidência sóbria para sarcopenia, composição corporal e performance",
+  "description": "A aula aborda a fundamentação clínica, evidência científica robusta e regulamentação brasileira para o uso de creatina, vitamina D e ômega-3 na sarcopenia e otimização da composição corporal e performance. Discute doses recomendadas, vias legais, perfil de segurança, contraindicações e limitações, enfatizando condutas éticas no consultório para endocrinologistas, nutrólogos e clínicos. Inclui caso clínico realista e fluxograma de prescrição segura, alinhado às normas da ANVISA e CFM.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Creatina oral (monohidrato) é o adjuvante com maior respaldo para aumento de massa magra (~1kg) e força (+7kg leg press) em idosos e sarcopênicos no Brasil, com nível A de evidência.",
+    "Vitamina D confere modesto benefício na força muscular, sobretudo em pacientes com deficiência sérica (<20 ng/mL), reduzindo risco de fraturas maiores (RR 0,86; NNT ~25).",
+    "Ômega-3 (EPA/DHA, 1–2g/dia) apresenta efeito modesto, mas consistente, na massa magra e na redução da inflamação, válido principalmente em idosos e populações fragilizadas.",
+    "Vias intravenosas ou manipuladas de creatina, vitamina D e ômega-3 para performance ou sarcopenia não são aprovadas pela ANVISA e contrariam regulamentação CFM; uso restrito a indicação hospitalar e nutrição parenteral.",
+    "Produtos como GH, SARMs e peptídeos research não têm respaldo clínico nem regulatório para sarcopenia ou performance e são contraindicados.",
+    "Suplementação deve ser individualizada, monitorada laboratorialmente (25(OH)D, função renal) e sempre associada à avaliação dietética e prescrição de exercício resistido.",
+    "É fundamental respeitar a legislação brasileira, evitar megadoses e infusões não indicadas, e esclarecer o paciente sobre os efeitos e limitações dos adjuvantes nutricionais."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Micronutrientes e adjuvantes: creatina, vitamina D, ômega-3 — evidência sóbria para sarcopenia, composição corporal e performance",
+      "subtitle": "Módulo 2 · Nutrição · Doutiva Editorial/farmácia de manipulação estéril · 2026"
+    },
+    {
+      "head": [
+        "Agente",
+        "Populações",
+        "N principal ECRs",
+        "Magnitude do efeito",
+        "NNT/NNH",
+        "Nível de Evidência",
+        "Registro/Regulação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Creatina oral",
+          "Idoso, atleta, hospitalar crônico",
+          ">25+ meta(ECR)",
+          "↑ massa magra (~1kg); ↑ força (+7kg legpress)",
+          "NNT 5–8",
+          "A",
+          "Registrado (oral) ANVISA"
+        ],
+        [
+          "Creatina IV",
+          "Paciente crítico, experimental",
+          "Casos/séries",
+          "—",
+          "—",
+          "C (sem ECR)",
+          "Não aprovado IV no Brasil"
+        ],
+        [
+          "Vitamina D",
+          "Deficiência, idoso, DM2, sarcopenia, crônico",
+          ">30 meta(ECR)",
+          "↑ força discreta; RR 0,86 fraturas",
+          "NNT ~25",
+          "A",
+          "Diversos, dose limitada"
+        ],
+        [
+          "Ômega-3 (EPA/DHA)",
+          "Idoso, DM2, obesidade, miopatia, sarcopenia",
+          "~18 meta(ECR)",
+          "+0,33kg MM; força ↑",
+          "—",
+          "B–A",
+          "Registrado oral; IV restrito hospitalar"
+        ]
+      ],
+      "title": "Panorama comparativo dos adjuvantes nutricionais",
+      "source": "Dados extraídos de metanálises e normas ANVISA/CFM"
+    },
+    {
+      "kind": "bullets",
+      "title": "Creatina: farmacologia e evidência clínica",
+      "bullets": [
+        "Mecanismo: tamponamento ATP muscular e ativação de via mTOR e IGF-1",
+        "Monoidrato oral é padrão ouro; IV não aprovado e sem ECR robustos",
+        "Metanálises (>25 ECR): aumento médio de 1kg massa magra e +7kg força legpress",
+        "Sinergismo benéfico com treinamento resistido",
+        "Dose padrão: carga 20g/dia 5–7 dias, manutenção 3–5g/dia contínua",
+        "Segurança comprovada em DRC estágios 1–3; monitorar função renal",
+        "Contraindicado: miopatias progressivas, DRC estágio 4/5, abuso e uso off-label IV"
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Vitamina D: racional e limites",
+      "bullets": [
+        "Importante na modulação fosfo-cálcica e expressão gênica muscular (VDR)",
+        "Alta prevalência de deficiência em idosos (>50%)",
+        "Metanálises mostram redução discreta do risco de fratura (RR 0,86) e pequenos ganhos em força (2–4%)",
+        "Benefício maior em quem tem 25(OH)D <20ng/mL",
+        "Dose habitual: 800–2.000 UI/dia com reavaliação laboratorial",
+        "Não usar via IV para performance ou sarcopenia em ambulatório",
+        "Monitorar 25(OH)D, cálcio e função renal para prevenir toxicidade",
+        "Não administrar suplementação em pacientes com 25(OH)D >40ng/mL"
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Ômega-3 (EPA/DHA): evidência e uso clínico",
+      "bullets": [
+        "Atua na síntese proteica muscular e tem efeito anti-inflamatório sistêmico",
+        "Meta-análise (18 ECRs): ganho modesto de massa magra (+0,33kg) e força",
+        "Benefício observado especialmente em idosos, DM2, sarcopenia, caquexia",
+        "Dose oral recomendada: 1–2 g/dia EPA+DHA, segura até 3g/dia",
+        "Via parenteral restrita a nutrição hospitalar; não indicado para sarcopenia ambulatorial",
+        "Monitorar perfil lipídico e função hepática em uso prolongado",
+        "Evitar associação com anticoagulantes sem avaliação especialista"
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [],
+      "title": "Fluxo prático para indicação de adjuvantes em idosos com risco de sarcopenia"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Indicação: casos com diagnóstico confirmado de deficiência, sarcopenia, fragilidade vinculados a exames laboratoriais e clínica",
+          "Uso de dose padrão ajustada ao paciente, preferindo via oral e com acompanhamento regular"
+        ],
+        "label": "Quando indicar"
+      },
+      "right": {
+        "items": [
+          "Evitar uso IV/manipulado sem registro e sem respaldo em ECRs",
+          "Não prescrever GH, SARMs, peptídeos de pesquisa para sarcopenia ou longevidade",
+          "Não usar megadoses sem deficiência comprovada",
+          "Evitar ‘drip therapy’/soroterapia para performance ou estética sem evidência"
+        ],
+        "label": "Quando evitar"
+      },
+      "title": "Conduta ética: quando indicar vs. quando evitar suplementos"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Pérolas práticas para prescrição segura e eficaz"
+    },
+    {
+      "head": [
+        "Critério",
+        "Creatina oral",
+        "Vitamina D oral",
+        "Ômega-3 oral",
+        "Vias IV/manipuladas"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Indicada",
+          "Sim",
+          "Sim",
+          "Sim (dose moderada)",
+          "Nunca (exceto protocolos hospitalares Nutrição Parenteral)"
+        ],
+        [
+          "Uso em déficit laboratoriais",
+          "Sim",
+          "Sim",
+          "Sim",
+          "Não"
+        ],
+        [
+          "Uso off-label (performance, estética)",
+          "Não",
+          "Não",
+          "Não",
+          "Não"
+        ]
+      ],
+      "title": "Conduta rápida: suplementação oral e restrições IV",
+      "source": "Baseado em ANVISA, CFM e evidências clínicas"
+    },
+    {
+      "kind": "pearl",
+      "text": "Paciente 72 anos, DM2, sarcopenia, deficiência vitamina D e massa magra baixa",
+      "title": "Caso clínico integrado: prescrição alinhada às evidências e regulamentos"
+    }
+  ],
+  "monograph": "# Módulo 2 · Nutrição — Micronutrientes e Adjuvantes: Creatina, Vitamina D, Ômega-3 _Evidência Sóbria para Composição Corporal, Sarcopenia e Performance_ **Doutiva Editorial/farmácia de manipulação estéril · 2026** --- ## 1. Contexto e Relevância Clínica ### 1.1. Sarcopenia, Composição Corporal e Adjuvância Nutricional O envelhecimento populacional, a epidemia de obesidade sarcopênica e o crescente interesse clínico em otimizar função muscular, qualidade de vida e desfechos metabólicos reavivaram o debate sobre o papel de micronutrientes e adjuvantes nutricionais. Endocrinologistas e nutrólogos, particularmente na interconsulta de longevidade e performance, buscam respaldo rigoroso para prescrição individualizada, que frequentemente extrapola diretrizes de saúde pública. Produtos manipulados de pureza farmacêutica, com rastreio estéril (vias parenterais), demandam criteriosa avaliação da robustez das evidências, impactando decisões diagnósticas e terapêuticas, relação médico-paciente e posicionamento perante ANVISA, CFM (incluindo a Resolução 2.333/2023 para hormônios/estética) e as melhores práticas em manipulação hospitalar estéril. Este capítulo de referência aborda, com a sobriedade requerida, três agentes frequentemente discutidos para manejo de sarcopenia, recomposição corporal e otimização da performance: creatina, vitamina D e ômega-3 (EPA/DHA). --- ## 2. Bases Científicas dos Adjuvantes Selecionados ### 2.1. Critérios de Inclusão e Exclusão **Inclusão:** - Adjuvantes com ≥1 metanálise de ECR (classe A) ou ECR fase 3 para sarcopenia, função muscular ou performance física.\n- Segurança e eficácia em populações de adultos, idosos, portadores de DM2, obesidade ou contexto de reabilitação pós-aguda. **Exclusão:** - Peptídeos “research” anti-aging (BPC-157, GH, SARMs, etc.), anabolizantes sem registro (S1), ou protocolos experimentais sem fase clínica relevante.\n- “Drip therapy”/intravenosa sem respaldo em deficiência laboratorial clara ou evidência concreta de benefício. --- ## 3. Evidência Clínica Crítica — Panorama Comparativo | Agente | Populações | N principais ECRs | Magnitude do efeito* | Desfecho/IC95% | NNT/NNH | Nível de Evidência | Registro/Regulação |\n|-----------------------|----------------------------------------------|-------------------|----------------------|------------------------------------------|----------|--------------------|----------------------------|\n| **Creatina oral** | Idoso, atleta, hospitalar crônico | >25+ meta(ECR) | ↑ massa magra (~1kg) | ↑ força (MD +7kg no legpress), QV↑ | NNT 5–8 | A | Registrado (oral) — ANVISA |\n| **Creatina IV** | Paciente crítico, experimental | Casos/sérias | — | Sem ECR robusto | — | C (sem ECR) | Não aprovado IV no Brasil |\n| **Vitamina D** | Deficiência, idoso, DBM, SARC, crônico | >30 meta(ECR), RX | ↑ força discreta | RR 0,86 (IC 0,72–0,99) fratura maiores | NNT ~25 | A | Diversos, dose limitada |\n| **Ômega-3 (EPA/DHA)** | Idoso, DM2, obesidade, miopatia, SARC | ~18 meta(ECR) | +0,33kg MM, força↑ | Redução inflamação, ↑ síntese proteica | — | B–A | Registrado oral, IV restr. |\n*Estimativas médias, efeitos variam por baseline, sexo, dieta e protocolo. --- ## 4. Creatina: Eixo Pragmático para Sarcopenia e Performance ### 4.1. Fisiologia e Farmacologia - **Mecanismo:** tamponamento de ATP muscular, modulação do trofismo via ativação mTOR e IGF-1, possível benefício em função cognitiva (S1).\n- **Formas disponíveis:** monohidrato (oral, padrão ouro), outros sais (sem vantagem clínica clara); manipulado oral legal; IV não aprovado (S1).\n- **Farmacocinética:** biodisponibilidade gastrointestinal 95%; pico plasmático em 1–2h. ### 4.2. Evidência Crítica (Resumo quantitativo) - **Metanálises ECR (>25, adultos/idosos):** - ↑ massa magra: média ~1kg (IC 0,6–1,5kg) - ↑ força leg press: +7kg (IC 2–12kg, NNT 6) - ↑ performance funcional: subida de degrau, teste de preensão manual est. MD +2kgf - Efeito mais robusto se associada ao treinamento resistido (sinergismo).\n- **Populações clínicas:** - Pós-hospitalização (ECR): menores quedas, ↑ desempenho físico (S1). - Pós-AVC: ↑ massa magra periférica; insuficiente para recomendar como única estratégia. - Sarcopenia primária: melhora marginal (boa adjuvância, não tratamento exclusivo). ### 4.3. Doses, Vias e Manuseio - **Dose oral padrão**: - Carga: 20g/dia (dividido 4x ao dia) x 5–7 dias - Manutenção: 3–5g/dia contínuo\n- **Duração:** Mensal a indefinida (segura em CKD estágio 1–3) [ECR, meta]\n- **Vias parenterais (IV):** Não aprovado Brasil/ANVISA; sem ECR Humanos Fase 2/3. Risco de nefrotoxicidade, instabilidade, ausência de bula válida [S1]. ### 4.4. Populações/Indicações - Sarcopenia, idosos, hospitalizados pós-agudo, atletas máster.\n- CID: M62.84, E44, Z91.\n- **Contraindicação:** DRC estágio 4/5, miopatias progressivas hereditárias, uso sem indicação clínica/marcador objetivo. ### 4.5. Monitorização e Segurança - Raramente eleva creatinina, sem toxicidade muscular relevante em doses padrão; monitorar função renal em nefropatas pré-existentes.\n- Não precipitar em “drip personalizado” ou uso IV não certificado por ANVISA. ### 4.6. Recomendações Regulatórias - Manipulação estéril restrita a oral; não prescrever IV/manipulado para uso hospitalar fora de protocolo aprovado.\n- ANVISA e CFM: seguir Resolução 2.333/2023 (vedação para fins estéticos “embora não seja hormônio”, por analogia prudencial). --- ## 5. Vitamina D: Racionalidade e Limites de Evidência ### 5.1. Fisiologia e Indicação - Modulação do metabolismo fosfo-cálcico, expressão gênica em miócitos (VDR).\n- Prevalência de deficiência é alta em idosos, institucionalizados (>50%). ### 5.2. Revisão Quantitativa - **Metanálises/Guidelines (A):** - Redução de risco de fratura maior: RR 0,86 (IC95% 0,72–0,99), NNT ~25–35 - Ganho de força modesto: 2–4% preensão manual, sem reversão isolada de sarcopenia. - Sinergismo com exercícios/proteína. - **Populações-alvo:** - Pacientes com 25(OH)D <20ng/mL: maior benefício. - DFU/DBM/cirurgia ortopédica: evidências para função muscular/perfil inflamatório (B). ### 5.3. Doses, Vias e Manuseio - **Oral:** - Colecalciferol usual: 800–2.000UI/d, ajustar pela 25(OH)D. - Doses de reposição em deficiência severa: até 50.000UI/sem por 8–12 semanas.\n- **IV:** Somente para hipocalcemia aguda, não indicado para otimização muscular/sarcopenia em ambulatório; não manipulável para esse fim (CFM/ANVISA). ### 5.4. Monitorização - 25(OH)D sérica (meta ideal: 30–50ng/mL)\n- Cálcio, PTH, função renal para evitar toxicidade. ### 5.5. Limites — O que NÃO prescrever - Infusão endovenosa de vitamina D para “performance”/“imunidade” em pacientes eugônicos\n- Suplementação oral em pacientes com 25(OH)D >40ng/mL --- ## 6. Ômega-3 (EPA/DHA): Papel em Massa Magra, Inflamação e Funcionalidade ### 6.1. Fisiologia - Atuam na síntese proteica muscular (ativação mTOR), anti-inflamatório sistêmico (↓ TNFα, IL-6), modulação do turnover de membrana e sinalização de membrana muscular. ### 6.2. Evidência Clínica (B–A) - **Metanálise (n>3.500, 18 ECR):** - Ganho de massa magra: MD +0,33kg (IC 0,14–0,52) - Força: aumento pequeno, consistente - Melhora de inflamação sistêmica, qualidade muscular funcional (↑ mobilidade, queda↓) - **Populações-alvo:** - Idosos, fragilizados, pós-AVC, caquexia neoplásica (efeitos modesto a intermediários). - Nenhum ECR robusto para uso isolado como adjuvante em atletas jovens saudáveis. - Eventual sinergismo com dieta proteica/treino resistido. ### 6.3. Doses, Vias e Limitações Regulatórias - **Oral** (cápsulas/óleos): 1–2g/dia de EPA+DHA para desfechos musculares, segurança até 3g/dia (FDA, ANVISA).\n- **Parenteral/Intravenosa:** restrito a ambiente hospitalar (nutrição parenteral), não indicado para performance ou sarcopenia ambulatorial.\n- **Manipulação:** permitido manipulado oral; IV apenas hospitalar via protocolos Nutrição Parenteral Total (ANVISA RDC 63/2000, 275/2002). ### 6.4. Monitorização - Perfil lipídico, agregação plaquetária em anticoagulados, função hepática em doses elevadas.\n- Não combina com varfarina/dabigatrana sem avaliação multiprofissional. --- ## 7. Fluxo Prático: Conduta Ética e Segura no Consultório Brasileiro | Paciente | Critério Laboratorial | Suplementação Indicada | Dose/Esquema | Vias Dispensáveis | Não Prescrever |\n|-----------------------|------------------------------|-------------------------------|------------------------------------|----------------------|---------------------------|\n| Sarcopênico idoso | <20ng/mL (25(OH)D) | Creatina, Vitamina D | Creatina: 3–5g/dia oral contínuo | Oral | IV/Drip/Research peptide |\n| Idoso frágil >70a | <30ng/mL (Vit D) | Ômega-3, Vit D, Creatina* | Ômega-3: 1,5g/d; VitD 1000UI/d | Oral | Infusão IV vitamina D |\n| DM2/longo prazo | Documentação de deficiência | Creatina, VitD, +/-EPA/DHA | Conforme necessidade | Oral | GH/SARM peptídeos |\n| Atleta máster | Normovitaminêmico | Creatina (se indicação) | Creatina: 3–5g/dia | Oral | Doses supraproteicas |\n*Sinergismo documentado, lembrar ajuste renal --- ## 8. Caso Clínico Integrado: Cenário Brasileiro Realista ### Paciente\n- Sexo masculino, 72 anos\n- Queixa: fraqueza, marcha lenta, quedas recentes\n- Comorbidades: DM2, HAS, IC leve (FE 48%)\n- Peso/altura: 68kg/1,70m (IMC 23,5), massa magra baixa em DEXA\n- Laboratório: 25(OH)D = 14ng/mL; CK normal; função renal TFG 58ml/min\n- Dieta hipoproteica insuficiente (1g/kg/d)\n- Medicações: metformina, enalapril, aspirina ### Pergunta: Qual prescrição inicial está mais alinhada às melhores evidências e limitações brasileiras? 1. **Creatina monoidratada 3g/d oral + colecalciferol 2000UI/d oral + aconselhamento proteico** 2. Creatina IV 1g/d, colecalciferol IV mensal, ômega-3 3g/d oral 3. GH SC, sarms manipulados, creatina oral 20g/d 4. Apenas orientação de exercício físico, sem suplementação **Resposta correta: 1.** - Creatina oral (3g/d) + Vitamina D por deficiência + encaminhamento nutricionista/proteína (sarcopenia, DM2, função renal estável) apoia-se em múltiplos ECR/metanálises (NNT relevante), seguro para a função renal/IC leve e plenamente regular no Brasil. - EVITAR via IV, GH, SARMs (ausência de registro; CFM) e altas doses não respaldadas. **Comentário:** A terapia combinada potencializa reabilitação funcional, minimiza riscos e respeita limitações regulatórias nacionais (manipulação apenas oral; IV proibido para esses fins). --- ## 9. O que NÃO fazer - **Nunca** prescrever creatina, vitamina D ou ômega-3 IV/manipulado sem registro/circunstância hospitalar controlada.\n- Não adotar “drip therapy”/soroterapia para performance ou estética sem evidência e sem deficiência laboratorial.\n- Nunca propor GH, SARMs ou peptídeos research para finalidade de sarcopenia/longevidade (CFM, S1).\n- Não administrar doses suprafisiológicas (“megadoses”) sem deficiência demonstrada.\n- Não sobrepor fontes (multivitamínicos com alta concentração + manipulado). --- ## 10. Pérolas Práticas e Checklist de Elaboração de Prescrição - Documente o racional (CID/ICD, exames, histórico, objetivos pactuados)\n- Prefira formas orais, com farmácia com BPF e Boas Práticas de Manipulação\n- Individualize a dose, evite “fórmulas padrão” sem ajuste para função renal, idade, dieta\n- Programe reavaliação funcional e laboratorial (força, 25(OH)D, função renal)\n- Sinalize efeito esperado e limite de expectativa (ganhos moderados, não “cura”)\n- Esclareça paciente sobre diferenças entre “adjuvante” e “anabólico”\n- Verifique interações medicamentosas em polifarmácia (anticoagulantes, DRC) --- ## 11. Referências Selecionadas e Comentadas - **S1. Posicionamento Doutiva:** Hierarquia de evidências para peptídeos/adjuvantes, boas práticas e regulação de manipulação.\n- **Cochrane Database Syst Rev 2022:** Effect of creatine supplementation on muscle mass and strength in older adults—meta-analysis.\n- **JAMA 2017; BoneKEy Rep 2015:** Vitamina D e risco de fratura/força muscular—revisões sistemáticas.\n- **J Cachexia Sarcopenia Muscle 2020:** EPA/DHA em composição corporal e massa muscular—metanálise.\n- **Resolução CFM 2.333/2023:** Limites legais para hormônios e terapias adjuvantes.\n- **ANVISA RDCs 275/2002, 63/2000:** Boas práticas para nutrição parenteral.\n- **Guideline: EWGSOP2 (2019), OPAL Consensus (2022):** Diagnóstico e manejo da sarcopenia.\n- **S1; S2; literatura internacional auditada.** --- ## 12. Slides de Ensino (Resumo Visual e Operacional) ### Slide 1. _Título_ Micronutrientes e adjuvantes: creatina, vitamina D, ômega-3 — o que prescrever, a quem, no Brasil? ### Slide 2. _Fundamentos_ - Sarcopenia: prevalência crescente\n- Otimização da função muscular: base multidisciplinar\n- Critérios éticos e regulatórios reforçados ### Slide 3. _Tabela comparativa densa_ | Agente | Pop-alvo | Ganho MM | Ganho força | Evidência | Limite regulação | |---|---|---|---|---|---| | Creatina oral | Idoso, DM2 | ↑1kg | ↑7kg leg press | A | Sim | | Creatina IV | Crit, rehab | — | — | C | Não* | | Vit D | Deficiência | Marginal | 2–4% ↑ | A | Sim | | Ômega-3 | Idoso | +0,3kg | Marginal | B | Sim* | ### Slide 4. _Bullets densos: Creatina_ - Padrão ouro: monohidrato oral (3–5g/dia)\n- Sinergismo com exercício/proteína\n- Potencialização em idosos, pacientes de risco\n- EVITAR IV/manipulado não autorizado ### Slide 5. _Bullets densos: Vitamina D_ - Maior benefício em <20ng/mL\n- Efeitos discretos na força, robustos na composição óssea\n- Monitorizar 25(OH)D, cálcio, renal\n- Não usar IV para performance ### Slide 6. _Bullets densos: Ômega-3_ - EPA/DHA 1–2g/dia, efeito modesto mas seguro\n- Antioxidante/anti-inflamatório, possível impacto sinérgico\n- Não via drip/IV exceto NPT hospitalar ### Slide 7. _Flowchart sintético_ Idoso → (↑ risco/↓MM) → Confirmar deficiência? → Sim: Creatina oral + VitD/Ômega-3 → Não: aconselhamento, reavaliação funcional ### Slide 8. _Conduta ética (split)_ Esquerda: Quando indicar (laboratório, função, anamnese) Direita: Quando não indicar (IV/off-label, sem déficit) ### Slide 9. _Pérolas/checklist_ - Avalie dieta antes de suplementar\n- Revise risco/interação em polifármacos\n- Documente CID, função, limitações\n- Atualize conhecimento regulatório ### Slide 10. _Caso clínico_ 72 anos, DM2, massa magra ↓, VitD déficit → Creatina oral + VitD + dieta; evitar IV, “drip”, research ### Slide 11. _Tabela conduta rápida_ Critério | Creatina oral | Vit D oral | Ômega-3 oral | IV? --- | Y | Y | Y (dose) | Nunca* ### Slide 12. _Resumo de decisão_ - Evidência: forte para creatina oral, moderada para VitD/Ômega-3 em déficit\n- Regulação: restringe IV/manipulado\n- Individualização é chave --- ## 13. Quick_ref de Bolso - Creatina: 3–5g/d PO, NNT 5–8, ↑MM/força, sem IV\n- Vitamina D: 800–2.000UI/d, só deficitários, monitorizar 25(OH)D\n- Ômega-3: 1–2g/d (EPA+DHA), via oral\n- Não adotar IV para performance/sarcopenia ambulatorial\n- Não usar GH/research peptídeos para longevidade ou recomposição\n- Sinergismo prioritário dieta+exercício+adjuvante bem indicado --- ## 14. Key Points 1. Creatina monoidratada oral é o adjuvante com maior respaldo para ganho de massa magra e força em idosos e sarcopênicos no Brasil.\n2. Vitamina D suplementar oferece modesto benefício para força, devendo ser indicada quando há deficiência documentada.\n3. Ômega-3 (EPA/DHA) pode contribuir de forma adjuvante em sarcopenia, mas seu impacto é modesto e restrito a subgrupos de risco.\n4. Vias IV/manipuladas de creatina/vitamina D/ômega-3 não têm respaldo legal para performance, recomposição ou longevidade no Brasil ambulatorial.\n5. “Drip therapy”, GH, SARMs e peptídeos não registrados são contraindicados por ausência de eficácia/supervisão e riscos éticos/legais.\n6. Monitorização laboratorial e funcional é obrigatória ao uso prolongado.\n7. A prescrição ética alia evidência clínica densa, personalização e estrita obediência às normas ANVISA/CFM. --- # FIM",
+  "quick_ref": "Creatina monoidratada oral: 3–5g/dia, NNT 5–8, melhora massa magra e força, sem uso IV autorizado no Brasil.\nVitamina D: dose 800–2.000 UI/dia, indicada para 25(OH)D <20ng/mL, monitorar cálcio e função renal, evitar doses IV para performance.\nÔmega-3 (EPA/DHA): 1–2g/dia oral, principalmente em idosos e com comorbidades, uso IV restrito a nutrição hospitalar.\nNão prescrever via IV para performance, estética ou longevidade sem evidência e registro.\nEvitar GH, SARMs, peptídeos não regulados.\nPrescrição individualizada, documentação clínica e acompanhamento laboratorial são essenciais.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "72 anos"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "DM2, HAS, IC leve (FE 48%)"
+      },
+      {
+        "label": "Massa magra (DEXA)",
+        "value": "Baixa"
+      },
+      {
+        "label": "25(OH)D",
+        "value": "14 ng/mL (deficiência)"
+      },
+      {
+        "label": "Função renal",
+        "value": "TFG 58 ml/min"
+      },
+      {
+        "label": "Dieta",
+        "value": "Hipoproteica, 1g/kg/dia insuficiente"
+      },
+      {
+        "label": "Medicações",
+        "value": "Metformina, enalapril, aspirina"
+      }
+    ],
+    "title": "Idoso com fraqueza e sarcopenia associada a DM2 - Abordagem Nutricional",
+    "reward": 50,
+    "options": [
+      {
+        "label": "Creatina oral 3g/dia + Colecalciferol 2000 UI/dia + Aconselhamento proteico",
+        "correct": true,
+        "rationale": "Conduta respaldada por metanálises e orientações nacionais, segura para função renal, ajusta deficiência laboratorial, promove ganhos musculares, respeita regulamentação ANVISA/CFM."
+      },
+      {
+        "label": "Creatina IV 1g/dia + Colecalciferol IV mensal + Ômega-3 3g/dia oral",
+        "correct": false,
+        "rationale": "Uso IV não aprovado pela ANVISA, risco de toxicidade e ilegalidade; não recomendado para sarcopenia no Brasil."
+      },
+      {
+        "label": "GH SC + SARMs manipulados + Creatina oral 20g/dia",
+        "correct": false,
+        "rationale": "GH e SARMs sem registro e evidência clínica robusta para sarcopenia; doses elevadas de creatina sem indicação aumentam risco de eventos adversos e são contraindicadas."
+      },
+      {
+        "label": "Apenas orientação de exercício físico, sem suplementação",
+        "correct": false,
+        "rationale": "Embora exercício seja fundamental, pacientes com deficiência de Vitamina D e sarcopenia associada a DM2 beneficiam-se comprovadamente de suplementação combinada, com melhora funcional superior."
+      }
+    ],
+    "question": "Qual a conduta inicial mais apropriada para manejo da sarcopenia nesse paciente, considerando a evidência e a regulação brasileira?",
+    "vignette": "Paciente masculino, 72 anos, DM2, hipertensão e insuficiência cardíaca leve, relata fraqueza progressiva, dificuldade para realizar atividades diárias e quedas recentes. Avaliação corporal com DEXA mostra massa magra reduzida; 25(OH)D está em 14 ng/mL. Função renal levemente reduzida (TFG 58 ml/min). Dieta insuficiente em proteínas.",
+    "teaching": "A abordagem mais segura e efetiva nesse caso é iniciar creatina monoidratada 3g/dia por via oral, associada à suplementação de vitamina D (colecalciferol 2000 UI/dia) corrigindo a deficiência detectada. É imprescindível o aconselhamento nutricional para adequar a ingestão proteica e incentivar exercício resistido, de preferência supervisionado. Evitar vias intravenosas (creatina ou vitamina D), doses supraterapêuticas ou uso de peptídeos/anabolizantes não aprovados. Monitorar a função renal e níveis séricos de 25(OH)D periodicamente, ajustando a dose conforme resposta. Esta conduta está alinhada com evidências de metanálises e respeita as regulamentações da ANVISA e CFM para manipulação e prescrição segura no Brasil. O uso de creatina oral tem robusta evidência (nível A) para ganho de massa magra e força, mesmo em pacientes idosos com comorbidades, e vitamina D suplementar reduz risco de fraturas e contribui para força muscular quando há deficiência. Ômega-3 pode ser considerado em fases posteriores se houver inflamação crônica evidente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Effect of creatine supplementation on muscle mass and strength in older adults: a systematic review and meta-analysis of randomized controlled trials. Cochrane Database Syst Rev. 2022;"
+    },
+    {
+      "citation": "Vitamin D supplementation and risk of fractures: a meta-analysis. JAMA. 2017;"
+    },
+    {
+      "citation": "The effect of omega-3 fatty acids on muscle mass and function in older adults: a systematic review and meta-analysis. J Cachexia Sarcopenia Muscle. 2020;"
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 - Limites legais para hormônios e terapias adjuvantes"
+    },
+    {
+      "citation": "ANVISA RDC nº 63/2000 e 275/2002 - Boas práticas para nutrição parenteral"
+    },
+    {
+      "citation": "EWGSOP2: Revised European consensus on definition and diagnosis of sarcopenia. Age Ageing. 2019;"
+    }
+  ],
+  "status": "published"
+}

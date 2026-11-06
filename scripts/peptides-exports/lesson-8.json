@@ -1,0 +1,334 @@
+{
+  "position": 8,
+  "module": "Módulo 5 · Prática clínica",
+  "module_position": 5,
+  "title": "Protocolo de Incretina no Consultório Brasileiro: Triagem, Escolha, Titulação, Falha e Manutenção",
+  "description": "A aula aborda o uso clínico de agonistas de incretina no consultório brasileiro, enfocando triagem rigorosa, escolha entre semaglutida e tirzepatida segundo indicação, esquema progressivo de titulação, manejo da intolerância gastrointestinal, critérios de resposta à terapia, manutenção e conduta na falha terapêutica. Considera evidências robustas para semaglutida e tirzepatida da fase 3 e recomendações regulatórias e éticas locais (ANVISA, CFM). Explica a barreira do custo e a proibição do uso de peptídeos manipulados e off-label sem consentimento. Apresenta casos e fluxogramas para otimizar segurança, adesão e resultados em obesidade e diabetes tipo 2 com alto risco cardiometabólico.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Semaglutida e tirzepatida possuem evidência robusta fase 3 para obesidade e DM2, com protocolos padronizados segundo registro ANVISA e CFM.",
+    "Titulação lenta progressiva sobre semanas reduz efeitos adversos gastrointestinais e melhora adesão.",
+    "Uso off-label de tirzepatida para obesidade requer consentimento informado e rigor documental.",
+    "Manipulação de peptídeos (farmácia magistral) é proibida, insegura e não recomendada clinicamente.",
+    "Critérios objetivos de resposta (≥5% em 12 sem, ≥10% em 6 meses, ≥15% em 1 ano) guiam continuidade ou troca da terapia.",
+    "Monitoramento laboratorial e clínica rigorosos previnem complicações e orientam adequação terapêutica.",
+    "O custo e acesso são barreiras reais a serem discutidas com o paciente, impactando a decisão clínica."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Protocolo de Incretina no Consultório Brasileiro: Triagem, Escolha, Titulação, Falha e Manutenção"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Indicação ANVISA",
+        "Off-label",
+        "Manipulado",
+        "Proibido"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida DM2/Obesidade",
+          "Sim",
+          "Não",
+          "Não",
+          "Sim"
+        ],
+        [
+          "Tirzepatida DM2",
+          "Sim",
+          "Obesidade",
+          "Não",
+          "Sim"
+        ],
+        [
+          "Cagrilintida",
+          "Não",
+          "Não",
+          "Não",
+          "Sim"
+        ],
+        [
+          "Retatrutida",
+          "Não",
+          "Não",
+          "Não",
+          "Sim"
+        ]
+      ],
+      "title": "Registro, Indicação e Aspectos Regulatórios dos Agonistas de Incretina",
+      "source": "Dados baseados em recomendações CFM 2.333/2023 e ANVISA."
+    },
+    {
+      "bars": [
+        {
+          "label": "Semaglutida ~ -13%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida ~ -18%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Cagrilintida + Semaglutida ~ -20%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Retatrutida ~ -24%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Valores médios observados nos respectivos ensaios clínicos.",
+      "unit": "%",
+      "title": "Redução Média de Peso (%) em Ensaios Clínicos Pivô",
+      "source": "Metanálises e estudos de fase 2 e 3 [S16, S25, S26]"
+    },
+    {
+      "head": [
+        "Estudo",
+        "Peso (%)",
+        "HbA1c (%)",
+        "Adesão (%)",
+        "Δ MACE (HR/IC95%)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "STEP 1 (Obesidade)",
+          "-14.9",
+          "-",
+          "85",
+          "Não determinado"
+        ],
+        [
+          "SURMOUNT-1 (Obesidade)",
+          "-15 a -21",
+          "-",
+          "83",
+          "Não determinado"
+        ],
+        [
+          "REDEFINE-1 (Obesidade)",
+          "-20.4",
+          "-",
+          "81",
+          "Não determinado"
+        ],
+        [
+          "Retatrutide Fase 2",
+          "-8 a -24",
+          "-",
+          "79",
+          "Não determinado"
+        ]
+      ],
+      "title": "Resumo dos Principais Desfechos dos Ensaios Clínicos com Agonistas de Incretina",
+      "source": "Ensaios clínicos publicados e em andamento, dados adaptados [S16, S25, S26]."
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Realizar triagem clínica e exames laboratoriais básicos"
+        },
+        {
+          "label": "2. Confirmar indicação conforme registro ANVISA e excluir contraindicações absolutas"
+        },
+        {
+          "label": "3. Escolher fármaco: semaglutida ou tirzepatida conforme perfil e acesso"
+        },
+        {
+          "label": "4. Aplicar termos de consentimento e documentação rigorosa, especialmente para off-label"
+        },
+        {
+          "label": "5. Iniciar titulação progressiva conforme protocolo específico"
+        },
+        {
+          "label": "6. Monitorar resposta clínica e efeitos adversos em 12, 24 e 48 semanas"
+        },
+        {
+          "label": "7. Caso falha ou intolerância, avaliar adesão, ajustar dose ou trocar classe"
+        }
+      ],
+      "title": "Fluxograma Simplificado para Início e Manejo de Incretinas no Consultório"
+    },
+    {
+      "head": [
+        "Semana",
+        "Semaglutida",
+        "Tirzepatida"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "0–4",
+          "0.25",
+          "2.5"
+        ],
+        [
+          "5–8",
+          "0.50",
+          "5"
+        ],
+        [
+          "9–12",
+          "1.0",
+          "7.5"
+        ],
+        [
+          "13–16",
+          "1.7",
+          "10"
+        ],
+        [
+          "≥17",
+          "2.4",
+          "12.5 a 15"
+        ]
+      ],
+      "title": "Esquema de Titulação Semaglutida e Tirzepatida",
+      "source": "Protocolo clínico baseado em bula e recomendações [S1, S26]."
+    },
+    {
+      "kind": "bullets",
+      "title": "Indicadores de Alerta e Riscos no Uso de Incretinas",
+      "bullets": [
+        "Pancreatite ou dor epigástrica persistente – suspenda e avalie",
+        "Vômitos persistentes prolongados – ajuste ou pause titulação",
+        "Perda rápida e excessiva de massa magra (>10%)",
+        "Alterações significativas de enzimas hepáticas sem outra causa evidente",
+        "Avaliar sinais neuropsiquiátricos associados"
+      ]
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Semaglutida e tirzepatida originais registrados e titulados",
+          "Uso off-label com consentimento (tirzepatida em obesidade)",
+          "Nunca manipular peptídeos (risco ético, legal e clínico)",
+          "Peptídeos experimentais (retatrutida, survodutida, cagrilintida) só em pesquisa"
+        ],
+        "label": "Prescrição Ética"
+      },
+      "right": {
+        "items": [
+          "Manipulados/compostos magistrais",
+          "Agonistas sem registro ou para pesquisa off-label não autorizados",
+          "Peptídeos regenerativos sem evidência clínica robusta (BPC-157, TB-500)",
+          "Uso em vias não aprovadas (ex: IM, intra-articular)"
+        ],
+        "label": "Condutas Proibidas"
+      },
+      "title": "Fronteira Terapêutica: O Que Prescrever vs O Que NÃO Prescrever"
+    },
+    {
+      "kind": "pearl",
+      "text": "O sucesso terapêutico com agonistas de incretina depende do julgamento clínico sofisticado, titulação cuidadosa, documentação rigorosa do processo e atenção ao perfil do paciente; nunca substituir o conhecimento médico por empirismo ou pela oferta indiscriminada de peptídeos manipulados sem respaldo científico e regulatório.",
+      "title": "Pérola Clínica Final"
+    }
+  ],
+  "monograph": "# Protocolo de Incretina no Consultório Brasileiro: Triagem, Escolha, Titulação, Falha e Manutenção\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nO uso de incretinas (GLP-1RAs e agonistas duplos/triplos) transformou o manejo clínico de obesidade, diabetes tipo 2 (DM2) e complicações cardiometabólicas, com evidências robustas especialmente para semaglutida e tirzepatida. O Brasil, com prevalência de sobrepeso/obesidade em 60% dos adultos, DM2 em ascensão (>7% dos adultos), baixo controle glicêmico populacional e acesso limitado a terapias avançadas, vive um cenário de elevada demanda por intervenções eficazes, seguras e custo-justificáveis.\n\nA introdução de agonistas de GLP-1 (semaglutida, dulaglutida) e GIP/GLP-1 (tirzepatida) produziu avanços em perda de peso (>10–22% em estudos pivôs), redução de eventos cardiovasculares (CV), e desfechos renais, ultrapassando agentes clássicos (SGLT2i, SU, DPP-4i) em magnitude clínica [S1, S3, S5, S26]. Em paralelo, surgem candidatos como cagrilintida, survodutida e retatrutida (agonistas duplos/triplos), trazendo desafios e expectativas para a prática clínica.\n\nEntretanto, o acesso (custo, disponibilidade), abordagens off-label, serviços de manipulação e variações legais/éticas (Resoluções CFM, registro ANVISA, proibição WADA) configuram armadilhas para o médico brasileiro, exigindo robusto julgamento clínico e acurácia documental.\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1. Eixo Incretina e Alvos Moleculares\n\n- **GLP-1 (Glucagon-Like Peptide-1):** Secretado por células L intestinais pós-prandial, atua em receptores GLP-1R (pâncreas, hipófise, SNC, rim, trato GI). Modula:\n    - Estímulo de secreção insulínica (glicose-dependente)\n    - Supressão de glucagon (glicose-dependente)\n    - Redução do esvaziamento gástrico\n    - Inibição do apetite por ação central (núcleo arqueado/hipotálamo)\n- **GIP (Glucose-Dependent Insulinotropic Polypeptide):** Secretado por células K duodenais, age em GIPR (pâncreas, SNC, tecido adiposo). Promove:\n    - Potencialização de secreção insulínica\n    - Efeitos anabólicos no tecido adiposo\n- **Glucagon:** Age em Gcgr (hepático, SNC), estimula glicogenólise/hepatogênese, lipólise, termogênese.\n\n### 2.2. Incretinas Terapêuticas\n\n- **GLP-1 RAs (semaglutida, dulaglutida, liraglutida):** Análogos resistentes à DPP-4, meia-vida prolongada, ação central e periférica.\n- **GIP/GLP-1 (tirzepatida):** Molécula híbrida, agonismo dual, sinergismo para perda de peso, maior efeito na sensibilidade periférica.\n- **Duplos/triplos agonistas (retatrutida, survodutida):** Experimentais, combinam GLP-1, GIP e/ou glucagon, ampliando efeitos anorexígenos, termogênicos e metabólicos [S17, S22, S25].\n\n#### Órgãos-alvo principais\n- Pâncreas beta: insulino-secreção\n- Fígado: regulação glicogênica/gluconeogênica\n- Tecido adiposo: armazenamento, sensibilidade insulínica\n- SNC (hipotálamo, tronco cerebral): controle de apetite, saciedade e gasto energético\n- Coração/vasos: modulação inflamatória, hemodinâmica\n- Rins: natriurese, proteção contra hiperfiltração\n\n## 3. Farmacologia Comparada\n\n### 3.1. Estrutura, Via e Variações Moleculares\n\n| Fármaco         | Classe                 | Estrutura        | Via        | Meia-vida         | Dose Típica     | Registro ANVISA     |\n|-----------------|-----------------------|------------------|------------|-------------------|-----------------|---------------------|\n| Semaglutida     | GLP-1 RA              | Peptídica        | SC/VO      | 1x/semana (SC)    | 0,25–2,4 mg SC  | Sim, nas 2 indicações|\n| Tirzepatida     | GIP/GLP-1 RA          | Peptídica        | SC         | 1x/semana         | 2,5–15 mg SC    | Sim (DM2); off-label (obesidade)|\n| Cagrilintida    | Análogo amilina       | Peptídica        | SC         | 1x/semana         | 0,3–4,5 mg SC   | Não (pesquisas)     |\n| Survodutida     | GLP-1/Glucagon RA     | Peptídica        | SC         | Semana            | 0,6–6 mg SC     | Não                 |\n| Retatrutida     | GIP/GLP-1/Glucagon RA | Peptídica        | SC         | Semana            | 1–12 mg SC      | Não                 |\n| Liraglutida     | GLP-1 RA              | Peptídica        | SC diária  | 13h               | 1,8–3 mg/dia    | Sim (DM2/obesidade) |\n| Orforglipron    | GLP-1 RA (oral)       | Não peptídico    | VO         | Diário            | 12–45 mg VO     | Não (fase 2)        |\n\n**PK/PD:**  \nOs agonistas GLP-1 de administração semanal (semaglutida, tirzepatida) apresentam meia-vida longa (~165h), permitindo flexibilidade no manejo e maior adesão. O escalonamento lento diminui eventos adversos GI. Variações de biodisponibilidade (VO x SC), resistência à DPP-4 e ligação a albumina/IgG conferem características farmacocinéticas seguras—porém, manipulação fora de padrão ou em farmácias sem controle de pureza expõe a riscos de contaminação, sub ou sobredosagem [S1, S27].\n\n## 4. Evidência Crítica: Ensaios, Magnitude, Limitações\n\nOs principais ensaios pivotais sobre incretinas para DM2 e obesidade fornecem base de grau A para decisões em consultório. Segue tabela comparativa dos principais trials:\n\n### Tabela 1 – Evidência Clínica de Incretinas: Desfechos Críticos\n\n| Estudo (NCT)           | População         | n   | Fármaco(s)      | Duração | Δ Peso (%) | Δ HbA1c (%) | Δ MACE (HR/IC95%) | Evento adverso GI (%) | Fonte/Evidência |\n|------------------------|------------------|-----|-----------------|---------|-------------|-------------|-------------------|---------------------|-----------------|\n| STEP 1 (obes.)         | Obesidade        |1961 | Semaglutida     | 68w     | -14,9%      | –           | –                 | 74*                 | (verificar) A   |\n| SURMOUNT-1             | Obesidade        |2539 | Tirzepatida     | 72w     | -15,0–20,9% | –           | –                 | 74                  | S26/A           |\n| SELECT                 | Obesidade/CV     |17504| Semaglutida     | 5,1a    | -9,4%       | –           | HR 0,80 (0,72–0,89)| 63                  | (verificar) A   |\n| STEP 2 (DM2)           | DM2+obesidade    |1210 | Semaglutida     | 68w     | -9,6%       | -1,6        | –                 | 73                  | (verificar) A   |\n| SURPASS-1 (DM2)        | DM2              | 478 | Tirzepatida     | 40w     | -8,5 a -11,0%| -1,87–2,07 | –                 | 70–81               | (verificar) A   |\n| SURPASS-CVOT           | DM2+CV           |13000| Tirzepatida     | 3–5a    | -11–12%     | -1,8–2,1    | HR 0,85 (verificar)| 73–88               | (verificar) A   |\n| REDEFINE-1             | Obes.            |3417 | Cagri+Sema      | 68w     | -20,4%      | –           | –                 | 86                  | S16/A           |\n| Retatrutide Phase 2    | Obesidade        | 338 | Retatrutida     | 48w     | -8,7 a -24,2%| –          | –                 | 80+                 | S25/A           |\n\n* SAE GI estimado por média, valores variam\n\n**Limitações:**\n- População ensaios >90% branca/EUA/Europa; extrapolação p/ subgrupos (ex: asiáticos, idosos extremos, IMC>50) limitada.\n- Desfechos duros (MACE renal, microvasc., CV) robustos p/ semaglutida; tirzepatida aguarda long-term outcome (SURPASS-CVOT/SELECT).\n- Critérios de exclusão incluem pancreatite, doença GI grave, T1DM e câncer tiroidiano medular, limitando aplicação generalizada.\n- Magnitude de evento GI variável, com impacto na adesão e necessidade de titulação cuidadosa [S4, S5, S16, S25, S26].\n- Interrupção precoce pode desfavorecer análises de manutenção.\n\n## 5. Indicações, Contra-indicações e Seleção de Pacientes\n\n### 5.1. Indicações Registradas ANVISA\n\n- **Semaglutida:**\n    - DM2 (com ou sem obesidade) – registrado\n    - Obesidade (IMC ≥30; ou ≥27 com comorbidades) – registrado (2.4 mg SC/sem)\n- **Tirzepatida:**\n    - DM2 – registrado\n    - Obesidade – off-label no Brasil; aprovado FDA (2023) para obesidade\n- **Liraglutida:** DM2 (1.8 mg/dia) e obesidade (3.0 mg/dia)\n\n### 5.2. Off-label / Não Registrado\n\n- **Tirzepatida para obesidade:** off-label (embasamento robusto, mas juridicamente depende de consentimento/documentação detalhada)\n- **Cagrilintida, survodutida, retatrutida, orforglipron:** apenas pesquisa/ensaios; nunca prescrever em consultório.\n- **Manipulados:** NENHUM GLP-1RA ou coagonista tem formulação segura/manipulada legalmente; todos os órgãos regulatórios e o CFM (Resolução 2.333/2023) proíbem prescrição/manipulação de semaglutida e tirzepatida nesta via.\n\n### 5.3. Contra-indicações Absolutas e Relativas\n\n**Absolutas:**\n- História pessoal/familiar de carcinoma medular de tireoide ou neoplasia endócrina múltipla tipo 2 (MEN-2)\n- Pancreatite prévia\n- Hipersensibilidade comprovada ao composto ou excipiente\n\n**Relativas:**\n- DRC estágio IV/V (depende do fármaco, semaglutida pode ser usado com cautela até TFG <15 mL/min)\n- Gastroparesia grave\n- Doença hepática avançada\n- Cirurgia GI bariátrica recente (<12m)\n\n### 5.4. Seleção de Pacientes\n\n#### Critérios priorizados\n\n- IMC ≥30 kg/m² (ou ≥27 com comorbidades: DM2, HAS, apneia do sono, dislipidemia)\n- Falha com estratégias convencionais por ≥6 meses\n- Presença de múltiplos fatores de risco vascular/metabólico\n- Avaliação rigorosa de motivação, cognição e adesão\n\n#### Exclusão\n\n- Idoso frágil com alto risco GI ou de desnutrição\n- Paciente com A1c <6% sem risco definido/cautela\n- Situações associadas a risco de abuso (atletas proibidos WADA, manipulação para estética rápida, etc.)\n\n## 6. Conduta Prática: Protocolo Passo a Passo\n\n### 6.1. Triagem e Documentação Inicial\n\n- Avaliação médica completa (histórico, medicamentos, exames recentes, eventos CV, GI, história familiar/individual)\n- Aplicar escala de risco (ex: SCORE, Framingham, prediabetes)\n- Consentimento informado detalhado (particularmente para uso off-label; modelo ex: DOCx institucional)\n- Checagem de plano de saúde/acesso (custo em farmácias: semaglutida 2,4 mg, ~R$ 1.100–1.700/mês, tirzepatida ~R$ 1.500–2.400/mês)\n\n### 6.2. Exames Laboratoriais Iniciais\n\n- Glicemia, HbA1c\n- Perfil lipídico\n- Cr, TFG\n- ALT/AST\n- Amilase/lipase (em história GI)\n- TSH, Cálcio\n\n### 6.3. Escolha: Semaglutida vs. Tirzepatida\n\n| Parâmetro                  | Semaglutida                          | Tirzepatida                 |\n|----------------------------|--------------------------------------|-----------------------------|\n| Efeito em peso (est.)      | -12% a -17%                          | -15% a -22%                 |\n| Efeito glicêmico           | -1.5% a -2.0% (HbA1c)                | -2,07% (SURPASS-1, 40s)     |\n| CV rico em desfecho        | Sim (MACE, SELECT, STEP)             | Parcial (SURPASS, em andamento)|\n| Náusea/vômito             | 60–75% GI, sobretudo início          | 70–88% GI                   |\n| Custo (Brasil 2024)        | R$ 1.100–1.700                       | R$ 1.500–2.400*             |\n| Registro obesidade BR      | Sim                                  | Não (off-label)             |\n| Simplicidade posológica    | 1x/semana                            | 1x/semana                   |\n\n*média de balcão, valores variam\n\n### 6.4. Titulação Das Principais Incretinas\n\n#### Semaglutida SC\n\n| Semana          | Dose            |\n|-----------------|-----------------|\n| 0–4             | 0,25 mg semanal |\n| 5–8             | 0,5 mg semanal  |\n| 9–12            | 1,0 mg semanal  |\n| 13–16           | 1,7 mg semanal* |\n| ≥17             | 2,4 mg semanal  |\n\n*Para obesidade (Wegovy)\n\n- Se não tolerado: manter dose, reagendar titulação em 2–4 semanas\n- Doses documentadas em bula; nunca manipular\n\n#### Tirzepatida SC\n\n| Semana          | Dose            |\n|-----------------|-----------------|\n| 0–4             | 2,5 mg semanal  |\n| 5–8             | 5 mg semanal    |\n| 9–12            | 7,5 mg semanal  |\n| 13–16           | 10 mg semanal   |\n| 17–20           | 12,5 mg semanal |\n| ≥21             | 15 mg semanal   |\n\n- Pode manter dose anterior se intolerância GI\n- Em obesidade, titulação igual à DM2 (off-label)\n\n### 6.5. Manejo de Efeitos Adversos (Ex.: GI)\n\n| Sintoma              | Conduta Basal                                  | Alternativa                        |\n|----------------------|------------------------------------------------|------------------------------------|\n| Náusea leve-moderada | Dieta fracionada, evitar gordura, líquidos refeições | Anti-histamínicos, domperidona    |\n| Vômitos persistentes | Pausar titulação, hidratação, observar SSV     | Considerar regredir dose           |\n| Constipação          | Hidratação, fibras, laxante leve               | Ajuste do fármaco, reeducação dietética |\n| Diarreia             | Sintomáticos, ajustar hidratação               | Pausar escalonamento               |\n| Queixas persistentes >4 sem | Avaliar manter dose mínima ou suspender      | Switch medicação, avaliar causas secundárias  |\n\n### Fluxograma prático conduta incretina:\n\n1. Triagem clínica, exames e documentação\n2. Seleção do fármaco conforme fenótipo, indicação legal, acesso/custo\n3. Titulação semanal (Sema: 0,25 → 0,5 → 1,0 → 1,7 → 2,4)\n4. Monitorar em 4, 8 e 16 semanas:\n    - Critérios resposta: ≥5% em 12 semanas / ≥10% em 6 meses / ≥15% em 1 ano\n5. Ajuste/se falha:\n    - Sem resposta ou GI intolerável: reavaliar adesão/trocar classe\n    - Em caso de sucesso: manutenção, suspender só com perda <50% do benefício\n \n### 6.6. Tabela - Protocolo de Titulação e Manejo\n\n| Situação                   | Ação Recomendada                               | Aparato Legal      |\n|----------------------------|------------------------------------------------|--------------------|\n| Paciente sem DM2, IMC>30   | Semaglutida 2,4 mg SC, titulação↑             | Registro ANVISA    |\n| Paciente DM2, IMC>30       | Tirzepatida titulação↑, discutir off-label se obesidade isolada | Off-label documentado|\n| Falha/Intolerância         | Considerar switch, manter dose tolerada_______ | Notificar paciente |\n| GI leve                    | Aguardar, titul. lenta, educ. alimentar_______ | –                  |\n| GI grave, perda de peso ≥10%| Manter acompanhamento próximo, labs periódicos | Interromper se necessário |\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n#### Exames periódicos (mínimo – a cada 3–6m ou conforme sintoma):\n- Glicemia, HbA1c\n- Perfil lipídico (quadros METS)\n- Função renal (Cr, TFG)\n- Função hepática (ALT/AST)\n- Amilase/lipase (se sintomas GI persistentes)\n- Cálcio, TSH (anual)\n\n#### Composição corporal\n- Peso, IMC, circunferência abdominal (mensal)\n- Bioimpedância (opcional, avaliar massa magra/gordura)\n- DEXA (interesse de pesquisa ou situações específicas)\n\n#### Critérios de resposta\n- ≥5% perda peso (12s), ≥10% (6m), ≥15% (1a)\n- HbA1c alvo (<7%, individualizar)\n- Melhora em desfechos metabólicos (lipídios, PA, marcadores inflamatórios)\n\n## 8. Segurança, Interações e Perioperatório\n\n### 8.1. Principais Eventos Adversos\n\n- **Gastrointestinais:** náuseas, vômitos, constipação, dispepsia (70–90%)\n- **Raros:** pancreatite (0,05–0,3%), hipoglicemia (baixo risco exceto se associar SU/insulina), colelitíase, insuficiência renal aguda\n- **Atenção especial em idoso frágil/débito alimentar baixo**  \n- **Tirzepatida:** similar semaglutida, com GI possivelmente mais intenso em altas doses\n\n### 8.2. Interações Medicamentosas\n\n- Potencial atraso de absorção de fármacos orais de janela estreita (ex: levotiroxina, antiarrítmicos orais)\n- Monitorização próxima se insulina/sulfonilureias (potencial hipoglicemia)\n- Evitar uso conjunto com secretagogos de GH, peptídeos não aprovados/manipulados\n\n### 8.3. Perioperatório\n\n- Suspender dose semanal ≥1 semana antes de cirurgia eletiva GI/anestesia geral para mitigar risco de aspiração retardada\n- Reiniciar após retorno de dieta plena/oral e ausência de vômitos\n- Notificar equipe cirúrgica sobre uso; inserir em documentação de pré-operatório\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n- **Semaglutida** e **liraglutida** possuem registro ANVISA exclusivo para DM2 e obesidade (com dose distinta).\n- **Tirzepatida**: registro ANVISA apenas para DM2 (obesidade = off-label, exige termo de consentimento e justificativa médica).\n- **Manipulados:** proibido expressamente segundo CFM (Res. 2.333/2023), ANVISA e múltiplos informes; risco de responsabilização civil, ética e penal.\n- **WADA:** agonistas incretínicos NÃO aparecem em listas proibidas para atletas, mas uso sem registro pode ser questionado em contexto esportivo de alto rendimento.\n- **Documentação:** obrigar registro detalhado — fenótipo, justificativa terapêutica, consentimento, explicação de alternativas e, em off-label, reforço dos riscos/benefícios.\n- **Research-Use-Only:** jamais prescrever fora do contexto de ensaio clínico e com comitê de ética institucional.\n\n## 10. Fronteira Terapêutica e O Que NÃO Prescrever\n\n### 10.1. Candidatos em Fase Experimental\n\n- **Retatrutida, survodutida, cagrilintida:** ainda em fase 2–3, promissoras para subgrupos com obesidade severa, MASH, DM2 sem resposta adequada — jamais prescrever fora de pesquisa [S17, S19, S25].\n- **Orforglipron:** oralizado, seguro apenas para PESQUISA (não disponível clinicamente)\n\n### 10.2. NÃO prescrever\n\n- Fórmulas manipuladas (semaglutida, tirzepatida, cagrilintida, etc.)\n- Peptídeos sem base clínica robusta/documentada (ex: BPC-157, TB-500 etc.) exceto em protocolos de pesquisa aprovados\n- Vias não autorizadas (ex: IM, intra-articular)\n- Indicações exclusivamente estéticas, sem diagnóstico estabelecido de obesidade/morbidade\n\n### 10.3. Armadilha\n- A crença de que “tudo que reduz peso cosmético” sem avaliação sistêmica pode ser replicado com peptídeos off-label ou manipulados, expondo a erros médicos, falha terapêutica e litígio.\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas Clínicas\n\n- Peso é marcador inicial, mas objetivo deve ser benefício metabólico/cardiorrenal sustentado.\n- Documentação acurada e consulta informada protegem e valorizam o trabalho médico.\n- Retratar o paciente refratário: sempre revisar adesão, titulação, eventos GI, patologias orgânicas antes de diagnosticar “fracasso terapêutico”.\n- Modelar para perda progressiva: “quem perde >5% em 12 semanas geralmente atinge ≥10% em 6–12 meses se adesão e titulação corretas.”\n- O acesso é barreira principal — trabalhar com equipes multidisciplinares para favorecer adesão e esclarecimento.\n- Consentimento detalhado (off-label, custos, expectativa realista) reduz conflito pós-consulta.\n\n### Armadilhas Comuns\n\n- Titulação excessivamente rápida = abandono por náusea/vômito.\n- Ignorar função renal/hepática atual e interações.\n- Subestimar distúrbio psiquiátrico (alteração de comportamento, anorexia) — avaliar antes.\n- Esquecer de documentar “impossibilidade de manipulação, só uso de medicação original/registrada”.\n\n### Checklist Consultório (Consulta 60 segundos)\n\n1. Fenótipo: IMC, comorbidades, alcance de critérios ANVISA.\n2. Exames base: glicemia, função renal, TSH, enzimas hepáticas.\n3. Registro/documentação: indicação, consentimento, off-label se necessário.\n4. Protocolo titulação: semana atual, próxima dose.\n5. Educação efeitos GI, sinais de alarme (pancreatite, vômitos persistentes).\n6. Orientação sobre custo, acesso, alternativas se recusa.\n7. Agenda retorno + labs para 1º/2º mês.\n\n---\n\n## Caso Clínico (Teaching Case)\n\n### História\n\nHomem, 49 anos, brasileiro, IMC 38 kg/m², A1c 7,3%, HAS controlada (enalapril 20 mg/dia); sem doenças GI, sem DRC, sem história pessoal/familiar de câncer tiroidiano. Tentou dieta e exercícios ≥1 ano, perda de 3 kg apenas. Vem ao consultório buscando “injeções para emagrecer”. Exames: função renal, hepática, lipídico normais; ECG normal. Plano de saúde cobre semaglutida.\n\n#### Alternativas de conduta:\n\nA) Prescrever semaglutida 2,4 mg, iniciar titulação semanal, documentar indicação (IMC, HAS, insucesso prévio), orientação sobre GI, marcar retorno em 4 semanas.\n\nB) Prescrever tirzepatida 2,5 mg semanal, explicar off-label, iniciar titulação/dose padrão; prescrever permissão para farmácia de manipulação, modelo magistral.\n\nC) Ceder fórmula de semaglutida magistral para manipulação e orientar início imediato em dose plena de 2,4 mg semanal.\n\nD) Explicar que só poderá tratar se atingir IMC >40 kg/m², e que GLP-1RAs somente são indicados para RM metabólica.\n\n**Resposta correta: A**\n\n#### Justificativa didática\n\n- Opção A está em conformidade com indicação ANVISA (IMC ≥30, falha em métodos convencionais, comorbidade), registro do produto, segurança, e permite titulação adequada com monitoramento. Documentação reforça segurança e embasamento ético.\n- Opção B, embora plausível no contexto científico, requer Consentimento específico e impede manipulação — produto só pode ser prescrito na formulação registrada, não manipulada.\n- Opção C infringe tanto CFM 2.333/2023 quanto resoluções ANVISA, além de maximizar risco de eventos GI e litígio judicial.\n- Opção D incorreta — indicação é ≥30 kg/m² com/sem comorbidade, e GLP-1RAs têm registro para redução de peso, não só RM metabólica.\n\n### O que NÃO fazer\n- Jamais prescrever ou orientar busca de manipulação (“farmácia magistra”) de incretinas.\n\n---\n\n# SLIDES\n\n### SLIDE 1. Title\nProtocolo de Incretina no Consultório Brasileiro: Triagem, Escolha, Titulação, Falha e Manutenção\n\n---\n\n### SLIDE 2. Hierarquia/Registro\n\n| Classe/Fármaco       | Indicação ANVISA | Off-label docum. | Manipulado | Proibido CFM/ANVISA |\n|----------------------|------------------|------------------|------------|---------------------|\n| Semaglutida DM2/OB   | Sim              | –                | Não        | Manipulação         |\n| Tirzepatida DM2      | Sim              | Obesidade        | Não        | Manipulação         |\n| Cagrilintida         | Não              | Não              | Não        | Manipulação         |\n| Retatrutida          | Não (exp)        | Não              | Não        | Manipulação         |\n\n---\n\n### SLIDE 3. Evidência: Reduções de Peso\n\n![Gráfico de barras: Perda de peso por fármaco – Sema, Tirze, Cagri+Sema, Retatrutida](exemplo barraplot: Sema -13%, Tirze -18%, Cagri+Sema -20%, Retatrutida -24%)\n\n---\n\n### SLIDE 4. Tabela Densa (Desfechos Trials)\n\n| Estudo          | Peso (%) | HbA1c (%) | Adesão (%) | ΔMACE/Hazard |\n|-----------------|----------|-----------|------------|--------------|\n| STEP 1          | -14.9    | –         | 85         | ND           |\n| SURMOUNT-1      | -15 a -21| –         | 83         | ND           |\n| REDEFINE-1      | -20.4    | –         | 81         | ND           |\n| Retatrutide P2  | -8 a -24 | –         | 79         | ND           |\n\n---\n\n### SLIDE 5. Algoritmo de Conduta\n\n1. Triagem/labs ➔ Fenótipo/risco ➔\n2. Registro ANVISA? Sim: Sema/Tirze\n3. Indicação off-label? Consentimento detalhado\n4. Iniciar titulação progressiva\n5. Monitorar resposta 12/24/48 semanas\n6. Ajustar/falha GI/switch\n\n---\n\n### SLIDE 6. Protocolo de Titulação\n\n| Semana | Semaglutida | Tirzepatida |\n|--------|-------------|-------------|\n| 0–4    | 0,25 mg     | 2,5 mg      |\n| 5–8    | 0,5 mg      | 5 mg        |\n| 9–12   | 1,0 mg      | 7,5 mg      |\n| 13–16  | 1,7 mg      | 10 mg       |\n| ≥17    | 2,4 mg      | 12,5–15 mg  |\n\n---\n\n### SLIDE 7. Red Flags/Riscos\n\n- Pancreatite, dor epigástrica persistente\n- Vômitos incoercíveis\n- Perda >10% massa magra\n- Aumento de transaminases sem causa\n\n---\n\n### SLIDE 8. Fronteira e O que NÃO Prescrever\n\n- Retatrutida, survodutida, cagrilintida: apenas pesquisa\n- Manipulados: proibidos, risco ético/jurídico grave\n\n---\n\n### SLIDE 9. Quick_ref: Guia Bolso\n\n**Doses:**\n- Semaglutida: 0,25 → 0,5 → 1,0 → 1,7 → 2,4 mg/semana\n- Tirzepatida: 2,5 → 5 → 7,5 → 10 → 12,5 → 15 mg/semana\n\n**Red Flags:** Pancreatite, GI grave, perda >10% massa magra, sintomas neuropsiquiátricos\n\n**Checklist rápido:**\n- Achados físicos, labs ok?\n- Registro/documentação em ordem?\n- Titulação correta?\n- Consentimento assinado?\n- Próximo retorno agendado?\n\n---\n\n### SLIDE 10. Key Points\n\n- Incretinas com base robusta: semaglutida e tirzepatida, com protocolo ANVISA/CFM restrito a originais.\n- Sem resposta/metas: revisar adesão, titulação, causas secundárias antes de switch.\n- Semaglutida: primeira opção em obesidade com ou sem DM2; tirzepatida válida para DM2 e off-label em obesidade (com consentimento).\n- Custo/acesso é a principal limitação clínica; manipulação é proibida e não segura.\n- Monitoramento próximo para GI, labs e composição corporal é obrigatório.\n- O julgamento médico, documentação detalhada e explicação de benefício/riscos são diferenciais claros para o médico do futuro.\n- Não prescrever, incentivar ou dar acesso a manipulados/peptídeos não reconhecidos.\n\n---\n\n## Referências\n\n1. [S1, S26, S27] Posicionamento Doutiva – hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. [S3] BESTMED — BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes. Brigham and Women's Hospital. ClinicalTrials.gov 2021.\n3. [S5] CER-4-T2D — Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study. ClinicalTrials.gov 2021.\n4. [S16] Garvey WT, et al. Coadministered cagrilintide and semaglutide in adults with overweight or obesity. NEJM 2025.\n5. [S17] le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity. Lancet Diabetes Endocrinol 2024.\n6. [S19, S25] Jastreboff AM, et al. Triple-hormone-receptor agonist retatrutide for obesity. NEJM 2023.\n7. [S21] Frias JP, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes. Lancet 2023.\n8. [S22] Rosenstock J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: phase 2 trial. Lancet 2023.\n9. [S23] Wharton S, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. NEJM 2023.\n10. CFM. Resolução nº 2.333/2023. Disponível em: https://portal.cfm.org.br\n11. ANVISA. Consulta de Medicamentos Registrados. Disponível em: https://consultas.anvisa.gov.br\n12. [S4, S28] DREAM — Semaglutide v DPP4 Inhibitors; Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk. Brigham and Women's Hospital. ClinicalTrials.gov 2022/2026.\n\n*Consulte sempre as bulas e diretrizes nacionais/institucionais.",
+  "quick_ref": "# Guia Rápido de Protocolo de Incretinas no Consultório\n\n## Doses e Titulação\n| Fármaco      | Dose Inicial         | Títulos Semanais                    | Dose Máxima\n|--------------|---------------------|-----------------------------------|------------\n| Semaglutida  | 0,25 mg SC semanal  | 0,5 → 1,0 → 1,7 → 2,4 mg          | 2,4 mg\n| Tirzepatida  | 2,5 mg SC semanal   | 5 → 7,5 → 10 → 12,5 → 15 mg       | 15 mg\n\n## Red Flags (Sinais de Alerta)\n- Pancreatite (dor abdominal súbita, vômitos persistentes)\n- Vômitos incoercíveis ou desidratação\n- Perda >10% massa magra rapidamente\n- Elevação persistente de transaminases\n\n## Checklist Consultório (60 segundos)\n- Confirmar indicação ANVISA e critérios (IMC, comorbidades)\n- Revisar exames base: glicemia, função renal, TSH, enzimas hepáticas\n- Checar documentação pronta (consentimento, justificação)\n- Verificar estágio da titulação e orientação para paciente\n- Educar sobre efeitos adversos e sinais para retorno precoce\n- Agendar retorno e laboratórios para 1–2 meses\n- Avaliar acesso/custo e alternativas\n\n---\n",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "49 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "38 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "7,3%"
+      },
+      {
+        "label": "HAS",
+        "value": "Controlada com Enalapril 20 mg/dia"
+      },
+      {
+        "label": "Tentativas prévias",
+        "value": "Dieta e exercícios ≥1 ano, perda 3 kg apenas"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normais (renal, hepático, lipídico)"
+      },
+      {
+        "label": "Plano de saúde",
+        "value": "Cobre semaglutida"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Busca injeção para emagrecer"
+      }
+    ],
+    "title": "Uso Responsável de Semaglutida em Paciente Obeso com DM2 Controlado",
+    "reward": 100,
+    "options": [
+      {
+        "label": "Prescrever semaglutida 2,4 mg com titulação e documentação adequada",
+        "correct": true,
+        "rationale": "Indicação aprovada para obesidade com comorbidade, permite titulação segura e monitoramento conforme protocolo aprovado."
+      },
+      {
+        "label": "Prescrever tirzepatida 2,5 mg semanal e sugerir manipulação para dose padrão",
+        "correct": false,
+        "rationale": "Off-label para obesidade e manipulação ilegal, com riscos éticos, legais e clínicos."
+      },
+      {
+        "label": "Fornecer fórmula de semaglutida manipulada para início imediato em dose plena",
+        "correct": false,
+        "rationale": "Manipulação proibida e insegura, maximiza riscos de eventos adversos e responsabilidade médica."
+      },
+      {
+        "label": "Negar tratamento até IMC ≥40 e tratar apenas RM metabólica",
+        "correct": false,
+        "rationale": "Incorreto; indicação formal para obesidade IMC ≥30 com ou sem comorbidade. Negar pode atrasar cuidados importantes."
+      }
+    ],
+    "question": "Qual a conduta adequada inicial para indicação e prescrição de incretina neste paciente?",
+    "vignette": "Homem, 49 anos, IMC 38, A1c de 7,3%, HAS controlada, histórico de tentativas dietéticas sem sucesso relevante, busca iniciar terapia injetável para emagrecimento. Exames normais; plano de saúde cobre semaglutida.",
+    "teaching": "Este caso ilustra a importância de respeitar indicações aprovadas e protocolos seguros no uso de agonistas de incretina. A prescrição da semaglutida é indicada, considerando IMC elevado, histórico prévio de manejo conservador ineficaz e comorbidade controlada. A titulação progressiva deve ser seguida para minimizar eventos adversos, especialmente gastrointestinais, com monitoramento periódico. Fundamental registrar documentação completa e obter consentimento informado, reforçando que manipulação de medicamentos é proibida e insegura. Uso off-label de tirzepatida para obesidade deve ser evitado sem consentimento e não se recomenda manipulação. Evitar iniciar doses altas para não precipitar náuseas e possível descontinuação. Essa abordagem promove segurança, aderência e eficácia clínica consistente."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — Hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05220917",
+      "citation": "CER-4-T2D — Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study. ClinicalTrials.gov 2021."
+    },
+    {
+      "citation": "Garvey WT, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2025."
+    },
+    {
+      "citation": "Jastreboff AM, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity. N Engl J Med. 2023."
+    },
+    {
+      "citation": "Frias JP, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: phase 2 trial. Lancet. 2023."
+    },
+    {
+      "url": "https://portal.cfm.org.br",
+      "citation": "CFM Resolução nº 2.333/2023. Disponível em: https://portal.cfm.org.br"
+    },
+    {
+      "url": "https://consultas.anvisa.gov.br",
+      "citation": "ANVISA - Consulta de Medicamentos Registrados. https://consultas.anvisa.gov.br"
+    },
+    {
+      "citation": "le Roux CW, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity. Lancet Diabetes Endocrinol. 2024."
+    }
+  ],
+  "status": "published"
+}

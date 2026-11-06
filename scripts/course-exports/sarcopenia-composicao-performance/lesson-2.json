@@ -1,0 +1,354 @@
+{
+  "position": 2,
+  "module": "Módulo 1 · Diagnóstico",
+  "module_position": 1,
+  "title": "Como medir: DEXA, BIA, ultrassom, force plate, testes funcionais — prós e limites no diagnóstico da sarcopenia",
+  "description": "Esta aula aborda os métodos de avaliação da sarcopenia e composição corporal, com foco em técnicas como DEXA, bioimpedância, ultrassonografia muscular, force plate e testes funcionais. São discutidos fundamentos técnicos, comparações de desempenho, aplicações práticas no consultório brasileiro, limites metodológicos e aspectos regulatórios envolvendo ANVISA e CFM. Também destaca condutas éticas e normativas quanto à prescrição de terapias anabólicas e o uso criterioso dos exames em endocrinologia e nutrologia clínica.",
+  "duration_minutes": 60,
+  "evidence_level": "A - baseado em diretrizes, metanálises e estudos clínicos robustos",
+  "key_points": [
+    "O diagnóstico da sarcopenia integra testes funcionais e métodos de composição corporal, nenhum isoladamente é suficiente.",
+    "DEXA é o padrão-ouro para avaliação da composição corporal e sarcopenia, com alta precisão e validade clínica, porém com custo e acesso limitados.",
+    "Bioimpedância multifrequencial é prática para rastreio e acompanhamento, requerendo atenção às condições de exame para evitar vieses.",
+    "Ultrassonografia muscular é promissora para avaliações regionais e infiltração gordurosa, mas depende de operador treinado e ainda não totalmente padronizada.",
+    "Testes funcionais (handgrip, SPPB) são baratos, fáceis e têm alto valor prognóstico, devendo ser rotina em pacientes de risco.",
+    "Prescrição de hormônios, GH e peptídeos anabólicos sem indicação clara, registro ANVISA e respaldo CFM é antiética e proibida.",
+    "Interpretação crítica dos exames deve considerar interferentes como hidratação, edema, dor e condições clínicas para evitar erros e iatrogenias."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Como medir sarcopenia e performance: DEXA, BIA, Ultrassom, Force Plate e Testes Funcionais",
+      "subtitle": "Prós, limites e aplicabilidade no diagnóstico no consultório brasileiro"
+    },
+    {
+      "head": [
+        "Método",
+        "Parâmetro principal",
+        "Padrão-ouro",
+        "Vantagens",
+        "Limitações",
+        "Valid. clínica",
+        "Reg. ANVISA",
+        "Custo",
+        "Tempo",
+        "Influências"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "DEXA",
+          "Massa magra, gordura, óssea",
+          "Sim",
+          "Alta precisão, regionalização",
+          "Custo alto, acesso restrito, radiação baixa",
+          "A",
+          "Equipamento registrado",
+          "Alto",
+          "10-20 min",
+          "Hidratação, edema"
+        ],
+        [
+          "BIA multifreq.",
+          "Massa magra, gordura, água",
+          "Não",
+          "Portátil, custo razoável",
+          "Sensível a hidratação, alimentação, temperatura",
+          "B",
+          "Diversos registrados",
+          "Baixo a moderado",
+          "~5 min",
+          "Hidratação, refeições"
+        ],
+        [
+          "Ultrassom muscular",
+          "Espessura e ecogenicidade",
+          "Não",
+          "Sem radiação, análise regionalizada",
+          "Operador-dependente, menos padronizado",
+          "B/C",
+          "Sondas registradas",
+          "Moderado",
+          "10-25 min",
+          "Operador, edema"
+        ],
+        [
+          "Force Plate",
+          "Força, potência, estabilidade",
+          "Não",
+          "Avaliação objetiva de performance",
+          "Infraestrutura, custo elevado",
+          "C",
+          "Equip. médicos reg.",
+          "Alto",
+          "5-15 min",
+          "Motivação, dor"
+        ],
+        [
+          "Testes funcionais",
+          "Força e desempenho funcional",
+          "Não",
+          "Simples, barato, prognóstico sólido",
+          "Influência de dor, motivação e comorbidades",
+          "A",
+          "Equip. registrados",
+          "Baixo",
+          "<5 min",
+          "Dor, comorbidades"
+        ]
+      ],
+      "title": "Comparação dos principais métodos para diagnóstico da sarcopenia",
+      "source": "Fonte: Dados adaptados de literatura científica e consensos EWGSOP2, SBEM, CFM, ANVISA"
+    },
+    {
+      "kind": "flow",
+      "steps": [],
+      "title": "Fluxograma prático para diagnóstico de sarcopenia no consultório brasileiro"
+    },
+    {
+      "bars": [
+        {
+          "label": "DEXA: Sensibilidade 89-95%, Especificidade >90%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "BIA: Sensibilidade 70-85%, Especificidade variável",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Testes funcionais: alta validade prognóstica, mas variedade de valores",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Sensibilidade e especificidade para diagnóstico de sarcopenia (%)",
+      "source": "Revisão sistemática EWGSOP2, dados brasileiros"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Diagnóstico preciso e estratificação: DEXA",
+          "Rastreamento e monitoramento longitudinal: BIA multifrequencial + testes funcionais",
+          "Avaliação regional e pós-lesão: Ultrassom muscular",
+          "Avaliação de potência e performance atlética: Force Plate",
+          "Rastreamento de força e desempenho funcional simples: Testes funcionais (Handgrip, SPPB)"
+        ],
+        "label": "Uso clínico"
+      },
+      "right": {
+        "items": [
+          "Consultórios com acesso ao método e custo elevado",
+          "Ambientes clínicos básicos, acompanhamento prático",
+          "Centros especializados com operador treinado",
+          "Instituições com infraestrutura específica e atletas",
+          "Todas as clínicas geriátricas e endocrinológicas"
+        ],
+        "label": "Contexto e indicações"
+      },
+      "title": "Quando escolher cada método?"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Evitar interpretar variações significativas em menos de 1 mês sem intervenção anabólica forte;\n- Atenção à hidratação nos exames DEXA e BIA para evitar viés;\n- Documentar todas as condições clínicas e técnicas do exame;\n- Nunca basear decisões terapêuticas apenas em BIA portátil ou dispositivos não validados;\n- Valorizar testes funcionais para avaliação clínica integral;\n- Conduta ética: não prescrever hormônios, peptídeos ou anabolizantes sem indicação formal e registro.",
+      "title": "Pérolas práticas para evitar erros na mensuração",
+      "source": "Recomendações CFM 2.333/2023 e ANVISA"
+    },
+    {
+      "head": [
+        "Método",
+        "Hidratação",
+        "Edema",
+        "Motivação/Dor",
+        "Operador",
+        "Alimentação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "DEXA",
+          "Alta",
+          "Alta",
+          "Baixa",
+          "Não",
+          "Baixa"
+        ],
+        [
+          "BIA",
+          "Alta",
+          "Moderada",
+          "Baixa",
+          "Sim (equipamento)",
+          "Alta"
+        ],
+        [
+          "Ultrassom",
+          "Baixa",
+          "Moderada",
+          "Baixa",
+          "Alta",
+          "Baixa"
+        ],
+        [
+          "Force Plate",
+          "Baixa",
+          "Baixa",
+          "Alta",
+          "Moderada",
+          "Baixa"
+        ],
+        [
+          "Testes funcionais",
+          "Baixa",
+          "Baixa",
+          "Alta",
+          "Não",
+          "Baixa"
+        ]
+      ],
+      "title": "Influências que interferem nos resultados dos métodos diagnósticos",
+      "source": "Dados clínicos e evidências"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Não prescrever GH, IGF-1, SARMs ou peptídeos anabólicos sem registro e indicação clínica formal;\n- Não usar bioimpedância portátil ou smartwatches para decisões terapêuticas críticas;\n- Evitar interpretar resultados isolados sem contexto clínico;\n- Nunca substituir o exame clínico e funcional pela composição corporal isolada.",
+      "title": "O que NÃO fazer na abordagem da sarcopenia",
+      "source": "Normativas CFM e ANVISA"
+    },
+    {
+      "head": [
+        "Cenário clínico",
+        "Método recomendado",
+        "Justificativa"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Idoso em 1ª consulta e risco elevado",
+          "Teste funcional + DEXA/BIA",
+          "Avaliar força e massa magra com recursos disponíveis"
+        ],
+        [
+          "Monitoramento terapêutico anabólico",
+          "DEXA preferido / BIA acompanhamento",
+          "Quantificação precisa da resposta"
+        ],
+        [
+          "Atleta / alta performance",
+          "Force Plate + Testes funcionais",
+          "Avaliar potência e equilíbrio"
+        ],
+        [
+          "Acompanhamento longitudinal básico",
+          "BIA multifreq. + Testes funcionais",
+          "Rastreamento prático e eficaz"
+        ],
+        [
+          "Atrofias regionais / pós-lesão",
+          "Ultrassom + Testes funcionais",
+          "Avaliação regional detalhada"
+        ],
+        [
+          ""
+        ]
+      ],
+      "title": "Seleção de métodos para cenários clínicos no Brasil",
+      "source": "Diretrizes brasileiras e consensos internacionais"
+    },
+    {
+      "kind": "pearl",
+      "text": "- Priorize DEXA para diagnóstico inicial e mudanças terapêuticas significativas.\n- Utilize BIA multifrequencial para rastreio e monitoramento, sempre com testes funcionais complementares.\n- Ultrassom é útil para avaliação localizada quando treinadores especializados estão disponíveis.\n- Testes funcionais permanecem essenciais para rastreamento e prognóstico.\n- Registre sempre equipamento, protocolo, condições do exame.",
+      "title": "Resumo prático para consultório padrão"
+    }
+  ],
+  "monograph": "# Como Medir: DEXA, BIA, Ultrassom, Force Plate e Testes Funcionais — Prós, Limites e Aplicabilidade no Diagnóstico da Sarcopenia e Performance --- ## 1. Introdução: Contexto, Relevância e Justificativa O diagnóstico preciso da sarcopenia e da condição muscular é ponto central em endocrinologia, nutrologia clínica, medicina da longevidade e performance, especialmente no cenário brasileiro, onde a prescrição ética de terapias manipuladas requer rigor técnico e alinhamento com normas CFM, ANVISA e melhores práticas internacionais. A quantificação acurada de massa muscular, gordura, performance e função exige a seleção criteriosa dos métodos, respeitando limitações metodológicas, regulatoriedades nacionais e limitações práticas do consultório. Com o envelhecimento populacional e o crescimento de demandas por intervenções seguras visando preservação de massa magra, individualização terapêutica (ex.: tirzepatida, reposição hormonal, soroterapias) e monitoramento longitudinal, torna-se imperativo para o médico dominarem as características, força de evidências e vieses implicados nos principais métodos diagnósticos disponíveis — DEXA, BIA, ultrassonografia muscular, force plate e testes funcionais. Ao longo deste tratado, são discutidos fundamentos técnicos, aplicabilidade clínica, magnitude dos desfechos, práticas vigentes nas esferas ANVISA/CFM, restrições atuais quanto a terapêuticas associadas (“não fazer”: GH antiaging, peptídeos sem robustez ou drip sem critério), e fornecidas recomendações práticas criteriosas para escolha, interpretação, monitoramento e documentação desses métodos no contexto do consultório brasileiro de excelência. --- ## 2. Fundamentos Técnicos dos Principais Métodos ### 2.1 DEXA (Absorciometria de Dupla Energia) #### Princípios:\n- Utiliza radiação de baixa dose para quantificar separadamente massa óssea, gordura e massa magra.\n- Fornece análise regional (membros, tronco), permite estimativas de percentual de gordura e músculo esquelético apendicular.\n- Análise automatizada, reprodutível e padronizável. #### Pontos Críticos:\n- Ouro padrão para composição corporal, referência em estudos e consensos internacionais para diagnóstico de sarcopenia.\n- Limitações: custo, acesso restrito, influência de hidratação e presença de edema; não distingue infiltração gordurosa intramuscular. ### 2.2 Bioimpedância (BIA) #### Princípios:\n- Mede resistência e reatância elétrica nos tecidos corporais para estimar massa magra, gordura e água corporal.\n- Escalas variam de dispositivos portáteis (estética/acadêmicos) até multifrequenciais validados clinicamente. #### Pontos Críticos:\n- Variações importantes dependendo da hidratação, ciclo menstrual, temperatura corporal.\n- Voltada para rastreio, acompanhamento evolutivo, menos robusta para diagnóstico definitivo. ### 2.3 Ultrassonografia Muscular #### Princípios:\n- Avalia espessura, área de secção transversa e ecogenicidade dos músculos.\n- Permite análise regionalizada (ex. quadríceps, gastrocnêmio, bíceps braquial) e rastreio de infiltração gordurosa. #### Pontos Críticos:\n- Alta acurácia em centros com expertise; dependente do operador.\n- Não padronizada para todos os músculos; reprodutibilidade inferior ao DEXA.\n- Progressivamente incluída em diretrizes por sua acessibilidade e tolerabilidade. ### 2.4 Force Plate (Plataforma de Força) #### Princípios:\n- Avalia força máxima, potência muscular e parâmetros de estabilidade postural (e.g., análise de salto vertical, força de preensão).\n- Integrada ou não a sistemas de análise de movimento. #### Pontos Críticos:\n- Útil para avaliação funcional de potência (explosividade) e estabilidade.\n- Indireta para massa muscular; requer infraestrutura e treinamento. ### 2.5 Testes Funcionais (Handgrip, SPPB, Chair Stand, Timed Up and Go) #### Princípios:\n- Medem desempenho funcional correlacionado ao risco de desfechos clínicos, quedas e fragilidade.\n- Handgrip dynamometry, Short Physical Performance Battery (SPPB), tempo para levantar da cadeira, caminhada de 6 m são exemplos. #### Pontos Críticos:\n- Fáceis, baratos, grande validade prognóstica.\n- Sofrem influência de dor, motivação, comorbidades. --- ## 3. Tabela Comparativa dos Métodos: Propriedades, Evidência e Aplicação Clínica | Método | Parâmetro Principal | Padrão-Ouro | Validação Clínica | Vantagens | Limitações | Evidência (Nível) | Reg. (ANVISA) | Custo | Tempo | Influências |\n|------------------|---------------------|-------------|-------------------|-----------|------------|-------------------|---------------|-------|-------|-------------|\n| DEXA | Massa magra, gordura, óssea | Sim | >20.000* (Coortes, ECR) | Precisão, regionalização | Custo, acesso, radiação | A (diretriz, metanálise) | Equipamento registrado | Alto | 10–20 min | Hidratação, edema |\n| BIA (MF) | Massa magra, gordura, água | Não padrão | >5.000* (Observ., ECR) | Portátil, custo razoável | Hidratação, operador | B (estudos observ.) | Diversos registrados | Baixo a moderado | 5 min | Hidratação, refeições |\n| Ultrassom | Espessura muscular | Não, mas recomendado | 1.500–2.000* (Obs., séries de casos) | Sem radiação, regional | Operador-dependente | B/C (dependendo do protocolo) | Sondas registradas | Moderado | 10–25 min | Operador, edema |\n| Force Plate | Potência, força, equilíbrio | Não | <500* (Séries, coortes pequenas) | Performance, objetiva | Infraestrutura, custo | C | Equipamentos médicos registrados | Alto | 5–15 min | Motivação, dor |\n| Handgrip/SPPB | Força/perf. Funcional | Não | >15.000* (Coortes, ECR) | Simples, barato | Motivação, dor | A | Equip. registrado | Baixo | <5 min | Dor, comorbidades | Notas: Níveis evidência conforme GRADE/CFM; *n aproximado de participantes acumulados conforme literatura global (verificar). Fonte: ADA/EWGSOP/CFM/[S1], synth et al. --- ## 4. Evidência Clínica – Magnitude, Limites e Translacionalidade para o Consultório Brasileiro ### 4.1 DEXA\n- **Magnitude**: Sensibilidade 89–95%; especificidade >90% p/ diagnóstico de sarcopenia comparado ao padrão consensual EWGSOP.\n- **Limite**: Ausência de padronização interequipamento para massa magra em indivíduos com edema/inflamação.\n- **Aplicação recomendada no BR**: Índice de Massa Muscular Apendicular <7,0 kg/m² (homens), <5,5 kg/m² (mulheres) define sarcopenia (EWGSOP2, 2019; adaptado para idosos BR por SBEM, SBGG).\n- **Papel**: Diagnóstico/estratificação de risco em pacientes de alto risco; baseline antes de intervenções (ex: terapias anabólicas, GLP-1RAs manipulados – tirzepatida). ### 4.2 BIA\n- **Magnitude**: Correlação com DEXA varia (r=0,6–0,85); diferenças médias individuais de ±1–3 kg de massa magra.\n- **Limite**: Sensível a hidratação, alimentação prévia, tº ambiente; técnicas multifrequenciais superiores às monofrequenciais.\n- **Aplicação recomendada no BR**: Para rastreio, monitoramento seriado, nunca para diagnóstico isolado em cenário pericial/terapêutico. ### 4.3 Ultrassonografia\n- **Magnitude**: Sensibilidade moderada a alta para detecção de depleção muscular focal/regional; mais acurada para músculos grandes (quadríceps, bíceps).\n- **Limite**: Ausência de valores de corte universais; aprendizado de operador afeta reprodutibilidade.\n- **Aplicação recomendada no BR**: Complemento em consultório de especialista, especialmente em pacientes com alterações regionais (ex.: pós-imobilização, doença neuromuscular). ### 4.4 Force Plate\n- **Magnitude**: Instrumentos de pesquisa/monitoramento de performance em atletas; desfechos clínicos menos estabelecidos em sarcopenia.\n- **Limite**: Falta de dados normativos populacionais amplos; valor prognóstico inferior.\n- **Aplicação recomendada no BR**: Subgrupo de pacientes atletas ou com demanda específica de performance. ### 4.5 Testes funcionais\n- **Magnitude**: - Handgrip: <27 kg homens, <16 kg mulheres define baixa força. - SPPB/Chair stand <8 pontos/tempo prolongado = elevado risco de desfecho adverso e mortalidade.\n- **Limite**: Influência de fatores não musculares (dor articular, AVD).\n- **Aplicação recomendada no BR**: Rastreamento obrigatório e acompanhamento longitudinal em idosos, pacientes crônicos, portadores de doenças musculares. --- ## 5. Seleção de Casos, Indicações e Fluxo Prático no Consultório Brasileiro ### 5.1 Seleção e Indicação | Cenário | Método de escolha | Justificativa |\n|-----------------------------------------------------------|--------------------------------------|-----------------------------------------------------|\n| 1º consulta de idoso, risco clínico elevado | Teste funcional + DEXA ou BIA | Objetivar gravidade/função; DEXA se disponível |\n| Acompanhamento de intervenção anabólica | DEXA (preferência) / BIA (acomp.) | Quantifica resposta terapêutica e risco |\n| Avaliação de atleta / demanda de performance explosiva | Force plate + teste funcional | Avaliação objetiva de potência/performance |\n| Seguimento longitudinal em consultório geral | BIA + teste funcional | Monitoramento, rastreio precoce |\n| Dificuldades motoras regionais / pós-lesão | Ultrassom + teste funcional | Delimita atrofia regional/clínica | ### 5.2 Fluxograma Resumido (Adaptado EWGSOP2 [A]): 1. **Rastreamento (todo >60 anos ou risco clínico):** handgrip/Chair Stand Test.\n2. **Força Reduzida? -> Prosseguir:** - DEXA ou BIA para confirmatório e quantificação de massa magra. - Se DEXA disponível: sempre preferir; ausência, usar BIA (compreendendo limitações). - Ultrassom em casos regionais/particulares. - Teste funcional (SPPB, Timed Up and Go) sempre complementar.\n3. **Documentar todos os valores, aparelho, protocolo e condições do exame.** --- ## 6. Monitoramento, Segurança e Interpretação Crítica ### 6.1 Documentação Clínica e Monitoramento - Registrato do método (marca/modelo), condições do exame (jejum/hidratação), resultados brutos e percentuais.\n- Para acompanhamento: ideal manter o mesmo método e protocolo em todas avaliações para evitar variabilidade interinstrumentos.\n- Preencher laudo/relatório estruturado, seguir recomendação vigente do CFM e ANVISA quanto aos exames diagnósticos. ### 6.2 Interpretação e Armadilhas Frequentes - **DEXA/BIA**: não interpretar variações rápidas (<1 mês) como modificações expressivas de massa magra em adultos sem intervenções potentes.\n- **BIA**: grande influência de hidratação (0,5–2 kg em 48h), edema, ingestão de álcool e tendência à subestimar massa magra em idosos/obesos.\n- **Ultrassom**: resultados não comparáveis entre diferentes locais/anatomias; variabilidade intra e interoperador.\n- **Testes funcionais**: considerar dor/artrose e comorbidades na análise de piora ou melhora de desempenho. --- ## 7. Aspectos Regulatórios, Éticos e Diretrizes no Brasil ### 7.1 Equipamentos e Métodos - Equipamentos de DEXA, BIA clínica, ultrassom e force plate precisam de registro na ANVISA para uso assistencial.\n- Relatórios devem ser assinados por médico habilitado em métodos complementares, conforme CFM.\n- Documentação de composição corporal não implica, por si, em autorização para prescrição de hormônios, anabolizantes ou peptídeos, salvo em quadros com indicação diagnóstica robusta e registro na ANVISA (ex.: tirzepatida para DM2/obesidade, ver [S1]).\n- Consulta CFM 2.333/2023: prescrição de implantes hormonais/cosméticos apenas diante de indicação clínica formal, nunca para “melhora estética sem deficiência”. ### 7.2 O que NÃO fazer - Jamais prescrever GH, IGF-1, peptídeos anabólicos não registrados ou SARMs como terapia “antiaging” sem deficiência comprovada (CFM/ANVISA/WADA).\n- Não utilizar métodos como BIA de bioimpedância portátil, balanças smart ou smartwatches para decisões terapêuticas críticas.\n- Evitar interpretar resultados isolados fora do contexto clínico-funcional global do paciente. --- ## 8. Caso Clínico - Fixação de Conhecimento #### Paciente: Jorge, 74 anos, masculino, DM2 controlado, IMC 27, queixa de fraqueza progressiva, quedas recentes, sedentário. Exame: handgrip 21 kg (padrão: <27 kg), SPPB 6/12, edema MMII leve, função renal normal. **Pergunta:** Qual a conduta diagnóstica mais acurada e segura considerando recursos do consultório padrão e contexto brasileiro? - a) Solicitar apenas DEXA para massa muscular.\n- b) Solicitar BIA, teste funcional e documentar condições do exame.\n- c) Solicitar ultrassom muscular, force plate e SPPB.\n- d) Solicitar SPPB isoladamente para rastreio. **Resposta correta: b)** **Racional:** Em um consultório padrão, nem sempre o DEXA estará disponível; BIA (quando clínica, multifrequencial), associada ao teste funcional (obrigatório), com documentação criteriosa das condições (hidratação, edema), fornecem rastreio e acompanhamento adequados. Ultrassom é dependente de operador e force plate é de pesquisa; SPPB isoladamente não define diagnóstico nem estratifica massa. --- ## 9. “Slide Deck” Sintético (Sugestão 8–12 Slides) 1. **Title:** Mensuração de Composição Corporal, Massa Muscular e Performance Funcional: DEXA, BIA, US, Force Plate e Testes Funcionais no Consultório BR.\n2. **Tabela Comparativa:** Propriedades técnicas, prós e limites dos métodos – DEXA, BIA, US, Force Plate, Handgrip (tabela densa).\n3. **Fluxo Diagnóstico (Flow):** Passo a passo prático, da triagem funcional à confirmação laboratorial.\n4. **Bar Graph:** Sensibilidade e especificidade (%) de cada método — DEXA vs. BIA vs. Testes Funcionais.\n5. **Split Slide:** “Quando escolher cada método” — cenários clínicos e exemplos reais.\n6. **Pérolas Práticas:** Como evitar principais erros de interpretação (checklist).\n7. **Tabela de armadilhas:** Influências de hidratação, edema, motivação, dor em cada método.\n8. **Pearl:** O que não fazer: GH, peptídeos, drip sem critério, métodos caseiros.\n9. **Checklist slide:** Registro, assinatura e documentação adequada.\n10. **Resumo visual:** “Linha do tempo” do diagnóstico e monitoramento longitudinal.\n11. **Normas Regulatórias BR:** ANVISA, CFM 2.333/2023, destaque para implantes, manipulação estéril, diferenças entre propósitos clínicos e cosméticos.\n12. **Caso Clínico Resumido:** Fixação com discussão do caso do Jorge. --- ## 10. Quick Reference de “Bolso” - DEXA: preferir em avaliação inicial ou mudança de condutas anabólicas; regionalização, + precisão; limitado por custo e acesso.\n- BIA: rastreio e acompanhamento, atenção às condições do exame.\n- Ultrassom: complementar em atrofias regionais ou pós-lesão, depende do operador.\n- Testes funcionais: obrigatórios no rastreio/suspeição, simples, prognóstico.\n- Force plate: restrito a demandas atléticas/pesquisa.\n- Equipamentos sempre registrados na ANVISA; resultado não prescritivo per se.\n- Não prescrever GH, SARMs, peptídeos sem registro — conduta vedada e antiética. --- ## 11. Key Points 1. O diagnóstico moderno da sarcopenia requer integração de testes funcionais, métodos de composição corporal (preferencialmente DEXA) e julgamento clínico — nenhum isolado suficiente.\n2. Em consultório padrão brasileiro, BIA clínica multifrequencial + teste funcional + documentação criteriosa é abordagem pragmática e segura.\n3. DEXA segue padrão-ouro, mas é limitado por acessibilidade; ultrassom é promissor, sobretudo em atrofias localizadas.\n4. Testes funcionais (handgrip, SPPB) são facilmente aplicáveis, possuem alto valor prognóstico e devem ser rotineiros em pacientes de risco.\n5. Prescrição de terapias anabólicas/manipuladas exige diagnóstico robusto; hormônios e peptídeos sem deficiência formal/documentada são vedados.\n6. Todos os métodos sofrem interferências; interpretação crítica e contextualização clínica evitam iatrogenias.\n7. Sempre considerar normas CFM, ANVISA e evidência de alto nível nas decisões diagnósticas e terapêuticas. --- ## 12. Referências Selecionadas - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026 (A).\n- Cruz-Jentoft AJ et al. Sarcopenia: revised European consensus on definition and diagnosis. Age and Ageing. 2019;48(1):16-31. [EWGSOP2] (A).\n- Buckinx F et al. Pitfalls in the measurement of muscle mass: a need for a reference standard. J Cachexia Sarcopenia Muscle. 2018 (A).\n- Peterson MD et al. Low muscle strength in older adults: United States prevalence and implications for public health. J Am Med Dir Assoc. 2019 (B).\n- Maeda K et al. Sarcopenia as a potential cause of impairment of swallowing. JCSM Clinical Reports. 2017 (C).\n- SBEM/SBGG. Consenso brasileiro de sarcopenia. 2021 (A).\n- Norman K et al. Hand grip strength: outcome predictor and marker of nutritional status. Clin Nutr. 2011 (A).\n- CFM 2.333/2023. Pareceres e normas sobre prescrição de anabolizantes, hormônios, peptídeos e manipulação estéril. Brasília.\n- ANVISA. Consulta de equipamentos médicos registrados, RDC 185/2001, atualizações. --- **Este material representa síntese técnico-científica de excelência voltada a habilitar uma atuação clínica ética, fundamentada e alinhada às melhores práticas internacionais, contextualizada ao cenário brasileiro e suas regulações.** --- ### (Fim do tratado)",
+  "quick_ref": "DEXA é o padrão-ouro para sarcopenia, porém de alto custo e acesso restrito; usado para diagnóstico e estratificação. BIA multifrequencial é útil para triagem e acompanhamento, mas afetada por hidratação e outras variáveis. Ultrassonografia muscular serve como complemento em casos regionais e depende de operador treinado. Testes funcionais (handgrip, SPPB) são rápidos, baratos e imprescindíveis para avaliação do risco e evolução clínica. Force Plate é indicado para avaliação de atletas e performance, com uso restrito. Sempre documentar equipamento, condições e usar abordagem integrada. Prescrições de hormônios e peptídeos só com indicação clínica robusta e registro conforme normas CFM/ANVISA. Evitar decisões terapêuticas com base em métodos não validados ou sem contexto clínico adequado.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "74 anos"
+      },
+      {
+        "label": "Sexo",
+        "value": "Masculino"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Fraqueza progressiva, quedas"
+      },
+      {
+        "label": "IMC",
+        "value": "27 kg/m²"
+      },
+      {
+        "label": "Handgrip",
+        "value": "21 kg"
+      },
+      {
+        "label": "SPPB",
+        "value": "6/12"
+      },
+      {
+        "label": "Edema",
+        "value": "Leve em MMII"
+      },
+      {
+        "label": "Função renal",
+        "value": "Preservada"
+      }
+    ],
+    "title": "Caso Clínico - Diagnóstico Prático de Sarcopenia em Consultório Brasileiro",
+    "reward": 20,
+    "options": [
+      {
+        "label": "a) Solicitar apenas DEXA para massa muscular.",
+        "correct": false,
+        "rationale": "Embora DEXA seja padrão ouro, pode haver limitação de disponibilidade no consultório típico brasileiro."
+      },
+      {
+        "label": "b) Solicitar BIA, teste funcional e documentar condições do exame.",
+        "correct": true,
+        "rationale": "Esta abordagem é prática e válida no cenário brasileiro, integrando avaliação funcional e composição corporal com atenção à qualidade do exame."
+      },
+      {
+        "label": "c) Solicitar ultrassom muscular, force plate e SPPB.",
+        "correct": false,
+        "rationale": "Ultrassom e force plate são específicos para casos selecionados e exigem maior infraestrutura e treinamento."
+      },
+      {
+        "label": "d) Solicitar SPPB isoladamente para rastreio.",
+        "correct": false,
+        "rationale": "SPPB isoladamente não permite quantificação da massa muscular nem confirma sarcopenia."
+      }
+    ],
+    "question": "Considerando o contexto e recursos disponíveis no consultório padrão brasileiro, qual abordagem diagnóstica é mais apropriada para avaliar a sarcopenia de Jorge?",
+    "vignette": "Jorge, 74 anos, masculino, diabetico tipo 2 controlado, IMC 27, apresenta queixa de fraqueza progressiva, quedas recentes e sedentarismo. Avaliação clínica revela edema discreto em membros inferiores, força de preensão manual medida em 21 kg (valor de referência >27 kg para homens), SPPB de 6/12, função renal preservada.",
+    "teaching": "Para pacientes idosos com fatores de risco para sarcopenia, a abordagem inicial deve incluir testes funcionais de força e desempenho (handgrip, SPPB) por serem simples e validados. DEXA, quando disponível, seria o padrão para quantificação precisa da massa muscular. No entanto, dado o acesso limitado ao DEXA, a bioimpedância multifrequencial, associada aos testes funcionais, é a estratégia pragmática para diagnóstico e acompanhamento, desde que sejam registradas as condições do exame (hidratação, edema). Ultrassonografia e force plate são utilizadas em contextos específicos (lesões regionais ou atletas) e não são essenciais no cenário padrão. A interpretação deve sempre considerar fatores como edema, motivação e condições clínicas. Prescrição de hormônios/anabolizantes deve ser baseada em diagnóstico robusto e com respaldo regulatório, evitando práticas antiéticas."
+  },
+  "refs": [
+    {
+      "citation": "Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Sarcopenia: Revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31."
+    },
+    {
+      "citation": "Buckinx F, Landi F, Cesari M, et al. Pitfalls in the measurement of muscle mass: a need for a reference standard. J Cachexia Sarcopenia Muscle. 2018;9(2):269-278."
+    },
+    {
+      "citation": "SBEM/SBGG. Consenso Brasileiro de Sarcopenia. 2021."
+    },
+    {
+      "citation": "Norman K, Stobäus N, Gonzalez MC, Schulzke JD, Pirlich M. Hand grip strength: outcome predictor and marker of nutritional status. Clin Nutr. 2011;30(2):135-42."
+    },
+    {
+      "citation": "CFM. Parecer 2.333/2023 sobre prescrição de anabolizantes, hormônios e manipulação estéril. Conselho Federal de Medicina, Brasília."
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    }
+  ],
+  "status": "published"
+}

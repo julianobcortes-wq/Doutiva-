@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "NITRO_PRESET=vercel npm run build",
+  "installCommand": "npm ci",
+  "crons": [
+    {
+      "path": "/api/cron/daily-challenge",
+      "schedule": "0 11 * * *"
+    }
+  ]
+}

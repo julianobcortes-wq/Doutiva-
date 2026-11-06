@@ -1,0 +1,85 @@
+# Doutiva — Roadmap
+
+## Feito
+
+- [x] Estúdio de Cursos (criar/editar aulas, revisão e publicação com médico revisor)
+- [x] Geração em 3 etapas (Claude escreve → GPT estrutura → Claude audita)
+- [x] Biblioteca Científica: busca PubMed/PMC e ClinicalTrials.gov, texto completo aberto, PDF/diretriz, aulas ancoradas em [S#]
+- [x] Professores de IA (4 personas: socrático, banca, plantão, cético) + Índice de Domínio por sessão
+
+- [x] Fase 1: limpeza das telas antigas, menu enxuto e Caso do Dia
+- [x] Caso do Dia roda sobre as aulas publicadas do Estúdio (rotação automática por dia)
+- [x] XP, Créditos e Sequência gravados no banco e conferidos de ponta a ponta (1 resposta por dia)
+
+## Robustez (pendente)
+
+- [x] Marketplace: resgate com Créditos (saldo conferido no banco, sem saldo negativo)
+- [x] Aula concluída dá +30 XP e +2 Créditos (1x por aula)
+- [x] Ranking ligado ao XP real
+- [x] acerto do Caso do Dia decidido no servidor
+
+## Próximo (Fundação científica)
+
+- [x] Busca semântica na biblioteca (embeddings) para Tutor IA responder citando fontes
+- [x] Tutor IA usando a biblioteca, com citação obrigatória
+- [x] Verificação automática de referências (cada [S#] confere com o trecho da fonte)
+- [x] Alerta de atualização: novos ECR/diretrizes sobre temas de aulas publicadas
+
+## Conteúdo clínico
+
+- [x] Trilha Peptídeos v1 em profundidade de tratado (~216k chars, 9 aulas) — supersedida pela v2 abaixo
+- [x] Script `scripts/deepen-peptides-lessons.mjs` para re-gerar aulas ancoradas na biblioteca
+- [x] Peptídeos v2 — 15 aulas (~20h, ~409k chars monografia, ~130 slides): fronteira dual/triplo/orais, organoproteção, sarcopenia, populações especiais, armamentário ampliado, clínica de excelência (+ exports em `scripts/peptides-exports/`)
+- [x] Doutiva v3 — 6 cursos premium (10 aulas cada, ~60h total monografias): tirzepatida operacional, hormônios/implantes, soroterapia estéril, obesidade de precisão, sarcopenia/performance, IA na prática médica (+ exports em `scripts/course-exports/`)
+
+## Produto (gaps fechados em `0022`)
+
+- [x] Fulfillment de marketplace (`entitlements` + protocolo PDF)
+- [x] Planos/assinatura com cortesia (`select_plan`) — Stripe opcional
+- [x] Termos / Privacidade / Política de IA + aceite versionado
+- [x] CRM mentor com fila admin (`verify_mentor_credentials`)
+- [x] Inbox de mentoria humana (aceitar/recusar/agendar)
+- [x] Fidelity claim↔trecho no Tutor
+- [x] Cron e-mail Caso do Dia (`/api/cron/daily-challenge`)
+- [x] Guia de deploy (`docs/DEPLOY.md`, `vercel.json`)
+
+## Experiência do aluno
+
+- [x] Questões por aula + revisão espaçada (/revisao)
+- [x] Certificados com carga horária e QR de verificação pública (/verificar)
+- [x] Caso do Dia soma XP, Créditos e Sequência de verdade (1x por dia)
+- [x] Progresso por trilha e ranking ligados a aulas reais
+- [x] Vídeo do mentor por aula
+- [x] Telas com conteúdo de exemplo escondidas do menu (Comunidade, Missões, Eventos, Loja, Temporada, Solicitações)
+
+## Corpo docente e qualidade
+
+- [x] Perfis de Médico Mentor com CRM/RQE e permissões próprias no Estúdio
+- [x] Histórico de versões e trilha de auditoria de cada aula
+- [x] Conselho editorial: fila de revisão com prazos
+
+## Fundação de robustez (este repo)
+
+- [x] Remover demo login com senha no client
+- [x] Gabarito clínico server-only + `lesson_case_keys`
+- [x] Travar INSERT de `mastery_records` no client
+- [x] Nav docente por `has_role` (esconder telas VISUAL_ONLY do menu)
+- [x] `.env` ignorado + `.env.example` + `npm test`
+- [x] Aplicar migrations `0013`/`0014`/`0015` (+ `0016`–`0020`) no Supabase live Doutiva
+- [x] Versionar RLS das tabelas-base (`0015_base_table_rls.sql`)
+- [x] Citation gate no Tutor + embed fora do hot path
+- [x] Provider AI desacoplável via env (`ai-provider.server.ts`)
+- [x] CREATE TABLE das tabelas-base no git (`0016_base_schema_ddl.sql`)
+- [x] Embeddings alinhados a `text-embedding-3-small` (`0020`, 1536 dims)
+- [x] Biblioteca científica seedada (Europe PMC + ClinicalTrials) + `scripts/seed-scientific-library.mjs`
+- [x] OAuth: Supabase nativo (Google via Auth Providers; sem broker Lovable no fluxo)
+- [x] Desacoplar Vite config Lovable (`vite.config.ts` first-party + Nitro)
+- [ ] Deploy público permanente (Vercel/Cloudflare) — preview via túnel Cloudflare enquanto isso
+
+## Negócio e conformidade
+
+- [x] Assinatura/pagamentos — Checkout Stripe + webhook prontos (ativar com `STRIPE_*` + Price IDs)
+- [x] Validação de formato CRM/UF no cadastro mentor (lookup CFM oficial permanece editorial/admin)
+- [ ] Termos, LGPD e política de uso de IA (bloqueado: revisão jurídica)
+- [ ] Credenciamento de educação continuada (bloqueado: decisão institucional)
+- [ ] Lookup CFM oficial / API externa (bloqueado: fonte institucional)
