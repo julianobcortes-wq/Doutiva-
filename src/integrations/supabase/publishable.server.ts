@@ -1,10 +1,14 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "./types";
+import {
+  getSupabasePublishableKey,
+  getSupabaseServerUrl,
+} from "./env.server";
 
 /** Server-side client with the publishable key (RLS applies). No service role required. */
 export function createPublishableServerClient(accessToken?: string): SupabaseClient<Database> {
-  const SUPABASE_URL = process.env["SUPABASE_URL"];
-  const SUPABASE_PUBLISHABLE_KEY = process.env["SUPABASE_PUBLISHABLE_KEY"];
+  const SUPABASE_URL = getSupabaseServerUrl();
+  const SUPABASE_PUBLISHABLE_KEY = getSupabasePublishableKey();
   if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
     throw new Error("Missing SUPABASE_URL or SUPABASE_PUBLISHABLE_KEY");
   }

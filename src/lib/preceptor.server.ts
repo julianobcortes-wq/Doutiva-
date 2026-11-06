@@ -8,6 +8,10 @@ import {
   doutivaChatModel,
   doutivaOpenAIProviderOptions,
 } from "@/lib/ai-provider.server";
+import {
+  getSupabasePublishableKey,
+  getSupabaseServerUrl,
+} from "@/integrations/supabase/env.server";
 
 const BASE = `Você é um Professor de IA da Doutiva — a escola do médico do futuro. Seu aluno é SEMPRE um médico formado.
 Princípios pedagógicos (mastery learning, estilo Alpha School):
@@ -74,8 +78,8 @@ export async function handlePreceptor(request: Request) {
   const token = (request.headers.get("authorization") ?? "").replace(/^Bearer\s+/i, "");
   if (!token) return new Response("Não autenticado", { status: 401 });
   const supabase = createClient<Database>(
-    process.env["SUPABASE_URL"]!,
-    process.env["SUPABASE_PUBLISHABLE_KEY"]!,
+    getSupabaseServerUrl(),
+    getSupabasePublishableKey(),
     {
       auth: { persistSession: false, autoRefreshToken: false },
       global: { headers: { Authorization: `Bearer ${token}` } },

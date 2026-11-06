@@ -58,24 +58,28 @@ function Professores() {
   const lessons = useQuery({
     queryKey: ["preceptor-lessons"],
     queryFn: async () => {
-      const { data } = await supabase
+      const { data, error } = await supabase
         .from("lessons")
         .select("id, title, module_title, courses(title)")
         .eq("status", "published")
         .order("position");
+      if (error) throw error;
       return data ?? [];
     },
+    retry: 1,
   });
   const history = useQuery({
     queryKey: ["mastery"],
     queryFn: async () => {
-      const { data } = await supabase
+      const { data, error } = await supabase
         .from("mastery_records")
         .select("id, lesson_id, persona, score, created_at")
         .order("created_at", { ascending: false })
         .limit(20);
+      if (error) throw error;
       return data ?? [];
     },
+    retry: 1,
   });
 
   const [persona, setPersona] = useState<PersonaId>("socratico");
@@ -222,6 +226,12 @@ function Professores() {
                     </option>
                   ))}
                 </select>
+                {lessons.isError && (
+                  <p className="text-xs text-destructive">
+                    Não foi possível carregar as aulas
+                    {lessons.error instanceof Error ? `: ${lessons.error.message}` : "."}
+                  </p>
+                )}
                 {lessons.data && lessons.data.length === 0 && (
                   <p className="text-xs text-muted-foreground">Nenhuma aula publicada ainda.</p>
                 )}

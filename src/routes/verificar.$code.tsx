@@ -3,12 +3,16 @@ import { createServerFn } from "@tanstack/react-start";
 import { createClient } from "@supabase/supabase-js";
 import { z } from "zod";
 import type { Database } from "@/integrations/supabase/types";
+import {
+  getSupabasePublishableKey,
+  getSupabaseServerUrl,
+} from "@/integrations/supabase/env.server";
 
 const verify = createServerFn({ method: "GET" })
   .inputValidator((d: { code: string }) => z.object({ code: z.string().min(4).max(20) }).parse(d))
   .handler(async ({ data }) => {
-    const key = process.env["SUPABASE_PUBLISHABLE_KEY"]!;
-    const sb = createClient<Database>(process.env["SUPABASE_URL"]!, key, {
+    const key = getSupabasePublishableKey();
+    const sb = createClient<Database>(getSupabaseServerUrl(), key, {
       auth: { persistSession: false, autoRefreshToken: false },
       global: { fetch: (input, init) => {
         const h = new Headers(init?.headers);

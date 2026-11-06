@@ -3,6 +3,10 @@ import { createClient } from "@supabase/supabase-js";
 import type { Database } from "@/integrations/supabase/types";
 import { gateCorpusCitationsWithFidelity } from "@/lib/citations";
 import { doutivaChatModel, doutivaOpenAIProviderOptions } from "@/lib/ai-provider.server";
+import {
+  getSupabasePublishableKey,
+  getSupabaseServerUrl,
+} from "@/integrations/supabase/env.server";
 
 const SYSTEM = `Você é o Tutor IA da Doutiva — a escola do médico do futuro. Seu interlocutor é sempre um MÉDICO.
 Regras inegociáveis:
@@ -38,8 +42,8 @@ export async function handleTutor(request: Request) {
   const token = auth.replace(/^Bearer\s+/i, "");
   if (!token) return new Response("Não autenticado", { status: 401 });
 
-  const url = process.env["SUPABASE_URL"]!;
-  const key = process.env["SUPABASE_PUBLISHABLE_KEY"]!;
+  const url = getSupabaseServerUrl();
+  const key = getSupabasePublishableKey();
   const supabase = createClient<Database>(url, key, {
     auth: { persistSession: false, autoRefreshToken: false },
     global: { headers: { Authorization: `Bearer ${token}` } },

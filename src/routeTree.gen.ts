@@ -22,6 +22,7 @@ import { Route as PoliticaIaRouteImport } from './routes/politica-ia'
 import { Route as PrivacidadeRouteImport } from './routes/privacidade'
 import { Route as SlidesPreviewRouteImport } from './routes/slides-preview'
 import { Route as TermosRouteImport } from './routes/termos'
+import { Route as UniversidadeRouteImport } from './routes/universidade'
 import { Route as AuthenticatedAchievementsRouteImport } from './routes/_authenticated/achievements'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as AuthenticatedAffiliatesRouteImport } from './routes/_authenticated/affiliates'
@@ -130,6 +131,11 @@ const SlidesPreviewRoute = SlidesPreviewRouteImport.update({
 const TermosRoute = TermosRouteImport.update({
   id: '/termos',
   path: '/termos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const UniversidadeRoute = UniversidadeRouteImport.update({
+  id: '/universidade',
+  path: '/universidade',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AuthenticatedAchievementsRoute =
@@ -387,6 +393,7 @@ export interface FileRoutesByFullPath {
   '/privacidade': typeof PrivacidadeRoute
   '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
+  '/universidade': typeof UniversidadeRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -446,6 +453,7 @@ export interface FileRoutesByTo {
   '/privacidade': typeof PrivacidadeRoute
   '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
+  '/universidade': typeof UniversidadeRoute
   '/achievements': typeof AuthenticatedAchievementsRoute
   '/admin': typeof AuthenticatedAdminRoute
   '/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -507,6 +515,7 @@ export interface FileRoutesById {
   '/privacidade': typeof PrivacidadeRoute
   '/slides-preview': typeof SlidesPreviewRoute
   '/termos': typeof TermosRoute
+  '/universidade': typeof UniversidadeRoute
   '/_authenticated/achievements': typeof AuthenticatedAchievementsRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/_authenticated/affiliates': typeof AuthenticatedAffiliatesRoute
@@ -568,6 +577,7 @@ export interface FileRouteTypes {
     | '/privacidade'
     | '/slides-preview'
     | '/termos'
+    | '/universidade'
     | '/achievements'
     | '/admin'
     | '/affiliates'
@@ -627,6 +637,7 @@ export interface FileRouteTypes {
     | '/privacidade'
     | '/slides-preview'
     | '/termos'
+    | '/universidade'
     | '/achievements'
     | '/admin'
     | '/affiliates'
@@ -687,6 +698,7 @@ export interface FileRouteTypes {
     | '/privacidade'
     | '/slides-preview'
     | '/termos'
+    | '/universidade'
     | '/_authenticated/achievements'
     | '/_authenticated/admin'
     | '/_authenticated/affiliates'
@@ -748,6 +760,7 @@ export interface RootRouteChildren {
   PrivacidadeRoute: typeof PrivacidadeRoute
   SlidesPreviewRoute: typeof SlidesPreviewRoute
   TermosRoute: typeof TermosRoute
+  UniversidadeRoute: typeof UniversidadeRoute
   ApiHealthRoute: typeof ApiHealthRoute
   ApiPreceptorRoute: typeof ApiPreceptorRoute
   ApiTutorRoute: typeof ApiTutorRoute
@@ -847,6 +860,13 @@ declare module '@tanstack/react-router' {
       path: '/termos'
       fullPath: '/termos'
       preLoaderRoute: typeof TermosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/universidade': {
+      id: '/universidade'
+      path: '/universidade'
+      fullPath: '/universidade'
+      preLoaderRoute: typeof UniversidadeRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_authenticated/achievements': {
@@ -1298,6 +1318,7 @@ const rootRouteChildren: RootRouteChildren = {
   PrivacidadeRoute: PrivacidadeRoute,
   SlidesPreviewRoute: SlidesPreviewRoute,
   TermosRoute: TermosRoute,
+  UniversidadeRoute: UniversidadeRoute,
   ApiHealthRoute: ApiHealthRoute,
   ApiPreceptorRoute: ApiPreceptorRoute,
   ApiTutorRoute: ApiTutorRoute,

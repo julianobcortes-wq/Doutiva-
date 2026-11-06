@@ -45,16 +45,30 @@ function ReviewPage() {
   const [grade, setGrade] = useState<CaseGradeResult | null>(null);
   const [grading, setGrading] = useState(false);
   const [stats, setStats] = useState({ ok: 0, miss: 0 });
+  const [loadError, setLoadError] = useState<string | null>(null);
   const loadCases = useServerFn(listReviewCases);
   const gradeFn = useServerFn(answerReviewCase);
 
   useEffect(() => {
-    Promise.all([loadCases(), supabase.from("review_cards").select("*")]).then(([list, { data }]) => {
-      setCases(list);
-      const m: Record<string, Card> = {};
-      for (const r of data ?? []) m[r.case_key] = r as Card;
-      setCards(m);
-    });
+    let cancelled = false;
+    setLoadError(null);
+    Promise.all([loadCases(), supabase.from("review_cards").select("*")])
+      .then(([list, cardsRes]) => {
+        if (cancelled) return;
+        setCases(list);
+        const m: Record<string, Card> = {};
+        for (const r of cardsRes.data ?? []) m[r.case_key] = r as Card;
+        setCards(m);
+      })
+      .catch((e) => {
+        if (cancelled) return;
+        console.error(e);
+        setCases([]);
+        setLoadError(e instanceof Error ? e.message : "Falha ao carregar a revisão.");
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [loadCases]);
 
   const queue = useMemo(() => {
@@ -90,6 +104,16 @@ function ReviewPage() {
   }
 
   if (!cases) return <div className="p-10 text-sm text-muted-foreground">Carregando revisão…</div>;
+  if (loadError) {
+    return (
+      <div className="mx-auto max-w-3xl space-y-4 p-6">
+        <p className="text-sm text-destructive">Não foi possível carregar a revisão: {loadError}</p>
+        <Button asChild variant="outline">
+          <Link to="/dashboard">Voltar ao campus</Link>
+        </Button>
+      </div>
+    );
+  }
   const current = queue[idx];
   const upcoming = Object.values(cards).filter((c) => c.due_date > today()).length;
 

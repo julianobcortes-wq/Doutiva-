@@ -45,7 +45,17 @@ function DashboardPage() {
     queryFn: () => studioMe(),
     staleTime: 60_000,
   });
-  const { data: courses } = useQuery({ queryKey: ["courses"], queryFn: () => fetchCourses() });
+  const {
+    data: courses,
+    isLoading: coursesLoading,
+    isError: coursesError,
+    error: coursesErr,
+    refetch: refetchCourses,
+  } = useQuery({
+    queryKey: ["courses"],
+    queryFn: () => fetchCourses(),
+    retry: 1,
+  });
   const faculty = !!me?.isAdmin;
   const featured = (courses ?? []).slice(0, 3);
 
@@ -153,8 +163,31 @@ function DashboardPage() {
           </Link>
         </div>
         <div className="mt-5 grid gap-3 md:grid-cols-3">
-          {featured.length === 0 && (
+          {coursesLoading && featured.length === 0 && (
             <p className="text-sm text-muted-foreground md:col-span-3">Carregando cursos…</p>
+          )}
+          {coursesError && (
+            <div className="md:col-span-3 rounded-sm border border-destructive/40 bg-card p-4 text-sm">
+              <p className="text-destructive">
+                Não foi possível carregar os cursos
+                {coursesErr instanceof Error ? `: ${coursesErr.message}` : "."}
+              </p>
+              <button
+                type="button"
+                onClick={() => refetchCourses()}
+                className="mt-2 text-[10px] uppercase tracking-[0.2em] text-gold"
+              >
+                Tentar de novo
+              </button>
+            </div>
+          )}
+          {!coursesLoading && !coursesError && featured.length === 0 && (
+            <p className="text-sm text-muted-foreground md:col-span-3">
+              Nenhum curso publicado ainda.{" "}
+              <Link to="/academy" className="text-gold">
+                Abrir Universidade
+              </Link>
+            </p>
           )}
           {featured.map((c) => (
             <Link
