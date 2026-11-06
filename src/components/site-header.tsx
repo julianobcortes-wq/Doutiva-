@@ -1,17 +1,26 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { getSupabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 
 export function SiteHeader() {
   const [signedIn, setSignedIn] = useState(false);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => setSignedIn(!!data.session));
-    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
+    const client = getSupabase();
+    if (!client) return;
+
+    let active = true;
+    client.auth.getSession().then(({ data }) => {
+      if (active) setSignedIn(!!data.session);
+    });
+    const { data: sub } = client.auth.onAuthStateChange((_e, session) => {
       setSignedIn(!!session);
     });
-    return () => sub.subscription.unsubscribe();
+    return () => {
+      active = false;
+      sub.subscription.unsubscribe();
+    };
   }, []);
 
   return (

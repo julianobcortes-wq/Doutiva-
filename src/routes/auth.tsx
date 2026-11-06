@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { getSupabase, isSupabaseConfigured } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -28,11 +28,15 @@ function AuthPage() {
   const [userClass, setUserClass] = useState<UserClass>("lifer");
   const expert = userClass === "valley_expert";
 
+  const configured = isSupabaseConfigured();
+
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
+    const client = getSupabase();
+    if (!client) return;
+    client.auth.getSession().then(({ data }) => {
       if (data.session) navigate({ to: "/dashboard" });
     });
-    const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
+    const { data: sub } = client.auth.onAuthStateChange((event, session) => {
       if (event === "SIGNED_IN" && session) navigate({ to: "/dashboard" });
     });
     return () => sub.subscription.unsubscribe();
@@ -40,11 +44,16 @@ function AuthPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    const client = getSupabase();
+    if (!client) {
+      toast.error("Login indisponível: configure as variáveis Supabase na Vercel.");
+      return;
+    }
     setLoading(true);
     setStoredClass(userClass);
     try {
       if (mode === "signup") {
-        const { error } = await supabase.auth.signUp({
+        const { error } = await client.auth.signUp({
           email, password,
           options: {
             emailRedirectTo: `${window.location.origin}/dashboard`,
@@ -54,7 +63,7 @@ function AuthPage() {
         if (error) throw error;
         toast.success("Conta criada. Bem-vindo à Doutiva.");
       } else {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        const { error } = await client.auth.signInWithPassword({ email, password });
         if (error) throw error;
       }
     } catch (err) {
@@ -65,9 +74,14 @@ function AuthPage() {
   }
 
   async function handleGoogle() {
+    const client = getSupabase();
+    if (!client) {
+      toast.error("Login indisponível: configure as variáveis Supabase na Vercel.");
+      return;
+    }
     setStoredClass(userClass);
     const redirectTo = `${window.location.origin}/dashboard`;
-    const { error } = await supabase.auth.signInWithOAuth({
+    const { error } = await client.auth.signInWithOAuth({
       provider: "google",
       options: { redirectTo },
     });
@@ -104,6 +118,12 @@ function AuthPage() {
             <p className="mt-2 text-sm text-muted-foreground">
               {mode === "signin" ? "Use seu e-mail de membro" : "Sua aplicação será revisada em até 7 dias"}
             </p>
+            {!configured ? (
+              <p className="mt-4 rounded-sm border border-gold/30 bg-gold/10 px-3 py-2 text-left text-xs leading-relaxed text-muted-foreground">
+                Autenticação ainda não configurada neste deploy. Cadastre as variáveis Supabase na
+                Vercel e faça um novo deploy.
+              </p>
+            ) : null}
           </div>
 
           <div className="mt-8">
