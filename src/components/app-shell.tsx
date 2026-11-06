@@ -154,7 +154,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
       <aside className="fixed inset-y-0 left-0 z-40 hidden w-64 flex-col border-r border-border/60 bg-sidebar md:flex">
         <div className="flex h-16 items-center border-b border-border/60 px-6">
           <Link to="/dashboard" className="inline-flex" aria-label="Doutiva">
-            <DoutivaMark size="sm" title="" />
+            <DoutivaMark size="sm" className="rounded-sm" />
           </Link>
         </div>
 
@@ -241,7 +241,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-border/60 bg-background/80 px-6 backdrop-blur-xl">
           <div className="flex items-center gap-4">
             <span className="md:hidden inline-flex">
-              <DoutivaMark size="sm" title="" />
+              <DoutivaMark size="sm" className="rounded-sm" />
             </span>
             <span className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground lg:block">
               {currentLabel}

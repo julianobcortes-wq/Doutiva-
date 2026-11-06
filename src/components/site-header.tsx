@@ -19,7 +19,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center" aria-label="Doutiva — início">
-          <DoutivaMark size="sm" title="" />
+          <DoutivaMark size="sm" className="rounded-sm" />
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground md:flex">
           <a href="/#protocolos" className="transition hover:text-foreground">
