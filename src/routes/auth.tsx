@@ -115,7 +115,15 @@ function AuthPage() {
       options: { redirectTo },
     });
     if (error) {
-      toast.error("Falha no login com Google. Ative o provedor Google em Supabase → Authentication → Providers.");
+      const detail =
+        error && typeof error === "object" && "message" in error
+          ? String((error as { message: unknown }).message)
+          : "";
+      toast.error(
+        detail.toLowerCase().includes("provider is not enabled")
+          ? "Google ainda não está ativo neste projeto. Aguarde a configuração OAuth."
+          : detail || "Falha no login com Google.",
+      );
     }
   }
 
@@ -143,9 +151,22 @@ function AuthPage() {
         <div className="w-full max-w-sm">
           <div className="text-center">
             <span className={`text-[10px] uppercase tracking-[0.3em] ${expert ? "text-sage" : "text-gold"}`}>Acesso de membro</span>
-            <h1 className="mt-3 font-serif text-3xl">{mode === "signin" ? "Entrar na Doutiva" : "Solicitar acesso"}</h1>
+            <h1 className="mt-3 font-serif text-3xl">{mode === "signin" ? "Entrar na Doutiva" : "Criar acesso"}</h1>
             <p className="mt-2 text-sm text-muted-foreground">
-              {mode === "signin" ? "Use seu e-mail de membro" : "Sua aplicação será revisada em até 7 dias"}
+              {mode === "signin"
+                ? "Google ou e-mail da conta Doutiva"
+                : "Crie sua conta Doutiva em menos de um minuto"}
+            </p>
+            <p className="mt-3 rounded-sm border border-border/70 bg-card/60 px-3 py-2 text-left text-xs leading-relaxed text-muted-foreground">
+              Contas do site antigo (Lovable) não migram. Use Google ou{" "}
+              <button
+                type="button"
+                onClick={() => setMode("signup")}
+                className="text-gold underline-offset-2 hover:underline"
+              >
+                crie um acesso novo
+              </button>
+              .
             </p>
             {!configured ? (
               <p className="mt-4 rounded-sm border border-gold/30 bg-gold/10 px-3 py-2 text-left text-xs leading-relaxed text-muted-foreground">
@@ -248,13 +269,13 @@ function AuthPage() {
           </form>
 
           <p className="mt-6 text-center text-sm text-muted-foreground">
-            {mode === "signin" ? "Ainda não é membro? " : "Já tem acesso? "}
+            {mode === "signin" ? "Ainda não tem conta Doutiva? " : "Já tem acesso? "}
             <button
               type="button"
               onClick={() => setMode(mode === "signin" ? "signup" : "signin")}
               className="text-gold hover:underline"
             >
-              {mode === "signin" ? "Solicitar acesso" : "Entrar"}
+              {mode === "signin" ? "Criar acesso" : "Entrar"}
             </button>
           </p>
         </div>

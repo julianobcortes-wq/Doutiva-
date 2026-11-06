@@ -2,12 +2,13 @@
 
 ## Pré-requisitos
 
-1. Projeto Supabase próprio com migrations `0000`–`0022` aplicadas.
+1. Projeto Supabase **Doutiva** (`ynmlbkfdjxzmsndcquap`) — contas Lovable Cloud não migram.
 2. Secrets no host:
    - `SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SERVICE_ROLE_KEY`
    - `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`, `VITE_SUPABASE_PROJECT_ID`
    - `OPENAI_API_KEY`, `AI_GATEWAY_BASE_URL=https://api.openai.com/v1`
    - Opcional: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_*`, `RESEND_API_KEY`, `RESEND_FROM`, `CRON_SECRET`, `APP_ORIGIN`
+3. Google login: criar OAuth Web no Google Cloud e rodar `node scripts/enable-google-auth.mjs` (ver `docs/INDEPENDENT_SUPABASE.md`).
 
 ## Vite / build
 

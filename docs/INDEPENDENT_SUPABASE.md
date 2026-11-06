@@ -44,3 +44,21 @@ Isso cria o projeto `doutiva`, grava `.env` gitignored com publishable + **servi
 ## Região
 
 Default do script: `sa-east-1` (São Paulo). Override: `SUPABASE_REGION=us-east-1`.
+
+## Contas Lovable
+
+**Cortadas.** O app de produção aponta só para `ynmlbkfdjxzmsndcquap`. Contas do projeto Lovable Cloud (`nflhfjyyaefhxeesvrge`) não são migradas — o médico cria acesso novo (Google ou e-mail/senha) neste projeto.
+
+## Google OAuth
+
+1. No Google Cloud Console, crie um cliente OAuth **Aplicativo da Web** com:
+   - Redirect: `https://ynmlbkfdjxzmsndcquap.supabase.co/auth/v1/callback`
+   - Origens: `https://www.doutiva.com.br`, `https://doutiva.com.br`
+2. Defina `GOOGLE_CLIENT_ID` e `GOOGLE_CLIENT_SECRET` no ambiente.
+3. Rode:
+
+```bash
+node scripts/enable-google-auth.mjs
+```
+
+Isso liga `external_google_*` no Auth do projeto Doutiva (site_url já é `https://www.doutiva.com.br`).
