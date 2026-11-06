@@ -9,6 +9,7 @@
    - `OPENAI_API_KEY`, `AI_GATEWAY_BASE_URL=https://api.openai.com/v1`
    - Opcional: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_*`, `RESEND_API_KEY`, `RESEND_FROM`, `CRON_SECRET`, `APP_ORIGIN`
 3. Google login: criar OAuth Web no Google Cloud e rodar `node scripts/enable-google-auth.mjs` (ver `docs/INDEPENDENT_SUPABASE.md`).
+4. Professores de IA / Tutor: `OPENAI_API_KEY`, `AI_GATEWAY_BASE_URL=https://api.openai.com/v1`, e `SUPABASE_SERVICE_ROLE_KEY` (para persistir Índice de Domínio).
 
 ## Vite / build
 

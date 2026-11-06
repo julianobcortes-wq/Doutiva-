@@ -1,4 +1,3 @@
-import { LessonVideo } from "@/components/lesson-video";
 import { createFileRoute, Link, notFound, useRouter } from "@tanstack/react-router";
 import { useSuspenseQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
@@ -10,7 +9,7 @@ import { getCourseBySlug, enrollInCourse, toggleLessonComplete } from "@/lib/cou
 import { LessonMarkdown } from "@/components/lesson-markdown";
 import { LessonPlayer } from "@/components/lesson-player";
 import { resolveRich } from "@/content/lesson-normalize";
-import { ArrowLeft, BookOpen, CheckCircle2, Circle, Clock, FlaskConical, ListTree, Lock, ShieldAlert } from "lucide-react";
+import { ArrowLeft, BookOpen, CheckCircle2, Circle, Clock, FlaskConical, ListTree, Lock } from "lucide-react";
 import { toast } from "sonner";
 import { refreshProgress } from "@/lib/use-progress";
 
@@ -263,28 +262,27 @@ function CoursePage() {
                 </SheetContent>
               </Sheet>
             </div>
-            <h2 className="mt-3 text-balance font-display text-2xl font-medium leading-snug tracking-tight md:text-3xl">
+            <h2 className="mt-3 max-w-3xl text-balance font-display text-2xl font-medium leading-snug tracking-tight md:text-3xl">
               {lesson.title}
             </h2>
-            <p className="mt-2 font-light text-muted-foreground">{lesson.description}</p>
-            <div className="mt-4 flex flex-wrap gap-2 text-[10px] uppercase tracking-[0.2em]">
+            <div className="mt-3 flex flex-wrap items-center gap-2 text-[10px] uppercase tracking-[0.2em]">
               {lesson.evidence_level && (
-                <span className="inline-flex items-center gap-1 rounded-full border border-gold/40 px-3 py-1 text-gold">
+                <span className="inline-flex items-center gap-1 border border-gold/40 px-3 py-1 text-gold">
                   <FlaskConical className="h-3 w-3" /> {lesson.evidence_level}
                 </span>
               )}
-              <span className="inline-flex items-center gap-1 rounded-full border border-border px-3 py-1 text-muted-foreground">
+              <span className="inline-flex items-center gap-1 border border-border px-3 py-1 text-muted-foreground">
                 <Clock className="h-3 w-3" /> {lesson.duration_minutes} min
               </span>
+              {lesson.reviewed_by && (
+                <span className="normal-case tracking-normal text-[11px] text-muted-foreground">
+                  Revisado · {lesson.reviewed_by}
+                  {lesson.reviewed_at
+                    ? ` · ${new Date(lesson.reviewed_at).toLocaleDateString("pt-BR")}`
+                    : ""}
+                </span>
+              )}
             </div>
-            {lesson.video_url && <LessonVideo url={lesson.video_url} title={lesson.title} />}
-
-            {lesson.reviewed_by && (
-              <div className="mt-3 text-[11px] text-muted-foreground">
-                Revisado por <span className="text-foreground">{lesson.reviewed_by}</span>
-                {lesson.reviewed_at ? ` · ${new Date(lesson.reviewed_at).toLocaleDateString("pt-BR")}` : ""}
-              </div>
-            )}
 
             {rich ? (
               <LessonPlayer
@@ -305,6 +303,11 @@ function CoursePage() {
               />
             ) : (
               <>
+                {lesson.description && (
+                  <p className="mt-4 max-w-2xl text-sm font-light text-muted-foreground">
+                    {lesson.description}
+                  </p>
+                )}
                 <LegacyLesson points={lesson.key_points} content={lesson.content} refs={refs} />
                 <div className="mt-8 flex flex-wrap items-center justify-between gap-3">
                   <Button variant="ghost" disabled={idx === 0} onClick={() => go(idx - 1)} className="rounded-sm">
@@ -326,11 +329,10 @@ function CoursePage() {
               </>
             )}
 
-            <div className="mt-8 flex items-start gap-2 rounded-sm border border-border/60 p-4 text-xs text-muted-foreground">
-              <ShieldAlert className="h-4 w-4 shrink-0 text-gold" />
-              Conteúdo educacional para médicos, em revisão pelo corpo docente. Não substitui bula, diretrizes vigentes ou o
-              julgamento clínico individualizado.
-            </div>
+            <p className="mt-10 text-[11px] leading-relaxed text-muted-foreground/80">
+              Conteúdo educacional para médicos. Não substitui bula, diretrizes vigentes nem o julgamento clínico
+              individualizado.
+            </p>
           </article>
         )}
       </div>

@@ -40,7 +40,7 @@ function HomePage() {
           <img
             src={heroDoctor}
             alt=""
-            className="h-full w-full scale-105 object-cover object-[center_20%] opacity-55 animate-in fade-in duration-1000"
+            className="h-full w-full scale-105 object-cover object-[center_25%] opacity-60 animate-in fade-in duration-1000"
           />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,oklch(0.13_0.012_260/0.55)_55%,oklch(0.13_0.012_260)_100%)]" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-background/20" />

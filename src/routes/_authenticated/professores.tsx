@@ -118,8 +118,15 @@ function Professores() {
         body: JSON.stringify({ lessonId, persona, messages: next }),
         signal: ctrl.signal,
       });
-      if (!res.ok || !res.body)
-        throw new Error((await res.text()) || "Falha ao consultar o professor.");
+      if (!res.ok || !res.body) {
+        const raw = (await res.text()) || "Falha ao consultar o professor.";
+        if (res.status === 500 && /IA não configurada/i.test(raw)) {
+          throw new Error(
+            "Professores de IA indisponíveis neste deploy. Configure OPENAI_API_KEY na Vercel e faça redeploy.",
+          );
+        }
+        throw new Error(raw);
+      }
       const reader = res.body.getReader();
       const dec = new TextDecoder();
       let acc = "";

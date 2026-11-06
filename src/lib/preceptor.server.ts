@@ -152,9 +152,19 @@ export async function handlePreceptor(request: Request) {
         gaps: o.gaps.slice(0, 4),
         next_step: o.next_step,
       };
-      const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
-      const { error } = await supabaseAdmin.from("mastery_records").insert(row);
-      if (error) return new Response("Não foi possível salvar a avaliação.", { status: 500 });
+      // Prefer service role (policy locks inserts to service_role). Soft-fail so sabatina still returns.
+      try {
+        const { hasServiceRole } = await import("@/integrations/supabase/publishable.server");
+        if (hasServiceRole()) {
+          const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+          const { error } = await supabaseAdmin.from("mastery_records").insert(row);
+          if (error) console.error("mastery_records insert", error);
+        } else {
+          console.warn("mastery_records: SUPABASE_SERVICE_ROLE_KEY ausente — avaliação não persistida");
+        }
+      } catch (e) {
+        console.error("mastery_records unavailable", e);
+      }
       return Response.json(row);
     } catch (e) {
       return errorResponse(e);

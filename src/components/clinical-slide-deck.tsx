@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { ChevronLeft, ChevronRight, Maximize2, Minimize2 } from "lucide-react";
 import type { Slide } from "@/content/lesson-types";
 import { cn } from "@/lib/utils";
@@ -45,137 +46,161 @@ export function ClinicalSlideDeck({ slides, index, onIndexChange, showChrome = t
     if (!controlled) setInternal(0);
   }, [slides, controlled]);
 
+  useEffect(() => {
+    if (!full) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [full]);
+
   if (!n) return null;
   const s = slides[i];
   const bleed = s.kind === "figure" || (s.kind === "title" && !!s.image);
 
-  return (
-    <div className={full ? "fixed inset-0 z-50 flex flex-col bg-background p-3 md:p-8" : "relative"}>
-      <div
-        className={cn(
-          "relative flex flex-col overflow-hidden rounded-sm border border-gold/20 bg-card shadow-[var(--shadow-elegant)]",
-          full ? "flex-1" : "min-h-[480px] md:aspect-[16/9] md:min-h-0",
-        )}
-        onTouchStart={(e) => (touch.current = e.touches[0].clientX)}
-        onTouchEnd={(e) => {
-          if (touch.current == null) return;
-          const dx = e.changedTouches[0].clientX - touch.current;
-          if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
-          touch.current = null;
-        }}
-      >
-        {!bleed && (
-          <>
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,oklch(0.82_0.13_205/0.14),transparent_50%),radial-gradient(ellipse_at_100%_100%,oklch(0.77_0.15_165/0.08),transparent_45%)]"
-            />
-            <div
-              aria-hidden
-              className="pointer-events-none absolute inset-0 opacity-[0.07]"
-              style={{
-                backgroundImage:
-                  "linear-gradient(oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px), linear-gradient(90deg, oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px)",
-                backgroundSize: "48px 48px",
-                maskImage: "radial-gradient(ellipse at center, black 20%, transparent 75%)",
-              }}
-            />
-          </>
-        )}
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
-
-        {showChrome && (
+  const stage = (
+    <div
+      className={cn(
+        "relative flex flex-col overflow-hidden rounded-sm border border-gold/20 bg-card shadow-[var(--shadow-elegant)]",
+        full ? "h-full min-h-0 flex-1" : "min-h-[480px] md:aspect-[16/9] md:min-h-0",
+      )}
+      onTouchStart={(e) => (touch.current = e.touches[0].clientX)}
+      onTouchEnd={(e) => {
+        if (touch.current == null) return;
+        const dx = e.changedTouches[0].clientX - touch.current;
+        if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1);
+        touch.current = null;
+      }}
+    >
+      {!bleed && (
+        <>
           <div
-            className={cn(
-              "relative z-20 flex items-center justify-between px-6 pt-5 text-[10px] uppercase tracking-[0.32em]",
-              bleed ? "text-white/70" : "text-muted-foreground",
-            )}
-          >
-            <span>
-              Doutiva <span className="text-gold/80">·</span> Lâmina{" "}
-              <span className={cn("tabular-nums", bleed ? "text-white" : "text-foreground")}>
-                {String(i + 1).padStart(2, "0")}
-              </span>
-              <span className="opacity-50"> / {String(n).padStart(2, "0")}</span>
-            </span>
-            <button
-              type="button"
-              onClick={() => setFull((f) => !f)}
-              aria-label="Tela cheia"
-              className={cn(
-                "rounded-sm border p-1.5 transition hover:border-gold/40 hover:text-gold",
-                bleed ? "border-white/25 text-white/80" : "border-border/60",
-              )}
-            >
-              {full ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5" />}
-            </button>
-          </div>
-        )}
+            aria-hidden
+            className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,oklch(0.82_0.13_205/0.14),transparent_50%),radial-gradient(ellipse_at_100%_100%,oklch(0.77_0.15_165/0.08),transparent_45%)]"
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 opacity-[0.07]"
+            style={{
+              backgroundImage:
+                "linear-gradient(oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px), linear-gradient(90deg, oklch(0.82 0.13 205 / 0.5) 1px, transparent 1px)",
+              backgroundSize: "48px 48px",
+              maskImage: "radial-gradient(ellipse at center, black 20%, transparent 75%)",
+            }}
+          />
+        </>
+      )}
+      <div className="pointer-events-none absolute inset-x-0 top-0 z-20 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
 
+      {showChrome && (
         <div
-          key={i}
           className={cn(
-            "relative z-10 flex flex-1 flex-col animate-in fade-in slide-in-from-right-3 duration-400",
-            bleed ? "justify-end" : "justify-center px-6 py-8 md:px-14 md:py-10",
+            "relative z-20 flex shrink-0 items-center justify-between px-6 pt-5 text-[10px] uppercase tracking-[0.32em]",
+            bleed ? "text-white/70" : "text-muted-foreground",
           )}
         >
-          <SlideBody s={s} />
-        </div>
-
-        {showChrome && (
-          <div
+          <span>
+            Doutiva <span className="text-gold/80">·</span> Lâmina{" "}
+            <span className={cn("tabular-nums", bleed ? "text-white" : "text-foreground")}>
+              {String(i + 1).padStart(2, "0")}
+            </span>
+            <span className="opacity-50"> / {String(n).padStart(2, "0")}</span>
+          </span>
+          <button
+            type="button"
+            onClick={() => setFull((f) => !f)}
+            aria-label={full ? "Sair da tela cheia" : "Tela cheia"}
             className={cn(
-              "relative z-20 flex items-center justify-between border-t px-3 py-2.5 backdrop-blur-sm",
-              bleed ? "border-white/10 bg-black/35" : "border-border/40 bg-background/40",
+              "rounded-sm border p-1.5 transition hover:border-gold/40 hover:text-gold",
+              bleed ? "border-white/25 text-white/80" : "border-border/60",
             )}
           >
-            <button
-              type="button"
-              onClick={() => go(-1)}
-              disabled={i === 0}
-              className={cn(
-                "rounded-sm p-2 transition disabled:opacity-25",
-                bleed
-                  ? "text-white/70 hover:bg-white/10 hover:text-white"
-                  : "text-muted-foreground hover:bg-secondary hover:text-foreground",
-              )}
-              aria-label="Anterior"
-            >
-              <ChevronLeft className="h-5 w-5" />
-            </button>
-            <div className="flex flex-wrap justify-center gap-1.5">
-              {slides.map((_, k) => (
-                <button
-                  key={k}
-                  type="button"
-                  onClick={() => setI(k)}
-                  aria-label={`Lâmina ${k + 1}`}
-                  className={cn(
-                    "h-1 rounded-full transition-all",
-                    k === i ? "w-8 bg-gold" : "w-1.5 bg-muted-foreground/25 hover:bg-muted-foreground/50",
-                  )}
-                />
-              ))}
-            </div>
-            <button
-              type="button"
-              onClick={() => go(1)}
-              disabled={i === n - 1}
-              className={cn(
-                "rounded-sm p-2 transition disabled:opacity-25",
-                bleed
-                  ? "text-white/70 hover:bg-white/10 hover:text-white"
-                  : "text-muted-foreground hover:bg-secondary hover:text-foreground",
-              )}
-              aria-label="Próxima"
-            >
-              <ChevronRight className="h-5 w-5" />
-            </button>
-          </div>
+            {full ? <Minimize2 className="h-3.5 w-3.5" /> : <Maximize2 className="h-3.5 w-3.5" />}
+          </button>
+        </div>
+      )}
+
+      <div
+        key={i}
+        className={cn(
+          "relative z-10 min-h-0 flex-1 animate-in fade-in slide-in-from-right-3 duration-400",
+          bleed ? "justify-end" : "flex flex-col justify-center px-6 py-8 md:px-14 md:py-10",
         )}
+      >
+        <SlideBody s={s} />
       </div>
+
+      {showChrome && (
+        <div
+          className={cn(
+            "relative z-20 flex shrink-0 items-center justify-between border-t px-3 py-2.5 backdrop-blur-sm",
+            bleed ? "border-white/10 bg-black/35" : "border-border/40 bg-background/40",
+          )}
+        >
+          <button
+            type="button"
+            onClick={() => go(-1)}
+            disabled={i === 0}
+            className={cn(
+              "rounded-sm p-2 transition disabled:opacity-25",
+              bleed
+                ? "text-white/70 hover:bg-white/10 hover:text-white"
+                : "text-muted-foreground hover:bg-secondary hover:text-foreground",
+            )}
+            aria-label="Anterior"
+          >
+            <ChevronLeft className="h-5 w-5" />
+          </button>
+          <div className="flex flex-wrap justify-center gap-1.5">
+            {slides.map((_, k) => (
+              <button
+                key={k}
+                type="button"
+                onClick={() => setI(k)}
+                aria-label={`Lâmina ${k + 1}`}
+                className={cn(
+                  "h-1 rounded-full transition-all",
+                  k === i ? "w-8 bg-gold" : "w-1.5 bg-muted-foreground/25 hover:bg-muted-foreground/50",
+                )}
+              />
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={() => go(1)}
+            disabled={i === n - 1}
+            className={cn(
+              "rounded-sm p-2 transition disabled:opacity-25",
+              bleed
+                ? "text-white/70 hover:bg-white/10 hover:text-white"
+                : "text-muted-foreground hover:bg-secondary hover:text-foreground",
+            )}
+            aria-label="Próxima"
+          >
+            <ChevronRight className="h-5 w-5" />
+          </button>
+        </div>
+      )}
     </div>
   );
+
+  if (full && typeof document !== "undefined") {
+    return (
+      <>
+        {/* Keep layout height while portal covers the viewport */}
+        <div className="min-h-[480px] md:aspect-[16/9] md:min-h-0" aria-hidden />
+        {createPortal(
+          <div className="fixed inset-0 z-[100] flex flex-col bg-background p-3 md:p-6">
+            {stage}
+          </div>,
+          document.body,
+        )}
+      </>
+    );
+  }
+
+  return <div className="relative">{stage}</div>;
 }
 
 function SlideImage({

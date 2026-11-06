@@ -564,7 +564,7 @@ export function LessonPlayer({
       </div>
 
       {onPrimary && primaryLabel && (
-        <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border/60 bg-background/95 px-4 py-3 backdrop-blur-md md:px-6 mb-[3.25rem] md:mb-0">
+        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border/60 bg-background/95 px-4 py-3 backdrop-blur-md md:px-6 mb-[3.25rem] md:mb-0">
           <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 lg:pl-[240px]">
             <div className="hidden text-xs font-light text-muted-foreground sm:block">{stepLabel}</div>
             <Button
