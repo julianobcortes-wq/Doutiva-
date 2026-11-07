@@ -32,31 +32,30 @@ Regras absolutas:
 6. Português técnico, direto, respeitoso. Sem enrolação.
 7. Quando cobrir a maioria dos temas (≥6 ou todos), encerre com map_complete=true e um resumo de 2 linhas.`;
 
+// OpenAI strict JSON schema: every key must appear in `required`.
+// Use .nullable() (not .optional()) so absent values are explicit nulls.
 const turnSchema = z.object({
   reply: z.string().describe("Mensagem ao médico (markdown simples, curta)"),
   probe: z
     .object({
-      topic_id: z.string().uuid(),
+      topic_id: z.string().describe("UUID do tema no catálogo"),
       topic_slug: z.string(),
       question: z.string(),
-      rationale: z.string().optional(),
+      rationale: z.string().nullable(),
     })
-    .nullable()
-    .optional(),
+    .nullable(),
   assessment: z
     .object({
-      topic_id: z.string().uuid(),
+      topic_id: z.string().describe("UUID do tema avaliado"),
       score: z.number().min(0).max(100),
       confidence: z.number().min(0).max(1),
       confidence_label: z.enum(["sei", "acho", "nao_sei"]),
       note: z.string(),
     })
-    .nullable()
-    .optional(),
-  map_complete: z.boolean().optional(),
-  summary: z.string().nullable().optional(),
+    .nullable(),
+  map_complete: z.boolean(),
+  summary: z.string().nullable(),
 });
-
 function catalogBlock(topics: ClinicalTopic[]) {
   return topics
     .map(
@@ -67,19 +66,26 @@ function catalogBlock(topics: ClinicalTopic[]) {
 }
 
 function errorResponse(e: unknown) {
-  const status = (e as { status?: number }).status ?? 500;
+  const status = (e as { status?: number; statusCode?: number }).status
+    ?? (e as { statusCode?: number }).statusCode
+    ?? 500;
   const raw = String((e as Error).message ?? e);
+  console.error("cartographer error", raw);
   const quota =
     status === 402 || /insufficient_quota|credit_balance_exhausted|credits? remaining/i.test(raw);
+  const schema =
+    /Invalid schema for response_format|invalid_json_schema|required.*Missing/i.test(raw);
   const msg = quota
     ? "Créditos da OpenAI esgotados. Adicione saldo em platform.openai.com → Settings → Billing."
     : status === 429
       ? "Muitas requisições, tente em instantes."
       : raw === "IA não configurada"
         ? "IA não configurada — defina OPENAI_API_KEY na Vercel."
-        : "Falha no Cartógrafo.";
+        : schema
+          ? "Falha no formato da resposta da IA (schema)."
+          : "Falha no Cartógrafo.";
   return new Response(msg, {
-    status: quota ? 402 : status === 500 && raw.includes("IA não") ? 500 : status >= 400 ? status : 500,
+    status: quota ? 402 : status === 500 && raw.includes("IA não") ? 500 : status >= 400 && status < 600 ? status : 500,
   });
 }
 
@@ -182,6 +188,7 @@ ${catalogBlock(topics)}
 ${mapSummary}
 
 Na sua resposta estruturada:
+- Sempre preencha todos os campos; use null quando não couber probe/assessment/summary.
 - Se estiver fazendo uma nova pergunta, preencha probe com topic_id do catálogo.
 - Se o médico acabou de responder um tema, preencha assessment com score/confiança.
 - Só marque map_complete=true quando cobrir a maior parte dos temas.`,
@@ -194,7 +201,22 @@ Na sua resposta estruturada:
     const out = result.output as CartographerTurnResult;
     const clamp = (n: number) => Math.max(0, Math.min(100, Math.round(n)));
 
-    if (out.assessment?.topic_id) {
+    const knownIds = new Set(topics.map((t) => t.id));
+    // Normalize probe/assessment topic_id: model may invent slugs — map by slug fallback.
+    if (out.probe && !knownIds.has(out.probe.topic_id)) {
+      const bySlug = topics.find((t) => t.slug === out.probe?.topic_slug);
+      if (bySlug) out.probe.topic_id = bySlug.id;
+    }
+    if (out.assessment && !knownIds.has(out.assessment.topic_id)) {
+      const bySlug = topics.find(
+        (t) =>
+          out.probe?.topic_slug && t.slug === out.probe.topic_slug,
+      );
+      // Prefer current probe topic, else first unmatched / first topic
+      out.assessment.topic_id = bySlug?.id ?? out.probe?.topic_id ?? topics[0]?.id;
+    }
+
+    if (out.assessment?.topic_id && knownIds.has(out.assessment.topic_id)) {
       const conf =
         typeof out.assessment.confidence === "number"
           ? out.assessment.confidence
