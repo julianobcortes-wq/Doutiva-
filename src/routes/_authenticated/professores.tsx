@@ -227,11 +227,16 @@ function Professores() {
                   onChange={(e) => setLessonId(e.target.value)}
                   className="w-full rounded-sm border border-border/60 bg-background px-3 py-2 text-sm"
                 >
-                  {lessons.data?.map((l) => (
-                    <option key={l.id} value={l.id}>
-                      {l.module_title} — {l.title}
-                    </option>
-                  ))}
+                  {lessons.data?.map((l) => {
+                    const courseTitle = Array.isArray(l.courses)
+                      ? l.courses[0]?.title
+                      : (l.courses as { title?: string } | null)?.title;
+                    return (
+                      <option key={l.id} value={l.id}>
+                        {[courseTitle, l.module_title, l.title].filter(Boolean).join(" · ")}
+                      </option>
+                    );
+                  })}
                 </select>
                 {lessons.isError && (
                   <p className="text-xs text-destructive">

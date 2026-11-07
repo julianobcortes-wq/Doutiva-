@@ -125,7 +125,8 @@ function MarketplacePage() {
               <div>
                 <div className="text-sm">{e.title}</div>
                 <div className="text-xs text-muted-foreground">
-                  {e.kind} · {e.status}
+                  {entitlementKindLabel(e.kind)}
+                  {e.status === "active" ? " · ativo" : e.status === "used" ? " · usado" : ""}
                   {coupon ? ` · cupom ${coupon}` : ""}
                   {e.expires_at
                     ? ` · expira ${new Date(e.expires_at).toLocaleDateString("pt-BR", { timeZone: "America/Sao_Paulo" })}`
@@ -151,4 +152,19 @@ function MarketplacePage() {
       </div>
     </div>
   );
+}
+
+function entitlementKindLabel(kind: string) {
+  switch (kind) {
+    case "material":
+      return "Material";
+    case "session":
+      return "Sessão";
+    case "coupon":
+      return "Cupom";
+    case "masterclass":
+      return "Masterclass";
+    default:
+      return "Benefício";
+  }
 }

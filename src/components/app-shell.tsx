@@ -52,8 +52,6 @@ const studentNav = {
     { to: "/billing", label: "Meu plano", icon: CreditCard },
   ] as NavItem[],
   services: [
-    { to: "/inbox", label: "Inbox mentoria", icon: Users },
-    { to: "/credenciais", label: "Sou Mentor (CRM)", icon: Users },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
   mobile: [

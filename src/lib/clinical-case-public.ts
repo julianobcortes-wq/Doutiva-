@@ -23,7 +23,7 @@ export function toPublicClinicalCase(c: ClinicalCase): PublicClinicalCase {
   return {
     title: c.title,
     vignette: c.vignette,
-    data: c.data,
+    data: (c.data ?? []).filter((d) => !isSpoilerDataLabel(d.label)),
     question: c.question,
     options: c.options.map((o) => ({ label: o.label })),
   };
@@ -66,6 +66,7 @@ export function redactClinicalCaseJson(raw: unknown): PublicClinicalCase | null 
           return label ? { label, value } : null;
         })
         .filter((d): d is { label: string; value: string } => !!d)
+        .filter((d) => !isSpoilerDataLabel(d.label))
     : [];
   return {
     title: typeof r.title === "string" ? r.title : "",
@@ -74,4 +75,17 @@ export function redactClinicalCaseJson(raw: unknown): PublicClinicalCase | null 
     data,
     options,
   };
+}
+
+/** Hide answer keys accidentally stored in clinical_case.data labels. */
+export function isSpoilerDataLabel(label: string): boolean {
+  const l = label.toLowerCase();
+  return (
+    l.includes("dose correta") ||
+    l.includes("resposta correta") ||
+    l.includes("gabarito") ||
+    (/\bbula\b/.test(l) && l.includes("correta")) ||
+    l.startsWith("correta") ||
+    l.includes("alternativa correta")
+  );
 }

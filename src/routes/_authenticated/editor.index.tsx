@@ -113,7 +113,7 @@ function EvidenceAlerts() {
     <section className="mt-10">
       <h2 className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Alerta de atualização · novos ECR, metanálises e diretrizes (6 meses)</h2>
       <div className="mt-3 rounded-sm border border-border/60 p-4 text-sm">
-        {isLoading ? <p className="text-muted-foreground">Buscando novidades…</p> : !data?.length ? <p className="text-muted-foreground">Nenhum estudo novo relevante para as aulas publicadas.</p> : (
+        {isLoading ? <p className="text-muted-foreground">Consultando a biblioteca científica…</p> : !data?.length ? <p className="text-muted-foreground">Nenhum estudo novo relevante para as aulas publicadas.</p> : (
           <div className="space-y-4">
             {data.map((a) => (
               <div key={a.lessonId}>

@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound, useRouter } from "@tanstack/react-router";
 import { useSuspenseQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
@@ -54,6 +54,7 @@ function CoursePage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const locked = course.access === "locked";
+  const autoEnrolled = useRef(false);
 
   const enrollMut = useMutation({
     mutationFn: enrollFn,
@@ -64,6 +65,14 @@ function CoursePage() {
     },
     onError: (e: Error) => toast.error(e.message || "Não foi possível matricular"),
   });
+
+  // Auto-enroll when the student opens an unlocked course — progress/certificates depend on it.
+  useEffect(() => {
+    if (locked || course.enrolled || autoEnrolled.current || enrollMut.isPending) return;
+    autoEnrolled.current = true;
+    enrollMut.mutate({ data: { courseId: course.id } });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [locked, course.enrolled, course.id]);
   const toggleMut = useMutation({
     mutationFn: toggleFn,
     onSuccess: (r) => {
@@ -193,13 +202,9 @@ function CoursePage() {
                   <Progress value={pct} className="mt-2 h-1 bg-secondary [&>div]:bg-gold" />
                 </div>
               ) : (
-                <Button
-                  onClick={() => enrollMut.mutate({ data: { courseId: course.id } })}
-                  disabled={enrollMut.isPending}
-                  className="mt-5 h-11 w-full rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
-                >
-                  {enrollMut.isPending ? "Matriculando..." : "Matricular-se e registrar progresso"}
-                </Button>
+                <p className="mt-5 text-xs text-muted-foreground">
+                  {enrollMut.isPending ? "Confirmando matrícula…" : "Matrícula automática ao abrir a trilha."}
+                </p>
               )}
             </div>
           </div>

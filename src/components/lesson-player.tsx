@@ -105,6 +105,7 @@ export function LessonPlayer({
   const [reviewDueDays, setReviewDueDays] = useState<number | null>(null);
   const [sessionResult, setSessionResult] = useState<BeatAwardResult | null>(null);
   const [awardedBeats, setAwardedBeats] = useState<Set<SessionBeat>>(() => new Set());
+  const [deepTab, setDeepTab] = useState<"mono" | "guide" | "tutor">("mono");
 
   const progress = useProgress();
   const gradeFn = useServerFn(gradeLessonCase);
@@ -307,18 +308,35 @@ export function LessonPlayer({
         </div>
 
         <div className="flex flex-wrap gap-2">
-          {hasMonograph && <DeepTab active icon={<BookOpen className="h-3.5 w-3.5" />} label="Monografia" />}
-          {(hasGuide || !!deepGuide) && (
-            <DeepTab active={false} icon={<Layers className="h-3.5 w-3.5" />} label="Guia de bolso" />
+          {hasMonograph && (
+            <DeepTab
+              active={deepTab === "mono"}
+              icon={<BookOpen className="h-3.5 w-3.5" />}
+              label="Monografia"
+              onClick={() => setDeepTab("mono")}
+            />
           )}
-          <DeepTab active={false} icon={<MessageSquareText className="h-3.5 w-3.5" />} label="Tutor IA" />
+          {(hasGuide || !!deepGuide) && (
+            <DeepTab
+              active={deepTab === "guide"}
+              icon={<Layers className="h-3.5 w-3.5" />}
+              label="Guia de bolso"
+              onClick={() => setDeepTab("guide")}
+            />
+          )}
+          <DeepTab
+            active={deepTab === "tutor"}
+            icon={<MessageSquareText className="h-3.5 w-3.5" />}
+            label="Tutor IA"
+            onClick={() => setDeepTab("tutor")}
+          />
         </div>
 
-        {deepLoading && (
+        {deepLoading && deepTab === "mono" && (
           <p className="text-sm font-light text-muted-foreground animate-pulse">Carregando tratado…</p>
         )}
 
-        {!deepLoading && hasMonograph && deepMono && (
+        {deepTab === "mono" && !deepLoading && hasMonograph && deepMono && (
           <section className="animate-in fade-in slide-in-from-bottom-2 duration-500">
             <LessonMarkdown>{deepMono}</LessonMarkdown>
             {!!deepRefs.length && (
@@ -345,19 +363,21 @@ export function LessonPlayer({
           </section>
         )}
 
-        {!deepLoading && hasMonograph && !deepMono && (
+        {deepTab === "mono" && !deepLoading && hasMonograph && !deepMono && (
           <p className="text-sm text-muted-foreground">Monografia indisponível nesta aula.</p>
         )}
 
-        {(hasGuide || !!deepGuide) && (
-          <section className="pt-4">
+        {deepTab === "guide" && (hasGuide || !!deepGuide) && (
+          <section className="pt-2 animate-in fade-in duration-300">
             <QuickReferenceCard title={lessonTitle} md={deepGuide || rich.quickRef} />
           </section>
         )}
 
-        <section className="pt-2">
-          <LessonTutor lessonId={lessonId} lessonTitle={lessonTitle} />
-        </section>
+        {deepTab === "tutor" && (
+          <section className="pt-2 animate-in fade-in duration-300">
+            <LessonTutor lessonId={lessonId} lessonTitle={lessonTitle} />
+          </section>
+        )}
       </div>
     );
   }
@@ -439,8 +459,11 @@ export function LessonPlayer({
               onIndexChange={setSlideIdx}
               showChrome
             />
-            <p className="text-xs font-light text-muted-foreground">
+            <p className="hidden text-xs font-light text-muted-foreground md:block">
               Uma ideia por lâmina · setas do teclado · Continuar fecha o circuito
+            </p>
+            <p className="text-xs font-light text-muted-foreground md:hidden">
+              Uma ideia por lâmina · deslize ou use Continuar
             </p>
           </div>
         )}
@@ -544,7 +567,7 @@ export function LessonPlayer({
                     disabled={alreadyDone}
                     className="h-11 rounded-sm bg-gold px-6 text-primary-foreground hover:bg-gold-soft disabled:opacity-60"
                   >
-                    {alreadyDone ? "Já no progresso ✓" : "Registrar aula · +30 XP"}
+                    {alreadyDone ? "Já no progresso ✓" : "Registrar aula no progresso"}
                   </Button>
                 )}
                 {canDeepen && (
@@ -626,17 +649,31 @@ function PhaseDots({ phases, phaseIdx }: { phases: Phase[]; phaseIdx: number }) 
   );
 }
 
-function DeepTab({ active, icon, label }: { active: boolean; icon: ReactNode; label: string }) {
+function DeepTab({
+  active,
+  icon,
+  label,
+  onClick,
+}: {
+  active: boolean;
+  icon: ReactNode;
+  label: string;
+  onClick: () => void;
+}) {
   return (
-    <span
+    <button
+      type="button"
+      onClick={onClick}
       className={cn(
-        "inline-flex items-center gap-1.5 rounded-sm border px-3 py-1.5 text-[10px] uppercase tracking-[0.2em]",
-        active ? "border-gold/40 text-gold" : "border-border/60 text-muted-foreground",
+        "inline-flex items-center gap-1.5 rounded-sm border px-3 py-1.5 text-[10px] uppercase tracking-[0.2em] transition",
+        active
+          ? "border-gold/40 text-gold"
+          : "border-border/60 text-muted-foreground hover:border-gold/30 hover:text-foreground",
       )}
     >
       {icon}
       {label}
-    </span>
+    </button>
   );
 }
 

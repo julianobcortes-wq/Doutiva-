@@ -7,8 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useValleyProfile } from "@/lib/use-city-profile";
-import { classInfo, type UserClass } from "@/lib/valley";
-import { defaultAttributesFor } from "@/lib/city";
+import { classInfo } from "@/lib/valley";
 import { useValleyGame } from "@/lib/use-valley-game";
 import { intensityLabel, type GamificationIntensity } from "@/lib/economy";
 import { getNotificationPrefs, saveNotificationPrefs } from "@/lib/notifications.functions";
@@ -48,16 +47,6 @@ function SettingsPage() {
       qc.invalidateQueries({ queryKey: ["legal"] });
     },
   });
-
-  function switchClass(next: UserClass) {
-    if (next === profile.user_class) return;
-    update({
-      user_class: next,
-      attributes: defaultAttributesFor(next),
-      unlocked_skills: [],
-      completed_missions: [],
-    });
-  }
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
@@ -102,43 +91,24 @@ function SettingsPage() {
         </section>
 
         <section className="rounded-sm border border-border/60 bg-card p-6">
-          <h2 className="font-serif text-xl">Classe na Doutiva</h2>
+          <h2 className="font-serif text-xl">Seu perfil</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            A classe define todo o seu ambiente: menus, painel, dimensões e ações do dia.
+            Conta de médico aluno. Acesso a Estúdio e Painel do Mentor exige papel de corpo
+            docente — não se altera aqui.
           </p>
-          <div className="mt-4 grid gap-4 md:grid-cols-2">
-            {(["lifer", "valley_expert"] as UserClass[]).map((c) => {
-              const active = hydrated && profile.user_class === c;
-              return (
-                <button
-                  key={c}
-                  type="button"
-                  onClick={() => switchClass(c)}
-                  className={`rounded-sm border p-5 text-left transition ${
-                    active
-                      ? c === "valley_expert"
-                        ? "border-sage/50 bg-sage/5"
-                        : "border-gold/50 bg-gold/5"
-                      : "border-border/60 hover:border-gold/40"
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <span className="font-serif text-lg">{classInfo[c].name}</span>
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                      {active ? "Ativa" : "Selecionar"}
-                    </span>
-                  </div>
-                  <p className="mt-2 text-xs text-muted-foreground">{classInfo[c].desc}</p>
-                </button>
-              );
-            })}
-          </div>
+          <p className="mt-3 text-sm">
+            Classe ativa:{" "}
+            <strong className="text-foreground">
+              {hydrated ? classInfo[profile.user_class]?.name ?? "Médico Aluno" : "…"}
+            </strong>
+          </p>
         </section>
 
         <section className="rounded-sm border border-border/60 bg-card p-6">
           <h2 className="font-serif text-xl">Plano</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Escolha Essencial, Pro ou Fundador — com cortesia até o Stripe estar ligado.
+            Peptídeos é livre. Protocolos (R$&nbsp;297/mês) abre as demais trilhas e os Professores
+            de IA.
           </p>
           <Button
             asChild
@@ -151,8 +121,7 @@ function SettingsPage() {
         <section className="rounded-sm border border-border/60 bg-card p-6">
           <h2 className="font-serif text-xl">Caso do Dia por e-mail</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Fila diária via cron (`/api/cron/daily-challenge`). Envio real com `RESEND_API_KEY` +
-            `CRON_SECRET`.
+            Receba o desafio clínico do dia no seu e-mail (quando o envio estiver ativo).
           </p>
           <button
             type="button"

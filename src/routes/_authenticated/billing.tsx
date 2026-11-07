@@ -55,7 +55,7 @@ function BillingPage() {
         window.location.href = r.checkoutUrl;
         return;
       }
-      toast.success("Plano ativado em período de cortesia.", { description: r.note });
+      toast.success(r.note || "Protocolos liberado na sua conta.");
       qc.invalidateQueries({ queryKey: ["my-sub"] });
     },
     onError: (e: Error) => toast.error(e.message),
@@ -70,12 +70,12 @@ function BillingPage() {
       <h1 className="mt-3 font-display text-4xl tracking-tight">Meu plano</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">
         A trilha de <strong className="text-foreground">Peptídeos</strong> já está livre na sua
-        conta. <strong className="text-foreground">Protocolos</strong> abre o restante do catálogo.
-        Imersão, mentoria e clube na{" "}
+        conta. <strong className="text-foreground">Protocolos</strong> (R$&nbsp;297/mês) abre o
+        restante do catálogo. Imersão, mentoria e clube na{" "}
         <Link to="/oferta" className="text-gold underline">
           escada completa
         </Link>
-        . Sem Stripe, ativamos cortesia para validar.
+        . Pagamento com cartão entra em breve — até lá, a ativação libera o acesso na hora.
       </p>
 
       {sub && (

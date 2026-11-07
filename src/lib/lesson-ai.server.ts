@@ -330,7 +330,7 @@ export async function raiseBarLesson(input: {
       monograph = (await fix.text).trim() || monograph;
     }
 
-    if (monograph.length < 2000) throw new Error("Monografia raise-bar ficou curta demais.");
+    if (monograph.length < 2000) throw new Error("Monografia gerada ficou curta demais. Tente de novo.");
 
     const structured = streamText({
       model: doutivaChatModel(openai),
