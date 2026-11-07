@@ -15,36 +15,39 @@ Médicos em prática (emagrecimento, performance, alta complexidade ambulatorial
 - gostam de *aprender* (decidir, errar, corrigir, aplicar na segunda-feira);
 - já sabem parte do conteúdo — empurrar curso linear gera tédio e abandono;
 - precisam de **proximidade** (turma, mentor, eventos), não só de app;
-- a escola também precisa ajudar o médico a **gerar demanda** no consultório (protocolo → público → agenda).
+- a escola também precisa ajudar o médico a **gerar demanda** no consultório (protocolo → público → agenda);
+- a escola precisa ser **comunidade**: médicos que ensinam (aulas próprias) e mentoram, e alunos que contratam essa proximidade — com a Doutiva no meio (take rate).
 
-A Doutiva não pode ser “mais um LMS com IA”. Tem que ser a **escola do médico do futuro**: IA no centro, hábito sem dor, profundidade sob demanda, proximidade humana, e protocolo que paga a clínica.
+A Doutiva não pode ser “mais um LMS com IA”. Tem que ser a **escola do médico do futuro**: IA no centro, hábito sem dor, profundidade sob demanda, **comunidade de mentores**, proximidade humana, e protocolo que paga a clínica.
 
 ---
 
 ## 2. Frase-mestra (para não se perder)
 
-> **A IA descobre o buraco e monta a trilha. O Caso do Dia vira hábito. O protocolo aprofunda e enche a agenda. Mentoria e eventos aproximam.**
+> **A IA descobre o buraco e monta a trilha. O Caso do Dia vira hábito. O protocolo aprofunda e enche a agenda. Mentores (com aulas próprias) + eventos criam a comunidade. A IA também indica o mentor certo.**
 
-Versão curta das quatro camadas:
+Versão curta das cinco camadas:
 
-> **Caso do Dia = hábito. Curso = profundidade do que falta. Mentoria + eventos = proximidade. Diagnóstico (IA) = o que ensinar.**
+> **Caso do Dia = hábito. Curso = profundidade do que falta. Mentores/comunidade = proximidade + take rate. Eventos = presença. Diagnóstico (IA) = o que ensinar e quem mentorar.**
 
 ---
 
-## 3. Duas promessas, um sistema
+## 3. Três promessas, um sistema
 
 | Promessa | Para quem | Resultado |
 |---|---|---|
-| Aprender sem sofrer | O médico | Só estuda o que falta; sessões curtas; domínio medido |
-| Protocolo que gera demanda | O consultório | Conduta padronizada → oferta clara ao paciente → agenda |
+| Aprender sem sofrer | O médico aluno | Só estuda o que falta; sessões curtas; domínio medido |
+| Protocolo que gera demanda | O consultório do aluno | Conduta padronizada → oferta clara ao paciente → agenda |
+| Comunidade que gera renda | O médico mentor | Aulas próprias + mentoria direta → take rate Doutiva |
 
 Se só educar → vira curso.  
 Se só “gerar demanda” → vira marketing.  
-A Doutiva junta os dois: **domínio clínico → conduta segura → público confia → clínica fatura**.
+Se só marketplace → vira iFood de mentor sem escola.  
+A Doutiva junta os três: **domínio clínico → conduta segura → público confia → clínica fatura**, e ao mesmo tempo **comunidade de médicos que ensinam e mentoram**, com a plataforma no meio.
 
 ---
 
-## 4. Arquitetura de produto (4 peças)
+## 4. Arquitetura de produto (5 peças)
 
 ### 4.1 Caso do Dia = o “Duolingo” clínico
 - Unidade: 1 decisão / dia, 3–5 minutos.
@@ -58,16 +61,41 @@ A Doutiva junta os dois: **domínio clínico → conduta segura → público con
 - Deixa de ser ementa fixa “aula 1, 2, 3…” e vira **fila do que falta**.
 - Aprofundar sob demanda (AMBOSS-like), não parágrafo infinito.
 - Oferta comercial: **Protocolos R$ 297/mês** (+ Peptídeos free como porta).
+- Conteúdo oficial Doutiva **e** aulas gravadas de médicos da comunidade (ver 4.3).
 
-### 4.3 Mentoria = proximidade humana (produto separado)
-- Turmas pequenas (8–10), mentor-guia (não palestrante).
-- Encontro curto para discutir os casos mais errados da turma.
-- SKU próprio na escada (não misturar com o hábito diário).
+### 4.3 Mentores = comunidade + marketplace (peça estratégica)
+Este é o elemento que fecha a escola numa **comunidade pungente**, não num LMS frio.
 
-### 4.4 Eventos presenciais = segundo pilar de proximidade
+**Quem é o mentor na Doutiva**
+- Médico com **aulas próprias** dentro da plataforma (gravadas / trilhas assinadas).
+- O mesmo médico aparece na **vitrine de mentores** para contratação direta de mentoria 1:1 ou em turma pequena.
+- Não é “palestrante convidado”: é **docente + mentor** com perfil, agenda e preço.
+
+**Economia**
+- Aluno contrata a mentoria do médico **direto na Doutiva**.
+- Doutiva recebe **take rate** sobre essa contratação (marketplace desenhado).
+- Aulas do mentor alimentam o corpus / vitrine; mentoria paga a proximidade humana.
+
+**Papel da IA aqui**
+- Com o mapa de domínio do aluno, a IA **indica o mentor mais adequado** (especialidade, temas vermelhos, estilo, disponibilidade).
+- Ex.: “Seu buraco está em peptídeos + composição corporal → estes 3 mentores têm aulas e vagas nessa faixa.”
+- A IA pensa a trilha **e** a ponte humana — não substitui o mentor; faz o match.
+
+**Por que isso importa**
+- Sem mentores com pele no jogo, não há comunidade — só conteúdo.
+- Com mentores ganhando (aulas + mentoria), a comunidade **se autoalimenta**: quem ensina atrai quem aprende; quem aprende vira candidato a ensinar.
+- Eventos presenciais viram o ápice dessa rede, não o único momento de proximidade.
+
+### 4.4 Mentoria como produto (SKU separado do hábito)
+- Turmas pequenas (8–10) ou 1:1, mentor-guia (não palestrante).
+- Encontro curto para discutir os casos mais errados / temas vermelhos do mapa.
+- SKU próprio na escada (não misturar com o Caso do Dia).
+- Pode ser oferta Doutiva (turma oficial) **ou** oferta do mentor (marketplace com take rate).
+
+### 4.5 Eventos presenciais = segundo pilar de proximidade
 - Semana Doutiva / A Origem / imersões.
 - Marca, networking, confiança Medway-like (“quem assina”).
-- Mentoria presencial + eventos = os dois principais pontos de proximidade.
+- Mentores da plataforma sobem ao palco / mesa — a comunidade online vira presença.
 
 ---
 
@@ -100,7 +128,7 @@ O **Índice de Domínio** substitui “aula concluída” em painel, certificado
 
 ---
 
-## 6. A IA no centro (cérebro único, três faces)
+## 6. A IA no centro (cérebro único, quatro faces)
 
 Não é um botão “Tutor” no canto. É o **sistema nervoso** da escola.
 
@@ -109,28 +137,29 @@ Não é um botão “Tutor” no canto. É o **sistema nervoso** da escola.
 | **Cartógrafo** | Entende o médico | Conversa + confiança → mapa de domínio |
 | **Preceptor** | Ensina o buraco | Mapa → Caso do Dia / sessão socrática |
 | **Estúdio** | Transforma material em aula | PDF/diretriz/monografia → lâminas, casos, guia, áudio (médico assina) |
+| **Matchmaker** | Indica o mentor certo | Mapa + perfil mentores → ranking de mentores / aulas / vagas |
 
 ### Requisitos para resultado de alto nível
 1. **Memória longa** do médico (mastery persistido).  
-2. **RAG / corpus Doutiva** — só gera e ensina ancorado no material revisado.  
+2. **RAG / corpus Doutiva** — só gera e ensina ancorado no material revisado (oficial + aulas de mentores).  
 3. **Motor de decisão** — atualiza mapa → escolhe próxima sessão → agenda revisão.  
 4. **Guarda-corpo pedagógico** — socrático; nunca entrega conduta antes do compromisso.  
 5. **Humano na vitrine** — IA na cozinha; CRM/nome na assinatura; mentor/evento na proximidade.  
-6. **Métricas de verdade** — delta de domínio, sessões/semana, retenção D30, NPS (não “horas publicadas”).
+6. **Match humano** — quando o buraco pede pele e voz, a IA aponta o mentor; a contratação passa pelo marketplace (take rate).  
+7. **Métricas de verdade** — delta de domínio, sessões/semana, retenção D30, NPS, **GMV mentoria + take rate** (não “horas publicadas”).
 
 ### Arquitetura lógica
 ```
-Materiais curados → Corpus Doutiva (versionado + assinado)
-                         │
+Materiais curados + aulas dos mentores → Corpus Doutiva (versionado + assinado)
+                                              │
 Médico ← conversa →  CÉREBRO DOUTIVA  → mapa / fila / Caso do Dia
-                         │
-                    Estúdio gera aula
-                         │
-                 Médico revisor assina
+                         │                    │
+                    Estúdio gera aula    Matchmaker → mentor / aula
+                         │                    │
+                 Médico revisor assina   Marketplace (take rate)
 ```
 
-No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa” e Estúdio chamam o **mesmo cérebro** (mesmas tools: getMastery, updateMastery, nextSession, retrieveCorpus, generateLessonDraft).
-
+No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e **Mentores** chamam o **mesmo cérebro** (mesmas tools: getMastery, updateMastery, nextSession, retrieveCorpus, generateLessonDraft, **matchMentor**).
 ---
 
 ## 7. O que já existe vs. o que falta
@@ -151,8 +180,12 @@ No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa” e Estúdio ch
 - Índice de Domínio por tema  
 - WhatsApp como canal do hábito  
 - Docente com nome/CRM/foto na vitrine  
+- **Vitrine de mentores** (perfil, aulas gravadas, agenda, preço)  
+- **Marketplace de mentoria** com take rate Doutiva  
+- **Matchmaker IA**: mapa do aluno → mentor / aula sugerida  
 - Mentor + eventos usando o mapa da turma  
 - Elo explícito “tema dominado → oferta ao paciente / demanda”  
+- Loop de comunidade: aluno → mentor → aulas → novos alunos  
 
 ---
 
@@ -174,30 +207,36 @@ No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa” e Estúdio ch
 9. Cada tema dominado desbloqueia Guia de bolso + oferta ao paciente  
 10. Universidade vira fila do que falta (Aula 2.0: caso primeiro)  
 
-### Fase D — Proximidade
-11. Mentoria presencial com pauta = lacunas da turma  
-12. Eventos (A Origem / Semana) sobre a base ativa  
+### Fase D — Proximidade + comunidade de mentores
+11. Mentoria (turma Doutiva ou 1:1) com pauta = lacunas do mapa  
+12. Onboard dos primeiros mentores: perfil + aulas gravadas + agenda  
+13. Marketplace: contratação direta + **take rate**  
+14. Matchmaker: IA sugere mentor a partir do mapa  
+15. Eventos (A Origem / Semana) com mentores da base no centro  
 
 ### Portões sugeridos
 - Semana 2 do piloto: ≥70% fazem 3 sessões  
 - D30: retenção > 60%  
 - Domínio médio +20 pts vs baseline  
 - NPS > 60 antes de escalar aquisição paga  
+- Mentoria: ≥X% dos alunos ativos recebem match; conversão match→contratação; take rate estável  
 
 ---
 
 ## 9. Escada comercial (sem confundir SKUs)
 
-| Oferta | O que entrega |
-|---|---|
-| Peptídeos (grátis) | Porta de entrada + hábito light |
-| Protocolos (R$ 297/mês) | Mapa + Caso do Dia + Universidade + Preceptor |
-| Mentoria | Proximidade humana / turma |
-| Imersão / Eventos | Proximidade presencial + marca |
-| Clube | Círculo restrito / conselho |
+| Oferta | O que entrega | Quem monetiza |
+|---|---|---|
+| Peptídeos (grátis) | Porta de entrada + hábito light | Doutiva (funil) |
+| Protocolos (R$ 297/mês) | Mapa + Caso do Dia + Universidade + Preceptor | Doutiva (assinatura) |
+| Aulas do mentor | Conteúdo gravado do médico na plataforma | Mentor (+ eventualmente split) / Doutiva |
+| Mentoria (1:1 ou turma) | Proximidade humana sob demanda | **Mentor + take rate Doutiva** |
+| Imersão / Eventos | Proximidade presencial + marca | Doutiva (+ mentores no palco) |
+| Clube | Círculo restrito / conselho | Doutiva |
 
 IA e hábito vivem em Protocolos.  
-Mentoria e eventos continuam **produtos separados** de proximidade.
+Mentoria marketplace e eventos são **proximidade + comunidade** — SKUs separados do hábito diário.  
+O take rate da mentoria é a **segunda perna de receita** (além da assinatura): escala com a comunidade, não só com o CAC de aluno.
 
 ---
 
@@ -206,8 +245,10 @@ Mentoria e eventos continuam **produtos separados** de proximidade.
 - Chatbot aberto sem corpus Doutiva (“cheatbot”)  
 - Empurrar ementa linear para quem já domina o tema  
 - Fazer o mentor virar Duolingo  
-- Fundir mentoria dentro do curso e perder o SKU  
-- Medir sucesso por aulas concluídas / horas publicadas  
+- Fundir mentoria dentro do curso e perder o SKU / o take rate  
+- Ter vitrine de mentores **sem** aulas / perfil / agenda (só lista decorativa)  
+- Deixar a IA “substituir” o mentor em vez de **indicar** o mentor  
+- Medir sucesso só por aulas concluídas / horas publicadas (ignorar GMV mentoria e retenção de mentores)  
 - Abrir para médico pagante sem Mapa + IA ligada + proximidade mínima no piloto  
 
 ---
@@ -216,13 +257,14 @@ Mentoria e eventos continuam **produtos separados** de proximidade.
 
 Por favor, avalie criticamente:
 
-1. A arquitetura **Caso do Dia / Curso / Mentoria+Eventos / Mapa-IA** está coerente para EMC de médicos em prática no Brasil?  
-2. O desenho do **cérebro único (Cartógrafo / Preceptor / Estúdio)** é suficiente para “IA no centro”, ou falta alguma camada (ex.: voz, multiagente de auditoria, CRM clínico)?  
-3. Como priorizar as Fases A–D se o objetivo é: (a) retenção, (b) gerar demanda para o consultório, (c) proximidade de comunidade?  
-4. Quais riscos regulatórios/éticos (CFM, propaganda de procedimento, responsabilidade do conteúdo gerado por IA) precisam de guarda-corpo explícito?  
-5. Proponha um **MVP de 30 dias** ainda mais enxuto, se discordar da ordem acima.  
-6. Sugira métricas de piloto e critério de “go / no-go” para abrir Protocolos com a nova promessa.
-
+1. A arquitetura **Caso do Dia / Curso / Mentores-comunidade / Eventos / Mapa-IA** está coerente para EMC de médicos em prática no Brasil?  
+2. O desenho do **cérebro (Cartógrafo / Preceptor / Estúdio / Matchmaker)** é suficiente para “IA no centro”, ou falta alguma camada?  
+3. Como priorizar as Fases A–D se o objetivo é: (a) retenção, (b) gerar demanda para o consultório, (c) **comunidade pungente de mentores**?  
+4. O modelo **marketplace de mentoria com take rate** (mentores com aulas próprias + contratação direta) fortalece ou dilui a marca Doutiva? Qual take rate / regras de qualidade sugerir no início?  
+5. Como a IA deve ranquear mentores (domínio do aluno, especialidade, NPS, preço, disponibilidade) sem virar caixa-preta injusta?  
+6. Quais riscos regulatórios/éticos (CFM, propaganda de procedimento, responsabilidade do conteúdo gerado por IA **e** do conteúdo do mentor) precisam de guarda-corpo explícito?  
+7. Proponha um **MVP de 30 dias** ainda mais enxuto, se discordar da ordem acima.  
+8. Sugira métricas de piloto e critério de “go / no-go” para Protocolos **e** para o marketplace de mentores.
 ---
 
 ## 12. Referências internas desta conversa
