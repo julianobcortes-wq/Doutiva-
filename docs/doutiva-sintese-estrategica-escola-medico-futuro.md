@@ -18,32 +18,33 @@ Médicos em prática (emagrecimento, performance, alta complexidade ambulatorial
 - a escola também precisa ajudar o médico a **gerar demanda** no consultório (protocolo → público → agenda);
 - a escola precisa ser **comunidade**: médicos que ensinam (aulas próprias) e mentoram, e alunos que contratam essa proximidade — com a Doutiva no meio (take rate).
 
-A Doutiva não pode ser “mais um LMS com IA”. Tem que ser a **escola do médico do futuro**: IA no centro, hábito sem dor, profundidade sob demanda, **comunidade de mentores**, proximidade humana, e protocolo que paga a clínica.
+A Doutiva não pode ser “mais um LMS com IA”. Tem que ser a **escola do médico do futuro**: um **cérebro vivo** no meio do negócio — entende a necessidade, usa o que já existe, cria o que não existe (com curadoria), popula a plataforma, indica mentor, e aproxima a comunidade.
 
 ---
 
 ## 2. Frase-mestra (para não se perder)
 
-> **A IA descobre o buraco e monta a trilha. O Caso do Dia vira hábito. O protocolo aprofunda e enche a agenda. Mentores (com aulas próprias) + eventos criam a comunidade. A IA também indica o mentor certo.**
+> **A IA descobre o buraco. Se já tem aula/curso, usa. Se não tem, cria (com curadoria) e grava no banco para o próximo. O Caso do Dia vira hábito. Mentores + eventos criam a comunidade. A IA também indica o mentor certo.**
 
-Versão curta das cinco camadas:
+Versão curta:
 
-> **Caso do Dia = hábito. Curso = profundidade do que falta. Mentores/comunidade = proximidade + take rate. Eventos = presença. Diagnóstico (IA) = o que ensinar e quem mentorar.**
-
+> **Diagnóstico → recuperar ou criar → hábito → profundidade → mentor/evento. O cérebro no meio; o banco cresce com cada necessidade atendida.**
 ---
 
-## 3. Três promessas, um sistema
+## 3. Quatro promessas, um sistema
 
 | Promessa | Para quem | Resultado |
 |---|---|---|
 | Aprender sem sofrer | O médico aluno | Só estuda o que falta; sessões curtas; domínio medido |
 | Protocolo que gera demanda | O consultório do aluno | Conduta padronizada → oferta clara ao paciente → agenda |
 | Comunidade que gera renda | O médico mentor | Aulas próprias + mentoria direta → take rate Doutiva |
+| Escola que se popula | A própria Doutiva | Cada gap atendido vira patrimônio reutilizável no banco |
 
 Se só educar → vira curso.  
 Se só “gerar demanda” → vira marketing.  
 Se só marketplace → vira iFood de mentor sem escola.  
-A Doutiva junta os três: **domínio clínico → conduta segura → público confia → clínica fatura**, e ao mesmo tempo **comunidade de médicos que ensinam e mentoram**, com a plataforma no meio.
+Se só gerar aula sem curadoria → vira lixo infinito.  
+A Doutiva junta: **domínio → conduta → clínica**, **comunidade de mentores**, e um **cérebro que recupera ou cria** — com curadoria — para a escola crescer com a demanda real.
 
 ---
 
@@ -116,6 +117,27 @@ Montar à mão milhares de casos de diagnóstico não escala e continua sendo �
 6. IA sugere/gera a próxima micro-sessão e o Caso do Dia a partir do buraco.  
 7. Material permanente novo passa por **assinatura humana (nome + CRM)**.
 
+### 5.4 O cérebro vivo: recuperar → criar → persistir → reutilizar
+Pode ser que o médico tenha uma necessidade que **ainda não existe** nas aulas/cursos da plataforma. Aí o cérebro não pode travar nem inventar no vazio a cada vez.
+
+**Loop de decisão (núcleo do “ser vivo”)**
+1. **Entende** a necessidade (mapa / entrevista / Caso do Dia).  
+2. **Busca** no banco: curso, monografia, aula de mentor, caso já gerado.  
+3. **Se existe** → monta a trilha com o que há (reuso).  
+4. **Se não existe** → **Estúdio cria** aula / microcurso / sessão específica para aquele buraco.  
+5. **Persiste** no banco (marcada, versionada, ligada ao tema/necessidade).  
+6. **O próximo médico** com a mesma necessidade recebe o material já criado — a plataforma **se popula** com a demanda real.  
+7. **Curadoria** freia a fábrica: não cria qualquer coisa a toda hora.
+
+**Regras de curadoria (para não virar lixo)**
+- Rascunho IA vs. **publicado** (só publicado entra na trilha de outros alunos).  
+- Limiar de demanda: ex. N médicos com o mesmo buraco **ou** criticidade clínica alta → prioriza criação.  
+- Deduplicação: antes de criar, busca similaridade no corpus.  
+- Assinatura humana (nome + CRM) para material que vira “curso permanente”.  
+- Micro-sessão efêmera (só para aquele aluno) vs. **aula canônica** (vira patrimônio da escola).  
+- Fila de revisão humana / mentor especialista quando o tema é sensível (regulação, off-label, procedimento).
+
+Isso é o que transforma a Doutiva de “catálogo estático” em **organismo que aprende com a demanda dos médicos**.
 ### 5.3 Regra de avanço (motor de maestria)
 | Resultado | Ação da plataforma |
 |---|---|
@@ -128,39 +150,50 @@ O **Índice de Domínio** substitui “aula concluída” em painel, certificado
 
 ---
 
-## 6. A IA no centro (cérebro único, quatro faces)
+## 6. A IA no centro (cérebro único, cinco faces)
 
-Não é um botão “Tutor” no canto. É o **sistema nervoso** da escola.
+Não é um botão “Tutor” no canto. É o **ser vivo no meio do negócio** — o sistema nervoso da escola.
 
 | Face | Função | Entrada → Saída |
 |---|---|---|
 | **Cartógrafo** | Entende o médico | Conversa + confiança → mapa de domínio |
 | **Preceptor** | Ensina o buraco | Mapa → Caso do Dia / sessão socrática |
-| **Estúdio** | Transforma material em aula | PDF/diretriz/monografia → lâminas, casos, guia, áudio (médico assina) |
+| **Bibliotecário** | Recupera o que já existe | Necessidade → busca no corpus / aulas / casos |
+| **Estúdio** | Cria o que não existe | Gap sem material → aula/microcurso → DB (com curadoria) |
 | **Matchmaker** | Indica o mentor certo | Mapa + perfil mentores → ranking de mentores / aulas / vagas |
 
 ### Requisitos para resultado de alto nível
 1. **Memória longa** do médico (mastery persistido).  
-2. **RAG / corpus Doutiva** — só gera e ensina ancorado no material revisado (oficial + aulas de mentores).  
-3. **Motor de decisão** — atualiza mapa → escolhe próxima sessão → agenda revisão.  
-4. **Guarda-corpo pedagógico** — socrático; nunca entrega conduta antes do compromisso.  
-5. **Humano na vitrine** — IA na cozinha; CRM/nome na assinatura; mentor/evento na proximidade.  
-6. **Match humano** — quando o buraco pede pele e voz, a IA aponta o mentor; a contratação passa pelo marketplace (take rate).  
-7. **Métricas de verdade** — delta de domínio, sessões/semana, retenção D30, NPS, **GMV mentoria + take rate** (não “horas publicadas”).
+2. **RAG / corpus Doutiva** — só gera e ensina ancorado no material revisado (oficial + aulas de mentores + aulas geradas publicadas).  
+3. **Motor recuperar-ou-criar** — busca primeiro; só cria se faltar; persiste; reutiliza.  
+4. **Curadoria** — rascunho ≠ publicado; limiar de demanda; dedupe; assinatura humana.  
+5. **Motor de decisão** — atualiza mapa → escolhe próxima sessão → agenda revisão.  
+6. **Guarda-corpo pedagógico** — socrático; nunca entrega conduta antes do compromisso.  
+7. **Humano na vitrine** — IA na cozinha; CRM/nome na assinatura; mentor/evento na proximidade.  
+8. **Match humano** — quando o buraco pede pele e voz, a IA aponta o mentor; a contratação passa pelo marketplace (take rate).  
+9. **Métricas de verdade** — delta de domínio, sessões/semana, retenção D30, NPS, GMV mentoria + take rate, **% gaps cobertos por reuso vs. criação nova**, tempo até publicar aula canônica.
 
 ### Arquitetura lógica
 ```
-Materiais curados + aulas dos mentores → Corpus Doutiva (versionado + assinado)
-                                              │
-Médico ← conversa →  CÉREBRO DOUTIVA  → mapa / fila / Caso do Dia
-                         │                    │
-                    Estúdio gera aula    Matchmaker → mentor / aula
-                         │                    │
-                 Médico revisor assina   Marketplace (take rate)
+Necessidade do médico
+        │
+        ▼
+   CÉREBRO DOUTIVA (Cartógrafo)
+        │
+        ├── Bibliotecário: achou no corpus? ──sim──► Preceptor usa / reutiliza
+        │                         │
+        │                        não
+        │                         ▼
+        │              Estúdio cria aula/microcurso
+        │                         │
+        │              curadoria + assinatura humana
+        │                         │
+        │              persiste no DB → vira patrimônio
+        │                         │
+        └── Matchmaker → mentor / marketplace (take rate)
 ```
 
-No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e **Mentores** chamam o **mesmo cérebro** (mesmas tools: getMastery, updateMastery, nextSession, retrieveCorpus, generateLessonDraft, **matchMentor**).
----
+No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e **Mentores** chamam o **mesmo cérebro** (tools: getMastery, updateMastery, nextSession, retrieveCorpus, **createLessonIfMissing**, generateLessonDraft, publishLesson, **matchMentor**).---
 
 ## 7. O que já existe vs. o que falta
 
@@ -183,9 +216,13 @@ No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e *
 - **Vitrine de mentores** (perfil, aulas gravadas, agenda, preço)  
 - **Marketplace de mentoria** com take rate Doutiva  
 - **Matchmaker IA**: mapa do aluno → mentor / aula sugerida  
+- **Bibliotecário + Estúdio vivo**: recuperar-ou-criar + persistir no DB  
+- Fila de curadoria (rascunho → revisão humana → publicado)  
+- Deduplicação / limiar de demanda para não poluir o catálogo  
 - Mentor + eventos usando o mapa da turma  
 - Elo explícito “tema dominado → oferta ao paciente / demanda”  
 - Loop de comunidade: aluno → mentor → aulas → novos alunos  
+- Loop de conteúdo: necessidade → gap → criação → reuso pelo próximo  
 
 ---
 
@@ -203,16 +240,18 @@ No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e *
 7. Caso do Dia lê a fila do mapa + confiança  
 8. WhatsApp do Caso do Dia (piloto 50)  
 
-### Fase C — Protocolo que paga a clínica
+### Fase C — Protocolo + cérebro que popula a escola
 9. Cada tema dominado desbloqueia Guia de bolso + oferta ao paciente  
 10. Universidade vira fila do que falta (Aula 2.0: caso primeiro)  
+11. Loop **recuperar-ou-criar**: gap → Estúdio → DB → reuso  
+12. Fila de curadoria + assinatura humana para aulas canônicas  
 
 ### Fase D — Proximidade + comunidade de mentores
-11. Mentoria (turma Doutiva ou 1:1) com pauta = lacunas do mapa  
-12. Onboard dos primeiros mentores: perfil + aulas gravadas + agenda  
-13. Marketplace: contratação direta + **take rate**  
-14. Matchmaker: IA sugere mentor a partir do mapa  
-15. Eventos (A Origem / Semana) com mentores da base no centro  
+13. Mentoria (turma Doutiva ou 1:1) com pauta = lacunas do mapa  
+14. Onboard dos primeiros mentores: perfil + aulas gravadas + agenda  
+15. Marketplace: contratação direta + **take rate**  
+16. Matchmaker: IA sugere mentor a partir do mapa  
+17. Eventos (A Origem / Semana) com mentores da base no centro  
 
 ### Portões sugeridos
 - Semana 2 do piloto: ≥70% fazem 3 sessões  
@@ -220,6 +259,7 @@ No produto: Professores, Tutor, Caso do Dia, onboarding “Mapa”, Estúdio e *
 - Domínio médio +20 pts vs baseline  
 - NPS > 60 antes de escalar aquisição paga  
 - Mentoria: ≥X% dos alunos ativos recebem match; conversão match→contratação; take rate estável  
+- Conteúdo vivo: % gaps resolvidos por **reuso** > criação nova após N semanas; tempo médio gap→publicado; taxa de rejeição na curadoria  
 
 ---
 
@@ -248,7 +288,9 @@ O take rate da mentoria é a **segunda perna de receita** (além da assinatura):
 - Fundir mentoria dentro do curso e perder o SKU / o take rate  
 - Ter vitrine de mentores **sem** aulas / perfil / agenda (só lista decorativa)  
 - Deixar a IA “substituir” o mentor em vez de **indicar** o mentor  
-- Medir sucesso só por aulas concluídas / horas publicadas (ignorar GMV mentoria e retenção de mentores)  
+- **Criar aula nova a cada gap sem buscar o que já existe** (explode o catálogo)  
+- Publicar criação da IA **sem** curadoria / assinatura humana  
+- Medir sucesso só por aulas concluídas / horas publicadas (ignorar GMV mentoria, retenção de mentores e **reuso de conteúdo gerado**)  
 - Abrir para médico pagante sem Mapa + IA ligada + proximidade mínima no piloto  
 
 ---
@@ -258,14 +300,14 @@ O take rate da mentoria é a **segunda perna de receita** (além da assinatura):
 Por favor, avalie criticamente:
 
 1. A arquitetura **Caso do Dia / Curso / Mentores-comunidade / Eventos / Mapa-IA** está coerente para EMC de médicos em prática no Brasil?  
-2. O desenho do **cérebro (Cartógrafo / Preceptor / Estúdio / Matchmaker)** é suficiente para “IA no centro”, ou falta alguma camada?  
-3. Como priorizar as Fases A–D se o objetivo é: (a) retenção, (b) gerar demanda para o consultório, (c) **comunidade pungente de mentores**?  
-4. O modelo **marketplace de mentoria com take rate** (mentores com aulas próprias + contratação direta) fortalece ou dilui a marca Doutiva? Qual take rate / regras de qualidade sugerir no início?  
-5. Como a IA deve ranquear mentores (domínio do aluno, especialidade, NPS, preço, disponibilidade) sem virar caixa-preta injusta?  
-6. Quais riscos regulatórios/éticos (CFM, propaganda de procedimento, responsabilidade do conteúdo gerado por IA **e** do conteúdo do mentor) precisam de guarda-corpo explícito?  
-7. Proponha um **MVP de 30 dias** ainda mais enxuto, se discordar da ordem acima.  
-8. Sugira métricas de piloto e critério de “go / no-go” para Protocolos **e** para o marketplace de mentores.
----
+2. O desenho do **cérebro (Cartógrafo / Preceptor / Bibliotecário / Estúdio / Matchmaker)** — em especial o loop **recuperar-ou-criar-persistir** — é suficiente para “IA no centro / ser vivo”, ou falta alguma camada?  
+3. Como priorizar as Fases A–D se o objetivo é: (a) retenção, (b) gerar demanda para o consultório, (c) comunidade de mentores, (d) **autopopulação inteligente do catálogo**?  
+4. O modelo **marketplace de mentoria com take rate** fortalece ou dilui a marca Doutiva? Qual take rate / regras de qualidade sugerir no início?  
+5. Como a IA deve ranquear mentores sem virar caixa-preta injusta?  
+6. Quais **regras de curadoria** (limiar de demanda, dedupe, rascunho vs. publicado, temas que exigem CRM) você recomenda para o Estúdio não poluir a escola?  
+7. Quais riscos regulatórios/éticos (CFM, propaganda, conteúdo gerado por IA **e** do mentor) precisam de guarda-corpo explícito?  
+8. Proponha um **MVP de 30 dias** ainda mais enxuto, se discordar da ordem acima.  
+9. Sugira métricas de piloto e “go / no-go” para Protocolos, marketplace de mentores **e** o loop de criação de conteúdo.---
 
 ## 12. Referências internas desta conversa
 
