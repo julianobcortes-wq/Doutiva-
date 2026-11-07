@@ -4,6 +4,13 @@
 **Objetivo:** construir o sistema inteiro (hábito + mapa + universidade + mentores + criar-ou-reusar) com qualidade de produto, sem atalhos.  
 **Princípio:** planejar o todo; entregar em **ondas** com portão de qualidade. “Tudo de uma vez” = um desenho único e coerente; não = soltar 5 produtos pela metade no mesmo dia.
 
+### Norte operacional (check 07/11/2026)
+- **Escola com IA.** Não há corpo docente tradicional. O EAD é IA-first.
+- **~90% do conteúdo** nasce da IA (Cartógrafo → Preceptor → Bibliotecário → Estúdio).
+- **~10% ou menos** usa material de professores/mentores como *insumo* para o Estúdio gerar cursos (não como aulas humanas no player).
+- **Mentoria humana = fatia pequena e separada:** começa com **1 mentor = o Doc** (Juliano); demais mentores entram depois.
+- Aba **/mentors** + inbox **já existem** no produto — Onda 5 é evoluir (pagamento/take rate/match), não inventar a aba.
+
 ---
 
 ## 0. O que já existe (não reinventar)
@@ -45,10 +52,11 @@
 
 **Invariantes (não negociar)**
 1. Um médico = um mapa persistido (`mastery_by_topic`).  
-2. Conteúdo clínico permanente exige **assinatura humana** (nome + CRM).  
-3. IA **não** entrega conduta antes do aluno se comprometer (socrático).  
-4. Aluno ≠ admin ≠ mentor (papéis claros na UI e no servidor).  
-5. Mentoria paga passa pela plataforma (take rate); sem bypass.
+2. Conteúdo EAD é **IA-first**; material humano (se houver) é insumo de geração, não o modo padrão de aula.  
+3. Publicação canônica passa por **curadoria do Doc/admin** (qualidade + risco), não por um quadro de docentes.  
+4. IA **não** entrega conduta antes do aluno se comprometer (socrático).  
+5. Aluno ≠ admin ≠ mentor (papéis claros). No início: **1 mentor = Doc**.  
+6. Mentoria paga (quando ligada) passa pela plataforma (take rate); sem bypass.
 
 ---
 
@@ -78,10 +86,11 @@ Não abrir a próxima onda se o portão falhar — corrige, não empilha.
 - [ ] Conta **aluno** (sem `admin`) para QA  
 - [ ] Remover/ocultar fixtures de teste óbvias  
 
-### 0.2 Docente real
-- [ ] Pelo menos 1 médico com nome + CRM no “Revisado por” das aulas canônicas  
+### 0.2 Curadoria mínima (não é corpo docente)
+- [ ] Conta do **Doc** como admin/curador (publica o que a IA gera)  
+- [ ] Perfil do Doc como **único mentor** ativo na aba `/mentors` (demais depois)  
 
-**Pronto quando:** Tutor e Professores respondem em produção; aluno QA vê campus limpo.
+**Pronto quando:** Tutor e Professores (IA) respondem em produção; aluno QA vê campus limpo; `/mentors` mostra o Doc.
 
 ---
 
@@ -196,9 +205,13 @@ necessidade (tema vermelho sem lesson)
   → se score alto: reusa
   → se gap: createLessonIfMissing → status=draft
   → fila /editor/curadoria
-  → humano assina (CRM) → publish
+  → Doc/admin aprova → publish
   → próximo aluno reusa
 ```
+
+**Mix de conteúdo (meta)**
+- ~90% aulas geradas/ensinadas por IA a partir do corpus + gaps  
+- ~10% (ou menos) partem de PDF/material de professor ou mentor → Estúdio transforma em aula IA  
 
 #### Schema
 ```
@@ -206,7 +219,7 @@ content_gaps
   topic_id, demand_count, status (open|drafting|in_review|published|rejected)
 
 lesson_origins
-  lesson_id, source (human|ai_gap|mentor), gap_id?, created_for_user?
+  lesson_id, source (ai_gap|ai_from_upload|mentor_material), gap_id?, created_for_user?
 ```
 
 #### Reuso de código
@@ -214,50 +227,59 @@ lesson_origins
 - Ligar `raiseBarLesson` (hoje orphan) no fluxo de gap  
 - Deduplicação: embedding da necessidade vs. títulos/monografias  
 
-#### Curadoria (regras)
+#### Curadoria (regras) — Doc, não “docentes”
 - Rascunho ≠ publicado  
 - Limiar: N alunos com mesmo gap **ou** criticidade alta  
-- Temas sensíveis (off-label, procedimento) → revisão obrigatória  
+- Temas sensíveis (off-label, procedimento) → revisão do Doc obrigatória  
 - Métrica: % gaps fechados por **reuso** vs criação nova  
 
 #### Critérios de pronto
 - [ ] Gap artificial cria draft automaticamente  
 - [ ] Draft **não** aparece para outros alunos até publish  
 - [ ] Após publish, segundo aluno com mesmo gap recebe a aula  
-- [ ] Fila de curadoria usável por admin/docente  
+- [ ] Fila de curadoria usável pelo Doc/admin (sem quadro docente)  
 
 ---
 
 ## Onda 5 — Mentores + Matchmaker + take rate
 
 ### Nome: Mentores / Matchmaker  
-### O que é: comunidade pungente; aulas próprias; mentoria paga; IA indica.  
-### Como será feito:
+### O que é: proximidade humana **opcional** (≤10% da experiência). EAD continua sendo IA.  
+### Check do que já existe (não reinventar)
+| Já no produto | Path |
+|---|---|
+| Aba autenticada Médicos Mentores | `/mentors`, `/mentors/$slug` |
+| Pedido de sessão + inbox | `mentors.functions.ts`, `/inbox` |
+| Nav aluno + nav mentor | `app-shell.tsx` |
+| Credenciais CRM/RQE | `/credenciais` |
+| Landing pública (ainda “em breve”) | `/mentores` |
 
-#### Produto
-1. Mentor tem perfil + aulas gravadas (ligadas a `courses`/`lessons` com `owner_mentor_id`)  
-2. Mentoria 1:1 ou turma pequena com preço  
-3. Checkout Stripe (Connect ou cobrança Doutiva + repasse)  
-4. Take rate configurável (ex. 15–20% inicial)  
-5. Matchmaker: `matchMentor(user_id)` ranqueia por temas vermelhos ∩ specialties, NPS, preço, agenda  
+**Conclusão:** mentores **estão cobertos** como superfície de produto. Falta evoluir economia + 1 mentor real + match depois — não criar aba nova.
 
-#### Schema
+### Como será feito (faseado)
+
+#### 5a — Agora (mínimo)
+1. **1 mentor ativo = o Doc** (perfil real, owner_user_id = Juliano)  
+2. Limpar seeds/placeholders se atrapalharem a vitrine  
+3. Pedido de sessão + inbox já funcionam → validar ponta a ponta com o Doc  
+4. Matchmaker **desligado** (só 1 mentor; ranking não faz sentido ainda)
+
+#### 5b — Em seguida (quando puxar mais mentores)
+1. Onboard do 2º, 3º… mentor  
+2. Mentoria 1:1 com preço + checkout + **take rate**  
+3. Matchmaker: `matchMentor` por temas vermelhos ∩ specialties  
+4. Material do mentor (se houver) → **insumo** do Estúdio (~10%), não substitui o EAD IA  
+5. `/mentores` público deixa de ser “em breve”
+
+#### Schema (5b)
 ```
 mentor_offerings (tipo, preço, duração, vagas)
 mentor_bookings (status, amount_cents, take_rate_bps, stripe_*)
-mentor_lesson_links (mentor_id, lesson_id)
 ```
 
-#### UI
-- `/mentores` público deixa de ser “em breve”  
-- `/mentors` autenticado: match “recomendados para você” no topo  
-- Inbox já existe → estender com pagamento confirmado  
-
 #### Critérios de pronto
-- [ ] Fluxo request → pagamento → accept → complete  
-- [ ] Take rate aparece no ledger admin  
-- [ ] Matchmaker sugere ≥1 mentor alinhado a tema vermelho  
-- [ ] Mentor sem aula/agenda **não** sobe no ranking  
+- [ ] **5a:** Doc aparece como único mentor; aluno pede sessão; Doc responde no inbox  
+- [ ] **5b:** pagamento + take rate; match só com ≥2 mentores  
 
 ---
 
@@ -345,12 +367,13 @@ Conta QA aluno sempre; nunca validar só como admin.
 
 ## 6. O que explicitamente NÃO fazer no caminho
 
+- Montar **corpo docente** / “professores humanos” no EAD  
 - Cinco chatbots separados sem memória compartilhada  
-- Publicar aula IA sem CRM  
-- Mentor virar Duolingo (hábito diário)  
-- Take rate sem pagamento na plataforma  
+- Publicar aula IA sensível sem curadoria do Doc  
+- Mentor virar Duolingo (hábito diário) — mentor é proximidade, não o 90%  
+- Take rate / Matchmaker antes de ter o Doc estável como mentor #1  
 - WhatsApp antes do Caso do Dia 2.0 pessoal funcionar no site  
-- Medir sucesso por “aulas publicadas”  
+- Medir sucesso por “aulas publicadas” em vez de domínio + retenção  
 
 ---
 
