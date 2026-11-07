@@ -1,12 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Flame, CalendarDays } from "lucide-react";
+import { Compass, Flame, CalendarDays } from "lucide-react";
 import { ClinicalCaseSimulator } from "@/components/clinical-case-simulator";
 import { useServerFn } from "@tanstack/react-start";
 import { refreshProgress } from "@/lib/use-progress";
-import { answerDailyCase, getTodayCase } from "@/lib/daily-case.functions";
-import type { PublicDailyCase } from "@/lib/daily-case";
+import { answerDailyCase, getTodayCase, type PersonalPublicCase } from "@/lib/daily-case.functions";
 import type { CaseGradeResult } from "@/lib/clinical-case-public";
+import type { ConfidenceLabel } from "@/lib/brain/types";
+import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/_authenticated/caso-do-dia")({
   head: () => ({
@@ -26,10 +27,11 @@ export const Route = createFileRoute("/_authenticated/caso-do-dia")({
 });
 
 function CasoDoDia() {
-  const [today, setToday] = useState<PublicDailyCase | null>(null);
+  const [today, setToday] = useState<PersonalPublicCase | null>(null);
   const [grade, setGrade] = useState<CaseGradeResult | null>(null);
   const [grading, setGrading] = useState(false);
   const [reward, setReward] = useState<string | null>(null);
+  const [confidence, setConfidence] = useState<ConfidenceLabel | null>(null);
   const load = useServerFn(getTodayCase);
   const submit = useServerFn(answerDailyCase);
 
@@ -39,9 +41,20 @@ function CasoDoDia() {
 
   async function answer(option: number) {
     if (!today || grading || grade) return;
+    if (!confidence) {
+      setReward("Antes de enviar: diga se você sabe, acha ou não sabe.");
+      return;
+    }
     setGrading(true);
     try {
-      const r = await submit({ data: { caseKey: String(today.key), option } });
+      const r = await submit({
+        data: {
+          caseKey: String(today.key),
+          option,
+          confidence,
+          topicIds: today.topicIds,
+        },
+      });
       setGrade(r.grade);
       refreshProgress();
       const head = r.correct ? "Conduta correta" : "Revise o raciocínio";
@@ -73,11 +86,47 @@ function CasoDoDia() {
         <span className="flex items-center gap-1.5 text-muted-foreground">
           <CalendarDays className="h-3 w-3" /> {dateLabel}
         </span>
+        {today.source === "map" ? (
+          <span className="inline-flex items-center gap-1.5 text-emerald-700 dark:text-emerald-300">
+            <Compass className="h-3 w-3" /> Do seu mapa
+          </span>
+        ) : (
+          <Link to="/mapa" className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-primary">
+            <Compass className="h-3 w-3" /> Calibre o mapa
+          </Link>
+        )}
       </div>
       <h1 className="mt-3 text-3xl font-extralight tracking-tight sm:text-4xl">Seu paciente de hoje</h1>
       <p className="mt-2 text-sm text-muted-foreground">
-        Três minutos. Leia, decida a conduta e veja o raciocínio por trás. Um novo caso a cada dia.
+        {today.mapReady
+          ? "Preceptor AI-first: este caso veio das suas lacunas. Conduta + confiança alimentam o cérebro."
+          : "Três minutos. Depois do Mapa clínico, o caso passa a ser pessoal."}
       </p>
+
+      {!grade && (
+        <div className="mt-6 flex flex-wrap gap-2">
+          <span className="w-full text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+            Confiança (obrigatório)
+          </span>
+          {(
+            [
+              ["sei", "Sei"],
+              ["acho", "Acho"],
+              ["nao_sei", "Não sei"],
+            ] as const
+          ).map(([id, label]) => (
+            <Button
+              key={id}
+              type="button"
+              size="sm"
+              variant={confidence === id ? "default" : "outline"}
+              onClick={() => setConfidence(id)}
+            >
+              {label}
+            </Button>
+          ))}
+        </div>
+      )}
 
       <div className="mt-8">
         <ClinicalCaseSimulator
@@ -104,10 +153,16 @@ function CasoDoDia() {
             Abrir a aula
           </Link>
           <Link
+            to="/mapa"
+            className="rounded-sm border border-border/60 px-4 py-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground hover:text-foreground"
+          >
+            Ver mapa clínico
+          </Link>
+          <Link
             to="/professores"
             className="rounded-sm border border-border/60 px-4 py-2 text-[10px] uppercase tracking-[0.2em] text-muted-foreground hover:text-foreground"
           >
-            Discutir com um Professor de IA
+            Professor de IA
           </Link>
         </div>
       </div>

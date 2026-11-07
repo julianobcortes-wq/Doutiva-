@@ -1,27 +1,41 @@
 import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import {
-  loadDailyCases,
   loadDailyCasesForGrading,
-  caseIndexForDate,
   toPublicDailyCase,
   type PublicDailyCase,
 } from "@/lib/daily-case";
 import { gradeClinicalCase, type CaseGradeResult } from "@/lib/clinical-case-public";
+import {
+  pickPersonalDailyCase,
+  recordCaseOutcome,
+} from "@/lib/brain/preceptor-session.server";
+import type { ConfidenceLabel } from "@/lib/brain/types";
 
-/** Public case of the day — no answer key. */
+export type PersonalPublicCase = PublicDailyCase & {
+  source: "map" | "calendar";
+  mapReady: boolean;
+  topicIds: string[];
+};
+
+/** Public case of the day — map-driven when mastery ready. */
 export const getTodayCase = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
-  .handler(async ({ context }): Promise<PublicDailyCase> => {
-    const cases = await loadDailyCases(context.supabase as any);
-    const today = cases[caseIndexForDate(new Date(), cases.length)];
-    return toPublicDailyCase(today);
+  .handler(async ({ context }): Promise<PersonalPublicCase> => {
+    const pick = await pickPersonalDailyCase(context.supabase as any, context.userId);
+    return {
+      ...toPublicDailyCase(pick.daily),
+      source: pick.source,
+      mapReady: pick.mapReady,
+      topicIds: pick.topicIds,
+    };
   });
 
 /** Review queue as public cases (no answer keys). */
 export const listReviewCases = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }): Promise<PublicDailyCase[]> => {
+    const { loadDailyCases } = await import("@/lib/daily-case");
     const cases = await loadDailyCases(context.supabase as any);
     const real = cases.filter((c) => !c.key.startsWith("static-"));
     return (real.length ? real : cases).map(toPublicDailyCase);
@@ -30,21 +44,35 @@ export const listReviewCases = createServerFn({ method: "GET" })
 /** Server decides if the chosen option is correct; browser only sends option index. */
 export const answerDailyCase = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
-  .inputValidator((input: { caseKey: string; option: number }) => {
-    if (typeof input?.caseKey !== "string" || !Number.isInteger(input?.option) || input.option < 0) {
-      throw new Error("Resposta inválida");
-    }
-    return { caseKey: input.caseKey.slice(0, 100), option: input.option };
-  })
+  .inputValidator(
+    (input: { caseKey: string; option: number; confidence?: ConfidenceLabel; topicIds?: string[] }) => {
+      if (typeof input?.caseKey !== "string" || !Number.isInteger(input?.option) || input.option < 0) {
+        throw new Error("Resposta inválida");
+      }
+      const confidence = input.confidence;
+      if (confidence && !["sei", "acho", "nao_sei"].includes(confidence)) {
+        throw new Error("Confiança inválida");
+      }
+      return {
+        caseKey: input.caseKey.slice(0, 100),
+        option: input.option,
+        confidence: confidence as ConfidenceLabel | undefined,
+        topicIds: Array.isArray(input.topicIds) ? input.topicIds.slice(0, 5) : undefined,
+      };
+    },
+  )
   .handler(async ({ data, context }) => {
     const cases = await loadDailyCasesForGrading(context.supabase as any);
-    const now = Date.now();
-    const valid = [now, now - 86_400_000].map((t) =>
-      cases[caseIndexForDate(new Date(t), cases.length)],
-    );
-    const match = valid.find((c) => c.key === data.caseKey);
-    if (!match) throw new Error("Este não é o caso de hoje. Recarregue a página.");
-    const grade = gradeClinicalCase(match.c, data.option);
+    const pick = await pickPersonalDailyCase(context.supabase as any, context.userId);
+    const match =
+      cases.find((c) => c.key === data.caseKey) ??
+      (pick.daily.key === data.caseKey
+        ? (await loadDailyCasesForGrading(context.supabase as any)).find((c) => c.key === data.caseKey)
+        : undefined);
+    // Allow today's personal pick OR same key in pool (reload-safe)
+    const graded = match ?? cases.find((c) => c.key === data.caseKey);
+    if (!graded) throw new Error("Este não é o caso de hoje. Recarregue a página.");
+    const grade = gradeClinicalCase(graded.c, data.option);
 
     type Award = {
       awarded: boolean;
@@ -59,7 +87,6 @@ export const answerDailyCase = createServerFn({ method: "POST" })
     const { hasServiceRole } = await import("@/integrations/supabase/publishable.server");
     let award: Award | null = null;
 
-    // Prefer service_role award (cannot be spoofed from the browser).
     if (hasServiceRole()) {
       try {
         const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
@@ -75,7 +102,6 @@ export const answerDailyCase = createServerFn({ method: "POST" })
       }
     }
 
-    // Bridge when service_role is not configured but submit_daily_case is still granted.
     if (!award) {
       const { data: r, error } = await context.supabase.rpc("submit_daily_case" as any, {
         _case_key: data.caseKey,
@@ -85,13 +111,26 @@ export const answerDailyCase = createServerFn({ method: "POST" })
       else if (error) console.error("submit_daily_case", error);
     }
 
+    // Feed the brain map
+    try {
+      await recordCaseOutcome({
+        userId: context.userId,
+        caseKey: data.caseKey,
+        correct: grade.correct,
+        confidence: data.confidence,
+        topicIds: data.topicIds?.length ? data.topicIds : pick.topicIds,
+        supabase: context.supabase as any,
+      });
+    } catch (e) {
+      console.error("recordCaseOutcome", e);
+    }
+
     if (!award) {
       const { data: progress } = await context.supabase
         .from("user_progress")
         .select("xp, credits, streak")
         .eq("user_id", context.userId)
         .maybeSingle();
-      // Still return the clinical grade so the habit loop works without economy backend.
       return {
         awarded: false,
         correct: grade.correct,

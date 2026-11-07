@@ -32,9 +32,21 @@ function SettingsPage() {
   const accept = useServerFn(acceptLegal);
   const { data: prefs } = useQuery({ queryKey: ["notif-prefs"], queryFn: () => fetchPrefs() });
   const { data: legal = [] } = useQuery({ queryKey: ["legal"], queryFn: () => fetchLegal() });
+  const [waPhone, setWaPhone] = useState("");
   const prefMut = useMutation({
-    mutationFn: (daily_case_email: boolean) =>
-      savePrefs({ data: { daily_case_email, email: email || null } }),
+    mutationFn: (payload: {
+      daily_case_email: boolean;
+      whatsapp_opt_in?: boolean;
+      whatsapp_e164?: string | null;
+    }) =>
+      savePrefs({
+        data: {
+          daily_case_email: payload.daily_case_email,
+          email: email || null,
+          whatsapp_opt_in: payload.whatsapp_opt_in,
+          whatsapp_e164: payload.whatsapp_e164,
+        },
+      }),
     onSuccess: () => {
       toast.success("Preferências salvas");
       qc.invalidateQueries({ queryKey: ["notif-prefs"] });
@@ -125,7 +137,13 @@ function SettingsPage() {
           </p>
           <button
             type="button"
-            onClick={() => prefMut.mutate(!(prefs?.daily_case_email ?? true))}
+            onClick={() =>
+              prefMut.mutate({
+                daily_case_email: !(prefs?.daily_case_email ?? true),
+                whatsapp_opt_in: Boolean((prefs as any)?.whatsapp_opt_in),
+                whatsapp_e164: ((prefs as any)?.whatsapp_e164 ?? waPhone) || null,
+              })
+            }
             className="mt-4 flex w-full items-center justify-between rounded-sm border border-border/60 px-4 py-3 text-sm hover:border-gold/40"
           >
             <span className="text-muted-foreground">Receber desafio diário</span>
@@ -133,6 +151,40 @@ function SettingsPage() {
               className={(prefs?.daily_case_email ?? true) ? "text-gold" : "text-muted-foreground"}
             >
               {(prefs?.daily_case_email ?? true) ? "Ativado" : "Desativado"}
+            </span>
+          </button>
+        </section>
+
+        <section className="rounded-sm border border-border/60 bg-card p-6">
+          <h2 className="font-serif text-xl">Caso do Dia no WhatsApp</h2>
+          <p className="mt-2 text-sm text-muted-foreground">
+            Hábito no bolso. O Preceptor manda o caso do seu mapa (quando o canal estiver ligado).
+          </p>
+          <Label className="mt-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+            WhatsApp (E.164, ex. 5511999999999)
+          </Label>
+          <Input
+            className="mt-2 h-11 rounded-sm"
+            value={waPhone || (prefs as any)?.whatsapp_e164 || ""}
+            onChange={(e) => setWaPhone(e.target.value)}
+            placeholder="5511999999999"
+          />
+          <button
+            type="button"
+            onClick={() =>
+              prefMut.mutate({
+                daily_case_email: prefs?.daily_case_email ?? true,
+                whatsapp_opt_in: !Boolean((prefs as any)?.whatsapp_opt_in),
+                whatsapp_e164: (waPhone || (prefs as any)?.whatsapp_e164 || "").replace(/\D/g, "") || null,
+              })
+            }
+            className="mt-4 flex w-full items-center justify-between rounded-sm border border-border/60 px-4 py-3 text-sm hover:border-gold/40"
+          >
+            <span className="text-muted-foreground">Receber no WhatsApp</span>
+            <span
+              className={(prefs as any)?.whatsapp_opt_in ? "text-gold" : "text-muted-foreground"}
+            >
+              {(prefs as any)?.whatsapp_opt_in ? "Ativado" : "Desativado"}
             </span>
           </button>
         </section>

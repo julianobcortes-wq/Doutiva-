@@ -391,10 +391,14 @@ Documento vivo: atualizar este arquivo ao fechar cada onda.
 | Onda | Status |
 |---|---|
 | 0 Fundação (envs) | Bloqueio humano (Vercel) |
-| 1 Cartógrafo + `/mapa` | **Em código** — branch `cursor/cerebro-ai-first-cd4c` · migration `0026` · API `/api/brain/cartographer` |
-| 2–6 | Próximas |
+| 1 Cartógrafo + `/mapa` | **Código** — migration `0026` · `/mapa` · `/api/brain/cartographer` |
+| 2 Preceptor / Caso pessoal | **Código** — `pickPersonalDailyCase` · confiança · feed do mapa |
+| 3 Universidade adaptativa | **Código** — `lesson_topics` · ordem por lacuna |
+| 4 Bibliotecário + Estúdio vivo | **Código** — `/editor/curadoria` · `content_gaps` |
+| 5 Mentores parceiros + $ | **Código** — offerings · purchase + take rate · Matchmaker |
+| 6 WhatsApp + hábito | **Código** — prefs WA · `/api/cron/whatsapp-daily` |
 
-**Deploy Onda 1:** aplicar `drizzle/migrations/0026_brain_mastery_by_topic.sql` no Supabase + `OPENAI_API_KEY` na Vercel.
+**Deploy:** aplicar `0026` + `0027` no Supabase; `OPENAI_API_KEY` (+ opcional `WHATSAPP_*`, Stripe) na Vercel.
 
 ---
 

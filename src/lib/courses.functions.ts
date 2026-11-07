@@ -84,12 +84,56 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
     const hasMono = new Set((monoIds ?? []).map((r) => r.id as string));
 
     // Strip answer keys from clinical_case before the student client receives the course.
-    const safeLessons = (lessons ?? []).map((l) => ({
+    let safeLessons = (lessons ?? []).map((l) => ({
       ...l,
       monograph: null as string | null,
       has_monograph: hasMono.has(l.id),
       clinical_case: redactClinicalCaseJson(l.clinical_case) ?? null,
+      priority: 0 as number,
+      priority_band: null as string | null,
     }));
+
+    // Onda 3 — universidade adaptativa: ordena pelo mapa (lacunas primeiro)
+    try {
+      const { getMastery } = await import("@/lib/brain/brain.server");
+      const map = await getMastery(supabase as never, userId);
+      if (map.ready) {
+        const lessonIds = safeLessons.map((l) => l.id);
+        const { data: links } = await supabase
+          .from("lesson_topics" as never)
+          .select("lesson_id, topic_id")
+          .in("lesson_id", lessonIds);
+        const bandScore = (band: string) =>
+          band === "red" ? 30 : band === "yellow" ? 15 : band === "green" ? -5 : 0;
+        const masteryByTopic = new Map(map.mastery.map((m) => [m.topic_id, m]));
+        const priority = new Map<string, { score: number; band: string | null }>();
+        for (const row of (links as { lesson_id: string; topic_id: string }[] | null) ?? []) {
+          const m = masteryByTopic.get(row.topic_id);
+          if (!m || m.attempts === 0) continue;
+          const prev = priority.get(row.lesson_id) ?? { score: 0, band: null };
+          const add = bandScore(m.band) + Math.max(0, 40 - m.score) / 10;
+          priority.set(row.lesson_id, {
+            score: prev.score + add,
+            band: prev.band === "red" ? "red" : m.band,
+          });
+        }
+        safeLessons = safeLessons
+          .map((l) => {
+            const p = priority.get(l.id);
+            return {
+              ...l,
+              priority: p?.score ?? 0,
+              priority_band: p?.band ?? null,
+            };
+          })
+          .sort((a, b) => {
+            if (b.priority !== a.priority) return b.priority - a.priority;
+            return (a.position ?? 0) - (b.position ?? 0);
+          });
+      }
+    } catch {
+      /* mapa ainda não migrado — ordem editorial */
+    }
 
     const status = await loadSubStatus(supabase, userId);
     const access = accessForCourse(course.slug as string, status);
@@ -118,6 +162,7 @@ export const getCourseBySlug = createServerFn({ method: "GET" })
       access,
       free: isFreeCourseSlug(course.slug as string),
       subscribed: subscriptionIsActive(status),
+      adaptive: safeLessons.some((l) => l.priority > 0),
     };
   });
 

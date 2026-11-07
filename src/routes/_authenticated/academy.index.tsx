@@ -38,7 +38,7 @@ function AcademyPage() {
             {expert
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
-                ? "Trilhas com sessão guiada, monografia, caso clínico e Tutor IA."
+                ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas."
                 : "Peptídeos liberados na sua conta. Demais trilhas abrem com Protocolos."}
           </p>
           {!subscribed && (

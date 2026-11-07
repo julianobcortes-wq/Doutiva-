@@ -61,12 +61,14 @@ import { Route as AuthenticatedAcademySlugRouteImport } from './routes/_authenti
 import { Route as AuthenticatedCommunitySlugRouteImport } from './routes/_authenticated/community.$slug'
 import { Route as AuthenticatedEditorIndexRouteImport } from './routes/_authenticated/editor.index'
 import { Route as AuthenticatedEditorBibliotecaRouteImport } from './routes/_authenticated/editor.biblioteca'
+import { Route as AuthenticatedEditorCuradoriaRouteImport } from './routes/_authenticated/editor.curadoria'
 import { Route as AuthenticatedEventsSlugRouteImport } from './routes/_authenticated/events.$slug'
 import { Route as AuthenticatedMentorsSlugRouteImport } from './routes/_authenticated/mentors.$slug'
 import { Route as AuthenticatedProtocoloSlugRouteImport } from './routes/_authenticated/protocolo.$slug'
 import { Route as AuthenticatedSpacesSlugRouteImport } from './routes/_authenticated/spaces.$slug'
 import { Route as ApiBrainCartographerRouteImport } from './routes/api/brain.cartographer'
 import { Route as ApiCronDailyChallengeRouteImport } from './routes/api/cron.daily-challenge'
+import { Route as ApiCronWhatsappDailyRouteImport } from './routes/api/cron.whatsapp-daily'
 import { Route as ApiStripeWebhookRouteImport } from './routes/api/stripe.webhook'
 import { Route as AuthenticatedEditorAulaLessonIdRouteImport } from './routes/_authenticated/editor.aula.$lessonId'
 import { Route as AuthenticatedEditorCursoCourseIdRouteImport } from './routes/_authenticated/editor.curso.$courseId'
@@ -342,6 +344,12 @@ const AuthenticatedEditorBibliotecaRoute =
     path: '/editor/biblioteca',
     getParentRoute: () => AuthenticatedRouteRoute,
   } as any)
+const AuthenticatedEditorCuradoriaRoute =
+  AuthenticatedEditorCuradoriaRouteImport.update({
+    id: '/editor/curadoria',
+    path: '/editor/curadoria',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
 const AuthenticatedEventsSlugRoute = AuthenticatedEventsSlugRouteImport.update({
   id: '/$slug',
   path: '/$slug',
@@ -372,6 +380,11 @@ const ApiBrainCartographerRoute = ApiBrainCartographerRouteImport.update({
 const ApiCronDailyChallengeRoute = ApiCronDailyChallengeRouteImport.update({
   id: '/api/cron/daily-challenge',
   path: '/api/cron/daily-challenge',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiCronWhatsappDailyRoute = ApiCronWhatsappDailyRouteImport.update({
+  id: '/api/cron/whatsapp-daily',
+  path: '/api/cron/whatsapp-daily',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApiStripeWebhookRoute = ApiStripeWebhookRouteImport.update({
@@ -442,12 +455,14 @@ export interface FileRoutesByFullPath {
   '/academy/$slug': typeof AuthenticatedAcademySlugRoute
   '/community/$slug': typeof AuthenticatedCommunitySlugRoute
   '/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
+  '/editor/curadoria': typeof AuthenticatedEditorCuradoriaRoute
   '/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/cron/whatsapp-daily': typeof ApiCronWhatsappDailyRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy/': typeof AuthenticatedAcademyIndexRoute
   '/editor/': typeof AuthenticatedEditorIndexRoute
@@ -504,12 +519,14 @@ export interface FileRoutesByTo {
   '/academy/$slug': typeof AuthenticatedAcademySlugRoute
   '/community/$slug': typeof AuthenticatedCommunitySlugRoute
   '/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
+  '/editor/curadoria': typeof AuthenticatedEditorCuradoriaRoute
   '/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/cron/whatsapp-daily': typeof ApiCronWhatsappDailyRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy': typeof AuthenticatedAcademyIndexRoute
   '/editor': typeof AuthenticatedEditorIndexRoute
@@ -568,12 +585,14 @@ export interface FileRoutesById {
   '/_authenticated/academy/$slug': typeof AuthenticatedAcademySlugRoute
   '/_authenticated/community/$slug': typeof AuthenticatedCommunitySlugRoute
   '/_authenticated/editor/biblioteca': typeof AuthenticatedEditorBibliotecaRoute
+  '/_authenticated/editor/curadoria': typeof AuthenticatedEditorCuradoriaRoute
   '/_authenticated/events/$slug': typeof AuthenticatedEventsSlugRoute
   '/_authenticated/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/_authenticated/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/_authenticated/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
   '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
+  '/api/cron/whatsapp-daily': typeof ApiCronWhatsappDailyRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/_authenticated/academy/': typeof AuthenticatedAcademyIndexRoute
   '/_authenticated/editor/': typeof AuthenticatedEditorIndexRoute
@@ -632,12 +651,14 @@ export interface FileRouteTypes {
     | '/academy/$slug'
     | '/community/$slug'
     | '/editor/biblioteca'
+    | '/editor/curadoria'
     | '/events/$slug'
     | '/mentors/$slug'
     | '/protocolo/$slug'
     | '/spaces/$slug'
     | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
+    | '/api/cron/whatsapp-daily'
     | '/api/stripe/webhook'
     | '/academy/'
     | '/editor/'
@@ -694,12 +715,14 @@ export interface FileRouteTypes {
     | '/academy/$slug'
     | '/community/$slug'
     | '/editor/biblioteca'
+    | '/editor/curadoria'
     | '/events/$slug'
     | '/mentors/$slug'
     | '/protocolo/$slug'
     | '/spaces/$slug'
     | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
+    | '/api/cron/whatsapp-daily'
     | '/api/stripe/webhook'
     | '/academy'
     | '/editor'
@@ -757,12 +780,14 @@ export interface FileRouteTypes {
     | '/_authenticated/academy/$slug'
     | '/_authenticated/community/$slug'
     | '/_authenticated/editor/biblioteca'
+    | '/_authenticated/editor/curadoria'
     | '/_authenticated/events/$slug'
     | '/_authenticated/mentors/$slug'
     | '/_authenticated/protocolo/$slug'
     | '/_authenticated/spaces/$slug'
     | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
+    | '/api/cron/whatsapp-daily'
     | '/api/stripe/webhook'
     | '/_authenticated/academy/'
     | '/_authenticated/editor/'
@@ -791,6 +816,7 @@ export interface RootRouteChildren {
   VerificarCodeRoute: typeof VerificarCodeRoute
   ApiBrainCartographerRoute: typeof ApiBrainCartographerRoute
   ApiCronDailyChallengeRoute: typeof ApiCronDailyChallengeRoute
+  ApiCronWhatsappDailyRoute: typeof ApiCronWhatsappDailyRoute
   ApiStripeWebhookRoute: typeof ApiStripeWebhookRoute
 }
 
@@ -1160,6 +1186,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedEditorBibliotecaRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/_authenticated/editor/curadoria': {
+      id: '/_authenticated/editor/curadoria'
+      path: '/editor/curadoria'
+      fullPath: '/editor/curadoria'
+      preLoaderRoute: typeof AuthenticatedEditorCuradoriaRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/events/$slug': {
       id: '/_authenticated/events/$slug'
       path: '/$slug'
@@ -1200,6 +1233,13 @@ declare module '@tanstack/react-router' {
       path: '/api/cron/daily-challenge'
       fullPath: '/api/cron/daily-challenge'
       preLoaderRoute: typeof ApiCronDailyChallengeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/cron/whatsapp-daily': {
+      id: '/api/cron/whatsapp-daily'
+      path: '/api/cron/whatsapp-daily'
+      fullPath: '/api/cron/whatsapp-daily'
+      preLoaderRoute: typeof ApiCronWhatsappDailyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/stripe/webhook': {
@@ -1294,6 +1334,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedWalletRoute: typeof AuthenticatedWalletRoute
   AuthenticatedAcademySlugRoute: typeof AuthenticatedAcademySlugRoute
   AuthenticatedEditorBibliotecaRoute: typeof AuthenticatedEditorBibliotecaRoute
+  AuthenticatedEditorCuradoriaRoute: typeof AuthenticatedEditorCuradoriaRoute
   AuthenticatedProtocoloSlugRoute: typeof AuthenticatedProtocoloSlugRoute
   AuthenticatedSpacesSlugRoute: typeof AuthenticatedSpacesSlugRoute
   AuthenticatedAcademyIndexRoute: typeof AuthenticatedAcademyIndexRoute
@@ -1334,6 +1375,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedWalletRoute: AuthenticatedWalletRoute,
   AuthenticatedAcademySlugRoute: AuthenticatedAcademySlugRoute,
   AuthenticatedEditorBibliotecaRoute: AuthenticatedEditorBibliotecaRoute,
+  AuthenticatedEditorCuradoriaRoute: AuthenticatedEditorCuradoriaRoute,
   AuthenticatedProtocoloSlugRoute: AuthenticatedProtocoloSlugRoute,
   AuthenticatedSpacesSlugRoute: AuthenticatedSpacesSlugRoute,
   AuthenticatedAcademyIndexRoute: AuthenticatedAcademyIndexRoute,
@@ -1366,6 +1408,7 @@ const rootRouteChildren: RootRouteChildren = {
   VerificarCodeRoute: VerificarCodeRoute,
   ApiBrainCartographerRoute: ApiBrainCartographerRoute,
   ApiCronDailyChallengeRoute: ApiCronDailyChallengeRoute,
+  ApiCronWhatsappDailyRoute: ApiCronWhatsappDailyRoute,
   ApiStripeWebhookRoute: ApiStripeWebhookRoute,
 }
 export const routeTree = rootRouteImport

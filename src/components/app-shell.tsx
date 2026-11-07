@@ -70,6 +70,7 @@ const facultyNav = {
     { to: "/dashboard", label: "Painel do Mentor", icon: LayoutDashboard },
     { to: "/mapa", label: "Mapa clínico", icon: Compass },
     { to: "/editor", label: "Estúdio de Cursos", icon: PenTool },
+    { to: "/editor/curadoria", label: "Curadoria IA", icon: Sparkles },
     { to: "/editor/biblioteca", label: "Biblioteca Científica", icon: Bookmark },
     { to: "/academy", label: "Meus cursos", icon: GraduationCap },
     { to: "/professores", label: "Professores de IA", icon: Brain },

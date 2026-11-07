@@ -19,11 +19,15 @@ function CourseList() {
     <div className="mx-auto max-w-5xl px-5 py-12 md:px-6">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-gold">Corpo docente</span>
+          <span className="text-[10px] uppercase tracking-[0.3em] text-gold">Cérebro · Estúdio</span>
           <h1 className="mt-2 text-4xl font-extralight">Estúdio de Cursos</h1>
-          <p className="mt-2 max-w-xl text-sm font-light text-muted-foreground">Crie cursos, escreva ou gere aulas com IA, revise e publique. Nada chega aos alunos sem um médico revisor.</p>
+          <p className="mt-2 max-w-xl text-sm font-light text-muted-foreground">
+            AI-first: gere aulas com IA, recupere gaps do mapa, revise e publique. Sem corpo docente —
+            curadoria admin.
+          </p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+        <Button asChild variant="outline" className="rounded-sm"><Link to="/editor/curadoria">Curadoria do cérebro</Link></Button>
         <Button asChild variant="outline" className="rounded-sm"><Link to="/editor/biblioteca">Biblioteca Científica</Link></Button>
         <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
           <Link to="/editor/curso/$courseId" params={{ courseId: "novo" }}><Plus className="mr-2 h-4 w-4" /> Novo curso</Link>

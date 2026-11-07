@@ -1,8 +1,9 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { useSuspenseQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useSuspenseQuery, useMutation, useQueryClient, useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { listMentors, requestMentorSession } from "@/lib/mentors.functions";
+import { getMentorMatches } from "@/lib/mentor-marketplace.functions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -10,7 +11,7 @@ import { Textarea } from "@/components/ui/textarea";
 import {
   Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogFooter,
 } from "@/components/ui/dialog";
-import { Star, MapPin } from "lucide-react";
+import { Star, MapPin, Compass } from "lucide-react";
 import { toast } from "sonner";
 import { useValleyProfile } from "@/lib/use-city-profile";
 
@@ -33,6 +34,12 @@ export const Route = createFileRoute("/_authenticated/mentors")({
 
 function MentorsPage() {
   const { data } = useSuspenseQuery(mentorsQuery);
+  const matchFn = useServerFn(getMentorMatches);
+  const matches = useQuery({
+    queryKey: ["mentor-matches"],
+    queryFn: () => matchFn(),
+    retry: 0,
+  });
   const { profile, hydrated } = useValleyProfile();
   const expert = hydrated && profile.user_class === "valley_expert";
   const mentors = data ?? [];
@@ -43,17 +50,40 @@ function MentorsPage() {
     <div className="mx-auto max-w-7xl px-6 py-12 pb-24 md:pb-12">
       <section className="border-b border-border/60 pb-10">
         <span className={`text-[10px] uppercase tracking-[0.3em] ${expert ? "text-sage" : "text-gold"}`}>
-          {expert ? "Sua presença pública" : "Médicos Mentores"}
+          {expert ? "Sua presença pública" : "Médicos Mentores · parceiros"}
         </span>
         <h1 className="mt-3 font-serif text-5xl md:text-6xl">
-          {expert ? "Como a cidade encontra você." : "Quem sustenta a evolução dos outros."}
+          {expert ? "Como a cidade encontra você." : "Parceiros para proximidade humana."}
         </h1>
         <p className="mt-4 max-w-2xl text-muted-foreground">
           {expert
             ? "Este é o diretório em que o seu perfil aparece para os médicos alunos. Compare posicionamento, ajuste o seu e acompanhe quem também atua nas suas frentes."
-            : "Profissionais, mentores e criadores com conhecimento, contribuição e experiência acumulada. Sessões privadas, agenda na Doutiva."}
+            : "Espaço para listar mentores parceiros e vender mentoria/curso com take rate Doutiva. O EAD continua AI-first — aqui é a fatia humana."}
         </p>
       </section>
+
+      {(matches.data?.length ?? 0) > 0 && (
+        <section className="mt-10 border border-primary/20 bg-primary/5 px-5 py-5">
+          <div className="flex items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-primary">
+            <Compass className="h-3.5 w-3.5" /> Matchmaker · do seu mapa
+          </div>
+          <ul className="mt-4 grid gap-3 md:grid-cols-3">
+            {matches.data!.map((m) => (
+              <li key={m.mentorId} className="border border-border/50 bg-background px-4 py-3">
+                <p className="font-serif text-lg">{m.name}</p>
+                <p className="text-xs text-muted-foreground">{m.reason}</p>
+                <Link
+                  to="/mentors/$slug"
+                  params={{ slug: m.slug }}
+                  className="mt-2 inline-block text-xs text-gold underline"
+                >
+                  Ver perfil
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {featured.length > 0 && (
         <section className="mt-10">

@@ -757,6 +757,178 @@ export type Database = {
         }
         Relationships: []
       }
+
+      content_gaps: {
+        Row: {
+          created_at: string
+          demand_count: number
+          draft_lesson_id: string | null
+          id: string
+          notes: string | null
+          published_lesson_id: string | null
+          status: string
+          topic_id: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          demand_count?: number
+          draft_lesson_id?: string | null
+          id?: string
+          notes?: string | null
+          published_lesson_id?: string | null
+          status?: string
+          topic_id: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          demand_count?: number
+          draft_lesson_id?: string | null
+          id?: string
+          notes?: string | null
+          published_lesson_id?: string | null
+          status?: string
+          topic_id?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      lesson_origins: {
+        Row: {
+          created_at: string
+          created_for_user: string | null
+          gap_id: string | null
+          lesson_id: string
+          source: string
+        }
+        Insert: {
+          created_at?: string
+          created_for_user?: string | null
+          gap_id?: string | null
+          lesson_id: string
+          source?: string
+        }
+        Update: {
+          created_at?: string
+          created_for_user?: string | null
+          gap_id?: string | null
+          lesson_id?: string
+          source?: string
+        }
+        Relationships: []
+      }
+      lesson_topics: {
+        Row: {
+          lesson_id: string
+          topic_id: string
+          weight: number
+        }
+        Insert: {
+          lesson_id: string
+          topic_id: string
+          weight?: number
+        }
+        Update: {
+          lesson_id?: string
+          topic_id?: string
+          weight?: number
+        }
+        Relationships: []
+      }
+      mentor_offerings: {
+        Row: {
+          active: boolean
+          course_id: string | null
+          created_at: string
+          currency: string
+          description: string | null
+          duration_minutes: number | null
+          id: string
+          kind: string
+          mentor_id: string
+          price_cents: number
+          take_rate_bps: number
+          title: string
+        }
+        Insert: {
+          active?: boolean
+          course_id?: string | null
+          created_at?: string
+          currency?: string
+          description?: string | null
+          duration_minutes?: number | null
+          id?: string
+          kind: string
+          mentor_id: string
+          price_cents: number
+          take_rate_bps?: number
+          title: string
+        }
+        Update: {
+          active?: boolean
+          course_id?: string | null
+          created_at?: string
+          currency?: string
+          description?: string | null
+          duration_minutes?: number | null
+          id?: string
+          kind?: string
+          mentor_id?: string
+          price_cents?: number
+          take_rate_bps?: number
+          title?: string
+        }
+        Relationships: []
+      }
+      mentor_purchases: {
+        Row: {
+          amount_cents: number
+          created_at: string
+          id: string
+          mentor_id: string
+          mentor_net_cents: number
+          meta: Json
+          offering_id: string
+          paid_at: string | null
+          platform_fee_cents: number
+          status: string
+          stripe_session_id: string | null
+          take_rate_bps: number
+          user_id: string
+        }
+        Insert: {
+          amount_cents: number
+          created_at?: string
+          id?: string
+          mentor_id: string
+          mentor_net_cents: number
+          meta?: Json
+          offering_id: string
+          paid_at?: string | null
+          platform_fee_cents: number
+          status?: string
+          stripe_session_id?: string | null
+          take_rate_bps: number
+          user_id: string
+        }
+        Update: {
+          amount_cents?: number
+          created_at?: string
+          id?: string
+          mentor_id?: string
+          mentor_net_cents?: number
+          meta?: Json
+          offering_id?: string
+          paid_at?: string | null
+          platform_fee_cents?: number
+          status?: string
+          stripe_session_id?: string | null
+          take_rate_bps?: number
+          user_id?: string
+        }
+        Relationships: []
+      }
       mastery_records: {
         Row: {
           created_at: string
@@ -1234,6 +1406,10 @@ export type Database = {
           streak: number
           xp: number
         }[]
+      }
+      complete_mentor_purchase_courtesy: {
+        Args: { _offering_id: string; _user_id?: string }
+        Returns: Json
       }
       has_role: {
         Args: {
