@@ -38,6 +38,7 @@ import { Route as AuthenticatedExpertApplyRouteImport } from './routes/_authenti
 import { Route as AuthenticatedHelpRouteImport } from './routes/_authenticated/help'
 import { Route as AuthenticatedInboxRouteImport } from './routes/_authenticated/inbox'
 import { Route as AuthenticatedLibraryRouteImport } from './routes/_authenticated/library'
+import { Route as AuthenticatedMapaRouteImport } from './routes/_authenticated/mapa'
 import { Route as AuthenticatedMarketplaceRouteImport } from './routes/_authenticated/marketplace'
 import { Route as AuthenticatedMentorsRouteImport } from './routes/_authenticated/mentors'
 import { Route as AuthenticatedMissionsRouteImport } from './routes/_authenticated/missions'
@@ -64,6 +65,7 @@ import { Route as AuthenticatedEventsSlugRouteImport } from './routes/_authentic
 import { Route as AuthenticatedMentorsSlugRouteImport } from './routes/_authenticated/mentors.$slug'
 import { Route as AuthenticatedProtocoloSlugRouteImport } from './routes/_authenticated/protocolo.$slug'
 import { Route as AuthenticatedSpacesSlugRouteImport } from './routes/_authenticated/spaces.$slug'
+import { Route as ApiBrainCartographerRouteImport } from './routes/api/brain.cartographer'
 import { Route as ApiCronDailyChallengeRouteImport } from './routes/api/cron.daily-challenge'
 import { Route as ApiStripeWebhookRouteImport } from './routes/api/stripe.webhook'
 import { Route as AuthenticatedEditorAulaLessonIdRouteImport } from './routes/_authenticated/editor.aula.$lessonId'
@@ -217,6 +219,11 @@ const AuthenticatedLibraryRoute = AuthenticatedLibraryRouteImport.update({
   path: '/library',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const AuthenticatedMapaRoute = AuthenticatedMapaRouteImport.update({
+  id: '/mapa',
+  path: '/mapa',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
 const AuthenticatedMarketplaceRoute =
   AuthenticatedMarketplaceRouteImport.update({
     id: '/marketplace',
@@ -357,6 +364,11 @@ const AuthenticatedSpacesSlugRoute = AuthenticatedSpacesSlugRouteImport.update({
   path: '/spaces/$slug',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const ApiBrainCartographerRoute = ApiBrainCartographerRouteImport.update({
+  id: '/api/brain/cartographer',
+  path: '/api/brain/cartographer',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiCronDailyChallengeRoute = ApiCronDailyChallengeRouteImport.update({
   id: '/api/cron/daily-challenge',
   path: '/api/cron/daily-challenge',
@@ -409,6 +421,7 @@ export interface FileRoutesByFullPath {
   '/help': typeof AuthenticatedHelpRoute
   '/inbox': typeof AuthenticatedInboxRoute
   '/library': typeof AuthenticatedLibraryRoute
+  '/mapa': typeof AuthenticatedMapaRoute
   '/marketplace': typeof AuthenticatedMarketplaceRoute
   '/mentors': typeof AuthenticatedMentorsRouteWithChildren
   '/missions': typeof AuthenticatedMissionsRoute
@@ -433,6 +446,7 @@ export interface FileRoutesByFullPath {
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy/': typeof AuthenticatedAcademyIndexRoute
@@ -469,6 +483,7 @@ export interface FileRoutesByTo {
   '/help': typeof AuthenticatedHelpRoute
   '/inbox': typeof AuthenticatedInboxRoute
   '/library': typeof AuthenticatedLibraryRoute
+  '/mapa': typeof AuthenticatedMapaRoute
   '/marketplace': typeof AuthenticatedMarketplaceRoute
   '/mentors': typeof AuthenticatedMentorsRouteWithChildren
   '/missions': typeof AuthenticatedMissionsRoute
@@ -493,6 +508,7 @@ export interface FileRoutesByTo {
   '/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/academy': typeof AuthenticatedAcademyIndexRoute
@@ -531,6 +547,7 @@ export interface FileRoutesById {
   '/_authenticated/help': typeof AuthenticatedHelpRoute
   '/_authenticated/inbox': typeof AuthenticatedInboxRoute
   '/_authenticated/library': typeof AuthenticatedLibraryRoute
+  '/_authenticated/mapa': typeof AuthenticatedMapaRoute
   '/_authenticated/marketplace': typeof AuthenticatedMarketplaceRoute
   '/_authenticated/mentors': typeof AuthenticatedMentorsRouteWithChildren
   '/_authenticated/missions': typeof AuthenticatedMissionsRoute
@@ -555,6 +572,7 @@ export interface FileRoutesById {
   '/_authenticated/mentors/$slug': typeof AuthenticatedMentorsSlugRoute
   '/_authenticated/protocolo/$slug': typeof AuthenticatedProtocoloSlugRoute
   '/_authenticated/spaces/$slug': typeof AuthenticatedSpacesSlugRoute
+  '/api/brain/cartographer': typeof ApiBrainCartographerRoute
   '/api/cron/daily-challenge': typeof ApiCronDailyChallengeRoute
   '/api/stripe/webhook': typeof ApiStripeWebhookRoute
   '/_authenticated/academy/': typeof AuthenticatedAcademyIndexRoute
@@ -593,6 +611,7 @@ export interface FileRouteTypes {
     | '/help'
     | '/inbox'
     | '/library'
+    | '/mapa'
     | '/marketplace'
     | '/mentors'
     | '/missions'
@@ -617,6 +636,7 @@ export interface FileRouteTypes {
     | '/mentors/$slug'
     | '/protocolo/$slug'
     | '/spaces/$slug'
+    | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
     | '/api/stripe/webhook'
     | '/academy/'
@@ -653,6 +673,7 @@ export interface FileRouteTypes {
     | '/help'
     | '/inbox'
     | '/library'
+    | '/mapa'
     | '/marketplace'
     | '/mentors'
     | '/missions'
@@ -677,6 +698,7 @@ export interface FileRouteTypes {
     | '/mentors/$slug'
     | '/protocolo/$slug'
     | '/spaces/$slug'
+    | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
     | '/api/stripe/webhook'
     | '/academy'
@@ -714,6 +736,7 @@ export interface FileRouteTypes {
     | '/_authenticated/help'
     | '/_authenticated/inbox'
     | '/_authenticated/library'
+    | '/_authenticated/mapa'
     | '/_authenticated/marketplace'
     | '/_authenticated/mentors'
     | '/_authenticated/missions'
@@ -738,6 +761,7 @@ export interface FileRouteTypes {
     | '/_authenticated/mentors/$slug'
     | '/_authenticated/protocolo/$slug'
     | '/_authenticated/spaces/$slug'
+    | '/api/brain/cartographer'
     | '/api/cron/daily-challenge'
     | '/api/stripe/webhook'
     | '/_authenticated/academy/'
@@ -765,6 +789,7 @@ export interface RootRouteChildren {
   ApiPreceptorRoute: typeof ApiPreceptorRoute
   ApiTutorRoute: typeof ApiTutorRoute
   VerificarCodeRoute: typeof VerificarCodeRoute
+  ApiBrainCartographerRoute: typeof ApiBrainCartographerRoute
   ApiCronDailyChallengeRoute: typeof ApiCronDailyChallengeRoute
   ApiStripeWebhookRoute: typeof ApiStripeWebhookRoute
 }
@@ -974,6 +999,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedLibraryRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/_authenticated/mapa': {
+      id: '/_authenticated/mapa'
+      path: '/mapa'
+      fullPath: '/mapa'
+      preLoaderRoute: typeof AuthenticatedMapaRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/marketplace': {
       id: '/_authenticated/marketplace'
       path: '/marketplace'
@@ -1156,6 +1188,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedSpacesSlugRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/api/brain/cartographer': {
+      id: '/api/brain/cartographer'
+      path: '/api/brain/cartographer'
+      fullPath: '/api/brain/cartographer'
+      preLoaderRoute: typeof ApiBrainCartographerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/cron/daily-challenge': {
       id: '/api/cron/daily-challenge'
       path: '/api/cron/daily-challenge'
@@ -1239,6 +1278,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedHelpRoute: typeof AuthenticatedHelpRoute
   AuthenticatedInboxRoute: typeof AuthenticatedInboxRoute
   AuthenticatedLibraryRoute: typeof AuthenticatedLibraryRoute
+  AuthenticatedMapaRoute: typeof AuthenticatedMapaRoute
   AuthenticatedMarketplaceRoute: typeof AuthenticatedMarketplaceRoute
   AuthenticatedMentorsRoute: typeof AuthenticatedMentorsRouteWithChildren
   AuthenticatedMissionsRoute: typeof AuthenticatedMissionsRoute
@@ -1278,6 +1318,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedHelpRoute: AuthenticatedHelpRoute,
   AuthenticatedInboxRoute: AuthenticatedInboxRoute,
   AuthenticatedLibraryRoute: AuthenticatedLibraryRoute,
+  AuthenticatedMapaRoute: AuthenticatedMapaRoute,
   AuthenticatedMarketplaceRoute: AuthenticatedMarketplaceRoute,
   AuthenticatedMentorsRoute: AuthenticatedMentorsRouteWithChildren,
   AuthenticatedMissionsRoute: AuthenticatedMissionsRoute,
@@ -1323,6 +1364,7 @@ const rootRouteChildren: RootRouteChildren = {
   ApiPreceptorRoute: ApiPreceptorRoute,
   ApiTutorRoute: ApiTutorRoute,
   VerificarCodeRoute: VerificarCodeRoute,
+  ApiBrainCartographerRoute: ApiBrainCartographerRoute,
   ApiCronDailyChallengeRoute: ApiCronDailyChallengeRoute,
   ApiStripeWebhookRoute: ApiStripeWebhookRoute,
 }

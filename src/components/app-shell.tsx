@@ -37,6 +37,7 @@ type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
 const studentNav = {
   primary: [
     { to: "/dashboard", label: "Meu campus", icon: LayoutDashboard },
+    { to: "/mapa", label: "Mapa clínico", icon: Compass },
     { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
     { to: "/academy", label: "Universidade", icon: GraduationCap },
     { to: "/revisao", label: "Revisão", icon: Target },
@@ -56,10 +57,10 @@ const studentNav = {
   ] as NavItem[],
   mobile: [
     { to: "/dashboard", label: "Campus", icon: LayoutDashboard },
+    { to: "/mapa", label: "Mapa", icon: Compass },
     { to: "/caso-do-dia", label: "Caso", icon: Flame },
     { to: "/academy", label: "Estudar", icon: GraduationCap },
-    { to: "/professores", label: "Professores", icon: Brain },
-    { to: "/revisao", label: "Revisão", icon: Target },
+    { to: "/professores", label: "IA", icon: Brain },
   ] as NavItem[],
 };
 
@@ -67,6 +68,7 @@ const studentNav = {
 const facultyNav = {
   primary: [
     { to: "/dashboard", label: "Painel do Mentor", icon: LayoutDashboard },
+    { to: "/mapa", label: "Mapa clínico", icon: Compass },
     { to: "/editor", label: "Estúdio de Cursos", icon: PenTool },
     { to: "/editor/biblioteca", label: "Biblioteca Científica", icon: Bookmark },
     { to: "/academy", label: "Meus cursos", icon: GraduationCap },

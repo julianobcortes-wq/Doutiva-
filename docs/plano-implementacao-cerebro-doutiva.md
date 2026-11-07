@@ -387,6 +387,15 @@ Conta QA aluno sempre; nunca validar só como admin.
 Cada onda = branch/PR focado, migração, UI, teste aluno, commit.  
 Documento vivo: atualizar este arquivo ao fechar cada onda.
 
+### Status de engenharia
+| Onda | Status |
+|---|---|
+| 0 Fundação (envs) | Bloqueio humano (Vercel) |
+| 1 Cartógrafo + `/mapa` | **Em código** — branch `cursor/cerebro-ai-first-cd4c` · migration `0026` · API `/api/brain/cartographer` |
+| 2–6 | Próximas |
+
+**Deploy Onda 1:** aplicar `drizzle/migrations/0026_brain_mastery_by_topic.sql` no Supabase + `OPENAI_API_KEY` na Vercel.
+
 ---
 
-*Fim do plano. Próximo passo de engenharia: Onda 1 (Memória + Cartógrafo), assim que a Onda 0 estiver desbloqueada — ou iniciar schema/UI da Onda 1 já com mocks se a chave ainda não estiver em produção.*
+*Escola do médico do futuro — AI-first. O cérebro orquestra; o resto segue o mapa.*

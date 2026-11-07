@@ -153,6 +153,75 @@ export type Database = {
         }
         Relationships: []
       }
+      brain_sessions: {
+        Row: {
+          created_at: string
+          face: string
+          id: string
+          result: Json
+          status: string
+          transcript: Json
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          face: string
+          id?: string
+          result?: Json
+          status?: string
+          transcript?: Json
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          face?: string
+          id?: string
+          result?: Json
+          status?: string
+          transcript?: Json
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      clinical_topics: {
+        Row: {
+          active: boolean
+          created_at: string
+          id: string
+          parent_id: string | null
+          slug: string
+          sort_order: number
+          specialty: string
+          summary: string | null
+          title: string
+        }
+        Insert: {
+          active?: boolean
+          created_at?: string
+          id?: string
+          parent_id?: string | null
+          slug: string
+          sort_order?: number
+          specialty?: string
+          summary?: string | null
+          title: string
+        }
+        Update: {
+          active?: boolean
+          created_at?: string
+          id?: string
+          parent_id?: string | null
+          slug?: string
+          sort_order?: number
+          specialty?: string
+          summary?: string | null
+          title?: string
+        }
+        Relationships: []
+      }
       courses: {
         Row: {
           category: string | null
@@ -652,6 +721,42 @@ export type Database = {
         }
         Relationships: []
       }
+      mastery_by_topic: {
+        Row: {
+          attempts: number
+          band: string
+          confidence_avg: number
+          evidence: Json
+          last_seen_at: string
+          score: number
+          topic_id: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          attempts?: number
+          band?: string
+          confidence_avg?: number
+          evidence?: Json
+          last_seen_at?: string
+          score?: number
+          topic_id: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          attempts?: number
+          band?: string
+          confidence_avg?: number
+          evidence?: Json
+          last_seen_at?: string
+          score?: number
+          topic_id?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
       mastery_records: {
         Row: {
           created_at: string
@@ -1138,6 +1243,20 @@ export type Database = {
         Returns: boolean
       }
       issue_certificate: { Args: { _course_id: string }; Returns: Json }
+      mastery_band: {
+        Args: { confidence?: number; score: number }
+        Returns: string
+      }
+      upsert_mastery_by_topic: {
+        Args: {
+          _confidence?: number
+          _evidence?: Json
+          _score: number
+          _topic_id: string
+          _user_id: string
+        }
+        Returns: Database["public"]["Tables"]["mastery_by_topic"]["Row"]
+      }
       match_sources: {
         Args: { _embedding: string; _limit?: number }
         Returns: {

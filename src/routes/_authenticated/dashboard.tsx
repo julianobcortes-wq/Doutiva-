@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import {
   ArrowUpRight,
   Brain,
+  Compass,
   Flame,
   GraduationCap,
   PenTool,
@@ -72,11 +73,11 @@ function DashboardPage() {
             {faculty ? "Painel do Mentor" : "Meu campus"}
           </span>
           <h1 className="mt-3 font-serif text-4xl leading-tight md:text-5xl">
-            Protocolos <span className="text-gold">do dia</span>.
+            Escola do médico <span className="text-gold">do futuro</span>.
           </h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
-            Sessão guiada, trilhas e revisão — o Online que lançamos agora. Painel da clínica,
-            mentoria e Semana Doutiva entram em breve na mesma casa.
+            AI-first: o Cérebro Doutiva mapeia o que você já sabe, monta o Caso do Dia e aprofunda
+            só o buraco. Mentores parceiros entram à parte — o centro é a IA.
           </p>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -107,9 +108,27 @@ function DashboardPage() {
           </div>
         </div>
 
-        <div className="grid gap-px bg-border/50 md:grid-cols-2">
+        <div className="grid gap-px bg-border/50 md:grid-cols-3">
           <Link
-            to="/academy"
+            to="/mapa"
+            className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
+          >
+            <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
+              <Compass className="h-4 w-4" />
+            </span>
+            <div className="flex-1">
+              <div className="flex items-center justify-between gap-3">
+                <h2 className="font-serif text-xl">Mapa clínico</h2>
+                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
+              </div>
+              <p className="mt-1 text-sm text-muted-foreground">
+                Cartógrafo: entrevista IA → verde / amarelo / vermelho. O cérebro começa aqui.
+              </p>
+            </div>
+          </Link>
+
+          <Link
+            to="/caso-do-dia"
             className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
           >
             <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
@@ -118,14 +137,12 @@ function DashboardPage() {
             <div className="flex-1">
               <div className="flex items-center justify-between gap-3">
                 <h2 className="font-serif text-xl">
-                  {progress?.goalMet ? "Meta cumprida — continue" : "Sessão de hoje"}
+                  {progress?.goalMet ? "Caso do Dia" : "Caso do Dia"}
                 </h2>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                {progress?.goalMet
-                  ? "Você já fechou 1 sessão guiada. Faça outra para acelerar XP."
-                  : "Abra um curso, complete lâminas → chaves → caso. Mantém a sequência."}
+                Hábito diário. Em breve: personalizado pelo seu mapa.
               </p>
             </div>
           </Link>
@@ -143,7 +160,7 @@ function DashboardPage() {
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Sabatina socrática, banca, plantão e cético — com índice de domínio.
+                Sabatina socrática com índice de domínio.
               </p>
             </div>
           </Link>
