@@ -7,9 +7,9 @@
 ### Norte operacional (check 07/11/2026)
 - **Escola com IA.** Não há corpo docente tradicional. O EAD é IA-first.
 - **~90% do conteúdo** nasce da IA (Cartógrafo → Preceptor → Bibliotecário → Estúdio).
-- **~10% ou menos** usa material de professores/mentores como *insumo* para o Estúdio gerar cursos (não como aulas humanas no player).
-- **Mentoria humana = fatia pequena e separada:** começa com **1 mentor = o Doc** (Juliano); demais mentores entram depois.
-- Aba **/mentors** + inbox **já existem** no produto — Onda 5 é evoluir (pagamento/take rate/match), não inventar a aba.
+- **~10% ou menos** usa material de professores/mentores parceiros como *insumo* para o Estúdio gerar cursos.
+- **Mentores = espaço de parcerias**, não “o Doc listado como mentor #1”. O Doc já está fechado no produto/escola; a aba serve para **listar qualquer mentor** com quem a Doutiva fizer parceria.
+- Aba **/mentors** + inbox **já existem** — Onda 5 é: diretório flexível + **vender cursos/mentorias dos parceiros** (take rate), não forçar o Doc na vitrine.
 
 ---
 
@@ -55,8 +55,8 @@
 2. Conteúdo EAD é **IA-first**; material humano (se houver) é insumo de geração, não o modo padrão de aula.  
 3. Publicação canônica passa por **curadoria do Doc/admin** (qualidade + risco), não por um quadro de docentes.  
 4. IA **não** entrega conduta antes do aluno se comprometer (socrático).  
-5. Aluno ≠ admin ≠ mentor (papéis claros). No início: **1 mentor = Doc**.  
-6. Mentoria paga (quando ligada) passa pela plataforma (take rate); sem bypass.
+5. Aluno ≠ admin ≠ mentor (papéis claros). Mentores na vitrine = **parceiros** (quem a Doutiva listar).  
+6. Cursos/mentorias de parceiros vendidos **na plataforma** (take rate); sem bypass.
 
 ---
 
@@ -69,7 +69,7 @@
 | **2** | Preceptor + Caso do Dia 2.0 | Caso diário vem do **seu** mapa | ≥70% fazem 3 sessões/sem |
 | **3** | Universidade adaptativa | Curso = fila do que falta | Domínio médio +15 pts |
 | **4** | Bibliotecário + Estúdio vivo | Gap → busca → cria → curadoria → reuso | % reuso > criação após 4 sem |
-| **5** | Mentores + Matchmaker + $ | Contrata mentor; IA indica; take rate | 1ª mentoria paga + NPS mentoria |
+| **5** | Mentores parceiros + $ | Listar parceiros; vender curso/mentoria; take rate | 1ª venda de parceiro + take rate |
 | **6** | WhatsApp + Eventos | Hábito no bolso; proximidade presencial | Piloto WA 50; evento com mentores |
 
 Cada onda tem: **schema → serviço → UI → QA → métrica**.  
@@ -87,10 +87,10 @@ Não abrir a próxima onda se o portão falhar — corrige, não empilha.
 - [ ] Remover/ocultar fixtures de teste óbvias  
 
 ### 0.2 Curadoria mínima (não é corpo docente)
-- [ ] Conta do **Doc** como admin/curador (publica o que a IA gera)  
-- [ ] Perfil do Doc como **único mentor** ativo na aba `/mentors` (demais depois)  
+- [ ] Conta admin/curador para publicar o que a IA gera (operacional — não é “mentor da vitrine”)  
 
-**Pronto quando:** Tutor e Professores (IA) respondem em produção; aluno QA vê campus limpo; `/mentors` mostra o Doc.
+**Pronto quando:** Tutor e Professores (IA) respondem em produção; aluno QA vê campus limpo.  
+**Mentores:** fora da Onda 0 — a aba já existe como espaço; parceiros entram quando houver parceria.
 
 ---
 
@@ -241,45 +241,44 @@ lesson_origins
 
 ---
 
-## Onda 5 — Mentores + Matchmaker + take rate
+## Onda 5 — Mentores parceiros + cursos + take rate
 
-### Nome: Mentores / Matchmaker  
-### O que é: proximidade humana **opcional** (≤10% da experiência). EAD continua sendo IA.  
+### Nome: Mentores (parcerias) / Matchmaker  
+### O que é: **espaço para listar mentores parceiros** e **vender os cursos/mentorias deles**. Não é vitrine do Doc. EAD continua IA (~90%).
+
 ### Check do que já existe (não reinventar)
-| Já no produto | Path |
-|---|---|
-| Aba autenticada Médicos Mentores | `/mentors`, `/mentors/$slug` |
-| Pedido de sessão + inbox | `mentors.functions.ts`, `/inbox` |
-| Nav aluno + nav mentor | `app-shell.tsx` |
-| Credenciais CRM/RQE | `/credenciais` |
-| Landing pública (ainda “em breve”) | `/mentores` |
+| Já no produto | Path | Cobre? |
+|---|---|---|
+| Diretório autenticado (lista quem estiver no DB) | `/mentors`, `/mentors/$slug` | Sim — espaço genérico |
+| Pedido de sessão + inbox | `mentors.functions.ts`, `/inbox` | Sim — sessão 1:1 |
+| Nav | `app-shell.tsx` | Sim |
+| Credenciais | `/credenciais` | Sim |
+| Landing pública | `/mentores` | Parcial — ainda “em breve” |
+| Venda de **curso do mentor** + take rate | — | **Não** — gap principal |
+| Admin fácil “cadastrar parceiro na vitrine” | — | Parcial (seed/DB; falta fluxo de parceria) |
 
-**Conclusão:** mentores **estão cobertos** como superfície de produto. Falta evoluir economia + 1 mentor real + match depois — não criar aba nova.
+**Conclusão:** a **aba/espaço para listar mentores** já está prevista e existe. O Doc **não** precisa estar listado ali. O que falta de verdade é o **esqueleto comercial de parceria**: cadastrar mentor → publicar oferta (mentoria e/ou curso) → aluno compra na Doutiva → take rate.
 
-### Como será feito (faseado)
+### Como será feito
 
-#### 5a — Agora (mínimo)
-1. **1 mentor ativo = o Doc** (perfil real, owner_user_id = Juliano)  
-2. Limpar seeds/placeholders se atrapalharem a vitrine  
-3. Pedido de sessão + inbox já funcionam → validar ponta a ponta com o Doc  
-4. Matchmaker **desligado** (só 1 mentor; ranking não faz sentido ainda)
+1. **Diretório flexível** — admin cadastra *qualquer* mentor parceiro (nome, especialidade, bio, preço); aparece em `/mentors`  
+2. **Ofertas do mentor** — sessão 1:1 **e/ou curso** ligado ao parceiro (SKU próprio)  
+3. **Checkout + take rate** — venda na plataforma; Doutiva fica com %; mentor parceiro recebe o resto  
+4. **Material do parceiro** (opcional, ~10%) — upload → Estúdio IA transforma em aula Doutiva  
+5. **Matchmaker** (depois, com ≥2 parceiros) — IA sugere mentor/curso pelo mapa do aluno  
+6. `/mentores` público alinhado ao diretório real (sair de “em breve”)
 
-#### 5b — Em seguida (quando puxar mais mentores)
-1. Onboard do 2º, 3º… mentor  
-2. Mentoria 1:1 com preço + checkout + **take rate**  
-3. Matchmaker: `matchMentor` por temas vermelhos ∩ specialties  
-4. Material do mentor (se houver) → **insumo** do Estúdio (~10%), não substitui o EAD IA  
-5. `/mentores` público deixa de ser “em breve”
-
-#### Schema (5b)
+#### Schema
 ```
-mentor_offerings (tipo, preço, duração, vagas)
-mentor_bookings (status, amount_cents, take_rate_bps, stripe_*)
+mentor_offerings (mentor_id, tipo: session|course, preço, course_id?, vagas…)
+mentor_bookings / purchases (amount_cents, take_rate_bps, stripe_*)
 ```
 
 #### Critérios de pronto
-- [ ] **5a:** Doc aparece como único mentor; aluno pede sessão; Doc responde no inbox  
-- [ ] **5b:** pagamento + take rate; match só com ≥2 mentores  
+- [ ] Dá para listar mentor parceiro **sem** ser o Doc  
+- [ ] Aluno vê mentor na aba e compra mentoria **ou** curso do parceiro  
+- [ ] Take rate no ledger  
+- [ ] Matchmaker só quando houver base mínima de parceiros  
 
 ---
 
@@ -369,9 +368,10 @@ Conta QA aluno sempre; nunca validar só como admin.
 
 - Montar **corpo docente** / “professores humanos” no EAD  
 - Cinco chatbots separados sem memória compartilhada  
-- Publicar aula IA sensível sem curadoria do Doc  
-- Mentor virar Duolingo (hábito diário) — mentor é proximidade, não o 90%  
-- Take rate / Matchmaker antes de ter o Doc estável como mentor #1  
+- Publicar aula IA sensível sem curadoria admin  
+- Colocar o Doc na vitrine de mentores “porque precisa de alguém” — vitrine = **parceiros**  
+- Mentor virar Duolingo (hábito diário) — parceria é ≤10%, não o EAD  
+- Vender curso de mentor fora da plataforma (sem take rate)  
 - WhatsApp antes do Caso do Dia 2.0 pessoal funcionar no site  
 - Medir sucesso por “aulas publicadas” em vez de domínio + retenção  
 
