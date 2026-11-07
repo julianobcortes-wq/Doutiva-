@@ -28,10 +28,11 @@ export const Route = createFileRoute("/_authenticated/mapa")({
 
 type Msg = { role: "user" | "assistant"; content: string };
 
-const BAND_STYLE: Record<MasteryBand, string> = {
+const BAND_STYLE: Record<MasteryBand | "untouched", string> = {
   green: "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
   yellow: "border-amber-500/40 bg-amber-500/10 text-amber-800 dark:text-amber-200",
   red: "border-rose-500/35 bg-rose-500/10 text-rose-800 dark:text-rose-200",
+  untouched: "border-border/60 bg-muted/20 text-muted-foreground",
 };
 
 const BAND_LABEL: Record<MasteryBand, string> = {
@@ -218,7 +219,7 @@ function MapaPage() {
               <ul className="mt-8 grid gap-3 sm:grid-cols-2">
                 {(map?.mastery ?? []).map((row) => {
                   const untouched = row.attempts === 0;
-                  const band = untouched ? "red" : row.band;
+                  const band = untouched ? "untouched" : row.band;
                   return (
                     <li
                       key={row.topic_id}
@@ -237,7 +238,7 @@ function MapaPage() {
                           )}
                         </div>
                         <span className="shrink-0 text-[10px] uppercase tracking-[0.2em]">
-                          {untouched ? "—" : BAND_LABEL[row.band]}
+                          {untouched ? "Não visto" : BAND_LABEL[row.band]}
                         </span>
                       </div>
                       {!untouched && (

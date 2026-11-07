@@ -22,19 +22,29 @@ export async function retrieveCorpus(
 
   const hits: CorpusHit[] = [];
 
-  const { data: lessons } = await supabase
+  const tokens = q
+    .toLowerCase()
+    .split(/[^a-zA-Zà-úÀ-Ú0-9+]+/)
+    .map((t) => t.trim())
+    .filter((t) => t.length >= 3)
+    .slice(0, 6);
+  const patterns = tokens.length ? tokens : [q];
+
+  const { data: allLessons } = await supabase
     .from("lessons")
     .select("id, title, description, module_title, status")
     .eq("status", "published")
-    .or(`title.ilike.%${q}%,description.ilike.%${q}%,module_title.ilike.%${q}%`)
-    .limit(limit);
+    .limit(200);
 
-  for (const l of lessons ?? []) {
+  for (const l of allLessons ?? []) {
+    const hay = `${l.title} ${l.module_title ?? ""} ${l.description ?? ""}`.toLowerCase();
+    const matched = patterns.filter((t) => hay.includes(t.toLowerCase()));
+    if (!matched.length) continue;
     hits.push({
       kind: "lesson",
       id: l.id,
       title: l.title,
-      score: 0.8,
+      score: 0.55 + Math.min(0.4, matched.length * 0.12),
       snippet: l.module_title ?? l.description ?? undefined,
     });
   }

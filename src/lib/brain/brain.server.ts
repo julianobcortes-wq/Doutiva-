@@ -71,11 +71,13 @@ export async function getMastery(
     untouched: mastery.filter((m) => m.attempts === 0).length,
   };
 
+  // Piloto: mapa "pronto" com ≥3 temas calibrados (ou todos, se o catálogo for menor).
+  // Isso destrava Caso do Dia pessoal sem exigir entrevista completa de 15 min.
   return {
     topics,
     mastery,
     counts,
-    ready: touched.length >= Math.min(6, topics.length),
+    ready: touched.length >= Math.min(3, Math.max(1, topics.length)),
   };
 }
 

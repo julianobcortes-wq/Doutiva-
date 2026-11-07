@@ -142,7 +142,7 @@ function DashboardPage() {
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Hábito diário. Em breve: personalizado pelo seu mapa.
+                Hábito diário personalizado pelo seu mapa clínico.
               </p>
             </div>
           </Link>
