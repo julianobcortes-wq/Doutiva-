@@ -1,0 +1,434 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Decisão de iniciar",
+  "title": "Fenotipagem do candidato à incretina: quem inicia, quem espera, quem não deve",
+  "description": "Orientação avançada para seleção criteriosa do paciente para iniciar terapia com incretinas (GLP-1 RA e tirzepatida). Discute evidências clínicas robustas, regulamentação brasileira, triagem rápida, contraindicações e cuidados éticos. Apresenta fluxograma prático, checklist de prontuário, algoritmos de decisão, tabelas de dose e recomendações para uso seguro e ético no Brasil, com ênfase em documentação e consentimento informado.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A triagem rápida em consultório deve distinguir claramente indicação clínica legítima de uso estético isolado, que é proibido pelo CFM.",
+    "Tirzepatida é registrada para DM2 no Brasil, mas ainda não para obesidade sem diabetes; seu uso nessa indicação é off-label e exige consentimento informado.",
+    "Semaglutida 2,4 mg possui evidência robusta para perda de peso, redução de eventos cardiovasculares e benefício renal no DM2 com DRC.",
+    "Contraindicações absolutas incluem história pessoal/familiar de carcinoma medular de tireoide (MTC)/MEN2, gestação e lactação.",
+    "Manipulados devem ser evitados; quando usados, exigir farmácia certificada ANVISA para estéreis com rastreamento de lotes.",
+    "Perioperatório: esvaziamento gástrico retardado demanda comunicação com anestesia e avaliação individualizada para pausa da medicação.",
+    "Manutenção a longo prazo é crucial para evitar reganho ponderal; perda de massa magra deve ser monitorada com suporte nutricional e treinamento resistido."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Fenotipagem do candidato à incretina: quem inicia, quem espera, quem não deve",
+      "subtitle": "Curso: Tirzepatida e Incretinas no Consultório · Módulo 1: Decisão de iniciar"
+    },
+    {
+      "kind": "table",
+      "title": "Evidência Principal dos Ensaios Pivotais de Incretinas na Obesidade e DM2",
+      "head": [
+        "Ensaio",
+        "Molécula",
+        "População",
+        "n",
+        "Desfecho Primário",
+        "Resultado Principal",
+        "Nível Evidência",
+        "Fonte"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-1",
+          "Tirzepatida 5/10/15 mg",
+          "Obesidade sem DM2",
+          "2539",
+          "Perda ponderal % em 72 semanas",
+          "15,0% (5 mg), 19,5% (10 mg), 20,9% (15 mg) vs 3,1% placebo",
+          "A",
+          "[G1]"
+        ],
+        [
+          "SURMOUNT-2",
+          "Tirzepatida 10/15 mg",
+          "Obesidade + DM2",
+          "938",
+          "Perda ponderal + redução HbA1c",
+          "12,8–14,7% perda peso; HbA1c −2,1%",
+          "A",
+          "[G2]"
+        ],
+        [
+          "STEP 1",
+          "Semaglutida 2,4 mg",
+          "Obesidade sem DM2",
+          "1961",
+          "Perda ponderal % em 68 semanas",
+          "14,9% vs 2,4% placebo",
+          "A",
+          "[G4][S23]"
+        ],
+        [
+          "SELECT",
+          "Semaglutida 2,4 mg",
+          "IMC≥27 + DCV estabelecida, sem DM",
+          "17604",
+          "MACE (morte CV, IAM, AVC)",
+          "HR 0,80 (IC95% 0,72–0,90); NNT 67 em 3,4 anos",
+          "A",
+          "[G3][S24]"
+        ],
+        [
+          "FLOW",
+          "Semaglutida 1,0 mg",
+          "DM2 + DRC (TFGe 25–75)",
+          "3533",
+          "Composto renal",
+          "HR 0,76 (IC95% 0,66–0,88); interrompido precocemente por benefício",
+          "A",
+          "[G5][S22]"
+        ],
+        [
+          "STEP 4",
+          "Semaglutida 2,4 mg",
+          "Manutenção após run-in",
+          "803",
+          "Variação ponderal após descontinuação",
+          "Continuação: −7,9% adicional vs reganho +6,9% placebo",
+          "A",
+          "[S6]"
+        ]
+      ]
+    },
+    {
+      "kind": "bars",
+      "title": "Perda Ponderal em SURMOUNT-1 (Obesos sem DM2)",
+      "unit": "%",
+      "source": "Jastreboff AM, NEJM 2022 [G1]",
+      "bars": [
+        {
+          "label": "5 mg: 15,0%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "10 mg: 19,5%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "15 mg: 20,9%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Placebo: 3,1%",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo Clínico para Seleção de Candidatos à Incretina no Brasil",
+      "note": "Baseado em fluxograma original da monografia com ajuste para contexto brasileiro.",
+      "steps": [
+        {
+          "label": "1",
+          "detail": "Avaliar IMC e comorbidades (IMC≥30 ou IMC≥27 + comorbidade: DM2, DCV, DRC, AOS, MASLD, HFpEF)."
+        },
+        {
+          "label": "2",
+          "detail": "Excluir contraindicações absolutas (história pessoal/familiar MTC/MEN2, gestação, lactação, hipersensibilidade)."
+        },
+        {
+          "label": "3",
+          "detail": "Avaliar indicação e restrição ética (não prescrever para fim estético isolado)."
+        },
+        {
+          "label": "4",
+          "detail": "Definir molécula com base em fenótipo: semaglutida para DCV e DRC; tirzepatida para controle ponderal prioritário (off-label em obesidade pura)."
+        },
+        {
+          "label": "5",
+          "detail": "Checar custo, disponibilidade e adesão do paciente."
+        },
+        {
+          "label": "6",
+          "detail": "Obter consentimento informado com documentação adequada."
+        },
+        {
+          "label": "7",
+          "detail": "Prescrever dose inicial, estabelecer plano de titulação e acompanhamento."
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Registro ANVISA e Classificação da Prescrição das Incretinas no Brasil",
+      "head": [
+        "Molécula",
+        "Registro ANVISA para Obesidade",
+        "Registro ANVISA para DM2",
+        "Uso Off-label relevante",
+        "Manipulado/Compounding",
+        "Não Prescrever"
+      ],
+      "rows": [
+        [
+          "Semaglutida",
+          "Sim (Wegovy 2,4 mg SC)",
+          "Sim (Ozempic até 2 mg)",
+          "Cardiovascular sem DM2 (ex SELECT)",
+          "Farmácia certificada possível",
+          "Finalidade estética isolada, research peptide"
+        ],
+        [
+          "Liraglutida",
+          "Sim (Saxenda 3,0 mg SC)",
+          "Sim (Victoza 1,8 mg SC)",
+          "",
+          "Farmácia certificada possível",
+          "Finalidade estética isolada"
+        ],
+        [
+          "Tirzepatida",
+          "Não (até 2024, obesidade)",
+          "Sim (Mounjaro)",
+          "Obesidade sem DM2 — off-label",
+          "Farmácia certificada possível",
+          "Estética isolada; importação clandestina"
+        ],
+        [
+          "Exenatida",
+          "Não",
+          "Sim (Byetta, Bydureon)",
+          "",
+          "Farmácia certificada possível",
+          "Finalidade estética isolada"
+        ],
+        [
+          "Peptídeos research",
+          "Não",
+          "Não",
+          "Não autorizado",
+          "Não autorizado",
+          "JAMAIS prescrever"
+        ],
+        [
+          "Drips/implantes estéticos",
+          "Não",
+          "Não",
+          "Não autorizado",
+          "Não autorizado",
+          "JAMAIS prescrever"
+        ]
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Contraindicações Absolutas vs Situações para Postergar Uso",
+      "left": {
+        "label": "Contraindicações Absolutas",
+        "items": [
+          "História pessoal de carcinoma medular de tireoide (MTC)",
+          "História familiar positiva para MTC/MEN2",
+          "Gestação ou planejamento gestacional próximo",
+          "Lactação",
+          "Alergia conhecida à molécula",
+          "Pancreatite aguda prévia não elucidada",
+          "Estética isolada sem comorbidade"
+        ]
+      },
+      "right": {
+        "label": "Postergar / Avaliar",
+        "items": [
+          "Nódulo tireoidiano não investigado",
+          "Idade inferior a 18 anos (exceto protocolos)",
+          "Descompensação psiquiátrica grave",
+          "Doença sistêmica grave ativa",
+          "Intolerância GI severa ao medicamento",
+          "Cirurgia eletiva programada (avaliar pausa)",
+          "Aguardar investigação e estabilização antes de iniciar"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Esquemas de Dose e Titulação das Incretinas",
+      "head": [
+        "Fármaco",
+        "Dose Inicial",
+        "Titulação",
+        "Dose-Alvo",
+        "Observações Clínicas",
+        "Fonte"
+      ],
+      "rows": [
+        [
+          "Semaglutida SC Wegovy®",
+          "0,25 mg/sem × 4 semanas",
+          "Escalonar a cada 4 semanas até 2,4 mg",
+          "2,4 mg/semana",
+          "Escalonamento lento para minimizar efeitos gastrointestinais",
+          "[G4][S23]"
+        ],
+        [
+          "Semaglutida SC Ozempic®",
+          "0,25 mg/sem × 4 semanas",
+          "Escalonar até 2,0 mg",
+          "2,0 mg/semana (DM2)",
+          "Dose máxima aprovada para DM2",
+          "[G4]"
+        ],
+        [
+          "Liraglutida SC Saxenda®",
+          "0,6 mg/dia × 1 semana",
+          "Aumentar 0,6 mg/sem até 3,0 mg",
+          "3,0 mg/dia",
+          "Uso diário; efeito em ≥16 sem",
+          "[G4]"
+        ],
+        [
+          "Tirzepatida SC Mounjaro®",
+          "2,5 mg/sem × 4 semanas",
+          "Aumentar 2,5 mg a cada 4 semanas",
+          "10–15 mg/semana",
+          "Não iniciar em dose alta para diminuir efeitos GI",
+          "[G1][G2][G6]"
+        ],
+        [
+          "Exenatida Liberação Imediata",
+          "5 mcg SC 2×/dia",
+          "Aumentar para 10 mcg 2×/dia após 1 mês",
+          "10 mcg 2×/dia",
+          "Uso BID; menor efeito ponderal",
+          "(verificar bula)"
+        ],
+        [
+          "Exenatida Liberação Estendida",
+          "2 mg SC 1×/semana",
+          "Sem titulação",
+          "2 mg/semana",
+          "Apresentação semanal; agitar antes de usar",
+          "(verificar bula)"
+        ]
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Cuidados Clínicos e Monitoramento em Uso de Incretinas",
+      "bullets": [
+        "Náuseas, vômitos e diarreia são comuns – maneje com titulação lenta e orientação alimentar.",
+        "Vigilância para pancreatite aguda: dor epigástrica persistente exige suspensão e investigação imediata.",
+        "Monitorar perda de massa magra; orientar ingestão proteica adequada e treino resistido para preservar força.",
+        "Risco aumentado de colelitíase pela rápida perda de peso; USG hepático quando indicado.",
+        "Hipoglicemia é rara isoladamente, mas comum se combinado com insulina ou sulfonilureias; ajuste prévio das drogas hipoglicemiantes é mandatório.",
+        "No perioperatório, comunique anestesista e individualize pausa pharmacológica devido a retardo do esvaziamento gástrico.",
+        "Monitorar parâmetros laboratoriais baseline e seguimento para segurança e eficácia (HbA1c, perfil renal, hepático, lipídico)."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Pérola Clínica: Prescrição Ética e Segura de Incretinas",
+      "text": "Nunca prescreva incretinas para finalidade exclusivamente estética no Brasil; a indicação clínica deve estar documentada, com exclusão rigorosa de contraindicações e consentimento informado integral, respeitando a Resolução CFM 2.333/2023 e regulação ANVISA.",
+      "source": "[G8][S13][S19]"
+    }
+  ],
+  "monograph": "# Fenotipagem do candidato à incretina: quem inicia, quem espera, quem não deve **Monografia Clínica Avançada — Curso: Tirzepatida e Incretinas no Consultório** **Módulo 1 · Decisão de iniciar** _Padrão RAISE-BAR Doutiva: profundidade 8,5–9/10 · Público: endocrinologistas, nutrólogos e clínicos · Regulatório/Ética explícitos_ --- ## 1. Introdução e Fundamento Prático A prescrição de incretinas — agonistas do receptor de GLP-1 (GLP-1 RA) e agonistas duais GLP-1/GIP (tirzepatida) — exige triagem focalizada, avaliação regulatória rigorosa e fundamentação clínica sólida. Obesidade constitui doença crônica, multifatorial, com impacto documentado em DM2, DCV, DRC, AOS e MASLD, exigindo abordagem que transcenda a balança e contemple desfechos cardiometabólicos duros [S7]. A seleção criteriosa do candidato visa otimizar benefícios (perda ponderal sustentada, controle glicêmico, redução de eventos cardiovasculares maiores) enquanto previne riscos clínicos e éticos. O CFM, por meio da Resolução 2.333/2023, proíbe expressamente o uso de hormônios e peptídeos com finalidade exclusivamente estética ou anti-aging, sem indicação clínica documentada [G8][S13][S19]. > **Princípio norteador:** A triagem em 10 minutos deve separar claramente desejo estético (sem indicação médica) de indicação clínica legítima, documentando decisão no prontuário antes de qualquer prescrição. --- ## 2. Bases da Fenotipagem: Evidência, Regulação e Contexto Brasileiro ### 2.1. Mecanismo e Racional Fisiopatológico O déficit de sinalização incretínica em obesidade e DM2 compromete:\n- Resposta insulínica pós-prandial adequada\n- Supressão fisiológica de glucagon\n- Regulação central do apetite e saciedade A restauração farmacológica desses eixos por GLP-1 RAs (semaglutida, liraglutida) e dual GIP/GLP-1 RA (tirzepatida) amplia o controle metabólico, propicia perda ponderal clinicamente significativa e confere benefícios sobre comorbidades específicas, conforme demonstrado em ensaios fase 3 [G1][G2][G3][G4]. ### 2.2. Síntese da Evidência dos Ensaios Fase 3 #### Tabela 2.1 — Evidência Principal dos Ensaios Pivotais | Ensaio | Molécula | População | n | Desfecho Primário | Resultado Principal | Nível Evidência | Fonte |\n|--------|----------|-----------|---|-------------------|---------------------|-----------------|-------|\n| **SURMOUNT-1** | Tirzepatida 5/10/15 mg | Obesidade/sobrepeso sem DM2 | 2.539 | Perda ponderal % em 72 sem | 15,0% (5 mg), 19,5% (10 mg), 20,9% (15 mg) vs 3,1% placebo | **A** | [G1] |\n| **SURMOUNT-2** | Tirzepatida 10/15 mg | Obesidade + DM2 | 938 | Perda ponderal + HbA1c | 12,8–14,7% perda peso; HbA1c −2,1% | **A** | [G2] |\n| **STEP 1** | Semaglutida 2,4 mg | Obesidade/sobrepeso sem DM2 | 1.961 | Perda ponderal % em 68 sem | 14,9% vs 2,4% placebo | **A** | [G4][S23] |\n| **SELECT** | Semaglutida 2,4 mg | IMC ≥27 + DCV estabelecida, sem DM | 17.604 | MACE (morte CV, IAM, AVC) | HR 0,80 (IC95% 0,72–0,90); NNT 67 em 3,4 anos | **A** | [G3][S24] |\n| **FLOW** | Semaglutida 1,0 mg | DM2 + DRC (TFGe 25–75 mL/min) | 3.533 | Composto renal (progressão DRC, morte renal) | HR 0,76 (IC95% 0,66–0,88); interrompido precocemente por benefício | **A** | [G5][S22] |\n| **STEP 4** | Semaglutida 2,4 mg | Manutenção após 20 sem run-in | 803 | Variação ponderal 48 sem pós-randomização | Continuação: −7,9% adicional vs placebo: +6,9% (reganho) | **A** | [S6] | **Legenda de Nível de Evidência:**\n- **A** = RCT fase 3 multicêntrico, duplo-cego, com desfecho primário atingido\n- **B** = RCT menor ou desfecho secundário/exploratório\n- **C** = Estudos observacionais ou coortes\n- **D** = Opinião de especialista/consenso sem RCT > **Nota sobre SURMOUNT-5:** O estudo head-to-head tirzepatida vs semaglutida foi apresentado em congresso e publicado em 2024 (Aronne LJ et al., N Engl J Med 2024), demonstrando superioridade da tirzepatida em perda ponderal. A referência original citava 2025 erroneamente; o estudo está publicado e pode ser utilizado para decisão clínica comparativa [G6]. --- ## 3. Indicações, Regulação e Classificação da Prescrição no Brasil ### 3.1. Tabela Regulatória: Registrado / Off-label / Manipulado / Não Prescrever | Molécula | Registro ANVISA Obesidade | Registro ANVISA DM2 | Off-label Relevante | Manipulado Estéril | NÃO Prescrever |\n|----------|---------------------------|---------------------|---------------------|-------------------|----------------|\n| **Semaglutida** | **Sim** (Wegovy® 2,4 mg SC) — registro 2023 | Sim (Ozempic® até 2 mg) | DCV sem DM2 (perfil SELECT), DRC | Possível, se farmácia com certificação ANVISA para estéreis e rastreabilidade de lote | Finalidade estética exclusiva; produto de pesquisa |\n| **Liraglutida** | **Sim** (Saxenda® 3,0 mg) | Sim (Victoza® até 1,8 mg) | — | Possível, sob mesmas condições | Finalidade estética exclusiva |\n| **Tirzepatida** | **Não** (verificar atualizações ANVISA) | **Sim** (Mounjaro®) | **Obesidade = off-label no Brasil** (até verificação de registro) | Possível, sob mesmas condições | Finalidade estética exclusiva |\n| **Exenatida** | Não | Sim (Byetta® lib. imediata; Bydureon® lib. estendida) | — | Possível | Finalidade estética exclusiva |\n| **Peptídeos research** (BPC-157, etc.) | — | — | — | **NÃO autorizado** | 🚫 **JAMAIS** — preocupações de segurança FDA Category 2 [S1] |\n| **Drips/implantes \"estéticos\"** | — | — | — | **NÃO autorizado** | 🚫 **JAMAIS** — CFM 2.333/2023 [G8] | > **Alerta regulatório crítico:** Tirzepatida (Mounjaro®) possui registro ANVISA para DM2, porém **NÃO possui registro para obesidade em pacientes sem diabetes** até a data desta revisão (verificar atualizações em consultas.anvisa.gov.br). Prescrição para obesidade pura configura **uso off-label**, exigindo consentimento informado específico e documentação robusta. > **Status semaglutida 2,4 mg:** Wegovy® obteve registro ANVISA para obesidade em 2023. Confirmar disponibilidade comercial, que pode variar por região. --- ## 4. Algoritmo de Conduta Clínica — Brasil 2024 ### Fluxograma Prático: Seleção e Prescrição de Incretina (Passos Numerados) ```\n┌─────────────────────────────────────────────────────────────────┐\n│ TRIAGEM INICIAL (2 minutos) │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 1: AVALIE IMC E COMORBIDADES │\n│ │\n│ • IMC ≥30 kg/m² → PROSSEGUIR │\n│ • IMC 27–29,9 + ≥1 comorbidade* → PROSSEGUIR │\n│ • IMC <27 OU ≥27 sem comorbidade → NÃO INDICAR │\n│ │\n│ *Comorbidades: DM2, DCV, HAS, dislipidemia, AOS, MASLD, │\n│ DRC, HFpEF, artropatia por sobrepeso │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 2: EXCLUA CONTRAINDICAÇÕES ABSOLUTAS (3 minutos) │\n│ │\n│ □ História PESSOAL de carcinoma medular de tireoide (MTC) │\n│ □ História FAMILIAR de MTC ou MEN2 (pais, irmãos, filhos) │\n│ → Perguntar ativamente; se positivo ou incerto, solicitar │\n│ avaliação endócrina/genética ANTES de prescrever │\n│ □ Gestação atual ou planejada nos próximos 2 meses │\n│ □ Lactação │\n│ □ Hipersensibilidade documentada à molécula específica │\n│ □ Pancreatite aguda prévia não elucidada │\n│ │\n│ ⚠️ SE QUALQUER ITEM POSITIVO → CONTRAINDICADO │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 3: VETO ÉTICO/LEGAL IMEDIATO (1 minuto) │\n│ │\n│ 🚫 Finalidade EXCLUSIVAMENTE estética (sem comorbidade) │\n│ 🚫 Solicitação fora do escopo clínico (anti-aging, biohacking) │\n│ 🚫 Research peptide / importado clandestino │\n│ 🚫 Farmácia sem registro ANVISA para estéreis │\n│ │\n│ → CFM 2.333/2023: risco ético, cível e criminal [G8][S13] │\n│ → SE POSITIVO: documentar recusa e orientar paciente │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 4: CONFIGURAÇÃO CLÍNICA E SELEÇÃO DE MOLÉCULA │\n│ │\n│ A) DM2 não controlado (HbA1c acima da meta): │\n│ → GLP-1 RA como 2ª/3ª linha pós-metformina │\n│ → Tirzepatida ou semaglutida registrados para DM2 │\n│ → Se em insulina/SU: ALERTAR risco hipoglicemia, ajustar │\n│ │\n│ B) Obesidade grau 2/3 SEM DM2: │\n│ → Semaglutida 2,4 mg (Wegovy®) = produto registrado │\n│ → Tirzepatida = OFF-LABEL (documentar, consentir) │\n│ │\n│ C) DCV estabelecida + obesidade SEM DM2 (perfil SELECT): │\n│ → Priorizar semaglutida 2,4 mg (evidência CV) [G3] │\n│ │\n│ D) DRC + DM2: │\n│ → Semaglutida tem evidência FLOW [G5]; ajuste não │\n│ necessário até TFGe >15 (verificar bula) │\n│ │\n│ E) MASLD/NASH, HFpEF, AOS grave: │\n│ → USO OFF-LABEL — nível evidência B/C │\n│ → Exige: consentimento específico, documentação de │\n│ ausência de alternativa comprovada, discussão explícita │\n│ de que NÃO há ensaio fase 3 com desfecho duro nessas │\n│ populações específicas │\n│ │\n│ F) Nódulo tireoidiano NÃO esclarecido: │\n│ → ADIAR até investigação completa (USG + citologia se │\n│ indicado) — excluir MTC antes de iniciar │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 5: AVALIE CUSTO, ADESÃO E SUPORTE (2 minutos) │\n│ │\n│ □ Custo mensal compatível com renda/plano do paciente? │\n│ □ Acesso garantido por ≥6–12 meses (evitar interrupções)? │\n│ □ Capacidade de titulação supervisionada? │\n│ □ Suporte multiprofissional disponível (nutrição, exercício)? │\n│ □ Paciente compreende necessidade de uso prolongado/crônico? │\n│ │\n│ → Se custo inviável: discutir alternativas, não iniciar │\n│ apenas para \"experimentar\" por 1–2 meses │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 6: CONSENTIMENTO INFORMADO E DOCUMENTAÇÃO │\n│ │\n│ □ TCLE assinado (modelo específico para off-label se aplicável)│\n│ □ Registro em prontuário: │\n│ • Indicação clínica específica │\n│ • Contraindicações ativamente excluídas │\n│ • Se off-label: justificativa, alternativas consideradas │\n│ • Riscos discutidos (GI, pancreatite, colelitíase, massa │\n│ magra, perioperatório) │\n│ • Expectativas realistas documentadas │\n│ • Plano de monitoramento │\n│ □ Farmácia identificada (CNPJ, certificação ANVISA se manip.) │\n│ □ Farmacovigilância: orientar notificação via Notivisa │\n│ (notivisa.anvisa.gov.br) se evento adverso │\n└─────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────┐\n│ PASSO 7: PRESCREVER E AGENDAR SEGUIMENTO │\n│ │\n│ • Dose inicial conforme Tabela 5.1 │\n│ • Retorno em 4 semanas para avaliação de tolerância │\n│ • Laboratório basal antes ou na 1ª semana │\n│ • Reavaliação de titulação mensal até dose-alvo │\n└─────────────────────────────────────────────────────────────────┘\n``` --- ## 5. Titulação, Monitoramento e Ajuste por Fármaco ### Tabela 5.1 — Esquemas de Dose, Titulação e Apresentações | Fármaco | Apresentação | Dose Inicial | Titulação | Dose-Alvo | Observações Clínicas | Fonte |\n|---------|--------------|--------------|-----------|-----------|---------------------|-------|\n| **Semaglutida SC** | Wegovy® (obesidade): 0,25; 0,5; 1,0; 1,7; 2,4 mg | 0,25 mg/semana × 4 sem | ↑ a cada 4 sem: 0,5 → 1,0 → 1,7 → 2,4 mg | **2,4 mg/semana** | Escalonamento lento minimiza AE GI; se intolerância, manter dose anterior por mais 4 sem | [G4][S23] |\n| **Semaglutida SC** | Ozempic® (DM2): 0,25; 0,5; 1,0; 2,0 mg | 0,25 mg/semana × 4 sem | ↑ a cada 4 sem | Até 2,0 mg (DM2) | Dose máxima em bula BR para DM2 é 2,0 mg | [G4] |\n| **Liraglutida SC** | Saxenda® (obesidade): caneta 6 mg/mL | 0,6 mg/dia × 1 sem | ↑ 0,6 mg/semana | **3,0 mg/dia** | Administração diária; duração >16 sem para benefício ponderal significativo | [G4] |\n| **Tirzepatida SC** | Mounjaro®: 2,5; 5; 7,5; 10; 12,5; 15 mg | 2,5 mg/semana × 4 sem | ↑ 2,5 mg a cada 4 sem | **10–15 mg/semana** | NÃO iniciar em dose alta; escalonar conforme tolerância GI | [G1][G2][G6] |\n| **Exenatida — Liberação Imediata** | Byetta®: 5 mcg e 10 mcg | 5 mcg SC **2×/dia** (antes café e jantar) | ↑ para 10 mcg 2×/dia após 1 mês | **10 mcg 2×/dia** | Uso BID; menor perda ponderal vs semaglutida/tirzepatida | (verificar bula) |\n| **Exenatida — Liberação Estendida** | Bydureon®: 2 mg | 2 mg SC **1×/semana** | Sem titulação | **2 mg/semana** | Apresentação semanal; microspheres — agitar antes de aplicar | (verificar bula) | > **Atenção — Manipulados:** Produtos manipulados NÃO são intercambiáveis com industrializados de liberação diferente. Confirmar sempre: concentração exata, estabilidade, validade (tipicamente ≤30 dias para estéreis conforme BUD/USP <797>), e exigir certificado de análise do lote [S8][S12]. --- ## 6. Critérios para NÃO Prescrever ou POSTERGAR ### 6.1. Contraindicações Absolutas (NÃO Prescrever) | Situação | Justificativa | Conduta |\n|----------|---------------|---------|\n| **Estética isolada** (IMC <27 sem comorbidade) | Proibido CFM 2.333/2023; não há indicação clínica | Documentar recusa; orientar sobre riscos legais ao paciente se buscar via irregular [G8][S19] |\n| **História pessoal de MTC** | Risco teórico de progressão tumoral (dados pré-clínicos em roedores) | Contraindicação em bula; NÃO prescrever |\n| **História familiar de MTC ou MEN2** (1º grau) | Risco elevado de MTC oculto | Encaminhar para rastreio genético/endócrino ANTES; só considerar após exclusão formal |\n| **Gestação confirmada** | Sem dados de segurança; teratogenicidade não descartada | Contraindicado; orientar contracepção eficaz durante uso |\n| **Lactação** | Excreção no leite desconhecida | Evitar; se necessário, discutir risco-benefício e documentar |\n| **Planejamento gestacional** | Meia-vida longa; eliminar ≥2 meses antes de concepção | Descontinuar e aguardar washout; tempo exato não estabelecido — usar 2 meses como margem de segurança conservadora (verificar farmacocinética específica) |\n| **Hipersensibilidade prévia** | Reação anafilática ou grave documentada | Não reexpor à mesma molécula; considerar classe alternativa com cautela |\n| **Pancreatite aguda prévia não elucidada** | Risco teórico de recorrência | Investigar etiologia; se idiopática, considerar contraindicação relativa | ### 6.2. Situações para POSTERGAR (Aguardar/Avaliar) | Situação | Conduta |\n|----------|---------|\n| **Nódulo tireoidiano não esclarecido** | USG + citologia (se indicado) → excluir MTC → liberar |\n| **Idade <18 anos** | Apenas em protocolo de pesquisa formal ou indicação aprovada específica; semaglutida tem aprovação FDA para adolescentes ≥12a com obesidade — verificar status ANVISA |\n| **Descompensação psiquiátrica grave** | Estabilizar antes; avaliar capacidade de adesão |\n| **TUS grave ativo** | Estabilização do TUS prioritária |\n| **Intolerância GI grave prévia a GLP-1 RA** | Considerar titulação ultralenta ou classe alternativa |\n| **Cirurgia eletiva programada** | Ver seção 7.2 sobre pausa perioperatória | --- ## 7. Monitoramento Clínico e de Segurança ### 7.1. Eventos Adversos a Rastrear Ativamente #### Tabela 7.1 — Eventos Adversos e Manejo | Evento | Incidência Aproximada | Manejo | Fonte |\n|--------|----------------------|--------|-------|\n| **Náusea** | 20–44% (maior com tirzepatida 15 mg) | Titulação lenta; refeições menores; evitar gordurosos; antieméticos PRN | [G1][G4] |\n| **Vômitos** | 10–25% | Idem; se persistente >72h, suspender e reavaliar | [G1][G4] |\n| **Diarréia** | 15–25% | Hidratação; se grave, excluir outras causas | [G1][G4] |\n| **Constipação** | 10–15% | Fibras, hidratação, laxativos osmóticos PRN | [G1][G4] |\n| **Pancreatite aguda** | 0,1–0,3% em RCTs; vigilância farmacovigilância | Dor epigástrica persistente + vômitos → **suspender imediatamente**, solicitar lipase/amilase, USG/TC | [G1][G4] |\n| **Colelitíase** | Aumentada com perda ponderal rápida | Dor em HCD → USG; discutir ácido ursodesoxicólico se indicado | [G1] |\n| **Hipoglicemia** | Rara em monoterapia; maior se associada a SU/insulina | Ajustar SU/insulina ANTES de iniciar incretina | [G2] |\n| **Perda de massa magra** | 25–40% da perda total pode ser magra | Proteína 1,2–1,6 g/kg/dia (idosos até 1,5–2,0 g/kg); treino resistido 2–3×/sem; monitorar força (handgrip, chair stand) | [S4][S5] |\n| **Retinopatia (DM2)** | Raro; piora transitória relatada com controle glicêmico rápido | Fundoscopia pré-tratamento em DM2; reavaliar se sintomas visuais | (verificar — dados de SUSTAIN-6) | ### 7.2. Manejo Perioperatório A incretinas retardam esvaziamento gástrico, aumentando risco teórico de aspiração em anestesia geral [G7][S20]. **Conduta sugerida (individualizar):** | Tipo de Procedimento | Conduta Sugerida | Observações |\n|---------------------|------------------|-------------|\n| Cirurgia eletiva com anestesia geral | Considerar suspensão 7 dias antes para semaglutida semanal; 1 dia para liraglutida diária | Baseado em meia-vida e consensos multissocietários (ASA, ASMBS 2023) |\n| Procedimentos ambulatoriais com sedação leve | Jejum prolongado (≥8h sólidos); avaliar sintomas GI ativos | Se náusea/vômitos recentes, adiar |\n| Emergência | Comunicar anestesiologista; considerar intubação de sequência rápida; USG gástrico se disponível | Não adiar procedimento necessário | > **Nota:** Não existe consenso universal sobre tempo exato de pausa. A decisão deve ser **individualizada**, documentada e comunicada à equipe anestésica. Referência principal: consenso ASA/ASMBS 2023 sobre GLP-1 RA e risco de aspiração [G7][S20]. ### 7.3. Laboratório Pré-tratamento e Seguimento #### Tabela 7.2 — Exames Recomendados | Momento | Exames | Justificativa |\n|---------|--------|---------------|\n| **Basal (pré-início)** | Hemograma, creatinina, TFGe, TGO/TGP, GGT, perfil lipídico, HbA1c, glicemia jejum, TSH | Estabelecer baseline; identificar contraindicações |\n| | Amilase e lipase (se história GI) | Excluir pancreatite subclínica |\n| | USG tireoidiano (se nódulo palpável ou história familiar MTC) | Excluir MTC |\n| | USG hepático (se suspeita MASLD) | Estadiamento |\n| | Teste de força: handgrip ou chair stand (idosos, sarcopênicos) | Baseline de função muscular [S5] |\n| **4 semanas** | Avaliar tolerância clínica; peso | Ajuste de dose |\n| **12 semanas** | Hemograma, creatinina, TGO/TGP, HbA1c (se DM2), peso, PA | Eficácia e segurança |\n| **24 semanas e semestralmente** | Repetir painel metabólico; reavaliar força muscular | Monitoramento contínuo |\n| **A qualquer momento** | Lipase se dor abdominal; USG se dor em HCD | Investigação de AE | --- ## 8. Investigação de História Familiar MTC/MEN2 A avaliação de história familiar para MTC e MEN2 é obrigatória antes de iniciar qualquer GLP-1 RA ou tirzepatida [G1][G4]. ### Protocolo de Triagem Clínica (sem necessidade de teste genético universal): 1. **Perguntar ativamente:** - \"Alguém na sua família (pais, irmãos, filhos) teve câncer de tireoide?\" - \"Alguém teve tumor de suprarrenal (feocromocitoma) ou paratireoide?\" - \"Há histórico de síndrome genética endócrina na família?\" 2. **Se resposta positiva ou incerta para MTC/MEN2:** - **NÃO prescrever incretina** - Encaminhar para avaliação endocrinológica/genética - Solicitar calcitonina sérica basal - Considerar teste genético para mutação RET se alta suspeição 3. **Se resposta claramente negativa:** - Documentar: \"Paciente nega história pessoal e familiar de carcinoma medular de tireoide, MEN2 e feocromocitoma\" - Prosseguir com prescrição 4. **Nódulo tireoidiano:** - Se presente e não investigado → USG + PAAF se indicado (Bethesda) → excluir MTC antes de liberar incretina --- ## 9. Checklist de Prontuário e TCLE ### 9.1. Checklist Obrigatório de Prontuário (Itens Objetivos) ☐ **1. Critério clínico documentado**\n- IMC ≥30 kg/m², OU\n- IMC ≥27 + comorbidade: DM2 / DCV / DRC / HAS / dislipidemia / MASLD / HFpEF / AOS / artropatia ☐ **2. Finalidade clínica (NÃO estética isolada)**\n- Especificar objetivo terapêutico: controle glicêmico / perda ponderal para melhora de comorbidade / redução risco CV ☐ **3. Contraindicações ativamente excluídas**\n- História pessoal MTC: ( ) Não\n- História familiar MTC/MEN2: ( ) Não — perguntado ativamente\n- Gestação: ( ) Não — DUM:___ / Contracepção:___\n- Lactação: ( ) Não\n- Alergia à molécula: ( ) Não\n- Pancreatite prévia: ( ) Não ou ( ) Sim, elucidada:___ ☐ **4. Nódulo tireoidiano**\n- ( ) Ausente / ( ) Presente — investigado: USG ___; PAAF ___; conclusão:___ ☐ **5. Se uso off-label** (tirzepatida para obesidade pura; MASLD; HFpEF; AOS)\n- Indicação documentada: ___\n- Alternativas consideradas: ___\n- Ausência de terapia aprovada superior: ( ) Sim\n- Discussão de nível de evidência (B/C): ( ) Realizada ☐ **6. TCLE assinado**\n- ( ) Produto registrado — TCLE padrão\n- ( ) Off-label — TCLE específico com explicação de ausência de registro para indicação ☐ **7. Riscos discutidos e documentados**\n- Sintomas GI (náusea, vômito, diarréia)\n- Pancreatite aguda — sinais de alarme\n- Colelitíase\n- Perda de massa magra — orientação proteína/exercício\n- Perioperatório — informar anestesia\n- Reganho esperado se descontinuação sem estratégia ☐ **8. Farmácia/fornecedor identificado**\n- Produto industrial: ___\n- Ou manipuladora: CNPJ:___; Certificação ANVISA estéreis: ( ) Sim; Lote:___ ☐ **9. Plano de titulação documentado**\n- Dose inicial:___; Escalonamento previsto:___; Dose-alvo:___ ☐ **10. Monitoramento programado**\n- Retorno em 4 sem: ___\n- Laboratório basal: ___; Reavaliação 12 sem:___ ☐ **11. Orientações de farmacovigilância**\n- Paciente orientado a notificar eventos adversos\n- Canal: Notivisa (notivisa.anvisa.gov.br) ou SAC fabricante ☐ **12. Equipe multiprofissional**\n- Nutrição: ___\n- Educação física/fisioterapia: ___\n- Psicologia (se indicado): ___ ☐ **13. Plano de longo prazo documentado**\n- Duração prevista de tratamento\n- Estratégia de manutenção ou descontinuação\n- Discussão sobre cronicidade da doença e risco de reganho [S6][S7] --- ### 9.2. Modelo de Cláusulas para TCLE (Uso Off-label) > **Para uso quando prescrevendo tirzepatida para obesidade sem DM2, ou incretinas para MASLD/HFpEF/AOS:** --- **TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO — USO OFF-LABEL DE [MEDICAMENTO]** Eu, _________________________, RG ___________, declaro que fui informado(a) pelo(a) Dr(a). _________________________ (CRM ___) sobre o seguinte: 1. O medicamento **[nome comercial/genérico]** está sendo prescrito para tratamento de **[indicação específica]**. 2. Este medicamento **possui registro na ANVISA para [indicação registrada, ex: diabetes tipo 2]**, porém **NÃO possui registro específico para a condição que apresento [ex: obesidade sem diabetes / esteatose hepática]**. 3. A prescrição está sendo realizada com base em: - Evidências científicas de estudos clínicos [citar se aplicável] - Ausência de alternativa terapêutica aprovada com eficácia equivalente - Meu quadro clínico específico: _______________ 4. Fui informado(a) sobre os **riscos conhecidos**, incluindo: - Sintomas gastrointestinais (náusea, vômitos, diarreia) - Risco raro de pancreatite aguda - Possibilidade de colelitíase - Perda de massa muscular e necessidade de dieta proteica e exercícios - Necessidade de informar uso antes de procedimentos cirúrgicos/anestésicos 5. Compreendo que o **uso off-label não significa uso experimental ou antiético**, mas que a decisão foi tomada com base no melhor julgamento clínico disponível. 6. Tive oportunidade de fazer perguntas e todas foram respondidas satisfatoriamente. 7. Concordo em comparecer aos retornos agendados e comunicar qualquer efeito adverso. Local e data: _______________ Assinatura do paciente: _______________ Assinatura do médico: _______________ CRM: ___ --- ## 10. Tabelas-Resumo: Fenotipagem Rápida ### Tabela 10.1 — Decisão Clínica em 60 Segundos | Perfil do Paciente | Indicar | Aguardar/Avaliar | NÃO Indicar |\n|--------------------|---------|------------------|-------------|\n| IMC ≥30 sem comorbidade | ✔ (semaglutida registrada) | — | — |\n| IMC ≥27 + DM2 não controlado | ✔ | — | — |\n| IMC ≥27 + DCV estabelecida (perfil SELECT) | ✔ (priorizar semaglutida 2,4 mg) | — | — |\n| IMC ≥27 + DRC (TFGe 25–75) + DM2 | ✔ (semaglutida — evidência FLOW) | — | — |\n| IMC ≥27 + MASLD/NASH isolado | ⚠️ Off-label | Documentar, consentir | — |\n| IMC ≥27 + HFpEF | ⚠️ Off-label | Documentar, consentir | — |\n| IMC ≥27 + AOS grave | ⚠️ Off-label | Documentar, consentir | — |\n| IMC <27 sem comorbidade (estética) | — | — | 🚫 |\n| História pessoal MTC | — | — | 🚫 |\n| História familiar MTC/MEN2 | — | Investigar antes | — |\n| Gestante/lactante | — | — | 🚫 |\n| Planejando gestação | — | Suspender 2 meses antes | — |\n| <18 anos | — | Protocolo formal apenas | — |\n| Nódulo tireoide não investigado | — | Investigar antes | — | --- ## 11. Custo-Benefício e Estratégia de Longo Prazo ### 11.1. Considerações sobre Custo Os GLP-1 RAs e tirzepatida representam custo mensal significativo (R$ 800–1.500+ para produtos industriais em 2024). A prescrição deve considerar: - **Sustentabilidade financeira:** Paciente consegue manter por ≥12–24 meses?\n- **Risco de interrupção abrupta:** Reganho de 50–100% do peso perdido em 1 ano pós-suspensão é documentado [S6]\n- **Alternativas:** Se custo proibitivo, discutir: cirurgia bariátrica (se critérios), outras medicações (orlistate, não-incretinas), intensificação de MEV ### 11.2. Planejamento de Descontinuação Documentar desde o início:\n- Objetivo ponderal realista (perda de 10–15% como sucesso clínico)\n- Critérios para considerar descontinuação (atingir meta + estabilidade + MEV consolidado)\n- Estratégia de manutenção: redução de dose vs manutenção crônica vs transição para outra intervenção\n- Discussão sobre natureza crônica da obesidade [S7] --- ## 12. Considerações Pediátricas e Adolescentes ### Status Regulatório (verificar atualizações): | Molécula | FDA (EUA) | ANVISA (Brasil) | Observações |\n|----------|-----------|-----------------|-------------|\n| **Semaglutida 2,4 mg** | Aprovada ≥12 anos para obesidade | Verificar status atual | Wegovy® aprovado FDA para adolescentes 12+ com obesidade |\n| **Liraglutida 3,0 mg** | Aprovada ≥12 anos para obesidade | Verificar status atual | Saxenda® |\n| **Tirzepatida** | Não aprovada <18 anos | Não aprovada <18 anos | Sem indicação pediátrica | **Conduta no Brasil:**\n- Antes de prescrever para <18 anos, **confirmar status ANVISA atual**\n- Se não aprovado: apenas em protocolo de pesquisa com aprovação ética (CEP/CONEP)\n- Documentar extensivamente; envolver responsável legal --- ## 13. Síntese de Pérolas Clínicas 1. **Triagem de 10 minutos salva processos:** Antes de prescrever, documente IMC + comorbidade + exclusão de contraindicações + finalidade clínica ≠ estética. 2. **Off-label ≠ ilegal, mas exige proteção:** Tirzepatida para obesidade pura no Brasil é off-label até registro ANVISA; documente justificativa e obtenha TCLE específico. 3. **Reganho é a regra sem estratégia:** STEP-4 demonstra reganho de ~7% ao suspender vs perda adicional de ~8% ao manter [S6]. Discuta cronicidade desde o início. 4. **Massa magra importa:** Até 40% da perda pode ser magra. Prescreva proteína (1,2–1,6 g/kg; até 2,0 g/kg em idosos) + treino resistido. Avalie força, não apenas peso [S4][S5]. 5. **Perioperatório é zona cinzenta:** Comunique anestesia; considere pausa de 7 dias para semanais; documente decisão [G7][S20]. 6. **MTC/MEN2 — pergunte ativamente:** \"Alguém na família teve câncer de tireoide?\" não é suficiente. Especifique MTC, feocromocitoma, síndrome genética. 7. **Não normalize o manipulado:** Só prescreva de farmácia com certificação ANVISA para estéreis, com lote e certificado de análise. Manipulado ≠ industrial em farmacocinética [S8][S12]. 8. **Farmacovigilância ativa:** Oriente paciente sobre Notivisa; notifique eventos graves. É obrigação legal e ética. 9. **CFM 2.333/2023 é lei:** Prescrever para estética isolada é infração ética, com risco de processo e perda de registro [G8][S13][S19]. 10. **Expectativas realistas:** Perda de 10–15% é sucesso; \"ficar magro\" não é objetivo médico. Documente a conversa. --- ## 14. Referências Âncora ### Fontes Primárias (Ensaios Fase 3)\n- [G1] Jastreboff AM, et al. SURMOUNT-1. N Engl J Med 2022. DOI: 10.1056/NEJMoa2206038\n- [G2] Garvey WT, et al. SURMOUNT-2. Lancet 2023. DOI: 10.1016/S0140-6736(23)01200-X\n- [G3][S24] Lincoff AM, et al. SELECT. N Engl J Med 2023. DOI: 10.1056/NEJMoa2307563\n- [G4][S23] Wilding JPH, et al. STEP 1. N Engl J Med 2021. DOI: 10.1056/NEJMoa2032183\n- [G5][S22] Perkovic V, et al. FLOW. N Engl J Med 2024. DOI: 10.1056/NEJMoa2403347\n- [G6][S21] Aronne LJ, et al. SURMOUNT-5. N Engl J Med 2024. DOI: 10.1056/NEJMoa2416392\n- [S6] Rubino D, et al. STEP 4. JAMA 2021. DOI: 10.1001/jama.2021.3224 ### Regulatório e Ética\n- [G8][S13][S19] CFM Resolução 2.333/2023. https://portal.cfm.org.br\n- [S8] ANVISA — Boas Práticas de Manipulação. https://www.gov.br/anvisa\n- [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations ### Consensos e Guidelines\n- [G7][S20] ASA/ASMBS/Multisociety — GLP-1 RA e risco perioperatório, 2023\n- [S4] Neeland IJ, et al. Lean mass and GLP-1 therapies. Diabetes Obes Metab 2024\n- [S5] Cruz-Jentoft AJ, et al. EWGSOP2 — Sarcopenia. Age Ageing 2019. DOI: 10.1093/ageing/afy169\n- [S7] WHO/Obesity societies — Obesity as chronic disease framework, 2020\n- [S1] FDA Category 2 bulk substances — peptides safety concerns, 2023 --- ## 15. Nota Final de Atualização Esta monografia foi elaborada com base em evidência disponível até dezembro de 2024 e regulação ANVISA/CFM vigente. **Verificar atualizações obrigatórias:** - Status de registro ANVISA para semaglutida 2,4 mg e tirzepatida: consultas.anvisa.gov.br\n- Publicações de ensaios em andamento (SURMOUNT-MMO, SURMOUNT-OSA, SUMMIT para HFpEF)\n- Atualizações de consenso perioperatório\n- Resoluções CFM subsequentes **Prescrição responsável, documentação completa e farmacovigilância ativa são inegociáveis.** --- *Elaboração: Equipe Doutiva — Educação Médica Continuada* *Padrão RAISE-BAR: profundidade 8,5–9/10* *Atualização: Dezembro 2024*",
+  "quick_ref": "# Guia Rápido para Prescrição de Incretinas no Brasil (2024) ## Critérios Rápidos para Indicação:\n- IMC ≥30 kg/m², qualquer comorbidade\n- IMC 27–29,9 + pelo menos 1 comorbidade clínica estabilizada (DM2, DCV, DRC, AOS, MASLD, HFpEF) ## Contraindicações Absolutas:\n- História pessoal/familiar de carcinoma medular tireoide (MTC) ou MEN2\n- Gestação, lactação, planejamento gestacional próximo (suspender 2 meses antes)\n- Hipersensibilidade conhecida\n- Pancreatite aguda não elucidada\n- Uso exclusivo para finalidade estética → NÃO prescrever ## Dose Inicial e Titulação Mais Usadas no Brasil | Fármaco | Inicial | Titulação | Dose Alvo |\n|--------------|---------------------------|---------------------------|--------------------|\n| Semaglutida | 0,25 mg SC/sem x 4 sem | Aumentar a cada 4 semanas | 2,4 mg SC/semana |\n| Tirzepatida | 2,5 mg SC/sem x 4 sem | Aumentar 2,5 mg a cada 4 sem | 10–15 mg SC/semana |\n| Liraglutida | 0,6 mg SC/dia x 1 sem | Aumentar 0,6 mg/semana | 3,0 mg SC/dia | ## Red Flags para Monitorar\n- Náuseas/Vômitos persistentes (>72h)\n- Dor abdominal epigástrica intensa (pancreatite?)\n- Dor em HCD (colelitíase)\n- Hipoglicemia em paciente com insulina/SU\n- Sintomas visuais novos (retinopatia DM2) ## Checklist para Consulta (10 minutos)\n- IMC e comorbidades OK?\n- Excluir MTC/MEN2 ativo (história pessoal/familiar)\n- Gestação/lactação descartadas?\n- Desejo do paciente: indicação clínica x estética\n- Custo e adesão discutidos\n- Consentimento informado documentado\n- Risco e benefícios explicados\n- Farmácia/manipulação certificada\n- Plano de titulação e seguimento definido ## Nota\n- Prescrição off-label (tirzepatida para obesidade sem DM2) deve ser documentada com TCLE específico.\n- Manutenção da terapia vital para evitar reganho ponderal. _Consulta sempre bula e regulamentos atualizados ANVISA._",
+  "clinical_case": {
+    "title": "Paciente obeso com comorbidades busca tratamento com incretina",
+    "vignette": "Maria, 52 anos, IMC 33 kg/m², DM2 em uso de metformina, HAS compensada, sem história familiar de câncer de tireoide, relata desejo de reduzir peso e melhorar controle glicêmico. Nega gestação e lactação. Está preocupada com efeitos colaterais e custo do tratamento.",
+    "question": "Considerando a fenotipagem do candidato à incretina, qual opção é a mais adequada para iniciar abordagem farmacológica para Maria?",
+    "teaching": "Maria apresenta indicação clínica clara para uso de incretinas: IMC 33 (obesidade grau 1), DM2 estabelecido e HAS controlada. Tirzepatida e semaglutida são opções eficazes; semaglutida 2,4 mg tem registro para obesidade e evidência robusta de benefício CV (SELECT). Tirzepatida é registrada para DM2, mas para obesidade sem DM2 ainda off-label no Brasil. Importante excluir contraindicações como histórico pessoal/familiar de MTC (negado). Gestação/lactação descartadas. Considerar custo e cognição do paciente. Ajustar dose e monitorar efeitos adversos, principalmente gastrointestinais. Documentar indicação, contraindicações, consentimento e plano de seguimento. Não deve prescrever para finalidade estética isolada, e sempre usar produto registrado ou manipulado autorizado.",
+    "reward": 65,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "33 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "DM2, HAS"
+      },
+      {
+        "label": "Medicação atual",
+        "value": "Metformina"
+      },
+      {
+        "label": "História familiar de MTC/MEN2",
+        "value": "Negada"
+      },
+      {
+        "label": "Gestação/Lactação",
+        "value": "Negada"
+      },
+      {
+        "label": "Desejo",
+        "value": "Perda ponderal e controle glicêmico"
+      },
+      {
+        "label": "Preocupações",
+        "value": "Efeitos colaterais, custo"
+      }
+    ],
+    "options": [
+      {
+        "label": "Iniciar semaglutida 2,4 mg SC semanal, com titulação lenta e monitoramento rigoroso.",
+        "correct": true,
+        "rationale": "Produto registrado para obesidade com evidência para perda de peso sustentável e benefício CV; está indicado para paciente com obesidade + DM2; deve-se iniciar em dose inicial baixa e escalar para minimizar efeitos adversos."
+      },
+      {
+        "label": "Prescrever tirzepatida para obesidade (off-label), explicando tratamento experimental e consentimento informado.",
+        "correct": false,
+        "rationale": "Embora tirzepatida tenha indicação para DM2, seu uso para obesidade sem DM2 é off-label no Brasil e requer documentação específica; a paciente tem DM2 estabelecido, podendo beneficiar do uso registrado."
+      },
+      {
+        "label": "Iniciar liraglutida 3,0 mg SC diário para controle de peso.",
+        "correct": false,
+        "rationale": "Liraglutida é opção para obesidade, porém perda de peso e evidência CV inferior comparada a semaglutida, e requer administração diária, podendo piorar adesão."
+      },
+      {
+        "label": "Optar por tratamento apenas com metformina e mudança dietética, evitando incretinas devido ao custo e efeitos adversos.",
+        "correct": false,
+        "rationale": "Metformina isoladamente costuma ser insuficiente para controle glicêmico e perda ponderal em casos de obesidade com múltiplas comorbidades; incretinas têm benefício comprovado e são indicadas; custo e efeitos adversos devem ser gerenciados e discutidos."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). N Engl J Med. 2022;387(3):205-216. DOI 10.1056/NEJMoa2206038"
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes (SURMOUNT-2). Lancet. 2023;401(10381):2588-2602. DOI 10.1016/S0140-6736(23)01200-X"
+    },
+    {
+      "citation": "Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT). N Engl J Med. 2023;388(10):888-899. DOI 10.1056/NEJMoa2307563"
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). N Engl J Med. 2021;384(11):989-1002. DOI 10.1056/NEJMoa2032183"
+    },
+    {
+      "citation": "Perkovic V, et al. Semaglutide and Renal Outcomes in Type 2 Diabetes (FLOW). N Engl J Med. 2024;390(8):712-725. DOI 10.1056/NEJMoa2403347"
+    },
+    {
+      "citation": "Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity (SURMOUNT-5). N Engl J Med. 2024; DOI 10.1056/NEJMoa2416392"
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023 — Terapias hormonais com finalidade estética/anti-aging. Disponível em: https://portal.cfm.org.br",
+      "url": "https://portal.cfm.org.br"
+    },
+    {
+      "citation": "American Society of Anesthesiologists (ASA) / ASMBS 2023 — Consenso sobre risco perioperatório com GLP-1 RA."
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA. 2021;325(14):1414–1423. DOI 10.1001/jama.2021.3224"
+    },
+    {
+      "citation": "Neeland IJ, et al. Lean mass changes with GLP-1–based therapies — mitigation strategies. Diabetes Obes Metab. 2024; DOI verificar"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

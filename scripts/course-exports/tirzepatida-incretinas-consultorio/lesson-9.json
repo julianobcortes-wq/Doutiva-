@@ -1,0 +1,365 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Clínica e negócio ético",
+  "title": "Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua",
+  "description": "Esta aula aborda os princípios éticos e legais para prescrição responsável de tirzepatida e agonistas de incretinas manipulados, detalhando a necessidade de documentação rigorosa, obtenção de TCLE específico, discussão transparente sobre custo-benefício e propostas de valor relacionadas à terapia crônica para obesidade e diabetes tipo 2. Inclui análise crítica das evidências científicas, status regulatório no Brasil, cuidados em populações especiais e fluxo clínico para uso seguro e eficaz.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Tirzepatida é aprovada para DM2 e em fase de avaliação para obesidade no Brasil; manipulação estéril exige rigor documental e farmacovigilância.",
+    "Ensaios pivotais mostram perda ponderal média de 15-21% com tirzepatida em 72 semanas (SURMOUNT-1) e superioridade sobre semaglutida em comparação direta (SURMOUNT-5).",
+    "Reganho ponderal é esperado após descontinuação; manutenção crônica é recomendada para eficácia sustentada (evidência STEP 4 para semaglutida).",
+    "Consentimento informado (TCLE) específico, detalhando riscos, benefícios, custo e alternativas, é obrigatório especialmente em uso off-label ou manipulado.",
+    "Farmácias para manipulação devem possuir certificação ANVISA/GMP, laudos de pureza, esterilidade e rastreabilidade; prescrição a fornecedores não certificados é ilegal.",
+    "CFM proíbe prescrição de incretinas para finalidade exclusivamente estética, anti-aging ou performance sem indicação clínica.",
+    "Fluxograma clínico detalha avaliação, exclusão de contraindicações, titulação, monitoramento e decisão de manutenção ou descontinuação.",
+    "Educação continuada é crucial para prescrição ética e alinhada à evidência, evitando práticas comerciais antiéticas e prescrições de research peptides."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua",
+      "subtitle": "Módulo 5 · Clínica e negócio ético"
+    },
+    {
+      "kind": "table",
+      "title": "Ensaios Pivotais: Tirzepatida e Semaglutida na Obesidade e DM2",
+      "head": [
+        "Ensaio",
+        "Fármaco",
+        "População",
+        "n",
+        "Desfecho Primário",
+        "Magnitude do Efeito",
+        "Nível de Evidência"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-1 [G1]",
+          "Tirzepatida 5/10/15 mg",
+          "Obesidade sem DM2",
+          "2.539",
+          "Perda ponderal 72 sem",
+          "−15,0% (5 mg), −19,5% (10 mg), −20,9% (15 mg) vs −3,1% placebo",
+          "A"
+        ],
+        [
+          "SURMOUNT-2 [G2]",
+          "Tirzepatida 10/15 mg",
+          "Obesidade + DM2",
+          "938",
+          "Perda ponderal + HbA1c",
+          "−12,8% (10 mg), −14,7% (15 mg); HbA1c −2,1%",
+          "A"
+        ],
+        [
+          "SURMOUNT-5 [G6]",
+          "Tirzepatida vs Semaglutida",
+          "Obesidade sem DM2",
+          "(verificar)",
+          "Comparação direta",
+          "Tirzepatida superior em perda ponderal",
+          "A"
+        ],
+        [
+          "STEP 1 [G4]",
+          "Semaglutida 2,4 mg",
+          "Obesidade sem DM2",
+          "1.961",
+          "Perda ponderal 68 sem",
+          "−14,9% vs −2,4% placebo",
+          "A"
+        ],
+        [
+          "STEP 4 [S6]",
+          "Semaglutida 2,4 mg",
+          "Manutenção vs descontinuação",
+          "803",
+          "Reganho pós-suspensão",
+          "Continuação: −7,9% adicional; suspensão: +6,9% reganho",
+          "A"
+        ],
+        [
+          "SELECT [G3]",
+          "Semaglutida 2,4 mg",
+          "IMC≥27 + DCV, sem DM",
+          "17.604",
+          "MACE cardiovascular",
+          "HR 0,80 (IC95% 0,72–0,90)",
+          "A"
+        ],
+        [
+          "FLOW [G5]",
+          "Semaglutida",
+          "DM2 + DRC",
+          "3.533",
+          "Desfecho renal composto",
+          "HR 0,76 (IC95% 0,66–0,88)",
+          "A"
+        ]
+      ]
+    },
+    {
+      "kind": "bars",
+      "title": "Eventos Adversos Gastrointestinais em Tirzepatida 15 mg (SURMOUNT-1) [G1]",
+      "unit": "%",
+      "source": "Jastreboff AM et al. NEJM 2022",
+      "note": "Eventos adversos mais frequentes devem ser discutidos com paciente no TCLE.",
+      "bars": [
+        {
+          "label": "Náusea",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diarreia",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Vômitos",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Constipação",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Descontinuação por EA",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Regulatórios e Prescrição: Brasil 2024–2025",
+      "left": {
+        "label": "Status",
+        "items": [
+          "Tirzepatida (Mounjaro®) — Registro ANVISA para DM2; obesidade avaliando-se aprovação; manipulação permitida em farmácia certificada.",
+          "Semaglutida (Ozempic®, Wegovy®) e Liraglutida (Saxenda®) com indicações aprovadas; não manipuláveis.",
+          "Research peptides e hormônios para estética/anti-aging — proibidos pelo CFM 2.333/2023.",
+          "Prescrição ética requer documentação, indicação clínica real e TCLE específico."
+        ]
+      },
+      "right": {
+        "label": "Conduta recomendada",
+        "items": [
+          "Uso registrado",
+          "Uso off-label",
+          "Manipulado estéril",
+          "Não prescrever"
+        ]
+      }
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma Clínico para Prescrição de Tirzepatida/Incretinas no Brasil",
+      "note": "Fluxo fundamentado nas evidências e normas brasileiras.",
+      "steps": [
+        {
+          "label": "1. Avaliação inicial: exames laboratoriais e comorbidades."
+        },
+        {
+          "label": "2. Confirmar elegibilidade: IMC e comorbidades."
+        },
+        {
+          "label": "3. Excluir contraindicações absolutas: gravidez, CMT, pancreatite ativa."
+        },
+        {
+          "label": "4. Avaliar precauções: DRC avançada, retinopatia, colelitíase."
+        },
+        {
+          "label": "5. Discussão e adequação da expectativa com paciente."
+        },
+        {
+          "label": "6. Obter TCLE detalhado e assinado."
+        },
+        {
+          "label": "7. Prescrição com plano titulação explicitado."
+        },
+        {
+          "label": "8. Monitoramento rotineiro da eficácia e segurança."
+        },
+        {
+          "label": "9. Decisão de manutenção indefinida ou descontinuação explicada."
+        },
+        {
+          "label": "10. Documentação contínua e atualização do TCLE anualmente."
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Checklist para Documentação no Prontuário e TCLE",
+      "head": [
+        "Item",
+        "Presente?",
+        "Comentário/Data"
+      ],
+      "rows": [
+        [
+          "Diagnóstico (comorbilidades, CID-10)",
+          "☐",
+          ""
+        ],
+        [
+          "Peso, altura, IMC",
+          "☐",
+          ""
+        ],
+        [
+          "Contraindicações avaliadas e registradas",
+          "☐",
+          ""
+        ],
+        [
+          "Exames laboratoriais base documentados",
+          "☐",
+          ""
+        ],
+        [
+          "Discussão de riscos, benefícios e alternativas",
+          "☐",
+          ""
+        ],
+        [
+          "Custo mensal informado",
+          "☐",
+          ""
+        ],
+        [
+          "Consentimento informado TCLE assinado",
+          "☐",
+          ""
+        ],
+        [
+          "Prescrição detalhada com dose e titulação",
+          "☐",
+          ""
+        ],
+        [
+          "Farmácia certificada identificada (manipulado)",
+          "☐",
+          ""
+        ],
+        [
+          "Plano de acompanhamento definido",
+          "☐",
+          ""
+        ],
+        [
+          "Registro de eventos e adesão",
+          "☐",
+          ""
+        ],
+        [
+          "Renovação do TCLE anual ou mudança significativa",
+          "☐",
+          ""
+        ]
+      ],
+      "source": "Síntese Doutiva - Módulo 5"
+    },
+    {
+      "kind": "pearl",
+      "title": "Pérola Clínica",
+      "text": "A obesidade é uma doença crônica que exige terapias sustentadas: interromper tirzepatida ou semaglutida sem plano de manutenção quase sempre resulta em reganho ponderal significativo. Assim, o educador e prescritor devem priorizar o consentimento informado e o planejamento longitudinal, alinhando expectativas e realidades econômicas do paciente."
+    }
+  ],
+  "monograph": "# Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua ## 1. Contexto e Princípios Éticos da Prescrição de Incretinas Manipuladas As terapias à base de incretinas — especialmente agonistas de GLP-1/GIP como a tirzepatida — representam um dos avanços mais relevantes na gestão de obesidade e diabetes tipo 2 na atualidade, com impacto consistente sobre perda ponderal, melhora metabólica e, para semaglutida, redução demonstrada de desfechos cardiovasculares em população com DCV estabelecida (SELECT) [G3]. A adoção crescente no Brasil, frequentemente via manipulação estéril sob demanda, impõe exigências éticas e regulatórias rigorosas, particularmente para indicações off-label. A prática rejeita categoricamente o uso de \"research peptides\" sem registro, terapia anti-aging hormonal sem indicação clínica documentada ou soroterapia (\"drips\") sem evidência e regulação [S8][S10][S13]. ### 1.1. Diferenciação Crítica: Manipulado Legal versus Research Peptide | Categoria | Definição | Status Regulatório | Conduta |\n|-----------|-----------|-------------------|---------|\n| **Tirzepatida manipulada legal** | Produzida em farmácia com certificação ANVISA/GPM para manipulação estéril, com matéria-prima rastreável, laudo de teor/esterilidade, lote documentado | Permitido com prescrição médica justificada | Prescrever com TCLE e monitoramento |\n| **Produto industrial registrado** | Mounjaro® (Eli Lilly) com registro ANVISA vigente | Registro completo para DM2; obesidade: verificar status atual | Preferencial quando disponível e acessível |\n| **Research peptide / raw powder** | Substância adquirida de fornecedores não regulados (ex.: importação direta, sites internacionais), sem certificação farmacêutica | **ILEGAL** para uso humano no Brasil | **Nunca prescrever** — risco sanitário, ético e legal | **Critérios objetivos para identificar farmácia estéril idônea:**\n1. Alvará sanitário vigente para manipulação estéril\n2. Certificação de Boas Práticas de Manipulação (GPM/ANVISA) [S8]\n3. Laudo de teor e esterilidade disponível por lote\n4. Rastreabilidade completa da matéria-prima\n5. Sistema de farmacovigilância ativo com notificação de eventos adversos\n6. Ambiente validado conforme princípios USP <797> [S12] --- ## 2. Bases Científicas: Eficácia, Segurança e Limites da Evidência ### 2.1. Farmacologia Resumida A tirzepatida é um agonista duplo dos receptores GIP e GLP-1, administrado por via subcutânea semanal. O mecanismo duplo confere redução ponderal e glicêmica superiores aos agonistas GLP-1 puros em comparações diretas [G6][S21]. ### 2.2. Tabela de Evidência — Ensaios Pivotais | Ensaio | Fármaco | População | n | Desfecho Primário | Magnitude do Efeito | Nível |\n|--------|---------|-----------|---|-------------------|---------------------|-------|\n| **SURMOUNT-1** [G1] | Tirzepatida 5/10/15 mg | Obesidade sem DM2 | 2.539 | Perda ponderal 72 sem | −15,0% (5 mg), −19,5% (10 mg), −20,9% (15 mg) vs −3,1% placebo | **A** |\n| **SURMOUNT-2** [G2] | Tirzepatida 10/15 mg | Obesidade + DM2 | 938 | Perda ponderal + HbA1c | −12,8% (10 mg), −14,7% (15 mg); HbA1c −2,1% | **A** |\n| **SURMOUNT-5** [G6][S21] | Tirzepatida vs Semaglutida | Obesidade sem DM2 | (verificar n) | Comparação direta | Tirzepatida superior em perda ponderal (verificar magnitude exata) | **A** |\n| **STEP 1** [G4][S23] | Semaglutida 2,4 mg | Obesidade sem DM2 | 1.961 | Perda ponderal 68 sem | −14,9% vs −2,4% placebo | **A** |\n| **STEP 4** [S6] | Semaglutida 2,4 mg | Manutenção vs descontinuação | 803 | Reganho pós-suspensão | Continuação: −7,9% adicional; suspensão: +6,9% reganho | **A** |\n| **SELECT** [G3][S24] | Semaglutida 2,4 mg | IMC≥27 + DCV, sem DM | 17.604 | MACE | HR 0,80 (IC95% 0,72–0,90) | **A** |\n| **FLOW** [G5][S22] | Semaglutida | DM2 + DRC | 3.533 | Desfecho renal composto | HR 0,76 (IC95% 0,66–0,88) | **A** | **Observações críticas sobre os dados:**\n- SURMOUNT-1: 89–91% dos participantes com tirzepatida 10–15 mg atingiram ≥5% de perda ponderal; 55–57% atingiram ≥20% [G1]\n- A magnitude de perda ponderal é dose-dependente e superior a qualquer farmacoterapia anti-obesidade prévia\n- **Limitação fundamental:** todos os ensaios utilizaram produto industrial padronizado; extrapolação para formulações manipuladas assume equivalência de biodisponibilidade não demonstrada em estudos comparativos ### 2.3. Reganho Ponderal Pós-Descontinuação: Dados Específicos O ensaio STEP 4 (semaglutida 2,4 mg) demonstrou que pacientes randomizados para placebo após 20 semanas de tratamento ativo apresentaram reganho médio de 6,9% do peso corporal em 48 semanas adicionais, enquanto aqueles mantidos em semaglutida perderam 7,9% adicionais [S6]. **Nota importante:** este dado refere-se especificamente à semaglutida; dados equivalentes para tirzepatida em desenho de descontinuação (SURMOUNT-4) devem ser verificados para extrapolação precisa. A afirmação de que \">70% recuperam peso\" é uma estimativa clínica derivada de múltiplos estudos de farmacoterapia anti-obesidade, não um dado exato de ensaio único. O princípio fisiopatológico subjacente — obesidade como doença crônica com tendência ao reganho após cessação de tratamento [S7] — é robusto e deve orientar o planejamento terapêutico. ### 2.4. Segurança: Eventos Adversos Quantificados **Eventos gastrointestinais (SURMOUNT-1, tirzepatida 15 mg)** [G1]:\n- Náusea: 24–33% (dose-dependente)\n- Diarreia: 18–23%\n- Vômitos: 8–12%\n- Constipação: 10–17%\n- Descontinuação por eventos adversos: 4,3–7,1% **Eventos de interesse especial:**\n- **Pancreatite:** Incidência não estatisticamente aumentada nos ensaios pivotais, porém vigilância recomendada por plausibilidade biológica e relatos pós-comercialização. Interromper imediatamente se dor abdominal intensa + lipase >3× LSN [G1][G2]\n- **Colecistopatia:** Risco aumentado em contexto de perda ponderal rápida (mecanismo: estase biliar). SURMOUNT-1 reportou eventos biliares em ~0,6–1,5% (verificar — não ancorado com precisão). Considerar ultrassonografia abdominal basal em pacientes com fatores de risco (história de colelitíase, perda ponderal prévia rápida)\n- **Retinopatia diabética:** Vigilância em DM2 com retinopatia prévia (dado de semaglutida — SUSTAIN-6)\n- **Carcinoma medular de tireoide (CMT):** Contraindicação absoluta em história pessoal/familiar de CMT ou NEM2 (baseado em dados pré-clínicos de roedores; sem aumento demonstrado em humanos, mas precaução mandatória por bula) --- ## 3. Tabela Regulatória: Status Brasil 2024–2025 | Fármaco | Registro ANVISA | Indicação Aprovada | Off-label Comum | Manipulado Estéril | Não Prescrever |\n|---------|-----------------|--------------------|-----------------|--------------------|----------------|\n| **Tirzepatida (Mounjaro®)** | Sim | DM2 (adultos) | Obesidade sem DM2 (verificar status atualizado ANVISA) | Permitido em farmácia certificada com justificativa documentada | Estética pura, anti-aging, atletas (doping), research peptide |\n| **Semaglutida (Ozempic®)** | Sim | DM2 | — | Não aplicável (não manipulável) | Estética pura, anti-aging |\n| **Semaglutida (Wegovy®)** | Sim | Obesidade (adultos) | — | Não aplicável | Estética pura, anti-aging |\n| **Liraglutida (Saxenda®)** | Sim | Obesidade | — | Não aplicável | Estética pura, anti-aging |\n| **Peptídeos \"research\"** | **Não** | **Nenhuma** | — | **ILEGAL** | **Sempre vedado** | **Notas regulatórias críticas:**\n1. **Status ANVISA para obesidade (tirzepatida):** Verificar publicação no DOU — aprovação pode ter ocorrido após redação deste documento. Se não aprovada, prescrição para obesidade configura uso off-label, exigindo TCLE específico e documentação robusta\n2. **CFM 2.333/2023** [S13][S19]: Proíbe prescrição de hormônios/peptídeos para finalidade exclusivamente estética, anti-aging ou ganho de massa muscular sem indicação clínica documentada\n3. **Atletas:** GLP-1 agonistas não constam na lista WADA 2024 de substâncias proibidas; contudo, verificar regulamentos específicos de cada federação e documentar ausência de finalidade de manipulação de composição corporal para performance --- ## 4. Gravidez, Lactação e Populações Especiais ### 4.1. Gravidez e Lactação **Nota sobre classificação:** A FDA descontinuou o sistema de categorias (A, B, C, D, X) em 2015, substituindo-o pelo Pregnancy and Lactation Labeling Rule (PLLR). A referência a \"Categoria C\" é obsoleta. **Posição atual:**\n- **Gravidez:** Dados insuficientes em humanos. Estudos em animais sugerem toxicidade reprodutiva em doses supraterapêuticas. **Contraindicado por princípio de precaução.** Descontinuar pelo menos 2 meses antes de tentativa de concepção (meia-vida longa) [G1]\n- **Lactação:** Desconhecido se excretado no leite humano. Não recomendado durante amamentação\n- **Contracepção:** Orientar método contraceptivo eficaz durante tratamento e por 2 meses após descontinuação ### 4.2. Insuficiência Renal | Estágio DRC | eGFR (mL/min/1,73m²) | Conduta |\n|-------------|----------------------|---------|\n| G1–G2 | ≥60 | Sem ajuste de dose necessário |\n| G3a–G3b | 30–59 | Sem ajuste; monitorar função renal a cada 8–12 semanas |\n| G4 | 15–29 | Dados limitados; usar com cautela, monitoramento intensificado (4–8 semanas) |\n| G5/Diálise | <15 | Não recomendado (ausência de dados de segurança) | **FLOW** [G5][S22]: Semaglutida demonstrou benefício renal em DM2 + DRC; dados específicos para tirzepatida em DRC avançada são limitados. ### 4.3. Insuficiência Hepática - Leve a moderada (Child-Pugh A–B): Sem ajuste necessário\n- Grave (Child-Pugh C): Não estudado; não recomendado --- ## 5. Fluxograma Clínico de Conduta — Terapia Incretínica no Brasil ```\n┌─────────────────────────────────────────────────────────────────┐\n│ FLUXOGRAMA: PRESCRIÇÃO DE TIRZEPATIDA/INCRETINAS (BRASIL) │\n└─────────────────────────────────────────────────────────────────┘ 1. AVALIAÇÃO INICIAL ├─ Anamnese completa (peso, IMC, comorbidades, medicações) ├─ Exame físico (PA, FC, circunferência abdominal) ├─ Laboratório basal: glicemia, HbA1c, perfil lipídico, │ função renal (creatinina, eGFR), função hepática, │ TSH, lipase (considerar) └─ Considerar USG abdominal se fatores de risco para colelitíase 2. VERIFICAR CRITÉRIOS DE ELEGIBILIDADE ├─ IMC ≥30 kg/m² OU ├─ IMC ≥27 kg/m² + ≥1 comorbidade (DM2, HAS, dislipidemia, │ SAOS, DHGNA, DCV) └─ Tentativas prévias de mudança de estilo de vida documentadas 3. EXCLUIR CONTRAINDICAÇÕES ABSOLUTAS ├─ História pessoal/familiar de CMT ou NEM2 ├─ Pancreatite aguda atual ├─ Gravidez ou lactação ├─ Hipersensibilidade conhecida ao fármaco └─ Gastroparesia grave pré-existente 4. AVALIAR CONTRAINDICAÇÕES RELATIVAS / PRECAUÇÕES ├─ DRC estágio 4–5 (dados limitados) ├─ Retinopatia diabética proliferativa (vigilância) ├─ História de pancreatite (ponderar risco-benefício) ├─ Colelitíase sintomática prévia └─ Cirurgia programada <2–4 semanas [G7][S20] 5. DISCUSSÃO TRANSPARENTE COM PACIENTE ├─ Benefícios esperados (perda 15–21% em 72 semanas) [G1] ├─ Riscos (GI, pancreatite, colecistopatia, CMT teórico) ├─ Custo mensal estimado (solicitar cotação atualizada) ├─ Natureza crônica da terapia (reganho esperado se suspender) ├─ Alternativas (semaglutida, liraglutida, outros) └─ Se off-label: explicitar ausência de aprovação específica 6. OBTER TCLE ESPECÍFICO └─ Ver Seção 7 para modelo e checklist 7. PRESCREVER COM DOCUMENTAÇÃO COMPLETA ├─ Fármaco, dose, via, frequência ├─ Plano de titulação explícito ├─ Farmácia estéril certificada (se manipulado) └─ Orientações escritas ao paciente 8. INICIAR TITULAÇÃO ├─ Semana 0–4: Tirzepatida 2,5 mg SC 1×/semana ├─ Semana 4–8: 5,0 mg SC 1×/semana (se tolerado) ├─ Semana 8–12: 7,5 mg SC 1×/semana (se tolerado) ├─ Semana 12–16: 10,0 mg SC 1×/semana (se tolerado) ├─ Semana 16+: 12,5–15,0 mg SC 1×/semana (dose máxima) └─ REGRA: prolongar intervalo se GI intenso (náusea/vômito grau 2+); não forçar titulação 9. MONITORAMENTO PERIÓDICO ├─ FASE DE TITULAÇÃO (primeiras 16 semanas): │ └─ Consulta/contato a cada 4 semanas │ (avaliar tolerância, ajustar dose) ├─ FASE DE MANUTENÇÃO: │ └─ Consulta a cada 8–12 semanas ├─ LABORATÓRIO: │ ├─ Basal + semana 12 + semana 24 + depois 12/12 semanas │ └─ Mínimo: glicemia, HbA1c (se DM), função renal, │ função hepática └─ AVALIAR EM TODA CONSULTA: ├─ Peso, PA, sintomas GI ├─ Sinais de pancreatite (dor abdominal) ├─ Adesão e tolerância └─ Necessidade de ajuste de medicações concomitantes (insulina, sulfonilureia → reduzir dose proativamente) 10. DECISÃO DE MANUTENÇÃO vs. DESCONTINUAÇÃO ├─ SE META ATINGIDA + BOA TOLERÂNCIA: │ └─ Manter dose eficaz indefinidamente (doença crônica) ├─ SE RESPOSTA INSUFICIENTE (<5% em 12 semanas na dose │ máxima tolerada): │ └─ Reavaliar diagnóstico, adesão, considerar associação │ ou troca └─ SE NECESSÁRIO DESCONTINUAR: ├─ Não há protocolo validado de \"desmame\" gradual ├─ Evidência atual: descontinuação nos ensaios foi abrupta ├─ Orientar paciente sobre reganho esperado ├─ Intensificar estilo de vida + considerar transição │ para outra terapia └─ Documentar decisão e orientações no prontuário 11. SITUAÇÕES ESPECIAIS ├─ PERIOPERATÓRIO: comunicar anestesiologista; considerar │ pausa de 1–2 semanas para cirurgias eletivas com │ anestesia geral; avaliar USG gástrico se disponível; │ documentar decisão compartilhada [G7][S20] ├─ GRAVIDEZ PLANEJADA: suspender ≥2 meses antes ├─ INTERCORRÊNCIA (pancreatite, colecistite): suspender │ imediatamente, notificar, documentar └─ TROCA DE FARMÁCIA/LOTE: verificar certificação, documentar rastreabilidade 12. ATUALIZAR DOCUMENTAÇÃO CONTINUAMENTE └─ TCLE renovado anualmente ou a cada mudança significativa\n``` --- ## 6. Custo-Benefício e Proposta de Valor da Terapia Contínua ### 6.1. Custo Estimado (2024–2025) | Apresentação | Faixa de Custo Mensal | Observação |\n|--------------|----------------------|------------|\n| Tirzepatida manipulada estéril | R$ 800–2.000 | Variável conforme farmácia e dose; **solicitar cotação atualizada** |\n| Mounjaro® industrial | R$ 1.500–3.500+ | Conforme dose; verificar disponibilidade |\n| Wegovy® (semaglutida) | R$ 1.200–2.500 | Alternativa registrada para obesidade |\n| Ozempic® (semaglutida) | R$ 800–1.500 | Registro para DM2 | **Advertência:** Valores são estimativas e podem estar desatualizados. Sempre orientar o paciente a solicitar cotação formal à farmácia certificada ou distribuidora antes de iniciar tratamento. ### 6.2. Análise de Custo-Benefício para o Paciente **Benefícios documentados:**\n- Perda ponderal média de 15–21% em 72 semanas [G1]\n- Melhora de HbA1c (1,5–2,4% em DM2) [G2]\n- Potencial redução de medicações para DM2/HAS\n- Melhora de qualidade de vida e capacidade funcional\n- Redução de eventos CV (demonstrado para semaglutida em SELECT [G3]; dados para tirzepatida em andamento — SURPASS-CVOT) **Limitações a explicitar:**\n- Custo elevado e sustentado (terapia crônica)\n- Não coberto pelo SUS para obesidade (verificar protocolos locais)\n- Reganho ponderal esperado se descontinuação [S6]\n- Eventos adversos GI frequentes (embora geralmente toleráveis) ### 6.3. Manutenção versus Ciclo Curto: Posição Baseada em Evidência | Estratégia | Base de Evidência | Desfecho Esperado | Indicação | Custo-Efetividade |\n|------------|-------------------|-------------------|-----------|-------------------|\n| **Manutenção indefinida** | STEP 4, SURMOUNT (extensões) [S6] | Perda sustentada enquanto em uso | Obesidade como doença crônica | Superior para desfechos metabólicos sustentados |\n| **Ciclo curto (<6 meses)** | Nenhuma evidência de benefício duradouro | Reganho substancial esperado | **Não recomendado rotineiramente** | Baixo valor — custo sem benefício sustentado |\n| **Ciclo pré-operatório** | Dados limitados; plausibilidade clínica | Redução de risco cirúrgico pontual | Casos selecionados (cirurgia bariátrica, ortopédica) com documentação | Aceitável se objetivo cirúrgico claro | **Posição ética:** Não é aceitável prescrever ciclos curtos para \"perda rápida\" estética ou sem plano de continuidade. O paciente deve compreender que a terapia é concebida como crônica, similar ao tratamento de hipertensão ou diabetes [S7]. ### 6.4. Alternativas Acessíveis Para pacientes com limitação financeira, discutir:\n1. **Semaglutida oral (Rybelsus®):** Menor custo que injetáveis; eficácia inferior às doses SC altas, mas opção válida\n2. **Liraglutida (Saxenda®):** Registrado para obesidade; eficácia menor que semaglutida/tirzepatida, mas acessível em alguns contextos\n3. **Programas de acesso:** Verificar programas de desconto dos fabricantes\n4. **Priorização de estilo de vida:** Intensificação de dieta + atividade física com suporte multiprofissional como alternativa ou adjunto --- ## 7. Modelo de TCLE e Checklist de Prontuário ### 7.1. Conteúdo Mínimo Obrigatório do TCLE O Termo de Consentimento Livre e Esclarecido para prescrição de tirzepatida (especialmente off-label ou manipulada) deve conter, no mínimo: **SEÇÃO A — IDENTIFICAÇÃO**\n- Nome completo do paciente e documento\n- Nome do médico prescritor e CRM\n- Data de emissão **SEÇÃO B — INFORMAÇÕES SOBRE O MEDICAMENTO**\n- Nome do fármaco (tirzepatida)\n- Indicação para a qual está sendo prescrito (ex.: \"tratamento de obesidade\")\n- Status regulatório: [DM2: aprovado ANVISA] / [Obesidade: off-label ou verificar aprovação vigente]\n- Se manipulado: nome e CNPJ da farmácia, número de certificação GPM/ANVISA **SEÇÃO C — BENEFÍCIOS ESPERADOS**\n- Descrição em linguagem leiga: \"Este medicamento demonstrou em estudos científicos redução média de 15–21% do peso corporal em aproximadamente 1,5 ano de uso\"\n- Explicar que resultados individuais variam\n- Não há garantia de resultado específico **SEÇÃO D — RISCOS E EFEITOS ADVERSOS**\n- Comuns (>10%): náusea, diarreia, constipação, vômitos — geralmente leves a moderados e transitórios\n- Incomuns (1–10%): dor abdominal, refluxo, fadiga\n- Raros mas graves (<1%): pancreatite aguda (dor abdominal intensa — procurar emergência), colecistite, reações alérgicas\n- Teórico: aumento de risco de câncer medular de tireoide (não demonstrado em humanos, mas contraindicado se história familiar)\n- Gravidez: contraindicado — risco de malformação desconhecido **SEÇÃO E — ALTERNATIVAS**\n- Existem outros tratamentos disponíveis: semaglutida (Wegovy®), liraglutida (Saxenda®), outros medicamentos para obesidade, cirurgia bariátrica, tratamento não farmacológico intensivo\n- A escolha por tirzepatida foi discutida considerando meu perfil clínico **SEÇÃO F — CUSTOS E SUSTENTABILIDADE**\n- Custo mensal estimado: R$ ______ (verificar cotação atual)\n- Duração prevista: tratamento de longo prazo; interrupção associada a reganho de peso\n- Não há cobertura pelo SUS para esta indicação\n- Comprometo-me a informar o médico se houver dificuldade financeira para continuidade **SEÇÃO G — MONITORAMENTO**\n- Concordo em realizar consultas de acompanhamento conforme agendado\n- Concordo em realizar exames laboratoriais periódicos\n- Comprometo-me a informar imediatamente sobre: dor abdominal intensa, vômitos persistentes, icterícia, gestação **SEÇÃO H — DIREITO DE REVOGAÇÃO**\n- Compreendo que posso interromper o tratamento a qualquer momento, por qualquer motivo, sem prejuízo ao meu atendimento\n- Fui informado(a) sobre as consequências esperadas da interrupção (reganho de peso) **SEÇÃO I — DECLARAÇÃO E ASSINATURAS**\n- \"Declaro que li (ou me foi lido) este termo, tive oportunidade de esclarecer dúvidas, e consinto com o tratamento proposto\"\n- Assinatura do paciente (ou responsável legal)\n- Assinatura do médico\n- Data\n- Duas vias: uma para o paciente, uma para o prontuário ### 7.2. Checklist de Prontuário — Documentação Obrigatória | Item | Presente? | Data/Observação |\n|------|-----------|-----------------|\n| **AVALIAÇÃO INICIAL** | | |\n| Diagnóstico com CID-10 (ex.: E66.9 — Obesidade não especificada; E11 — DM2) | ☐ | |\n| Peso, altura, IMC documentados | ☐ | |\n| Comorbidades listadas | ☐ | |\n| Contraindicações pesquisadas e ausentes | ☐ | |\n| Exames basais solicitados/revisados | ☐ | |\n| **DISCUSSÃO E CONSENTIMENTO** | | |\n| Benefícios discutidos e documentados | ☐ | |\n| Riscos discutidos e documentados | ☐ | |\n| Alternativas oferecidas | ☐ | |\n| Custo mensal estimado informado | ☐ | |\n| Natureza crônica do tratamento explicada | ☐ | |\n| Status off-label explicado (se aplicável) | ☐ | |\n| TCLE assinado e arquivado | ☐ | |\n| **PRESCRIÇÃO** | | |\n| Dose inicial documentada | ☐ | |\n| Plano de titulação registrado | ☐ | |\n| Farmácia certificada identificada (se manipulado) | ☐ | |\n| Lote/rastreabilidade documentada | ☐ | |\n| **ACOMPANHAMENTO** | | |\n| Data de retorno agendada | ☐ | |\n| Parâmetros de monitoramento definidos | ☐ | |\n| Orientações escritas entregues ao paciente | ☐ | |\n| **ATUALIZAÇÕES SUBSEQUENTES** | | |\n| Registro de peso a cada consulta | ☐ | |\n| Registro de eventos adversos | ☐ | |\n| Ajustes de dose documentados com justificativa | ☐ | |\n| Renovação de TCLE (anual ou se mudança significativa) | ☐ | | --- ## 8. Ética da Recorrência e Responsabilidades Compartilhadas ### 8.1. Divisão de Responsabilidades: Prescritor versus Farmácia | Responsabilidade | Prescritor | Farmácia Estéril |\n|------------------|------------|------------------|\n| Indicação clínica correta e documentada | **Integral** | — |\n| Escolha de farmácia certificada | **Integral** (verificar antes de prescrever) | — |\n| Qualidade da matéria-prima e manipulação | Verificação de certificação | **Integral** |\n| Laudo de teor e esterilidade | Exigir cópia; arquivar | **Emitir e fornecer** |\n| Rastreabilidade de lote | Documentar no prontuário | **Garantir sistema** |\n| Farmacovigilância — detecção de EA | Identificar e documentar | **Reportar à ANVISA** |\n| Farmacovigilância — notificação formal | Notificar (NOTIVISA) se EA grave | **Notificar (NOTIVISA)** |\n| Orientação ao paciente | **Integral** | Complementar (bula/informativo) | **Lição NECC** [S11]: O surto de meningite fúngica por falha de esterilidade em compounding nos EUA (2012–2013) resultou em 64 mortes. O prescritor que escolhe uma farmácia sem verificar certificação compartilha responsabilidade ética e potencialmente legal pelo dano ao paciente. ### 8.2. Recorrência Ética versus Dependência Comercial A natureza crônica da terapia com incretinas cria um modelo de recorrência (paciente retorna mensalmente para acompanhamento e renovação). Isso é **eticamente aceitável** quando: 1. A indicação clínica é genuína e documentada\n2. O paciente foi informado sobre a natureza crônica desde o início\n3. Há monitoramento real de eficácia e segurança (não apenas renovação automática)\n4. Alternativas são reavaliadas periodicamente\n5. O paciente mantém autonomia para descontinuar É **eticamente inaceitável** quando:\n- A recorrência é motivada primariamente por receita do consultório\n- Não há reavaliação clínica significativa nas consultas\n- O paciente é desencorajado de descontinuar mesmo quando apropriado\n- A terapia é mantida indefinidamente sem meta ou critério de sucesso ### 8.3. Comunicação de Valor ao Paciente: Script Sugerido > \"A tirzepatida é um dos medicamentos mais eficazes que temos hoje para tratamento de obesidade, com estudos mostrando perda média de 15 a 20% do peso em pouco mais de um ano. No entanto, preciso ser transparente sobre alguns pontos:\n>\n> Primeiro, este é um tratamento de longo prazo. A obesidade é uma doença crônica, como hipertensão ou diabetes. Se você parar o medicamento, a tendência é recuperar o peso perdido — isso não é falha sua, é a biologia da doença.\n>\n> Segundo, o custo é significativo — cerca de [valor atualizado] por mês — e não é coberto pelo SUS para obesidade. Precisamos ter certeza de que isso é sustentável para você, porque começar e parar por razão financeira não é ideal.\n>\n> Terceiro, o medicamento tem efeitos colaterais, principalmente náusea e alterações intestinais. A maioria das pessoas tolera bem, mas algumas não conseguem continuar.\n>\n> Existem alternativas que podemos considerar se este não for o caminho certo para você. O que acha? Tem perguntas?\" --- ## 9. Papel da Educação Continuada na Prescrição Responsável ### 9.1. Como a Educação Doutiva Sustenta a Prática Ética A Doutiva sustenta prática ética com educação clínica rigorosa e atualização regulatória. O modelo educacional: 1. **Qualifica o prescritor** para distinguir evidência robusta de marketing\n2. **Fornece ferramentas práticas** (fluxogramas, checklists, modelos de TCLE) que reduzem erro\n3. **Reforça limites éticos** — não prescrever research peptides, GH para anti-aging, drips sem indicação [S10][S13]\n4. **Atualiza sobre regulamentação** — CFM, ANVISA, LGPD [S2][S8][S13]\n5. **Promove autonomia do prescritor** — capacidade de avaliar criticamente novas evidências ### 9.2. O Que a Educação NÃO Substitui - Avaliação clínica individualizada\n- Julgamento médico em casos complexos\n- Responsabilidade legal e ética do prescritor\n- Verificação independente de doses e indicações (nunca aceitar dose de LLM sem checar bula/guideline) [S3] --- ## 10. Referências Âncora | Código | Referência |\n|--------|------------|\n| [G1] | Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. *N Engl J Med* 2022. DOI: 10.1056/NEJMoa2206038 |\n| [G2] | Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes. *Lancet* 2023. DOI: 10.1016/S0140-6736(23)01200-X |\n| [G3] | Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT). *N Engl J Med* 2023. DOI: 10.1056/NEJMoa2307563 |\n| [G4] | Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). *N Engl J Med* 2021. DOI: 10.1056/NEJMoa2032183 |\n| [G5] | Perkovic V, et al. Semaglutide and Renal Outcomes in Type 2 Diabetes (FLOW). *N Engl J Med* 2024. DOI: 10.1056/NEJMoa2403347 |\n| [G6] | Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity (SURMOUNT-5). *N Engl J Med* 2025. DOI: 10.1056/NEJMoa2416392 |\n| [G7] | Consenso multissociedades — GLP-1 e risco perioperatório de aspiração. 2023. |\n| [S6] | Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). *JAMA* 2021. DOI: 10.1001/jama.2021.3224 |\n| [S7] | WHO / Sociedades de Obesidade — Obesidade como doença crônica (síntese). 2020. |\n| [S8] | ANVISA — Boas Práticas de Manipulação (síntese). 2022. |\n| [S11] | CDC/NEJM — Surto de meningite fúngica por falha de esterilidade (NECC). 2013. DOI: 10.1056/NEJMoa1213978 |\n| [S12] | USP <797> — Manipulação estéril (visão do prescritor). 2023. |\n| [S13] | CFM Resolução 2.333/2023 — Restrição a hormonioterapia estética/anti-aging. |\n| [S20] | Consenso — GLP-1 e risco perioperatório. 2023. | --- ## Síntese Final: Ações Acionáveis para o Prescritor 1. **Antes de prescrever:** verificar status ANVISA atualizado; confirmar certificação da farmácia estéril; excluir contraindicações\n2. **No momento da prescrição:** obter TCLE completo; documentar indicação, riscos, custos e alternativas; registrar plano de titulação\n3. **Durante o tratamento:** monitorar peso, tolerância e laboratório conforme cronograma; ajustar medicações concomitantes; documentar cada consulta\n4. **Na decisão de manutenção/descontinuação:** explicitar que terapia é crônica; não há protocolo validado de desmame; reganho é esperado se suspender\n5. **Sempre:** rejeitar research peptides, uso estético puro, anti-aging sem indicação; manter-se atualizado; renovar TCLE anualmente > **A prescrição de tirzepatida e agonistas incretínicos, especialmente manipulados, só se justifica em ambiente de excelência documental, ética e educacional. A Doutiva existe para garantir que o prescritor tenha as ferramentas para essa prática — a responsabilidade final permanece com o médico diante de cada paciente.**",
+  "quick_ref": "# Tirzepatida e Incretinas no Consultório — Guia Rápido ## Indicações Básicas\n- Obesidade: IMC ≥30 ou ≥27 com comorbidades\n- DM2: indicação aprovada para tirzepatida e semaglutida ## Dose Inicial e Titulação (Tirzepatida)\n| Período | Dose SC semanal |\n|---------|-----------------|\n| Sem 0-4 | 2,5 mg |\n| Sem 4-8 | 5,0 mg |\n| Sem 8-12 | 7,5 mg |\n| Sem 12-16 | 10,0 mg |\n| Sem 16+ | 12,5–15,0 mg (máx.) | *Prolongar etapas se náusea/vômito grau 2+ ## Monitoramento Clínico e Laboratorial\n- Peso, PA a cada consulta\n- Glicemia e HbA1c se DM2 (baseline + 12, 24 semanas, depois trimestral)\n- Função renal e hepática (baseline e periódicos)\n- Avaliar sintomas GI e sinais de pancreatite ## Contraindicações Absolutas\n- Gravidez e lactação\n- História pessoal/familiar de carcinoma medular tireoide ou NEM2\n- Pancreatite aguda recente\n- Gastroparesia grave ## Adverse Effects Chave\n| Evento adverso | Frequência (%) |\n|----------------|----------------|\n| Náusea | 24–33 |\n| Diarreia | 18–23 |\n| Vômitos | 8–12 |\n| Descontinuação por EA | 4,3–7,1 | ## Checklist Prontuário\n- Diagnóstico documentado\n- Avaliação laboratorial inicial\n- Discussão de riscos e benefícios\n- TCLE informado e assinado\n- Prescrição com dose e plano de titulação\n- Farmácia certificada para manipulado\n- Plano de acompanhamento e data de retorno ## Red Flags Consultório\n- Dor abdominal intensa ou persistente\n- Vômitos refratários\n- Sintomas sugestivos de painel biliar\n- Gestação confirmada durante terapia\n- Falta de adesão ou dúvidas sobre custo ## Notas Éticas\n- Prescrição só com indicação clínica real\n- Rejeitar research peptides e uso estético sem indicação\n- Paciente deve entender terapia crônica e custo # Referências\nG1, G2, G3, G4, G5, G6, S6, S7, S8, S11, S12, S13",
+  "clinical_case": {
+    "title": "Paciente com Obesidade Classe II Manifestando Interesse em Terapia com Tirzepatida Manipulada",
+    "vignette": "Mulher, 48 anos, IMC 36 kg/m², com hipertensão controlada e dislipidemia, insatisfeita com tentativas prévias de perda de peso com dieta e exercício. Relata interesse em tratamento medicamentoso, refere ceticismo sobre medicamentos convencionais e manifesta dúvida sobre tratamentos manipulados. Trabalho de renda média mensal. Sem contraindicações óbvias, não gestante.",
+    "question": "Qual a conduta ética e mais apropriada para iniciar terapia com tirzepatida manipulada frente ao quadro apresentado?",
+    "teaching": "Este caso ilustra a importância de avaliação ampla incluindo contraindicações, indicação clínica justificada e comunicação clara com o paciente. Deve-se realizar exames laboratoriais iniciais, avaliar riscos, contraindicações absolutas e relativas, explicar o caráter crônico do tratamento, custos envolvidos e riscos de reganho ao suspender. Deve-se obter TCLE específico, preferir farmácia certificada, detalhar plano de titulação e monitoramento, e documentar tudo no prontuário. É crucial esclarecer que o uso manipulado deve obedecer à equivalência farmacológica dos produtos registrados e garantir rastreabilidade. A prescrição por aspectos estéticos ou anti-aging é proibida pelo CFM. O médico deve rejeitar ofertas de research peptides e utilizar evidência para fundamentar o tratamento.",
+    "reward": 10,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "48 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "HAS controlada, Dislipidemia"
+      },
+      {
+        "label": "Tentativas anteriores",
+        "value": "Dieta e exercício, sem sucesso"
+      },
+      {
+        "label": "Contraindicações",
+        "value": "Nenhuma aparente"
+      },
+      {
+        "label": "Renda",
+        "value": "Média mensal"
+      },
+      {
+        "label": "Interesse",
+        "value": "Tratamento com tirzepatida manipulada"
+      },
+      {
+        "label": "Status nutricional",
+        "value": "Obesidade classe II"
+      }
+    ],
+    "options": [
+      {
+        "label": "Iniciar imediatamente tirzepatida manipulada, sem necessidade de TCLE, justificando que é uso estético e consultório particular",
+        "correct": false,
+        "rationale": "Não condiz com normas éticas e regulatórias vigentes, desrespeita necessidade de consentimento e indicação clínica."
+      },
+      {
+        "label": "Solicitar exames básicos, excluir contraindicações, discutir benefícios, riscos, custo, obter TCLE específico, prescrever em farmácia certificada e acompanhar rigorosamente",
+        "correct": true,
+        "rationale": "Conduta alinhada com melhores práticas éticas, regulamentação ANVISA e CFM, garantindo segurança e informação correta ao paciente."
+      },
+      {
+        "label": "Recomendar somente mudanças de estilo de vida, sem discutir medicamentos por custo e riscos, negando acesso à terapia farmacológica",
+        "correct": false,
+        "rationale": "Negar terapia comprovada não é indicativo ético quando indicado e após avaliação, a menos que haja contraindicação."
+      },
+      {
+        "label": "Prescrever semaglutida oral como primeiro passo, mesmo que com eficácia inferior, para depois avançar a tirzepatida manipulada",
+        "correct": false,
+        "rationale": "A semaglutida oral pode ser opção, mas demanda avaliação clínica para definir melhor tratamento; decisão deve ser conjunta, não automatizada."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. DOI:10.1056/NEJMoa2206038"
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes. Lancet. 2023;401(10381):394-409. DOI:10.1016/S0140-6736(23)01200-X"
+    },
+    {
+      "citation": "Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes (SELECT). N Engl J Med. 2023;388(12):1089-1099. DOI:10.1056/NEJMoa2307563"
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1). N Engl J Med. 2021;384(11):989-1002. DOI:10.1056/NEJMoa2032183"
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA. 2021;325(14):1414-1425. DOI:10.1001/jama.2021.3224"
+    },
+    {
+      "citation": "ANVISA. Boas Práticas de Manipulação. 2022. https://www.gov.br/anvisa",
+      "url": "https://www.gov.br/anvisa"
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 — Terapias hormonais para finalidade estética/anti-aging. Conselho Federal de Medicina. 2023. https://portal.cfm.org.br",
+      "url": "https://portal.cfm.org.br"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

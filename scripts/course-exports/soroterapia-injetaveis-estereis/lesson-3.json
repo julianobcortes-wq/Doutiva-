@@ -1,0 +1,311 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Evidência",
+  "title": "Reposição Intravenosa: Evidência, Critério e Limites Éticos no Consultório Brasileiro",
+  "description": "Análise crítica e aprofundada sobre a aplicação da reposição intravenosa de vitaminas, minerais e fluidos em consultórios médicos, diferenciando indicações clinicamente sustentadas por deficiências documentadas das práticas sem evidência robusta conhecidas como \"wellness drip\". Revisão dos aspectos regulatórios brasileiros, condutas clínicas, segurança e ética do prescritor.",
+  "duration_minutes": 60,
+  "evidence_level": "A–D, conforme substância e contexto clínico",
+  "key_points": [
+    "Reposição IV deve ser indicada exclusivamente para deficiência laboratorial/documentada ou situação clínica específica, nunca para modismos ou performance.",
+    "Produtos usados em infusão IV devem estar registrados pela ANVISA ou ser manipulados sob rigorosas Boas Práticas de Manipulação Estéril (BPME).",
+    "CFM Resolução 2.333/2023 proíbe o uso de injetáveis – vitaminas, minerais ou hormônios – para fins estéticos, anti-aging ou de performance sem indicação clínica comprovada.",
+    "Monitoramento e documentação rigorosa são obrigatórios: exames, justificativa clínica, consentimento informado, registro detalhado no prontuário e farmacovigilância.",
+    "Doses seguras e protocolos específicos variam conforme substância, necessidade e risco individual; infusão deve ocorrer em ambiente equipado, com equipe treinada.",
+    "Drips intravenosos indiscriminados, sem indicação, podem causar reações adversas graves e problemas legais para prescritor e farmácia.",
+    "Separar claramente indicações para ferro IV, vitamina C, complexo B e magnésio é crucial para evitar uso irracional e riscos éticos e clínicos."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Reposição Intravenosa: Evidência, Critério e Limites Éticos",
+      "subtitle": "Módulo 2 – Evidência em Soroterapia e Injetáveis Estéreis com Critério – Doutiva 2024"
+    },
+    {
+      "kind": "table",
+      "title": "Tabela Regulatório: Status da Prescrição para Reposição IV no Brasil",
+      "head": [
+        "Substância",
+        "Registrado",
+        "Off-label",
+        "Manipulado",
+        "Não prescrever"
+      ],
+      "rows": [
+        [
+          "Vitamina C",
+          "Sim",
+          "Escorbuto, sepse crítico*",
+          "Sim",
+          "Uso para \"imunidade\" e estética sem déficit"
+        ],
+        [
+          "Complexo B",
+          "Sim",
+          "Deficiência documentada",
+          "Sim",
+          "Energia, performance, estética sem déficit"
+        ],
+        [
+          "Magnésio",
+          "Sim (Sulfato, Cloreto)",
+          "Hipomagnesemia grave",
+          "Sim",
+          "Relaxamento, antiestresse, moda"
+        ],
+        [
+          "Ferro IV",
+          "Sim",
+          "Anemia ferropriva falha VO",
+          "Sim",
+          "Drip energético sem anemia"
+        ],
+        [
+          "Hidratação IV",
+          "Sim",
+          "Desidratação clínica",
+          "Não aplicável",
+          "Disposição, detox sem base"
+        ]
+      ],
+      "source": "Síntese Doutiva [S9], [S10], [S13], [S15]"
+    },
+    {
+      "kind": "bars",
+      "title": "Dados de Ensaio para Ferro IV em Anemia Ferropênica",
+      "unit": "",
+      "source": "Síntese Doutiva [S9]",
+      "bars": [
+        {
+          "label": "Redução significativa do tempo para normalização da Hb: média 4 semanas vs oral 8 semanas [S9].",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Risco de reação anafilática < 1% conforme coorte hospitalar [S9].",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Melhora na qualidade de vida relatada em 70% dos pacientes tratados vs 50% no grupo oral [S9].",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Doses até 1000 mg/dose seguras com monitoração adequada.",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Doses Seguras e Monitoramento das Principais Substâncias em Reposição IV",
+      "head": [
+        "Substância",
+        "Dose (IV)",
+        "Monitoramento",
+        "Não Prescrever"
+      ],
+      "rows": [
+        [
+          "Vitamina C",
+          "1–3g/dia IV, lento",
+          "Creatinina, glicemia, sinais alergia",
+          "Modismos, estética"
+        ],
+        [
+          "Complexo B (B12)",
+          "1 mg/dia x 5–10 dias IV",
+          "Folato, sintomas neurológicos",
+          "Energia, performance sem déficit"
+        ],
+        [
+          "Magnésio (Sulfato)",
+          "1–2 g IV em 60+ min",
+          "ECG, PA, reflexos patelares",
+          "Relaxamento, antiestresse sem déficit"
+        ],
+        [
+          "Ferro IV",
+          "200–1000 mg/dose, lento",
+          "Ferritina, Hb, sinais anafilaxia",
+          "Drip energético sem anemia"
+        ],
+        [
+          "Hidratação",
+          "500–1000 mL SF ajustado",
+          "Balance hídrico, congestão cardíaca",
+          "Disposição, detox sem base"
+        ]
+      ],
+      "source": "Síntese Doutiva [S9], [S10]"
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo Clínico: Prescrição Ética e Segura de Reposição IV no Brasil",
+      "steps": [
+        {
+          "label": "1. Identificar suspeita clínica de deficiência vitamínico-mineral."
+        },
+        {
+          "label": "2. Confirmação laboratorial da deficiência com exames recentes e confiáveis."
+        },
+        {
+          "label": "3. Avaliar necessidade de via IV (oral inviável/falha/má absorção/emergência)."
+        },
+        {
+          "label": "4. Verificar registro ANVISA do produto e exigir documentos da farmácia manipuladora (BPME)."
+        },
+        {
+          "label": "5. Avaliar contraindicações e riscos individuais (função renal, cardíaca, alergias)."
+        },
+        {
+          "label": "6. Obter consentimento informado detalhado, esclarecendo riscos e exclusão de indicações estéticas."
+        },
+        {
+          "label": "7. Realizar infusão em ambiente adequado com monitorização e equipe capacitada."
+        },
+        {
+          "label": "8. Monitorar pós-infusão por pelo menos 30 minutos, registrar sinais vitais e reações."
+        },
+        {
+          "label": "9. Agendar reavaliações clínica e laboratorial para ajuste terapêutico."
+        },
+        {
+          "label": "10. Registrar em prontuário todas as etapas, incluindo lote do produto e farmacovigilância em caso de eventos adversos."
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Reposição IV: Deficiência Documentada vs Moda \"Wellness Drip\"",
+      "left": {
+        "label": "Indicação Clínica",
+        "items": [
+          "Deficiência Documentada",
+          "\"Wellness Drip\" / Moda"
+        ]
+      },
+      "right": {
+        "label": "Prática Frequente",
+        "items": [
+          "Definição clara com exame laboratorial; indicação médica formal.",
+          "Sem comprovação laboratorial, motivada por marketing ou sensação subjetiva."
+        ]
+      }
+    },
+    {
+      "kind": "bullets",
+      "title": "Principais Riscos e Considerações Éticas na Prescrição de Reposição IV",
+      "bullets": [
+        "Uso indiscriminado pode levar a reações alérgicas graves e sobrecarga orgânica.",
+        "Prescrição fora do protocolo pode acarretar responsabilização ética, civil e criminal do médico.",
+        "Exigir farmácias com comprovada qualificação e rastreabilidade minora riscos de contaminação.",
+        "Consentimento informado detalhado é obrigatório, com esclarecimento sobre ausência de benefícios para moda/estética.",
+        "Monitoramento rigoroso previne eventos adversos e reforça a segurança do paciente.",
+        "CFM 2.333/2023 reforça limitação do uso de injetáveis para fins não médicos legítimos.",
+        "Promoção de terapias não registradas ou research peptides é ilegal e antiética."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Mensagem Central",
+      "text": "A reposição intravenosa é uma ferramenta terapêutica eficaz e segura desde que indicada com critério, sustentada por evidência e executada em ambiente regulamentado, jamais um modismo ou shortcut para \"bem-estar\" sem base clínica, para preservar a ética médica e a segurança do paciente."
+    }
+  ],
+  "monograph": "# Reposição Intravenosa: Evidência, Critério e Limites Éticos no Consultório Brasileiro --- ## 1. Contexto: Reposição IV — Entre Deficiência Real e Modismos (\"Wellness Drip\") A popularização da reposição intravenosa de vitaminas, minerais e co-fatores (“soroterapia”, “IV drips”) em consultórios nutrológicos e clínicos demanda rigor: separar indicações sustentadas por deficiência laboratorial/documentada de modismos sem respaldo clínico é essencial para proteção do paciente, ética médica e defesa do prescritor. **Pontos-chave deste tratado:**\n- Evidência (grau A–D) para infusão IV de vitamina C, complexo B, magnésio, ferro e hidratação.\n- Limites éticos e legais (ANVISA, CFM 2.333/2023, manipulação estéril, consentimento informado, farmacovigilância).\n- Critérios clínicos para prescrição, doses seguras e conduta em eventos adversos.\n- Diferenças entre repor déficits autênticos vs. modismos (“wellness drip”) — e os riscos de cada abordagem. --- ## 2. Princípios Científicos e Regulatórios ### Fundamentação - **Indicação clínica e/ou déficit laboratorial documentado** são mandatórios para prescrição IV.\n- O produto deve ser registrado na ANVISA ou, quando manipulado, atender a todas as Boas Práticas de Manipulação estéril (BPME).\n- A Resolução CFM 2.333/2023 PROÍBE uso estético, antienvelhecimento ou de performance para substâncias injetáveis/hormônios/minerais sem déficit comprovado ([S13], [S19]).\n- Prescritores respondem ética, civil e criminalmente por desvios do padrão regulatório ([S5], [S8], [S13], [S19]). --- ## 3. Tabela Regulatório: Registrado / Off-label / Manipulado / Não Prescrever | Substância | Apresentação Registrada (ANVISA) | Off-label reconhecido | Manipulado permitido | NÃO Prescrever (Regulat.) |\n|-------------------|----------------------------------|----------------------|----------------------|-----------------------------------|\n| Vitamina C | Ampola IV 500 mg/5 mL | Escorbuto, sepse crítico* | Sim, deficit comprovado | “Wellness drip”, estética, sem déficit |\n| Complexo B | Ampolas industriais B1, B6, B12 | Hipovitaminose documentada | Sim, com indicação formal | Performance, energia, estética |\n| Magnésio | Sulfato/cloreto Mg, IV | Hipomagnesemia grave | Sim | “Relaxamento”, antiestresse, moda |\n| Ferro | Diversas, IV (hospitalar/ambulat.)| Anemia ferropriva com falha VO | Sim, se déficit | Wellness drip, energia, beleza |\n| Hidratação | Soluções IV (SF, Ringer) | Desidratação clínica | N/A | “Disposição”, antifadiga, moda | ***Notas**: Uso em sepse permanece investigacional; não é padrão ambulatorial de rotina ([S9], [S10]).* --- ## 4. Fluxograma de Conduta Clínica — Reposição IV no Brasil ```markdown\n1. Suspeita clínica de deficiência vitamínica/mineral? 2. Realizar anamnese, exame físico e exames laboratoriais (deficiência objetiva/documentada). 3. Verificar indicação clínica para via IV (oral ineficaz, absorção prejudicada, emergência/não tolera VO). 4. Produto/insumo registrado ANVISA? Exigir laudo e procedência (farmácia estéril credenciada, [S12]). 5. Avaliar contraindicações para infusão IV: IC, DRC grave, risco de sobrecarga, alergias conhecidas. 6. Proceder consentimento informado detalhado e registro em prontuário. 7. Realizar reposição IV conforme dose segura, em ambiente equipado (equipe treinada, equipamento de emergência, monitorização). 8. Monitoramento pós-infusão por pelo menos 30 minutos: sinais vitais, reações adversas imediatas. 9. Programar reavaliação clínica e laboratorial. 10. Documentar desfecho, intercorrências/notificação farmacovigilância ANVISA se evento adverso.\n```\n--- ## 5. Checklist de Prontuário e Consentimento **Checklist Obrigatório:**\n- [ ] Motivo da indicação/diagnóstico clínico.\n- [ ] Exames laboratoriais comprovando deficiência (com data, valores, referência).\n- [ ] Justificativa da via intravenosa (ex.: malabsorção, emergência, falha VO).\n- [ ] Produto: nome comercial, lote, validade, origem (registro ANVISA/documentação farmácia manipuladora + laudo microbiológico do lote).\n- [ ] Dose, diluição, velocidade de infusão, total de aplicações planejadas.\n- [ ] Avaliação de contraindicações (função renal, cardíaca, alergias).\n- [ ] Consentimento informado formal assinado — detalhar riscos, benefícios, alternativas e não uso para estética/performance.\n- [ ] Registro obrigatório de quem aplicou, horário, sinais vitais e eventual reação adversa.\n- [ ] Orientação pós-procedimento e agendamento de retorno para avaliação clínica/laboratorial de resposta.\n- [ ] Registro de farmacovigilância/notificação à ANVISA em caso de EA.\n- [ ] Confirmação de que não houve uso fora de indicação ou para “wellness drip”. --- ## 6. Substância por Substância: Evidência e Conduta --- ### 6.1 Vitamina C IV #### 6.1.1 Evidência - **Indicação A/B:** Escorbuto, deficiência confirmada — uso IV quando via oral não possível ([S10]).\n- **Indicação C:** Sepse grave (ECR CITRIS-ALI): melhora discreta em SOFA score, sem redução de mortalidade/tempo de internação; não rotineiramente recomendada ([S10]). Dose habitual: 1,5 g 6/6h EV x 4 dias.\n- **Indicação D:** “Wellness drip”, imunidade, antifadiga, estética — sem apoio em ECRs/guidelines ([S3], [S10]). ***ALERTA:** Evite extrapolar benefício em escore de gravidade (SOFA) como desfecho clínico decisivo. Não usar em contexto ambulatorial de moda.* #### 6.1.2 Doses e Orientações - Escorbuto: 1–3g/dia IV, divididos 1–2x/dia (dose hospitalar, via oral preferencial quando possível).\n- Sepse: 1,5g 6/6h IV, máximo 4 dias ([S10]); apenas contexto hospitalar.\n- **Infundir devagar (<30 minutos).**\n- *Atenção à função renal e risco de nefropatia por oxalato em DRC grave.* #### 6.1.3 Riscos e Eventos Adversos - Reações alérgicas (urticária, broncoespasmo), flebite, desconforto local, possível hipoglicemia laboratorial (interferência analítica).\n- Risco de nefrolitíase em predispostos.\n- Sempre manter protocolo de suporte avançado.\n- NÃO prescrever para uso estético, “vitamina para imunidade”, fadiga sem déficit. --- ### 6.2 Complexo B IV #### 6.2.1 Evidência - Indicação A: Deficiência de B12 conferida laboratorialmente (B12 <200 pg/mL ou sintomas neurológicos).\n- Indicação B: Alcoholismo grave (B1 IV), apouro proteico, bariátrica, má-absorção.\n- Indicação D: Energia, wellness, performance, drip estético — SEM base ([S10]).\n- **ALERTA:** Sempre monitorar folato ao corrigir B12; tratar ambos se deficiência concomitante. #### 6.2.2 Doses e Orientações - **B12:** 1 mg/dia EV (IM alternativo) x 5–10 dias; depois VO. Repetição conforme resposta. - **B1 (tiamina):** 100–500 mg EV (em álcool/Wernicke); administrar antes de glicose EV. - **B6:** sob indicação específica (ex.: isoniazida/tuberculose). - Velocidade de infusão: lenta, monitorar sinais alérgicos. #### 6.2.3 Riscos - Reação anafilactóide (mais rara), prurido local, hipotensão.\n- B12 pode mascarar deficiência de folato; risco hematológico/neuro.\n- Nunca prescrever DRIP “energético” sem déficit. --- ### 6.3 Magnésio IV #### 6.3.1 Evidência - **Indicação A/B:** Hipomagnesemia sintomática ou grave (<1,2 mg/dL), arritmias, pré-eclâmpsia, crise asmática refratária ([S10]).\n- **Indicação D:** Relaxamento, performance, antiestresse via IV — sem base em ECR/guideline. #### 6.3.2 Doses e Orientações - Dose usual: 1–2g sulfato/cloreto de magnésio EV, diluído em 100 mL soro, preferir infusão >60 minutos (até 12h em sintomas graves).\n- Monitorar: ECG, PA, reflexos patelares.\n- *Infusão rápida = risco de rubor, hipotensão, náusea, efeito neuromuscular.* #### 6.3.3 Riscos - Rubor, náusea, queda de PA, arritmia em altas doses, parada respiratória.\n- Populações de risco: DRC, idosos, debilitados. --- ### 6.4 Ferro IV #### 6.4.1 Evidência - **Indicação A:** Anemia ferropriva comprovada + falha/intolerância oral, má-absorção, doença crônica ([S9]).\n- Dose TOTAL deve ser calculada individualmente (kg/paciente + déficit Hb desejada).\n- **Indicação D:** Drip energético, performance, fadiga inespecífica sem anemia — PROIBIDO ([S9], [S13]). #### 6.4.2 Doses e Orientações - Seguir bula/consenso: ex. carboximaltose férrica, até 1000 mg/dose, divisão conforme tolerabilidade.\n- Teste de sensibilidade na primeira aplicação (risco de anafilaxia).\n- Monitorar ferritina, Hb, saturação — evitar hemocromatose. - Infusão lenta: mínimo 15–60 minutos. #### 6.4.3 Riscos - Anafilaxia (<1%), flebite, elevação transitória das transaminases, dor muscular.\n- População especial: evitar uso liberal — risco de sobrecarga, principalmente em doença hepática e DRC. --- ### 6.5 Hidratação IV #### 6.5.1 Evidência - **Indicação A:** Hipovolemia/desidratação grave, vômitos intratáveis, quadros agudos que proíbam a via oral.\n- **Indicação D:** Soro de disposição, drip antifadiga, “detox” — sem base ([S10]). #### 6.5.2 Doses e Orientações - 500–1000 mL SF 0,9% ajustado pelo status hídrico e comorbidades.\n- Idosos, IC, DRC — redução do volume, monitoramento contínuo.\n- Atenção ao balanço hídrico para evitar hipervolemia.\n- Nunca infundir bolus rápido em ambiente não hospitalar. --- ## 7. Populações de Risco e Contraindicações - Gestantes: IV apenas quando imprescindível — seguir diretrizes obstétricas.\n- Crianças: sempre avaliar peso/indicação, produtos apropriados.\n- DRC, IC, hepatopatas: risco de intoxicação, sobrecarga, necessidade de redução de dose e monitoramento ampliado ([S10]). --- ## 8. Segurança, Ambiente e Farmacovigilância - Exija farmácias com sala limpa, laudos, rastreio de lote, profissionais formados ([S12]).\n- Consultório: equipe trienada em suporte básico de vida e equipamento de emergência.\n- Notificar eventos adversos — farmacovigilância ANVISA ([S8], [S12]).\n- Prover sistema de registro e descarte correto de resíduos/lixo contaminante (conforme RDC vigente). --- ## 9. Rigor Ético-Regulatório - Publicidade/alegação de efeito não comprovado é infração ética e sanitária — risco de sanções administrativas e judiciais ([S5], [S13]).\n- Prescrição sem respaldo ético/científico/ANVISA = infração grave, risco de suspensão profissional.\n- CFM 2.333/2023: bloqueia hormonioterapia e injetáveis para fins estéticos e performance sem base clínica.\n- Prescritor responde em solidariedade com a farmácia por violação de BPME. --- ## 10. O Que NÃO Prescrever - Vitaminas/minerais para imunidade, beleza, disposição, performance sem déficit laboratorial.\n- “Cocktails” polivitamínicos indiscriminados.\n- Peptídeos/“research chemicals” com advertência FDA/ANVISA.\n- Produtos injetáveis manipulados fora de BPME ou sem rastreabilidade. --- ## 11. Tabela de Resumo – Reposição IV por Substância (Evidência A–D) | Substância | Indicação A | Grau | Dose IV (segura) | Monitorar | Não Prescrever Para |\n|---------------|-------------|------|-------------------|----------------------|------------------------------------------|\n| Vitamina C | Escorbuto | B | 1-3g/d | Renal, glicemia | Wellness drip, moda, imunidade sem déficit |\n| Complexo B | B12 <200 | A | 1mg/d x5-10d | Folato, neuro | Energia, performance, estética |\n| Magnésio | Hipo grave | B | 2g/60min+ | ECG, PA, reflexos | Anti-stress, relaxamento, moda |\n| Ferro | Anemia c/ falha VO | A | 200–1000mg/infusão | FE/Hb/ferritina, AE | Energia, anti-fatiga sem anemia |\n| Hidratação | Hipovolemia | A | 500–1000mL | Congestão, renal | Disposição, antifadiga, detox, moda | --- ## 12. Caso Real – Fluxo e Conduta **Paciente: 68a, IC classe II, anemia refratária a ferro oral, ferritina 12 ng/mL, Hb 8,6 g/dL.** *Conduta correta: cálculo da dose total de ferro IV, hospital dia, monitorização rigorosa, ambiente seguro, documentação de todo o processo e consentimento informado.* --- ## 13. Referências Fundamentais - [S9] Intravenous iron: guideline-aligned use. Síntese Doutiva (2021).\n- [S10] Intravenous nutrient therapy: evidence appraisal. Síntese Doutiva (2018).\n- [S12] USP <797> (2023): compounding — requisitos estruturais.\n- [S13], [S19] CFM Res. 2.333/2023: ética médica em reposição IV/estética.\n- [S8] ANVISA: farmacovigilância, rastreabilidade, Boas Práticas\n- [S5] Sarcopenia, definição e diagnóstico (EWGSOP2).\n- (Conferir portarias e guidelines nacionais para atualização perpétua, não extrapolar para dados além das fontes citadas.) --- # Fim do Tratado Clínico - Doutiva *Material autorizado somente para formação de prescritores conscientes — não reproduzir fins comerciais; adaptar fluxos a normativas vigentes da sua UF.*",
+  "quick_ref": "## Guia Rápido para Prescrição Ética e Segura de Reposição IV | Substância | Dose IV (segura) | Indicação Clínica Exemplar | Contraindicações Rápidas |\n|-------------|---------------------------|------------------------------------|---------------------------------|\n| Vitamina C | 1–3 g/dia (infusão lenta) | Escorbuto, sepse hospitalar* | DRC grave, alergia, nefrolitíase |\n| Complexo B | B12: 1 mg/d x 5-10 dias | Deficiência B12 documentada | Hipersensibilidade a cobalamina |\n| Magnésio | 1–2 g em ≥60 min | Hipomagnesemia grave, arritmias | IR grave, bloqueios AV |\n| Ferro IV | 200–1000 mg/dose | Anemia ferropriva + falha VO | Reação anafilática prévia, sobrecarga |\n| Hidratação | 500–1000 ml SF ajustado | Desidratação clinicamente confirmada | IC descompensada, hipervolemia | *Sepse: uso ainda investigacional e hospitalar. --- ## Red Flags para Não Prescrever Reposição IV - Ausência de déficit laboratorial documentado.\n- Indicação para \"wellness\", imunidade, beleza, energia sem evidências.\n- Produtos sem registro ANVISA ou manipulados fora de BPME.\n- Falta de ambiente e equipe treinada para monitoramento e suporte.\n- Ausência de consentimento informado ou documentação incompleta. --- ## Checklist para Consultório - Confirmação da deficiência e indicação clínica explícita.\n- Documentação completa de exame e pedido.\n- Origem e qualidade do produto (registro/lote/laudo).\n- Consentimento informado assinado.\n- Planejamento de dose, via e monitoramento.\n- Registro rigoroso no prontuário e farmacovigilância.\n- Ambiente com equipamento de emergência e equipe capacitada.",
+  "clinical_case": {
+    "title": "Anemia Ferropriva Refratária: Indicação e Manejo de Ferro IV",
+    "vignette": "Paciente masculino, 68 anos, com insuficiência cardíaca classe II, relata fadiga progressiva e dispneia aos esforços leves. Exames laboratoriais recentes indicam hemoglobina 8,6 g/dL, ferritina 12 ng/mL, saturação de transferrina baixa, sem resposta após 4 semanas de ferro oral. Não apresenta alergias conhecidas. Avaliação cardíaca estável.",
+    "question": "Qual a conduta mais segura e ética para a reposição de ferro intravenoso neste paciente?",
+    "teaching": "A anemia ferropriva comprovada com falha ao tratamento oral, especialmente em paciente com comorbidades (IC), justifica a reposição de ferro IV. A dose deve ser calculada individualmente para suprir o déficit, e o procedimento deve ocorrer em ambiente com monitorização rigorosa para reações adversas. Consentimento informado e documentação detalhada são obrigatórios. O ferro IV não deve ser usado indiscriminadamente para fadiga sem avaliação. Esse caso ilustra a necessidade do equilíbrio entre evidência clínica, segurança e ética no uso de terapias intravenosas.",
+    "reward": 10,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "68 anos"
+      },
+      {
+        "label": "Doença cardiológica",
+        "value": "Insuficiência cardíaca classe II"
+      },
+      {
+        "label": "Hemoglobina",
+        "value": "8,6 g/dL"
+      },
+      {
+        "label": "Ferritina",
+        "value": "12 ng/mL"
+      },
+      {
+        "label": "Tratamento oral",
+        "value": "Ferro por 4 semanas, sem resposta"
+      },
+      {
+        "label": "Alergias",
+        "value": "Nenhuma conhecida"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, dispneia leve"
+      }
+    ],
+    "options": [
+      {
+        "label": "Prescrever ferro IV após cálculo de dose total, monitorar em hospital-dia, obter consentimento informado e registrar tudo no prontuário.",
+        "correct": true,
+        "rationale": "Conduta alinhada às diretrizes e segurança clínica, com documentação e monitoramento necessários."
+      },
+      {
+        "label": "Continuar ferro oral por mais 4 semanas, independente dos exames laboratorias.",
+        "correct": false,
+        "rationale": "Falha ao tratamento oral já documentada, risco de prolongar deficiência e sintomas."
+      },
+      {
+        "label": "Prescrever infusão de vitaminas do complexo B para melhorar energia e fadiga.",
+        "correct": false,
+        "rationale": "Sem evidência para B complexo em anemia ferropriva; indicações específicas e baseadas em deficiência documentada são necessárias."
+      },
+      {
+        "label": "Iniciar terapia com peptides manipulados para melhora do hematócrito.",
+        "correct": false,
+        "rationale": "Uso de peptídeos não registrado para essa indicação é ilegal e antiético; falta de evidência e riscos potenciais."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations. United States Pharmacopeia, 2023.",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "Fungal meningitis outbreak associated with contaminated steroid injections. NEJM, 2013; 10.1056/NEJMoa1213978",
+      "url": "https://doi.org/10.1056/NEJMoa1213978"
+    },
+    {
+      "citation": "Intravenous nutrient therapy (Myers cocktail) — evidence appraisal. Síntese Doutiva, 2018."
+    },
+    {
+      "citation": "Intravenous iron for iron deficiency — guideline-aligned use. Síntese Doutiva, 2021."
+    },
+    {
+      "citation": "ANVISA — Princípios de Boas Práticas de Manipulação. 2022. https://www.gov.br/anvisa/",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 — restrição a hormonioterapia estética/anti-aging. Conselho Federal de Medicina, 2023.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2). Age Ageing 2019; 10.1093/ageing/afy169",
+      "url": "https://doi.org/10.1093/ageing/afy169"
+    },
+    {
+      "citation": "Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA 2021;10.1001/jama.2021.3224",
+      "url": "https://doi.org/10.1001/jama.2021.3224"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

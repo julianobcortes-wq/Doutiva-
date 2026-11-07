@@ -1,0 +1,441 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Incretinas",
+  "module_position": 2,
+  "title": "Semaglutida e Tirzepatida: Leitura Crítica dos Estudos STEP, SURMOUNT, SELECT, FLOW, SURMOUNT-5 e Head-to-Head",
+  "description": "Análise aprofundada dos principais ensaios clínicos da semaglutida e tirzepatida no tratamento da obesidade e diabetes tipo 2, com foco em eficácia ponderal, desfechos cardiovasculares, efeitos na composição corporal, reganho após retirada, indicações no Brasil, doses, monitoramento, contraindicações, segurança e perspectivas futuras.",
+  "duration_minutes": 90,
+  "evidence_level": "A",
+  "key_points": [
+    "Semaglutida e tirzepatida possuem robusta evidência clínica fase 3 para obesidade e diabetes tipo 2, com registro na ANVISA.",
+    "Tirzepatida provê maior perda ponderal absoluta que semaglutida, porém com maior incidência de efeitos gastrointestinais e necessidade cuidadosa de titulação.",
+    "Reganho ponderal após suspensão ocorre em 80-90% dos casos, ressaltando a necessidade de planejamento para manutenção a longo prazo.",
+    "A perda de massa magra representa 20-40% do peso perdido; recomenda-se exercício resistido e suplementação proteica para minimizar sarcopenia.",
+    "Semaglutida é o único GLP-1RA com evidência comprovada para redução de eventos cardiovasculares maiores em obesos sem diabetes (estudo SELECT).",
+    "Prescrição fora das indicações aprovadas, manipulação e uso sem respaldo legal são contraindicados e passíveis de sanção ética e legal.",
+    "Monitoramento laboratorial e clínico regular, documentação rigorosa e uso de consentimento informado são essenciais para segurança e qualidade do tratamento."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Semaglutida vs Tirzepatida na Obesidade e DM2: Evidência Crítica e Prática",
+      "subtitle": "Leitura crítica dos estudos STEP, SURMOUNT, SELECT, FLOW e Head-to-Head"
+    },
+    {
+      "bars": [
+        {
+          "label": "Obesidade ~26% da população",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Sobrepeso ~60%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Aumento progressivo de DCV, DRD e complicações metabólicas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Resistência terapêutica e abandono são barreiras comuns",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Prevalência de Obesidade e Mortalidade Cardiovascular no Brasil",
+      "source": "Dados epidemiológicos nacionais recentes"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "GLP-1: secretado no íleo distal, reduz glucagon, retarda esvaziamento gástrico, inibe apetite, insulina glicose-dependente",
+          "GIP: secretado em duodeno/jejuno, efeito sinérgico com GLP-1 em apetite e metabolismo",
+          "Tirzepatida: agonista dual GIP/GLP-1, alta afinidade, promove lipólise e regulação energética",
+          "Receptores localizados em pâncreas, SNC, rins, coração, tecido adiposo"
+        ],
+        "label": "Mecanismos Incretínicos"
+      },
+      "right": {
+        "items": [
+          "Efeitos pleiotrópicos em inflamação e endotélio",
+          "Ação mais ampla do que só controle glicêmico",
+          "Potencial na obesidade, DM2, apneia e HFpEF",
+          "Base para escolha clínica entre fármacos"
+        ],
+        "label": "Implicações Clínicas"
+      },
+      "title": "Fisiologia das Incretinas e Mecanismo de Ação"
+    },
+    {
+      "head": [
+        "Estudo",
+        "População",
+        "N",
+        "Duração",
+        "Agente/Dose Máx",
+        "Delta Peso (%)",
+        "Placebo (%)",
+        "MACE HR (IC95%)",
+        "Reganho Pós Retirada"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "STEP 1",
+          "Obesidade sem DM2",
+          "1961",
+          "68 semanas",
+          "Semaglutida 2,4 mg",
+          "-14,9",
+          "-2,4",
+          "ND",
+          "ND"
+        ],
+        [
+          "SURMOUNT-1",
+          "Obesidade com/s DM2",
+          "2539",
+          "72 semanas",
+          "Tirzepatida 15 mg",
+          "-20,9",
+          "-3,1",
+          "ND",
+          "ND"
+        ],
+        [
+          "SELECT",
+          "Obesidade c/ DCV, sem DM2",
+          "17604",
+          "104 semanas",
+          "Semaglutida 2,4 mg",
+          "-9,4",
+          "-0,6",
+          "0,80 (0,72-0,90)",
+          "ND"
+        ],
+        [
+          "SURMOUNT-4",
+          "Manutenção perda de peso",
+          "783",
+          "88 semanas",
+          "Tirzepatida 15 mg",
+          "-18,4",
+          "+6,5 (recidiva)",
+          "ND",
+          "Reganho >80% ao suspender"
+        ],
+        [
+          "Head-to-head",
+          "Obesidade com/s DM2",
+          "Variável",
+          "40-72 semanas",
+          "Tirzepatida 15 mg x Sema 2,4 mg",
+          "Tirzepatida superior",
+          "ND",
+          "ND",
+          "ND"
+        ]
+      ],
+      "title": "Ensaios Pivotais em Obesidade e DM2: Semaglutida vs Tirzepatida",
+      "source": "Estudos STEP, SURMOUNT e SELECT"
+    },
+    {
+      "bars": [
+        {
+          "label": "Semaglutida: -14,9%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida: -20,9%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Comparação Percentual de Perda de Peso em STEP 1 e SURMOUNT-1",
+      "source": "STEP 1 e SURMOUNT-1"
+    },
+    {
+      "bars": [
+        {
+          "label": "Semaglutida: perda -7,9% durante tratamento; recidiva próxima ao baseline ao parar",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida: perda -18,4% contínua; +6,5% recidiva pós-suspensão",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Reganho Ponderal Após Suspensão do Tratamento",
+      "source": "Estudos STEP 4 e SURMOUNT-4"
+    },
+    {
+      "bars": [
+        {
+          "label": "Tirzepatida 15 mg: -13,1%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Semaglutida 2,4 mg: -9,6%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Head-to-Head: Perda de Peso Tirzepatida vs Semaglutida",
+      "source": "SURPASS-2"
+    },
+    {
+      "kind": "flow",
+      "note": "Adaptado da posologia oficial e dados de tolerabilidade.",
+      "steps": [],
+      "title": "Algoritmo Prático para Titulação e Escolha do Agonista Incretínico"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "História de carcinoma medular tireoide ou MEN2 é contraindicação absoluta",
+          "Uso em grávidas e lactantes contraindicado",
+          "Risco elevado de erosão de massa magra e sarcopenia em idosos frágeis",
+          "Evitar manipulações e prescrições não registradas"
+        ],
+        "label": "Contraindicações Absolutas"
+      },
+      "right": {
+        "items": [
+          "Sintomas gastrointestinais moderados a graves podem levar a abandono",
+          "Risco perioperatório por atraso no esvaziamento gástrico",
+          "Pacientes atletas devem evitar por proibição WADA",
+          "Monitorar sinais de pancreatite e colelitíase"
+        ],
+        "label": "Alerta e Cuidados"
+      },
+      "title": "Armadilhas e Contraindicações: Atenção Clínica"
+    },
+    {
+      "head": [
+        "Parâmetro",
+        "Objetivo/Observação",
+        "Peridiocidade"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Glicemia, HbA1c",
+          "Avaliação do controle glicêmico (DM2)",
+          "Basal e trimestral"
+        ],
+        [
+          "Função renal (eGFR)",
+          "Monitorar nefropatia e adequação da dose",
+          "Basal e trimestral"
+        ],
+        [
+          "Transaminases, lipase",
+          "Avaliação hepática e risco pancreatite",
+          "Basal e se sinais/sintomas"
+        ],
+        [
+          "Perfil lipídico",
+          "Monitorar melhora metabólica",
+          "Basal anual"
+        ],
+        [
+          "Peso e circunferência abdominal",
+          "Avaliar resposta e risco reganho",
+          "Mensal durante titulação, trimestral manutenção"
+        ],
+        [
+          "Exame DEXA",
+          "Avaliar massa magra (idosos/atletas)",
+          "A cada 6-12 meses se risco"
+        ],
+        [
+          "Avaliar sinais GI e psiquiátricos",
+          "Detectar eventos adversos e suicídio",
+          "Contínuo, com cada visita médica"
+        ]
+      ],
+      "title": "Monitoramento Laboratorial e Clínica Durante Tratamento",
+      "source": "Recomendações baseadas nos estudos e consensos"
+    },
+    {
+      "head": [
+        "Item Avaliado",
+        "Sim",
+        "Não",
+        "Comentário"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Indicação clínica documentada (ICD)",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Contraindicações avaliadas (CMT/MEN2, GI grave, gravidez)",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Consentimento informado atualizado e registrado",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Avaliação clínica inicial completa (peso, labs, composição)",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Explicação clara da titulação e efeitos adversos GI",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Plano formal de reavaliação e monitoramento estabelecido",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Orientação sobre risco e manejo de reganho pós-suspensão",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Registro de avaliação da massa magra e sarcopenia",
+          "☐",
+          "☐",
+          ""
+        ],
+        [
+          "Documentação completa do plano terapêutico",
+          "☐",
+          "☐",
+          ""
+        ]
+      ],
+      "title": "Checklist Prático para Prescrição e Acompanhamento (60 segundos)",
+      "source": "Guidelines Doutiva 2024"
+    },
+    {
+      "kind": "pearl",
+      "text": "Tratamento anti-obesidade com semaglutida ou tirzepatida é crônico e individualizado. O reganho ponderal após suspensão é a regra, não a exceção. Planejamento cuidadoso, acompanhamento frequente e combinação com estratégias nutricionais e exercício resistido são essenciais para preservar massa magra e maximizar benefícios clínicos.",
+      "title": "Pérola Clínica Final"
+    }
+  ],
+  "monograph": "# SEMAGLUTIDA E TIRZEPATIDA: LEITURA CRÍTICA DOS ESTUDOS STEP, SURMOUNT, SELECT, FLOW, SURMOUNT-5 E HEAD-TO-HEAD\n\nMonografia Científica · Doutiva — Escola do Médico do Futuro  \nAutor-chefe: Doutiva Editorial  \nPúblico: Endocrinologia, Metabologia, Clínica, Longevidade e Medicina Esportiva  \nPalavras: ~6.700  \nEvidência classificada conforme [S1], [S26], [S27].\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\n**Obesidade e DM2 atingem proporções pandêmicas**. No Brasil, a prevalência de obesidade (~26%) e sobrepeso (~60%) impacta mortalidade, incapacidade, custos em cardiologia, nefrologia e saúde pública. A curva de doenças cardiovasculares (DCV), doença renal diabética (DRD) e complicações metabólicas segue em ascensão, associada à resistência terapêutica, abandono de tratamento e reganho ponderal pós-perda abrupta.\n\nNos últimos anos, a classe dos agonistas de incretinas com ação sobre receptores GLP-1, GIP e, mais recentemente, dupla ou tripla ação (GLP-1/GIP, GLP-1/GIP/glucagon) remodelou o paradigma para diabetes, obesidade e, em progressão, para patologias como insuficiência cardíaca com fração de ejeção preservada (HFpEF), apneia obstrutiva do sono (AOS), NASH/MASH e, incipientemente, cognição.\n\nDois são os protagonistas com maior robustez de evidência clínica e impacto: **semaglutida** (GLP-1RA) e **tirzepatida** (dual GIP/GLP-1RA). Ambos com registro regulatório na obesidade e DM2 (ANVISA, FDA); semaglutida é, ainda, pioneira em desfecho cardiovascular primário (SELECT). Interrogam-se suas diferenças em eficácia, segurança, aplicação prática e cenários particulares (reganho, composição corporal, fenótipo, escolha brasileira).\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1. Via das incretinas\n\n- **GLP-1**: Secretado por células L do íleo distal; age em receptor GLP-1 acoplado à proteína G em células β pancreáticas, reduz secreção de glucagon, retarda esvaziamento gástrico, inibe apetite no SNC (núcleo arqueado, área pós-receptora), potencializa liberação de insulina de modo glicose-dependente.\n- **GIP**: Células K duodeno/jejuno; receptor em células β, adipócitos e SNC. Seu papel fisiológico isolado parece limitado no DM2 (resistência adquirida), mas o efeito sinérgico/permisseivo quando associado ao GLP-1 é crítico (recrutamento adicional de vias do apetite e homeostase energética).\n- **Tirzepatida**: Única molécula dual agonista GIP/GLP-1; não é “meia potência” de cada: a estrutura confere afinidade plena a ambos, sendo “agonista balanceado”, ativando intensamente a via GLP-1 (saciedade), mas também GIP (preferencialmente efeitos em massa adiposa, lipólise, tecido marrom, metabolismo energético [B, C]).\n- **Outros**: Receptores em hipófise, trato gastrointestinal, rins, coração, SNC (ânsia/vômito). Papel pleiotrópico na inflamação, vasculatura, endotélio e tecido adiposo.\n\n---\n\n## 3. Farmacologia Comparada (PK/PD, Engenharia Molecular, Vias de Administração)\n\n| Fármaco        | Mecanismo     | Engenharia          | Meia-vida | Via de Adm. | Dose máx. (obesidade) | Pico/Steady | Limite titulação |  \n|----------------|--------------|--------------------|-----------|-------------|-----------------------|-------------|------------------|\n| **Semaglutida** | GLP-1RA      | Ácido graxo C18 + modificação de AA | 6-7 dias   | SC semanal/oral (DM2) | 2,4 mg SC/sem | 1-3 dias / 4-5 sem   | 0,25→2,4mg em 16 sem  |\n| **Tirzepatida** | GIP/GLP-1RA  | Ácido graxo C20, sequências homólogas GIP/GLP-1 | 5-7 dias   | SC semanal           | 15 mg SC/sem        | 1-3 dias / 4-5 sem   | 2,5→15mg em 20 sem   |\n\n- **Oralidade**: semaglutida oral (apenas DM2; algoritmos peso fora do label) tem biodisponibilidade inferior (~1%), dependente de jejum absoluto.\n- **Estabilidade**: ambas resistentes ao DPP4, são peptídeos de longa duração, segregando-se dos precursores (liraglutida, exenatida).\n- **Tirzepatida** apresenta PK linear até 15 mg; diferença entre 10 e 15 mg clinicamente significativa para perda de peso (~2%).  \n- **Interação com albumina**: ambas possuem ligação alta, minimizando flutuações plasmáticas.\n\n---\n\n## 4. Evidência Crítica: Ensaios Pivotais\n\n### 4.1. Principais Ensaios Randomizados (metodologia, estimands, população, desfechos, magnitude)\n\n| Estudo      | População            | n       | Duração | Agente/dose máx. | Delta Peso (%) | Δ Placebo (%) | MACE-HR (IC95%) | Δ eGFR | Erosão massa magra | Reganho pós-retirada | Notas           |\n|-------------|----------------------|---------|---------|-------------------|---------------|--------------|-----------------|--------|--------------------|----------------------|-----------------|\n| STEP 1      | Obesidade S/DM2      | 1961    | 68 sem  | Sema 2,4 mg      | -14,9         | -2,4         | ND              | ND     | -38% do total*     | ND                   | POP geral       |\n| STEP 4      | Perda em tratamento  | 803     | 68 sem  | Sema 2,4 mg      | -7,9 na retirada vs. -0,1 kg p/ manutenção |       | ND              | ND     | Estabiliza com uso | Reduz quase todo o peso ao suspender* | Interrompido   |\n| SELECT      | Obesidade s/DM2, DCV | 17604   | 182 sem | Sema 2,4 mg      | -9,4          | -0,6         | 0,80 (0,72–0,90) | ND     | ND                 | ND                   | MACE + mortal.  |\n| FLOW        | DM2 + DRD            | 3533    | ~4 anos | Sema 1 mg        | ND            | ND           | ND              | HR 0,76 (0,66–0,88) | ND  | ND                   | N/A                 | Final renal     |\n| SURMOUNT-1  | Obesidade S/DM2      | 2539    | 72 sem  | Tirze 15mg       | -20,9         | -3,1         | ND              | ND     | ND - %*            | ND                   | + altas doses   |\n| SURMOUNT-2  | Obesidade/DM2        | 938     | 72 sem  | Tirze 15mg       | -15,7         | -3,3         | ND              | ND     | ND                 | ND                   | DM2            |\n| SURMOUNT-3  | Prévia perda peso    | 806     | 72 sem  | Tirze 15mg       | -21,1         | -3,3         | ND              | ND     | ↓ massa magra      | ND                   | Pop “weight-loss ready” |\n| SURMOUNT-4  | Manutenção perda     | 783     | 88 sem  | Tirze 15mg       | -18,4 cont. vs +6,5kg recidiva | +6,5kg     | ND              | ND     | ↓ massa magra      | Reganho >80% ao retirar | Retirada      |\n| Head-to-head | Obesidade S/DM2     | variable| 40-72sem| Tirze 15mg x Sema 2,4mg | -8,2% diferencial | ND | ND | ND | ND | ND | Tirze superior |\n*Erosão de massa magra: 20-40% do peso perdido (DXA)  \nND: não disponível/descrito; HR: hazard ratio; MACE: evento cardiovascular maior (mortalidade, IAM, AVC).\n\n#### Tabela 1 — Ensaios Pivotais de Semaglutida e Tirzepatida em Obesidade/DM2[*]\n\n| Estudo      | População               | n      | Duração | Intervenção    | Perda de Peso (%) | Placebo (%) | MACE (HR, 95% IC) | Primário        | Estimands   | Observação                                                        |\n|-------------|-------------------------|--------|---------|---------------|-------------------|-------------|-------------------|----------------|-------------|--------------------------------------------------------------------|\n| STEP 1      | Obesidade, sem DM2      | 1961   | 68 sem  | Sema 2,4 mg   | -14,9             | -2,4        | ND                | Peso           | treat-policy | Mudanças DO peso, injeção semanal                                  |\n| STEP 2      | Obesidade, c/ DM2       | 1210   | 68 sem  | Sema 2,4 mg   | -9,6              | -3,4        | ND                | Peso           | treat-policy | Menor efeito por DM2                                              |\n| STEP 3      | Obesidade, sem DM2      | 611    | 68 sem  | Sema 2,4 mg   | -15,8             | -6,4        | ND                | Peso           | treat-policy | Com intervenção comportamental intensiva                           |\n| STEP 4      | Manutenção/suspensão    | 902    | 68 sem  | Sema 2,4 mg   | -7,9 (interrupção)| +0,1        | ND                | Peso           | treat-policy | Reganho quase todo, reversível; lesson sobre retirada              |\n| SELECT      | Obesidade, s/DM2 + DCV  | 17604  | 104 sem | Sema 2,4 mg   | -9,4              | -0,6        | 0,80 (0,72–0,90)  | MACE           | treat-policy | Cardiovascular primário (reduz MACE em população não-DM2!)         |\n| FLOW        | DM2 + nefropatia        | 3533   | 4 anos? | Sema 1.0 mg   | ND                | ND          | ND (principal: RENAL) | eGFR/end-stage | treat-policy | HR 0,76 (0,66–0,88), desfecho renal composto                      |\n| SURMOUNT-1  | Obesidade, sem DM2      | 2539   | 72 sem  | Tirze 15 mg   | -20,9             | -3,1        | ND                | Peso           | treat-policy | Perda recorde, 36% alcançam -25%                                  |\n| SURMOUNT-2  | Obesidade, DM2          | 938    | 72 sem  | Tirze 15 mg   | -15,7             | -3,3        | ND                | Peso           | treat-policy | DM2 reduz efeito, mas mantido superior                             |\n| SURMOUNT-3  | Obesidade, perda prèvia | 806    | 72 sem  | Tirze 15 mg   | -21,1             | -3,3        | ND                | Peso           | treat-policy | População que já perdeu peso anteriormente                          |\n| SURMOUNT-4  | Manutenção/suspensão    | 783    | 88 sem  | Tirze 15 mg   | -18,4 (cont), +6,5 reganho | | ND          | Peso/mantem     | treat-policy | Reganho rápido, perde-se >80% do que foi perdido após retirada     |\n| SURPASS-2   | DM2, HbA1c 7,0-10,5%    | 1879   | 40 sem  | Tirze vs Sema | -13,1 (tirze)     | -9,6        | ND                | HbA1c/peso      | treat-policy | Tirze superior em HbA1c e perda peso, avaliação head-to-head       |\n\n[*] Adaptado de publicações originais dos estudos, consulte referências.\n\n### 4.2. Estimands, composição corporal, AOS/HFpEF, reganho\n\n- **Estimands**: todos os estudos pivotais usam \"treatment-policy\" estimand (“real world”, independentemente de interrupção/desvio; mais conservador).\n- **Composição corporal**: DEXA em subgrupos indica que 20-40% da perda ponderal ocorre como erosão de massa magra — magnitude semelhante para semaglutida e tirzepatida, porém maior perda absoluta nas doses elevadas de tirzepatida [A, B].  \n- **Reganho**: STEP 4 (semaglutida) e SURMOUNT-4 (tirzepatida) mostram reganho rápido da maior parte do peso perdido ao suspender (80–90% do total em poucos meses) — *obesidade é crônica, retirada abrupta só se indicação clínica clara*.\n- **AOS**: Subanálise STEP (semaglutida) e breve análise SURMOUNT sugerem melhora no índice de apneia/hipopneia com grandes perdas (>15% de peso); grau de reversão variável.  \n- **HFpEF/IC**: Estudo STEP-HFpEF (semaglutida) sugere benefício em sintomas/função no subgrupo HFpEF com/sem DM2, mas dados ainda iniciais; benefício para tirzepatida permanece indireto [B/C].\n\n---\n\n## 5. Indicações, Contra-indicações e Seleção de Pacientes\n\n### 5.1. Registro e off-label no Brasil (2024)\n\n| Indicação           | Semaglutida                   | Tirzepatida                  | Status Reg ANVISA                   |\n|---------------------|------------------------------|------------------------------|--------------------------------------|\n| DM2                 | Sim (SC e oral)              | Sim (SC)                     | SEMA (Ozempic/Rybelsus/other)        |\n| Obesidade           | Sim (Wegovy)                 | Sim (Mounjaro)               | SEMA (Wegovy) e TIRZE (Mounjaro)     |\n| Manutenção perda    | Sim (off-label para “weight maintenance”)    | Sim                    | *Não há indicação formal “prevenção reganho”* |\n| NASH/MASH           | Off-label, fase 2-3           | Off-label, fase 2-3           | Não registrado                       |\n| AOS                 | Off-label, dados iniciais     | Off-label, em coleta          | Pesquisa clínica, não registro       |\n| HFpEF               | Off-label, dados muito iniciais| Off-label                     | Não registrado                       |\n\n### 5.2. Contra-indicações absolutas e relativas\n\n#### Absolutas  \n\n- História pessoal/familiar carcinoma medular tireoide (CMT) ou neoplasia endócrina múltipla tipo 2 (MEN2) ([A])\n- Hipersensibilidade ao fármaco\n- Gravidez e lactação\n- Crianças/adolescentes sem específico registro (exceto indicações raras)\n- Comprometimento gastrointestinal grave: gastroparesia sintomática e ileus.\n\n#### Relativas (depende balanço risco-benefício)\n\n- GFR <30 mL/min (vigilância aumentada, risco aumento GI)\n- Colelitíase/pancreatite prévia (alvo duplicado de vigilância)\n- Histórico/pré-disposição para distúrbios alimentares, ideação suicida — screen!\n- Idosos frágeis (>75 anos): risco maior erosão massa magra.\n- Atletas sujeitos à WADA: ambos são proibidos para fins de doping (categoria S4, WADA).\n\n### 5.3. Seleção — fenótipo e fluxo de decisão\n\n- **Obesidade severa dificilmente responsiva a dieta (“slow responder”)**: priorizar tirzepatida (maior delta ponderal em elevadas doses), se tolerância digestiva OK.\n- **Preocupação CV:** semaglutida tem FIRST-IN-CLASS evidência (SELECT); tirzepatida AINDA NÃO publicou MACE (aguardado).\n- **DM2**: ambas são efetivas; tirzepatida reduz A1c mais (SURPASS).\n- **Comprometimento renal significativo**: monitorar função; FLOW mostra benefício renal só para semaglutida até o momento.\n- **Fragilidade/massa magra baixa**: Ajustar taxas de perda, recomendar suplementação proteica/resistência, vigilance para sarcopenia.\n- **Necessidade de facilidade de administração (canetas, autoinjetores, estabilidade):** ambas disponíveis em formato semanal.\n- **Alto risco de abandono/reganho**: Documentar, alinhar expectativas.\n\n---\n\n## 6. Conduta Prática: Doses, Titulação, Manejo de Efeitos Adversos\n\n### 6.1. Algoritmo Prático\n\n#### SEMAGLUTIDA (Wegovy)\n\n1. **Iniciar:** 0,25 mg SC 1x/semana x 4 sem.\n2. **Titular:** 0,5 mg SC 1x/semana x 4 sem.\n3. **0,5 → 1,0 mg**: 1,0 mg SC 1x/semana x 4 sem.\n4. **1,0 → 1,7 mg:** 1,7 mg SC 1x/semana x 4 sem.\n5. **1,7 → 2,4 mg**: 2,4 mg SC 1x/semana (manutenção).\n6. **Atrasar estágio titular se:**\n   - NV/diarreia intensa, vômitos, sintomas>leve: progredir dose só quando tolerado.\n   - Sintomas refratários/recorrentes: considerar dose estável mais prolongada (4-8 sem) antes de subir.\n7. **Se suspensão >2 sem:** recomeçar titulação.\n\n#### TIRZEPATIDA (Mounjaro)\n\n1. **Iniciar:** 2,5 mg SC 1x/semana x 4 sem.\n2. **Titular:** 5,0 mg SC 1x/semana x 4 sem.\n3. **5,0 → 7,5 mg:** 7,5 mg SC 1x/semana x 4 sem.\n4. **7,5 → 10 mg:** 10,0 mg SC 1x/semana x 4 sem.\n5. **10 → 12,5 mg:** 12,5 mg SC 1x/semana x 4 sem.\n6. **12,5 → 15 mg:** 15 mg SC 1x/semana (dose alvo máxima).\n7. **Adaptar titulação:** sintomatologia GI (maior vs semaglutida), riscos de desidratação.\n8. **Suspensão >2 sem:** recomeçar do início titulação.\n\n### 6.2. Tabela-prática de Doses & Ajustes\n\n| Semana | Semaglutida Dose (mg) | Tirzepatida Dose (mg) | Comentários clínicos |\n|--------|----------------------|----------------------|----------------------|\n| 1–4    | 0,25                 | 2,5                  | Início (NV, GI leve) |\n| 5–8    | 0,5                  | 5,0                  | Monitorar tolerância |\n| 9–12   | 1,0                  | 7,5                  | Aumenta potência     |\n| 13–16  | 1,7                  | 10,0                 | Doses intermediárias |\n| 17–20  | 2,4                  | 12,5                 | Dose de platô/teto   |\n| 21+    | Manter/max 2,4       | Manter/max 15        | Descontinuar se não resposta/EA |\n\n- **Note:** Doses orais (semaglutida) são apenas para DM2, não para obesidade no BR.\n\n### 6.3. Manejo de efeitos adversos\n\n| Sintoma                      | Conduta                                                                                  |\n|------------------------------|-----------------------------------------------------------------------------------------|\n| Náuseas, vômitos leves       | Fracionar refeições, evitar gorduras, hidratação, progredir dose mais lentamente        |\n| Náuseas/vômitos graves       | PA, sinais desidratação; reduzir para dose anterior ou manter até resolução             |\n| Diarreia                     | Dieta pobre FODMAP, hidratação, monitorar K+, pausar se intensidade moderada a grave   |\n| Constipação                  | Laxantes suaves, fibras solúveis, atividade física                                     |\n| Sinais/Sintomas pancreatite  | SUSPENDER e investigar (lipase, US abdome, PA)                                         |\n| Colelitíase                  | Avaliação ultrassonográfica se dor + transaminases                                     |\n| Hipoglicemia (DM2 + secretagogo/sulfa) | Ajuste de secretagogos, educar paciente sobre sintomas                        |\n| Perda de massa magra         | Suplementar proteína e exercício resistência; DEXA em risco alto                       |\n| Efeitos no SNC               | Observar sintomas depressivos/ansiosos; rarefeitos (<1%, mas relevantes)               |\n| Outros (rash, hipersens.)    | Suspender medicamento, avaliar alergia                                                  |\n\n- **Não progredir titulação em presença de EA não-resolvida!**\n- **Instruir paciente: sinais de alerta (pancreatite, vômitos incoercíveis, dor abdominal persistente, icterícia, confusão mental).**\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n### 7.1. Basal pré-início\n\n- Glicemia, HbA1c (particularmente DM2)\n- Função renal (ureia, creatinina, eGFR)\n- Transaminases, bilirrubinas, FA (risco hepático)\n- Amilase/lipase (paisagem de risco pancreático)\n- Perfil lipídico\n- Vitamina B12 (prolongado, pois GI pode causar má absorção)\n- β-HCG (mulheres com potencial gestacional)\n- DEXA: massa magra em idosos, sarcopênicos ou atletas.\n\n### 7.2. Durante tratamento\n\n- Mensal durante subida de titulação, depois trimestral.\n- Peso/circunferência abdominal — “chartado”, avaliar trajetória (decisões clínicas e documentação para CFM/ANVISA).\n- CPK, função hepática, função renal – se sintomas ou risco elevado.\n- DEXA: 6-12 meses em risco de sarcopenia ou declínio funcional.\n- Sinais de desidratação eletrolítica — especialmente em idosos (>65 anos), atletas ou na coadministração com diuréticos.\n- Vigilância (off-label) para sintomas compatíveis AOS, HFpEF, depressão/cognição.\n\n### 7.3. Reganho/suspensão\n\n- Monitorar intensivamente até 3-4 meses pós-suspensão para identificar reganho e ajustar plano de tratamento/adoção de manutenção/lifestyle.\n\n---\n\n## 8. Segurança, Interações e Perioperatório\n\n### 8.1. Perfil de eventos adversos graves\n\n- **Graves (<1%):** Pancreatite, colecistopatia aguda, hipersensibilidade/anafilaxia, obstrução intestinal grave, risco individual de suicídio (caso relato).\n- **Frequentes:** Náusea (15-40%), diarreia (10-25%), constipação (9–15%), vômitos (5–10%), dor abdominal leve, cefaleia, fadiga.\n- **Sarcopenia/massa magra:** Particularmente relevante na perda rápida (>15% do peso) — ESTRATÉGIA: combinar exercício-resistência, suplementação proteica.\n- **Desidratação/hipovolemia:** Idosos, doentes renais, interação com diuréticos.\n- **Colelitíase/cólica biliar:** Incidência ~1,5x placebo.\n\n### 8.2. Interações medicamentosas\n\n- **Redução esvaziamento gástrico:** afeta absorção de antidiabéticos orais/anticoncepcionais/antiepilépticos (não usualmente clinicamente relevante, monitorar estreita janela terapêutica).\n- **Potencialização hipoglicemia:** especialmente se sulfonilureias/insulina — monitorar A1c, reduzir doses se necessário.\n- **Risco aditivo com outros supressores apetite (off-label):** não recomendado.\n\n### 8.3. Perioperatório\n\n- **Recomendação formal (consenso e fabricante):** SUSPENDER 1 semana antes de procedimento eletivo sob anestesia geral/de risco de aspiração devido retardo do esvaziamento gástrico.\n- **Jejum pré-op:**\n  - Jejum MAIS prolongado (8–12h). Relatar uso para equipe de anestesia.\n- **Reinício:** Pós-estabilidade, reiniciar titulação se longa suspensão (>2 semanas).\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n### 9.1. Registro ANVISA\n\n- **Semaglutida (Ozempic, Rybelsus, Wegovy):** aprovado para DM2 (incluindo oral); obesidade (Wegovy, doses até 2,4mg SC/sem).\n- **Tirzepatida (Mounjaro):** aprovado DM2 e “controle de peso em adultos com obesidade”, 2,5–15 mg SC/sem.\n- **Formas manipuladas, importadas, pesquisa/“gray-market”**: PROIBIDAS pelo CFM n° 2.333/2023, sem respaldo legal. Pesquisa clínica (RUO) restrita a ensaios aprovados CEP/CONEP.\n- **WADA**: ambos são proibidos em competições esportivas, classe S4.\n\n### 9.2. Documentação obrigatória (CFM/ANVISA)\n\n- **Prescrição precisa:** nome comercial, via, titulação, motivo clínico documentado (ICD), rastreabilidade.\n- **Consentimento informado ampliado:** risco de reganho, massa magra, eventos GI, contraindicações específicas.\n- **Monitoramento e comunicação efetiva com paciente:** vigilância AEs, valorização de adesão e retorno.\n- **Seguimento documentado:** mudança de dose, eventos clínicos, justificativa para suspensão/mudança.\n\n### 9.3. Ética da escolha em cenários off-label\n\n- **No off-label sério (NASH, AOS, HFpEF):** portar evidência atualizada (ECR, diretriz internacional), documento escrito, plano de vigilância, discussão de limitações/preço/alternativas.\n\n---\n\n## 10. Fronteira Terapêutica e O Que NÃO Prescrever\n\n### 10.1. Horizontes para a próxima década\n\n- **CagriSema:** combinação cagrilintida (análogo amilina) + sema 2,4mg → perda de ~20% peso (fase 3); não aprovado, ainda em fase regulatória ([S16], [S21]).\n- **Retatrutida:** triplo agonista GIP/GLP-1/glucagon, perda >24% peso em fase 2 ([S25]), impacto em NASH ([S19]), aguardando fase 3.\n- **Survodutide:** dual GLP-1/glucagon; dados favoráveis, mas sem registro pleno ([S17], [S24]).\n- **Orforglipron:** GLP-1RA oral não-peptídico, boa potência (fase 2, [S23]).\n\n### 10.2. Não prescrever / alertas críticos\n\n- **Manipulados de peptídeos para emagrecimento:** PROIBIDOS e denunciáveis.\n- **GH secretagogos, “peptídeos regenerativos” (BPC-157, etc):** sem evidência clínica robusta para qualquer indicação metabólica ([S1], [S26]).\n- **Terapias \"biohacking\" sem fase 3 humana:** Não usar. Alto risco de falsificação, ausência de PK humana e dose apropriada; responsabilidade civil e criminal.\n- **GLP-1 agonistas para prevenção primária cardiovascular sem obesidade/DM2:** Não indicado, custo-efetividade sem benefício comprovado.\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### 11.1. Pérolas clínicas\n\n- O reganho ponderal ao cessar medicação é a regra, não exceção: alertar paciente e planejar manutenção!\n- Maior perda de peso implica maior perda de massa magra absoluta: combine exercício-resistência e dieta proteica.\n- Tirzepatida atinge maior delta de peso, mas razão benefício/risco (GI, massa magra, adesão) é individual.\n- Semaglutida é única, até o momento, com evidência robusta para redução de MACE em não diabéticos obesos (SELECT).\n- Seleção de dose e titulação é artesanal: personalize conforme tolerância, com flexibilidade de tempo.\n- Cuidado especial perioperatório/anestesia pelo risco de esvaziamento gástrico retardado.\n- Paciente atleta ou WADA: ambos PROIBIDOS em doping, risco de sanção ethics-esportiva.\n\n### 11.2. Armadilhas\n\n- Início apressado de altas doses: risco elevado de efeitos GI, abandono, hipovolemia.\n- Falta de documentação clara do risco/benefício e monitoramento: vulnerabilidade médico-legal.\n- Ignorar composição corporal: sarcopenia = risco funcional a médio prazo.\n- Prescrição de manipulado: passível de denúncia e cassação de registro.\n\n### 11.3. Checklist prático (60 segundos)\n\n| Item                                                    | Checked?       |\n|---------------------------------------------------------|----------------|\n| Indicação está documentada (ICD, obesidade/DM2)?        |                |\n| Rastreou contraindicações (CMT/MEN2, GI grave, gravidez)? |                |\n| Consentimento informado registrado?                     |                |\n| Avaliação clínica inicial (peso, altura, IMC, circunf, labs)? |         |\n| Explicou titulação gradual, efeitos GI, sinais alerta?  |                |\n| Organizou plano de reavaliação (4, 8, 12 semanas)?      |                |\n| Orientou reganho pós-retirada?                          |                |\n| Documentou risco modificação massa magra?               |                |\n\n---\n\n## 12. Referências\n\n1. [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n2. Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021.\n3. Rubino D, et al. Effect of Continued Weekly Subcutaneous Semaglutide on Weight Loss Maintenance in Adults with Overweight or Obesity: The STEP 4 Randomized Clinical Trial. JAMA 2021.\n4. SELECT Study Investigators. Cardiovascular Outcomes with Semaglutide in Obesity without Diabetes. N Engl J Med 2023.\n5. FLOW Study Investigators. Effect of Semaglutide on Kidney Outcomes in People with Type 2 Diabetes and Chronic Kidney Disease. N Engl J Med 2024.\n6. Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med 2022.\n7. SURMOUNT-4 Study Investigators. Tirzepatide for Maintenance of Weight Reduction. JAMA 2024.\n8. Frias JP, et al. Efficacy and Safety of Tirzepatide Versus Semaglutide in Patients with Type 2 Diabetes. NEJM 2022; SURPASS-2.\n9. [S16] Garvey WT, et al. Coadministered Cagrilintide and Semaglutide in Adults with Obesity. N Engl J Med 2025.\n10. [S26] Posicionamento Doutiva. Hierarquia de evidência para peptídeos terapêuticos. Doutiva Editorial 2026.\n11. [S23] Wharton S, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023.\n12. [S21] Frias JP, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes. Lancet 2023.\n13. Rosenstock J, et al. Retatrutide for People with Type 2 Diabetes. Lancet 2023.\n14. Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity—A Phase 2 Trial. N Engl J Med 2023.\n15. [S17], [S22–S27], e demais estudos citados nas tabelas.\n\n---\n\n### CASO CLÍNICO\n\n**Homem, 51 anos, 108 kg, 1,75 m (IMC 35,3), PA 128/82 mmHg, HbA1c 6,8%, eGFR 54 mL/min, já perdeu 15 kg nos últimos 9 meses com dieta e exercício, mas relata platô com recidiva progressiva do apetite e reganho de 3 kg no último mês, sem história prévia de CMT/MEN2, sem sintomas gastrointestinais relevantes, sem colelitíase, sem prática esportiva competitiva. Escore Apnéia-Hipoapnéia: 14/h. Solicitado encaminhamento para avaliação de uso de incretina.**\n\n**Qual a melhor conduta inicial?**\n\nA) Tirzepatida, iniciar em 2,5 mg SC/semana, com titulação padrão.  \nB) Semaglutida, iniciar em 0,25 mg SC/semana, titulação padrão, discutir manutenção indefinida.  \nC) Dieta reforçada, associar análogo de amilina manipulado, “off-label”.  \nD) Liraglutida 0,6 mg/dia, subir até tolerância, reavaliar após 12 semanas.\n\n**Comentário/Raciocínio:**\n- (A) **Correta**: O paciente preenche critérios de indicação para incretina, já obteve perda satisfatória, mas está em platô – tirzepatida se mostra mais robusta no peso, especialmente em manutenção, sem contraindicação.  \n- (B) Alternativa aceitável, mas na análise head-to-head, tirzepatida possui melhor manutenção peso e efeito absoluto, com perfil de segurança semelhante.  \n- (C) ERRADA: uso manipulado é proibido pela CFM/ANVISA.  \n- (D) ERRADA: liraglutida tem eficácia inferior, maior frequência de administração, e habitualmente menor adesão a longo prazo.\n\n**Teaching Point:**  \n- Em pacientes com platô ponderal, sem contraindicações, tirzepatida oferece delta de peso superior; SEMPRE usar apresentação comercial registrada, irrestritamente documentar monitoramento, e orientar que a retirada súbita implica reganho na maioria dos casos.\n\n---\n\n# SLIDES (Estrutura Sugerida)\n\n### Slide 1 – Título\n- “Semaglutida vs Tirzepatida na Obesidade e DM2: Evidência Crítica e Prática”\n\n### Slide 2 – Contexto e Epidemia (gráfico Linear Obesidade Global x Mortalidade CV)\n\n### Slide 3 – Via molecular de incretinas (infográfico receptor GLP-1 e GIP com órgãos-alvo)\n\n### Slide 4 – Tabela Resumida: Ensaios (n, delta peso, HR MACE, suspensão, reganho)\n\n### Slide 5 – Barras Side-by-Side: Perda de Peso STEP/SURMOUNT (14,9% vs 20,9%)\n\n### Slide 6 – Reganho pós-retirada (Gráfico linhas: STEP 4/SURMOUNT-4 – retira/continua)\n\n### Slide 7 – Head-to-head: Tirzepatida vs Semaglutida (gráfico barras, diferença absoluta % peso)\n\n### Slide 8 – Algoritmo Prático: Titulação e escolha (flowchart: stepwise titulação, critérios seleção)\n\n### Slide 9 – Armadilhas, contraindicações (split: alerta PHI, sarcopenia, doping)\n\n### Slide 10 – Monitoramento e segurança (tabela: labs, sinais vigilância, linha tempo acompanhamento)\n\n### Slide 11 – Checklist 60s & Guia de Bolso (QuickRef, visual checkboxes)\n\n### Slide 12 – Pérola final / Take-home message: “Tratamento anti-obesidade é crônico/individualizado; reganho é padrão, não fracasso.”\n\n---\n\n## QUICK_REF · Guia de Bolso\n\n### Tabela de dose — titulação padrão\n\n| Semana | Semaglutida (mg) | Tirzepatida (mg)|\n|--------|------------------|-----------------|\n| 1–4    | 0,25             | 2,5             |\n| 5–8    | 0,5              | 5               |\n| 9–12   | 1,0              | 7,5             |\n| 13–16  | 1,7              | 10              |\n| 17+    | 2,4 (max)        | 15 (max)        |\n\n### Red flags\n\n- Dor abdominal persistente/radiada, vômitos incoercíveis, icterícia, confusão mental.\n- PA baixa, sinais de desidratação.\n- Dispneia, dor torácica (IAM/AVC, MACE).\n- Perda de força funcional importante/giro sarcopênico.\n- Sintomas depressivos/suicídio súbito.\n\n### Checklist 60s\n\n- Contraindicações principais OK?\n- Consentimento informado?\n- Avaliou risco reganho/post-retirada?\n- Abordou massa magra?\n- Titulação adequada documentada?\n- Sinais alerta sabidos pelo paciente?\n\n---\n\n## Key Points\n\n1. Semaglutida e tirzepatida são as moléculas com mais robustez de evidência para obesidade e DM2, ambas registradas pela ANVISA, mas só semaglutida já mostrou redução de MACE em obesidade sem DM2.\n2. Tirzepatida apresenta maior perda de peso absoluta (até –21%) e é preferencial para eficiência ponderal máxima, desde que tolerância GI.\n3. O reganho de peso à retirada é pronunciado e rápido: planejamento a longo prazo e acompanhamento contínuo são essenciais — tratamento é crônico.\n4. A erosão de massa magra pode chegar a 20–40% do peso perdido. Sempre associar exercício-resistência e vigilância de composição corporal, especialmente em idosos ou pacientes frágeis.\n5. Evite manipulações e terapias peptídicas não aprovadas: alto risco ético, regulatório e de segurança.\n6. Titulação deve ser personalizada — sintomas GI são maiores em tirzepatida, mas responsividade também.\n7. Documente tudo: indicação, exames, consentimento, titulação/não-resposta, abandono. Júri médico-legal exige rastreabilidade.\n\n---\n\n**FIM DA MONOGRAFIA**",
+  "quick_ref": "QUICK_REF · Guia de Bolso\n\nTabela de Dose — Titulação Padrão:\n| Semana | Semaglutida (mg) | Tirzepatida (mg) |\n|--------|------------------|-----------------|\n| 1–4    | 0,25             | 2,5             |\n| 5–8    | 0,5              | 5               |\n| 9–12   | 1,0              | 7,5             |\n| 13–16  | 1,7              | 10              |\n| 17+    | 2,4 (máx)        | 15 (máx)        |\n\nRed Flags:\n- Dor abdominal persistente/radiada, vômitos incoercíveis, icterícia, confusão mental.\n- Pressão arterial baixa, sinais de desidratação.\n- Dispneia, dor torácica (risco MACE).\n- Perda funcional muscular grave/sarcopenia.\n- Sintomas depressivos/ideação suicida.\n\nChecklist 60s:\n- Contraindicações principais avaliadas e descartadas?\n- Consentimento informado documentado?\n- Riscos de reganho pós-tratamento explicados?\n- Massa magra avaliada e planos de prevenção estabelecidos?\n- Titulação e doses corretamente registradas?\n- Paciente orientado sobre sinais de alerta?\n\nIndicações e cuidados devem ser individualizados com base em fenótipo, risco cardiovascular e tolerância gastrointestinal, preferindo a tirzepatida para máxima perda ponderal e semaglutida para benefício comprovado em morbidade cardiovascular.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "51 anos"
+      },
+      {
+        "label": "Peso",
+        "value": "108 kg"
+      },
+      {
+        "label": "Altura",
+        "value": "1,75 m"
+      },
+      {
+        "label": "IMC",
+        "value": "35,3 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "6,8%"
+      },
+      {
+        "label": "eGFR",
+        "value": "54 mL/min"
+      },
+      {
+        "label": "Perda Peso Anterior",
+        "value": "15 kg em 9 meses"
+      },
+      {
+        "label": "Reganho recente",
+        "value": "3 kg no último mês"
+      }
+    ],
+    "title": "Paciente OBESO com Platô na Perda de Peso e DM2 Inicial – Avaliação para Uso de Incretina",
+    "reward": 5,
+    "options": [
+      {
+        "label": "A) Tirzepatida, iniciar em 2,5 mg SC/semana com titulação padrão",
+        "correct": true,
+        "rationale": "Maior eficácia comprovada para perda e manutenção de peso, adequada ao cenário de platô com recidiva do paciente; início padrão e monitoramento indicados."
+      },
+      {
+        "label": "B) Semaglutida, iniciar em 0,25 mg SC/semana com titulação padrão",
+        "correct": false,
+        "rationale": "Alternativa viável, porém menor perda em comparação com tirzepatida, especialmente em manutenção."
+      },
+      {
+        "label": "C) Dieta mais restritiva e uso de análogo de amilina manipulado off-label",
+        "correct": false,
+        "rationale": "Manipulados são proibidos, sem respaldo regulatório e risco legal e clínico elevado."
+      },
+      {
+        "label": "D) Liraglutida 0,6 mg/dia com escalonamento e reavaliação em 12 semanas",
+        "correct": false,
+        "rationale": "Eficácia inferior e menor praticidade frente às opções reguladas e com maior evidência."
+      }
+    ],
+    "question": "Qual conduta é mais adequada para iniciar tratamento com peptídeo incretina neste paciente?",
+    "vignette": "Homem de 51 anos, IMC 35,3, perdeu 15 kg com dieta e exercício em 9 meses, mas apresenta platô e reganho recente de 3 kg. HbA1c 6,8%, eGFR 54 mL/min, sem contraindicações aparentes para incretinas. Avaliar melhor estratégia terapêutica.",
+    "teaching": "Pacientes obesos com DM2 leve e platô ponderal pós-perda inicial têm evidência robusta para uso de semaglutida ou tirzepatida. Tirzepatida apresenta maior eficácia em perda e manutenção ponderal, com perfil gastrointestinal mais intenso, devendo haver monitoramento próximo e titulação gradual. Uso de manipulados e terapias não reguladas é contraindicado. Manutenção crônica e planejamento para evitar reganho são essenciais, bem como documentação e consentimento informado detalhados."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021."
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Weekly Subcutaneous Semaglutide on Weight Loss Maintenance in Adults with Overweight or Obesity: The STEP 4 Randomized Clinical Trial. JAMA 2021."
+    },
+    {
+      "citation": "SELECT Study Investigators. Cardiovascular Outcomes with Semaglutide in Obesity without Diabetes. N Engl J Med 2023."
+    },
+    {
+      "citation": "FLOW Study Investigators. Effect of Semaglutide on Kidney Outcomes in People with Type 2 Diabetes and Chronic Kidney Disease. N Engl J Med 2024."
+    },
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med 2022."
+    },
+    {
+      "citation": "SURMOUNT-4 Study Investigators. Tirzepatide for Maintenance of Weight Reduction. JAMA 2024."
+    },
+    {
+      "citation": "Frias JP, et al. Efficacy and Safety of Tirzepatide Versus Semaglutide in Patients with Type 2 Diabetes. NEJM 2022; SURPASS-2."
+    }
+  ],
+  "status": "published"
+}

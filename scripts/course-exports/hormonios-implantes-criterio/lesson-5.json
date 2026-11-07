@@ -1,0 +1,260 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Mulher",
+  "title": "THM na Menopausa: Evidência Pós-WHI, Janela de Oportunidade e Vias de Administração",
+  "description": "Uma análise clínica detalhada da Terapia Hormonal da Menopausa (THM) considerando a evidência científica pós-WHI, conceitos de janela de oportunidade, escolhas de via terapêutica, regulação brasileira e recomendações para prescrição ética e segura.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A terapia hormonal da menopausa (THM) é a abordagem mais eficaz para sintomas vasomotores moderados a graves e prevenção de osteoporose, desde que obedecidos critérios clínicos rígidos e regulamentações brasileiras.",
+    "O Estudo WHI (2002) demonstrou aumento do risco cardiovascular, tromboembolismo e câncer de mama principalmente para regime combinado oral em mulheres mais idosas (>60 anos, >10 anos de menopausa), não devendo seus achados ser extrapolados indiscriminadamente para mulheres jovens na janela de oportunidade.",
+    "A janela de oportunidade para iniciar THM é idealmente em mulheres com menos de 60 anos ou menos de 10 anos desde a menopausa, quando o perfil benefício/risco é mais favorável.",
+    "Estradiol 17β, via transdérmica, é preferível em mulheres com risco aumentado de trombose, obesidade ou fatores de risco cardiovascular, evitando primeira passagem hepática e menor impacto metabólico.",
+    "O uso de progestagênio micronizado oral é recomendado em mulheres com útero devido a menor risco de eventos adversos em comparação a progestáneos sintéticos.",
+    "Implantes hormonais são off-label, manipulados, sem registro ANVISA e apresentam farmacocinética variável; seu uso deve ser restrito a situações excepcionais com documentação rigorosa.",
+    "THM para fins estéticos, anti-aging ou emagrecimento é vedada pelo CFM e ANVISA; prescrição deve ser sempre baseada em indicação clínica comprovada e com consentimento informado claro."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "THM na Menopausa: Evidência Pós-WHI, Janela de Oportunidade e Vias de Administração",
+      "subtitle": "Curso: Hormônios e Implantes com Critério - Módulo 3 · Mulher"
+    },
+    {
+      "kind": "table",
+      "title": "WHI: Principais Achados da Terapia com EEC + AMP vs Placebo",
+      "head": [
+        "Evento",
+        "EEC+AMP",
+        "Comentário"
+      ],
+      "rows": [
+        [
+          "Doença coronariana (CHD)",
+          "1,29 (1,02–1,63)",
+          "Aumento significativo em mulheres mais velhas"
+        ],
+        [
+          "Câncer de mama invasivo",
+          "1,26 (1,00–1,59)",
+          "Risco aumenta com duração >3-5 anos"
+        ],
+        [
+          "AVC isquêmico",
+          "1,41 (1,07–1,85)",
+          "Risco aumentado"
+        ],
+        [
+          "Tromboembolismo venoso",
+          "2,13 (1,39–3,25)",
+          "Risco mais que dobrado"
+        ],
+        [
+          "Fratura de quadril",
+          "0,66 (0,45–0,98)",
+          "Proteção significativa contra fratura"
+        ]
+      ],
+      "source": "Rossouw JE et al. JAMA 2002;288(3):321-33"
+    },
+    {
+      "kind": "bullets",
+      "title": "Janela de Oportunidade na THM",
+      "bullets": [
+        "Início da THM ideal: <60 anos ou <10 anos da menopausa [S16]",
+        "Nesse período, perfil benefício/risco é mais favorável, com menor risco cardiovascular e câncer de mama",
+        "Uso prolongado (>5 anos) associado a maiores riscos, especialmente em regimes combinados",
+        "Avaliação individualizada necessária para decidir manutenção da THM após 5 anos"
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Estradiol e Progestagênio: Vias e Formulações",
+      "left": {
+        "label": "Estrogênios e Progestágenos",
+        "items": [
+          "Estradiol 17β preferencial: fisiológico, boa evidência clínica",
+          "Via transdérmica: reduz impacto hepático, menor risco tromboembólico",
+          "Via oral: maior risco tromboembolismo venoso, metabolização hepática intensa",
+          "Progestagênio micronizado oral: protege o endométrio, menor risco trombótico que sinteticos",
+          "Progestagênios sintéticos: opção 2ª linha, maior risco relativo"
+        ]
+      },
+      "right": {
+        "label": "Considerações Clínicas",
+        "items": [
+          "Tratamento ideal para mulher com útero e risco CV aumentado: estradiol transdérmico + progesterona micronizada",
+          "Mulheres sem útero: estrogênio isolado",
+          "Implantes: uso restrito, off-label, risco e controle farmacocinético difíceis"
+        ]
+      }
+    },
+    {
+      "kind": "bars",
+      "title": "Risco Relativo de Eventos com Vias Diferentes de Estradiol",
+      "unit": "",
+      "source": "North American Menopause Society 2022",
+      "note": "Evidência nível A",
+      "bars": [
+        {
+          "label": "Risco tromboembolismo (oral): 2 a 4 vezes maior",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Risco tromboembolismo (transdérmico): não aumentado",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Status Regulatório e Evidência das Principais Terapias",
+      "head": [
+        "Terapêutica",
+        "Registro ANVISA",
+        "Off-label",
+        "Manipulado",
+        "Não prescrever",
+        "Evidência"
+      ],
+      "rows": [
+        [
+          "Estradiol oral/transdérmico (17β)",
+          "Sim",
+          "Não",
+          "Não",
+          "Não",
+          "A"
+        ],
+        [
+          "Progesterona micronizada oral",
+          "Sim",
+          "Não",
+          "Não",
+          "Não",
+          "A"
+        ],
+        [
+          "Progestágenos sintéticos",
+          "Sim",
+          "Não",
+          "Não",
+          "Não",
+          "A"
+        ],
+        [
+          "Implantes hormonais (E2 ± P4)",
+          "Não",
+          "Sim*",
+          "Sim",
+          "Não",
+          "C"
+        ],
+        [
+          "Androgênios (testosterona/DHEA)",
+          "Sim†",
+          "Sim",
+          "Sim",
+          "Sim (uso estético)",
+          "C/D"
+        ]
+      ],
+      "source": "CFM 2.333/2023, NAMS 2022, Endocrine Society 2016"
+    }
+  ],
+  "monograph": "```markdown\n# Terapia Hormonal da Menopausa (THM) Pós-WHI: Evidência, Janela de Oportunidade, Vias, Implantes e Regulação BR --- ## 1. Introdução A menopausa marca o término da função ovariana e declínio de estradiol e progesterona, com sintomas vasomotores, distúrbios do sono, alterações urogenitais, perda óssea e impacto neuropsíquico. Os sintomas moderados a graves afetam mais da metade das mulheres, e a THM segue sendo terapia mais eficiente para o alívio vasomotor e prevenção da perda óssea, dentro de critérios clínicos, éticos e regulatórios explícitos ([S16], [S13]). A queda na prescrição pós-WHI (2002) veio de alerta acerca dos riscos cardiovasculares e câncer de mama, sobretudo para regimes equinos orais, iniciado tardiamente ([S15]). Revisões posteriores e guidelines atuais reafirmam a necessidade de estratificação de risco, consideração da via, formulação e janela de oportunidade (<60 anos ou <10 anos de pós-menopausa). No Brasil, resolução CFM 2.333/2023 e normas ANVISA impõem limites éticos e sanitários: só prescrever com indicação clínica clara, nunca para fins anti-aging ou estéticos ([S13], [S19], [S8], [S14]). --- ## 2. Bases Fisiológicas da THM - **Eixo hipo-hipo-gonadal**: declínio de E2, P4 e em grau menor testosterona/DHEA-S.\n- Sintomas vasomotores (ondas de calor), insônia, disfunção sexual, sintomas urogenitais, alteração do humor e perda óssea predominam.\n- Causas agregadoras de risco: idade >60 anos, >10 anos pós-menopausa, tabagismo, obesidade, história familiar de neoplasias hormônio-dependentes ou trombose. --- ## 3. Revisão Crítica do WHI e Desenvolvimento Atual ### 3.1 O Estudo WHI (2002) - **População**: Mulheres pós-menopausa, média 63a — majoritariamente >10 anos sem estrogênio endógeno\n- **Intervenções**: - EEC 0,625 mg/d + AMP 2,5 mg/d contínuo (com útero) - EEC isolado (histerectomizadas)\n- **Desfechos**: Eventos coronarianos (CHD), câncer de mama, tromboembolismo, fraturas. #### Principais Achados WHI ([S15])\n| Desfecho | EEC+AMP vs placebo | EEC isolado vs placebo |\n|------------------------------- |-----------------------------|------------------------------|\n| CHD (primário) | HR 1,29 (1,02–1,63) | HR 0,91 (0,75–1,12) |\n| Câncer de mama invasivo | HR 1,26 (1,00–1,59) | HR 0,77 (0,59–1,01) |\n| AVC isquêmico | HR 1,41 (1,07–1,85) | HR 1,34 (1,08–1,66) |\n| Tromboembolismo venoso | HR 2,13 (1,39–3,25) | HR 1,33 (0,88–2,00) |\n| Fratura de quadril | HR 0,66 (0,45–0,98) | HR 0,61 (0,41–0,91) | > **Evidência A** (ECR, mas resultados dependem do contexto clínico e idade das participantes). ### 3.2 Limitações do WHI e Implicações Modernas - Maioria das mulheres estavam bem após a transição menopausal (média 63 anos).\n- Resultados não podem ser extrapolados para estrogênio transdérmico, doses baixas, uso em janela precoce (<60 anos ou <10 anos de menopausa)[S16].\n- Risco de câncer de mama cresce com duração (>3–5 anos) e é mais claro para regimes combinados com progestagênios sintéticos ([S15], [S16]). --- ## 4. Janela de Oportunidade, Formulações e Vias ### 4.1 Janela de Oportunidade - THM iniciada em <60 anos ou <10 anos da menopausa mostra melhor perfil benefício/risco ([S16]).\n- Riscos cardiovasculares e de neoplasia são substancialmente menores nesta população.\n- Uso prolongado (>5 anos) aumenta risco de câncer de mama com regimes combinados. ### 4.2 Formulações e Vias #### Estradiol\n- 17β-estradiol: fisiológico, melhor evidência para alívio sintomático ([S16])\n- Conjugados equinos: opções, mas menos fisiológicos. #### Progestagênios\n- _Necessário_ em mulheres com útero, para prevenir hiperplasia/câncer de endométrio.\n- Micronizada oral: menor impacto em riscos trombóticos/metabólicos que derivados sintéticos ([S16], [S14]).\n- Medroxiprogesterona: associada a maior risco tromboembólico e de câncer de mama em comparação. #### Androgênios\n- Uso limitado para sintomas persistentes (ex. disfunção sexual não responsiva), com benefício limitado e não primeira linha ([S16]) — avaliar cuidadosamente riscos e status regulatório. #### Vias\n- **Oral**: maior efeito de primeira passagem hepática; risco tromboembólico aumentado.\n- **Transdérmica**: menor impacto metabólico e trombótico, preferencial em risco aumentado (idade, obesidade, trombofilia, migraña com aura) ([S16]).\n- **Implante**: _Exclusivamente off-label_, manipulado, sem registro ANVISA; farmacocinética variável, titulação difícil, uso restrito a situações excepcionais e documentadas ([S13], [S8], [S14]). --- ## 5. INDICAÇÕES, CONTRAINDICAÇÕES E CONDUTA ### 5.1 Indicações - Sintomas vasomotores moderados a graves impactando qualidade de vida.\n- Prevenção de perda óssea/fraturas em alto risco e contraindicados a terapias não hormonais.\n- Avalie sempre relação risco-benefício individual. ### 5.2 Contraindicações Absolutas - Câncer de mama/endométrio/ovário atual ou pregresso\n- Tromboembolismo venoso/AVC/IM prévios\n- Sangramento vaginal sem causa definida\n- Disfunção hepática grave\n- Porfiria cutânea tarda ### 5.3 Avaliação de Risco - Idade, tempo de menopausa, história pessoal/familiar de neoplasias, risco vascular, obesidade, tabagismo.\n- Riscos trombofílicos (história pessoal/familiar, uso de tromboembolia, fatores hereditários relevantes — não rotina universal de pesquisa genética).\n- Rastreamento: mamografia, USG transvaginal, perfil lipídico/hepático, glicemia. --- ## 6. TERAPIAS: OPÇÕES, DOSES/TITULAÇÃO E STATUS REGULATÓRIO ### Tabela Regulatório/Evidência | Terapêutica | Registro ANVISA | Off-label | Manipulado (estéril) | Não prescrever | Evidência | Comentários |\n|------------------------------------------|:---------------:|:---------:|:--------------------:|:--------------:|:---------:|----------------------------------|\n| Estradiol oral/gel/patch (17β) | SIM | — | — | — | A | Primeira linha |\n| Progesterona micronizada oral | SIM | — | — | — | A | Menor efeito trombótico |\n| Progestagênios sintéticos | SIM | — | — | — | A | Reserva p/ indisponibilidade |\n| Implantes de E2 e/ou P4 | NÃO | SIM* | SIM | — | C | Exceção ética/de evidência baixa |\n| Androgênios (testosterona/DHEA) | SIM† | SIM | SIM | SIM(endereço) | C/D | Uso restrito, só indicação clara | _*Deve ser reservado a falha/tolerância limitada. _† Somente terapia menstrual/testosterona masculina_ *Evidência: A = ECR/guideline; B = ensaios menores; C = séries/casos; D = experiência/opinião* --- ## 7. FLUXOGRAMA DE CONDUTA (Brasil, 2024) 1. **Paciente menopausada sintomática:** documente natureza e gravidade do quadro.\n2. **Rastreamento e avaliação de risco:** mamografia, USG TV, glicemia, função hepática, perfil lipídico, risco tromboembólico.\n3. **Identificar contraindicações absolutas e relativas.**\n4. **Informar paciente (benefícios, riscos, alternativas, dúvidas);** coletar consentimento formal.\n5. **Definir via, dose e formulação:** - Vantagem transdérmico em contexto de risco. - Progestágeno se útero presente. - Jamais iniciar/renovar sem reavaliação anual.\n6. **Considerar manipulação/implante apenas após falha/intolerância, preferindo farmácia estéril certificada.**\n7. **Registrar detalhadamente no prontuário e agendar reavaliação lab/clínica no 2–3º mês e, depois, anual.** --- ### Fluxograma Visual (Markdown) 1. Mulher com sintomas vasomotores?\n2. Excluir contraindicações (trombo, câncer, doença hepática, sangramento).\n3. Coletar exames de rastreio (mamografia, TVUS, perfil cardiometabólico).\n4. Útero presente? - SIM: obrigar progestágeno. - NÃO: estradiol isolado.\n5. Alto risco trombótico/metabólico? - SIM: priorizar transdérmico/evitar oral.\n6. Falha/intolerância a formas convencionais? - SIM: considerar off-label (implante) _com consentimento e documentação rígida_.\n7. Monitorar clinicamente e laboratorialmente (primeiro 2–3 meses, depois anual). --- ## 8. MONITORAMENTO: Acompanhamento e Segurança - **Primeira reavaliação:** 2–3 meses (ajuste de dose, sintomas, eventos adversos)\n- **Sistêmico/Anual:** mamografia, USG TV, hepático, perfil lipídico-glicêmico, reavaliação do risco.\n- **Após 5 anos:** revisar manutenção da terapia, discutir nova relação risco-benefício, revalidação do consentimento ([S16]) **Riscos a Mitigar:**\n- Tromboembolismo (via oral/risco individual)\n- Câncer de mama (particular em uso >5 anos/EEC+AMP)\n- Falha farmacotécnica em implantes (nunca aceitar manipulação sem esterilidade, laudo, rastreio [S8], [S11], [S12])\n- Eventos adversos comuns: mastalgia, edema, sangramento disfuncional, sintomas depressivos. --- ## 9. Checklist de Prontuário/Consentimento - ( ) Sintomatologia detalhada e impactante para indicação\n- ( ) Contraindicações absolutas pesquisadas\n- ( ) Rastreamento ginecológico/mamário/labes atualizado\n- ( ) Discuta e documente claramente: benefícios, riscos, alternativas, ausência de promessas irreais (anti-aging, prevenção de envelhecimento)\n- ( ) Vantagem/desvantagem da via transdérmica, oral ou implante (se cabível)\n- ( ) Registro expresso de consentimento livre e esclarecido (TCLE), com abordagem sobre off-label/implante se for o caso\n- ( ) Identificação e rastreio de lote manipulados, laudo farmacotécnico anexado ao prontuário\n- ( ) Plano de monitoramento e próxima reavaliação agendada --- ## 10. Terapias Não-Hormonais e Complementares Para pacientes com contraindicação à THM ou risco elevado: - Inibidores seletivos de recaptação de serotonina/noradrenalina (paroxetina, venlafaxina)\n- Gabapentinoides (gabapentina)\n- Estrogênios vaginais — melhor opção para sintomas urogenitais isolados (atrofia, dispareunia), risco sistêmico mínimo ([S16])\n- Tibolona* ou moduladores do receptor de estrogênio — utilização específica, riscos/benefícios discutidos caso a caso. *_Off-label/manipulado depende da situação clínica e disponibilidade local_. --- ## 11. Considerações Regulatórias/Ethicas - Implantes hormonais **NÃO** são registrados para menopausa, são off-label e só prescritos diante de falha/tolerância ruim às vias convencionais, sob consentimento escrito detalhado e registro completo ([S13], [S19], [S8], [S14]).\n- THM para fins estéticos, neurocomportamentais, emagrecimento ou anti-aging é ética e juridicamente proibida; resguardo documental é imprescindível.\n- Toda manipulação deve exigir GMP farmacêutica: laboratório estéril, rastreio de lote, BUD e laudos anexados ([S8], [S11], [S12]).\n- Comunicação/publicidade segue RDC 96/2008 — vedada indução fora da comunidade médica. --- ## 12. O que NÃO fazer (Condutas Vedadas) - NÃO prescrever THM sem sintomas ou meramente para “rejuvenescer”, “emagrecer”, “harmonizar”.\n- NÃO indicar implantes fora do contexto estritamente individualizado e documentado.\n- NÃO ultrapassar 5 anos de uso contínuo sem nova decisão compartilhada.\n- NÃO prescrever hormônios manipulados de farmácias sem certificação e documentação formal.\n- NÃO omitir consentimento e registro detalhado.\n- NÃO divulgar ou prometer resultados que não constam da literatura robusta (performance, prevenção de envelhecimento, bem-estar subjetivo sem sintomatologia).\n- Nunca prescrever estrogênio isolado em mulheres com útero. --- ## QUICK-REF E CHECKLIST FINAL ### Algoritmo Resumido (BR 2024) ```\n[1] Sintomas (vasomotores/urologinais/osso) impactantes? |\n[2] Contraindicação absoluta? --> NÃO tratar. Alternativas não hormonais. |\n[3] Risco relativo cardiovascular/trombótico/mama calculado? |\n[4] Discussão formal, TCLE, registro de decisão informada. |\n[5] Escolha via: Transdérmica preferida se risco ↑. Oral possível risco baixo. |\n[6] Útero presente? → Progestágeno obrigatório. |\n[7] Implante? Só se falha/intolerância documentada, consentimento, farmácia GMP. |\n[8] Monitorar 2–3m, reavaliar; anual mínimo; revisar risco aos 5 anos.\n``` ### Checklist Prontuário/TCLE - ( ) Indicação justificada, sintomas registrados\n- ( ) Contraindicação absoluta excluída\n- ( ) Rastreios atualizados (mamografia, TVUS, lab)\n- ( ) Instrução e consentimento por escrito (incluindo off-label/implante)\n- ( ) Procedência e rastreabilidade do produto manipulados\n- ( ) Esquema posológico, parcerias para monitoramento\n- ( ) Revisão formal ao atingir 5 anos de uso --- ## 13. Referências Essenciais 1. [S15] Rossouw JE, et al. WHI Principal Results... JAMA 2002;288:321-33.\n2. [S16] North American Menopause Society. Position Statement 2022. Menopause 2022.\n3. [S13]/[S19] CFM Resolução 2.333/2023.\n4. [S8] ANVISA — Práticas de Manipulação. BR 2022.\n5. [S14] Endocrine Society/ACOG. Bioidenticals & Manipulados. 2016.\n6. [S11], [S12] CDC/USP797 — Farmacotecnia Estéril.\n7. Material complementar em guidelines Endocrine Society, NAMS. --- **Nota Editorial:** Esta monografia reforça a conduta ética e clínica baseada nas melhores evidências, incorporando estratificação de risco, regulação nacional e cautela total com terapias manipuladas e off-label. Não endossar hormonização para fins não reconhecidos, jamais deixar de documentar e monitorar.\n```",
+  "quick_ref": "# THM na Menopausa: Guia Rápido e Checklist ## Indicações\n- Sintomas vasomotores moderados a graves\n- Prevenção osteoporose em alto risco ## Contraindicações Absolutas\n- Câncer hormônio-dependente\n- Trombose venosa/AVC/IM anteriores\n- Sangramento vaginal não explicado\n- Hepatopatia grave ## Escolha Terapêutica\n| Via | Indicação / Consideração |\n|--------------|---------------------------------------|\n| Transdérmica | Preferida em risco trombótico/obesidade|\n| Oral | Risco trombo aumentado, evitar em fatores de risco |\n| Implantes | Off-label, manipulado, uso restrito e documentado | ## Progestagênio\n- Obrigatório em mulheres com útero\n- Preferir micronizado oral ## Monitoramento\n- Reavaliação 2–3 meses após início\n- Avaliação anual: mamografia, USG TV, perfil lipídico\n- Revisão após 5 anos do uso contínuo ## Checklist para Prescrição\n- ( ) Registro detalhado dos sintomas\n- ( ) Exclusão de contraindicações\n- ( ) Rastreios atualizados (mamografia, TVUS, labs)\n- ( ) Consentimento informado e registrado\n- ( ) Documentação da procedência/manipulação\n- ( ) Plano de monitoramento e retorno\n- ( ) Registro de off-label se implantado ## O que NÃO fazer\n- THM para fins estéticos, anti-aging ou emagrecimento\n- Uso indiscriminado de implantes\n- Falta de documentação e monitoramento > Sempre basear decisão clínica em evidências e respeitar regulatório brasileiro.",
+  "clinical_case": {
+    "title": "Caso Clínico: Mulher de 52 anos com Ondas de Calor Pós-Menopausa",
+    "vignette": "Paciente feminina, 52 anos, menopausa natural há 2 anos, relata ondas de calor diárias há 6 meses, insônia, aumento de peso e irritabilidade. Sem história prévia de trombose ou câncer. Tabagista há 10 anos, 10 cigarros/dia. IMC 29 kg/m2. Mamografia realizada há 1 ano sem alterações. Exames laboratoriais dentro da normalidade, glicemia e perfil lipídico sem alterações significativas.",
+    "question": "Qual a conduta mais adequada para o manejo terapêutico desta paciente com sintomas vasomotores e perfil de risco cardiovascular moderado?",
+    "teaching": "A paciente apresenta sintomas típicos da menopausa recente (>10 anos não), sendo candidata à THM na janela de oportunidade. Apesar de tabagismo e obesidade leve, não há histórico de trombose ou câncer, mamografia recente está normal. Deve-se optar por terapia hormonal com estradiol 17β preferencialmente via transdérmica para minimizar risco trombótico. Se útero presente, associar progesterona micronizada oral para proteção endometrial. Esclarecer benefícios e riscos, obter consentimento informado. Evitar implantes e terapias manipuladas nesta situação. Reavaliar em 2–3 meses e realizar monitoramento anual incluindo mamografia. Estratégias não hormonais são reserva para contraindicações.",
+    "reward": 15,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "Tempo de menopausa",
+        "value": "2 anos"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Ondas de calor, insônia, irritabilidade"
+      },
+      {
+        "label": "Tabagismo",
+        "value": "10 cigarros/dia há 10 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "29 kg/m2"
+      },
+      {
+        "label": "Mamografia",
+        "value": "Sem alterações há 1 ano"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normal"
+      },
+      {
+        "label": "História de trombose/câncer",
+        "value": "Negativa"
+      }
+    ],
+    "options": [
+      {
+        "label": "Iniciar estradiol oral combinado com medroxiprogesterona oral",
+        "correct": false,
+        "rationale": "Oral e medroxiprogesterona aumentam risco trombo e câncer mama; evita-se na janela precoce com fatores de risco moderados."
+      },
+      {
+        "label": "Iniciar estradiol 17β transdérmico com progesterona micronizada oral",
+        "correct": true,
+        "rationale": "Via transdérmica minimiza risco trombo; progesterona micronizada protege endométrio com menor risco trombótico."
+      },
+      {
+        "label": "Indicar implante hormonal de estradiol e progesterona manipulado imediatamente",
+        "correct": false,
+        "rationale": "Implantes são off-label, manipulado, uso restrito a falha de outras vias, não inicial de escolha."
+      },
+      {
+        "label": "Não indicar THM, prescrever venlafaxina para ondas de calor",
+        "correct": false,
+        "rationale": "THM indicada pela intensidade dos sintomas e idade; alternativas não hormonais são para contraindicações."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Rossouw JE, et al. Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women. JAMA. 2002;288(3):321-333."
+    },
+    {
+      "citation": "North American Menopause Society. The 2022 Hormone Therapy Position Statement. Menopause. 2022;29(7):767-782."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Agência Nacional de Vigilância Sanitária (ANVISA). Boas Práticas de Manipulação, 2022.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "Endocrine Society & ACOG. Caution on Compounded Bioidentical Hormone Therapy, 2016."
+    },
+    {
+      "citation": "CDC and NEJM reports on Sterile Compounding Failures (NECC), 2013."
+    },
+    {
+      "citation": "United States Pharmacopeia USP <797> Pharmaceutical Compounding, 2023.",
+      "url": "https://www.usp.org/"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

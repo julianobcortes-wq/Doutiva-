@@ -1,0 +1,341 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Prescrição e qualidade",
+  "title": "Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio",
+  "description": "Tratado clínico para endocrinologistas, nutrólogos e clínicos sobre prescrição ética, segura e de qualidade de injetáveis manipulados estéreis no Brasil, alinhado a ANVISA, CFM e padrões USP <797>. Inclui itens essenciais da prescrição, justificativa clínica, seleção de farmácia, farmacovigilância, alinhado a evidências reais e regulamentações nacionais.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
+  "key_points": [
+    "Injetáveis manipulados só com indicação clínica documentada, CID explícito e evidência robusta (A/B).",
+    "Prescrição deve detalhar nome genérico, dose, via, frequência, lote, e estabilidade, preservando rastreabilidade.",
+    "Exigir farmácia padrão cleanroom (USP <797>), com laudos de pureza, endotoxinas e esterilidade para cada lote.",
+    "Consentimento informado detalhado é mandatório, explicando riscos, off-label, conservação e descarte do produto.",
+    "Farmacovigilância ativa com registro e notificação obrigatória de eventos adversos graves.",
+    "Não prescrever hormônios ou peptídeos para estética, longevidade ou finalidades não comprovadas (ex: GH, ‘research peptides’).",
+    "Checklist em prontuário e uso de fluxogramas auxilia na defesa ética e legal do médico."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Como prescrever injetável manipulado com qualidade",
+      "subtitle": "Receita, Justificativa e Rastreio para especialistas clínicos e endocrinologistas brasileiros"
+    },
+    {
+      "kind": "table",
+      "title": "Status regulatório e indicativo para injetáveis manipulados",
+      "head": [
+        "Produto",
+        "Registro ANVISA",
+        "Uso Off-label",
+        "Manipulado permitido",
+        "Status CFM",
+        "Evidência",
+        "Grau"
+      ],
+      "rows": [
+        [
+          "Semaglutida (DM2/Obesidade)",
+          "Sim",
+          "Off-label para obesidade",
+          "Via manipulado só se justificado e rastreado",
+          "Sim se CID e evidência",
+          "ECR/Guideline",
+          "A"
+        ],
+        [
+          "Tirzepatida (DM2)",
+          "Sim",
+          "Obesidade off-label",
+          "Manipulado criterioso, com justificativa e lote",
+          "Sim com CID claro",
+          "ECR robusto",
+          "A"
+        ],
+        [
+          "Tirzepatida (Obesidade sem DM2)",
+          "Não",
+          "Sim",
+          "Manipulado permitido sob rigor e farmacovigilância",
+          "CID explícito e consentimento",
+          "ECR robusto (SURMOUNT etc.)",
+          "A"
+        ],
+        [
+          "Hormônio do crescimento (deficiência)",
+          "Sim",
+          "Não para estética/anti-aging",
+          "Somente indicações clínicas autorizadas",
+          "Proibido off-label para estética",
+          "ECR/Guideline",
+          "A"
+        ],
+        [
+          "Complexo B IV (Myers cocktail)",
+          "Não",
+          "Não",
+          "Uso restrito, só em deficiência comprovada",
+          "Reposição laboratorialmente documentada",
+          "Revisão sistemática negativa",
+          "C"
+        ],
+        [
+          "“Research peptides” (ex. BPC-157)",
+          "Não",
+          "Não",
+          "Não prescrever",
+          "Ilegal e sem evidência segura",
+          "Sem evidência",
+          "D"
+        ]
+      ],
+      "source": "[S5][S10][S12][S13][S14][S19]"
+    },
+    {
+      "kind": "bars",
+      "title": "Riscos ao prescrever sem padronização e qualidade na manipulação estéril",
+      "unit": "% / frequência",
+      "source": "[S8][S11][S19]",
+      "bars": [
+        {
+          "label": "Surto de meningite fúngica por esteroide contaminado: mortalidade alta, prescrição irresponsável [S11]",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Ausência de rastreabilidade contribui para críticas éticas e legais [S8][S12]",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Falha na conservação e administração aumentam eventos adversos [S12]",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Consentimento insuficiente pode levar a processos éticos e jurídicos [S19]",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma para prescrição ética de injetáveis manipulados no Brasil",
+      "steps": [
+        {
+          "label": "1. Confirmar indicação clínica e CID compatível"
+        },
+        {
+          "label": "2. Validar evidência nível A/B disponível para indicação"
+        },
+        {
+          "label": "3. Documentar tentativas e falhas terapêuticas padrão"
+        },
+        {
+          "label": "4. Realizar consentimento informado específico detalhado"
+        },
+        {
+          "label": "5. Escrever prescrição com dados completos (dose, via, lote, conservação)"
+        },
+        {
+          "label": "6. Selecionar farmácia com padrão USP <797>, laudos e rastreabilidade"
+        },
+        {
+          "label": "7. Conferir orientação farmacêutica e registro do lote no prontuário"
+        },
+        {
+          "label": "8. Monitorar resposta clínica e eventos adversos; registrar"
+        },
+        {
+          "label": "9. Notificar ANVISA e responsável por manipulação caso EA grave"
+        },
+        {
+          "label": "10. Avaliar periodicamente continuidade ou suspensão da terapia"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Checklist do prontuário para prescrição injetável manipulado",
+      "left": {
+        "label": "Prontuário clínico",
+        "items": [
+          "CID claro e justificativa clínica documentada",
+          "Registro de falha ou tentativa de terapia padrão",
+          "Receita detalhada e legível com dose, via, conservação",
+          "Consentimento informado específico com off-label esclarecido",
+          "Lote do produto e laudo de pureza/esterilidade anexados",
+          "Orientação formal ao paciente para uso correto e descarte",
+          "Monitoramento de efeitos e registro de eventos adversos",
+          "Notificação compulsória em caso de reações graves",
+          "Assinatura e CRM com validade legal (digital/ICP Brasil)"
+        ]
+      },
+      "right": {
+        "label": "Farmácia/Manipulação",
+        "items": [
+          "Anamnese e exames compatíveis",
+          "Evidência clínica atualizada",
+          "Seleção farmácia com sala limpa ISO 5–7 validada",
+          "Treinamento contínuo de equipe de manipulação",
+          "Controle rígido de qualidade e rastreabilidade",
+          "Documentação disponível para auditorias"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Tabela de exemplos resumidos de doses e conservação para injetáveis manipulados comuns",
+      "head": [
+        "Substância",
+        "Dose frequente",
+        "Via de administração",
+        "Conservação após abertura",
+        "BUD* padrão"
+      ],
+      "rows": [
+        [
+          "Tirzepatida (off-label obesidade)",
+          "5 a 15 mg SC semanal",
+          "Subcutânea",
+          "Refrigerar 2–8 °C",
+          "28 dias"
+        ],
+        [
+          "Semaglutida (obesidade/DM2)",
+          "1 a 2,4 mg SC semanal",
+          "Subcutânea",
+          "Refrigerar 2–8 °C",
+          "28 dias"
+        ],
+        [
+          "Hormônio do crescimento",
+          "0,1 a 0,3 mg/dia",
+          "SC ou IM",
+          "Refrigerar 2–8 °C",
+          "21 a 28 dias"
+        ],
+        [
+          "Complexo B (Myers cocktail IV)",
+          "Individualizado, ~10–20 mL/dose",
+          "Intravenosa",
+          "Uso imediato preferencial",
+          "24 horas após preparo"
+        ],
+        [
+          "Peptídeos manipulados (ex: BPC-157)",
+          "Não recomendado¹",
+          "Não recomendado",
+          "-",
+          "-"
+        ]
+      ],
+      "source": "[S12][S14][S19]"
+    },
+    {
+      "kind": "pearl",
+      "title": "Mensagem-chave",
+      "text": "\"Prescrição ética e segura de injetáveis manipulados é imperativo médico — evidência, rastreabilidade e escolha criteriosa da farmácia são os pilares para proteger paciente e profissional.\""
+    }
+  ],
+  "monograph": "# Como Prescrever Injetável Manipulado com Qualidade: Receita, Justificativa e Rastreio *Tratado clínico premium para endocrinologistas, nutrólogos e clínicos brasileiros. Com rigor científico, foco no paciente e pleno alinhamento às normativas CFM, ANVISA e aos padrões de sala limpa para manipulação estéril.* --- ## 1. Introdução e Contexto A prescrição de terapias injetáveis manipuladas – incluindo peptídeos, hormônios, vitaminas e soros IV – só se justifica com indicação clínica legítima, respaldo em evidência e estrita atenção ao controle de qualidade. Erros de dose, falhas na rastreabilidade, escolhas baseadas em preço ou marketing, e insuficiência documental expõem tanto médico quanto paciente a riscos sanitários, jurídicos e éticos graves [S5][S8][S11][S12][S19]. A prática responsável requer: - **Receita detalhada e individualizada:** com CID, justificativa, via, dose exata, lote e critérios de conservação;\n- **Justificação baseada em evidência forte (A ou B), nunca apenas opinião ou moda;**\n- **Seleção de farmácia de manipulação estéril validada, conforme USP <797> e ANVISA;**\n- **Monitoramento e farmacovigilância ativa;**\n- **Consentimento informado robusto e registro minucioso em prontuário.** Proibido: uso recreativo/estético de hormônios, peptídeos \"research\", terapias sem respaldo laboratorial, ou produtos sem pureza/lote documentado [S13][S14][S19]. Toda decisão acima é também escudo legal e ético para o profissional. --- ## 2. Evidência, Hierarquia Regulatório-Estrutural e Limites para Terapêutica Manipulada ### 2.1. Estratificação Regulatório-Terapêutica | Produto Principal | Registro ANVISA | Uso Off-label | Manipulado Permitido | Status CFM | Evidência Requerida | Grau |\n|-----------------------------------|:-----------------:|:-------------:|:-------------------:|--------------------------------------------|---------------------|:----:|\n| Semaglutida (DM2/Obesidade) | Sim (DM2; Obesidade via registro RE 2023) | Apenas quando CID ≠ registro | Eventual (verificar); preferir registrado | Sim, se CID e evidência | ECR/Guideline | A |\n| Tirzepatida (DM2) | Sim (DM2) | Obesidade: off-label | Manipulado: apenas se justificativa, registro de lote, CID e farmacovigilância | Sim, apenas CID justificado | ECR robusto | A |\n| Tirzepatida (Obesidade sem DM2) | Não (Brasil) | Sim | Manipulado: uso off-label escrutinado | Apenas CID explícito, consentimento | ECR robusto (SURMOUNT etc.) | A |\n| GH (somatopausa adulto) | Sim (deficiências reais) | Jamais estética/longevidade | Proibido off-label | Somente em déficits, nunca estético [S13][S19] | ECR/Guideline | A |\n| Complexo B/“Myers Cocktail” | Não | Deficiência documentada | Via manipulação: extrema cautela; evidência fraca | Apenas reposição laboratorialmente documentada | Revisão sistemática negativa [S10] | C |\n| “Research peptide” (BPC-157 etc.) | Não | Não | Não | Não prescrever | Não há evidência segura | D | *[S9][S10][S12][S13][S14][S19]* ### 2.2. Tabela Regulatório-Estrutural | Situação | Registrado | Off-label | Manipulado Estéril | NÃO Prescrever |\n|----------------------------------|:----------:|:---------:|:------------------:|:--------------:|\n| GLP-1 agonista para DM2 | ✔ | — | Eventual | — |\n| GLP-1 agonista p/ Obesidade | ✔\\* | ✔ | ✔ (com cautela) | — |\n| Tirzepatida para Obesidade | — | ✔ | ✔\\*\\* (criterioso) | — |\n| GH (antienvelhecimento) | — | — | — | ✔ |\n| Myers/Complexo B IV (sem DEF) | — | — | — | ✔ |\n| Research Peptides | — | — | — | ✔ | \\*Registro para obesidade pode recém ser aprovado ou pendente, verificar status na ANVISA. \\*\\*Manter documentação rigorosa, só após falha de medidas padrão ou registros disponíveis. **Nunca prescrever NOR para fins estéticos/anti-aging, nem peptídeos sem respaldo regulatório.** *[S5][S10][S13][S14][S19]* --- ## 3. Elementos Fundamentais da Prescrição Injetável Manipulada ### 3.1. Estrutura Detalhada da Receita - **Identificação completa do paciente:** nome, sexo, idade, peso.\n- **CID e diagnóstico:** obrigatórios; exemplos: E66.X (obesidade), E23.0 (def. GH adulto).\n- **Produto químico:** nome genérico, concentração, forma farmacêutica, via (SC, IM, IV), volume e frequência.\n- **Dose individualizada:** ajustada para peso, status clínico e evidência publicada.\n- **Justificativa clínica:** déficit laboratorial, falha terapêutica prévia, ECR/guideline ancorado.\n- **Conservação e prazo:** destacado na prescrição e orientação: ex. “Conservar entre 2–8 °C. Após abertura, uso máximo em até 28 dias (checar ficha técnica específica do produto/empresa manipuladora).”\n- **Lote, fornecedor e laudos:** arquiváveis via etiqueta/QR-code no prontuário.\n- **CRM, data, assinatura manuscrita ou digital certificada (ICP Brasil).** ### 3.2. Justificativa Clínica Documental - Indicação clara, CID alinhado.\n- Racional científico explícito e atualizado, citando evidência.\n- Registro de tentativas terapêuticas convencionais (ex. dieta, medicação padrão).\n- Consentimento informado específico e documento escaneável no prontuário. ### 3.3. Lote, Farmacovigilância e Segurança Ativa - Conferência e registro de lote com relatórios de pureza/endotoxina/esterilidade.\n- Laudos facilmente acessíveis (cópias na ficha do paciente).\n- Notificação compulsória à ANVISA/farmácia/manipulação diante de evento adverso grave [S11][S12].\n- Farmacovigilância protocolar: acompanhamento ativo, visitas regulares, registro de EA leves/graves no sistema. --- ## 4. Como Escolher Farmácia/Manipulação Estéril: Padrão | Critério | Requisito Crítico |\n|----------------------------------------|----------------------------------------------------------------------------------------|\n| **Licença ANVISA/CRF** | Obrigatória; verificar publicamente |\n| **Sala limpa ISO 5–7** | Inspeção in loco/fotos/reports. Não aceitar ambiente aberto ou sem diferenciação |\n| **Laudos matéria-prima (C.Q.)** | Exigir. Sem laudo, não comprar/prescrever |\n| **Teste de esterilidade e endotoxina** | Sim, lote a lote |\n| **Relatório individual de lote** | Paciente-direcionado |\n| **Parâmetros de validade e conservação**| Expressos na embalagem e ficha técnica |\n| **Equipe e treinamento permanentes** | Farmacêutico pleno tempo, treinamentos registrados | > **Drip bars** sem este padrão ≠ farmácia estéril. Exigência legal e ética recai ao prescritor também [S8][S12]. --- ## 5. Fluxograma Clínico para Prescrição Injetável Manipulado no Brasil ```\n1. Identificação do paciente com potencial indicação (história, exame físico, laboratório).\n2. Confirmação de CID compatível e comprovada (ex: E66.0, E23.0, D50).\n3. Checagem de indicação clínica baseada em evidência A/B. └ Se não há evidência A/B: NÃO PRESCREVER.\n4. Documento de tentativas padrão já realizadas/falhas (dieta, oral etc.).\n5. Consentimento informado detalhado (ver item 7).\n6. Prescrição detalhada: - Nome químico, dose, via, duração, conservação, CID, justificativa. - Lote e laudo exigidos da farmácia.\n7. Seleção de farmácia: padrão cleanroom, testes, registro ANVISA, C.Q.\n8. Check farmacêutico pré-dispensa ao paciente (orientação de uso e conservação).\n9. Registro de lote/fornecedor no prontuário/etiqueta.\n10. Monitoramento ativo: eventos adversos, resposta clínica, renovação de exames/lotes.\n11. Notificação compulsória de eventos graves à ANVISA, farmácia, paciente.\n12. Revisão de conduta: ajuste, suspensão ou renovação criteriosa.\n``` --- ## 6. Checklist de Prontuário — Prescrição Injetável Manipulado **Antes da prescrição:** - [ ] Anamnese e exame físico completos.\n- [ ] CID clínico diagnosticado.\n- [ ] Indicação comprovada (exames, falha prévia terapêutica).\n- [ ] Evidência ancorada em diretriz/ECR.\n- [ ] Discussão de alternativas registradas convencionais. **Prescrição:** - [ ] Receita digitada ou manuscrita legível.\n- [ ] Nome químico, dose (mg/mcg/mL), via, frequência, duração.\n- [ ] Conservação (temperatura, validade).\n- [ ] Lote/fornecedor previsto.\n- [ ] Justificativa objetiva. **Consentimento informado específico:** - [ ] Explicada natureza off-label (quando for o caso).\n- [ ] Explicação de riscos/benefícios, limitações e alternativas.\n- [ ] Informação sobre prazo após abertura, armazenamento e descarte seguro.\n- [ ] Paciente orientado sobre sinais de reação adversa.\n- [ ] Registro da assinatura do paciente e profissional. **Após dispensação/uso:** - [ ] Registro do lote, data e farmácia fornecedora/CRF.\n- [ ] Cópia de laudo de pureza/esterilidade anexada.\n- [ ] Monitoramento/documentação de resposta e EA.\n- [ ] Notificação de eventos adversos (quando indicado). --- ## 7. Segurança, Monitoramento e Manuseio - **Armazenamento:** Produtos biológicos/manipulados geralmente exigem refrigeração entre 2–8 °C; respeitar “beyond-use date” (BUD) da farmácia, usualmente **28 dias** após abertura para peptídeos/proteínas manipuladas* [S12] *(verificar ficha técnica e informação do laboratório/farmácia para adaptação clínica)*.\n- **Administração:** Apenas em ambiente seguro, conforme via e com material estéril. Nunca compartilhar seringas.\n- **Resíduos:** Descarte de seringas/ampolas em coletor rígido e entrega em farmácia ou serviço de saúde.\n- **Manuseio pelo paciente:** Explicar via e armazenamento, pra que o farmacêutico forneça orientação detalhada e por escrito junto ao frasco.\n- **Contraindicações absolutas:** Alergia conhecida, gestação na maioria dos peptídeos, ausência de CID e justificativa, ambiente não controlado. --- ## 8. Situações NÃO Prescrever - Ausência de indicação clínica/laboratorial robusta.\n- GH/anabolizantes/peptídeos para finalidade estética/anti-aging.\n- Qualquer “research peptide”, produto sem registro ANVISA, sem CID explícito ou rastreio do lote.\n- “Drips” ou soroterapia sem deficiência laboratorial e consentimento.\n- Fora da dose padrão de referência, sem ancoragem (checar guideline de dose máxima, nunca inventar – se não houver, não prescrever) [S3][S14]. --- ## 9. Consentimento Informado Específico para Terapia Manipulada Injetável **Estrutura obrigatória:** - Indicação e CID, com explicação se o uso é registrado ou off-label.\n- Benefícios clínicos esperados, riscos conhecidos, e limitações da evidência científica.\n- Risque possibilidades de uso não aprovado.\n- Alternativas terapêuticas – incluindo registradas/outros modos.\n- Detalhamento de manuseio, conservação e prazo de validade do injetável.\n- Compromisso do paciente de relatar reações adversas e guardar etiqueta/lote.\n- Termo físico assinado e guardado (ou digital ICP Brasil). --- ## 10. Referências-Chave - [S5] ANVISA. Princípios de Boas Práticas de Manipulação no Brasil. 2022.\n- [S8] ANVISA/RDCs – Requisitos atualizados para manipulação estéril. Acesso em 2024.\n- [S10] Intravenous nutrient therapy (Myers cocktail) — Critical appraisal. Doutiva, 2018.\n- [S11] CDC/NEJM. Outbreak fungal meningitis — compounding failures. NEJM, 2013.\n- [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations. USP, 2023.\n- [S13] CFM Res. 2.333/2023 — Hormonioterapia, estética/anti-aging. CFM, 2023.\n- [S14] Endocrine Society/ACOG. Compounded bioidentical hormone therapy. Statements, 2016.\n- [S19] CFM Res. 2.333/2023.\n- [S3] LLM em Medicina — recomendações de cautela. Doutiva, 2024. --- ## 11. Mensagens Finais (“Top 7”) 1. **Respeite sempre: CID justificado, evidência robusta e rastreabilidade do lote** – protege o paciente e o CRM.\n2. **Só prescreva off-label/manipulado com consentimento informado completo e registro de tentativa terapêutica padrão**.\n3. **Salas limpas, laudo de esterilidade e registro ANVISA são inegociáveis para farmácias de manipulação.**\n4. **Jamais aceite produto sem prazo de uso e conservação claramente declarados — use “descartar após X dias (ver testar/ajustar) e manter sob refrigeração 2–8 °C”.**\n5. **Sempre monitorar e registrar efeitos, documentando e notificando reações.**\n6. **Nunca incentive oriente “drip” vitamínico, GH, peptídeo não avaliado ou pesquisa para estética/longevidade/finalidade cosmética.**\n7. **Checklist e protocolos no prontuário — são sua melhor defesa ética contemporânea.** --- **Prescreva como médico USP/SBEM: Não existe prescrição ética em ambiente opaco ou desinformado. GMC.** --- ### TABELAS, FLUXO E CHECKLISTS (formato Markdown para copiar) #### 1. Tabela Resumida do Status Regulatório | Substância | Registrado | Off-label | Manipulável | NÃO Prescrever | Observações |\n|----------------------|:----------:|:---------:|:-----------:|:--------------:|:------------------------------------------|\n| Tirzepatida (DM2) | ✔ | — | ✔\\* | — | Só DM2 registrado (Obesidade: off-label) |\n| Tirzepatida (Obesidade) | — | ✔ | ✔\\* | — | Documentar CID, consentimento, lote |\n| GH (patologias) | ✔ | — | ✔ | — | Indicações médicas; nunca estética |\n| GH (anti-aging) | — | — | — | ✔ | PROIBIDO ética/legal |\n| Complexo B IV (“Myers”) | — | — | ✔\\*\\* | ✔\\*\\* | Só se deficiência ou indicação robusta |\n| “Research peptide” | — | — | — | ✔ | PROIBIDO, inseguro e ilegal | \\* Farmácia padrão, lote, laudo, justificação e farmacovigilância obrigatórias. \\*\\* Só reposição quando comprovada laboratorialmente, não para “energia/detox”. #### 2. Fluxograma de Conduta Ética — Injetável Manipulado ```\n1. Necessidade clínica identificada (CID, exames, falha terapêutica).\n2. Evidência robusta (A/B) — guideline ou ECR.\n3. Prescrição detalhada (identificação completa, CID, dose individualizada, via, duração, conservação, justificativa).\n4. Consentimento informado específico prontoário.\n5. Seleção farmácia padrão cleanroom/USP797, laudos de esterilidade/pureza/lote.\n6. Fornecimento: farmacêutico orienta paciente quanto uso, conservação e descarte.\n7. Registro de lote/etiqueta.\n8. Acompanhamento: EA, resposta clínica, revalidação laudo/lote/estabilidade.\n9. Notificação compulsória se EA grave.\n10. Revisão de conduta clínica.\n``` #### 3. Checklist de Prontuário/TCLE para Prescrição de Injetável Manipulado - [ ] CID explícito e documentação (laboratório, imagem ou exame físico).\n- [ ] Indicação alinhada à evidência.\n- [ ] Registro de tentativa/falha terapêutica padrão.\n- [ ] Receita detalhada: nome químico, dose, via, duração, instrução de conservação, prazo de uso após abertura (ex: “28 dias”; verificar se estabilidade menor).\n- [ ] Lote documentado (farmácia, etiqueta, QR).\n- [ ] Cópia de laudo de pureza/esterilidade anexada.\n- [ ] Consentimento informado com CID/uso off-label esclarecido.\n- [ ] Orientação de administração, conservação, resíduos.\n- [ ] Monitoramento/eventos adversos registrados.\n- [ ] Notificação ANVISA se EA grave.\n- [ ] Data, carimbo, assinatura (ICP Brasil se digital). --- **Fim do tratado. Adapte e atualize sempre segundo a última diretriz, ANVISA e CFM. Não invente doses — consulte guideline oficial e farmacêutico. Segurança, rastreabilidade e ética definem excelência clínica.**",
+  "quick_ref": "# Guia Rápido para Prescrição Ética de Injetáveis Manipulados Estéreis ## Doses e Conservação Comuns\n| Substância | Dose Típica | Via | Conservação Após Abertura | Prazo Uso (BUD) |\n|------------|-------------|-----|---------------------------|-----------------|\n| Tirzepatida (off-label obesidade) | 5–15 mg SC semanal | SC | Refrigerar 2–8°C | 28 dias |\n| Semaglutida (DM2/Obesidade) | 1–2,4 mg SC semanal | SC | Refrigerar 2–8°C | 28 dias |\n| GH adulto (deficiência) | 0,1–0,3 mg/dia | SC/IM | Refrigerar 2–8°C | 21–28 dias | ## Red Flags a Evitar\n- Prescrever sem CID explícito e justificativa clínica.\n- Farmácia sem registro ANVISA, sala limpa, laudos ou rastreabilidade.\n- Uso de hormônios ou peptídeos para estética/anti-aging sem indicação aprovada.\n- Falta de consentimento informado e documentação no prontuário. ## Checklist de Consultório\n- [ ] Verificar CID e indicação conforme evidência.\n- [ ] Confirmar tentativas e falhas terapêuticas anteriores.\n- [ ] Prescrição detalhada com dose, via, lote e conservação.\n- [ ] Consentimento informado específico para uso off-label/manipulado.\n- [ ] Seleção de farmácia com padrão USP <797> e documentação legível.\n- [ ] Instrução escrita para paciente sobre uso, armazenamento e descarte.\n- [ ] Registro de lote, laudo e farmacovigilância ativa.\n- [ ] Monitorar e notificar eventos adversos graves. *Docume... (truncado para brevidade)",
+  "clinical_case": {
+    "title": "Caso clínico para prescrição de injetável manipulado em paciente com obesidade e intolerância a GLP-1",
+    "vignette": "Paciente homem, 52 anos, IMC 34 kg/m², hipertensão controlada, diagnóstico de obesidade grau I (E66.9). Tentou semaglutida registrada 1 mg semanal por 3 meses, mas apresentou intolerância gastrointestinal grave e cessou terapia. Consulta para avaliação de tirzepatida manipulada para obesidade off-label. Exames laboratoriais recentes confirmam ausência de diabetes (HbA1c 5,4%), ferritina e eletrólitos normais. Relata compreensão dos riscos. Médico planeja prescrição criteriosa e rastreada.",
+    "question": "Qual a conduta ética mais adequada para prescrição da tirzepatida manipulada para este paciente?",
+    "teaching": "A prescrição de tirzepatida para obesidade ainda é off-label no Brasil, e quando feita manipulada deve cumprir rigorosos critérios de indicação, rastreabilidade e farmacovigilância. Este paciente tem indicação clínica (obesidade), intolerância a outra medicação semelhante e entende os riscos. A conduta ética inclui: - Documentar CID compatível e justificação clínica.\n- Elaborar receita completa: dose ajustada, via SC, com validade e conservação.\n- Exigir farmácia padrão com laudos e lote.\n- Consentimento informado específico explicando off-label e riscos.\n- Monitoramento próximo pós-início e registro de eventos adversos. Esta abordagem mitiga riscos éticos e legais, preservando segurança e eficácia. --- **Opções:**",
+    "reward": 7,
+    "data": [
+      {
+        "label": "Nome",
+        "value": "Masculino, 52 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m², obesidade grau I"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão controlada"
+      },
+      {
+        "label": "Tentativa anterior",
+        "value": "Semaglutida 1 mg semanal, intolerância GI grave"
+      },
+      {
+        "label": "Diagnóstico",
+        "value": "Obesidade, E66.9"
+      },
+      {
+        "label": "Exames recentes",
+        "value": "HbA1c 5,4%, ferritina normal"
+      },
+      {
+        "label": "Consentimento",
+        "value": "Paciente informado dos riscos"
+      },
+      {
+        "label": "Objetivo",
+        "value": "Perda de peso eficaz e segura"
+      }
+    ],
+    "options": [
+      {
+        "label": "Prescrever tirzepatida manipulada, sem consentimento formal, usando farmácia sem comprovação cleanroom",
+        "correct": false,
+        "rationale": "Risco ético e legal grave, farmácia sem padrão não é aceitável na manipulação estéril [S8][S12]."
+      },
+      {
+        "label": "Não prescrever tirzepatida manipulada, indicar dieta e exercício e aguardar registro na obesidade",
+        "correct": false,
+        "rationale": "Embora conservador, nega ao paciente alternativa possível em contexto off-label justificado e documentado, contraria evidências e resoluções da CFM para uso criterioso [S19]."
+      },
+      {
+        "label": "Prescrever tirzepatida manipulada com receita detalhada, CID clínico, consentimento informado, e farmácia padrão USP <797> com rastreabilidade e monitoramento",
+        "correct": true,
+        "rationale": "Conduta correta, respeitando legislação, evidência e segurança, com controle rígido de qualidade e farmacovigilância [S8][S12][S19]."
+      },
+      {
+        "label": "Solicitar GH manipulada para ganho de massa como medida complementar para obesidade",
+        "correct": false,
+        "rationale": "GH para fins estéticos ou musculares não é aprovado nem ético, além de proibido pelo CFM [S13][S19]."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations, United States Pharmacopeia, 2023.",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "CDC/NEJM. Outbreak fungal meningitis associated with contaminated steroid injections, 2013. DOI 10.1056/NEJMoa1213978",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1213978"
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 — restrição a hormonioterapia estética/anti-aging, 2023.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Endocrine Society Clinical Practice Guideline. Testosterone Therapy. J Clin Endocrinol Metab, 2018.",
+      "url": "https://academic.oup.com/jcem/article/103/5/1715/5027675"
+    },
+    {
+      "citation": "Neeland IJ et al. Lean mass changes with GLP-1-based therapies. Diabetes Obes Metab 2024."
+    },
+    {
+      "citation": "Rubino D et al. Effect of Continued Weekly Semaglutide on Weight Loss Maintenance. JAMA 2021.",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2780535"
+    },
+    {
+      "citation": "Aronne LJ et al. Tirzepatide vs Semaglutide for Obesity. N Engl J Med 2025.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2416392"
+    },
+    {
+      "citation": "ANVISA. Princípios de Boas Práticas de Manipulação no Brasil, 2022.",
+      "url": "https://www.gov.br/anvisa"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

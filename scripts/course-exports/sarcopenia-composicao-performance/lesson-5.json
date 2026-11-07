@@ -1,0 +1,318 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Treino",
+  "module_position": 3,
+  "title": "Treino de Força como Prescrição Médica: Princípios para o Clínico Prescrever ou Encaminhar",
+  "description": "Esta aula aborda os fundamentos fisiológicos, evidências clínicas robustas e diretrizes práticas para a prescrição médica do treino de força, especialmente em sarcopenia, diabetes tipo 2, osteoporose e outras condições clínicas comuns no consultório do endocrinologista, nutrólogo e clínico. Apresenta protocolos seguros, progressão, integração multiprofissional e respeito ao marco regulatório brasileiro, proibindo uso de hormônios/peptídeos não aprovados, implantes cosméticos e soroterapia sem critério.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
+  "key_points": [
+    "O treino de força é a intervenção não farmacológica mais eficaz para reversão da sarcopenia, com evidência robusta demonstrando redução de mortalidade e quedas.",
+    "Antes da prescrição, o médico deve realizar avaliação clínica, incluindo ECG, exame físico, exames laboratoriais e avaliação do risco ortopédico e cardiovascular.",
+    "A prescrição médica deve especificar objetivo clínico, frequência (mínimo 2x/semana), intensidade progressiva (inicial 50–60% 1RM, até 70–80%), volume e cronograma para reavaliação.",
+    "O acompanhamento deve ser multiprofissional, envolvendo educador físico/fisioterapeuta com relatórios periódicos e monitoramento clínico do paciente.",
+    "GH, peptídeos não registrados (ex: CJC-1295, Ipamorelina), implantes hormonais para fins estéticos e soroterapia sem indicação formal são proibidos conforme CFM, ANVISA e WADA.",
+    "Monitorar e educar o paciente para sinais de alerta como dor intensa, angina, síncope e queda; complicações graves são raras com protocolo correto.",
+    "Prescrição deve ser registrada formalmente no prontuário com descrição clara de objetivo, contraindicações, e encaminhamento ético e legal."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Treino de Força como Prescrição Médica",
+      "subtitle": "Princípios para o Clínico Prescrever/Encaminhar - Módulo 3 · Sarcopenia, Composição Corporal e Performance"
+    },
+    {
+      "head": [
+        "Estudo/Meta",
+        "População",
+        "Idade Média",
+        "Intervenção",
+        "Desfecho",
+        "Magnitude",
+        "Nível Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Liu & Latham, 2009",
+          "2.092",
+          "65–85 anos",
+          "12–24 semanas treino força",
+          "Força e funcionalidade",
+          "↑Força ES 0,57; ↓quedas 30%",
+          "A"
+        ],
+        [
+          "Peterson et al, 2010",
+          "1.329",
+          "≥ 65 anos",
+          "12–52 semanas, 2-3x/sem",
+          "Massa magra",
+          "+1,1 kg massa magra",
+          "A"
+        ],
+        [
+          "Clark et al, 2017",
+          "404",
+          "≥ 70 anos",
+          "24 semanas, 3x/sem",
+          "Mobilidade/velocidade marcha",
+          "↑20% velocidade marcha",
+          "A"
+        ],
+        [
+          "Flack et al, 2018",
+          "265",
+          "55–75 anos",
+          "Força vs aeróbico",
+          "Controle glicêmico",
+          "↓HbA1c -0,6% (força)",
+          "B"
+        ],
+        [
+          "Steffl et al, 2017",
+          "5.286",
+          "60–85 anos",
+          "Força >6 meses",
+          "Mortalidade geral",
+          "↓HR 0,80 (IC95% 0,73–0,86)",
+          "A"
+        ]
+      ],
+      "title": "Evidências Científicas no Treino de Força em Idosos e Populações Clínicas",
+      "source": "Resumo baseado em metanálises e estudos principais (Biblioteca Doutiva)."
+    },
+    {
+      "kind": "bullets",
+      "title": "Populações para Prescrição de Treino de Força",
+      "bullets": [
+        "Idosos com sarcopenia ou fragilidade",
+        "Pacientes com diabetes tipo 2 e síndrome metabólica",
+        "Pacientes com osteoporose ou risco aumentado de fratura",
+        "Pacientes oncológicos em reabilitação funcional",
+        "Pós-internação hospitalar (ex: AVC, IAM, cirurgias maiores)",
+        "Pacientes com Long COVID e fadiga crônica"
+      ]
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Avaliação clínica completa —> incluir história, exame físico e exames básicos"
+        },
+        {
+          "label": "Determinação do objetivo clínico —> força, massa, funcionalidade, metabólico"
+        },
+        {
+          "label": "Prescrição textual formal —> frequência, intensidade, volume, progressão, reavaliação"
+        },
+        {
+          "label": "Encaminhamento para profissional habilitado —> educador físico/fisioterapeuta"
+        },
+        {
+          "label": "Supervisão e monitoramento —> avaliação de efeitos adversos e evolução"
+        },
+        {
+          "label": "Reavaliação periódica —> ajustar protocolo ou conduta clínica"
+        }
+      ],
+      "title": "Algoritmo para Prescrição Médica do Treino de Força"
+    },
+    {
+      "head": [
+        "Perfil",
+        "Frequência",
+        "Intensidade",
+        "Volume",
+        "Progressão",
+        "Segurança"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Idosos >65 anos",
+          "2–3x por semana",
+          "60–80% 1RM, RPE 6–8/10",
+          "1–3 séries de 8–12 repetições",
+          "Aumentar carga a cada 2–3 semanas",
+          "Supervisão focada em técnica"
+        ],
+        [
+          "Diabetes tipo 2/metabólicos",
+          "2–3x por semana",
+          "60–75% 1RM",
+          "2–3 séries de 8–10 repetições",
+          "Ajuste mensal na carga e volume",
+          "Monitorar glicemia pré e pós"
+        ],
+        [
+          "Osteoporose",
+          "2x por semana",
+          "60–70% 1RM",
+          "2–3 séries",
+          "Aumentar carga com acompanhamento densitométrico",
+          "Evitar impacto axial inicial"
+        ],
+        [
+          "Oncológicos",
+          "2x por semana",
+          "Leve a moderado",
+          "1–2 séries de 12+ repetições",
+          "Progressão lenta e individualizada",
+          "Avaliação de riscos infeciosos e hematológicos"
+        ],
+        [
+          "Sarcopênicos",
+          "2–3x por semana",
+          "65–85% 1RM inicial com adaptação",
+          "1–3 séries de 8–10 repetições",
+          "Rampa inicial em 2–4 semanas",
+          "Supervisão obrigatória rígida"
+        ]
+      ],
+      "title": "Protocolos Práticos por Perfil Clínico",
+      "source": "Protocolos consolidados na literatura e prática clínica especializada."
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Encaminhar treino força supervisado, documento com objetivo, frequência, intensidade, volume, progressão e reavaliação",
+          "Monitoramento clínico e intercorrências relatadas",
+          "Comunicação clara com equipe multiprofissional",
+          "Registro no prontuário médico com justificativa clínica e contraindicações"
+        ],
+        "label": "Conduta Médica Recomendada"
+      },
+      "right": {
+        "items": [
+          "Não prescrever hormônio do crescimento para anti-aging ou ganho de força sem déficit confirmado",
+          "Proibir prescrição de peptídeos manipulados sem registro ANVISA e evidência robusta",
+          "Não indicar implantes hormonais cosméticos ou sopas intravenosas de “performance” sem critério clínico claro",
+          "Rigor em observância às resoluções do Conselho Federal de Medicina e legislação vigente"
+        ],
+        "label": "Conduta Não Permitida (Ética/Regulatória)"
+      },
+      "title": "Prescrição Médica Formal vs. Proibições Éticas e Regulatórias"
+    },
+    {
+      "kind": "bullets",
+      "title": "Dicas de Monitoramento e Segurança no Treino de Força",
+      "bullets": [
+        "Solicitar relato de dor muscular, articular e quedas a cada consulta",
+        "Monitorar sinais vitais e glicemia em pacientes metabólicos",
+        "Avaliar sinais de rabdomiólise e sofrimento muscular (especialmente com uso de SGLT2i e condições debilitantes)",
+        "Orientar pacientes sobre sinais de angina, síncope e desmaio durante exercício",
+        "Reforçar necessidade de supervisão e não abandono do protocolo",
+        "Reavaliar frequentemente para ajuste e mudanças de foco"
+      ]
+    },
+    {
+      "kind": "title",
+      "title": "Caso Clínico Aplicado: Treino de Força em Idosa Diabética com Perda de Massa",
+      "subtitle": "Escolha da melhor abordagem"
+    },
+    {
+      "kind": "bullets",
+      "note": "Resposta correta: C",
+      "title": "Alternativas para Conduta no Caso Clínico",
+      "bullets": [
+        "A) Soroterapia intravenosa e implante hormonal para ganho de força (não indicado, contraindicação ética)",
+        "B) Treino domiciliar sem supervisão (alto risco e pouca eficácia)",
+        "C) Encaminhamento para treino supervisionado, prescrição formal, monitoramento e reavaliação (correto)",
+        "D) Prescrição de peptídeos manipulados injetáveis (contra indicado, ilegal)"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "O treinamento de força é uma prescrição médica formal que deve ser acompanhada e documentada, respeitando o marco regulatório, garantindo segurança e eficácia. Evite práticas não regulamentadas que expõem o paciente a riscos desnecessários e complicações legais.",
+      "title": "Pérola Clínica"
+    }
+  ],
+  "monograph": "# Treino de Força como Prescrição Médica: Princípios para o Clínico Prescrever ou Encaminhar **Curso:** Sarcopenia, Composição Corporal e Performance **Módulo:** Módulo 3 · Treino **Tema:** Treino de força como prescrição médica: princípios para o clínico prescrever/encaminhar **Destinatários:** Endocrinologistas, nutrólogos, clínicos e médicos de longevidade **Fonte principal:** Biblioteca Doutiva ([S1]) **Evidência predominante:** A para recomendação de atividade física geral, B para protocolos específicos em populações clínicas --- ## 1. Introdução: Contexto e Relevância Clínica A sarcopenia — definida como a perda progressiva e generalizada de massa e função muscular — representa um ponto crítico no envelhecimento, doenças crônicas e na performance clínica global. O treinamento de força é a única intervenção não farmacológica que, de forma consistente, demonstra reversão ou mitigação significativa desses efeitos, impactando mortalidade, incapacidade, risco de queda, resposta metabólica e até outcomes como tempo de internação e recuperação cirúrgica (Evidência: A, metanálises; tabela 1). O reconhecimento do papel do médico como prescritor formal do exercício (e não mero incentivador) alinhado à equipe multiprofissional (educador físico, fisioterapeuta, nutricionista) transforma a atuação clínica [S1]. No Brasil, após a publicação da Res. CFM 2.333/2023, o médico atua com respaldo para orientação, prescrição e encaminhamento, não cabendo prescrever detalhes biomecânicos mas sim direcionamento clínico, objetivos, monitoramento e indicativos de adaptação/progressão segura [CFM 2.333/2023]. ### Quadro epidemiológico - Prevalência de sarcopenia na população >60 anos: 8–19% (criterioso), até 50% (acima de 80 anos ou institucionalizados).\n- Sarcopenia e fragilidade duplicam risco de hospitalização e triplicam mortalidade pós-IAM, AVC e infecções hospitalares.\n- Treinamento de força reduz risco de quedas em 30–36%, melhora HOMA-IR, perfil lipídico e sensibilidade ao anabolismo proteico (Evidência: A). --- ## 2. Bases Científicas do Treino de Força Prescrito ### 2.1 Fundamentação Fisiológica - Hipertrofia: aumento da secção transversal/células musculares associado à síntese proteica estimulada por sobrecarga mecânica e lesão controlada.\n- Força neuromuscular: ganho inicial (semanas) é neural (recrutamento, coordenação), seguido de remodelamento trófico (12–24 semanas).\n- Adaptações hormonais: elevação aguda de testosterona, GH/IGF-1, mioquinas anabólicas; papel modulador do cortisol dependendo do contexto. ### 2.2 Mecanismos Clínicos - Melhora controle glicêmico: aumento Glut-4 muscular, redução resistência insulínica (estudos em DM2: redução HbA1c 0,5–1%).\n- Redução de gordura visceral: efeito mediado por balanço energético e secreção de mioquinas.\n- Impacto em osteopenia: aumento de BMD em coluna e fêmur (pacientes >60 anos, séries de 12–24 meses).\n- Efeito anti-inflamatório: redução de TNF-α, IL-6 crônica.\n- Em pacientes oncológicos: modula perda de massa lean, melhora fadiga e funcionalidade. --- ## 3. Evidência Crítica e Síntese de Dados ### 3.1 Evidências Científicas: Treinamento de Força em Sarcopenia e Metabólicos #### Tabela 1 – Maiores Ensaios/Metanálises: Força em Sarcopenia, DM2 e Idoso | Estudo/Meta | População (n) | Idade Média | Intervenção | Desfecho Primário | Magnitude Efetiva | Evidência | |------------------------------|:-------------:|:-----------:|----------------------------|----------------------------|---------------------------|-----------| | Liu & Latham, 2009 (meta) | 2.092 | 65–85 | 12–24 sem treinos de força | Força + funcionalidade | ↑ força (ES 0,57);↓quedas 30% | A | | Peterson et al, 2010 (meta) | 1.329 | 65+ | 12-52 sem., 2-3x/sem | Massa magra | +1,1 kg massa magra | A | | Clark et al, 2017 (RCT) | 404 | ≥70 | 24 sem, 3x/sem, mod-int | Mobilidade/TUG | ↑20% velocidade marcha | A | | Flack et al, 2018 | 265 | 55–75 | Força vs aeróbico | Controle glicêmico/HbA1c | ↓ HbA1c -0,6% (força) | B | | Stenholm et al, 2016 | 1.344 | 30–80 | Força (observacional) | Incapacidade/idoso | ↓ RR 0,68 IC95% 0,53–0,88 | B | | Steffl et al, 2017 (meta) | 5.286 | 60–85 | Força (>6m) | Mortalidade/all-cause | ↓ HR 0.80 IC95% 0,73–0,86 | A | | Cermak et al, 2012 (meta) | 370 | 65+ | Força + dieta proteica | Ganho muscular | +0,78 kg vs dieta isolada | A | **Notas:** - Todas revisões e metanálises citadas são de alto rigor metodológico (GRADE alto).\n- Efeito robusto independentemente de sexo, comorbidades ou baseline muscular (exceto doenças neuromusculares avançadas).\n- Prejuízo claro em não prescrever (vide “O que NÃO fazer”). ### 3.2 Tabela 2 – Protocolos Práticos Específicos em Populações Clínicas | Perfil | Frequência | Intensidade | Volume | Progressão | Segurança | |--------------------|:----------:|-------------------------|---------------------|------------|-----------| | Idosos >65a | 2–3x/sem | 60–80% 1RM, RPE 6–8/10 | 1–3 séries, 8–12 rep| ↑carga a cada 2–3 sem | Supervisionado, ênfase em técnica | | DM2/Metabólica | 2–3x/sem | 60–75% 1RM | 2–3 séries, 8–10 rep| ↑carga e volume mensal | Glicemia pré/pós sessões | | Osteoporose | 2x/sem | 60–70% 1RM | 2–3 séries | ↑carga prudente, aval densitometria| Evitar impacto axial inicial | | Oncológicos | 2x/sem | Leve-moderado | 1–2 séries, rep 12+ | Progressão lenta | Aval espaço infecções/leucopenia | | Sarcopênicos | 2–3x/sem | 65–85% 1RM (adaptação) | 1–3 séries, 8–10 rep| Rampa inicial (2–4 sem adaptação) | Supervisão obrigatória | --- ## 4. Seleção de Pacientes e Casos de Uso ### 4.1 Indicações Formalizadas - Sarcopenia (definição consensual: reduz força muscular + massa musc.)\n- Diagnóstico ou risco elevado de osteoporose\n- Síndrome metabólica, DM2 (principalmente com resistência insulínica significativa)\n- Obesidade e emagrecimento (para preservar massa lean)\n- Recuperação pós-evento agudo (AVC, IAM, cirurgias maiores)\n- Oncologia (evitando perda funcional e síndrome de fragilidade)\n- Long COVID com queixa de fadiga, perda de massa ou disfunção funcional ([S12]) ### 4.2 Seleção Prática: Critérios e Contraindicações - **Necessita avaliação pré-exercício**: história clínica detalhada, ECG repouso (se >45a, fatores risco cardiovascular), clearance ortopédico se história lesão/artrose, sinais de instabilidade clínica.\n- **Contraindicações absolutas**: Instabilidade hemodinâmica, quadro infeccioso agudo grave, injúria muscular aguda não recuperada, limitações cognitivas graves sem suporte, estado hipermetabólico não controlado.\n- **Contraindicações relativas**: Portadores de dispositivos (marca-passo, stent recente), quadros articulares agudos, neutropenia (<1.000/mm³ no oncológico). **Avaliação de Risco:** pode ser guiada por scores de fragilidade (Fried) ou escalas clínicas funcionais validadas. --- ## 5. Conduta: Fluxo de Prescrição Médica do Treino de Força ### 5.1 Passo a Passo #### 1. **Avaliação Clínica Completa** - História detalhada: queda, hospitalização, dor, função motora. - Exame físico: força manual, balance, sarcopenia screening (SARC-F, medida de circunferências). - Exames complementares: - Creatinina, CK, TSH se fadiga/desconforto - ECG (idade >45a ou risco CV) - Densitometria óssea se osteopenia/quedas - Glicemia/insulina (síndrome metabólica) - Avaliação nutricional básica #### 2. **Definição de Objetivo** - Redução de risco de quedas/incapacidade - Ganho de força, massa magra - Controle metabólico - Reabilitação específica - Prevenção de progressão (ex: osteoporose, DM2) #### 3. **Prescrição Textual Formal (modelo para o prontuário/encaminhamento)** > “Encaminho para início de treinamento de força sob supervisão de educador físico/fisioterapeuta, com objetivo de: (ex.: aumento da força muscular global, reversão de sarcopenia, melhora do controle glicêmico, prevenção de quedas). Frequência mínima de 2 sessões semanais, intensidade progressiva conforme tolerância (inicial 50–60% 1RM, evoluir até 70–80%), volume 1–3 séries de 8–12 repetições, priorizando grandes grupos musculares e boa técnica. Reavaliação clínica em 8–12 semanas, ou antes se intercorrências. Solicito relatório de evolução.” #### 4. **Articulação Multiprofissional** - Comunicar claramente diagnóstico, objetivos, possíveis limitações. - Solicitar e analisar relatórios periódicos do fisioterapeuta/educador físico, ajustar foco conforme resposta. - Cuidado com superposição de prescrição farmacológica (ex: anabolizantes, incretinas, manipulado). #### 5. **Monitoramento e Ajuste** - Reavaliação a cada 8–12 semanas. - Novo SARC-F, avaliação funcional (sit-to-stand, velocidade de marcha). - Questionar sobre dor, queda, evolução autonômica e adesão. - Ajuste de objetivos e/ou nova conduta caso ausência de progressão. --- ### 5.2 Quadro-Resumo de Fluxo (Tabela 3) | Etapa | Ação Clínica | Profissional Engajado | Quando Reavaliar |\n|-----------------------------|----------------------------------|---------------------------|------------------------------|\n| Avaliação de risco | Anamnese, ECG, exames básicos | Médico | Inicial, sempre que sintomas |\n| Definição de objetivo | Objetivo acordado com paciente | Médico | 1x; revisar conforme resposta|\n| Prescrição formal | Encaminhamento textual; relatório| Médico/Educador físico | Prescrição + feedback 2m |\n| Implementação supervisionada| Exercício força individualizado | Educador físico/Fisioterap| Toda sessão |\n| Monitoramento clínica | Dor, quedas, progressão, exames | Médico | 2–3m, sempre que necessário | --- ## 6. Monitoramento, Segurança e Cuidados Especiais - **Segurança é prioritária:** incidência de eventos adversos graves é <1:5.000 sessões quando prescrito e supervisionado corretamente (A).\n- **Eventos mais comuns:** dor muscular tardia (até 40%), microlesões, fadiga, dor articular leve transitória.\n- **Complicações graves:** rabdomiólise (rara; risco ↑ em SGLT2i, doentes debilitados, desidratação severa; monitorar CK se mialgia severa), agravamento de cardiopatia não avaliada.\n- **Monitoramento intensificado:** oncológicos, imunossuprimidos, fraqueza severa, polifarmácia (betabloqueadores, anticoagulante uso crônico).\n- **Educação do paciente:** reforçar sinais de alerta, necessidade de interromper se angina, dispneia desproporcional, síncope ou dor articular persistente. --- ## 7. Considerações Regulatórias, Éticas e Multiprofissionais - **CFM 2.333/2023:** prescrição médica de exercício (inclusive para fins preventivos) é ato médico, com obrigatoriedade de registro de objetivo, periodicidade, recomendações gerais e contraindicações claras. Não cabe detalhar biomecânica ou microprogramação (ato do educador físico).\n- **Registro ANVISA:** nenhum suplemento, peptídeo ou anabolizante é aprovado legalmente para “ganho de força” ou “anti-aging” sem indicação clínica formal. - **Tirzepatida e incretinas:** só para DM2/obesidade, nunca exclusivamente para performance muscular em sarcopênicos sem síndrome metabólica [S1]. - **GH (“anti-aging”):** expressamente proibido, inclusive manipulado para fins estéticos ou ganho de força (CFM, ANVISA, WADA; Evidência: D, ausência de eficácia e risco de eventos). - **Implantes hormonais (“cosmético/performance” sem deficiência):** vedados pelo CFM.\n- **Manipulação estéril:** Soroterapia ou peptídeos injetáveis apenas com indicação formal, validação de pureza, rastreabilidade, documentação clínica e consentimento informado [S1].\n- **WADA:** Atletas federados e alto rendimento – anabolizantes e peptídeos são proibidos, com impacto legal e esportivo. --- ## 8. O que NÃO Fazer - Não prescrever GH, anabolizante ou qualquer peptídeo no contexto de anti-aging ou performance muscular em indivíduos sem doença documentada.\n- Não encaminhar para “drip”, soroterapia ou implante sem justificativa clínica robusta, documentação e consentimento.\n- Não indicar exercícios de força sem avaliação de risco/clearance adequado.\n- Não fazer prescrição padronizada ignorando limitações físicas/farmacológicas.\n- Não delegar decisão de contraindicação absoluta (ex: instabilidade clínica) ao educador físico – é ato médico. --- ## 9. Pérolas Práticas e Checklist do Consultório ### Checklist de Consulta — Prescrição de Treino de Força 1. [ ] História ampliada (queda, internação, função, dor, comorbidades)\n2. [ ] Avaliação física (força, sarcopenia, balance, marcha)\n3. [ ] Exames complementares (laboratório, imagem e risco CV, se indicado)\n4. [ ] Definir objetivo claro (clínico-funcional-metabólico)\n5. [ ] Orientar sobre frequência, intensidade, volume e progressão\n6. [ ] Prescrição formal no prontuário + justificativa\n7. [ ] Encaminhar e articular com educador físico/fisio\n8. [ ] Registrar e pedir acompanhamento da evolução\n9. [ ] Planejar reavaliação periódica, ajustar conforme resposta --- ## 10. Caso Clínico — Ensino Aplicado ### Caso Paciente sexo feminino, 78 anos, diabética tipo 2 (15 anos), hipertensa, queda recente, relato de fadiga progressiva, perda de 6 kg no último ano (principalmente massa muscular), SARC-F = 5, marcha reduzida, dor lombar leve. Exames: HbA1c 8,1%, DMO (coluna lombar) T-Score -2,1. ECG sem isquemia, PA 136/84 mmHg, CK normal, creatinina 1,1. **Qual a melhor conduta inicial?** A) Prescrever soroterapia vitamínica intravenosa semanal e implante hormonal para ganho de força. B) Implementar protocolo de força domiciliar sem supervisionamento após liberação clínica, com ajuste apenas pelo próprio paciente. C) Encaminhar formalmente para programa de treinamento de força supervisionado, 2–3x/sem, sob educador físico/fisio, com prescrição documentada e monitoramento, reavaliando em 10 semanas, sem iniciar qualquer medicação não aprovada. D) Prescrever peptídeos manipulados injetáveis (ex: CJC-1295, Ipamorelina) associados ao treino, mesmo sem déficit hormonal documentado. **Resposta correta:** **C)** Encaminhar formalmente para programa de treinamento de força supervisionado, sob documentação clínica, articulando com multiprofissional e monitoramento rigoroso. Outras alternativas ferem ética médica, diretrizes CFM/ANVISA ou colocam paciente em risco. **Discussão Ensino:** O caso ilustra paciente de alto risco (idade avançada, comorbidades, sarcopênica, osteopênica, histórico de queda). O correto fluxo prevê avaliação e encaminhamento formalizado, com monitoramento objetivo. Não há espaço para prescrição irregular/marketizada de peptídeos, GH ou implantes, nem para programas sem suporte profissional. --- ## 11. Slides Sugeridos **Slide 1: Treino de Força — Fundamento Médico**\n- Único método com evidência robusta para reverter sarcopenia\n- Impacto em DM2, osteopenia, risco de queda, sobrevida **Slide 2: Resumo das Evidências (Tabela 1)**\n- Força: ↑ 20–80%, Massa magra: +1,1–1,5kg\n- Queda: –30%, Mortalidade: –20% **Slide 3: População e Indicação | Critérios Clínicos**\n- Sarcopenia definida, DM2, osteoporose, oncológicos, pós-agudos **Slide 4: Algoritmo da Prescrição Médica**\n- Avaliação → objetivo → prescrição textual → supervisão → monitoramento **Slide 5: Tabela Protocolos Diversos (Tabela 2)**\n- Idosos, DM2, oncológicos | Frequência, volume, progressão **Slide 6: Modelo de Prescrição no Prontuário**\n- Frase formal: indicação, objetivo, parâmetros, reavaliação **Slide 7: Integração Multiprofissional**\n- Educador físico, fisioterapeuta, nutricionista — relatório evolutivo **Slide 8: Monitoramento e Segurança**\n- Reavaliação 8–12 semanas, exames, função, queda, dor **Slide 9: Regulatório e Ética BR**\n- CFM 2.333/23, ANVISA: nunca GH, implante ou drip “performance/anti-aging” **Slide 10: O que NÃO fazer**\n- Sem research peptide, sem prescrição anti-aging, sem “drip” marketizado **Slide 11: Caso Clínico Resolvido**\n- Situação-problema, alternativas, discussão fundamentada **Slide 12: Pérolas e Checklist**\n- 9 passos essenciais; orientações para o consultório Premium --- ## 12. Quick Reference (Bolso) #### Quick_ref\n- **Sessão:** Treino de força sempre supervisionado em sarcopênicos, >65a ou com comorbidades.\n- **Prescrição mínima:** 2x/semana, 1–3 séries, 8–12 repetições, progressão individualizada.\n- **Textual:** \"Encaminhado para início de treino de força sob supervisão, foco: (objetivo clínico), início leve/moderado, progressão semanal. Reavaliação em X semanas.\"\n- **Nunca:** GH, peptide research, implante “anti-aging”, drip estético. - **Monitorar:** Dor, queda, progressão, SARC-F, exames a cada 8–12 semanas.\n- **Red Flags:** Angina, síncope, dor persistente, sinal de lesão aguda.\n- **Documentar sempre:** Diagnóstico, objetivo, contraindicações, justificativa. --- ## 13. Key Points (5–7 essenciais) 1. Treinamento de força é prescrição médica formal: ferramenta fundamental contra sarcopenia e fragilidade, com impacto robusto em morbidade, mortalidade e independência funcional.\n2. A avaliação de risco deve anteceder qualquer prescrição: ECG, função renal, risco ortopédico, histórico de queda e exame físico minucioso.\n3. Detalhes da execução (intensidade progressiva, volume, frequência) são acordados multiprofissionalmente sob supervisão direta.\n4. Proibições expressas: GH, peptídeos investigacionais não registrados, implantes para fins estéticos ou “performance”, “drip” sem deficiência formal (vide diretrizes CFM, ANVISA, WADA).\n5. Monitoramento rigoroso e acompanhamento articulado com educador físico e fisioterapeuta, com documentação formal e reavaliação periódica.\n6. O médico deve registrar em prontuário a finalidade clínica, parâmetros gerais e contraindicações, evitando prescrição simplista ou padronizada.\n7. Falha em prescrever treinamento de força a quem precisa representa risco clínico documentado; sua implementação é pilar da medicina funcional premium. --- ## 14. Referências - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n- Liu C-J, Latham NK. Progressive resistance strength training for improving physical function in older adults. Cochrane Database Syst Rev 2009; (3):CD002759.\n- Peterson MD, Sen A, Gordon PM. Influence of resistance exercise on lean body mass in aging adults: a meta-analysis. Med Sci Sports Exerc 2011;43:249–58.\n- Steffl M, Bohannon RW, Petr M, et al. Relation between sarcopenia and physical activity in older people: a systematic review and meta-analysis. Clin Interv Aging 2017;12:835–45.\n- Cermak NM, et al. Protein supplementation augments the adaptive response of skeletal muscle to resistance-type exercise training: a meta-analysis. Am J Clin Nutr. 2012 Jun;95(6):1188-120.\n- Clark BC, Manini TM. Functional consequences of sarcopenia and dynapenia in the elderly. Curr Opin Clin Nutr Metab Care. 2010 Jul;13(4):271–6.\n- (Mais referências completas – verificar conforme biblioteca Doutiva) --- FIM.",
+  "quick_ref": "# Guia Rápido: Prescrição Médica de Treino de Força | Item | Informação Rápida |\n|---------------------------|-----------------------------------------------------|\n| Indicação | Sarcopenia, fragilidade, DM2, osteopenia, oncologia |\n| Frequência mínima | 2 vezes por semana |\n| Intensidade inicial | 50–60% 1RM; aumentar até 70–80% |\n| Volume | 1–3 séries de 8–12 repetições |\n| Modalidade supervisionada | Educador físico ou fisioterapeuta |\n| Monitoramento | Avaliação clínica 8–12 semanas; acompanhar tolerância e intercorrências |\n| Prescrição textual | Formal no prontuário: objetivo, frequência, intensidade, volume, reavaliação |\n| Contraindicações | Instabilidade hemodinâmica, quadros infecciosos agudos, limitações cognitivas graves |\n| Proibições expressas | GH para fins anti-aging, peptídeos não registrados, implantes cosméticos, drip estético |\n| Red Flags na supervisão | Angina, síncope, dor intensa, queda persistente | Reforçar importância da prescrição médica clara, monitoramento contínuo e articulação multiprofissional para segurança e eficácia.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "78 anos"
+      },
+      {
+        "label": "Diagnóstico principal",
+        "value": "Diabetes tipo 2, hipertensão"
+      },
+      {
+        "label": "SARC-F",
+        "value": "5 (indicativo de sarcopenia)"
+      },
+      {
+        "label": "Perda de peso",
+        "value": "6 kg, principalmente massa muscular"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,1%"
+      },
+      {
+        "label": "DMO",
+        "value": "T-Score -2,1 coluna lombar"
+      },
+      {
+        "label": "ECG",
+        "value": "Sem alterações isquêmicas"
+      },
+      {
+        "label": "Queixa",
+        "value": "Fadiga progressiva, quedas recentes"
+      }
+    ],
+    "title": "Idosa com Sarcopenia e Diabetes Tipo 2: Prescrição Médica de Treino de Força",
+    "reward": 10,
+    "options": [
+      {
+        "label": "Prescrever soroterapia intravenosa e implante hormonal para ganho de força",
+        "correct": false,
+        "rationale": "Contra indicado por falta de evidência, risco, e violação de regulamentação ética e legal."
+      },
+      {
+        "label": "Iniciar treino domiciliar sem supervisão com ajuste pelo paciente",
+        "correct": false,
+        "rationale": "Alto risco de lesões e baixa eficácia pela ausência de acompanhamento profissional."
+      },
+      {
+        "label": "Encaminhar formalmente para treino de força supervisionado com prescrição formal e monitoramento clínico",
+        "correct": true,
+        "rationale": "Conduta padrão recomendada baseada em evidência sólida, assegura segurança e eficácia."
+      },
+      {
+        "label": "Prescrever peptídeos manipulados para melhorar a força muscular",
+        "correct": false,
+        "rationale": "Uso não aprovado, com risco de efeitos adversos e ilegalidade conforme ANVISA e CFM."
+      }
+    ],
+    "question": "Qual é a conduta médica mais adequada para o início do treinamento de força nesta paciente?",
+    "vignette": "Paciente feminina, 78 anos, DM2 de 15 anos, hipertensa, relato recente de 2 quedas, fadiga progressiva e perda ponderal de 6 kg principalmente muscular. SARC-F preenchido com escore 5; marcha reduzida. HbA1c 8,1%, DMO com T-Score -2,1 coluna lombar, ECG sem alterações isquêmicas.",
+    "teaching": "Em paciente idosa com múltiplas comorbidades, quadro sarcopênico e diabetes descompensado, o treino de força deve ser instituído de forma supervisionada e criteriosa. O encaminhamento formal a profissional habilitado com prescrição médica clara e monitoramento periódico constitui o padrão ouro, garantindo segurança, adesão e eficácia clínica comprovada. Alternativas experimentais ou não regulamentadas (ex.: peptídeos manipulados, hormônio do crescimento, soroterapia) colocam a paciente em risco e contrariam diretrizes éticas e legais. A não supervisão adequada aumenta risco de quedas e lesões. A reavaliação periódica permite ajustar dose e monitorar resposta clínica."
+  },
+  "refs": [
+    {
+      "citation": "Liu C-J, Latham NK. Progressive resistance strength training for improving physical function in older adults. Cochrane Database Syst Rev. 2009;(3):CD002759."
+    },
+    {
+      "citation": "Peterson MD, Sen A, Gordon PM. Influence of resistance exercise on lean body mass in aging adults: a meta-analysis. Med Sci Sports Exerc. 2011;43(2):249-58."
+    },
+    {
+      "citation": "Steffl M, Bohannon RW, Petr M, et al. Relation between sarcopenia and physical activity in older people: a systematic review and meta-analysis. Clin Interv Aging. 2017;12:835-45."
+    },
+    {
+      "citation": "CFM Resolução nº 2.333/2023 – Prescrição Médica de Exercício Físico."
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Cermak NM, et al. Protein supplementation augments the adaptive response of skeletal muscle to resistance-type exercise training: a meta-analysis. Am J Clin Nutr. 2012 Jun;95(6):1188-120."
+    }
+  ],
+  "status": "published"
+}

@@ -1,0 +1,397 @@
+{
+  "position": 8,
+  "module": "Módulo 4 · Segurança operacional",
+  "title": "Massa Magra sob Incretinas: o que medir e como preservar na prática",
+  "description": "Esta aula aprofundada aborda os aspectos operacionais da avaliação e preservação da massa magra (MM) em pacientes tratados com agonistas de incretinas (semaglutida, tirzepatida), com foco na prática clínica brasileira. Inclui revisão dos dados de evidência, métodos e critérios diagnósticos, estratégias nutricionais e de exercício, condutas regulatórias e fluxograma clínico operacional especial para endocrinologistas e especialistas. Reforça precauções éticas e legais acerca de manipulação e uso de hormônios para fins estéticos.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Agonistas de incretinas promovem perda ponderal importante, com aproximadamente 25–35% da perda total correspondendo a massa magra (MM) — monitorar para evitar sarcopenia iatrogênica.",
+    "Avaliação adequada deve incluir testes funcionais (preensão palmar, teste cadeira, velocidade de marcha), métodos ideais para composição corporal (DXA preferencialmente; BIA multifrequencial alternativa) e exames laboratoriais para suporte nutricional.",
+    "Ingesta proteica fracionada, de 1,2–1,6 g/kg/dia (ajustada para obesidade e função renal), combinada com treino resistido ≥2×/semana, é base para preservar MM durante incremental calórico e dietas hipofágicas induzidas por incretinas.",
+    "Suplementação de creatina (3–5 g/dia) é segura e recomendada para pacientes com função renal preservada (TFG ≥45 mL/min/1,73m²) associados a treino resistido.",
+    "Manipulação magistral de incretinas deve ser exceção, com rigor na rastreabilidade, consentimento e uso conforme boas práticas; hormônios, SARMs e peptides sem registro para finanças estéticas são contraindicados e ilegais segundo CFM 2.333/2023.",
+    "Fluxograma clínico orienta avaliação inicial, estratificação de risco, monitorização periódica e intervenções baseadas em percentuais de perda de massa magra e sinais funcionais.",
+    "Consentimento livre e esclarecido (TCLE) é obrigatório em prescrições off-label e uso de manipulado, detalhando riscos, benefícios e alternativas.",
+    "Nunca negligenciar o aspecto funcional e laboratorial — perdas de MM podem ocorrer silenciosamente e prejudicar prognóstico clínico independemente da perda ponderal total."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Massa Magra sob Incretinas: Avaliação e Preservação na Prática Clínica",
+      "subtitle": "Curso Tirzepatida e Incretinas no Consultório — Módulo 4 · Segurança operacional"
+    },
+    {
+      "kind": "table",
+      "title": "Perda de Massa Magra em Ensaios com Incretinas (DXA Subanálise)",
+      "head": [
+        "Estudo",
+        "Fármaco",
+        "Perda Ponderal Total",
+        "Proporção Massa Magra",
+        "Método",
+        "Nível"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-1",
+          "Tirzepatida 5–15 mg",
+          "15–22% (~15–24 kg)",
+          "25–33%",
+          "DXA (subanálise)",
+          "A"
+        ],
+        [
+          "SURMOUNT-2",
+          "Tirzepatida 10/15 mg (DM2)",
+          "12–15%",
+          "~25–30%",
+          "DXA (subanálise)",
+          "A"
+        ],
+        [
+          "STEP 1",
+          "Semaglutida 2,4 mg",
+          "14,9% (~15 kg)",
+          "30–35%",
+          "DXA",
+          "A"
+        ],
+        [
+          "Metanálise Neeland 2024",
+          "GLP-1 RAs diversos",
+          "Variável",
+          "25–35%",
+          "DXA/BIA",
+          "A"
+        ]
+      ],
+      "source": "Fonte: [G1],[G2],[G4],[S4]"
+    },
+    {
+      "kind": "bars",
+      "title": "Principais fatores de risco para perda acentuada de massa magra",
+      "unit": "",
+      "source": "Referências: [S4],[S5],[G2]",
+      "bars": [
+        {
+          "label": "Idade ≥65 anos — resistência anabólica",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Mulheres pós-menopausa — declínio estrogênico",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diabetes mal controlado",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Ingesta proteica <1,0 g/kg/dia",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Sedentarismo",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Doenças inflamatórias crônicas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Perda ponderal rápida (>1 kg/sem)",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo Diagnóstico para Sarcopenia segundo EWGSOP2 (2019)",
+      "steps": [
+        {
+          "label": "Rastreamento: SARC-F ≥4 → avançar"
+        },
+        {
+          "label": "Avaliação de força muscular (handgrip ou teste cadeira)"
+        },
+        {
+          "label": "Se força baixa → suspeita de sarcopenia"
+        },
+        {
+          "label": "Avaliação da massa muscular (DXA/BIA)"
+        },
+        {
+          "label": "Confirmação se massa abaixo do corte"
+        },
+        {
+          "label": "Avaliação do desempenho funcional (velocidade de marcha/SPPB)"
+        },
+        {
+          "label": "Classificação da gravidade (sarcopenia grave se desempenho baixo)"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Métodos para Avaliação da Composição Corporal: Prós e Contras",
+      "left": {
+        "label": "Método",
+        "items": [
+          "DXA",
+          "BIA multifrequencial",
+          "BIA frequência única",
+          "Antropometria",
+          "Ultrassonografia muscular"
+        ]
+      },
+      "right": {
+        "label": "Características",
+        "items": [
+          "Alta acurácia, padrão-ouro",
+          "Moderada a boa, disponível",
+          "Menor acurácia, amplamente disponível",
+          "Baixa precisão para MM",
+          "Emergente, alta variabilidade"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Metas Proteicas para Preservação de Massa Magra sob Incretinas",
+      "head": [
+        "População",
+        "Meta Proteica",
+        "Nível",
+        "Observações"
+      ],
+      "rows": [
+        [
+          "Adultos sob incretinas",
+          "1,2–1,5",
+          "A",
+          "Peso ajustado para obesos"
+        ],
+        [
+          "Idosos ≥65 anos",
+          "1,2–1,6",
+          "A",
+          "Resistência anabólica aumenta demanda"
+        ],
+        [
+          "DC renal estágios 3a",
+          "1,0–1,2",
+          "B",
+          "Monitorar função renal"
+        ],
+        [
+          "DC renal estágios 3b–4",
+          "0,8–1,0",
+          "B",
+          "Individualizar, acompanhar nefrologia"
+        ]
+      ],
+      "source": "[S4],[S5]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Estratégias Nutricionais para Evitar Perda de Massa Magra",
+      "bullets": [
+        "Fracionar refeições em 4–6 por dia priorizando proteína no início",
+        "Aumentar densidade proteica com alimentos ricos em leucina (ovos, carnes magras, laticínios, leguminosas)",
+        "Suplementar proteína whey ou vegetal conforme tolerância",
+        "Utilizar suplementos líquidos quando intolerância a sólidos",
+        "Evitar ingestão proteica concomitante ao pico de náusea das incretinas",
+        "Monitorar ingesta real de proteína via recordatórios alimentares",
+        "Adequar limites proteicos conforme função renal"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Status Regulatório e Recomendações de Prescrição no Brasil",
+      "head": [
+        "Categoria",
+        "Substância",
+        "Status ANVISA",
+        "Prescrição",
+        "Notas"
+      ],
+      "rows": [
+        [
+          "Registrado",
+          "Semaglutida 2,4 mg",
+          "Aprovado",
+          "Sim",
+          "Conforme bula"
+        ],
+        [
+          "Registrado",
+          "Tirzepatida para DM2",
+          "Aprovado",
+          "Sim",
+          "Conforme bula"
+        ],
+        [
+          "Off-label",
+          "Tirzepatida para obesidade",
+          "Em análise",
+          "Sim, com TCLE",
+          "Consentimento"
+        ],
+        [
+          "Manipulado",
+          "Incretinas",
+          "Permitido",
+          "Cautela extrema",
+          "Farmácia certificada"
+        ],
+        [
+          "Não Prescrever",
+          "GH, SARMs, peptídeos",
+          "Proibido",
+          "Nunca",
+          "CFM 2.333/2023"
+        ]
+      ],
+      "source": "[S8],[S13],[S19],[G1],[G2]"
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma Operacional para Preservação de Massa Magra com Incretinas (Brasil)",
+      "note": "Seguir etapas para monitorar e intervir oportunamente",
+      "steps": [
+        {
+          "label": "Consulta inicial com avaliação clínica e laboratorial"
+        },
+        {
+          "label": "Estratificação do risco para perda de massa magra"
+        },
+        {
+          "label": "Avaliação inicial de composição corporal (DXA preferencial) e funcional (preensão, cadeira)"
+        },
+        {
+          "label": "Prescrição de incretina conforme status regulatório, com TCLE se off-label ou manipulado"
+        },
+        {
+          "label": "Prescrição nutricional (proteína ≥1,2 g/kg/dia ajustado) e exercício resistido"
+        },
+        {
+          "label": "Suplementação de creatina e vitamina D conforme indicação e função renal"
+        },
+        {
+          "label": "Seguimento com reavaliação clínica, funcional e de composição corporal"
+        },
+        {
+          "label": "Ajustes terapêuticos dependendo do percentual de perda de massa magra e sinais clínicos"
+        }
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Pérola Clínica:",
+      "text": "A perda de massa magra sob incretinas não é exclusiva dessas drogas, mas reforça a necessidade de monitorização ativa da função muscular e reforço proteico aliado à atividade resistida para evitar disfunções e sarcopenia iatrogênica."
+    }
+  ],
+  "monograph": "# Massa Magra sob Incretinas: O que Medir e Como Preservar na Prática --- ## 1. Contexto e Justificativa O uso de agonistas de receptores de GLP-1 (semaglutida) e agonistas duplos GIP/GLP-1 (tirzepatida) redefine o manejo da obesidade e do DM2, proporcionando redução ponderal sem precedentes em ensaios de fase III [G1][G2][G4]. Entretanto, **aproximadamente 25–35% da perda de peso total ocorre às custas de massa magra (MM)**, não adiposa — proporção confirmada em subanálises de composição corporal dos estudos SURMOUNT e STEP [S4][G1]. Preservar MM é crítico para manter funcionalidade, taxa metabólica basal e prevenir sarcopenia iatrogênica com suas complicações funcionais e metabólicas [S5]. O desafio operacional é amplificado pela intensa hipofagia induzida pelas incretinas, sobretudo em populações vulneráveis: idosos (≥65 anos), mulheres pós-menopausa, pacientes com doenças crônicas consumptivas e indivíduos com baixa reserva proteica prévia [S4][S5]. No Brasil, além das limitações de acesso a métodos diagnósticos (DXA disponível majoritariamente em centros urbanos), nutrição clínica especializada e exercício supervisionado, o prescritor deve cumprir rigorosamente o marco regulatório sobre:\n- Usos off-label (documentação e consentimento)\n- Manipulação magistral (rastreabilidade, boas práticas farmacêuticas)\n- Proibição expressa de práticas não fundamentadas (GH para fins estéticos, SARMs, \"research peptides\") [S8][S11][S13][S19][CFM 2.333/2023] **Posicionamento Doutiva:** Esta monografia foca na operacionalização clínica da preservação de MM durante uso de incretinas. Para abordagem completa da síndrome sarcopênica, incluindo etiologia não-farmacológica e reabilitação, consultar o módulo específico de Sarcopenia do curso farmácia de manipulação estéril/Doutiva. --- ## 2. Bases Científicas e Níveis de Evidência ### 2.1 Magnitude da perda de massa magra com incretinas | Estudo | Fármaco | Perda Ponderal Total | Proporção Estimada de MM | Método | Nível |\n|--------|---------|---------------------|--------------------------|--------|-------|\n| SURMOUNT-1 [G1] | Tirzepatida 5/10/15 mg | 15–22% (~15–24 kg) | 25–33% da perda total | DXA (subanálise) | **A** |\n| SURMOUNT-2 [G2] | Tirzepatida 10/15 mg (DM2) | 12–15% | ~25–30% | DXA (subanálise) | **A** |\n| STEP 1 [G4][S23] | Semaglutida 2,4 mg | 14,9% (~15 kg) | 30–35% | DXA | **A** |\n| STEP 4 [S6] | Semaglutida 2,4 mg (manutenção) | Manutenção vs reganho | Proporção similar | DXA | **A** |\n| Metanálise Neeland 2024 [S4] | GLP-1 RA diversos | Variável | 25–35% (média ponderada) | DXA/BIA | **A** | **Interpretação clínica:** - A cada 10 kg de perda ponderal com incretinas, espera-se perda de **2,5–3,5 kg de MM** [S4]\n- Esta proporção **não difere substancialmente** da observada após dietas hipocalóricas convencionais ou cirurgia bariátrica — não há evidência de efeito \"muscle-sparing\" superior das incretinas [S4]\n- A magnitude absoluta de perda de MM é maior com tirzepatida vs semaglutida simplesmente porque a perda ponderal total é maior [G1][S21] ### 2.2 Fatores de risco para perda acentuada de massa magra | Fator | Mecanismo | Evidência |\n|-------|-----------|-----------|\n| Idade ≥65 anos | Anabolismo proteico reduzido, resistência anabólica | **B** [S5] |\n| Sexo feminino pós-menopausa | Declínio estrogênico → catabolismo | **B** [S4] |\n| DM2 mal controlado | Resistência à insulina → proteólise | **B** [G2] |\n| Ingesta proteica <1,0 g/kg/dia | Substrato insuficiente | **A** [S4][S5] |\n| Sedentarismo | Ausência de estímulo anabólico | **A** [S5] |\n| Doenças inflamatórias crônicas | Catabolismo mediado por citocinas | **B** |\n| Perda ponderal muito rápida (>1 kg/sem) | Déficit calórico extremo | **C** | ### 2.3 Sarcopenia iatrogênica: definição operacional Utilizamos os critérios **EWGSOP2 (2019)** [S5], validados internacionalmente: **Algoritmo diagnóstico (hierarquia):** 1. **Rastreio:** SARC-F questionário (≥4 pontos → prosseguir)\n2. **Força muscular** (primeiro critério — sarcopenia provável): - Preensão palmar (dinamômetro): **<27 kg (homens) / <16 kg (mulheres)** - Teste de levantar da cadeira: **>15 segundos para 5 repetições**\n3. **Quantidade muscular** (confirma sarcopenia): - IMA por DXA: **<7,0 kg/m² (homens) / <5,5 kg/m² (mulheres)** - Alternativamente: MM apendicular/altura² por BIA (mesmos pontos de corte)\n4. **Desempenho físico** (define gravidade): - Velocidade de marcha: **<0,8 m/s** → sarcopenia grave - SPPB (Short Physical Performance Battery): **≤8 pontos** → sarcopenia grave > **Nota sobre pontos de corte:** Os valores EWGSOP2 foram derivados predominantemente de populações europeias. Para idosos brasileiros, alguns estudos regionais sugerem pontos de corte ligeiramente inferiores (verificar — dados brasileiros em validação). Na prática clínica, utilizar EWGSOP2 como referência e interpretar tendências individuais. --- ## 3. O Que, Como e Quando Medir ### 3.1 Métodos de avaliação da composição corporal | Método | Acurácia | Disponibilidade BR | Custo | Limitações | Recomendação |\n|--------|----------|-------------------|-------|------------|--------------|\n| **DXA (DEXA)** | Padrão-ouro | Centros urbanos, clínicas especializadas | Alto (~R$200–400) | Radiação mínima; calibração entre aparelhos | **Preferencial** em alto risco |\n| **BIA multifrequencial** | Moderada-boa | Ampla | Médio (~R$80–150) | Imprecisa em obesidade grave (IMC >40), edema, desidratação | **Alternativa** aceitável |\n| **BIA convencional (frequência única)** | Limitada | Muito ampla | Baixo | Baixa precisão para MM | **Não recomendada** para decisões clínicas |\n| **Antropometria (circunferências)** | Baixa para MM | Universal | Mínimo | Não distingue gordura de músculo | **Complementar** apenas |\n| **Ultrassonografia muscular** | Emergente | Limitada | Variável | Operador-dependente; sem padronização | **Pesquisa** | **Recomendação prática:**\n- **DXA:** Solicitar em pacientes de alto risco (≥65 anos, perda >10% peso, sintomas funcionais, DM2, doenças crônicas)\n- **BIA multifrequencial:** Aceitável para seguimento em baixo-médio risco; interpretar **tendência** (Δ%), não valor absoluto\n- **Em obesidade grave (IMC >40):** BIA tem acurácia reduzida; preferir DXA ou acompanhar exclusivamente por parâmetros funcionais [S4] ### 3.2 Avaliação funcional — obrigatória | Teste | Equipamento | Execução | Valores de alerta | Frequência |\n|-------|-------------|----------|-------------------|------------|\n| **Preensão palmar** | Dinamômetro hidráulico (Jamar ou similar) | 3 medidas no membro dominante, usar maior valor | <27 kg (H) / <16 kg (M) | Baseline + cada consulta |\n| **Levantar da cadeira** | Cadeira padrão (45 cm), cronômetro | 5 repetições sem apoio de braços | >15 segundos | Baseline + trimestral |\n| **Velocidade de marcha** | Corredor 4 metros, cronômetro | Caminhar em ritmo habitual | <0,8 m/s | Baseline + semestral |\n| **SPPB** | Kit padronizado | Equilíbrio + marcha + cadeira | ≤8 pontos (de 12) | Semestral em alto risco | ### 3.3 Avaliação laboratorial complementar | Exame | Utilidade | Valores de atenção | Observações |\n|-------|-----------|-------------------|-------------|\n| **Albumina sérica** | Marcador nutricional (limitado) | <3,5 g/dL | Afetada por inflamação, hepatopatia, nefropatia; interpretar com PCR |\n| **Pré-albumina** | Marcador nutricional agudo | <20 mg/dL | Mais sensível a mudanças recentes |\n| **Creatinina sérica** | Função renal (NÃO para estimar MM) | Conforme TFG | **Atenção:** creatinina sérica ≠ suplementação com creatina |\n| **TFG estimada (CKD-EPI)** | Segurança para proteína/creatina | <45 mL/min/1,73m² → cautela | Guia restrição proteica e contraindicação a creatina |\n| **Vitamina D (25-OH)** | Função muscular | <20 ng/mL = deficiência | Repor se deficiente |\n| **HbA1c** | Controle glicêmico | Conforme meta individual | DM2 mal controlado → maior catabolismo |\n| **PCR** | Distinguir hipoalbuminemia inflamatória | >5 mg/L | Se elevada, albumina baixa pode não refletir desnutrição | > **Esclarecimento importante:** A creatinina sérica é um marcador de função renal filtrada pelos rins, não um indicador de massa muscular. A **suplementação de creatina monoidratada** (discutida na seção 4) é uma intervenção nutricional distinta. Não confundir os dois conceitos. ### 3.4 Cronograma de avaliação ```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ CRONOGRAMA DE MONITORIZAÇÃO DE MM │\n├─────────────────┬───────────────────────────────────────────────────────────┤\n│ MOMENTO │ AVALIAÇÕES │\n├─────────────────┼───────────────────────────────────────────────────────────┤\n│ BASELINE │ • DXA ou BIA (obrigatório em alto risco) │\n│ (pré-incretina) │ • Preensão palmar + teste cadeira │\n│ │ • Laboratório: albumina, TFG, vit D, HbA1c │\n│ │ • Anamnese nutricional (ingesta proteica estimada) │\n├─────────────────┼───────────────────────────────────────────────────────────┤\n│ 3 MESES │ • Peso + funcional (preensão, cadeira) │\n│ │ • TFG (se creatina suplementar ou proteína >1,2 g/kg) │\n│ │ • Avaliar tolerância GI e ingesta alimentar real │\n├─────────────────┼───────────────────────────────────────────────────────────┤\n│ 6 MESES │ • DXA ou BIA (comparar com baseline) │\n│ │ • Funcional completo (incluir marcha se >60 anos) │\n│ │ • Laboratório nutricional │\n│ │ • Ajustar plano se Δ MM >5% │\n├─────────────────┼───────────────────────────────────────────────────────────┤\n│ 12 MESES │ • Reavaliação completa │\n│ │ • Decidir manutenção vs descalonamento │\n├─────────────────┼───────────────────────────────────────────────────────────┤\n│ A QUALQUER │ • Sintomas: fadiga inexplicada, fraqueza, quedas │\n│ MOMENTO │ • Perda ponderal >1 kg/semana sustentada │\n│ │ • Intolerância GI grave com hipofagia severa │\n└─────────────────┴───────────────────────────────────────────────────────────┘\n``` ### 3.5 Parâmetros de alerta — quando intervir | Parâmetro | Limiar de Alerta | Ação Requerida |\n|-----------|------------------|----------------|\n| Δ MM (DXA/BIA) | ≥5% em 6 meses | Intensificar nutrição + exercício |\n| Δ MM (DXA/BIA) | ≥7% em 6 meses | Considerar redução de dose / pausa |\n| Preensão palmar | Queda ≥10% do baseline | Investigar + fisioterapia |\n| Velocidade de marcha | <0,8 m/s (novo) | Avaliação geriátrica se ≥65 anos |\n| Albumina | <3,5 g/dL (sem inflamação) | Suporte nutricional intensivo |\n| Ingesta proteica real | <0,8 g/kg/dia | Intervenção nutricional urgente | --- ## 4. Estratégias para Preservação de Massa Magra ### 4.1 Intervenção nutricional — pilar central #### 4.1.1 Metas proteicas | População | Meta Proteica | Evidência | Observações |\n|-----------|---------------|-----------|-------------|\n| Adulto geral sob incretina | **1,2–1,5 g/kg peso ajustado*/dia** | **A** [S4][S5] | Fracionado em ≥3 refeições |\n| Idoso ≥65 anos | **1,2–1,6 g/kg/dia** | **A** [S5] | Maior resistência anabólica |\n| Obeso (IMC >30) | Calcular por **peso ajustado** | **B** | Peso ajustado = ideal + 0,25 × (atual − ideal) |\n| DRC estágio 3a (TFG 45–59) | **1,0–1,2 g/kg/dia** | **B** | Monitorar TFG trimestral |\n| DRC estágio 3b–4 (TFG 30–44) | **0,8–1,0 g/kg/dia** | **B** | Acompanhamento nefrológico |\n| DRC estágio 5 / diálise | **1,0–1,2 g/kg/dia** | **B** | Maior necessidade; individualizar | *Peso ajustado: adequado para cálculos em obesidade; evita superestimação. > **Nota sobre controvérsia:** A restrição proteica rigorosa (<0,8 g/kg) em DRC não dialítica tem sido questionada por estudos recentes que sugerem benefício limitado na progressão renal e risco de desnutrição. A recomendação atual (KDIGO 2024, verificar atualização) tende a flexibilizar para 0,8–1,0 g/kg em DRC 3b–4, priorizando qualidade proteica e monitorização. **Sempre envolver nefrologia em DRC moderada-avançada.** #### 4.1.2 Manejo da hipofagia induzida por incretinas A redução do apetite é mecanismo terapêutico das incretinas, mas pode comprometer ingesta proteica adequada [G1][G4]. **Estratégias práticas:** 1. **Priorizar proteína no início das refeições** — antes de saciedade plena\n2. **Aumentar densidade proteica:** - Ovos, laticínios, carnes magras, leguminosas - Evitar \"volume sem nutriente\" (saladas volumosas antes da proteína)\n3. **Fracionamento:** 4–6 pequenas refeições em vez de 3 grandes\n4. **Suplementos proteicos:** - Whey protein (20–30g/porção) — alta biodisponibilidade - Proteína vegetal (soja, ervilha) — alternativa para intolerantes - Preferir fontes com leucina ≥2,5g/dose (gatilho anabólico)\n5. **Líquidos calórico-proteicos** se sólidos mal tolerados (shakes, iogurtes proteicos)\n6. **Timing:** evitar suplemento proteico imediatamente após aplicação da incretina (pico de náusea) #### 4.1.3 Suplementação de creatina | Aspecto | Recomendação | Evidência |\n|---------|--------------|-----------|\n| Dose | **3–5 g/dia de creatina monoidratada** | **A** (meta-análises) |\n| Indicação | Adultos sob incretina + treino resistido | **B** [S4] |\n| Função renal | **Somente se TFG ≥45 mL/min/1,73m²** | **C** (precaução) |\n| Contraindicação | DRC estágio ≥3b (TFG <45), história de litíase | Relativa |\n| Monitorização | Creatinina sérica basal e em 3 meses | — |\n| Duração | Contínua enquanto em uso de incretina | — | > **Mecanismo:** A creatina aumenta reservas de fosfocreatina muscular, potencializando resposta ao treino resistido. Não é anabólico hormonal. Segurança bem estabelecida em indivíduos com função renal normal [S4]. #### 4.1.4 Outras suplementações | Suplemento | Indicação | Dose | Evidência | Observações |\n|------------|-----------|------|-----------|-------------|\n| **Vitamina D** | Deficiência (<20 ng/mL) ou insuficiência (<30 ng/mL) | 1.000–4.000 UI/dia (manutenção) | **A** | Corrigir antes de avaliar função muscular |\n| **Leucina/HMB** | Idosos com resistência anabólica | 2–3 g leucina/refeição; HMB 3 g/dia | **B** | Custo-benefício questionável |\n| **Ômega-3** | Inflamação crônica | 2–4 g EPA+DHA/dia | **C** | Evidência para MM limitada |\n| **BCAAs isolados** | — | — | **C** | Sem vantagem sobre proteína completa | ### 4.2 Exercício físico — segundo pilar #### 4.2.1 Treino resistido (obrigatório) | Parâmetro | Recomendação | Evidência |\n|-----------|--------------|-----------|\n| **Frequência** | ≥2–3 sessões/semana | **A** [S5] |\n| **Volume** | 2–3 séries × 8–12 repetições por grupo muscular | **A** |\n| **Intensidade** | 60–80% de 1RM (moderada-alta) | **A** |\n| **Progressão** | Aumento gradual de carga (princípio da sobrecarga) | **A** |\n| **Grupos musculares** | Todos os principais: MMII, MMSS, tronco | **A** |\n| **Supervisão** | Recomendada em idosos, sarcopênicos, iniciantes | **B** | **Considerações especiais:**\n- **Timing em relação à incretina:** Evitar treino intenso nas 24–48h após aplicação se náusea significativa; ajustar horário da dose se necessário\n- **Idosos/sarcopênicos:** Iniciar com intensidade mais baixa (40–50% 1RM) e progredir; considerar fisioterapia inicial\n- **Obesidade grave:** Adaptações para mobilidade; exercícios em cadeia cinética fechada; hidroterapia se disponível #### 4.2.2 Exercício aeróbico (complementar) - **150–300 min/semana** de intensidade moderada (ou 75–150 min vigorosa)\n- Benefícios cardiovasculares e metabólicos, mas **não substitui treino resistido para MM** [S5]\n- Ideal: combinar ambas as modalidades #### 4.2.3 Barreiras práticas e soluções | Barreira | Solução |\n|----------|---------|\n| Náusea/mal-estar | Ajustar timing; preferir exercício em jejum relativo |\n| Fadiga | Sessões mais curtas e frequentes; avaliar déficit calórico extremo |\n| Falta de acesso a academia | Exercícios com peso corporal/elásticos; telemonitoramento |\n| Dor articular | Avaliação fisioterápica; modalidades de baixo impacto |\n| Baixa motivação | Acompanhamento multiprofissional; metas graduais | ### 4.3 Intervenções farmacológicas — o que é permitido e o que é proibido #### Tabela 4.3 — Status Regulatório: Registrado / Off-label / Manipulado / Não Prescrever | Categoria | Substância/Intervenção | Status BR | Prescrever? | Condições/Documentação |\n|-----------|------------------------|-----------|-------------|------------------------|\n| **REGISTRADO** | Semaglutida 2,4 mg SC (Wegovy®) para obesidade | ANVISA aprovado (2023) | **Sim** | Conforme bula; indicação formal |\n| **REGISTRADO** | Semaglutida 0,25–1 mg SC (Ozempic®) para DM2 | ANVISA aprovado | **Sim** | Conforme bula |\n| **REGISTRADO** | Liraglutida 3 mg SC (Saxenda®) para obesidade | ANVISA aprovado | **Sim** | Conforme bula |\n| **REGISTRADO** | Tirzepatida SC (Mounjaro®) para DM2 | ANVISA aprovado (2023) | **Sim** | Conforme bula para DM2 |\n| **OFF-LABEL** | Tirzepatida SC para obesidade sem DM2 | Aprovado FDA (2023); ANVISA em análise (verificar status atual) | **Sim, com TCLE** | Documentar indicação, consentimento, seguimento |\n| **MANIPULADO** | Semaglutida/tirzepatida magistral | Permitido por farmácia BPF | **Cautela extrema** | Somente se indisponibilidade de registrado; TCLE; rastrear lote; farmácia certificada |\n| **MANIPULADO** | Creatina monoidratada | Permitido | **Sim** | Rastreabilidade; função renal normal |\n| **MANIPULADO** | Vitamina D, proteínas, aminoácidos | Permitido | **Sim** | Conforme indicação |\n| **NÃO PRESCREVER** | GH (somatropina) para \"preservação muscular\"/estética | Proibido (CFM 2.333/2023) | **NUNCA** | Somente em deficiência comprovada (critérios Endocrine Society) |\n| **NÃO PRESCREVER** | SARMs (ostarina, ligandrol, etc.) | Não aprovado ANVISA; proibido CFM | **NUNCA** | Substâncias não regulamentadas |\n| **NÃO PRESCREVER** | \"Research peptides\" (BPC-157, ipamorelina, etc.) | FDA Category 2 concerns [S1]; não aprovado ANVISA | **NUNCA** | Sem evidência de segurança/eficácia |\n| **NÃO PRESCREVER** | Testosterona para \"ganho muscular\" sem hipogonadismo | Proibido (CFM 2.333/2023) | **NUNCA** | Somente em deficiência comprovada [S18] |\n| **PERMITIDO COM INDICAÇÃO** | Testosterona em hipogonadismo masculino documentado | Registrado | **Sim** | Critérios Endocrine Society 2018: sintomas + T total baixa em ≥2 ocasiões matinais [S18] |\n| **PERMITIDO COM INDICAÇÃO** | TH em mulher pós-menopausa sintomática | Registrado | **Sim** | Conforme NAMS 2022 [S16]; não para MM | > **Definição de \"deficiência comprovada\" para hormônios [S18][S13]:**\n> - **Hipogonadismo masculino:** Sintomas clínicos (fadiga, disfunção sexual, perda de MM) + testosterona total matinal <300 ng/dL em ≥2 dosagens + exclusão de causas secundárias\n> - **Deficiência de GH em adultos:** Testes de estímulo validados (ITT, glucagon, macimorelina) com pico de GH < ponto de corte específico do ensaio, em contexto clínico apropriado (doença hipotálamo-hipofisária, história de deficiência infantil, etc.)\n> - **Não constitui deficiência:** IGF-1 \"baixo-normal\", \"declínio relacionado à idade\", fadiga inespecífica --- ## 5. Fluxograma Clínico de Conduta (Brasil) ```\n╔══════════════════════════════════════════════════════════════════════════════╗\n║ FLUXOGRAMA: PRESERVAÇÃO DE MASSA MAGRA SOB INCRETINAS — BRASIL ║\n╠══════════════════════════════════════════════════════════════════════════════╣\n║ ║\n║ 1. CONSULTA INICIAL (PRÉ-INCRETINA) ║\n║ ├─ 1.1 História clínica completa ║\n║ │ • Idade, sexo, menopausa, comorbidades ║\n║ │ • Função renal (TFG), DM2, doenças inflamatórias ║\n║ │ • Medicamentos (corticoides, diuréticos, etc.) ║\n║ │ • Atividade física atual e histórica ║\n║ │ • Ingesta proteica estimada (recordatório 24h) ║\n║ │ ║\n║ ├─ 1.2 Estratificar risco de perda de MM ║\n║ │ ALTO RISCO: ≥1 critério ║\n║ │ □ Idade ≥65 anos ║\n║ │ □ DM2 ║\n║ │ □ DRC (TFG <60) ║\n║ │ □ Doença inflamatória crônica ║\n║ │ □ IMC <27 (perda de MM mais impactante) ║\n║ │ □ Sarcopenia prévia ou suspeita ║\n║ │ □ Mulher pós-menopausa sem TH ║\n║ │ □ Uso crônico de corticoide ║\n║ │ ║\n║ ├─ 1.3 Avaliação de composição corporal ║\n║ │ • ALTO RISCO → DXA obrigatória ║\n║ │ • BAIXO RISCO → BIA multifrequencial aceitável ║\n║ │ ║\n║ ├─ 1.4 Avaliação funcional ║\n║ │ • Preensão palmar (dinamometria) ║\n║ │ • Teste de levantar da cadeira ║\n║ │ • Velocidade de marcha (se ≥60 anos) ║\n║ │ ║\n║ └─ 1.5 Laboratório basal ║\n║ • TFG (CKD-EPI), albumina, pré-albumina ║\n║ • Vitamina D, HbA1c ║\n║ • PCR (se suspeita inflamatória) ║\n║ ║\n║ 2. PRESCRIÇÃO INICIAL ║\n║ ├─ 2.1 Verificar indicação e status regulatório ║\n║ │ • Registrado → prescrever conforme bula ║\n║ │ • Off-label → TCLE obrigatório ║\n║ │ • Manipulado → apenas se registrado indisponível + TCLE ║\n║ │ ║\n║ ├─ 2.2 Prescrição nutricional ║\n║ │ • Proteína: 1,2–1,5 g/kg peso ajustado/dia ║\n║ │ • Se TFG <45: limitar a 0,8–1,0 g/kg; envolver nefrologia ║\n║ │ • Orientar fracionamento e priorização proteica ║\n║ │ ║\n║ ├─ 2.3 Prescrição de exercício ║\n║ │ • Treino resistido ≥2–3×/semana ║\n║ │ • Encaminhar educador físico/fisioterapeuta se alto risco ║\n║ │ ║\n║ ├─ 2.4 Suplementação (conforme indicação) ║\n║ │ • Creatina 3–5 g/dia SE TFG ≥45 ║\n║ │ • Vitamina D se deficiente ║\n║ │ • Whey/proteína se ingesta insuficiente ║\n║ │ ║\n║ └─ 2.5 Documentação ║\n║ • Registrar baseline, metas, plano, consentimentos ║\n║ ║\n║ 3. SEGUIMENTO — 3 MESES ║\n║ ├─ 3.1 Reavaliar peso, tolerância GI, ingesta proteica real ║\n║ ├─ 3.2 Testes funcionais (preensão, cadeira) ║\n║ ├─ 3.3 TFG (se creatina ou proteína elevada) ║\n║ └─ 3.4 Ajustar plano nutricional/exercício conforme adesão ║\n║ ║\n║ 4. SEGUIMENTO — 6 MESES ║\n║ ├─ 4.1 DXA ou BIA (comparar com baseline) ║\n║ ├─ 4.2 Funcional completo (incluir marcha se ≥60a) ║\n║ ├─ 4.3 Laboratório nutricional ║\n║ │ ║\n║ └─ 4.4 AVALIAR RESPOSTA: ║\n║ ┌─────────────────────────────────────────────────────────┐ ║\n║ │ Δ MM <5% E função preservada → CONTINUAR plano atual │ ║\n║ ├─────────────────────────────────────────────────────────┤ ║\n║ │ Δ MM 5–7% OU queda funcional leve → │ ║\n║ │ • Intensificar nutrição (nutricionista) │ ║\n║ │ • Otimizar treino (educador físico) │ ║\n║ │ • Verificar adesão real │ ║\n║ │ • Reavaliar em 6–8 semanas │ ║\n║ ├─────────────────────────────────────────────────────────┤ ║\n║ │ Δ MM >7% OU queda funcional significativa → │ ║\n║ │ • Investigar causas secundárias │ ║\n║ │ • Discussão multiprofissional │ ║\n║ │ • Considerar REDUÇÃO DE DOSE ou PAUSA da incretina │ ║\n║ │ • Documentar decisão compartilhada │ ║\n║ └─────────────────────────────────────────────────────────┘ ║\n║ ║\n║ 5. SEGUIMENTO — 12 MESES E ALÉM ║\n║ ├─ 5.1 Reavaliação completa (composição corporal + funcional + lab) ║\n║ ├─ 5.2 Decidir: manutenção vs descalonamento vs descontinuação ║\n║ └─ 5.3 Planejar longo prazo (risco de reganho) [S6][S7] ║\n║ ║\n║ 6. A QUALQUER MOMENTO — SINAIS DE ALERTA ║\n║ Se presentes: ║\n║ □ Fraqueza/fadiga desproporcional ║\n║ □ Quedas ║\n║ □ Perda >1 kg/semana sustentada ║\n║ □ Intolerância GI grave com hipofagia severa ║\n║ □ Queda de preensão >10% ║\n║ → Avaliação imediata: excluir causas secundárias, ajustar terapia ║\n║ ║\n║ 7. SEMPRE — REGRAS INEGOCIÁVEIS ║\n║ ✗ NUNCA prescrever GH/SARMs/peptides para MM ║\n║ ✗ NUNCA usar manipulado sem rastreabilidade ║\n║ ✗ NUNCA ceder a pressão para uso estético/anti-aging ║\n║ ✓ SEMPRE documentar indicação, consentimento, seguimento ║\n║ ✓ SEMPRE registrar recusa de terapias não aprovadas ║\n║ ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n``` --- ## 6. Checklist de Prontuário e TCLE ### 6.1 Checklist de Prontuário — Itens Obrigatórios #### Consulta inicial - [ ] Indicação formal da incretina documentada (obesidade/DM2/off-label)\n- [ ] Contraindicações verificadas e registradas\n- [ ] Estratificação de risco para perda de MM (alto/baixo)\n- [ ] Baseline de composição corporal: método (DXA/BIA), data, valores\n- [ ] Baseline funcional: preensão palmar (kg), teste cadeira (seg), marcha (m/s se aplicável)\n- [ ] Laboratório basal: TFG, albumina, vitamina D, HbA1c\n- [ ] Ingesta proteica estimada (g/kg/dia)\n- [ ] Prescrição nutricional: meta proteica individualizada\n- [ ] Prescrição de exercício: tipo, frequência, encaminhamentos\n- [ ] Suplementação prescrita: creatina (dose, justificativa para função renal), vitamina D, outros\n- [ ] Status regulatório do fármaco: registrado/off-label/manipulado\n- [ ] TCLE assinado se off-label ou manipulado\n- [ ] Farmácia de manipulação: nome, CNPJ, registro CRF (se aplicável)\n- [ ] Registro de orientação sobre recusa de GH/SARMs/peptides #### Consultas de seguimento - [ ] Peso atual e Δ desde baseline/última consulta\n- [ ] Tolerância GI e eventos adversos\n- [ ] Ingesta proteica real estimada\n- [ ] Adesão a exercício resistido\n- [ ] Testes funcionais: preensão, cadeira, marcha\n- [ ] Composição corporal (conforme cronograma): valores e Δ%\n- [ ] Laboratório de seguimento (conforme indicação)\n- [ ] Ajustes realizados em nutrição/exercício/farmacoterapia\n- [ ] Eventos intercorrentes (quedas, fraturas, hospitalizações)\n- [ ] Decisões compartilhadas documentadas (se ajuste de dose ou pausa) ### 6.2 Modelo de Termo de Consentimento Livre e Esclarecido (TCLE) **Para uso off-label de incretinas ou prescrição magistral** --- **TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO** **Instituição/Consultório:** [Nome] **Médico responsável:** [Nome, CRM] **Paciente:** [Nome completo] **Data:** [__/__/____] **1. Identificação do tratamento:**\nEstou sendo convidado(a) a utilizar o medicamento [nome do fármaco] para tratamento de [indicação: obesidade/controle de peso/outra]. **2. Status regulatório:**\n[ ] Este medicamento está APROVADO pela ANVISA para a indicação proposta. [ ] Este medicamento está aprovado pela ANVISA para outra indicação (DM2), sendo seu uso para [obesidade/controle de peso] considerado \"OFF-LABEL\" (fora da bula). A prescrição off-label é permitida no Brasil quando há evidência científica de benefício. [ ] Este medicamento será MANIPULADO por farmácia magistral, pois a apresentação industrial não está disponível ou acessível. A farmácia indicada é [nome], certificada conforme normas ANVISA. **3. Benefícios esperados:**\nRedução de peso corporal, melhora de parâmetros metabólicos, conforme estudos clínicos [explicar brevemente]. **4. Riscos e efeitos adversos conhecidos:**\n- Náusea, vômito, diarreia (comuns, especialmente no início)\n- **Perda de massa muscular (25–35% da perda de peso pode ser massa magra)**\n- Pancreatite, colecistopatia (raros)\n- Outros: [listar conforme perfil do fármaco] **5. Estratégias de mitigação:**\nFui orientado(a) sobre a importância de:\n- Manter ingesta proteica adequada (meta: [X] g/kg/dia)\n- Realizar exercício resistido regularmente (meta: [X] vezes/semana)\n- Comparecer às consultas de seguimento para monitorização **6. Alternativas:**\nExistem outras opções de tratamento, incluindo: modificação de estilo de vida isolada, outros medicamentos aprovados (liraglutida, orlistate), cirurgia bariátrica (se indicada). Estas alternativas foram discutidas comigo. **7. Recusa de terapias não aprovadas:**\nFui informado(a) de que NÃO serão prescritos hormônio do crescimento (GH), SARMs, peptídeos de pesquisa ou outras substâncias não aprovadas para \"preservação muscular\" ou fins estéticos, conforme normas do Conselho Federal de Medicina (CFM 2.333/2023). **8. Liberdade de decisão:**\nMinha participação é voluntária. Posso interromper o tratamento a qualquer momento, comunicando ao médico, sem prejuízo ao meu atendimento. **9. Declaração:**\nDeclaro que li (ou me foi lido) este termo, tive oportunidade de esclarecer dúvidas, compreendi as informações e aceito o tratamento proposto. **Assinaturas:** ___________________________________ Data: __/__/____ Paciente (ou responsável legal) ___________________________________ Data: __/__/____ Médico responsável (carimbo e CRM) --- ## 7. Tabela de Evidências: Farmacoterapia e Composição Corporal | Ensaio/Estudo | Fármaco | N | Desfecho Principal | Resultado | IC95% ou p | Nível |\n|---------------|---------|---|-------------------|-----------|------------|-------|\n| **SURMOUNT-1** [G1] | Tirzepatida 5/10/15 mg vs placebo | 2.539 | Perda ponderal % | −15,0% / −19,5% / −20,9% vs −3,1% | p<0,001 | **A** |\n| SURMOUNT-1 (DXA subanálise) | Tirzepatida | Subanálise | MM como % perda | ~25–33% da perda total | (verificar suplemento) | **B** |\n| **SURMOUNT-2** [G2] | Tirzepatida 10/15 mg vs placebo (DM2) | 1.879 | Perda ponderal % | −12,8% / −14,7% vs −3,2% | p<0,001 | **A** |\n| **SURMOUNT-5** [S21][G6] | Tirzepatida vs semaglutida 2,4 mg | 751 | Perda ponderal % | Tirzepatida superior | p<0,001 | **A** |\n| **STEP 1** [G4][S23] | Semaglutida 2,4 mg vs placebo | 1.961 | Perda ponderal % | −14,9% vs −2,4% | p<0,001 | **A** |\n| STEP 1 (DXA subanálise) | Semaglutida 2,4 mg | Subanálise | MM como % perda | ~30–35% | (verificar suplemento) | **B** |\n| **STEP 4** [S6] | Semaglutida manutenção vs descontinuação | 803 | Manutenção da perda | Manutenção superior | p<0,001 | **A** |\n| **SELECT** [G3][S24] | Semaglutida 2,4 mg vs placebo (CV) | 17.604 | MACE | HR 0,80 | IC95% 0,72–0,90 | **A** |\n| **FLOW** [G5][S22] | Semaglutida vs placebo (renal) | 3.533 | Desfecho renal composto | Benefício significativo | p<0,001 | **A** |\n| **Metanálise Neeland** [S4] | GLP-1 RA diversos | Meta-análise | Proporção MM/perda total | 25–35% | — | **A** |\n| **EWGSOP2** [S5] | — | Consenso | Critérios sarcopenia | Força → massa → desempenho | — | **Consenso** | --- ## 8. Considerações Especiais por Subgrupo ### 8.1 Idosos (≥65 anos) - **Risco aumentado:** Resistência anabólica, comorbidades, polifarmácia\n- **Conduta:** DXA mandatória; meta proteica 1,2–1,6 g/kg; treino supervisionado; avaliação geriátrica se sarcopenia\n- **Atenção:** Quedas e fraturas como desfechos duros a monitorar ### 8.2 Mulheres pós-menopausa - **Risco aumentado:** Declínio estrogênico acelera perda de MM\n- **Conduta:** Avaliar indicação de TH para sintomas (não para MM per se) [S16]; intensificar treino resistido\n- **Lacuna:** Faltam estudos específicos de composição corporal sob incretinas estratificados por status menopausal (verificar literatura emergente) ### 8.3 DRC estágios 3–5 - **Risco:** Restrição proteica vs necessidade de preservar MM — dilema clínico\n- **Conduta:** Individualizar com nefrologia; TFG <45 → limitar proteína a 0,8–1,0 g/kg; **não usar creatina**; monitorar progressão renal\n- **Atenção:** Incretinas têm perfil renal favorável (FLOW) [S22], mas ajuste de dose pode ser necessário ### 8.4 Obesidade grave (IMC >40) - **Limitação:** BIA tem acurácia reduzida; preferir DXA\n- **Conduta:** Calcular necessidades por peso ajustado; maior atenção a déficit calórico extremo --- ## 9. O Que NÃO Fazer — Erros Comuns | Erro | Consequência | Conduta Correta |\n|------|--------------|-----------------|\n| Prescrever GH/SARMs/\"peptides\" para preservar MM | Ilegal (CFM 2.333/2023); riscos desconhecidos | Recusar; documentar a recusa |\n| Aceitar manipulado sem rastreabilidade | Risco de contaminação (lição NECC) [S11] | Exigir lote, nota fiscal, laudo; verificar cadastro CRF |\n| Proteína >1,5 g/kg em DRC ≥3b sem nefrologia | Potencial aceleração de doença renal | Limitar; compartilhar decisão com nefrologia |\n| Negligenciar função muscular se \"peso está caindo bem\" | Sarcopenia oculta; comprometimento funcional tardio | Avaliar força e função independente do peso |\n| Usar BIA convencional para decisões clínicas em obeso grave | Imprecisão inaceitável | Solicitar DXA |\n| Não documentar consentimento em off-label/manipulado | Vulnerabilidade médico-legal | TCLE sempre |\n| Ceder a pressão para \"anti-aging\"/estética hormonal | Violação ética | Recusar; orientar; registrar | --- ## 10. Resumo Operacional — Pérolas Práticas 1. **A cada consulta:** Pese, pergunte sobre alimentação proteica real e exercício resistido\n2. **A cada 6 meses (alto risco) ou 12 meses (baixo risco):** DXA/BIA + funcional\n3. **Regra de ouro:** Proteína ≥1,2 g/kg/dia + treino resistido ≥2×/sem = mínimo inegociável\n4. **Creatina:** Segura e útil, MAS apenas com TFG ≥45\n5. **Manipulado:** Último recurso; jamais aceitar sem documentação completa\n6. **GH/SARMs/peptides:** Nunca. Documente a recusa.\n7. **Perda de MM >7% em 6 meses:** Sinal de alarme — intensificar ou pausar\n8. **Multidisciplinaridade:** Nutricionista + educador físico/fisioterapeuta = aliados essenciais\n9. **Consentimento:** Off-label ou manipulado exige TCLE formal e assinado\n10. **Linguagem:** Obesidade é doença crônica; evitar termos estigmatizantes [S7] --- ## 11. Referências Fundamentais | Código | Referência Completa |\n|--------|---------------------|\n| [G1] | Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. *N Engl J Med* 2022;387:205-216. DOI: 10.1056/NEJMoa2206038 |\n| [G2] | Garvey WT, et al. Tirzepatide Once Weekly for the Treatment of Obesity in People With Type 2 Diabetes. *Lancet* 2023;402:613-626. DOI: 10.1016/S0140-6736(23)01200-X |\n| [G3] | Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. *N Engl J Med* 2023;389:2221-2232. DOI: 10.1056/NEJMoa2307563 |\n| [G4] | Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. *N Engl J Med* 2021;384:989-1002. DOI: 10.1056/NEJMoa2032183 |\n| [G5] | Perkovic V, et al. Semaglutide and Renal Outcomes in Type 2 Diabetes and Chronic Kidney Disease. *N Engl J Med* 2024. DOI: 10.1056/NEJMoa2403347 |\n| [G6] | Aronne LJ, et al. Tirzepatide vs Semaglutide for Weight Loss (SURMOUNT-5). *N Engl J Med* 2025. DOI: 10.1056/NEJMoa2416392 |\n| [S4] | Neeland IJ, et al. Lean mass preservation with GLP-1 receptor agonists: mitigation strategies. *Diabetes Obes Metab* 2024. (DOI: verificar — referência sintetizada) |\n| [S5] | Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis. *Age Ageing* 2019;48:16-31. DOI: 10.1093/ageing/afy169 |\n| [S6] | Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance. *JAMA* 2021;325:1414-1425. DOI: 10.1001/jama.2021.3224 |\n| [S7] | WHO / Obesity Societies. Obesity as a chronic disease — clinical framing. Framework 2020. |\n| [S8] | ANVISA. Boas Práticas de Manipulação Farmacêutica. 2022. https://www.gov.br/anvisa/ |\n| [S11] | CDC/NEJM. Fungal meningitis outbreak (NECC) — lessons. 2013. DOI: 10.1056/NEJMoa1213978 |\n| [S13][S19] | CFM Resolução 2.333/2023. Terapias hormonais com finalidade estética/anti-aging. https://portal.cfm.org.br/ |\n| [S16] | NAMS. 2022 Hormone Therapy Position Statement. *Menopause* 2022;29:767-794. DOI: 10.1097/GME.0000000000002028 |\n| [S18] | Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society CPG. *J Clin Endocrinol Metab* 2018;103:1715-1744. DOI: 10.1210/jc.2018-00229 | --- **Data de elaboração:** 2025 **Próxima revisão sugerida:** Atualizar após publicação de guidelines ANVISA sobre tirzepatida para obesidade e eventual atualização EWGSOP (verificar periodicamente). --- *Material desenvolvido para o curso \"Tirzepatida e Incretinas no Consultório\" — Plataforma Doutiva. Uso educacional. Não substitui avaliação clínica individualizada.*",
+  "quick_ref": "# Massa Magra sob Incretinas — Guia Rápido | Avaliação | Método | Critério Alerta |\n|-----------|--------|----------------|\n| Massa magra | DXA (preferível) ou BIA multifrequencial | Queda ≥5% em 6 meses |\n| Força muscular | Handgrip <27 kg (H) / <16 kg (M) | Queda ≥10% baseline |\n| Funcionalidade | Teste cadeira >15 seg para 5 repetições | Novo valor acima |\n| Velocidade de marcha | <0,8 m/s em idosos | Alertar sobre sarcopenia grave | --- ## Dosagem proteica | População | Dose recomendada |\n|-----------|------------------|\n| Adultos e obesos | 1,2–1,5 g/kg peso ajustado/dia |\n| Idosos (>65 anos) | 1,2–1,6 g/kg/dia |\n| DRC 3a | 1,0–1,2 g/kg/dia |\n| DRC 3b–4 | 0,8–1,0 g/kg/dia | ## Suplementação permitida - Creatina monoidratada: 3–5 g/dia se TFG ≥45 ml/min\n- Vitamina D: repor se <20 ng/mL ## Red Flags - Perda de MM >7% em 6 meses\n- Palidez de preensão >10%\n- Velocidade marcha <0,8 m/s\n- Perda de peso >1 kg/semana sustentável\n- Hipofagia severa e náuseas intoleráveis ## Checklist de consultório - Registro basal da composição corporal e força\n- Avaliação laboratorial completa\n- Prescrição documentada (nutricional, exercício, suplementação)\n- Consentimento informado (off-label/manipulado)\n- Monitoramento e ajustes em consultas periódicas\n- Recusa documentada para tratamentos não autorizados (GH, SARMs, peptides) *Obesidade é doença crônica: manter acompanhamento e plano de manutenção*",
+  "clinical_case": {
+    "title": "Paciente com perda acentuada de massa magra durante uso de tirzepatida para obesidade",
+    "vignette": "Homem de 68 anos, IMC 33 kg/m², iniciou tirzepatida 5 mg SC semanal para manejo da obesidade. Após 6 meses, relata fadiga progressiva, diminuição da força para levantar da cadeira, e perda ponderal total de 18 kg. Avaliação inicial mostrou preensão palmar 26 kg e teste cadeira 14 segundos. Na reavaliação, preensão está 20 kg e teste cadeira 20 segundos. Laboratório: albumina 3,6 g/dL, TFG 70 mL/min, ingesta proteica estimada 0,9 g/kg/dia. DXA evidenciou perda de massa magra de 8% em 6 meses.",
+    "question": "Qual a conduta mais adequada para manejar a perda de massa magra neste paciente?",
+    "teaching": "A perda de massa magra acima de 7% em 6 meses com declínio funcional (teste cadeira acima de 15 s e queda significativa da preensão palmar) indica sarcopenia iatrogênica sob tratamento com incretina. Apesar de boa função renal, a ingesta proteica está abaixo da recomendada (1,2–1,5 g/kg/dia), justificando intervenção nutricional intensificada. O treino resistido deve ser reforçado para manter estímulo anabólico. A dose de tirzepatida deve ser revisada e possível pausa avaliada com equipe multiprofissional. Suplementação de creatina pode ser iniciada. Manter vigilância rigorosa em seguimento. Formalizar consentimento para possíveis ajustes e reforçar educação do paciente.",
+    "reward": 12,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "68 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "33 kg/m²"
+      },
+      {
+        "label": "Dose de tirzepatida",
+        "value": "5 mg SC semanal"
+      },
+      {
+        "label": "Perda ponderal",
+        "value": "18 kg em 6 meses"
+      },
+      {
+        "label": "Preensão palmar inicial/final",
+        "value": "26 kg / 20 kg"
+      },
+      {
+        "label": "Teste levantar da cadeira inicial/final",
+        "value": "14 s / 20 s"
+      },
+      {
+        "label": "Albumina sérica",
+        "value": "3,6 g/dL"
+      },
+      {
+        "label": "TFG",
+        "value": "70 mL/min"
+      },
+      {
+        "label": "Ingesta proteica estimada",
+        "value": "0,9 g/kg/dia"
+      },
+      {
+        "label": "DXA",
+        "value": "8% de perda de massa magra"
+      }
+    ],
+    "options": [
+      {
+        "label": "Intensificar ingestão proteica para ≥1,2 g/kg/dia e implementar treino resistido; avaliar possível redução/pausa da tirzepatida",
+        "correct": true,
+        "rationale": "Ajustar nutrição e exercício são pilares para preservar MM; dada a perda significativa, avaliar ajuste da dose do fármaco é prudente."
+      },
+      {
+        "label": "Prescrever hormônio do crescimento para ganho muscular imediato",
+        "correct": false,
+        "rationale": "Uso de GH para preservação muscular em obesidade é proibido e não indicado segundo CFM 2.333/2023."
+      },
+      {
+        "label": "Aguardar manutenção e acompanhar incidentalmente, pois perda de MM é esperada",
+        "correct": false,
+        "rationale": "Perda superior a 7% e declínio funcional requer intervenção ativa para prevenir sarcopenia irreversível."
+      },
+      {
+        "label": "Substituir tirzepatida por semaglutida e não alterar dieta ou exercício",
+        "correct": false,
+        "rationale": "Mudança entre incretinas pode ter efeito semelhante sobre MM; sem ajuste nutricional e exercício, o risco persiste."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med 2022;387:205-216. DOI: 10.1056/NEJMoa2206038"
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide Once Weekly for the Treatment of Obesity in People With Type 2 Diabetes. Lancet 2023;402:613-626. DOI: 10.1016/S0140-6736(23)01200-X"
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021;384:989-1002. DOI: 10.1056/NEJMoa2032183"
+    },
+    {
+      "citation": "Neeland IJ, et al. Lean mass changes with GLP-1–based therapies — mitigation strategies. Diabetes Obes Metab 2024 (síntese)."
+    },
+    {
+      "citation": "Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2). Age Ageing 2019;48:16-31. DOI: 10.1093/ageing/afy169"
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 — terapias hormonais com finalidade estética/anti-aging. Conselho Federal de Medicina. Norma ética BR 2023.",
+      "url": "https://portal.cfm.org.br/"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

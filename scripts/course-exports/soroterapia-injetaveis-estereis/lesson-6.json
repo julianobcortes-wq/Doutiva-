@@ -1,0 +1,286 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Segurança clínica",
+  "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos para Segurança Clínica",
+  "description": "A infusão de medicamentos e soros estéreis fora do ambiente hospitalar requer padrão rigoroso de estrutura física, equipe treinada, supervisão médica presencial, protocolos de emergência, controle de qualidade da manipulação e documentação rigorosa. Consultórios médicos, day clinics e drip bars devem atender critérios mínimos para minimizar riscos de contaminação, reações adversas e garantir rastreabilidade e segurança. Drip bars, na ausência desses padrões, são incompatíveis com as melhores práticas médicas e regulatórias brasileiras.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
+  "key_points": [
+    "Supervisão médica presencial e consentimento formal são obrigatórios para toda infusão parenteral fora do hospital.",
+    "Infundir somente produtos com registro e rastreabilidade comprovada e indicação documental respaldada por diretrizes clínicas.",
+    "Ambientes não médicos, como drip bars sem estrutura e equipe qualificada, oferecem risco grave e são contraindicados.",
+    "Preparar e disponibilizar material de emergência para anafilaxia, incluindo adrenalina IM 1 mg/mL (dose 0,3–0,5 mL) — equipe treinada para manejo imediato.",
+    "Infusões para estética, bem-estar ou anti-aging sem indicação clínica comprovada não são justificadas e podem resultar em sanções éticas e legais.",
+    "Registro detalhado, rastreabilidade, descarte seguro e monitoramento pós-infusão são práticas inegociáveis.",
+    "Não realizar infusão sem avaliação clínica, triagem funcional e documentação completa do paciente e procedimento."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar",
+      "subtitle": "Padrões mínimos para segurança clínica em soroterapia e injetáveis estéreis (Brasil, 2024)"
+    },
+    {
+      "kind": "table",
+      "title": "Classificação Regulatória de Produtos Infusionais e Manipulados no Brasil",
+      "head": [
+        "Produto / Classe",
+        "Registrado ANVISA",
+        "Manipulado*",
+        "Off-label aceito",
+        "Não prescrever (proibido)",
+        "Comentário"
+      ],
+      "rows": [
+        [
+          "GLP-1 RA (semaglutida, tirzepatida)",
+          "Sim (SC)",
+          "Sim (debated)",
+          "Obesidade*",
+          "—",
+          "Manipulado requer farmácia regular; sem equivalência garantida ao produto registrado"
+        ],
+        [
+          "Aminoácidos/vitaminas IV",
+          "Alguns",
+          "Sim",
+          "Sim",
+          "Não (sem rastreio)",
+          "Uso somente em indicação documentada, com garantia de qualidade"
+        ],
+        [
+          "Ferro intravenoso",
+          "Sim",
+          "Não usual",
+          "Guideline-based",
+          "Não (uso não indicado)",
+          "Só para deficiência documentada e intolerância oral"
+        ],
+        [
+          "GH para anti-aging",
+          "Não",
+          "Proibido",
+          "Não",
+          "Sim",
+          "Uso proibido fora de deficiência comprovada"
+        ],
+        [
+          "Implantes hormonais",
+          "Depende",
+          "Sim",
+          "Restrito",
+          "Não (cosmético)",
+          "CFM proíbe uso estético"
+        ],
+        [
+          "Research peptides (BPC-157, etc)",
+          "Não",
+          "Não",
+          "Não",
+          "Sim",
+          "Risco sanitário, não recomendado"
+        ]
+      ]
+    },
+    {
+      "kind": "bars",
+      "title": "Taxa estimada de eventos adversos e infecções em ambientes infusionais ambulatoriais",
+      "unit": "percentual",
+      "source": "[verificar — não ancorado]",
+      "note": "Drip bars apresentam risco maior e subnotificação dos eventos.",
+      "bars": [
+        {
+          "label": "Consultório médico com estrutura adequada",
+          "value": 0.2,
+          "highlight": false
+        },
+        {
+          "label": "Day clinic supervisionado",
+          "value": 0.2,
+          "highlight": false
+        },
+        {
+          "label": "Drip bar sem padrão rigoroso",
+          "value": 0.51,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "Características essenciais do ambiente de infusão seguro — Consultório Médico",
+      "bullets": [
+        "Sala exclusiva para infusões, separada de áreas contaminantes.",
+        "Ambiente com superfícies laváveis, pia para higienização e álcool 70% disponível.",
+        "Geladeira exclusiva com controle rigoroso de temperatura para medicamentos.",
+        "Equipamentos de emergência completos: adrenalina IM pronta, oxigênio, DEA, Ambu, soro IV.",
+        "Médico disponível presencialmente durante todo o procedimento.",
+        "Documento detalhado da rastreabilidade do lote e fornecedor dos medicamentos.",
+        "Intervalos entre atendimentos para evitar contágio cruzado."
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo para Infusão Segura em Ambiente Ambulatorial no Brasil",
+      "steps": [
+        {
+          "label": "1",
+          "detail": "Avaliação médica presencial da indicação clínica, com confirmação diagnóstica e fundamentação guideline."
+        },
+        {
+          "label": "2",
+          "detail": "Verificação da estrutura física: sala específica, equipe treinada e material emergencial disponível."
+        },
+        {
+          "label": "3",
+          "detail": "Triagem clínica do paciente para contraindicações e alergias."
+        },
+        {
+          "label": "4",
+          "detail": "Consentimento informado documentado, explicando riscos e benefícios."
+        },
+        {
+          "label": "5",
+          "detail": "Dupla checagem da prescrição, lote do medicamento e farmácia credenciada."
+        },
+        {
+          "label": "6",
+          "detail": "Infusão sob monitoramento médico e registro detalhado da evolução."
+        },
+        {
+          "label": "7",
+          "detail": "Observação pós-infusão por 30 a 60 minutos, com registro dos sinais vitais."
+        },
+        {
+          "label": "8",
+          "detail": "Descarte seguro de material e notificação de eventos adversos se presentes."
+        },
+        {
+          "label": "9",
+          "detail": "Auditoria periódica de processos e cadeia de fornecimento farmacêutico."
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Comparação: Drip Bar vs Consultório Médico para Infusões",
+      "left": {
+        "label": "Consultório Médico",
+        "items": [
+          "Equipe médica presente em tempo integral",
+          "Ausência frequente de médico no local"
+        ]
+      },
+      "right": {
+        "label": "Drip Bar",
+        "items": [
+          "Estrutura física concebida para infusão segura, controle ambiental, limpeza rigorosa",
+          "Espaço improvisado, sem controle ambiental adequado"
+        ]
+      }
+    },
+    {
+      "kind": "pearl",
+      "title": "Frase Central",
+      "text": "Infundir fora de ambiente médico estruturado e sem equipe treinada expõe o paciente a riscos evitáveis e fere normas éticas, sanitárias e legais vigentes."
+    }
+  ],
+  "monograph": "# Monografia Doutiva Corrigida **Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos para Segurança Clínica em Soroterapia e Injetáveis Estéreis** Curso: Soroterapia e Injetáveis Estéreis com Critério Módulo 3 · Segurança Clínica Meta de profundidade 8,5–9/10 --- ## 1. Contexto e Racional Clínico **Infusões parenterais fora do ambiente hospitalar** demandam rigor equivalente ao das melhores práticas hospitalares quanto à seleção de ambientes, supervisão médica, estrutura física e regulatória, segurança da manipulação, gestão de emergências e documentação ([S12], [S11], [S10], [S8]). No Brasil, a expansão de farmácias de manipulação de medicamentos estéreis e de procedimentos infusionais em ambulatórios e consultórios — incluindo a popularização de \"drip bars\" — impõe riscos se forem adotados padrões aquém de diretrizes internacionais e nacionais. As indicações aceitas para infusão (ex.: ferro IV em deficiência documentada com falha/intolerância do oral, vitamina B12 em deficiência, agonistas GLP-1 na obesidade, tratamento hormonal em hipogonadismo verdadeiro) devem atender critérios diagnósticos precisos, nunca serem motivadas apenas por \"bem-estar\" ou \"anti-aging\" (proibidos pelo CFM [S19], [S13], [S14], [S16]). Drip bars ou ambientes não supervisionados, sem estrutura para emergências e com rastreabilidade duvidosa, apresentam risco sanitário grave, sendo vedados pelas boas práticas médicas e regulações vigentes ([S12], [S8], [S13]). --- ## 2. Hierarquia da Evidência e Segurança de Infusão Ambulatorial ### 2.1 Evidências Críticas (A) – Ensaios, Guidelines, Outbreaks - **Falhas em esterilidade** de manipulação levaram a surtos graves, como meningite fúngica/fatalidade em Massachusetts/NECC ([S11]).\n- **Eventos adversos graves** incluem anafilaxia, infecção relacionada a acesso, erro de dose/composição, reação cruzada tóxico-química ou biológica ([S12], [S4]).\n- **Dados de infecção em consultórios privados** estão provavelmente subestimados (<0,2%), considerando subnotificação; day clinics supervisionados demonstram índices semelhantes (<0,2%), ao passo que drip bars constam entre 0,5 a 1% em séries internacionais, com subnotificação provável ([verificar — não ancorado]). ### 2.2. Evidência B/C/D — Limites - **Evidência robusta só respalda** infusão se indicação clínica for documentada e houver preparo asséptico validado ([S12], [S10]).\n- **Mixes promocionais e \"soroterapia de energia/detox\" têm evidência C-D**, sem respaldo guideline ([S10]). --- ## 3. Classificação Terapêutica e Regulatório ANVISA/CFM ### 3.1. Tabela de Situação Regulatória | Produto / Classe | Registrado ANVISA | Manipulado* | Off-label aceito | Não prescrever (proibido) | Comentário |\n|------------------------------------|:-----------------:|:-----------:|:---------------:|:------------------------------------:|----------------------------------------|\n| GLP-1 RA (semaglutida, tirzepatida)| Sim (SC) | Sim (debatido)<br>**ver nota | Obesidade* | — | Manipulado requer farmácia regular |\n| Aminoácidos/vitaminas IV | Alguns | Sim | Sim | Não (se formulado com rastreio) | Só com indicação clínica documentada |\n| Ferro intravenoso | Sim | Não usual | Guideline-based | Não (uso não indicado/sem rastreio) | Só deficiência + falha/intolerância oral |\n| GH para anti-aging | Não | Proibido | Não | Sim | Só deficiência GH confirmada |\n| Implantes hormonais | Depende | Sim | Restrito | Não (uso cosmético/anti-aging) | CFM proíbe fins estéticos |\n| \"Research peptides\" (BPC-157, etc) | Não | Não | Não | Sim | Risco de contaminação/adulteração | **Nota:** Manipulados só se origem rastreável, controle de lote, farmácia credenciada e para situações com ausência de alternativa registrada/tolerabilidade — nunca para fins cosméticos ([S8], [S14], [S13], [S19]). GLP-1 RA manipulados não têm equivalência garantida ao produto registrado ([S21]). --- ## 4. Estrutura Física e Processual: Padrões Mínimos **(Ancorado em: [S12], [S8], [S11], [S5])** ### 4.1. Consultório Médico com Infusão - Sala específica para infusão, separada de área contaminante.\n- Superfícies laváveis, pia exclusiva, álcool 70% disponível.\n- Geladeira exclusiva para medicamentos, controle de temperatura e umidade; restrição rigorosa ao acesso.\n- 1–4 poltronas, intervalos entre pacientes para evitar cruzamento.\n- Equipamento de emergência: material para via aérea, O2, DEA, Ambu, soro IV, base para oxímetro.\n- Kit emergência: **adrenalina IM pronta — enfatizar**: \"preparar 0,3–0,5 mL da solução 1 mg/mL (=0,3–0,5 mg) IM\", seringa, agulha; anti-histamínico injetável (ex.: fenergan 25–50 mg IM ou difenidramina 10–50 mg IM/IV), corticosteroide IV (ex.: hidrocortisona 200 mg IV).\n- Documentação obrigatória de lote, validade, fornecedor.\n- Acessibilidade para chamada de suporte avançado (SAMU, referência hospitalar próxima). ### 4.2. Day Clinic - Salas projetadas (não adaptadas), expurgo, classificação de resíduos, controle de fluxo material-paciente.\n- Equipe: médico presencial em tempo integral, enfermeiro treinado, técnico sob supervisão.\n- Instrumental mínimo: monitorização não invasiva de PA, ECG, oxímetro, DEA recomendado quando fluxo >5–10 infusões simultâneas ([verificar — não ancorado; recomendação de boas práticas]).\n- Plano de emergência documentado, parceria com unidade hospitalar. ### 4.3. Drip Bar - Drip bar sem estrutura, equipe ou validação — **não recomendado**, sendo incompatível com padrões mínimos da prática médica e regulamento sanitário ([S12], [S8], [S11]).\n- Ausência de médico presencial, rastreio precário de lote/preparo, alto risco de erro, contaminação e subnotificação de eventos.\n- Inclusive publicidade de \"drip bar\" para \"energia/imunidade\" fere diretrizes éticas [S8], [S19]. --- ## 5. Seleção de Pacientes e Indicação Segura ### 5.1. Indicação clínica obrigatória - Deficiência/necessidade comprovada (ex.: ferro IV só se deficiência e intolerância oral) ([S10], [S9]).\n- Consentimento informado para cada produto/infusão, especificando riscos potenciais.\n- Triagem clínica inicial (alergias, eventos prévios, história de reações graves, avaliação funcional).\n- Proibição expressa de indicação \"para bem-estar\", estética/anti-aging sem respaldo guideline/registro ([S13], [S19], [S14], [S16]).\n- **Não infundir em:** - Ambientes não supervisionados - Produto sem número de lote, boia rotulagem ou proveniência, farmácia irregular - Pacientes imunossuprimidos graves ou sem suporte avançado disponível - Histórico de reações graves prévias --- ## 6. Equipe e Treinamento — Critérios Objetivos - **Médico presencial durante todo o tempo de infusão**.\n- **Enfermeiro treinado em infusão, reconhecimento de reações adversas, técnica de preparo asséptico**.\n- Técnico: só sob supervisão direta.\n- Treinamento documentado: - Técnica asséptica, identificação de contaminação. - Simulações regulares de emergências (anafilaxia, reação vasovagal, hipotensão). - Atualização semestral/anual, conforme volume de procedimentos. --- ## 7. Emergências: Reconhecimento e Manejo Padronizado ### 7.1. Conduta em Anafilaxia - **Reconhecimento precoce:** eritema, urticária difusa, angioedema, dispneia, hipotensão, confusão.\n- **Manejo imediato:** - Interromper infusão, manter paciente deitado. - **Adrenalina IM:** 0,3–0,5 mL da solução 1 mg/mL (=0,3–0,5 mg), via ím, repetir a cada 5–15 min, se necessário. - Oxigênio suplementar. - Anti-histamínico IM/IV. - Corticoide IV (hidrocortisona 200 mg ou equivalente). - Chamar suporte avançado (SAMU). **Nota:** Evitar ambiguidade na dose: usar sempre \"mL da solução 1 mg/mL\". ### 7.2. Outras reações - Vasovagal: decúbito, O2, manter via, observar.\n- Reação local/flebite: suspender e monitorar.\n- Sepse: sinais de toxemia → transferência hospitalar urgente. --- ## 8. Descarte, Rastreabilidade e Monitorização - Material perfurocortante: caixa rígida conforme ABNT/ANVISA.\n- Consumíveis biológicos: coleta diferenciada.\n- Registro detalhado: lote, número de série, data-vencimento, responsável preparo.\n- Documentação clínica 30 e 60 min após infusão.\n- Notificação obrigatória a Anvisa/Visa/CFM para eventos graves. --- ## 9. Documentação Essencial e Consentimento - **Registro amplo em prontuário** (indicador, composição, lote, dose, via, tempo, avaliação pós-infusão, lote/batch).\n- **Consentimento por escrito** para cada infusão, explicitando riscos.\n- **Checklist de auditoria interna periódica:** revisão de eventos adversos, rastreio da cadeia de preparo, verificação de conformidade da farmácia fornecedora. --- ## 10. Quando NÃO Realizar Infusão — Critérios Excludentes - Ausência de indicação clínica clara ou prescrição justificada.\n- Produtos “manipulados” sem registro, sem laudo ou rastreamento.\n- Ambiente sem médico presente.\n- \"Promo-mixes\", anti-aging, performance, “detox”, “imunidade” sem respaldo guideline/registro.\n- Consentimento verbal ou ausente.\n- Falta de acesso a material de emergência ou equipe treinada.\n- Recusa do paciente em assinar documentação completa.\n- Infusão domiciliar/autoadministrada — proibido salvo em raras exceções sob programa específico e justificado [verificar — não ancorado]. --- ## 11. Fluxograma Clínico de Conduta (Brasil) ```markdown\n1. Avaliação médica presencial do paciente e indicação clínica fundamentada.\n2. Verificação de indicação respaldada por guideline/registro.\n3. Checagem de disponibilidade de ambiente físico adequado (<4 poltronas no consultório) e equipe treinada.\n4. Triagem clínica para contraindicações (alergia, risco aumentado, comorbidades graves).\n5. Garantia de suprimentos emergenciais e acionamento rápido de suporte hospitalar/SAMU.\n6. Consentimento informado por escrito, discriminando produto, lote, riscos.\n7. Dupla checagem de preparação, lote, validade, farmácia credenciada.\n8. Infusão sob monitoramento, registro de dados basais.\n9. Registro sistemático de observação 30 e 60 min pós-infusão.\n10. Descarte e desinfecção conforme legislação sanitária.\n11. Auditoria periódica dos processos e revisão da cadeia de fornecimento.\n```\n--- ## 12. Checklist de Prontuário/TCLE **(Elementos objetivos, recomendação de arquivamento em prontuário físico e/ou eletrônico)** | Item | Sim/Não |\n|------------------------------------------------------------------------------------------|---------|\n| Indicação clínica detalhada (diagnóstico/situação específica) | |\n| Prescrição descritiva (produto, concentração, via, diluente, tempo, farmácia/preparador) | |\n| Lote do produto, data de preparo, validade | |\n| Checagem dupla (executor x prescritor) | |\n| Consentimento informado assinado (TCLE individual para cada infusão) | |\n| Registros vitais prévios | |\n| Supervisão médica presencial | |\n| Material de emergência verificado e disponível | |\n| Registro detalhado do procedimento e avaliação pós-infusão (30–60 min) | |\n| Anotação detalhada do descarte de resíduos | |\n| Notificação/documentação de eventos adversos, se houver | |\n| Sinalização para auditoria interna/externa | | --- ## 13. Key Points Capacitantes 1. **Supervisão médica presencial e consentimento formal são obrigatórios para toda infusão parenteral fora do hospital.**\n2. **Apenas infundir produtos com registro/rastreabilidade comprovada e indicação documentada em situação respaldada por diretriz.**\n3. **Ambientes não médicos (\"drip bars\"), sem equipe habilitada ou estrutura de emergência, representam risco grave e são contraindicados pela boa prática e normativas vigentes.**\n4. **Toda emergência infusional exige material adequado (adrenalina IM 1 mg/mL: 0,3–0,5 mL) e equipe treinada — nunca improvisar ou delegar.**\n5. **Infusões “anti-aging/bem-estar” sem deficiência comprovada não têm respaldo científico/regulatório e ensejam sanções.**\n6. **Registro, rastreabilidade, consentimento e descarte seguro são inegociáveis e passíveis de auditoria.**\n7. **Não infundir em pacientes sem avaliação/triagem clínica completa e documentação integral.** --- ## 14. Referências Essenciais - [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations (overview for clinicians). United States Pharmacopeia, 2023.\n- [S10] Intravenous nutrient therapy (Myers cocktail) — evidence appraisal. Síntese Doutiva, 2018.\n- [S11] Fungal meningitis outbreak associated with contaminated steroid injections (NECC). CDC / NEJM, 2013. DOI 10.1056/NEJMoa1213978.\n- [S8] ANVISA — Princípios de Boas Práticas de Manipulação, 2022.\n- [S9] Intravenous iron for iron deficiency — guideline-aligned use. Síntese Doutiva, 2021.\n- [S13] CFM Resolução 2.333/2023 — restrição a hormonioterapia estética/anti-aging.\n- [S14] Endocrine Society & ACOG — Bioidênticos manipulados: position statements.\n- [S16] NAMS — 2022 Hormone Therapy Position Statement.\n- [S19] CFM Resolução 2.333/2023 — terapias hormonais para fins estéticos. --- **FIM DO TRATADO PREMIUM — ESTRUTURA DOUTIVA, 2024**",
+  "quick_ref": "# Guia Rápido: Infusão Segura em Consultório / Day Clinic | Item | Recomendação |\n|------------------------------|---------------------------------|\n| **Ambiente físico** | Sala exclusiva, superfícies laváveis, geladeira exclusiva, controle de temperatura |\n| **Equipe** | Médico presente, enfermeiro treinado, técnico sob supervisão |\n| **Material emergência** | Adrenalina IM 1 mg/mL (0,3–0,5 mL), O2, DEA, anti-histamínicos IV/IM, corticoides IV |\n| **Indicação** | Apenas com documentação clínica clara e respaldo guideline |\n| **Consentimento informado** | Obrigatório, assinado para cada infusão |\n| **Registro & Rastreabilidade**| Documentar lote, validade, fabricante, farmácia credenciada |\n| **Monitorização pós-infusão** | 30–60 minutos sob supervisão médica |\n| **Contraindicações** | Produto sem registro/rastreio, ambiente sem médico, fins estéticos/anti-aging não indicados | --- # Checklist Prontuário / TCLE\n- Prescrição detalhada (Produto, dose, via, duração, farmácia)\n- Lote e validade do medicamento\n- Consentimento informado\n- Registros vitais pré e pós\n- Supervisão médica documentada\n- Material de emergência disponível e revisado\n- Registro do descarte de material perfurocortante\n- Eventual notificação de eventos adversos --- # Red Flags — Não Realizar Infusão Se:\n- Ambiente sem médico presente\n- Produto sem origem/rastreabilidade\n- Uso para estética / anti-aging / bem-estar não aprovado\n- Falta de consentimento formal\n- Falta de estrutura ou material emergencial\n- Histórico de reações adversas graves não avaliado --- # Dose Adrenalina IM em Anafilaxia\n- Solução: 1 mg/mL\n- Dose: 0,3 a 0,5 mL IM (0,3–0,5 mg)\n- Repetir a cada 5–15 minutos conforme resposta --- # Contato Emergencial\n- SAMU: 192\n- Unidade hospitalar de referência próxima Este guia destina-se a profissionais com experiência, não substitui protocolo institucional formal.",
+  "clinical_case": {
+    "title": "Caso Clínico: Infusão de Ferro IV em Consultório — Avaliação de Segurança",
+    "vignette": "Paciente feminina, 48 anos, com anemia ferropriva documentada, intolerância a ferro oral por efeitos gastrintestinais graves. Prescrição para ferro IV em consultório médico. A estrutura do consultório não possui sala de infusão exclusiva, nem equipe treinada além do médico, não dispõe de kit completo para emergência, apenas soro fisiológico e oxímetro simples. Consentimento informado foi verbal, sem registro escrito. Após início da infusão, paciente apresenta prurido, urticária difusa e dispneia leve.",
+    "question": "Qual a conduta correta diante do cenário descrito considerando as normas de segurança para infusão ambulatorial?",
+    "teaching": "Infusão de ferro IV requer ambiente estruturado, equipe treinada, kit de emergência completo e supervisão médica presencial constante. A ausência de sala adequada, equipe e documentação formal de consentimento configuram riscos à segurança do paciente e infração das boas práticas clínicas e regulatórias brasileiras. Reação alérgica leve indica potencial anafilaxia incipiente. A conduta segura inclui: interromper infusão imediatamente, administrar adrenalina IM 0,3–0,5 mg rapidamente, solicitar auxílio emergencial, monitorar sinais vitais e documentar. Caso o consultório não esteja equipado para emergência, paciente deve ser transferida a hospital. Escolha do ambiente para infusão deve considerar riscos do produto e capacidade de manejo de emergências. Consentimento verbal é insuficiente, e a ausência de treinamento na equipe compromete resposta a eventos adversos.",
+    "reward": 1000,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "48 anos"
+      },
+      {
+        "label": "Diagnóstico Principal",
+        "value": "Anemia ferropriva"
+      },
+      {
+        "label": "Intolerância a ferro oral",
+        "value": "Sim, gastrintestinais"
+      },
+      {
+        "label": "Ambiente de infusão",
+        "value": "Consultório sem sala específica e equipe treinada"
+      },
+      {
+        "label": "Material de emergência disponível",
+        "value": "Limitado (soro fisiológico, oxímetro simples)"
+      },
+      {
+        "label": "Consentimento",
+        "value": "Verbal, não documentado"
+      },
+      {
+        "label": "Reação durante infusão",
+        "value": "Prurido, urticária difusa, dispneia leve"
+      },
+      {
+        "label": "Presença médica",
+        "value": "Sim, único profissional no local"
+      }
+    ],
+    "options": [
+      {
+        "label": "Continuar infusão monitorando sinais vitais e prescrever anti-histamínicos.",
+        "correct": false,
+        "rationale": "Apesar da reação leve, continuar a infusão apresenta risco de anafilaxia grave; anti-histamínicos isolados não são suficiente para manejo inicial."
+      },
+      {
+        "label": "Interromper infusão, administrar adrenalina IM 0,3–0,5mg, acionar suporte emergencial e transferir paciente.",
+        "correct": true,
+        "rationale": "Conduta correta para reação alérgica grave com ambiente inadequado para emergência; preserva segurança do paciente e está alinhada a protocolos e diretrizes."
+      },
+      {
+        "label": "Solicitar à paciente repouso, aguardar melhora espontânea e reavaliar continuidade da infusão.",
+        "correct": false,
+        "rationale": "Não considera risco potencial da reação, podendo evoluir para choque anafilático; negligência do cenário de emergência."
+      },
+      {
+        "label": "Continuar infusão apenas com supervisão médica verbal sem administração de adrenalina.",
+        "correct": false,
+        "rationale": "Ausência de ação imediata com adrenalina pode agravar reação alérgica e colocar paciente em risco iminente."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations (overview for clinicians). United States Pharmacopeia, 2023.",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "Fungal meningitis outbreak associated with contaminated steroid injections. CDC / NEJM, 2013. DOI 10.1056/NEJMoa1213978",
+      "url": "https://doi.org/10.1056/NEJMoa1213978"
+    },
+    {
+      "citation": "Intravenous nutrient therapy (Myers cocktail) — evidence appraisal. Síntese Doutiva, 2018."
+    },
+    {
+      "citation": "ANVISA — Princípios de Boas Práticas de Manipulação, 2022.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "Intravenous iron for iron deficiency — guideline-aligned use. Síntese Doutiva, 2021."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 — restrição a hormonioterapia estética/anti-aging. Conselho Federal de Medicina.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Endocrine Society & ACOG — position statements on bioidentical hormone therapy, 2016."
+    },
+    {
+      "citation": "NAMS — 2022 Hormone Therapy Position Statement, Menopause, 2022. DOI 10.1097/GME.0000000000002028",
+      "url": "https://doi.org/10.1097/GME.0000000000002028"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

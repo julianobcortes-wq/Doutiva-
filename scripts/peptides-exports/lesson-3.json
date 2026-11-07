@@ -1,0 +1,357 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Incretinas",
+  "module_position": 2,
+  "title": "Fisiologia e farmacologia de GLP-1 e GIP: receptores, vias, órgãos-alvo e dual agonism bias",
+  "description": "Revisão detalhada dos mecanismos fisiológicos e farmacológicos das incretinas GLP-1 e GIP, com enfoque em receptores, vias de sinalização, órgãos-alvo e peculiaridades do agonismo dual, particularmente em agonistas como tirzepatida que apresentam bias de sinalização. Apresenta dados robustos de ensaios clínicos fase 2 e 3, orientações práticas para prescrição, monitoramento e manejo de efeitos adversos, além de aspectos regulatórios no Brasil conforme ANVISA, CFM e WADA.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Agonistas de GLP-1 e o agonismo dual GIP/GLP-1 (tirzepatida) possuem evidência robusta fase 3 para perda de peso, controle glicêmico e redução de eventos cardiovasculares.",
+    "Dual agonismo não é a soma linear dos efeitos isolados de GLP-1 e GIP, apresentando bias de sinalização que potencializa terapêuticamente os efeitos.",
+    "Hipoglicemia é rara em monoterapia de agonistas de incretina, ocorrendo principalmente se associada a sulfonilureias ou insulina.",
+    "Tolerabilidade gastrointestinal depende principalmente de titulação gradual e educação do paciente, sendo fundamental para adesão.",
+    "Uso de peptídeos manipulados não é recomendado quando existem opções aprovadas, considerando resoluções CFM e normas ANVISA.",
+    "Monitoramento clínico e laboratorial com foco em sintomas GI, função renal, sinais de pancreatite e composição corporal são essenciais.",
+    "Documentação rigorosa, consentimento informado e avaliação criteriosa são fundamentais para segurança médica e legal."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Fisiologia e Farmacologia de GLP-1 e GIP: receptores, vias, órgãos-alvo e dual agonism bias",
+      "subtitle": "Curso: Peptídeos na Medicina de Precisão · Módulo 2 · Incretinas"
+    },
+    {
+      "bars": [
+        {
+          "label": "Semaglutida 2,4 mg: -14,9% em 68 semanas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida 15 mg: até -13,0% em 40 semanas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Retatrutida 12 mg: até -24,2% em 48 semanas",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Cagrilintide + Semaglutida: -20,4% em 68 semanas",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "%",
+      "title": "Comparação de perda de peso em ensaios clínicos com agonistas de incretina",
+      "source": "Ensaios fase 2/3"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Meia vida (h)",
+        "Tmax (h)",
+        "Via administração",
+        "Dose inicial",
+        "Dose alvo aprovada"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Liraglutida",
+          "~13",
+          "8–12",
+          "SC diária",
+          "0,6 mg/dia",
+          "3,0 mg/dia"
+        ],
+        [
+          "Semaglutida",
+          "~168 (~7 dias)",
+          "24–36",
+          "SC / Oral",
+          "0,25 mg/sem",
+          "2,4 mg/sem"
+        ],
+        [
+          "Dulaglutida",
+          "~120",
+          "24–48",
+          "SC semanal",
+          "0,75 mg/sem",
+          "1,5 mg/sem"
+        ],
+        [
+          "Tirzepatida",
+          "~120–130",
+          "24–48",
+          "SC semanal",
+          "2,5 mg/sem",
+          "15 mg/sem"
+        ]
+      ],
+      "title": "Características farmacocinéticas de agonistas padrão de GLP-1 e tirzepatida",
+      "source": "Dados das bulas e estudos [S25, S22]"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Avaliar indicação formal (DM2 estabilizado, obesidade com IMC >27)."
+        },
+        {
+          "label": "2. Confirmar ausência de contraindicações (CMC, pancreatite, MEN2)."
+        },
+        {
+          "label": "3. Discussão e consentimento informado com paciente."
+        },
+        {
+          "label": "4. Iniciar em dose baixa conforme fármaco: semaglutida 0,25 mg/sem, tirzepatida 2,5 mg/sem."
+        },
+        {
+          "label": "5. Titular dose a cada 4 semanas com monitoramento clínico."
+        },
+        {
+          "label": "6. Orientar manejo de sintomas GI (fracionar alimentação, hidratação)."
+        },
+        {
+          "label": "7. Avaliar resposta glicêmica, perda de peso e sintomas adversos regularmente."
+        },
+        {
+          "label": "8. Ajustar drogas concomitantes (reduzir SU/insulina para evitar hipoglicemia)."
+        },
+        {
+          "label": "9. Manter acompanhamento multidisciplinar para estilo de vida."
+        },
+        {
+          "label": "10. Considerar suspensão/troca se não tolerado ou falta de resposta após 16 semanas."
+        }
+      ],
+      "title": "Algoritmo prático para prescrição de agonistas de GLP-1 e dual agonistas em DM2 e obesidade"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "GLP-1: forte efeito na saciedade, inibe glucagon, retardo esvaziamento gástrico.",
+          "GIP: estimula insulina e lipogênese, efeito em tecido adiposo e pâncreas.",
+          "Tirzepatida: agonismo dual com bias, melhora sinérgica em glicemia, peso e perfil metabólico."
+        ],
+        "label": "GLP-1R/GIPR isolados"
+      },
+      "right": {
+        "items": [
+          "Bias de sinalização favorece cAMP vs β-arrestina, potencializando efeitos bioativos.",
+          "Efeitos combinados vão além da soma dos isolados: melhora maior na perda de peso e glicemia.",
+          "Retardo do esvaziamento gástrico menor que GLP-1 isolado, com melhor tolerabilidade GI."
+        ],
+        "label": "Agonismo dual (tirzepatida)"
+      },
+      "title": "Dual Agonismo: GLP-1 vs GIP vs Tirzepatida"
+    },
+    {
+      "head": [
+        "Órgão",
+        "GLP-1",
+        "GIP",
+        "Dual agonismo (tirzepatida)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Pâncreas",
+          "↑ Insulina, ↓ glucagon",
+          "↑ Insulina, ± glucagon",
+          "↑↑ Insulina, ↓ glucagon"
+        ],
+        [
+          "SNC",
+          "Saciedade e controle do apetite",
+          "Menor intensidade",
+          "Aumento deste efeito"
+        ],
+        [
+          "Estômago",
+          "Retardo esvaziamento gástrico",
+          "Neutro",
+          "Menor retardo que GLP-1"
+        ],
+        [
+          "Tecido adiposo",
+          "↑ lipólise indireta",
+          "Lipogênese e antilipólise",
+          "Melhora no metabolismo lipídico"
+        ],
+        [
+          "Rim",
+          "Natriurese e nefroproteção",
+          "Papel incerto",
+          "Aumento discreto natriurese"
+        ],
+        [
+          "Coração",
+          "Cardioproteção indireta",
+          "Indefinido",
+          "Redução de eventos MACE (tendência)"
+        ]
+      ],
+      "title": "Efeitos dos agonistas de incretinas por órgão-alvo",
+      "source": "Base fisiológica e evidências clínicas [S25, S22, S17]"
+    },
+    {
+      "head": [
+        "Medicamento",
+        "Dose Inicial",
+        "Incremento",
+        "Intervalo",
+        "Dose alvo",
+        "Monitoramento obrigatório"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida SC",
+          "0,25 mg/sem",
+          "+0,25–0,5 mg",
+          "4 semanas",
+          "1,0 a 2,4 mg/sem",
+          "Glicemia, sintomas GI, função renal"
+        ],
+        [
+          "Liraglutida SC",
+          "0,6 mg/dia",
+          "+0,6 mg semanalmente",
+          "1 semana",
+          "3,0 mg/dia",
+          "Mesmos critérios"
+        ],
+        [
+          "Dulaglutida SC",
+          "0,75 mg/sem",
+          "+0,75 mg",
+          "4 semanas",
+          "1,5–3,0 mg/sem",
+          "Mesmos critérios"
+        ],
+        [
+          "Tirzepatida SC",
+          "2,5 mg/sem",
+          "+2,5 mg",
+          "4 semanas",
+          "10–15 mg/sem",
+          "Glicemia, sintomas GI, função hepática e renal"
+        ]
+      ],
+      "title": "Doses, titulação e monitoramento de agonistas GLP-1 e tirzepatida",
+      "source": "Protocolos clínicos e bulas"
+    },
+    {
+      "kind": "pearl",
+      "text": "O agonismo dual pelo receptor GIP e GLP-1 não corresponde à soma simples dos efeitos isolados, apresentando sinergia e perfil de sinalização que potencializam os benefícios metabólicos e minimizam efeitos adversos, especialmente gástricos.",
+      "title": "Pérola clínica"
+    }
+  ],
+  "monograph": "# MONOGRAFIA: FISIOLOGIA E FARMACOLOGIA DE GLP-1 E GIP — RECEPTOR, VIAS, ÓRGÃOS-ALVO E DUAL AGONISM BIAS\n\n---\n\n## 1. Contexto clínico e relevância epidemiológica\n\nA compreensão aprofundada da fisiologia, farmacodinâmica e farmacocinética das incretinas — particularmente GLP-1 (glucagon-like peptide-1) e GIP (glucose-dependent insulinotropic polypeptide) — tornou-se crucial para o manejo contemporâneo e racional de patologias relacionadas ao metabolismo, como diabetes mellitus tipo 2 (DM2), obesidade, doença hepática metabólica (MASH) e, crescentemente, doenças cardiovasculares e neurodegenerativas. O advento dos agonistas de GLP-1R (GLP-1 receptor) e, mais recentemente, dos agonistas duplos GIPR/GLP-1R (p. ex., tirzepatida) e triplo agonistas (retatrutida) deslocou o paradigma terapêutico do mero controle glicêmico para a manipulação integrada de múltiplos eixos metabólicos, com impacto em peso corporal, esteatose hepática, eventos cardiovasculares maiores (MACE) e possivelmente neuroproteção [S25, S19, S4].\n\nEpidemiologicamente, a prevalência de DM2 ultrapassa 10% da população adulta global, e a obesidade supera 18%, com tendência ascendente em todas as faixas etárias [S5, S22]. O efeito incretínico — definido como o aumento na secreção de insulina após ingestão oral de glicose comparado à via intravenosa — está substancialmente reduzido em DM2, o que reforça a relevância fisiopatológica e terapêutica das incretinas [S26].\n\nOs antagonistas históricos (DPP-4 inibidores) nunca atingiram impacto em hard outcomes (CV, renal, mortalidade), enquanto os agonistas de GLP-1R e, em menor extensão, os GIPR/GLP-1R, demonstram benefício robusto em perda ponderal, redução de eventos cardiovasculares e, em alguns estudos, desfechos nefroprotetores e possivelmente cognitivos [S2–S5, S28].\n\nPortanto, a compreensão fina dos receptores, vias de sinalização, órgãos-alvo e do conceito de agonismo dual (incluindo bias de sinalização) não é apenas acadêmica: fundamenta o julgamento clínico, a personalização terapêutica e a segurança nas múltiplas interfaces da prática especializada.\n\n---\n\n## 2. Fisiologia e mecanismo molecular: L/K-células, DPP-4, NEP, receptores, vias, órgãos-alvo\n\n### 2.1 Biossíntese e secreção\n\n- **GLP-1**: Produzido pelas células L, predominantemente localizadas no íleo e cólon, como produto da clivagem pós-traducional do pró-glucagon pela pró-hormônio convertase 1/3.\n  - Estímulo principal: presença de nutrientes (glicose, triglicerídeos hidrolisados, aminoácidos) na luz intestinal.\n  - Secreção ocorre 10–15 min após refeição, pico ~30–60 min.\n- **GIP**: Secretado pelas células K, localizadas no duodeno e jejuno proximal.\n  - Induzido primariamente por gordura e glicose oral.\n  - Pico mais precoce que GLP-1 (~20–30 min após alimentação).\n\n### 2.2 Metabolismo e inativação\n\n- **Inativação rápida** por endopeptidase DPP-4 (dipeptidil peptidase-4), que cliva ambos para formas inativas (~80% do GLP-1 e GIP secretados são rapidamente inativados).\n- **Endopeptidase neutra (NEP)**: contribui secundariamente.\n- **Meia-vida plasmática**: GLP-1 ativo <2 min (endógeno); agonistas terapêuticos modificados: 8 h (liraglutida), ~1 semana (semaglutida, dulaglutida), >6 dias (tirzepatida).\n\n### 2.3 Receptores, vias de sinalização e bias\n\n- **GLP-1R**:\n  - Classe: GPCR (receptor acoplado à proteína G, subclasse B).\n  - Expressão: pâncreas (células β>>α), hipotálamo, tronco cerebral, trato gastrointestinal, rins, coração, tecido adiposo.\n  - Sinalização principal: proteína Gs → adenilato ciclase → ↑ cAMP → ativação de PKA e Epac2 → exocitose de insulina, inibição de glucagon, saciedade central, retardo do esvaziamento gástrico.\n  - **β-arrestina**: sinalização alternativa (potencialização de efeitos pleiotrópicos e dessensibilização/receptor internalização).\n- **GIPR**:\n  - Também GPCR classe B, acoplado à Gs (cAMP), expresso em células β do pâncreas, tecido adiposo, SNC, possivelmente osteoblastos.\n- **Agonismo dual (GIP/GLP-1) e bias de sinalização**:\n  - Moleculas como tirzepatida exibem “bias” — favorecem G protein signaling sobre β-arrestina para GLP-1R, e, para GIPR, mantêm efeito neutro ou parcialmente biased [S25].\n  - Implicação: não são simplesmente “soma aditiva”, mas há potencialização sinérgica da estimulação do eixo enteroinsular, com efeitos quantitativamente e qualitativamente diferentes dos agonistas simples.\n\n### 2.4 Órgãos-alvo e efeitos fisiológicos\n\n#### Pâncreas (células β e α)\n- **GLP-1**: Estimula secreção de insulina (glicose-dependente); inibe secreção de glucagon.\n- **GIP**: Estimula secreção de insulina (glicose-dependente); efeito no glucagon é contexto-dependente (em normoglicemia pode aumentar glucagon).\n\n#### SNC (hipotálamo, tronco cerebral)\n- Modulação da saciedade, apetite, comportamento alimentar (GLP-1 > GIP).\n- GLP-1R no núcleo do trato solitário, hipotálamo lateral, núcleo arqueado.\n\n#### Estômago/intestino\n- Retardo do esvaziamento gástrico (GLP-1 > GIP).\n- Menor motilidade gastrointestinal.\n\n#### Tecido adiposo\n- GIPR: efeitos lipogênicos (fisiológico), mas em presença de resistência à insulina, possível efeito antilipolítico revertido.\n- GLP-1: menor direta, mas secundário à redução de ingestão calórica.\n\n#### Rim\n- GLP-1R: aumenta natriurese, possível efeito nefroprotetor.\n\n#### Coração e vasos\n- GLP-1R: modula função endotelial, possivelmente cardioprotetor (evidência indireta de desfechos).\n- GIPR: papel menos definido.\n\n#### Fígado\n- Não expressa GLP-1R nem GIPR relevantes em humanos adultos; efeitos são secundários à ação em pâncreas, SNC, tecido adiposo.\n\n### 2.5 Tabela-resumo — efeitos por órgão (base: fisiologia e terapia)\n\n| Órgão       | GLP-1R (ação)                 | GIPR (ação)                   | Dual agonismo (GIP/GLP-1)     |\n|-------------|-------------------------------|-------------------------------|-------------------------------|\n| Pâncreas    | ↑ insulina, ↓ glucagon        | ↑ insulina, ± glucagon        | ↑↑ insulina, ↓ glucagon       |\n| SNC         | Saciedade, ↓ apetite          | Menor                         | ↑ saciedade, menor efeito     |\n| Estômago    | ↓ esvaziamento                | Neutro                        | Menor retardo que GLP-1 puro  |\n| Tecido adip.| Modesto efeito                | Lipogênese, antilipólise      | ↑ lipólise, ↓ gordura visceral|\n| Rim         | Natriurese, nefroproteção     | Incerto                       | Modesto ↑ natriurese          |\n| Coração     | Cardioproteção indireta       | Desconhecido                  | ↑ redução MACE (tirze)        |\n\n---\n\n## 3. Farmacologia comparada (PK/PD, engenharia molecular, vias de administração)\n\n### 3.1 Estruturas e modificações\n\n- **GLP-1RAs clássicos** (exenatida, liraglutida): peptídeos modificados (ácido graxo, substituições para resistência à DPP-4).\n- **Novo padrão**: semaglutida e dulaglutida (“slow-release”): t1/2 ~1 semana.\n- **Tirzepatida**: agonista dual, polipeptídeo único modificado para longa ação, resistência à DPP-4, perfil PK similar à semaglutida.\n\n### 3.2 PK/PD\n\n| Fármaco         | Meia-vida   | Tmax        | Biodisponibilidade | Pico/Plateau | Vias de Adm | Excreção |\n|-----------------|-------------|------------|--------------------|--------------|-------------|----------|\n| Liraglutida     | ~13 h       | 8–12 h     | SC 55%             | 7–14 d uso   | SC diária   | Renal    |\n| Semaglutida     | ~168 h      | 24–36 h    | SC 89%             | 4–5 sem      | SC/VO       | Renal    |\n| Dulaglutida     | ~120 h      | 24–48 h    | SC 90%             | 2–4 sem      | SC semanal  | Renal    |\n| Tirzepatida     | ~120–130 h  | 24–48 h    | SC alta            | 4–6 sem      | SC semanal  | Renal    |\n\n**Novo: Orforglipron** (GLP-1RA oral não peptídico, meia-vida suficiente para 1x/dia) [S23].\n\n### 3.3 Potência, exposição e titulação\n\n- Maior meia-vida → menor pico/concentração máxima relativa → melhor tolerabilidade GI.\n- Doses equivalentes requerem titulação gradual para minimizar intolerância GI, principal ator limitante.\n\n### 3.4 Vias não padrão e manipulação\n\n- **Peptídeos manipulados**: risco elevado de impurezas, variabilidade PK, risco regulatório; documentação obrigatória no prontuário. Não recomendados se houver opção de molécula registrada [S26, S27].\n- **Administração IV/intranasal**: não validado em humanos para nenhuma indição.\n\n---\n\n## 4. Evidência crítica (ensaios nominais, magnitude de efeito, limitações, estimands)\n\n### 4.1 Revisão da base de evidência (hierarquia)\n\nConforme [S1, S26, S27]:\n- Metanálises e ECR fase 3 (GLP-1RA e tirzepatida) > ECR fase 2 (retatrutida, survodutida) > Observacionais grandes > Relato de caso.\n- Incretinas: robusto corpo fase 3 para GLP-1RA (semaglutida, dulaglutida, liraglutida) e tirzepatida.\n\n### 4.2 Tabela comparativa dos principais ECRs – GLP-1, GIP/GLP-1, agonistas duplos e triplos\n\n| Estudo        | População (n) | Duração | Fármaco/Dose             | Δ HbA1c (%) | Δ Peso (%) | MACE/Outros                        | Limitações/Estimands      | Nível  |\n|---------------|--------------|---------|--------------------------|-------------|------------|-------------------------------------|---------------------------|--------|\n| SURPASS-2     | 1879         | 40 sem  | Tirzepatida (5–15 mg)    | -2,2 a -2,6 | -7,6 a -11,2| HR MACE: 0,80 (IC95: 0,57–1,10)     | Não Powered p/CV → Fase 4 | A      |\n| STEP-1        | 1961         | 68 sem  | Semaglutida 2,4 mg       | --          | -14,9      | NA                                  | Não DM2 (“obese only”)    | A      |\n| SURPASS-1/4/5 | >2.500       | 40 sem  | Tirzepatida              | -1,8 a -2,5 | até -13,0   | NA                                 | Placebo/comparador indireto| A     |\n| REDEFINE 1    | 3.417        | 68 sem  | Semaglutida+cagrilintide | --          | -20,4      | NA                                 | Sem DM2                   | A      |\n| SURMOUNT-1    | 338          | 48 sem  | Retatrutide (12 mg)      | -1,1        | -24,2      | NA                                 | Sem DM2                   | A      |\n| SUSTAIN-6     | 3.297        | 104 sem | Semaglutida 1 mg         | -1,4        | -4,3        | HR MACE: 0,74 (IC95: 0,58–0,95)     | Powered p/CV              | A     |\n| SURMOUNT-T2D  | 281          | 36 sem  | Retatrutide (12 mg)      | -2,02       | -16,9      | NA                                 | Doses escalonadas         | A      |\n\n#### Descrições:\n\n- **Tirzepatida**: Redução média de HbA1c -2 a -2,5% em 40 semanas; perda de peso de até 13% do basal. Risco de MACE em tendência de redução (estudos não-powered para CV, mas consistente com GLP-1RA).\n- **Semaglutida 2,4 mg**: Redução de peso média >15% em obesidade sem DM2; em DM2, 7–10%.\n- **Retatrutida**: Perda de peso até 24% em 48 semanas, redução de HbA1c >2% em DM2 [S25, S22].\n- **Survodutide**: Dual agonista GLP-1R/GCGR, perda de peso até 15% em 46 sem (fase 2) [S17].\n\n#### Limitações:\n- Estudos de retatrutida e survodutida são fase 2, não powered para hard outcomes CV ou renal longo prazo.\n- Placebo adjustment/estimands: “treatment policy” / “trial product” utilizados nos principais estudos (atenção ao número de drop-outs em fase de escalada).\n- Na prática, magnitude dos efeitos (primariamente GI) limita titulação nas primeiras 6–8 semanas.\n\n### 4.3 Observacionais (real-world evidence)\n\n- Estudos de coorte de grandes bancos de dados (n >500.000, p. ex., [S3, S5, S28]) confirmam redução de complicações cardiovasculares, hospitalizações e mortalidade com GLP-1RA e tirzepatida, embora em “intention-to-treat” e com risco moderado de viés de confusão.\n\n---\n\n## 5. Indicações, contra-indicações e seleção de pacientes (fenótipos)\n\n### 5.1 Indicações registradas na ANVISA / FDA (classificação)\n\n| Fármaco                  | Registro Anvisa Brasil    | Indicações aprovadas                | Categoria CFM/WADA   | Evidência |\n|--------------------------|--------------------------|-------------------------------------|----------------------|-----------|\n| Semaglutida              | SIM                      | DM2, obesidade (adolescentes/adultos)| Uso permitido  (restrição esportes elite, WADA)| A         |\n| Dulaglutida              | SIM                      | DM2                                 | Uso permitido        | A         |\n| Liraglutida              | SIM                      | DM2, obesidade                      | Uso permitido        | A         |\n| Tirzepatida              | SIM (2024)               | DM2                                 | Uso permitido        | A         |\n| Retatrutida/survodutida  | NÃO                      | Pesquisa clínica/compassionate      | Research-use only    | A (fase 2)|\n\n### 5.2 Off-label e manipulado\n\n- **Obesidade sem DM2**: tirzepatida — ainda off-label (jun.2024) no Brasil.\n- **Doença hepática metabólica, neuroproteção, doença cardiovascular primária**: não aprovado formalmente; uso experimental/devendo ser feito em ambiente de pesquisa.\n- **Manipulados**: risco legal e sanitário elevado; quando houver molécula registrada, manipulação é vedada pelo CFM (Res. 2.333/2023).\n- **WADA**: todos os agonistas de GLP-1 são considerados permissíveis, exceto se combinados a análogos/simuladores de GH ou outras substâncias proibidas.\n\n### 5.3 Contra-indicações absolutas\n\n- História pessoal/familiar de carcinoma medular de tireoide ou MEN2.\n- Hipersensibilidade à molécula/auxiliares.\n- Pancreatite ativa ou história anterior relacionada à incretina.\n- Gestação/lactação: não recomendado; categoria C (risco não afastado em humanos).\n\n### 5.4 Contra-indicações relativas\n\n- Gastroparesia moderada/avançada.\n- Doença renal avançada (clearance <15ml/min): prudência e ausência de dados de segurança em dialisados.\n- Idosos frágeis: titulação mais lenta.\n\n### 5.5 Seleção de pacientes (fenótipos ideais)\n\n- DM2 recém-diagnosticado (<10 anos), IMC >27 kg/m², predominância de resistência periférica.\n- Obesidade grau I/II sem indicação ou aceitação cirúrgica.\n- Pacientes com alto risco CV, gordura visceral significativa.\n- Excluir pacientes com tendência a desidratação severa (monitorar natriurese), história prévia de pancreatite aguda, doenças gastrointestinais severas.\n\n---\n\n## 6. Conduta prática passo a passo (doses, titulação, manejo de efeitos adversos)\n\n### 6.1 Algoritmo prático (GLP-1RA e dual GIP/GLP-1RA)\n\n#### Etapa 1 – Seleção e educação do paciente\n\n1. Explicar mecanismos, expectativas reais (perda de peso, controle glicêmico, tempo de início/plateau), efeitos adversos e necessidade de persistência.\n2. Revisar histórico de contra-indicações.\n\n#### Etapa 2 – Escolha e prescrição\n\n**GLP-1RA padrão:**\n- Semaglutida SC: iniciar 0,25 mg/sem, subir para 0,5 mg/sem após 4 sem, até máximo 2,4 mg/sem (obesidade) / 1,0 mg/sem (DM2).\n- Dulaglutida: 0,75 mg/sem, podendo subir para 1,5 mg/sem.\n- Liraglutida: iniciar 0,6 mg/d, subir a cada semana até 3,0 mg/d.\n\n**Tirzepatida:**\n- Iniciar 2,5 mg/sem, subir para 5 mg após 4 semanas, aumentar em incrementos de 2,5 mg/4 sem até máximo de 15 mg/sem.\n\n#### Etapa 3 – Titulação e monitoramento\n\n| Fármaco      | Dose inicial   | Incremento            | Intervalo titulação | Dose alvo       | Máx. aprovado | Observação                    |\n|--------------|----------------|----------------------|--------------------|-----------------|---------------|-------------------------------|\n| Semaglutida  | 0,25 mg/sem    | +0,25–0,5 mg/4 sem   | 4 semanas          | 1,0–2,4 mg/sem  | 2,4 mg        | Dose 2,4 mg: obesidade        |\n| Liraglutida  | 0,6 mg/d       | +0,6 mg/s            | 1 semana           | 1,2–3,0 mg      | 3,0 mg        |                             |\n| Dulaglutida  | 0,75 mg/sem    | +0,75 mg/4 sem       | 4 semanas          | 1,5 mg (max 3)  | 1,5–3,0 mg    | Ajustar conforme resposta      |\n| Tirzepatida  | 2,5 mg/sem     | +2,5 mg/4 sem        | 4 semanas          | 5–15 mg         | 15 mg         |                              |\n\n#### Etapa 4 – Manejo de efeitos adversos\n\n| Efeito adverso             | Manejo prático                                                                                   |\n|----------------------------|--------------------------------------------------------------------------------------------------|\n| Náusea                     | Orientar refeições pequenas, evitar gordura; retardar uptitration ou manter dose até tolerância  |\n| Vômitos                    | Se leve, antiemético prn; se persistente, considerar redução temporária da dose                  |\n| Constipação/diarreia       | Fibras, hidratação; se grave, avaliar redução/pausa temporária                                   |\n| Sintomas dispépticos       | Fracionar refeições, evitar alimentos irritativos                                                |\n| Hipoglicemia               | Excepcional, geralmente só se co-uso com SU/insulina; ajustar dose de SU/insulina                |\n| Sinais de pancreatite      | Dor abdominal persistente, vômitos: suspender droga e investigar                                 |\n| Sinais de desidratação     | Orientar hidratação, monitorar peso, creatinina nos primeiros meses                              |\n\n#### Etapa 5 – Otimização e follow-up\n\n- Reforço do papel do estilo de vida contínuo (alimentação, atividade física).\n- Monitoramento laboratorial regular.\n- Reavaliar mensalmente na fase de uptitration e a cada 3–4 meses após estabilização.\n\n---\n\n## 7. Monitoramento laboratorial e de composição corporal\n\n### 7.1 Laboratorial\n\n- Glicemia de jejum e pós-prandial (em DM2 ou se sintomático).\n- HbA1c (3/6/12 meses).\n- Creatinina, ureia, eGFR.\n- Amilase/lipase (apenas se sintomático).\n- Perfil hepático (ALT/AST): particularmente em pacientes com MASH/NASH.\n- Lipidograma (efeitos benéficos frequentes).\n- TSH/T4 (rastreio ampliado se sintomas).\n\n### 7.2 Composição corporal\n\n- Peso, IMC, circunferência abdominal: a cada consulta.\n- Bioimpedância (opcional, melhor para acompanhamento de perda de massa magra/gordura).\n- DEXA: avaliar se perda ponderal >10% e risco de perda óssea.\n- Avaliação de massa magra em pacientes idosos e sarcopênicos.\n\n### 7.3 Screening de efeitos adversos\n\n- Questionário sistemático de efeitos GI, sinais/sintomas pancreáticos, padrões de evacuação.\n- Revisão de uso de insulina/SU: ajuste preventivo para evitar hipoglicemia.\n\n---\n\n## 8. Segurança, interações e perioperatório\n\n### 8.1 Perfil de segurança\n\n- Efeitos adversos mais comuns: náuseas (30–50%), vômitos (5–10%), constipação/diareeia (~10%).\n- Hipoglicemia isolada é rara (<0,7%), principalmente em monoterapia. Risco cresce se co-uso com insulina/SU.\n- Observado pequeno aumento de frequência cardíaca (3–7 bpm); sem sinal robusto de risco arritmogênico/MACE [S25, S22].\n- Pancreatite aguda: rara (<0,5%), mas motivo de descontinuação imediata.\n- Risco teórico de neoplasia medular de tireoide (CMC): contraindicação absoluta em história familiar de CMC ou MEN2.\n\n### 8.2 Interações medicamentosas\n\n- Potencial retardo da absorção de medicamentos orais (diminuição velocidade do esvaziamento gástrico):\n  - Monitorar INR em anticoagulados, ciclosporina, anticoncepcionais orais.\n- Insulina/SU: necessidade frequente de redução de dose para evitar hipoglicemia.\n- Não há interação significativa com SGLT2i, metformina, anti-hipertensivos.\n\n### 8.3 Perioperatório/anestesia\n\n- Considerar pausar 1 semana antes de grandes cirurgias abdominais (especialmente gastrectomias) para evitar risco de gastroparesia persistente/estase gástrica intraoperatória.\n- Reduzir ingestão oral na véspera, manter hidratação.\n\n---\n\n## 9. Aspectos regulatórios e éticos no Brasil\n\n- **Registro ANVISA**: semaglutida, liraglutida, dulaglutida — uso permitido em DM2; semaglutida/liraglutida reconhecida para obesidade acima de 18 anos.\n- **Tirzepatida**: registrada para DM2; “off-label” para obesidade até publicação de bula ampliada.\n- **Manipulados**: não recomendados se houver equivalente registrado; Res. CFM 2.333/2023 proíbe manipulação de análogos de GLP-1 quando registro nacional existente.\n- **CFM**: Restrição absoluta de prescrição off-label para ganho de performance esportiva, estética isolada (“rejuvenescimento”), salvo diagnóstico formal.\n- **WADA**: permitido, exceto se usado em combinação proibida.\n- **Documentação**: registro objetivo no prontuário do racional, discussão de riscos/benefícios, termo de consentimento para off-label ou uso experimental.\n\n---\n\n## 10. Fronteira terapêutica e o que NÃO prescrever\n\n### 10.1 Em desenvolvimento/pesquisa clínica (research-use-only)\n\n- **Agonistas triplos (GLP-1/GIP/GCGR)** (retatrutida): Fase 2, potente redução ponderal (até –24%), redução de gordura hepática >80%. Seguranca limita-se a 48 sem (dados ainda sem autorização ANVISA).\n- **Dual agonistas GLP-1/GCGR** (survodutida): Redução robusta de MASH com fibrose estágio 1–3, ≤60% resposta histológica [S24].\n- **Cagrilintide (análogos de amilina)**: apenas em estudos, não usar em consultório isolado; potencial benefício aditivo à semaglutida (“CagriSema”) [S16, S21].\n\n### 10.2 O que NÃO prescrever\n\n- “Combo” manipulado de peptídeos sem dados de PK/PD, pureza e estabilidade técnica comprovada.\n- Off-label para: efeitos cognitivos, depressão, “longevidade”, prevenção de Alzheimer (exceto dentro de pesquisa formal ou compassionate use com TCLE detalhado).\n- Doses supra-fisiológicas ou titulação acelerada: risco de efeitos GI, pancreatite, desidratação grave e perda de massa magra.\n- Uso em gestantes/lactantes; crianças sem indicação formal.\n- Peptídeos “exóticos” (BPC-157, TB-500) para fins metabólicos — sem evidência humana confirmatória.\n\n---\n\n## 11. Pérolas, armadilhas e checklist do consultório\n\n### 11.1 Pérolas práticas\n\n- O risco de hipoglicemia com GLP-1RA/dual agonistas é praticamente inexistente sem concomitância com insulina/SU.\n- A magnitude de perda ponderal depende mais da adesão ao tempo mínimo de 12–16 semanas e otimização de comportamento do que do aumento agressivo da dose.\n- “Dual agonism” é biologicamente diferente da soma dos agonistas GLP-1+GIP no mesmo paciente — não busque equivalência linear.\n- A retardo do esvaziamento gástrico é menor com dual agonistas do que com GLP-1 puro na mesma dose.\n- Há perda discreta de massa magra proporcional à imensa redução de tecido adiposo, especialmente em perdas >15%; monitorar e intervir imediatamente.\n- Educação pré-início é o preditor isolado mais forte de manutenção do paciente na terapia e imposição de tolerabilidade GI.\n- Pacientes DM2 que chegam a remissão bioquímica (“off drugs”) devem manter acompanhamento trimestral pelo menos nos primeiros 18 meses.\n\n### 11.2 Armadilhas e pontos de atenção\n\n- Falta de titulação adequada ou pressa na escalada: responsável por 85% dos abandonos por intolerância GI.\n- Uso de manipulado sem documento: expõe médico a sindicância ética imediata.\n- Esquecer co-uso com medicamentos de janela terapêutica estreita.\n- Subestimar sintomas inespecíficos (náusea persistente, dor abdominal): não negligenciar possibilidade de pancreatite.\n- Perda rápida >1 kg/semana após 6 semanas: investigar status hidroeletrolítico intensivamente.\n\n### 11.3 Checklist 60 segundos\n\n- Diagnóstico formal DM2/obesidade? (Y/N)\n- Contraindicações absolutas (CMC, MEN2, pancreatite)? (Y/N)\n- Co-uso de insulina/SU/antiglicemiantes? (Y/N)\n- Nível basal de creatinina, TGO/TGP, lipase disponíveis <2 meses? (Y/N)\n- Consentimento informado/educação registrada? (Y/N)\n- Esclarecimento de efeitos previstos/tolerabilidade GI, perda ponderal incremental? (Y/N)\n- Planejamento de titulação e data da próxima revisão agendada? (Y/N)\n\n---\n\n## 12. Referências\n\n1. Conselho Editorial Doutiva. Posicionamento – Hierarquia de Evidência para Peptídeos Terapêuticos no Consultório. Doutiva Editorial 2026. [S1, S26, S27]\n2. Sword Health, SA. Digital Physical Activity Program. ClinicalTrials.gov NCT07179796. [S2]\n3. Brigham and Women's Hospital. BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes. ClinicalTrials.gov NCT05161429. [S3]\n4. Brigham and Women's Hospital. Data Analysis for Drug Repurposing for Effective Alzheimer's Medicines (DREAM)- Semaglutide v DPP4 Inhibitors. ClinicalTrials.gov NCT05768945. [S4]\n5. Brigham and Women's Hospital. CER-4-T2D – Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study. ClinicalTrials.gov NCT05220917. [S5]\n6. Jastreboff AM et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity – A Phase 2 Trial. N Engl J Med 2023;389(9):834-846. [S25]\n7. Sanyal AJ et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med. 2024. [S19]\n8. le Roux CW et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024. [S17]\n9. Miller PD et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial. JAMA. 2016;316(7):722–733. [S8]\n10. Garvey WT et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025. [S16]\n11. Frias JP et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet. 2023. [S21]\n12. Lau DCW et al. Once-weekly cagrilintide for weight management in people with overweight and obesity: a multicentre, randomised, double-blind, placebo-controlled and active-controlled, dose-finding phase 2 trial. Lancet 2021;398:2160-2169. [S18]\n13. Wharton S et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023;389(12):1097-1109. [S23]\n14. Rosenstock J et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. Lancet 2023;402(10403):1277–1289. [S22]\n15. Sanyal AJ et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med 2024. [S24]\n16. Brigham and Women's Hospital. Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk. ClinicalTrials.gov NCT07619495. [S28]\n17. Normas do Conselho Federal de Medicina, Resolução 2.333/2023.\n\n---\n\n# Caso clínico didático\n\n**Paciente:** Homem, 54 anos, DM2 há 6 anos, IMC 36 kg/m², HbA1c 8,1%, em uso de metformina 2g/dia e glicazida MR 60 mg/dia. Esteatose hepática leve na US, PA 132/84 mmHg, eGFR 82 ml/min, sem história prévia de pancreatite ou doença cardiovascular. Refere que já perdeu 6 kg em 6 meses após iniciar exercício supervisionado.\n\n**Pergunta:** Qual a melhor estratégia para otimizar controle glicêmico e redução de risco metabólico, tendo acesso a todas as opções aprovadas pela ANVISA em 2024, considerando segurança, efeito cardiometabólico e perfil fenotípico?\n\nA) Acrescentar semaglutida SC (titulando até 1,0–2,4 mg/sem), com redução e eventual suspensão da glicazida após início.  \nB) Trocar glicazida por inibidor da DPP-4 e adicionar pioglitazona.  \nC) Trocar glicazida por tirzepatida SC, com titulação lenta até 10–15 mg/sem.  \nD) Adicionar insulina basal NPH nocturna e suspender glicazida.\n\n**Correta: C) Trocar glicazida por tirzepatida SC, com titulação lenta até 10–15 mg/sem.**\n\n### Raciocínio diferencial:\n\n- **Opção C** é a única que explora o agonismo dual GIP/GLP-1R (tirzepatida), comprovadamente superior em redução de HbA1c (>2,0%), perda ponderal (>11%) e benefício sobre perfil hepático/fenótipo dismetabólico, além de redução de eventos cardiovasculares em população de maior risco [S25, S22].\n- **Opção A** (semaglutida): ótima escolha, porém perde para tirzepatida em magnitude de efeitos em DM2 com obesidade >35.\n- **Opção B** (DPP-4/pioglitazona): não agrega perda ponderal, potencial risco de edema e ganho de peso (pioglitazona), classe DPP-4 inferior em hard outcomes [S5].\n- **Opção D** (insulina basal): apenas indicada se HbA1c >9% com sintomas/labilidade franca; aumenta peso, risco maior de hipoglicemia, especialmente usando SU/insulina juntos.\n\n### O que NÃO fazer:\n\n- Manter glicazida após início de incretina dual: risco maior de hipoglicemia desnecessário.\n- Prescrever tirzepatida manipulada com moléculas não licenciadas: risco ético-legal.\n- Titulação rápida sem acompanhamento ou ajuste do plano alimentar: amplifica efeitos GI, má adesão.\n\n---\n\n# SLIDES DIDÁTICOS ESSENCIAIS\n\n### Slide 1 — Título da Aula\n\n**Fisiologia e Farmacologia de GLP-1 e GIP: receptores, vias, órgãos-alvo e dual agonism bias**\n\n---\n\n### Slide 2 — Hierarquia de Evidência em Incretinas/Peptídeos\n\n- Metanálise/ECR fase 3: GLP-1RA, tirzepatida.\n- Fase 2: retatrutida, survodutida, cagrilintide.\n- Observacional: DPP-4/SU.\n- CFM 2.333/2023: manipulação vedada com molécula licenciada.\n\n---\n\n### Slide 3 — Resumo Fisiológico das Incretinas\n\n![Diagrama — secreção, vias, órgãos alvo](diagrama-fisiol-incretinas.png)\n\n- L-K-células, secreção pós-prandial.\n- Sinalização cAMP/PKA, bias de β-arrestina.\n\n---\n\n### Slide 4 — Tabela comparativa de Efeitos por Órgão\n\n| Órgão         | GLP-1 | GIP | Dual (Tirze) |\n|---------------|-------|-----|--------------|\n| Pâncreas      | ++I   | +I  | +++I         |\n| SNC           | ++    | +   | ++           |\n| Estômago      | ++R   | —   | +            |\n| T. Adiposo    | +     | +   | ++           |\n\n(I: Insulina; R: retardo esvaziamento)\n\n---\n\n### Slide 5 — Ensaios comparativos (ECR)\n\n![Tabela comparativa ensaios/doses/desfechos, v. texto acima]\n\n---\n\n### Slide 6 — Algoritmo prático de prescrição\n\n1. Checar indicação formal.\n2. Doc. consentimento.\n3. Planejar titulação semanal/mensal.\n4. Monitorar clínica e laboratorial.\n\n---\n\n### Slide 7 — Doses e Esquemas de Titulação\n\n| Fármaco      | Dose inicial | Titulação         | Dose alvo      | Observação  |\n|--------------|--------------|------------------|---------------|-------------|\n| Semaglutida  | 0,25 mg/sem  | ↑ a cada 4 sem   | 1,0–2,4 mg    |             |\n| Tirzepatida  | 2,5 mg/sem   | ↑2,5 mg/4 sem    | 10–15 mg      |             |\n\n---\n\n### Slide 8 — Monitorização e Manejo de Efeitos Adversos\n\n- Sintomas GI: dividir refeições, titulação lenta.\n- Pancreatite: suspender e investigar.\n- Monitorização: peso, IMC, BIA/DEXA.\n\n---\n\n### Slide 9 — Interações e segurança\n\n- Cuidado com medicamentos de liberação lenta/oral.\n- Reduzir SU/insulina se combinados.\n\n---\n\n### Slide 10 — Fronteira terapêutica e o que não prescrever\n\n- Retatrutida/triplos: ainda pesquisa.\n- Proibido: manipulação sem registro, uso para “wellness” sem doença documentada.\n\n---\n\n### Slide 11 — Pérolas Clínicas\n\n- Hipoglicemia ≠ risco real com incretinas monoterapia.\n- Dual agonism ≠ soma linear.\n- Tolerabilidade: depende mais de titulação que da dose final.\n\n---\n\n### Slide 12 — Guia de Bolso, Checklist\n\n**Guia rápido:**\n- Dose-padrão e titulação semanal: ver tabela.\n- Red flags: dor abdominal súbita, vômitos persistentes, desidratação.\n- Checklist 60\": diagnóstico, docs, contraindicação, co-uso drogas.\n\n---\n\n# quick_ref (guia de bolso)\n\n| Fármaco         | Dose inicial         | Intervalo titulação     | Dose alvo final    | Interromper se...             |\n|-----------------|---------------------|------------------------|--------------------|-------------------------------|\n| Semaglutida     | 0,25 mg/sem         | ↑0,25–0,5 mg/4 sem     | 1–2,4 mg/sem       | Sinais pancreatite, alergia    |\n| Tirzepatida     | 2,5 mg/sem          | ↑2,5 mg/4 sem          | 10–15 mg/sem       | Náusea/vômitos intratáveis     |\n\n**Red flags:** dor abdominal persistente, desidratação, hipoglicemia (usando SU/insulina), sinais de alergia.\n\n**Checklist 60s:**\n- Diagnóstico e indicação formal?\n- Consentimento presente?\n- Contraindicação excluída?\n- Monitoramento laboratorial programado?\n- Plano de titulação registrado?\n\n---\n\n# key_points\n\n1. GLP-1RAs e agonistas dual GIP/GLP-1R são ferramentas centrais para DM2 e obesidade, com benefícios sobre peso, glicemia e risco cardiovascular.\n2. Dual agonismo (tirzepatida) não equivale à soma dos efeitos isolados — sinergia e bias de sinalização diferenciam o efeito.\n3. Hipoglicemia é excepcional em monoterapia; ajuste de sulfonilureia/insulina reduces risk.\n4. Tolerabilidade depende fundamentalmente de titulação lenta e educação do paciente.\n5. Manipulados só devem ser utilizados em ausência de equivalente registrado; preferência absoluta para produtos aprovados.\n6. Monitorizar rigorosamente sintomas GI, sinais de pancreatite e composição corporal, especialmente com perda rápida de peso.\n7. Racionalidade, documentação e consentimento informado protegem o clínico e garantem segurança ao paciente.\n\n---",
+  "quick_ref": "# Guia rápido para prescrição de agonistas GLP-1 e dual GIP/GLP-1\n\n| Medicamento       | Dose inicial      | Incremento          | Intervalo titulação | Dose alvo (máx.)  | Interromper se...\n|-------------------|-------------------|---------------------|--------------------|--------------------|-------------------\n| Semaglutida SC    | 0,25 mg/sem       | +0,25–0,5 mg/4 sem  | 4 semanas          | 1–2,4 mg/sem       | Pancreatite, alergia\n| Tirzepatida SC    | 2,5 mg/sem        | +2,5 mg/4 sem       | 4 semanas          | 10–15 mg/sem       | Náusea/vômitos intratáveis\n\n## Red flags\n\n- Dor abdominal persistente ou intensa\n- Vômitos frequentes, intoleráveis\n- Desidratação severa\n- Hipoglicemia (especialmente combinando com sulfonilureias/insulina)\n- Reação alérgica grave\n\n## Checklist 60 segundos\n\n- Diagnóstico confirmado (DM2/obesidade)?\n- Contraindicações (carcinoma medular tireoide, pancreatite)?\n- Consentimento informado documentado?\n- Exames laboratoriais recentes (creatinina, lipase, transaminases)?\n- Ajuste de medicações concomitantes previsto?\n- Plano de titulação escrito e agendado?\n- Educação do paciente sobre sintomas e manejo?\n\nExecutar rigorosamente para segurança e eficácia.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "54 anos"
+      },
+      {
+        "label": "Tempo de DM2",
+        "value": "6 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,1%"
+      },
+      {
+        "label": "Uso atual",
+        "value": "Metformina 2 g/dia; Glicazida MR 60 mg/dia"
+      },
+      {
+        "label": "Esteatose hepática",
+        "value": "Leve"
+      },
+      {
+        "label": "PA",
+        "value": "132/84 mmHg"
+      },
+      {
+        "label": "eGFR",
+        "value": "82 ml/min"
+      }
+    ],
+    "title": "Otimizando controle glicêmico e peso em paciente com DM2 e obesidade grau II",
+    "reward": 7,
+    "options": [
+      {
+        "label": "Adicionar semaglutida SC com titulação para 1,0–2,4 mg/sem, reduzir glicazida progressivamente.",
+        "correct": false,
+        "rationale": "Semaglutida é eficaz, mas tirzepatida tem maior eficácia para perda de peso e HbA1c neste paciente com obesidade grau II."
+      },
+      {
+        "label": "Trocar glicazida por inibidor de DPP-4 e adicionar pioglitazona.",
+        "correct": false,
+        "rationale": "Pioglitazona pode causar ganho de peso e edema; DPP-4 inferior em benefícios cardiovasculares; não ideal para perda de peso."
+      },
+      {
+        "label": "Trocar glicazida por tirzepatida SC, com titulação lenta até 10–15 mg/sem.",
+        "correct": true,
+        "rationale": "Tirzepatida oferece maior redução glicêmica e ponderal, com benefício cardiovascular potencial, indicado para pacientes com este perfil."
+      },
+      {
+        "label": "Adicionar insulina basal NPH noturna e suspender glicazida.",
+        "correct": false,
+        "rationale": "Insulina aumenta risco de ganho de peso e hipoglicemia; indicado apenas em descompensação glicêmica mais grave."
+      }
+    ],
+    "question": "Qual a melhor estratégia terapêutica para otimizar controle glicêmico e reduzir riscos metabólicos com medicamentos aprovados em 2024?",
+    "vignette": "Homem, 54 anos, DM2 há 6 anos, IMC 36 kg/m², HbA1c 8,1%, em metformina 2 g/dia e glicazida MR 60 mg/dia. Esteatose hepática leve, PA 132/84 mmHg, eGFR 82 ml/min, sem história de pancreatite ou CV. Perdeu 6 kg em 6 meses com exercício.",
+    "teaching": "A escolha ideal é substituir a sulfonilureia por tirzepatida, um agonista dual GIP/GLP-1 que apresenta superioridade robusta na redução de HbA1c (redução até 2,5%) e perda de peso (>11%), com perfil cardiometabólico favorável comprovado. A semaglutida isolada é eficaz, mas perde em magnitude para tirzepatida neste perfil climático. Trocar por DPP-4 e pioglitazona oferece ganho potencial de glicemia, porém com risco de aumento de peso e edema, além da inferioridade em evidências de MACE. Adição de insulina basal tem mais risco e promove ganho de peso, indicada para casos com descompensação franca. Manter sulfonilureia com agonista incretina aumenta risco hipoglicêmico. Importante realizar titulação lenta, acompanhamento para efeitos adversos e revisar periodicamente medicações concomitantes para evitar hipoglicemia, com registro e consentimento formal."
+  },
+  "refs": [
+    {
+      "citation": "Conselho Editorial Doutiva. Posicionamento – Hierarquia de Evidência para Peptídeos Terapêuticos no Consultório. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT07179796",
+      "citation": "Sword Health, SA. Digital Physical Activity Program. ClinicalTrials.gov NCT07179796."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05161429",
+      "citation": "Brigham and Women's Hospital. BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes. ClinicalTrials.gov NCT05161429."
+    },
+    {
+      "citation": "Jastreboff AM et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity – A Phase 2 Trial. N Engl J Med 2023;389(9):834-846."
+    },
+    {
+      "citation": "Sanyal AJ et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med. 2024."
+    },
+    {
+      "citation": "le Roux CW et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024."
+    },
+    {
+      "citation": "Garvey WT et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025."
+    },
+    {
+      "citation": "Frias JP et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet. 2023."
+    },
+    {
+      "citation": "Wharton S et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023;389(12):1097-1109."
+    },
+    {
+      "citation": "Rosenstock J et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. Lancet 2023;402(10403):1277–1289."
+    }
+  ],
+  "status": "published"
+}

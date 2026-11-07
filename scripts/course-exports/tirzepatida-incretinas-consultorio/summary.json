@@ -1,0 +1,85 @@
+{
+  "course": {
+    "id": "261e9430-ded7-4226-9242-20369ab0dfc4",
+    "slug": "tirzepatida-incretinas-consultorio",
+    "title": "Tirzepatida e Incretinas no Consultório",
+    "subtitle": "Da indicação ao frasco · playbook operacional",
+    "description": "Curso operacional premium para quem já entende incretinas e precisa fechar a conduta no Brasil: seleção, titulação, falha, switch, composição corporal, documentação e parceria com manipulação estéril de qualidade. Complementa o tratado de Peptídeos com o playbook da receita recorrente.",
+    "duration_minutes": 600
+  },
+  "mono_total": 198265,
+  "slides_total": 93,
+  "duration": 600,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Fenotipagem do Candidato à Incretina: Quem Inicia, Quem Espera, Quem Não Deve",
+      "mono_len": 21292,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 2,
+      "title": "Semaglutida vs Tirzepatida: como escolher no mundo real brasileiro",
+      "mono_len": 18630,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 3,
+      "title": "Titulação prática de tirzepatida e semaglutida: degraus, pausas e antiemese",
+      "mono_len": 17809,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 4,
+      "title": "Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro",
+      "mono_len": 20438,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 5,
+      "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão",
+      "mono_len": 21493,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 6,
+      "title": "Falha Terapêutica, Plateau e Switch Semaglutida ↔ Tirzepatida: Protocolo e Conduta no Consultório",
+      "mono_len": 17962,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 7,
+      "title": "Segurança no Dia a Dia: GI, Vesícula, Perioperatório, Gestação e Comunicação de Risco com Tirzepatida e Incretinas",
+      "mono_len": 19667,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 8,
+      "title": "Massa magra sob incretinas: o que medir e como preservar na prática",
+      "mono_len": 23043,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 9,
+      "title": "Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua com Tirzepatida e Incretinas",
+      "mono_len": 19250,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 10,
+      "title": "Casos Clínicos Operacionais com Tirzepatida e Incretinas: Início, Intolerância, Falha, DCV e Pedido Estético",
+      "mono_len": 18681,
+      "slides": 10,
+      "duration": 60
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Acompanhamento",
+  "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão",
+  "description": "Tratado aprofundado para endocrinologistas e nutrólogos com protocolo estruturado de acompanhamento de pacientes sob agonistas de incretina, incluindo tirzepatida e semaglutida. Aborda agenda de retornos, exames laboratoriais essenciais e específicos, avaliação de adesão, ajuste de medicamentos concomitantes, riscos e contraindicações, além de aspectos regulatórios brasileiros e ética em prescrição e manipulação.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Agonistas de incretinas (tirzepatida, semaglutida) requerem protocolo de monitoramento rigoroso para otimizar eficácia e segurança",
+    "Avaliação basal completa: HbA1c, perfil lipídico, função renal e hepática, amilase/lipase e fundoscopia em DM2",
+    "Títulos clínicos claros para perda de peso: metas pragmáticas de 5%, 10% e 15% com implicações metabólicas distintas",
+    "Monitorar efeitos adversos gastrointestinais e ajustar titulação lentamente para minimizar náusea, vômitos e diarreia",
+    "Atenção especial para quadro de retinopatia diabética, risco pancreatite e contraindicações absolutas como história de carcinoma medular de tireoide",
+    "Consentimento livre e esclarecido obrigatório especialmente em uso off-label e manipulado, com checklist obrigatório para farmácias certificadas",
+    "Adequar dose de sulfonilureias e insulinas para prevenir hipoglicemias durante tratamento com incretinas"
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Monitoramento Clínico e Laboratorial sob Incretinas",
+      "subtitle": "Visitas, Exames e Adesão no Manejo Contemporâneo com Tirzepatida e Semaglutida"
+    },
+    {
+      "kind": "table",
+      "title": "Perda de Peso Média e Proporção de Respondedores em Ensaios Pivotais",
+      "head": [
+        "Ensaio",
+        "Fármaco/Dose",
+        "População",
+        "Perda Peso Média",
+        "≥5%",
+        "≥10%",
+        "≥15%",
+        "Duração"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-2 [G2]",
+          "Tirzepatida 10/15 mg",
+          "Obesidade + DM2",
+          "12,8 / 14,7",
+          "~79–83",
+          "~57–69",
+          "~36–52",
+          "72"
+        ],
+        [
+          "STEP-1 [G4]",
+          "Semaglutida 2,4 mg",
+          "Obesidade sem DM2",
+          "14,9",
+          "86",
+          "69",
+          "51",
+          "68"
+        ],
+        [
+          "SELECT [G3]",
+          "Semaglutida 2,4 mg",
+          "Obesidade + DCV, sem DM",
+          "9,4",
+          "—",
+          "—",
+          "—",
+          "Mediana 39,8 meses"
+        ]
+      ],
+      "source": "[G1-G4]"
+    },
+    {
+      "kind": "bars",
+      "title": "Efeitos Gastrointestinais na Tirzepatida e Semaglutida",
+      "unit": "%",
+      "source": "[G1, G2, G4]",
+      "note": "Eventos geralmente transitórios, pico nas primeiras 8–12 semanas",
+      "bars": [
+        {
+          "label": "Náusea Tirzepatida: 24–33%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Náusea Semaglutida: 20–44%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Vômitos: 10–18%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diarreia: 15–25%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Constipação Tirzepatida: 5–17%",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma de Monitoramento Clínico e Laboratorial",
+      "steps": [
+        {
+          "label": "1. Avaliação basal, exclusão contraindicações, exames e consentimento"
+        },
+        {
+          "label": "2. Início com doses baixas e educação sobre efeitos adversos"
+        },
+        {
+          "label": "3. Contatos semanais para monitorar tolerância e adesão nas primeiras 4 semanas"
+        },
+        {
+          "label": "4. Escalonar dose conforme tolerância, interromper para eventos graves"
+        },
+        {
+          "label": "5. Reavaliação laboratorial na semana 12 com HbA1c, lipídios, função renal/hepática"
+        },
+        {
+          "label": "6. Metas de perda de peso >5% e HbA1c conforme perfil; ajustar tratamento"
+        },
+        {
+          "label": "7. Monitorar retinopatia em quedas rápidas de HbA1c com fundoscopia"
+        },
+        {
+          "label": "8. Manutenção com retornos trimestrais e exames periódicos"
+        },
+        {
+          "label": "9. Farmacovigilância ativa e notificação obrigatória de eventos"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Exames Laboratoriais por Fase do Tratamento",
+      "left": {
+        "label": "Fase",
+        "items": [
+          "Fase Basal",
+          "Semana 12",
+          "Manutenção trimestral",
+          "Exames dirigidos"
+        ]
+      },
+      "right": {
+        "label": "Exames",
+        "items": [
+          "HbA1c, glicemia, perfil lipídico, creatinina, ALT/AST, amilase/lipase, β-hCG, TSH, fundoscopia (DM2)",
+          "HbA1c, lipídios, função renal/hepática",
+          "HbA1c trimestral; lipídios, renal e hepático semestralmente; fundoscopia anual",
+          "Amilase/lipase dor abdominal; eletrólitos náuseas persistentes; fundoscopia visão turva; calcitonina nódulo tireoide"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Tabela Regulamentar Brasileira para Uso e Manipulação de Incretinas",
+      "head": [
+        "Fármaco",
+        "Registro ANVISA",
+        "Indicações Aprovadas",
+        "Manipulação Estéril",
+        "Off-label Documentável",
+        "Não Prescrever"
+      ],
+      "rows": [
+        [
+          "Tirzepatida SC (Mounjaro®)",
+          "Sim (DM2); verificar obesidade",
+          "DM2; Obesidade (conforme bula vigente)",
+          "Farmácia habilitada²",
+          "Síndrome metabólica com critérios¹",
+          "Estética, anti-aging, research peptide"
+        ],
+        [
+          "Liraglutida SC (Victoza®, Saxenda®)",
+          "Sim",
+          "DM2 (Victoza®); Obesidade (Saxenda®)",
+          "Não normatizado",
+          "—",
+          "Cosmético, longevidade"
+        ],
+        [
+          "Research peptides (BPC-157 etc.)",
+          "Não",
+          "Nenhuma",
+          "Proibido",
+          "—",
+          "NUNCA — risco sanitário grave"
+        ]
+      ],
+      "source": "[S8, S13, S19]"
+    },
+    {
+      "kind": "table",
+      "title": "Métricas de Sucesso – Respostas ao Tratamento com Incretinas",
+      "head": [
+        "Meta",
+        "Definição",
+        "Significado Clínico",
+        "Evidência"
+      ],
+      "rows": [
+        [
+          "≥10%",
+          "Perda ≥10% do peso inicial",
+          "Redução significativa de comorbidades, melhora NAFLD",
+          "[G1, G4] A"
+        ],
+        [
+          "≥15%",
+          "Perda ≥15% do peso inicial",
+          "Benefício próximo à cirurgia bariátrica, possível remissão DM2",
+          "[G1, G6] A"
+        ],
+        [
+          "HbA1c <7%",
+          "Dentro da meta ADA/SBD padrão",
+          "Redução complicações microvasculares",
+          "[G2] A"
+        ],
+        [
+          "HbA1c <6,5%",
+          "Meta individualizada para remissão",
+          "Remissão DM2 (se mantida sem medicação)",
+          "[G2] A"
+        ]
+      ],
+      "source": "[G1, G2, G4, G6]"
+    },
+    {
+      "kind": "bullets",
+      "title": "Principais Contraindicações e Situações de Risco",
+      "bullets": [
+        "Contraindicação absoluta: carcinoma medular tireoide, síndromes MEN2, gestação, lactação",
+        "Pancreatite prévia: monitorar intensamente se indicado",
+        "Retinopatia diabética ativa: estabilizar antes de iniciar e monitorar intensamente",
+        "Gastroparesia grave: risco agravado por retardamento do esvaziamento gástrico",
+        "Transtornos psiquiátricos ativos graves: avaliar cuidadosa e multidisciplinarmente"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Resumo e Mensagem Final",
+      "text": "Monitoramento estruturado sob incretinas é fundamental para traduzir evidência dos grandes ensaios em benefício real clínico e segurança, respeitando marco regulatório e ética médica. Documentação rigorosa, adesão paciente e farmacovigilância protegem o paciente e o prescritor. Manipulados carecem de cuidados máximos e transparência no consentimento."
+    }
+  ],
+  "monograph": "# Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Exames e Adesão ## 1. Contexto e Relevância Os agonistas de GLP-1 e os agonistas duplos GIP/GLP-1, como a tirzepatida, transformaram o manejo de DM2 e obesidade, atingindo eficácia expressiva em perda de peso e controle glicêmico [G1, G2]. Contudo, estes agentes exigem monitoramento rigoroso e ético, especialmente diante das nuances regulatórias brasileiras e dos riscos inerentes à manipulação estéril [S8, S11, S12]. **Destaques deste capítulo:**\n- Protocolo de visitas e exames racionais, ancorados em evidência de alto nível (ensaios pivotais, guidelines internacionais e nacionais).\n- Conduta prática e diferencial BR, observando restrições legais (CFM, ANVISA) e riscos do uso manipulado/off-label.\n- Cuidado na documentação, consentimento e farmacovigilância.\n- Avaliação estruturada de adesão, efeitos adversos e métricas objetivas de sucesso terapêutico [S7]. --- ## 2. Bases Científicas e Fármacos Disponíveis ### 2.1 Mecanismos, Eficácia e Perfil de Segurança **Mecanismo de ação:** Agonistas GLP-1 (semaglutida, liraglutida) e agonistas duplos GIP/GLP-1 (tirzepatida) atuam promovendo secreção de insulina dependente de glicose, suprimindo glucagon, retardando esvaziamento gástrico e reduzindo apetite por ação central [G1, G2]. **Eficácia ponderal — Dados dos ensaios pivotais:** | Ensaio | Fármaco/Dose | População | Perda Peso Média | ≥5% | ≥10% | ≥15% | Duração |\n|--------|--------------|-----------|------------------|-----|------|------|---------|\n| SURMOUNT-1 [G1] | Tirzepatida 5/10/15 mg | Obesidade sem DM2 | 15,0/19,5/20,9% | 85–91% | 69–83% | 50–67% | 72 sem |\n| SURMOUNT-2 [G2] | Tirzepatida 10/15 mg | Obesidade + DM2 | 12,8/14,7% | ~79–83% | ~57–69% | ~36–52% | 72 sem |\n| STEP-1 [G4] | Semaglutida 2,4 mg | Obesidade sem DM2 | 14,9% | 86% | 69% | 51% | 68 sem |\n| SELECT [G3] | Semaglutida 2,4 mg | Obesidade + DCV, sem DM | 9,4% | — | — | — | mediana 39,8 meses | **Eficácia glicêmica (DM2):**\n- Tirzepatida 10–15 mg: redução de HbA1c de 2,0–2,4 pontos percentuais vs. placebo [G2] [Evidência A]\n- Semaglutida 1,0–2,0 mg (doses para DM2): redução de HbA1c de 1,5–1,8 pontos percentuais (verificar dose específica conforme bula Ozempic®) **Eventos adversos principais:**\n- Náuseas: 24–33% (tirzepatida), 20–44% (semaglutida) [G1, G4]\n- Vômitos: 10–18% [G1, G2]\n- Diarreia: 15–25% [G1, G4]\n- Constipação: 5–17% [G1]\n- Sintomas GI tendem a ser dose-dependentes, transitórios (pico nas primeiras 8–12 semanas) e respondem a titulação lenta **Pancreatite:**\n- SURMOUNT-1: pancreatite aguda em 0,2% (tirzepatida) vs. 0,1% (placebo) [G1]\n- STEP-1: 0,2% vs. 0% [G4]\n- Incidência baixa, mas não nula. Manter vigilância clínica para dor abdominal epigástrica/em faixa, irradiada para dorso [Evidência B] **Risco de retinopatia diabética:**\n- Reduções rápidas de HbA1c (>2 pontos percentuais em <6 meses) associam-se a piora transitória de retinopatia preexistente — fenômeno descrito historicamente com insulinização intensiva e observado em subgrupos de estudos com GLP-1RA [G2]\n- Rastreamento oftalmológico basal é obrigatório em DM2; intensificar seguimento se queda glicêmica rápida [Evidência B] **Neoplasia medular de tireoide:**\n- Estudos pré-clínicos em roedores demonstraram tumores de células C tireoidianas; relevância clínica em humanos incerta\n- Contraindicação absoluta: história pessoal ou familiar de carcinoma medular de tireoide (CMT) ou síndrome MEN2 [G1, G2] **Uso off-label/estético:**\n- Uso para longevidade, síndrome metabólica sem critérios diagnósticos, desempenho ou estética não encontra sustentação em ensaios clínicos randomizados e é vedado para fins estéticos ou de performance no Brasil (CFM Resolução 2.336/2023 — nota: verificar número atualizado no portal CFM, pois resoluções podem ser atualizadas) [S13, S19] --- ### 2.2 Limitações de Dados em Manipulados — ALERTA CRÍTICO > **Os ensaios SURMOUNT, STEP e SELECT utilizaram exclusivamente produtos industriais padronizados, com controle rigoroso de pureza, potência e estabilidade. A extrapolação de eficácia e segurança para formulações manipuladas não é cientificamente válida.** **Problemas específicos da manipulação de peptídeos:**\n1. **Variabilidade de potência:** Sem estudos de bioequivalência, a dose nominal pode não corresponder à dose biodisponível\n2. **Estabilidade:** Peptídeos são sensíveis a temperatura, pH e contaminação; dados de estabilidade pós-reconstituição são escassos para manipulados\n3. **Pureza:** Risco de contaminantes, agregados proteicos, endotoxinas\n4. **Farmacocinética:** Perfis de absorção podem diferir do produto industrial **Implicação prática:** O prescritor que utiliza tirzepatida manipulada assume responsabilidade por produto sem dados de segurança/eficácia específicos. Documentar explicitamente no TCLE que os dados de ensaios clínicos referem-se ao produto industrial [S8, S11, S12, S14]. --- ### 2.3 Tabela Regulatória — Brasil | Fármaco | Registro ANVISA | Indicações Aprovadas | Manipulação Estéril | Off-label Documentável | NÃO PRESCREVER |\n|---------|-----------------|---------------------|---------------------|----------------------|----------------|\n| Semaglutida SC (Ozempic®, Wegovy®) | Sim | DM2 (Ozempic®); Obesidade (Wegovy® — verificar disponibilidade) | Não normatizado | Síndrome metabólica com critérios¹ | Estética, anti-aging, performance |\n| Tirzepatida SC (Mounjaro®) | Sim (DM2); verificar obesidade | DM2; Obesidade (conforme bula vigente) | Farmácia habilitada² | Síndrome metabólica com critérios¹ | Estética, anti-aging, research peptide |\n| Liraglutida SC (Victoza®, Saxenda®) | Sim | DM2 (Victoza®); Obesidade (Saxenda®) | Não normatizado | — | Cosmético, longevidade |\n| Research peptides (BPC-157, etc.) | Não | Nenhuma | Proibido | — | **NUNCA** — risco sanitário grave [S1] | ¹ Off-label apenas com: diagnóstico codificado, justificativa clínica robusta, TCLE específico, sem finalidade estética\n² Manipulação de tirzepatida: exigir farmácia com certificação de Boas Práticas (ANVISA), sala limpa ISO 7 ou superior, laudos de potência/esterilidade/endotoxina por lote, rastreabilidade completa --- ## 3. Monitoramento no Consultório: Agenda de Retornos e Laboratórios ### 3.1 Agenda de Visitas Estruturada | Fase | Semanas | Frequência | Objetivos Clínicos |\n|------|---------|------------|-------------------|\n| **Baseline** | Semana 0 | — | Exames basais, consentimento, educação, foto/peso/circunferência, fundoscopia se DM2 |\n| **Titulação inicial** | 0–4 | Semanal (remoto aceitável) | Tolerância GI, orientações alimentares, ajuste expectativas |\n| **Titulação ativa** | 4–16 | A cada 2–4 semanas | Escalonamento de dose, monitorar sintomas, labs semana 12 |\n| **Estabilização** | 16–24 | Mensal | Avaliar resposta, ajustar metas, reforçar adesão |\n| **Manutenção (<1 ano)** | 24–52 | Trimestral | Labs, reavaliação de comorbidades, massa magra |\n| **Manutenção (>1 ano)** | >52 | Trimestral a semestral* | Checkup ampliado, fundoscopia anual, planejamento longo prazo | *Semestral apenas se: HbA1c estável <7%, peso estável por ≥6 meses, ausência de eventos adversos, adesão confirmada, sem uso de sulfonilureia/insulina --- ### 3.2 Painel Laboratorial por Fase #### 3.2.1 Exames Basais (Obrigatórios antes de iniciar) | Exame | Justificativa |\n|-------|---------------|\n| HbA1c | Estratificação glicêmica, baseline para meta |\n| Glicemia de jejum | Complementar HbA1c |\n| Perfil lipídico completo (CT, LDL, HDL, TG) | Risco CV, NAFLD |\n| Creatinina, TFGe (CKD-EPI) | Segurança renal, não requer ajuste de dose mas impacta prognóstico |\n| ALT, AST, GGT | Baseline hepático, NAFLD |\n| Hemograma | Baseline geral |\n| TSH | Função tireoidiana basal |\n| Amilase, lipase | **Baseline recomendado** — facilita interpretação se dor abdominal futura |\n| β-hCG (se idade fértil) | Exclusão de gestação (contraindicação absoluta) |\n| Fundoscopia com pupila dilatada | **Obrigatório em DM2** antes de iniciar — piora de retinopatia com queda rápida de HbA1c | #### 3.2.2 Exames Adicionais Conforme Perfil | Exame | Indicação |\n|-------|-----------|\n| Calcitonina | Se história pessoal/familiar de CMT ou MEN2 |\n| Eletroforese de proteínas | Suspeita de doença sistêmica |\n| Ferritina, saturação de transferrina | Fadiga, suspeita de deficiência |\n| Vitamina B12 | Uso prolongado de metformina |\n| DEXA (composição corporal) | Idosos, sarcopenia suspeita, perda >15% do peso, atletas |\n| Handgrip/SPPB | Rastreio de sarcopenia [S5] |\n| Microalbuminúria | DM2, HAS — anual | #### 3.2.3 Monitoramento Durante Tratamento | Exame | Semana 12 | Semana 24 | Semana 52 | Anual |\n|-------|-----------|-----------|-----------|-------|\n| HbA1c | ✓ | ✓ | ✓ | ✓ |\n| Glicemia jejum | ✓ | Conforme clínica | ✓ | ✓ |\n| Perfil lipídico | ✓ | — | ✓ | ✓ |\n| Creatinina/TFGe | ✓ | ✓ | ✓ | ✓ |\n| ALT, AST | ✓ | — | ✓ | ✓ |\n| Fundoscopia | — | ✓ (se HbA1c caiu >1,5%) | — | ✓ |\n| DEXA | — | — | Se perda >15% ou sarcopenia | Conforme risco |\n| Microalbuminúria | — | — | ✓ | ✓ | #### 3.2.4 Exames Dirigidos por Sintomas | Sintoma | Exame | Conduta |\n|---------|-------|---------|\n| Dor abdominal epigástrica/em faixa | Amilase, lipase, imagem abdominal | Suspender incretina até exclusão de pancreatite |\n| Náusea/vômito persistente (>4 sem) | Eletrólitos (Na, K, Mg), função renal | Avaliar desidratação, reduzir dose |\n| Visão turva de início recente | Glicemia capilar, fundoscopia urgente | Excluir hipoglicemia vs. retinopatia |\n| Fadiga inexplicada | Hemograma, TSH, ferritina, B12, eletrólitos | Investigar causas secundárias |\n| Nódulo cervical | Calcitonina, USG tireoide | Encaminhar endocrinologista |\n| Sintomas depressivos/ansiosos | Questionários validados (PHQ-9, GAD-7) | Avaliar psiquiatria | --- ## 4. Fluxograma de Conduta Brasileira — Passos Numerados ```\nFLUXOGRAMA: MONITORAMENTO SOB INCRETINAS (TIRZEPATIDA/SEMAGLUTIDA) ┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 1: AVALIAÇÃO PRÉ-TRATAMENTO │\n│ □ Confirmar indicação (DM2 e/ou obesidade com critérios) │\n│ □ Excluir contraindicações absolutas (MEN2, CMT, gestação, lactação) │\n│ □ Solicitar exames basais completos (ver 3.2.1) │\n│ □ Fundoscopia obrigatória se DM2 │\n│ □ Documentar peso, IMC, circunferência abdominal, PA │\n│ □ Se manipulado: TCLE específico + verificar farmácia │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 2: PRESCRIÇÃO INICIAL │\n│ □ Tirzepatida: iniciar 2,5 mg SC 1x/semana │\n│ □ Semaglutida: iniciar 0,25 mg SC 1x/semana │\n│ □ Orientar técnica de aplicação │\n│ □ Educar sobre sintomas GI esperados e manejo dietético │\n│ □ Se uso de sulfonilureia: REDUZIR 50% da dose preventivamente │\n│ □ Se uso de insulina basal: considerar redução 10–20% │\n│ □ Agendar contato em 1 semana (remoto aceitável) │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 3: SEMANAS 1–4 — AVALIAÇÃO INICIAL │\n│ □ Contato semanal (telefone/mensagem/teleconsulta) │\n│ □ Checar: náusea, vômito, diarreia, constipação, apetite │\n│ □ Checar: sintomas hipoglicêmicos se em sulfonilureia/insulina │\n│ □ Reforçar hidratação, fracionamento alimentar, proteína adequada │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ┌───────────────┴───────────────┐ │ │ Tolerância OK Intolerância GI grave │ │ ▼ ▼\n┌──────────────────────────────┐ ┌──────────────────────────────────────┐\n│ PASSO 4A: ESCALONAR DOSE │ │ PASSO 4B: MANTER DOSE OU REDUZIR │\n│ □ Semana 4: subir para dose │ │ □ Manter dose atual por mais 4 sem │\n│ seguinte do escalonamento │ │ □ Se vômitos >3x/dia ou desidratação:│\n│ □ Repetir a cada 4 semanas │ │ - Suspender temporariamente │\n│ até dose-alvo ou máxima │ │ - Checar eletrólitos │\n│ tolerada │ │ - Reiniciar em dose menor │\n└──────────────────────────────┘ └──────────────────────────────────────┘ │ │ └───────────────┬───────────────┘ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 5: SEMANA 12 — PRIMEIRA REAVALIAÇÃO LABORATORIAL │\n│ □ HbA1c, glicemia jejum, perfil lipídico, creatinina/TFGe, ALT/AST │\n│ □ Peso, circunferência abdominal │\n│ □ Avaliar resposta: calcular % perda de peso │\n│ □ Se HbA1c caiu >1,5 pontos: agendar fundoscopia em 4–8 semanas │\n│ □ Se HbA1c <6,5% + sulfonilureia: SUSPENDER sulfonilureia │\n│ □ Revisar adesão, dieta, atividade física │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ┌───────────────┴───────────────┐ │ │ Perda ≥5% peso Perda <5% peso │ │ ▼ ▼\n┌──────────────────────────────┐ ┌──────────────────────────────────────┐\n│ PASSO 6A: PROSSEGUIR │ │ PASSO 6B: INVESTIGAR CAUSAS │\n│ □ Continuar titulação │ │ □ Revisar adesão (esquecimentos?) │\n│ □ Retornos a cada 4 sem │ │ □ Revisar dieta (calorias líquidas?) │\n│ □ Meta: dose-alvo ou │ │ □ Excluir má absorção, edema │\n│ máxima tolerada │ │ □ Considerar aumento de dose │\n└──────────────────────────────┘ │ □ Se não respondedor persistente: │ │ reavaliar diagnóstico │ └──────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 7: SEMANA 24 — AVALIAÇÃO DE RESPOSTA │\n│ □ Labs: HbA1c, creatinina/TFGe │\n│ □ Fundoscopia se não realizada e HbA1c caiu significativamente │\n│ □ Classificar resposta: │\n│ - Excelente: ≥15% perda + HbA1c <7% │\n│ - Boa: 10–14% perda + HbA1c <7,5% │\n│ - Parcial: 5–9% perda │\n│ - Insuficiente: <5% perda │\n│ □ Avaliar massa magra se disponível (DEXA, BIA, handgrip) │\n│ □ Se perda de massa magra >25–30% da perda total: intensificar proteína │\n│ (≥1,2–1,6 g/kg/dia) + treino resistido [S4, S5] │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 8: MANUTENÇÃO (TRIMESTRAL ATÉ SEMANA 52) │\n│ □ Consultas a cada 3 meses │\n│ □ Monitorar: peso, sintomas, adesão, qualidade de vida │\n│ □ Labs: HbA1c a cada 3 meses; lipídico, renal, hepático a cada 6 meses │\n│ □ Fundoscopia anual (DM2) ou antes se sintomas │\n│ □ Planejar estratégia de longo prazo (manutenção farmacológica vs. │\n│ tentativa de desmame com monitoramento intensivo) [S6] │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ PASSO 9: SEGUIMENTO ANUAL E ALÉM │\n│ □ Checkup anual completo: labs amplos, fundoscopia, ECG se indicado │\n│ □ DEXA a cada 1–2 anos se perda significativa mantida │\n│ □ Revisar necessidade de manutenção farmacológica │\n│ □ Educar sobre risco de reganho se suspensão [S6, S7] │\n│ □ Atualizar consentimento se mudança de fonte/farmácia │\n└─────────────────────────────────────────────────────────────────────────────┘ │ ▼\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ ALERTAS — QUANDO AGIR IMEDIATAMENTE │\n│ 🚨 Dor abdominal aguda epigástrica/irradiada → SUSPENDER, dosar amilase/ │\n│ lipase, imagem, excluir pancreatite │\n│ 🚨 Vômitos incoercíveis/desidratação → SUSPENDER, hidratar, eletrólitos │\n│ 🚨 Visão turva súbita → Glicemia + fundoscopia urgente │\n│ 🚨 Hipoglicemia grave (neuroglicopenia) → SUSPENDER sulfonilureia/insulina, │\n│ ajustar doses, reavaliar necessidade │\n│ 🚨 Reação alérgica/anafilaxia → SUSPENDER definitivamente, notificar ANVISA │\n│ 🚨 Nódulo tireoidiano novo → Calcitonina, USG, encaminhar │\n│ 🚨 Ideação suicida/depressão grave → Encaminhar psiquiatria, considerar │\n│ suspensão │\n│ 🚨 Gestação confirmada → SUSPENDER IMEDIATAMENTE │\n└─────────────────────────────────────────────────────────────────────────────┘\n``` --- ## 5. Checklists Práticos ### 5.1 Checklist de Prontuário — Itens Obrigatórios **Consulta Inicial:**\n- [ ] CID-10 codificado (E66.x para obesidade, E11.x para DM2)\n- [ ] IMC calculado e documentado\n- [ ] Peso, altura, circunferência abdominal\n- [ ] PA aferida\n- [ ] Lista de comorbidades completa\n- [ ] Medicamentos em uso (com doses)\n- [ ] Alergias documentadas\n- [ ] História familiar de CMT/MEN2 — NEGATIVA DOCUMENTADA\n- [ ] Teste de gravidez se idade fértil — RESULTADO DOCUMENTADO\n- [ ] Exames basais revisados e arquivados\n- [ ] Fundoscopia realizada ou agendada (se DM2)\n- [ ] Justificativa para uso off-label (se aplicável)\n- [ ] TCLE assinado (se off-label ou manipulado)\n- [ ] Origem do medicamento: industrial (lote) ou manipulado (farmácia, lote, laudos)\n- [ ] Metas discutidas e registradas (peso, HbA1c, qualidade de vida)\n- [ ] Plano de retornos agendado **Consultas de Seguimento:**\n- [ ] Peso atual e variação desde baseline\n- [ ] % de perda de peso calculado\n- [ ] Sintomas GI (escala 0–10 ou qualitativa)\n- [ ] Eventos adversos novos — DOCUMENTADOS\n- [ ] Adesão medicamentosa verificada (doses aplicadas/prescritas)\n- [ ] Exames realizados/pendentes\n- [ ] Ajustes de dose realizados\n- [ ] Orientações nutricionais reforçadas\n- [ ] Próximo retorno agendado --- ### 5.2 TCLE — Modelo Estruturado para Uso Off-Label/Manipulado > **TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO**\n> **Uso de Agonista de Incretina [Off-label/Manipulado]** **Identificação do Paciente:** _______________________________________________\n**Médico Responsável:** ____________________ CRM: __________________________\n**Data:** ____/____/________ **1. INFORMAÇÕES SOBRE O TRATAMENTO** Estou sendo convidado(a) a utilizar o medicamento **[nome do fármaco]** para tratamento de **[indicação clínica específica]**. **Situação regulatória:**\n- [ ] Uso conforme bula aprovada pela ANVISA\n- [ ] Uso off-label (fora das indicações aprovadas, mas com evidência científica)\n- [ ] Produto manipulado (preparado em farmácia de manipulação) **2. SOBRE PRODUTOS MANIPULADOS (se aplicável)** Fui informado(a) de que:\n- O medicamento será preparado por farmácia de manipulação: **[nome da farmácia]**\n- Os ensaios clínicos que demonstraram eficácia e segurança (SURMOUNT, STEP, etc.) utilizaram **produtos industriais padronizados**\n- **NÃO existem estudos comparando** o produto manipulado com o industrial em termos de bioequivalência, eficácia ou segurança\n- Existe variabilidade potencial entre lotes manipulados\n- O médico verificou que a farmácia possui: sala limpa adequada, laudos de potência e esterilidade, rastreabilidade de lote **3. BENEFÍCIOS ESPERADOS** [Descrever benefícios esperados com base em evidência aplicável] **4. RISCOS E EFEITOS ADVERSOS** Efeitos comuns (>10%): náuseas, vômitos, diarreia, constipação\nEfeitos incomuns (1–10%): dor abdominal, refluxo, fadiga\nEfeitos raros (<1%): pancreatite aguda, colelitíase, reações alérgicas\nRisco teórico: neoplasia medular de tireoide (contraindicado se histórico) **5. ALTERNATIVAS** Fui informado(a) sobre alternativas de tratamento, incluindo: [listar] **6. COMPROMISSOS DO PACIENTE** - [ ] Comparecer aos retornos agendados\n- [ ] Realizar exames solicitados\n- [ ] Comunicar imediatamente sintomas de alarme\n- [ ] Não engravidar durante o tratamento (contracepção eficaz)\n- [ ] Informar sobre procedimentos cirúrgicos planejados **7. DECLARAÇÃO** Declaro que li e compreendi as informações acima, tive oportunidade de esclarecer dúvidas, e consinto com o tratamento proposto. Entendo que posso revogar este consentimento a qualquer momento. **Assinaturas:** _____________________________ Data: ____/____/________\nPaciente ou Responsável Legal _____________________________ Data: ____/____/________\nMédico Responsável (carimbo e CRM) --- ### 5.3 Checklist para Verificação de Farmácia de Manipulação Antes de prescrever tirzepatida manipulada, verificar: - [ ] Farmácia possui Autorização de Funcionamento ANVISA vigente\n- [ ] Licença sanitária estadual/municipal atualizada\n- [ ] Área de manipulação estéril com sala limpa (ISO 7 ou superior)\n- [ ] Certificado de Boas Práticas de Manipulação\n- [ ] Laudo de potência do API (princípio ativo) por lote — fornecido ao médico\n- [ ] Teste de esterilidade por lote\n- [ ] Teste de endotoxina bacteriana (LAL) por lote\n- [ ] Prazo de validade (BUD — Beyond Use Date) definido com base em estudos de estabilidade\n- [ ] Rastreabilidade completa (origem do API, número de lote, data de manipulação)\n- [ ] Responsável técnico farmacêutico identificado\n- [ ] Canal de farmacovigilância ativo > **Nota:** Clínicas de infusão (\"drip bars\") sem farmácia própria regularizada, laboratórios de manipulação improvisados ou estabelecimentos sem certificação adequada **NÃO atendem aos requisitos mínimos de segurança** [S11, S12]. --- ## 6. Métricas de Sucesso — Metas 5/10/15% ### 6.1 Definição de Resposta ao Tratamento | Meta | Definição | Significado Clínico | Evidência |\n|------|-----------|---------------------|-----------|\n| ≥5% | Perda ≥5% do peso inicial | Melhora de fatores de risco metabólicos (PA, lipídios, glicemia) | [G1, G4] [A] |\n| ≥10% | Perda ≥10% do peso inicial | Redução significativa de comorbidades, melhora de NAFLD | [G1, G4] [A] |\n| ≥15% | Perda ≥15% do peso inicial | Aproxima-se de benefícios de cirurgia bariátrica; remissão de DM2 possível | [G1, G6] [A] |\n| HbA1c <7% | Meta ADA/SBD padrão | Redução de complicações microvasculares | [G2] [A] |\n| HbA1c <6,5% | Meta individualizada | Remissão de DM2 (se sustentada sem medicação) | [G2] [A] | ### 6.2 Classificação de Respondedores | Categoria | Critério (semana 24+) | Conduta |\n|-----------|----------------------|---------|\n| **Excelente respondedor** | ≥15% perda + HbA1c <7% | Manutenção, otimização de composição corporal |\n| **Bom respondedor** | 10–14,9% perda | Avaliar titulação, intensificar estilo de vida |\n| **Respondedor parcial** | 5–9,9% perda | Revisar adesão, dieta, considerar dose máxima |\n| **Não respondedor** | <5% perda em 24 semanas | Investigar causas, considerar troca/associação | ### 6.3 Metas Além da Balança | Parâmetro | Meta | Fonte |\n|-----------|------|-------|\n| HbA1c | <7% (individualizar) | ADA 2024, SBD |\n| LDL-colesterol | <70 mg/dL (muito alto risco) ou <100 mg/dL | Diretrizes CV |\n| Triglicerídeos | <150 mg/dL | — |\n| PA | <130/80 mmHg | — |\n| Qualidade de vida | Melhora em questionário validado (SF-36, IWQOL) | — |\n| Preservação de massa magra | Perda de FFM <25–30% da perda total* | [S4, S5] | *Limiar pragmático; evidência limitada para cutoff específico. Monitorar especialmente em idosos e com DEXA quando disponível. --- ## 7. Tabela de Evidências — Ensaios Clínicos Chave | Ensaio | Referência | População | n | Intervenção | Desfecho Primário | Magnitude | NNT/IC95% | Nível |\n|--------|------------|-----------|---|-------------|-------------------|-----------|-----------|-------|\n| **SURMOUNT-1** | [G1] Jastreboff, NEJM 2022 | Obesidade sem DM2, IMC≥30 ou ≥27+comorbidade | 2.539 | Tirzepatida 5/10/15 mg vs. placebo | % perda de peso 72 sem | -15,0/-19,5/-20,9% vs. -3,1% | — | **A** |\n| **SURMOUNT-2** | [G2] Garvey, Lancet 2023 | Obesidade + DM2 | 938 | Tirzepatida 10/15 mg vs. placebo | % perda de peso 72 sem | -12,8/-14,7% vs. -3,2% | — | **A** |\n| **SURMOUNT-5** | [G6] Aronne, NEJM 2025 | Obesidade sem DM2 | (verificar n) | Tirzepatida vs. semaglutida | Superioridade ponderal | (verificar magnitude) | — | **A** |\n| **STEP-1** | [G4] Wilding, NEJM 2021 | Obesidade sem DM2 | 1.961 | Semaglutida 2,4 mg vs. placebo | % perda de peso 68 sem | -14,9% vs. -2,4% | — | **A** |\n| **STEP-4** | [S6] Rubino, JAMA 2021 | Manutenção pós-perda | 803 | Semaglutida continuada vs. switch placebo | Manutenção de peso | -7,9% vs. +6,9% (diferença) | — | **A** |\n| **SELECT** | [G3] Lincoff, NEJM 2023 | Obesidade + DCV, sem DM | 17.604 | Semaglutida 2,4 mg vs. placebo | MACE (morte CV, IAM, AVC) | HR 0,80 (IC95% 0,72–0,90) | NNT ~67 (3,3 anos) | **A** |\n| **FLOW** | [G5] Perkovic, NEJM 2024 | DM2 + DRC (TFGe 25–75, UACR≥300) | 3.533 | Semaglutida 1,0 mg vs. placebo | Composto renal/CV | HR 0,76 (IC95% 0,66–0,88) | — | **A** | **Legenda de níveis de evidência:**\n- **A**: ECR grande, bem conduzido, desfecho duro\n- **B**: ECR menor, desfecho substituto, ou metanálise de B\n- **C**: Estudos observacionais, coortes\n- **D**: Opinião de especialista, série de casos --- ## 8. Situações Especiais ### 8.1 Gestação e Lactação — CONTRAINDICAÇÃO ABSOLUTA **Dados:**\n- Estudos em animais demonstraram toxicidade reprodutiva (perda fetal, malformações) com GLP-1 RA\n- Não há ensaios clínicos em gestantes humanas\n- Classificação de risco: Categoria X (contraindicado) **Conduta:**\n- β-hCG obrigatório antes de iniciar em mulheres em idade fértil\n- Contracepção eficaz durante todo o tratamento\n- Orientar washout de 2 meses antes de tentativa de concepção (meia-vida de ~5 dias × 5 = ~25 dias; margem de segurança de 2 meses é prudente)\n- Se gestação confirmada durante tratamento: **suspender imediatamente**, encaminhar pré-natal de alto risco\n- Lactação: excreção em leite humano desconhecida; não recomendado ### 8.2 Idosos e Risco de Sarcopenia **Preocupações:**\n- Perda de peso em idosos pode ser predominantemente de massa magra\n- Risco de sarcopenia, fragilidade, quedas **Conduta:**\n- Rastreio basal com handgrip e/ou DEXA\n- Proteína ≥1,2 g/kg/dia (idealmente 1,2–1,6 g/kg/dia) [S4]\n- Treino resistido supervisionado\n- Monitorar força (handgrip, chair stand) a cada 3–6 meses\n- Se perda de massa magra >25–30% da perda total ou declínio funcional: reavaliar indicação, intensificar intervenções [S5] ### 8.3 Redução de Sulfonilureia/Insulina — Protocolo **Risco:** Hipoglicemia significativa quando incretina é adicionada a secretagogos/insulina **Protocolo sugerido:** | Medicamento | Ajuste ao Iniciar Incretina | Ajuste Posterior |\n|-------------|----------------------------|------------------|\n| **Sulfonilureia** | Reduzir 50% da dose no dia 1 | Se HbA1c <6,5% ou hipoglicemia: SUSPENDER |\n| **Glinidas** | Reduzir 50% | Titular conforme glicemia |\n| **Insulina basal** | Reduzir 10–20% | Titular para glicemia jejum 80–130 mg/dL |\n| **Insulina prandial** | Reduzir 20–30% | Considerar suspensão gradual se HbA1c <7% | **Monitoramento:** Glicemia capilar 2–4x/dia nas primeiras 2–4 semanas após ajuste ### 8.4 Perioperatório - Comunicar equipe anestésica sobre uso de GLP-1 RA [G7]\n- Risco de aspiração por retardo de esvaziamento gástrico\n- Não há consenso universal sobre tempo de suspensão; recomendações variam de 1 a 3 semanas antes de procedimentos com anestesia geral\n- Considerar: USG gástrico point-of-care, jejum prolongado, intubação em sequência rápida\n- Documentar decisão compartilhada --- ## 9. Farmacovigilância e Responsabilidades ### 9.1 Notificação de Eventos Adversos **Eventos de notificação obrigatória à ANVISA:**\n- Reações adversas graves (hospitalização, risco de vida, óbito)\n- Eventos inesperados (não descritos em bula)\n- Falha terapêutica suspeita de problema de qualidade\n- Eventos com produtos manipulados **Como notificar:**\n- Sistema VigiMed: https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/notificacoes/vigimed\n- Formulário de notificação de evento adverso ### 9.2 Responsabilidade Compartilhada | Ator | Responsabilidade |\n|------|-----------------|\n| **Médico prescritor** | Indicação correta, consentimento, monitoramento, notificação |\n| **Farmácia de manipulação** | Qualidade do produto, rastreabilidade, laudos, notificação de desvios |\n| **Paciente** | Adesão, comparecimento, comunicação de eventos | > **Nota:** O consentimento informado **não exime** o médico de responsabilidade por prescrição inadequada, falta de monitoramento ou escolha de farmácia sem qualificação adequada. --- ## 10. Contraindicações — Resumo ### Absolutas (NÃO PRESCREVER) - História pessoal ou familiar de carcinoma medular de tireoide (CMT)\n- Síndrome de neoplasia endócrina múltipla tipo 2 (MEN2)\n- Hipersensibilidade conhecida ao fármaco ou excipientes\n- Gestação (categoria X)\n- Lactação (dados insuficientes) ### Relativas (avaliar risco-benefício) - Pancreatite prévia (monitoramento intensivo se indicação forte)\n- Gastroparesia grave\n- Retinopatia diabética proliferativa não tratada (estabilizar antes)\n- Transtornos alimentares ativos (anorexia, bulimia)\n- Ideação suicida ou depressão grave não tratada\n- Insuficiência renal terminal (TFGe <15 mL/min) — dados limitados --- ## 11. Não Prescrever — Lista Explícita | Cenário | Motivo | Referência |\n|---------|--------|------------|\n| Finalidade estética pura (sem obesidade/comorbidade) | Sem indicação clínica, vedado pelo CFM | [S13, S19] |\n| \"Modulação hormonal\" ou \"longevidade\" | Pseudociência, sem evidência | [S13, S19] |\n| Hipertrofia muscular/performance | Uso indevido, risco WADA | — |\n| Research peptides (BPC-157, etc.) | Sem aprovação, risco sanitário | [S1] |\n| Paciente sem exames basais | Risco de complicações não detectadas | — |\n| Gestante ou lactante | Contraindicação absoluta | — |\n| História de CMT/MEN2 | Contraindicação absoluta | [G1, G2] |\n| Farmácia sem certificação/laudos | Risco de produto inadequado | [S8, S11, S12] | --- ## 12. Considerações sobre LGPD e Comunicação com Pacientes - Dados de saúde são **dados sensíveis** sob a LGPD (Lei 13.709/2018) [S2]\n- Comunicação via SMS/WhatsApp/e-mail para lembretes de retorno e exames: - Obter consentimento explícito para uso do canal - Não incluir informações clínicas detalhadas em mensagens - Preferir: \"Lembrete: consulta agendada para [data]\" vs. \"Lembrete: retorno para acompanhamento de obesidade com tirzepatida\"\n- Não inserir dados identificados de pacientes em ferramentas de IA/LLM públicas [S3]\n- Prontuário eletrônico deve ter controle de acesso e backup --- ## 13. Conclusão O monitoramento de pacientes sob terapia com agonistas de incretina exige abordagem estruturada, com retornos frequentes durante titulação, laboratórios periódicos e vigilância ativa para eventos adversos. A eficácia demonstrada nos ensaios pivotais — perda de peso de 15–21% com tirzepatida [G1], redução de MACE com semaglutida [G3] — traduz-se em benefício clínico real quando o tratamento é conduzido com rigor. **Pontos inegociáveis:**\n1. Exames basais completos, incluindo fundoscopia em DM2\n2. Consentimento documentado para uso off-label ou manipulado\n3. Reconhecimento explícito de que dados de ensaios não se aplicam automaticamente a manipulados\n4. Metas definidas e mensuradas (5/10/15%)\n5. Ajuste proativo de sulfonilureias/insulina\n6. Farmacovigilância ativa e notificação de eventos O médico é responsável não apenas pela prescrição, mas pela escolha criteriosa da origem do medicamento, pela documentação adequada e pelo acompanhamento longitudinal que transforma uma prescrição em tratamento de excelência. --- ## 14. Referências ### Ensaios Clínicos Pivotais\n- [G1] Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216. DOI: 10.1056/NEJMoa2206038\n- [G2] Garvey WT, et al. Tirzepatide Once Weekly for the Treatment of Obesity in People with Type 2 Diabetes. Lancet. 2023;402(10402):613-626. DOI: 10.1016/S0140-6736(23)01200-X\n- [G3] Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med. 2023;389(24):2221-2232. DOI: 10.1056/NEJMoa2307563\n- [G4] Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002. DOI: 10.1056/NEJMoa2032183\n- [G5] Perkovic V, et al. Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes. N Engl J Med. 2024;391(2):109-121. DOI: 10.1056/NEJMoa2403347\n- [G6] Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity. N Engl J Med. 2025. DOI: 10.1056/NEJMoa2416392 ### Manutenção e Fisiopatologia\n- [S6] Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance. JAMA. 2021;325(14):1414-1425. DOI: 10.1001/jama.2021.3224\n- [S7] WHO. Obesity and Overweight Fact Sheet. 2020.\n- [S4] Neeland IJ, et al. Lean mass changes with GLP-1–based therapies. Diabetes Obes Metab. 2024.\n- [S5] Cruz-Jentoft AJ, et al. Sarcopenia: revised European consensus (EWGSOP2). Age Ageing. 2019;48(1):16-31. DOI: 10.1093/ageing/afy169 ### Regulatório e Segurança\n- [S8] ANVISA. Boas Práticas de Manipulação. 2022.\n- [S11] CDC/NEJM. Fungal meningitis outbreak (NECC). 2013. DOI: 10.1056/NEJMoa1213978\n- [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations. 2023.\n- [S13] CFM Resolução 2.336/2023 (verificar número atualizado).\n- [S14] Endocrine Society/ACOG. Compounded bioidentical hormones. 2016.\n- [G7] Multisociety statement on GLP-1 RA and perioperative care. 2023. ### Proteção de Dados e IA\n- [S2] LGPD — Lei 13.709/2018.\n- [S3] Large language models in medicine — síntese Doutiva. 2024. --- ## 15. Quick Reference — Conduta de Bolso | Fase | Retorno | Labs | Red Flags | Ação Crítica |\n|------|---------|------|-----------|--------------|\n| **Pré-início** | — | HbA1c, lipídios, renal, hepático, amilase, β-hCG, fundoscopia | CMT/MEN2, gestação | Consentimento, verificar farmácia |\n| **Sem 1–4** | Semanal (remoto) | — | Vômitos >3x/dia, desidratação | Reduzir 50% sulfonilureia |\n| **Sem 4–16** | A cada 2–4 sem | Sem 12: HbA1c, lipídios, renal, hepático | Dor abdominal, hipoglicemia | Titular dose, fundoscopia se HbA1c↓↓ |\n| **Sem 16–24** | Mensal | — | <5% perda | Investigar adesão/dieta |\n| **Sem 24–52** | Trimestral | HbA1c, renal | Perda massa magra | DEXA, proteína ≥1,2 g/kg |\n| **>52 sem** | Trimestral-semestral | Anual: labs amplos, fundoscopia | Reganho >5% | Reavaliar estratégia | --- *Monografia revisada conforme padrão RAISE-BAR Doutiva. Todas as afirmações numéricas ancoradas em fontes citadas ou sinalizadas como \"(verificar)\". Não substitui julgamento clínico individualizado.*",
+  "quick_ref": "# Guia Rápido para Monitoramento sob Incretinas | Fase | Frequência | Exames-chave | Sinais de Alerta | Ação Imediata |\n|-----------------|---------------------|--------------------------------------------|----------------------------|-----------------------------|\n| Pré-início | Único | HbA1c, perfil lipídico, renal, hepático, amilase/lipase, β-hCG, fundoscopia (DM2) | Gestação, nódulo tireoide, contraindicações | Excluir contraindicações, consentimento |\n| 0–4 sem | Semanal (remoto OK) | Monitorar sintomas GI | Vômitos persistentes, desidratação | Ajustar dose/reduzir sulfonilureia|\n| 4–16 sem | A cada 2–4 semanas | HbA1c, renal, lipídios (semana 12) | Dor abdominal, hipoglicemia | Suspender/titular dose conforme tolerância |\n| 16–24 sem | Mensal | Avaliação clínica, adesão | Perda peso <5% no momento | Reforçar adesão, rever dieta |\n| 24–52 sem | Trimestral | HbA1c, renal, perfil lipídico | Perda massa magra significativa | Avaliar DEXA, proteína + treino |\n| >52 sem | Trimestral-semestral | Anual: exame completo, fundoscopia | Reganho peso >5% | Reavaliar estratégia de manutenção | **Red Flags:** Dor abdominal intensa, vómitos incoercíveis, visão turva, hipoglicemia grave, reação alérgica, ideação suicida. **Notas:** Ajuste preventivo de sulfonilureia e insulina para diminuir risco de hipoglicemia; monitoramento oftalmológico obrigatório em DM2; sempre documentar consentimento e origem do medicamento (industrial x manipulado).",
+  "clinical_case": {
+    "title": "Paciente com Obesidade e DM2 Iniciando Tirzepatida",
+    "vignette": "Paciente masculino, 52 anos, com obesidade grau II (IMC 36 kg/m²) e diabetes tipo 2 há 5 anos, com HbA1c atual de 8,2%, em uso de metformina 1000 mg bid e glicazida 30 mg/dia. Relata esforços prévios com dieta e atividade física moderada, porém com pouca perda ponderal. Sem história pessoal/familiar de câncer medular de tireoide ou MEN2. Exame físico sem nódulos tireoidianos, PA 135/85 mmHg. Fundoscopia recente sem lesões ativas. Deseja iniciar terapia com tirzepatida para controle glicêmico e redução de peso.",
+    "question": "Qual o protocolo mais adequado para monitorar este paciente após o início da tirzepatida?",
+    "teaching": "O manejo ético e seguro da tirzepatida exige avaliação prévia cuidadosa – confirmação de indicação, exclusão de contraindicações absolutas e exames basais completos, incluindo fundoscopia em pacientes com DM2.\nInicialmente, deve-se iniciar dose baixa (2,5 mg SC/semana) e agendar retorno semanal remoto para monitorar sintomas intoleráveis, especialmente efeitos gastrointestinais. Ajustes de dose devem ser graduais e baseados em tolerabilidade.\nNa semana 12, realiza-se painel laboratorial completo (HbA1c, função renal/hepática, lipídios) e avaliação de perda séria de peso para classificação de resposta. Para pacientes em uso concomitante de sulfonilureia ou insulina basal, é necessário reduzí-los preventivamente para evitar hipoglicemia.\nA adoção do TCLE específico para tirzepatida é mandatória, especialmente se o medicamento for manipulado, devendo-se registrar todos os dados de monitoramento, adesão e efeitos adversos para assegurar farmacovigilância rigorosa.\nA estratégia contempla metas graduais de perda ponderal (5%, 10%, 15%) com impacto metabólico reconhecido e necessidade de ajuste terapêutico se o paciente não responder adequadamente.\nO acompanhamento deve prosseguir trimestralmente após estabilização, priorizando a prevenção de complicações e garantindo qualidade de vida.",
+    "reward": 10,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "HbA1c",
+        "value": "8,2%"
+      },
+      {
+        "label": "Medicações",
+        "value": "Metformina 1000 mg bid, glicazida 30 mg/dia"
+      },
+      {
+        "label": "História familiar",
+        "value": "Negativa para CMT/MEN2"
+      },
+      {
+        "label": "Fundoscopia",
+        "value": "Normal recente"
+      },
+      {
+        "label": "Pressão arterial",
+        "value": "135/85 mmHg"
+      },
+      {
+        "label": "Sintomas GI",
+        "value": "Ausentes"
+      },
+      {
+        "label": "Desejo",
+        "value": "Controle glicêmico e perda de peso"
+      }
+    ],
+    "options": [
+      {
+        "label": "Iniciar tirzepatida 2,5 mg semanal, agendar retorno semanal remoto para monitorar sintomas e titulação progressiva",
+        "correct": true,
+        "rationale": "Este protocolo respeita o manejo ético, prevê monitoramento rigoroso e gradual, adequando controle glicêmico e segurança com avaliação de efeitos adversos [G1, G2]."
+      },
+      {
+        "label": "Prescrever dose inicial de 15 mg tirzepatida para rápida perda de peso, com retorno somente em 3 meses para avaliação",
+        "correct": false,
+        "rationale": "A dose inicial alta está associada a eventos adversos graves; retorno tardio contra-indicado por risco de efeitos adversos e hipoglicemia não monitorada."
+      },
+      {
+        "label": "Iniciar tirzepatida com dose 2,5 mg semanal e suspender glicazida imediatamente sem alteração na metformina",
+        "correct": false,
+        "rationale": "Redução da glicazida é indicada, mas suspensão imediata sem monitoramento pode causar pior controle glicêmico; ajuste deve ser monitorado e gradual."
+      },
+      {
+        "label": "Prescrever tirzepatida manipulada sem TCLE para otimizar adesão, com retorno livre à demanda do paciente",
+        "correct": false,
+        "rationale": "Uso manipulado sem consentimento e documentação formal é ação de risco ético e legal, além de segurança inerentemente comprometida [S8, S11]."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216."
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide Once Weekly for the Treatment of Obesity in People with Type 2 Diabetes. Lancet. 2023;402(10402):613-626."
+    },
+    {
+      "citation": "Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med. 2023;389(24):2221-2232."
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002."
+    },
+    {
+      "citation": "Perkovic V, et al. Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes. N Engl J Med. 2024;391(2):109-121."
+    },
+    {
+      "citation": "Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity. N Engl J Med. 2025."
+    },
+    {
+      "citation": "ANVISA. Boas Práticas de Manipulação. 2022.",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/notificacoes/vigimed"
+    },
+    {
+      "citation": "CFM Resolução 2.336/2023 (consultar portal CFM para atualização).",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance. JAMA. 2021;325(14):1414-1425."
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

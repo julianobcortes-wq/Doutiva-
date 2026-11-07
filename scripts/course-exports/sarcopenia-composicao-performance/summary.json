@@ -1,0 +1,85 @@
+{
+  "course": {
+    "id": "3454b86b-9787-43bc-b54f-5627dcffc28f",
+    "slug": "sarcopenia-composicao-performance",
+    "title": "Sarcopenia, Composição Corporal e Performance",
+    "subtitle": "Magra, força e longevidade clínica",
+    "description": "Curso para preservar e reconstruir massa magra em emagrecimento, envelhecimento e performance clínica: diagnóstico, DEXA, proteína, treino, hormônios com critério e mitos de performance.",
+    "duration_minutes": 675
+  },
+  "mono_total": 185478,
+  "slides_total": 94,
+  "duration": 675,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Sarcopenia e dinapenia: definições EWGSOP2/AWGS e relevância clínica",
+      "mono_len": 17731,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 2,
+      "title": "Como medir: DEXA, BIA, ultrassom, force plate, testes funcionais — prós e limites no diagnóstico da sarcopenia",
+      "mono_len": 17393,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 3,
+      "title": "Proteína, energia e timing: alvos práticos por idade e sob déficit calórico",
+      "mono_len": 20522,
+      "slides": 10,
+      "duration": 90
+    },
+    {
+      "position": 4,
+      "title": "Micronutrientes e adjuvantes: creatina, vitamina D, ômega-3 — evidência sóbria para sarcopenia, composição corporal e performance",
+      "mono_len": 16581,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 5,
+      "title": "Treino de Força como Prescrição Médica: Princípios para o Clínico Prescrever ou Encaminhar",
+      "mono_len": 19617,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 6,
+      "title": "Emagrecimento com Preservação de Massa Magra sob Incretinas e Déficit Energético",
+      "mono_len": 20788,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 7,
+      "title": "Testosterona, Menopausa e Massa Magra: quando hormônio entra na equação",
+      "mono_len": 19101,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 8,
+      "title": "GH, Secretagogos, SARMs e Atalhos de Performance: Recusa Fundamentada",
+      "mono_len": 18929,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 9,
+      "title": "Idoso frágil, mulher perimenopausa e recuperação pós-emagrecimento acentuado",
+      "mono_len": 18133,
+      "slides": 10,
+      "duration": 90
+    },
+    {
+      "position": 10,
+      "title": "Casos Clínicos em Sarcopenia e Obesidade com Uso de Incretinas e GH: Manejo Integrado e Ético",
+      "mono_len": 16683,
+      "slides": 8,
+      "duration": 75
+    }
+  ]
+}

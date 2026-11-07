@@ -1,0 +1,85 @@
+{
+  "course": {
+    "id": "a96c3cb1-6fdf-4437-9a06-edfc656941b7",
+    "slug": "hormonios-implantes-criterio",
+    "title": "Hormônios e Implantes com Critério",
+    "subtitle": "Indicação real vs anti-aging · ética e monitorização",
+    "description": "Tratado clínico sobre terapia hormonal e implantes para médicos que atendem queixas de longevidade e performance: diagnóstico rigoroso, evidência, CFM, monitorização e manipulação responsável — sem protocolos de Instagram.",
+    "duration_minutes": 645
+  },
+  "mono_total": 199062,
+  "slides_total": 92,
+  "duration": 645,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Eixo Hormonal no Adulto: Deficiência Hormonal versus Otimização Cosmética",
+      "mono_len": 21489,
+      "slides": 10,
+      "duration": 90
+    },
+    {
+      "position": 2,
+      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio – O Mínimo Inegociável",
+      "mono_len": 20596,
+      "slides": 10,
+      "duration": 60
+    },
+    {
+      "position": 3,
+      "title": "Hipogonadismo masculino: diagnóstico, TRT, vias (gel, injetável, implante) e riscos",
+      "mono_len": 17780,
+      "slides": 11,
+      "duration": 60
+    },
+    {
+      "position": 4,
+      "title": "Implantes de Testosterona: Técnica Conceitual, Farmacocinética, Picos/Vales e Follow-up",
+      "mono_len": 22603,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 5,
+      "title": "THM na menopausa: evidência pós-WHI, janela de oportunidade e vias",
+      "mono_len": 21349,
+      "slides": 11,
+      "duration": 60
+    },
+    {
+      "position": 6,
+      "title": "Implantes hormonais femininos e ‘bioidênticos’: o que a evidência sustenta",
+      "mono_len": 19406,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 7,
+      "title": "GH, Secretagogos, DHEA, Pregnenolona e Cocktails ‘Longevidade’: Leitura Crítica para Prescritores de Alta Exigência",
+      "mono_len": 18771,
+      "slides": 9,
+      "duration": 60
+    },
+    {
+      "position": 8,
+      "title": "Segurança, farmacovigilância e responsabilidade do prescritor em hormônios e implantes manipulados",
+      "mono_len": 20209,
+      "slides": 8,
+      "duration": 60
+    },
+    {
+      "position": 9,
+      "title": "Protocolos de monitorização e descontinuação: o ciclo completo do cuidado",
+      "mono_len": 17408,
+      "slides": 8,
+      "duration": 75
+    },
+    {
+      "position": 10,
+      "title": "Módulo 5 · Prática: Casos Clínicos em Hormônios e Implantes com Critério",
+      "mono_len": 19451,
+      "slides": 9,
+      "duration": 60
+    }
+  ]
+}

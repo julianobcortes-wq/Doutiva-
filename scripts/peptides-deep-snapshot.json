@@ -1,0 +1,133 @@
+{
+  "course": {
+    "title": "Peptídeos na Medicina de Precisão",
+    "subtitle": "Tratado clínico completo · 15 aulas · monografias + slides + casos",
+    "duration_minutes": 1240,
+    "description": "Quinze aulas em profundidade de tratado (~20h): farmacologia molecular, regulatório ANVISA/CFM/WADA, fisiologia GLP-1/GIP, ECRs STEP/SURMOUNT/SELECT/FLOW, segurança e massa magra, secretagogos de GH, regenerativos (ciência vs hype), protocolo de consultório, casos integrados, fronteira dual/triplo/orais, organoproteção, sarcopenia, populações especiais, armamentário peptídico ampliado e excelência operacional da clínica. Cada aula: monografia densa, 8–12 slides com dados, guia de bolso e caso clínico com gabarito server-side.",
+    "lessons": 15,
+    "mono_total": 408638,
+    "slides_total": 134
+  },
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Peptídeo terapêutico: farmacologia molecular, engenharia PK e checklist pré-prescrição para o médico",
+      "duration_minutes": 90,
+      "mono_len": 25658,
+      "slides": 8,
+      "module": "Módulo 1 · Fundamentos"
+    },
+    {
+      "position": 2,
+      "title": "Hierarquia de Evidência e Enquadramento Regulatório de Peptídeos no Brasil",
+      "duration_minutes": 75,
+      "mono_len": 26299,
+      "slides": 8,
+      "module": "Módulo 1 · Fundamentos"
+    },
+    {
+      "position": 3,
+      "title": "Fisiologia e farmacologia de GLP-1 e GIP: receptores, vias, órgãos-alvo e dual agonism bias",
+      "duration_minutes": 75,
+      "mono_len": 32790,
+      "slides": 8,
+      "module": "Módulo 2 · Incretinas"
+    },
+    {
+      "position": 4,
+      "title": "Semaglutida e Tirzepatida: Leitura Crítica dos Estudos STEP, SURMOUNT, SELECT, FLOW, SURMOUNT-5 e Head-to-Head",
+      "duration_minutes": 90,
+      "mono_len": 31039,
+      "slides": 12,
+      "module": "Módulo 2 · Incretinas"
+    },
+    {
+      "position": 5,
+      "title": "Segurança das Incretinas: Gastrointestinal, Vesícula, Pancreatite, Tireóide C-cell, Retinopatia, Humor e Checklist de Monitorização",
+      "duration_minutes": 75,
+      "mono_len": 28759,
+      "slides": 10,
+      "module": "Módulo 2 · Incretinas"
+    },
+    {
+      "position": 6,
+      "title": "Secretagogos de GH: tesamorelina (indicação real), CJC-1295, ipamorelina e o eixo GHRH–GH–IGF-1",
+      "duration_minutes": 90,
+      "mono_len": 28508,
+      "slides": 9,
+      "module": "Módulo 3 · Eixo do GH"
+    },
+    {
+      "position": 7,
+      "title": "BPC-157, TB-500 e GHK-Cu: Ciência Pré-Clínica vs Hype — Por que Não São Terapia Estabelecida",
+      "duration_minutes": 75,
+      "mono_len": 23017,
+      "slides": 8,
+      "module": "Módulo 4 · Reparo tecidual"
+    },
+    {
+      "position": 8,
+      "title": "Protocolo de Incretina no Consultório Brasileiro: Triagem, Escolha, Titulação, Falha e Manutenção",
+      "duration_minutes": 75,
+      "mono_len": 26238,
+      "slides": 9,
+      "module": "Módulo 5 · Prática clínica"
+    },
+    {
+      "position": 9,
+      "title": "Peptídeos na Medicina de Precisão: Casos Clínicos Integrados em Obesidade, DCV, DM2 e Fronteiras Terapêuticas",
+      "duration_minutes": 90,
+      "mono_len": 27361,
+      "slides": 9,
+      "module": "Módulo 5 · Prática clínica"
+    },
+    {
+      "position": 10,
+      "title": "Agonistas dual/triplo e incretinas orais: retatrutida, CagriSema, survodutida, orforglipron — o que a fronteira muda na prática",
+      "duration_minutes": 90,
+      "mono_len": 26024,
+      "slides": 11,
+      "module": "Módulo 6 · Fronteira terapêutica"
+    },
+    {
+      "position": 11,
+      "title": "Organoproteção além do peso: Seleção clínica e evidência em peptídeos para desfechos duros",
+      "duration_minutes": 75,
+      "mono_len": 28112,
+      "slides": 9,
+      "module": "Módulo 6 · Fronteira terapêutica"
+    },
+    {
+      "position": 12,
+      "title": "Sarcopenia iatrogênica sob incretina: DEXA, proteína, treino de força, plateaus e comunicação sobre massa magra",
+      "duration_minutes": 75,
+      "mono_len": 26920,
+      "slides": 8,
+      "module": "Módulo 7 · Composição corporal e populações especiais"
+    },
+    {
+      "position": 13,
+      "title": "Populações Especiais no Uso de Agonistas de Receptor GLP-1: Gestação, Adolescente, Idoso Frágil, DRC Avançada e Perioperatório",
+      "duration_minutes": 90,
+      "mono_len": 24330,
+      "slides": 8,
+      "module": "Módulo 7 · Composição corporal e populações especiais"
+    },
+    {
+      "position": 14,
+      "title": "Armamentário peptídico com registro além das incretinas: setmelanotida, análogos de PTH, somatostatina e limites da extrapolação",
+      "duration_minutes": 85,
+      "mono_len": 23962,
+      "slides": 8,
+      "module": "Módulo 8 · Armamentário peptídico ampliado"
+    },
+    {
+      "position": 15,
+      "title": "Clínica de excelência com peptídeos: documentação, TCLE, falha terapêutica, switch entre agentes, economia e proposta de valor",
+      "duration_minutes": 90,
+      "mono_len": 29621,
+      "slides": 9,
+      "module": "Módulo 8 · Armamentário peptídico ampliado"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "position": 1,
+    "title": "Por que esterilidade e qualidade mudam o risco: microbiologia prática para o prescritor em soroterapia e injetáveis estéreis",
+    "mono_len": 12871,
+    "slides": 4,
+    "elapsed_s": 91,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito **Requer correções** - Ajustar e fundamentar dados de mortalidade e surtos nacionais com referências precisas. - Clarificar terminologias que podem"
+  },
+  {
+    "position": 2,
+    "title": "Farmacotécnica para Prescritores: Osmolaridade, pH, Compatibilidade e Estabilidade em Soroterapia/Injetáveis Estéreis",
+    "mono_len": 14168,
+    "slides": 8,
+    "elapsed_s": 78,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito (Pronta para revisão humana / Requer correções)\n**Requer correções antes da revisão humana**: - Corrigir/atualizar referências para alinhamento exato"
+  },
+  {
+    "position": 3,
+    "title": "Reposição Intravenosa: Evidência, Critério e Limites Éticos no Consultório Brasileiro",
+    "mono_len": 12755,
+    "slides": 8,
+    "elapsed_s": 132,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana.** - O material está bem fundamentado, atualizado e com enfoque ético-regulatório adequado.\n- Pequenas lacunas podem ser "
+  },
+  {
+    "position": 4,
+    "title": "Myers Cocktail, NAD+, Vitamina C em Alta Dose e Outras Modas em Soroterapia: Leitura Crítica e Evidência",
+    "mono_len": 10615,
+    "slides": 7,
+    "elapsed_s": 86,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana** – a aula está completa, bem estruturada, com foco na segurança, evidência e legalidade. Alguns pontos demandam revisão"
+  },
+  {
+    "position": 5,
+    "title": "Seleção de Paciente, Acesso Venoso, Monitoramento e Manejo de Reações em Soroterapia Estéril",
+    "mono_len": 15080,
+    "slides": 8,
+    "elapsed_s": 103,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito **Requer correções** - Ajustar dose e concentração da adrenalina com mais detalhes práticos.\n- Revisar referências para evitar extrapolações.\n- Inser"
+  },
+  {
+    "position": 6,
+    "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos para Segurança Clínica",
+    "mono_len": 13960,
+    "slides": 7,
+    "elapsed_s": 86,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito **Requer correções** Motivos: - Algumas informações carecem de ancoragem bibliográfica/regularizatória clara, principalmente dados epidemiológicos e"
+  },
+  {
+    "position": 7,
+    "title": "Como prescrever injetável manipulado com qualidade: receita, justificativa e rastreio",
+    "mono_len": 16192,
+    "slides": 7,
+    "elapsed_s": 90,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana com ajustes mínimos**: - A aula está muito bem estruturada, atualizada e apresenta sólido embasamento regulatório e clín"
+  },
+  {
+    "position": 8,
+    "title": "Regulatório BR: ANVISA, responsabilidade compartilhada médico–farmácia",
+    "mono_len": 12736,
+    "slides": 6,
+    "elapsed_s": 82,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito **Requer correções** - Corrigir e detalhar melhor permissões e proibições da prescrição para “soroterapia IV” e peptídeos.\n- Atualizar status regulat"
+  },
+  {
+    "position": 9,
+    "title": "Encaixe com obesidade, hormônios e performance: quando IV agrega e quando atrapalha",
+    "mono_len": 10575,
+    "slides": 7,
+    "elapsed_s": 86,
+    "audit_verdict": "pass",
+    "audit_head": "Veredito\n**Pronta para revisão humana** - A aula apresenta conteúdo completo, coerente e atualizado, com alinhamento às normativas brasileiras de 2023-2024 e e"
+  },
+  {
+    "position": 10,
+    "title": "Soroterapia IV: Abordagem Crítica ao Pedido de “Myers’ Cocktail” e Drips Detox",
+    "mono_len": 10963,
+    "slides": 2,
+    "elapsed_s": 55,
+    "audit_verdict": "fix",
+    "audit_head": "Veredito\n**Requer correções** - Revisar referências S10 especialmente sobre evidências científicas atuais e toxicidade da vitamina C. - Inserir alertas ou p"
+  }
+]

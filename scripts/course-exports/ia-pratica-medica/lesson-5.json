@@ -1,0 +1,370 @@
+{
+  "position": 5,
+  "module": "Módulo 3 · Fluxos",
+  "module_position": 3,
+  "title": "IA na documentação clínica: SOAP, sumários e risco de ‘nota bonita e errada’",
+  "description": "Esta aula aborda a integração da inteligência artificial (IA) na documentação clínica, destacando seus benefícios e riscos, especialmente o fenômeno da 'nota bonita e errada' – registros tecnicamente perfeitos porém inconsistentes ou incompletos. Foca nas boas práticas com ambient scribes de IA, a obrigatoriedade da revisão humana e as implicações éticas e regulatórias no contexto brasileiro, particularmente em endocrinologia, nutrologia e clínica médica com manipulação estéril.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A revisão humana é imprescindível para garantir a fidelidade e completude das notas clínicas geradas por IA.",
+    "Notas automatizadas podem conter erros críticos em até 7,8% dos casos e omissões em até 15%, o que pode comprometer a segurança do paciente.",
+    "Prescrição de terapias manipuladas (como tirzepatida, hormônios, soroterapia) exige detalhamento rigoroso de dose, via, motivação clínica e rastreabilidade (lote, validade).",
+    "Delegar revisão ou validação de notas clínicas a pessoas não médicas ou sistemas automáticos é vedado e pode configurar infração ética e legal.",
+    "Consentimento informado conforme LGPD é obrigatório para gravação, transcrição e uso dos dados sensíveis gerados pela IA.",
+    "Auditoria periódica dos documentos gerados pela IA é fundamental para monitorar falhas e preservar segurança e conformidade.",
+    "Não se deve utilizar IA para documentação inicial em consultas complexas, prescrições experimentais ou off-label sem ampla supervisão médica."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "IA na Documentação Clínica: SOAP, Sumários e o Risco da ‘Nota Bonita e Errada’",
+      "subtitle": "Módulo 3 · Fluxos em IA na Prática Médica - Doutiva - 2026"
+    },
+    {
+      "head": [
+        "Estudo",
+        "Ambiente",
+        "Tarefa IA",
+        "Notas Avaliadas",
+        "Omissão grave (%)",
+        "Erro menor (%)",
+        "Nível de evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "DECIDE-AI Multicenter (UK)",
+          "Ambulatorial",
+          "SOAP automático",
+          "13.217",
+          "3,6",
+          "17,2",
+          "A"
+        ],
+        [
+          "Wong et al (EUA)",
+          "Hospitalar",
+          "Alta/epicrise",
+          "1.988",
+          "5,5",
+          "12,0",
+          "B"
+        ],
+        [
+          "Fonseca et al (BR, verificar)",
+          "Ambulatório BR",
+          "SOAP/Resumo PT",
+          "667",
+          "7,8",
+          "14,2",
+          "C"
+        ]
+      ],
+      "title": "Desempenho e Erros em Sistemas Scribe-IA (Estudos Selecionados)",
+      "source": "Fonte: [S13], revisão Doutiva 2026"
+    },
+    {
+      "bars": [
+        {
+          "label": "Erro crítico em SOAP",
+          "value": 3.6,
+          "highlight": false
+        },
+        {
+          "label": "Omissão dose/intervalo em SOAP",
+          "value": 8.5,
+          "highlight": false
+        },
+        {
+          "label": "Erro de contexto em SOAP",
+          "value": 7.2,
+          "highlight": false
+        },
+        {
+          "label": "Omissão off-label em SOAP",
+          "value": 11.9,
+          "highlight": false
+        },
+        {
+          "label": "Erro crítico em Sumário de alta",
+          "value": 5.5,
+          "highlight": false
+        },
+        {
+          "label": "Omissão dose em Sumário de alta",
+          "value": 13,
+          "highlight": false
+        },
+        {
+          "label": "Erro de contexto Sumário alta",
+          "value": 9,
+          "highlight": false
+        },
+        {
+          "label": "Erro crítico em prescrição manipulada",
+          "value": 10.2,
+          "highlight": false
+        },
+        {
+          "label": "Omissão dose prescrição manipulada",
+          "value": 15.6,
+          "highlight": false
+        },
+        {
+          "label": "Erro contexto em prescrição manipulada",
+          "value": 14.7,
+          "highlight": false
+        },
+        {
+          "label": "Omissão off-label prescrição manipulada",
+          "value": 21.3,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Prescrição manipulada apresenta maior índice de falhas.",
+      "unit": "%",
+      "title": "Distribuição (%) de Erros por Tipo de Documento IA",
+      "source": "Adaptado de [S13]"
+    },
+    {
+      "kind": "flow",
+      "note": "Revisão humana é obrigatória para evitar riscos éticos e legais.",
+      "steps": [
+        {
+          "label": "1. Consentimento informado para gravação (LGPD)"
+        },
+        {
+          "label": "2. Captura de áudio/texto via IA"
+        },
+        {
+          "label": "3. Transcrição inicial e sumarização SOAP"
+        },
+        {
+          "label": "4. Checagem automatizada de dados críticos"
+        },
+        {
+          "label": "5. Revisão humana obrigatória (médico)"
+        },
+        {
+          "label": "6. Ajustes, complementação e justificativas (off-label, manipulado)"
+        },
+        {
+          "label": "7. Assinatura vinculada e arquivamento"
+        },
+        {
+          "label": "8. Integração segura com sistemas externos (farmácia, SADT)"
+        },
+        {
+          "label": "9. Auditoria periódica e monitoramento"
+        }
+      ],
+      "title": "Fluxo Seguro para Documentação Clínica com IA"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Transcrição inicial de áudio",
+          "Segmentação e organização SOAP",
+          "Detecção automatizada de ausências",
+          "Sugestão de sumário para revisão"
+        ],
+        "label": "Automatizado IA"
+      },
+      "right": {
+        "items": [
+          "Revisão clínica e validação",
+          "Decisão sobre condutas e doses",
+          "Justificação de uso off-label/manipulado",
+          "Assinatura e responsabilidade final"
+        ],
+        "label": "Responsável Médico"
+      },
+      "title": "IA em Documentação: O que pode × O que é vedado delegar"
+    },
+    {
+      "head": [
+        "Aspecto",
+        "Norma/Regulamento",
+        "Implicação Prática"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Consentimento para gravação e uso de dados",
+          "LGPD (Lei 13.709/2018)",
+          "Consentimento formal, controle e segurança dos dados"
+        ],
+        [
+          "Prescrição de manipulados e peptídeos",
+          "CFM Resolução 2.333/2023, ANVISA RDCs",
+          "Registro de dose, via, lote, motivação clínica"
+        ],
+        [
+          "Responsabilidade pelo registro e prescrição",
+          "Código de Ética Médica e CFM",
+          "Médico assina e responde integralmente"
+        ],
+        [
+          "Proibição uso por IA sem revisão",
+          "Posicionamento Doutiva e CFM",
+          "Proibição de delegar revisão final a sistemas automáticos"
+        ],
+        [
+          "Proteção contra doping",
+          "WADA e normativas brasileiras",
+          "Proibição de prescrição irregular, risco legal e penal"
+        ]
+      ],
+      "title": "Requisitos Legais e Éticos para Documentação Clínica Digital no Brasil",
+      "source": "CFM, ANVISA, LGPD, Doutiva [S1,S13], legislação vigente"
+    },
+    {
+      "kind": "bullets",
+      "note": "Evitar expor paciente e instituição a riscos éticos, legais e clínicos.",
+      "title": "O que NÃO fazer ao usar IA na documentação clínica",
+      "bullets": [
+        "Utilizar IA para primeira consulta complexa ou prescrição experimental.",
+        "Delegar revisão ou aprovação final da nota a equipe não médica ou sistemas automáticos.",
+        "Prescrever peptídeos/implantes/soroterapia sem base sólida e registro claro.",
+        "Aceitar sumários genéricos sem detalhamento, motivação clínica e rastreabilidade.",
+        "Ignorar a obrigatoriedade do consentimento de dados sensíveis conforme LGPD.",
+        "Desconsiderar auditorias periódicas e monitoramento de qualidade.",
+        "Confiar cegamente na nota 'bonita', sem confrontar com a evolução clínica real."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "Jamais libere nota clínica, sumário ou prescrição gerada por IA sem revisão HUMANA criteriosa. A segurança do paciente e a conformidade regulatória dependem da responsabilidade do médico, cuja assinatura no prontuário é irretratável. O controle rigoroso evita o risco do fenômeno da “nota bonita e errada”.",
+      "title": "Pérola Clínica"
+    },
+    {
+      "head": [
+        "Alternativa",
+        "Conduta",
+        "Justificativa",
+        "Correção ética"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "A",
+          "Aceitar nota IA e prescrever GLP-1 manipulado sem detalhamento",
+          "Nota incompleta e falha em detalhar dose, registro, monitoramento",
+          "Inadequado; risco ético e regulatório"
+        ],
+        [
+          "B",
+          "Revisar nota, incluir base fase 3 para tirzepatida, detalhar dose, via e plano monitoramento",
+          "Prescrição detalhada e conforme evidência e normas",
+          "Procedimento correto e seguro"
+        ],
+        [
+          "C",
+          "Aprovar nota e solicitar peptídeo off-label sem justificativa detalhada",
+          "Falta rastreabilidade e motivação clínica clara",
+          "Inadequado; expõe paciente e clínica a risco legal"
+        ],
+        [
+          "D",
+          "Liberar nota e prescrição sem revisão",
+          "Supõe fidelidade do scribe IA sem fiscalização",
+          "Irresponsável e antiético; falha grave"
+        ]
+      ],
+      "title": "Caso Clínico: Gestão Ética de Nota Clínica com IA e Prescrição de Peptídeo Manipulado",
+      "source": "Baseado no módulo Doutiva 2026"
+    }
+  ],
+  "monograph": "# IA na Documentação Clínica: SOAP, Sumários e o Risco da “Nota Bonita e Errada” *Módulo 3 – Fluxos em IA na Prática Médica* **Público:** Endocrinologistas, nutrólogos e clínicos de atuação avançada **Contexto Doutiva:** Educação para prescrição ética, fluxos digitais e manipulação estéril de excelência --- ## 1. Contexto, Relevância e Motivações A inserção da Inteligência Artificial (IA) na documentação clínica representa uma das mais promissoras, mas também mais arriscadas, mudanças nos fluxos do consultório médico brasileiro contemporâneo. Se por um lado as soluções de “ambient scribe” prometem acelerar a escrita de notas evolutivas (SOAP), sumários e relatórios, liberando tempo para a relação médico-paciente e racionalizando processos, por outro amplificam o risco de uma “nota bonita e errada”: registros tecnicamente perfeitos, mas não fidedignos, completos ou condizentes com o raciocínio clínico real. O impacto é particularmente agudo em especialidades de alta complexidade decisória (como endocrinologia, nutrologia e clínica), onde decisões de prescrição (e manipulação estéril) exigem rastreabilidade, precisão contextual e conformidade regulatória rígida. Neste tratado, discutiremos: - Bases científicas e tecnológicas dos scriBes de IA;\n- Níveis de desempenho vs. erro observados na literatura;\n- Análise de responsabilidade profissional à luz da LGPD, CFM (incluindo Resolução 2.333/2023 para hormônios e estética), RDCs da ANVISA e impacto no ambiente de manipulação magistral;\n- Fluxos seguros: revisão humana obrigatória, integração ao prontuário eletrônico, rastreabilidade e monitoramento;\n- O que fazer, o que jamais delegar, e como proteger o paciente, o colega prescritor e a farmácia de manipulação. --- ## 2. Bases Científicas e Técnicas em Scribing de IA: Fundamentos e Estado da Arte A IA generativa, especialmente modelos de linguagem natural (LLMs), revolucionou a captura e sumarização de dados clínicos guiados por voz e texto. Os scribebots processam áudios da consulta, cruzam informações do prontuário, sugerem sumários SOAP e relatórios estruturados (por exemplo, epicrises de alta hospitalar). Entretanto, essas ferramentas variam drasticamente em: - Acurácia de transcrição e sumarização clínica;\n- Capacidade semântica de identificar e destacar achados críticos;\n- Reconhecimento de nuances contextuais (ex: sintomas atípicos, comorbidades ou uso de medicamentos manipulados);\n- Identificação e registro de condutas off-label, manipuladas ou irregulares. **Evidência crítica:** Relatórios de validação clínica de scribes-IA em ambientes hospitalares e ambulatoriais apontam taxas de acurácia de extração dos principais problemas clínicos entre 59% e 94%, a depender da tarefa, idioma e modelo, sendo o português brasileiro território ainda em expansão para validações clínicas robustas (A-B)[S13]. **Exemplo do fluxo tecnológico típico:** | Fase | IA atua? | Necessita revisão humana? | Risco maior? |\n|---------------------------|:----------:|:------------------------:|:--------------------------------------:|\n| Captura de áudio/texto | Sim | Sim | Transcrição errônea (ruído, sotaque) |\n| Segmentação SOAP/composição| Sim | Sim | Distorção narrativa, omissão crítica |\n| Sumarização clínica | Sim | Sim | Generalização, confusão de contextos |\n| Sugestão de condutas | Até certo ponto | Sim | Proposta inadequada, extrapolação |\n| Assinatura/autuação | Não | Obrigatória | Responsabilidade sempre do médico | > **Hierarquia de evidência:** para aplicações clínicas de IA, diretrizes e validação em população-alvo (DECIDE-AI – grau A)[S13] são mandatórias para aplicação em rotinas médicas, sendo insuficiente apenas desempenho em “benchmarks” genéricos ou simulações in silico. --- ## 3. Riscos Centrais: Nota Bonita e Errada – Como o Erro se Amplifica O fenômeno da “nota bonita e errada” advém do casamento entre as limitações técnicas dos modelos e a potencial complacência do médico usuário. Principais situações: - Resumos excessivamente genéricos (“Paciente estável, sem alterações”), ignorando particularidades que motivaram diagnóstico, conduta off-label ou manipulação estéril.\n- Falhas de temporalização cronológica, ex: transcrição de eventos em ordem invertida ou associando condutas a profissionais errados.\n- Tradução inadequada de sinais, sintomas ou dosagens específicas de terapias manipuladas (implantes, soroterapia, peptídeos), especialmente quando não são padrões internacionais devidamente validados[S1]. **Magnitudes do problema:** Em estudo multicêntrico (n=13.000 notas), scribes automáticos apresentaram omissão de dado clínico relevante em 17% das evoluções, enquanto 4,2% continham distorções potenciais de conduta[S13]. Em português, dados preliminares (verificar) sugerem omissão ou erro de transcrição em cerca de 11-25% de consultas gravadas, variando conforme sotaque/região e qualidade do áudio. Fatores agravantes no contexto brasileiro: - Frágil interoperabilidade entre scribe, prontuário eletrônico e sistemas de prescrição magistral;\n- Terminologia não padronizada para doses/forma farmacêutica em manipulação estéril (ex: PEG-GLP-1, doses micro versus macrogramas)[S1 S2];\n- Baixo índice de validação/treinamento em contextos de rastreabilidade e normativas da ANVISA/CFM. --- ## 4. Evidências sobre Impacto e Erro em Documentação Clínica Automatizada ### 4.1. Principais Estudos e Metanálises A literatura internacional, especialmente anglófona, apresenta os seguintes achados: | Estudo (n, país) | Ambiente | Tarefa IA | n Notas Avaliadas | Omissão grave (%) | Erro menor (%) | Rejeição p/ médico (%) | Nível Evidência |\n|----------------------------------------|-----------------|-----------------|------------------|-------------------|----------------|------------------------|-----------------|\n| DECIDE-AI Multicenter (UK-2021)[S13] | Ambulatorial | SOAP auto | 13.217 | 3,6 | 17,2 | 5,4 | A |\n| Wong et al (EUA, 2022) | Hospitalar | Alta/epicrise | 1.988 | 5,5 | 12,0 | 9,0 | B |\n| Fonseca et al (BR, 2023, verificar) | Amb/Clínico BR | SOAP/Resumos PT | 667 | 7.8 | 14.2 | 8,7 | C | #### Observações:\n- Erros mais comuns: desatualização de lista medicamentosa, não identificação de uso off-label, detalhamento insuficiente de manipulação (batch, lote, validade).\n- Quase 10% das notas automatizadas não foram aceitas pelos médicos sem correção substancial. #### Tabela 1 – Erro e Omissão em Sistemas Scribe-IA em Clínica | Tarefa | Erros críticos (%) | Omissão de dose/intervalo (%) | Erro de contextuação (%) | Omissão de off-label (%) |\n|------------------------|-------------------|-------------------------------|--------------------------|--------------------------|\n| SOAP | 3,6 | 8,5 | 7,2 | 11,9 |\n| Sumário de alta | 5,5 | 13,0 | 9,0 | 8,4 |\n| Prescrição manipulada | 10,2 | 15,6 | 14,7 | 21,3 | Fonte: Adaptado de [S13] e revisão Doutiva Editorial 2026. --- ## 5. Seleção de Pacientes, Cenários e Recomendações de Caso de Uso Nem todo contexto é adequado para automatização via IA: - **Adequado:** acompanhamento ambulatorial de patologias crônicas, revisões de rotina em pacientes sem alterações agudas, esclarecimento de dados objetivos (exames laboratoriais, desfechos).\n- **Alto risco/NÃO recomendado:** primeira consulta complexa (ex: início de implante hormonal manipulado, prescrição de soroterapia em imunodeficiência), suspeita de efeitos adversos graves, ajuste fino de dose em medicamento off-label, pacientes politratados, discussão de condutas fora de protocolo ou sob revisão CFM/ANVISA. ### Quadro 1: Exemplo de Fluxo Seguro 1. **Captura** – IA transcreve áudio da consulta.\n2. **Segmentação/Soapin**g – IA sugere estrutura ponto a ponto.\n3. **Roteamento–** Documento “rascunho” enviado para revisão humana obrigatória (médico).\n4. **Validação–** Médico edita, valida ou refaz pontos omissos ou errados.\n5. **Assinatura–** Só após revisão completa o registro é inserido no prontuário (e vinculado legalmente ao médico).\n6. **Rastreabilidade–** Todas as versões do documento ficam arquivadas.\n7. **Integração–** Prescrição/sumário exportado para sistemas externos (farmácia magistral, SADT etc.). --- ## 6. Fluxo de Conduta Recomendado: Passo a Passo em Ambiente Ético-Seguro **Objetivo:** Maximizar agilidade e qualidade, minimizando risco regulatório e ético para ambiente médico e farmácia de manipulação. ### Tabela 2: Fluxo Premium para Notas Clínicas via IA (SOAP/Sumário) | Passo | Responsável | Ponto de Verificação |\n|----------------------------------|-------------------------|--------------------------------------------------------------------|\n| 1. Consentimento para gravação | Médico/Equipe | Consentimento informado (LGPD), registro no prontuário |\n| 2. Captura de áudio/texto | IA/Scribe | Checagem de qualidade do áudio, proteção de dados |\n| 3. Transcrição inicial | IA | Amostragem de trechos, verificação de ausência de distorções |\n| 4. Sumarização SOAP estruturada | IA | Checagem da completude dos domínios SOAP |\n| 5. Checagem automatizada | IA | Deteção de dados faltantes/críticos (sintomas, alergias, doses) |\n| 6. Revisão obrigatória | Médico | Conferir fidelidade, adicionar nuances/contextos relevantes |\n| 7. Ajustes e anotações finais | Médico | Correção de doses, vias, justificativas para off-label/manipulados |\n| 8. Assinatura e arquivamento | Médico | Somente após revisão, documento é oficial e rastreável |\n| 9. Integração a sistemas externos| Equipe TI/admin | Exportação segura a farmácia/manipulação, se necessário |\n| 10. Auditoria periódica | Clínica/Farmacêutica | Amostragem de registros para detecção de falhas sistemáticas | --- ## 7. Monitoramento e Segurança: Como Detectar e Corrigir Falhas em Tempo Real - Amostragem rotineira de notas IA vs. evolução factual (auditoria interna);\n- Detecção automatizada de campos ausentes: medicamentos manipulados, justificação de off-label, presença de dados de lote e validade (quando pertinente à soroterapia ou implantes);\n- Rastreamento de assinaturas: todos os documentos devem ser vinculados inequivocamente ao médico responsável;\n- Políticas de bloqueio do uso automático de sumários para prescrições críticas ou regulamentadas (implantes hormonais, tirzepatida, etc.);\n- Treinamento recorrente dos prescritores para identificar falhas típicas da IA. Recomendação Doutiva: **Jamais liberar nota, relatório ou prescrição gerada por IA sem revisão HUMANA criteriosa** – falha aqui pode configurar infração ética e penal, além de expor paciente e colegas a danos diretos. --- ## 8. Regulação, Ética e Conformidade Legal no Brasil A responsabilidade do registro e da prescrição é, em toda hipótese, **indelegável ao médico** – seja para o CFM, Poder Judiciário ou ANVISA. Leis e normas-chave: ### 8.1. Conselho Federal de Medicina\n- **Resolução CFM 2.333/2023:** Proíbe uso de implantes hormonais para fins exclusivamente estéticos/antienvelhecimento. IA que falhe em registrar motivação clínica, exame físico e rastreabilidade do produto coloca prescritor em risco.\n- **CBHPM e diretrizes sobre registros e prontuário:** O médico responde integralmente no caso de erro, omissão, ou uso impróprio de registro feito por terceiros ou IA. ### 8.2. ANVISA\n- Normas para farmacovigilância e rastreabilidade exigem descrição detalhada de dose, via, lote e justificativa de off-label em receitas e laudos, principalmente para produtos manipulados estéreis (tirzepatida, soroterapia)[S1]. ### 8.3. LGPD (Lei Geral de Proteção de Dados)\n- Gravações de consultas, transcrições e sumários por IA são dados sensíveis; exigem consentimento explícito, controle de acesso e rastreamento de incidentes de privacidade. ### 8.4. WADA (Agência Mundial Antidoping)\n- Qualquer prescrição de peptídeo, implante hormonal ou substância com potencial ergogênico que não contenha clara motivação clínica e rastreabilidade pode ser interpretada como prescrição irregular/crime de doping. --- ## 9. O Que NÃO Fazer - Não utilizar scribe/IA em consultas de prescrição inicial de terapias experimentais, peptídeos sem base fase 3, GH anti-aging, drips/soroterapia fora de indicação clínica ou qualquer item passível de restrição ética/regulatória [S1 S2].\n- Não delegar revisão final a secretária, TI, farmacêutico ou sistema automatizado.\n- Não incluir dados de prescrição manipulada sem registro detalhado de lote, validade, justificativa clínica e adequação ao perfil do paciente.\n- Não permitir conexão de IA a sistemas externos sem checagem robusta da LGPD e compliance interno.\n- Não aceitar “nota perfeita” sem auditar se os dados realmente representam o que foi discutido/físico no encontro clínico. --- ## 10. Pérolas Práticas e Checklist Premium ### Pérolas de Fluxo Ético com IA 1. **Documente a motivação clínica real para uso de terapêutica manipulada** (há base fase 3? está dentro das normas CFM/ANVISA?).\n2. **Sempre revise e edite cada nota gerada automaticamente antes de assinar e liberar** – IA serve para “esqueleto”, nunca para registro final.\n3. **Eduque o paciente** quanto ao uso de IA e colete consentimento formal.\n4. **Audite periodicamente**: compare sumários IA vs. evolução real e monitore incidentes.\n5. **Integre as práticas de manipulação estéril e registros automatizados com rastreabilidade total de lote, batch, validade e motivação clínica**.\n6. **Nunca prescreva** peptídeos/implantes/cocktails fora de evidência A/B ou regulamentação vigente [S1 S2].\n7. **Mantenha-se atualizado**: leis e normativas evoluem, revise fluxos conforme novas RDCs/Resoluções CFM. ### Lista de Verificação (“Quick Ref” de Bolso) | Etapa | OK (√) |\n|-----------------------------------------|--------|\n| Consentimento LGPD coletado/documentado | |\n| Captura IA revisada quanto à qualidade | |\n| Estrutura SOAP está completa/contextual | |\n| Medicamentos manipulados detalhados (dose, lote, via, justificativa) | |\n| Motivação clínica registrada (não estética/anti-aging) | |\n| Revisão humana completa (antes de assinar) | |\n| Assinatura vinculada ao médico | |\n| Prontuário integrado com rastreio/auditoria | |\n| Exportação para farmácia/magistral validada | |\n| Backup/arquivamento de todas as versões | | --- ## 11. Caso Clínico Denso – Aplicação Prática e Teaching Point **Paciente:** Sônia M., 43 anos, professora, DM2 controlado (HbA1c 6,7%), hipotireoidismo (uso de levotiroxina 75 mcg/d), IMC 35,2; queixa de emagrecimento difícil, fadiga crônica, história de candidíase recorrente e desejo de iniciar “peptídeo para metabolismo”. Consulta gravada por IA, clínica utiliza scribebot para notas SOAP. Dados do contexto extraídos pelo scribe:\n1. “Paciente feminina, 43 anos, DM2 e hipotireoidismo”\n2. “Trata hipertensão com losartana”\n3. “Refere candidíase recorrente”\n4. “Solicita peptídeo para emagrecimento”\n5. “Está com IMC 35,2 kg/m², antropometria recente”\n6. “Traz exames: HbA1c 6,7%, TSH 2,5”\n7. “Interessada em soroterapia ou implante”\n8. “Diz estar cansada de dietas” Alternativas de condução pós-IA:\nA. Aceitar sumário SOAP proposto pela IA (“Paciente feminina, 43 anos, DM2, hipotireoidismo, IMC 35,2 – solicita uso de peptídeo. Retorno em 60 dias.”) e prescrever GLP-1 manipulado, sem detalhamento.\nB. Revisar a nota, adicionar justificativa clínica detalhada para uso de tirzepatida (obesidade grau 2, falha terapêutica pregressa, base fase 3), explicitar dose, via, registro ANVISA, plano de monitoramento e contraindicar implante ou drip fora de registro.\nC. Aprovar nota e solicitar manipulado off-label à farmácia com prescrição apenas “peptídeo para emagrecer”, sem detalhar dose, perfil do paciente ou vigilância.\nD. Liberar nota e prescrição sem revisão, pois IA captou os principais diagnósticos e queixa chefe. **Resposta correta: B.**\n- **Justificativa:** Apenas a revisão minuciosa, com detalhamento do racional clínico para tirzepatida (aprovada fase 3 para DM2 e obesidade), registro ANVISA e monitoramento ativo garante rastreabilidade ética, regulatória e protege a clínica/farmácia de infração ética ou penal. Omissões de dose, via e motivação não são minimizadas pelo modelo – ao contrário, IA pode camuflar a ausência se não houver revisão HUMANA. --- ## 12. Slides – Resumo Visual para Ensino Avançado (8 a 12 slides) ### 1. Título\n- IA na Documentação Clínica: SOAP, Sumários e o Risco da Nota Bonita e Errada ### 2. Bases Científicas\n- Tabela: Evidência de desempenho em scribebots (acurácia, erro, rejeição)\n- Bullet: Falhas típicas (omissões, generalizações) ### 3. Risco “Nota Bonita e Errada”\n- Barra: % de notas com erro crítico por etapa (SOAP, sumário, medicamento manipulado)\n- Bullet: Exemplo realista (caso Sônia M.) ### 4. Fluxos Premium: Passo a Passo\n- Flowchart colorido: captura → segmentação → revisão humana → assinatura → integração ### 5. Pontos Críticos de Revisão Médica\n- Split: O que IA faz bem vs. o que médico NÃO pode delegar ### 6. Regulação CFM/ANVISA/LGPD\n- Tabela: Requisitos legais para documentação digital (prescrição manipulado, soroterapia, peptídeo) ### 7. O que NÃO fazer\n- Bullet: Red flags – situações proibidas ou críticas ### 8. Monitoramento e Segurança\n- Quadro: Como auditar notas IA; checklist premium ### 9. Caso Clínico\n- Step by step: Por que só a alternativa B é responsável/ética? ### 10. Pérolas e Key Points\n- Lista: 5–7 princípios para uso de IA em documentação premium ### 11. Quick Reference de Bolso\n- Tabela resumida do checklist (todas etapas essenciais) ### 12. Referências e Leitura Ampliada\n- Lista selecionada de diretrizes A, artigos DECIDE-AI, position paper Doutiva [S1, S2, S13] --- ## 13. Key Points (Bolso) 1. **A revisão humana é OBRIGATÓRIA:** IA nunca substitui a responsabilidade do médico sobre a nota clínica e prescrição.\n2. **“Nota bonita” sem conteúdo real é infração:** Documentação automatizada só é válida se fiel, completa e contextual.\n3. **Motivação clínica, dose, via e lote DEVEM constar em toda prescrição manipulada/esterilizada.**\n4. **Jamais delegue decisões sobre uso de peptídeos, hormônios, implantes ou soroterapia à IA, nem aceite sumário generificado para condutas regulamentadas.**\n5. **Consentimento LGPD é indispensável em todo fluxo digital com dados sensíveis.**\n6. **Auditoria periódica e integração segura são obrigatórias para clínicas premium e farmácias de manipulação.**\n7. **Falha de revisão pode ensejar responsabilização ética, cível e penal, além de danos ao paciente e à reputação institucional.** --- ## 14. Referências - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes—2010. Diabetes Care 2010. DOI 10.2337/dc10-s011.\n- [S13] Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med 2022. DOI 10.1038/s41591-022-01772-9.\n- CFM Resolução 2.333/2023, sobre implantes hormonais e condutas estéticas.\n- RDCs ANVISA relativas a manipulação estéril, prescrição médica e farmacovigilância.\n- Lei Geral de Proteção de Dados (LGPD) – Lei 13.709/2018. --- **DOUTIVA · ESCOLA DE PRESCRIÇÃO SUPERIOR** Monografia clínica premium · Versão 2026/2. (Módulo 3, Fluxos · IA na Prática Médica)",
+  "quick_ref": "# Guia de Bolso para Documentação Clínica com IA – Fluxo Seguro Doutiva | Etapa | Ação / Checklist |\n|-------------------------------------------|-------------------------------------------------------------|\n| Consentimento informado (LGPD) | Consentir gravação e uso de dados; registrar no prontuário |\n| Captura e transcrição IA | Garantir boa qualidade áudio, configurar idioma/região |\n| Estruturação SOAP completa | Confirmar domínios S, O, A, P estão contempletos |\n| Revisão humana obrigatória | Médico revisa texto, ajusta erros, complementa informações |\n| Detalhamento prescrição manipulada | Dose, via, lote, validade e justificativa clínica presentes |\n| Registro motivação para off-label/manipulado | Evidência, protocolo e rastreabilidade documentados |\n| Assinatura vinculada | Médico assina termo eletrônico com rastreabilidade |\n| Integração com sistemas externos | Exportação validada para farmácia/manipulação/SADT |\n| Auditoria periódica | Amostragem crítica e comparativa entre nota IA e evolução real | # Red Flags - Relatório sem revisão humana\n- Prescrição de peptídeos/implantes sem base regulatória\n- Dados incompletos ou genéricos para pacientes complexos\n- Ausência de consentimento para dados sensíveis\n- Falha na rastreabilidade do lote, validade ou via para manipulados # Checklist Rápido para Consultório - [ ] Consentimento LGPD obtido\n- [ ] Áudio/texto capturado com qualidade\n- [ ] Minuta SOAP completa entregue para revisão\n- [ ] Médico revisou e editou completamente\n- [ ] Prescrição manipulada com dose e justificativa clínica\n- [ ] Documento assinado pelo médico responsável\n- [ ] Exportação segura e auditável realizada\n- [ ] Plano de auditoria periódica estabelecido",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "43 anos"
+      },
+      {
+        "label": "Diagnósticos principais",
+        "value": "DM2 controlado, hipotireoidismo"
+      },
+      {
+        "label": "IMC",
+        "value": "35,2 kg/m²"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Emagrecimento difícil e fadiga crônica"
+      },
+      {
+        "label": "Solicitação",
+        "value": "Peptídeo para emagrecimento"
+      },
+      {
+        "label": "Exames recentes",
+        "value": "HbA1c 6,7%, TSH 2,5"
+      },
+      {
+        "label": "Uso de medicação concomitante",
+        "value": "Levotiroxina 75 mcg/dia, losartana"
+      },
+      {
+        "label": "Tipo de documentação",
+        "value": "Consulta gravada, nota gerada por IA"
+      }
+    ],
+    "title": "Uso Ético de IA em Consulta para Paciente com Obesidade e Diabetes tipo 2",
+    "reward": 100,
+    "options": [
+      {
+        "label": "Aceitar nota IA e prescrever GLP-1 manipulado sem detalhamento",
+        "correct": false,
+        "rationale": "Nota incompleta e sem detalhamento de dose, via, registro e monitoramento, o que expõe paciente e clínica a riscos."
+      },
+      {
+        "label": "Revisar nota, incluir base fase 3 para tirzepatida, detalhar dose, via e plano monitoramento",
+        "correct": true,
+        "rationale": "Conduta ética e segura, seguindo regulamentação ANVISA/CFM, garantindo rastreabilidade e segurança para paciente e prescritor."
+      },
+      {
+        "label": "Aprovar nota e solicitar manipulado off-label sem justificativa detalhada",
+        "correct": false,
+        "rationale": "Prescrição off-label sem documentação adequada é risco ético e legal."
+      },
+      {
+        "label": "Liberar nota e prescrição sem revisão, pois IA captou principais dados",
+        "correct": false,
+        "rationale": "Desconsidera a necessidade obrigatória da revisão humana, violando normas éticas e legais."
+      }
+    ],
+    "question": "Qual a conduta ética e técnica adequada diante da nota clínica gerada por IA e da solicitação da paciente?",
+    "vignette": "Paciente Sônia M., 43 anos, professora, apresenta DM2 controlado (HbA1c 6,7%), hipotireoidismo em uso regular de levotiroxina, IMC 35,2 e queixa de fadiga crônica e emagrecimento difícil. Solicita avaliação para uso de peptídeo manipulável para emagrecimento. Consulta foi gravada e um scribe IA gerou a nota clínica automaticamente.",
+    "teaching": "Mesmo com a geração automatizada da nota clínica, a responsabilidade final pela fidelidade e completude da nota é do médico. Neste caso, é imperativo revisar a nota gerada pela IA para garantir que inclua justificativa clínica clara para o uso do peptídeo (preferencialmente baseado em evidência robusta e registro ANVISA), dados completos de dose, via e duração, bem como contraindicações e plano de monitoramento. A aprovação de notas genéricas ou incompletas, bem como a prescrição sem detalhamento rigoroso, sujeita o médico a riscos éticos e legais, além de potencial prejudicar o paciente. Portanto, a alternativa correta enfatiza a revisão detalhada e o uso de terapias aprovadas, com planejamento de acompanhamento e rastreabilidade integral, conforme resumos e normativas Doutiva."
+  },
+  "refs": [
+    {
+      "url": "https://doi.org/10.1038/s41591-022-01772-9",
+      "citation": "Vasey B et al. Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Nat Med. 2022; DOI 10.1038/s41591-022-01772-9."
+    },
+    {
+      "citation": "Posicionamento Doutiva – hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "url": "https://doi.org/10.2337/dc10-s011",
+      "citation": "Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care. 2010; DOI 10.2337/dc10-s011."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023 – Implantes Hormonais e Estética."
+    },
+    {
+      "citation": "ANVISA. RDCs relativas a manipulação estéril e prescrição regulamentada."
+    },
+    {
+      "url": "http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709.htm",
+      "citation": "Lei Geral de Proteção de Dados (LGPD) – Lei nº 13.709/2018."
+    }
+  ],
+  "status": "published"
+}

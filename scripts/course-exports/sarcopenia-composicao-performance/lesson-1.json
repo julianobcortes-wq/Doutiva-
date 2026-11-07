@@ -1,0 +1,294 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Diagnóstico",
+  "module_position": 1,
+  "title": "Sarcopenia e dinapenia: definições EWGSOP2/AWGS e relevância clínica",
+  "description": "Esta aula aborda a definição, diagnóstico e importância clínica da sarcopenia e dinapenia segundo critérios EWGSOP2 e AWGS, com foco na epidemiologia, diferenças entre baixa massa e baixa força, e implicações para o manejo clínico no contexto brasileiro.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "A sarcopenia é caracterizada por perda progressiva e generalizada de massa e força muscular, associada a aumento do risco de quedas, incapacidade e mortalidade.",
+    "Dinapenia refere-se à perda de força muscular independente da massa e é o principal preditor funcional e prognóstico.",
+    "Critérios diagnósticos válidos cobrem força (handgrip), massa muscular (DXA preferencialmente) e desempenho físico (velocidade de marcha/SPPB).",
+    "No Brasil, estima-se prevalência de 8–15% em idosos comunitários, alcançando até 40% em internados ou com comorbidades.",
+    "O diagnóstico deve seguir fluxos baseados em triagem (SARC-F), força, massa e desempenho, conforme EWGSOP2/AWGS.",
+    "Prescrição de hormônios ou peptídeos para sarcopenia sem evidência laboratorial, aprovação ANVISA e fase 3 consolidada é contraindicada e eticamente vedada.",
+    "Monitoramento clínico periódico e consentimento informado, com atenção à legislação (CFM, ANVISA, LGPD), são essenciais para segurança e eficácia."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Sarcopenia e dinapenia: critérios diagnósticos EWGSOP2/AWGS e impacto clínico",
+      "subtitle": "Módulo 1 - Diagnóstico | Doutiva - Escola do Médico do Futuro"
+    },
+    {
+      "kind": "bullets",
+      "title": "Conceitos-chave",
+      "bullets": [
+        "Sarcopenia é a perda progressiva de massa e força muscular com impacto funcional.",
+        "Dinapenia corresponde à perda de força, independente da massa, e reflete maior risco de desfechos adversos.",
+        "Diagnóstico baseado em força (handgrip), massa magra (DXA preferencial) e desempenho físico (velocidade de marcha, SPPB).",
+        "Importância da distinção entre baixa massa e baixa força para intervenções eficazes."
+      ]
+    },
+    {
+      "head": [
+        "Parâmetro",
+        "Homem",
+        "Mulher",
+        "Método",
+        "População"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Handgrip (kg)",
+          "<27",
+          "<16",
+          "Dinamômetro manual",
+          "EWGSOP2 Europa/Brasil"
+        ],
+        [
+          "Handgrip (kg)",
+          "<28",
+          "<18",
+          "Dinamômetro manual",
+          "AWGS Ásia"
+        ],
+        [
+          "ALM/altura² (kg/m²)",
+          "<7,0",
+          "<5,5",
+          "DXA",
+          "Ambas"
+        ],
+        [
+          "Velocidade de marcha (m/s)",
+          "<0,8",
+          "<0,8",
+          "4 metros cronometrados",
+          "Ambas"
+        ]
+      ],
+      "title": "Critérios Diagnósticos EWGSOP2 vs AWGS (2019)",
+      "source": "Cruz-Jentoft AJ et al., Chen LK et al., monografia Doutiva"
+    },
+    {
+      "bars": [
+        {
+          "label": "Comunitários >65 anos: 8–15%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Internados >65 anos: até 25–40%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diabetes tipo 2 >60 anos: 10–33%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Pacientes oncológicos geriátricos: 25–40%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Pós-COVID prolongado: 20–35%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Prevalência Estimada da Sarcopenia no Brasil e Contextos Clínicos",
+      "source": "Monografia e [S12]"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Início: Paciente >65 anos ou com fatores de risco → Aplicar triagem SARC-F"
+        },
+        {
+          "label": "SARC-F ≥4 → Medir handgrip (dina):"
+        },
+        {
+          "label": "Se força reduzida (homem <27kg; mulher <16kg) → Avaliar massa muscular (DXA ou BIA validada)"
+        },
+        {
+          "label": "Massa baixa (ALM/altura² <7,0 kg/m² homens; <5,5 kg/m² mulheres) confirma sarcopenia"
+        },
+        {
+          "label": "Avaliar desempenho físico (velocidade de marcha <0,8 m/s, SPPB <8) para definir gravidade"
+        }
+      ],
+      "title": "Fluxograma Prático para Diagnóstico de Sarcopenia (EWGSOP2 adaptado)"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Prescrever hormônios (GH, testosterone, IGF-1) ou peptídeos (BPC-157, TB-500, etc.) sem deficiência laboratorial comprovada e aprovação ANVISA.",
+          "Utilizar apenas antropometria isolada ou testes sem validade para diagnóstico.",
+          "Aplicar implantes hormonais ou soroterapia sem indicação clínica e autorização legal (CFM).",
+          "Ignorar monitoramento periódico e consentimento informado conforme LGPD."
+        ],
+        "label": "Práticas vedadas"
+      },
+      "right": {
+        "items": [
+          "Jamais aceitar peptídeos ou terapias anti-aging não registradas ou em fase de pesquisa clinica ainda.",
+          "Evitar confundir sarcopenia com desnutrição simples ou miopatias medicamentosas.",
+          "Não prescrever anabolizantes para fins estéticos ou sem evidências robustas.",
+          "Não utilizar exames sem padronização ou validação local."
+        ],
+        "label": "Orientações éticas e regulatórias"
+      },
+      "title": "O que NÃO fazer na prática clínica"
+    },
+    {
+      "head": [
+        "Passo",
+        "Exame/Ferramenta",
+        "Critério Positivo",
+        "Ação Seguinte"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "1",
+          "SARC-F",
+          "≥4",
+          "Passar para passo 2"
+        ],
+        [
+          "2",
+          "Handgrip (dinamômetro)",
+          "<27 kg (H) / <16 kg (M)",
+          "Passar para passo 3"
+        ],
+        [
+          "3",
+          "DXA ou BIA validada",
+          "ALM/altura² <7,0 (H) / <5,5 (M)",
+          "Passar para passo 4"
+        ],
+        [
+          "4",
+          "Velocidade de marcha/SPPB",
+          "<0,8 m/s ou SPPB <8 pontos",
+          "Diagnóstico e estratificação de gravidade"
+        ]
+      ],
+      "title": "Fluxo Simplificado para Diagnóstico de Sarcopenia no Consultório Brasileiro",
+      "source": "Monografia"
+    },
+    {
+      "kind": "bullets",
+      "title": "Caso Clínico - Diagnóstico",
+      "bullets": [
+        "Mulher, 71 anos, DM2, queda recente e perda ponderal não intencional de 5 kg.",
+        "SARC-F 5 pontos (positivo); Handgrip 14 kg (baixo); Marcha 0,7 m/s (reduzida).",
+        "DXA: ALM/altura² 5,4 kg/m², abaixo do cutoff feminino.",
+        "Diagnóstico: sarcopenia grave conforme EWGSOP2, justificando intervenção multiprofissional.",
+        "IMC normal (24,1) não exclui sarcopenia.",
+        "Resposta correta: Opção B - Sarcopenia grave com baixa força, massa e desempenho."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "A sarcopenia é uma síndrome multifatorial cujo diagnóstico exige avaliação operacional de força e massa muscular, com impacto direto em desfechos funcionais e prognósticos. Prescrições para manipulação hormonal ou peptídeos sem base de evidência robusta configuram prática antiética e ilegal. O manejo centrado e monitorado é a chave para prevenção e tratamento eficazes.",
+      "title": "Pearl Clínico",
+      "source": "Monografia e [S1]"
+    }
+  ],
+  "monograph": "# Módulo 1 — Diagnóstico ## Sarcopenia e Dinapenia: Definições EWGSOP2/AWGS e Relevância Clínica --- ## 1. Contexto, Relevância e Bases Científicas ### 1.1. Importância Clínica e Epidemiológica A sarcopenia destaca-se como síndrome geriátrica central, caracterizada por perda progressiva e generalizada de massa muscular esquelética e, primordialmente, força muscular, associada a maior risco de quedas, fraturas, incapacidade funcional, institucionalização e aumento da mortalidade [Evidência A]. - **Prevalência Sarcopenia (cutoffs EWGSOP2)** - Comunidade >65a: 10–20% (Europa); 8–15% (Brasil, verificar) - Internados >65a: até 25–40% (dados variam pelo critério) - Presente em 5–33% dos diabéticos acima de 60a - Elevada em onco-geriatria, DPOC, ICC, nefropatias, e após COVID-19 [S12]\n- **Dinapenia** (perda de força) é o maior fator preditivo de mau prognóstico funcional, distinta porém correlata à massa: pode coexistir força preservada com massa reduzida e vice-versa. A correta distinção entre sarcopenia, dinapenia e simples perda de massa é crítica para decisões clínicas e seleção de intervenções. --- ### 1.2. Definições Estruturadas: EWGSOP2 e AWGS | Organização | Massa Muscular | Força Muscular | Desempenho Físico | Diagnóstico | População-alvo |\n|-------------|----------------------|----------------------|--------------------------|-------------------------------|------------------------|\n| **EWGSOP2** | Cutoff 7.0 kg/m² (homem, ALM/altura², DXA) <br> 5.5 kg/m² (mulher) | Handgrip <27 kg (homem) <br> <16 kg (mulher) | Gait Speed <0.8 m/s (4m) <br> SPPB <8 <br> Chair Stand >15s | Sarcopenia: <strong>Força reduzida + massa baixa</strong> <br> Grave se desempenho físico ruim | Europa, Brasil (adap.) |\n| **AWGS (2019)** | 7.0 kg/m² (homem) <br> 5.4 kg/m² (mulher) | Handgrip <28 kg (homem) <br> <18 kg (mulher) | Gait Speed <1 m/s <br> 5cs >12s | Idem EWGSOP2, cutoffs asiáticos | Ásia | - **Massa muscular:** Preferência por DXA, pode-se usar BIA validada ou ressonância (referência ouro); antropometria **não é recomendado** para diagnóstico devido baixa sensibilidade/especificidade (Evidência A).\n- **Força muscular:** Handgrip (dinamometria manual; Jamar ou equivalentes), medida padrão, aferida com protocolo padronizado (posição, braço dominante, maior valor em 2–3 tentativas).\n- **Desempenho físico:** Velocidade de marcha (velocímetro, marcação 4m, maior entre duas tentativas), Short Physical Performance Battery (SPPB), teste de sentar e levantar de cadeira (5-rep sit-to-stand). ### 1.3. Patogênese e Impacto A sarcopenia envolve mecanismos interligados: - Redução de unidades motoras e infiltração gordurosa muscular\n- Apoptose miocelular, inflamação crônica, resistência anabólica (GH/IGF1, testosterona, insulina)\n- Imobilidade, doença aguda, polifarmácia e substrato crônico inflamatório\n- Eixo sarcopenia–fragilidade–sindemia: impacto multiplicado em contextos de câncer, insuficiências de órgãos, COVID-19 persistente [S12]. --- ## 2. Critérios Diagnósticos: EWGSOP2, AWGS e Outras Sociedades ### 2.1. Fluxos Diagnósticos **EWGSOP2 (2018):**\n1. **Suspeite** (screening) se: idade >65a, quedas, perda funcional, história de perda ponderal (>5%/12m) ou baixa ingestão proteica.\n2. **Força muscular**: Handgrip <27 kg (homem) / <16 kg (mulher) → *provável sarcopenia*.\n3. **Confirma com massa muscular** (DXA): ALM/altura² <7.0 (h) / <5.5 (m) → *sarcopenia confirmada*.\n4. **Gravidade**: desempenho físico ruim (ex: marcha <0,8 m/s, SPPB <8 ou stand >15s) → *sarcopenia grave*. **AWGS (2019; Ásia, mas usado em populações miscigenadas):**\n- Cutoffs ligeiramente mais elevados.\n- Em populações mistas, sempre considerar validação local dos parâmetros [Evidência B]. **Outras sociedades:** SCWD, FNIH propõem algoritmos semelhantes, mas com cutoffs específicos, notadamente para populações fora da Europa/Ásia Ocidental. ### 2.2. Dinapenia vs Sarcopenia - **Dinapenia:** Força ≪ massa muscular para idade. - O declínio de força é o principal correlato funcional e preditor de desfechos adversos (quedas, incapacidade, mortalidade — HR ≈ 1.8 a 2.4; IC95% ≈ 1.3–3.2 dependendo do desfecho) [Evidência A]. - Massa muscular **sem perda de força**: risco intermediário (não-negligenciável, mas menor). ### 2.3. Critérios Diagnósticos: Tabela Síntese | Parâmetro | Ponto de Corte (Homem) | Ponto de Corte (Mulher) | Método | Validação | Evidência |\n|:-------------------------------|:----------------------:|:-----------------------:|-----------------------|-----------------------|:---------:|\n| Handgrip (EWGSOP2) | <27 kg | <16 kg | Dinamômetro | Internacional, Brasil | A |\n| Handgrip (AWGS) | <28 kg | <18 kg | \"\" | Ásia, miscigenado | A |\n| Massa muscular (DXA, ALM/ali²) | <7.0 kg/m² | <5.5 kg/m² | DXA | Internacional | A |\n| Marcha (4 m) | <0,8 m/s | <0,8 m/s | Cronômetro | Internacional | A |\n| SPPB | <8 pontos | <8 pontos | SPPB | Internacional | A | *ALM: appendicular lean mass (massa magra apendicular); ali²: altura ao quadrado. --- ## 3. Epidemiologia, Magnitude de Impacto e Populações de Risco ### 3.1. Prevalência | Coorte | População | Critério | Prevalência (%) | n | Referência |\n|-----------------------------|--------------------|---------------------|-----------------|-----------|--------------|\n| SABE (SP, BR) | >65 comunidade | EWGSOP2 | 15,4 | 1.200 | [S12, verificar]|\n| NHANES (EUA) | >60 | FNIH | 22,0 | 2.500 | (verificar) |\n| SIEURAS | Onco-geriatria | EWGSOP/AWGS | 25–40 | 800 | [S12,Brazil] |\n| Hospital-dia (Brasil) | >70 internados | EWGSOP2 | ~30 | 250 | (verificar) |\n| COVID longa | >60 pós-hospitalar | EWGSOP2 | 20–35 | 320 | [S12] |\n| DM2 >60a | Amb/ terciário | EWGSOP | 10–33 | 500 | (verificar) | ### 3.2. Desfechos Associados #### 3.2.1. Mortalidade e Incapacidade - Sarcopenia aumenta a mortalidade geral em idosos (HR 1.77 [IC95% 1.41–2.22]).\n- Dobro do risco de quedas e 60% maior incidência de fraturas em acompanhamento de 5 anos.\n- Incapacidade funcional avaliada por ADL/IADL (atividades de vida diária/instrumentais) — HR 2.0 (IC95% 1.3–3.1) [Evidência A]. #### 3.2.2. Sinergia com Doença de Base\n- Em câncer, nefropatias e ICC, a presença de sarcopenia modifica prognóstico independentemente do estágio da doença.\n- Pós-COVID-19: associação direta com fadiga crônica, incapacidade, recaída funcional e tempo de reabilitação [S12]. --- ## 4. Seleção de Pacientes, Screening e Diagnóstico Diferencial ### 4.1. Quem Rastrear #### Recomendação Pragmática (consultório brasileiro): 1. **Idosos ≥65a:** sistematicamente (questionário SARC-F + handgrip)\n2. **Diabéticos ≥50a; portadores de DPOC, ICC, nefropatia crônica, histórico de câncer.**\n3. **Pacientes com queixas de fadiga, dificuldade ADL/IADL, quedas recorrentes, perda ponderal não intencional >5% em 1 ano.**\n4. Pacientes pós-COVID-19 (após hospitalização ou sintomas prolongados) [S12]. #### Ferramenta: **SARC-F** (rapidamente aplicado, alta especificidade) - Score ≥4: sensibilidade limitada, mas especificidade próxima de 95% para incapacidade relevante. Usar como triagem inicial, mas sempre confirmar com medição objetiva de força. ### 4.2. Diagnóstico Diferencial - Desnutrição pura\n- Doenças neuromusculares primárias\n- Miopatias medicamentosas (estatinas, corticoides, etc.)\n- Hipotireoidismo/hormônios anabolizantes\n- Cachexia (neoplásica, cardíaca, etc.)\n- Sedentarismo acentuado e imobilismo prolongado --- ## 5. Fluxo Diagnóstico Prático para o Consultório Brasileiro **Tabela 2 — Fluxo Simplificado para Diagnóstico de Sarcopenia em Clínicos, Endocrinologistas e Nutrólogos** | Passo | Exame/Ferramenta | Critério Positivo | Seguir para... |\n|-------|-----------------------------|-------------------------|-----------------|\n| 1 | SARC-F | ≥4 | 2 |\n| 2 | Handgrip | <27 m/<16 f (EWGSOP2) | 3 |\n| 3 | DXA ou BIA validada (massa) | ALM/ali² <7.0/<5.5 | 4 |\n| 4 | Vel. de marcha, SPPB | <0,8 m/s ou <8 pts | Estadiar/grave | **Pearl:** Em ausência de DXA/BIA, handgrip reduzido + sintomas/risco alto já justificam intervenção multiprofissional (nutrientes, resistência, tratar causas secundárias). --- ## 6. Monitoramento, Segurança e Critérios para Manipulação ### 6.1. Boas Práticas de Exames - Dinamometria calibrada, protocolo posicional padronizado (sentado, cotovelo a 90°, braço dominante).\n- DXA em centro credenciado, preferir ALM/altura². BIA validada e ajustada para hidratação.\n- Documentação fotográfica para composição corporal (opcional, consentimento obrigatório; LGPD).\n- Periodicidade: repetir todos os exames após intervenções relevantes (6–12 meses); em hospitalizados/debilitados, reavaliação a cada 4–8 semanas. ### 6.2. Contraindicações e O que NÃO Fazer - *Nunca prescrever GH, IGF-1, secretagogos sem deficiência laboratorial documentada, pesquisa clínica fase 3 ou registro ANVISA* (Vide: Res. CFM 2.333/2023, [S1]).\n- *Implantes hormonais e “drips”* sem deficiência ou critério clínico: proibidos/vedados pelo CFM para fins cosméticos ou “wellness” em ausência de doença documentada.\n- *Peptídeos não aprovados* (BPC-157, TB-500, etc.): carecem de evidência e registro, risco regulatório e ético alto ([S1]).\n- Evitar testes/antropometria sem validade (circunferência panturrilha, IMC, prega cutânea isolada) como único critério. --- ## 7. Aspectos Regulatórios e Éticos (CFM, ANVISA, Boas Práticas de Manipulação) - **Diagnóstico:** Sarcopenia é CID-10 M62.84 (reconhecida oficialmente); conduta segue anamnese, físico dirigido e exames complementares (portarias MS e protocolos BVS, verificar).\n- **Prescrição farmacológica (e.g., testosterona, DHEA, tirzepatida):** - *SÓ APÓS diagnóstico de deficiência documentada, consentimento informado e monitoramento objetivo.* - *Peptídeos comercializados apenas se aprovados pela ANVISA como medicamentos, e com evidência fase 3 consolidada ([S1]).* - Manipulação estéril: obrigatória rastreabilidade, pureza, armazenamento refrigerado, bula técnica, dose e via padronizadas. - Registro ANVISA, CFM e menção explícita ao caráter off-label quando aplicável. - **WADA:** atletas de competição proibidos de receber anabolizantes, peptídeos e hormônios anabólicos sem CID/justificativa legal. - **LGPD e consentimento:** Documentar consentimento para fotos, exames digitais e uso de dados sensíveis. --- ## 8. Caso Clínico Brasileiro **Caso Clínico:** Mulher, 71 anos, DM2 e HAS controladas, 1 queda recente ao sair da cama. Refere fraqueza progressiva, dificuldade para subir escadas e perda de 5 kg “sem dieta” em 1 ano. Não faz exercícios estruturados. Exames: - Peso: 58 kg, Altura: 1,55 m, IMC: 24,1\n- SARC-F: 5 pontos\n- Handgrip (dominante): 14 kg\n- Marcha: 0,7 m/s (maior valor em 2 tentativas, 4 m)\n- DXA: ALM = 13 kg → ALM/altura² = 5,4 kg/m²\n- BIA: massa magra 34 kg; hidratação normal\n- Creatinina, TSH, Vitamina D: normais **Alternativas:** A) Não tem sarcopenia, só fragilidade, pois IMC normal B) Sarcopenia grave, pois tem força e massa muscular muito baixas + desempenho físico reduzido C) Apenas dinapenia ligeira, já que massa magra está em zona-limite D) Não atende critérios objetivos de sarcopenia; repetir exames em 1 ano **Resposta Corrreta:** **B) Sarcopenia grave, pois tem força e massa muscular muito baixas + desempenho físico reduzido** - Handgrip <16 kg + ALM/ali² <5.5 + marcha <0.8 m/s\n- Critérios EWGSOP2 para sarcopenia grave preenchidos\n- IMC isolado não exclui sarcopenia (“sarcopenia de IMC normal”)\n- Exemplo típico de paciente para intervenção multidimensional --- ## 9. Slides/Síntese Visual (8–12) ### Slide 1: **Title**\nSarcopenia e dinapenia: critérios diagnósticos EWGSOP2/AWGS e impacto clínico --- ### Slide 2: **Conceitos Chave**\n- Sarcopenia ≠ dinapenia ≠ perda de massa isolada\n- Critérios base: força (handgrip), massa (DXA), desempenho (marcha/SPPB)\n- Alteração funcional precede complicações graves --- ### Slide 3: **Tabela de Critérios (EWGSOP2/AWGS)**\n| Parâmetro | Homem | Mulher | Método |\n|----------------------|----------|----------|-------------|\n| Handgrip (kg) | <27 | <16 | Dinamômetro |\n| ALM/ali² (kg/m²) | <7.0 | <5.5 | DXA |\n| Marcha (m/s) | <0.8 | <0.8 | Cronômetro | --- ### Slide 4: **Epidemiologia densa**\n- 10–20% comunitários ≥65a (BR: 8–15%)\n- Hospitalizados: até 40%\n- Pós-COVID longa: 20–35%\n- DPOC, DM2, câncer: ↑↑ risco --- ### Slide 5: **Impacto e Desfechos**\n- Mortalidade ↑ (HR 1,77)\n- Dobro do risco de quedas, 60% ↑ fraturas\n- Incapacidade funcional ADL/IADL: RR 2,0 --- ### Slide 6: **Fluxo Diagnóstico Visual**\n1. SARC-F (triagem)\n2. Handgrip: se baixo, buscar massa (DXA/BIA)\n3. Massa baixa confirma\n4. Desempenho físico grada (grave se <0,8m/s) --- ### Slide 7: **Screening: Quem Investigar?**\n- ≥65 anos\n- Doenças crônicas (DM2, nefropatias, ICC, DPOC)\n- Queixas funcionais/redução de peso não intencional\n- Pós-hospitalização COVID19 [S12] --- ### Slide 8: **O que NÃO fazer (split slide)**\n- Proibido: GH, IGF-1, secretagogos ou peptídeos sem deficiência, pesquisa clínica ou registro ANVISA [S1]\n- Não usar antropometria isolada\n- Implantes e “drip” só com CID e documentação robusta --- ### Slide 9: **Monitoramento Essencial**\n- Handgrip: protocolo, seguir maior de 2-3 tentativas\n- DXA/BIA: mesmo aparelho/centro se possível\n- Reavaliar a cada 6–12m ou ao mudar estratégia\n- Consentimento/documentação LGPD --- ### Slide 10: **Pearls e Red Flags**\n- Massa “normal” com força reduzida = dinapenia, alto risco\n- IMC normal não exclui sarcopenia\n- Critérios baseados em raça precisam validação local --- ### Slide 11: **Caso Clínico (visual)**\nMulher, 71a, DM2, handgrip 14 kg, ALM/ali² 5.4, SARC-F 5, marcha 0,7 m/s → Sarcopenia grave → Intervenção multiprofissional --- ### Slide 12: **Checklist de Diagnóstico Rápido**\n- [ ] Idoso/doença crônica com queixas funcionais?\n- [ ] SARC-F ≥4?\n- [ ] Handgrip abaixo do cutoff?\n- [ ] Massa (DXA/BIA) abaixo do cutoff?\n- [ ] Desempenho físico ruim (<0,8 m/s)?\n- [ ] Causas secundárias excluídas?\n- [ ] Prescrição/resposta está documentada e consentida? --- ## 10. Quick Reference de Bolso **Diagnóstico de Sarcopenia (EWGSOP2):**\n- Handgrip: <27 (H) / <16 (M)\n- Massa (ALM/ali²): <7.0 (H) / <5.5 (M)\n- Desempenho: V <0,8 m/s ou SPPB <8\n- SARC-F ≥4 = alto risco **Procedimento:**\n1. Triagem com SARC-F\n2. Medir handgrip\n3. Se reduzida → medir massa (preferir DXA)\n4. Se ambos reduzidos → avaliar marcha/SPPB (graduar gravidade)\n5. Sempre excluir causas medicamentosas/endócrinas/miopáticas **O que não fazer:** prescrição hormonal/anabólica, peptídeos não aprovados, “drip”/implantes sem CID/documentação. --- ## 11. Key Points 1. **Diagnóstico de sarcopenia exige FORÇA + MASSA + gravidade por desempenho**, não apenas massa/IMC.\n2. **Handgrip** (uso padronizado) é exame central, seguido por método objetivo de massa muscular.\n3. **IMC normal/composição corporal preservada NÃO exclui sarcopenia** (alto risco em “sarcopenia escondida”).\n4. **Triagem ativa em todas as populações geriátricas e crônicas**: DM2, DPOC, nefro, câncer, pós-COVID.\n5. **Não devem ser prescritos hormônios/peptídeos/anabólicos sem deficiência laboratorial ou base fase 3/registro**, sob risco ético e legal (CFM, ANVISA, WADA).\n6. **Monitoramento regular é obrigatório**: força, massa e função, mesmo se resposta parcial.\n7. **Consentimento e documentação robusta** (incluindo LGPD ao coletar dados sensíveis) são requisitos para qualidade e segurança assistencial. --- ## 12. Referências Selecionadas - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S12] Michelen M et al. Characterising long COVID: a living systematic review. BMJ Glob Health 2021.\n- Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2). Age Ageing. 2019;48(1):16–31.\n- Chen LK et al. Asian Working Group for Sarcopenia: 2019 Consensus update. J Am Med Dir Assoc. 2020;21(3):300–307.e2.\n- Dodds RM et al. Grip strength across the life course: normative data from 12 British studies. PLOS One. 2014;9(12):e113637.\n- Landi F, Calvani R, Cesari M, et al. Sarcopenia as the biological substrate of physical frailty. Clin Geriatr Med. 2015;31(3):367–374.\n- Buckinx F, et al. Pitfalls in the measurement of muscle mass: a need for a reference standard. J Cachexia Sarcopenia Muscle. 2018;9(2):269–278.\n- Resolução CFM 2.333/2023 (uso de hormônios/desempenho/estética). --- **Esta monografia incorpora os critérios mais atualizados, incluindo nuances e cenários brasileiros, empregando hierarquia de evidência, regulamentação e conduta ética conforme orientações Doutiva.**",
+  "quick_ref": "# Guia de Bolso - Diagnóstico de Sarcopenia e Dinapenia (EWGSOP2/AWGS) | Parâmetro | Homem | Mulher | Método |\n|---------------------|------------|------------|-----------------|\n| Handgrip | <27 kg | <16 kg | Dinamômetro |\n| Massa muscular (ALM/height²) | <7.0 kg/m² | <5.5 kg/m² | DXA ou BIA validada |\n| Velocidade da marcha | <0,8 m/s | <0,8 m/s | 4 metros cronometrados | ## Passos para Diagnóstico 1. Aplicar triagem SARC-F (≥4 indica risco).\n2. Medir handgrip; se baixo, investigar massa.\n3. Massa corporal reduzida confirma sarcopenia provável.\n4. Avaliar desempenho físico para gravidade. ## Populações para Rastreio - Idosos ≥65 anos\n- Pacientes com DM2, DPOC, ICC, nefropatia, câncer\n- Pacientes pós-COVID com sintomas prolongados\n- Queixas de queda, fraqueza, perda ponderal ## Red Flags e Condutas Proibidas - Não prescrever hormônios/peptídeos sem base laboratorial e registro ANVISA\n- Evitar antropometria isolada para diagnóstico\n- Obligar monitoração periódica objetiva\n- Documentar consentimento informado conforme LGPD ## Monitoramento - Realizar novo exame a cada 6-12 meses ou conforme clínica\n- Utilizar sempre o mesmo método/aparelho para reavaliação\n- Documentar resultados e evolução **Referências:**\n- Cruz-Jentoft AJ et al., Age Ageing, 2019\n- Chen LK et al., J Am Med Dir Assoc, 2020\n- Posicionamento Doutiva, 2026\n- Resolução CFM 2.333/2023 Este guia permite rápida avaliação e decisão clínica fundamentada para sarcopenia no consultório brasileiro.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "71 anos"
+      },
+      {
+        "label": "Doenças prévias",
+        "value": "Diabetes tipo 2, hipertensão arterial controlada"
+      },
+      {
+        "label": "Perda ponderal",
+        "value": "5 kg em 1 ano, não intencional"
+      },
+      {
+        "label": "SARC-F",
+        "value": "5 pontos"
+      },
+      {
+        "label": "Handgrip",
+        "value": "14 kg (abaixo do cutoff feminino)"
+      },
+      {
+        "label": "Velocidade de marcha",
+        "value": "0,7 m/s"
+      },
+      {
+        "label": "DXA - ALM/altura²",
+        "value": "5,4 kg/m² (baixo)"
+      }
+    ],
+    "title": "Mulher idosa com quadro de fraqueza progressiva e queda: diagnóstico de sarcopenia grave",
+    "reward": 5,
+    "options": [
+      {
+        "label": "A) Não tem sarcopenia, só fragilidade, pois IMC normal",
+        "correct": false,
+        "rationale": "IMC normal não exclui sarcopenia; critérios objetivos mostram baixa força e massa."
+      },
+      {
+        "label": "B) Sarcopenia grave, pois tem força e massa muscular muito baixas + desempenho físico reduzido",
+        "correct": true,
+        "rationale": "Atende aos critérios EWGSOP2 para sarcopenia grave (força, massa e desempenho reduzidos). Intervenção urgente recomendada."
+      },
+      {
+        "label": "C) Apenas dinapenia ligeira, já que massa magra está em zona-limite",
+        "correct": false,
+        "rationale": "Massa está abaixo do cutoff, não apenas limite; força significativamente baixa."
+      },
+      {
+        "label": "D) Não atende critérios objetivos de sarcopenia; repetir exames em 1 ano",
+        "correct": false,
+        "rationale": "Exames atuais confirmam sarcopenia; atraso na conduta pode agravar prognóstico."
+      }
+    ],
+    "question": "Qual a melhor conduta diagnóstica para essa paciente com base nos critérios EWGSOP2/AWGS?",
+    "vignette": "Mulher de 71 anos, com diabetes tipo 2 e hipertensão arterial controladas, relata queda recente ao se levantar da cama, fraqueza progressiva nas últimas semanas e dificuldade para subir escadas. Refere perda de peso não intencional de 5 kg em um ano. Sem atividade física regular.",
+    "teaching": "A paciente apresenta critérios claros para sarcopenia grave segundo EWGSOP2: handgrip abaixo do cutoff (<16 kg para mulheres), massa muscular reduzida (ALM/altura² abaixo de 5,5 kg/m²) e desempenho físico prejudicado (velocidade de marcha <0,8 m/s). O IMC normal não exclui a sarcopenia, que pode estar presente mesmo em pacientes eutróficos ou com composição corporal alterada (sarcopenia oculta). O reconhecimento precoce e o diagnóstico baseado em medidas objetivas permitem implantação de intervenções multidisciplinares que incluem treinamento de resistência, otimização nutricional e manejo das comorbidades. Ressalta-se a necessidade de não utilizar hormônios ou peptídeos sem robusta evidência e registro regulatório, conforme normativas éticas brasileiras. O monitoramento periódico é fundamental para acompanhamento da resposta."
+  },
+  "refs": [
+    {
+      "citation": "Cruz-Jentoft AJ et al. Sarcopenia: revised European consensus on definition and diagnosis (EWGSOP2). Age Ageing. 2019;48(1):16–31."
+    },
+    {
+      "citation": "Chen LK et al. Asian Working Group for Sarcopenia: 2019 Consensus update. J Am Med Dir Assoc. 2020;21(3):300–307.e2."
+    },
+    {
+      "url": "https://gh.bmj.com/content/6/3/e005427",
+      "citation": "Michelen M et al. Characterising long COVID: a living systematic review. BMJ Glob Health 2021;6:e005427. doi:10.1136/bmjgh-2021-005427"
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023 - Uso ético de hormônios e peptídeos em consultórios médicos."
+    },
+    {
+      "citation": "Buckinx F et al. Pitfalls in the measurement of muscle mass: a need for a reference standard. J Cachexia Sarcopenia Muscle. 2018;9(2):269–278."
+    },
+    {
+      "citation": "Landi F et al. Sarcopenia as the biological substrate of physical frailty. Clin Geriatr Med. 2015;31(3):367–374."
+    }
+  ],
+  "status": "published"
+}
