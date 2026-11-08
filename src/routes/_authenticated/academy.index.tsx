@@ -51,8 +51,13 @@ function AcademyPage() {
   const expert = hydrated && profile.user_class === "valley_expert";
   const courses = data ?? [];
   const business = courses.filter((c) => c.category === "Negócios");
-  const featured = courses.filter((c) => c.featured && c.category !== "Negócios");
-  const rest = courses.filter((c) => !c.featured && c.category !== "Negócios");
+  const flagshipManip = courses.find((c) => c.slug === "manipulados-injetaveis-criterio");
+  const featured = courses.filter(
+    (c) => c.featured && c.category !== "Negócios" && c.slug !== "manipulados-injetaveis-criterio",
+  );
+  const rest = courses.filter(
+    (c) => !c.featured && c.category !== "Negócios" && c.slug !== "manipulados-injetaveis-criterio",
+  );
   const subscribed = courses.some((c) => c.subscribed);
 
   return (
@@ -74,11 +79,11 @@ function AcademyPage() {
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
                 ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
-                : "Peptídeos e Negócios liberados na sua conta. Clínica avançada abre com Protocolos."}
+                : "Peptídeos, Manipulados injetáveis e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
           </p>
           {!subscribed && (
             <p className="mt-4 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
-              Peptídeos + Negócios · acesso livre
+              Peptídeos · Manipulados · Negócios · acesso livre
             </p>
           )}
         </div>
@@ -105,6 +110,30 @@ function AcademyPage() {
                 <CourseCard key={c.id} course={c} large />
               ))}
             </div>
+          </div>
+        </section>
+      )}
+
+      {flagshipManip && (
+        <section className="border-b border-border/50 bg-gradient-to-b from-[#0a1014] to-background">
+          <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+            <div>
+              <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Flagship clínico · acesso livre</div>
+              <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">{flagshipManip.title}</h2>
+              <p className="mt-4 max-w-xl text-base text-muted-foreground">{flagshipManip.subtitle}</p>
+              <p className="mt-3 max-w-xl text-sm text-muted-foreground/90">
+                Doze aulas densas: qualidade da magistral, incretinas e hormônios manipulados, zona cinzenta,
+                farmácia estéril, ANVISA/CFM e protocolo ético — a porta clínica da conduta Purus.
+              </p>
+              <Link
+                to="/academy/$slug"
+                params={{ slug: flagshipManip.slug }}
+                className="mt-8 inline-flex items-center gap-2 rounded-sm bg-gold px-5 py-3 text-[11px] uppercase tracking-[0.22em] text-primary-foreground transition hover:bg-gold-soft"
+              >
+                Entrar no curso <ArrowUpRight className="h-3.5 w-3.5" />
+              </Link>
+            </div>
+            <CourseCard course={flagshipManip} large />
           </div>
         </section>
       )}
