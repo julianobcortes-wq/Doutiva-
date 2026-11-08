@@ -55,6 +55,7 @@ function AcademyPage() {
     "manipulados-injetaveis-criterio",
     "hormonios-implantes-criterio",
     "soroterapia-injetaveis-estereis",
+    "obesidade-precisao-consultorio",
   ]);
   const flagships = [
     {
@@ -74,6 +75,12 @@ function AcademyPage() {
       blurb:
         "16 aulas: formulações IV comuns, taxas seguras, vitaminas/ferro com critério, recusa de drip Instagram e setup de infusão.",
       cta: "Abrir Soroterapia",
+    },
+    {
+      course: courses.find((c) => c.slug === "obesidade-precisao-consultorio"),
+      blurb:
+        "16 aulas: fenótipos, armamentário oral e incretinas, massa magra, manutenção e protocolo 90 dias de emagrecimento.",
+      cta: "Abrir Emagrecimento",
     },
   ].filter((f) => f.course);
   const featured = courses.filter(
@@ -103,11 +110,11 @@ function AcademyPage() {
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
                 ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
-                : "Peptídeos, Manipulados, Hormônios, Soroterapia e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
+                : "Peptídeos, Manipulados, Hormônios, Soroterapia, Emagrecimento e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
           </p>
           {!subscribed && (
             <p className="mt-4 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
-              Peptídeos · Manipulados · Hormônios · Soroterapia · Negócios · livre
+              Peptídeos · Manipulados · Hormônios · Soroterapia · Emagrecimento · Negócios · livre
             </p>
           )}
         </div>
@@ -143,9 +150,9 @@ function AcademyPage() {
           <div className="mx-auto max-w-7xl px-6 py-16">
             <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Flagships clínicos · acesso livre</div>
             <h2 className="mt-3 max-w-3xl font-display text-3xl tracking-tight md:text-4xl">
-              Conduta Purus: magistral, eixo hormonal e infusão com critério.
+              Conduta Purus: magistral, hormônio, infusão e emagrecimento com critério.
             </h2>
-            <div className="mt-10 grid gap-8 lg:grid-cols-3">
+            <div className="mt-10 grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
               {flagships.map((f) => (
                 <div key={f.course!.slug} className="flex flex-col gap-5">
                   <div>

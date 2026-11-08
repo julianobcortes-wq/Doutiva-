@@ -5,6 +5,8 @@ export const FREE_COURSE_SLUGS = [
   "manipulados-injetaveis-criterio",
   "hormonios-implantes-criterio",
   "soroterapia-injetaveis-estereis",
+  "obesidade-precisao-consultorio",
+  "tirzepatida-incretinas-consultorio",
   "precificacao-margem-consultorio",
   "funil-clinico-agenda",
   "gestao-clinica-uma-pagina",
