@@ -1,13 +1,42 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { listCourses } from "@/lib/courses.functions";
-import { ArrowUpRight, Clock, Lock } from "lucide-react";
+import { ArrowUpRight, Briefcase, Clock, Lock } from "lucide-react";
 import { useValleyProfile } from "@/lib/use-city-profile";
 
 const coursesQuery = {
   queryKey: ["courses"],
   queryFn: () => listCourses(),
 };
+
+/** Visual accents for course covers — editorial, not generic AI purple. */
+const ACCENTS: Record<string, { wash: string; glow: string; mark: string }> = {
+  Negócios: {
+    wash: "from-[#0c1210] via-[#15201c] to-[#0a0e0c]",
+    glow: "bg-[radial-gradient(ellipse_at_25%_15%,rgba(201,169,98,0.28),transparent_55%),radial-gradient(ellipse_at_80%_90%,rgba(62,120,100,0.18),transparent_50%)]",
+    mark: "text-[#c9a962]/35",
+  },
+  Metabolismo: {
+    wash: "from-neutral-950 via-neutral-900 to-black",
+    glow: "bg-[radial-gradient(ellipse_at_30%_20%,oklch(0.82_0.13_205/0.22),transparent_55%)]",
+    mark: "text-gold/25",
+  },
+  Endocrinologia: {
+    wash: "from-neutral-950 via-[#121816] to-black",
+    glow: "bg-[radial-gradient(ellipse_at_70%_20%,rgba(120,160,130,0.2),transparent_55%)]",
+    mark: "text-sage/30",
+  },
+  default: {
+    wash: "from-neutral-900 via-black to-neutral-900",
+    glow: "bg-[radial-gradient(ellipse_at_30%_20%,oklch(0.82_0.13_205/0.2),transparent_55%)]",
+    mark: "text-gold/25",
+  },
+};
+
+function accentFor(category?: string | null) {
+  if (!category) return ACCENTS.default;
+  return ACCENTS[category] ?? ACCENTS.default;
+}
 
 export const Route = createFileRoute("/_authenticated/academy/")({
   head: () => ({ meta: [{ title: "Universidade Doutiva — Doutiva" }] }),
@@ -20,14 +49,19 @@ function AcademyPage() {
   const { profile, hydrated } = useValleyProfile();
   const expert = hydrated && profile.user_class === "valley_expert";
   const courses = data ?? [];
-  const featured = courses.filter((c) => c.featured);
-  const rest = courses.filter((c) => !c.featured);
+  const business = courses.filter((c) => c.category === "Negócios");
+  const featured = courses.filter((c) => c.featured && c.category !== "Negócios");
+  const rest = courses.filter((c) => !c.featured && c.category !== "Negócios");
   const subscribed = courses.some((c) => c.subscribed);
 
   return (
     <div>
       <section className="border-b border-border/60">
-        <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="relative mx-auto max-w-7xl overflow-hidden px-6 py-16">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute -right-20 top-0 h-64 w-64 rounded-full bg-gold/10 blur-3xl"
+          />
           <span className={`text-[10px] uppercase tracking-[0.3em] ${expert ? "text-sage" : "text-gold"}`}>
             {expert ? "Ensinar na Universidade" : "Universidade Doutiva"}
           </span>
@@ -38,7 +72,7 @@ function AcademyPage() {
             {expert
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
-                ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas."
+                ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
                 : "Peptídeos liberados na sua conta. Demais trilhas abrem com Protocolos."}
           </p>
           {!subscribed && (
@@ -49,9 +83,34 @@ function AcademyPage() {
         </div>
       </section>
 
+      {business.length > 0 && (
+        <section className="border-b border-border/50 bg-gradient-to-b from-[#0e1412] to-background">
+          <div className="mx-auto max-w-7xl px-6 py-16">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <div className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-gold">
+                  <Briefcase className="h-3.5 w-3.5" /> Negócios para médicos
+                </div>
+                <h2 className="mt-3 font-display text-3xl tracking-tight md:text-4xl">
+                  Precificar. Encher a agenda. Escalar com critério.
+                </h2>
+                <p className="mt-2 max-w-xl text-sm text-muted-foreground">
+                  Trilha editorial: porta do EAD → hábito → produtos mais caros — sem folder de indústria.
+                </p>
+              </div>
+            </div>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {business.map((c) => (
+                <CourseCard key={c.id} course={c} large />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {featured.length > 0 && (
         <section className="mx-auto max-w-7xl px-6 py-16">
-          <h2 className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Em destaque</h2>
+          <h2 className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Em destaque · clínica</h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {featured.map((c) => (
               <CourseCard key={c.id} course={c} large />
@@ -116,19 +175,35 @@ function CourseCard({
   large?: boolean;
 }) {
   const locked = course.access === "locked";
+  const accent = accentFor(course.category);
+  const isBiz = course.category === "Negócios";
   return (
     <Link
       to="/academy/$slug"
       params={{ slug: course.slug }}
-      className="group relative flex flex-col overflow-hidden rounded-sm border border-border/60 bg-card transition hover:border-gold/50"
+      className={`group relative flex flex-col overflow-hidden rounded-sm border bg-card transition ${
+        isBiz
+          ? "border-[#c9a962]/25 hover:border-[#c9a962]/55"
+          : "border-border/60 hover:border-gold/50"
+      }`}
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-neutral-900 via-black to-neutral-900">
+      <div className={`relative aspect-[4/3] overflow-hidden bg-gradient-to-br ${accent.wash}`}>
+        <div aria-hidden className={`absolute inset-0 ${accent.glow}`} />
         <div
           aria-hidden
-          className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,oklch(0.82_0.13_205/0.2),transparent_55%)]"
+          className="absolute inset-0 opacity-[0.07]"
+          style={{
+            backgroundImage:
+              "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
+          }}
         />
-        <div className="absolute inset-0 flex items-end p-6">
-          <span className="font-display text-6xl leading-none text-gold/25">{course.title.charAt(0)}</span>
+        <div className="absolute inset-0 flex items-end justify-between p-6">
+          <span className={`font-display text-6xl leading-none ${accent.mark}`}>
+            {course.title.charAt(0)}
+          </span>
+          {isBiz && (
+            <Briefcase className="mb-1 h-5 w-5 text-[#c9a962]/50 transition group-hover:text-[#c9a962]" />
+          )}
         </div>
         <div className="absolute right-4 top-4 flex flex-col items-end gap-2">
           <span className="rounded-sm border border-gold/30 bg-background/60 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-gold backdrop-blur">
