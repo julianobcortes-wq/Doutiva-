@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { toast } from "sonner";
 import { useValleyProfile } from "@/lib/use-city-profile";
 import { skillsFor } from "@/lib/valley";
-import { SkillTree, StageCard } from "@/components/valley/valley-ui";
+import { HumanEvolutionMap, SkillTree, StageCard } from "@/components/valley/valley-ui";
 
 export const Route = createFileRoute("/_authenticated/skills")({
   head: () => ({
@@ -47,8 +47,9 @@ function SkillsPage() {
           : `Cada dimensão tem um ramo. Você desbloqueia habilidades conforme avança de nível — ${unlocked} de ${total} ativas.`}
       </p>
 
-      <div className="mt-8 max-w-xl">
+      <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_1.2fr]">
         <StageCard profile={profile} />
+        {hydrated && <HumanEvolutionMap profile={profile} />}
       </div>
 
       <div className="mt-10">
