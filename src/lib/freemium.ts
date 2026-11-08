@@ -1,6 +1,13 @@
-/** Freemium Doutiva: trilha de peptídeos liberada; demais cursos exigem Protocolos. */
+/** Freemium Doutiva: peptídeos + Negócios liberados (entrada EAD); clínica avançada exige Protocolos. */
 
-export const FREE_COURSE_SLUGS = ["peptideos-medicina-de-precisao"] as const;
+export const FREE_COURSE_SLUGS = [
+  "peptideos-medicina-de-precisao",
+  "precificacao-margem-consultorio",
+  "funil-clinico-agenda",
+  "gestao-clinica-uma-pagina",
+  "posicionamento-autoridade-digital",
+  "escala-equipe-mentoria-produtos",
+] as const;
 
 export type AccessLevel = "full" | "locked";
 

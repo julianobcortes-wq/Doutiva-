@@ -73,11 +73,11 @@ function AcademyPage() {
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
                 ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
-                : "Peptídeos liberados na sua conta. Demais trilhas abrem com Protocolos."}
+                : "Peptídeos e Negócios liberados na sua conta. Clínica avançada abre com Protocolos."}
           </p>
           {!subscribed && (
             <p className="mt-4 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
-              Trilha Peptídeos · acesso livre
+              Peptídeos + Negócios · acesso livre
             </p>
           )}
         </div>
@@ -95,7 +95,7 @@ function AcademyPage() {
                   Precificar. Encher a agenda. Escalar com critério.
                 </h2>
                 <p className="mt-2 max-w-xl text-sm text-muted-foreground">
-                  Trilha editorial: porta do EAD → hábito → produtos mais caros — sem folder de indústria.
+                  Porta do EAD, liberada: hábito → produtos mais caros — sem folder de indústria.
                 </p>
               </div>
             </div>
