@@ -1,0 +1,58 @@
+{
+  "id": "6d43be4b-2164-4a86-b5cf-36f5c179e5f9",
+  "slug": "funil-clinico-agenda",
+  "title": "Funil Clínico que Enche a Agenda",
+  "published": true,
+  "featured": true,
+  "duration_minutes": 290,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "De Onde Vem o Paciente Certo (e Como Parar de Atrair o Errado)",
+      "status": "published",
+      "mono_len": 36093,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 2,
+      "title": "WhatsApp Clínico: Os Primeiros 10 Minutos que Decidem a Consulta",
+      "status": "published",
+      "mono_len": 8800,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 3,
+      "title": "Raio-X / Avaliação: o Ritual que Prepara a Venda do Protocolo",
+      "status": "published",
+      "mono_len": 8527,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 4,
+      "title": "Da Avaliação ao Sim: Proposta de Protocolo em Uma Página",
+      "status": "published",
+      "mono_len": 7658,
+      "slides": 8,
+      "duration_minutes": 50
+    },
+    {
+      "position": 5,
+      "title": "Retenção e Reativação: O Funil Depois da Primeira Consulta",
+      "status": "published",
+      "mono_len": 5567,
+      "slides": 3,
+      "duration_minutes": 45
+    },
+    {
+      "position": 6,
+      "title": "Caso Integrado: Encher 12 Slots/Semana em 60 Dias - Retenção no Funil Clínico",
+      "status": "published",
+      "mono_len": 6517,
+      "slides": 9,
+      "duration_minutes": 60
+    }
+  ]
+}

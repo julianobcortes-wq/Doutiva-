@@ -1,0 +1,58 @@
+{
+  "id": "380cdca4-0fc5-482d-96db-049c0540fabe",
+  "slug": "escala-equipe-mentoria-produtos",
+  "title": "Escala: Equipe, Mentoria e Produtos",
+  "published": true,
+  "featured": true,
+  "duration_minutes": 345,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Sinais de que você deve (ou não) crescer agora: Diagnóstico estruturado para decisão de escala",
+      "status": "published",
+      "mono_len": 35406,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 2,
+      "title": "Primeira contratação que multiplica (e a que só multiplica dor)",
+      "status": "published",
+      "mono_len": 6979,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 3,
+      "title": "Desenhar Mentoria, Imersão e Clube Sem Diluir o Consultório",
+      "status": "published",
+      "mono_len": 6362,
+      "slides": 3,
+      "duration_minutes": 60
+    },
+    {
+      "position": 4,
+      "title": "Parcerias com Independência Editorial: Contratos, Conflito de Interesse e Disclosure para Prescritores com Critério",
+      "status": "published",
+      "mono_len": 9862,
+      "slides": 8,
+      "duration_minutes": 60
+    },
+    {
+      "position": 5,
+      "title": "Operar a Escada: EAD → Evento → Imersão → Mentoria",
+      "status": "published",
+      "mono_len": 7328,
+      "slides": 8,
+      "duration_minutes": 75
+    },
+    {
+      "position": 6,
+      "title": "Caso Integrado: Do Solo a 3 Ofertas em 12 Meses",
+      "status": "published",
+      "mono_len": 6489,
+      "slides": 8,
+      "duration_minutes": 60
+    }
+  ]
+}

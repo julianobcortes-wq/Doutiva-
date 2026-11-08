@@ -1,0 +1,58 @@
+{
+  "id": "52af91ce-c980-444c-ac82-b5d8b52e74d8",
+  "slug": "posicionamento-autoridade-digital",
+  "title": "Posicionamento e Autoridade Digital",
+  "published": true,
+  "featured": true,
+  "duration_minutes": 325,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Posicionamento em uma Frase: Para Quem Você É a Óbvia Escolha",
+      "status": "published",
+      "mono_len": 40160,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 2,
+      "title": "Ética e CFM no Digital: O que pode, o que não pode, o que é zona cinzenta",
+      "status": "published",
+      "mono_len": 6160,
+      "slides": 7,
+      "duration_minutes": 60
+    },
+    {
+      "position": 3,
+      "title": "Pilares de Conteúdo Clínico que Convertem (Sem Clickbait)",
+      "status": "published",
+      "mono_len": 7234,
+      "slides": 8,
+      "duration_minutes": 60
+    },
+    {
+      "position": 4,
+      "title": "Do post à consulta: CTA, bio, landing e mensagens",
+      "status": "published",
+      "mono_len": 9602,
+      "slides": 8,
+      "duration_minutes": 60
+    },
+    {
+      "position": 5,
+      "title": "Prova Social e Reputação: Reviews, Indicações e Presença em Eventos",
+      "status": "published",
+      "mono_len": 6563,
+      "slides": 8,
+      "duration_minutes": 50
+    },
+    {
+      "position": 6,
+      "title": "Caso Integrado: De Zero a 8 Consultas/Mês Vindo do Digital em 90 Dias",
+      "status": "published",
+      "mono_len": 6387,
+      "slides": 8,
+      "duration_minutes": 50
+    }
+  ]
+}

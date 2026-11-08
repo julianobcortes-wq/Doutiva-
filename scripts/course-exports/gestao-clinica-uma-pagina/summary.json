@@ -1,0 +1,58 @@
+{
+  "id": "4ab569b2-bfb5-4b03-b62d-1a72111963e0",
+  "slug": "gestao-clinica-uma-pagina",
+  "title": "Gestão da Clínica em Uma Página",
+  "published": true,
+  "featured": true,
+  "duration_minutes": 315,
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Os 8 indicadores que bastam (e os 40 que você pode ignorar)",
+      "status": "published",
+      "mono_len": 40889,
+      "slides": 7,
+      "duration_minutes": 45
+    },
+    {
+      "position": 2,
+      "title": "CAC e LTV na Clínica Pequena: Calcular Sem Ilusão",
+      "status": "published",
+      "mono_len": 5898,
+      "slides": 9,
+      "duration_minutes": 60
+    },
+    {
+      "position": 3,
+      "title": "Ritual de Segunda: 25 Minutos que Governam a Semana",
+      "status": "published",
+      "mono_len": 7977,
+      "slides": 8,
+      "duration_minutes": 45
+    },
+    {
+      "position": 4,
+      "title": "Equipe Mínima em Clínica até R$ 100 mil/mês: Quem Faz o Quê e Quando Contratar",
+      "status": "published",
+      "mono_len": 5679,
+      "slides": 3,
+      "duration_minutes": 60
+    },
+    {
+      "position": 5,
+      "title": "Decisões com Número: Cortar, Investir ou Esperar",
+      "status": "published",
+      "mono_len": 6776,
+      "slides": 7,
+      "duration_minutes": 45
+    },
+    {
+      "position": 6,
+      "title": "Caso integrado: clínica no vermelho com agenda ‘cheia’",
+      "status": "published",
+      "mono_len": 7985,
+      "slides": 8,
+      "duration_minutes": 60
+    }
+  ]
+}
