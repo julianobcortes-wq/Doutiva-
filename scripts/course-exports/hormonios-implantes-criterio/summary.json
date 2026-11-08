@@ -1,85 +1,138 @@
 {
-  "course": {
-    "id": "a96c3cb1-6fdf-4437-9a06-edfc656941b7",
-    "slug": "hormonios-implantes-criterio",
-    "title": "Hormônios e Implantes com Critério",
-    "subtitle": "Indicação real vs anti-aging · ética e monitorização",
-    "description": "Tratado clínico sobre terapia hormonal e implantes para médicos que atendem queixas de longevidade e performance: diagnóstico rigoroso, evidência, CFM, monitorização e manipulação responsável — sem protocolos de Instagram.",
-    "duration_minutes": 645
-  },
-  "mono_total": 199062,
-  "slides_total": 92,
-  "duration": 645,
+  "slug": "hormonios-implantes-criterio",
+  "title": "Hormônios Injetáveis e Implantes com Critério",
+  "subtitle": "Diagnóstico, formulário operacional, técnica e ética — sem protocolo de Instagram",
+  "duration_minutes": 1020,
+  "published": true,
+  "featured": true,
   "lessons": [
     {
       "position": 1,
-      "title": "Eixo Hormonal no Adulto: Deficiência Hormonal versus Otimização Cosmética",
-      "mono_len": 21489,
-      "slides": 10,
-      "duration": 90
+      "module": "Módulo 1 · Fundamentos",
+      "title": "Eixo Hormonal no Adulto: Deficiência versus Otimização Cosmética",
+      "status": "published",
+      "mono_len": 44511,
+      "slides": 8
     },
     {
       "position": 2,
-      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio – O Mínimo Inegociável",
-      "mono_len": 20596,
-      "slides": 10,
-      "duration": 60
+      "module": "Módulo 1 · Fundamentos",
+      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio: O Mínimo Inegociável",
+      "status": "published",
+      "mono_len": 34448,
+      "slides": 8
     },
     {
       "position": 3,
-      "title": "Hipogonadismo masculino: diagnóstico, TRT, vias (gel, injetável, implante) e riscos",
-      "mono_len": 17780,
-      "slides": 11,
-      "duration": 60
+      "module": "Módulo 2 · Homem",
+      "title": "Hipogonadismo Masculino: Diagnóstico, TRT, Vias (Gel, Injetável, Implante) e Riscos",
+      "status": "published",
+      "mono_len": 35880,
+      "slides": 7
     },
     {
       "position": 4,
-      "title": "Implantes de Testosterona: Técnica Conceitual, Farmacocinética, Picos/Vales e Follow-up",
-      "mono_len": 22603,
-      "slides": 8,
-      "duration": 60
+      "module": "Módulo 2 · Homem",
+      "title": "Implantes de Testosterona em Homens: Técnica, Farmacocinética, Picos/Vales e Follow-up",
+      "status": "published",
+      "mono_len": 37866,
+      "slides": 8
     },
     {
       "position": 5,
-      "title": "THM na menopausa: evidência pós-WHI, janela de oportunidade e vias",
-      "mono_len": 21349,
-      "slides": 11,
-      "duration": 60
+      "module": "Módulo 3 · Mulher",
+      "title": "Terapia Hormonal da Menopausa (THM) Pós-WHI: Evidência, Janela de Oportunidade, Vias, Implantes e Regulação BR",
+      "status": "published",
+      "mono_len": 36484,
+      "slides": 8
     },
     {
       "position": 6,
-      "title": "Implantes hormonais femininos e ‘bioidênticos’: o que a evidência sustenta",
-      "mono_len": 19406,
-      "slides": 8,
-      "duration": 60
+      "module": "Módulo 3 · Mulher",
+      "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: o que a evidência sustenta",
+      "status": "published",
+      "mono_len": 40800,
+      "slides": 8
     },
     {
       "position": 7,
-      "title": "GH, Secretagogos, DHEA, Pregnenolona e Cocktails ‘Longevidade’: Leitura Crítica para Prescritores de Alta Exigência",
-      "mono_len": 18771,
-      "slides": 9,
-      "duration": 60
+      "module": "Módulo 4 · Limites",
+      "title": "GH, Secretagogos, DHEA, Pregnenolona e Cocktails 'Longevidade': Leitura Crítica para Prescrição Ética",
+      "status": "published",
+      "mono_len": 31063,
+      "slides": 8
     },
     {
       "position": 8,
-      "title": "Segurança, farmacovigilância e responsabilidade do prescritor em hormônios e implantes manipulados",
-      "mono_len": 20209,
-      "slides": 8,
-      "duration": 60
+      "module": "Módulo 4 · Limites",
+      "title": "Segurança, Farmacovigilância e Responsabilidade do Prescritor + Farmácia em Terapias Hormonais e Manipulados",
+      "status": "published",
+      "mono_len": 40625,
+      "slides": 7
     },
     {
       "position": 9,
-      "title": "Protocolos de monitorização e descontinuação: o ciclo completo do cuidado",
-      "mono_len": 17408,
-      "slides": 8,
-      "duration": 75
+      "module": "Módulo 5 · Prática",
+      "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
+      "status": "published",
+      "mono_len": 35768,
+      "slides": 7
     },
     {
       "position": 10,
-      "title": "Módulo 5 · Prática: Casos Clínicos em Hormônios e Implantes com Critério",
-      "mono_len": 19451,
-      "slides": 9,
-      "duration": 60
+      "module": "Módulo 5 · Prática",
+      "title": "Casos Clínicos em Hormonioterapia e Implantes: Hipogonadismo, Anti-Aging, Menopausa e Complicações",
+      "status": "published",
+      "mono_len": 39571,
+      "slides": 8
+    },
+    {
+      "position": 11,
+      "module": "Módulo 6 · Formulário injetável",
+      "title": "Painel das Formulações Hormonais Injetáveis e Implantes mais Usadas no Brasil: Critérios, Formulário e Operacionalização Ética",
+      "status": "published",
+      "mono_len": 10569,
+      "slides": 9
+    },
+    {
+      "position": 12,
+      "module": "Módulo 6 · Formulário injetável",
+      "title": "TRT Injetável na Bancada: Cipionato vs Enantato vs Undecanoato — Dose, Volume e Intervalo",
+      "status": "published",
+      "mono_len": 12517,
+      "slides": 11
+    },
+    {
+      "position": 13,
+      "module": "Módulo 6 · Formulário injetável",
+      "title": "Técnica IM e SC de Hormônios Oleosos: Passo a Passo, Vias, Locais e Complicações",
+      "status": "published",
+      "mono_len": 8884,
+      "slides": 11
+    },
+    {
+      "position": 14,
+      "module": "Módulo 7 · Implantes e mulher",
+      "title": "Implantes de Testosterona no Homem: Seleção, Farmacocinética, Técnica e Follow-up",
+      "status": "published",
+      "mono_len": 9664,
+      "slides": 12
+    },
+    {
+      "position": 15,
+      "module": "Módulo 7 · Implantes e mulher",
+      "title": "Módulo 7 · Implantes e Mulher: THM Injetável e Implantes Femininos — Estradiol ± Progesterona com Critério",
+      "status": "published",
+      "mono_len": 10692,
+      "slides": 11
+    },
+    {
+      "position": 16,
+      "module": "Módulo 7 · Implantes e mulher",
+      "title": "Guia Operacional: Monitoramento, Red Flags e Descontinuação em Terapias Injetáveis e Implantes Hormonais na Mulher",
+      "status": "published",
+      "mono_len": 8304,
+      "slides": 11
     }
   ]
 }

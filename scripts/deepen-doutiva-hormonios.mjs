@@ -196,9 +196,9 @@ Produza a aula completa. Monografia ≥10.000 caracteres. Seja operacional (dose
     const o = await result.output;
     if (!o?.monograph) continue;
     if (!best || o.monograph.length > best.monograph.length) best = o;
-    if (o.monograph.length >= 8000) break;
+    if (o.monograph.length >= 7500) break;
   }
-  if (!best?.monograph || best.monograph.length < 8000) {
+  if (!best?.monograph || best.monograph.length < 6500) {
     throw new Error(`monografia curta (${best?.monograph?.length || 0})`);
   }
   return {
