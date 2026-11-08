@@ -24,7 +24,7 @@ async function upsertCourse(c) {
     featured: true,
     instructor_name: c.instructor_name,
     instructor_title: c.instructor_title,
-    cover_url: `doutiva://accent/${c.accent || "gold"}`,
+    cover_url: `/covers/${c.slug}.jpg`,
     updated_at: new Date().toISOString(),
   };
 

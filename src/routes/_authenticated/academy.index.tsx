@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { listCourses } from "@/lib/courses.functions";
+import { courseCoverSrc } from "@/lib/course-cover";
 import { ArrowUpRight, Briefcase, Clock, Lock } from "lucide-react";
 import { useValleyProfile } from "@/lib/use-city-profile";
 
@@ -177,6 +178,7 @@ function CourseCard({
   const locked = course.access === "locked";
   const accent = accentFor(course.category);
   const isBiz = course.category === "Negócios";
+  const cover = courseCoverSrc(course.cover_url, course.slug);
   return (
     <Link
       to="/academy/$slug"
@@ -188,24 +190,41 @@ function CourseCard({
       }`}
     >
       <div className={`relative aspect-[4/3] overflow-hidden bg-gradient-to-br ${accent.wash}`}>
-        <div aria-hidden className={`absolute inset-0 ${accent.glow}`} />
-        <div
-          aria-hidden
-          className="absolute inset-0 opacity-[0.07]"
-          style={{
-            backgroundImage:
-              "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
-          }}
-        />
-        <div className="absolute inset-0 flex items-end justify-between p-6">
-          <span className={`font-display text-6xl leading-none ${accent.mark}`}>
-            {course.title.charAt(0)}
-          </span>
-          {isBiz && (
-            <Briefcase className="mb-1 h-5 w-5 text-[#c9a962]/50 transition group-hover:text-[#c9a962]" />
-          )}
-        </div>
-        <div className="absolute right-4 top-4 flex flex-col items-end gap-2">
+        {cover ? (
+          <>
+            <img
+              src={cover}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]"
+              loading="lazy"
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/15 to-black/25"
+            />
+          </>
+        ) : (
+          <>
+            <div aria-hidden className={`absolute inset-0 ${accent.glow}`} />
+            <div
+              aria-hidden
+              className="absolute inset-0 opacity-[0.07]"
+              style={{
+                backgroundImage:
+                  "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
+              }}
+            />
+            <div className="absolute inset-0 flex items-end justify-between p-6">
+              <span className={`font-display text-6xl leading-none ${accent.mark}`}>
+                {course.title.charAt(0)}
+              </span>
+              {isBiz && (
+                <Briefcase className="mb-1 h-5 w-5 text-[#c9a962]/50 transition group-hover:text-[#c9a962]" />
+              )}
+            </div>
+          </>
+        )}
+        <div className="absolute right-4 top-4 z-10 flex flex-col items-end gap-2">
           <span className="rounded-sm border border-gold/30 bg-background/60 px-3 py-1 text-[10px] uppercase tracking-[0.2em] text-gold backdrop-blur">
             {course.category}
           </span>

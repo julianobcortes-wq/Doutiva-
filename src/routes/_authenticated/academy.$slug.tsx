@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { getCourseBySlug, enrollInCourse, toggleLessonComplete } from "@/lib/courses.functions";
+import { courseCoverSrc } from "@/lib/course-cover";
 import { LessonMarkdown } from "@/components/lesson-markdown";
 import { LessonPlayer } from "@/components/lesson-player";
 import { resolveRich } from "@/content/lesson-normalize";
@@ -100,6 +101,7 @@ function CoursePage() {
   const pct = total ? Math.round((done / total) * 100) : 0;
   const refs = (lesson?.refs as Ref[] | null) ?? [];
   const rich = lesson ? resolveRich(lesson, course.slug) : null;
+  const cover = courseCoverSrc(course.cover_url as string | null, course.slug as string);
 
   const select = (id: string) => {
     setActiveId(id);
@@ -146,6 +148,15 @@ function CoursePage() {
 
   return (
     <div className="pb-24">
+      {cover && (
+        <div className="relative h-52 overflow-hidden border-b border-border/60 md:h-72">
+          <img src={cover} alt="" className="h-full w-full object-cover object-center" />
+          <div
+            aria-hidden
+            className="absolute inset-0 bg-gradient-to-t from-background via-background/35 to-transparent"
+          />
+        </div>
+      )}
       <div className="border-b border-border/60">
         <div className="mx-auto max-w-7xl px-5 py-10 md:px-6 md:py-12">
           <Link
