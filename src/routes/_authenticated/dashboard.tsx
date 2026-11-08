@@ -4,6 +4,8 @@ import { useServerFn } from "@tanstack/react-start";
 import { listCourses } from "@/lib/courses.functions";
 import { studioMe } from "@/lib/studio.functions";
 import { useProgress } from "@/lib/use-progress";
+import { useValleyProfile } from "@/lib/use-city-profile";
+import { HumanEvolutionMap } from "@/components/valley/valley-ui";
 import { Button } from "@/components/ui/button";
 import {
   ArrowUpRight,
@@ -40,6 +42,7 @@ export const Route = createFileRoute("/_authenticated/dashboard")({
 
 function DashboardPage() {
   const progress = useProgress();
+  const { profile, hydrated } = useValleyProfile();
   const fetchCourses = useServerFn(listCourses);
   const { data: me } = useQuery({
     queryKey: ["studio-me"],
@@ -166,6 +169,27 @@ function DashboardPage() {
           </Link>
         </div>
       </section>
+
+      {hydrated && (
+        <section className="mt-10">
+          <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="font-serif text-2xl">Onde você está na formação</h2>
+              <p className="text-sm text-muted-foreground">
+                Gráfico aranha das 5 dimensões — o que já sustenta e o que ainda falta desenvolver
+                (complementa o mapa clínico tema a tema).
+              </p>
+            </div>
+            <Link
+              to="/skills"
+              className="text-[10px] uppercase tracking-[0.25em] text-gold hover:underline"
+            >
+              Árvore de habilidades
+            </Link>
+          </div>
+          <HumanEvolutionMap profile={profile} />
+        </section>
+      )}
 
       <section className="mt-10">
         <div className="flex items-end justify-between gap-4">
