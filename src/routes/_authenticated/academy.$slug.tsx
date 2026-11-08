@@ -237,7 +237,7 @@ function CoursePage() {
                 <h2 className="mt-6 font-display text-3xl tracking-tight">Conteúdo em Protocolos</h2>
                 <p className="mt-4 text-sm font-light leading-relaxed text-muted-foreground">
                   A ementa está visível. Sessões, lâminas e casos abrem com a assinatura. Peptídeos,
-                  Manipulados injetáveis e Negócios permanecem livres na Universidade.
+                  Manipulados, Hormônios/Implantes e Negócios permanecem livres na Universidade.
                 </p>
                 <div className="mt-8 flex flex-wrap justify-center gap-3">
                   <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">

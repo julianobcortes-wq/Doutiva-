@@ -3,6 +3,7 @@
 export const FREE_COURSE_SLUGS = [
   "peptideos-medicina-de-precisao",
   "manipulados-injetaveis-criterio",
+  "hormonios-implantes-criterio",
   "precificacao-margem-consultorio",
   "funil-clinico-agenda",
   "gestao-clinica-uma-pagina",

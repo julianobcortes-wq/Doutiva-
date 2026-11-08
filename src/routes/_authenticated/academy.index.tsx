@@ -51,12 +51,14 @@ function AcademyPage() {
   const expert = hydrated && profile.user_class === "valley_expert";
   const courses = data ?? [];
   const business = courses.filter((c) => c.category === "Negócios");
+  const flagshipSlugs = new Set(["manipulados-injetaveis-criterio", "hormonios-implantes-criterio"]);
   const flagshipManip = courses.find((c) => c.slug === "manipulados-injetaveis-criterio");
+  const flagshipHorm = courses.find((c) => c.slug === "hormonios-implantes-criterio");
   const featured = courses.filter(
-    (c) => c.featured && c.category !== "Negócios" && c.slug !== "manipulados-injetaveis-criterio",
+    (c) => c.featured && c.category !== "Negócios" && !flagshipSlugs.has(c.slug),
   );
   const rest = courses.filter(
-    (c) => !c.featured && c.category !== "Negócios" && c.slug !== "manipulados-injetaveis-criterio",
+    (c) => !c.featured && c.category !== "Negócios" && !flagshipSlugs.has(c.slug),
   );
   const subscribed = courses.some((c) => c.subscribed);
 
@@ -79,11 +81,11 @@ function AcademyPage() {
               ? "Veja as trilhas que já existem, entenda o padrão da Doutiva e proponha a sua própria formação."
               : subscribed
                 ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
-                : "Peptídeos, Manipulados injetáveis e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
+                : "Peptídeos, Manipulados, Hormônios/Implantes e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
           </p>
           {!subscribed && (
             <p className="mt-4 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
-              Peptídeos · Manipulados · Negócios · acesso livre
+              Peptídeos · Manipulados · Hormônios · Negócios · livre
             </p>
           )}
         </div>
@@ -114,27 +116,53 @@ function AcademyPage() {
         </section>
       )}
 
-      {flagshipManip && (
+      {(flagshipManip || flagshipHorm) && (
         <section className="border-b border-border/50 bg-gradient-to-b from-[#0a1014] to-background">
-          <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
-            <div>
-              <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Flagship clínico · acesso livre</div>
-              <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">{flagshipManip.title}</h2>
-              <p className="mt-4 max-w-xl text-base text-muted-foreground">{flagshipManip.subtitle}</p>
-              <p className="mt-3 max-w-xl text-sm text-muted-foreground/90">
-                Dezesseis aulas densas: qualidade da magistral, formulário prático (indicações + via +
-                administração), incretinas e hormônios, zona cinzenta, farmácia estéril, ANVISA/CFM — a porta
-                clínica da conduta Purus.
-              </p>
-              <Link
-                to="/academy/$slug"
-                params={{ slug: flagshipManip.slug }}
-                className="mt-8 inline-flex items-center gap-2 rounded-sm bg-gold px-5 py-3 text-[11px] uppercase tracking-[0.22em] text-primary-foreground transition hover:bg-gold-soft"
-              >
-                Entrar no curso <ArrowUpRight className="h-3.5 w-3.5" />
-              </Link>
+          <div className="mx-auto max-w-7xl px-6 py-16">
+            <div className="text-[10px] uppercase tracking-[0.3em] text-gold">Flagships clínicos · acesso livre</div>
+            <h2 className="mt-3 max-w-3xl font-display text-3xl tracking-tight md:text-4xl">
+              Conduta Purus começa no critério — magistral e eixo hormonal.
+            </h2>
+            <div className="mt-10 grid gap-8 lg:grid-cols-2">
+              {flagshipManip && (
+                <div className="flex flex-col gap-5">
+                  <div>
+                    <p className="text-sm text-muted-foreground">{flagshipManip.subtitle}</p>
+                    <p className="mt-2 text-sm text-muted-foreground/90">
+                      16 aulas: formulário de manipulados (indicação + via + administração), qualidade da
+                      magistral, zona cinzenta e ANVISA/CFM.
+                    </p>
+                    <Link
+                      to="/academy/$slug"
+                      params={{ slug: flagshipManip.slug }}
+                      className="mt-4 inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-gold"
+                    >
+                      Abrir Manipulados <ArrowUpRight className="h-3.5 w-3.5" />
+                    </Link>
+                  </div>
+                  <CourseCard course={flagshipManip} large />
+                </div>
+              )}
+              {flagshipHorm && (
+                <div className="flex flex-col gap-5">
+                  <div>
+                    <p className="text-sm text-muted-foreground">{flagshipHorm.subtitle}</p>
+                    <p className="mt-2 text-sm text-muted-foreground/90">
+                      16 aulas: hipogonadismo e menopausa com diagnóstico, TRT/THM injetável, técnica IM,
+                      implantes e calendário de labs — sem protocolo de Instagram.
+                    </p>
+                    <Link
+                      to="/academy/$slug"
+                      params={{ slug: flagshipHorm.slug }}
+                      className="mt-4 inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.22em] text-gold"
+                    >
+                      Abrir Hormônios <ArrowUpRight className="h-3.5 w-3.5" />
+                    </Link>
+                  </div>
+                  <CourseCard course={flagshipHorm} large />
+                </div>
+              )}
             </div>
-            <CourseCard course={flagshipManip} large />
           </div>
         </section>
       )}
