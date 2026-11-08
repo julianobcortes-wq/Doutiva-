@@ -1,11 +1,7 @@
 {
   "slug": "manipulados-injetaveis-criterio",
   "title": "Medicamentos Manipulados Injetáveis com Critério",
-  "subtitle": "Do laudo da farmácia à receita defensável — sem atalho ilegal",
-  "published": true,
-  "featured": true,
-  "duration_minutes": 765,
-  "cover_url": "/covers/manipulados-injetaveis-criterio.jpg",
+  "duration_minutes": 1005,
   "lessons": [
     {
       "position": 1,
@@ -13,8 +9,7 @@
       "title": "O mapa do manipulado injetável no Brasil: magistral, indústria e zona cinzenta",
       "status": "published",
       "mono_len": 8952,
-      "slides": 11,
-      "duration_minutes": 60
+      "slides": 11
     },
     {
       "position": 2,
@@ -22,8 +17,7 @@
       "title": "Microbiologia e Qualidade em Manipulados Injetáveis: Critérios Essenciais para o Prescritor",
       "status": "published",
       "mono_len": 8071,
-      "slides": 11,
-      "duration_minutes": 70
+      "slides": 11
     },
     {
       "position": 3,
@@ -31,8 +25,7 @@
       "title": "Módulo 2 · Farmacotécnica do Prescritor: Osmolaridade, pH, Veículos, Estabilidade e Compatibilidade para Manipulados Injetáveis",
       "status": "published",
       "mono_len": 10183,
-      "slides": 10,
-      "duration_minutes": 70
+      "slides": 10
     },
     {
       "position": 4,
@@ -40,8 +33,7 @@
       "title": "Farmacotécnica do Prescritor para Injetáveis Manipulados: Receita, Justificativa Clínica, Lote e Rastreio — O Mínimo Defensável no Prontuário",
       "status": "published",
       "mono_len": 9966,
-      "slides": 9,
-      "duration_minutes": 60
+      "slides": 9
     },
     {
       "position": 5,
@@ -49,8 +41,7 @@
       "title": "Incretinas Manipuladas (Semaglutida/Tirzepatida): Critério, Indicação e Risco no Brasil",
       "status": "published",
       "mono_len": 10627,
-      "slides": 11,
-      "duration_minutes": 65
+      "slides": 11
     },
     {
       "position": 6,
@@ -58,8 +49,7 @@
       "title": "Hormônios Injetáveis Manipulados: Testosterona, Estradiol e Limites Éticos da Individualização",
       "status": "published",
       "mono_len": 8449,
-      "slides": 10,
-      "duration_minutes": 60
+      "slides": 10
     },
     {
       "position": 7,
@@ -67,8 +57,7 @@
       "title": "Peptídeos research-only e secretagogos: Proibição, especulação e condução ética clínica",
       "status": "published",
       "mono_len": 8364,
-      "slides": 10,
-      "duration_minutes": 60
+      "slides": 10
     },
     {
       "position": 8,
@@ -76,8 +65,7 @@
       "title": "Vitaminas, Aminoácidos e ‘Cocktails’ Injetáveis: Deficiência Documentada vs. Wellness",
       "status": "published",
       "mono_len": 9267,
-      "slides": 11,
-      "duration_minutes": 65
+      "slides": 11
     },
     {
       "position": 9,
@@ -85,8 +73,7 @@
       "title": "Como escolher farmácia de manipulação estéril: critérios objetivos SEM citar marca",
       "status": "published",
       "mono_len": 8755,
-      "slides": 10,
-      "duration_minutes": 60
+      "slides": 10
     },
     {
       "position": 10,
@@ -94,8 +81,7 @@
       "title": "Eventos Adversos, Recall e Emergência em Medicamentos Manipulados Injetáveis: Resposta, Segurança e Regulatórios",
       "status": "published",
       "mono_len": 17577,
-      "slides": 10,
-      "duration_minutes": 60
+      "slides": 10
     },
     {
       "position": 11,
@@ -103,8 +89,7 @@
       "title": "Regulatório Profundo: Marcos ANVISA, CFM e Riscos Éticos no Uso de Manipulados Injetáveis",
       "status": "published",
       "mono_len": 8832,
-      "slides": 10,
-      "duration_minutes": 60
+      "slides": 10
     },
     {
       "position": 12,
@@ -112,8 +97,39 @@
       "title": "Módulo 6 · Protocolo integrado: do ‘igual Ozempic’ ao caminho ético dos injetáveis manipulados",
       "status": "published",
       "mono_len": 8533,
-      "slides": 11,
-      "duration_minutes": 75
+      "slides": 11
+    },
+    {
+      "position": 13,
+      "module": "Módulo 7 · Formulário prático",
+      "title": "Formulário Prático de Medicamentos Manipulados Injetáveis: Painel das Formulações Mais Comuns no Consultório Brasileiro",
+      "status": "published",
+      "mono_len": 8214,
+      "slides": 10
+    },
+    {
+      "position": 14,
+      "module": "Módulo 7 · Formulário prático",
+      "title": "Incretinas Manipuladas: Concentração, Reconstituição e Administração Subcutânea Passo a Passo",
+      "status": "published",
+      "mono_len": 8013,
+      "slides": 10
+    },
+    {
+      "position": 15,
+      "module": "Módulo 7 · Formulário prático",
+      "title": "Hormônios Oleosos e Aquosos: Via, Local de Aplicação, Intervalo e Monitoramento – Formulário Prático para Injetáveis Manipulados",
+      "status": "published",
+      "mono_len": 11642,
+      "slides": 10
+    },
+    {
+      "position": 16,
+      "module": "Módulo 7 · Formulário prático",
+      "title": "Vitaminas e Minerais Injetáveis: Indicação, Dose, Via e Técnica — Guia de Bolso (Módulo 7 · Formulário Prático)",
+      "status": "published",
+      "mono_len": 8325,
+      "slides": 10
     }
   ]
 }

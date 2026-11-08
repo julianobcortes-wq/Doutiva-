@@ -165,6 +165,9 @@ Regras inegociáveis:
 - 9–12 slides (title, bullets, table, bars, flow, split, pearl) — concretos, nunca genéricos.
 - clinical_case: médico BR, 6–8 data rows, 4 opções (1 correta), teaching denso.
 - quick_ref de bolso; key_points 6–8; refs 6–10 reais ou "verificar".
+- Se a aula for de FORMULÁRIO/ADMINISTRAÇÃO: quick_ref e monografia DEVEM ter tabelas explícitas
+  substância | concentração/forma | indicação | via | como administrar (local, volume, intervalo) | monitoramento.
+  Inclua pelo menos um flow de técnica de aplicação (SC ou IM) passo a passo.
 
 Entregue JSON no schema pedido.`;
 
@@ -175,7 +178,8 @@ Tema: ${topic}
 Foco desta aula:
 ${extra}
 
-Produza a aula completa agora. A monografia DEVE ter no mínimo 10.000 caracteres.`;
+Produza a aula completa agora. A monografia DEVE ter no mínimo 10.000 caracteres.
+Se houver formulações: seja operacional (números, vias, técnica) sem inventar marca comercial.`;
 
   let best = null;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -247,7 +251,7 @@ async function main() {
       continue;
     }
 
-    console.log(`\n=== [${spec.position}/12] ${spec.topic.slice(0, 72)} ===`);
+    console.log(`\n=== [${spec.position}/${courseDef.lessons.length}] ${spec.topic.slice(0, 72)} ===`);
     const t0 = Date.now();
     let generated;
     try {

@@ -122,8 +122,9 @@ function AcademyPage() {
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">{flagshipManip.title}</h2>
               <p className="mt-4 max-w-xl text-base text-muted-foreground">{flagshipManip.subtitle}</p>
               <p className="mt-3 max-w-xl text-sm text-muted-foreground/90">
-                Doze aulas densas: qualidade da magistral, incretinas e hormônios manipulados, zona cinzenta,
-                farmácia estéril, ANVISA/CFM e protocolo ético — a porta clínica da conduta Purus.
+                Dezesseis aulas densas: qualidade da magistral, formulário prático (indicações + via +
+                administração), incretinas e hormônios, zona cinzenta, farmácia estéril, ANVISA/CFM — a porta
+                clínica da conduta Purus.
               </p>
               <Link
                 to="/academy/$slug"
