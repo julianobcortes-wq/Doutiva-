@@ -1,9 +1,119 @@
-[
-  {
-    "position": 1,
-    "title": "O mapa do manipulado injetável no Brasil: magistral, indústria e zona cinzenta",
-    "mono_len": 8952,
-    "slides": 11,
-    "elapsed_s": 61
-  }
-]
+{
+  "slug": "manipulados-injetaveis-criterio",
+  "title": "Medicamentos Manipulados Injetáveis com Critério",
+  "subtitle": "Do laudo da farmácia à receita defensável — sem atalho ilegal",
+  "published": true,
+  "featured": true,
+  "duration_minutes": 765,
+  "cover_url": "/covers/manipulados-injetaveis-criterio.jpg",
+  "lessons": [
+    {
+      "position": 1,
+      "module": "Módulo 1 · Território e risco",
+      "title": "O mapa do manipulado injetável no Brasil: magistral, indústria e zona cinzenta",
+      "status": "published",
+      "mono_len": 8952,
+      "slides": 11,
+      "duration_minutes": 60
+    },
+    {
+      "position": 2,
+      "module": "Módulo 1 · Território e risco",
+      "title": "Microbiologia e Qualidade em Manipulados Injetáveis: Critérios Essenciais para o Prescritor",
+      "status": "published",
+      "mono_len": 8071,
+      "slides": 11,
+      "duration_minutes": 70
+    },
+    {
+      "position": 3,
+      "module": "Módulo 2 · Farmacotécnica do prescritor",
+      "title": "Módulo 2 · Farmacotécnica do Prescritor: Osmolaridade, pH, Veículos, Estabilidade e Compatibilidade para Manipulados Injetáveis",
+      "status": "published",
+      "mono_len": 10183,
+      "slides": 10,
+      "duration_minutes": 70
+    },
+    {
+      "position": 4,
+      "module": "Módulo 2 · Farmacotécnica do prescritor",
+      "title": "Farmacotécnica do Prescritor para Injetáveis Manipulados: Receita, Justificativa Clínica, Lote e Rastreio — O Mínimo Defensável no Prontuário",
+      "status": "published",
+      "mono_len": 9966,
+      "slides": 9,
+      "duration_minutes": 60
+    },
+    {
+      "position": 5,
+      "module": "Módulo 3 · Classes com critério",
+      "title": "Incretinas Manipuladas (Semaglutida/Tirzepatida): Critério, Indicação e Risco no Brasil",
+      "status": "published",
+      "mono_len": 10627,
+      "slides": 11,
+      "duration_minutes": 65
+    },
+    {
+      "position": 6,
+      "module": "Módulo 3 · Classes com critério",
+      "title": "Hormônios Injetáveis Manipulados: Testosterona, Estradiol e Limites Éticos da Individualização",
+      "status": "published",
+      "mono_len": 8449,
+      "slides": 10,
+      "duration_minutes": 60
+    },
+    {
+      "position": 7,
+      "module": "Módulo 4 · Zona cinzenta",
+      "title": "Peptídeos research-only e secretagogos: Proibição, especulação e condução ética clínica",
+      "status": "published",
+      "mono_len": 8364,
+      "slides": 10,
+      "duration_minutes": 60
+    },
+    {
+      "position": 8,
+      "module": "Módulo 4 · Zona cinzenta",
+      "title": "Vitaminas, Aminoácidos e ‘Cocktails’ Injetáveis: Deficiência Documentada vs. Wellness",
+      "status": "published",
+      "mono_len": 9267,
+      "slides": 11,
+      "duration_minutes": 65
+    },
+    {
+      "position": 9,
+      "module": "Módulo 5 · Farmácia, segurança e regulatório",
+      "title": "Como escolher farmácia de manipulação estéril: critérios objetivos SEM citar marca",
+      "status": "published",
+      "mono_len": 8755,
+      "slides": 10,
+      "duration_minutes": 60
+    },
+    {
+      "position": 10,
+      "module": "Módulo 5 · Farmácia, segurança e regulatório",
+      "title": "Eventos Adversos, Recall e Emergência em Medicamentos Manipulados Injetáveis: Resposta, Segurança e Regulatórios",
+      "status": "published",
+      "mono_len": 17577,
+      "slides": 10,
+      "duration_minutes": 60
+    },
+    {
+      "position": 11,
+      "module": "Módulo 6 · Protocolo integrado",
+      "title": "Regulatório Profundo: Marcos ANVISA, CFM e Riscos Éticos no Uso de Manipulados Injetáveis",
+      "status": "published",
+      "mono_len": 8832,
+      "slides": 10,
+      "duration_minutes": 60
+    },
+    {
+      "position": 12,
+      "module": "Módulo 6 · Protocolo integrado",
+      "title": "Módulo 6 · Protocolo integrado: do ‘igual Ozempic’ ao caminho ético dos injetáveis manipulados",
+      "status": "published",
+      "mono_len": 8533,
+      "slides": 11,
+      "duration_minutes": 75
+    }
+  ]
+}
