@@ -1,0 +1,300 @@
+{
+  "position": 8,
+  "module": "Módulo 4 · Prescrição e qualidade",
+  "title": "Regulatório BR: ANVISA, responsabilidade compartilhada médico–farmácia",
+  "description": "Análise profunda dos marcos regulatórios brasileiros acerca da prescrição e manipulação de injetáveis estéreis, com foco em boas práticas, responsabilidade conjunta entre médico e farmácia e ética na prescrição para endocrinologistas e nutrólogos.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B/C/D",
+  "key_points": [
+    "Manipulação estéril exige cumprimento rigoroso das Boas Práticas da ANVISA e seleção criteriosa da farmácia.",
+    "Prescritor compartilha responsabilidade técnica e ética por escolha da farmácia e pelo detalhamento da prescrição.",
+    "Uso de hormonioterapia para estética e anti-aging é vedado pelo CFM (Resolução 2.333/2023).",
+    "Consentimento informado detalhado e específico é requisito legal e ético, não substituído por documentos da farmácia.",
+    "Só prescrever manipulado ou injetáveis para indicações respaldadas em evidências robustas e registro ANVISA.",
+    "Publicidade e divulgação de tratamentos off-label e manipulados são proibidas, inclusive nas redes sociais.",
+    "Farmácias devem apresentar laudos de lote, rastreabilidade e sistema de qualidade para garantir segurança."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Regulatório BR em Soroterapia e Injetáveis Estéreis",
+      "subtitle": "ANVISA, responsabilidade compartilhada médico–farmácia - Módulo 4 Doutiva"
+    },
+    {
+      "kind": "bars",
+      "title": "Resultados relevantes para segurança na manipulação estéril",
+      "unit": "",
+      "source": "CDC / NEJM [S11]",
+      "note": "Ilustração da responsabilidade compartilhada médico-farmácia",
+      "bars": [
+        {
+          "label": "774 casos de meningite fúngica notificados nos EUA (2012-2013) [S11]",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "64 mortes atribuídas a contaminantes, evidenciando alta mortalidade",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Surto relacionado a falhas em farmácia de manipulação (NECC)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Exigência de rastreabilidade e controle da cadeia da farmácia para redução de riscos",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Situação regulatória de ativos usados em manipulação estéril",
+      "head": [
+        "Ativo",
+        "Evidência",
+        "Registro ANVISA",
+        "Pode manipular?",
+        "Indicações Éticas",
+        "Proibições"
+      ],
+      "rows": [
+        [
+          "Tirzepatida",
+          "A",
+          "DM2: sim; obesidade: pendente",
+          "Não manipulado para obesidade; conforme bula para DM2",
+          "DM2; obesidade com registro",
+          "Estética, emagrecimento sem doença"
+        ],
+        [
+          "Semaglutida",
+          "A",
+          "Sim",
+          "Não manipulado",
+          "DM2; obesidade autorizado",
+          "Anti-aging, estética"
+        ],
+        [
+          "Secretagogos GH",
+          "B",
+          "Não",
+          "Não autorizado",
+          "Nenhum uso fora pesquisa",
+          "Estética, performance, anti-aging"
+        ],
+        [
+          "Soroterapia IV (Myers)",
+          "C/D",
+          "Não específico",
+          "Permitido só com motivo clínico documentado",
+          "Deficiência específica, falha oral",
+          "Detox, energia, estética"
+        ],
+        [
+          "BPC-157 e SARMs",
+          "D",
+          "Não",
+          "Não prescrever",
+          "Nenhuma",
+          "Qualquer uso clínico"
+        ]
+      ],
+      "source": "Doutiva; ANVISA [S8]; CFM [S13/S19]; FDA [S1]"
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxograma de conduta clínica para prescrição de manipulados estéreis (Brasil)",
+      "note": "Fluxo para minimizar riscos regulatórios e sanitários",
+      "steps": [
+        {
+          "label": "Definir indicação clínica com evidência robusta (nível A/B); evitar evidência fraca/dúvida."
+        },
+        {
+          "label": "Conferir status de registro ANVISA e bula local."
+        },
+        {
+          "label": "Justificar detalhadamente a indicação no prontuário."
+        },
+        {
+          "label": "Selecionar farmácia com certificação ISO, cuidados em sala limpa e rastreabilidade confirmada."
+        },
+        {
+          "label": "Formalizar consentimento informado detalhado (médico-paciente) com riscos e alternativas."
+        },
+        {
+          "label": "Prescrever detalhadamente (ativo, dose, concentração, diluição, via, frequência, validade, armazenamento)."
+        },
+        {
+          "label": "Monitorar paciente com exames e acompanhamento de eventos adversos."
+        },
+        {
+          "label": "Notificar Notivisa e comunicar farmácia em casos adversos graves."
+        },
+        {
+          "label": "Realizar auditorias periódicas junto à farmácia selecionada."
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Checklist mínima para documentação em prontuário e TCLE",
+      "head": [
+        "Item",
+        "Conteúdo"
+      ],
+      "rows": [
+        [
+          "Diagnóstico e justificação clínica",
+          "Descrição clara da indicação e alternativas avaliadas"
+        ],
+        [
+          "Prescrição completa",
+          "Ativo, dose, via, concentração, frequência, validade, instruções"
+        ],
+        [
+          "Status regulatório",
+          "Registro ANVISA, uso autorizado, off-label"
+        ],
+        [
+          "Dados da farmácia",
+          "Nome, certificação ISO, laudos lote, rastreabilidade"
+        ],
+        [
+          "Consentimento informado médico",
+          "Documento personalizado com riscos, alternativas e status regulatório"
+        ],
+        [
+          "Orientação ao paciente",
+          "Informações sobre cuidados, sinais de alerta e emergências"
+        ],
+        [
+          "Proibição de publicidade",
+          "Alerta sobre restrição a divulgação nas redes sociais"
+        ],
+        [
+          "Registro de eventos adversos",
+          "Inclusão no prontuário e notificação formal"
+        ]
+      ],
+      "source": "Doutiva, ANVISA, CFM"
+    },
+    {
+      "kind": "split",
+      "title": "Responsabilidade compartilhada médico–farmácia",
+      "left": {
+        "label": "Médico",
+        "items": [
+          "Médico responde pela indicação clínica e escolha criteriosa da farmácia",
+          "Farmácia deve garantir qualidade, validação, rastreabilidade do manipulado"
+        ]
+      },
+      "right": {
+        "label": "Farmácia",
+        "items": [
+          "Escolha da farmácia sem base técnica implica risco de surto e mortes [S11]",
+          "Consentimento padrão da farmácia não substitui o informado médico",
+          "Farmácia com controle falho não exime o médico de responsabilidade"
+        ]
+      }
+    }
+  ],
+  "monograph": "# Módulo 4 · Prescrição e qualidade ## Regulatório BR: ANVISA, Responsabilidade Compartilhada Médico–Farmácia **Autor: Doutiva Editorial Board** **Fontes principais: Biblioteca Doutiva, USP <797> [S12], ANVISA [S5/S8], CFM [S13/S19], CDC/NEJM [S11], guideline síntese e consensos médicos.** **Público-alvo: Endocrinologistas, nutrólogos, clínicos.** --- ## Índice 1. [Contexto e relevância](#1-contexto-e-relevância)\n2. [Modelo de evidência clínica, uso, regulação](#2-modelo-de-evidência-clínica-uso-regulação)\n3. [Estrutura regulatória BR: ANVISA, CFM, farmacovigilância](#3-estrutura-regulatória-br-anvisa-cfm-farmacovigilância)\n4. [Manipulação estéril de excelência — Boas Práticas e contrato médico–farmácia](#4-manipulação-estéril-de-excelência-boas-práticas-e-contrato-médico–farmácia)\n5. [Responsabilidade compartilhada: ética e limites de publicidade](#5-responsabilidade-compartilhada-ética-e-limites-de-publicidade)\n6. [Situação regulatória: tabela — registrado/off-label/manipulado/não prescrever](#6-situação-regulatória-tabela--registrado-off-label-manipulado-não-prescrever)\n7. [Fluxograma de conduta clínica BR](#7-fluxograma-de-conduta-clínica-br)\n8. [Monitoramento, farmacovigilância, estabilidade e segurança](#8-monitoramento-farmacovigilância-estabilidade-e-segurança)\n9. [Checklists: documentação de prontuário, consentimento informado](#9-checklists-documentação-de-prontuário-consentimento-informado)\n10. [O que NÃO fazer: riscos ético-legais concretos](#10-o-que-não-fazer-riscos-ético-legais-concretos)\n11. [Caso ensino: decisão ética na prescrição de manipulados estéreis](#11-caso-ensino-decisão-ética-na-prescrição-de-manipulados-estéreis)\n12. [Referências](#12-referências) --- ## 1. Contexto e Relevância O uso clínico de terapias injetáveis/manipuladas estéreis exige do prescritor muito mais que atualização farmacológica: impõe domínio regulatório, análise de cadeia de validação (da farmácia manipuladora ao paciente), postura ética, respaldo documental rigoroso e atuação sincronizada com as normas de segurança (ANVISA, CFM, farmacovigilância). Decisões equivocadas — desde a escolha da farmácia até a finalidade da prescrição — implicam riscos sérios, evidenciados por surtos de meningite fúngica por lote contaminado [S11] e sanções éticas robustas (CFM) [S13/S19]. --- ## 2. Modelo de Evidência Clínica, Uso, Regulação Hierarquia de evidência — *para uso clínico BR, manipulação e indicação*: | Nível | Fonte | Exemplo | Conduta |\n|------------------|--------------------------------------------|----------------------------------------------------|-----------------|\n| **A** | Diretriz/ECR fase 3, guideline robusto | Tirzepatida, semaglutida para DM2/obesidade [S21/S23/S24]| Permitido se registrado ou justificadamente off-label com consentimento expresso |\n| **B** | Fase 2, observacional robusto | Secretagogos GH, ferro IV em condições específicas | Off-label criterioso, justificativa expressa, nunca para estética/anti-aging [S17/S18] |\n| **C** | Farmacologia humana, série de casos | Alguns peptídeos não autorizados | Uso experimental restrito a protocolos aprovados (CEP/ANVISA) |\n| **D** | Pré-clínico, opinião/extrapolação | BPC-157, SARMs, “peptídeos regenerativos” | Proibido prescrever/manipular para uso clínico [S1] | **Sempre correlacionar status da evidência com regulamentação vigente e bula local.** --- ## 3. Estrutura Regulatória BR: ANVISA, CFM, Farmacovigilância ### ANVISA - Boas Práticas de Manipulação: ambiente controlado, ISO 5–7, controle de partículas/endotoxinas, validação de processo, rastreabilidade [S8/S12].\n- Obrigatoriedade de farmacêutico presencial qualificado, laudo de lote, auditoria regular.\n- Eventos adversos graves: notificação compulsória via Notivisa. ### CFM - Resolução 2.333/2023: proibido hormonioterapia, implantes ou peptídeos para estética, emagrecimento off-label, anti-aging [S13/S19].\n- Prescrição experimental só em protocolo aprovado por CEP e ANVISA, com consentimento minucioso detalhando ausência de aprovação. ### Farmacovigilância - Documentação de todo o processo: prescrição, orientação, consentimento, registro/monitoramento de eventos adversos [S5/S8]. --- ## 4. Manipulação Estéril de Excelência — Boas Práticas e Contrato Médico–Farmácia **Médico deve exigir (contrato/documentação):** | Item | Exigência prática |\n|--------------------------------------------|----------------------------------------------------------|\n| Certificação e últimas auditorias ISO | Anexar relatório válido ANVISA/auditoria externa |\n| Laudo do lote, controle de estabilidade | Discriminar validade pós-manipulação, temperatura ideal |\n| Rastreio de matéria-prima (origem farmacêutica) | QR code/laudo do fabricante reconhecido |\n| Amostra-teste retida | Para rastreabilidade pós-evento adverso grave |\n| Protocolo de recall/seguro | Política de retirada do mercado e serviço de farmacovigilância ativa |\n| Farmacêutico responsável presencial | Responsável técnico escalado permanentemente |\n| Consentimento formal (modelo médico, não apenas farmácia) | Documento individualizado conforme risco, status regulatório e alternativas oferecidas |\n| Treinamento específico de profissionais | Farmácia documenta e atesta formação de equipe | **Não prescrever em farmácia “drip bar”, sem padrão sanitário documentado ou marketing ativo de soluções não aprovadas.** --- ## 5. Responsabilidade Compartilhada: Ética e Limites de Publicidade - Médico é co-responsável pela escolha da farmácia manipuladora, evento adverso ligado a lote inadequado (vide surto NECC [S11]).\n- Publicidade proibida: promessa de resultados, expressões “detox”, “anti-aging”, “performance”, “rejuvenescimento”, publicização em rede social sem caráter científico [S13/S19].\n- Consentimento fornecido ou franqueado pela farmácia NÃO exime o médico — que deve avaliar, documentar e orientar individualmente. --- ## 6. Situação Regulatória: Tabela — Registrado / Off-label / Manipulado / Não Prescrever | Ativo | Evidência | Registro ANVISA (2024) | Pode manipular? | Indicações clínicas éticas | Proibição |\n|---------------------|-----------|------------------------|-----------------|---------------------------|------------------------------|\n| Tirzepatida | A | DM2: SIM; Obesidade: em processo/final de registro (verificar atual) | NÃO para obesidade até registro; só para DM2 conforme bula | DM2; obesidade* se registro e indicação formal | Estética, emagrecimento sem doença |\n| Semaglutida | A | SIM | NÃO manipulado | DM2; obesidade conforme aprovação | Anti-aging, estética |\n| Secretagogos GH | B | NÃO | NÃO autorizado | Nenhum uso fora de pesquisa | Estética, performance, anti-aging |\n| “Soroterapia IV” (ex: Myers) | C/D | NÃO específico* | Permitido só com motivo médico documentado, nunca para “detox/energia” | Deficiência documentada e alternativa oral inviável | “Detox”, estética, performance |\n| BPC-157, SARMs, research peptides | D | NÃO | NÃO prescrever/manipular | Nenhuma | Todo e qualquer uso clínico | (*) Off-label de tirzepatida para obesidade requer extremo critério e documentação (2024: pendente atualização). --- ## 7. Fluxograma de Conduta Clínica BR ```markdown\n1. Definir indicação clínica com base em evidência A/B, absolutamente vedado D.\n2. Consultar registro ANVISA e conferir status (bula, portais oficiais).\n3. JUSTIFICATIVA clínica detalhada (por que escolhido, alternativas tentadas).\n4. Selecionar farmácia: exigir ISO, laudo lote, rastreabilidade.\n5. Preencher consentimento informado médico (explicitar status ANVISA, off-label, riscos específicos).\n6. Prescrição discriminada: nome do ativo, dose, concentração, diluição/volume, via, frequência, duração, validade, condições de armazenamento, instruções de reconstituição.\n7. Monitorar em regime ativo: orientação ao paciente, preparo de emergência básica, farmacovigilância.\n8. Notificar reações adversas via Notivisa e registro em prontuário.\n9. Auditoria periódica do processo (médico/farmácia).\n``` --- ## 8. Monitoramento, Farmacovigilância, Estabilidade e Segurança - **Monitoramento laboratorial**: exames de rotina antes e durante tratamento com hormônios/manipulados conforme risco do ativo (hematócrito, PSA, função hepática/renal, glicemia; adaptar ao protocolo – checar guideline para cada classe [S18]).\n- **Orientação de estabilidade**: farmácia deve especificar shelf-life após manipulação, temperatura e condições de transporte.\n- **Eventos adversos**: documentar localmente e reportar à ANVISA — Notivisa.\n- **Farmacovigilância ativa e recall**: ter via de comunicação ágil para retirada de lote e reporte de incidentes, inclusive mecanismos previstos contratualmente entre médico e farmácia. --- ## 9. Checklists: Documentação de Prontuário, Consentimento Informado ### Checklist — Documentação Mínima no Prontuário 1. **Diagnóstico clínico e justificativa detalhada**\n2. **Indicação do ativo, dose, via, volume, frequência, solução/veículo, validade**\n3. **Status regulatório ANVISA e status off-label**\n4. **Farmácia: nome, laudo ISO, certificação, lote e validade, QR code/rastreio**\n5. **Consentimento informado individual (modelo médico)**: - Ativo, forma farmacêutica, indicação - Explicitação de ausência de registro/bula (quando for o caso) - Alternativas disponíveis - Riscos de infecção, reações adversas, limitações de eficácia - Divulgação de que consentimento da farmácia NÃO substitui o médico\n6. **Orientação fornecida ao paciente**\n7. **Proibição de divulgação/publicidade do tratamento**\n8. **Registro e acompanhamento de eventos adversos, comunicação formal com farmácia e ANVISA se aplicável** --- ## 10. O Que NÃO Fazer: Riscos Ético-Legais Concretos 1. Prescrever manipulado/IV/implante para estética, performance ou anti-aging (CFM 2.333/2023) — infração ética de alto risco.\n2. Firmar parceria com farmácias sem auditoria ou ISO; aceitar “consentimento-padrão” fornecido pela farmácia.\n3. Utilizar preparações para “soroterapia”, “detox”, “boosters” sem deficiência clínica e liberação formal — exposição ao risco ANVISA/CFM.\n4. Não preencher consentimento detalhado (ético e legalmente indispensável).\n5. Delegar rastreabilidade e farmacovigilância ao farmacêutico; corresponsabilidade é mandatória.\n6. Prescrever peptídeos/compostos classificados como research chemicals (BPC-157, etc.).\n7. Permitir ou publicar depoimentos/sucessos em redes sociais sobre tratamento injetável off-label/manipulado (vedado pelo CFM). --- ## 11. Caso Ensino: Decisão Ética na Prescrição de Manipulados Estéreis > **Cenário**: Mulher com sobrepeso, fadiga sem causa orgânica, pede “soro detox” de kit IV sugerido por terceiros. Farmácia fornece laudo ISO, mas ativo não tem registro ANVISA para indicação solicitada. Consentimento padrão é fornecido pela farmácia; paciente quer divulgar resultado.\n>\n> **Conduta correta**: > NÃO prescrever nestas condições. Explicar vedação ética/ANVISA. Orientar abordagem baseada em evidência (tratamento de sobrepeso, fadiga — standard of care). Consentimento fornecido por farmácia não tem efeito protetivo legal; divulgação pública vedada. --- ## 12. Referências 1. [S11] CDC / NEJM. Surto de meningite fúngica — lições regulatórias. NEJM 2013. DOI 10.1056/NEJMoa1213978 2. [S12] USP <797> Pharmaceutical Compounding — Sterile Preparations. USP 2023. https://www.usp.org/ 3. [S5/S8] ANVISA — Princípios de Boas Práticas de Manipulação. https://www.gov.br/anvisa/ 4. [S13/S19] CFM Resolução 2.333/2023 — terapias hormonais e peptídeos: vedação ética. https://portal.cfm.org.br/ 5. [S17/S18] Guidelines Endocrine Society/Testosterona/Hipogonadismo 6. [S21/S23/S24] Trials recentes GLP-1/obesidade 7. [S10] Revisão crítica “Myers Cocktail” e terapias IV: evidência C/D 8. [S1] FDA Concerns: peptídeos research, compounding. https://www.fda.gov/drugs/human-drug-compounding --- **Fim do tratado regulatório, revisão Doutiva. Para uso educacional restrito — prescrição ética, evidência robusta e rastreabilidade integral são mandatórios no cenário brasileiro de medicamentos e injetáveis manipulados.**",
+  "quick_ref": "# Guia Rápido: Prescrição e Manipulação Estéril (BR) | Parâmetro | Recomendação |\n|--------------------------|------------------------------------------|\n| Indicação clínica | Evidência A/B, preferir registro ANVISA |\n| Registro ANVISA | Consultar antes da prescrição |\n| Farmácia manipuladora | ISO certificada, laudo lote, rastreabilidade |\n| Consentimento informado | Obligatório médico, personalizado, não substituído por farmacêutico |\n| Proibições CFM | Hormônios para estética/anti-aging, peptídeos research |\n| Monitoramento | Hematócrito, PSA, função renal/hepática conforme ativo |\n| Documentação mínima | Diagnóstico, prescrição detalhada, dados farmácia, TCLE |\n| Publicidade | Não realizar, evitar depoimentos e redes sociais | --- ## Tabela de doses comuns (indicativa) | Substância | Dose Usual | Via | Notas |\n|-------------|------------------------|--------------|-----------------------|\n| Tirzepatida | Conforme bula ANVISA | SC semanal | Uso para DM2/Obesidade|\n| Semaglutida | 0,25 a 2,4 mg semanal | SC semanal | Obesidade/DM2 |\n| Ferro IV | 500–1000 mg perfusão | IV | Apenas deficiência confirmada | ## Red Flags na prescrição - Ausência de indicação clínica clara\n- Não conferência do registro ANVISA\n- Falta de contrato formal com farmácia\n- Ausência de consentimento médico detalhado\n- Divulgação do tratamento como terapêutico sem respaldo ",
+  "clinical_case": {
+    "title": "Dúvida Ética na Prescrição de 'Soro Detox' Manipulado IV",
+    "vignette": "Paciente feminina, 38 anos, com queixa de fadiga e busca por 'soroterapia detox' recebida por indicação de influencer digital. Sem deficiência documentada, hematologia normal. Farmácia oferece preparação manipulada em ambiente certificado ISO, com consentimento padrão da farmácia. A paciente quer divulgar resultados nas redes sociais.",
+    "question": "Qual a conduta ética e legal adequada para o médico perante a solicitação para prescrever o 'soro detox' manipulado intravenoso?",
+    "teaching": "A prescrição de preparações manipuladas deve ser baseada em indicativo clínico sólido e respaldo regulatório (nível A/B), com prescrição detalhada e consentimento informado médico específico. Preparações para 'detox' ou energia sem evidência e registro ANVISA para tal indicação são vedadas pela ANVISA e Conselho Federal de Medicina (Resolução 2.333/2023). O consentimento genérico da farmácia não substitui o informado do médico, que detém responsabilidade ética e legal. Ademais, a divulgação pública do tratamento, especialmente para fins estéticos ou de performance sem respaldo científico, é proibida e expõe o médico a sanções. O profissional deve recusar a prescrição, orientar a paciente quanto à ausência de benefício comprovado, riscos potenciais e direcionar para condutas baseadas em evidência.",
+    "reward": 10,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "38 anos"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Fadiga sem causa clínica definida"
+      },
+      {
+        "label": "Solicitação",
+        "value": "Prescrição de 'soro detox' manipulado IV"
+      },
+      {
+        "label": "Status da farmácia",
+        "value": "ISO certificada, consentimento padrão fornecido"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normal, sem deficiência documentada"
+      },
+      {
+        "label": "Paciente deseja",
+        "value": "Divulgar resultados em redes sociais"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "correct": true,
+        "rationale": "Não prescrever; explicar vedação ética e ausência de indicação; orientar abordagem baseada em evidência."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Prescrever conforme farmácia indicou, pois consentimento padrão cobre responsabilidade."
+      },
+      {
+        "label": "C",
+        "correct": false,
+        "rationale": "Prescrever, mas alertar a paciente quanto à possibilidade de efeitos adversos."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Prescrever só se paciente assinar consentimento fornecido pela farmácia."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "NEJM (2013). Fungal meningitis outbreak associated with contaminated steroid injections. doi:10.1056/NEJMoa1213978",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1213978"
+    },
+    {
+      "citation": "USP <797> Pharmaceutical Compounding — Sterile Preparations. USP 2023.",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "ANVISA (2022). Princípios de Boas Práticas de Manipulação.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023.",
+      "url": "https://portal.cfm.org.br/"
+    },
+    {
+      "citation": "Endocrine Society Clinical Practice Guideline (2018). Testosterone Therapy in Men With Hypogonadism. doi:10.1210/jc.2018-00229",
+      "url": "https://academic.oup.com/jcem/article/103/5/1715/4996030"
+    },
+    {
+      "citation": "Aronne LJ et al. Tirzepatide vs Semaglutide for Obesity. NEJM 2025. doi:10.1056/NEJMoa2416392",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2416392"
+    },
+    {
+      "citation": "Rubino D et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance (STEP 4). JAMA 2021. doi:10.1001/jama.2021.3224",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2780785"
+    },
+    {
+      "citation": "FDA. Guidance on Human Drug Compounding and Peptides. 2023.",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding"
+    },
+    {
+      "citation": "Doutiva Síntese Regulatório e Evidência Clínica, 2023/2024."
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

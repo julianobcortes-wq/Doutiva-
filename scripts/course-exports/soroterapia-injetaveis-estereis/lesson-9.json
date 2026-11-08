@@ -1,0 +1,281 @@
+{
+  "position": 9,
+  "module": "Módulo 5 · Integração",
+  "title": "Encaixe com obesidade, hormônios e performance: quando IV agrega e quando atrapalha",
+  "description": "Este módulo aborda critérios rigorosos para a integração de soroterapia intravenosa e injetáveis estéreis no tratamento da obesidade, distúrbios hormonais e performance. Discute evidências científicas, regulação ANVISA/CFM/WADA, riscos e benefícios, e casos de uso legítimos, evitando práticas sem respaldo e uso indiscriminado de infusões e hormonioterapia para fins estéticos ou não indicados clinicamente.",
+  "duration_minutes": 60,
+  "evidence_level": "Majoritariamente A/B (ensaios clínicos fase 3, revisões consensuais, diretrizes nacionais/internacionais). C/D para práticas não recomendadas ou sem evidência.",
+  "key_points": [
+    "Infusões intravenosas devem ser usadas apenas em indicações documentadas, como deficiência comprovada e falha na via oral/IM.",
+    "Hormonioterapia intramuscular está restrita a indicações clínicas documentadas (ex.: hipogonadismo); uso para performance ou estética é proibido.",
+    "GLP-1 agonistas são exclusivos subcutâneos e manipulados IV não são respaldados.",
+    "“Drips” vitamínicos, multivitamínicos e antioxidantes para performance ou emagrecimento carecem de evidência e são contraindicados.",
+    "Farmácias de manipulação estéril devem seguir rigorosos padrões USP<797> e ANVISA; o prescritor deve exigir qualidade e rastreabilidade.",
+    "Consentimento informado é obrigatório, mas não substitui a indicação clínica e responsabilidade ética do médico.",
+    "Em caso de uso legítimo, monitorar eventos adversos, documentar prontuário com checklist específico e assegurar protocolo de infusão seguro."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Soroterapia e Injetáveis Estéreis: Integração Clínica em Obesidade, Hormônios e Performance",
+      "subtitle": "Quando o uso intravenoso agrega e quando deve ser evitado — Atualização clínica 2024"
+    },
+    {
+      "kind": "bars",
+      "title": "Evidência e Registro ANVISA para Terapias Comuns IV/Injetáveis",
+      "unit": "",
+      "source": "",
+      "note": "Fonte: Síntese Doutiva 2024 [S1], [S13], [S21]",
+      "bars": [
+        {
+          "label": "Vitamina B12 IV – Evidência A, registrado ANVISA, uso clínico aprovado",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Ferro IV – Evidência A, registrado, uso restrito a anemia/intolerância oral",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "GLP-1 SC (Semaglutida/Tirzepatida) – Evidência A, registrado SC, IV NÃO autorizado",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "‘Drips’ antioxidantes/performance – Evidência D, não registrado, não prescrever",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Testosterona IM (hipogonadismo) – Evidência A, registrado, uso indicado",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Hormonioterapia bioidêntica manipulada – Evidência B, off-label controlado",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "GH e peptídeos research – Evidência D, proibido prescrever",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Tabela de Doses e Protocolos Exemplo",
+      "head": [
+        "Terapia",
+        "Dose Usual",
+        "Via",
+        "Frequência",
+        "Monitoramento"
+      ],
+      "rows": [
+        [
+          "Vitamina B12 (Hidroxocobalamina)",
+          "1.000 mcg",
+          "IV",
+          "1x/semana por 4-8 semanas",
+          "Sinais vitais pré/pós, dosagem sérica"
+        ],
+        [
+          "Ferro IV (Ex: Carboximaltose)",
+          "Dose conforme déficit",
+          "IV",
+          "Conforme protocolo e produto",
+          "Reação alérgica, ferro sérico, Hb"
+        ],
+        [
+          "Testosterona IM",
+          "250 mg a 400 mg",
+          "IM",
+          "A cada 2-4 semanas",
+          "Hematócrito, PSA, sintomas"
+        ],
+        [
+          "GLP-1 agonista (Semaglutida)",
+          "2,4 mg",
+          "SC",
+          "Semanal",
+          "Peso, AE GI"
+        ],
+        [
+          "Hormônios bioidênticos manipulados",
+          "Variável",
+          "SC/IM",
+          "Conforme decisão clínica",
+          "Níveis hormonais, efeitos adversos"
+        ]
+      ],
+      "source": "Síntese Doutiva 2024 [S10], [S14], [S18]"
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo Clínico para Indicação de Soroterapia/Injetáveis no Brasil",
+      "steps": [
+        {
+          "label": "1. Documentação clínica e laboratorial confirmando déficit ou indicação"
+        },
+        {
+          "label": "2. Tentativa e falha/intolerância de via oral ou IM?"
+        },
+        {
+          "label": "3. Substância com registro ANVISA para indicação e via pretendida?"
+        },
+        {
+          "label": "4. Farmácia manipuladora licenciada com sistema de qualidade USP <797>?"
+        },
+        {
+          "label": "5. Consentimento informado detalhado e registro no prontuário?"
+        },
+        {
+          "label": "6. Protocolo de infusão seguro: monitorar sinais vitais e eventos adversos"
+        },
+        {
+          "label": "7. Registrar lote, farmacêutico e laudo de pureza"
+        },
+        {
+          "label": "Se 'Não' em qualquer passo: Não prescrever, repensar conduta"
+        }
+      ]
+    },
+    {
+      "kind": "split",
+      "title": "Perspectiva Comparativa: Hormonioterapia Tradicional vs Manipulada",
+      "left": {
+        "label": "Hormonioterapia Tradicional",
+        "items": [
+          "Registro ANVISA claro e aprovado",
+          "Dose fixa padronizada",
+          "Monitoramento rotineiro com parâmetros validados",
+          "Indicada para hipogonadismo clássico"
+        ]
+      },
+      "right": {
+        "label": "Hormonioterapia Manipulada (Off-label*)",
+        "items": [
+          "Registro parcial, limitada para manipulação",
+          "Dose pode variar, risco de inconsistência",
+          "Monitoramento exigente, variabilidade clínica",
+          "Uso restrito a casos selecionados e documentados"
+        ]
+      }
+    },
+    {
+      "kind": "bullets",
+      "title": "Riscos das Infusões Intravenosas para Performance/Energéticos Sem Indicação",
+      "bullets": [
+        "Ausência de evidência clínica robusta para benefício (nível D)",
+        "Risco de infecções graves por manipulação inadequada ([S11])",
+        "Reações alérgicas e eventos adversos potencialmente fatais ([S9])",
+        "Violação das normas regulatórias e código ético (CFM, ANVISA, WADA)",
+        "Consentimento informado não elimina responsabilidade legal/ética",
+        "Possibilidade de impactos negativos no metabolismo e equilíbrio eletrolítico"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Conclusão Clínica",
+      "text": "Soroterapia e injetáveis estéreis são ferramentas terapêuticas valiosas quando usadas com rigor clínico e ético. Evite o uso indiscriminado para estética, performance ou emagrecimento sem base, priorize sempre a segurança, evidência e regulação."
+    }
+  ],
+  "monograph": "# Integração de Soroterapia Estéril ao Tratamento da Obesidade, Distúrbios Hormonais e Performance: Critério, Evidências e Condutas no Consultório Brasileiro --- ## 1. Contexto e Princípios Éticos A utilização de terapias intravenosas (soroterapia) e injetáveis estéreis em obesidade, distúrbios hormonais e performance exige rigor científico, respeito estrito às normas regulatórias (ANVISA, CFM, WADA) e foco exclusivo no melhor interesse clínico do paciente, repelindo impulsos mercadológicos e práticas não suportadas por evidência sólida. O modelo ético não se resume ao consentimento: exige sempre indicação baseada em déficit documentado, previsão de benefício clínico alinhado a literatura de qualidade e manipulação apenas em farmácias estéreis de excelência, com rastreabilidade total ([S5], [S8], [S12]). --- ## 2. Bases Científicas: Evidência, Aplicabilidade e Limites ### 2.1. Obesidade - **Soroterapia IV**: Não há evidência A/B para “drips” em emagrecimento. Em situações de deficiência nutricional relevante por má-absorção, pode ser considerada a reposição intravenosa de micronutrientes específicos (ex.: vitamina B12, ferro), somente quando via oral ou IM falhou ([S9], [S10]).\n- **GLP-1 (semaglutida, tirzepatida)**: Exclusivamente via subcutânea em doses, formulações e indicações autorizadas. Manipulação IV é irregular e não respaldada ([S21]). ### 2.2. Distúrbios Hormonais - **Testosterona IM**: Permitida apenas para hipogonadismo com indicação documentada. Implantes e manipulação bioidêntica ~não são primeira linha, e só se insumos registrados forem inviáveis/contraindicados ([S13], [S17], [S18]).\n- **GH/secretagogos/peptídeos**: PROIBIDOS para fins estéticos/anti-aging/performance. Não prescrever em nenhum contexto fora de deficiência confirmada e indicação autorizada ([S1], [S13], [S19]).\n- **Outros hormônios/parenterais**: Vedadas infusões de hormônios IV via manipulação, inclusive para performance, exceto reposições clássicas de deficiência comprovada (ex.: hidroxocobalamina). ### 2.3. Performance - **“Coquetéis” multivitamínicos/aminos/antioxidantes**: Evidência fraca para qualquer benefício em performance; todo uso para esse fim sem déficit laboratorial é reprovado por diretrizes e órgãos regulatórios ([S10], [S19]).\n- **WADA**: Infusão >100 mL/12h é completamente proibida salvo necessidade clínica hospitalar.\n- **Manipulação de peptídeos de uso emergente** (ex.: BPC-157, TB-500): NÃO prescrever — segurança não comprovada, ausência de registro, risco regulatório e ético ([S1], [S19]). --- ## 3. Critérios Clínicos Objetivos para Uso IV ### Indicações claras e éticas (Evidência A/B) - Deficiência comprovada e laboratorial de micronutrientes ou eletrólitos, com falha/intolerância de via oral/IM.\n- Má-absorção grave/documentada (doenças do trato GI, pós-bariátrica complexa).\n- Situação metabólica aguda com risco de vida/disfunção sistêmica (ex.: acidose, sepse, desidratação grave) — uso geralmente restrito ao âmbito hospitalar.\n- Suporte nutricional parenteral total ou parcial, exclusivamente em ambiente hospitalar. ### Contraindicações absolutas - Demanda estética, “detox”, emagrecimento rápido, “supra-performance”, modulação hormonal sem deficiência comprovada.\n- Uso de moléculas/parenterais não registrados, peptídeos research.\n- Mistura de múltiplos ativos fora de protocolos com estudo de estabilidade. #### Tabela 1: Nível de evidência e status regulatório para principais terapias IV/injetáveis | Terapia | Evidência | Registro ANVISA | Status Regulatório BR |\n|-----------------------------------------------|-----------|-----------------|------------------------|\n| B12 IV em má-absorção | A | Sim | Registrado |\n| Ferro IV | A | Sim | Registrado |\n| GLP-1 SC (semaglutida/tirzepatida) | A | Sim (SC) | Registrado |\n| GLP-1 IV/manipulado | D | Não | NÃO PRESCREVER |\n| “Drip” antioxidante/performance | D | Não | NÃO PRESCREVER |\n| Testosterona IM (hipogonadismo) | A | Sim | Registrado |\n| Implantes hormonais (bioidênticos) | B | Parcial/Limitado| Off-label/manipulado* |\n| GH/peptídeos (BPC-157, TB-500) | D | Não | NÃO PRESCREVER | (*) Usar bioidênticos manipulados só se documentada falha/intolerância ao registrado, com decisão compartilhada, monitorização e rastreabilidade ([S14], [S16]). --- ## 4. Fluxograma Conduta Clínica Brasil — Indicação de Soroterapia/Injetáveis ```\n1. Queixa clínica/documentação déficit laboratorial?\n2. Tentou via oral/IM e falhou/intolerância/absorção impossível?\n3. Ativo/indicação registrada e estável para via IV?\n4. Farmácia licenciada — laudo de pureza, rastreio lote, CRM farmacêutico?\n5. Consentimento informado, risco-benefício registrado?\n6. Protocolo monitoramento antes-durante-depois?\n7. Registre insumo, lote, evento adverso, auditoria documental.\nSe NÃO a qualquer etapa → Não prescrever.\n``` --- ## 5. Condutas Práticas e Considerações de Dose/Segurança ### Exemplo: Vitamina B12 IV - **Dose sugerida:** hidroxocobalamina 1.000 mcg IV, 1x/semana, por 4-8 semanas ([S10] — confirmar em protocolo hospital local se disponível).\n- **Diluição:** 1.000 mcg em 100 mL SF 0,9%, infundir lentamente.\n- **Preparação:** apenas farmácia licenciada (verificar ausência de precipitação/emulsão); validade imediata/curta.\n- **Monitoramento:** sinais vitais, sintomas adversos (ex.: rubor, taquicardia, reação alérgica); observar 30 min pós-infusão.\n- **Avaliação de eficácia:** dosar B12 sérica/contagem de reticulócitos na 4ª semana (verificar necessidade de mais ciclos).\n- **Não realizar infusões tidas como “preventivas” ou “energéticas”. ### Ferro IV - Usar apenas em deficiência com intolerância/falha oral, registrando contexto, dose conforme produto.\n- Reação anafilática ~risco real; equipe e estrutura de emergência. ### Drips “energéticos”, multivitamínicos, estéticos - NÃO PRESCREVER; insuficiência de evidência e respaldo regulatório ([S10], [S19]). --- ## 6. Checklist de Prontuário e Termo de Consentimento **Itens obrigatórios para justificar/registrar infusão IV:** 1. [ ] Diagnóstico e déficit laboratorial documentado.\n2. [ ] Justificativa para falha/risco de via oral/IM.\n3. [ ] Nome/marca do insumo registrado utilizado.\n4. [ ] Farmácia licenciada (CNES; ata de inspeção).\n5. [ ] Identificação do farmacêutico responsável.\n6. [ ] Prescrição detalhada (dose, diluição, tempo, motivo).\n7. [ ] Consentimento informado (explicita benefício, riscos e alternativas).\n8. [ ] Sinais vitais documentados antes/durante/depois da infusão.\n9. [ ] Registro de reação adversa/conduta tomada/eventual notificação VigMed ou farmacovigilância.\n10. [ ] Rastro documental do lote/nota fiscal.\n11. [ ] Reavaliação clínica/laboratorial antes de repetir ciclos.\n12. [ ] Confirmação de não divulgação indevida/marketing antiético. --- ## 7. Alertas de Risco e Condutas Proibidas - Não prescrever qualquer infusão IV apenas para “detox”, emagrecimento, melhoria de performance ou rejuvenescimento.\n- Não utilizar hormônios, peptídeos, “drips” manipulados não registrados sob alegação de “suplementação premium”.\n- Não aceitar solicitações “influencer”, pressão mercadológica ou demanda de público não especialista.\n- Atenção: consentimento informado NÃO exime de responsabilidade ética e legal perante CFM/ANVISA. --- ## 8. Regulatório: Síntese e Penalidades | Terapia/Procedimento | Registrado | Off-label | Manipulado | NÃO Prescrever |\n|------------------------------------------------------|------------|-------------------|--------------------|-------------------------------------------|\n| Ferro/B12 IV (decisão clínica/laboratorial, falha VO)| Sim | - | Sim (em exceção) | - |\n| GLP-1 (semaglutida/tirzepatida) SC | Sim | Doses alineadas | Não autorizado IV | NÃO IV/manipulação não autorizada |\n| “Drips” performance/estéticos | Não | Não | Não | Proibido |\n| Hormônios/GH para “anti-aging”/performance | Não | Não | Não | Proibido |\n| Peptídeos research IV/IM | Não | Não | Não | Proibido |\n| Bioidêntico manipulado (falha de registrado) | - | Sim | Sim (restrito) | Só com documentação e consentimento rigoroso| --- ## 9. Fluxograma Clínico Padrão Brasil ```\n1. Paciente com suspeita de deficiência clínica/nutricional → exames laboratoriais\n2. Confirmou déficit + falha/risco na via oral/IM? → avaliar opção com insumo registrado\n3. Registro ANVISA está válido + farmácia licenciada disponível? → prescrever, garantir rastreabilidade\n4. Consentimento informado, registrar lote, nome farmacêutico e laudo de pureza\n5. Infusão em ambiente médico com equipe/estrut. para AE graves\n6. Monitorar antes, durante e 30 min após, documentar sinais/eventos\n7. Não repetir sem reavaliação clínica/laboratorial OR indicação mantida.\nSe NÃO a qualquer passo → Não prescrever\n``` --- ## 10. Referências Fundamentais (Âncora) - [S1] FDA Category 2 bulk substances for compounding — peptides safety concerns..\n- [S5]/[S8] ANVISA — boas práticas manipulação.\n- [S9], [S10] Evidência e guideline de ferro/B12 e soroterapia IV.\n- [S11], [S12] Segurança e rastreabilidade: NECC/USP <797>.\n- [S13], [S14], [S16], [S17], [S18] CFM/endocrinologia — hormônios, implantes, anti-aging.\n- [S19] Proibição de hormonioterapia para fins estéticos/performance.\n- [S21] Estudos de registro/GLP-1.\n- [S24] SELECT — uso cardiovascular de GLP-1 em obesidade.\n- [G1–G5] Fontes ouro do curso; normativas e síntese crítica atualizadas. --- **Notas finais:** - O uso de soroterapia/injetáveis deve ser sempre criterioso, documentado e nunca motivado por apelo estético ou pressões externas — responsabilidade médica indelegável. - Consentimento informado é necessário, mas nunca suficiente. --- **Versão: Doutiva — Integrador Clínico, Atualização 2024.**",
+  "quick_ref": "# Guia Rápido: Uso Clínico Responsável de Soroterapia e Injetáveis Estéreis ## Indicações Permitidas (ANVISA/CFM)\n| Terapia | Indicação Primária | Dose Típica |\n|--------------------------|------------------------------------|-----------------------------------|\n| Vitamina B12 IV | Deficiência comprovada + intolerância oral | 1.000 mcg/semana por 4-8 semanas |\n| Ferro IV | Anemia por deficiência falha VO/IM | Dose conforme protocolo produto |\n| Testosterona IM | Hipogonadismo com sintomas confirmados | 250-400 mg a cada 2-4 semanas |\n| GLP-1 SC (Semaglutida) | Obesidade, DM2, conforme bula | 2,4 mg SC semanal | ## Contraindicações Importantes\n- Uso de infusões IV para performance, estética, emagrecimento rápido.\n- Hormonioterapia com finalidade anti-aging sem deficiência comprovada.\n- Peptídeos research ou manipulações não registradas.\n- Infusões multivitamínicas/misturas não validadas. ## Checklist de Prescrição\n- ✔ Diagnóstico e déficit laboratorial documentado.\n- ✔ Tentativa fracassada de via oral/IM.\n- ✔ Uso de insumo registrado e aprovado para a via.\n- ✔ Farmácia manipuladora licenciada com sistema qualidade USP<797>.\n- ✔ Consentimento informado detalhado.\n- ✔ Registro detalhado no prontuário (dose, lote, farmacêutico).\n- ✔ Monitoramento pré, durante e pós-infusão. ## Sinais de Alerta (Red Flags)\n- Reações alérgicas ou anafiláticas.\n- Infecção local ou sistêmica pós-infusão.\n- Irregularidade na cadeia de custódia do medicamento.\n- Pressão para prescrição por fins estéticos não legitimados. **Fonte:** Sumário Doutiva 2024, ANVISA 2022, CFM 2023, USP <797>.",
+  "clinical_case": {
+    "title": "Paciente com deficiência de ferro e obesidade: avaliação para soroterapia",
+    "vignette": "Paciente masculino, 52 anos, IMC 32 kg/m², relata fadiga progressiva e intolerância à ferrovia oral por efeitos gastrintestinais. Exames mostram Hb 10 g/dL e ferritina 8 ng/mL. Tentou ferro oral por 3 meses, interrompeu por náuseas intensas. Quer emagrecimento e melhora de performance, questiona drips vitamínicos IV para energia.",
+    "question": "Qual a conduta mais adequada quanto ao uso de terapia intravenosa e abordagem integrada?",
+    "teaching": "Este paciente apresenta anemia ferropriva confirmada por exames laboratoriais e intolerância evidente à via oral, situação em que a terapia IV de ferro está indicada e respaldada por evidência e diretrizes ([S4], [S9]). A avaliação e prescrição devem assegurar: - Uso de ferro IV registrado e protocolado, em farmácia licenciada com plena rastreabilidade.\n- Documentação clara da indicação, intolerância à via oral, dose e monitoramento.\n- Informação ao paciente da necessidade e riscos, com consentimento informado.\n- Evitar drips multivitamínicos para 'energia' sem indicação comprovada, visto risco e ausência de evidência ([S10]).\n- Para obesidade, considerar indicação de terapia farmacológica aprovada (ex.: semaglutida SC), evitando manipulação IV não autorizada.\n- Monitorar resposta clínica e laboratorial ao tratamento, ajustando estratégia ao longo do tempo. Esta abordagem preserva rigor científico, ética, segurança e conformidade regulatória, rejeitando práticas de marketing não suportadas.",
+    "reward": 8,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "52 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "32 kg/m²"
+      },
+      {
+        "label": "Hemoglobina",
+        "value": "10 g/dL"
+      },
+      {
+        "label": "Ferritina",
+        "value": "8 ng/mL"
+      },
+      {
+        "label": "Terapia oral ferro",
+        "value": "Tentada 3 meses, interrompida por náuseas"
+      },
+      {
+        "label": "Queixa principal",
+        "value": "Fadiga progressiva"
+      },
+      {
+        "label": "Desejos do paciente",
+        "value": "Emagrecimento, melhora de performance com drips IV"
+      }
+    ],
+    "options": [
+      {
+        "label": "Indicar ferro IV registrado com prescrição criteriosa e suspender tratamentos não indicados IV",
+        "correct": true,
+        "rationale": "Conforme diretrizes, ferro IV é indicado na anemia com intolerância oral; drips vitamínicos sem indicação não devem ser usados."
+      },
+      {
+        "label": "Prescrever coquetel multivitamínico IV para energia e solicitar semaglutida manipulada em drip IV",
+        "correct": false,
+        "rationale": "Não há evidência de benefício e não há registro ANVISA para manipulação IV dessas substâncias, configurando prática ética inadequada."
+      },
+      {
+        "label": "Reiniciar ferro oral com suporte antiemético e recomendar hormonioterapia bioidêntica manipulada para performance",
+        "correct": false,
+        "rationale": "Ferro oral está contra-indicado por intolerância; hormônios manipulados para performance carecem de indicação clínica e proibidos para fins estéticos."
+      },
+      {
+        "label": "Negar qualquer terapia IV, focar apenas em dieta e exercícios sem suporte farmacológico",
+        "correct": false,
+        "rationale": "Embora dieta e exercícios sejam importantes, a anemia ferropriva documentada demanda intervenção clínica específica, incluindo ferro IV se via oral falhou."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Lincoff AM, et al. Testosterone Therapy and Cardiovascular Outcomes. N Engl J Med. 2023; DOI 10.1056/NEJMoa2215025",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2215025"
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Semaglutide for Weight Loss Maintenance (STEP 4). JAMA. 2021; DOI 10.1001/jama.2021.3224",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2774362"
+    },
+    {
+      "citation": "ANVISA. Princípios de Boas Práticas de Manipulação. 2022. https://www.gov.br/anvisa/pt-br",
+      "url": "https://www.gov.br/anvisa/pt-br"
+    },
+    {
+      "citation": "USP <797> Pharmaceutical Compounding - Sterile Preparations. United States Pharmacopeia. 2023. https://www.usp.org/",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Guideline. J Clin Endocrinol Metab. 2018; DOI 10.1210/jc.2018-00229",
+      "url": "https://academic.oup.com/jcem/article/103/5/1715/4925953"
+    },
+    {
+      "citation": "Neeland IJ, et al. Lean Mass Changes with GLP-1 Therapies. Diabetes Obes Metab. 2024; (verificar)"
+    },
+    {
+      "citation": "Cruz-Jentoft AJ, et al. Sarcopenia: Revised European Consensus on Definition and Diagnosis (EWGSOP2). Age Ageing. 2019; DOI 10.1093/ageing/afy169",
+      "url": "https://academic.oup.com/ageing/article/48/1/16/5144167"
+    },
+    {
+      "citation": "Aronne LJ, et al. Tirzepatide vs Semaglutide for Obesity (SURMOUNT-5). N Engl J Med. 2025; DOI 10.1056/NEJMoa2416392"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

@@ -1,0 +1,223 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Avaliação",
+  "module_position": 2,
+  "title": "Avaliação Inicial Completa na Obesidade de Precisão: História, Exames, Composição Corporal, Sono, Humor e Metas",
+  "description": "A aula aborda a avaliação inicial detalhada do paciente com obesidade para a prática da medicina de precisão, enfocando história clínica dirigida, exame físico, exames laboratoriais indicados, métodos de avaliação da composição corporal, rastreamento do sono e do humor, além da definição de metas terapêuticas realistas e seguras. Enfatiza condutas éticas, regulatórias brasileiras (CFM, ANVISA) e contraindicações no uso de manipulações estéreis sem respaldo clínico consistente.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Avaliação inicial estruturada é fundamental para segurança e personalização na obesidade.",
+    "Solicitar exames laboratoriais conforme critérios de risco, evitando solicitações indiscriminadas.",
+    "Incluir rastreamento de apneia do sono, transtornos de humor e compulsão alimentar em casos compatíveis.",
+    "Indicar DEXA e polissonografia somente em cenários clínicos específicos, como obesidade grau III e sintomas compatíveis.",
+    "Farmacoterapia com GLP-1, tirzepatida e hormônios requer base clínica sólida, consentimento informado e monitoramento rigoroso.",
+    "Regulatório brasileiro (CFM, ANVISA) veda uso indiscriminado de peptídeos, GH e infusões para fins anti-aging ou estéticos.",
+    "Evitar prescrição e encaminhamentos cirúrgicos sem avaliação multidisciplinar e diagnóstico completo."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Avaliação Inicial de Obesidade de Precisão: História, Exames, Sono, Humor e Metas"
+    },
+    {
+      "kind": "bullets",
+      "title": "Etapas Essenciais da Primeira Consulta",
+      "bullets": [
+        "Anamnese estruturada: história ponderal, hábitos, sintomas.",
+        "Exame físico detalhado: IMC, circunferência, sinais clínicos.",
+        "Painel laboratorial inicial, dirigido por risco.",
+        "Rastreamento de sono, humor e compulsão alimentar."
+      ]
+    },
+    {
+      "head": [
+        "Exame/Ferramenta",
+        "Indicação",
+        "Corte/Referência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Básico (HbA1c, lipídeos)",
+          "TODOS",
+          "[S1], 15–20% DM2 oculto"
+        ],
+        [
+          "TGO/TGP, GGT",
+          "DHGNA/Aumento RI",
+          "ALT/AST > ULN – 45% DHGNA"
+        ],
+        [
+          "DEXA",
+          "Obesidade III, idosos",
+          "Sarcopenia relevante"
+        ],
+        [
+          "Polissonografia",
+          "STOP-BANG ≥5",
+          "35–45% AOS em obesos"
+        ]
+      ],
+      "title": "Matriz de Exames e Rastreamento"
+    },
+    {
+      "kind": "flow",
+      "steps": [],
+      "title": "Fluxo de Conduta Inicial"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "DEXA: Obesidade grau III, perda magra, idosos; monitoramento ao iniciar GLP-1/TZP.",
+          "Polissonografia: STOP-BANG ≥5, sonolência diurna, refratariedade ao emagrecimento, hipertensão arterial."
+        ],
+        "label": "A"
+      },
+      "right": {
+        "items": [
+          "Indicações específicas para exames avançados na obesidade.",
+          "Importância da avaliação composicional e do sono na decisão terapêutica."
+        ],
+        "label": "B"
+      },
+      "title": "Critérios para DEXA e Polissonografia"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Massa magra e tecido adiposo – risco sarcopênico.",
+          "Mudanças qualitativas importantes além do peso isolado.",
+          "Casos selecionados: idoso, uso crônico de corticoides, síndrome metabólica mesmo com IMC limítrofe."
+        ],
+        "label": "A"
+      },
+      "right": {
+        "items": [
+          "Monitoramento da massa magra especialmente em obesidade grau III.",
+          "Diferenciação de composição corporal para terapia personalizada."
+        ],
+        "label": "B"
+      },
+      "title": "Avaliação Composicional – O Que A DEXA Acrescenta"
+    },
+    {
+      "kind": "pearl",
+      "text": "Aspectos essenciais para o manejo da obesidade",
+      "title": "Avaliação de Sono e Humor"
+    },
+    {
+      "kind": "bullets",
+      "title": "Abordagem Regulatório-Ética",
+      "bullets": [
+        "Foco em segurança, individualização, registro e consentimento informado.",
+        "Proibição de prescrição de ‘peptides’ off-market, GH e implantes estéticos sem critério (CFM 2.333/2023).",
+        "Manipulação estéril restrita a prescrições documentadas e com fundamentação técnica (ANVISA PBM)."
+      ]
+    },
+    {
+      "kind": "bullets",
+      "title": "O que NÃO Fazer",
+      "bullets": [
+        "Não solicitar exames laboratoriais ou instrumentais amplos sem critério clínico.",
+        "Não prescrever hormônios ou ‘drip’ para estética ou anti-aging sem deficiência comprovada.",
+        "Não usar manipulação estéril sem prescrição, laudo e controle de qualidade.",
+        "Não encaminhar para cirurgia sem diagnóstico e avaliação multiprofissional.",
+        "Não prescrever ‘peptides’ sem registro ANVISA."
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Pearl — Valor Real da Avaliação Inicial"
+    }
+  ],
+  "monograph": "# Avaliação Inicial Completa na Obesidade de Precisão: História, Exames, Composição Corporal, Sono, Humor e Metas ## 1. Introdução e Contexto A avaliação inicial do paciente com obesidade em consulta de precisão representa a pedra fundamental para o planejamento terapêutico seguro, ético e individualizado. Este capítulo, endereçado ao endocrinologista, nutrólogo e clínico experiente, apresenta diretrizes detalhadas e práticas para condução da avaliação inicial – desde a anamnese dirigida até a seleção criteriosa de exames laboratoriais, instrumentos de avaliação composicional, rastreio do sono, humor e definição realista de metas. A abordagem aqui envolve integração de dados sólidos de guidelines internacionais, legislação e normativas nacionais (CFM, ANVISA), além de considerações éticas e de segurança, especialmente relevantes para prescrição diferenciada, incluindo manipulação estéril de peptídeos, hormônios e infusões. Não são abordados protocolos de pesquisa, uso indiscriminado de supostos “research peptides” e análogos do GH para fins estéticos/anti-aging sem respaldo robusto – condutas expressamente desaconselhadas pela legislação vigente e pelas melhores práticas clínicas. > **Biblioteca Doutiva:** Os principais referenciais e recomendações são extraídos de guidelines e literatura de alto impacto, notadamente [S1] (ADA 2010 – Diabetes/Obesidade), com menção explícita a evidência e grau de robustez. --- ## 2. Bases Científicas e Relevância A obesidade, multifatorial, é associada a disfunção metabólica, risco cardiovascular, alterações psiquiátricas e de sono, além de impactos funcionais e psicossociais [S1]. O incremento recente de opções terapêuticas, especialmente os agonistas duplos e análogos de GLP-1 (ex: tirzepatida), requer estratificação rigorosa de risco-benefício, bem como o entendimento das indicações, contraindicações e particularidades de formulação/manipulação estéril. Na consulta inicial, a anamnese e o exame físico devem identificar fatores modificáveis, patologias associadas, contraindicações e riscos de eventos adversos. A complementação com exames laboratoriais e métodos específicos (DEXA, polissonografia, screening psiquiátrico) é orientada por critérios de risco e impacto potencial sobre as estratégias terapêuticas (nutricionais, farmacológicas, endoscópicas ou cirúrgicas). ### 2.1 Fundamentos de Precision Medicine em Obesidade - **Fenotipagem clínica/metabólica:** Diferenciar obesidade “metabolicamente saudável” da dismetabólica (Síndrome Metabólica, DM2, DHGNA, entreoutros).\n- **Endofenótipo comportamental:** Padrões alimentares, compulsão, binge, impacto do sono, cronoestilo.\n- **Avaliação composicional:** Tecido adiposo vs. massa magra, risco sarcopênico.\n- **Rastreamento de comorbidades:** Hipertensão, dislipidemia, apneia do sono, esteatose hepática, transtornos ansiosos/depressivos.\n- **Alvo terapêutico realista:** Entre 5% e 15% de perda ponderal sustentada, conforme grau de risco e expectativa funcional. --- ## 3. Estruturação da Consulta Inicial: Checklist Completo A seguir, um roteiro validado e de uso prático para a primeira avaliação do paciente obeso, incorporando critérios de segurança, conduta ética e precisão diagnóstica. ### 3.1 Anamnese Dirigida e Roteiro Estruturado | Domínio | Questões/prioridades |\n|-------------------|-------------------------------------------------------------------------------------------------------------------------------|\n| **História ponderal** | Idade de início, padrão evolutivo, tentativas prévias, eventos gatilho, história familiar, eficácia de abordagens anteriores. |\n| **Sintomas metabólicos** | Intolerância à glicose, poliúria, polidipsia, sintomas de apneia, DHGNA (astenia, hepatomegalia), dislipidemia. |\n| **Comorbidades** | Cardiovasculares, endocrinológicas (hipotireoidismo, Cushing), psiquiátricas, reumatológicas, uso contínuo de medicamentos. |\n| **Hábitos e padrões** | Horas de sono, qualidade, padrão alimentar, “snacking”, refeições noturnas, tecidos muscular/adiposo, atividade física, consumo de álcool. |\n| **Saúde mental** | Rastreio de ansiedade, depressão, binge eating, impacto da imagem corporal. |\n| **Medicamentos em uso** | Corticosteroides, antipsicóticos, progestágenos, betabloqueadores, insulina, análogos do GLP-1, suplementos “fitness”. |\n| **Histórico reprodutivo**| SOP, infertilidade, gestações, história de osteoporose, menopausa/andropausa. | ### 3.2 Exame Físico Direcionado - Peso e altura (balança aferida, altura real); IMC (kg/m²).\n- Circunferência abdominal (ponto médio entre última costela e crista ilíaca).\n- Pressão arterial em 2-3 medições; sinais de resistência insulínica/dismorfismos (acantose, estrias, hirsutismo).\n- Avaliação de distribuição de gordura e massa muscular; sinais de edema, ginecomastia, hepatomegalia, sopros.\n- “Red flags”: Insuficiência cardíaca, estigmas hepatopáticos, Cushing, neuropatia. ### 3.3 Orientações Iniciais - Validar expectativas: Alvo de perda ponderal, modificar crenças irrealistas, engajar participação.\n- Explicar riscos do tratamento empírico e automedicação/“peptides” não controlados.\n- Esclarecer que manipulação estéril é exclusiva para compostos aprovados/off-label sob rigor ético. --- ## 4. Exames Laboratoriais e Diagnósticos Iniciais O racional para exames é documentar baseline, filiar endofenótipos, estratificar risco e garantir segurança terapêutica — e nunca para “checar tudo” indiscriminadamente. ### 4.1 Painel Laboratorial Essencial (Evidência A; [S1]) | Exame | Objetivo | Observações |\n|------------------------|-------------------------------------------------------|----------------------------------------------------|\n| Glicemia jejum / HbA1c | Screening/diagnóstico de DM2 | Repetir caso valores limítrofes |\n| Lipidograma | Dislipidemia (LDL, HDL, TAG) | Risco CV; HDL baixo é marcador independente |\n| TGO, TGP, GGT | Rastreio de DHGNA | US hepática para elevado persistente |\n| TSH (± T4L) | Excluir hipotireoidismo | Especialmente se sintomas/gestação |\n| Creatinina e EAS | Função renal, proteinúria | Estimar risco para farmacoterapia |\n| Ácido úrico | Risco metabólico e gota | Pode informar risco CV adicional |\n| Hemograma | Anemia, leucocitose | Identificar condições crônicas/atividade inflamatória|\n| Vitamina D | Suplementação individualizada | Decisão conforme risco/baixa exposição solar | #### Indicações adicionais (caso selecionado): - **Ferritina, vitamina B12, folato:** História de anemia, dieta restritiva, cirurgias bariátricas.\n- **Insulina jejum/HOMA-IR:** Investigar RI franca ou em estudos.\n- **Testosterona total/livre, estradiol, FSH/LH, DHEAS:** Disfunções gonadais, SOP/andropausa.\n- **Perfil pro-inflamatório/citocinas:** Pesquisa científica, não prática clínica corrente. ### 4.2 Métodos de Composição Corporal | Método | Indicação | Limites | Disponibilidade BR |\n|-------------------|-------------------------------|-----------------------------------------------|---------------------------|\n| DEXA (absorciometria)| Monitorar massa magra – obesidade grau III, sarcopenia suspeita | Não indicado para todos, sesgo em >150kg | Centros universitários |\n| BIA (bioimpedância)| Suspeita sarcopênica, acompanhamento | Sensível à hidratação, menor acurácia em ~IMC >35| Clínicas e consultórios |\n| Ultrassom muscular| Pesquisa, casos selecionados | Operador-dependente | Pouco disponível |\n| Antropometria | Rastreamento | Menor precisão, útil em contexto ambulatorial | Universal | > **Quando pedir DEXA:** Obesidade grau III (>40kg/m²), avaliação pré-cirúrgica, idoso com risco de sarcopenia, perda de peso não intencional, uso crônico de corticoides. ### 4.3 Avaliação Objetiva do Sono - **Escala de sonolência de Epworth** (rastreamento): ≥10/24 sugere apneia/hipersonolência.\n- **STOP-BANG**: (≥5 pontos): Alta probabilidade de apneia obstrutiva.\n- **Polissonografia:** Indicação ao suspeitar de AOS, sonolência incapacitante, comorbidades cardiovasculares, refratariedade ao emagrecimento, acidentes de trânsito, uso de hipnóticos. ### 4.4 Rastreamento Psiquiátrico e Comportamental - **PHQ-9:** Depressão.\n- **GAD-7:** Ansiedade.\n- **Binge Eating Scale:** Compulsão alimentar.\n- Encaminhar para psiquiatria ou psicólogo se pontuação positiva (>10-14 em PHQ-9 ou GAD-7; binge eating moderada/grave).\n- Esquizofrenia, bipolaridade: Monitoramento criterioso, ajuste terapêutico. --- ## 5. Seleção de Pacientes: Exames Avançados e Critérios de Solicitação | Exame/Instrumento | Critérios para solicitação |\n|---------------------|---------------------------------------------------------------------------|\n| DEXA | IMC >40, suspeita sarcopenia, perda massa magra, idoso, planejamento farmacológico/GLP-1|\n| Polissonografia | STOP-BANG ≥5, sonolência/roncos, HTA refratária, DM2 não controlado, indicação GLP-1/TZP|\n| Encaminhamento psiquiatria | Binge eating grave, PHQ-9 ≥14, ideação suicida, recusa terapêutica |\n| Ecodoppler Hepático | DHGNA/elevação enzimas persistente, história familiar de cirrose, consumo álcool elevado|\n| Teste tolerância à glicose | Glicemia jejum 100-125mg/dL e/ou HbA1c 5,7-6,4% | --- ## 6. Conduta Eticamente Segura: Passo a Passo ### 6.1 Algoritmo de Avaliação Inicial ```mermaid\nflowchart TD A[Primeira Consulta] A -->|Anamnese+Exame físico| B{Critérios de risco presentes?} B -->|SIM| C[Exames Laboratoriais & Rastreios] B -->|NÃO| D[Exames Básicos] C --> E{Critérios para DEXA/Polissonografia/Psiquiatria?} E -->|SIM| F[Solicitar exame específico] E -->|NÃO| G[Conduta Individualizada] F --> H[Definir estratégia/Metas] G --> H D --> H H --> I[Orientação inicial, registro em prontuário]\n``` ### 6.2 Abordagem de Farmacoterapia (vide monografia específica) - **Prescrever somente compostos registrados ANVISA ou off-label documentado; manipulação estéril sob prescrição detalhada, laudo clínico.**\n- Titular dose de acordo com resposta/grau de efeito adverso.\n- Monitorar função hepato-renal e parâmetros bioquímicos.\n- Orientar e registrar riscos em termo específico (ex: uso off-label, consentimento informado).\n- Não prescrever: “Research peptides”, GH para estética, infusão (“drip”) sem deficiência bioquímica comprovada. --- ## 7. Monitoramento, Segurança e Conduta Ética ### 7.1 Monitoramento Clínico-Laboratorial | Parâmetro | Frequência de Reavaliação | Motivo/Risco |\n|-------------------|-----------------------------------|-----------------------------------------------|\n| Peso, circunferência| Mensal/bimestral | Seguir curva de resposta, ajustar estratégia |\n| Glicemia, HbA1c | 3 em 3 meses ou menor, após início fármaco | Detectar hipoglicemia, falha terapêutica |\n| TGO/TGP, creatinina| 3-6 meses (GLP-1/TZP ou uso de outros fármacos hepatonefroativos) | Segurança hepatorrenal |\n| Sintomas gastrointestinais | A cada consulta | Risco de desidratação, pancreatite |\n| Sono/humor | Semestral ou sob mudança | Detectar insônia, apneia, depressão | ### 7.2 Segurança e Regulatório BR - **ANVISA:** Só utilizar fármacos registrados/análogos documentados; manipulação estéril conforme RDC 67/2007, PBM.\n- **CFM:** Resolução 2.333/2023 – repele prescrição de hormônio/similares para fins estéticos; especial atenção em registro, nota evolutiva, justificativa clínica e pós-dose.\n- **WADA:** Se paciente atleta, checar proibição do composto na lista WADA.\n- **Consentimento informado e prontuário:** Essencial, detalhado, com menção explícita a indicação, riscos, alternativas e monitoramento planejado. --- ## 8. O que NÃO Prescrever ou Solicitar (Não Fazer) - Não pedir exames laboratoriais ou instrumentais “amplos” sem critério clínico.\n- Não prescrever GH, IGF-1, análogos para envelhecimento/estética sem deficiência comprovada.\n- Não indicar infusões/drips sem fundamento bioquímico robusto, especialmente implantes de promessas “detox” ou “anti-stress”.\n- Não lançar mão de manipulado estéril sem lastro documental, laudo detalhado e controle de qualidade.\n- Não encaminhar para cirurgia/metabólite sem diagnóstico e suporte metabólico/psiquiátrico.\n- Não receitar “peptides” sem registro ANVISA e documentação internacional.\n- Não subestimar sintomas de sono/psiquiátricos — abordar e/ou encaminhar sempre. --- ## 9. Caso Clínico Ilustrativo: Avaliação de Obesidade - Consultório BR **Caso:** Mulher, 35 anos, IMC 42 kg/m², ganho de 21kg pós-gestação há 5 anos. Queixa: cansaço, ronco intenso, sonolência diurna, menstruação irregular, apetite descontrolado à noite. Nega doenças prévias. Medicações: contraceptivo oral, suplementação esporádica de vitamina D. Exame físico: PA 138/86 mmHg; acantose na região cervical; circunferência abdominal 118cm. Não fuma, álcool social esporádico. **Pergunta:** Qual a melhor conduta NO MOMENTO INICIAL? a) Solicitar apenas painel básico (glicemia, lipidograma, TSH), recomendar dieta e retorno em 120 dias. b) Solicitar painel metabólico completo, inquérito de sono (STOP-BANG), direcionar para DEXA e polissonografia, rastreio psiquiátrico e agendar retorno em 30 dias. c) Prescrever tirzepatida manipulada, dieta proteica e rastreamento laboratorial em 180 dias. d) Encaminhar imediatamente para cirurgia bariátrica sem avaliação adicional. **Resposta Correta:** **b)** **Justificativa e Discussão densa:** - IMC >40, sintomas de apneia do sono justificados (ronco, sonolência), acantose (RI), padrão alimentar compatível com binge, PA elevada, menstruação irregular – pedem investigação completa. - DEXA é útil para baseline composicional (risco sarcopenia), polissonografia por alta suspeita de apneia. - Rastreamento psiquiátrico para compulsão alimentar. - Menção à manipulação (opção farmacológica) só após confirmação do contexto clínico e baseline; nunca antecipar a prescrição sem diagnóstico completo. Cirurgia bariátrica depende de avaliação multidisciplinar e exclusão de condições secundárias/reversíveis. --- ## 10. Tabelas e Matrizes de Referência para Prática Clínica ### 10.1 Exames Iniciais na Obesidade: Evidência e Justificativa | Exame | Indicação | Magnitude da associação/racional | Grau de evidência |\n|-------------------|-------------------|-----------------------------------------|--------------------|\n| Glicemia/HbA1c | TODOS | Prevalência de DM2 oculta ~15–20% em obesos [S1] | A |\n| Lipidograma | TODOS | Dislipidemia e risco CV – 30-40% [S1] | A |\n| Enzimas hepáticas | ALT/AST > ULN | 10–45% DHGNA em obesos sem DM [S1] | B |\n| TSH/T4L | Sinais clínicos | Hipotireoidismo subclínico 3–8% | B |\n| Creatinina/Urinálise| Risco CV/nefropatia|DOENÇA renal crônica 7–10% nos obesos | B |\n| DEXA | Obesidade III, idosos | Sarcopenia associada em até 10%, perda magra | B |\n| Polissonografia | STOP-BANG ≥5 | AOS em 35–45% dos obesos grau III; risco de morte | A |\n| PHQ-9, GAD-7 | Todos, ansiedade/depressão | Prevalência >20%; impacto em adesão terapêutica | A | ### 10.2 Fluxo de Avaliação Clínica: Do Rastreio ao Diagnóstico (QuickRef) | Indicador | Ferramenta | Corte/Score | Conduta Subsidiária |\n|--------------------------------- |------------------------|------------------ |---------------------------|\n| Compulsão alimentar | BES (Binge Eating Scale)| >17 (mod/grave) | Encaminhar psiquiatria |\n| Risco de apneia do sono | STOP-BANG | ≥5 | Polissonografia |\n| Estado funcional/metabólico | DEXA | Risco sarcopenia* | Definir alvo terapêutico |\n| Risco cirúrgico | IMC, comorbidades | >40 ou >35+comorb | Multidisciplinar prévio |\n| Hipotireoidismo | TSH/T4L | TSH > 4,5 | Endócrino, investigar causa|\n| DHGNA | TGP/TGO > 1,5x | | USG, fibroscan se disponível| *Critérios ESPE Clínicos: Força de preensão manual, massa magra/DEXA, velocidade de marcha --- ## 11. Slides de Apoio Didático (8–12) ### Slide 1: Title **Avaliação Inicial de Obesidade de Precisão: História, Exames, Sono, Humor e Metas** --- ### Slide 2: Etapas Essenciais da Primeira Consulta - Anamnese estruturada: história ponderal, hábitos, sintomas.\n- Exame físico detalhado: IMC, circunferência, sinais clínicos.\n- Painel laboratorial inicial, dirigido por risco.\n- Rastreamento de sono, humor e compulsão alimentar. --- ### Slide 3: Matriz de Exames e Rastreamento (Tabela Densa) | Exame/Ferramenta | Indicação | Corte/Referência |\n|--------------------------|--------------------|----------------------------------------------|\n| Básico (HbA1c, lipídeos) | TODOS | [S1], 15–20% DM2 oculto |\n| TGO/TGP, GGT | DHGNA/Aumento RI | ALT/AST > ULN – 45% DHGNA |\n| DEXA | Obesidade III, idosos | Sarcopenia relevante |\n| Polissonografia | STOP-BANG ≥5 | 35–45% AOS em obesos | --- ### Slide 4: Fluxo de Conduta Inicial ```mermaid\nflowchart TD A(Anamnese) --> B{Exame físico} B --> C{Critérios risco?} C -->|Sim| D[Exames avançados (DEXA, PSG)] D --> E[Rastreamento humor/sono] E --> F[Definir conduta terapêutica] C -->|Não| F\n``` --- ### Slide 5: Critérios para DEXA e Polissonografia - DEXA: Obesidade grau III, perda magra, idosos; monitoramento ao iniciar GLP-1/TZP.\n- PSG: STOP-BANG ≥5, sonolência diurna, refratariedade ao emagrecimento, HTA. --- ### Slide 6: Avaliação Composicional – O Que A DEXA Acrescenta - Massa magra, tecido adiposo, risco sarcopênico.\n- Mudanças qualitativas x peso isolado.\n- Casos selecionados: idoso, uso crônico corticoide, síndrome metabólica mesmo IMC limítrofe. --- ### Slide 7: Avaliação de Sono e Humor - Apneia: risco aumentado de eventos CV e resistência terapêutica.\n- Humor: prevalência de depressão >20%, compulsão alimentar.\n- Instrumentos: STOP-BANG, Epworth, PHQ-9, GAD-7, BES. --- ### Slide 8: Abordagem Regulatório-Ética - Foco em segurança, individualização, registro e consentimento.\n- Proibição de “peptides” off-market, GH/implantes estéticos sem critério (CFM 2.333/2023).\n- ANVISA PBM: manipulação estéril apenas para prescrições documentadas/off-label embasado. --- ### Slide 9: O que NÃO Fazer - Sem exames amplos por rotina.\n- Sem prescrição sem diagnóstico completo.\n- Sem hormônio/“drip” para anti-aging/estética sem deficiência comprovada.\n- Sem infusão manipulado sem indicação clínica, laudo e supervisão. --- ### Slide 10: Caso Clínico em Obesidade - Sintomas de apneia, RI, compulsão, IMC >40: Exemplo prático de motivo para não empurrar farmacoterapia sem baseline.\n- Rotina inicial: exames + rastreio + retorno precoce. --- ### Slide 11: Pearl—Valor Real da Avaliação Inicial - Identificar contraindicações antes da farmacoterapia.\n- Adesão depende de abordagem empática, meta realista.\n- Diagnóstico “preciso” previne eventos adversos e judicialização. --- ### Slide 12: Quickref e Key Points | Risco | Ferramenta | Conduta/Referência |\n|-------------------|---------------------|------------------------|\n| Apneia do sono | STOP-BANG, Epworth | PSG se alto risco |\n| Humor/depressão | PHQ-9, GAD-7 | Encaminhar se ≥14 |\n| Massa magra baixa | DEXA | Individualizar terapia | --- ## 12. QuickRef de Bolso - **História detalhada:** Peso, hábitos, sono, alimentação, saúde mental, medicamentos.\n- **Exame físico:** IMC, circunferência, sinais clínicos.\n- **Exames laboratoriais essenciais:** Glicemia, lipidograma, TGO/TGP, TSH, creatinina, urina.\n- **Quando avançar:** DEXA (obesidade grave, idoso, sarcopenia); PSG (STOP-BANG ≥5).\n- **Rastreamento psiquiátrico:** PHQ-9, GAD-7, BES.\n- **Não prescrever:** GH/implantes/peptídeos research/“drip” sem prova deficiência.\n- **Registrar sempre:** Consentimento informado, objetivo terapêutico, riscos e monitoramento. --- ## 13. Key Points 1. **Avaliação inicial estruturada é indispensável** para segurança, personalização e ética na terapêutica da obesidade.\n2. **Exames laboratoriais devem ser indicados por critério de risco** — nunca por rotina indiscriminada.\n3. **Screening de apneia do sono, distúrbios de humor e compulsão** é obrigatório em obesidade grau II/III ou sintomas suspeitos.\n4. **Solicitação de DEXA e polissonografia**: Em casos selecionados — gravidade, comorbidades, sintomas compatíveis.\n5. **Farmacoterapia (GLP-1, TZP, hormônios) exige baseline detalhado, consentimento e monitoramento contínuo**.\n6. **Regulatório brasileiro veda uso de peptídeos ou hormônios para fins cosméticos/anti-aging sem deficiência clara**.\n7. **Não prescrever nem encaminhar sem diagnóstico completo e avaliação multiprofissional quando indicação cirúrgica.** --- ## 14. Referências Principais 1. Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. [S1] (Evidência A, guideline)\n2. Outras referências de guidelines nacionais/internacionais e posicionamentos do CFM, ANVISA, legislação vigente (verificar detalhes locais conforme atualização).\n3. Bibliografia da Biblioteca Doutiva. --- **Nota final:** A consulta inicial estruturada, com aplicação criteriosa de exames e rastreios, é o maior diferencial de excelência clínica em obesidade de precisão. Nenhum avanço farmacológico ou tecnológico substitui o juízo clínico, o respeito ao arcabouço ético-regulatório e o compromisso com a segurança integral do paciente. ---",
+  "quick_ref": "História detalhada: peso, hábitos, sono, alimentação, saúde mental, medicamentos.\nExame físico: IMC, circunferência, sinais clínicos.\nExames laboratoriais essenciais: glicemia jejum, HbA1c, lipidograma, TGO/TGP, TSH, creatinina, urinálise.\nQuando avançar: DEXA (IMC >40, sarcopenia, idosos), polissonografia (STOP-BANG ≥5).\nRastreamento psiquiátrico: PHQ-9 (depressão), GAD-7 (ansiedade), Binge Eating Scale.\nNão prescrever GH, peptides off-label sem evidência e regulatório.\nRegistrar sempre consentimento informado, objetivos e riscos.\nFocar abordagem individualizada, baseada em evidência, ética e segurança.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "35 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "42 kg/m²"
+      },
+      {
+        "label": "Queixas",
+        "value": "Cansaço, ronco intenso, sonolência diurna, apetite noturno"
+      },
+      {
+        "label": "PA",
+        "value": "138/86 mmHg"
+      },
+      {
+        "label": "Sinais físicos",
+        "value": "Acantose cervical, circunferência abdominal 118 cm"
+      },
+      {
+        "label": "Medicações",
+        "value": "Contraceptivo oral"
+      },
+      {
+        "label": "Hábitos",
+        "value": "Não fuma, álcool ocasional"
+      },
+      {
+        "label": "Histórico familiar",
+        "value": "Não relatado"
+      }
+    ],
+    "title": "Mulher obesa grau III com ronco e sonolência diurna: conduta inicial",
+    "reward": 80,
+    "options": [
+      {
+        "label": "a) Solicitar apenas painel básico (glicemia, lipidograma, TSH), recomendar dieta e retorno em 120 dias.",
+        "correct": false,
+        "rationale": "Esta abordagem é insuficiente frente aos múltiplos fatores de risco e sintomas presentes, adiando diagnóstico e tratamento adequado."
+      },
+      {
+        "label": "b) Solicitar painel metabólico completo, inquérito de sono (STOP-BANG), direcionar para DEXA e polissonografia, rastreio psiquiátrico e agendar retorno em 30 dias.",
+        "correct": true,
+        "rationale": "Conduta abrangente, com investigação apropriada que permite estabelecer diagnóstico preciso e planejamento terapêutico individualizado e seguro."
+      },
+      {
+        "label": "c) Prescrever tirzepatida manipulada, dieta proteica e rastreamento laboratorial em 180 dias.",
+        "correct": false,
+        "rationale": "Prescrição precoce e sem diagnóstico completo, além de prazo excessivo para acompanhamento, com riscos de efeitos adversos e falha terapêutica."
+      },
+      {
+        "label": "d) Encaminhar imediatamente para cirurgia bariátrica sem avaliação adicional.",
+        "correct": false,
+        "rationale": "Encaminhamento cirúrgico deve ser realizado após avaliação multidisciplinar, com diagnóstico completo e controle das comorbidades."
+      }
+    ],
+    "question": "Qual a conduta inicial mais apropriada para esta paciente?",
+    "vignette": "Paciente feminina, 35 anos, IMC 42, ganho ponderal recente pós-gestação, queixa de cansaço, ronco intenso, sonolência diurna e apetite noturno exacerbado. PA 138/86 mmHg, acantose cervical e circunferência abdominal 118 cm. Não fuma e não faz uso de medicações além de contraceptivo oral.",
+    "teaching": "Nesta paciente com obesidade grau III e sintomas sugestivos de apneia do sono (ronco, sonolência), além de sinais de resistência insulínica (acantose) e padrões alimentares suspeitos para compulsão, é imprescindível realizar uma avaliação completa antes de iniciar qualquer terapia farmacológica ou encaminhamento cirúrgico. Isso inclui exames laboratoriais abrangentes, rastreamento para distúrbios do sono via questionários (STOP-BANG), investigação composicional com DEXA para avaliar massa magra e sarcopenia, e avaliação psiquiátrica para identificar transtornos alimentares ou depressivos. Prescrever medicamentos como tirzepatida ou indicar cirurgia sem essa avaliação prévia pode expor a paciente a riscos e terapias inadequadas, comprometendo o sucesso e a segurança do tratamento. O retorno precoce com base nesses exames é fundamental para individualizar a conduta clínica."
+  },
+  "refs": [
+    {
+      "citation": "Standards of Medical Care in Diabetes—2010. American Diabetes Association. Diabetes Care. 2010 Jan;33 Suppl 1:S11-61."
+    },
+    {
+      "citation": "Raghu G, et al. Diagnosis of Hypersensitivity Pneumonitis in Adults. ATS/JRS/ALAT Guideline. Am J Respir Crit Care Med. 2020; doi:10.1164/rccm.202005-2032ST."
+    },
+    {
+      "citation": "Pappas PG, et al. Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by IDSA. Clin Infect Dis. 2016; doi:10.1093/cid/civ933."
+    },
+    {
+      "citation": "Dellinger RP, et al. Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock. Intensive Care Med. 2013; doi:10.1007/s00134-012-2769-8."
+    },
+    {
+      "citation": "Schulz-Menger J, et al. Standardized image interpretation and post-processing in cardiovascular magnetic resonance - 2020 update. J Cardiovasc Magn Reson. 2020; doi:10.1186/s12968-020-00610-6."
+    },
+    {
+      "citation": "Chu DK, et al. Physical distancing, face masks, and eye protection to prevent person-to-person transmission of SARS-CoV-2. Lancet. 2020; doi:10.1016/s0140-6736(20)31142-9."
+    }
+  ],
+  "status": "published"
+}

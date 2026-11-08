@@ -1,0 +1,315 @@
+{
+  "position": 4,
+  "module": "Módulo 2 · Titulação e frasco",
+  "title": "Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro",
+  "description": "A aula aborda os fundamentos críticos da manipulação estéril de peptídeos injetáveis, especificamente tirzepatida e agonistas de incretinas, com ênfase na importância da esterilidade, cadeia de frio, diferenças entre produto industrial e manipulado, regulamentação brasileira, checklist de diligência para o prescritor, sinais de alerta na qualidade, fluxo de decisão clínica, e aspectos éticos e legais. São detalhados estudos de estabilidade, evidências clínicas, e práticas recomendadas para prescrição segura e responsável, com vistas a garantir eficácia terapêutica e segurança do paciente.",
+  "duration_minutes": 60,
+  "evidence_level": "A/B",
+  "key_points": [
+    "Esterilidade validada e estabilidade documentada são requisitos inegociáveis para peptídeos injetáveis; riscos de contaminação são graves e podem ser fatais.",
+    "Manipulação magistral de tirzepatida é tolerada sob rigorosas condições, implicando responsabilidade solidária entre prescritor e farmácia.",
+    "Prazo de uso após abertura para produto industrial é de até 21 dias; para magistral, máximo 14 dias sem validação específica, podendo chegar a 21–28 dias com estudos de estabilidade.",
+    "Degradação química pode não ser visível; laudos analíticos (HPLC, agregados) devem ser exigidos para comprovar qualidade.",
+    "Cadeia de frio é crítica: manter 2–8°C, jamais congelar; desrespeito leva ao descarte obrigatório.",
+    "Prescrição com finalidade estética, anti-aging ou uso de research peptides é absolutamente proibida e antiética.",
+    "Controle rigoroso na escolha da farmácia inclui verificação do ambiente (ISO 5), laudos de qualidade, rastreabilidade e documentação completa.",
+    "Notificação imediata de eventos adversos graves via Vigipós é obrigatória para proteção do paciente e do prescritor."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Manipulação Estéril e Qualidade do Frasco: Tirzepatida e Incretinas no Consultório",
+      "subtitle": "Módulo 2 · Titulação e Frasco — Curso Doutiva para Especialistas"
+    },
+    {
+      "kind": "table",
+      "title": "Tabela 1: Status Regulatório e Legal de Incretinas no Brasil",
+      "head": [
+        "Produto",
+        "Situação",
+        "Observações"
+      ],
+      "rows": [
+        [
+          "Tirzepatida industrial",
+          "Registrado",
+          "Indicação para DM2; obesidade em análise"
+        ],
+        [
+          "Tirzepatida manipulada",
+          "Não registrado",
+          "Tolerada sob condições rigorosas; responsabilidade solidária"
+        ],
+        [
+          "Research peptides",
+          "Não registrado",
+          "Proibido legal e eticamente"
+        ],
+        [
+          "Implantes de peptídeos",
+          "Não registrado",
+          "Proibido; sem dados de segurança/eficácia"
+        ],
+        [
+          "Semaglutida industrial",
+          "Registrado",
+          "DM2 e obesidade (Wegovy®)"
+        ],
+        [
+          "Semaglutida manipulada",
+          "Não registrado",
+          "Tolerada sob condições rigorosas"
+        ]
+      ],
+      "source": "[S8], [S13], [G1], [G6]"
+    },
+    {
+      "kind": "bars",
+      "title": "Evidência de Perda de Peso com Tirzepatida (SURMOUNT-1)",
+      "unit": "% de peso corporal",
+      "source": "[G1]",
+      "note": "Evidência A – ECR fase 3",
+      "bars": [
+        {
+          "label": "Placebo",
+          "value": -3.1,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida 5 mg",
+          "value": -15,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida 10 mg",
+          "value": -18,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida 15 mg",
+          "value": -20.9,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Fluxo Clínico para Prescrição Segura de Tirzepatida Magistral",
+      "steps": [
+        {
+          "label": "1. Confirmar indicação clínica válida (obesidade com comorbidades ou DM2 com necessidade)"
+        },
+        {
+          "label": "2. Verificar disponibilidade do produto industrial; se disponível, preferir"
+        },
+        {
+          "label": "3. Caso indicação para magistral, selecionar farmácia certificada ISO 5, solicitar laudos completos"
+        },
+        {
+          "label": "4. Elaborar prescrição detalhada (concentração, volume, posologia, farmácia, validade)"
+        },
+        {
+          "label": "5. Realizar consentimento informado explicando riscos e responsabilidades"
+        },
+        {
+          "label": "6. Orientar paciente sobre armazenamento, cadeia de frio e prazos de uso"
+        },
+        {
+          "label": "7. Monitorar eventos adversos e eficácia; notificar eventos graves via Vigipós"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Tabela 2: Principais Ensaios Clínicos com Tirzepatida e Semaglutida",
+      "head": [
+        "Ensaio",
+        "População",
+        "N",
+        "Intervenção",
+        "Desfecho",
+        "Resultado",
+        "Nível"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-1 [G1]",
+          "Obesidade sem DM2",
+          "2.539",
+          "Tirzepatida 5-15 mg vs placebo",
+          "% perda peso 72 sem",
+          "-15,0% a -20,9% vs -3,1%",
+          "A"
+        ],
+        [
+          "SURMOUNT-2 [G2]",
+          "Obesidade com DM2",
+          "938",
+          "Tirzepatida 10-15 mg vs placebo",
+          "% perda peso 72 sem",
+          "-12,8% a -14,7% vs -3,2%",
+          "A"
+        ],
+        [
+          "SURMOUNT-5 [G6, S21]",
+          "Obesidade sem DM2",
+          "751",
+          "Tirzepatida vs Semaglutida 2,4 mg",
+          "% perda peso 72 sem",
+          "-20,2% vs -13,7%",
+          "A"
+        ],
+        [
+          "STEP 1 [G4, S23]",
+          "Obesidade sem DM2",
+          "1.961",
+          "Semaglutida 2,4 mg vs placebo",
+          "% perda peso 68 sem",
+          "-14,9% vs -2,4%",
+          "A"
+        ],
+        [
+          "SELECT [G3, S24]",
+          "Sobrepeso/Obesidade + DCV",
+          "17.604",
+          "Semaglutida vs placebo",
+          "MACE",
+          "HR 0,80 (0,72–0,90)",
+          "A"
+        ]
+      ],
+      "source": "Compilado estudos"
+    },
+    {
+      "kind": "split",
+      "title": "Comparativo: Produto Industrial vs Manipulado Magistral",
+      "left": {
+        "label": "Produto Industrial",
+        "items": [
+          "Validação de processo rigorosa (FDA/ANVISA)",
+          "Estudos completos de bioequivalência e estabilidade",
+          "Rastreabilidade nacional via SNCM",
+          "Farmacovigilância obrigatória",
+          "Variabilidade potência ±5%",
+          "Maior custo, disponibilidade limitada"
+        ]
+      },
+      "right": {
+        "label": "Manipulado Magistral",
+        "items": [
+          "Validação restrita ao estabelecimento",
+          "Ausência de bioequivalência comprovada",
+          "Rastreabilidade interna à farmácia",
+          "Farmacovigilância dependente de notificação súbita",
+          "Variabilidade potência ±10%",
+          "Custo geralmente inferior, maior flexibilidade"
+        ]
+      }
+    },
+    {
+      "kind": "bullets",
+      "title": "Checklist Fornecida para Prescrição e Recebimento Seguro",
+      "bullets": [
+        "Verificar ambiente manipulação certificado ISO 5",
+        "Solicitar laudos de potência (HPLC), endotoxinas e agregados",
+        "Confirmar origem do insumo (CEP/DMF)",
+        "Checar transporte refrigerado com indicador de temperatura",
+        "Conferir rótulo completo e laudo do lote no recebimento",
+        "Registrar em prontuário justificativa e consentimento",
+        "Orientar paciente sobre armazenamento correto e prazo após abertura",
+        "Documentar qualquer evento adverso e notificar via Vigipós"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "title": "Pérola do Prescritor",
+      "text": "Manipulação estéril de tirzepatida é uma alternativa excepcional; não se trata de intercambiar produtos industrial e magistral livremente. A segurança do paciente depende de rigor absoluto na cadeia de frio, seleção da farmácia e documentação — responsabilidade que o médico não pode delegar ou negligenciar."
+    }
+  ],
+  "monograph": "# Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro --- ## 1. Por que Esterilidade Importa A esterilidade é requisito absoluto para peptídeos injetáveis — incluindo agonistas do receptor GLP-1, GIP e a molécula dual tirzepatida — devido ao risco de infecção grave, endotoxemia e perda de eficácia terapêutica. A história da manipulação estéril contém lições trágicas: o surto de meningite fúngica associado ao New England Compounding Center (NECC) em 2012 resultou em **64 óbitos confirmados** e mais de 750 casos de infecção por *Exserohilum rostratum*, decorrentes de falha de esterilidade em preparações de metilprednisolona intratecal [S11]. O evento demonstrou, de forma inequívoca, que a responsabilidade por contaminação em preparações parenterais é compartilhada entre a farmácia de manipulação e o prescritor que a seleciona. ### 1.1. Fundamentos da Vulnerabilidade dos Peptídeos Peptídeos como tirzepatida, semaglutida e liraglutida apresentam vulnerabilidades específicas: - **Degradação química:** hidrólise, oxidação, deamidação e formação de agregados/dímeros podem ocorrer sem alteração visual perceptível — a solução permanece límpida enquanto perde potência ou desenvolve imunogenicidade [S12].\n- **Contaminação microbiológica:** bactérias, fungos e endotoxinas (lipopolissacarídeos) podem contaminar preparações em qualquer etapa — desde o insumo até a administração final.\n- **Degradação térmica:** exposição a temperaturas fora da faixa 2–8°C acelera todos os processos degradativos de forma exponencial (regra de Arrhenius). ### 1.2. Consequências Clínicas de Falhas | Tipo de Falha | Consequência Clínica | Exemplo Documentado |\n|---------------|---------------------|---------------------|\n| Contaminação fúngica | Meningite, abscesso epidural, óbito | Surto NECC, 2012 [S11] |\n| Contaminação bacteriana | Celulite, sepse, fasciíte necrosante | Múltiplos relatos de caso |\n| Endotoxina elevada | Febre, hipotensão, choque pirogênico | Falhas em controle de qualidade |\n| Perda de potência | Falha terapêutica, hiperglicemia, ganho ponderal | Subnotificado — atribuído erroneamente a \"resistência\" |\n| Formação de agregados | Reações imunogênicas, anticorpos neutralizantes | Estudos de imunogenicidade de peptídeos | ### 1.3. Implicações para o Prescritor Brasileiro A legislação sanitária brasileira (RDC ANVISA 67/2007 — Boas Práticas de Manipulação em Farmácias) e as normas éticas do CFM estabelecem que o prescritor possui corresponsabilidade pela escolha da farmácia e pela adequação da prescrição [S8]. Não se trata de mera formalidade: em caso de evento adverso grave por falha de qualidade, o prescritor pode responder civil, ética e criminalmente se não houver documentação demonstrando diligência na seleção do estabelecimento e no acompanhamento do paciente. ### 1.4. Imunogenicidade de Agregados: Relevância Clínica A formação de agregados proteicos durante degradação é particularmente preocupante para peptídeos terapêuticos. Agregados — mesmo em concentrações baixas e invisíveis a olho nu — podem: - **Estimular resposta imune** com desenvolvimento de anticorpos anti-droga (ADA);\n- **Neutralizar a atividade terapêutica** levando a perda de eficácia após semanas/meses de uso;\n- **Causar reações de hipersensibilidade** incluindo anafilaxia em casos graves. **Detecção clínica:** Suspeitar de imunogenicidade quando paciente apresenta **perda inexplicada de resposta** após período inicial de eficácia (tipicamente 4–12 semanas), especialmente se acompanhada de reações no local de injeção. A confirmação laboratorial de ADA não está rotineiramente disponível no Brasil; a conduta prática é descontinuar o lote suspeito e, se necessário, trocar para produto industrial ou de outro fornecedor. **Limites aceitáveis:** Farmacopeias não estabelecem limite universal de agregados para peptídeos SC; farmácias de excelência utilizam métodos como SEC-HPLC (cromatografia de exclusão por tamanho) para quantificar e especificar limites internos (tipicamente <2% de agregados). O prescritor deve questionar se a farmácia realiza este teste. **Princípio fundamental:** A decisão de prescrever magistral estéril exige justificativa clínica documentada, seleção criteriosa da farmácia e rastreabilidade completa — não há espaço para improvisação ou escolha por conveniência/preço. --- ## 2. Regulatório: Registrado, Off-Label, Magistral, Proibido ### 2.1. Enquadramento Legal no Brasil (Atualizado 2024–2025) A tirzepatida (Mounjaro®, Eli Lilly) possui registro ANVISA para diabetes mellitus tipo 2 em adultos como adjuvante à dieta e exercício. **Status da indicação para obesidade: verificar em consultas.anvisa.gov.br** — o registro pode ter sido ampliado após a redação deste documento; sempre confirmar antes de prescrever. #### Tabela 2.1. Status Regulatório de Incretinas para Obesidade/DM2 — Brasil | Produto | Registro ANVISA | Indicação Aprovada (Brasil) | Manipulação Magistral | Status Ético-Legal |\n|---------|-----------------|----------------------------|----------------------|-------------------|\n| **Tirzepatida caneta (Mounjaro®)** | Sim | DM2; obesidade **(verificar status atual)** | Não aplicável | Primeira escolha quando disponível |\n| **Tirzepatida manipulada SC** | Não (ativo sem registro próprio) | — | Tolerada sob condições específicas* | Risco solidário prescritor/farmácia |\n| **Semaglutida caneta (Ozempic®, Wegovy®)** | Sim | DM2 / Obesidade (Wegovy®) | Não aplicável | Conforme bula aprovada |\n| **Semaglutida manipulada SC** | Não | — | Tolerada sob condições específicas* | Risco solidário prescritor/farmácia |\n| **\"Research peptides\" (qualquer)** | Não | — | **PROIBIDO** | Infração sanitária e ética grave |\n| **Implantes subcutâneos de peptídeos** | Não | — | **PROIBIDO** | Sem dados de segurança/eficácia | *Condições específicas para tolerância de manipulação magistral:\n1. Impedimento documentado ao produto industrial (alergia comprovada a excipiente, indisponibilidade confirmada no mercado, necessidade de dose não comercializada);\n2. Farmácia com certificação de ambiente ISO 5 / sala limpa validada;\n3. Laudo de controle de qualidade do lote específico;\n4. Documentação completa em prontuário e TCLE;\n5. Indicação clínica formal (não estética/cosmética). #### 2.1.1. Esclarecimento Crítico sobre \"Permissão\" de Manipulação **Importante:** A ANVISA não emite \"autorização\" ou \"exceção\" formal para manipulação de ativos que possuem especialidade farmacêutica registrada. O que existe é uma **tolerância regulatória** baseada no princípio de que a manipulação magistral é prerrogativa do prescritor quando há justificativa clínica documentada. Esta tolerância **não equivale a aprovação** e implica: - **Responsabilidade solidária:** prescritor e farmácia respondem conjuntamente por eventos adversos;\n- **Ausência de bioequivalência comprovada:** não há garantia de que o manipulado produza os mesmos efeitos do industrial (ver seção 4);\n- **Necessidade de documentação robusta:** a justificativa deve resistir a escrutínio de perícia técnica. #### 2.1.2. \"Research Peptides\": Proibição Absoluta O mercado paralelo oferece peptídeos rotulados como \"for research purposes only\" ou \"not for human use\" — incluindo tirzepatida, semaglutida, retatrutida e outros. A prescrição, dispensação ou administração destes produtos em humanos constitui: - **Infração sanitária:** Lei 6.437/1977, art. 10, com multas e interdição;\n- **Infração ética:** Código de Ética Médica, arts. 14, 32 e 80;\n- **Crime:** Exercício ilegal da farmácia e/ou charlatanismo (arts. 282, 283, 284 CP). **Como identificar origem irregular:** Paciente que traz frasco \"da farmácia\" sem rótulo padronizado, sem laudo do lote ou com rotulagem em inglês deve levantar suspeita. Exigir documentação completa (nota fiscal, laudo, identificação da farmácia com CNPJ e farmacêutico responsável). Na dúvida, **não administrar**. Nenhuma justificativa clínica torna lícito o uso de \"research peptides\" em pacientes. A pressão de mercado ou do próprio paciente não isenta o prescritor de responsabilidade [S1]. --- ## 3. Cadeia de Frio, Estabilidade e Armazenamento A manutenção da cadeia de frio é determinante para a eficácia e segurança de peptídeos injetáveis. A tirzepatida, como todos os análogos de incretinas, é uma proteína que sofre desnaturação irreversível quando exposta a temperaturas inadequadas. ### 3.1. Requisitos de Temperatura: Padrões Industriais e Magistrais #### 3.1.1. Tirzepatida Industrial (Mounjaro® — Bula ANVISA/FDA) | Condição | Temperatura | Prazo Máximo | Observação |\n|----------|-------------|--------------|------------|\n| **Armazenamento fechado** | 2–8°C | Até validade impressa | Refrigerador, não porta |\n| **Caneta em uso (aberta)** | Até 30°C (temperatura ambiente) | **21 dias** | Após 21 dias: descartar independentemente do aspecto |\n| **Exposição ao congelamento** | <0°C | **Imediato descarte** | Risco de cristalização, desnaturação e ruptura do dispositivo |\n| **Exposição ao calor extremo** | >30°C | Avaliar tempo; tendência a descarte | Consultar fabricante se breve (<1h) | **Nota:** Sempre verificar a bula ANVISA vigente em consultas.anvisa.gov.br, pois protocolos podem sofrer atualizações. #### 3.1.2. Tirzepatida Manipulada Para preparações magistrais, o prazo de uso (BUD — *Beyond-Use Date*) deve ser estabelecido pela farmácia com base em: 1. **Estudo de estabilidade validado** para a formulação específica (concentração, veículo, recipiente);\n2. **Condições de armazenamento** definidas e controláveis pelo paciente;\n3. **Ausência de conservantes** (maioria das preparações) — reduz drasticamente o prazo. | Tipo de Estudo | Condições | Prazo Típico Validado | Limitações |\n|----------------|-----------|----------------------|------------|\n| **Estabilidade acelerada** | 40°C/75% UR, 3 meses | Usado para triagem | Não substitui *real-time* |\n| **Estabilidade real-time** | 2–8°C, 12–24 meses | Padrão para registro | Raramente disponível para magistral |\n| **Estabilidade em uso** | Após abertura, 2–8°C ou ambiente | **Conforme validação** | Depende de estudo específico | **Recomendação prática e fundamentação:** - **Com estudo de estabilidade validado:** aceitar o prazo documentado pela farmácia (tipicamente 14–28 dias, conforme USP <797> para preparações estéreis aquosas refrigeradas sem conservantes).\n- **Sem estudo específico:** USP <797> (edição 2023) estabelece BUD máximo de **14 dias refrigerado** para preparações de baixo risco manipuladas em ambiente ISO 5 [S12]. Na ausência de validação própria da farmácia, este é o limite prudente.\n- **Prazos superiores (21–28 dias):** aceitáveis **apenas** com laudo de estabilidade *real-time* ou em uso específico para o lote/formulação. **Pergunta específica para a farmácia:** \"O estudo de estabilidade foi conduzido conforme ICH Q1A ou metodologia equivalente? Qual laboratório executou? Qual a especificação de potência e impurezas ao final do prazo declarado?\" ### 3.2. Degradação Química Invisível: O Risco Subestimado Um aspecto crítico frequentemente negligenciado: **peptídeos podem degradar quimicamente sem qualquer alteração visual perceptível**. A solução permanece límpida, incolor e sem odor enquanto: - Forma agregados solúveis (risco de imunogenicidade);\n- Sofre deamidação (perda de potência);\n- Desenvolve produtos de oxidação (toxicidade potencial);\n- Perde concentração ativa (falha terapêutica). **Implicação clínica:** A inspeção visual (cor, turbidez, precipitado) é necessária mas **insuficiente** para garantir qualidade. A única forma de confirmar integridade química é por análise laboratorial (HPLC com detecção de impurezas, espectrometria de massa). O prescritor deve exigir que a farmácia realize e documente estes testes para cada lote. ### 3.3. Riscos Específicos do Congelamento O congelamento de peptídeos causa: 1. **Cristalização de água** → tensão mecânica sobre a molécula → desnaturação;\n2. **Crioconcentração** → aumento local de solutos → precipitação;\n3. **Ruptura de recipientes** (especialmente canetas industriais com mecanismo de injeção);\n4. **Alteração irreversível** mesmo após descongelamento aparentemente normal. **Conduta:** Qualquer frasco/caneta com suspeita de congelamento deve ser descartado, independentemente do aspecto visual. Orientar pacientes sobre posicionamento no refrigerador (não encostar na parede posterior, onde há risco de congelamento localizado). ### 3.4. Transporte e Recebimento O transporte é o elo mais vulnerável da cadeia de frio. Requisitos mínimos: | Elemento | Especificação | Verificação |\n|----------|---------------|-------------|\n| **Embalagem isotérmica** | Caixa térmica validada ou sistema passivo com gelo reciclável | Integridade visual |\n| **Indicador de temperatura** | Datalogger ou indicador químico (tipo \"freeze watch\") | Registro de mínima/máxima |\n| **Tempo de trânsito** | Compatível com autonomia térmica da embalagem | Confrontar horários |\n| **Documentação** | Romaneio com lote, validade, condições | Conferir fisicamente | **Conduta ante desvio documentado:** Se o indicador de temperatura registrar valores fora da faixa 2–8°C por período superior a 1 hora cumulativa, **não utilizar o produto**. Solicitar reposição e documentar o incidente em registro próprio da clínica. ### 3.5. Responsabilidade Compartilhada: Armazenamento Domiciliar O esforço da farmácia e do prescritor pode ser comprometido por armazenamento inadequado pelo paciente. **Orientações obrigatórias:** - Posicionar na prateleira central do refrigerador (não na porta, não no congelador);\n- Verificar temperatura do refrigerador (idealmente 2–8°C);\n- Não deixar fora da geladeira por períodos prolongados;\n- Transportar em bolsa térmica ao sair de casa para aplicação externa;\n- Não emprestar, dividir ou reutilizar frascos. --- ## 4. Diferença Indústria vs. Manipulado: Implicações Clínicas A decisão entre produto industrial e manipulado não é meramente logística — envolve diferenças fundamentais em garantia de qualidade, rastreabilidade e perfil de risco. ### 4.1. Comparativo Estruturado | Aspecto | Produto Industrial | Manipulado Magistral |\n|---------|-------------------|---------------------|\n| **Validação de processo** | Extensiva (FDA/EMA/ANVISA) | Limitada ao estabelecimento |\n| **Bioequivalência** | Comprovada vs. referência | **Não estabelecida** |\n| **Estabilidade** | Estudos ICH completos | Variável; frequentemente limitada |\n| **Rastreabilidade** | Sistema nacional (SNCM) | Interna à farmácia |\n| **Farmacovigilância** | Obrigatória, sistematizada | Dependente de notificação voluntária |\n| **Responsabilidade** | Fabricante (primária) | Farmácia + Prescritor (solidária) |\n| **Variabilidade de potência** | ±5% (especificação típica) | ±10% (limite USP para magistrais) |\n| **Custo** | Geralmente maior | Geralmente menor |\n| **Disponibilidade** | Sujeita a mercado | Sob demanda | ### 4.2. Bioequivalência: A Lacuna Crítica **Não existem estudos de bioequivalência farmacocinética/farmacodinâmica** comparando preparações magistrais de tirzepatida ao produto industrial Mounjaro®. Isto significa que: - Absorção, Cmax, Tmax e biodisponibilidade **não são garantidamente equivalentes**;\n- A resposta clínica (perda ponderal, controle glicêmico) pode diferir de forma imprevisível;\n- Eventos adversos podem ter perfil diferente (ex.: pico de absorção alterado → náusea mais intensa). **Implicação prática:** Ao trocar de industrial para manipulado (ou vice-versa), considerar **retitulação** e monitoramento intensificado nas primeiras 4–8 semanas. ### 4.3. Quando a Manipulação é Justificável A manipulação magistral de tirzepatida ou outros peptídeos é eticamente defensável apenas quando: 1. **Indisponibilidade comprovada** do produto industrial (documentar com notas de recusa de distribuidores, screenshots de falta em farmácias);\n2. **Alergia documentada** a excipiente do produto industrial (laudo de teste alérgico ou história clínica robusta);\n3. **Necessidade de dose não comercializada** (situação rara para tirzepatida, que possui escala de doses);\n4. **Impedimento econômico absoluto** — controverso eticamente; documentar discussão de alternativas e riscos. **Não constitui justificativa:**\n- Preferência do paciente por \"fórmula natural\" ou \"personalizada\";\n- Conveniência logística do prescritor;\n- Margem de lucro superior;\n- Disponibilidade mais rápida que canal oficial. ### 4.4. O Padrão de Excelência em Manipulação Estéril Farmácias magistrais de excelência distinguem-se por: - **Ambiente certificado ISO 5/Classe 100** com validação documentada de partículas e fluxo laminar;\n- **Controle microbiológico** de cada lote (esterilidade, contagem de partículas);\n- **Teste de endotoxina (LAL)** com limite documentado (nota: USP <85> estabelece 175 EU/dose para injetáveis SC; limites internos mais restritivos indicam rigor adicional);\n- **Análise de potência por HPLC** com certificado rastreável;\n- **Quantificação de agregados** (SEC-HPLC ou equivalente);\n- **Estudo de estabilidade** específico para cada formulação;\n- **Rastreabilidade eletrônica** (QR code vinculado a laudo do lote);\n- **Treinamento documentado** de manipuladores;\n- **Sistema de farmacovigilância** ativo com notificação ao prescritor;\n- **Certificado de origem do insumo** (CEP/DMF do fabricante do ativo). O prescritor deve **exigir** evidência documental destes elementos — não aceitá-los como premissa baseada em marketing ou reputação. --- ## 5. O que Perguntar à Farmácia: Checklist do Prescritor Diligente ### 5.1. Antes de Prescrever (Due Diligence) | Pergunta | Resposta Aceitável | Red Flag |\n|----------|-------------------|----------|\n| Qual a classificação do ambiente de manipulação? | ISO 5 / Classe 100 com certificação vigente | \"Área limpa\" sem especificação |\n| Há validação documentada do fluxo laminar? | Certificado com data < 6 meses | \"Fazemos manutenção regular\" |\n| Qual o fornecedor do insumo farmacêutico ativo? | Nome do fabricante com CEP/DMF documentado | \"Importação própria\" sem documentação |\n| Há laudo de potência (HPLC) para cada lote? | Sim, com certificado rastreável | \"Confiamos no fornecedor\" |\n| Qual o teste de esterilidade utilizado? | Inoculação em meios de cultura, 14 dias | \"Manipulação em ambiente limpo é suficiente\" |\n| Há teste de endotoxina (LAL)? | Sim, com limite especificado | \"Não é obrigatório para SC\" |\n| Há quantificação de agregados? | SEC-HPLC ou equivalente, limite <2% | \"Não realizamos este teste\" |\n| Qual o prazo de validade e qual o estudo que o fundamenta? | Estudo de estabilidade específico (ICH Q1A ou equivalente) | \"Usamos o padrão de 30/60/90 dias\" |\n| Como é feito o transporte refrigerado? | Embalagem validada + indicador de temperatura | \"Caixa de isopor com gelo\" | ### 5.2. No Recebimento do Produto **Checklist de conferência obrigatória:** - [ ] Embalagem íntegra, sem avarias ou violação\n- [ ] Indicador de temperatura dentro da faixa (se datalogger: verificar registro completo)\n- [ ] Rótulo completo com: nome do paciente, ativo, concentração, volume, lote, validade, farmácia, farmacêutico responsável\n- [ ] Laudo do lote acompanhando o produto (impresso ou QR code funcional)\n- [ ] Prazo de validade compatível com uso planejado\n- [ ] Aspecto visual: solução límpida, incolor, sem partículas ou turbidez\n- [ ] Instruções de armazenamento e prazo após abertura claramente indicados\n- [ ] Nota fiscal discriminada **Qualquer não-conformidade:** não administrar, documentar, comunicar à farmácia, solicitar reposição. ### 5.3. Documentação para Prontuário Toda prescrição de magistral estéril deve gerar registro contendo: 1. Cópia da prescrição com justificativa clínica;\n2. Laudo do lote (anexar PDF ou referência ao sistema);\n3. Registro de conferência no recebimento (data, responsável, conformidade);\n4. Confirmação de orientação ao paciente sobre armazenamento;\n5. Termo de consentimento informado assinado. --- ## 6. Fluxograma de Conduta: Prescrição Segura de Incretina Manipulada ### Fluxograma 6.1. Decisão e Prescrição ```\nPASSO 1: Avaliar indicação clínica formal\n─────────────────────────────────────────\n• Obesidade com IMC ≥30 OU\n• IMC ≥27 + ≥1 comorbidade (HAS, dislipidemia, DM2, apneia, esteatose, DCV) OU\n• DM2 com indicação de intensificação\n→ Não preenche critérios? INTERROMPER (não prescrever) ↓ PASSO 2: Verificar disponibilidade de produto industrial\n────────────────────────────────────────────────────────\n• Mounjaro® disponível e acessível? → PRESCREVER INDUSTRIAL\n• Indisponível, inacessível ou contraindicado? → Documentar motivo específico em prontuário ↓ PASSO 3: Selecionar farmácia magistral qualificada\n──────────────────────────────────────────────────\n• Verificar: ISO 5, laudos, rastreabilidade, histórico\n• Aplicar checklist 5.1\n• Solicitar documentação de origem do insumo (CEP/DMF)\n→ Não atende critérios? NÃO PRESCREVER magistral ↓ PASSO 4: Elaborar prescrição completa\n─────────────────────────────────────\n• Nome químico: tirzepatida\n• Concentração: ex. 2,5 mg/0,5 mL\n• Volume total: ex. 2 mL (4 doses)\n• Via: subcutânea\n• Posologia: 2,5 mg SC 1x/semana\n• Farmácia específica: nome + CNPJ\n• Validade máxima da prescrição: 30 dias ↓ PASSO 5: Obter consentimento informado\n──────────────────────────────────────\n• Explicar: diferença industrial/manipulado\n• Riscos: variabilidade, ausência de bioequivalência, estabilidade, responsabilidade compartilhada\n• Alternativas: aguardar disponibilidade, outra classe\n• Documentar assinatura (ver modelo 7.2) ↓ PASSO 6: Orientar paciente sobre recebimento e armazenamento\n────────────────────────────────────────────────────────────\n• Conferir embalagem e indicador de temperatura\n• Armazenar em 2–8°C imediatamente (prateleira central)\n• Prazo após abertura: conforme laudo (máx. 14 dias sem validação específica; até 21-28 dias com validação)\n• Sinais de alerta: turbidez, partículas, cor alterada\n• Nunca congelar; nunca compartilhar\n``` ### Fluxograma 6.2. Monitoramento e Investigação de Eventos Adversos ```\nPASSO 7: Acompanhamento pós-prescrição\n──────────────────────────────────────\n• Contato em 48–72h: tolerância, reações locais\n• Retorno em 4 semanas: eficácia, eventos adversos\n• A cada titulação: reavaliar necessidade de magistral ↓ PASSO 8: Evento adverso identificado?\n─────────────────────────────────────\n• Leve/esperado (náusea, reação local leve): documentar, manejar sintomaticamente\n• Inesperado, desproporcional ou grave: INVESTIGAR ↓ PASSO 9: Investigação de evento inesperado/grave\n────────────────────────────────────────────────\nDiferenciar origem do evento:\n┌────────────────────────┬────────────────────────┐\n│ SUGESTIVO DE QUALIDADE │ SUGESTIVO FARMACOLÓGICO│\n├────────────────────────┼────────────────────────┤\n│ Reação local intensa │ Náusea dose-dependente │\n│ (dor, eritema, nódulo) │ Diarreia/constipação │\n│ Febre após aplicação │ Hipoglicemia (se SU/ │\n│ Perda súbita de │ insulina associada) │\n│ eficácia (>4 sem uso) │ Sintomas GI esperados │\n│ Sintoma não descrito │ na fase de titulação │\n│ na literatura │ │\n└────────────────────────┴────────────────────────┘ ↓ PASSO 10: Conduta conforme origem\n─────────────────────────────────\n• Sugestivo de qualidade: - Suspender o lote - Solicitar investigação à farmácia - Considerar troca de fornecedor - NOTIFICAR Vigipós (obrigatório se grave) • Sugestivo farmacológico: - Ajustar dose/titulação - Manejar sintomas - Notificar Vigipós se grave/inesperado ↓ PASSO 11: Notificação formal\n────────────────────────────\n• Plataforma: vigpos.anvisa.gov.br\n• Eventos notificáveis: - Qualquer evento grave (hospitalização, óbito, incapacidade, anomalia congênita) - Eventos inesperados (não descritos em bula/literatura) - Falha terapêutica suspeita de problema de qualidade\n• Informar: paciente (iniciais), produto, lote, farmácia, evento, cronologia, gravidade, desfecho\n• Comunicar farmácia para investigação interna\n• Registrar protocolo de notificação em prontuário\n``` --- ## 7. Checklist de Prontuário e TCLE ### 7.1. Elementos Obrigatórios no Prontuário **Antes da prescrição:**\n- [ ] Diagnóstico com CID-10 (ex.: E66.9 — Obesidade não especificada; E11 — DM2)\n- [ ] Parâmetros objetivos: IMC, circunferência abdominal, exames metabólicos\n- [ ] Justificativa para escolha de magistral (indisponibilidade industrial documentada, alergia a excipiente, etc.)\n- [ ] Registro de discussão de alternativas terapêuticas\n- [ ] Avaliação de contraindicações específicas **Na prescrição:**\n- [ ] Data e identificação do prescritor\n- [ ] Nome químico do ativo (tirzepatida)\n- [ ] Concentração e volume total\n- [ ] Posologia detalhada com intervalo\n- [ ] Nome da farmácia magistral designada com CNPJ\n- [ ] Validade da prescrição **No recebimento/administração:**\n- [ ] Data de recebimento do produto\n- [ ] Número do lote e validade\n- [ ] Confirmação de conformidade visual\n- [ ] Confirmação de cadeia de frio (indicador de temperatura)\n- [ ] Laudo do lote anexado (digital ou físico) **No acompanhamento:**\n- [ ] Registro de tolerância e eventos adversos\n- [ ] Eficácia (peso, HbA1c conforme indicação)\n- [ ] Decisão sobre continuidade e justificativa\n- [ ] Notificações Vigipós realizadas (se aplicável) ### 7.2. Modelo de TCLE — Elementos Essenciais O Termo de Consentimento Livre e Esclarecido deve conter, no mínimo: **Identificação:**\n- Dados do paciente (nome, documento)\n- Dados do prescritor (nome, CRM, especialidade)\n- Data **Informações sobre o tratamento:**\n1. Nome do medicamento (tirzepatida) e indicação específica no caso do paciente;\n2. Explicação de que se trata de **formulação magistral** (não industrial);\n3. Diferenças entre produto industrial e manipulado: - Ausência de bioequivalência comprovada; - Variabilidade de potência aceitável (±10%); - Estabilidade dependente de validação específica;\n4. Motivo pelo qual está sendo prescrito magistral e não industrial;\n5. Benefícios esperados com o tratamento;\n6. Riscos conhecidos da classe terapêutica (náusea, vômito, diarreia, constipação, hipoglicemia se associado a sulfonilureias/insulina);\n7. Riscos específicos da manipulação;\n8. Alternativas terapêuticas disponíveis;\n9. Orientações de armazenamento e prazo de uso;\n10. Instruções em caso de evento adverso (quem contatar, como proceder). **Declarações do paciente:**\n- Compreensão das informações fornecidas;\n- Oportunidade de esclarecer dúvidas;\n- Decisão livre e voluntária;\n- Compromisso com armazenamento adequado;\n- Compromisso de não compartilhar o medicamento. **Assinaturas:**\n- Paciente (ou responsável legal)\n- Prescritor\n- Testemunha (recomendável) **Nota sobre capacidade de compreensão:** Para pacientes com dificuldade de leitura ou compreensão (analfabetismo, déficit cognitivo), o termo deve ser **lido integralmente em voz alta** pelo prescritor na presença de testemunha, com registro explícito deste procedimento. Se necessário, envolver familiar/cuidador como responsável compartilhado pela guarda e administração adequada. --- ## 8. Sinais de Red Flag: Quando Recusar ou Suspender ### 8.1. Red Flags da Farmácia | Sinal | Interpretação | Conduta |\n|-------|---------------|---------|\n| Ausência de laudo do lote | Controle de qualidade inexistente ou não documentado | Não prescrever para esta farmácia |\n| \"Prazo padrão de 90 dias\" sem estudo de estabilidade | Prazo arbitrário sem validação científica | Questionar; se não houver estudo específico, recusar |\n| Preço muito abaixo do mercado | Possível economia em insumo, ambiente ou controle | Investigar; geralmente indica corte de qualidade |\n| Entrega em 24h para qualquer demanda | Provável estoque prévio (manipulação não individualizada) ou ambiente não controlado | Questionar processo produtivo |\n| Rótulo incompleto (sem lote, validade, farmacêutico) | Não conformidade com RDC 67/2007 | Recusar o produto |\n| Embalagem improvisada para transporte | Cadeia de frio comprometida | Recusar; documentar |\n| Resistência a fornecer documentação | Transparência inadequada | Não estabelecer relação |\n| Sem certificado de origem do insumo (CEP/DMF) | Rastreabilidade comprometida | Exigir ou recusar | ### 8.2. Red Flags do Produto Recebido | Sinal | Interpretação | Conduta |\n|-------|---------------|---------|\n| Turbidez ou partículas visíveis | Contaminação ou degradação | Não administrar; notificar farmácia |\n| Coloração alterada | Degradação química | Não administrar; notificar |\n| Odor atípico | Contaminação ou decomposição | Não administrar; notificar |\n| Indicador de temperatura fora da faixa | Cadeia de frio violada | Não administrar; solicitar reposição |\n| Validade muito curta (< 2 semanas) | Possível produto próximo do vencimento ou estabilidade limitada | Avaliar viabilidade de uso no prazo |\n| Frasco sem lacre ou com sinais de violação | Possível contaminação | Não administrar; documentar | ### 8.3. Red Flags do Mercado/Pressão | Sinal | Interpretação | Conduta |\n|-------|---------------|---------|\n| Paciente traz \"peptídeo de fonte própria\" | Provável research peptide ou importação irregular | Recusar administrar; documentar orientação |\n| Frasco com rótulo em inglês ou sem identificação brasileira | Importação paralela irregular | Não administrar; orientar sobre riscos |\n| Solicitação de \"fórmula igual ao colega\" | Prescrição não individualizada | Reavaliar indicação específica do paciente |\n| Pressão por \"dose de manutenção\" sem titulação | Possível uso prévio irregular | Investigar histórico; reiniciar com protocolo adequado |\n| \"Clínica parceira\" oferece preços diferenciados | Possível conflito de interesse ou qualidade comprometida | Manter independência na escolha da farmácia | --- ## 9. Considerações Éticas e Legais ### 9.1. Proibições Absolutas A prescrição de tirzepatida ou outros agonistas de incretinas está **absolutamente proibida** para: 1. **Finalidade exclusivamente estética** — perda de peso em indivíduo sem diagnóstico de obesidade (IMC ≥30) ou sobrepeso (IMC ≥27) com comorbidade documentada;\n2. **\"Anti-aging\" ou longevidade** — sem indicação metabólica formal [S13, S19];\n3. **Performance esportiva** — constitui doping além de uso off-label sem evidência;\n4. **\"Wellness\" ou \"otimização metabólica\"** em indivíduo saudável — marketing, não medicina. A CFM Resolução 2.333/2023 veda explicitamente \"terapias hormonais com finalidade estética ou para retardar, modular ou reverter o envelhecimento ou para melhorar desempenho físico ou intelectual de pessoas saudáveis\" [S13, S19]. **Nota interpretativa:** Incretinas não são hormônios *stricto sensu*, e a extensão direta desta resolução para GLP-1/GIP agonistas não está formalmente estabelecida. Contudo, o **princípio ético subjacente** — não prescrever fármacos potentes para indivíduos sem doença — aplica-se independentemente da classe farmacológica. Recomenda-se consultar formalmente o CFM em caso de dúvida sobre situações limítrofes. ### 9.2. Diferenciando Indicação Terapêutica de Estética | Indicação Terapêutica Válida | Indicação Estética (Proibida) |\n|------------------------------|------------------------------|\n| IMC ≥30 kg/m² (obesidade) | IMC <27 sem comorbidade |\n| IMC ≥27 + ≥1 comorbidade (HAS, dislipidemia, DM2, apneia, esteatose, DCV) | IMC 25–27 sem nenhuma comorbidade documentada |\n| DM2 com indicação de intensificação | Diabetes bem controlado para \"otimizar ainda mais\" |\n| Obesidade pós-bariátrica com reganho | Manutenção de peso já adequado |\n| Síndrome metabólica documentada | \"Prevenção\" em indivíduo metabolicamente saudável | **Referência para critérios de comorbidade:** AACE/ACE 2016, Endocrine Society, ABESO 2022 — todos aceitam IMC ≥27 com pelo menos uma comorbidade relacionada à adiposidade como indicação para farmacoterapia. A exigência de comorbidade para faixa 27–29,9 é consensual; prescrever nesta faixa sem nenhum fator de risco documentado é eticamente questionável. **Documentação defensável:** O prontuário deve conter diagnóstico codificado (CID), parâmetros objetivos (IMC, circunferência abdominal, exames metabólicos) e justificativa para a escolha terapêutica. Em caso de questionamento ético, a documentação deve demonstrar que o benefício esperado para aquele paciente específico supera os riscos. ### 9.3. Responsabilidade Legal do Prescritor A corresponsabilidade do prescritor em eventos adversos relacionados a manipulados estéreis está fundamentada em: - **Código Civil (art. 932, III):** responsabilidade por ato de terceiro sob orientação;\n- **Código de Defesa do Consumidor (art. 14):** responsabilidade objetiva do fornecedor de serviço;\n- **Código Penal (art. 132):** perigo para a vida ou saúde de outrem;\n- **Código de Ética Médica (arts. 1, 14, 32):** responsabilidade profissional. **Nota:** A extensão da responsabilidade solidária entre prescritor e farmácia pode variar conforme interpretação judicial; a documentação robusta reduz exposição mas não elimina risco completamente. **Proteção documental:** O prescritor se protege demonstrando:\n1. Indicação clínica justificada e documentada;\n2. Seleção criteriosa da farmácia (*due diligence* documentada);\n3. Orientação adequada ao paciente (TCLE);\n4. Acompanhamento apropriado;\n5. Notificação de eventos adversos quando ocorridos. ### 9.4. Interações Medicamentosas e Coadministração O risco de **hipoglicemia** é aumentado quando tirzepatida (ou outros GLP-1 RA) é coadministrada com: - Sulfonilureias (glibenclamida, gliclazida, glimepirida);\n- Insulinas. **Conduta:** Ao iniciar tirzepatida em paciente usando sulfonilureia ou insulina, considerar **redução profilática** da dose destes agentes (tipicamente 50% da sulfonilureia; ajuste individualizado de insulina conforme glicemias) [G2]. Esta orientação aplica-se igualmente ao produto industrial e ao manipulado. --- ## 10. Descarte de Resíduos: Responsabilidade Ambiental e Sanitária Preparações injetáveis de peptídeos vencidas, contaminadas ou com prazo de uso excedido constituem **resíduo de serviço de saúde Grupo B** (químico) e devem ser descartadas conforme RDC ANVISA 222/2018 (verificar vigência e eventuais atualizações em gov.br/anvisa): ### 10.1. Procedimento de Descarte em Consultório 1. **Identificar** o resíduo: frasco com resíduo de medicamento, agulhas utilizadas;\n2. **Segregar** em recipiente apropriado: - Perfurocortantes (agulhas, seringas com agulha): coletor de perfurocortantes (Descarpack ou equivalente); - Frascos com resíduo: saco branco leitoso identificado como \"Resíduo Químico — Medicamento\";\n3. **Armazenar** em local identificado, acessível apenas a funcionários treinados;\n4. **Destinar** via empresa licenciada para coleta de resíduos de saúde (verificar licença ambiental);\n5. **Documentar** a destinação (manifesto de transporte de resíduos). ### 10.2. Orientação ao Paciente para Descarte Domiciliar - Nunca descartar em lixo comum ou esgoto;\n- Levar frascos e agulhas usadas a ponto de coleta (UBS, farmácia com programa de descarte, clínica do prescritor);\n- Armazenar temporariamente em recipiente rígido (garrafa PET) até descarte adequado. --- ## 11. Tabela de Evidência: Ensaios Principais de Incretinas **Nota crítica:** Todos os ensaios abaixo utilizaram **produto industrial padronizado**. A extrapolação de eficácia para preparações magistrais não possui respaldo direto — a manipulação é uma alternativa de acesso, não um equivalente validado. | Ensaio | N | População | Intervenção | Desfecho Primário | Resultado | Nível |\n|--------|---|-----------|-------------|-------------------|-----------|-------|\n| **SURMOUNT-1** [G1] | 2.539 | Obesidade sem DM2 | Tirzepatida 5/10/15 mg vs. placebo | % perda de peso 72 sem | -15,0% (5 mg) a -20,9% (15 mg) vs. -3,1% | **A** |\n| **SURMOUNT-2** [G2] | 938 | Obesidade + DM2 | Tirzepatida 10/15 mg vs. placebo | % perda de peso 72 sem | -12,8% a -14,7% vs. -3,2% | **A** |\n| **SURMOUNT-5** [G6, S21] | 751 | Obesidade sem DM2 | Tirzepatida 10/15 mg vs. semaglutida 2,4 mg | % perda de peso 72 sem | -20,2% vs. -13,7% (verificar status de publicação) | **A** |\n| **STEP 1** [G4, S23] | 1.961 | Obesidade sem DM2 | Semaglutida 2,4 mg vs. placebo | % perda de peso 68 sem | -14,9% vs. -2,4% | **A** |\n| **SELECT** [G3, S24] | 17.604 | Obesidade/sobrepeso + DCV, sem DM | Semaglutida 2,4 mg vs. placebo | MACE | HR 0,80 (IC95% 0,72–0,90) | **A** |\n| **FLOW** [G5, S22] | 3.533 | DM2 + DRC | Semaglutida 1 mg vs. placebo | Desfecho renal composto | HR 0,76 (IC95% 0,66–0,88) | **A** | **Níveis de evidência:** A = ECR de alta qualidade; B = ECR com limitações ou estudos observacionais robustos; C = séries de casos, opinião de especialistas; D = evidência insuficiente ou conflitante. --- ## 12. Key Points Práticos 1. **Esterilidade validada e estabilidade documentada são requisitos inegociáveis** para peptídeos injetáveis — não há \"tolerância\" para improviso ou economia. 2. **A manipulação magistral de tirzepatida é tolerada, não autorizada** — implica responsabilidade solidária prescritor/farmácia e exige justificativa clínica robusta. 3. **Prazo de uso após abertura:** para produto industrial (Mounjaro®), **até 21 dias** conforme bula ANVISA; para magistral, conforme laudo de estabilidade específico do lote (**até 14 dias sem validação específica**, conforme USP <797>; até 21–28 dias com validação documentada). 4. **Degradação química pode ser invisível** — inspeção visual é necessária mas insuficiente; exigir laudos de HPLC, impurezas e agregados. 5. **Cadeia de frio:** manter 2–8°C; nunca congelar; descartar qualquer produto com suspeita de desvio térmico. 6. **Nunca compartilhar frascos** entre pacientes — risco de contaminação cruzada e infração sanitária. 7. **Research peptides são absolutamente proibidos** para uso humano — independentemente de pressão de mercado ou paciente. 8. **Indicação estética pura é vedada** — distinguir obesidade como doença (tratável) de insatisfação corporal em peso normal (não indicação para incretinas). 9. **Documentar sempre:** indicação, justificativa para magistral, farmácia selecionada, conferência do produto, orientação ao paciente, TCLE. 10. **Notificar eventos adversos** via Vigipós (vigpos.anvisa.gov.br) — eventos graves, inesperados e suspeita de falha de qualidade são notificáveis. Contribui para farmacovigilância e protege o prescritor documentalmente. 11. **Bioequivalência não comprovada:** ao trocar entre industrial e manipulado, considerar retitulação e monitoramento intensificado. 12. **Exigir certificado de origem do insumo** (CEP/DMF) — rastreabilidade até o fabricante do ativo é parte da *due diligence*. --- ## 13. Referências e Âncoras **Regulatórias e Técnicas:**\n- [S8] ANVISA — RDC 67/2007: Boas Práticas de Manipulação em Farmácias. Disponível em: gov.br/anvisa\n- [S11] CDC/NEJM — Multistate outbreak of fungal meningitis and other infections (NECC). NEJM 2012;367(26):2495-2500. DOI: 10.1056/NEJMoa1213978\n- [S12] United States Pharmacopeia — USP <797> Pharmaceutical Compounding—Sterile Preparations. Edição 2023. usp.org\n- RDC ANVISA 222/2018 — Gerenciamento de resíduos de serviços de saúde (verificar vigência) **Éticas:**\n- [S13, S19] CFM — Resolução 2.333/2023: Veda terapias hormonais com finalidade estética/anti-aging. portal.cfm.org.br **Ensaios Clínicos:**\n- [G1] SURMOUNT-1: Jastreboff AM, et al. NEJM 2022. DOI: 10.1056/NEJMoa2206038\n- [G2] SURMOUNT-2: Garvey WT, et al. Lancet 2023. DOI: 10.1016/S0140-6736(23)01200-X\n- [G3, S24] SELECT: Lincoff AM, et al. NEJM 2023. DOI: 10.1056/NEJMoa2307563\n- [G4, S23] STEP 1: Wilding JPH, et al. NEJM 2021. DOI: 10.1056/NEJMoa2032183\n- [G5, S22] FLOW: Perkovic V, et al. NEJM 2024. DOI: 10.1056/NEJMoa2403347\n- [G6, S21] SURMOUNT-5: Aronne LJ, et al. NEJM 2025. DOI: 10.1056/NEJMoa2416392 (verificar status de publicação antes de citar em documentos formais) **Outras:**\n- [S1] FDA — Category 2 bulk substances, peptide safety concerns. fda.gov\n- [S14] Endocrine Society/ACOG — Cautela com bioidênticos manipulados. Position statements 2016. **Consultas de bula e status regulatório:** Sempre verificar em consultas.anvisa.gov.br para informações atualizadas sobre indicações aprovadas, doses e estabilidade. --- ## 14. Síntese Visual: O Ecossistema da Qualidade ```\n┌──────────────────────────────────────────────────────────────────────────┐\n│ PRESCRIÇÃO SEGURA DE INCRETINA MANIPULADA │\n├──────────────────────────────────────────────────────────────────────────┤\n│ │\n│ INDICAÇÃO FARMÁCIA PRODUTO PACIENTE │\n│ ───────── ──────── ─────── ──────── │\n│ • DM2/Obesidade • ISO 5 validado • Laudo do lote • TCLE │\n│ documentada • Laudos HPLC/LAL/ • Cadeia de frio • Orienta- │\n│ • Comorbidade agregados • Prazo validado ção de │\n│ (se IMC 27-29,9) • CEP/DMF do insumo • Inspeção visual armazena- │\n│ • Impedimento • Estudo estabilidade mento │\n│ industrial • Transporte • Descarte │\n│ documentado certificado adequado │\n│ │\n│ ↓ │\n│ CORRESPONSABILIDADE │\n│ ──────────────────── │\n│ Prescritor + Farmácia │\n│ ↓ │\n│ FARMACOVIGILÂNCIA │\n│ ────────────────── │\n│ • Monitoramento contínuo │\n│ • Notificação Vigipós (graves/inesperados) │\n│ • Documentação completa em prontuário │\n│ │\n└──────────────────────────────────────────────────────────────────────────┘\n``` --- **Nota final:** Esta monografia não constitui endosso a qualquer farmácia específica. O padrão de excelência descrito — ambiente ISO 5, laudos completos, rastreabilidade, farmacovigilância — deve ser exigido de qualquer estabelecimento escolhido pelo prescritor. Farmácias que atendem a este padrão servem como referência de que é alcançável, não como único fornecedor possível. A responsabilidade pela seleção e verificação permanece integralmente com o prescritor. --- *Versão 3.0 — Revisada conforme auditoria editorial. Contagem aproximada: 5.200 palavras.*",
+  "quick_ref": "# Guia Rápido: Prescrição e Manipulação de Tirzepatida ## Doses comuns (industrial):\n| Dose (mg) | Volume aproximado (mL) |\n|-----------|------------------------|\n| 2,5 | 0,25 |\n| 5,0 | 0,5 |\n| 7,5 | 0,75 |\n| 10,0 | 1,0 |\n| 12,5 | 1,25 |\n| 15,0 | 1,5 | ## Prazos e armazenamento:\n- Produto industrial fechado: 2–8°C até validade.\n- Produto industrial em uso (caneta aberta): até 21 dias, ≤30°C.\n- Manipulado: máximo 14 dias refrigerado sem validação; 21-28 dias com estudo comprovado.\n- Nunca congelar. ## Checklist rápida para o prescritor:\n- Indicação formal (obesidade IMC ≥30 ou IMC ≥27 + comorbidade).\n- Preferir produto industrial.\n- Se magistral, farmácia com certificação ISO 5, laudos de potência/endotoxina/agregados.\n- Documentar consentimento informado.\n- Monitorar eventos adversos e notificar via Vigipós se grave. ## Red Flags para recusar produto/farmácia:\n- Ausência de laudos ou certificação.\n- Embalagem violada ou indicador de temperatura fora da faixa.\n- Produto turvo ou com partículas.\n- Pesquisa ou pressão por uso estético ou 'research peptides'. Consulta rápida ANVISA: consultas.anvisa.gov.br --- # Notificação Vigipós\n- Acessar: vigpos.anvisa.gov.br\n- Indicar eventos graves, inesperados ou falha de qualidade. # Contato\nPara dúvidas, sempre consulte farmacêuticos especializados e normas vigentes.",
+  "clinical_case": {
+    "title": "Paciente com Obesidade e Prescrição de Tirzepatida Manipulada: Avaliação de Segurança e Procedimentos",
+    "vignette": "Mulher, 45 anos, IMC 33 kg/m², com hipertensão arterial controlada, sem diabetes. Procurou tratamento para obesidade. Produto industrial (Mounjaro®) com longa fila de espera; decidiu usar preparações manipuladas indicadas por colega. Recebe frasco com solução transparente, porém o rótulo não traz validade nem laudo. Apresenta náuseas moderadas na titulação. Após 4 semanas, perde apenas 2 kg e relata reação local intensa, vermelhidão e dor no local da aplicação.",
+    "question": "Qual o melhor procedimento diante do cenário apresentado?",
+    "teaching": "Este caso ilustra riscos comuns associados à prescrição de tirzepatida manipulada sem a devida diligência. A ausência de laudo e validade no rótulo indica provável omissão dos controles essenciais pela farmácia, expondo a paciente a riscos de contaminação e degradação. A reação local intensa e baixa resposta podem sugerir problemas de qualidade ou imunogenicidade decorrente de agregados. O médico deve: - Suspender o uso do lote suspeito imediatamente.\n- Solicitar laudo de qualidade à farmácia e afastar o lote até investigação.\n- Orientar paciente para monitorização e notificação de eventos.\n- Reavaliar indicação e considerar aguardar produto industrial se possível.\n- Documentar tudo rigorosamente no prontuário e consentimento informado. Este caso reforça a responsabilidade solidária entre prescritor e farmácia e a importância de seguir protocolos de prescrição segura.",
+    "reward": 5,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "45 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "33 kg/m²"
+      },
+      {
+        "label": "Comorbidade",
+        "value": "Hipertensão arterial controlada"
+      },
+      {
+        "label": "Produto utilizado",
+        "value": "Tirzepatida manipulada (sem laudo)"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Náuseas, reação local intensa"
+      },
+      {
+        "label": "Perda de peso",
+        "value": "2 kg em 4 semanas"
+      },
+      {
+        "label": "Documentação do produto",
+        "value": "Rótulo incompleto, sem validade ou laudo"
+      }
+    ],
+    "options": [
+      {
+        "label": "A",
+        "correct": true,
+        "rationale": "Suspender o lote, solicitar laudos de qualidade, monitorar e documentar. Esta é a conduta mais segura diante da suspeita de falha de qualidade e reação local grave."
+      },
+      {
+        "label": "B",
+        "correct": false,
+        "rationale": "Continuar o tratamento sem investigação representa risco para o paciente e negligência profissional."
+      },
+      {
+        "label": "C",
+        "correct": false,
+        "rationale": "Trocar imediatamente para produto industrial sem avaliar e documentar o problema falha em abordar o possível risco associado ao lote manipulado."
+      },
+      {
+        "label": "D",
+        "correct": false,
+        "rationale": "Administrar corticosteroide local para reação sem investigar origem pode mascarar surto infeccioso ou imunogenicidade."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity (SURMOUNT-1). N Engl J Med. 2022. DOI:10.1056/NEJMoa2206038"
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes (SURMOUNT-2). Lancet. 2023. DOI:10.1016/S0140-6736(23)01200-X"
+    },
+    {
+      "citation": "CDC / New England Journal of Medicine. Multistate fungal meningitis outbreak associated with contaminated steroid injections. 2012. DOI:10.1056/NEJMoa1213978"
+    },
+    {
+      "citation": "ANVISA RDC 67/2007. Boas Práticas de Manipulação em Farmácias. 2022.",
+      "url": "https://www.gov.br/anvisa/"
+    },
+    {
+      "citation": "United States Pharmacopeia. USP <797> Pharmaceutical Compounding - Sterile Preparations. 2023.",
+      "url": "https://www.usp.org/"
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023. Terapias hormonais estética/anti-aging. 2023.",
+      "url": "https://portal.cfm.org.br/"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "pass"
+}

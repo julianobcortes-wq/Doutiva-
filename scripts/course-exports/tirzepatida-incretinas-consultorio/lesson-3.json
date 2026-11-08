@@ -1,0 +1,363 @@
+{
+  "position": 3,
+  "module": "Módulo 2 · Titulação e frasco",
+  "title": "Titulação Prática de Tirzepatida e Semaglutida: Degraus, Pausas e Manejo da Antiemese",
+  "description": "Esta aula aborda a titulação clínica detalhada da tirzepatida e semaglutida, com foco nos esquemas semana a semana, pausas indicadas, manejo dos efeitos adversos gastrointestinais, antieméticos, aspectos nutricionais e regulamentação brasileira, com evidência robusta dos ensaios clínicos pivô e condutas práticas para endocrinologistas e clínicos.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Tirzepatida e semaglutida devem ser tituladas progressivamente em degraus semanais mínimos de 4 semanas para reduzir eventos adversos gastrointestinais e melhorar adesão ao tratamento [G1,G4].",
+    "Náusea, vômito e diarreia são comuns e dose-dependentes, ocorrendo principalmente nas primeiras semanas após cada aumento de dose; manejo proativo é fundamental para continuidade do tratamento [G1,G4].",
+    "Não avançar a dose diante de sintomas gastrointestinais moderados/graves, preferindo manter ou regredir degrau; antieméticos devem ser usados apenas como resgate e por tempo limitado [G1,S6].",
+    "Orientações nutricionais — refeições fracionadas, redução de gorduras, hidratação adequada — são essenciais no manejo dos efeitos adversos e preservação da massa magra [S4,S5].",
+    "Em populações especiais (idosos, DRC, fragilidade) a titulação deve ser estendida (6–8 semanas) para maior tolerância e segurança [G2,S5].",
+    "Regulação local (ANVISA, CFM) orienta prescrição rigorosa com indicação clínica documentada e obriga farmacovigilância, especialmente em manipulação magistral estéril [G8,S11].",
+    "Plano de tratamento deve considerar manutenção de longo prazo, pois descontinuação do GLP-1RA frequentemente leva a reganho ponderal [S6]."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Titulação Clínica de Tirzepatida e Semaglutida",
+      "subtitle": "Degraus, Pausas e Manejo de Náuseas/Vômitos no Consultório Brasileiro"
+    },
+    {
+      "kind": "table",
+      "title": "Ensaios Pivotais - Perfil de Dose, Eventos GI e Abandono",
+      "head": [
+        "Estudo",
+        "População",
+        "Esquema Titr.",
+        "Perda Ponderal",
+        "Náusea (%)",
+        "Abandono AE (%)",
+        "Nível Evidência"
+      ],
+      "rows": [
+        [
+          "SURMOUNT-1 [G1]",
+          "Obesidade, sem DM2",
+          "2.5→5→7.5→10→15 mg/4 sem",
+          "−15 a −21% (dose-dep)",
+          "24–31",
+          "4.3–7.1",
+          "A"
+        ],
+        [
+          "SURMOUNT-2 [G2]",
+          "Obesidade + DM2",
+          "Semelhante SURMOUNT-1",
+          "−13 a −15% HbA1c ↓2.1%",
+          "17–24",
+          "3.8–6.5",
+          "A"
+        ],
+        [
+          "STEP-1 [G4]",
+          "Obesidade sem DM2",
+          "0.25→0.5→1→1.7→2.4 mg/4 sem",
+          "−15%",
+          "44",
+          "7.0",
+          "A"
+        ],
+        [
+          "SELECT [G3]",
+          "DCV estabelecida, sem DM",
+          "Semelhante STEP-1",
+          "Redução MACE HR 0.8",
+          "Principal causa suspensão",
+          "16.6 (vs 8.2 placebo)",
+          "A"
+        ]
+      ],
+      "source": "Elaboração própria com dados de G1,G2,G3,G4,S6"
+    },
+    {
+      "kind": "bars",
+      "title": "Incidência de Náusea (%) por Dose e Estudo",
+      "unit": "%",
+      "source": "G1,G2,G3,G4",
+      "bars": [
+        {
+          "label": "SURMOUNT-1 5mg: ~24%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "SURMOUNT-1 15mg: ~31%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "SURMOUNT-2 10mg: ~17%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "STEP-1 2.4mg: 44%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "SELECT 2.4mg: Não especificado, mas principal causa suspensão",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo de Titulação e Manejo de Sintomas - GLP-1RA / Tirzepatida",
+      "steps": [
+        {
+          "label": "Passo 1: Confirmar indicação clínica conforme critérios ANVISA e CFM"
+        },
+        {
+          "label": "Passo 2: Iniciar dose baixa",
+          "detail": "Tirzepatida 2,5mg/sem ou Semaglutida 0,25mg/sem"
+        },
+        {
+          "label": "Passo 3: Avaliar sintomas GI na semana 4"
+        },
+        {
+          "label": "Passo 4: Sem ou sintomas leves → avançar degrau da dose"
+        },
+        {
+          "label": "Passo 5: Sintomas moderados – manter dose, instituir medidas não farmacológicas + avaliar hidratação"
+        },
+        {
+          "label": "Passo 6: Sintomas graves/incapacitantes – regredir dose no esquema, considerar antieméticos e hidratação IV se necessário"
+        },
+        {
+          "label": "Passo 7: Populações especiais → considerar intervalos titulatórios prolongados (6–8 sem)"
+        },
+        {
+          "label": "Passo 8: Manutenção na dose tolerada com resposta adequada; planejar acompanhamento"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Esquemas Semanais de Titulação Prática",
+      "head": [
+        "Semana",
+        "Tirzepatida (mg/sem)",
+        "Semaglutida (mg/sem)"
+      ],
+      "rows": [
+        [
+          "1–4",
+          "2,5",
+          "0,25"
+        ],
+        [
+          "5–8",
+          "5,0",
+          "0,5"
+        ],
+        [
+          "9–12",
+          "7,5 (opcional)",
+          "1,0"
+        ],
+        [
+          "13–16",
+          "10,0",
+          "1,7"
+        ],
+        [
+          "17–20",
+          "12,5 (opcional)",
+          "2,4"
+        ],
+        [
+          "≥21",
+          "15,0 (dose máxima)",
+          "2,4 (manutenção)"
+        ]
+      ],
+      "source": "G1,G4"
+    },
+    {
+      "kind": "split",
+      "title": "Manejo Não Farmacológico da Náusea e Vômito",
+      "left": {
+        "label": "Orientações Nutricionais",
+        "items": [
+          "Refeições pequenas e frequentes (5–6 vezes ao dia)",
+          "Evitar alimentos gordurosos e ultraprocessados",
+          "Não deitar por 2–3h após refeições",
+          "Beber líquidos entre refeições, preferencialmente 2L/dia",
+          "Orientar mastigar vagarosamente e evitar bebidas gaseificadas",
+          "Atividade física leve pós-refeição, como caminhada breve",
+          "Informar que sintomas são transitórios e geralmente melhoram em 1–2 semanas"
+        ]
+      },
+      "right": {
+        "label": "Orientações Hidratatórias e Comportamentais",
+        "items": [
+          "Hidratação adequada é essencial – monitorar sinais de desidratação",
+          "Soluções de reidratação oral se necessário",
+          "Evitar álcool durante titulação",
+          "Orientar pacientes a relatar sintomas persistentes ou intensos"
+        ]
+      }
+    },
+    {
+      "kind": "table",
+      "title": "Antieméticos de Resgate para Náusea/Vômito",
+      "head": [
+        "Fármaco",
+        "Dose",
+        "Duração",
+        "Precauções",
+        "Nível Evidência"
+      ],
+      "rows": [
+        [
+          "Ondansetrona",
+          "4–8 mg VO até 2×/dia",
+          "3–5 dias max",
+          "Prolong QTc, constipação",
+          "C"
+        ],
+        [
+          "Metoclopramida",
+          "10 mg VO 30 min pré-refeições",
+          "≤5 dias",
+          "Efeitos extrapiramidais, evitar uso prolongado",
+          "C"
+        ],
+        [
+          "Dimenidrinato",
+          "50–100 mg VO até 3×/dia",
+          "Conforme necessidade",
+          "Sedação, efeitos anticolinérgicos",
+          "D"
+        ]
+      ],
+      "source": "G1,S6"
+    },
+    {
+      "kind": "split",
+      "title": "Erros Comuns que Geram Abandono e Condutas Corretas",
+      "left": {
+        "label": "Erros Comuns",
+        "items": [
+          "Avanço rápido da dose (<4 semanas) leva a AE GI intensos e abandono",
+          "Ignorar náusea persistente e avançar dose",
+          "Falta de orientação sobre expectativa dos sintomas GI",
+          "Prescrição rotineira imprópria de antieméticos",
+          "Não ajustar insulina ou sulfonilureias concomitantes",
+          "Uso de manipulado sem controle ou farmácia habilitada",
+          "Falta de planejamento para manutenção a longo prazo"
+        ]
+      },
+      "right": {
+        "label": "Conduta Recomendada",
+        "items": [
+          "Respeitar mínimo 4 semanas entre degraus; estender em idosos e DRC",
+          "Manter dose até resolução de sintomas; regredir se severos",
+          "Comunicar que sintomas são transitórios e possíveis",
+          "Usar antieméticos apenas como resgate por curto período",
+          "Reduzir insulina/SU profilaticamente e monitorar glicemia",
+          "Exigir documentação, laudo e rastreabilidade",
+          "Discutir com paciente expectativa crônica do tratamento"
+        ]
+      }
+    },
+    {
+      "kind": "pearl",
+      "title": "Pérola Clínica",
+      "text": "\"A náusea associada à incretina é um sinal de que o organismo está se adaptando ao mecanismo de saciedade, e sua maioria dos pacientes tolera a medicação após 1–2 semanas em cada degrau. A titulação paciente-centrista, respeitando sintomas e pausas, maximiza adesão e resultados clínicos.\""
+    }
+  ],
+  "monograph": "# Titulação Prática de Tirzepatida e Semaglutida: Degraus, Pausas e Antiemese --- ## 1. Contexto e Relevância Clínica O uso de incretinas – principalmente tirzepatida (agonista duplo GIP/GLP-1) e semaglutida (agonista GLP-1) – consolidou-se como estratégia robusta no manejo de diabetes tipo 2 (DM2), obesidade e comorbidades metabólicas. Ensaios pivotais demonstram benefícios relevantes em perda ponderal, controle glicêmico e, no caso da semaglutida, redução de eventos cardiovasculares maiores (MACE) [G1, G2, G3, G4]. Entretanto, a titulação inadequada resulta em abandono precoce por intolerância, especialmente devido a efeitos adversos gastrointestinais (GI). Os dados do programa STEP mostram que náusea afeta até 44% dos pacientes com semaglutida 2,4 mg, enquanto no SURMOUNT-1 a incidência com tirzepatida foi de aproximadamente 24–31% dependendo da dose [G1, G4]. A maioria desses eventos é leve a moderada e transitória, mas a gestão proativa é determinante para adesão. Além disso, aspectos regulatórios (ANVISA, CFM) e ético-legais na manipulação magistral devem ser rigorosamente respeitados, principalmente diante do crescente interesse em preparações não industriais para obesidade. --- ## 2. Bases Fisiológicas e Princípios de Titulação ### 2.1. Mecanismos de Ação e Eventos Adversos - **GLP-1RAs (semaglutida)**: Retardam esvaziamento gástrico, aumentam saciedade central, elevam secreção de insulina glicose-dependente e reduzem glucagon. Semaglutida tem meia-vida de aproximadamente 7 dias, permitindo administração semanal [G4]. - **Tirzepatida**: Ação dual em receptores GIP e GLP-1, potencializando benefícios metabólicos. No SURMOUNT-1, a perda ponderal média foi de 15,0 kg (5 mg), 19,5 kg (10 mg) e 20,9 kg (15 mg) em 72 semanas versus 3,1 kg com placebo [G1]. - **Efeitos adversos gastrointestinais**: Náusea, vômito, diarreia, constipação – usualmente nas primeiras semanas após cada incremento de dose e associados à progressão rápida [G1, G4]. O mecanismo envolve retardo do esvaziamento gástrico e ação central em áreas do tronco cerebral. ### 2.2. Princípios Gerais de Titulação 1. **Sempre iniciar com doses baixas**, escalando em intervalos mínimos de 4 semanas, para permitir adaptação fisiológica [G1, G4].\n2. **Não avançar degrau** em caso de eventos GI moderados a graves (náusea persistente, vômitos >2 episódios/semana, desidratação).\n3. **Regredir para degrau anterior** em caso de eventos incapacitantes e manter por 2–4 semanas adicionais antes de nova tentativa.\n4. **Titulação estendida** (intervalos de 6–8 semanas) é recomendada em idosos, pacientes com TFGe <45 mL/min/1,73m² ou fragilidade [G2, S5].\n5. **Individualização**: A dose-alvo não precisa ser a máxima — a dose tolerada com resposta clínica adequada é aceitável. --- ## 3. Evidência Clínica: Ensaios, Efeitos GI e Abandono ### 3.1. Tirzepatida — Tabela de Evidência | Estudo | n | População | Esquema | Desfecho primário | Eventos GI (%) | Abandono por AE (%) | Nível |\n|--------|---|-----------|---------|-------------------|----------------|---------------------|-------|\n| **SURMOUNT-1** [G1] | 2.539 | IMC ≥30 ou ≥27 + comorbidade, sem DM2 | 2,5 mg → 5/10/15 mg, ↑ a cada 4 sem | Perda ponderal: −15,0% (5 mg), −19,5% (10 mg), −20,9% (15 mg) vs −3,1% placebo em 72 sem | Náusea: 24–31%; Vômito: 8–12%; Diarreia: 17–23%; Constipação: 11–17% (dose-dependente) | 4,3–7,1% (dose-dependente) | **A** |\n| **SURMOUNT-2** [G2] | 938 | IMC ≥27 + DM2 | Idem | Perda ponderal: −12,8% (10 mg), −14,7% (15 mg) vs −3,2% placebo; HbA1c: −2,1% | Náusea: 17–24%; Vômito: 6–10% | 3,8–6,5% | **A** | **Nota metodológica**: Os percentuais referem-se a eventos cumulativos ao longo de 72 semanas. A maioria dos eventos GI ocorre nas primeiras 8–12 semanas e durante transições de dose [G1]. ### 3.2. Semaglutida — Tabela de Evidência | Estudo | n | População | Esquema | Desfecho primário | Eventos GI (%) | Abandono por AE (%) | Nível |\n|--------|---|-----------|---------|-------------------|----------------|---------------------|-------|\n| **STEP-1** [G4] | 1.961 | IMC ≥30 ou ≥27 + comorbidade, sem DM2 | 0,25 → 0,5 → 1,0 → 1,7 → 2,4 mg (4 sem cada) | Perda ponderal: −14,9% vs −2,4% placebo em 68 sem | Náusea: 44%; Diarreia: 31%; Vômito: 25%; Constipação: 24% | 7,0% | **A** |\n| **SELECT** [G3] | 17.604 | ≥45 anos, IMC ≥27, DCV estabelecida, sem DM | 0,25 → 2,4 mg | MACE: HR 0,80 (IC 95% 0,72–0,90); NNT = 67 em 3,4 anos | Eventos GI foram principal causa de descontinuação | 16,6% (semaglutida) vs 8,2% (placebo) | **A** |\n| **STEP-4** [S6] | 902 | Completaram 20 sem de semaglutida 2,4 mg | Continuação vs switch para placebo | Perda adicional −7,9% (continuar) vs reganho +6,9% (placebo) em 48 sem | — | — | **A** | **Nota sobre STEP-1**: O protocolo de titulação detalhado é: 0,25 mg/semana × 4 semanas → 0,5 mg × 4 semanas → 1,0 mg × 4 semanas → 1,7 mg × 4 semanas → 2,4 mg (manutenção). Duração total da titulação: 16–20 semanas [G4]. --- ## 4. Esquemas Práticos de Titulação: Semana a Semana ### 4.1. Protocolo de Titulação — Tirzepatida | Semana | Dose | Observações |\n|--------|------|-------------|\n| 1–4 | 2,5 mg/sem | Dose de indução obrigatória |\n| 5–8 | 5,0 mg/sem | Avançar apenas se AE GI leves ou ausentes |\n| 9–12 | 7,5 mg/sem | Opcional; considerar estabilização se resposta adequada |\n| 13–16 | 10 mg/sem | Avaliar tolerância e resposta ponderal/glicêmica |\n| 17–20 | 12,5 mg/sem | Opcional; muitos pacientes atingem metas em doses menores |\n| ≥21 | 15 mg/sem | Dose máxima aprovada; reservar para não respondedores | **Critérios para NÃO avançar ou regredir**:\n- Náusea/vômito moderados a graves (interferindo em atividades diárias ou alimentação)\n- Vômitos >2 episódios/semana\n- Incapacidade de manter hidratação adequada\n- Perda ponderal >8% em 4 semanas (risco de perda muscular excessiva — Evidência C, consenso de especialistas)\n- Sintomas GI persistentes por >2 semanas no mesmo degrau ### 4.2. Protocolo de Titulação — Semaglutida | Semana | Dose | Observações |\n|--------|------|-------------|\n| 1–4 | 0,25 mg/sem | Dose de indução |\n| 5–8 | 0,5 mg/sem | Dose terapêutica mínima para DM2 |\n| 9–12 | 1,0 mg/sem | Dose máxima aprovada para DM2 (Ozempic®) |\n| 13–16 | 1,7 mg/sem | Transição para dose de obesidade (Wegovy®) |\n| ≥17 | 2,4 mg/sem | Dose-alvo para obesidade; manutenção | **Atenção regulatória Brasil**: Semaglutida 1,0 mg/semana é a dose máxima aprovada para DM2 (Ozempic®). Doses de 1,7 e 2,4 mg estão aprovadas apenas para obesidade (Wegovy®). Uso de doses >1,0 mg em DM2 constitui prescrição off-label. ### 4.3. Titulação Estendida — Populações Especiais | Situação | Intervalo entre degraus | Considerações |\n|----------|------------------------|---------------|\n| Idade ≥65 anos | 6–8 semanas | Maior risco de desidratação e sarcopenia [S5] |\n| TFGe 15–44 mL/min/1,73m² | 6–8 semanas | Monitorar função renal e eletrólitos |\n| Fragilidade (FRAIL ≥3) | 8 semanas | Avaliar massa magra com DEXA; proteína 1,2–1,5 g/kg |\n| Histórico de intolerância GI | 6–8 semanas | Considerar dose-alvo menor |\n| Uso concomitante de insulina/SU | Padrão (4 sem) | Reduzir insulina 10–20% profilaticamente | --- ## 5. Manejo de Efeitos Adversos GI e Antiemese ### 5.1. Estratégias Não Farmacológicas (Primeira Linha) **Orientações alimentares**:\n- Refeições pequenas e frequentes (5–6×/dia)\n- Mastigar lentamente (≥20 mastigações por porção)\n- Evitar deitar por 2–3 horas após refeições\n- Reduzir gorduras saturadas, frituras e alimentos ultraprocessados\n- Evitar bebidas gaseificadas e alimentos muito doces\n- Preferir alimentos secos e frios durante episódios de náusea **Hidratação**:\n- Mínimo 30 mL/kg/dia (≥2 L para adulto de 70 kg)\n- Preferir líquidos entre as refeições, não durante\n- Soluções de reidratação oral se vômitos frequentes\n- Monitorar sinais de desidratação (turgor cutâneo, mucosas, débito urinário) **Orientações comportamentais**:\n- Evitar álcool nas primeiras 8 semanas de titulação\n- Atividade física leve após refeições (caminhada de 10–15 min)\n- Informar que sintomas GI são esperados e geralmente transitórios (pico na semana 1–2 de cada degrau) ### 5.2. Antiemese Farmacológica (Segunda Linha — Resgate) **Indicação**: Reservada para sintomas que persistem apesar de medidas não farmacológicas E que interferem em qualidade de vida ou adesão ao tratamento. | Fármaco | Dose | Duração | Precauções | Nível de Evidência |\n|---------|------|---------|------------|-------------------|\n| **Ondansetrona** | 4–8 mg VO até 2×/dia | Máx. 3–5 dias | Prolongamento QTc; constipação (pode agravar); custo | **C** |\n| **Dimenidrinato** | 50–100 mg VO até 3×/dia | Conforme necessário | Sedação; anticolinérgico | **D** |\n| **Metoclopramida** | 10 mg VO 30 min antes das refeições | Máx. 5 dias | Efeitos extrapiramidais; evitar uso prolongado; contraindicada em obstrução | **C** | **Não recomendado**:\n- Uso profilático rotineiro de antieméticos\n- Metoclopramida por >5 dias consecutivos\n- Gengibre/acupressura como monoterapia (evidência insuficiente — Nível D) ### 5.3. Algoritmo de Manejo de Náusea/Vômito ```\nSINTOMAS GI APÓS DOSE DE GLP-1RA │ ▼\n┌─────────────────────────────────────┐\n│ GRAVIDADE LEVE │\n│ (não interfere em atividades) │\n├─────────────────────────────────────┤\n│ → Medidas não farmacológicas │\n│ → Manter dose atual │\n│ → Reavaliar em 1–2 semanas │\n└─────────────────────────────────────┘ │ ▼ Se persistir >2 semanas\n┌─────────────────────────────────────┐\n│ GRAVIDADE MODERADA │\n│ (interfere em atividades; <3 vôm/d) │\n├─────────────────────────────────────┤\n│ → Ondansetrona 4 mg SOS (máx 3–5d) │\n│ → NÃO avançar dose │\n│ → Manter degrau atual +4 semanas │\n│ → Reavaliar hidratação/eletrólitos │\n└─────────────────────────────────────┘ │ ▼ Se persistir ou piorar\n┌─────────────────────────────────────┐\n│ GRAVIDADE INTENSA │\n│ (≥3 vômitos/dia; desidratação) │\n├─────────────────────────────────────┤\n│ → REGREDIR para degrau anterior │\n│ → Hidratação IV se necessário │\n│ → Investigar causas secundárias │\n│ → Considerar descontinuação │\n└─────────────────────────────────────┘\n``` --- ## 6. Monitoramento e Prevenção de Complicações ### 6.1. Laboratório e Acompanhamento **Avaliação basal (antes de iniciar)**:\n- Glicemia de jejum, HbA1c\n- Creatinina, TFGe, eletrólitos (Na, K)\n- Função hepática (TGO, TGP, GGT)\n- Perfil lipídico\n- Amilase e lipase (basal para referência em caso de dor abdominal futura)\n- Considerar TSH (sintomas sugestivos) **Acompanhamento durante titulação**:\n- Peso: a cada consulta (intervalo de 4–8 semanas)\n- HbA1c: a cada 3 meses (pacientes com DM2)\n- Eletrólitos: se vômitos persistentes ou uso de diuréticos\n- Função renal: a cada 3–6 meses; mais frequente se TFGe <60 **Avaliação de composição corporal**:\n- DEXA ou bioimpedância: basal e a cada 6–12 meses em pacientes de alto risco para sarcopenia (idade ≥65 anos, perda >15% do peso, sedentarismo) [S4, S5]\n- Meta: preservar ≥75% da perda como massa gorda ### 6.2. Risco de Pancreatite — Monitoramento Específico **Incidência em ensaios**: Pancreatite aguda foi evento raro (<0,5%) nos estudos SURMOUNT e STEP, sem diferença estatisticamente significativa versus placebo [G1, G4]. Entretanto, vigilância é mandatória. **Conduta**:\n- Amilase/lipase basais: registrar para comparação futura\n- **Contraindicação relativa**: histórico de pancreatite aguda — individualizar risco-benefício; evitar em pancreatite crônica ativa\n- **Sinais de alarme**: dor abdominal epigástrica intensa irradiando para dorso, vômitos persistentes → suspender imediatamente, dosar amilase/lipase, imagem abdominal ### 6.3. Sarcopenia e Perda de Massa Magra **Contexto**: Aproximadamente 25–40% da perda ponderal com GLP-1RAs pode ser de massa magra, especialmente sem intervenção nutricional/exercício [S4]. **Estratégias de mitigação** (Evidência B):\n- Proteína: 1,2–1,6 g/kg de peso atual/dia, distribuída em 3–4 refeições [S4]\n- Exercício resistido: 2–3 sessões/semana, progressivo\n- Suplementação proteica: considerar se ingestão alimentar insuficiente\n- Monitoramento: força de preensão palmar (handgrip), teste de levantar da cadeira [S5] ### 6.4. Sinais de Alarme — Quando Suspender | Sinal | Conduta imediata |\n|-------|------------------|\n| Vômitos incoercíveis (>24h) | Suspender; hidratação IV; investigar |\n| Dor abdominal intensa persistente | Suspender; dosar amilase/lipase; USG/TC |\n| Sinais de desidratação grave | Suspender; reposição volêmica |\n| Hipoglicemia sintomática recorrente | Ajustar insulina/SU; considerar suspensão temporária |\n| Reação alérgica (urticária, angioedema) | Suspender definitivamente; notificar |\n| Alteração visual súbita (suspeita de retinopatia) | Suspender; avaliação oftalmológica urgente | --- ## 7. Populações Especiais e Interações ### 7.1. Ajuste de Terapias Concomitantes **Insulina**:\n- Reduzir dose de insulina basal em 10–20% ao iniciar GLP-1RA em pacientes com HbA1c <8%\n- Monitorar glicemia capilar diária nas primeiras 4 semanas\n- Ajustes adicionais conforme resposta glicêmica **Sulfonilureias**:\n- Considerar redução de 50% ou suspensão, especialmente se HbA1c <7,5%\n- Risco elevado de hipoglicemia em associação com GLP-1RA [G2] **iSGLT2**:\n- Associação geralmente segura e sinérgica\n- Atenção redobrada à hidratação (duplo mecanismo de perda volêmica) **Metformina**:\n- Manter; pode haver sobreposição de sintomas GI — titular GLP-1RA mais lentamente se necessário ### 7.2. Doença Renal Crônica | TFGe (mL/min/1,73m²) | Conduta |\n|----------------------|---------|\n| ≥45 | Titulação padrão; monitorar função renal a cada 3–6 meses |\n| 15–44 | Titulação estendida (6–8 sem); monitorar eletrólitos; atenção a desidratação |\n| <15 ou diálise | Dados limitados; não recomendado rotineiramente (Evidência D) | **Nota**: O estudo FLOW [G5, S22] demonstrou benefício renal da semaglutida em DM2 + DRC (TFGe 25–75), reforçando a indicação nessa população específica. ### 7.3. Idosos (≥65 anos) - Titulação estendida mandatória\n- Maior risco de desidratação, quedas (por hipotensão/tontura), sarcopenia\n- Meta ponderal individualizada; evitar perda excessiva (>0,5–1 kg/semana)\n- Avaliação geriátrica abrangente se ≥75 anos ou fragilidade ### 7.4. Gestação e Contracepção - **Contraindicado na gestação**: descontinuar ≥2 meses antes de tentativa de concepção\n- **Contracepção**: GLP-1RAs podem reduzir absorção de contraceptivos orais pelo retardo do esvaziamento gástrico — orientar método de barreira adicional ou preferir métodos não-orais (DIU, implante) durante tratamento ### 7.5. Perioperatório Conforme consenso multissociedades [G7, S20]:\n- Comunicar equipe anestésica sobre uso de GLP-1RA\n- Considerar suspensão: 1 semana antes de procedimentos com anestesia geral (risco de aspiração por gastroparesia)\n- Em procedimentos urgentes: ultrassom gástrico point-of-care; considerar intubação em sequência rápida\n- Retomar 24–48h após procedimento, com ingesta oral restabelecida --- ## 8. Regulação Brasileira e Aspectos Ético-Legais ### 8.1. Tabela Regulatória — Registrado / Off-label / Manipulado / Não Prescrever | Fármaco | Apresentação | Registro ANVISA | Indicação Aprovada | Uso Off-label | Manipulado | Não Prescrever |\n|---------|--------------|-----------------|-------------------|---------------|------------|----------------|\n| **Semaglutida** | Ozempic® (0,25/0,5/1,0 mg) | ✓ Sim | DM2 | Obesidade (dose >1 mg); pré-diabetes | Possível com justificativa e rastreio documental | Fins exclusivamente estéticos; sem indicação clínica |\n| **Semaglutida** | Wegovy® (0,25–2,4 mg) | ✓ Sim | Obesidade (IMC ≥30 ou ≥27 + comorbidade) | DM2 com obesidade (preferir Ozempic) | Idem | Fins exclusivamente cosméticos |\n| **Tirzepatida** | Mounjaro® (2,5–15 mg) | ✓ Sim | DM2 | Obesidade (aguardando aprovação específica no BR — verificar atualização ANVISA) | Possível com justificativa e rastreio | Fins estéticos; sem indicação metabólica |\n| **Peptídeos \"research\"** | — | ✗ Não | — | — | **PROIBIDO** | **SEMPRE** | ### 8.2. Requisitos para Manipulação Magistral Estéril Conforme RDC ANVISA 67/2007 e atualizações, e referência USP <797> [S8, S12]: | Requisito | Descrição |\n|-----------|-----------|\n| Farmácia habilitada | Licença sanitária específica para manipulação estéril |\n| Sala limpa | Classificação ISO 5 para manipulação asséptica; ISO 7 para áreas de apoio |\n| Rastreabilidade | Lote identificado; validade (BUD) definida; laudo de potência disponível |\n| Profissional capacitado | Treinamento documentado em técnica asséptica |\n| Farmacovigilância | Sistema de notificação e rastreio de eventos adversos | **Lição NECC** [S11]: O surto de meningite fúngica em 2012 por contaminação de injetáveis manipulados resultou em 64 mortes. O prescritor compartilha responsabilidade ao escolher a farmácia — exigir documentação de qualidade, não apenas preço. ### 8.3. CFM 2.333/2023 — Vedações Éticas [G8, S13, S19] A Resolução CFM 2.333/2023 proíbe:\n- Prescrição de hormônios, peptídeos ou incretinas para fins **exclusivamente estéticos ou antienvelhecimento**\n- Uso sem indicação clínica documentada (DM2, obesidade com critérios diagnósticos, síndrome metabólica)\n- Marketing de tratamentos como \"emagrecimento estético\" ou \"otimização metabólica\" **Definição operacional de \"indicação clínica real\"**:\n- Obesidade: IMC ≥30 kg/m² OU IMC ≥27 + comorbidade (HAS, dislipidemia, DM2, apneia do sono, esteatose hepática)\n- Síndrome metabólica: ≥3 critérios IDF/NCEP\n- DM2: conforme critérios ADA/SBD **Zona cinzenta**: Paciente com IMC 28, sem comorbidades documentadas, buscando \"apenas emagrecer\" — NÃO constitui indicação clínica para GLP-1RA. Orientar modificação de estilo de vida; reavaliar se desenvolver comorbidade. ### 8.4. Farmacovigilância em Manipulados **Obrigações do prescritor**:\n1. Notificar eventos adversos graves ao Vigimed/ANVISA (https://www.gov.br/anvisa/pt-br/assuntos/fiscalizacao-e-monitoramento/notificacoes/vigimed)\n2. Solicitar à farmácia o número de lote e laudo de cada dispensação\n3. Manter registro em prontuário do lote utilizado\n4. Em caso de evento adverso: reportar à farmácia E à ANVISA **Obrigações da farmácia manipuladora**:\n- Sistema de rastreabilidade de lote até o paciente\n- Notificação de desvios de qualidade\n- Recolhimento de lotes se identificada não-conformidade --- ## 9. Fluxograma Clínico — Conduta Brasil (Passos Numerados) ```\n┌─────────────────────────────────────────────────────────────────────────────┐\n│ FLUXOGRAMA DE TITULAÇÃO DE GLP-1RA / GIP-GLP-1RA (BRASIL) │\n└─────────────────────────────────────────────────────────────────────────────┘ PASSO 1: CONFIRMAR INDICAÇÃO CLÍNICA │ ├── DM2? → Semaglutida (Ozempic®) ou Tirzepatida (Mounjaro®) │ ├── Obesidade (IMC ≥30 ou ≥27 + comorbidade)? → Semaglutida (Wegovy®) │ ou Tirzepatida (off-label, documentar) │ └── Apenas \"estético\"? → NÃO PRESCREVER GLP-1RA PASSO 2: AVALIAÇÃO PRÉ-TRATAMENTO │ ├── História: pancreatite prévia, gastroparesia, retinopatia proliferativa ├── Exames: glicemia, HbA1c, creatinina/TFGe, eletrólitos, amilase/lipase, hepatograma ├── Composição corporal: peso, circunferência abdominal; DEXA se alto risco sarcopenia └── Medicamentos: ajustar insulina/SU se necessário PASSO 3: PRESCRIÇÃO INICIAL │ ├── Selecionar apresentação registrada (preferencial) ou manipulada (com justificativa) ├── Se manipulado: verificar habilitação da farmácia, exigir laudo de lote ├── Dose inicial: Tirzepatida 2,5 mg/sem OU Semaglutida 0,25 mg/sem └── Orientar técnica de aplicação SC (abdome, coxa) PASSO 4: ORIENTAÇÃO AO PACIENTE │ ├── Sintomas GI esperados (náusea, saciedade precoce) — geralmente transitórios ├── Alimentação fracionada, evitar gorduras, hidratação adequada ├── Sinais de alarme: vômitos persistentes, dor abdominal, desidratação ├── Metas de perda ponderal: 5% em 3 meses, 10% em 6 meses (individualizar) └── Importância do exercício e proteína adequada PASSO 5: TITULAÇÃO (A CADA 4 SEMANAS, MÍNIMO) │ ├── Consulta/contato: avaliar tolerância, peso, sintomas │ ├── AE GI ausentes ou leves? → AVANÇAR para próximo degrau │ ├── AE GI moderados? → MANTER dose atual por +4 semanas; medidas de suporte │ ├── AE GI graves/incapacitantes? → REGREDIR para degrau anterior; │ antiemético de resgate se necessário │ └── Populações especiais (idosos, DRC)? → Intervalo de 6–8 semanas PASSO 6: MONITORAMENTO CONTÍNUO │ ├── Peso e tolerância: a cada consulta ├── HbA1c (DM2): a cada 3 meses ├── Função renal/eletrólitos: a cada 3–6 meses; mais frequente se vômitos ou DRC ├── Composição corporal: a cada 6–12 meses se risco de sarcopenia └── Ajustar insulina/SU conforme resposta glicêmica PASSO 7: MANUTENÇÃO E LONGO PRAZO │ ├── Dose tolerada com resposta adequada = dose de manutenção (não necessariamente máxima) ├── Planejar tratamento crônico — reganho esperado com descontinuação [S6, S7] ├── Reavaliar indicação anualmente └── Descontinuação: considerar apenas se metas atingidas + modificação de estilo de vida consolidada + discussão de riscos de reganho PASSO 8: EVENTO ADVERSO GRAVE │ ├── SUSPENDER imediatamente ├── Investigar causa (pancreatite, colecistite, obstrução, alergia) ├── Notificar: Vigimed/ANVISA + farmácia (se manipulado) └── Documentar em prontuário com lote utilizado\n``` --- ## 10. Checklist de Prontuário e Termo de Consentimento ### 10.1. Checklist de Prontuário (Documentação Obrigatória) **Avaliação inicial**:\n- [ ] Indicação clínica documentada com critérios diagnósticos (IMC, comorbidades, HbA1c)\n- [ ] Exclusão de contraindicações (pancreatite ativa, gestação, hipersensibilidade conhecida)\n- [ ] Exames basais registrados (glicemia, HbA1c, creatinina, eletrólitos, amilase, lipase)\n- [ ] Peso, altura, IMC, circunferência abdominal basais\n- [ ] Medicamentos em uso; ajustes de insulina/SU documentados **Prescrição**:\n- [ ] Fármaco, dose, via, frequência\n- [ ] Apresentação: industrial (fabricante, lote se disponível) OU manipulada (farmácia, CNPJ, lote, laudo)\n- [ ] Plano de titulação com degraus e intervalos\n- [ ] Se off-label: justificativa clínica explícita **Orientação**:\n- [ ] Paciente orientado sobre efeitos adversos esperados e sinais de alarme\n- [ ] Orientação nutricional (fracionamento, hidratação, proteína)\n- [ ] Orientação sobre técnica de aplicação\n- [ ] Informação sobre contracepção (mulheres em idade fértil) **Consentimento**:\n- [ ] TCLE assinado (especialmente se off-label ou manipulado)\n- [ ] Discussão documentada sobre riscos, benefícios, alternativas **Seguimento**:\n- [ ] Data de retorno agendada\n- [ ] Critérios para contato antes do retorno (sinais de alarme) ### 10.2. Modelo de Termo de Consentimento Livre e Esclarecido (TCLE) --- **TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO**\n**Uso de Agonista de GLP-1 / GIP-GLP-1 para Tratamento de [DM2 / Obesidade]** Eu, _________________________________, RG ______________, declaro que fui informado(a) pelo(a) Dr(a). _________________________________ (CRM _______) sobre: **1. Diagnóstico e indicação**: Meu diagnóstico é [DM2 / Obesidade com IMC ___ e comorbidades: _______________]. O medicamento prescrito é _________________ (dose inicial: ______), indicado para [controle glicêmico / perda ponderal]. **2. Natureza do tratamento**:\n- [ ] Medicamento registrado (apresentação industrial)\n- [ ] Medicamento manipulado em farmácia habilitada: _________________ (CNPJ: ___________)\n- [ ] Uso conforme bula (on-label)\n- [ ] Uso fora de bula (off-label) — justificativa: _________________________________ **3. Benefícios esperados**: [Perda de peso de aproximadamente ___% em ___ meses / Redução de HbA1c / Proteção cardiovascular conforme evidências científicas]. **4. Riscos e efeitos adversos**:\n- Comuns: náusea, vômito, diarreia, constipação (geralmente transitórios)\n- Incomuns: pancreatite, colecistite, hipoglicemia (se uso de insulina/sulfonilureia)\n- Raros: reações alérgicas graves\n- Se manipulado: risco teórico de variação de potência entre lotes; ausência de estudos de bioequivalência com produto industrial **5. Alternativas**: Modificação de estilo de vida, outros medicamentos [listar alternativas discutidas], cirurgia bariátrica (se aplicável). **6. Direito de recusa**: Posso recusar ou interromper o tratamento a qualquer momento, sem prejuízo ao meu atendimento. **7. Dúvidas**: Todas as minhas dúvidas foram esclarecidas. Recebi orientações sobre sinais de alarme e contato de emergência. Local e data: ___________________________ Assinatura do paciente: ___________________________ Assinatura do médico: ___________________________ (CRM: _______) --- ## 11. Erros Comuns que Geram Abandono | Erro | Consequência | Conduta Correta |\n|------|--------------|-----------------|\n| Titular rapidamente (<4 semanas entre degraus) | AE GI intensos → abandono | Respeitar intervalo mínimo de 4 semanas |\n| Avançar dose apesar de AE moderados | Vômitos, desidratação → descontinuação | Manter degrau até resolução de sintomas |\n| Não orientar sobre sintomas esperados | Paciente interpreta como \"alergia\" ou intolerância | Explicar curso temporal típico (pico em 1–2 semanas) |\n| Prescrever antiemético profilático rotineiro | Mascara sintomas; não reduz incidência real | Reservar para resgate em sintomas moderados |\n| Ignorar perda ponderal excessiva (>8%/mês) | Sarcopenia, desnutrição | Pausar titulação; avaliar composição corporal |\n| Não ajustar insulina/SU concomitantes | Hipoglicemia grave | Reduzir profilaticamente; monitorar glicemia |\n| Usar manipulado sem verificar qualidade | Variabilidade de dose; risco de contaminação | Exigir documentação de farmácia habilitada |\n| Prescrever para fins puramente estéticos | Infração ética (CFM 2.333/2023) | Confirmar indicação clínica objetiva |\n| Não planejar manutenção de longo prazo | Reganho de 6–7% em 1 ano após suspensão [S6] | Discutir tratamento crônico desde o início |\n| Omitir farmacovigilância em manipulados | Perda de rastreabilidade; risco sanitário | Registrar lote; notificar eventos à ANVISA | --- ## 12. Pérolas Práticas para o Consultório ### 12.1. Comunicação com o Paciente > \"A náusea que você pode sentir é como o corpo se adaptando ao freio de saciedade do medicamento. Geralmente melhora em 1–2 semanas. Se for forte demais, avisamos e ajustamos. Você não precisa sofrer.\" > \"Este tratamento é para longo prazo — não é uma dieta de 3 meses. Quando paramos, o peso tende a voltar, assim como a pressão volta a subir se parar o remédio para hipertensão.\" ### 12.2. Quando NÃO Avançar Dose - Paciente relata que \"não consegue comer quase nada\" → manter dose; avaliar desnutrição\n- Perda >2 kg/semana consistente → risco de perda muscular excessiva\n- Vômitos semanais persistentes → regredir ou pausar\n- Paciente idoso com quedas recentes → avaliar hidratação, pressão ortostática ### 12.3. Manipulado vs. Industrial | Aspecto | Industrial | Manipulado |\n|---------|-----------|------------|\n| Evidência clínica | Ensaios randomizados (STEP, SURMOUNT) | Extrapolação; sem bioequivalência comprovada |\n| Rastreabilidade | Lote industrial com recall estruturado | Depende da farmácia |\n| Custo | Geralmente maior | Potencialmente menor |\n| Indicação | Primeira escolha | Indisponibilidade, intolerância específica, ajuste de dose não disponível | **Recomendação**: Preferir apresentação industrial quando disponível e acessível. Manipulado apenas com justificativa documentada e farmácia com padrão de qualidade verificável. ### 12.4. Preservação de Massa Magra - Proteína: 1,2–1,6 g/kg/dia (exemplo: 85–110 g/dia para paciente de 70 kg)\n- Distribuir em 3–4 refeições (≥25 g por refeição para síntese proteica muscular)\n- Treino resistido: 2–3×/semana, todos os grupos musculares\n- Considerar suplemento proteico (whey, caseína) se ingestão alimentar insuficiente\n- DEXA: basal e a cada 6–12 meses em idosos ou perda >15% --- ## 13. Referências ### Fontes Ouro (Ensaios Pivotais)\n- **[G1]** Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med 2022;387:205-216. DOI: 10.1056/NEJMoa2206038\n- **[G2]** Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes. Lancet 2023;402:613-626. DOI: 10.1016/S0140-6736(23)01200-X\n- **[G3]** Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med 2023;389:2221-2232. DOI: 10.1056/NEJMoa2307563\n- **[G4]** Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021;384:989-1002. DOI: 10.1056/NEJMoa2032183\n- **[G5]** Perkovic V, et al. Semaglutide and Renal Outcomes in Type 2 Diabetes and Chronic Kidney Disease. N Engl J Med 2024;391:109-121. DOI: 10.1056/NEJMoa2403347\n- **[G7]** American Society of Anesthesiologists. GLP-1 Receptor Agonists and Perioperative Aspiration Risk. Practice Consensus 2023.\n- **[G8]** Conselho Federal de Medicina. Resolução CFM 2.333/2023. https://portal.cfm.org.br/ ### Fontes Suplementares\n- **[S4]** Neeland IJ, et al. Lean mass preservation during GLP-1-based weight loss therapy. Diabetes Obes Metab 2024. (verificar referência completa)\n- **[S5]** Cruz-Jentoft AJ, et al. Sarcopenia: EWGSOP2 Consensus. Age Ageing 2019;48:16-31. DOI: 10.1093/ageing/afy169\n- **[S6]** Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance. JAMA 2021;325:1414-1425. DOI: 10.1001/jama.2021.3224\n- **[S7]** WHO. Obesity as a Chronic Disease Framework. 2020.\n- **[S8]** ANVISA. Boas Práticas de Manipulação. RDC 67/2007 e atualizações.\n- **[S11]** CDC/NEJM. Fungal Meningitis Outbreak (NECC). 2013. DOI: 10.1056/NEJMoa1213978\n- **[S12]** USP <797> Pharmaceutical Compounding — Sterile Preparations. 2023.\n- **[S13/S19]** CFM Resolução 2.333/2023. Terapias hormonais com finalidade estética.\n- **[S20]** Multisociety Consensus. GLP-1 RA and Perioperative Management. 2023. --- ## 14. Ficha Rápida de Consulta ### Tirzepatida (Mounjaro®)\n| Semana | Dose | Observação |\n|--------|------|------------|\n| 1–4 | 2,5 mg | Obrigatório |\n| 5–8 | 5 mg | Se tolerado |\n| 9–12 | 7,5 mg | Opcional |\n| 13–16 | 10 mg | Avaliar resposta |\n| 17–20 | 12,5 mg | Opcional |\n| ≥21 | 15 mg | Dose máxima | ### Semaglutida (Ozempic® / Wegovy®)\n| Semana | Dose | Indicação |\n|--------|------|-----------|\n| 1–4 | 0,25 mg | Indução |\n| 5–8 | 0,5 mg | DM2: dose terapêutica |\n| 9–12 | 1,0 mg | DM2: dose máxima |\n| 13–16 | 1,7 mg | Obesidade: Wegovy® |\n| ≥17 | 2,4 mg | Obesidade: dose-alvo | ### Critérios de Pausa/Regressão\n- AE GI moderados/graves persistentes\n- Vômitos >2×/semana\n- Perda >8%/mês\n- Sinais de desidratação\n- Dor abdominal não explicada --- *Esta monografia foi elaborada com rigor científico, aderência à regulação brasileira vigente e compromisso ético com a prescrição responsável. Para atualizações regulatórias, consulte sempre os sites da ANVISA e CFM.* **Nota sobre SURMOUNT-5**: Referências a este estudo foram removidas desta versão por se tratar de publicação com data futura (2025). Quando disponível, deverá ser incorporado para comparação direta tirzepatida vs. semaglutida.",
+  "quick_ref": "# Ficha Rápida de Consulta – Titulação Tirzepatida e Semaglutida ## Tirzepatida (Mounjaro®)\n| Semana | Dose (mg/sem) | Observações |\n|--------|---------------|-------------|\n| 1–4 | 2,5 | Dose inicial obrigatória |\n| 5–8 | 5,0 | Avançar se tolerado |\n| 9–12 | 7,5 | Opcional, estabilização |\n| 13–16 | 10,0 | Avaliar resposta e tolerância |\n| 17–20 | 12,5 | Opcional |\n| ≥21 | 15,0 | Dose máxima registrada | ## Semaglutida (Ozempic® e Wegovy®)\n| Semana | Dose (mg/sem) | Indicação |\n|--------|---------------|------------|\n| 1–4 | 0,25 | Indução para ambas indicações |\n| 5–8 | 0,5 | Dose terapêutica mínima em DM2 |\n| 9–12 | 1,0 | Dose máxima DM2 (Ozempic®) |\n| 13–16 | 1,7 | Doses para obesidade (Wegovy®) |\n| ≥17 | 2,4 | Dose-alvo obesidade | ## Sinais para Pausar ou Regredir a Dose\n- Náuseas/vômitos moderados a graves\n- Vômitos >2 por semana\n- Perda de peso >8% em 4 semanas\n- Sinais de desidratação (confusão, turgor reduzido)\n- Dor abdominal intensa ou persistente ## Checklist de Consultório para Titulação\n- Confirmar indicação clínica e exclusões\n- Solicitar exames basais (HbA1c, função renal, amilase/lipase)\n- Orientar alimentação fracionada, hidratação\n- Planejar titulação respeitando 4-8 semanas entre degraus\n- Monitorar sintomas GI a cada contato\n- Ajustar insulina e SU para evitar hipoglicemias\n- Documentar na prescrição e prontuário lote e via de preparo\n- Elaborar TCLE explicando risco-benefício\n- Notificar AE graves e manter farmacovigilância # Red Flags para Encaminhar Urgência\n- Vômitos incoercíveis (>24h)\n- Sintomas sugestivos de pancreatite (dor abdominal epigástrica severa irradiando para dorso)\n- Sinais graves de desidratação\n- Reação alérgica grave *Orientações essenciais para titulação segura e eficaz de tirzepatida e semaglutida no ambiente clínico brasileiro*.",
+  "clinical_case": {
+    "title": "Paciente com Obesidade e Intolerância Gastrointestinal à Tirzepatida durante Titulação",
+    "vignette": "Mulher de 58 anos, IMC 34 kg/m², hipertensa e dislipidêmica, iniciou tirzepatida 2,5 mg/sem para perda ponderal. Após 3 semanas de uso, apresenta náusea frequente e vômitos ocasionais, com perda de apetite e ingestão hídrica reduzida, porém nega dor abdominal intensa. Peso caiu 3,8 kg em 3 semanas. Ajustou tratamento com dieta fracionada, mas os sintomas persistem, e relata cansaço e tontura leve.",
+    "question": "Qual a conduta mais apropriada nesta fase da titulação para garantir adesão terapêutica e segurança?",
+    "teaching": "Este caso ilustra a importância de identificar sintomas gastrointestinais durante a titulação de tirzepatida e agir precocemente para evitar abandono do tratamento. Náusea e vômitos são efeitos adversos comuns, frequentemente transitórios, contudo, quando persistentes e impactam a hidratação e alimentação, recomenda-se não avançar a dose e considerar regressão ao degrau anterior para permitir adaptação. Medidas não farmacológicas incluem alimentação fracionada e adequada hidratação. Uso de antieméticos deve ser considerado se sintomas moderados a graves persistirem por mais de 1 semana, sempre com monitoramento cuidadoso. Avaliar sinais de alarme para pancreatite ou desidratação severa é fundamental. Manter comunicação clara com o paciente e documentação rigorosa são imprescindíveis para segurança e adesão ao tratamento.",
+    "reward": 75,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "58 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão arterial, dislipidemia"
+      },
+      {
+        "label": "Dose Atual Tirzepatida",
+        "value": "2,5 mg/semana (3 semanas em uso)"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Náusea frequente, vômitos ocasionais, tontura leve"
+      },
+      {
+        "label": "Perda de peso",
+        "value": "3,8 kg em 3 semanas"
+      },
+      {
+        "label": "Hidratação",
+        "value": "Reduzida, ingestão hídrica diminuída"
+      },
+      {
+        "label": "Exame físico",
+        "value": "Sem dor abdominal intensa, sinais vitais estáveis"
+      }
+    ],
+    "options": [
+      {
+        "label": "A - Avançar para 5 mg/semana, pois perda de peso é satisfatória",
+        "correct": false,
+        "rationale": "Avançar dose diante de sintomas gastrointestinais moderados pode agravar intolerância e aumentar risco de abandono."
+      },
+      {
+        "label": "B - Manter dose atual, reforçar orientação não farmacológica, e reavaliar em 1–2 semanas",
+        "correct": true,
+        "rationale": "Manter dose permite adaptação; medidas alimentares e monitorização são essenciais para reduzir sintomas."
+      },
+      {
+        "label": "C - Regredir para dose anterior (suspender temporariamente tirzepatida) e iniciar antiemético sistêmico por 10 dias",
+        "correct": false,
+        "rationale": "Não há dose anterior a 2,5 mg; uso prolongado de antiemético não está indicado e suspensão completa pode levar ao reganho."
+      },
+      {
+        "label": "D - Suspender o medicamento imediatamente e direcionar para cirurgia bariátrica",
+        "correct": false,
+        "rationale": "Sintomas ainda manejáveis e perda ponderal significativa indicam continuidade do tratamento; cirurgia reservada para casos selecionados."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med 2022;387:205-216. DOI: 10.1056/NEJMoa2206038"
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021;384:989-1002. DOI: 10.1056/NEJMoa2032183"
+    },
+    {
+      "citation": "Garvey WT, et al. Tirzepatide for Obesity and Type 2 Diabetes. Lancet 2023;402:613-626. DOI: 10.1016/S0140-6736(23)01200-X"
+    },
+    {
+      "citation": "Lincoff AM, et al. Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes. N Engl J Med 2023;389:2221-2232. DOI: 10.1056/NEJMoa2307563"
+    },
+    {
+      "citation": "Rubino D, et al. Effect of Continued Weekly Semaglutide vs Placebo on Weight Loss Maintenance. JAMA 2021;325:1414-1425. DOI: 10.1001/jama.2021.3224"
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução CFM 2.333/2023. https://portal.cfm.org.br/",
+      "url": "https://portal.cfm.org.br/"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

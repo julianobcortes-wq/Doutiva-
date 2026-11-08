@@ -1,0 +1,392 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Fundamentos",
+  "module_position": 1,
+  "title": "Peptídeo terapêutico: farmacologia molecular, engenharia PK e checklist pré-prescrição para o médico",
+  "description": "A aula aborda em profundidade os fundamentos farmacológicos dos peptídeos terapêuticos, com ênfase em estrutura, síntese, engenharia molecular para otimização farmacocinética, evidências clínicas robustas (fase 2 e 3), e um checklist prático para prescrição segura e eficaz. Destaca-se a distinção entre peptídeos aprovados, off-label, manipulados, e proibidos, além do manejo clínico incluindo doses, titulações, monitoramento e contraindicações.",
+  "duration_minutes": 90,
+  "evidence_level": "A",
+  "key_points": [
+    "Peptídeos terapêuticos consistem em cadeias de 2 a 50 aminoácidos, intermediários entre pequenas moléculas e proteínas monoclonais.",
+    "A engenharia molecular (Aib, ligação a ácidos graxos, pegilação, ciclos) amplifica meia-vida e estabilidade, permitindo uso semanal/mensal em SC ou via oral (ex: SNAC na semaglutida oral).",
+    "Semaglutida, tirzepatida, cagrilintida e retatrutida apresentam evidência clínica robusta fase 3 com ganhos expressivos em perda de peso e controle metabólico.",
+    "Terapias anabólicas para osteoporose (teriparatida, abaloparatida) aumentam densidade mineral óssea e reduzem fraturas; monitorar hipercalcemia e riscos.",
+    "Checklist pré-prescrição obrigatório inclui avaliação regulatória, mecanismo de ação, estudos clínicos, pureza do lote, plano de titulação e monitoramento laboratorial.",
+    "É proibida a prescrição de peptídeos manipulados sem registro, como BPC-157 e TB-500, por risco ético e legal; prescrição fora do registro deve ser fundamentada em evidência robusta.",
+    "O julgamento clínico e documentação são primordiais para segurança, adesão e proteção médico-legal, enfatizando que o 'produto' é o manejo médico e não o frasco do peptídeo."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Peptídeos Terapêuticos: Engenharia e Prescrição Consciente",
+      "subtitle": "Farmacologia Molecular, Engenharia PK e Checklist Pré-prescrição para o Médico"
+    },
+    {
+      "head": [
+        "Peptídeo",
+        "Estudo",
+        "População (n)",
+        "Desenho",
+        "Endpoint Primário",
+        "Efeito (%)",
+        "Limitações",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida",
+          "STEP 1, SUSTAIN",
+          ">5000",
+          "Fase 3/RCT",
+          "% peso, MACE, HbA1c",
+          "-15 a -17% (peso), HR MACE 0.74",
+          "GI AE, critérios restritos",
+          "A"
+        ],
+        [
+          "Tirzepatida",
+          "SURPASS",
+          ">5000",
+          "Fase 3/RCT",
+          "HbA1c, % peso",
+          "-21% peso máximo",
+          "GI, custo, acesso",
+          "A"
+        ],
+        [
+          "Retatrutida",
+          "S25, S19",
+          "~300",
+          "Fase 2/RCT",
+          "% peso, HbA1c",
+          "-22 a -24% peso",
+          "Fase 2, N menor",
+          "A"
+        ],
+        [
+          "Cagrilintida",
+          "S18, S20",
+          "300-3500",
+          "Fase 2/3",
+          "% peso, HbA1c",
+          "-11% monoterapia; -20% combo",
+          "Mais estudos necessários",
+          "A"
+        ],
+        [
+          "Teriparatida",
+          "S6, S15",
+          "400-1600",
+          "Fase 3/RCT",
+          "DMO, fratura",
+          "+7.2% DMO; RR fratura 0.35",
+          "Hipercalcemia rara",
+          "A"
+        ],
+        [
+          "Abaloparatida",
+          "S8",
+          "2463",
+          "Fase 3/RCT",
+          "Fratura Vertebral",
+          "RR 0.44 fratura vertebral",
+          "Hipercalcemia, custo",
+          "A"
+        ]
+      ],
+      "title": "Ensaios Clínicos Pivô de Peptídeos Terapêuticos: Efeito e Evidência",
+      "source": "Monografia [Seção 4.2]"
+    },
+    {
+      "bars": [
+        {
+          "label": "CagriSema: -20,4%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Retatrutida: -24,2%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Semaglutida: -15,3%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Placebo: -2,1%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Resultados após 48 a 68 semanas de tratamento.",
+      "unit": "%",
+      "title": "Perda de Peso (% média) em Estudos Selecionados",
+      "source": "Referências S16, S25"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Confirmar indicação validada ANVISA ou off-label cientificamente documentada."
+        },
+        {
+          "label": "2. Verificar pureza e certificado analítico (COA) do lote."
+        },
+        {
+          "label": "3. Escolher dose inicial e esquema de titulação adequados para o paciente."
+        },
+        {
+          "label": "4. Avaliar contraindicações absolutas e relativas."
+        },
+        {
+          "label": "5. Documentar consentimento informado e plano de monitoramento laboratorial."
+        },
+        {
+          "label": "6. Registrar prescrição em prontuário com plano de seguimento."
+        }
+      ],
+      "title": "Algoritmo de Checklist Pré-prescrição de Peptídeos Terapêuticos"
+    },
+    {
+      "head": [
+        "Peptídeo",
+        "Apresentação",
+        "Dose Inicial",
+        "Titulação",
+        "Manutenção",
+        "Duração Máxima",
+        "Efeitos Adversos",
+        "Suspender se"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida SC",
+          "0,25 mg/mL",
+          "0,25 mg/sem",
+          "+0,25 mg a cada 4 semanas",
+          "1,0 ou 2,4 mg/sem",
+          "Indefinida",
+          "Náusea, vômito, diarreia, refluxo gastroesofágico",
+          "Pancreatite, IAM"
+        ],
+        [
+          "Semaglutida Oral",
+          "3 mg",
+          "3 mg/dia",
+          "+3 mg a cada 4-8 semanas",
+          "14 mg/dia",
+          "Indefinida",
+          "GI, cefaleia",
+          "GI grave, hipoglicemia"
+        ],
+        [
+          "Tirzepatida",
+          "2,5 mg/SC",
+          "2,5 mg/sem",
+          "+2,5 mg a cada 4 semanas",
+          "5, 10, 15 mg/sem",
+          "Indefinida",
+          "GI, inapetência",
+          "Pancreatite"
+        ],
+        [
+          "Cagrilintida",
+          "0,25–2,4 mg/SC",
+          "0,25 mg/sem",
+          "+0,25–0,5 mg/sem",
+          "2,4 mg/sem",
+          "Indefinida",
+          "GI, hipersalivação",
+          "GI grave"
+        ],
+        [
+          "Retatrutida",
+          "Variável",
+          "2 mg/sem",
+          "+2 mg a cada 4 semanas",
+          "4–12 mg/sem",
+          "Indefinida",
+          "GI (dose dependente)",
+          "Taquiarritmia"
+        ],
+        [
+          "Teriparatida",
+          "20 mcg/SC",
+          "20 mcg/dia",
+          "—",
+          "20 mcg/dia",
+          "24 meses",
+          "Náusea, tontura",
+          "Hipercalcemia"
+        ],
+        [
+          "Abaloparatida",
+          "80 mcg/SC",
+          "80 mcg/dia",
+          "—",
+          "80 mcg/dia",
+          "18 meses",
+          "Hipercalcemia, tontura",
+          "Hipercalcemia grave"
+        ]
+      ],
+      "title": "Doses, Titulação e Efeitos Adversos Comuns dos Peptídeos Terapêuticos",
+      "source": "Monografia Seção 6.2"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Semaglutida: aprovado para obesidade e DM2",
+          "Tirzepatida: aprovado para DM2, obesidade aguardando aprovação",
+          "Teriparatida: aprovado para osteoporose de alto risco",
+          "Cagrilintida: não aprovado, uso restrito a pesquisa clínica",
+          "Retatrutida: não aprovado, pesquisa clínica apenas",
+          "Peptídeos regenerativos (BPC-157,Tb-500): não aprovados, manipulação ilegal"
+        ],
+        "label": "Peptídeos Aprovados"
+      },
+      "right": {
+        "items": [
+          "Registro ANVISA e indicação validada",
+          "Em fase final de aprovação",
+          "Indicação consolidada e regulamentada",
+          "Uso experimental restrito",
+          "Uso experimental restrito",
+          "Proibido e antiético"
+        ],
+        "label": "Peptídeos Não Aprovados"
+      },
+      "title": "Peptídeos Aprovados vs Não Aprovados (Brasil)"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pérolas e Armadilhas na Prescrição de Peptídeos",
+      "bullets": [
+        "Jamais prescrever peptídeos sem COA e lote certificado — risco grave por impurezas e endotoxinas.",
+        "Contraindicações absolutas como histórico familiar/tireoide neoplásica cancelam indicação, mesmo de peptídeos modernos.",
+        "Titulação lenta é chave para reduzir eventos adversos e otimizar adesão ao tratamento.",
+        "Nunca utilizar peptídeos manipulados ou importados sem registro: risco ético, legal e toxicológico grave.",
+        "Monitorar composição corporal para evitar perda significativa de massa magra em terapias para obesidade.",
+        "Documentar indicação, escala de titulação, efeitos colaterais e plano laboratorial para proteção médica.",
+        "Evitar indicação off-label não documentada para evitar judicialização e prejuízo ao paciente."
+      ]
+    },
+    {
+      "kind": "flow",
+      "note": "Monitoramento criterioso aumenta segurança e eficácia.",
+      "steps": [
+        {
+          "label": "Paciente inicia terapia com GLP-1RA ou análogo: avaliação basal (glicemia, enzimas hepáticas, DMO, Ca, composição corporal)."
+        },
+        {
+          "label": "Avaliação periódica (3 a 6 meses) de HbA1c, função hepática, Ca, peso, composição corporal (DXA/BIA)."
+        },
+        {
+          "label": "Identificar perda >15% de massa magra ou sinais de desnutrição/problemas ósseos."
+        },
+        {
+          "label": "Detectar hipercalcemia ou alterações hepáticas persistentes."
+        },
+        {
+          "label": "Se sinais vermelhos presentes: rever dose, considerar suspensão e investigação de eventos adversos."
+        },
+        {
+          "label": "Ajustar plano terapêutico com equipe multidisciplinar, reforçar titulação e suporte nutricional."
+        }
+      ],
+      "title": "Sinais Vermelhos na Monitorização Laboratorial e Composição Corporal"
+    }
+  ],
+  "monograph": "# Monografia\n## Peptídeo terapêutico: farmacologia molecular, engenharia PK e checklist pré-prescrição para o médico\n\n---\n\n### 1. Contexto Clínico e Relevância Epidemiológica\n\nOs peptídeos terapêuticos são moléculas compostas por cadeias de aminoácidos (tipicamente 2–50 resíduos), posicionando-se entre pequenas moléculas (<900 Da) e proteínas (>50 aa). Sua relevância cresceu exponencialmente na medicina moderna devido à sua versatilidade farmacológica, perfis de segurança favoráveis e potencial para abordar alvos terapêuticos outrora considerados “indruggable” por pequenas moléculas ou anticorpos monoclonais [S1]. Três áreas exemplificam seu impacto: endocrinologia metabólica (incretinas e análogos da amilina), osteometabolismo (PTHrP, análogos da PTH), e novas fronteiras em obesidade, diabetes e sarcopenia.\n\nA incidência crescente de diabetes tipo 2, obesidade, osteoporose e disfunções metabólicas impulsionam a pesquisa, aprovação e uso de peptídeos. O arsenal terapêutico evoluiu de pequenas moléculas (“blockbuster drugs” como metformina, glitazonas, sulfonilureias) para incluir peptídeos de engenharia avançada como semaglutida, tirzepatida, cagrilintida, retatrutida e romosozumabe, já disponíveis ou em fases avançadas de pesquisa clínica [S1, S16–S25].\n\n**Impactos epidemiológicos resumidos:**  \n- Obesidade atinge >20% da população adulta em centros urbanos do Brasil. Estimativas de 10 milhões de pacientes com DM2. Osteoporose afeta 10% das mulheres acima de 50 anos.\n- As novas incretinas alcançaram reduções de peso de até 25% em ECRs fase 2; benefícios cardiovasculares comprovados em fases 3 [S16, S17, S19, S25].\n- Terapias anabólicas para osteoporose (teriparatida, abaloparatida) promovem aumentos de >7% da densidade mineral óssea em 18 meses [S6, S8, S15].\n\n---\n\n### 2. Fisiologia e Mecanismo Molecular dos Peptídeos Terapêuticos\n\n#### 2.1. Definição Estrutural: Peptídeo × Proteína  \n- **Peptídeos**: 2 a 50 resíduos de aa, estrutura primária linear ou cíclica, ausência de dobramentos conformacionais complexos.\n- **Proteínas**: >50 aa, estrutura terciária/quaternária, incluem anticorpos monoclonais.\n\n#### 2.2. Alvos Moleculares e Vias de Sinalização\n\n**a) Incretinas (GLP-1RA, GIP/GLP-1/Glucagon-RA)**\n- Receptores acoplados à proteína G (GPCRs) em ilhotas pancreáticas, SNC, trato GI. Ação via cAMP/PKA, inibindo secreção de glucagon, estimulando insulina, lentificando esvaziamento gástrico e promovendo saciedade [Evidência: A].\n\n**b) Análogos de Amilina (Cagrilintida)**\n- Agonistas dos receptores de amilina; retardam esvaziamento gástrico, atuam em núcleos hipotalâmicos de saciedade.\n\n**c) Anabólicos Osteometabólicos (Teriparatida, Abaloparatida)**\n- Mimética do PTH/PTHrP, ativa receptor PTH-1R em osteoblastos: incremento de cAMP, ativação de via MAPK, estímulo à formação óssea [S6, S8, S15].\n\n**d) Peptídeos regenerativos (BPC-157, TB-500, outros)**\n- Ação pré-clínica sobre reparo tecidual, angiogênese, neuroproteção, mas sem demonstração clínica robusta em humanos [S1, S27].\n\n**e) Engenharia de multialvos**\n- Aglutinam ações em múltiplos sistemas via designs como retatrutida (GIP/GLP-1/glucagon), ampliando potencial terapêutico ao favorecer controle energético, metabolismo lipídico e função hepática [S19, S22, S25].\n\n#### 2.3. Órgãos-Alvo\n- **Pâncreas:** aumento de insulina, redução do glucagon\n- **Trato gastrointestinal:** lentificação gástrica\n- **SNC:** saciedade, redução do apetite\n- **Tecido ósseo:** estímulo anabólico/osteoblástico\n- **Fígado/adiposo:** efeito pleiotrópico sobre metabolismo de glicose e lipídios\n\n---\n\n### 3. Farmacologia Comparada: PK, PD e Engenharia Molecular\n\n#### 3.1. Síntese Peptídica: SPPS vs Expressão Recombinante\n\n- **SPPS (Síntese de Peptídeos em Fase Sólida):** Permite precisão em cadeias curtas (até ~50 aa). Risco de impurezas: truncamentos, deletérios, TFA residual.\n- **Expressão Recombinante:** Usada para peptídeos longos (>30 aa) e proteínas, tipicamente conduzida em E. coli, leveduras ou células de mamíferos. Desafios: endotoxinas, dobramento correto, pureza.\n\n#### 3.2. Engenharia para Farmacocinética Aprimorada\n\n##### Modificações Estruturais  \n| Estratégia               | Exemplo                | Mecanismo                          | Impacto na PK/PD                     |\n|-------------------------|------------------------|-------------------------------------|---------------------------------------|\n| Aib (α-aminoisobutirato) | Semaglutida (GLP-1RA) | Bloqueio de clivagem por DPP4       | Aumenta meia-vida (>165 h)            |\n| Ácidos graxos C16–C20    | Semaglutida, Liraglutida | Ligação à albumina | Retardo da eliminação renal, dose semanal/mensal |\n| Binding à albumina       | Exendina-4, Dulaglutida | Fusões/conjugações | Prolonga meia-vida, menor variabilidade |\n| Pegilação                | Não usual nos atuais GLP-1RA | Shielding enzimático            | Prolongação, redução de imunogenicidade|\n| Cíclicos ou lactamas     | Cagrilintida, alguns agonistas inovadores | Restrição conformacional | Resistência enzimática, maior estabilidade   |\n\n##### Vias de Administração e Otimização Oral\n- **Subcutânea:** dominante (alta biodisponibilidade, menor variação).\n- **Oral:** SNAC (semaglutida oral) utiliza absorção gástrica atenuando degradação. Biodisponibilidade <2%; dose 10x maior [S23].\n\n#### 3.3. Pequenas Moléculas x Peptídeos x mAb: Comparação Fundamental\n\n| Parâmetro            | Pequena Molécula      | Peptídeo Terapêutico   | Anticorpo Monoclonal          |\n|----------------------|-----------------------|------------------------|-------------------------------|\n| Peso molecular       | <900 Da               | 0.5–5 kDa (2–50 aa)    | ~150 kDa                      |\n| Biodisponibilidade   | 30–100% (VO, IV, SC)  | SC/VO limitada         | IV/SC                        |\n| T1/2 (Meia-vida)     | Horas/dias            | Horas-dias-semanas      | Semanas                       |\n| Especificidade       | Variável              | Elevada                | Altíssima                     |\n| Imunogenicidade      | Baixa                 | Moderada (variável)    | Potencial, depende do humanizado|\n| Limitações           | Metabolismo hepático  | Proteólise, estabilidade| Imunogenicidade, custo alto   |\n| Exemplo              | Metformina            | Semaglutida, Cagrilintida| Romosozumabe, Denosumabe      |\n\n#### 3.4. Impurezas & Considerações Analíticas\n- **SPPS:** risco de truncamentos, deleções, TFA residual (>0,1%, potencialmente citotóxico), dimerização.\n- **Expressão Recombinante:** endotoxinas bacterianas, isoformas, proteínas de fusão indesejadas.\n- **Imunogenicidade:** Correlação direta entre impureza, via e tamanho do peptídeo; todo novo peptídeo requer estudo de imunogenicidade.\n\n---\n\n### 4. Evidência Crítica: ECRs, Observacionais e Ensaios Fundamentais\n\n#### 4.1. A Hierarquia da Evidência\n\nSeguindo recomendações Doutiva [S1, S27], os peptídeos prescritos devem se apoiar em:\n1. Metanálises e diretrizes\n2. ECRs fase 3 robustos\n3. Fase 2 e observacionais de grande N\n4. Fase 1 e relatos de caso como suporte secundário (não base decisória clínica).\n\n#### 4.2. Tabela Comparativa: Ensaios-Pivô para Peptídeos Selecionados\n\n| Peptídeo     | Estudo/Ref              | População/n        | Desenho/Fase          | Primary Endpoint         | Efeito (%/RR/HR)               | Limitações       | Evidência |\n|--------------|-------------------------|--------------------|-----------------------|-------------------------|---------------------------------|------------------|-----------|\n| Semaglutida  | STEP 1, SUSTAIN, S16    | >5000              | Fase 3/RCT            | % peso, MACE, HbA1c     | -15 a -17% (peso), HR MACE 0.74 | Critérios, GI AE | A         |\n| Tirzepatida  | SURPASS, S26            | >5000              | Fase 3/RCT            | HbA1c, % peso           | -21% (peso máx. vs placebo)     | GI, custo, acesso| A         |\n| Retatrutida  | S25, S19, S22           | ~300               | Fase 2/RCT            | % peso, HbA1c           | -22% a -24% (peso)              | Fase 2          | A         |\n| Cagrilintida | S18, S20, S21           | 300–3500           | Fases 2/3             | % peso, HbA1c           | -11% (monoterapia), -20% c/ sema| Mais estudos     | A         |\n| Teriparatida | S6, S15                 | 400–1600           | Fase 3/RCT            | DMO, fratura            | +7.2% DMO; RR fratura vertebral 0.35 | Controle (alendronato), eventos hipercalcemia | A |\n| Abaloparatida| S8                      | 2463               | Fase 3/RCT            | Fratura vertebral       | RR 0.44 vs placebo               | Hipercalcemia    | A         |\n| Romosozumabe | S12                     | 419                | Fase 2/RCT            | DMO, fratura            | +11.3% DMO (Lombar em 12m)       | Dose, eventos CV | A         |\n| GLP-1 oral   | S23                     | 272                | Fase 2/RCT            | % peso                  | -9.4% a -14.7%                   | GI, adesão       | A         |\n| BPC-157, TB-500| —                     | -                  | —                     | -                       | Sem ensaios clínicos robustos    | Puramente pré-clínico ou relato | D |\n\n#### 4.3. Magnitudes Clínicas, Estimands e Limitações\n\n**Exemplos específicos:**\n\n- **CagriSema vs Semaglutida (REDEFINE 1, S16):**  \n  - Peso: -20,4% vs -15,3% (estimand tratamento-política, N=3417, 68 sem).\n  - NNT para perda ≥15% de peso: 3,9 vs placebo.\n  - Efeitos adversos GI: ~80% (muito maior que placebo, mas geralmente leve/moderado).\n\n- **Retatrutida (S25):**  \n  - 48 semanas: -24,2% (12 mg), -2,1% (placebo)\n  - ≥10% perda: 91% (8mg), 93% (12mg) vs 9% placebo.\n  - Desfechos secundários: HbA1c – reduções superiores a -2,0% em diabéticos (S22).\n\n- **Abaloparatida (S8):**  \n  - Risco de fratura vertebral: RR 0,44, IC95% 0,23 a 0,68\n  - DMO lombar: +9,2% em 18m vs +3,5% placebo\n\n- **Teriparatida (S15):**  \n  - Fratura vertebral: RR 0,35 (IC95% 0,22–0,55), NNT ~12 para evitar uma fratura/21 meses\n  - Segurança: hipercalcemia rara; dor local, náusea.\n\n- **Observacionais Big Data (S2–S5):**  \n  - Semaglutida e GLP-1RA associados a menor MACE vs SU/DPP4i em análise real world com >500 mil pacientes.\n  - Limitação: potencial viés de canalização, adherence bias.\n\n---\n\n### 5. Indicações, Contraindicações e Seleção de Pacientes\n\n#### 5.1. Classificação Regulatória\n\n| Produto         | Registro ANVISA             | Off-label/documentado     | Manipulado/Research Use   | WADA/CFM                      |\n|-----------------|----------------------------|--------------------------|--------------------------|-------------------------------|\n| Semaglutida     | Obesidade, DM2             | Pré-diabetes, NASH       | Não permitido            | Permitido, exceto manipulado  |\n| Tirzepatida     | DM2, Obesidade (aguardando) | NASH, MASH               | Não permitido            | Permitido, exceto manipulado  |\n| Cagrilintida    | Não aprovado               | Pesquisa clínica         | Research only            | Proibido comercial/manipulado |\n| Retatrutida     | Não aprovado               | Pesquisa clínica         | Research only            | Proibido                      |\n| Teriparatida    | Osteoporose de alto risco  | Osteogênese imperfeita   | Não permitido            | Permitido                     |\n| Abaloparatida   | Não aprovado (Brasil)      | Pesquisa clínica         | Não permitido            | Fora do registro ANVISA       |\n| Peptídeos “regenerativos” (BPC-157, TB-500) | Não aprovado             | Nenhuma                  | Manipulado (ilegal)           | Proibido, Res. CFM nº 2.333/23|\n\n#### 5.2. Fenótipos/Perfis de Seleção\n\n- **Obesidade metabólica:** IMC ≥30, falha de intervenção comportamental, ECV moderado-alto, preferência por terapias de perfil glicêmico neutro (GLP-1RA/dual/triple agonists).\n- **Diabetes tipo 2 com alto risco CV/renal:** GLP-1RA com aprovação CV (semaglutida, liraglutida, tirzepatida).\n- **Osteoporose de alto risco:** idade ≥65 anos, múltiplas fraturas prévias, DMO < -3.0, uso crônico de GC. Indicação forte para anabólicos (teriparatida, abaloparatida) [S6–S8].\n- **Contraindicações absolutas:**  \n    1. História pessoal/familiar de carcinoma medular da tireoide/Neoplasia Endócrina Múltipla tipo 2 (GLP-1RA)  \n    2. Hipercalcemia persistente (anabólicos ósseos)  \n    3. Gravidez/lactação para quase todos\n    4. Hipersensibilidade específica\n\n- **Contraindicações relativas:**  \n    - Gastroparesia (GLP-1RA, amilina)\n    - DRC estágio 4-5 para GLP-1 oral (eliminação renal)\n    - História recente de pancreatite\n\n---\n\n### 6. Conduta Prática: Doses, Titulação, Manejo de Efeitos Adversos\n\n#### 6.1. Algoritmo Prático Pré-prescrição (checklist)\n\n1. Confirmação da indicação ANVISA/documentada.\n2. Avaliação de pureza/fabricação (laboratório certificado, lote, ausência de TFA, dados analíticos).\n3. Análise PK e via de administração compatível com perfil do paciente.\n4. Registro em prontuário de consentimento, riscos, plano de monitoramento.\n\n#### 6.2. Tabela Prática: Doses, Titulação, Adversidades\n\n| Peptídeo     | Apresentação   | Dose inicial    | Titulação         | Manutenção         | Duração máx | Efeitos Adversos Comuns  | Suspender se      |\n|--------------|----------------|----------------|-------------------|--------------------|-------------|-------------------------|-------------------|\n| Semaglutida SC | 0,25 mg/mL   | 0,25 mg/semana | +0,25 mg/4 sem.   | 1,0 ou 2,4 mg/sem. | Indefinida  | Náusea, vômito, C, RGE  | Pancreatite, IAM  |\n| Semaglutida oral| 3 mg         | 3 mg/dia       | +3 mg/s 4-8 sem.  | 14 mg/dia (máx)    | Indefinida  | GI, cefaleia            | GI grave, hipo    |\n| Tirzepatida  | 2,5 mg/SC      | 2,5 mg/sem     | +2,5 mg/4 sem.    | 5, 10, 15 mg/sem.  | Indefinida  | GI, inapetência         | Pancreatite       |\n| Cagrilintida | 0,25-2,4 mg/SC | 0,25 mg/sem.   | +0,25–0,5/sem.    | 2,4 mg/sem.        | Indefinida  | GI, hipersalivação      | GI grave          |\n| Retatrutida  | variável       | 2 mg/sem.      | +2 mg/4 sem.      | 4–12 mg/sem        | Indefinida  | GI (dose dependente)    | Taquiarritmia     |\n| Teriparatida | 20 mcg/SC      | 20 mcg/diário  | —                 | 20 mcg/diário      | 24 meses    | Náusea, tontura         | Hipercalcemia     |\n| Abaloparatida| 80 mcg/SC      | 80 mcg/diário  | —                 | 80 mcg/diário      | 18 meses    | Hipercalcemia, tontura  | HiperCa grave     |\n\n---\n\n### 7. Monitoramento Laboratorial e de Composição Corporal\n\n#### 7.1. Exames de Monitoramento por Classe\n\n| Peptídeo     | Exames peri-início                  | Exames monitoramento sequencial                      |\n|--------------|-------------------------------------|------------------------------------------------------|\n| GLP-1RA      | Glicemia, HbA1c, TC, TGO/TGP, creat.| HbA1c/3m, TGO/TGP/3-6m, EAS, peso/IMC/sarcopenia     |\n| Amilina      | Glicemia, função renal              | Glicemias, EAS, peso/IMC                             |\n| Anabólicos ósseos | Ca total/ioniz., P, DMO (baseline) | Ca/P mensais, DMO (6-18m), marc. formação/absorção O |\n| Retatrutida/triplo | Glicemia, enz. hepáticas, TC   | A cada 3m met. glicolíp, IMC, composição corporal (DXA, BIA) |\n\n#### 7.2. Composição Corporal\n\n- Circunferência abdominal, bioimpedância (BIA) para massa magra e gordura, DXA para padrão ouro (sarcopenia), documentar reduções de massa magra (GLP-1RA podem reduzir 15–40% da perda ponderal às custas de massa magra).\n\n---\n\n### 8. Segurança, Interações e Perioperatório\n\n#### 8.1. Segurança Laboratorial e Clínica\n\n- **Risco GI**: náusea, vômito, diarreia até 80% em doses altas (GLP-1RA, amilina)\n- **Risco pancreático**: raríssimo, mas contraindicações firmes em antecedentes.\n- **Risco hipercalcêmico**: teriparatida/abaloparatida. Monitorização obrigatória.\n- **Imunogenicidade**: baixo (GLP-1RA), monitorar sintomas sistêmicos, anticorpos anti-droga (RARO).\n\n#### 8.2. Interações Farmacológicas\n\n- **GLP-1RA e absorção oral**: retardam esvaziamento gástrico, interferem medicações de janela estreita (levotiroxina, inibidores de calcineurina), ajustar horários.\n- **Anabólicos ósseos:** cuidado em associação a calcitriol, tiazídicos, lítio.\n\n#### 8.3. Manejo Perioperatório\n\n- Suspender GLP-1RA 1 semana antes de procedimentos sob anestesia geral (reduzir risco de aspiração, RGE).\n- Retorno progressivo (retitrulação se descontinuado >2-3 semanas).\n- Anabólicos ósseos: sem necessidade de suspensão.\n\n---\n\n### 9. Aspectos Regulatórios e Éticos no Brasil\n\n- **Prescrever apenas peptídeos com registro ANVISA na indicação pretendida ou off-label documentado em literatura robusta**.\n    - Exclusão total de peptídeos manipulados/referenciais “research use only” (BPC-157, TB-500), conforme CFM Resolução 2.333/2023.\n- **Documentação completa**: plano terapêutico, consentimento, riscos discutidos.\n- **WADA**: atletas sob regulamentação estão proibidos de receber quase a totalidade dos análogos hormonais, INCENTIVAR rastreamento antes de prescrever.\n- **Ensino remunerado**: julgamento crítico e segurança são produtos do trabalho médico; não a mera revenda de moléculas.\n\n---\n\n### 10. Fronteira Terapêutica e o que NÃO prescrever\n\n#### 10.1. Peptídeos permitidos/RECOMENDÁVEIS\n- Semaglutida, tirzepatida, teriparatida: ampla base de segurança e eficácia, uso consolidado ANVISA.\n- Cagrilintida, retatrutida: promissores, restritos a ensaios clínicos; não prescrever em settings fora de protocolo (mesmo com pressão de demanda).\n\n#### 10.2. NÃO prescrever (enfatizar):\n- Manipulados, importados de origem duvidosa (“Peptide Clinics”, substâncias para pesquisa não medicinal), sem testes de pureza, custo baixo e sem rastreabilidade.\n- BPC-157, TB-500, GHK-Cu: ausência de ensaios robustos em humanos, potencial imunogênico/ofibrogênico desconhecido, severo risco profissional.\n- “Protocolos” de grupos de rede: fere ética, pode configurar charlatanismo.\n- Uso negligente em gestantes, menores, atletas.\n\n---\n\n### 11. Pérolas, Armadilhas e Checklist do Consultório\n\n#### 11.1. Pérolas\n\n- Nunca prescrever peptídeo sem acesso ao COA (Certificate of Analysis) do lote — alertar para risco de TFA/endotoxinas.\n- Documentar claramente a indicação, estratégia de titulação e plano de monitoramento — protege contra judicialização.\n- Distinguir hype de ciência: busque ECRs/multicêntricos de grande N, nunca marketing de peptide suppliers ou opiniões de low cost clinics.\n- Para pacientes com histórico de TCE (transtorno do comportamento alimentar) ou câncer de tireoide, contraindique incretinas.\n- Quando usar inovações como CagriSema, monte plano para monitorar composição corporal frequentemente (proteção contra sarcopenia).\n\n#### 11.2. Armadilhas\n\n- Indicação off-label sem documentação robusta = risco ético e judicial.\n- Adquirir moléculas de lojas manipuladas: infração ética, risco de sanções administrativas (CFM, CRM).\n- Superestimar benefício: notificar sobre platô de perda de peso, risco de rebote se cessação súbita.\n- Ignorar titulação lenta: GI AE intensifica superação rápida de dose, impactando adesão.\n\n#### 11.3. Checklist rápido (pré-prescrição, 60 segundos)\n\n1. Indicação com diretriz/ECR fase 3 ou off-label documentado?\n2. Lote certificado, COA (pureza, endotoxina, ausência de TFA)?\n3. Doses, titulação, via de administração clara para paciente?\n4. Planilha de monitoramento laboratorial definida?\n5. Contraindicação absoluta presente?\n6. Consentimento verbal/escrito registrado?\n\n---\n\n### 12. Caso Clínico\n\n**Paciente**: Mulher, 54 anos, IMC 34, DM2 há 7 anos; HbA1c 7,8%, já em metformina 2g/d, ramipril 5mg/d. DMO T-score lombar -2,1; PA 126/80 mmHg; Etilismo ocasional, sem história de doenças cardíacas; deseja emagrecer, tem histórico familiar de câncer de tireoide medular (tio materno).\n\n**Alternativas terapêuticas:**\nA) Iniciar semaglutida SC 0,25 mg/sem.  \nB) Iniciar cagrilintida (acesso “peptide clinic”) + dieta.  \nC) Iniciar tirzepatida 2,5 mg/sem.  \nD) Aumentar metformina, recomendar Orlistate.\n\n**Resposta Correta:** D (Aumentar metformina, recomendar Orlistate).  \n**Justificativa:**  \nTanto semaglutida quanto tirzepatida estão contraindicadas (história familiar de câncer medular de tireoide, devido ao risco de CMT e NEM-2). Cagrilintida não possui registro ANVISA, e acesso por “peptide clinic” configura infração ética e jurisprudencial. O uso de orlistate é seguro e pode ser considerado em associação à otimização do manejo comportamental e da metformina. Sempre documentar contraindicação e discutir alternativas com a paciente.\n\n**Teaching:**\n- A conduta correta preza pelo registro, contraindicação absoluta (risco de malignidade tireoidiana com incretinas).  \n- O que NUNCA fazer: prescrever peptídeo manipulado ou ignorar histórico familiar de CMT.\n\n---\n\n### 13. Slides didáticos (Sugestão de 8–12/algoritmos)\n\n**Slide 1:** Título (“Peptídeos Terapêuticos: Engenharia e Prescrição Consciente”)  \n**Slide 2:** Linha do tempo: pequ. molécula → peptídeo → mAb  \n**Slide 3:** Tabela densa (ver seção 4.2) de ensaios: peptídeos × endpoints × evidência  \n**Slide 4:** Barras: % perda de peso CagriSema, retatrutida vs semaglutida/placebo  \n**Slide 5:** Algoritmo: Checklist pré-prescrição (flowchart)  \n**Slide 6:** Tabela: Doses, titulação, efeito adverso (ver seção 6.2)  \n**Slide 7:** Contraste: Peptídeo aprovado vs não aprovado (split)  \n**Slide 8:** Exemplos de manipulado/research use only (imagens — com “NÃO!”)  \n**Slide 9:** Pérolas e armadilhas (bullets)  \n**Slide 10:** DMO/IMC: Sinais vermelhos na monitorização (flow bar)  \n**Slide 11:** Caso clínico (“O que NÃO fazer”)  \n**Slide 12:** Take home: “Peptídeo terapêutico não é commodity” + referência.\n\n---\n\n### quick_ref: Guia de Bolsa\n\n**Tabela — Doses e Titulação**\n\n| Peptídeo         | Dose inicial/Titulação             | Manutenção                  | Suspender se      |\n|------------------|------------------------------------|-----------------------------|-------------------|\n| Semaglutida SC   | 0,25mg/sem, +0,25/4sem            | 1,0–2,4mg/sem               | Pancreatite       |\n| Tirzepatida      | 2,5mg/sem, +2,5/4sem               | 5, 10, 15mg/sem             | Pancreatite       |\n| Teriparatida     | 20mcg/dia                          | 20mcg/dia (24m)             | HiperCa           |\n\n**Red flags**\n- História familiar/pessoal CMT/NEM2\n- Pancreatite prévia/DRC grave\n- Produto sem COA/ANVISA\n\n**Checklist 60s**\n- Indicação × Diretriz/ECR\n- Análise COA (pureza, ausência TFA, endotoxina)\n- Dose inicial e titulação anotadas no receituário\n- Consentimento registrado\n- Laboratorial + composição corporal com follow-up agendado\n\n---\n\n### key_points (5–7)\n\n1. **Jamais prescreva peptídeos fora de registro ANVISA ou sem COA documentado: pureza e rastreabilidade são vitais.**\n2. **A titulação LENTA reduz efeitos adversos e aumenta adesão — nunca acelere, mesmo se pressionado por paciente.**\n3. **Contraindicações absolutas, como histórico familiar de carcinoma medular/tireoide ou NEM-2, superam benefícios potenciais, independentemente da “novidade” do peptídeo.**\n4. **Monitoramento de composição corporal é fundamental: 15–40% da perda ponderal com GLP-1RA ocorre via massa magra.**\n5. **Peptídeos “research use only” (BPC-157, TB-500) são proibidos do ponto de vista clínico, ético e legal no Brasil.**\n6. **Julgamento clínico, documentação e monitoramento são o “produto vendável” do médico do século XXI — não o frasco.**\n7. **Individualize escolha baseada em classificação regulatória, ensaios fase 3, perfil do paciente e contraindicações.**\n\n---\n\n## 14. Referências\n\n1. [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n2. [S6] Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007.\n3. [S8] Miller PD et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis: A Randomized Clinical Trial. JAMA. 2016.\n4. [S12] McClung MR et al. Romosozumab in postmenopausal women with low bone mineral density. N Engl J Med. 2014.\n5. [S15] Neer RM et al. Effect of parathyroid hormone (1-34) on fractures and bone mineral density in postmenopausal women with osteoporosis. N Engl J Med. 2001.\n6. [S16] Garvey WT et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2025.\n7. [S17] le Roux CW et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024.\n8. [S21] Frias JP et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a multicentre, randomised, double-blind, active-controlled, phase 2 trial. Lancet. 2023.\n9. [S22] Rosenstock J et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. Lancet. 2023.\n10. [S23] Wharton S et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med. 2023.\n11. [S25] Jastreboff AM et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med. 2023.\n12. [S27] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n\n---\n\n**Fim da monografia — referência didática e operacional para o especialista brasileiro do consultório ao bloco cirúrgico na era dos peptídeos avançados.**",
+  "quick_ref": "Guia de Bolsa Rápida - Peptídeos Terapêuticos\n\nDoses e Titulação Básicas:\n- Semaglutida SC: iniciar 0,25 mg/semana; aumentar 0,25 mg a cada 4 semanas; manutenção 1,0-2,4 mg/semana; suspender se pancreatite.\n- Tirzepatida: iniciar 2,5 mg/semana; aumentar 2,5 mg a cada 4 semanas; manutenção 5-15 mg/semana; suspender se pancreatite.\n- Teriparatida: 20 mcg/dia SC, até 24 meses; suspender se hipercalcemia grave.\n\nRed flags para prescrição:\n- História pessoal ou familiar de carcinoma medular da tireoide ou NEM-2.\n- Pancreatite prévia ou doença renal crônica estágio 4-5.\n- Produto sem COA comprovado ou sem registro ANVISA para a indicação.\n\nChecklist pré-prescrição (60s):\n1. Confirme indicação com diretrizes ou ECR fase 3.\n2. Verifique COA: pureza, ausência de TFA, endotoxinas.\n3. Determine dose inicial e protocolo de titulação.\n4. Registre consentimento informado.\n5. Defina exames laboratoriais e monitoramento de composição corporal.\n6. Avalie contraindicações absolutas e relativas.\n\nImportante: nunca prescrever peptídeos manipulados ou sem respaldo regulatório e científico documentado.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "54 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m²"
+      },
+      {
+        "label": "Diabetes tipo 2",
+        "value": "sim, em uso metformina 2g/d"
+      },
+      {
+        "label": "HbA1c",
+        "value": "7,8%"
+      },
+      {
+        "label": "DMO lombar",
+        "value": "T-score -2,1"
+      },
+      {
+        "label": "Histórico familiar",
+        "value": "carcinoma medular de tireoide (tio materno)"
+      },
+      {
+        "label": "Pressão arterial",
+        "value": "126/80 mmHg"
+      },
+      {
+        "label": "Etilismo",
+        "value": "ocasional"
+      }
+    ],
+    "title": "Escolha terapêutica segura para paciente obesa com histórico familiar de câncer de tireoide",
+    "reward": 100,
+    "options": [
+      {
+        "label": "A) Iniciar semaglutida SC 0,25 mg/semana",
+        "correct": false,
+        "rationale": "Contraindicado devido ao histórico familiar de carcinoma medular de tireoide, risco de NEM-2."
+      },
+      {
+        "label": "B) Iniciar cagrilintida via 'peptide clinic' associada à dieta",
+        "correct": false,
+        "rationale": "Uso não autorizado, sem registro ANVISA e falta de evidência, com riscos éticos e legais."
+      },
+      {
+        "label": "C) Iniciar tirzepatida 2,5 mg/semana",
+        "correct": false,
+        "rationale": "Contraindicado por contraindicação semelhante às incretinas devido ao risco oncológico."
+      },
+      {
+        "label": "D) Aumentar dose de metformina e recomendar orlistate",
+        "correct": true,
+        "rationale": "Opção segura e ética considerando histórico e perfil da paciente, sem riscos adicionais."
+      }
+    ],
+    "question": "Qual a conduta terapêutica mais segura para esta paciente?",
+    "vignette": "Mulher, 54 anos, IMC 34, com diabetes tipo 2 controlado com metformina e ramipril. HbA1c 7,8%, DMO T-score lombar -2,1. Deseja emagrecer. Tem histórico familiar (tio materno) de carcinoma medular de tireoide.",
+    "teaching": "A história familiar de carcinoma medular da tireoide e possível NEM-2 contraindica o uso de peptídeos incretinos (semaglutida, tirzepatida) devido ao risco elevado de malignidade. Peptídeos sem registro ANVISA, como cagrilintida oferecida em 'peptide clinics', não devem ser prescritos pela falta de evidência e riscos éticos e legais. Opções seguras incluem otimização da metformina e uso de orlistate, além do acompanhamento multidisciplinar. É fundamental registrar contraindicações, discutir riscos com a paciente e evitar terapias não aprovadas que possam comprometer segurança e responsabilidade médica."
+  },
+  "refs": [
+    {
+      "citation": "Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007."
+    },
+    {
+      "citation": "Miller PD et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women. JAMA. 2016."
+    },
+    {
+      "citation": "Garvey WT et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2025."
+    },
+    {
+      "citation": "Frias JP et al. Efficacy and safety of co-administered once-weekly cagrilintide with semaglutide in type 2 diabetes. Lancet. 2023."
+    },
+    {
+      "citation": "Jastreboff AM et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med. 2023."
+    },
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    }
+  ],
+  "status": "published"
+}

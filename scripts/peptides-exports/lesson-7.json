@@ -1,0 +1,332 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Reparo tecidual",
+  "module_position": 4,
+  "title": "BPC-157, TB-500 e GHK-Cu: Ciência Pré-Clínica vs Hype — Por que Não São Terapia Estabelecida",
+  "description": "Revisão crítica dos peptídeos regenerativos BPC-157, TB-500 e GHK-Cu, enfatizando ausência de evidência robusta em humanos, mecanismos plausíveis em modelos pré-clínicos, limitações farmacológicas, aspectos regulatórios no Brasil (ANVISA, CFM, WADA), riscos de manipulação e estratégias alternativas baseadas em evidência para reparo tecidual e tendinopatia.",
+  "duration_minutes": 75,
+  "evidence_level": "D",
+  "key_points": [
+    "BPC-157, TB-500 e GHK-Cu carecem de ensaios clínicos randomizados em humanos demonstrando benefício no reparo tecidual.",
+    "Nenhum desses peptídeos possui registro na ANVISA, FDA ou EMA para uso terapêutico, tornando a prescrição clínica proibida pelo CFM (Resolução 2.333/2023).",
+    "Produtos comercializados como “research only” vêm sem garantia de pureza, com risco de contaminação e são considerados FDA Category 2 (uso exclusivo em pesquisa).",
+    "WADA inclui BPC-157 e TB-500 entre substâncias proibidas para atletas em competição (categoria S0).",
+    "Terapias consolidadas para reparo de tendinopatias incluem exercícios excêntricos, fisioterapia progressiva e, em osteoporose, anabolizantes ósseos como teriparatida e abaloparatida.",
+    "Médicos devem recusar prescrição dessas substâncias, negar manipulações não reguladas e documentar orientações e recusas para segurança legal e ética.",
+    "A melhor prática médica enfatiza julgamento clínico baseado em evidências, segurança do paciente e transparência na comunicação, evitando modismos sem respaldo científico."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "BPC-157, TB-500 e GHK-Cu — Ciência versus Hype no Reparo Tecidual",
+      "subtitle": "Curso Peptídeos na Medicina de Precisão — Módulo 4: Reparo Tecidual"
+    },
+    {
+      "head": [
+        "Composto",
+        "População/Desenho",
+        "n",
+        "Duração",
+        "Desfecho",
+        "Resultado",
+        "Limitações",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "BPC-157",
+          "Ratos lesão tendão",
+          "12",
+          "6 semanas",
+          "Cicatrização",
+          "↑100% regeneração vs controle",
+          "Sem ensaio humano, viés laboratório único",
+          "D"
+        ],
+        [
+          "TB-500",
+          "Ratos lesão cardíaca",
+          "18",
+          "3 semanas",
+          "Recuperação microvascular",
+          "Melhora função",
+          "Nenhum dado clínico humano",
+          "D"
+        ],
+        [
+          "GHK-Cu",
+          "Cultura de fibroblastos",
+          "—",
+          "in vitro",
+          "Expressão gênica colágeno",
+          "↑250% RNA colágeno",
+          "In vitro, não replicado in vivo",
+          "C"
+        ],
+        [
+          "GHK-Cu (uso tópico)",
+          "Humanos envelhecimento",
+          "~150",
+          "12 semanas",
+          "Melhora aparência pele",
+          "Melhora subjetiva",
+          "Sem grupo controle rigoroso",
+          "C"
+        ]
+      ],
+      "title": "Resumo dos Principais Estudos Pré-Clínicos e Humanos"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "BPC-157 → angiogênese via VEGF, modulação NO-cGMP, reparo matriz extracelular"
+        },
+        {
+          "label": "TB-500 → mobilização progenitores, regulação actina, angiogênese"
+        },
+        {
+          "label": "GHK-Cu → ativação fibroblastos, síntese colágeno, quimiotaxia celular"
+        },
+        {
+          "label": "Limitação: Ausência de receptores específicos humanos comprovados e dados clínicos robustos"
+        }
+      ],
+      "title": "Mecanismos Moleculares Hipotéticos dos Peptídeos Regenerativos"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "BPC-157: SC, IM, oral experimental, sem PK humano, sem registro",
+          "TB-500: SC, IM, tópica off-label, pesquisa-only, sem ensaios humanos",
+          "GHK-Cu: principalmente tópico, uso sistêmico não aprovado",
+          "Nenhum aprovado pela ANVISA para uso humano clínico",
+          "Produtos disponíveis sem fiscalização sanitária adequada"
+        ],
+        "label": "Farmacologia e Uso"
+      },
+      "right": {
+        "items": [
+          "BPC-157 e TB-500 classificados FDA Category 2, proibidos WADA",
+          "Manipulação comercial e uso off-label proibidos pelo CFM",
+          "GHK-Cu tópico com registro cosmético, não medicinal",
+          "Risco de contaminação e pureza em kits “research only”",
+          "Uso indevido implica sanções legais e éticas"
+        ],
+        "label": "Regulação e Riscos"
+      },
+      "title": "Comparação das Vias de Administração e Certificação"
+    },
+    {
+      "bars": [
+        {
+          "label": "100% aumento estimado na regeneração de tendão em BPC-157 (ratos)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Melhora microvascular em lesão cardíaca com TB-500 (animais)",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "250% aumento da expressão gênica para colágeno em fibroblastos tratados com GHK-Cu",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Nenhum ECR humano concluído para qualquer peptídeo",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Evidência Clínica: Magnitude dos Efeitos nos Estudos Pré-Clínicos",
+      "source": ""
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente com tendinopatia crônica solicita BPC-157 / TB-500"
+        },
+        {
+          "label": "✔ Revisar história clínica e exames laboratoriais"
+        },
+        {
+          "label": "✘ Explicar ausência de evidência e risco regulatório"
+        },
+        {
+          "label": "✔ Propor reabilitação excêntrica supervisionada e fisioterapia"
+        },
+        {
+          "label": "✔ Avaliar alternativas comprovadas (PRP, farmacoterapia)"
+        },
+        {
+          "label": "✘ Negar prescrição/manipulação"
+        },
+        {
+          "label": "✔ Documentar orientação e recusa"
+        }
+      ],
+      "title": "Fluxograma do Manejo Clínico de Tendinopatia com Pedido de Peptídeos"
+    },
+    {
+      "head": [
+        "Composto",
+        "Dose 'Online' Reportada",
+        "Via",
+        "Titulação Suposta",
+        "Efeitos Adversos Referidos"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "BPC-157",
+          "250–500 mcg/dia",
+          "SC, oral",
+          "2–4 semanas",
+          "Dor local, cefaleia, flushing, zumbido (anecdóticos)"
+        ],
+        [
+          "TB-500",
+          "2–5 mg/semana",
+          "SC, IM",
+          "4–8 semanas",
+          "Eritema local, edema, risco infeccioso"
+        ],
+        [
+          "GHK-Cu",
+          "0,05–0,1%",
+          "Tópico",
+          "Uso contínuo",
+          "Irritação e alergia cutânea"
+        ]
+      ],
+      "title": "Resumo das Doses Populares Não Regulamentadas e Efeitos Adversos"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Paciente solicita peptídeo regenerativo"
+        },
+        {
+          "label": "Peptídeo possui ECRs humanos fase 2 ou 3?"
+        },
+        {
+          "label": "Sim → Avaliar indicação clínica e regularização"
+        },
+        {
+          "label": "Não → NÃO prescrever, orientar risco e regularização"
+        },
+        {
+          "label": "Produto possui registro ANVISA/CFM?"
+        },
+        {
+          "label": "Sim → Considerar uso conforme protocolo"
+        },
+        {
+          "label": "Não → NÃO prescrever; documentar recusa"
+        }
+      ],
+      "title": "Decisão Rápida para Uso de Peptídeos sem Evidência Clínica"
+    }
+  ],
+  "monograph": "# Monografia Doutiva – Peptídeos Regenerativos no Reparo Tecidual:\n## BPC-157, TB-500 e GHK-Cu: Ciência Pré-Clínica versus “Hype” – Por que Não São Terapia Estabelecida\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nNos últimos anos, o interesse por peptídeos com propriedades regenerativas cresceu de forma marcante dentro da medicina esportiva, longevidade e áreas de reparo tecidual. Entre eles, destacam-se o BPC-157 (Body Protection Compound-157), TB-500 (fragmento sintético da timosina beta-4) e GHK-Cu (tri-peptídeo cobre-glicil-L-histidil-L-lisina).\n\nO fascínio clínico reside nos relatos de aceleração na regeneração de tendões, músculos, ossos e até em potenciais aplicações em úlceras tróficas, distúrbios inflamatórios intestinais e feridas de difícil cicatrização. Em meio ao aumento do número de lesões músculo-tendíneas, tendinopatias crônicas e pacientes que buscam terapias alternativas à cirurgia, compreender as evidências — ou sua ausência — acerca desses compostos torna-se essencial para o médico ético e atualizado.\n\nApesar do volume de discussões em redes sociais e fóruns “anti-aging”, poucos médicos especialistas têm clareza quanto à robustez da evidência, pureza dos produtos disponíveis, riscos e questões regulatórias envolvendo tais peptídeos. A medicina baseada em evidências exige a distinção entre plausibilidade mecanística, hype mercadológico e recomendação clínica [S1, S26, S27].\n\n**Resumo Epidemiológico:**\n- Tendinopatias crônicas: prevalência de 1% a 2% na população geral, até 30% em atletas de elite.\n- Déficits de cicatrização tecidual: comum em idosos, diabéticos, pacientes com insuficiência vascular ou usuários crônicos de corticosteroides.\n- Terapias não invasivas e de baixo efeito adverso são demandas crescentes, mas não dispensam rigor científico.\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1 BPC-157\n\nO BPC-157 é um pentadecapeptídeo derivado de uma fração do suco gástrico humano. Sua ação foi primariamente estudada em modelo animal, mostrando efeitos citoprotetores, angiogênese local, modulação da inflamação e sinalização de fatores de renovação endotelial e fibroblástica (VEGF, FAK, NO). Não há evidência de receptores humanos específicos, estando seu mecanismo no humano ainda por postular, com hipóteses envolvendo mediação da via NO-GMPc e reparo de matriz extracelular [Evidência D].\n\n- **Órgãos-alvo**: Músculo, tendão, mucosa intestinal, sistema nervoso periférico.\n- **Vias**: Estímulo do reparo tecidual, modulação de resposta imunológica local.\n- **Limitação**: Todos estudos em humano publicados são observacionais, série de caso ou em voluntários sadios/animais.\n\n### 2.2 TB-500 (Timosina Beta-4)\n\nTB-500 é o fragmento ativo da proteína timosina beta-4, conhecida por regular actina, diferenciar células tronco e facilitar a mobilização celular em resposta à injúria tessidual em animais de laboratório.\n\n- **Mecanismo**: Aumenta expressão de integrinas, estímulo à angiogênese, mobilização de células progenitoras mesenquimais.\n- **Alvos**: Fibras tendíneas, endotélio, músculo esquelético, cardíaco (em modelos animais).\n- **Desafio**: Não há registros de ensaios de fase 1b, 2 ou 3 com TB-500 em humanos; extrapolação da farmacologia animal.\n\n### 2.3 GHK-Cu\n\nTrata-se de um tripeptídeo ligado a cobre (Gly-His-Lys-Cu²⁺), com evidências de facilitação de remodelamento de matriz, ativação gênica relacionada à síntese de colágeno e fibroblastos – investigado de modo mais robusto em formulações tópicas (cremes, loções) em laboratório dermatológico para envelhecimento e feridas.\n\n- **Vias**: Estímulo de fatores de crescimento, quimiotaxia de monócitos, fibroblastos, angiogênese, expressão de genes antioxidantes.\n- **Tópico vs Parenteral**: Quase toda evidência concerne uso tópico; dados de farmacocinética sistêmica humana são inexistentes.\n\n---\n\n## 3. Farmacologia Comparada: PK/PD, Engenharia Molecular e Vias de Administração\n\n| Composto | Fórmula         | Farmacocinética | Bioatividade Humana | Rotas Típicas         | Registros/Fabricantes            |\n|----------|----------------|-----------------|---------------------|-----------------------|----------------------------------|\n| BPC-157  | Arg-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val-Lys-Val | PK animal: t1/2 curta. Excreção renal. Ausente estudo PK humano. | Não testado em humanos (ECRs) | Subcutânea, intramuscular, oral, tópica | Apenas “research use only”. Sem fabricante GMP certificado. |\n| TB-500   | Fragmento 17aa do Tβ4           | PK animal e in vitro. PK humano desconhecida. | Não testado em humanos (ECRs) | Subcutânea, IV, tópica (off-label) | \"Research grade\" e manipulação não farmacêutica. |\n| GHK-Cu   | Gly-His-Lys-Cu²⁺                | Tópico: permeação limitada. Parenteral: não estudado. | Efeitos anti-aging tópicos (C) | Tópico. Parenteral (sem respaldo) | Cosmecêuticos. Não registrado via sistêmica.  |\n\n**Notas:**\n- Nenhum desses peptídeos está registrado na ANVISA, FDA ou EMA como medicamento.\n- Disponibilidade comercial provém quase exclusivamente de laboratórios de pesquisa (“research-only”), sem garantias de pureza, rastreabilidade, ausência de contaminantes (por ex., endotoxinas, solvente residual, peptídeo truncado).\n- Manipulações em farmácia: prática irregular/anedótica extra-oficial (“grey market”).\n- Categorização FDA: TB-500 e BPC-157 são Category 2 (research-only, não para uso humano).\n\n---\n\n## 4. Evidência Crítica (Estudos Nomeados, Tabela Densa, Magnitude, Limitações)\n\n**Resumo:** Até a presente data, não existe ECR randomizado duplo-cego, bem desenhado, com BPC-157, TB-500 ou GHK-Cu para qualquer indicação de reparo tecidual em humanos. Abaixo, sumarizamos os principais achados com grau de evidência e limitações.\n\n### Tabela 1 – Estudos de BPC-157, TB-500 e GHK-Cu \n\n| Autor/Ano       | Composto  | População     | n  | Duração | Desenho | Desfecho Primário          | Resultado (%, IC95%)     | Limitações           | Evidência          |\n|-----------------|-----------|--------------|----|---------|---------|----------------------------|--------------------------|----------------------|--------------------|\n| Sikiric, 2020s  | BPC-157   | Ratos (trauma tendíneo) | 12 | 6 sem   | Animal | Cicatrização tendão        | ↑100% regeneração vs. controle | Sem braço humano, estudo de grupo único | D |\n| Kau, 2011       | BPC-157   | Ratos (ferida GI)   | 24 | 4 sem   | Animal | Cura úlcera intestinal      | ↑rápida remissão | Sem PK humano, gradação empírica | D |\n| Smith 2019      | TB-500    | Ratos (lesão cardíaca)| 18 | 3 sem   | Animal | Função cardíaca pós-lesão   | ↑regeneração microvasc. | Nenhum estudo humano, viés laboratorial | D |\n| Pickart 2015    | GHK-Cu    | Culture masc. fibroblastos humanos | in vitro | - | Teste c/ tecido | Expressão gênica colágeno/fibrilina | ↑250% RNA colágeno | In vitro, não replicado em vivo | C |\n| Topical Cosmeceuticals (2020s) | GHK-Cu | Humanos (envelhecimento pele) | ~150| 12 sem | Observacional aberto | Melhora aparência, hidratação | Melhora subjetiva | Sem grupo controle rigoroso PK | C |\n| Sem ECR humano | Todos | - | - | - | - | - | - | - | - |\n\n### Discussão sobre Viés de Laboratório Único:\n\nA quase totalidade dos estudos são da mesma linha de pesquisa (ex: Sikiric et al. para BPC-157) ou de laboratórios que não passaram por reprodutibilidade independente. O risco de viés de fabricação (“peptide vendor bias”), publicação, expectativa e seleção de endpoints “soft” é elevadíssimo [S1, S26].\n\n### Risco Estimado vs Magnitude:\n- Regeneração acelerada em 80–100% dos animais tratados em modelos de lesão aguda, sem traduções em desfechos funcionais a longo prazo em humanos.\n- Em tópicos cosméticos de GHK-Cu, relatos de melhora subjetiva do envelhecimento cutâneo mas sem desfechos duros como reepitelização comprovada em lesões graves.\n\n**Conclusão:** Esses compostos residem SOLIDAMENTE no grau de evidência D para reparo tecidual. Não há estimands robustos para benefício funcional em humanos, tampouco magnitude ou duração dos efeitos além de modelos pequenos e não replicados.\n\n---\n\n## 5. Indicações, Contraindicações e Seleção de Pacientes\n\n### 5.1 Situação Regulatória e Indicação Formal\n\n**BPC-157, TB-500, GHK-Cu (uso parenteral):**\n- **Registro ANVISA: Não**\n- **FDA, EMA: Não**\n- **CFM (Resolução 2.333/2023): Proibido uso de substâncias sem registro/indicação reconhecida para manipulação clínica**\n- **WADA:** BPC-157, TB-500 entram como agentes potencialmente dopantes para fins de desempenho atlético (categoria S0: substâncias não aprovadas).\n- **Pesquisa Clínica:** Pode ser permitido somente em contexto formal de ensaio clínico autorizado por CEP e CONEP.\n\n**GHK-Cu tópico:** Alguns dermocosméticos possuem registro para “cuidado anti-aging”, mas sem alegação de reparo de lesão aguda ou crônica.\n\n### 5.2 Contraindicações\n\nJá que não existem recomendações clínicas de uso, qualquer prescrição é considerada contraindicada fora do contexto experimental.\n\n- Absolutas: Gravidez, lactação, infância, uso em condições infecciosas ativas, história de neoplasias (hipotético risco pró-mutagênico do aumento angiogênico sem controle).\n- Relativas: Pacientes com doenças autoimunes ativas (falta de dados), imunossupressão.\n- Atletismo competitivo: Risco ético e de banimento antidoping.\n\n### 5.3 Seleção de Pacientes: Fenótipos\n\nSem evidência, não há subgrupo identificado como “candidato ideal” — qualquer proposta é especulativa.\n\n---\n\n## 6. Conduta Prática Passo a Passo: Doses, Titulação, Manejo de Efeitos Adversos\n\n**Tabela 2 – Doses Habitualmente Comercializadas em Fóruns de Pesquisa (NÃO RECOMENDADAS)**\n\n| Composto | Dose usual em fóruns | Vias informais  | Titulação sugerida “underground” | Efeitos Adversos Referidos     |\n|----------|---------------------|------------------|-----------------------------------|-------------------------------|\n| BPC-157  | 250–500 mcg 1x/dia  | SC, oral         | 2–4 semanas ciclo                | Dor local, dor cabeça, flushing, zumbido (anecdóticos) |\n| TB-500   | 2–5 mg 1x/semana    | SC ou IM         | 4–8 semanas                      | Edema local, eritema, risco infeccioso sítio |\n| GHK-Cu   | 0,05–0,1%           | Tópico           | Uso contínuo (cosmético)          | Irritação tópica, alergia     |\n\n**Importante:** *Estas dosagens são extraídas de fóruns não regulados, não resultam de ensaios clínicos e não devem ser usadas como referência para indicação clínica. Não há esquema posológico “valeu para humanos”.*\n\n**Manejo de efeitos adversos:**\n- Não existe protocolo de reversão específico.\n- Em caso de reação adversa, a conduta é suspender imediatamente e instituir suporte sintomático.\n- Todo uso deve ser registrado em contexto de pesquisa clínica autorizada.\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\nComo não há indicação clínica, tampouco monitoramento consensual, qualquer proposta de rotina laboratorial é de caráter especulativo.\n\n**Em contexto de pesquisa clínica, poderiam ser monitorados:**\n- Hemograma, função renal e hepática (potenciais reações adversas inesperadas)\n- CK, LDH, mioglobina (miosite, injúria muscular)\n- Marcadores inflamatórios (PCR)\n- Composição corporal: DXA, BIA, ressonância magnética de área lesada\n- Testes funcionais: dinamômetria, ultrassonografia de reparo local\n\n**Monitoramento para GHK-Cu tópico:** Irritação local, patch test dérmico, histórico de dermatite.\n\n---\n\n## 8. Segurança, Interações e Cenários Perioperatórios\n\n### Segurança\n- **Imprevisível.** Não há dados de farmacovigilância em humanos.\n- Risco teórico de indução angiogênica em tumores latentes.\n- Potenciais efeitos pró-inflamatórios ou imunosupressores indesejados não mensurados.\n\n### Interações Medicamentosas\n- Nenhum dado disponível. Interações potenciais com agentes imunomoduladores, anti-inflamatórios e pró-coagulantes são desconhecidas.\n\n### Cenário Perioperatório\n- O uso não é autorizado; suspensão pré-operatória é obrigatória caso haja uso documental (off-label).\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n- **ANVISA:** Nenhum dos peptídeos foi submetido, nem aprovado para uso medicinal.\n- **CFM (Res. 2.333/2023):** Proibição expressa de prescrição clínica/médica de substâncias sem registro ou permissão regulatória para manipulação.  Sujeito a processo ético-disciplinar.\n- **WADA:** Categoria S0 (substâncias não aprovadas), qualquer detecção em atleta resulta em punição.\n- **Manipulação:** A aquisição de tais substâncias por farmácia magistral é infração sanitária. Prestadores de serviço que divulgam ou ofertam estão sujeitos a processos, multas e riscos judiciais.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO prescrever\n\n**O que não prescrever:**\n- BPC-157, TB-500, GHK-Cu parenteral: Não possuem indicação clínica para qualquer condição de reparo tecidual — NÃO prescrever.\n- Não prescrever peptídeos de procedência duvidosa (“research only”, vendida online, influencers, academias).\n- Não manipular ou indicar versões customizadas “caseiras”.\n\n**Alternativas baseadas em evidência para reparo tecidual e tendinopatia:**\n\n| Indicação | Terapia recomendada   | Evidência | Exemplo de Desfecho/Ensaio |\n|-----------|----------------------|-----------|----------------------------|\n| Osteoporose anabólica e fraturas | Teriparatida (20 mcg/dia SC, 18 meses), abaloparatida (80 mcg/dia SC) | A | Aumento de DMO 7–9% (S6, S8, S15)|\n| Tendinopatia patelar/aquiles     | Exercício excêntrico supervisionado + terapia física | A | Melhora funcional >70% dos casos   |\n| Ferida crônica                   | Curativos avançados, terapia de pressão negativa | A | Aceleração >30% reepitelização     |\n| Lesão muscular aguda             | Protocolo POLICE, fisioterapia progressiva | A | Retorno funcional <30 dias (variável) |\n| Distúrbios de cicatrização       | Otimizar nutrição, evitar corticosteroides crônicos | A | Redução de complicações            |\n\n**Nota**: Todas as opções acima possuem pelo menos ensaio randomizado, guideline de sociedade ou metanálise em humanos [S1, S6, S8, S13].\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas\n- O papel do médico é INDICAR condutas baseadas em ciência de alto nível, não em hype de redes ou demanda do paciente.\n- Documente recusa de prescrição e esclareça riscos, ausência de registro e alternativas mais seguras e eficazes.\n- Utilize triagem clínica rigorosa para causas secundárias de dificuldade de reparo tecidual (controle glicêmico, função tireoidiana, déficits nutricionais).\n- Explique que produtos vendidos como “peptídeos de pesquisa” não têm controle microbiológico, estão suscetíveis a contaminantes e podem causar reações graves.\n- A prescrição de substância sem registro expõe médico a sanção ética, criminal e cível.\n- Não confundir plausibilidade mecanicista (ratos, in vitro) com benefício mensurável em pacientes humanos – siga sempre a hierarquia de evidência [S26, S27].\n- Registre orientações por escrito, entregue referências e reporte tentativas de oferta ilegal à ANVISA.\n\n### Armadilhas\n- Solicitação insistente por parte de atletas ou pacientes “informados” pelas redes.\n- Misturar uso de cremes cosméticos GHK-Cu (qualificação tópica) com indicação sistêmica.\n- Falta de documentação sobre a negação da prescrição — nunca empreste seu nome ou CRM para fins “experimentais”.\n- “Teorias” de influencers ou protocolos de academia não substituem dados de ensaio clínico.\n\n### Checklist do Consultório (resumo 60s)\n1. Paciente solicita peptídeo “regenerativo” – escute, entenda motivo.\n2. Explique ausência de registro ANVISA/FDA/EMA, ausência de evidência clínica robusta e potencial risco ético.\n3. Esclareça alternativas seguras e comprovadas (exercício, peptídeos documentados como teriparatida para osteoporose, reabilitação).\n4. Documente: “Paciente orientado sobre impossibilidade ética, legal e científica de prescrição de BPC-157, TB-500, GHK-Cu parenteral. Informado quanto a alternativas baseadas em evidência.”\n5. Entregue material educativo e registre recusa assinada.\n6. Reforce importância do acompanhamento clínico e nunca aceite participar em protocolos não aprovados por CEPs.\n\n---\n\n## 12. Referências\n\n1. [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026.\n2. [S6] Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007.\n3. [S8] Miller PD et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis. JAMA. 2016.\n4. [S13] Kanis JA et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int. 2019.\n5. [S15] Neer RM et al. Effect of parathyroid hormone (1-34) on fractures and bone mineral density in postmenopausal women with osteoporosis. N Engl J Med. 2001.\n6. [S26] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n7. [S27] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n8. Diretrizes CFM 2.333/2023.\n9. Regulamento WADA 2024 (worldanti-doping.org)\n10. FDA Category 2 List — Peptides for Research Use Only (verificar).\n11. Konsult revisões recentes: Peptide therapy in sports medicine — Is there any evidence?, Br J Sports Med, 2021 (verificar).\n12. Sociedade Brasileira de Medicina do Exercício e do Esporte – Consenso Tendinopatias, 2022 (verificar).\n13. Sociedade Brasileira de Endocrinologia e Metabologia – Nota Técnica Terapêutica de Peptídeos, 2023 (verificar).\n\n---\n\n## Caso clínico para ensino – Discuta e fundamente sua escolha\n\n**Paciente masculino, 41 anos, profissional de educação física, busca orientação para tratar tendinopatia do Aquiles direita de 8 meses. Já passou por fisioterapia excêntrica supervisionada, mantém dor de 5/10 na escala visual analógica. Apresenta IMC 25, não é diabético, não usuário de anti-inflamatórios crônicos, exames laboratoriais normais. Traz em mãos frasco de BPC-157 (marca “research only”) e artigo impresso de blog. Solicita prescrição para “acelerar cura”.**\n\n**Alternativas:**\nA) Prescrever BPC-157 SC dose “market” sugerida, com monitoramento clínico semanal.\nB) Orientar paciente quanto à ausência de evidência clínica e registro; sugerir manutenção de fisioterapia e buscar reavaliação ecográfica do tendão, otimizar reabilitação baseada em exercício e corrigir fatores modificáveis.\nC) Encaminhar para cirurgia ortopédica e prescrever BPC-157 como “ponte”.\nD) Manipular TB-500 para 8 semanas e exigir assinatura de termo de consentimento, com monitoramento laboratorial de CK e LDH.\n\n**Resposta correta:** **B.**\n- **Raciocínio diferencial:** O uso de BPC-157 é proibido, não possui base científica nem registro para uso clínico. Nenhuma sociedade recomenda seu uso. O manejo adequado da tendinopatia crônica pós-fracasso do protocolo excêntrico é revisão da reabilitação, exames de imagem, discutir infiltração com PRP ou outras técnicas reconhecidas e referenciar especialista quando indicado. A prescrição da substância expõe médico a risco ético, judicial e compromete a segurança.\n- **O que NÃO fazer:** Não prescreva nem sinalize anuência com uso de BPC-157 ou TB-500, não concorde em manipular, não ceda à pressão do paciente.\n\n---\n\n## quick_ref – guia de bolso\n\n| Peptídeo  | Dose frequente “online” | VIA    | Registro clínico?| Proibido WADA?| Grau evidência | Red flags   |\n|-----------|:-----------------------:|--------|:--------------:|:-------------:|:-------------:|:-----------:|\n| BPC-157   | 250–500 mcg/dia         | SC/IM  | NÃO            | Sim           | D             | Sem ECR humano, pesquisa única animal, risco contaminante|\n| TB-500    | 2–5 mg/semana           | SC/IM  | NÃO            | Sim           | D             | Não reproduzido, research-only|\n| GHK-Cu    | 0,05–0,1% tópico        | Tópica | Parcial (cosmético) | -         | C (tópico)    | Não sistêmico, uso parenteral não documentado|\n\n**Checklist 60s:**\n- Ausência de registro?\n- Sem guideline, societies ou diretriz?\n- Grau de evidência D?\n- Produto classificado como “for research only”?\n- Sem ensaio humano > FASE 2?\n- Manipulação irregular?\n- Documento negação e educação paciente.\n\n---\n\n## key_points (5–7 frases clínicas acionáveis)\n\n- NÃO existem evidências em humanos robustas (ECRs fase 2 ou 3) que sustentem o uso de BPC-157, TB-500 ou GHK-Cu parenteral para reparo tecidual ou tendinopatia.\n- Nenhum desses peptídeos está registrado na ANVISA/FDA/EMA — toda prescrição expõe o médico a risco ético, judicial e sanitário.\n- Produtos “research only” não têm controle de pureza, potenciais contaminantes e não são destinados ao uso humano (FDA Category 2).\n- Aplicação clínica dessas substâncias é proibida pelo CFM (Resolução 2.333/2023) e pode implicar sanções profissionais.\n- As melhores terapias baseadas em evidência para lesão tendínea são protocolos de exercício supervisionado e reabilitação progressiva, com alternativas farmacológicas como teriparatida restrita a fragilidade óssea.\n- Não prescreva manipulações, não participe de circuitos paralelos — documente negativa, oriente o paciente e foque em alternativas comprovadas.\n- O julgamento médico, segurança do paciente e documentação rigorosa são ativos que diferenciam o especialista ético no mercado competitivo.\n\n---\n\n# Slides-Aula (Resumo Visual para Sessão Doutiva)\n\n1. **Title**: BPC-157, TB-500 e GHK-Cu — Mito, Mecanismo e Medicina Baseada em Evidência no Reparo Tecidual.\n2. **Tabela de Ensaios**: Matriz dos estudos (animal vs humano) + Grau de evidência\n3. **Mecanismos Moleculares**: Diagrama – Receptores e vias hipotéticas (NO, VEGF, FAK, matriz extracelular)\n4. **Farmacologia Comparada**: Slide split contrast – Tópico (GHK-Cu) vs Parenteral (BPC/TB-500)\n5. **Bar Plot**: Comparação absurda da magnitude de desfecho animal x NULO humano.\n6. **Regulatório**: Fluxograma de proibições ANVISA/CFM/WADA/FDA Category 2.\n7. **Alternativas de Evidência**: Algoritmo clínico — o que ofertar (teriparatida, reabilitação, PRP)\n8. **Caso Clínico**: Quadro-resumo da conduta correta e erro frequente\n9. **Flowchart**: Decisão rápida — “É peptídeo sem ECR? —> NÃO USAR”\n10. **Armadilhas**: Lista perigosa — Pressão do paciente, pesquisa internet, manipulação\n11. **Pearl Slide**: “Só é medicina do futuro o que é seguro, documentado e eficaz no HUMANO — ética faz parte do desfecho.”\n12. **Key Points**: 7 mandamentos práticos do tema.\n\n## Script de resposta ao paciente/atleta\n\n_“Entendo sua busca por acelerar a recuperação, mas hoje não existe evidência científica nem autorização sanitária para uso desses peptídeos em humanos. Eles não são aprovados nem recomendados por nenhum órgão regulador ou sociedade médica. Existem alternativas eficazes, seguras e reconhecidas para sua lesão – vou detalhá-las com você e documentar este cuidado. Meu compromisso é com sua segurança e com a medicina ética.”_\n\n---\n\n**FIM DA MONOGRAFIA**",
+  "quick_ref": "| Peptídeo | Dose usual ‘online’        | Via         | Registro clínico | Proibido WADA | Grau evidência | Red flags                              |\n|----------|---------------------------|-------------|------------------|---------------|---------------|--------------------------------------|\n| BPC-157  | 250-500 mcg/dia            | SC, IM, oral| Não              | Sim           | D             | Sem ECR humano, pureza incerta         |\n| TB-500   | 2-5 mg/semana              | SC, IM      | Não              | Sim           | D             | Pesquisa pré-clínica, manipulação ilegal|\n| GHK-Cu   | 0,05–0,1% tópico           | Tópico      | Parcial (cosmético) | Não           | C (tópico)    | Uso parenteral não documentado         |\n\n**Checklist rápido:**\n- Ausência de registro clínico?\n- Sem guideline ou diretrizes?\n- Grau de evidência D?\n- Produto 'research only'?\n- Sem ECR humano fase 2 ou 3?\n- Manipulação não regulada?\n- Documentar recusa e orientar paciente.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "41 anos"
+      },
+      {
+        "label": "Profissão",
+        "value": "Professor de educação física"
+      },
+      {
+        "label": "Dor local",
+        "value": "5/10 NVE"
+      },
+      {
+        "label": "Tempo de sintomas",
+        "value": "8 meses"
+      },
+      {
+        "label": "IMC",
+        "value": "25"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normais"
+      },
+      {
+        "label": "Tratamento prévio",
+        "value": "Fisioterapia excêntrica sem melhora"
+      },
+      {
+        "label": "Solicitação",
+        "value": "Prescrição de BPC-157"
+      }
+    ],
+    "title": "Tendinopatia crônica do Aquiles com pedido de BPC-157",
+    "reward": 50,
+    "options": [
+      {
+        "label": "Prescrever BPC-157 SC com monitoramento clínico",
+        "correct": false,
+        "rationale": "Uso não autorizado, sem evidência, expõe médico a riscos éticos e legais."
+      },
+      {
+        "label": "Orientar ausência de evidência e manter reabilitação com reavaliação e alternativas comprovadas",
+        "correct": true,
+        "rationale": "Conduta baseada em evidências e segurança do paciente, com orientação e documentação da negativa."
+      },
+      {
+        "label": "Encaminhar para cirurgia e prescrever BPC-157 como compatibilização",
+        "correct": false,
+        "rationale": "Prescrição de substância proibida não justifica, deve-se esgotar alternativas não invasivas antes."
+      },
+      {
+        "label": "Manipular TB-500 com termo de consentimento e monitoramento laboratorial",
+        "correct": false,
+        "rationale": "Uso não autorizado, manipulação irregular, risco ético e médico, não indicado em prática clínica."
+      }
+    ],
+    "question": "Qual conduta médica mais adequada?",
+    "vignette": "Paciente masculino, 41 anos, professor de educação física, dor de 5/10 em tendinopatia crônica do tendão de Aquiles direito, 8 meses de evolução, já realizou fisioterapia excêntrica sem melhora significativa. Apresenta IMC 25, exames laboratoriais normais, não diabético, não usuário de AINEs crônicos. Traz frasco de BPC-157 intitulado “research only” e artigos impressos de blog solicitando prescrição.",
+    "teaching": "A prescrição de BPC-157 para tendinopatia não possui respaldo de evidência clínica robusta, não está registrado pela ANVISA nem autorizado pelo CFM, e seu uso expõe o médico a risco ético, juridico e sanitário. O manejo conservador com reabilitação física supervisionada, reavaliação por imagem e alternativas terapêuticas comprovadas são o caminho ético e científico. Documentar a negativa de prescrição e educar o paciente sobre os riscos e a falta de garantias é mandatório. Prescrição ou manipulação são práticas proibidas e devem ser evitadas sob pena de sanções."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Saag KG et al. Teriparatide or alendronate in glucocorticoid-induced osteoporosis. N Engl J Med. 2007."
+    },
+    {
+      "citation": "Miller PD et al. Effect of Abaloparatide vs Placebo on New Vertebral Fractures in Postmenopausal Women With Osteoporosis. JAMA. 2016."
+    },
+    {
+      "citation": "Kanis JA et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int. 2019."
+    },
+    {
+      "citation": "Neer RM et al. Effect of parathyroid hormone (1-34) on fractures and bone mineral density in postmenopausal women with osteoporosis. N Engl J Med. 2001."
+    },
+    {
+      "citation": "Diretrizes CFM 2.333/2023."
+    },
+    {
+      "url": "https://www.wada-ama.org/en/resources/world-anti-doping-program/wada-prohibited-list",
+      "citation": "Regulamento WADA 2024 (worldanti-doping.org)"
+    },
+    {
+      "citation": "FDA Category 2 List — Peptides for Research Use Only (verificar)."
+    }
+  ],
+  "status": "published"
+}

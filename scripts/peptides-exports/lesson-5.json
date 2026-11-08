@@ -1,0 +1,396 @@
+{
+  "position": 5,
+  "module": "Módulo 2 · Incretinas",
+  "module_position": 2,
+  "title": "Segurança das Incretinas: Gastrointestinal, Vesícula, Pancreatite, Tireóide C-cell, Retinopatia, Humor e Checklist de Monitorização",
+  "description": "Revisão crítica e densa com base em evidência classe A/B sobre os principais riscos associados ao uso clínico de agonistas dos receptores incretínicos — semaglutida, tirzepatida e compostos multimodais, destacando perfis gastrointestinais, colelitíase, pancreatite, câncer medular de tireoide, retinopatia diabética e sinais psiquiátricos. Aborda dosagens, titulação, monitorização laboratorial, contraindicações, perioperatório, regulamentação ANVISA/CFM/WADA, e práticas éticas. Inclui checklist prático para especialistas em endocrinologia, metabologia e áreas correlatas.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Reações gastrointestinais (náuseas, vômitos) são comuns mas transitórias e manejáveis com titulação lenta e medidas de suporte.",
+    "Histórico pessoal/familiar de carcinoma medular de tireoide (MTC) ou síndrome MEN2 contraindicam o uso de incretinas, conforme legislação vigente.",
+    "Risco aumentado de colelitíase existe, associado a perda de peso rápida e comorbidades, mas incidência absoluta é baixa (<2% ao ano).",
+    "A pancreatite aguda não está significativamente aumentada em pacientes tratados, porém monitoramento deve ser rigoroso em casos sugestivos.",
+    "A retinopatia diabética pode agravar-se com a rápida melhora glicêmica, especialmente em pacientes com retinopatia prévia avançada; avaliação oftalmológica prévia é recomendada.",
+    "Uso off-label requer consentimento informado e documentação minuciosa; manipulação e peptídeos não registrados são proibidos no Brasil.",
+    "No perioperatório de cirurgias digestivas e anestesia geral, recomenda-se suspender o agonista incretínico, especialmente em doses altas, para evitar risco de aspiração e retardamento do esvaziamento gástrico."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Segurança das Incretinas: GI, Pancreatite, Colelitíase, Tireóide, Retina, Humor. Conduta & Checklist",
+      "subtitle": "Visão Geral e Relevância Clínica para Médicos Prescritores"
+    },
+    {
+      "head": [
+        "Fármaco",
+        "n (maior ECR/obs)",
+        "GI (%)",
+        "Colelitíase/colecistite (%)",
+        "Pancreatite aguda (%)",
+        "Neoplasia célula C (%)",
+        "Retinopatia agravada (%)",
+        "Descontinuação (%)",
+        "Principais estimands (IC)"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida SC (SUSTAIN-6, PIONEER-6)",
+          "3297 (S6)",
+          "Náusea 39, Vômito 17",
+          "Colelitíase 1,4, Colecistite 0,5",
+          "0,3 vs 0,2 placebo",
+          "0",
+          "3,0 vs 1,8 placebo",
+          "~7-12",
+          "HR retinopatia: 1,76 (1,11-2,78)"
+        ],
+        [
+          "Tirzepatida (SURPASS-1/5)",
+          "3165",
+          "Náusea 12-25, Vômito 6-9",
+          "1,0-1,6",
+          "0,2-0,7",
+          "0",
+          "ND",
+          "7-10",
+          "-"
+        ],
+        [
+          "Liraglutida (LEADER)",
+          "9340",
+          "Náusea 40, Vômito 10",
+          "Colecistite 0,6",
+          "0,3",
+          "ND",
+          "ND",
+          "~9",
+          "-"
+        ],
+        [
+          "Orforglipron (NEJM 2023)",
+          "272",
+          "Náusea 47, Vômito 14",
+          "ND",
+          "ND",
+          "ND",
+          "ND",
+          "10-17",
+          "-"
+        ],
+        [
+          "Survodutide/Retatrutida (fase 2)",
+          "338/386",
+          "Náusea 77, Vômito 27",
+          "ND",
+          "ND",
+          "ND",
+          "ND",
+          "8-10",
+          "-"
+        ],
+        [
+          "Placebo",
+          "-",
+          "Náusea 10-15",
+          "ND",
+          "0,2-0,3",
+          "0",
+          "ND",
+          "2-4",
+          "-"
+        ]
+      ],
+      "title": "Eventos Adversos Relevantes de Incretinas: Dados de Ensaios Clínicos e Estudos Observacionais",
+      "source": "Sustained semaglutide and tirzepatide trial data (SUSTAIN-6, SURPASS, LEADER, etc.)"
+    },
+    {
+      "bars": [
+        {
+          "label": "Náusea: Semaglutida 39% vs Placebo 13%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Vômito: Semaglutida 17% vs Placebo 4%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Diarreia: Tirzepatida 18% vs Placebo 5%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Titulação lenta reduz eventos GI.",
+      "unit": "%",
+      "title": "Frequência Relativa de Eventos Gastrointestinais em GLP-1RAs vs Placebo (%)",
+      "source": "Dados de ensaios SUSTAIN-6, SURPASS"
+    },
+    {
+      "kind": "flow",
+      "note": "Consentimento informado obrigatório em off-label.",
+      "steps": [],
+      "title": "Algoritmo Prático de Triagem para Prescrição de Incretinas"
+    },
+    {
+      "head": [
+        "Escore GI",
+        "Medidas clínicas",
+        "Ajuste de dose"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "1 (leve)",
+          "Fracionar alimentação; hidratação; manter dose",
+          "Não"
+        ],
+        [
+          "2 (moderado)",
+          "Antiemético pontual; retardar aumento da dose",
+          "Sim"
+        ],
+        [
+          "3 (grave)",
+          "Procure pronto-socorro; hidratação EV; suspender temporariamente",
+          "Sim/Suspender"
+        ]
+      ],
+      "title": "Manejo Clínico de Efeitos Gastrointestinais por Escore de Sintomas",
+      "source": "Protocolos clínicos Doutiva e literatura (S16, S23)"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [],
+        "label": "Sinal Real"
+      },
+      "right": {
+        "items": [],
+        "label": "Mito/Marketing/Medo Infundado"
+      },
+      "title": "Sinal Real vs Mitos Sobre Segurança das Incretinas"
+    },
+    {
+      "head": [
+        "Semana",
+        "Dose de Semaglutida SC",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "0-4",
+          "0,25 mg/semana",
+          "Adaptação GI; não esperar efeito total"
+        ],
+        [
+          "5-8",
+          "0,5 mg/semana",
+          "Monitorar sintomas GI; orientar refeições leves"
+        ],
+        [
+          "9-12",
+          "1,0 mg/semana",
+          "Aumentar se boa tolerância"
+        ],
+        [
+          "13-16",
+          "1,7 mg ou 2,4 mg/semana",
+          "Dose definitiva para perda de peso"
+        ],
+        [
+          "≥17",
+          "2,4 mg/semana",
+          "Manutenção; retitrar se descontinuação longa"
+        ]
+      ],
+      "title": "Protocolo de Titulação da Semaglutida SC para Perda de Peso",
+      "source": "Doutiva e bula semaglutida (Wegovy®)"
+    },
+    {
+      "head": [
+        "Item",
+        "Ação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Indicação registrada ANVISA?",
+          "Prescrever conforme registro; consentimento se off-label"
+        ],
+        [
+          "História pessoal/familiar de MTC/MEN2",
+          "Contraindicação absoluta"
+        ],
+        [
+          "Pancreatite aguda prévia",
+          "Contraindicação absoluta"
+        ],
+        [
+          "Gestação ou plano reprodutivo",
+          "Suspender ou evitar início"
+        ],
+        [
+          "Sintomas GI intensos nas primeiras 8 semanas",
+          "Ajustar dose, considerar antieméticos"
+        ],
+        [
+          "Avaliação oftalmológica prévia em DM2 com retinopatia",
+          "Monitorar agravo retinopático"
+        ],
+        [
+          "Consentimento informado",
+          "Obrigatório para off-label e riscos expostos"
+        ]
+      ],
+      "title": "Checklist Rápido de Monitorização e Contraindicações para Prescrição de Incretinas",
+      "source": "Doutiva, CFM 2333/2023, bula ANVISA"
+    },
+    {
+      "bars": [
+        {
+          "label": "Semaglutida: 7-12%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Tirzepatida: 7-10%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Placebo: 2-4%",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "note": "Importância da titulação lenta.",
+      "unit": "%",
+      "title": "Descontinuação por Eventos Gastrointestinais (%) nos Ensaios com Incretinas",
+      "source": "Ensaios SUSTAIN-6, SURPASS"
+    },
+    {
+      "kind": "pearl",
+      "text": "“O médico de excelência documenta, monitora e educa – nunca terceiriza o julgamento clínico ao marketing das moléculas. Intervenções baseadas em evidência e segurança maximizam benefícios das incretinas e minimizam riscos graves.”",
+      "title": "Pérola Clínica Final"
+    }
+  ],
+  "monograph": "# Segurança de Incretinas: Gastrointestinal, Vesícula, Pancreatite, Células C da Tireoide, Retinopatia, Humor e Checklist de Monitorização\n\n---\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nA revolução dos análogos incretínicos — peptídeos agonistas do receptor de GLP-1, GIP e compostos multimodais combinando atividade GIP, GLP-1 e glucagon — redefiniu o tratamento moderno de obesidade, diabetes tipo 2 (DM2) e, mais recentemente, de patologias metabólicas associadas a excesso de peso [S26, S27]. Semaglutida, tirzepatida (registradas ANVISA), além de moléculas emergentes como retatrutida e survodutide (não registradas ANVISA até início de 2024), permitem reduções de peso sustentadas e benefícios cardiovasculares documentados em ensaios fase 3 [S1, S3, S5, S16, S25]. \n\nContudo, benefícios de magnitude populacional trazem desafios: em 2023, mais de 60 milhões de prescrições de incretinas foram feitas em âmbito global (verificar), tornando imprescindível domínio do perfil de segurança e triagem sistemática de eventos adversos para o médico especialista. Entre preocupações clássicas estão: efeitos gastrointestinais e risco de desidratação, colelitíase, pancreatite aguda, possíveis efeitos oncogênicos sobre células C da tireoide (MTC, MEN2), agravamento ou surgimento de retinopatia diabética (especialmente com normalização glicêmica acelerada) e manifestações psiquiátricas.\n\nA triagem ativa dessas complicações é obrigação ética, deontológica e jurídica do prescritor, frente ao volume crescente de pacientes com DM2 e obesidade tratados com peptídeos, tanto na indicação registrada quanto em contextos off-label (p. ex., pré-diabetes, síndromes metabólicas sem DM2 formal, NASH, pacientes com “longevidade preventiva”) [S26, S27].\n\n**Resumo epidemiológico:**  \n- **População-alvo (Brasil):** >22 milhões com DM2 (Fonte: IDF, 2023); 57% com sobrepeso/obesidade.\n- **Usuários de incretinas (N):** Projeção crescente, perfil dominante: mulher, 35-65 anos, comorbidades metabólicas e/ou cardiovasculares.\n- **Impacto potencial:** Redução de eventos cardiovasculares maiores (MACE), peso corporal, progressão renal, e mortalidade total [S3, S5, S25, S28].\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1 Receptores e vias de sinalização\n\n- **GLP-1 Receptor (GLP-1R):** Expressão predominante em pâncreas (células β), sistema nervoso central, trato gastrointestinal, rins, coração.\n  - Ativação: estimula secreção de insulina, inibe glucagon em resposta a hiperglicemia, retarda esvaziamento gástrico, modula centros hipotalâmicos de saciedade.\n- **GIP Receptor (GIPR):** Células β pancreáticas e SNC; papel em sinalização trófica e sensibilidade à insulina.\n- **Receptor de glucagon:** Fígado, tecido adiposo, SNC; agonismo simultâneo tende a promover aumento da termogênese e gasto energético (moléculas duais/ triplas: tirzepatida, survodutide, retatrutide) [S16, S17, S19, S22, S25].\n\n**Órgãos-alvo relevantes à segurança:**  \n- **Trato GI:** Inibição do esvaziamento > sintomas GI alta.\n- **Pâncreas exócrino:** Potencial pró-inflamatório em indivíduos predispostos.\n- **Vesícula biliar:** Redução da motilidade favorece estase e colelitíase.\n- **Células C da tireoide:** Sinal de ativação de receptor de calcitonina em roedores — resultados não replicados em humanos, exceto em pacientes com mutação germinativa (MEN2).\n- **Retina:** Rapidez da correção glicêmica pode precipitar retinopatia proliferativa/aguda.\n\n### 2.2 Engenharia molecular\n\n- Semaglutida: modificação na posição-8 para resistir à DPP-4; meia-vida ≈7 dias (SC semanal), ligação albumínica.\n- Tirzepatida: peptídeo com agonismo GIP e GLP-1R, sequências modificadas para estabilidade proteolítica.\n- Retatrutida e survodutide: agonistas múltiplos, ainda sem dados de longa duração em vida real [S16, S17, S19, S22, S25].\n\n---\n\n## 3. Farmacologia Comparada das Incretinas: PK, PD e Formulações\n\n**Resumo das principais moléculas:**\n\n| _Fármaco_         | _Mecanismo_           | _Registro ANVISA_     | _Administração_  | _Meia-vida (t½)_ | _Esquema usual_                 | _Principais reações adversas (freq.)_         |\n|-------------------|----------------------|-----------------------|------------------|------------------|-------------------------------|----------------------------------------------|\n| Semaglutida       | GLP-1RA puro         | Sim, DM2/obesidade     | SC sem., oral    | ~1 sem (SC)      | 0,25-2,4mg SC/sem ou 14mg oral| Náusea 35-40%, vômito 10-15%, constipação 10% |\n| Tirzepatida       | GLP-1RA + GIPRA      | Sim, DM2               | SC semanal       | ~5 dias          | 2,5-15mg SC/sem               | Náusea 23-39%, vômito 13-17%, diarreia 18%   |\n| Liraglutida       | GLP-1RA puro         | Sim, DM2/obesidade     | SC diária        | ~12h             | 0,6-3,0mg SC/dia              | Náusea 20-40%, vômito 9-13%                  |\n| Exenatida         | GLP-1RA puro         | Sim, DM2               | SC diária/sem    | ~2-4h (diária)   | 5-10μg 2x/dia ou 2mg/sem       | Náusea 36-44%, vômito 10-14%                 |\n| Dulaglutida       | GLP-1RA puro         | Sim, DM2               | SC semanal       | ~5 dias          | 0,75-4,5mg SC/sem             | Semelhante                                   |\n| Retatrutida, Survodutide | Triple/dual agonist       | Não (research only)        | SC semanal        | Ensaio fase 2-3               | Até 12mg SC/sem (retatrutida)                | GI com pareamento de GLP-1                   |\n\n**Interações principais:**\n- Não há relevantes em nível de CYP; atenção à potencial redução de absorção de drogas com janela terapêutica estreita devido ao retardo gástrico.\n\n**Formas manipuladas/“research peptides”**: Não recomendadas, exceto em protocolos aprovados de pesquisa clínica, devido à ausência de controle de procedência, pureza e rastreabilidade [S1, S26, S27].\n\n---\n\n## 4. Evidência Crítica de Segurança: Ensaios, Metanálises e Sinais\n\nEste item se dedica à discussão dos principais sinais de risco (GI/Vesícula, Pancreatite, Células C, Retinopatia, Psiquiatria), com síntese dos estudos chave, magnitude dos efeitos, limitações e estimands.\n\n### 4.1 Tabela síntese — Dados sobre eventos adversos relevantes de incretinas\n\n| Fármaco             | n (maior ECR/obs)| GI (%)     | Colelitíase/colecistite (%) | Pancreatite aguda (%) | Neoplasia célula C (%) | Retinopatia agravada (%) | Descontinuação (%) |  Principais estimands (IC)         |\n|---------------------|------------------|------------|---------------------------|----------------------|------------------------|-------------------------|-------------------|-------------------------------|\n| Semaglutida SC (SUSTAIN-6, PIONEER-6 [A]) | 3297 (S6)        | Náu. 39, Vôm. 17 | Colelitíase 1,4, Colec. 0,5 | 0,3 vs 0,2 (placebo)  | 0 (nenhum caso humano)  | 3,0 vs 1,8 (plc)—SUSTAIN-6 | ~7-12 | HR retinopatia: 1,76 (1,11-2,78)  |\n| Tirzepatida (SURPASS-1/5 [A])      | 3165            | Náu. 12-25, Vôm. 6-9 | 1,0-1,6            | 0,2-0,7               | 0                      | ND                          | 7-10              | -                              |\n| Liraglutida (LEADER [A])           | 9340            | Náu. 40, Vôm. 10     | Colecistite 0,6    | 0,3                   | ND                     | ND                          | ~9                | -                              |\n| Orforglipron (NEJM 2023 [A])       | 272             | Náu/. 47, Vôm. 14   | ND                 | ND                    | ND                     | ND                          | 10-17             | -                              |\n| Survodutide/Retatrutida (fase 2 [A])| 338/386         | Náu. 77, Vôm. 27    | ND                 | ND                    | ND                     | ND                          | 8-10              | -                              |\n| Placebo (estudos principais)        |                  | Náu. 10-15          | ND                 | 0,2-0,3               | 0                      | ND                          | 2-4               | -                              |\n\nAbreviações: ND, não descrito; Náu., náusea; Vôm., vômito; “Plc”, placebo.\n\n### 4.2 Gastrointestinal – Frequência, gravidade, prevenção\n\n**Evidência: Classe A (ECRs, metanálises).**\n- GI alta é o evento mais comum (náusea: até 40%, vômito: até 20%, constipação/diarreia/flatulência 5–15%) [S16, S23, S25].\n- Grau 1-2 (leve/moderado): maioria, autorresolutivos em 2–8 semanas, especialmente na escalada lenta.\n- Grau 3 (grave): ~1–2%, mais comum >65 anos, pode requerer descontinuação temporária ou definitiva.\n- Medidas preventivas: titulação lenta (p. ex., semaglutida: 0,25 → 0,5 → 1,0 → 1,7/2,4mg); fracionamento de refeições, evitar alimentos gordurosos nas primeiras semanas, prescrições de antieméticos pontuais (ondansetrona, bromoprida), solução oral de reidratação [B].\n  \n**Descontinuação por GI:**  \n- Semaglutida: ~7–12% (vs placebo ~4%).\n- Tirzepatida: ~7–10% (escala dependente de dose).\n\n### 4.3 Vesícula biliar – Colelitíase e Colecistite\n\n**Evidência: Classe A/B**\n- Incidência de colelitíase/colecistite aumentada, mas absoluta <2%/ano.\n- Risco relativo (RR) em ECRs: semaglutida ~1,5–2x versus placebo, especialmente com perda de peso rápida e DM2 preexistente.\n- Predisposição: histórico pessoal/familiar, rápido emagrecimento (>10% em 3–6 meses), mulheres >50 anos [S25, S16].\n\n### 4.4 Pancreatite\n\n**Evidência: Classe A**\n- Meta-análises e estudos de registro (FDA, EMA, ANVISA) não demonstram aumento significativo de pancreatite aguda em pacientes sem antecedentes.\n- Incidência: 0,2–0,3%; para comparação, placebo ~0,2%.\n- Maior risco: história prévia de pancreatite, hipertrigliceridemia grave (>500 mg/dL).\n- *Nota prática:* todo paciente com dor abdominal refratária deve ter amilase/lipase dosada e, se confirmada pancreatite, descontinuar incretina permanentemente [B].\n\n### 4.5 Células C da Tireoide – MTC/MEN2\n\n**Evidência: Classe B/C**\n- Em roedores, GLP-1R agonistas levam à proliferação C-cell e tumores; esse mecanismo não se replica em humanos (diferenças de expressão GLP-1R nas células C), evidência B/C.\n- Em humanos: nenhum caso de carcinoma medular de tireoide em >20.000 pacientes tratados nas fases 3/4 [S16, S25].\n- **Contraindicação absoluta:** histórico pessoal/Fhx de MTC ou síndrome MEN2 (CFM 2333/2023, bula ANVISA e FDA — exigência medicolegal e ética) [A].\n\n### 4.6 Retinopatia\n\n**Sinal específico: SUSTAIN-6**\n- SUSTAIN-6 (semaglutida SC em DM2 alto risco, n=3297, 104 semanas):\n  - Aumento do risco de agravamento rápido de retinopatia: 3,0% (semaglutida) vs 1,8% (placebo); HR 1,76 (IC95%: 1,11–2,78) — *efeito restrito a quem já tinha retinopatia avançada e HbA1c elevada, com redução abrupta (>1,5–2% A1c em poucos meses)* [A].\n- **Mecanismo:** provavelmente associado à melhora glicêmica rápida, análogo ao início de insulina intensiva.\n- **Risco prático:** triagem de fundo de olho + preferência por titulação glicêmica menos agressiva se retinopatia proliferativa ativa [B].\n\n### 4.7 Humor, Psiquiatria, Ideação suicida\n\n**Sinal: Relatos esparsos em vigilância passiva; não estatisticamente significativo em ensaios controlados (A, B).**\n- Incidência de relatos de depressão/ansiedade: similar a placebo (<1–1,5%).\n- Ideação suicida: não se demonstrou aumento com GLP-1RA/Tirzepatida em meta-análises recentes, mas documentar histórico psiquiátrico grave, especialmente T. Alimentar restritivo, antes de prescrever.\n\n### 4.8 Descontinuação (\"drop-out\") em ensaios\n\n- Principal causa: intolerância GI, desidratação, eventos não relacionáveis à medicação.\n- Importante: retitrule doses ao readmitir paciente após suspensão >=3 semanas.\n\n---\n\n## 5. Indicações, Contraindicações e Seleção de Pacientes\n\n### 5.1 Indicações Registradas ANVISA\n\n- **Semaglutida (Ozempic®, Wegovy®):** DM2, obesidade (IMC ≥30, ou ≥27+comorbidade).\n- **Tirzepatida (Mounjaro®):** DM2 (registro recente para obesidade nos EUA/Europa, não ainda ANVISA).\n- **Liraglutida (Victoza®, Saxenda®):** DM2, obesidade.\n- **Dulaglutida, Exenatida:** DM2.\n\n### 5.2 Off-label documentado (no Brasil)\n\n- Síndrome metabólica sem DM2 formal.\n- Pré-diabetes, esteatose/NASH com critérios (raremente aceito, supervisionar documentação).\n- Não indicar para longevidade/aumento de massa magra sem base ECR robusta.\n\n### 5.3 Contraindicações absolutas\n\n- História pessoal/familiar (1º grau) de carcinoma medular de tireoide (MTC) ou MEN2.\n- Gestação/lactação (NÃO estudar em gestantes; parar 2 meses antes de concepção planejada).\n- Pancreatite aguda prévia.\n- Hipersensibilidade comprovada ao fármaco.\n\n### 5.4 Contraindicações relativas\n\n- Insuficiência renal terminal (<15 ml/min/1,73m2): evitar, exceto sob supervisão especializada.\n- Gastroparesia sintomática grave.\n- História de colecistectomia complicada ou colecistite recorrente.\n- Retinopatia proliferativa ativa/hemorrágica grave.\n- Transtornos alimentares ativos (AVALIAÇÃO psiquiátrica prévia mandatória).\n- Cirurgia digestiva planejada nas próximas 4-8 semanas (adiar início; veja perioperatório, seção 8).\n\n### 5.5 Perfis de “red flag” para ajuste de abordagem ou titulação\n\n- Idoso <peso/fragilizado (risco maior de hiporexia/desidratação/queda).\n- Austeros trabalhadores em ambientes quentes.\n- Uso concomitante de fármacos retardando esvaziamento gástrico (opioides, anticolinérgicos potentes).\n\n---\n\n## 6. Conduta Prática Passo a Passo: Doses, Titulação e Manejo de Eventos Adversos\n\n### 6.1 Protocolo de início e titulação (semaglutida SC para perda de peso)\n\n| Semana | Dose           | Observações                                |\n|--------|----------------|--------------------------------------------|\n| 0-4    | 0,25mg SC/sem  | Adaptação GI; não esperar efeito total     |\n| 5-8    | 0,5mg SC/sem   | Monitorar GI, refeições leves              |\n| 9-12   | 1,0mg SC/sem   | Aumentar se boa tolerância                 |\n| 13-16  | 1,7mg SC/sem   | (Wegovy) ou direto 2,4mg (a critério clínico) |\n| ≥17    | 2,4mg SC/sem   | Dose definitiva (peso/metabólico)          |\n\n**Equivalência e cuidados:**\n- _Retitrular caso retorno após interrupção >= 3-4 semanas._  \n- _Suspender pelo menos 1 semana antes de cirurgia de anestesia geral se potencial para atraso de esvaziamento gástrico for crítico._\n\n### 6.2 Manejo dos efeitos GI (tabela de suporte clínico)\n\n| Sintoma    | Escore (0-3)   | Conduta Prática                                    |\n|------------|----------------|---------------------------------------------------|\n| Náusea leve (1)   | 1              | Pequenas refeições, hidratação, manter dose   |\n| Náusea mod. (2)   | 2              | Antiemético ocasional; retardar avanço de dose|\n| Vômito episódico  | 2              | Suspender alimentos sólidos por 24h, antiemético, avaliar ajuste|\n| Vômito e desidratação | 3          | Avaliar PS para reposição EV, suspender incretina até avaliar causa  |\n\n**Antieméticos com mais experiência:**\n- Ondansetrona 4–8mg VO/SL, máximo 2x/dia.\n- Bromoprida 10–20mg VO, 2–3x/dia.  \n(Atenção a QTc, interações se combinação crônica.)\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n### 7.1 Avaliação basal obrigatória\n\n- HbA1c, glicemia de jejum\n- Lipidograma, creatinina, ureia, eletrólitos\n- Amilase/lipase (pancreatite prévia/high-risk)\n- TSH (base legal prévia ao uso prolongado)\n- US abdominal (história biliar/sintomas prévios)\n- Avaliação oftalmológica (retina), se DM2 >5 anos ou história de retinopatia\n\n### 7.2 Monitorização durante tratamento\n\n| Item                   | Intervalo inicial  | Na ausência de sintomas | Se sintomas/adversidades |\n|------------------------|-------------------|------------------------|--------------------------|\n| Peso, IMC              | Cada consulta (4-8 sem) | Cada 3–6m               | -                        |\n| Bioimpedância (opcional) | Cada 3–6m        | -                      | -                        |\n| Glicemia capilar/HbA1c | 1–3m              | 3–6m                   | A critério               |\n| Lipidograma            | 3/6m              | 12m                    | -                        |\n| Amilase/lipase         | Se dor abdominal  | -                      | + se sintomas            |\n| TSH/(calcitonina^)*    | Anual             | -                      | (*) se MTC/MEN2, não indicado rastreamento em geral|\n| US abdome              | Se nova dor biliar| A critério             | -                        |\n\n---\n\n## 8. Segurança, Interações Medicamentosas e Perioperatório\n\n### 8.1 Interações medicamentosas\n\n- Perfil baixo de interação via CYP450.\n- Redução do esvaziamento gástrico pode dificultar absorção de drogas orais sensíveis (antiepilépticos, imunossupressores).\n- **Conduta:** monitorar níveis/fármaco-efeito se regime crítico (p. ex., tacrolimo, levotiroxina, digoxina).\n\n### 8.2 Contexto Perioperatório\n\n- **Risco de aspiração**: recomendação de suspender GLP-1RA ao menos 1 semana antes de cirurgias eletivas de via digestiva alta/ anestesia geral prolongada. \n- **Cláusula de segurança:** em cirurgias com risco alto (bariátricas, gastrectomias, refluxo grave, etc), antecipar suspensão em 2–4 semanas, especialmente em doses máximas.\n- **Reinício pós-operatório:** após retorno total de motilidade e tolerância oral segura.\n\n### 8.3 Grupos especiais\n\n- **Gestação/plano reprodutivo:** suspender peptídeos pelo menos 2 meses antes de tentativa de concepção.\n- **Idosos:** maior risco de desidratação e eventos de queda — reforçar hidratação, reavaliação da funcionalidade.\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n### 9.1 Registro ANVISA – Situação regulatória\n\n- Semaglutida: registro para DM2, SC (Ozempic®), para obesidade (Wegovy®) desde 2024.\n- Tirzepatida: DM2 oficialmente, ainda não reconhecida como antiobesidade por ANVISA (abril/24).\n- *Fora de bula*: uso em NASH, pré-diabetes, longevidade, “wellness” — apenas se houver documentação minuciosa dos benefícios e consentimento explícito.\n- Manipulados/“peptides research only”: PROIBIDOS para uso clínico (CFM 2333/2023).\n\n### 9.2 Normatização do CFM/WADA\n\n- **CFM 2333/2023:** veda prescrição off-label de peptídeos sem embasamento ECR robusto para indicação visada; proíbe uso experimental sem pesquisa aprovada em CEP.\n- **WADA:** GLP-1RA não estão em lista de substâncias proibidas em esportes, mas manipulação sem rastreabilidade representa infração ética; não usar como anabolizante “líquido”.\n\n### 9.3 Documentação e Consentimento\n\n- Atestar análise dos riscos (especialmente MTC/MEN2, colelitíase, gestação).\n- Termo de consentimento livre e esclarecido (TCLE) para uso off-label ou casos-limite — modelo disponível em sociedades de endocrinologia.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO prescrever\n\n- **Não prescrever**: Retatrutida, survodutide, cagrilintide isolado/combinado em consultório fora de pesquisa — ausência de registro, dados de segurança incompletos.\n- **Não manipular peptídeos**: Risco de impureza, ausência de rastreabilidade, infração à 2333/2023 e risco de responsabilidade civil/penal.\n- **Não utilizar GLP-1RA** para ganho de massa magra ou “longevidade” sem DM2/obesidade comprovada — sem apoio em ECRs robustos [S26, S27].\n- **Monitorar claims de “redes sociais”:** bloqueadores de apetite à base de peptídeos, anecdotários não baseados em ciência — esclarecer limite ciência-mercado ao paciente.\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### 11.1 Pérolas\n\n- **Monitorar sintomas GI ativamente nas 8 primeiras semanas.**\n- Avalie fundo de olho prévia ou logo após início em DM2 com retinopatia prévia.\n- Em perda de peso >10% em 3–6 meses, pensar em colelitíase como complicação subaguda.\n- Inclua histórico familiar de MTC, MEN2 em TODA ficha inicial.\n- Não avanzar dose se paciente relatar náusea grau 2 persistente ou vômitos — manter/retroceder titulação.\n\n### 11.2 Armadilhas\n\n- “Desconsiderar” relato de dor abdominal persistente — evolua com amilase/lipase SEMPRE.\n- Reinstituir peptídeo em paciente com pancreatite aguda — CI definitiva.\n- Falhar em registrar autorização explícita para off-label (“voce é responsável!”).\n- Prescrever manipulado empiricamente — grande risco legal e médico.\n\n### 11.3 Checklist de 60 segundos (quick_ref)\n\n- _Indicação está registrada ANVISA para este caso?_  \n- _História pessoal/familiar de MTC/MEN2? (Sim: CI absoluta)_  \n- _História prévia de pancreatite/aguda? (Sim: CI)_  \n- _Gestação/planejamento? (Sim: suspender; não iniciar)_  \n- _Sintomas GI intensos nas primeiras semanas? (Ajustar/antemear)_  \n- _Avaliação oftalmo prévia em DM2 e retinopatia?_  \n- _Consentimento informado documentado? (Se off-label)_  \n\n---\n\n## 12. Referências\n\n1. [S1/S26/S27] Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. [S16] Garvey WT, Blüher M, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025.\n3. [S17] le Roux CW, Steen O, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024.\n4. [S22] Rosenstock J, Frias J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. Lancet 2023.\n5. [S23] Wharton S, Blevins T, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023.\n6. [S25] Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med 2023.\n7. [S3] Brigham and Women's Hospital. BESTMED — BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes. ClinicalTrials.gov 2021.\n8. [S5] Brigham and Women's Hospital. CER-4-T2D — Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study. ClinicalTrials.gov 2021.\n9. [S28] Brigham and Women's Hospital. Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk. ClinicalTrials.gov 2026.\n10. Djalalinia S, et al. The relationship between obesity and suicide risk: a systematic review and meta-analysis. Eat Weight Disord. 2022. (Verificar)\n11. Marso SP, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. N Engl J Med 2016.\n12. Marso SP, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med 2016.\n13. DeFronzo RA, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med 2021.\n14. Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021.\n15. Buse JB, et al. Pancreatic safety of incretin-based drugs: systematic review and meta-analysis. BMJ 2013.\n\n---\n\n## 📚 Caso Clínico Interativo (BRA)\n\n**Homem, 49 anos, IMC 37 kg/m², DM2 há 8 anos (HbA1c 9,5% base), retinopatia não proliferativa documentada. Sem história familiar de MTC/MEN2. Histórico de colelitíase há 10 anos (sem cirurgia), sem dor abdominal atual. Ex-tabagista, abstêmio. Deseja iniciar semaglutida SC para perda de peso e controle glicêmico.**\n\n**Pergunta:**  \nQual a melhor conduta inicial quanto ao risco e monitorização de eventos adversos ao prescrever semaglutida neste cenário?\n\nA) Iniciar diretamente dose total de 2,4mg SC/sem, com retorno em 3 meses.  \nB) Contraindicar pelo histórico de colelitíase anterior.  \nC) Proceder titulação escalonada, educar/eventualmente retardar titulação, agendar fundo de olho logo antes/primeira semana do início, orientar sinais de dor abdominal e sintomas GI, com consentimento informado explícito.  \nD) Avaliar TSH/calcitonina antes do início, repetir mensalmente, não orientar retinopatia.\n\n**Resposta correta:** C\n\n**Comentário:**  \n- A titulação escalonada reduz intolerância GI.\n- O antecedente remoto de colelitíase não é contraindicação absoluta, mas há necessidade de busca ativa de sintomas novos e orientação quanto a sinais de alerta.\n- A retinopatia vigente exige triagem oftalmológica pré-início (risco de agravamento com rápida correção glicêmica, sinal detectado no SUSTAIN-6).\n- TSH/calcitonina não é recomendação universal sem elementos para rastreio de MTC (sem história familiar/pessoal).\n- Consentimento informado documentando discussão dos riscos e benefícios é essencial, em especial em pacientes de risco intermediário.\n\n**O que não fazer:** Iniciar dose total diretamente (risco GI elevado); contraindicar só pelo antecedente de colelitíase; prescrever manipulado.\n\n---\n\n# 🔎 SLIDES DE APOIO (8–12)\n\n### 1. Título\n**Segurança das Incretinas: GI, Pancreatite, Colelitíase, Tireóide, Retina, Humor. Conduta & Checklist**\n\n---\n\n### 2. Classificação dos Eventos Adversos — Dados de Ensaios\n\nTabela compacta como acima (\"Tabela síntese — Dados sobre eventos adversos relevantes de incretinas\")\n\n---\n\n### 3. Bar Chart: Frequência dos Principais Eventos GI vs Placebo\n\nExemplo:  \n- Semaglutida: Náusea 39%, Placebo: 13%\n- Vômito: 17% vs 4%\n- Diarreia: 10% vs 5%\nVisual: barras agrupadas, mostrando benefício da titulação lenta.\n\n---\n\n### 4. Algoritmo de Triagem em Consultório\n\n```\nIndicação registrada?\n     ↓\nHistória MTC/MEN2? → CI absoluta\n     ↓\nGestação ativa/plano? → CI absoluta\n     ↓\nPancreatite prévia? → CI absoluta\n     ↓\nRetinopatia antiga/proliferativa?\n     ↓                                      \nFundo de olho + Titulação lenta\n     ↓\nSintomas GI na escalada?\n     ↓\nManejo sintomático + eventual ajuste de titulação\n```\n\n---\n\n### 5. Tabela de Manejo GI\n\n| Escore GI | Medidas clínicas        | Ajuste de dose? |\n|-----------|------------------------|-----------------|\n| 1         | Fracionar alimentação  | Não             |\n| 2         | Antiemético, atrasar   | Sim             |\n| 3         | PS, hidratação         | Suspender       |\n\n---\n\n### 6. Split Contraste: Sinal Real vs Mito\n\n| Sinal real (ECR/metanálise)                  | Mito de rede/marketing/medo infundado       |\n|-----------------------------------------------|---------------------------------------------|\n| Aumento real de colelitíase                   | \"GLP-1 causa câncer de tireoide em humano\"  |\n| GI alta (transitória)                         | \"Pancreatite é comum em todo mundo\"         |\n| SUSTAIN-6: risco retinopatia em grupo selecionado | \"GLP-1 causa depressão sempre\"            |\n\n---\n\n### 7. Orientações Regulatórias\n\n- Uso registrado x off-label x manipulado.\n- CFM 2333/2023: práticas vedadas.\n- WADA/Ética esportiva.\n\n---\n\n### 8. Checklist de 60 segundos\n\n- Red flags, contraindicações, documentação.\n\n---\n\n### 9. Slides de Pérolas Práticas\n\n- Histórico familiar minucioso.\n- Monitoramento atividade GI.\n- Educativo sobre sintomas de alerta.\n- Quando readministrar pós-perioperatório.\n\n---\n\n### 10. Slide de Take Home/Pérola\n\n**“O médico de excelência documenta, monitora e educa — nunca terceiriza julgamento clínico ao marketing das moléculas.”**\n\n---\n\n## quick_ref: guia de bolso\n\n| Dose inicial        | Titulação              | Red flag GI          | Red flag maior           | CI absoluta        |\n|---------------------|------------------------|----------------------|--------------------------|----------------------|\n| Semaglutida 0,25mg/sem| +0,25mg/4sem         | Vômitos recorrentes  | Dor abdominal súbita     | MTC/MEN2, gestação   |\n| Tirzepatida 2,5mg/sem | +2,5mg/4sem até 15mg | Náusea importante    | Diminuição súbita da visão| Pancreatite prévia   |\n| Consentimento off-label, informar retinopatia, orientar sinais de colelitíase, pedir amilase/lipase em abdominal intenso.         |\n\n---\n\n## key_points: 5–7 frases clínicas acionáveis\n\n1. O risco de GI alta com incretinas é previsível e manejável com titulação lenta, antiemese pontual e educação alimentar.\n2. Monitorar história de MTC/MEN2, pancreatite e gestação/plano reprodutivo é obrigação ética e regulatória.\n3. A triagem ativa de retinopatia em diabéticos com risco elevado permite evitar agravamento súbito — atenção a perda de peso/glicemia rápida.\n4. Colelitíase torna-se relevante quando há histórico ou perda de peso acelerada; sempre orientar sintomas e triagem laboratorial.\n5. A documentação do consentimento e da educação de risco garante segurança jurídica e aprimora adesão.\n6. Evitar prescrição de peptídeos manipulados/research use — risco legal e para o paciente.\n7. No contexto perioperatório, incluir parada prévia de GLP-1RA pela equipe cirúrgica/anestésica quando pertinente.\n\n---\n\n# Fim da Monografia\n\n*Esta síntese se baseou em diretrizes Doutiva (S1, S26, S27), literatura de ensaios de fase avançada, legislação e boas práticas brasileiras até abril/2024. Não substitui leitura primária individualizada nem avaliação especializada para casos complexos.*",
+  "quick_ref": "Dose inicial (Semaglutida SC): 0,25mg/sem, com titulação a cada 4 semanas até 2,4mg/sem. Monitorar sintomas GI – náusea/vômito comuns, retardar titulação se persistentes. Contraindicações absolutas: história pessoal/familiar de MTC/MEN2, pancreatite prévia, gestação/plano reprodutivo ativo. Avaliar fundo de olho em DM2 com retinopatia antes do início. Consentimento informado obrigatório para usos off-label. Suspender 1 semana antes cirurgias eletivas digestivas. Evitar manipulação e uso de peptídeos não registrados. Monitorar sinais de colelitíase em perda de peso rápida e sintomas abdominais. Reavaliar regularmente peso, glicemia, lipidograma, sintomas.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "49 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "37 kg/m²"
+      },
+      {
+        "label": "Diabetes Tipo 2",
+        "value": "8 anos de diagnóstico, HbA1c 9,5%"
+      },
+      {
+        "label": "Retinopatia",
+        "value": "Não proliferativa"
+      },
+      {
+        "label": "Histórico familiar MTC/MEN2",
+        "value": "Negativo"
+      },
+      {
+        "label": "Histórico de colelitíase",
+        "value": "Sim, há 10 anos, sem cirurgia"
+      },
+      {
+        "label": "Sintomas abdominais atuais",
+        "value": "Sem dor abdominal"
+      },
+      {
+        "label": "Medicamentos atuais",
+        "value": "Metformina"
+      }
+    ],
+    "title": "Prescrição de Semaglutida em Paciente Obeso com DM2 e Retinopatia",
+    "reward": 100,
+    "options": [
+      {
+        "label": "A) Iniciar diretamente dose total de 2,4mg SC/sem, com retorno em 3 meses.",
+        "correct": false,
+        "rationale": "Dose inicial alta aumenta risco de intolerância gastrointestinal severa e descontinuação precoce."
+      },
+      {
+        "label": "B) Contraindicar pelo histórico de colelitíase anterior.",
+        "correct": false,
+        "rationale": "Histórico antigo de colelitíase sem sintomas atuais não é contraindicação absoluta, mas exige monitorização cuidadosa."
+      },
+      {
+        "label": "C) Proceder titulação escalonada, educar/eventualmente retardar titulação, agendar fundo de olho logo antes/primeira semana do início, orientar sinais de dor abdominal e sintomas GI, com consentimento informado explícito.",
+        "correct": true,
+        "rationale": "Conduta adequada baseada em evidência para manejo de riscos GI, retinopatia e colelitíase, respeitando protocolos regulatórios e ética clínica."
+      },
+      {
+        "label": "D) Avaliar TSH/calcitonina antes do início, repetir mensalmente, não orientar retinopatia.",
+        "correct": false,
+        "rationale": "Avaliação de TSH/calcitonina só indicada diante de história pessoal ou familiar positiva para MTC/MEN2; negligenciar avaliação oftalmológica representa risco clínico."
+      }
+    ],
+    "question": "Qual é a melhor abordagem para iniciar semaglutida considerando os riscos e a monitorização adequada?",
+    "vignette": "Paciente masculino, 49 anos, IMC 37 kg/m², diabetes tipo 2 há 8 anos com HbA1c basal de 9,5%, apresenta retinopatia diabética não proliferativa. Possui histórico antigo de colelitíase sem tratamento cirúrgico. Sem história familiar de carcinoma medular da tireoide ou síndrome MEN2. Deseja iniciar semaglutida para perda de peso e controle glicêmico.",
+    "teaching": "O manejo seguro do paciente com DM2, obesidade e complicações prévias compatíveis com retinopatia e colelitíase exige conhecimento detalhado das contraindicações, sinais de alerta e manejo dos eventos adversos das incretinas. É fundamental iniciar a semaglutida com dose baixa e realizar titulação gradual para minimizar efeitos gastrointestinais, que são os mais comuns e causadores de descontinuação. O antecedente de colelitíase não contraindica o uso, mas demanda vigilância ativa para sintomas de colelitíase/colecistite, especialmente na fase de perda de peso rápida. A retinopatia pré-existente impõe necessidade de exame oftalmológico (fundo de olho) recente, para monitorar possíveis agravamentos relacionados a melhora glicêmica rápida, conforme evidenciado no SUSTAIN-6. A avaliação de TSH/calcitonina é indicada apenas com história pessoal ou familiar sugestiva para MTC/MEN2. O consentimento informado escrito, incluindo esclarecimento sobre riscos e benefícios, fundamenta a prescrição ética e jurídica, especialmente em cenários off-label ou de maiores riscos. A prescrição de dose total inicial e ausência de monitorização são práticas a serem evitadas. No período perioperatório, protocolos de suspensão são importantes para evitar complicações relacionadas ao atraso do esvaziamento gástrico."
+  },
+  "refs": [
+    {
+      "citation": "Conselho Editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Garvey WT, Blüher M, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025."
+    },
+    {
+      "citation": "le Roux CW, Steen O, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024."
+    },
+    {
+      "citation": "Rosenstock J, Frias J, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial. Lancet 2023."
+    },
+    {
+      "citation": "Wharton S, Blevins T, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023."
+    },
+    {
+      "citation": "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med 2023."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05161429",
+      "citation": "Brigham and Women's Hospital. BESTMED — BESTMED: Observational Evaluation of Second Line Therapy Medications in Diabetes. ClinicalTrials.gov 2021."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT05220917",
+      "citation": "Brigham and Women's Hospital. CER-4-T2D — Comparative Effectiveness and Safety of Four Second Line Pharmacological Strategies in Type 2 Diabetes Study. ClinicalTrials.gov 2021."
+    },
+    {
+      "url": "https://clinicaltrials.gov/study/NCT07619495",
+      "citation": "Brigham and Women's Hospital. Injectable Semaglutide vs Dulaglutide in Individuals at Cardiovascular Risk. ClinicalTrials.gov 2026."
+    },
+    {
+      "citation": "Marso SP, et al. Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes. N Engl J Med 2016."
+    },
+    {
+      "citation": "Marso SP, et al. Liraglutide and Cardiovascular Outcomes in Type 2 Diabetes. N Engl J Med 2016."
+    },
+    {
+      "citation": "DeFronzo RA, et al. Tirzepatide versus Semaglutide Once Weekly in Patients with Type 2 Diabetes. N Engl J Med 2021."
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2021."
+    },
+    {
+      "citation": "Buse JB, et al. Pancreatic safety of incretin-based drugs: systematic review and meta-analysis. BMJ 2013."
+    }
+  ],
+  "status": "published"
+}

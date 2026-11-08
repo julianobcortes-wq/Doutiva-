@@ -1,0 +1,320 @@
+{
+  "position": 1,
+  "module": "Módulo 1 · Fundamentos",
+  "title": "Eixo Hormonal no Adulto: Deficiência vs Otimização Cosmética",
+  "description": "A aula aborda fundamentos do eixo hormonal em adultos, com foco em distinguir claramente deficiência clínica de hormônios da busca por otimização cosmética ou performance sem base fisiopatológica. Revisamos fisiologia, interpretação laboratorial, critérios diagnósticos estritos segundo evidências premium e recomendação regulatória brasileira, enfatizando a norma ética CFM 2.333/2023. O conteúdo explica riscos do uso não indicado e apresenta condutas clínicas rigorosas, fluxogramas e checklist para prescrição consciente e segura.",
+  "duration_minutes": 60,
+  "evidence_level": "A / B",
+  "key_points": [
+    "Deficiência hormonal deve ser diagnosticada por sintomas clínicos compatíveis e exames hormonais confirmatórios matinais repetidos, jamais por resultados isolados ou limítrofes assintomáticos.",
+    "O uso de hormônios, implantes ou peptídeos para fins estéticos, anti-aging ou performance sem deficiência é proibido pelo CFM Resolução 2.333/2023 e carece de evidência robusta.",
+    "Prescrição deve priorizar produtos registrados pela ANVISA; manipulação é reserva apenas para casos documentados de falha ou intolerância, com farmacovigilância rigorosa.",
+    "Monitoramento deve incluir hematócrito, PSA, perfil lipídico, densitometria óssea, e acompanhamento clínico a cada 3 a 6 meses após início da terapia hormonal.",
+    "Reforce documentação detalhada, inclusive recusa formal diante de pressão para uso indevido. Eduque o paciente sobre riscos reais e dúvidas laboratoriais.",
+    "Médico e farmácia compartilham responsabilidade pela qualidade, rastreabilidade e esterilidade dos produtos manipulados.",
+    "Nunca prescrever secretagogos, SARMs ou research peptides para longevidade, performance ou estética no Brasil."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Eixo Hormonal no Adulto: Deficiência vs Otimização Cosmética",
+      "subtitle": "Fundamentos Essenciais para Prescrição Ética e Segura — Curso Doutiva Módulo 1"
+    },
+    {
+      "kind": "table",
+      "title": "Critérios Diagnósticos para Deficiência Hormonal no Adulto",
+      "head": [
+        "Hormônio",
+        "Critério Bioquímico",
+        "Critério Clínico",
+        "Nível Evidência",
+        "Registro ANVISA",
+        "Regulatório/CFM"
+      ],
+      "rows": [
+        [
+          "Testosterona",
+          "<230–280 ng/dL (matinal x2)",
+          "Disfunção sexual, anemia, perda massa magra",
+          "A",
+          "Sim",
+          "Só com deficiência clínica/laboratorial [S13][S18]"
+        ],
+        [
+          "Estradiol",
+          "<20 pg/mL (menopausa)",
+          "Fogachos, insônia, osteoporose",
+          "A",
+          "Sim",
+          "Só em deficiência, não em homens [S16][S19]"
+        ],
+        [
+          "Cortisol",
+          "<3–5 µg/dL (08h) + ACTH alto",
+          "Hipotensão, hipoglicemia, hiponatremia",
+          "A",
+          "Sim",
+          "Só em insuficiência adrenal [S19]"
+        ],
+        [
+          "GH/IGF-1",
+          "IGF-1 abaixo do normal + teste estímulo anormal",
+          "Fraqueza, alterações metabólicas (após lesão)",
+          "B",
+          "Sim",
+          "Só em deficiência orgânica [S13][S19]"
+        ],
+        [
+          "T4L",
+          "TSH alto + T4L baixo",
+          "Sintomas hipotireoidismo",
+          "A",
+          "Sim",
+          "Regulado com indicações claras"
+        ]
+      ],
+      "source": "Monografia e diretrizes [S13][S18][S19]"
+    },
+    {
+      "kind": "bars",
+      "title": "Resultados-chave do Estudo TRAVERSE sobre Segurança Cardiovascular da TRT",
+      "unit": "",
+      "source": "Lincoff AM et al., NEJM 2023 [G2]",
+      "bars": [
+        {
+          "label": "MACE (evento cardiovascular maior): TRT não inferior a placebo",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Monitoramento reforçado: hematócrito, fibrilação atrial, PA",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Risco de policitemia maior com TRT: até 12% casos",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Não indicam TRT para fins cosméticos ou performance [G2][G17]",
+          "value": 0,
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "kind": "flow",
+      "title": "Algoritmo Clínico para Diagnóstico e Conduta na Suspeita de Deficiência Hormonal",
+      "steps": [
+        {
+          "label": "1. Sintomas compatíveis? Anamnese e exame físico detalhado"
+        },
+        {
+          "label": "2. Solicitar dosagem hormonal matinal padronizada"
+        },
+        {
+          "label": "3. Resultado alterado? Repetir exame para confirmação"
+        },
+        {
+          "label": "4. Valores limítrofes? Dosar SHBG e calcular fração livre"
+        },
+        {
+          "label": "5. Excluir causas secundárias (medicações, obesidade, doenças)"
+        },
+        {
+          "label": "6. Com deficiência confirmada: prescrever produto registrado ou manipulado (exceção)"
+        },
+        {
+          "label": "7. Consentimento informado e documentação completa"
+        },
+        {
+          "label": "8. Monitorar hematócrito, PSA, lipídios, densitometria e eventos adversos"
+        },
+        {
+          "label": "9. Não prescrever para otimização estética/anti-aging/performance"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "Regulação da Terapêutica Hormonal no Brasil: Registro, Off-label, Manipulado e Proibições",
+      "head": [
+        "Terapêutica",
+        "Registrado",
+        "Off-label",
+        "Manipulado (via regular)",
+        "Não Prescrever"
+      ],
+      "rows": [
+        [
+          "Testosterona IM/Gel",
+          "Sim",
+          "Nenhum",
+          "Sim (exceções restritas)",
+          "Otimização cosmética, performance"
+        ],
+        [
+          "Implante de Testosterona",
+          "Exceção documentada",
+          "—",
+          "Sim (exceção com protocolo)",
+          "Sem deficiência confirmada"
+        ],
+        [
+          "Estradiol oral/transdérmico",
+          "Sim",
+          "—",
+          "Sim (casos especiais)",
+          "Homens ou para modulação estética"
+        ],
+        [
+          "Estradiol implante",
+          "Não (rotulado)",
+          "—",
+          "Sim",
+          "Uso anti-aging/estética"
+        ],
+        [
+          "Hidrocortisona oral",
+          "Sim",
+          "—",
+          "Raro",
+          "Otimização/fadiga sem insuficiência"
+        ],
+        [
+          "GH",
+          "Sim (casos selecionados)",
+          "Não",
+          "Não autorizado",
+          "Longevidade, performance"
+        ],
+        [
+          "Secretagogos/SARMs/Peptides",
+          "Não",
+          "Não",
+          "Não",
+          "Proibido"
+        ]
+      ],
+      "source": "Monografia / ANVISA / CFM 2.333/2023"
+    },
+    {
+      "kind": "split",
+      "title": "Deficiência Hormonal vs Otimização Cosmética: Contraste Essencial",
+      "left": {
+        "label": "Deficiência (Permitido)",
+        "items": [
+          "Deficiência Hormonal",
+          "Sintomas consistentes e impactantes",
+          "Exame hormonal matinal baixo em ≥2 ocasiões",
+          "Desfechos clínicos relevantes (ex: disfunção sexual, anemia)",
+          "Prescrição justificada, monitorada e ética",
+          "Uso de produtos registrados prioritário",
+          "Consentimento e vigilância rigorosa"
+        ]
+      },
+      "right": {
+        "label": "Otimização (Vedado)",
+        "items": [
+          "Otimização Cosmética",
+          "Ausência de deficiência laboratorial clara",
+          "Busca por melhora de bem-estar ou performance",
+          "Uso off-label ou experimental",
+          "Alternativas não recomendadas pela regulação",
+          "Riscos éticos e sanitários elevados",
+          "Proibido prescrever pelo CFM 2.333/2023"
+        ]
+      }
+    },
+    {
+      "kind": "pearl",
+      "title": "Pearl Clínico",
+      "text": "Nunca prescreva hormônios ou implantes para melhora cosmética, performance ou anti-aging sem deficiência hormonal comprovada rigorosamente, respeitando o arcabouço ético-regulatório brasileiro. O compromisso com a ciência e ética protege seu paciente e sua prática médica."
+    }
+  ],
+  "monograph": "---\n# Eixo Hormonal no Adulto: Deficiência Versus Otimização Cosmética *Módulo 1 – Fundamentos do Curso Doutiva* Profundidade 8,5–9/10 · Evidência premium · Regulatório brasileiro explícito --- ## 1. Introdução: Eixo Hormonal Adulto e o Cenário Atual O reconhecimento e manejo de alterações hormonais no adulto desafiam o clínico na separação entre deficiência real e demanda por “otimização” sem respaldo fisiopatológico. Pressões sociais, expectativas de performance e marketing de “anti-aging” aumentam o risco de uso indevido de terapias hormonais e de manipulação, tornando imperativos o domínio da fisiologia, critérios laboratoriais, estrita documentação, vigilância de riscos e cumprimento das normas éticas (CFM Res. 2.333/2023) [S13][S19]. --- ## 2. Fundamentos Fisiológicos ### 2.1 Eixos Hormonais Principais no Adulto\n- Hipotálamo-hipófise-gonadal: testosterona (T), estradiol (E2), progesterona\n- Hipotálamo-hipófise-tireoideo: TSH, T4L, T3\n- Hipotálamo-hipófise-adrenal: ACTH, cortisol\n- Eixo somatotrófico: GH, IGF-1 ### 2.2 Ritmos, Pulsatilidade e Proteínas Carreadoras\n- Secreção pulsátil/circadiana: cortisol (pico 08h), testosterona (manhã), GH (sono profundo)\n- Fração livre x total: maioria circula ligada (T: SHBG/albumina; E2: SHBG/albumina; cortisol: CBG/albumina)\n- Situações que alteram SHBG/CBG/TBG: obesidade, idade, hepatopatias, estrogênios ### 2.3 Interpretação Laboratorial: Erros e Armadilhas\n- Dosagem isolada é de baixo valor preditivo em rastreio sem contexto clínico\n- Repetição obrigatória para todos os hormônios em suspeita de deficiência\n- Priorizar coleta padronizada (exemplo: testosterona total entre 07–10h) [S18] --- ## 3. Definição de Deficiência Hormonal — Critérios Estritos ### 3.1 Diagnóstico: Clássico x Desejo de Performance\n- **Deficiência:** combinação de sintomas/significância clínica + dosagem hormonal baixa confirmada, em pelo menos duas ocasiões matinais, com método validado [S18][S19].\n- **Otimização cosmética:** ausência de deficiência, sendo a intervenção motivada apenas por desejo de “melhorar bem-estar”, performance ou aparência — conduta vedada [S13][S19]. - Exemplo: testosterona total 320 ng/dL, sintomas inespecíficos, sem confirmação. ### 3.2 Quadro – Critérios Diagnósticos | Hormônio | Critério bioquímico | Critérios clínicos | Nível de evidência | Registro ANVISA | Regulatório/CFM |\n|--------------|------------------------------------------------|-----------------------------------------------|:------------------|------------------|-------------------------------------------|\n| Testosterona | Total <230–280 ng/dL (duas matinais), sintomas | Disfunção sexual, perda massa magra, anemia | A | SIM | Permitido SÓ c/ deficiência [S13][S18] |\n| Estradiol | <20 pg/mL (menopausa), sintomas | Fogachos, insônia, perda óssea | A | SIM | Só em deficiência. Homens: não. [S16][S19]|\n| Cortisol | <3–5 µg/dL 08h + ACTH alto, sintomas graves | Hipotensão, hipoglicemia, hiponatremia | A | SIM | Só em deficiência [S19] |\n| GH | IGF-1 < ref. idade + teste estímulo patológico | Fraqueza, alterações metabólicas, após lesão | B | SIM | Só em deficiência orgânica [S13][S19] |\n| T4 | TSH alto + T4L baixo (primário) | Sintomas de hipotireoidismo | A | SIM | Regulado | *Obs: valores podem variar por metodologia laboratorial. Sempre checar referência local e contexto clínico.* --- ## 4. Otimização Cosmética/Anti-Aging: Limites e Riscos ### 4.1 Definição\n- Uso de hormônios/implantes em indivíduos eugonádicos/eufuncionais, sem deficiência, para melhora de performance, estética, “vitalidade”, emagrecimento ou longevidade [S13][S19]. ### 4.2 Aspectos Éticos e Legais\n- Vedado pelo CFM Res. 2.333/2023: qualquer prescrição de hormônios, implantes ou peptídeos para fins estéticos/anti-aging/desempenho, mesmo consensual [S13][S19].\n- Manipulação, uso de “bioidênticos”, peptídeos ou SARMs em indivíduos sem deficiência é PROIBIDO (mesmo na farmácia regularizada) [S14][S1]. ### 4.3 Evidência para adultos saudáveis/não deficientes\n- Não há ECRs robustos mostrando benefício clínico sustentado em performance, composição corporal, bem-estar ou longevidade sem deficiência [G2][G5].\n- Riscos: infertilidade, policitemia, eventos CV/MACE, supressão eixo gonadal, tumorigênese, efeitos psiquiátricos [G2][G5].\n- “Research peptides” (ex.: secretagogos GH, SARMs): uso é experimental, com relatos de eventos graves [S1]. --- ## 5. Métodos Laboratoriais: Recomendações Atualizadas - Priorizar métodos de alta precisão: LC-MS/MS nosagem de testosterona total/livre é padrão ouro, mas pouco disponível; quimioluminescência nas amostras matinais é mais comum.\n- Em dúvidas, valorize impacto clínico e repita o exame.\n- Para hormônio livre (testosterona ou estradiol): recomendar cálculos baseados em SHBG e albumina ou métodos especializados (não rotineiro).\n- Cortisol: amostra matinal (08h); valores <3–5 µg/dL são altamente sugestivos de insuficiência, mas distintos laboratórios/países usam cortes diferentes. Confirmar postura local e repetir exame em situação basal [S18]. --- ## 6. Princípios de Conduta e Monitoramento – Eixo Hormonal no Adulto ### 6.1 Fluxograma Clínico Aplicável ao Brasil 1. Avaliação clínica: sintomas/significância, exame físico completo.\n2. Solicitar exame hormonal total matinal; repetir confirmatório se alterado.\n3. Se valor limítrofe e sintomas: dosar SHBG e calcular fração livre (testosterona) ou repetir dosagem.\n4. Excluir causas transitórias (envelhecimento, obesidade, drogas, distúrbio do sono, doença sistêmica).\n5. Diagnóstico diferencial de déficit primário, central ou funcional.\n6. Confirmando deficiência: - Prescrever SÓ produto registrado ou manipulado em farmácia regularizada, sempre com justificativa e documentação completa. - Monitorar: hematócrito, hemoglobina, perfil lipídico, PSA (>40a ou risco), função hepática, ferritina para testosterona; periodicidade a cada 3–6 meses após início da terapia [G1][S18][G2]. Densitometria óssea para estradiol. - Consentimento informado detalhado. - Registrar lote, farmácia, motivo da escolha manipulada (no caso de falha/intolerância a produto registrado) [S12][S14].\n7. NÃO prescrever se não houver deficiência clínica e laboratorial robusta. --- ### 6.2 Tabela Regulaxão – Terapêuticas Hormonais no Brasil | Terapêutica | Registrado | Off-label | Manipulado (via regular) | NÃO prescrever |\n|-----------------------------------------|-------------------|-------------|----------------------------|----------------------------------------|\n| Testosterona IM/gel | Sim | — | Sim (gel/IM/implante)* | Otimização cosmética ou performance |\n| Implante de testosterona | Exceção** | — | Sim* | Sem deficiência clínica/laboratorial |\n| Estradiol oral/transdérmico | Sim | — | Sim* | Homens/E2 para \"modulação\" |\n| Estradiol implante | Não (rotulado) | — | Sim* | Otimização/anti-aging |\n| Hidrocortisona oral | Sim | — | Raro (preferir registrado) | Otimização/fadiga não deficitária |\n| GH | Sim (poucos casos)| Não | Não autorizado | Longevidade/performance/estética |\n| Secretagogos/SARMs/research peptides | Não | Não | Não | Proibido | \\* SÓ se falha/tolerância limitada a produto registrado, com documentação estrita [S14]. \\** Excepcionalidade documentada, uso prioritário das vias padronizadas; seguir SBEM/SBD/Endocrine Society. --- ### 6.3 Fluxograma de Conduta BR (Markdown) ```markdown\n1. Paciente adulto com sintomas compatíveis?\n2. Exame físico + anamnese detalhada\n3. Dosagem hormonal matinal padronizada\n4. Resultado alterado → repetir exame\n5. Valor limítrofe → dosar SHBG/fração livre (se aplicável)\n6. Sintomas+2 exames alterados: - Excluir causas secundárias - Documentar justificativa oficial - Prescrever terapia conforme registro BR/ANVISA - Coletar consentimento informado - Escolher via: preferir registrado → manipulado só em caso de falha/intolerância\n7. Monitorar eventos adversos e controle laboratorial 3–6m\n8. NÃO prescrever para desempenho/estética, mesmo sob pressão\n``` --- ### 6.4 Checklist de Prontuário / TCLE Objetivo - [ ] Sintomas/significância clínica registrados\n- [ ] Dois exames hormonais alterados, matinais e padronizados\n- [ ] SHBG/fração livre documentada quando indicado\n- [ ] Exclusão de causas transitórias/fisiológicas\n- [ ] Justificativa explícita para uso hormonal/implantável/manipulado\n- [ ] Explicitação se há falha/tolerância a opção registrada (caso manipulado)\n- [ ] Termo de consentimento assinado (incluindo riscos, alternativas, opção de não prescrição)\n- [ ] Registro da farmácia, lote, rastreio do manipulado\n- [ ] Acompanhamento agendado (laboratório + clínica)\n- [ ] Recusa formal para demanda cosmética/desempenho puro documentada\n- [ ] Alerta de proibição para “research peptide”, drip, GH/secretagogos sem indicação --- ## 7. Contraindicações e Monitoramento ### 7.1 Contraindicações absolutas/relativas\n- Ca próstata/mama ativo, poliglobulia (>54%), eventos cardiovasculares recentes, apneia não tratada, infertilidade em desejo, doenças tromboembólicas ativas [G1][G3][G4].\n- THM: risco VTE/mama – preferir transdérmico e timing próximo da menopausa [G3][S16][S4]. ### 7.2 Monitoramento prolongado\n- Andrógenos: hematócrito, hemoglobina, PSA (>40a/risco), perfil lipídico, enzimas hepáticas\n- Estradiol: mamografia, densitometria, perfil trombótico se risco\n- Cortisol: sintomas de excesso, glicemia, controle pressão\n- Checar dispositivos/fonte (manipulado): rastreamento lote, inspeção visual, data validade [S8][S12] --- ## 8. O que NÃO fazer — Riscos Éticos/Sanitários Reforçados - NÃO prescrever implantes ou manipulados para fins estéticos, performance ou rejuvenescimento [S13][S19].\n- NÃO ceder a pressão de marketing/busca individual, mesmo sob TCLE — ética do coletivo, não do desejo do paciente.\n- NÃO endossar pesquisa clínica ou experimentação prática com peptídeos, SARMs, “bioidênticos”/estruturas patentemente manipuladas sem suporte robusto [S1][S14].\n- NÃO prescrever “chip hormonal” ou “soroterapia” sem indicação clínica\n- NÃO manipular ou adquirir produtos estéreis de farmácias não habilitadas/sem rastreabilidade/sem laudo de esterilidade [S8][S11][S12] --- ## 9. Caso Clínico de Decisão Ética **Homem, 51a, IMC 31, hipertenso controlado, fadiga e baixa libido há 18 meses, sono ruim, TT 320 ng/dL (1 dosagem), TSH e prolactina normais, deseja testosterona/“chip hormonal”.** - Alternativas: - A. Prescrever implante de testosterona com justificativa “baixo normal” — **CONTRAINDICADO** - B. Repetir TT matinal, dosar SHBG/free-T, averiguar causas; só prescrever se documentação clínica/laboratorial inequívoca — **CORRETO** - C. Prescrever gel manipul. test. e titular para >500 ng/dL — **ERRADO** - D. Encaminhar para “modulação hormonal anti-aging”, peptídeos, drip — **PROIBIDO** **Justificativa:** Reposição só diante de deficiência comprovada, com rigor laboratorial e documental [S13][S18]. O caso evidencia síntese clínica e ética do tema. --- ## 10. Key Points Clínica/Ethica Premium 1. Deficiência hormonal exige critério estrito: sintomas + exames repetidos/confirmatórios; número isolado ≠ doença.\n2. Nunca prescrever hormônios, implantes, soroterapia ou peptídeos para desejo de bem-estar, estética ou performance [S13][S14].\n3. Somente produtos registrados/manipulados em ambiente regulado e justificado — inferir benefício manipulação só quando efetivamente necessário e documentado [S5][S8][S12].\n4. Monitoramento detalhado: hematócrito, PSA, perfil lipídico, densitometria, enzimas.\n5. Impeça uso dual (clínico/cosmético) e eduque paciente sobre riscos, sem ceder à demanda não embasada.\n6. Responsabilidade conjunta médico-farmácia – rastreio lote, esterilidade, rastreabilidade real [S8][S11][S12].\n7. Documente recusa explícita frente a pressão para uso indevido; valorize protocolo, não trending. --- ## 11. Referências Essenciais - [G1][S18] Endocrine Society: Guideline TRT/Hipogonadismo. J Clin Endocrinol Metab 2018.\n- [G2][S17] TRAVERSE: Segurança CV de TRT. N Engl J Med 2023.\n- [G3][S16] NAMS 2022: Postura THM.\n- [G5][S14] Bioidênticos manipulados e alertas; Endocrine Society/ACOG, 2016.\n- [G6][S13][S19] CFM Resolução 2.333/2023. portal.cfm.org.br\n- [S8][S12] ANVISA/USP compounding/esterilidade — visão prescritor.\n- [S11] CDC/NEJM: lição NECC e responsabilidade prescritora.\n- [S1] FDA: research peptides – proibição e riscos.\n*(Dúvidas sobre valores-limite nosar laboratório local/atualização guideline nacional SBEM/SBD.)* --- # Fim da Monografia ---",
+  "quick_ref": "# Quick Reference: Deficiência Hormonal vs Otimização Cosmética ## Diagnóstico de Deficiência Hormonal | Hormônio | Corte Laboratorial | Confirmar* | Sintomas |\n|--------------|-------------------------|------------------------------|-------------------------------|\n| Testosterona | <230–280 ng/dL (07-10h) | 2 dosagens em dias diferentes | Disfunção sexual, fadiga, anemia|\n| Estradiol | <20 pg/mL (menopausa) | Confirmar sintomas/idade | Fogachos, insônia, perda óssea |\n| Cortisol | <3–5 µg/dL matinal | Confirmar ACTH e sintomas graves| Hipotensão, hipoglicemia | *Sempre repetir para confirmar diagnóstico. ## Red Flags — NÃO prescrever - Hormônios para estética, emagrecimento, performance sem deficiência comprovada\n- Uso de secretagogos GH, SARMs, peptídeos não registrados\n- Implantes ou manipulados sem documentação e justificativa\n- Manipulação sem rastreabilidade/falha em controle de qualidade ## Check-list para Consultório e TCLE - Sintomas e exames documentados (matinal, repetidos)\n- Cálculo fração livre (testosterona/estradiol) se dúvidas\n- Exclusão de causas transitórias ou secundárias\n- Justificativa escrita para manipulação quando necessária\n- Consentimento informado com riscos e alternativas\n- Registro da farmácia, lote e fiscalização da manipulação\n- Plano de monitoramento laboratorial e clínico a cada 3-6 meses\n- Registro formal de recusa em uso off-label/otimização estética ## Doses e Formulações Comuns | Hormônio | Dose Inicial Típica | Vias Usuais | Observações |\n|----------------|-------------------------------|-------------------------|---------------------------------------|\n| Testosterona IM| 100–200 mg a cada 2–3 semanas | IM, Gel, Implante** | Implante uso exceção; preferir registrado|\n| Estradiol | 1–2 mg oral ou 0,025–0,05 mg TD | Oral, Transdérmico | Ajustar conforme sintomas e níveis |\n| Hidrocortisona | 10–20 mg/dia fracionado | Oral | Somente deficiência comprovada | **Implantes são exceção com protocolo e justificação clínica. --- *Consulte sempre regulamentações vigentes e protocolos locais.*",
+  "clinical_case": {
+    "title": "Homem 51 anos com Fadiga, Baixa Libido e Testosterona Limítrofe",
+    "vignette": "Paciente masculino, 51 anos, IMC 31, hipertensão controlada, relata fadiga progressiva e redução da libido há 18 meses. Sono ruim e cansaço persistente. Exame inicial testosterona total matinal colhida mostrou 320 ng/dL (referência: 300-1000 ng/dL). TSH e prolactina normais. Solicita implante de testosterona para melhora da vitalidade e libido.",
+    "question": "Qual a conduta mais ética e adequada para este paciente?",
+    "teaching": "Este caso exemplifica o desafio em diferenciar deficiência hormonal real de desejos legítimos de otimização cosmética ou performance. Testosterona total de 320 ng/dL está no limite inferior, mas isoladamente não confirma deficiência. Sintomas são inespecíficos e comuns a outras condições como sono ruim e obesidade. A conduta ética é repetir dosagem matinal, avaliar SHBG para cálculo da testosterona livre, excluir causas secundárias e confirmar associação clínica-laboratorial antes de indicar terapia. Prescrição sem rigor coloca em risco o paciente e é proibida pelo CFM (Res. 2.333/2023). Implantes somente são indicados em casos claros, com documentação. O médico deve documentar recusa, orientar riscos e monitorar rigorosamente se indicar terapia.",
+    "reward": 10,
+    "data": [
+      {
+        "label": "Idade",
+        "value": "51 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "31 kg/m2"
+      },
+      {
+        "label": "Pressão arterial",
+        "value": "Controlada"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, baixa libido, sono ruim"
+      },
+      {
+        "label": "Teste inicial",
+        "value": "Testosterona total 320 ng/dL (7-10h)"
+      },
+      {
+        "label": "TSH",
+        "value": "Normal"
+      },
+      {
+        "label": "Prolactina",
+        "value": "Normal"
+      }
+    ],
+    "options": [
+      {
+        "label": "A. Prescrever implante de testosterona imediatamente com base no valor limítrofe",
+        "correct": false,
+        "rationale": "Prescrição sem confirmação da deficiência e sem repetir exames é inadequada e contra regulatório."
+      },
+      {
+        "label": "B. Repetir testosterona total matinal, dosar SHBG e testosterona livre, investigar causas secundárias; indicar terapia somente após confirmação rigorosa",
+        "correct": true,
+        "rationale": "Abordagem correta baseada nas diretrizes e no Código Ético do CFM, evitando prescrição indevida."
+      },
+      {
+        "label": "C. Prescrever gel de testosterona manipulado visando valores acima de 500 ng/dL para melhora de sintomas",
+        "correct": false,
+        "rationale": "Dose arbitrária e uso manipulado sem justificativa contraria ética e segurança."
+      },
+      {
+        "label": "D. Indicar modulação hormonal anti-aging com peptídeos e soroterapia, sem investigação adicional",
+        "correct": false,
+        "rationale": "Prática proibida pelo CFM e sem evidência para benefício, com riscos éticos e sanitários."
+      }
+    ]
+  },
+  "refs": [
+    {
+      "citation": "Bhasin S, et al. Testosterone Therapy in Men With Hypogonadism: Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2018;103(5):1715-1744. DOI 10.1210/jc.2018-00229"
+    },
+    {
+      "citation": "Lincoff AM, et al. Cardiovascular Safety of Testosterone-Replacement Therapy (TRAVERSE). N Engl J Med. 2023;388:1754-1766. DOI 10.1056/NEJMoa2215025"
+    },
+    {
+      "citation": "The North American Menopause Society. The 2022 Hormone Therapy Position Statement. Menopause. 2022;29(7):767-793. DOI 10.1097/GME.0000000000002028"
+    },
+    {
+      "citation": "Rossouw JE, et al. Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women (WHI). JAMA. 2002;288(3):321-333. DOI 10.1001/jama.288.3.321"
+    },
+    {
+      "citation": "Endocrine Society & ACOG. Compounded bioidentical hormone therapy — a cautionary note. 2016 synthesis Doutiva."
+    },
+    {
+      "citation": "Conselho Federal de Medicina. Resolução 2.333/2023 – Restrição à Hormonioterapia Estética/Anti-aging. https://portal.cfm.org.br/",
+      "url": "https://portal.cfm.org.br/"
+    }
+  ],
+  "raise_bar": true,
+  "audit_verdict": "fix"
+}

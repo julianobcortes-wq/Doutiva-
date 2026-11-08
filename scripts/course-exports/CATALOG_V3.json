@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "sarcopenia-composicao-performance",
+    "title": "Sarcopenia, Composição Corporal e Performance",
+    "lessons": 10,
+    "mono": 185478,
+    "slides": 94,
+    "duration": 675
+  },
+  {
+    "slug": "obesidade-precisao-consultorio",
+    "title": "Obesidade de Precisão no Consultório",
+    "lessons": 10,
+    "mono": 201028,
+    "slides": 96,
+    "duration": 675
+  },
+  {
+    "slug": "hormonios-implantes-criterio",
+    "title": "Hormônios e Implantes com Critério",
+    "lessons": 10,
+    "mono": 199062,
+    "slides": 92,
+    "duration": 645
+  },
+  {
+    "slug": "ia-pratica-medica",
+    "title": "IA na Prática Médica",
+    "lessons": 10,
+    "mono": 191526,
+    "slides": 95,
+    "duration": 705
+  },
+  {
+    "slug": "tirzepatida-incretinas-consultorio",
+    "title": "Tirzepatida e Incretinas no Consultório",
+    "lessons": 10,
+    "mono": 198265,
+    "slides": 93,
+    "duration": 600
+  },
+  {
+    "slug": "soroterapia-injetaveis-estereis",
+    "title": "Soroterapia e Injetáveis Estéreis com Critério",
+    "lessons": 10,
+    "mono": 190830,
+    "slides": 96,
+    "duration": 660
+  }
+]

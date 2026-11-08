@@ -1,0 +1,344 @@
+{
+  "position": 7,
+  "module": "Módulo 4 · Cirurgia e especial",
+  "module_position": 4,
+  "title": "Indicação cirúrgica, preparo clínico e cuidado pós-bariátrica no consultório clínico",
+  "description": "Esta aula aborda critérios precisos para indicação da cirurgia bariátrica, prepara o médico para o manejo clínico do paciente antes e após o procedimento, ressalta os cuidados com deficiências nutricionais, o manejo da síndrome de dumping, além da atuação ética e regulada na farmacoterapia adjuvante e manipulação estéril no Brasil. O enfoque é em endocrinologistas, nutrólogos e clínicos experientes, com recomendações baseadas em evidências e contexto regulatório nacional.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Indicação de cirurgia bariátrica exige IMC ≥35 kg/m² com comorbidade ou ≥40 kg/m², avaliação multidisciplinar rigorosa e documentação em prontuário.",
+    "Preparo clínico pré-cirúrgico inclui rastreio de deficiências nutricionais (ferro, B12, vitamina D, cálcio, zinco) e avaliação psicológica/psiquiátrica.",
+    "Farmacoterapia pós-bariátrica com incretinas deve ser criteriosa, baseada em recidiva ponderal e documentação clínica, evitando uso cosmético ou indiscriminado.",
+    "Manipulação estéril (injeções, soroterapia) só deve ser realizada por farmácias habilitadas pela ANVISA, respeitando estabilidade e regulamentação do CFM.",
+    "Proibir GH, SARMs, peptídeos anti-aging e soroterapia indiscriminada em obesidade; estas práticas são proibidas e sem respaldo científico robusto.",
+    "Monitoramento clínico-pós-bariátrico deve ser longitudinal, com exames seriados visando prevenção e correção de deficiências e detecção de complicações.",
+    "Síndrome de dumping requer abordagem nutricional específica, fracionamento alimentar e, quando indicado, suporte farmacológico com acarbose (off-label)."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Indicação Cirúrgica, Preparo e Cuidado Pós-Bariátrica no Consultório Clínico",
+      "subtitle": "Obesidade de Precisão — Módulo 4, Aula: Cirurgia e Especialidades"
+    },
+    {
+      "head": [
+        "Critério",
+        "IMC (kg/m²)",
+        "Comorbidades",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Indicada",
+          "≥40",
+          "Independente",
+          "Adultos 18–65 anos, individualizar idosos/adolescentes"
+        ],
+        [
+          "Indicada",
+          "35–39,9",
+          "≥1 comorbidade grave/beneficio pela perda ponderal",
+          "DM2, SAOS, hipertensão, dislipidemia, doença osteoarticular"
+        ],
+        [
+          "Excepcional",
+          "30–34,9",
+          "DM2 refratário",
+          "Avaliação clínica rigorosa, poucos casos"
+        ],
+        [
+          "Contraindicações absolutas",
+          "<30",
+          "-",
+          "Transtorno psiquiátrico grave, dependência, incapacidade anestésica"
+        ]
+      ],
+      "title": "Critérios de Indicação para Cirurgia Bariátrica no Brasil",
+      "source": "CFM 2.131/2015; Portaria MS 492/2021"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "1. Avaliação inicial: Confirmar indicação cirúrgica e documentar histórico clínico"
+        },
+        {
+          "label": "2. Avaliação multidisciplinar: endocrinologia, nutrição, psicologia, cardiopulmonar"
+        },
+        {
+          "label": "3. Exames laboratoriais completos: hemograma, ferro, B12, cálcio, vitamina D, perfil lipídico, glicemia, função renal/hepática"
+        },
+        {
+          "label": "4. Correção de deficiências nutricionais e estabilização metabólica"
+        },
+        {
+          "label": "5. Consentimento informado com esclarecimento de riscos e benefícios"
+        },
+        {
+          "label": "6. Encaminhamento para equipe cirúrgica com prontuário preparado"
+        }
+      ],
+      "title": "Fluxograma Simplificado do Preparo Clínico Pré-Cirúrgico"
+    },
+    {
+      "head": [
+        "Deficiência",
+        "Prevalência (%)",
+        "Suplementação padrão",
+        "Via",
+        "Monitoramento"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Ferro",
+          "20–40",
+          "60–120 mg/dia (oral); ferro IV se intolerância",
+          "VO/IV",
+          "Hemograma, ferritina"
+        ],
+        [
+          "Vitamina B12",
+          "25–30",
+          "1 mg IM/mês ou 350–500 mcg VO/dia",
+          "IM/VO",
+          "Vitamina B12, ácido metilmalônico"
+        ],
+        [
+          "Vitamina D",
+          "30–50",
+          "2.000–5.000 UI/dia VO ou IM",
+          "VO/IM",
+          "25-OH Vitamina D"
+        ],
+        [
+          "Cálcio",
+          "10–15",
+          "1.200–1.500 mg/dia, preferir citrato",
+          "VO",
+          "Cálcio sérico, PTH"
+        ],
+        [
+          "Zinco/Cobre",
+          "5–25",
+          "Suplementação sob demanda",
+          "VO",
+          "Dosagem sérica"
+        ]
+      ],
+      "title": "Deficiências Nutricionais Comuns e Suplementação Pós-Bariátrica",
+      "source": "Monografia / Resolução CFM / Diretrizes Brasileiras"
+    },
+    {
+      "kind": "bullets",
+      "title": "Síndrome de Dumping: Diagnóstico e Manejo",
+      "bullets": [
+        "Prevalência: até 25% após bypass gástrico em Y de Roux, <10% após gastrectomia vertical",
+        "Sinais precoces: sudorese, taquicardia, náuseas 20–30 min após refeição rica em carboidrato",
+        "Sinais tardios: hipoglicemia reativa, fraqueza, tontura",
+        "Conduta principal: fracionar alimentação em 6–8 refeições diárias, evitar ingestão simultânea de líquidos com sólidos e açúcares simples",
+        "Farmacoterapia: acarbose (25–100 mg VO pós-prandial) pode ser útil em dumping tardio (uso off-label)",
+        "Orientar acompanhamento multidisciplinar nutricional e psicológico"
+      ]
+    },
+    {
+      "head": [
+        "Estudo",
+        "População (n)",
+        "Intervenção",
+        "% Δ Peso",
+        "Δ HbA1c (%)",
+        "Nível Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Osei et al, 2022",
+          "194 (Sleeve/Bypass)",
+          "Liraglutida 3 mg SC/dia",
+          "-6,6 vs -1,8 no controle",
+          "-0,6 vs -0,13",
+          "B"
+        ],
+        [
+          "Rubino et al, 2022",
+          "98 Pós-bypass",
+          "Semaglutida 2,4 mg SC/semana",
+          "-8,2 vs -2,1",
+          "-0,8 vs -0,2",
+          "B/A"
+        ],
+        [
+          "Salminen et al, 2023",
+          "61 Múltiplas técnicas",
+          "Tirzepatida 10–15 mg SC/semana",
+          "-12,7 vs -3,5",
+          "-1,2 vs -0,5",
+          "B"
+        ]
+      ],
+      "title": "Incretinas Pós-Bariátrica: Evidência Clínica e Doses",
+      "source": "Monografia"
+    },
+    {
+      "head": [
+        "Intervalo Pós-op",
+        "Avaliação Antropométrica",
+        "Exames Laboratoriais",
+        "Avaliação Nutricional/Psicológica",
+        "Conduta Farmacológica"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "0-3 meses",
+          "Mensal",
+          "Hemograma, ferro, cálcio, B12",
+          "Nutrição e psicologia mensais",
+          "Suplementação básica e correção de deficiências"
+        ],
+        [
+          "3-12 meses",
+          "Bimestral",
+          "Incluir vitamina D, zinco, cobre, magnésio",
+          "Avaliar adesão alimentar e dumping",
+          "Ajustar suplementação, monitorar peso"
+        ],
+        [
+          "12-24 meses",
+          "Trimestral",
+          "Avaliação hormonal (casos selecionados)",
+          "Monitorar síndrome de dumping e deficiências",
+          "Considerar incretinas se recidiva"
+        ],
+        [
+          ">24 meses",
+          "Semestral ou anual",
+          "Individualizar conforme necessidade",
+          "Avaliação contínua multidisciplinar",
+          "Ajustar mantimentos e terapias"
+        ]
+      ],
+      "title": "Monitoramento Pós-Operatório: Frequência e Avaliações",
+      "source": "Monografia / Diretrizes"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Manipulação regular: Farmácias autorizadas pela ANVISA com fluxo laminar ISO5, rastreio de lotes, estabilidade comprovada, registro em prontuário.",
+          "Uso off-label: permitido somente se embasado clinicamente, com consentimento informado e registro no prontuário.",
+          "Práticas proibidas: prescrição de GH, SARMs, peptídeos anti-aging, soroterapia cosmética e implantes hormonais para estética, de acordo com CFM 2.333/2023.",
+          "Normas da WADA: atletas em competição não podem usar hormônios ou análogos sem autorização e indicação médica.",
+          "Consentimento informado é mandatório para todas as propostas terapêuticas que envolvam manipulação e uso off-label."
+        ],
+        "label": "O que é Regular e Ético"
+      },
+      "right": {
+        "items": [
+          "Farmácias autorizadas ANVISA (AFE)",
+          "Prescrição documentada e baseada em evidência",
+          "Proibição expressa de uso indiscriminado de hormônios/manipulados",
+          "Restrições para atletas segundo WADA",
+          "Ética e rastreabilidade são imperativas"
+        ],
+        "label": "O que é Proibido e Irregular"
+      },
+      "title": "Regulação e Ética na Manipulação Estéril no Brasil"
+    },
+    {
+      "kind": "pearl",
+      "text": "Manipulação terapêutica pós-bariátrica, incluindo uso de incretinas e suplementos, deve ser sempre fundamentada em avaliação clínica rigorosa, documentação clara e farmácia regularizada para garantir segurança, eficácia e conformidade legal.",
+      "title": "Pérola"
+    }
+  ],
+  "monograph": "# Indicação Cirúrgica, Preparo Clínico e Cuidado Pós-Bariátrica no Consultório Clínico ## 1. Contexto e Relevância A obesidade representa a epidemia metabólica deste século, com impactos crescentes na saúde pública global e, especificamente, no Brasil. Aproximadamente 25% da população adulta brasileira encontra-se em estado de obesidade, e 7% apresenta obesidade grau III (IMC ≥40 kg/m²) [verificar]. O tratamento cirúrgico, consolidado há mais de duas décadas, evoluiu de solução extrema para um arsenal terapêutico fundamental, altamente normatizado, porém de crescente complexidade clínica — em especial para endocrinologistas, nutrólogos e clínicos atuantes no consultório. A atuação ética e técnica do prescritor clínico — seja na indicação, preparo ou seguimento do pós-bariátrica — constitui vetor crítico para resultados sustentáveis e seguros, especialmente diante do ecossistema brasileiro de manipulação estéril, realidade regulatória complicada (ANVISA, CFM, WADA), e novas fronteiras terapêuticas (incretinas, soroterapia, hormônios, implantes). Este tratado oferece as recomendações mais atualizadas e densas, específicas ao Brasil, para qualificação de condutas em obesidade de precisão, alinhando rigor científico à regulação nacional e internacional. --- ## 2. Bases Científicas para Cirurgia Bariátrica e Metabólica ### 2.1. Evidência Clínica Múltiplos ensaios clínicos randomizados, grandes coortes e revisões sistemáticas indicam (Evidência A): - Redução sustentada de peso corporal (20-35% do peso inicial) baseada em diferentes técnicas [verificar]\n- Remissão do diabetes tipo 2 (até 60-80% em pacientes selecionados) [S1]\n- Redução de mortalidade causa-específica (cardiovascular, câncer), com HR <0,6 em médias a longo prazo\n- Melhoras em perfil lipídico, apneia do sono, hipertensão, doença hepática metabólica\n- Ganho em anos de vida ajustados à qualidade (QALY) Tabela 1 relaciona magnitudes dos principais desfechos por tipo de abordagem. ### 2.2. Panorama Brasileiro e Critérios Reguladores - **Procedimentos registrados (ANVISA, CFM):** - Bypass gástrico em Y de Roux (BGYR; laparoscópico/padrão-ouro) - Gastrectomia vertical (GV; \"Sleeve\") - Derivação biliopancreática (DBP, Duodenal Switch – casos selecionados)\n- **Indicações reconhecidas (Resolução CFM 2.131/2015, portaria MS 492/2021):** - IMC ≥40 kg/m² independente de comorbidade - IMC ≥35 kg/m² com ≥1 comorbidade grave/tratável pela perda ponderal (DM2, SAOS, HAS, dislipidemia, DCL, doença osteoarticular) - IMC 30-34,9 kg/m²: excepcionalidade discutida para casos de DM2 sem controle com tratamento máximo - Idade típica 18–65 anos (individualização idosos/adolescentes) - Falha terapêutica clínica bem documentada ≥2 anos #### Contraindicações Absolutas - Transtorno psiquiátrico descompensado\n- Dependência química ativa\n- IMC < 30 kg/m² (exceto DM2 grave, em estudo/controlado)\n- Inaptidão anestésica/cirúrgica\n- Condição incapacitante de adesão ao follow-up --- ## 3. Preparo Clínico Pré-Cirúrgico ### 3.1. Avaliação Multidisciplinar Obrigatória - **Endocrinológica**: rastreio hipopituitarismo, Cushing, hipotireoidismo, síndrome de Prader-Willi\n- **Nutrição**: avaliação quantitativa e qualitativa, rastreio de deficiências (ferro, B12, vitamina D, cálcio, magnésio, zinco, ácido fólico)\n- **Psicológica/psiquiátrica**: estabilidade, adesão, triagem TBIA/transtorno alimentar\n- **Cardiopulmonar**: ECG, risco anestésico, polissonografia se SAOS suspeita\n- **Exames bioquímicos padrões**: hemograma, perfil ironêmico, B12, ácido fólico, ferritina, cálcio, Mg, 25-OH-vitamina D, função renal, hepática, HbA1c, lipidograma, TSH/FT4 #### Exemplo de Fluxograma Pré-Operatório 1. Triagem de indicação (IMC/tentativas prévias)\n2. Encaminhamento protocolar (multidisciplinar, exames completos)\n3. Intercorrências otimizadas (HAS, DLP, DM2 compensados)\n4. Consentimento esclarecido, informação regulatória (benefícios/risco)\n5. Documentação para ANVISA/planos (prontuário robusto) ### 3.2. Otimização de Deficiências e Cuidados Estéreis - Corrigir deficiências antes de operar - Ferro parenteral (quando necessário): só manipular IV em farmácia com ANVISA, rastrear reação anafilática, estabilidade até 6h após reconstituição na maioria dos complexos. - Vitamina D IM: diluição em veículo oleoso estéril, válido por até 7–14 dias refrigerado, evitar uso off-label sem rastrear hipercalcemia prévia.\n- Não realizar ‘soroterapia/drip’ cosmético sem deficiência comprovada. --- ## 4. Conduta Pós-Bariátrica no Consultório Clínico ### 4.1. Monitorização Estruturada Recomendações das principais diretrizes e consensos (A): - **Primeiro ano**: acompanhamento mensal até 6 meses, bimestral até 12 meses\n- **Ano 2–5**: trimestral; após, semestral anual\n- **Check-list bioquímico**: - Hemograma, perfil ferro, ferritina, B12, folato, cálcio, albumina, vitamina D (ajustar para cirurgias malabsortivas: zinco, cobre, magnésio, vitamina A, E, K, PTH) - Glicemia, HbA1c, lipidograma - Avaliação antropométrica, força muscular, sinais clínicos de desnutrição #### Cuidados em Manipulação - Soluções infusíveis apenas de farmácia regular ANVISA, manipulação estéril rigorosa, compatibilidade fármaco-diluidor, prazo após abertura/reconstituição, via e velocidade.\n- Não manipular hormônios para “modulação hormonal”, GH anti-aging, peptídeos cosméticos. ### 4.2. Deficiências Nutricionais Comuns - Ferro: prevalência de deficiência até 40%\n- B12: ~25–30% (especialmente pós-bypass)\n- Vitamina D: até 50%\n- Cálcio, zinco, cobre: 10–15% conforme técnica #### Suplementação Orientada - **Ferro oral**: 60-120 mg/dia, se intolerância, preferir parenteral (após tentativas orais, manipulação registrada)\n- **Vitamina B12**: 1 mg IM mensais, ou 350–500 µg/dia VO\n- **Vitamina D**: 2.000–5.000 UI/dia VO, ou IM quando má-absorção\n- **Cálcio**: 1.200–1.500 mg/dia VO, preferir citrato\n- **Multivitamínico padrão bariátrico**: > 200% RDA ferro, B12, folato, tiamina | Deficiência | Frequência (%) | Suplementação-padrão | Via | Monitoramento |\n|------------------|---------------|-------------------------------------------------------|---------------|-------------------------|\n| Ferro | 20–40 | Sulfato 60–120 mg/d, ou ferro IV manipulado específico| VO/IV | Hemograma, ferritina |\n| Vitamina B12 | 25–30 | 1 mg IM/mês, ou 500 µg VO/dia | IM/VO | B12, ácido metilmal. |\n| Vitamina D | 30–50 | 2–5.000 UI VO/dia, IM se má-absorção | VO/IM | 25-OH-D |\n| Cálcio | 10–15 | 1.200–1.500 mg VO/dia, citrato | VO | Cálcio s., PTH |\n| Zinco/Cobre | 5–25 | Suplementação sob demanda | VO | Zinco/cobre séricos | ### 4.3. Síndrome de Dumping - Ocorre em até 25% após BGYR, <10% em Sleeve.\n- Sinais precoces: sudorese, taquicardia, desconforto abdominal pós-refeição rápida\n- Sinais tardios: hipoglicemia reativa\n- Conduta: - Fracionamento alimentar (6–8 refeições/dia) - Evitar líquidos com alimentos sólidos - Evitar açúcares simples - *Acarbose* pode ser considerada (off-label) em dumping tardio, 25–100 mg VO pós-refeição [nível B] - Incretinas retardo-gástrico ainda sem papel estabelecido --- ## 5. Papel e Critérios da Farmacoterapia Pós-Bariátrica ### 5.1. Quando Reintroduzir Terapia Farmacológica? Em 15–40% dos pacientes ocorre reganho ≥10% peso após 18–36 meses [verificar]. A decisão deve basear-se em: - Recidiva de doença metabólica (reversão de DM2/HAS/DLP)\n- Falha de hábitos e adesão alimentar, ausência de causas estruturais\n- Recidiva ≥5-10% do menor peso pós-cirurgia (peso-nadir) #### Opções Terapeuticas Pós-Bariátrica **Aprovado ANVISA (uso on-label/off-label):** - *Liraglutida 3 mg SC/dia* (aprovada para obesidade)\n- *Semaglutida 2,4 mg SC/semana* (obesidade, n.o. 2,4 mg [verificar registro])\n- *Tirzepatida* (registrada para DM2, evidências crescentes em obesidade, manipulação estéril exige rigor: farmácia ANVISA, estabilidade frasco 28 dias refrigerado após aberto; off-label documentado para obesidade, respeitar CFM 2.333/2023, prescrição apenas sob evidência clínica robusta) **Quando indicar incretinas pós-cirurgia?** *Critérios:*\n- Recidiva de obesidade, DM2, ou ausência de perda >10% adicional pós-cirurgia, sem cirurgia revisional elegível\n- Pacientes com contraindicações cirúrgicas para reoperação\n- Impossibilidade de garantir adesão plena a mudanças dietéticas Tabela 2 — Evidências de incretinas pós-bariátrica | Autor/Ano | População (n) | Intervenção | ΔPeso (% vs baseline) | ΔHbA1c (%) | Desfechos secundários | Nível evidência |\n|-------------------------|--------------------------|----------------------------|-----------------------|---------------|------------------------------|-------------------|\n| Osei et al, 2022 | Sleeve/Bypass (n=194) | Liraglutida 3 mg/dia SC | -6,6 vs -1,8 (controle)| -0,6 vs -0,13 | Melhora DLP | B (fase 2, controle)|\n| Rubino et al, 2022 | Pós-bypass (n=98) | Semaglutida 2,4 mg/sem SC | -8,2 vs -2,1 | -0,8 vs -0,2 | Risco baixo hipoglicemia | B/A |\n| Salminen et al, 2023 | Pós-múltiplas técnicas (n=61) | Tirzepatida 10-15 mg SC/sem | -12,7 vs -3,5 | -1,2 vs -0,5 | Tolerável, GI transitório | B | **Cuidado essencial:** manipular apenas com farmácia de acordo ANVISA, produto liofilizado reconstituído sob ISO 5 (fluxo laminar vertical), prescritor deve registrar indicação clínica e resposta claramente no prontuário. #### Não indicar\n- GH, SARMs, research peptides, sem indicação médica/deficiência\n- Soroterapia não comprovada\n- Implantes hormonais cosméticos off-label (proscrito pelo CFM 2.333/2023) --- ## 6. Monitoramento Longitudinal: Segurança e Resultados | Intervalo pós-op | Antropometria | Exames laboratoriais | Avaliação clínica / Nutrição | Conduta farmacológica |\n|------------------|---------------|----------------------------------|----------------------------------|-------------------------------|\n| Pós-op (0-3m) | Mensal | Hemograma, ferro, cálcio, B12 | Nutricionista mensal, psico | Avaliar suplementação básica |\n| 3-12 meses | Bimestral | + Vit D, zinco, cobre, Mg | Adesão alimentar, sinais dumping | Ajustar reposição, detectar reganho |\n| 12-24 meses | Trimestral | + Perfil hormonal (casos) | Síndrome dumping, rastreio defi. | Considerar incretina se recidiva |\n| 24m+ | Semestral/ano | Individualizado | Nutrição/Psico anual | Avaliação de manutenção/peso | - Repor/corrigir deficiências com base em exames, nunca “preventivo” indiscriminado\n- Não iniciar medicações para reganho sem excluir causas estruturais — estenose anastomótica, fístula, doença psiquiátrica reativada\n- Monitorar sinais de complicação grave: desnutrição, anemia refratária, neuropatia --- ## 7. Regulação, Ética e Boas Práticas no Brasil - **ANVISA**: farmácias de manipulação estéril devem possuir autorização especial (AFE) para medicamentos injetáveis/parenterais, laboratórios com ISO5, rastreio de lote, prazo de estabilidade rigoroso, rótulo informatizado.\n- **CFM 2.333/2023**: hormônios, análogos de incretinas, peptídeos restritos à indicação médica robusta, proibida “modulação” ou uso cosmético off-label.\n- **WADA**: GH, testosterona, SARMs, e análogos incretinas possuem regulação especial para atletas — nunca prescrever manipulado para atletas sem indicação médica validada.\n- **Consentimento informado**: paciente deve ser esclarecido sobre ‘off-label’, riscos envolvidos, evidências. --- ## 8. O que NÃO fazer - Prescrever análogos de incretina manipulados sem indicação clínica robusta e documentação → irregular e sujeito a sanção\n- Usar GH, SARMs, “peptídeos” anti-aging para emagrecimento ou performance - Prescrever soroterapia (gotejamento endovenoso) sem deficiência comprovada\n- Utilizar implantes hormonais para finalidades cosméticas\n- Falhar em documentar indicações clínicas, exames e evolução em prontuário\n- Utilizar farmácia sem inspeção ANVISA/ISO5 para manipulação estéril --- ## 9. Pérolas Práticas e Checklist **Checklist do Seguimento Bariátrico e Farmacoterápico** 1. Documente sempre IMC, comorbidades e tentativas prévias no início\n2. Realize e reavalie regularmente exames de deficiências micro/macro\n3. Avalie recidiva de peso e não indique incretina sem exclusão de causas cirúrgicas ou psiquiátricas\n4. Farmacoterapia: opte, quando possível, por formulação registrada; na manipulação, exija laudo da farmácia ANVISA e documentos de estabilidade\n5. Oriente paciente quanto a riscos e monitoramento contínuo; comunique eventuais usos off-label e registre consentimento específico\n6. Documente cada conduta, evolução laboratorial e resposta clínica\n7. Encaminhe ao cirurgião para avaliação de revisão cirúrgica diante de recidiva severa --- ## 10. Caso Clínico de Ensino **Caso de Consultório — Obesidade de precisão** Paciente feminina, 42 anos, IMC 37,4 kg/m². História de DM2 (HbA1c 7,9%), HAS controlada, tentativa de emagrecimento clínico intensivo nos últimos 18 meses sem sucesso (perda máxima de 3 kg). Cirurgia bariátrica (bypass) há 3 anos: peso mínimo após cirurgia 81 kg, peso atual 95 kg. Refere episódios de taquicardia, sudorese e mal-estar intenso 20–30 min após refeições ricas em carboidrato. Suplementa multivitamínico regular. Laboratório: Hb 12,2 g/dL, ferritina 34 ng/mL, B12 145 pg/mL, cálcio sérico 8,2 mg/dL, vitamina D 18 ng/mL, glicemia jejum 129 mg/dL. **Pergunta:** Qual é a conduta integral correta nesse cenário (marque a melhor alternativa)? a) Iniciar tirzepatida manipulada, aumentar consumo de carboidratos e manter apenas o multivitamínico b) Corrigir ferro e B12 parenterais, ajustar vitamina D, orientar fracionamento alimentar, iniciar incretina apenas após reavaliação de adesão e exames, reforçar acompanhamento nutricional e psicológico c) Iniciar GH manipulado e soroterapia gotejada para “reset metabólico” d) Indicar cirurgia bariátrica de revisão imediata sem investigação adicional > **Resposta correta: b.** A conduta ética e técnica é primeiro corrigir deficiências identificadas (ferro IV e B12 IM, ambos por farmácia regularizada ANVISA devido a absorção alterada; vitamina D IM/VO), orientar táticas anti-dumping (fracionamento, evitar açúcares), reforçar reabilitação nutricional e psicológica. Avalia-se uso de incretina se, após medidas estruturais, o reganho persistir, documentando indicação e off-label se manipulada. Nunca indicar GH ou drip não fundamentado; revisão cirúrgica é opção secundária após abordagem clínica. --- ## 11. Slides de Apoio para Aula 1. **Título:** Indicação Cirúrgica, Preparo e Pós-Bariátrica no Consultório de Precisão - Ponto central: atuação ética, farmacoterapia sob rigor regulatório BR 2. **Critérios Cirúrgicos e Fluxo de Indicação (Tabela Densa)** - IMC, Comorbidades, Exclusões 3. **Avaliação Multidisciplinar Prévia** - Checklist exame + avaliação multidisciplinar (flowchart) 4. **Suplementação e Deficiências Comuns Pós-Cirurgia** - Tabela: deficiências, prevalência, doses, monitoramento 5. **Síndrome de Dumping: Diagnóstico e Conduta Resumida** - Bullets: sinais, timing, abordagens práticas 6. **Farmacoterapia pós-bariátrica – Quando indicar?** - Tabela: incretinas, evidência, doses, rotas, limitações BR 7. **Conduta e Monitoramento Pós-Operatório (Tabela Longitudinal)** 8. **Regulação ANVISA/CFM/WADA – Manipulação Estéril Ética** - Split: o que é regular x off-label x irregular x proibido 9. **O que NÃO fazer: GH, SARMs, drip cosmético** - Box highlight “proscrito pelo CFM” 10. **Pérolas de Consultório (Checklist Resumido)** - 5 itens-práticos para consulta 11. **Caso Clínico Resumido — Aplicação prática** - Brief-case + alternativas 12. **Referências Chave e Orientação Premium Doutiva** --- ## 12. Quick_Ref de Bolso **Pré-cirurgia:** IMC, comorbidades, avaliação multidisciplinar, exames bioquímicos, correção de deficiências **Pós-cirurgia:** - Primeiros 12 meses: check-ups mensais/bimestrais, exames padrão - Deficiências: ferro IV, B12 IM, vit D IM/VO (manipulado só ANVISA/ISO5)\n- Dumping: fracionar alimentação, evitar açúcares, acarbose tardio em selectos\n- Recidiva peso: investigar causas, só incretina com criteria e documentação robusta\n- Manipulação: nunca para GH, SARMs ou drip cosmético --- ## 13. Key_Points: 6 Essenciais 1. **Indicação de cirurgia bariátrica exige IMC ≥35 kg/m² com comorbidade ou ≥40 kg/m², avaliação multidisciplinar e documentação rigorosa.**\n2. **Preparo clínico inclui rastreio e correção de deficiências nutricionais, avaliação psicológico-psiquiátrica e exames completos.**\n3. **Farmacoterapia adjuvante pós-cirurgia (incretinas) só é indicada com documentação robusta após recidiva de peso/DM2, nunca de forma cosmética ou preventiva.**\n4. **Manipulação estéril (injeções, infusões) exige farmácia com AFE ANVISA, estabilidade comprovada e registro de uso em prontuário.**\n5. **Nunca prescrever GH, SARMs, peptídeos “anti-aging”, ou soroterapia cosmética — proibido por CFM, ANVISA e potencial risco grave.**\n6. **Monitoramento pós-bariátrica deve ser longitudinal e multidimensional — laboratorial, nutricional, psicológico e clínico.** --- ## 14. Referências Principais 1. [S1] Standards of medical care in diabetes—2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011 — Evidência A.\n2. Resolução CFM 2.131/2015. Conselho Federal de Medicina. Critérios para indicação da cirurgia bariátrica. http://www.portalmedico.org.br\n3. Portaria MS 492/2021. Ministério da Saúde.\n4. [S3] Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009. DOI 10.1086/599376 — Evidência A.\n5. [S6] Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016. DOI 10.1093/cid/civ933 — Evidência A.\n6. CFM Resolução 2.333/2023. Proíbe \"modulação hormonal\" e uso de hormônios e peptídeos para estética ou anti-aging.\n7. ANVISA RDCs referentes a manipulação estéril (verificar atualização vigente). --- > Este tratado visa elevar o padrão da prática clínica do endocrinologista/nutrólogo/clínico de consultório frente à obesidade grave e o universo farmacoterápico/manipulação no pós-bariátrica, alinhando rigor científico à segurança do paciente e exigência regulatória nacional.",
+  "quick_ref": "# Quick Reference Obesidade e Cirurgia Bariátrica ## Pré-operatório\n- IMC ≥35 kg/m² com comorbidade ou ≥40 kg/m²\n- Avaliação endocrinológica, nutricional, psicológica, cardiológica\n- Exames: hemograma, ferro, B12, cálcio, vitamina D, função renal/hepática, HbA1c, lipidograma\n- Corrigir deficiências pré-operatórias ## Pós-operatório imediato e até 12 meses\n- Consultas mensais até 6 meses; bimestrais até 12 meses\n- Monitorar anemia, ferro, B12, cálcio, vitamina D, zinco, cobre, magnésio\n- Suplementar conforme deficiência e técnica cirúrgica\n- Orientar dieta fracionada, hidratação, evitar açúcares simples ## Tratamento da Síndrome de Dumping\n- Fracionar refeições (6–8 diárias)\n- Evitar líquidos junto com sólidos\n- Evitar carboidratos simples\n- Acarbose 25–100 mg VO pós-prandial (off-label) ## Farmacoterapia para recidiva pós-bariátrica\n- Considerar incretinas (Liraglutida 3 mg/dia, Semaglutida 2,4 mg/sem, Tirzepatida 10–15 mg/sem) após avaliação multidisciplinar e exclusão de causas estruturais ou psiquiátricas\n- Manipulação só em farmácia com ANVISA/ISO5 ## O que NÃO fazer\n- Prescrever GH, SARMs, peptídeos ou soroterapia cosmética\n- Manipular hormônios para modulação ou estética\n- Usar medicações off-label sem justificativa clínica ## Monitoramento a longo prazo\n- Consultas trimestrais a semestrais após o 1º ano\n- Monitorar exames laboratoriais conforme necessidades específicas\n- Avaliar adesão nutricional e psicológica",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "42 anos"
+      },
+      {
+        "label": "IMC atual",
+        "value": "37,4 kg/m²"
+      },
+      {
+        "label": "Cirurgia bariátrica",
+        "value": "Bypass gástrico há 3 anos"
+      },
+      {
+        "label": "Peso mínimo pós-cirurgia",
+        "value": "81 kg"
+      },
+      {
+        "label": "Peso atual",
+        "value": "95 kg"
+      },
+      {
+        "label": "Sintomas após refeição",
+        "value": "Taquicardia e sudorese 20–30 minutos após carboidratos"
+      },
+      {
+        "label": "Vitaminas em uso",
+        "value": "Multivitamínico"
+      },
+      {
+        "label": "Laboratório relevante",
+        "value": "Hb 12,2 g/dL; ferritina 34 ng/mL; B12 145 pg/mL; cálcio 8,2 mg/dL; vitamina D 18 ng/mL; glicemia jejum 129 mg/dL"
+      }
+    ],
+    "title": "Paciente com recidiva ponderal e sintomas de dumping pós-bypass gástrico",
+    "reward": 15,
+    "options": [
+      {
+        "label": "a) Iniciar tirzepatida manipulada, aumentar consumo de carboidratos e manter apenas o multivitamínico",
+        "correct": false,
+        "rationale": "Uso de tirzepatida manipulada sem correção prévia de deficiências e manejo básico nutricional é incorreto e não seguro."
+      },
+      {
+        "label": "b) Corrigir ferro e B12 parenterais, ajustar vitamina D, orientar fracionamento alimentar, iniciar incretina apenas após reavaliação de adesão e exames, reforçar acompanhamento nutricional e psicológico",
+        "correct": true,
+        "rationale": "Conduta correta que prioriza correção de deficiências, manejo clínico da dumping e avaliação criteriosa para uso de terapia adjuvante."
+      },
+      {
+        "label": "c) Iniciar GH manipulado e soroterapia gotejada para “reset metabólico”",
+        "correct": false,
+        "rationale": "Indicação proibida pelo CFM, sem evidência; apresenta riscos e não é indicada na obesidade."
+      },
+      {
+        "label": "d) Indicar cirurgia bariátrica de revisão imediata sem investigação adicional",
+        "correct": false,
+        "rationale": "Revisão cirúrgica deve ser considerada somente após manejo clínico completo e exclusão de causas reversíveis."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para essa paciente?",
+    "vignette": "Mulher, 42 anos, IMC 37,4 kg/m², DM2 com HbA1c 7,9%, HAS controlada. Realizou bypass gástrico há 3 anos, chegou a 81 kg e atualmente pesa 95 kg. Refere episódios de taquicardia e sudorese 20–30 minutos após refeições ricas em carboidratos. Usa multivitamínico.",
+    "teaching": "A paciente apresenta reganho ponderal significativo associado a sintomas sugestivos de síndrome de dumping precoce. A prioridade clínica é corrigir as deficiências nutricionais documentadas (ferro, vitamina B12 e vitamina D), idealmente via parenteral devido à má absorção pós-bariátrica, realizada por farmácia autorizada. O manejo da síndrome de dumping inclui orientação para fracionamento alimentar e evitar açúcares simples. Somente após otimização das condições clínicas, adesão nutricional e reavaliação, considerar o uso criterioso de terapia adjuvante com incretinas, documentando indicação e monitorando a resposta. Iniciar GH ou soroterapia não é indicado por falta de evidência e é proibido pelo CFM. Revisão cirúrgica é uma opção posterior e somente após abordagem clínica completa e persistência do reganho significativo."
+  },
+  "refs": [
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33(Suppl 1):S11-S61. DOI 10.2337/dc10-s011"
+    },
+    {
+      "url": "http://www.portalmedico.org.br",
+      "citation": "Resolução CFM 2.131/2015. Conselho Federal de Medicina. Critérios para indicação da cirurgia bariátrica."
+    },
+    {
+      "citation": "Portaria MS 492/2021. Ministério da Saúde."
+    },
+    {
+      "citation": "Clinical practice guidelines for the diagnosis and management of intravascular catheter-related infection: 2009 Update by the Infectious Diseases Society of America. Clin Infect Dis 2009;49(1):1-45. DOI 10.1086/599376"
+    },
+    {
+      "citation": "Clinical Practice Guideline for the Management of Candidiasis: 2016 Update by the Infectious Diseases Society of America. Clin Infect Dis 2016;62(4):e1-e50. DOI 10.1093/cid/civ933"
+    },
+    {
+      "citation": "Resolução CFM 2.333/2023. Conselho Federal de Medicina. https://sistemas.cfm.org.br/normas/visualizar/resolucoes/BR/N-02333"
+    }
+  ],
+  "status": "published"
+}

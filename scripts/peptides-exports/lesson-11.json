@@ -1,0 +1,422 @@
+{
+  "position": 11,
+  "module": "Módulo 6 · Fronteira terapêutica",
+  "module_position": 6,
+  "title": "Organoproteção além do peso: Seleção clínica e evidência em peptídeos para desfechos duros",
+  "description": "Esta aula aprofundada aborda o uso avançado de peptídeos terapêuticos — em especial agonistas de incretinas, amilina e agentes duais/triplos — focando em desfechos clínicos robustos para proteção cardiovascular, renal, hepática e no contexto da apneia obstrutiva do sono. Com base nas principais evidências de fase 2/3 e diretrizes, o conteúdo enfatiza o critério de priorização do paciente segundo comorbidade e risco absoluto, dissociando a perda ponderal do benefício direto em órgãos-alvo.",
+  "duration_minutes": 75,
+  "evidence_level": "A",
+  "key_points": [
+    "Peptídeos como semaglutida apresentam benefício cardiovascular comprovado em obesos com e sem diabetes tipo 2, independente da perda de peso.",
+    "A proteção renal com incretinas, demonstrada em ensaios como FLOW, é parcial e adiciona-se a terapias padrão (ie, bloqueadores de SRAA).",
+    "Em MASLD/MASH, agonistas multiplos (ex. survodutide, retatrutide) promovem regressão de fibrose e esteatose além do efeito da perda ponderal.",
+    "Titulação lenta e monitoramento rigoroso de eventos gastrointestinais são essenciais para otimizar a adesão e segurança da terapia.",
+    "A prescrição deve basear-se exclusivamente em peptídeos aprovados e respaldados por ECR fase 3, com documentação do benefício clínico e consentimento informado.",
+    "Manipulação de peptídeos não registrados, secretagogos GH e peptídeos regenerativos carecem de evidência robusta, são proibidos e representam risco legal.",
+    "O julgamento clínico baseado na fenotipagem do paciente e na evidência de desfechos duros imuniza o médico contra riscos éticos e judiciais."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Organoproteção além do peso: critérios para seleção baseada em desfechos clínicos duros",
+      "subtitle": "Seleção criteriosa para uso de peptídeos no contexto CV, renal, hepático e do sono."
+    },
+    {
+      "head": [
+        "Estudo/Dose",
+        "População",
+        "N",
+        "Duração",
+        "Desfecho Primário",
+        "Efeito (Redução/Risco Relativo)",
+        "Observações",
+        "Evidência"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "SELECT (Semaglutida 2,4mg SC)",
+          "Obesos c/ DCV, sem DM2",
+          "17.000",
+          "5 anos",
+          "MACE-3p",
+          "-20% (HR 0,80; IC95% 0,72-0,90)",
+          "Benefício independente do DM2",
+          "Fase 3"
+        ],
+        [
+          "FLOW (Semaglutida DM2 + DRC)",
+          "DM2 com Doença Renal Cronica",
+          "3.500",
+          "~3 anos",
+          "Eventos Renais Compositos",
+          "24% ↓ risco (HR 0,76; IC95% 0,67-0,87)",
+          "Indicação emergente, off-label ANVISA",
+          "Fase 3"
+        ],
+        [
+          "Survodutide (4,8–6mg SC)",
+          "MASH/biópsia ≥F2",
+          "293",
+          "48 semanas",
+          "Resolução MASH e Fibrose",
+          "62% melhora MASH vs 14% placebo, 32% melhora fibrose",
+          "Fase 2 com desfechos histológicos",
+          "Fase 2"
+        ],
+        [
+          "Retatrutide (8–12mg SC)",
+          "MASLD com gordura hepática ≥10%",
+          "98",
+          "24 semanas",
+          "Redução % gordura hepática",
+          "82% redução vs +0,3% placebo",
+          "Correlação peso e melhora metabólica",
+          "Fase 2"
+        ],
+        [
+          "Estudo fase 3 AOS (Semaglutida)",
+          "Obesos com Apneia Moderada",
+          "~275",
+          "68 semanas",
+          "Índice Apneia-Hipopneia",
+          "Redução média de 12,8 eventos/hora",
+          "Benefício mediado parcialmente por perda peso",
+          "Fase 3"
+        ]
+      ],
+      "title": "Principais ensaios clínicos em peptídeos: desfechos cardiovasculares, renais e hepáticos",
+      "source": "Dados compilados do Posicionamento Doutiva 2026, estudos clínicos multinacionais."
+    },
+    {
+      "bars": [
+        {
+          "label": "Placebo 100%",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Semaglutida 80% (20% redução)",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "HR",
+      "title": "Redução relativa do evento MACE-3 com Semaglutida (SELECT)",
+      "source": "Estudo SELECT, 2023, N Engl J Med"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Cardiopatias ateroscleróticas estabelecidas (ex: infarto, AVC)",
+          "Doença renal crônica progresiva estável e diabética",
+          "MASLD/MASH com fibrose ≥F2 avaliada por biópsia ou imagem",
+          "HFpEF com obesidade e/ou DM2",
+          "AOS moderada a grave correlacionado com obesidade visceral"
+        ],
+        "label": "Fenótipos Clínicos Prioritários"
+      },
+      "right": {
+        "items": [
+          "Mecanismo independente da perda de peso em 30–50% do efeito",
+          "Benefícios não explicados apenas por perda ponderal",
+          "Relevância da proteção de órgão-alvo direto",
+          "Relevância da redução de eventos hospitalares e mortalidade",
+          "Avaliação e manejo multidisciplinar com ajuste terapêutico"
+        ],
+        "label": "Mecanismos e Evidências Científicas"
+      },
+      "title": "Prioridades fenotípicas na seleção do paciente vs independência da perda de peso"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Diagnóstico e avaliação clínica do paciente"
+        },
+        {
+          "label": "Estratificação fenotípica baseada em risco absoluto para CV, renal ou hepático"
+        },
+        {
+          "label": "Avaliação de contra-indicações (gastroparesia, MTC, gravidez, psiquiatria)"
+        },
+        {
+          "label": "Seleção do agente peptídico registrado e com evidência robusta"
+        },
+        {
+          "label": "Consentimento informado detalhado e documentação clínica"
+        },
+        {
+          "label": "Início da terapia com titulação lenta e monitoramento laboratorial rigoroso"
+        },
+        {
+          "label": "Avaliação periódica (4–6 semanas) com ajuste conforme efeitos adversos e resposta clínica"
+        },
+        {
+          "label": "Decisão de continuidade e ajustes com foco em desfechos duros"
+        },
+        {
+          "label": "Registro detalhado do processo para segurança jurídica e científica"
+        }
+      ],
+      "title": "Fluxograma para decisão terapêutica com peptídeos em medicina de precisão"
+    },
+    {
+      "kind": "bullets",
+      "title": "Pontos chave para segurança e eficácia",
+      "bullets": [
+        "Nunca prescrever peptídeos manipulados ou sem registro ANVISA e respaldo clínico validado.",
+        "Titulação progressiva é crítica para minimizar eventos gastrointestinais adversos e maximizar adesão.",
+        "Consentimento informado deve explicitar riscos, monitoramento necessário e off-label quando aplicável.",
+        "Monitorar glicemia, função renal, função hepática e sintomas GI nas primeiras 3 meses, depois semestralmente.",
+        "Priorização fenotípica objetiva protege o paciente e direciona melhor custo-benefício.",
+        "Utilizar somente moléculas com evidência de ensaios clínicos fase 3, evitando práticas ilegais e eticamente questionáveis.",
+        "A perda de peso não é o único objetivo — o foco está na prevenção e reversão de complicações clínicas graves."
+      ]
+    },
+    {
+      "head": [
+        "Fármaco",
+        "Dose Inicial",
+        "Incrementação",
+        "Dose Alvo",
+        "Tempo até manutenção",
+        "Observações"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida SC (Obesidade)",
+          "0,25 mg/sem",
+          "+0,25 mg/4 sem",
+          "2,4 mg/sem",
+          "≥16 semanas",
+          "Tolerabilidade GI deve guiar titulação"
+        ],
+        [
+          "Semaglutida SC (Diabetes Mellitus 2)",
+          "0,25 mg/sem",
+          "+0,25 mg/4 sem",
+          "1,0 mg/sem",
+          "≥8 semanas",
+          "Mesma conduta de titulação"
+        ],
+        [
+          "Tirzepatida SC",
+          "2,5 mg/sem",
+          "+2,5 mg/4 sem",
+          "10–15 mg/sem",
+          "≥16 semanas",
+          "Monitorar hipoglicemia e eventos GI"
+        ],
+        [
+          "Cagrilintida SC",
+          "0,3 mg/sem",
+          "+0,3 mg/4 sem",
+          "2,4–4,5 mg/sem",
+          "≥16 semanas",
+          "Usar preferencialmente em combinação com semaglutida"
+        ],
+        [
+          "Retatrutide SC (Fase II)",
+          "1–2 mg/sem",
+          "+2–4 mg/4 sem",
+          "8–12 mg/sem",
+          "≥16 semanas",
+          "Não aprovado; uso restrito a estudos"
+        ],
+        [
+          "Survodutide SC (Fase II)",
+          "0,6 mg/sem",
+          "+0,6 mg/4 sem",
+          "2,4–6 mg/sem",
+          "≥24 semanas",
+          "Tratamento de MASH; off-label"
+        ]
+      ],
+      "title": "Doses e titulação recomendadas para peptídeos aprovados e em estudos avançados",
+      "source": "Compilação de dados dos estudos clínicos e orientações Doutiva."
+    },
+    {
+      "head": [
+        "Agente",
+        "Indicação ANVISA",
+        "Indic. CV rígida",
+        "Indic. Renal",
+        "Indic. Hepático",
+        "Indicação Obesidade",
+        "Status"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Semaglutida",
+          "Diabetes Tipo 2, Obesidade (SC)",
+          "Sim (SELECT)",
+          "Emergente (FLOW off-label)",
+          "Não aprovada",
+          "Sim",
+          "Registrado ANVISA"
+        ],
+        [
+          "Tirzepatida",
+          "Diabetes Tipo 2, Obesidade",
+          "Em avaliação",
+          "Em avaliação",
+          "Não aprovada",
+          "Sim",
+          "Registrado ANVISA"
+        ],
+        [
+          "Retatrutide",
+          "Nenhuma formal",
+          "Não",
+          "Não",
+          "Não",
+          "Não",
+          "Off-label/Apenas pesquisa"
+        ],
+        [
+          "Survodutide",
+          "Nenhuma formal",
+          "Não",
+          "Não aprovado",
+          "Em investigação (fase II MASH)",
+          "Não",
+          "Off-label"
+        ],
+        [
+          "Cagrilintida",
+          "Nenhuma formal",
+          "Não",
+          "Não",
+          "Não",
+          "Não",
+          "Off-label, pesquisa"
+        ],
+        [
+          "Manipulados (ex: BPC-157, TB-500)",
+          "Nenhuma",
+          "Não",
+          "Não",
+          "Não",
+          "Não",
+          "Proibido CFM e ANVISA"
+        ]
+      ],
+      "title": "Indicações aprovadas ANVISA versus off-label e status de peptídeos selecionados",
+      "source": "Posicionamento Doutiva, ANVISA, CFM 2.333/2023."
+    },
+    {
+      "kind": "pearl",
+      "text": "\"O valor do médico está no julgamento clínico, na segurança, na documentação rigorosa e na vigilância do desfecho — jamais no rótulo ou na prescrição de peptídeos não aprovados ou misteriosos.\"",
+      "title": "Pérola clínica"
+    }
+  ],
+  "monograph": "# MONOGRAFIA DOUTIVA\n## Curso: Peptídeos na Medicina de Precisão\n### Módulo 6 — Fronteira terapêutica\n### Tema: Organoproteção além do peso: SELECT, FLOW, HFpEF, AOS, MASLD/MASH — desfechos duros na seleção do paciente\n\n----\n\n## 1. Contexto Clínico e Relevância Epidemiológica\n\nOs agonistas de receptores peptídicos — especialmente incretinas (GLP-1RA, duais e triplos agonistas), análogos de amilina (ex: cagrilintida), agonistas de GIP, e variações emergentes — atravessaram a fronteira do manejo exclusivo da obesidade e diabetes para abordagens direcionadas à proteção de órgãos vitais. Resultados de ensaios clínicos de desfecho duro (CV, renal, hepático, complicações do sono) reposicionaram esses fármacos como moduladores de risco em populações cardiometabólicas de risco elevado, muitas vezes de maneira independente da magnitude da perda ponderal. O foco regulatório e científico se deslocou do emagrecimento como fim em si para endpoints de mortalidade, eventos cardiovasculares, progressão de doença renal e regressão de esteatose/fibrose hepática.\n\n### Epidemiologia\n\n- Doença cardiovascular aterosclerótica (DCVA) segue como principal causa de morte global. Individuos com DM2, obesidade, ou ambas, têm risco acentuado para MACE e insuficiência cardíaca [S3, S5].\n- Insuficiência cardíaca com fração de ejeção preservada (HFpEF) predomina em idosos com DM2/obesidade, com considerável burden funcional.\n- Doença renal crônica (DRC) estimada em até 30% dos DM2 — principal causa de entrada em programas de diálise no Brasil e no mundo.\n- Metabolic dysfunction–associated steatotic liver disease (MASLD, antes NAFLD), incluindo MASH, atinge ~30% da população adulta [S19, S24].\n- Apneia obstrutiva do sono (AOS) correlaciona-se com obesidade visceral e risco CV, frequentemente subdiagnosticada.\n- Tais condições interligam-se, compartilham mecanismos e frequentemente coexistem, exigindo raciocínio clínico multidimensional para seleção terapêutica.\n\n---\n\n## 2. Fisiologia e Mecanismo Molecular\n\n### 2.1. Incretinas, Amilina e Novos Peptídeos\n\n- **GLP-1 (Glucagon-like Peptide-1):** Secretado por células L do íleo em resposta a nutrientes; atua via GLP-1R (receptor acoplado a proteína G).\n  - Aumenta secreção de insulina, suprime glucagon, retarda esvaziamento gástrico, reduz o apetite.\n  - Efetos extrapancreáticos: endotélio (NO), cérebro (hipotálamo), rim (SNA), hepatócito (steatosis), cardiomiócito (função diastólica), tecidos adiposo/músculo.\n\n- **GIP (Glucose-dependent Insulinotropic Polypeptide):** Secretado por células K duodenais após ingestão alimentar. GIPR expressos no pâncreas, tecido adiposo, SNC, osso.\n  - Potencial anabólico, modulação insulina, ação sinérgica com GLP-1, especialmente em contextos de agonistas duplos/triplos.\n\n- **Glucagon:** Ação catabólica, mobilização energética, rápido turnover hepático; incretinas duais/triplas exploram a modulação simultânea de GIP/GLP-1/glucagon para ampliar efeitos metabólicos.\n\n- **Amilina (análogos como cagrilintida):** Secretada com insulina, reduz ingestão alimentar, retarda esvaziamento gástrico e modula sinalização de saciedade no SNC.\n\n### 2.2. Sinalização e Organoproteção\n\n- **CV:** GLP-1R presentes no miocárdio, endotélio, rim, nervo autônomo; modulam inflamação, rigidez arterial, função endotelial e remodelamento cardíaco, além de efeitos metabólicos e antiaterogênicos [S1, S5].\n- **Rim:** Efeitos diretos (diminuem inflamação, estresse oxidativo, fibrose) e indiretos (redução de pressão intraglomerular, melhor controle glicêmico, menor peso).\n- **Fígado:** Redução de lipotoxicidade, inflamação e fibrose via GLP-1R/GLP-2R/GIPR; ação combinada de agonistas duais e triplos evidenciada em desfechos histológicos relevantes (ex: NASH, fibrose ≥F2) [S19, S24].\n- **Sono:** Perda de peso e redução de gordura visceral reduzem colapso das vias aéreas superiores, mas mecanismos extrapeso podem operar via modulação tônica de centros respiratórios.\n\n---\n\n## 3. Farmacologia Comparada (PK/PD, Engenharia Molecular, Vias de Administração)\n\n| Fármaco/Classe        | Vias       | Meia-Vida | PK-chave                  | Titulação      | Peso mol. | Engenharia          | Status ANVISA            | Observações              |\n|----------------------|------------|-----------|---------------------------|---------------|-----------|----------------------|--------------------------|-------------------------|\n| Semaglutida          | SC/oral    | 1 sem (SC)| Linear, dose-dep, alta BA (SC) | 0.25→1.0/2.4mg | ~4 kDa    | GLP-1RA modif., ac. FA    | Aprovado p/ DM2, OB SC  | Oral: menor BA, mas evidência sólida|\n| Tirzepatida          | SC         | 5–7 d     | Linear, dose-dep           | 2.5→5–15 mg    | ~6,2 kDa | Duplo (GIP/GLP-1RA)        | Aprovado p/ DM2, OB      | CV: aguardando (SELECT-T2D) |\n| Retatrutide          | SC         | >1 sem    | Linear                     | 1→4/8/12 mg    | ~8–9 kDa | Agonista triplo          | Off-label pesquisa, não aprovado| Estudos fase II        |\n| Survodutide          | SC         | >1 sem    | -                          | 0.6→4.8 mg     | ~4,5kDa  | Duplo (GLP1/Glucagon)      | Off-label pesquisa          | Fase II/III em Masld/Mash|\n| Cagrilintida         | SC         | >1 sem    | Linear, BA ~85%            | 0.3→4.5 mg     | ~4,1 kDa | Análogo de amilina         | Não aprovado (Brasil)        | Fase II–III em OB, combinado|\n| Orforglipron         | Oral       | ~24 h     | Não-peptídico, BA variável | 12–45 mg/dia   | -        | Pequena molécula GLP-1RA   | Não aprovado               | Estudo fase II         |\n\n- **Predominam formulações de administração subcutânea semanal, com crescentes tentativas de criar alternativas orais (ex: orforglipron) ou de ação prolongada.**\n- Titulações são essenciais para tolerabilidade (eventos GI dependentes do gradiente de exposição).\n\n---\n\n## 4. Evidência Crítica: Desfechos Duros de Organoproteção\n\nA seleção de pacientes para terapias peptídicas deve priorizar aqueles com mais risco absoluto e potencial de benefício líquido, conforme demonstrado em ensaios de desfecho duro (redução de mortalidade, MACE, eventos renais/hepáticos, hospitalizações). A seguir, sumarizamos os principais estudos (nível de evidência A):\n\n### Tabela 1 — Ensaios clínicos: desfechos duros além do peso\n\n| Estudo/Dose                      | População                  | n   | Duração | Desfecho Primário         | Placebo HR (IC95%) ou Redução Absoluta                                  | OBS/Limitações            | Evidência |\n|----------------------------------|----------------------------|-----|---------|--------------------------|--------------------------------------------------------------------------|---------------------------|-----------|\n| SELECT (semaglutida 2,4mg ow)    | Obesos c/ DCV, sem DM2     | 17k | 5 anos  | MACE-3p                  | -20% (HR 0,80; 0,72–0,90, p<0,001)                                      | População sem DM2         | Fase 3    |\n| FLOW (semaglutida, DM2+DRC)      | DM2, DRC                   | 3,5k| ~3 anos | Doença renal compósita   | 24% ↓ risco (HR 0,76; 0,67–0,87)                                        | Não-ação em DRC não-DM2   | Fase 3    |\n| SURMOUNT/CARDIOVASCULAR (tirz.)  | Obesos c/ DM2(+/-DCV)      | 25k | ~5 anos | MACE-3/4p                | Aguardando results (2025)                                                | Em andamento              | Fase 3    |\n| HFpEF (semaglutida 2,4mg ow)     | Obesidade+HFpEF            | 529 | 52 sem  | KCCQ + peso + 6min walk  | KCCQ ↑ 7,8 pts (IC95% 5,5–10,0), -13,3kg (IC95% -15,1–-11,6)            | Surrogates                | Fase 3    |\n| MASH (survodutide 4.8-6mg ow)    | MASLD/MASH (biópsia)       | 293 | 48 sem  | Resolução MASH/improv. fibrose | 62% MASH resol. (vs. 14% placebo), 32% ≥1 estágio na fibrose vs 18%     | Amostra pequena           | Fase 2    |\n| MASLD (retatrutide 8-12mg ow)    | MASLD ≥10% fígado          | 98  | 24–48sem| % redução gordura hepática| -82% (placebo: -0.3%), 79–86% c/ gordura hepática normal (<5%)          | Rápida/pequena amostra    | Fase 2    |\n| AOS (semaglutida, FASE 3)        | Obesos com AOS moderada    | ~275| 68 sem  | AHI                      | -12.8 eventos/h (IC95% -16,2–-9,4)                                      | Redução dependente da perda de peso | Fase 3    |\n\n- **CV**: SELECT demonstra redução de MACE em obesos sem DM2, posicionando semaglutida para indicação além do controle glicêmico [S1, S28].\n- **Renal**: FLOW, inovando ao demonstrar proteção renal relevante em DM2+DRC com endpoint duro validado [S5].\n- **Hepático**: Resultados histológicos robustos para MASH com survodutide/retatrutide vão além de ALT/AST e postulam novo padrão de cuidado [S19, S24, S25].\n- **AOS**: Melhora do índice de apneia-hipopneia (AHI) na FASE 3 de semaglutida corrobora benefício sobre marcadores de função respiratória do sono.\n- **Peso**: Em muitos desfechos, benefício persiste mesmo controlando para mediador \"perda de peso\".\n\n#### Tabela 2 — Efeitos relativos vs. absolutos e estimands em estudos peptídicos\n\n| Estudo        | Efeito absolutamente dependente da perda de peso? | Proporção do benefício (aprox.) | Métodos de controle de viés |\n|---------------|--------------------------------------------------|----------------------------------|-----------------------------|\n| SELECT        | Parcialmente (peso/marcadores mediadores)         | 1/3–1/2 do efeito é independente | Modelos de mediação, análise marginal |\n| FLOW          | Parcial (PA, HbA1c e peso juntos explicam parte)  | 40–70% atribuído ao efeito ex-peso| Modelo multi-variado |\n| MASLD/MASH    | Fortemente correlacionado, mas efeitos residuais  | Efetos adicionais além do peso    | Ajuste por perda de peso, análises per-protocol |\n\n**Limitações gerais:** eventos GI limitam titulação/persistência; adesão decrescente em longo prazo; não incluídas populações instáveis/hemodialíticas; registros restritos (ANVISA/CFM) [S1, S26–S28].\n\n---\n\n## 5. Indicações, Contraindicações e Seleção de Pacientes\n\n### 5.1. Critérios Registrados ANVISA\n\n| Agente                    | Indicações ANVISA              | CV duro? | Renal? | Hepático? | Obesidade? |\n|---------------------------|------------------------------- |----------|--------|-----------|------------|\n| Semaglutida 1/2.4mg SC    | DM2, OB (SC), CV em obesidade  | Sim      | Sim*   | Não       | Sim        |\n| Tirzepatida               | DM2, OB                       | (Em andamento) | (Em andamento) | Não   | Sim        |\n\n*- Renal: FLOW off-label aguardando atualização.\n\n### 5.2. Off-label Documentado\n\n- **Duais/Triplos agonistas** (tirzepatida, retatrutide, survodutide): evidência robusta para peso, glicemia, esteatose/fibrose; não aprovados para indicações não-metabólicas.\n- **Cagrilintida**: uso off-label, combinada ou monoterapia, ainda sem registro no Brasil.\n\n### 5.3. Contrapontos de Proibição (CFM/WADA)\n\n- **Peptídeos manipulados (ex: BPC-157, TB-500):** ausência de PK/PD humano válida e dados de segurança; PROIBIDOS pelo CFM (Resolução CFM 2.333/2023) e ANVISA.\n- **Uso em atletas/competição:** WADA proíbe GLP-1RA apenas quando combinados com anabolizantes ou para manipulação de peso antiética — verificar lista anual.\n\n### 5.4. Seleção Fenotípica\n\n1. **Comorbidade prioritária:** obesidade+DCV+. DRC estágio 2–3b. MASH ≥F2. HFpEF.\n2. **Idade avançada/fragilidade:** avaliar risco GI, sarcopenia, hipotensão.\n3. **Restrição/CI:** Gastroparesia, pancreatite prévia, câncer medular, MTC familiar.\n4. **Red flags:** recusa de monitorização, doença psiquiátrica descompensada, uso abusivo de \"peptídeos manipulados\".\n\n---\n\n## 6. Conduta Prática Passo a Passo\n\n### 6.1. Fluxo geral\n\n1. **Estratificação fenotípica pelo risco e oportunidade de desfecho duro**\n2. **Discussão compartilhada e assinatura de consentimento informado**\n3. **Início com titulação lenta, monitorização laboratorial, scoring de sintomas GI**\n4. **Documentação detalhada da justificativa: foco no endpoint além do peso**\n\n### 6.2. Tabela de Doses e Titulação\n\n| Fármaco            | Dose inicial  | Incremento   | Dose alvo         | Semana de manutenção | Observações           |\n|--------------------|--------------|--------------|-------------------|----------------------|----------------------|\n| Semaglutida SC OB  | 0.25 mg/sem  | +0.25mg/4sem | 2.4mg/sem         | ≥16                  | GI: titular conforme tolerabilidade |\n| Semaglutida SC DM2 | 0.25 mg/sem  | +0.25mg/4sem | 1.0mg/sem         | ≥8                   | GI: igual acima      |\n| Tirzepatida        | 2.5 mg/sem   | +2.5mg/4sem  | 10-15mg/sem       | ≥16                  | Considerar hipoglicemia |\n| Cagrilintida       | 0.3 mg/sem   | +0.3mg/4sem  | 2.4-4.5mg/sem     | ≥16                  | Usar em combinação?  |\n| Retatrutide        | 1-2 mg/sem   | +2-4mg/4sem  | 8-12mg/sem        | ≥16                  | Fase II - off-label  |\n| Survodutide        | 0.6 mg/sem   | +0.6mg/4sem  | 2.4-4.8-6mg/sem   | ≥24                  | Estudo MASH/Fibrose  |\n\n### 6.3. Manejo de Eventos Adversos\n\n**Principais eventos:** náusea, diarreia, constipação, vômitos, cefaleia, fadiga, refluxo, hipoglicemia (se DM2), pancreatite rara.\n\n#### Tabela — Manejo GI\n\n| Sintoma            | Intensidade | Conduta                                               |\n|--------------------|-------------|-------------------------------------------------------|\n| Náusea leve        | Leve        | Fracionar refeições, hidratação, adiar dose           |\n| Náusea persistente | Moderada    | Reduzir/estabilizar dose, antiemético, buscar causas |\n| Vômitos >24h       | Grave       | Suspender, avaliar desidratação/eletrolitos           |\n| Constipação        | Leve/moder. | Aumentar fibras, hidrat., laxativo leve PRN           |\n\n---\n\n## 7. Monitoramento Laboratorial e de Composição Corporal\n\n| Parâmetro                        | Frequência Inicial         | Risco/Red Flag                           |\n|-----------------------------------|---------------------------|------------------------------------------|\n| Glicemia, HbA1c                  | Basal, 1–3m, 6m           | Hipoglicemia/titul. / resposta           |\n| Função renal (eletrolitos, eTFG) | Basal, 3–6m                | DRC progressiva, risk SRAA               |\n| Prova hepática (ALT, AST, GGT)   | Basal, 3–6m, 12m          | Elevação ALT/AST persistente              |\n| PA, FC, peso, circunferência abd.| Mensal                     | Queda abrupta = investigar causas         |\n| DXA/BIA                          | A cada 6–12m              | Sarcopenia não usual em tratamentos GI    |\n| Lipidograma                      | 3–6m                      | Aterosclerose residual/resposta terapêutica|\n| Outros: PCR, ferritina, FA, INR  | Individualizar            | Susp. de resposta inflamatória, fibrose   |\n| Escore AHI (AOS)                 | Pré e pós 24–52sem        | Decisão continuidade/benefício prático    |\n\n---\n\n## 8. Segurança, Interações e Perioperatório\n\n- **Interações relevantes:** Insulina/sulfonilureias— aumentar o risco de hipoglicemia (DM2); dimetildigoxina— possível alteração na absorção; warfarina— monitorar INR na estabilização ponderal.\n- **Perioperatório:** Suspender dose semanal 1–2 semanas antes cirurgias GI/macroabertas; risco de refluxo/aspiração em indução.\n- **Gravidez/lactação:** CI absoluta. Descontinuar 2 meses antes da concepção planejada.\n- **Casos graves GI:** investigar para gastroparesia, pancreatite ou obstrução.\n- **Risco de tumores de células C tireoidianas:** CI em história pessoal/familiar de MTC ou MEN2.\n\n---\n\n## 9. Aspectos Regulatórios e Éticos no Brasil\n\n- **ANVISA:** GLP-1RA (semaglutida, liraglutida) aprovados para DM2/obesidade; DRC/esteatohepatite ainda off-label. Duais/triplos e amilina ainda não aprovados na maioria das indicações extras [S26–S27].\n- **CFM Resolução 2.333/2023:** PROÍBE receita ou manipulação de peptídeos sem registro e evidência robusta (excluindo GLP-1RA de marcas aprovadas) [S1, S26].\n- **Consentimento informado:** obrigatório para qualquer desvio de bula (obtenção documentada e detalhada). O termo deve explicitar riscos, benefícios, vias de obtenção, monitoramento, alternativas, e que o frasco/peptídeo não é o produto vendido, mas sim o processo médico, registro e vigilância.\n- **Pesquisa clínica:** participar de estudo registrado NCT/REB aprovado, se alternativa existirem e a inclusão for possível em perfil adequado.\n- **WADA:** uso de GLP-1RA em atletas pode ser passível de infração caso em contexto de manipulação de peso não justificada.\n\n---\n\n## 10. Fronteira Terapêutica e o que NÃO Prescrever\n\n### Fronteira Atual\n\n- **Peptídeos multiagonistas** (retatrutide, survodutide) devem ser considerados experimentais/off-label mesmo com dados de ECRs robustos; priorizar apenas em contexto de falha terapêutica ou critério de inclusão restrito com monitoramento superespecializado.\n- **CagriSema** (cagrilintida+semaglutida): resultados de fase 3 em aprovação; indicar apenas em protocolo institucional ou pesquisa vigilada [S16, S21].\n- **Indicação além do peso:** a documentar e justificar sempre pelo endpoint final — sobrevida, preservação de órgão, regressão de fibrosis.\n\n### O que NÃO prescrever\n\n- **BPC-157, TB-500, secretagogos ou peptídeos com alegação regenerativa/manipulada:** Risco legal e ético, ausência de PK humana, ECRs, ou pureza garantida. (vide S1, S27)\n- **Agentes sem registro em farmacopeia internacional válida:** não se deve prescrever derivados sem procedência, especialmente \"peptídeos recém-divulgados em protocolos alternativos\".\n- **Uso em atletas sem necessidade médica:** risco de infração ética, esportiva e civil.\n- **Conduzir tratamento off-label sem monitorização intensiva ou consentimento detalhado.**\n\n---\n\n## 11. Pérolas, Armadilhas e Checklist do Consultório\n\n### Pérolas Clínicas\n\n- Em pacientes obesos SEM DM2 mas com DCV estabelecida, o benefício em MACE é tão grande quanto em DM2 — priorize este fenótipo.\n- Em DRC, a redução de endpoints renais é parcialmente independente do peso, mas não substitui bloqueio SRAA ou glicocontrol padrão de DM2.\n- Na doença hepática (MASH/MASLD), perda ponderal é mediador principal, mas incretinas e duais/triplos aceleram resposta histológica para além do emagrecimento isolado em parte dos casos.\n- SEM consentimento minucioso, toda a segurança científica pode se perder no plano ético/jurídico.\n- Monitoramento GI e laboratorial próximo diminui risco de suspensão/complicações em 80–90% dos casos.\n\n### Armadilhas\n\n- Titulação \"agressiva\" para perda de peso rápida -> maior risco de hospitalização por eventos GI/pancreatite.\n- Negligenciar contraindicações absolutas (gastroparesia, neoplasias familiares, gravidez).\n- Prescrever/manipular peptídeos sem rastreabilidade e registro — risco massivo ao paciente e ao CRM.\n\n### Checklist do Consultório (60 segundos)\n\n1. Paciente tem diagnóstico de risco absoluto para CV/Renal/Hepático (e não só objetivo estético)?\n2. Documentação de tentativa prévia (nutrição, exercício, terapia padrão)?\n3. Verificação de contraindicações absolutas (gastroparesia/medular)?\n4. Oferta exclusiva de forma registrada/aprovada ANVISA?\n5. Consentimento informado arquivado e assinado?\n6. Orientação sobre EA e plano de contato em caso de sintomas GI/agudos?\n7. Data para primeira reavaliação marcada (<1m pós-início)?\n\n---\n\n## 12. Caso Clínico\n\n### Enunciado\n\nHomem, 59 anos, brasileiro, IMC 36 kg/m², ex-tabagista, hipertenso controlado, com DM2 há 10 anos, HAS, EFG 51 ml/min/1,73m². Não tem história prévia de pancreatite, câncer familiar, gastroparesia, nem sintomas psiquiátricos. ECG: FE 54%. Biópsia hepática: MASH estágio F2. Faz uso de metformina, irbesartana, sinvastatina. Queixa-se de fadiga, limitação para caminhar >300m.\n\n**Laboratórios:** HDL 34, LDL 98, HbA1c 7.5%, TGO/TGP ligeiramente elevadas, PCR 1,2. Peso habitual 108kg, altura 1,73m.\n\n### Condutas possíveis\n\nA. Iniciar semaglutida SC 0,25mg/sem, titulando para 2,4mg; monitorar HbA1c, função renal, titular anti-hipertensivo se necessário. Orientar consentimento formal, monitorar eventos GI e ajustando dose conforme tolerância. Priorizar documentação de prevenção CV, renal e tratamento de MASH.\n\nB. Prescrever cagrilintida em farmácia de manipulação, associado a GHRP-6, com dose empírica subcutânea escalonada semana a semana; combinar sem documentação formal, sem titulação padronizada, enfatizando “cura” da MASLD e força muscular.\n\nC. Indicar terapia com BPC-157 manipulado, associado a medicações “naturais” para fígado, sem exames laboratoriais de seguimento, orientação informada ou prescrição formal.\n\nD. Suspender qualquer intervenção peptídica até perda de peso ≥10% apenas com dieta e metformina, retornar monitorado a cada 6 meses.\n\n### Resposta correta: **A**\n\n**Justificativa e racional clínico:**\n- Paciente apresenta risco absoluto para eventos CV (idade, DM2, HAS, HDL, história tabágica), há lesão renal estabelecida e doença hepática avançando. Semaglutida titulada, registrada, é o único peptídeo com base de evidência fase 3 para benefício CV, renal e hepático no perfil fenotípico proposto, além de ter aprovação regulatória.\n- A opção B expõe o paciente a riscos legais/éticos graves e risco desconhecido de peptídeos experimentais não aprovados (CFM/ANVISA).\n- A opção C não tem respaldo científico, jurídico e coloca paciente em grave risco de iatrogenia e perda de vínculo médico.\n- A opção D posterga tratamento de alto impacto clínico que poderia – comprovadamente – reduzir eventos duros, mortalidade e progressão das doenças.\n\n---\n\n## 13. Slides — Aula estruturada (modelo para apresentação)\n\n### 1. (Title Slide)\n- Organoproteção além do peso — Limiar terapêutico em endócrino/metabologia avançada\n\n### 2. (Tabela) — Ensaios fase 2/3\n| Estudo/Dose    | População  | n     | Desfecho prim.   | Red. (%) / HR          |\n|:---------------|:-----------|:------|:-----------------|:-----------------------|\n| SELECT         | Obesos/DCV | 17k   | MACE             | -20% / HR 0,8          |\n| FLOW           | DM2/DRC    | 3,5k  | Renal compósito  | -24% / HR 0,76         |\n| Survodutide    | MASH       | 293   | Resolução MASH   | 62% vs 14% placebo     |\n\n### 3. (Bar Chart)\n- SELECT: % de redução de MACE-3p (sem DM2) vs placebo\n\n### 4. (Split) \n- Esquerda: Razão de priorização pela comorbidade (CV/Renal/Hepático)\n- Direita: Efetividade independente do peso\n\n### 5. (Flowchart)\n- Raciocínio clínico: Triagem → Critério phenotípico → Escolha do peptídeo → Consentimento → Monitoramento → Desfecho\n\n### 6. (Checklist Slide)\n- “Produto entregue”: Segurança, evidência fase 3, documentação, follow-up laboratorial.\n\n### 7. (Doses)\n| Fármaco        | Titulação inicial    | Dose alvo | Semana manutenção |\n|----------------|---------------------|-----------|------------------|\n| Semaglutida    | 0.25mg/sem->2.4mg   | 2.4mg     | 16+              |\n| Tirzepatida    | 2.5mg/sem->15mg     | 10–15mg   | 16+              |\n\n### 8. (Table) — Indicações Registradas vs Off-label\n| Fármaco        | ANVISA  | CV | Renal | Hepático | Peso  |\n|----------------|---------|----|-------|----------|-------|\n| Semaglutida    | OK/OB   |OK  | (!)   | (!)      | OK    |\n| Tirzepatida    | OK/OB   |(?) | (?)   | (?)      | OK    |\n\n### 9. (Pearl Slide)\n- “O que o médico vende: julgamento, segurança, documentação, e vigilância do desfecho — nunca frasco de research peptide.”\n\n---\n\n## 14. Quick_ref — Guia de Bolso (Doses, Red Flags, Checklist)\n\n| Peptídeo         | Titulação (semanas)     | Dose Alvo         | Red Flags                  | Checks |\n|------------------|------------------------|-------------------|----------------------------|--------|\n| Semaglutida      | 0.25→0.5→1.0→2.4/sem   | 2.4 mg/sem        | GI refratário, pancreatite | GI; eTFG; Enz. Hépticas |\n| Tirzepatida      | 2.5→5→10→15mg/sem      | 10-15 mg/sem      | Hipoglicemia, CI absoluta | HbA1c  |\n| Survodutide      | 0.6→2.4→4.8mg/sem      | 4.8mg/sem         | Off-label strict          | ALT, Fígado Bx         |\n| Retatrutide      | 2.0→8.0→12mg/sem       | 8–12 mg/sem       | Fase 2 pesquisa           | ALT, esteatose         |\n\n### Red flags:\n- Gastroparesia, MTC/MEN2, doença psiquiátrica instável, gravidez.\n- Consentimento não preenchido/armazenado.\n\n### Checklist 60 segundos:\n1. Confirme critério fenotípico (DCV/DRC/MASH)\n2. Verifique contraindicações e fármacos concomitantes\n3. Cheque status de prescrição ANVISA\n4. Consentimento assinado e registrado\n5. Plano de monitoramento laboratorial\n6. Orientação prática e plano de ação para EA\n7. Data para reavaliação agendada\n\n---\n\n## 15. Key_points (Frases clínicas acionáveis)\n\n1. Priorize peptídeos aprovados em pacientes com risco absoluto de evento CV, renal ou hepático — o benefício vai além do peso perdido.\n2. Titulação lenta e consentimento informado rígido são imprescindíveis para segurança e legalidade do ato médico — nunca prescreva manipulados de procedência descontrolada.\n3. Sempre monitore resposta laboratorial e efeitos adversos GI no mínimo a cada 4–6 semanas no início do tratamento peptídico.\n4. Em pacientes com DCV estabelecida e/ou DRC, incretinas reduzem eventos duros mesmo que a perda de peso seja modesta ou moderada.\n5. Documente justificativa fenotípica, adesão e monitoramento como parte integrante do cuidado de precisão.\n6. Não venda, não indique, não assine receita de peptídeos sem registro e base ECR — risco judicial e ético é elevado.\n7. Atualize-se sobre registros ANVISA, diretrizes CFM e dados emergentes para sempre recalibrar sua prescrição de acordo com a melhor evidência.\n\n---\n\n## 16. Referências\n\n1. Conselho editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n2. Garvey WT, Blüher M, Osorto Contreras CK et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med 2025.\n3. le Roux CW, Steen O, Lucas KJ et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol 2024.\n4. Sanyal AJ, Kaplan LM, Frias JP et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med 2024.\n5. Sanyal AJ, Bedossa P, Fraessdorf M et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med 2024.\n6. Wharton S, Blevins T, Connery L et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med 2023.\n7. Jastreboff AM, Kaplan LM, Frías JP et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med 2023.\n8. Frias JP, Deenadayalan S, Erichsen L et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a phase 2 trial. Lancet 2023.\n9. Rosenstock J, Frias J, Jastreboff AM et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a phase 2 trial. Lancet 2023.\n10. Lau DCW, Erichsen L, Francisco AM et al. Once-weekly cagrilintide for weight management in people with overweight and obesity: a phase 2 trial. Lancet 2021.\n11. Enebo LB, Berthelsen KK, Kankam M et al. Safety, tolerability, pharmacokinetics, and pharmacodynamics of cagrilintide with semaglutide. Lancet 2021.\n12. Estudos SELECT, FLOW, SURPASS, SURMOUNT, MASH, ClinicalTrials.gov.\n13. Clinical Trials Reports: NCT05567796, NCT04881760, NCT04771273.\n14. S27. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n\n*(Referências suplementares e diretrizes internacionais citadas conforme a descrição dos sumários dos estudos de base e posicionamentos doutiva)*\n\n---\n\n**Nota final:** O julgamento médico, a seleção personalizada com base em risco absoluto e desfecho relevante, a documentação rigorosa e o uso estrito de fármacos registrados são o verdadeiro valor diferencial — e proteção ética/profissional — do prescritor moderno em medicina de precisão com peptídeos.",
+  "quick_ref": "# Guia Rápido para Uso de Peptídeos em Organoproteção\n\n## Tabelas de Dose\n\n| Peptídeo      | Dose Inicial       | Incremento           | Dose Alvo        | Titulação Ideal  |\n|---------------|--------------------|----------------------|------------------|------------------|\n| Semaglutida   | 0,25 mg SC semanal  | +0,25 mg a cada 4 sem | 2,4 mg/sem       | ≥16 semanas      |\n| Tirzepatida   | 2,5 mg SC semanal   | +2,5 mg a cada 4 sem  | 10–15 mg/sem     | ≥16 semanas      |\n| Cagrilintida  | 0,3 mg SC semanal   | +0,3 mg a cada 4 sem  | 2,4–4,5 mg/sem   | ≥16 semanas      |\n| Retatrutide   | 1–2 mg SC semanal   | +2–4 mg a cada 4 sem  | 8–12 mg/sem      | ≥16 semanas      |\n| Survodutide   | 0,6 mg SC semanal   | +0,6 mg a cada 4 sem  | 4,8–6,0 mg/sem   | ≥24 semanas      |\n\n## Red Flags\n\n- Gastroparesia diagnosticada\n- História ou risco familiar de tumor medular de tireoide/MEN2\n- Gravidez ou amamentação\n- Doença psiquiátrica instável\n- Ausência de consentimento informado documentado\n\n## Checklist em Consultório (60 segundos)\n\n1. Paciente com risco absoluto documentado para CV, renal ou hepático?\n2. Tentativa prévia com medidas não farmacológicas adequadas?\n3. Contraindicações absolutas descartadas?\n4. Prescrição em conformidade com medicamentos registrados ANVISA?\n5. Consentimento informado firmado e arquivado?\n6. Plano claro para monitoramento laboratorial e clínico?\n7. Consulta de revisão agendada em 4–6 semanas?\n\n---\n\n## Nota Final\n\nA segurança e a eficácia dependem da rigorosa avaliação fenotípica, proteção legal, monitoramentos periódicos e atualização constante com evidência emergente.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "59 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "36 kg/m²"
+      },
+      {
+        "label": "DM2",
+        "value": "10 anos"
+      },
+      {
+        "label": "eGFR",
+        "value": "51 mL/min/1,73m²"
+      },
+      {
+        "label": "Biópsia hepática",
+        "value": "MASH estágio F2"
+      },
+      {
+        "label": "Uso atual",
+        "value": "Metformina, sinvastatina, irbesartana"
+      },
+      {
+        "label": "Sintomas",
+        "value": "Fadiga, limitação para caminhar >300 m"
+      },
+      {
+        "label": "FEVE",
+        "value": "54% (ecocardiograma)"
+      }
+    ],
+    "title": "Paciente com diabetes tipo 2, obesidade e MASH: abordagem com semaglutida para organoproteção",
+    "reward": 15,
+    "options": [
+      {
+        "label": "A. Iniciar semaglutida SC 0,25 mg/sem, titulando até 2,4 mg/sem com monitoramento clínico e laboratorial",
+        "correct": true,
+        "rationale": "Escolha baseada em evidência científica robusta e aprovação para tratamento de obesidade, DM2 e risco CV, com dados favoráveis em proteção renal e hepática. Titulação e monitoramento minimizam eventos adversos."
+      },
+      {
+        "label": "B. Prescrever cagrilintida manipulada em farmácia clandestina associada a secretagogos GH sem titulação formal",
+        "correct": false,
+        "rationale": "Uso de peptídeos manipulados e secretagogos GH carece de evidência clínica, é proibido pelo CFM e ANVISA, expondo o paciente a riscos legais e de segurança."
+      },
+      {
+        "label": "C. Indicar terapia com BPC-157 manipulada com suplementos naturais para fígado, sem exames.",
+        "correct": false,
+        "rationale": "Ausência de validação científica humana, risco elevado e omissão de monitoramento, o que pode levar à iatrogenia e consequente dano ao paciente."
+      },
+      {
+        "label": "D. Adiar tratamento peptídico até perda de peso ≥10% somente com dieta e metformina, reavaliando em 6 meses.",
+        "correct": false,
+        "rationale": "Postergar tratamento eficaz pode expor o paciente a risco aumentado de eventos adversos cardiovasculares, renais e hepáticos; além disso, perda isolada de peso é difícil e lenta nesta população."
+      }
+    ],
+    "question": "Qual a conduta terapêutica mais adequada para este paciente considerando os dados clínicos e evidência atual?",
+    "vignette": "Homem, 59 anos, brasileiro, IMC 36 kg/m², ex-tabagista, hipertenso controlado, diabetes mellitus tipo 2 há 10 anos. Tem eGFR de 51 mL/min/1,73m². Biópsia hepática mostra MASH estágio F2. Está em uso de metformina, sinvastatina e irbesartana. Queixa-se de fadiga e limitação do exercício.",
+    "teaching": "Este paciente apresenta alto risco cardiovascular, doença renal crônica moderada e esteato-hepatite metabólica com fibrose, condições para as quais a semaglutida possui evidência robusta para redução de eventos cardiovasculares (SELECT), proteção renal (FLOW) e melhora histológica em MASH, mesmo independentemente da perda de peso significativa. A indicação da semaglutida deve ser feita com consentimento informado, titulação gradual para minimizar efeitos adversos gastrointestinais, e monitoramento laboratorial adequado. Prescrição de peptídeos não registrados, manipulados ou não testados em humanos apresenta riscos éticos e legais significativos e deve ser evitada. Postergar tratamento ou tentar perda de peso apenas pela dieta pode retardar a melhora e aumentar risco de complicações. Assim, a semaglutida titulada é a escolha mais segura e baseada em evidência para este caso, priorizando a redução de risco e melhor desfecho clínico."
+  },
+  "refs": [
+    {
+      "citation": "Conselho editorial Doutiva. Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Garvey WT, Blüher M, Osorto Contreras CK, et al. Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2025;doi:10.1056/nejmoa2502081"
+    },
+    {
+      "citation": "le Roux CW, Steen O, Lucas KJ, et al. Glucagon and GLP-1 receptor dual agonist survodutide for obesity: a randomised, double-blind, placebo-controlled, dose-finding phase 2 trial. Lancet Diabetes Endocrinol. 2024;doi:10.1016/s2213-8587(23)00356-x"
+    },
+    {
+      "citation": "Sanyal AJ, Kaplan LM, Frias JP, et al. Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial. Nat Med. 2024;doi:10.1038/s41591-024-03018-2"
+    },
+    {
+      "citation": "Sanyal AJ, Bedossa P, Fraessdorf M, et al. A Phase 2 Randomized Trial of Survodutide in MASH and Fibrosis. N Engl J Med. 2024;doi:10.1056/nejmoa2401755"
+    },
+    {
+      "citation": "Wharton S, Blevins T, Connery L, et al. Daily Oral GLP-1 Receptor Agonist Orforglipron for Adults with Obesity. N Engl J Med. 2023;doi:10.1056/nejmoa2302392"
+    },
+    {
+      "citation": "Jastreboff AM, Kaplan LM, Frías JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial. N Engl J Med. 2023;doi:10.1056/nejmoa2301972"
+    },
+    {
+      "citation": "Frias JP, Deenadayalan S, Erichsen L, et al. Efficacy and safety of co-administered once-weekly cagrilintide 2·4 mg with once-weekly semaglutide 2·4 mg in type 2 diabetes: a phase 2 trial. Lancet. 2023;doi:10.1016/s0140-6736(23)01163-7"
+    },
+    {
+      "citation": "Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a phase 2 trial. Lancet. 2023;doi:10.1016/s0140-6736(23)01053-x"
+    },
+    {
+      "citation": "Lau DCW, Erichsen L, Francisco AM, et al. Once-weekly cagrilintide for weight management in people with overweight and obesity: a phase 2 trial. Lancet. 2021;doi:10.1016/s0140-6736(21)01751-7"
+    },
+    {
+      "citation": "Enebo LB, Berthelsen KK, Kankam M, et al. Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2·4 mg for weight management: a randomised, controlled, phase 1b trial. Lancet. 2021;doi:10.1016/s0140-6736(21)00845-x"
+    },
+    {
+      "citation": "Estudos SELECT, FLOW, SURPASS, SURMOUNT, MASH - registros ClinicalTrials.gov e publicações científicas (verificar detalhamento)."
+    }
+  ],
+  "status": "published"
+}

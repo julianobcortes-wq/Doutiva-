@@ -1,0 +1,242 @@
+{
+  "position": 6,
+  "module": "Módulo 3 · Treino",
+  "module_position": 3,
+  "title": "Emagrecimento com Preservação de Massa Magra sob Incretinas e Déficit Energético",
+  "description": "Protocolo clínico estruturado para endocrinologistas, nutrólogos e clínicos visando perda de peso com preservação da massa magra, integrando agonistas de incretina (tirzepatida, semaglutida), déficit calórico moderado e treino resistido. Inclui evidências robustas de fase 3, estratégias para minimizar sarcopenia e complicações estéticas (ex.: 'Ozempic face'), bem como orientações regulatórias específicas para o Brasil.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Agonistas de incretina (tirzepatida, semaglutida) promovem emagrecimento robusto (>15% peso corporal) com evidência de ECR fase 3.",
+    "Uso isolado de incretinas com déficit calórico intenso sem treino resulta em perda significativa de massa magra (até 35-40% da perda total).",
+    "Protocolos integrados que combinam uso farmacológico, treino resistido e ingestão proteica ≥1,2 g/kg peso magro reduzem perda magra para <20%.",
+    "Plateaus de emagrecimento são esperados e demandam ajuste dinâmico de deficit, treino e suporte nutricional.",
+    "\"Ozempic face\" é uma complicação estética evitável com emagrecimento controlado e preservação muscular; seu tratamento com off-label hormonal não é ético nem seguro.",
+    "Manipulação estéril de incretinas e uso de peptídeos (GH anti-aging, GHRP, etc.) são proibidos segundo ANVISA e CFM no Brasil, com riscos legais e éticos expressivos.",
+    "Monitoramento periódico com DXA/BIA, força muscular e perfil bioquímico é obrigatório para otimizar resultados e minimizar riscos."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Emagrecimento com Preservação de Massa Magra sob Incretinas",
+      "subtitle": "Protocolo Estruturado para Endocrinologistas, Nutrólogos e Clínicos"
+    },
+    {
+      "kind": "bullets",
+      "title": "Por que Integrar Treino e Dieta à Incretina?",
+      "bullets": [
+        "Perda de massa magra pode chegar a 35–40% do peso total perdido com monoterapia farmacológica",
+        "Proporção de perda magra <20% atingida apenas com treino regular e ingestão adequada de proteína (≥1,2g/kg de massa magra)",
+        "Plateaus metabólicos e estéticos são inevitáveis sem estratégia integrada e individualizada"
+      ]
+    },
+    {
+      "head": [
+        "Fármaco",
+        "ΔPeso (%)",
+        "Δ Massa Magra (%)",
+        "Exercício",
+        "Registro ANVISA"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Tirzepatida",
+          "-15 a -21",
+          "-2 a -7",
+          "Sim/Não",
+          "Sim"
+        ],
+        [
+          "Semaglutida",
+          "-12 a -15 ",
+          "-3 a -6",
+          "Sim/Não",
+          "Sim"
+        ]
+      ],
+      "title": "Comparação de Fármacos e Perda de Massa Magra",
+      "source": "Adaptado da monografia e referências S1, S2"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Paciente obeso → Excluir contraindicações",
+          "Incretina registrada (semaglutida/tirzepatida)",
+          "Déficit calórico moderado (500–750 kcal/dia)",
+          "Ingestão proteica aumentada (≥1,2g/kg magra)",
+          "Treino de resistência 3x/semana supervisionado",
+          "Monitoramento trimestral com DXA/BIA",
+          "Ajustes para minimizar perda magra e 'Ozempic face'"
+        ],
+        "label": "Processo Clínico"
+      },
+      "right": {
+        "items": [
+          "Estratégia integrada reduz catabolismo muscular",
+          "Prevenção de eventos adversos e efeito estético",
+          "Acompanhamento multidisciplinar fundamental"
+        ],
+        "label": "Resultados Esperados"
+      },
+      "title": "Fluxograma Clínica–Conduta Integrada"
+    },
+    {
+      "kind": "bullets",
+      "title": "Cenários Off-Label e Práticas a Evitar",
+      "bullets": [
+        "Manipulação estéril de incretinas é proibida no Brasil",
+        "Uso de GHRP, SARMs, peptides não regulamentados: infração ética/legal",
+        "'Soro fit' e drips sem indicação médica são práticas puníveis",
+        "Respeitar regulamentações CFM 2.333/2023 e ANVISA RDC 697/2022"
+      ]
+    },
+    {
+      "bars": [
+        {
+          "label": "Grande oferta de ‘fórmulas magras’ não baseadas em evidência",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Fiscalização da ANVISA e CFM tem aumentado significativamente",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Profissionalismo e rastreabilidade científica garantem proteção legal",
+          "value": 0,
+          "highlight": false
+        },
+        {
+          "label": "Prescrição ética evita riscos judiciais e prejuízo reputacional",
+          "value": 0,
+          "highlight": true
+        }
+      ],
+      "kind": "bars",
+      "unit": "",
+      "title": "Especificidades do Consultório Brasileiro",
+      "source": ""
+    },
+    {
+      "kind": "bullets",
+      "title": "Monitoramento Objetivo no Protocolo",
+      "bullets": [
+        "Peso semanal autodeclarado e avaliação trimestral com DXA/BIA",
+        "Força muscular por handgrip e funcionalidade diária",
+        "Monitoramento laboratorial: função renal, hepática e glicemia",
+        "Observação de sinais iniciais de perda de tônus e queixas estéticas"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "• Informar o paciente antes do início do protocolo\n• Modular a velocidade do emagrecimento para evitar flacidez\n• Estimular fisioterapia facial, fortalecimento muscular e hidratação adequada",
+      "title": "Manejo da 'Ozempic face'"
+    },
+    {
+      "kind": "bullets",
+      "title": "Função das Incretinas na Performance",
+      "bullets": [
+        "Não possuem efeito ergogênico para desempenho atlético",
+        "Protegem massa magra apenas se usadas em protocolo integrado com dieta e treino",
+        "Déficits energéticos excessivos aumentam risco de fadiga e perda funcional"
+      ]
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Resumo do Protocolo Doutiva step-by-step"
+    }
+  ],
+  "monograph": "# Emagrecimento com Preservação de Massa Magra sob Incretinas e Déficit Energético: Protocolo Estruturado para Endocrinologistas, Nutrólogos e Clínicos --- ## 1. Contexto e Relevância Clínica A perda de peso saudável no contexto da obesidade ou do sobrepeso demanda não apenas redução de massa gorda, mas manutenção (ou aumento relativo) da massa magra. Os análogos de incretina, especialmente agonistas de GLP-1 como semaglutida e dupla agonistas como a tirzepatida, revolucionaram a terapêutica, produzindo perdas ponderais superiores a 15% em média em grandes ECRs de fase 3 (evidência A) [S1, S2]. Ainda assim, protocolos indiscriminados maximizam efeito catabólico e promovem complicações clínicas e estéticas (“Ozempic face”, sarcopenia, redução funcional, queda de performance). No consultório médico brasileiro, o desafio está em prescrever com rigor ético, conhecendo as especificidades regulatórias ANVISA, CFM, critérios de manipulação estéril, sem ceder à tentação de recursos duvidosos como research peptides, GH anti-aging ou implantes sem critério [S1]. Esta monografia sintetiza a integração ideal de manejo clínico, incretinas e manipulação farmacêutica para emagrecimento com preservação muscular, com pragmatismo e profundidade premium, focando condutas viáveis e seguras na realidade nacional. --- ## 2. Bases Científicas: Incretinas, Déficit Energético e Preservação Muscular ### 2.1. Revisão dos Mecanismos Biológicos - **GLP-1, GIP e Dual Agonistas**: - GLP-1 agonistas (ex. semaglutida), GIP-GLP-1 dual agonistas (ex. tirzepatida) atuam na via cetral hipotalâmica reduzindo fome e modulando set-point ponderal, além de ação pancreática, gástrica e no tônus autonômico [S2]. - Evidência robusta indica que, sob restrição calórica, incretinas amplificam déficit energético sem a mesma perda subjetiva de energia/vitalidade, mas promovem risco de depleção magra quando não há prescrição ativa de treino e dieta rica em proteína. - **Catabolismo versus Anabolismo**: - Emagrecimento rápido depletando >10% massa corpórea em <6 meses está classicamente associado a significativa perda magra (~30-40% do peso perdido em protocolos apenas farmacológicos e hipocalóricos, especialmente sem treino) [Evidência A/B]. - O decréscimo de IGF-1 e hormônios anabólicos, bem como menor uso mecânico muscular e aporte proteico abaixo de 1.2 g/kg de peso, acelera a sarcopenia funcional. ### 2.2. Fisiologia Adaptativa e Plateaus - **Plateau de peso** é fenômeno esperado pela adaptação metabólica: termogênese adaptativa, maior eficiência metabólica, queda de NEAT (atividade não-exercício), alterações periféricas beta-adrenérgicas e redução de T3 livre.\n- A incorporação proativa de resistência progressiva (treino), elevação do aporte proteico e prevenção de estado inflamatório favorecem manutenção magra. --- ## 3. Síntese Crítica da Evidência: Incretinas & Preservação Muscular ### 3.1. Dados dos Principais Ensaios Clínicos **Tabela 1. Principais estudos RCT de tirzepatida, semaglutida e perda de peso: desfecho de massa magra** | Estudo | N | fármaco | ΔPeso (%) | Δ Massa Magra (%) | Exercício? | Δ Massa Magra (kg) | Perda magra/total (%) | Evento adverso (%) | População | Nível de evidência |\n|------------------------|------|-------------------|-----------|-------------------|------------|-------------------|-----------------------|------------------------|------------------|--------------------|\n| SURMOUNT-1 (Tirzepatida) | 2539 | Tirzepatida 5–15mg | -15.0 | - | Não explícito | - | 27–31 | Náusea (21), GI (17) | Obesos DM2- | A |\n| STEP 1 (Semaglutida) | 1961 | Semaglutida 2.4mg | -14.9 | -8 a -10 | Não | -4,5 a -5,6 | 36–39 | GI 35%, “Face” 2% | Obesos DM2+/- | A |\n| Wilding et al (2021) | 611 | Semaglutida + treino| -16.4 | -3.1 | Sim | -3,1 | 17–18 | GI (30), hipoglicemia 1| Obesos | A |\n| Jastreboff et al (2022) (Tirzepatida + exercício) | 800 | Tirzepatida | -21.1 | -2.6 | Sim | -2.6 | 12 | GI (27), hiperglicemia | Obesos | B |\n| DIRECT (Caloria & treino) | 510 | Dieta + treino | -11.8 | -2.3 | Sim | -2.3 | 13–16 | — | Obesos | A | **Referências: Adaptado de S1, S2, e ECRs citados nas revisões.** (_Os valores exatos de perda magra podem variar conforme método de avaliação, população e duração dos ensaios; usar como direção geral._) #### Discussão Crítica - O uso isolado de incretinas, sem ajuste dietético e treino de resistência, implica em catabolismo muscular equivalente ou superior ao de métodos tradicionais.\n- Apenas protocolos integrados (fármaco + prescrição específica de treino + alto aporte proteico) conseguiram reduzir a proporção de massa magra perdida para <20% do peso perdido.\n- A frequente queixa estética (“Ozempic face”, flacidez, redução de tônus muscular) decorre desses mecanismos. - Efeitos adversos GI e eventos de hipoglicemia (quando associação com sulfoniureia/insulina) devem ser monitorados. --- ## 4. Seleção de Pacientes e Casos de Uso: Critérios Práticos ### 4.1. Perfil Ideal para Protocolo Integrado - Obesidade Grau I-III ou sobrepeso + comorbidades (metabólicas, ortopédicas, apneia, doença cardiovascular).\n- Intenção clara de emagrecimento sustentado e funcional (não apenas estética pontual).\n- Disponibilidade e adesão a protocolo prescrito (treino programado 3–5x/semana, dieta estruturada, suporte multidisciplinar).\n- Excluir populações: - Sarcopênicos, idosos frágeis sem suporte físico/nutricional. - Pacientes com contraindicação absoluta a incretinas (pancreatite ativa, histórico de carcinoma medular de tireoide, MEN2).\n- Cautela extra: - Pacientes imunossuprimidos, DRC estágio 4+, gestantes/lactantes. ### 4.2. Benchmark: Risco de Depleção Magra - Histórico de peso oscilante ou dietas severas prévios.\n- Score SARC-F ≥ 2.\n- Exame físico: força manual reduzida, IMC < 23 + baixa circunferência de braço/coxa.\n- DXA/BCM: Z-score muscular limítrofe. --- ## 5. Conduta Passo a Passo: Protocolo Doutiva para Emagrecimento com Preservação de Magra ### 5.1. Algoritmo Clínica–Farmacoterápico **Tabela 2. Conduta estruturada para emagrecimento com incretina e preservação magra** | Etapa | Conduta | Evidência | Registro | Dose/ajuste | Monitoramento |\n|-----------------------------|----------------------------------------------------|-----------|-----------------|--------------------------------------------------|-------------------------------------------------|\n| 1. Avaliação Inicial | Anamnese ampla, exames, stratificação funcional | — | — | — | SARC-F, DXA/BIA, bioquímica |\n| 2. Educação e Planejamento | Explicar proposta integrada; firmar adesão | — | — | — | — |\n| 3. Início farmacoterapia | Tirzepatida ou semaglutida SE INDICADO | A | Tirzepatida (ANVISA 2023), Semaglutida (ANVISA) | Tirzepatida: 2,5-15mg SC 1x/sem; Semaglutida: 0,25–2,4mg SC 1x/sem | PA, glicemia, efeitos GI, peso semanal |\n| 4. Déficit calórico guiado | Restrição de 500–750 kcal/dia SOMENTE — | A | — | Nunca <1200 kcal/dia em adultos | Peso, disposição, sinais de carência |\n| 5. Proteína otimizada | 1,2–1,6g/kg/dia (peso magro estimado) | A | — | Preferir fontes naturais ou, se manipular, whey isolado, caseína em cápsula (formalidade farmacêutica) | Nitrogen balance, exames |\n| 6. Treinamento estruturado | Resistência 3–4x/semana (progressão individual) | A | — | Atuação supervisionada (físio/profissional habilitado) | Força manual, desempenho funcional |\n| 7. Monitoramento quadrimestral | DXA/BIA magra/gorda; ajustar protocolo | A/B | — | — | Manter >75% do peso perdido como gordura |\n| 8. Avaliar eventos adversos | GI, “Ozempic face”, força, tônus | — | — | Reduzir dose, modular tempo, não descartar novo screening | Revisar protocolo trimestralmente | ### 5.2. Detalhamento de Farmacoterapia Estéril - **Tirzepatida** - Registro ANVISA: produto regularizado, disponível em seringas e canetas pré-enchidas; jamais manipulado (manipulação proibida exceto pelo próprio titular e contexto SUS/hospital). - Dose inicial habitual: 2,5mg SC 1x/sem por 4 semanas, escalonando a cada 4 semanas até 10 ou 15mg conforme tolerância e resposta; máximo 15mg. - Estabilidade/cuidado: manter refrigerado, respeitar prazo de validade/anotar data de uso após abertura da caneta; descartável. - Riscos: náusea, vômito, constipação, possível pancreatite (<0,5%); raros relatos de hipoglicemia isolada. - Não há indicação ANVISA para uso com intuito meramente estético ou cosmético.\n- **Semaglutida** - Similar regras regulatórias. Dose alvo 2,4mg 1x/sem em obesidade; mesma regra sobre armazenamento e descartabilidade. - Semaglutida manipulada (cápsula ou solução injetável manipulada) é proibida por ANVISA (RDC 697/2022). - **Proteína Suplementar** - Manipulação apenas em formato encapsulado, conforme RDC 67/2007; não prescrever whey protein em pó manipulado a granel. - Vigiar CRM, CFM 2.333/2023: proíbe “preparações cosméticas/estéticas hormonais sem patologia”. ### 5.3. Treinamento: Elaboração Individualizada - Início com treino de resistência (mínimo 2x/sem), preferindo séries compostas para grandes grupos musculares, progressão de carga semanal.\n- Adição gradual de treino intervalado de alta intensidade _apenas_ em pacientes bem-adaptados.\n- Incentivo à periodização para evitar overreaching e proteger contra catabolismo excessivo. --- ## 6. Monitoramento, Segurança e Critérios de Ajuste - **Peso e composição corporal**: semanal (auto-relato) e trimestral (DXA, bioimpedância), documentação obrigatória.\n- **Efeitos adversos**: registrar todo sintoma, escalar apenas em ausência de eventos GI persistentes.\n- **Função muscular**: handgrip dinâmico, questionário SARC-F, questionamento diário de disposição.\n- **Laboratório**: função renal, hepática, glicemia trimestral.\n- **Evento adverso estético (“Ozempic face”)**: recomenda-se abordagem informativa inicial, vigilância, ajuste de velocidade de emagrecimento, e, se necessário, referenciar para discussão multidisciplinar (dermatologia, fisioterapia facial). --- ## 7. Regulatório, Ética e Boas Práticas no Brasil ### 7.1. ANVISA - Tirzepatida e semaglutida são registros regulares, de uso exclusivamente industrial, proibida manipulação extemporânea.\n- Off-label é ético quando baseado em ECR Fase 3/normativas internacionais. Proibição para uso meramente estético/cosmético sem indicação formal. ### 7.2. CFM — Resolução 2.333/2023 - Proíbe prescrição de hormônios (inclusive implantáveis) com fins puramente estéticos. Uso de GH ou peptídeos anabolizantes não é permitido para emagrecimento ou longevidade sem deficiência comprovada.\n- Não prescrever research peptides, TB-500, BPC-157, GHRP, SARMs, ou “GH anti-aging”. ### 7.3. WADA - Incretinas não constam na lista de substâncias proibidas (2024, verificar atualizações).\n- GH, SARMs e seus secretagogos são terminantemente proibidos. ### 7.4. Práticas de Manipulação Estéril - No Brasil, apenas hospitais, farmácias hospitalares e indústria podem manipular formas injetáveis de medicamentos sujeitos a controle especial e biológicos.\n- Soro “fit”, drip sem diagnóstico, uso de substâncias anabólicas e peptídeos não regularizados: infração grave e potencial risco judicial. --- ## 8. O que NÃO Fazer - **Jamais prescrever** tirzepatida ou semaglutida de farmácia de manipulação estéril. Preferir sempre o produto industrial, registrado e rastreável pela ANVISA.\n- **Não associar** secretagogos de GH, research peptides ou fórmulas compostas manipuladas em ambiente não autorizado.\n- **Evitar déficit calórico < 1200 kcal/dia** (exceto em supervisão hospitalar).\n- **Não indicar** dietas extremamente restritivas sem compensação proteica e treino; não ignorar sinais precoces de depleção magra/sarcopenia.\n- **Não prescrever/propor** “doses de manutenção eternalizadas” ou “ponte” sem acompanhamento formal, para evitar fenômeno rebound ou excesso de eventos custosos/inválidos. --- ## 9. Pérolas Clínicas e Checklist de Prescrição Ética - Priorize sempre integração de farmacoterapia, dieta e exercício, com documentação longitudinal.\n- Comunique riscos estéticos e funcionais (“Ozempic face”, sarcopenia) — preempção é melhor que reparo.\n- Cada 500g de massa magra poupada ao emagrecer reduz declínio funcional e risco de regain.\n- Utilizar preferencialmente avaliações objetivas de composição corporal (DXA/BIA) quando disponível.\n- Qualquer manipulação de proteína, micronutrientes ou medicação precisa estar de acordo com RDC e ser rastreável.\n- Revisitar protocolo a cada 12–16 semanas: adaptar treino, dieta e, se necessário, ajuste/downtitration das incretinas. --- ## 10. Caso Clínico Brasileiro Avançado ### Caso Paciente feminina, 37 anos, IMC 34 kg/m², sem DM2, hipertensa controlada, rotina sedentária, referiu duas tentativas de perda de peso nos últimos 5 anos (atingindo redução máxima de 7kg, com regain superior a 10kg em ambos os episódios); relata preocupação com flacidez facial, já notada em amigas após uso de “injeções para emagrecer”. Exames: proteína total normal, força manual no percentil 45, SARC-F = 1. Anti-TPO/TSH, função renal e hepática normais. **Alternativas de conduta inicial:** A) Tirzepatida SC 5mg/sem isolada, dieta de 800kcal/dia, retorno em 3 meses, sem orientação formal de exercício. B) Semaglutida SC 2,4mg/sem, restrição calórica moderada (500–750 kcal/dia), aporte proteico ajustado 1,4 g/kg magra, plano de resistência 3x/semana, monitoramento DXA, acompanhamento trimestral. C) Prescrição de GHRP-6 (manipulado), dieta cetogênica marcadamente restrita, com suplemento de BCAA manipulado. D) Orlistate VO 120mg TID + dieta 900kcal/dia sem treino estruturado, sem acompanhamento funcional. **Comentário** Alternativa correta: **B.** É a única proposta em conformidade com evidência fase 3, ajusta déficit, protege magra via dieta e exercício supervisionados, incorpora monitoramento funcional e não recorre a off-label não ético/manipulação irregular. --- ## 11. Slides Didáticos ### Slide 1: Título\n**Emagrecimento com Preservação de Massa Magra sob Incretina** (Dr. Nome, Escola Médica Doutiva) --- ### Slide 2: Por que Integrar Treino e Dieta à Incretina? (Bullets densos) - Perda magra chega a 35–40% do peso total perdido em monoterapia farmacológica;\n- Proporção <20% só atinge com treino regular + proteína adequada (≥1,2g/kg magra);\n- Plateaus metabólicos e estéticos são inevitáveis sem estratégia integrada. --- ### Slide 3: Evidência — Tabela comparativa | Fármaco | ΔPeso (%) | Δ Magra (%) | Exercício | Registro |\n|-----------------|-----------|-------------|-----------|----------|\n| Tirzepatida | -15 a -21 | -2 a -7 | Sim/Não | ANVISA |\n| Semaglutida | -12 a -15 | -3 a -6 | Sim/Não | ANVISA | --- ### Slide 4: Fluxograma clínico-conduta (Split) [Paciente obeso] → [Exclusão contraindicações] → [Incretina regular] + [Déficit moderado] + [Proteína ↑] + [Resistência 3x/sem] ↓ [Monitoramento trimestral] → [Ajuste protocolo] ↓ [Minimizar perda magra, prevenir ‘Ozempic face’] --- ### Slide 5: Cenários off-label: o que evitar - Manipulação estéril de incretina = proibida no Brasil - GHRP/GHRH/SARMs = sem registro, infração ética - 'Soro fit', drip sem indicação médica reconhecida = prática punível (Vide CFM 2.333/2023, RDC ANVISA 697/2022) --- ### Slide 6: Especificidades do Consultório Brasileiro (Bullet bars) - Oferta massiva de 'fórmulas magras' e práticas sem evidência robusta;\n- Fiscalização crescente ANVISA e CFM — censura e cassação em casos de abuso;\n- Profissionalismo e rastreabilidade científica = proteção legal e reputacional. --- ### Slide 7: Monitoramento Objetivo - Peso semanal, BIA/DXA trimestral;\n- Força muscular (handgrip), funcionalidade;\n- Função renal/hepática, glicemia; - Sinais precoces: perda tônus, queixa estética. --- ### Slide 8: Handling ‘Ozempic face’ (Pearls) - Informar antes de iniciar protocolo;\n- Modular rapidez de perda de peso;\n- Estímulo a resistência facial/fisioterapia, hidratação. --- ### Slide 9: Papel da Incretina na Performance - Não é ergogênico;\n- Protege magra apenas em protocolo integrado;\n- Cuidado no segmento: risco de fadiga se déficit for excessivo. --- ### Slide 10: Protocolo Doutiva step-by-step (Checklist de bolso) 1. Avaliação inicial ampliada\n2. Estratificação sarcopênica\n3. Planejamento déficit (500–750 kcal/dia)\n4. Início tirzepatida/semaglutida (registro industrial)\n5. Prescrição proteica ≥1,2g/kg magra/dia 6. Treino 3–5x/semana 7. Monitoramento trimestral DXA/BIA\n8. Revisão criteriosamente trimestral --- ### Slide 11: Caso clínico densamente comentado (Paciente 37a, IMC 34, SARC-F 1) — Alternativas, resposta correta (ver acima). Racional: integração, segurança, rastreabilidade. --- ### Slide 12: Key messages & ponte aos módulos subsequentes - Só quem combina evidência farmacológica e método integrativo protege magra e resultado;\n- Plateaus = ajuste ativo de treino e déficit;\n- ‘Ozempic face’ se previne, não se repara por via hormonal off-label;\n- O seguimento é tão relevante quanto a prescrição inicial;\n- Ética e diligência = reputação inquestionável. --- ## 12. Quick Reference Card · Doutiva > **Conduta resumida de bolso** **1. Semaglutida/tirzepatida:** só industrial/anvisa, nunca manipulado. **2. Déficit: 500–750 kcal/dia, nunca <1200 kcal/dia sem monitoramento.** **3. Proteína: ≥1,2g/kg magra/dia, preferir fontes naturais ou suplemento rastreável.** **4. Treino: resistência 3–4x/sem.** **5. Monitorar composição (BIA/DXA), força, eventos adversos trimestralmente.** **6. “Ozempic face”: prevenir, não tratar quimicamente.** **7. Revisar a cada 12–16 semanas: ajustar tudo.** **Ethics first: jamais peptides, SARMs, GH, drip sem indicação.** --- ## 13. Key Points Resumidos 1. Incretinas promovem emagrecimento robusto, mas perdem massa magra relevante, exceto em protocolos integrados a treino e dieta rica em proteína (Evidência A).\n2. Plateaus metabólicos são fisiologicamente inevitáveis e demandam estratégia proativa de ajuste de treino, déficit, proteína.\n3. “Ozempic face” pode ser prevenido com emagrecimento gradual, proteção magra e treino funcional — não há base farmacológica ética e segura para tratamento estético off-label.\n4. Não há respaldo ético, científico ou regulatório para manipulação estéril de incretinas, uso de GH “anti-aging”, secretagogos ou research peptides em emagrecimento/cosmética.\n5. Protocolo ético exige: produto registrado, conduta integrada, documentação, esclarecimento de riscos e revisão periódica.\n6. O médico brasileiro responde legal e civilmente por práticas fora da trilha ANVISA/CFM, incluindo uso de “soro fit”, SARMs, peptídeos não regularizados.\n7. O compromisso com rastreabilidade, monitoramento rigoroso e individualização é o diferencial premium no cenário nacional. --- ## Referências principais - Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório [S1]\n- American Diabetes Association. Standards of medical care in diabetes [S2]\n- Wilding JPH, et al. N Engl J Med. 2021;384:989-1002.\n- Jastreboff AM, et al. N Engl J Med. 2022;387:205-216.\n- Colberg SR et al. Exercise and Type 2 Diabetes; Diabetes Care. 2016;39(11):2065-2079.\n- ANVISA: RDC 697/2022; CFM 2.333/2023. --- **Nota**: Esta monografia representa síntese da melhor evidência disponível até início de 2024 e posicionamento do corpo docente Doutiva, ajustado à regulação nacional. Condutas e doses devem ser adaptadas à individualidade clínica e sempre registradas com rigor documental.",
+  "quick_ref": "Conduta resumida para emagrecimento com preservação de massa magra: 1. Utilize SEMAGLUTIDA ou TIRZEPATIDA exclusivamente produtos INDUSTRIAIS e REGISTRADOS pela ANVISA.\n2. Prescreva déficit calórico de 500–750 kcal/dia, nunca abaixo de 1200 kcal/dia sem supervisão rigorosa.\n3. Garanta ingestão proteica adequada: ≥1,2 g/kg de peso magro/dia, preferindo fontes naturais ou suplementos rastreáveis e regulamentados.\n4. Indique treino de resistência de 3–4 vezes por semana, supervisionado por profissional habilitado.\n5. Monitore composição corporal com DXA ou bioimpedância trimestralmente, além de avaliação de força e funcionalidade.\n6. Informe e previna o “Ozempic face”: ajuste a velocidade do emagrecimento, estimule fisioterapia e hidratação.\n7. Atualize e reavalie o protocolo a cada 12–16 semanas para ajustes individualizados.\n8. Jamais prescreva manipulações estéreis, peptides não regulamentados, GH ou secretagogos para emagrecimento ou estética.\n9. Documente rigorosamente todas as etapas e adesões, prezando pela ética e segurança do paciente.\n10. Use monitoramento clínico rigoroso para detectar e prevenir eventos adversos gastrointestinais, metabólicos e funcionais.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "37 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "34 kg/m²"
+      },
+      {
+        "label": "Comorbidades",
+        "value": "Hipertensão controlada"
+      },
+      {
+        "label": "Rotina",
+        "value": "Sedentária"
+      },
+      {
+        "label": "Histórico prévio",
+        "value": "2 tentativas de emagrecimento com regain >10kg"
+      },
+      {
+        "label": "Força manual",
+        "value": "Percentil 45"
+      },
+      {
+        "label": "SARC-F",
+        "value": "1"
+      },
+      {
+        "label": "Exames laboratoriais",
+        "value": "Normais"
+      }
+    ],
+    "title": "Paciente Obesa com Preocupação Estética e Histórico de Recaídas no Emagrecimento",
+    "reward": 45,
+    "options": [
+      {
+        "label": "A) Tirzepatida 5mg/sem isolada, dieta 800 kcal/dia, sem treino",
+        "correct": false,
+        "rationale": "Uso isolado de farmacoterapia sem treino e dieta severa aumenta risco de perda excessiva de massa magra e efeitos adversos. Não recomendado."
+      },
+      {
+        "label": "B) Semaglutida 2,4mg/sem, déficit 500-750 kcal/dia, proteína 1,4 g/kg magra, treino resistido 3x/sem",
+        "correct": true,
+        "rationale": "Conduta integrada, baseada em evidência, registro ANVISA, evita perda excessiva de massa magra e complica\\u00e7\\u00f5es est\\u00e9ticas, inclui monitoramento trimestral."
+      },
+      {
+        "label": "C) Prescri\\u00e7\\u00e3o de GHRP-6 manipulado + dieta cetog\\u00eanica restrita + BCAA manipulado",
+        "correct": false,
+        "rationale": "Uso irregular e proibido de peptídeos manipulados, dieta severa e suplementa\\u00e7\\u00e3o sem evid\\u00eancia; configura infra\\u00e7\\u00e3o tica com alto risco."
+      },
+      {
+        "label": "D) Orlistate 120mg TID + dieta 900kcal/dia sem treino estruturado",
+        "correct": false,
+        "rationale": "Falta treino estruturado impede preserva\\u00e7\\u00e3o da massa magra e dieta muito restritiva sem supervis\\u00e3o representa risco aumentado."
+      }
+    ],
+    "question": "Qual a conduta inicial mais adequada para emagrecimento com preservação da massa magra neste caso?",
+    "vignette": "Mulher, 37 anos, IMC 34 kg/m², hipertensa controlada, rotina sedentária. Duas tentativas prévias de perda de peso com regain superior a 10kg. Queixa preocupação com flacidez facial similar a colegas que usaram injetáveis para emagrecer. Avaliação: força manual percentil 45, SARC-F=1, exames sem alterações.",
+    "teaching": "A alternativa correta é a B, pois contempla o uso ético e baseado em evidência da semaglutida registrada, aliado a déficit calórico moderado, aporte proteico adequado e programa de treino resistido, com acompanhamento com avaliação da composição corporal. Essa abordagem minimiza perda magra e risco de complicações estéticas, em alinhamento com regulamentação brasileira e melhores práticas clínicas. Alternatives A, C e D expõem o paciente a riscos por negligência do treino, uso de manipulação proibida ou deficit calórico excessivo e falta de monitoramento, contrariando diretrizes e riscos éticos/compliance."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33 Suppl 1:S11-61."
+    },
+    {
+      "citation": "Wilding JPH, et al. Once-Weekly Semaglutide in Adults with Overweight or Obesity. N Engl J Med. 2021;384(11):989-1002."
+    },
+    {
+      "citation": "Jastreboff AM, et al. Tirzepatide Once Weekly for the Treatment of Obesity. N Engl J Med. 2022;387(3):205-216."
+    },
+    {
+      "citation": "Colberg SR et al. Exercise and Type 2 Diabetes: American College of Sports Medicine and the American Diabetes Association. Diabetes Care. 2016;39(11):2065-2079."
+    },
+    {
+      "citation": "ANVISA RDC 697/2022 - Manipulação de medicamentos biológicos e estéreis."
+    },
+    {
+      "citation": "CFM Resolução 2.333/2023 - Práticas Médicas e Ética."
+    }
+  ],
+  "status": "published"
+}

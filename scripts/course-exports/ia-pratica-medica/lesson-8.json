@@ -1,0 +1,321 @@
+{
+  "position": 8,
+  "module": "Módulo 4 · Educação e Doutiva",
+  "module_position": 4,
+  "title": "Desinformação Médica Amplificada por IA e Redes: Defesa do Prescritor",
+  "description": "Esta aula aborda a crescente influência da inteligência artificial e das redes digitais na disseminação de desinformação médica, especialmente no contexto da endocrinologia, nutrologia e clínica geral de alta complexidade. Apresenta a hierarquia rigorosa de evidências para peptídeos, hormônios e terapias manipuladas, clarificando aspectos regulatórios brasileiros (ANVISA, CFM, WADA) e orientando o clínico sobre como contestar protocolos digitais não embasados, garantindo prescrição ética e segura.",
+  "duration_minutes": 60,
+  "evidence_level": "A",
+  "key_points": [
+    "Hierarquia rígida de evidência e registro ANVISA são inegociáveis na prescrição médica de peptídeos e hormônios.",
+    "Protocolos gerados por IA são referenciais apenas se baseados em diretrizes, ECRs e regulamentos oficiais.",
+    "Prescrição de peptídeos, hormônios, SARMs e research peptides sem respaldo regulatório é vedada, mesmo sob pressão do paciente.",
+    "GH, secretagogos e peptídeos regenerativos para fins estéticos/anti-aging são proibidos por ANVISA, CFM e WADA.",
+    "Monitoramento clínico rigoroso e consentimento informado são obrigatórios em prescrições off-label.",
+    "Decisão médica é insubstituível e responsabilidade técnica é do prescritor, nunca da IA.",
+    "Conduta assertiva e documentação são fundamentais para defesa do prescritor diante da desinformação digital."
+  ],
+  "slides": [
+    {
+      "kind": "title",
+      "title": "Desinformação Médica Amplificada por IA e Redes: Defesa do Prescritor",
+      "subtitle": "Panorama, desafios e condutas para endocrinologistas, nutrólogos e clínicos no Brasil"
+    },
+    {
+      "head": [
+        "Nível",
+        "Tipo de Evidência",
+        "Exemplo",
+        "Força"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "1",
+          "Metanálise de ECRs e diretrizes internacionais",
+          "Guidelines ADA/IDSA etc.",
+          "A"
+        ],
+        [
+          "2",
+          "Estudo clínico randomizado fase 3",
+          "SURPASS, SUSTAIN",
+          "A"
+        ],
+        [
+          "3",
+          "ECR fase 2/observacional robusto",
+          "Registros nacionais",
+          "B"
+        ],
+        [
+          "4",
+          "Série, farmacologia humana, relatos de caso",
+          "Relatos de implante",
+          "C"
+        ],
+        [
+          "5",
+          "Pré-clínico, opinião, hype, fóruns/IA não transparente",
+          "Blogs, protocolos de IA",
+          "D"
+        ]
+      ],
+      "title": "Hierarquia de Evidência Clínica para Peptídeos, Hormônios e Protocolos Digitais",
+      "source": "Biblioteca Doutiva [S1]"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Tirzepatida: registrado ANVISA, ECR fase 3, uso ético permitido",
+          "GH para estética: não aprovado, ausência de evidência, proibido pelo CFM",
+          "BPC-157, Secretagogos, SARMs: inexistente registro e evidência, uso irregular"
+        ],
+        "label": "Uso comum em IA clínicas"
+      },
+      "right": {
+        "items": [
+          "Protocolos de IA sugerem uso frequente de substâncias proibidas ou sem respaldo.",
+          "Riscos incluem infração ética, danos ao paciente e problemas regulatórios."
+        ],
+        "label": "Realidade regulatória/ética"
+      },
+      "title": "Comparativo de Protocolos Digitais x Evidência e Regulação no Brasil"
+    },
+    {
+      "kind": "pearl",
+      "text": "Evitar práticas que configuram infração e risco ao paciente.",
+      "title": "Condutas Proibidas e Seus Motivos",
+      "source": "CFM Resolução 2.333/2023; ANVISA RDC 67/2007"
+    },
+    {
+      "kind": "flow",
+      "steps": [
+        {
+          "label": "Ouvir e registrar expectativa/pedido do paciente (solicitar protocolo impresso)"
+        },
+        {
+          "label": "Análise crítica do protocolo: substância, ANVISA, evidência clínica"
+        },
+        {
+          "label": "Triagem pelo checklist Doutiva (mecanismo, ECR, pureza, procedência)"
+        },
+        {
+          "label": "Explicação assertiva e didática ao paciente sobre evidências e riscos"
+        },
+        {
+          "label": "Propor alternativas baseadas em evidência e registro"
+        },
+        {
+          "label": "Consentimento informado formal para off-label"
+        },
+        {
+          "label": "Monitoramento clínico e laboratorial"
+        },
+        {
+          "label": "Não prescrever substâncias irregulares, documentar recusa"
+        }
+      ],
+      "title": "Fluxo Racional para Defesa do Prescritor Frente a Protocolos Digitais"
+    },
+    {
+      "head": [
+        "Item",
+        "Checado",
+        "Observação"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "Substância(s) identificada(s)",
+          "☐",
+          ""
+        ],
+        [
+          "Presença em ECR/diretriz?",
+          "☐",
+          ""
+        ],
+        [
+          "Registro ANVISA?",
+          "☐",
+          ""
+        ],
+        [
+          "Uso off-label justificado",
+          "☐",
+          ""
+        ],
+        [
+          "Disponível em farmácia certificada",
+          "☐",
+          ""
+        ],
+        [
+          "Potencial interação medicamentosa",
+          "☐",
+          ""
+        ],
+        [
+          "Categorização ética/CFM",
+          "☐",
+          ""
+        ],
+        [
+          "Consentimento e monitoramento",
+          "☐",
+          ""
+        ]
+      ],
+      "title": "Checklist de Análise Crítica para Protocolos Digitais"
+    },
+    {
+      "kind": "split",
+      "left": {
+        "items": [
+          "Peptídeos aprovados (tirzepatida, semaglutida): peso, IMC, HbA1c, perfil hepático/renal, reavaliações trimestrais",
+          "Implantes hormonais: dosagem hormonal basal e acompanhamento trimestral",
+          "Manutenção da cadeia fria e descarte adequado após abertura",
+          "Documentação detalhada de efeitos adversos e evolução clínica"
+        ],
+        "label": "Cuidados Essenciais"
+      },
+      "right": {
+        "items": [
+          "Condutas proibidas: prescrever substâncias não aprovadas, associar múltiplos hormônios sem base, usar farmácias não certificadas."
+        ],
+        "label": "Evite/Estratégias"
+      },
+      "title": "Monitoramento Clínico e Laboratorial Após Prescrição"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Comunicando ao Paciente: Script Assertivo Recomendo"
+    },
+    {
+      "head": [
+        "Alternativa",
+        "Conduta",
+        "Comentário"
+      ],
+      "kind": "table",
+      "rows": [
+        [
+          "a)",
+          "Solicitar produtos e iniciar protocolo conforme IA",
+          "Incorreta: ignora ausência de evidência e proibição"
+        ],
+        [
+          "b)",
+          "Explicar riscos, recusar prescrição fora da indicação e documento recusa, propor semaglutida",
+          "Correta: respeito à evidência, ética, documentação e alternativa segura"
+        ],
+        [
+          "c)",
+          "Ajustar doses e pedir parecer ao CFM",
+          "Inadequada: não deve prescrever sem respaldo prévio"
+        ],
+        [
+          "d)",
+          "Prescrever GH/BPC-157 temporariamente com monitoramento bimensal",
+          "Contraindicado: aumenta risco e infração ética"
+        ]
+      ],
+      "title": "Resumo do Caso Clínico: Conduta Adequada",
+      "source": "Monografia Doutiva - Item 8"
+    },
+    {
+      "kind": "pearl",
+      "text": "",
+      "title": "Principais Pontos-Chave para Defesa do Prescritor"
+    }
+  ],
+  "monograph": "# Desinformação Médica Amplificada por IA e Redes: Defesa do Prescritor ## 1. Contexto e Relevância O cenário contemporâneo da medicina é marcado por um paradoxo: ferramentas de inteligência artificial (IA) e redes sociais ampliam tanto a capacidade de acesso qualificado à informação médica quanto a velocidade e escala da disseminação de desinformação. Para endocrinologistas, nutrólogos e clínicos que atuam com prescrições complexas — incluindo peptídeos (ex. tirzepatida), hormônios, implantes, soroterapia estéril personalizada e outros recursos frequentemente manipulados —, a pressão do paciente “bem informado”, trazida por verborragia digital e protocolos gerados por IA (ou mesmo por profissionais não médicos ou influenciadores), desafia diariamente a segurança, a ética e o rigor técnico da decisão clínica. O Brasil, com ambiente regulatório ANVISA e normatizações pelo CFM (incluindo Resolução 2.333/2023, que veda uso de hormônios com finalidade estética ou anti-aging), adiciona camadas de complexidade à atuação médica diante desse fenômeno. Discutir e operacionalizar a defesa baseada em evidências — fundamentada por hierarquias rígidas, práticas de manipulação estéril e responsabilidade sobre o uso de IA — é um compromisso do clínico de excelência. Esta monografia sintetiza condutas, raciocínio crítico e respaldo técnico para responder, de maneira assertiva e segura, às demandas e dúvidas trazidas por protocolos digitais apócrifos, fornecendo uma trilha premium e robusta para atuação do prescritor no Brasil. --- ## 2. Bases Científicas: Hierarquia de Evidência e Regulação ### 2.1. Hierarquia de Evidência Clínica para Peptídeos, Hormônios e “Protocols Digitais” Segundo a Biblioteca Doutiva ([S1]), a hierarquia de força de evidência para peptídeos e hormônios é uniforme e aplicável à decisão clínica (Tabela 1): | Nível | Tipo de Evidência | Exemplo | Força |\n|-------|----------------------------------------------------------------------|--------------------------------|-----------|\n| 1 | Metanálise de ECRs e diretrizes internacionais | Guidelines ADA/IDSA etc. | A |\n| 2 | Estudo clínico randomizado fase 3 | SURPASS, SUSTAIN | A |\n| 3 | ECR fase 2/observacional robusto | Registros nacionais | B |\n| 4 | Série, farmacologia humana, relatos de caso em humanos | Relatos de implante | C |\n| 5 | Pré-clínico, opinião, hype, fóruns/IA não transparente | Blogs, protocolos de IA | D | **Peptídeos com fundamentação robusta (Fase 3):**\n- Incretinas: semaglutida, tirzepatida ([S2]).\n- Outros (ex: secretagogos de GH, BPC-157, TB-500): AUSÊNCIA de evidência clínica robusta em humanos ([S1]). **Checagem obrigatória antes de prescrever:**\n- Mecanismo, PK humana, ECR, situação regulatória, pureza/procedência ([S1]). ### 2.2. Regulação e Prescrição no Brasil: ANVISA, CFM, Manipulados **1. ANVISA:** - Registra e regula medicamentos, peptídeos, implantes e insumos parenterais. - Manipulação estéril exige farmacotécnica rígida, rastreio de pureza e validade comprovada (vide RDC 67/2007 — verificar atualização).\n- Proibição formal de comercialização de substâncias não registradas para uso humano (exemplo: research peptides “for research only”). **2. CFM:**\n- É expressamente vedado o uso de hormônios para finalidades estéticas ou anti-aging (Resolução 2.333/2023).\n- Implantação ou uso de substâncias sem registro ou sem ECRs em humanos pode configurar infração ética grave.\n- Responsabilidade médica intransferível quanto à indicação e monitoramento. **3. WADA:** - Atletas: diversas substâncias presentes em protocolos de IA (GH, secretagogos, SARMs, etc.) são banidas. **4. Classificação prática:** - **Registrado ANVISA:** tirzepatida, semaglutida, alguns hormônios (triptofano, GH para deficiência comprovada).\n- **Off-label documentado:** uso não aprovado, porém com evidência estruturada (e.g., GLP-1 em obesidade sem DM; implantes hormonais para TPM grave).\n- **Manipulado com respaldo:** fitas de controle laboratorial, estrita rastreabilidade, pureza farmacêutica garantida.\n- **Irregular/proibido:** research peptide, SARMs, secretagogos sem respaldo clínico e regulatório. --- ## 3. Evidência Clínica: Crítica dos Principais Protocolos Digitais ### 3.1. Protocolos de IA: Origem, Vieses e Limitações Ferramentas de IA voltadas para leigos ou profissionais não médicos têm demonstrado capacidade de gerar protocolos de “personalização” que parecem avançados, mas raramente respeitam hierarquias de evidência, adequação farmacotécnica ou o contexto regulatório nacional ([S13], [S18]). **Desvios identificados em protocolos gerados por IA:**\n- Uso rotineiro de peptídeos ou hormônios não respaldados por ECRs em humanos (GH, BPC-157, CJC-1295, Ipamorelina).\n- Sugestão de doses, vias e manipulação sem qualquer respaldo de registro ANVISA ou prática farmacopéica.\n- Indicações anti-aging, estética, detox ou “drips” sem comprovação clínica. #### Tabela 2 – Comparativo da Robustez de Evidência nos Protocolos de IA Correntes | Componente/Peptídeo | Uso: Protocolo IA | Registro ANVISA | ECR Fase 3 | Diretrizes | CFM/Ética | Força Evidência |\n|------------------------------|----------------------|-----------------|------------|------------|-----------|----------------|\n| Tirzepatida | DM2, obesidade | SIM | SIM | SIM | SIM | A |\n| GH (anti-aging, estética) | SIM | NÃO (exceto deficiência) | NÃO | NÃO | NÃO | D |\n| BPC-157, TB-500 (regeneração)| SIM | NÃO | NÃO | NÃO | NÃO | D |\n| Secretagogos (Ipamorelina) | SIM | NÃO | NÃO | NÃO | NÃO | D |\n| Soroterapia indiscriminada | SIM | NÃO | NÃO | NÃO | NÃO | D |\n| GLP-1 (semaglutida) | SIM | SIM | SIM | SIM | SIM | A |\n| Implantes hormonais (sem critério) | SIM | Parcial/off-label | Parcial | Parcial | NÃO | C/D |\n| Multissubstâncias misturadas | SIM | NÃO | NÃO | NÃO | NÃO | D | **Fontes: [S1], [S2]** --- ### 3.2. Resumo dos Estudos-Pilar para Peptídeos e Hormônios no Contexto Clínico | Intervenção | N pacientes (n) | Desfecho Principal | Risco Relativo/Magnitude* | Nível evidência |\n|--------------------------|-----------------|------------------------------------|---------------------------|-----------------|\n| Tirzepatida (SURPASS) | 2.539 (SURPASS-2) | Δ HbA1c, Δ Peso | HbA1c -2,2% vs GLP-1; -8,5 kg peso | A |\n| Semaglutida (SUSTAIN) | >2.000 | Δ HbA1c, Δ Peso | HbA1c -1,5%; -4-8 kg | A |\n| Hormônios sexuais em TRH | varia | Sintomas vasomotores | Ampla meta-análise, IC robusto | B/A |\n| GH em deficiência comprovada | ~200–500 | Crescimento/IMC/QoL | Δ Altura, SDR | A |\n| Secretagogos, BPC-157 | <100 humanos ou só pré-clínico | Não robusta, relatos de caso | — | D | *Valores de magnitude estimados (consultar estudos específicos para ICs exatos). --- ## 4. Seleção de Pacientes e Casos de Uso ### 4.1. Critérios Estritamente Aceitos - **Adesão restrita ao registro ANVISA/diretrizes**\n- **Indicação formal de deficiência ou doença reconhecida**\n- **Off-label apenas em casos documentados, com consentimento e respaldo na literatura** ### 4.2. Cenários Não Aceitos - *Prescrição baseada apenas em protocolo de IA, hype ou demandada pelo paciente.*\n- *Associação de substâncias sem respaldo clínico ou manipulação de substâncias sem histórico de uso humano seguro.* --- ## 5. Conduta Passo a Passo: Defesa do Prescritor Frente a Protocolos Digitais ### 5.1. Fluxo Racional em Consulta | Passo | Ação | Detalhamento / Documentação |\n|-------|---------------------------------------------------------------|------------------------------------------------------------------------|\n| 1 | Ouvir e registrar expectativa/pedido do paciente | Solicitar protocolo que trouxe (“traga o impresso, por favor”) |\n| 2 | Análise crítica do protocolo pelo clínico | Identificar substância, respaldo ANVISA, evidência clinica |\n| 3 | Triagem pelo checklist Doutiva ([S1]) | Mecanismo humano, ECR, pureza, procedência, diretriz |\n| 4 | Explicação assertiva e didática ao paciente | Expor diferenças entre “evidência digital” e medicina baseada em evidência|\n| 5 | Propor alternativas baseadas em evidência e registro | Documentar opção proposta e recusa/opção do paciente |\n| 6 | Consentimento informado formal (quando off-label) | Assinatura, explicitação dos riscos e limitações |\n| 7 | Monitoramento clínico/laboratorial sistemático | Cronograma, reavaliação periódica, eventos adversos |\n| 8 | Não prescrever o que for irregular/sem respaldo, registrar | Comunicação clara; notificação, se houver pressão indevida | --- #### Tabela 3 – Checklist de Análise de Proposta Digital | Item | Checado | Observação |\n|--------------------------------|---------|-----------------------------------------------|\n| Substância(s) identificada(s) | ☐ | |\n| Presença em ECR/diretriz? | ☐ | |\n| Registro ANVISA? | ☐ | |\n| Uso off-label justificado | ☐ | |\n| Princípio ativo disponível em farmácia certificada | ☐ | |\n| Potencial interação medicamentosa| ☐ | |\n| Categorização ética/CFM | ☐ | |\n| Consentimento e monitoramento | ☐ | |\n| NÃO PRESCREVER SE NÃO SUPORTAR TODOS ITENS | | | --- ### 5.2. Script de Comunicação Clínica Assertiva > \"Entendo que o senhor(a) pesquisou bastante e respeitamos seu interesse ativo no controle de saúde. Devo, contudo, explicar que determinadas substâncias deste protocolo digital não têm registro de eficácia ou segurança em humanos, ou são proibidas para uso fora de situações clínicas específicas. Minha responsabilidade médica — e sua segurança — exige seguimento rígido de evidências e normas do Conselho Federal de Medicina, ANVISA e padrão científico internacional. Posso sugerir alternativas comprovadas e, caso haja opção off-label amparada, explico todos os riscos e benefícios. É importante: recusamos qualquer prescrição que não seja respaldada cientificamente, mesmo que pareça tendência digital.” --- ## 6. Monitoramento, Segurança e Não Fazer ### 6.1. Monitoramento após Prescrição: Padrão de Ouro **Para peptídeos/hormônios recomendados (ex. tirzepatida, semaglutida):**\n- Peso, IMC, circunferência abdominal\n- HbA1c, Glicemia jejum, perfil lipídico (GLP-1)\n- Monitoramento efeitos adversos gastrointestinais, pancreatite\n- Função renal e hepática\n- Verificar compatibilidade/análise de estabilidade do frasco se injetável: manter sempre cadeia fria; descartar após 28 dias abertos (vide bula)\n- Reavaliações trimestrais pelo menos **Para implantes hormonais:**\n- Dosagem hormonal basal e trimestral\n- Rastreamento anual de função hepática/renal\n- Avaliação de efeitos colaterais, eventos trombóticos ou metabólicos ### 6.2. O que NÃO fazer (condutas proibidas): - Prescrever qualquer research peptide, substância não registrada, ou biológico sem ECRs em humanos\n- Usar GH, secretagogos, SARMs, peptídeos regenerativos para fins estéticos, anti-aging, performance ou rejuvenescimento ([S1])\n- Associar múltiplos hormônios ou peptídeos “sem base clínica”, como frequentemente sugerido em fóruns digitais ou IA\n- Manter conduta mesmo após recusa documentada do paciente: recusar-se a atuar fora dos padrões éticos/regulatórios\n- Utilizar farmácias não certificadas, solvents inadequados ou veículos não testados para manipulação estéril --- ## 7. Considerações Regulatórias, Éticas e Fluxo Digital ### 7.1. Inteligência Artificial na Prática: Potencial e Limites **Pontos críticos na utilização de IA para protocolos clínicos:**\n- **LGPD:** Só utilize/compartilhe dados sensíveis de paciente em software de IA que ateste conformidade plena LGPD.\n- **Validação clínica:** Somente utilize recomendações de IA integradas ao prontuário após validação consultada em guidelines (DECIDE-AI [S13]) e validação nacional.\n- **Vieses e limites:** Protocolos automatizados devem ser checados quanto a enviesamento de dados, extrapolação imprópria ou erros conceituais. Ferramentas “black box” são proibidas como fonte primária de decisão médica.\n- **Responsabilidade:** A decisão clínica final é do médico, não da IA. O uso deliberado de protocolo digital como justificativa sem checagem pode configurar infração. --- ## 8. Caso Clínico: Defesa do Prescritor Frente a Protocolo de IA **Paciente:** Mulher, 48 anos, IMC 29,3 kg/m², resistência insulínica (HOMA-IR 3,1), queixa de fadiga crônica, deseja perder peso e traz impresso um “Protocolo de IA” sugerindo: semaglutida 2,4 mg/sem, GH 2 UI sc à noite, BPC-157 200 mcg/d sc, implante de gestrinona, multivitamínico 1g EV semanal. **Exames:** HbA1c 5,9% | TSH 2,1 | Prolactina 19| AST/ALT normal | Ultrasom transvaginal: sem alterações **Pergunta:** Como o médico deve conduzir a consulta? Assinale a alternativa MAIS adequada: a) Solicita todos os produtos à farmácia de manipulação informada pelo paciente, orientando iniciar o protocolo conforme sugerido digitalmente. b) Conversa francamente sobre riscos, explica ausência de registro/anvisa/evidência para GH (sem deficiência comprovada), BPC-157 e gestrinona off-label, recusa prescrição dos mesmos. Sugere GLP-1 (semaglutida) dentro da indicação (sobrepeso e resistência insulínica) e programa acompanhamento rigoroso, documentando recusa dos demais por escrito. c) Ajusta o protocolo reduzindo as doses dos peptídeos não registrados e pede parecer ao CFM antes de prescrever. d) Faz prescrição do GH e BPC-157 apenas por curto prazo, solicitando exames a cada 2 semanas. **Comentário Extenso:**\n*Alternativa correta: b)* O médico deve explicitar os limites de atuação clínica baseados na falta de evidência robusta e proibição formal (ANVISA, CFM) para uso de GH (ausente deficiência comprovada), BPC-157 (não há aprovação ou segurança clínica), gestrinona (implante off-label sem respaldo para sobrepeso), e multivitamínico EV (sem critério clínico). Deve sugerir alternativa comprovada, como semaglutida no contexto de sobrepeso com resistência insulínica, e recusar formalmente os demais. Documentação rigorosa é obrigatória, bem como acompanhamento estruturado (vide fluxograma item 5). Prescrições baseadas “em protocolo de IA” sem respaldo configuram infração ética e risco à segurança do paciente — conduta explícita vedada pelos órgãos reguladores. --- ## 9. Slides Didáticos (Resumo Visual Estruturado) ### Slide 1 – Título\nDesinformação Médica Amplificada por IA e Redes: Defesa do Prescritor ### Slide 2 – Hierarquia de Evidência em Peptídeos/Hormônios\n- Nível A: ECR fase 3/metanálise/diretriz\n- Nível B: Observacional robusto\n- Nível C/D: Pré-clínico, hype, IA, fóruns, research peptide ### Slide 3 – Matriz: Protocolos Digitais x Evidência x Regulação\n| Substância | IA | ECR | ANVISA | CFM | Usar? |\n|-------------------|----|-----|--------|------|-------|\n| Tirzepatida | S | S | S | S | Sim |\n| GH (estética) | S | N | N | N | Não |\n| BPC-157 | S | N | N | N | Não | ### Slide 4 – O que é Proibido e Por Quê?\n- GH, BPC-157, SARMs, drip sem deficiência: proibição ANVISA/CFM/WADA\n- Research peptides: jamais ### Slide 5 – Fluxo de Defesa: Consulta Denso\n1. Analisa protocolo/pedido\n2. Triagem do respaldo científico/regulação\n3. Comunicação assertiva e didática\n4. Oferta de alternativa regular\n5. Documentação e recusa formal ### Slide 6 – Script de Resposta ao Paciente\n- \"Respeito seu interesse, mas [substância] não é segura nem aprovada para o uso sugerido...\" ### Slide 7 – Monitoramento Seguro\n- Semaglutida/tirzepatida: IMC, peso, HbA1c, perfil hepático/renal, reavaliação trimestral\n- Implantes hormonais: dosagem basal + efeitos/colaterais ### Slide 8 – Caso Clínico Brasileiro Clássico\nResumo da paciente, análise das alternativas, comentário crítico. ### Slide 9 – Maior Risco da IA em Saúde\n- Vieses, hype, extrapolação sem validação\n- Falta de sentido contextual e regulatório ### Slide 10 – O que não fazer (Red Flags)\n- Prescrever sem ECR, registro ou respaldo\n- Ceder à pressão digital/paciente ### Slide 11 – Checklist Premium Doutiva\n| Item | Sim/Não |\n|-----------------|---------|\n| Registro ANVISA | |\n| ECR Fase 3 | |\n| CFM Ética | |\n| Consentimento | | ### Slide 12 – Checklist de Bolso | Quick-ref - Confirmar registro ANVISA\n- Buscar ECR/diretriz internacional\n- Checar contraindicações CFM e WADA\n- Explicar claramente ao paciente o motivo da recusa (quando pertinente)\n- Formalizar documentação/consentimento\n- Propor apenas alternativas éticas e seguras --- ## 10. Quick Reference (Bolso) **Perguntas-chave antes de prescrever:**\n1. Tem registro na ANVISA?\n2. Há ECR fase 3 ou diretriz de recomendação?\n3. Está permitido pelo CFM?\n4. Farmácia de manipulação é certificada?\n5. Indicação clínica justificada e documentada?\n6. Consentimento informado é obrigatório?\n7. Fluxo de monitoramento é claro? --- ## 11. Key Points 1. **Hierarquia rígida de evidência e respeito ao registro ANVISA são pilares inegociáveis da prescrição médica qualificada, especialmente em manipulação estéril.**\n2. **Protocolos gerados por IA ou recomendação digital só têm valor se ancorados em guidelines, ECRs e conformidade regulatória — nunca como fonte primária.**\n3. **Nunca prescrever peptídeos, hormônios, SARMs, research peptides ou drips fora do escopo legal e ético, mesmo sob pressão do paciente.**\n4. **GH, secretagogos, peptídeos regenerativos para fins estéticos, anti-aging ou “performance” são vetados por ANVISA, CFM e WADA.**\n5. **Monitoramento estruturado e consentimento formal são obrigatórios em todo off-label; ausência de respaldo é razão suficiente para recusa e registro.**\n6. **Atue sempre documentando todas as etapas da decisão, comunicando com assertividade baseada em segurança e ética.**\n7. **A decisão médica é insubstituível e intransferível à IA — responsabilidade técnica e legal recaem sempre sobre o prescritor, não sobre algoritmos ou plataformas.** --- ## 12. Referências - [S1] Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Doutiva Editorial 2026.\n- [S2] Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010. DOI 10.2337/dc10-s011\n- [S13] Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Vasey B et al. Nat Med 2022. DOI 10.1038/s41591-022-01772-9\n- [S18] Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. Wynants L et al. BMJ 2020. DOI 10.1136/bmj.m1328\n- Resolução CFM 2.333/2023\n- RDC ANVISA nº 67/2007 e atualizações (verificar)\n- Outras referências citadas ao longo dos excertos e tabelas acima em conformidade com o escopo Doutiva --- # FIM",
+  "quick_ref": "Checklist Rápido para Prescrição Segura:\n- Verifique Registro ANVISA da substância\n- Confirme existência de ECR fase 3 ou diretriz reconhecida\n- Avalie conformidade ética segundo CFM (Resolução 2.333/2023)\n- Use farmácias manipuladoras certificadas e rastreáveis\n- Obtenha consentimento informado detalhado, especialmente em off-label\n- Documente análise crítica do protocolo apresentado\n- Proponha somente alternativas respaldadas e monitoráveis\n- Recuse prescrições irregulares e registre formalmente a recusa Resumo: Prescrever com segurança é proteger a saúde, respeitar a ciência e seguir a regulamentação vigente.",
+  "clinical_case": {
+    "data": [
+      {
+        "label": "Idade",
+        "value": "48 anos"
+      },
+      {
+        "label": "IMC",
+        "value": "29,3 kg/m²"
+      },
+      {
+        "label": "HOMA-IR",
+        "value": "3,1"
+      },
+      {
+        "label": "HbA1c",
+        "value": "5,9%"
+      },
+      {
+        "label": "TSH",
+        "value": "2,1"
+      },
+      {
+        "label": "Prolactina",
+        "value": "19"
+      },
+      {
+        "label": "AST/ALT",
+        "value": "Normal"
+      },
+      {
+        "label": "USG Transvaginal",
+        "value": "Sem alterações"
+      }
+    ],
+    "title": "Paciente com Protocolo de IA para Peptídeos e Hormônios: Como Atuar?",
+    "reward": 15,
+    "options": [
+      {
+        "label": "a",
+        "correct": false,
+        "rationale": "Prescrever sem avaliação crítica e respaldo regula a infração ética e risco à segurança."
+      },
+      {
+        "label": "b",
+        "correct": true,
+        "rationale": "Conduta baseada em evidência, regulação, comunicação clara e documentação rigorosa; correta defesa do prescritor."
+      },
+      {
+        "label": "c",
+        "correct": false,
+        "rationale": "Ajustar doses de substâncias não aprovadas e consultar CFM não é prática recomendada, pois já há proibição."
+      },
+      {
+        "label": "d",
+        "correct": false,
+        "rationale": "Uso indiscriminado de GH e BPC-157 mesmo por curto prazo é proibido e inseguro."
+      }
+    ],
+    "question": "Qual a conduta mais adequada para o médico frente a este protocolo gerado por IA?",
+    "vignette": "Mulher, 48 anos, IMC 29,3 kg/m², resistência insulínica (HOMA-IR 3,1), fadiga crônica; traz protocolo digital mostrando: semaglutida 2,4 mg/sem, GH 2 UI sc à noite, BPC-157 200 mcg/d sc, implante de gestrinona, multivitamínico 1g EV semanal. HbA1c 5,9%, TSH 2,1, prolactina 19, AST/ALT normais, USG transvaginal sem alterações.",
+    "teaching": "O médico deve avaliar criticamente cada componente do protocolo apresentado, comparando com evidência robusta e regulatória brasileira. GH, BPC-157 e gestrinona não são aprovados para os usos propostos, constituindo prescrição irregular e antiética. A semaglutida é a única recomendada para obesidade e resistência insulínica com indicativo robusto. Construir comunicação assertiva e didática explicando riscos, recusar prescrição de substâncias irregulares, e documentar tudo cuidadosamente garante segurança do paciente e defesa do prescritor. Monitoramento rigoroso é mandatório para qualquer terapia iniciada."
+  },
+  "refs": [
+    {
+      "citation": "Posicionamento Doutiva — hierarquia de evidência para peptídeos terapêuticos no consultório. Conselho editorial Doutiva. Doutiva Editorial 2026."
+    },
+    {
+      "citation": "Standards of medical care in diabetes--2010. American Diabetes Association. Diabetes Care 2010;33 Suppl 1:S11-S61."
+    },
+    {
+      "citation": "Reporting guideline for the early-stage clinical evaluation of decision support systems driven by artificial intelligence: DECIDE-AI. Vasey B et al. Nat Med 2022;28(3):540-8."
+    },
+    {
+      "citation": "Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal. Wynants L et al. BMJ 2020;369:m1328."
+    },
+    {
+      "citation": "Resolução CFM nº 2.333/2023 - Uso de hormônios para fins estéticos ou anti-aging."
+    },
+    {
+      "citation": "RDC ANVISA nº 67/2007 e atualizações - Manipulação Estéril."
+    }
+  ],
+  "status": "published"
+}
