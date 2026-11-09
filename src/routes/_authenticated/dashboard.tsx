@@ -13,7 +13,6 @@ import {
   GraduationCap,
   PenTool,
   ShoppingBag,
-  Trophy,
   BookOpen,
 } from "lucide-react";
 
@@ -314,36 +313,5 @@ function Action({
       </div>
       <p className="mt-1 text-xs text-muted-foreground">{desc}</p>
     </Link>
-  );
-}
-
-function SoonCard({
-  title,
-  desc,
-  href,
-}: {
-  title: string;
-  desc: string;
-  href?: string;
-}) {
-  const inner = (
-    <>
-      <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Em breve</span>
-      <h3 className="mt-3 font-serif text-lg">{title}</h3>
-      <p className="mt-1 text-xs text-muted-foreground">{desc}</p>
-    </>
-  );
-  if (href) {
-    return (
-      <a
-        href={href}
-        className="rounded-sm border border-dashed border-border/70 bg-card/50 p-5 transition hover:border-gold/30"
-      >
-        {inner}
-      </a>
-    );
-  }
-  return (
-    <div className="rounded-sm border border-dashed border-border/70 bg-card/50 p-5">{inner}</div>
   );
 }
