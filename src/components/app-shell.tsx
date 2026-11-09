@@ -38,10 +38,10 @@ type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
 const studentNav = {
   primary: [
     { to: "/dashboard", label: "Meu campus", icon: LayoutDashboard },
+    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/mapa", label: "Mapa clínico", icon: Compass },
     { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
     { to: "/academy", label: "Universidade", icon: GraduationCap },
-    { to: "/revisao", label: "Revisão", icon: Target },
     { to: "/professores", label: "Professores de IA", icon: Brain },
   ] as NavItem[],
   environments: [
@@ -49,12 +49,12 @@ const studentNav = {
     { to: "/marketplace", label: "Marketplace", icon: ShoppingBag },
   ] as NavItem[],
   secondary: [
+    { to: "/revisao", label: "Revisão", icon: Target },
     { to: "/ranking", label: "Ranking", icon: Trophy },
     { to: "/certifications", label: "Certificados", icon: Award },
     { to: "/billing", label: "Meu plano", icon: CreditCard },
   ] as NavItem[],
   services: [
-    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
   mobile: [

@@ -76,16 +76,18 @@ function DashboardPage() {
             Escola do médico <span className="text-gold">do futuro</span>.
           </h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
-            AI-first: o Cérebro Doutiva mapeia o que você já sabe, monta o Caso do Dia e aprofunda
-            só o buraco. Mentores parceiros entram à parte — o centro é a IA.
+            Circuito claro: Mapa → Caso do Dia → Universidade → Professores de IA.
           </p>
-          <div className="mt-5">
+          <div className="mt-5 flex flex-wrap gap-3">
+            <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
+              <Link to="/mapa">Começar pelo Mapa</Link>
+            </Button>
             <Button asChild variant="outline" className="rounded-sm border-gold/40 text-gold hover:bg-gold/10">
-              <Link to="/como-funciona">Como funciona · 4 passos</Link>
+              <Link to="/como-funciona">Como funciona</Link>
             </Button>
           </div>
 
-          <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid gap-3 sm:grid-cols-3">
             <Metric
               label="Meta de hoje"
               value={
@@ -98,17 +100,12 @@ function DashboardPage() {
             <Metric
               label="XP clínico"
               value={progress ? String(progress.xp) : "—"}
-              hint="Beats + aulas + Caso do Dia"
-            />
-            <Metric
-              label="Créditos"
-              value={progress ? String(progress.credits) : "—"}
-              hint="Resgate no marketplace"
+              hint="Aulas + Caso do Dia"
             />
             <Metric
               label="Sequência"
               value={progress ? `${progress.streak} dias` : "—"}
-              hint="Sessão guiada no dia"
+              hint="Hábito diário"
             />
           </div>
         </div>
@@ -123,11 +120,11 @@ function DashboardPage() {
             </span>
             <div className="flex-1">
               <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">Mapa clínico</h2>
+                <h2 className="font-serif text-xl">1 · Mapa clínico</h2>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Cartógrafo: entrevista IA → verde / amarelo / vermelho. O cérebro começa aqui.
+                Onde você está firme e onde está o buraco.
               </p>
             </div>
           </Link>
@@ -141,31 +138,29 @@ function DashboardPage() {
             </span>
             <div className="flex-1">
               <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">
-                  {progress?.goalMet ? "Caso do Dia" : "Caso do Dia"}
-                </h2>
+                <h2 className="font-serif text-xl">2 · Caso do Dia</h2>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Hábito diário personalizado pelo seu mapa clínico.
+                Hábito diário alinhado ao seu mapa.
               </p>
             </div>
           </Link>
 
           <Link
-            to="/professores"
+            to="/academy"
             className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
           >
             <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
-              <Brain className="h-4 w-4" />
+              <GraduationCap className="h-4 w-4" />
             </span>
             <div className="flex-1">
               <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">Professores de IA</h2>
+                <h2 className="font-serif text-xl">3 · Universidade</h2>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
               </div>
               <p className="mt-1 text-sm text-muted-foreground">
-                Sabatina socrática com índice de domínio.
+                Todas as trilhas, organizadas por área.
               </p>
             </div>
           </Link>
@@ -175,13 +170,13 @@ function DashboardPage() {
       <section className="mt-10">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 className="font-serif text-2xl">Continue na Universidade</h2>
+            <h2 className="font-serif text-2xl">Estudar agora</h2>
             <p className="text-sm text-muted-foreground">
-              Trilhas publicadas com monografia, slides e caso clínico.
+              Catálogo completo na Universidade — aqui um atalho.
             </p>
           </div>
           <Link to="/academy" className="text-[10px] uppercase tracking-[0.25em] text-gold">
-            Ver tudo
+            Ver catálogo
           </Link>
         </div>
         <div className="mt-5 grid gap-3 md:grid-cols-3">
@@ -234,24 +229,18 @@ function DashboardPage() {
         </div>
       </section>
 
-      <section className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <Action
+          to="/professores"
+          icon={Brain}
+          title="Professores de IA"
+          desc="Sabatina quando quiser cravar um tema."
+        />
         <Action
           to="/revisao"
           icon={BookOpen}
           title="Revisão"
-          desc="Casos que você errou voltam com espaçamento."
-        />
-        <Action
-          to="/billing"
-          icon={ShoppingBag}
-          title="Meu plano"
-          desc="Peptídeos livres · Protocolos R$ 297/mês."
-        />
-        <Action
-          to="/ranking"
-          icon={Trophy}
-          title="Ranking"
-          desc="XP real das aulas e do Caso do Dia."
+          desc="O que você errou volta com espaçamento."
         />
         {faculty ? (
           <Action
@@ -261,32 +250,14 @@ function DashboardPage() {
             desc="Gere aulas ancoradas na biblioteca científica."
           />
         ) : (
-          <SoonCard
-            title="Painel da clínica"
-            desc="Oito indicadores e a conta do médico — em breve."
+          <Action
+            to="/billing"
+            icon={ShoppingBag}
+            title="Meu plano"
+            desc="O que é livre e o que abre com Protocolos."
           />
         )}
       </section>
-
-      {!faculty && (
-        <section className="mt-10 grid gap-3 md:grid-cols-3">
-          <SoonCard
-            title="Mentoria / marketplace"
-            desc="Fique perto dos primeiros mentores. Lista aberta no site."
-            href="/mentores"
-          />
-          <SoonCard
-            title="Semana Doutiva"
-            desc="Imersão + Encontro. A Origem em março."
-            href="/evento"
-          />
-          <SoonCard
-            title="Clube Doutiva"
-            desc="100 cadeiras · R$ 150 mil/ano. Em breve."
-            href="/oferta"
-          />
-        </section>
-      )}
 
       {faculty && (
         <section className="mt-10 rounded-sm border border-sage/30 bg-gradient-to-br from-sage/10 to-transparent p-6 md:p-8">
