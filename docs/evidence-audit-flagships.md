@@ -1,61 +1,52 @@
 # Auditoria de evidência — flagships Doutiva
 
-Data de referência: 2026-11-09 (America/Sao_Paulo). Escopo: cursos criados/expandidos na onda Purus (Manipulados, Hormônios, Soroterapia, Emagrecimento/Incretinas, Negócios, Peptídeos).
+Data de referência: 2026-11-09 (America/Sao_Paulo). Escopo: todos os cursos clínicos publicados (exceto Negócios) + 6 novos flagships da trilha científica.
 
 ## Veredito
 
 | Trilha | Base científica | Nota |
 |--------|-----------------|------|
-| Tirzepatida / Incretinas | **Forte** — STEP, SURMOUNT, SELECT, FLOW citados | A |
-| Emagrecimento / Obesidade | **Forte/Boa** — trials + ABESO/SBEM/ADA; alguns “verificar” | A− |
-| Peptídeos | **Boa** — hierarquia A–D clara; zona cinzenta bem marcada como D | B+ |
-| Hormônios / Implantes | **Boa** nas aulas 1–10 (guidelines); formulário 11–16 operacional com poucas refs | B |
-| Soroterapia | **Mista** — regulatório/segurança densos; evidência de “Myers/NAD” corretamente cética | B |
-| Manipulados | **Mista** — forte em ANVISA/CFM; trials clínicos menos densos no formulário | B− |
-| Negócios (5) | **Adequada ao gênero** — gestão/prática, não RCT | B (prática) |
+| Tirzepatida / Incretinas | **Forte** — STEP, SURMOUNT, SELECT, FLOW; âncoras em 10/10 | A |
+| Emagrecimento / Obesidade | **Forte** — trials + ABESO/SBEM; âncoras 16/16 | A |
+| Peptídeos | **Boa** — hierarquia A–D; âncoras 15/15 | B+ |
+| Hormônios / Implantes | **Boa** — guidelines + ops; âncoras 16/16 | B+ |
+| Soroterapia | **Boa** — regulatório + âncoras 16/16 | B |
+| Manipulados | **Boa** — ANVISA/CFM + formulário; âncoras 16/16 | B |
+| **Tireoide (novo)** | Guidelines ATA/ES + mitos desmontados; 16/16 | A− |
+| **Cardiometabólico (novo)** | SELECT, TRT/Hct, periop GLP-1; 16/16 | A− |
+| **DEXA operacional (novo)** | EWGSOP2 + follow-up; 16/16 | B+ |
+| **Ética/Prontuário (novo)** | CFM/LGPD; barra regulatória; 16/16 | A (reg.) |
+| **Sono/Cortisol (novo)** | Adrenal fatigue = mito; 16/16 | A− |
+| **Fertilidade TRT/incretinas (novo)** | HPG + washout; 16/16 | A− |
+| Sarcopenia / IA | Âncoras completas pós-enrich | B+ |
+| Negócios (5) | Gestão/ética — não RCT | B (prática) |
 
-**Conclusão:** não estamos “sem base”. Os eixos com RCT robusto (incretinas/obesidade) estão bem ancorados. Os eixos regulatório-operacionais (manipulados, soroterapia, técnica de hormônio) dependem mais de RDC/CFM/guidelines — isso é correto.
+**Conclusão:** a clínica Doutiva agora tem **âncoras de evidência** cobrindo essencialmente 100% das aulas clínicas publicadas. Novos flagships nascem com seção obrigatória `## Âncoras de evidência`. Placeholders `verificar` restantes = honestidade do modelo (sem DOI inventado), não ausência de guideline/trial nomeado.
 
-### Enriquecimento aplicado (2026-11-09)
+## O que foi feito nesta onda
 
-12 aulas-alvo receberam bloco **Âncoras de evidência** + refs depuradas via `scripts/enrich-lesson-evidence.mjs`:
+1. **6 cursos novos** (96 aulas) via `doutiva-curriculum-scientific-tracks.mjs` + deepen científico.
+2. **Enrich desde o curso zero** — `enrich-all-clinical-evidence.mjs --weak-only` (103 aulas) + passes extras Tirzepatida/Soroterapia + gaps pontuais.
+3. Freemium, academy e `public-catalog` atualizados; capas em `/public/covers`.
 
-| Curso | Aulas | Pós-enrich (refs / âncoras) |
-|-------|-------|------------------------------|
-| Hormônios | 12, 14, 16 | 6–9 refs + âncoras |
-| Manipulados | 11, 13, 14 | 10–12 refs + âncoras |
-| Obesidade | 2, 9, 16 | 10–11 refs + âncoras |
-| Soroterapia | 1, 2, 3 | 9–13 refs + âncoras |
+## Critérios
 
-Observação: monografias de soroterapia ainda podem citar `verificar` no corpo quando o modelo não confirma DOI — as âncoras/refs oficiais foram priorizadas.
-
-## Critérios usados
-
-- Comprimento da monografia, nº de refs, presença de DOI/PMID/guideline
-- Menções a ECR / metanálise / trials nomeados
-- Contagem de `verificar` (sintoma de incerteza do modelo)
-- Amostra manual de citações (não só métrica)
+- Monografia densa, nº de refs, DOI/guideline quando certo
+- Seção **Âncoras de evidência**
+- Contagem de `verificar` (sintoma de incerteza — preferível a inventar)
+- Hierarquia A–D explícita em mitos/zona cinzenta
 
 ## Limitações honestas
 
-1. Modelos de geração **recusam inventar DOI** (regra Doutiva) → sobram `verificar` quando a memória do modelo é incompleta.
-2. Formulário prático (dose/via/taxa) é **operacional**; evidência âncora deve ser guideline/trial, não “estudo de dose magistral”.
-3. Negócios médicos **não devem** fingir RCT de precificação — a barra é outra (ética CFM de publicidade + gestão).
+1. Modelos **recusam inventar DOI** → `verificar` pode permanecer no corpo.
+2. Formulário operacional ancora em guideline/RDC, não em “RCT de dose magistral”.
+3. Negócios médicos não fingem RCT de precificação.
 
-## Lacunas da trilha do médico (próximos flagships)
-
-Ordem sugerida de puxar:
-
-1. **Tireoide no consultório de longevidade** — TSH/T4L/T3, anti-TPO, liotironina com critério, “T3 livre Instagram”
-2. **Cardiometabólico do prescritor** — Hct na TRT, lipídios, FA/HAS sob incretina, perioperatório GLP-1
-3. **Composição corporal operacional** — DEXA/BIA/protocolo de follow-up (além de sarcopenia)
-4. **Ética, publicidade e prontuário defensável** — CFM publicidade, TCLE, redes sociais do médico
-5. **Sono / cortisol / “adrenal fatigue”** — desmontar mito com base
-6. **Fertilidade sob TRT e incretinas** — lacuna prática frequente no consultório
-
-## Como reauditar
+## Pipeline
 
 ```bash
-node --env-file=.env scripts/enrich-lesson-evidence.mjs --course=<slug> --only=1,2
-# métricas: ver agent log /tmp/evidence-audit.json (gerado sob demanda)
+node --env-file=.env scripts/bootstrap-doutiva-scientific-tracks.mjs
+node --env-file=.env --import tsx scripts/deepen-doutiva-scientific-tracks.mjs --course=<slug>
+node --env-file=.env --import tsx scripts/enrich-all-clinical-evidence.mjs --weak-only
+node --env-file=.env --import tsx scripts/enrich-lesson-evidence.mjs --course=<slug>
 ```

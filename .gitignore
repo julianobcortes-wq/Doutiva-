@@ -44,3 +44,4 @@ test-results
 supabase/.temp/
 TESTE-URL.txt
 tmp-pdf-download/
+.vite/
