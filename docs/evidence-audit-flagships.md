@@ -18,6 +18,7 @@ Data de referência: 2026-11-09 (America/Sao_Paulo). Escopo: todos os cursos cl�
 | **Ética/Prontuário (novo)** | CFM/LGPD; barra regulatória; 16/16 | A (reg.) |
 | **Sono/Cortisol (novo)** | Adrenal fatigue = mito; 16/16 | A− |
 | **Fertilidade TRT/incretinas (novo)** | HPG + washout; 16/16 | A− |
+| **Longevidade na Medicina (novo)** | Hallmarks, CALERIE/TAME/SELECT, geroscience A–D; 16/16 | A− |
 | Sarcopenia / IA | Âncoras completas pós-enrich | B+ |
 | Negócios (5) | Gestão/ética — não RCT | B (prática) |
 
