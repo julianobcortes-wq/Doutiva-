@@ -1,14 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import {
-  ArrowRight,
-  BookOpen,
-  Brain,
-  Compass,
-  Flame,
-  GraduationCap,
-  ListOrdered,
-  Route as RouteIcon,
-} from "lucide-react";
+import { ArrowRight, Compass, Flame, GraduationCap, ListOrdered, Route as RouteIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Route = createFileRoute("/_authenticated/como-funciona")({
@@ -17,8 +8,7 @@ export const Route = createFileRoute("/_authenticated/como-funciona")({
       { title: "Como funciona — Doutiva" },
       {
         name: "description",
-        content:
-          "Passo a passo da Doutiva: Mapa clínico, Minha Trilha, Caso do Dia, Universidade e Professores de IA.",
+        content: "Três passos: Mapa, Minha Trilha, Universidade.",
       },
     ],
   }),
@@ -27,123 +17,87 @@ export const Route = createFileRoute("/_authenticated/como-funciona")({
 
 const STEPS = [
   {
-    n: "01",
-    title: "Faça o Mapa clínico",
-    body: "Uma entrevista curta com a IA. O resultado é verde / amarelo / vermelho por tema — o cérebro sabe onde você está firme e onde está o buraco.",
+    n: "1",
+    title: "Mapa",
+    body: "Uma conversa curta. A IA vê onde você está firme e onde está o buraco.",
     to: "/mapa" as const,
-    cta: "Abrir Mapa",
+    cta: "Montar mapa",
     icon: Compass,
   },
   {
-    n: "02",
-    title: "Siga Minha Trilha",
-    body: "Do mapa sai a fila pessoal: o que estudar agora, na ordem do buraco. Marcada, separada do catálogo genérico.",
+    n: "2",
+    title: "Minha Trilha",
+    body: "Do mapa sai a sua fila — o que estudar agora, na ordem certa.",
     to: "/trilha" as const,
-    cta: "Minha Trilha",
+    cta: "Ver trilha",
     icon: RouteIcon,
   },
   {
-    n: "03",
-    title: "Treine no Caso do Dia",
-    body: "Todo dia, um caso clínico alinhado ao seu mapa. Três minutos. Errou? Vai para a Revisão espaçada.",
-    to: "/caso-do-dia" as const,
-    cta: "Caso de hoje",
-    icon: Flame,
-  },
-  {
-    n: "04",
-    title: "Explore a Universidade",
-    body: "Todos os cursos que criamos — monografia, slides e caso — organizados por área. Nada cortado; a trilha só prioriza.",
+    n: "3",
+    title: "Universidade",
+    body: "Todos os cursos, organizados. A trilha prioriza; o catálogo não some.",
     to: "/academy" as const,
     cta: "Ver cursos",
     icon: GraduationCap,
-  },
-  {
-    n: "05",
-    title: "Aprofunde com Professores de IA",
-    body: "Sabatina socrática quando quiser cravar um tema. Índice de domínio sobe com o que você demonstra — não com tempo de tela.",
-    to: "/professores" as const,
-    cta: "Professores",
-    icon: Brain,
   },
 ];
 
 function ComoFuncionaPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-12 pb-28 md:pb-12">
-      <header className="border-b border-border/60 pb-8">
-        <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-gold">
-          <ListOrdered className="h-3.5 w-3.5" /> Primeira vez aqui
+    <div className="mx-auto max-w-2xl px-6 py-14 pb-28 md:py-20 md:pb-16">
+      <header>
+        <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.28em] text-muted-foreground">
+          <ListOrdered className="h-3.5 w-3.5" /> Como funciona
         </span>
-        <h1 className="mt-3 font-serif text-4xl md:text-5xl">Como a Doutiva funciona</h1>
-        <p className="mt-3 max-w-xl text-muted-foreground">
-          Entrevista → Minha Trilha → estudo. A Universidade guarda o catálogo inteiro. O resto da
-          navegação apoia esse circuito.
+        <h1 className="mt-4 font-serif text-4xl tracking-tight md:text-5xl">Três passos.</h1>
+        <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
+          Sem painel lotado. Você monta o mapa, segue a trilha e estuda. O Caso do Dia e os
+          Professores entram quando você quiser.
         </p>
       </header>
 
-      <ol className="mt-10 space-y-4">
+      <ol className="mt-12 space-y-8">
         {STEPS.map((s) => {
           const Icon = s.icon;
           return (
-            <li
-              key={s.n}
-              className="rounded-sm border border-border/60 bg-card p-5 md:p-6"
-            >
-              <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                <div className="flex gap-4">
-                  <span className="font-serif text-2xl text-gold/80">{s.n}</span>
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <Icon className="h-4 w-4 text-gold" />
-                      <h2 className="font-serif text-xl">{s.title}</h2>
-                    </div>
-                    <p className="mt-2 max-w-md text-sm text-muted-foreground">{s.body}</p>
-                  </div>
+            <li key={s.n} className="flex gap-5">
+              <span className="font-serif text-3xl text-gold/70">{s.n}</span>
+              <div className="flex-1 border-b border-border/40 pb-8">
+                <div className="flex items-center gap-2">
+                  <Icon className="h-4 w-4 text-gold" />
+                  <h2 className="font-serif text-2xl">{s.title}</h2>
                 </div>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="shrink-0 rounded-sm border-gold/40 text-gold hover:bg-gold/10"
+                <p className="mt-2 max-w-sm text-sm leading-relaxed text-muted-foreground">{s.body}</p>
+                <Link
+                  to={s.to}
+                  className="mt-4 inline-flex items-center gap-1 text-sm text-gold hover:underline"
                 >
-                  <Link to={s.to}>
-                    {s.cta} <ArrowRight className="ml-1 h-3.5 w-3.5" />
-                  </Link>
-                </Button>
+                  {s.cta} <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
               </div>
             </li>
           );
         })}
       </ol>
 
-      <section className="mt-10 rounded-sm border border-border/60 bg-card/80 p-6">
-        <h2 className="font-serif text-xl">O que é livre vs Protocolos</h2>
-        <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-          <li>
-            <strong className="text-foreground">Livre:</strong> Peptídeos, Incretinas/Emagrecimento,
-            Hormônios, Manipulados, Soroterapia e Negócios (e outras trilhas liberadas no
-            lançamento).
-          </li>
-          <li>
-            <strong className="text-foreground">Protocolos:</strong> abre o restante da clínica e
-            intensifica Professores de IA.
-          </li>
-        </ul>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
-            <Link to="/mapa">Começar pelo Mapa</Link>
-          </Button>
-          <Button asChild variant="ghost" className="rounded-sm text-muted-foreground">
-            <Link to="/billing">Ver meu plano</Link>
-          </Button>
+      <div className="mt-4 flex items-start gap-3 py-2">
+        <Flame className="mt-1 h-4 w-4 text-muted-foreground" />
+        <div>
+          <p className="font-serif text-lg">Caso do Dia</p>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Três minutos por dia, alinhado ao seu mapa — hábito, não obrigação.
+          </p>
+          <Link to="/caso-do-dia" className="mt-2 inline-flex text-sm text-muted-foreground hover:text-gold">
+            Abrir caso de hoje
+          </Link>
         </div>
-      </section>
+      </div>
 
-      <p className="mt-8 flex items-start gap-2 text-xs text-muted-foreground">
-        <BookOpen className="mt-0.5 h-3.5 w-3.5 shrink-0 text-gold" />
-        Este guia fica sempre em <span className="text-foreground">Como funciona</span> na barra
-        lateral — e no mobile como <span className="text-foreground">Guia</span>.
-      </p>
+      <div className="mt-12">
+        <Button asChild size="lg" className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
+          <Link to="/mapa">Começar pelo Mapa</Link>
+        </Button>
+      </div>
     </div>
   );
 }

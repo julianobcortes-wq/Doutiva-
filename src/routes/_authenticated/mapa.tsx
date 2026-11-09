@@ -134,9 +134,8 @@ function MapaPage() {
       <h1 className="mt-3 font-serif text-4xl font-light tracking-tight sm:text-5xl">
         Seu mapa clínico
       </h1>
-      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-        Escola do médico do futuro — AI-first. O Cartógrafo descobre o que você já domina e o que
-        falta. A saída é Minha Trilha — a fila pessoal. Caso do Dia e Universidade ficam ao lado.
+      <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
+        Uma conversa curta. No fim, aparece Minha Trilha — o que estudar agora.
       </p>
 
       <div className="mt-8 flex flex-wrap gap-2">

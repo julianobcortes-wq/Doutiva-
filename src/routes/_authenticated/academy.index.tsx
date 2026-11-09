@@ -110,27 +110,16 @@ function AcademyPage() {
           <p className="mt-3 max-w-xl text-muted-foreground">
             {expert
               ? "Todas as trilhas publicadas — organize, revise e proponha a sua."
-              : `${courses.length} cursos publicados. Sua fila pessoal fica em Minha Trilha; aqui é o catálogo completo por área.`}
+              : `${courses.length} cursos. Catálogo completo — sua fila pessoal fica em Minha Trilha.`}
           </p>
-          <div className="mt-5 flex flex-wrap items-center gap-3">
+          <div className="mt-5 flex flex-wrap items-center gap-4">
             {!expert && (
-              <Link
-                to="/trilha"
-                className="inline-flex items-center gap-2 rounded-sm bg-gold px-3 py-2 text-[10px] uppercase tracking-[0.22em] text-primary-foreground transition hover:bg-gold-soft"
-              >
-                Minha Trilha
+              <Link to="/trilha" className="text-sm text-gold hover:underline">
+                Abrir Minha Trilha
               </Link>
             )}
-            <Link
-              to="/como-funciona"
-              className="inline-flex items-center gap-2 rounded-sm border border-gold/40 px-3 py-2 text-[10px] uppercase tracking-[0.22em] text-gold transition hover:bg-gold/10"
-            >
-              Como funciona
-            </Link>
             {!subscribed && (
-              <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                Livre e Protocolos marcados em cada curso
-              </p>
+              <p className="text-xs text-muted-foreground">Livre e Protocolos marcados em cada curso</p>
             )}
           </div>
 

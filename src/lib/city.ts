@@ -117,7 +117,7 @@ export const districts: District[] = [
 ];
 
 export const districtLabels: Record<string, string> = {
-  "/dashboard": "Minha Evolução",
+  "/dashboard": "Início",
   "/map": "Mapa de Evolução Humana",
   "/skills": "Árvore de Habilidades",
   "/missions": "Ações do dia",

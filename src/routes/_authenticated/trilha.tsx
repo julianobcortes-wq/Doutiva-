@@ -1,14 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
-import {
-  ArrowUpRight,
-  Compass,
-  GraduationCap,
-  Lock,
-  Route as RouteIcon,
-  Sparkles,
-} from "lucide-react";
+import { ArrowRight, Compass, GraduationCap, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getMyStudyTrail } from "@/lib/brain/brain.functions";
 import type { StudyTrailStep } from "@/lib/brain/types";
@@ -19,20 +12,12 @@ export const Route = createFileRoute("/_authenticated/trilha")({
       { title: "Minha Trilha — Doutiva" },
       {
         name: "description",
-        content:
-          "Sua fila de estudo pessoal, montada a partir do Mapa clínico. A Universidade completa fica ao lado.",
+        content: "Sua fila de estudo pessoal, montada a partir do Mapa clínico.",
       },
     ],
   }),
   component: TrilhaPage,
 });
-
-const BAND_STYLE: Record<StudyTrailStep["band"], string> = {
-  green: "border-emerald-500/40 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300",
-  yellow: "border-amber-500/40 bg-amber-500/10 text-amber-800 dark:text-amber-200",
-  red: "border-rose-500/35 bg-rose-500/10 text-rose-800 dark:text-rose-200",
-  untouched: "border-border/60 bg-muted/20 text-muted-foreground",
-};
 
 const BAND_LABEL: Record<StudyTrailStep["band"], string> = {
   green: "Domina",
@@ -53,182 +38,132 @@ function TrilhaPage() {
   const loading = trailQuery.isLoading;
 
   return (
-    <div className="mx-auto max-w-5xl px-4 pb-28 pt-8 sm:px-6">
-      <div className="flex flex-wrap items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-gold">
-        <RouteIcon className="h-3.5 w-3.5" /> Minha Trilha
-      </div>
-      <h1 className="mt-3 font-serif text-4xl font-light tracking-tight sm:text-5xl">
-        O que estudar agora
-      </h1>
-      <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-        Sai do Mapa clínico — entrevista com o Cartógrafo. Aqui está a fila do buraco. O catálogo
-        completo continua na Universidade.
-      </p>
-
-      <div className="mt-6 flex flex-wrap gap-2">
-        <Button asChild variant="outline" size="sm" className="gap-2 rounded-sm">
-          <Link to="/mapa">
-            <Compass className="h-3.5 w-3.5" />
-            {trail?.mapReady ? "Recalibrar mapa" : "Fazer entrevista"}
-          </Link>
-        </Button>
-        <Button asChild variant="outline" size="sm" className="gap-2 rounded-sm">
-          <Link to="/academy">
-            <GraduationCap className="h-3.5 w-3.5" /> Ver catálogo completo
-          </Link>
-        </Button>
-      </div>
+    <div className="mx-auto max-w-2xl px-6 py-14 pb-28 md:py-20 md:pb-16">
+      <p className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Minha Trilha</p>
+      <h1 className="mt-4 font-serif text-4xl tracking-tight md:text-5xl">O que estudar agora</h1>
 
       {loading && (
-        <p className="mt-10 text-sm text-muted-foreground">Montando sua trilha a partir do mapa…</p>
+        <p className="mt-8 text-sm text-muted-foreground">Montando sua trilha…</p>
       )}
 
       {trailQuery.isError && (
-        <div className="mt-10 border border-border/60 px-5 py-6 text-sm text-muted-foreground">
-          Não foi possível montar a trilha agora. Faça o Mapa clínico e tente de novo.
-          <div className="mt-4">
-            <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
-              <Link to="/mapa">Abrir Mapa</Link>
-            </Button>
-          </div>
+        <div className="mt-10">
+          <p className="text-sm text-muted-foreground">
+            Não foi possível montar a trilha. Comece pelo Mapa.
+          </p>
+          <Button asChild className="mt-5 rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
+            <Link to="/mapa">Abrir Mapa</Link>
+          </Button>
         </div>
       )}
 
-      {!loading && !trailQuery.isError && trail && (
+      {!loading && !trailQuery.isError && trail && !trail.mapReady && (
+        <section className="mt-8">
+          <p className="max-w-md text-base leading-relaxed text-muted-foreground">
+            Ainda sem mapa. Em cerca de dez minutos a entrevista monta a sua fila pessoal.
+          </p>
+          <Button
+            asChild
+            size="lg"
+            className="mt-8 rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
+          >
+            <Link to="/mapa">
+              <Compass className="mr-2 h-4 w-4" /> Montar meu mapa
+            </Link>
+          </Button>
+          <p className="mt-6 text-sm text-muted-foreground">
+            Enquanto isso, o catálogo completo está na{" "}
+            <Link to="/academy" className="text-gold hover:underline">
+              Universidade
+            </Link>
+            .
+          </p>
+        </section>
+      )}
+
+      {!loading && !trailQuery.isError && trail?.mapReady && (
         <>
-          <div className="mt-10 grid gap-3 sm:grid-cols-4">
-            <Stat label="Domina" value={trail.counts.green} />
-            <Stat label="Parcial" value={trail.counts.yellow} />
-            <Stat label="Lacuna" value={trail.counts.red} />
-            <Stat label="Catálogo" value={trail.catalogCount} />
+          <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
+            Ordem do seu mapa — lacunas primeiro. O catálogo inteiro continua na Universidade.
+          </p>
+
+          <ol className="mt-12 space-y-0">
+            {trail.steps.map((step, i) => (
+              <li key={`${step.topic.id}-${step.rank}`}>
+                <TrailRow step={step} last={i === trail.steps.length - 1} />
+              </li>
+            ))}
+            {trail.steps.length === 0 && (
+              <li className="py-6 text-sm text-muted-foreground">
+                Mapa pronto, sem fila ainda.{" "}
+                <Link to="/mapa" className="text-gold hover:underline">
+                  Recalibrar
+                </Link>{" "}
+                ou{" "}
+                <Link to="/academy" className="text-gold hover:underline">
+                  abrir a Universidade
+                </Link>
+                .
+              </li>
+            )}
+          </ol>
+
+          <div className="mt-12 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+            <Link to="/mapa" className="text-muted-foreground hover:text-foreground">
+              Recalibrar mapa
+            </Link>
+            <Link to="/academy" className="inline-flex items-center gap-1 text-gold hover:underline">
+              <GraduationCap className="h-3.5 w-3.5" /> Universidade
+            </Link>
           </div>
-
-          {!trail.mapReady ? (
-            <div className="mt-8 border border-dashed border-border/70 px-5 py-8">
-              <div className="flex items-start gap-3">
-                <Sparkles className="mt-0.5 h-4 w-4 text-gold" />
-                <div>
-                  <h2 className="font-serif text-xl">Primeiro: a entrevista do Mapa</h2>
-                  <p className="mt-2 max-w-xl text-sm text-muted-foreground">
-                    Sem o mapa, não há trilha pessoal — só o catálogo genérico. Em ~10 minutos o
-                    Cartógrafo calibra onde você está firme e onde está o buraco. Daí esta página
-                    vira sua fila.
-                  </p>
-                  <Button
-                    asChild
-                    className="mt-5 rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
-                  >
-                    <Link to="/mapa">Começar entrevista</Link>
-                  </Button>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <ol className="mt-10 space-y-3">
-              {trail.steps.map((step) => (
-                <li key={`${step.topic.id}-${step.rank}`}>
-                  <TrailStepCard step={step} />
-                </li>
-              ))}
-              {trail.steps.length === 0 && (
-                <li className="border border-border/60 px-5 py-6 text-sm text-muted-foreground">
-                  Mapa pronto, mas ainda sem fila montada. Recalibre o mapa ou abra a Universidade.
-                </li>
-              )}
-            </ol>
-          )}
-
-          <section className="mt-12 border border-border/60 bg-card/60 px-5 py-6">
-            <h2 className="font-serif text-xl">Universidade = catálogo inteiro</h2>
-            <p className="mt-2 max-w-xl text-sm text-muted-foreground">
-              Minha Trilha prioriza o buraco do mapa. Na Universidade você vê todos os cursos que
-              criamos — nada cortado, organizado por área.
-            </p>
-            <Button asChild variant="outline" className="mt-4 rounded-sm border-gold/40 text-gold">
-              <Link to="/academy">
-                Abrir Universidade <ArrowUpRight className="ml-1 h-3.5 w-3.5" />
-              </Link>
-            </Button>
-          </section>
         </>
       )}
     </div>
   );
 }
 
-function TrailStepCard({ step }: { step: StudyTrailStep }) {
+function TrailRow({ step, last }: { step: StudyTrailStep; last: boolean }) {
   const locked = step.course?.access !== "full";
-  const hrefCourse = step.course?.slug;
+  const href = step.course?.slug;
 
-  return (
-    <div className="flex flex-col gap-4 rounded-sm border border-border/60 bg-card p-5 sm:flex-row sm:items-start sm:justify-between">
-      <div className="flex gap-4">
-        <span className="font-serif text-2xl text-gold/80">{String(step.rank).padStart(2, "0")}</span>
-        <div>
-          <div className="flex flex-wrap items-center gap-2">
-            <span
-              className={`rounded-sm border px-2 py-0.5 text-[10px] uppercase tracking-[0.2em] ${BAND_STYLE[step.band]}`}
-            >
-              {BAND_LABEL[step.band]}
-            </span>
-            <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              {step.topic.specialty || "tema"}
-            </span>
-          </div>
-          <h3 className="mt-2 font-serif text-xl leading-snug">{step.topic.title}</h3>
-          <p className="mt-1 text-xs text-muted-foreground">{step.reason}</p>
-          {step.course ? (
-            <p className="mt-3 text-sm">
-              <span className="text-muted-foreground">Curso: </span>
-              <span className="text-foreground">{step.course.title}</span>
-              {step.lesson ? (
-                <span className="text-muted-foreground"> · {step.lesson.title}</span>
-              ) : null}
-            </p>
-          ) : (
-            <p className="mt-3 text-sm text-muted-foreground">
-              Tema no mapa — ainda sem aula ligada. Abra a Universidade ou peça ao Estúdio.
-            </p>
-          )}
-        </div>
-      </div>
-
-      {hrefCourse ? (
-        <Button
-          asChild
-          variant={locked ? "outline" : "default"}
-          className={
-            locked
-              ? "shrink-0 rounded-sm"
-              : "shrink-0 rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
-          }
-        >
-          <Link to="/academy/$slug" params={{ slug: hrefCourse }}>
-            {locked ? (
-              <>
-                <Lock className="mr-1 h-3.5 w-3.5" /> Ver trilha
-              </>
-            ) : (
-              <>
-                Estudar <ArrowUpRight className="ml-1 h-3.5 w-3.5" />
-              </>
-            )}
-          </Link>
-        </Button>
-      ) : (
-        <Button asChild variant="outline" className="shrink-0 rounded-sm">
-          <Link to="/academy">Ver catálogo</Link>
-        </Button>
-      )}
-    </div>
+  const inner = (
+    <>
+      <span className="w-8 shrink-0 font-serif text-xl text-gold/60">
+        {String(step.rank).padStart(2, "0")}
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+          {BAND_LABEL[step.band]}
+          {step.topic.specialty ? ` · ${step.topic.specialty}` : ""}
+        </span>
+        <span className="mt-1 block font-serif text-xl leading-snug">
+          {step.course?.title ?? step.topic.title}
+        </span>
+        {!step.course && (
+          <span className="mt-1 block text-xs text-muted-foreground">
+            Tema no mapa — ainda sem curso ligado.
+          </span>
+        )}
+      </span>
+      <span className="shrink-0 text-muted-foreground">
+        {locked ? <Lock className="h-4 w-4" /> : <ArrowRight className="h-4 w-4" />}
+      </span>
+    </>
   );
-}
 
-function Stat({ label, value }: { label: string; value: number }) {
   return (
-    <div className="border border-border/60 px-4 py-3">
-      <p className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">{label}</p>
-      <p className="mt-1 font-serif text-3xl font-light tabular-nums">{value}</p>
+    <div className={last ? "py-5" : "border-b border-border/40 py-5"}>
+      {href ? (
+        <Link
+          to="/academy/$slug"
+          params={{ slug: href }}
+          className="group flex items-start gap-4 transition hover:opacity-90"
+        >
+          {inner}
+        </Link>
+      ) : (
+        <div className="flex items-start gap-4">{inner}</div>
+      )}
     </div>
   );
 }

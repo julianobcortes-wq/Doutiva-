@@ -4,9 +4,8 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
 import { useValleyProfile } from "@/lib/use-city-profile";
 import { StatusHud } from "@/components/valley/status-hud";
-import { districtLabels, classLabel } from "@/lib/city";
+import { districtLabels } from "@/lib/city";
 import { experienceFor } from "@/lib/valley";
-import { useProgress } from "@/lib/use-progress";
 import { studioMe } from "@/lib/studio.functions";
 import {
   LayoutDashboard,
@@ -15,7 +14,6 @@ import {
   Settings,
   LogOut,
   Search,
-  Bell,
   Sparkles,
   Award,
   Trophy,
@@ -35,36 +33,33 @@ import {
 
 type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
 
-/** Student nav — only routes with real backend wiring. */
+/**
+ * Student nav — Apple-thin: few primary items, everything else under "Mais".
+ * Primordial: Início → Trilha → Universidade → Caso.
+ */
 const studentNav = {
   primary: [
-    { to: "/dashboard", label: "Meu campus", icon: LayoutDashboard },
-    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
-    { to: "/mapa", label: "Mapa clínico", icon: Compass },
+    { to: "/dashboard", label: "Início", icon: LayoutDashboard },
     { to: "/trilha", label: "Minha Trilha", icon: RouteIcon },
-    { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
     { to: "/academy", label: "Universidade", icon: GraduationCap },
-    { to: "/professores", label: "Professores de IA", icon: Brain },
+    { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
   ] as NavItem[],
-  environments: [
-    { to: "/mentors", label: "Médicos Mentores", icon: Users },
-    { to: "/marketplace", label: "Marketplace", icon: ShoppingBag },
-  ] as NavItem[],
+  environments: [] as NavItem[],
   secondary: [
+    { to: "/mapa", label: "Mapa clínico", icon: Compass },
+    { to: "/professores", label: "Professores de IA", icon: Brain },
+    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/revisao", label: "Revisão", icon: Target },
-    { to: "/ranking", label: "Ranking", icon: Trophy },
-    { to: "/certifications", label: "Certificados", icon: Award },
     { to: "/billing", label: "Meu plano", icon: CreditCard },
-  ] as NavItem[],
-  services: [
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
+  services: [] as NavItem[],
   mobile: [
-    { to: "/dashboard", label: "Campus", icon: LayoutDashboard },
+    { to: "/dashboard", label: "Início", icon: LayoutDashboard },
     { to: "/trilha", label: "Trilha", icon: RouteIcon },
     { to: "/caso-do-dia", label: "Caso", icon: Flame },
-    { to: "/academy", label: "Estudar", icon: GraduationCap },
-    { to: "/como-funciona", label: "Guia", icon: ListOrdered },
+    { to: "/academy", label: "Cursos", icon: GraduationCap },
+    { to: "/mapa", label: "Mapa", icon: Compass },
   ] as NavItem[],
 };
 
@@ -105,13 +100,12 @@ const facultyNav = {
 };
 
 export function AppShell({ children }: { children: React.ReactNode }) {
-  const realProgress = useProgress();
   const router = useRouter();
   const qc = useQueryClient();
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const [email, setEmail] = useState<string>("");
   const [search, setSearch] = useState("");
-  const { profile, hydrated } = useValleyProfile();
+  const { profile } = useValleyProfile();
   const { data: me } = useQuery({
     queryKey: ["studio-me"],
     queryFn: () => studioMe(),
@@ -166,73 +160,46 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
         <div className="flex-1 overflow-y-auto px-4 pt-6">
           <NavGroup
-            label={xp.primaryGroupLabel}
+            label={isFaculty ? xp.primaryGroupLabel : "Estudar"}
             items={nav.primary}
             pathname={pathname}
             expert={isFaculty}
           />
-          <NavGroup
-            label={xp.environmentsLabel}
-            items={nav.environments}
-            pathname={pathname}
-            expert={isFaculty}
-            className="mt-6"
-          />
-          <NavGroup
-            label={xp.secondaryGroupLabel}
-            items={nav.secondary}
-            pathname={pathname}
-            expert={isFaculty}
-            className="mt-6"
-          />
-          <NavGroup
-            label={isFaculty ? "Conta docente" : "Conta"}
-            items={nav.services}
-            pathname={pathname}
-            expert={isFaculty}
-            className="mt-6"
-          />
+          {nav.environments.length > 0 && (
+            <NavGroup
+              label={xp.environmentsLabel}
+              items={nav.environments}
+              pathname={pathname}
+              expert={isFaculty}
+              className="mt-6"
+            />
+          )}
+          {nav.secondary.length > 0 && (
+            <NavGroup
+              label={isFaculty ? xp.secondaryGroupLabel : "Mais"}
+              items={nav.secondary}
+              pathname={pathname}
+              expert={isFaculty}
+              className="mt-8"
+            />
+          )}
+          {nav.services.length > 0 && (
+            <NavGroup
+              label={isFaculty ? "Conta docente" : "Conta"}
+              items={nav.services}
+              pathname={pathname}
+              expert={isFaculty}
+              className="mt-6"
+            />
+          )}
         </div>
 
         <div className="border-t border-border/60 p-4">
-          <div
-            className={`rounded-sm border p-4 ${
-              isFaculty
-                ? "border-sage/30 bg-gradient-to-br from-sage/10 to-transparent"
-                : "border-gold/30 bg-gradient-to-br from-gold/10 to-transparent"
-            }`}
-          >
-            <div className="flex items-center justify-between">
-              {isFaculty ? (
-                <Compass className="h-4 w-4 text-sage" />
-              ) : (
-                <Sparkles className="h-4 w-4 text-gold" />
-              )}
-              <span
-                className={`text-[9px] uppercase tracking-[0.25em] ${isFaculty ? "text-sage" : "text-gold"}`}
-              >
-                {realProgress ? `${realProgress.xp} XP` : "—"}
-              </span>
-            </div>
-            <div className="mt-2 font-serif text-sm">{xp.cta.title}</div>
-            <p className="mt-1 text-xs text-muted-foreground">{xp.cta.desc}</p>
-            <Link
-              to={xp.cta.to as "/dashboard"}
-              className={`mt-3 block w-full rounded-sm border px-3 py-1.5 text-center text-xs uppercase tracking-[0.2em] ${
-                isFaculty
-                  ? "border-sage/40 text-sage hover:bg-sage/10"
-                  : "border-gold/40 text-gold hover:bg-gold/10"
-              }`}
-            >
-              {xp.cta.action}
-            </Link>
-          </div>
-
           <Link
             to="/settings"
-            className="mt-4 flex items-center gap-3 rounded-sm px-3 py-2 text-sm text-muted-foreground hover:bg-secondary/60 hover:text-foreground"
+            className="flex items-center gap-3 rounded-sm px-3 py-2 text-sm text-muted-foreground hover:bg-secondary/60 hover:text-foreground"
           >
-            <Settings className="h-4 w-4" /> Perfil e preferências
+            <Settings className="h-4 w-4" /> Perfil
           </Link>
           <button
             onClick={handleSignOut}
@@ -272,43 +239,19 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               </span>
             )}
             <Link
-              to="/caso-do-dia"
-              className={`hidden items-center gap-1.5 rounded-full border px-3 py-1 text-[10px] uppercase tracking-[0.2em] sm:inline-flex ${
-                isFaculty
-                  ? "border-sage/40 bg-sage/5 text-sage"
-                  : "border-gold/40 bg-gold/5 text-gold"
-              }`}
-            >
-              <Flame className="h-3 w-3" /> {realProgress?.streak ?? 0} dias
-            </Link>
-            <Link
-              to="/notifications"
-              className={`grid h-9 w-9 place-items-center rounded-sm border border-border/60 text-muted-foreground hover:text-foreground ${
-                isFaculty ? "hover:border-sage/40" : "hover:border-gold/40"
-              }`}
-            >
-              <Bell className="h-4 w-4" />
-            </Link>
-            <div className="hidden text-right md:block">
-              <div
-                className={`text-[10px] uppercase tracking-[0.2em] ${isFaculty ? "text-sage" : "text-gold"}`}
-              >
-                {hydrated ? classLabel(profile) : "Doutiva"}
-              </div>
-              <div className="max-w-[180px] truncate text-xs text-foreground">{email || "—"}</div>
-            </div>
-            <Link
               to="/settings"
               className={`grid h-9 w-9 place-items-center rounded-full font-serif text-sm text-primary-foreground bg-gradient-to-br ${
                 isFaculty ? "from-sage to-sage/70" : "from-gold to-gold-soft"
               }`}
+              aria-label="Perfil"
             >
               {initial}
             </Link>
           </div>
         </header>
 
-        <StatusHud expert={isFaculty} />
+        {/* Gamification HUD only for faculty — students get a quiet Apple-like chrome. */}
+        {isFaculty && <StatusHud expert />}
 
         <main className="min-h-[calc(100vh-4rem)]">{children}</main>
       </div>

@@ -34,7 +34,7 @@ function HelpPage() {
         <div>
           <div className="font-serif text-lg text-foreground">Primeira vez? Como funciona</div>
           <p className="mt-1 text-sm text-muted-foreground">
-            Mapa → Minha Trilha → Caso do Dia → Universidade. Circuito claro, sem ruído.
+            Mapa → Minha Trilha → Universidade. Três passos. O resto fica em Mais.
           </p>
         </div>
       </Link>
