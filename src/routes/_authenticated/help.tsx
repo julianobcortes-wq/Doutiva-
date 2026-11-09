@@ -1,5 +1,5 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { LifeBuoy, MessageCircle, BookOpen, Mail } from "lucide-react";
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { LifeBuoy, MessageCircle, BookOpen, Mail, ListOrdered } from "lucide-react";
 
 export const Route = createFileRoute("/_authenticated/help")({
   head: () => ({ meta: [{ title: "Suporte — Doutiva" }] }),
@@ -23,6 +23,21 @@ function HelpPage() {
           Atendimento exclusivo Doutiva — resposta humana em até 4 horas em dias úteis.
         </p>
       </header>
+
+      <Link
+        to="/como-funciona"
+        className="mt-8 flex items-start gap-4 rounded-sm border border-gold/40 bg-gold/5 p-5 transition hover:bg-gold/10"
+      >
+        <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
+          <ListOrdered className="h-4 w-4" />
+        </span>
+        <div>
+          <div className="font-serif text-lg text-foreground">Primeira vez? Como funciona</div>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Mapa → Caso do Dia → Universidade → Professores de IA. Quatro passos, sem ruído.
+          </p>
+        </div>
+      </Link>
 
       <section className="mt-10 grid gap-4 md:grid-cols-3">
         <Channel icon={MessageCircle} title="Chat com Concierge" body="Resposta humana imediata para qualquer demanda." />

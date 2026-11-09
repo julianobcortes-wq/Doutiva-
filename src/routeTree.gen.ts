@@ -30,6 +30,7 @@ import { Route as AuthenticatedBillingRouteImport } from './routes/_authenticate
 import { Route as AuthenticatedCasoDoDiaRouteImport } from './routes/_authenticated/caso-do-dia'
 import { Route as AuthenticatedCertificationsRouteImport } from './routes/_authenticated/certifications'
 import { Route as AuthenticatedCommunityRouteImport } from './routes/_authenticated/community'
+import { Route as AuthenticatedComoFuncionaRouteImport } from './routes/_authenticated/como-funciona'
 import { Route as AuthenticatedCredenciaisRouteImport } from './routes/_authenticated/credenciais'
 import { Route as AuthenticatedCreditosRouteImport } from './routes/_authenticated/creditos'
 import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
@@ -179,6 +180,12 @@ const AuthenticatedCommunityRoute = AuthenticatedCommunityRouteImport.update({
   path: '/community',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const AuthenticatedComoFuncionaRoute =
+  AuthenticatedComoFuncionaRouteImport.update({
+    id: '/como-funciona',
+    path: '/como-funciona',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
 const AuthenticatedCredenciaisRoute =
   AuthenticatedCredenciaisRouteImport.update({
     id: '/credenciais',
@@ -426,6 +433,7 @@ export interface FileRoutesByFullPath {
   '/caso-do-dia': typeof AuthenticatedCasoDoDiaRoute
   '/certifications': typeof AuthenticatedCertificationsRoute
   '/community': typeof AuthenticatedCommunityRouteWithChildren
+  '/como-funciona': typeof AuthenticatedComoFuncionaRoute
   '/credenciais': typeof AuthenticatedCredenciaisRoute
   '/creditos': typeof AuthenticatedCreditosRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
@@ -490,6 +498,7 @@ export interface FileRoutesByTo {
   '/caso-do-dia': typeof AuthenticatedCasoDoDiaRoute
   '/certifications': typeof AuthenticatedCertificationsRoute
   '/community': typeof AuthenticatedCommunityRouteWithChildren
+  '/como-funciona': typeof AuthenticatedComoFuncionaRoute
   '/credenciais': typeof AuthenticatedCredenciaisRoute
   '/creditos': typeof AuthenticatedCreditosRoute
   '/dashboard': typeof AuthenticatedDashboardRoute
@@ -556,6 +565,7 @@ export interface FileRoutesById {
   '/_authenticated/caso-do-dia': typeof AuthenticatedCasoDoDiaRoute
   '/_authenticated/certifications': typeof AuthenticatedCertificationsRoute
   '/_authenticated/community': typeof AuthenticatedCommunityRouteWithChildren
+  '/_authenticated/como-funciona': typeof AuthenticatedComoFuncionaRoute
   '/_authenticated/credenciais': typeof AuthenticatedCredenciaisRoute
   '/_authenticated/creditos': typeof AuthenticatedCreditosRoute
   '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
@@ -622,6 +632,7 @@ export interface FileRouteTypes {
     | '/caso-do-dia'
     | '/certifications'
     | '/community'
+    | '/como-funciona'
     | '/credenciais'
     | '/creditos'
     | '/dashboard'
@@ -686,6 +697,7 @@ export interface FileRouteTypes {
     | '/caso-do-dia'
     | '/certifications'
     | '/community'
+    | '/como-funciona'
     | '/credenciais'
     | '/creditos'
     | '/dashboard'
@@ -751,6 +763,7 @@ export interface FileRouteTypes {
     | '/_authenticated/caso-do-dia'
     | '/_authenticated/certifications'
     | '/_authenticated/community'
+    | '/_authenticated/como-funciona'
     | '/_authenticated/credenciais'
     | '/_authenticated/creditos'
     | '/_authenticated/dashboard'
@@ -967,6 +980,13 @@ declare module '@tanstack/react-router' {
       path: '/community'
       fullPath: '/community'
       preLoaderRoute: typeof AuthenticatedCommunityRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/_authenticated/como-funciona': {
+      id: '/_authenticated/como-funciona'
+      path: '/como-funciona'
+      fullPath: '/como-funciona'
+      preLoaderRoute: typeof AuthenticatedComoFuncionaRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
     '/_authenticated/credenciais': {
@@ -1310,6 +1330,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedCasoDoDiaRoute: typeof AuthenticatedCasoDoDiaRoute
   AuthenticatedCertificationsRoute: typeof AuthenticatedCertificationsRoute
   AuthenticatedCommunityRoute: typeof AuthenticatedCommunityRouteWithChildren
+  AuthenticatedComoFuncionaRoute: typeof AuthenticatedComoFuncionaRoute
   AuthenticatedCredenciaisRoute: typeof AuthenticatedCredenciaisRoute
   AuthenticatedCreditosRoute: typeof AuthenticatedCreditosRoute
   AuthenticatedDashboardRoute: typeof AuthenticatedDashboardRoute
@@ -1351,6 +1372,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedCasoDoDiaRoute: AuthenticatedCasoDoDiaRoute,
   AuthenticatedCertificationsRoute: AuthenticatedCertificationsRoute,
   AuthenticatedCommunityRoute: AuthenticatedCommunityRouteWithChildren,
+  AuthenticatedComoFuncionaRoute: AuthenticatedComoFuncionaRoute,
   AuthenticatedCredenciaisRoute: AuthenticatedCredenciaisRoute,
   AuthenticatedCreditosRoute: AuthenticatedCreditosRoute,
   AuthenticatedDashboardRoute: AuthenticatedDashboardRoute,

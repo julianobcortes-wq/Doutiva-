@@ -29,6 +29,7 @@ import {
   PenTool,
   Brain,
   CreditCard,
+  ListOrdered,
 } from "lucide-react";
 
 type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
@@ -53,6 +54,7 @@ const studentNav = {
     { to: "/billing", label: "Meu plano", icon: CreditCard },
   ] as NavItem[],
   services: [
+    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
   mobile: [
@@ -60,7 +62,7 @@ const studentNav = {
     { to: "/mapa", label: "Mapa", icon: Compass },
     { to: "/caso-do-dia", label: "Caso", icon: Flame },
     { to: "/academy", label: "Estudar", icon: GraduationCap },
-    { to: "/professores", label: "IA", icon: Brain },
+    { to: "/como-funciona", label: "Guia", icon: ListOrdered },
   ] as NavItem[],
 };
 
@@ -88,6 +90,7 @@ const facultyNav = {
   services: [
     { to: "/billing", label: "Meu plano", icon: CreditCard },
     { to: "/credenciais", label: "CRM / Credenciais", icon: CreditCard },
+    { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/help", label: "Suporte", icon: LifeBuoy },
   ] as NavItem[],
   mobile: [
@@ -95,7 +98,7 @@ const facultyNav = {
     { to: "/editor", label: "Estúdio", icon: PenTool },
     { to: "/academy", label: "Cursos", icon: GraduationCap },
     { to: "/caso-do-dia", label: "Caso", icon: Flame },
-    { to: "/professores", label: "IA", icon: Brain },
+    { to: "/como-funciona", label: "Guia", icon: ListOrdered },
   ] as NavItem[],
 };
 

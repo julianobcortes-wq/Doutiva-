@@ -297,7 +297,7 @@ function OnboardingPage() {
             <p className="mt-3 text-muted-foreground">
               {expert
                 ? "Você entra como Médico Mentor. Sua trilha acompanha conhecimento, contribuição, impacto, reputação e experiência como mentor."
-                : "Você entra como Médico Aluno. Seu mapa acompanha base científica, biotecnologia, rede médica, carreira e negócio."}
+                : "Você entra como Médico Aluno. Próximo: Mapa clínico → Caso do Dia → Universidade — o guia “Como funciona” fica sempre na barra lateral."}
             </p>
           </div>
         )}
@@ -322,7 +322,7 @@ function OnboardingPage() {
             </Button>
           ) : (
             <Button onClick={finish} className="rounded-sm bg-gold px-8 text-primary-foreground hover:bg-gold-soft">
-              Ativar meu mapa
+              Ir para o campus
             </Button>
           )}
         </div>

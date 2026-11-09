@@ -149,11 +149,19 @@ function AcademyPage() {
                 ? "AI-first: após o Mapa clínico, a ordem das aulas prioriza as suas lacunas — clínica e negócios da prática."
                 : "Peptídeos, Manipulados, Hormônios, Soroterapia, Emagrecimento e Negócios liberados. Demais trilhas clínicas abrem com Protocolos."}
           </p>
-          {!subscribed && (
-            <p className="mt-4 inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
-              Peptídeos · Manipulados · Hormônios · Soroterapia · Emagrecimento · Negócios · livre
-            </p>
-          )}
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <Link
+              to="/como-funciona"
+              className="inline-flex items-center gap-2 rounded-sm border border-gold/40 px-3 py-2 text-[10px] uppercase tracking-[0.22em] text-gold transition hover:bg-gold/10"
+            >
+              Como funciona · 4 passos
+            </Link>
+            {!subscribed && (
+              <p className="inline-flex items-center gap-2 rounded-sm border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] uppercase tracking-[0.22em] text-gold">
+                Peptídeos · Incretinas · Hormônios · Negócios · livre
+              </p>
+            )}
+          </div>
         </div>
       </section>
 

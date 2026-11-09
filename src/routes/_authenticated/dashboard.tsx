@@ -79,6 +79,11 @@ function DashboardPage() {
             AI-first: o Cérebro Doutiva mapeia o que você já sabe, monta o Caso do Dia e aprofunda
             só o buraco. Mentores parceiros entram à parte — o centro é a IA.
           </p>
+          <div className="mt-5">
+            <Button asChild variant="outline" className="rounded-sm border-gold/40 text-gold hover:bg-gold/10">
+              <Link to="/como-funciona">Como funciona · 4 passos</Link>
+            </Button>
+          </div>
 
           <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             <Metric
