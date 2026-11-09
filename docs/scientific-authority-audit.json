@@ -1,0 +1,1097 @@
+{
+  "generated_at": "2026-11-09T12:08:33.795Z",
+  "timezone_note": "America/Sao_Paulo for editorial; timestamps UTC",
+  "totals": {
+    "lessons": 221,
+    "critical": 8,
+    "high": 20,
+    "med": 105,
+    "ok": 88,
+    "unique_dois": 231,
+    "doi_ok": 22,
+    "doi_bad": 8,
+    "doi_unknown": 201
+  },
+  "byCourse": {
+    "cardiometabolico-prescritor-criterio": {
+      "title": "Cardiometabólico do Prescritor",
+      "category": "Cardiometabolismo",
+      "n": 16,
+      "critical": 3,
+      "high": 2,
+      "med": 0,
+      "ok": 11,
+      "anchors": 16,
+      "doiBad": 3,
+      "avgRefs": 7.4
+    },
+    "dexa-composicao-operacional": {
+      "title": "DEXA e Composição Corporal Operacional",
+      "category": "Composição corporal",
+      "n": 16,
+      "critical": 4,
+      "high": 1,
+      "med": 1,
+      "ok": 10,
+      "anchors": 16,
+      "doiBad": 4,
+      "avgRefs": 7.4
+    },
+    "obesidade-precisao-consultorio": {
+      "title": "Emagrecimento e Obesidade de Precisão",
+      "category": "Metabolismo",
+      "n": 16,
+      "critical": 1,
+      "high": 0,
+      "med": 9,
+      "ok": 6,
+      "anchors": 16,
+      "doiBad": 1,
+      "avgRefs": 8.4
+    },
+    "etica-publicidade-prontuario": {
+      "title": "Ética, Publicidade e Prontuário Defensável",
+      "category": "Ética e prática",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 1,
+      "ok": 15,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 7.3
+    },
+    "fertilidade-trt-incretinas": {
+      "title": "Fertilidade sob TRT e Incretinas",
+      "category": "Reprodução",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 10,
+      "ok": 6,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 6.8
+    },
+    "hormonios-implantes-criterio": {
+      "title": "Hormônios Injetáveis e Implantes com Critério",
+      "category": "Endocrinologia",
+      "n": 16,
+      "critical": 0,
+      "high": 4,
+      "med": 8,
+      "ok": 4,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 7.8
+    },
+    "ia-pratica-medica": {
+      "title": "IA na Prática Médica",
+      "category": "Prática digital",
+      "n": 10,
+      "critical": 0,
+      "high": 0,
+      "med": 9,
+      "ok": 1,
+      "anchors": 10,
+      "doiBad": 0,
+      "avgRefs": 7.9
+    },
+    "longevidade-medicina-evidencia": {
+      "title": "Longevidade na Medicina com Evidência",
+      "category": "Longevidade",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 11,
+      "ok": 5,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 9.1
+    },
+    "manipulados-injetaveis-criterio": {
+      "title": "Medicamentos Manipulados Injetáveis com Critério",
+      "category": "Terapêutica",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 9,
+      "ok": 7,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 10.3
+    },
+    "peptideos-medicina-de-precisao": {
+      "title": "Peptídeos na Medicina de Precisão",
+      "category": "Biotecnologia",
+      "n": 15,
+      "critical": 0,
+      "high": 0,
+      "med": 10,
+      "ok": 5,
+      "anchors": 15,
+      "doiBad": 0,
+      "avgRefs": 9.3
+    },
+    "sarcopenia-composicao-performance": {
+      "title": "Sarcopenia, Composição Corporal e Performance",
+      "category": "Composição corporal",
+      "n": 10,
+      "critical": 0,
+      "high": 0,
+      "med": 8,
+      "ok": 2,
+      "anchors": 10,
+      "doiBad": 0,
+      "avgRefs": 8.5
+    },
+    "sono-cortisol-criterio": {
+      "title": "Sono, Cortisol e o Mito da Fadiga Adrenal",
+      "category": "Endocrinologia",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 12,
+      "ok": 4,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 7.1
+    },
+    "soroterapia-injetaveis-estereis": {
+      "title": "Soroterapia com Critério",
+      "category": "Terapêutica",
+      "n": 16,
+      "critical": 0,
+      "high": 6,
+      "med": 7,
+      "ok": 3,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 8.2
+    },
+    "tireoide-longevidade-criterio": {
+      "title": "Tireoide no Consultório de Longevidade",
+      "category": "Endocrinologia",
+      "n": 16,
+      "critical": 0,
+      "high": 0,
+      "med": 7,
+      "ok": 9,
+      "anchors": 16,
+      "doiBad": 0,
+      "avgRefs": 6.9
+    },
+    "tirzepatida-incretinas-consultorio": {
+      "title": "Tirzepatida e Incretinas no Consultório",
+      "category": "Metabolismo",
+      "n": 10,
+      "critical": 0,
+      "high": 7,
+      "med": 3,
+      "ok": 0,
+      "anchors": 10,
+      "doiBad": 0,
+      "avgRefs": 7.7
+    }
+  },
+  "critical": [
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 3,
+      "title": "Hematócrito na Terapia de Reposição de Testosterona (TRT): Fisiologia, Limiares, Flebotomia e Diretrizes para Interrupção",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 9,
+      "title": "Fibrilação, Trombose e Hormônios: Mapa de Risco no Contexto Cardiometabólico",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 13,
+      "title": "Casos Clínicos e Ética em Cardiometabologia: Vignettes Reais e Aplicações Práticas",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 5,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 1,
+      "title": "Por que Peso e IMC Mentem: O Caso Clínico da Composição Corporal",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 8,
+      "verificar": 3,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 6,
+      "title": "Intervenções com Evidência na Sarcopenia: Proteína, Exercício Resistido e Vitamina D - O que os Trials Sustentam",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 7,
+      "title": "Perda de Peso e Preservação da Massa Magra em Terapia com Incretinas (GLP-1/GIP): Implicações Clínicas e Estratégias",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 13,
+      "title": "Casos Clínicos em DEXA e Composição Corporal: Obesidade Sarcopênica, Incretinas, Idoso Frágil e Atleta",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 1,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 2,
+      "title": "Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada",
+      "severity": "CRITICAL",
+      "reasons": [
+        "1 DOI(s) não resolvem no Crossref (possível citação inventada)"
+      ],
+      "refCount": 11,
+      "verificar": 3,
+      "doiBad": 1,
+      "anchors": true
+    }
+  ],
+  "high": [
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 7,
+      "title": "SELECT, SURMOUNT e o benefício cardiovascular das incretinas: ler os trials como prescritor",
+      "severity": "HIGH",
+      "reasons": [
+        "1 ref(s) com padrão AI-smell"
+      ],
+      "refCount": 5,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 8,
+      "title": "Perioperatório e Suspensão de GLP-1/GIP: Aspiração, Jejum e Recomendações das Sociedades Médicas",
+      "severity": "HIGH",
+      "reasons": [
+        "1 ref(s) com padrão AI-smell"
+      ],
+      "refCount": 7,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 3,
+      "title": "Anatomia do Laudo DEXA: Interpretando BMC, Lean, Fat, Compartimentos Android/Gynoid e Proxies de VAT",
+      "severity": "HIGH",
+      "reasons": [
+        "1 ref(s) com padrão AI-smell"
+      ],
+      "refCount": 7,
+      "verificar": 3,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 4,
+      "title": "Implantes de Testosterona em Homens: Técnica, Farmacocinética, Picos/Vales e Follow-up",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (9)"
+      ],
+      "refCount": 6,
+      "verificar": 9,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 5,
+      "title": "Terapia Hormonal da Menopausa (THM) Pós-WHI: Evidência, Janela de Oportunidade, Vias, Implantes e Regulação BR",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (9)"
+      ],
+      "refCount": 8,
+      "verificar": 9,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 7,
+      "title": "GH, Secretagogos, DHEA, Pregnenolona e Cocktails 'Longevidade': Leitura Crítica para Prescrição Ética",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (10)"
+      ],
+      "refCount": 8,
+      "verificar": 10,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 8,
+      "title": "Segurança, Farmacovigilância e Responsabilidade do Prescritor + Farmácia em Terapias Hormonais e Manipulados",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (16)"
+      ],
+      "refCount": 9,
+      "verificar": 16,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 1,
+      "title": "Por que esterilidade e qualidade mudam o risco: Microbiologia prática para o prescritor em soroterapia e injetáveis estéreis",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (10)"
+      ],
+      "refCount": 8,
+      "verificar": 10,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 2,
+      "title": "Farmacotécnica para Prescritores: Osmolaridade, pH, Compatibilidade e Estabilidade em Soroterapia/Injetáveis Estéreis",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (18)"
+      ],
+      "refCount": 9,
+      "verificar": 18,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 5,
+      "title": "Seleção do Paciente, Acesso Venoso, Monitoramento e Manejo de Reações em Soroterapia Estéril",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (14)"
+      ],
+      "refCount": 8,
+      "verificar": 14,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 6,
+      "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos para Segurança Clínica",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (11)"
+      ],
+      "refCount": 8,
+      "verificar": 11,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 7,
+      "title": "Como Prescrever Injetável Manipulado com Qualidade: Receita, Justificativa e Rastreio",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (20)"
+      ],
+      "refCount": 8,
+      "verificar": 20,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 9,
+      "title": "Encaixe com obesidade, hormônios e performance: quando IV agrega e quando atrapalha",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (22)"
+      ],
+      "refCount": 8,
+      "verificar": 22,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 1,
+      "title": "Fenotipagem do candidato à incretina: quem inicia, quem espera, quem não deve",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (12)"
+      ],
+      "refCount": 9,
+      "verificar": 12,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 4,
+      "title": "Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (13)"
+      ],
+      "refCount": 8,
+      "verificar": 13,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 5,
+      "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (11)"
+      ],
+      "refCount": 9,
+      "verificar": 11,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 6,
+      "title": "Falha terapêutica, plateau e switch semaglutida ↔ tirzepatida",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (16)"
+      ],
+      "refCount": 9,
+      "verificar": 16,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 8,
+      "title": "Massa Magra sob Incretinas: o que medir e como preservar na prática",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (11)"
+      ],
+      "refCount": 7,
+      "verificar": 11,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 9,
+      "title": "Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (17)"
+      ],
+      "refCount": 8,
+      "verificar": 17,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 10,
+      "title": "Tirzepatida e Incretinas no Consultório - Casos Clínicos Operacionais: Início, Intolerância, Falha, DCV e Pedido Estético",
+      "severity": "HIGH",
+      "reasons": [
+        "alta densidade de \"verificar\" (8)"
+      ],
+      "refCount": 6,
+      "verificar": 8,
+      "doiBad": 0,
+      "anchors": true
+    }
+  ],
+  "med_sample": [
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 15,
+      "title": "Biblioteca Âncora: EWGSOP2, Trials de Proteína e Treino, e Composição Corporal em Incretinas",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 9,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 1,
+      "title": "Obesidade como Doença Crônica: Fisiopatologia, Set Point e Estigma no Consultório",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 5,
+      "title": "Farmacoterapia anti-obesidade oral no Brasil: evidência, doses e combinação",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 1,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 6,
+      "title": "Incretinas na Obesidade Multimodal: Integração com Dieta, Exercício e Comportamento",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 7,
+      "title": "Indicação cirúrgica, preparo clínico e cuidado pós-bariátrica no consultório clínico",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (5)"
+      ],
+      "refCount": 10,
+      "verificar": 5,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 9,
+      "title": "Manutenção do peso e prevenção de reganho: o jogo longo",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (4)"
+      ],
+      "refCount": 8,
+      "verificar": 4,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 10,
+      "title": "Casos Integrados de Obesidade de Precisão: Fenótipo Emocional, Sarcopênico, Pós-Bariátrica e DCV na Manutenção",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 10,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 14,
+      "title": "Preservar Massa Magra na Perda de Peso: Proteína, Treino, DEXA/BIA e Armadilhas",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 15,
+      "title": "Manutenção, Descontinuação e Reganho: O Protocolo Depois do Nadir",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 16,
+      "title": "Guia de Bolso: Protocolo 90 Dias de Emagrecimento no Consultório Doutiva",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 10,
+      "verificar": 1,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "etica-publicidade-prontuario",
+      "position": 14,
+      "title": "Biblioteca Âncora: Resoluções CFM e Marcos ANVISA para Prescrição Médica Ética",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (3)"
+      ],
+      "refCount": 8,
+      "verificar": 3,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 1,
+      "title": "Por que fertilidade é o ponto cego do consultório de precisão",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 5,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 2,
+      "title": "Fisiologia da Espermatogênese e do Eixo Hipotálamo-Hipófise-Gonadal (HPG) — O Essencial",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 3,
+      "title": "TRT e Infertilidade Masculina: Evidência de Supressão e Recuperação da Espermatogênese",
+      "severity": "MED",
+      "reasons": [
+        "4 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 4,
+      "title": "hCG, FSH, SERMs e ‘restart’ na Terapia com TRT: Evidências, Protocolos e Limitações",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 5,
+      "title": "Criopreservação: Indicações Antes de Terapia de Reposição de Testosterona (TRT) ou Exposição Quimioterápica",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 6,
+      "title": "SARMs, Prohormônios e Fertilidade: Riscos, Recusa e Documentação na Zona Cinzenta da Pesquisa Clínica",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 6,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 7,
+      "title": "Obesidade, Síndrome dos Ovários Policísticos (PCOS) e Fertilidade: O Papel da Perda Ponderal na Ovulação",
+      "severity": "MED",
+      "reasons": [
+        "4 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 10,
+      "title": "Espermograma e Laboratórios na Avaliação da Fertilidade Masculina: Diretrizes e Interpretação para Prescritores",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 6,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 12,
+      "title": "Protocolo de Recovery na Fertilidade sob TRT e Incretinas: Timeline, Laboratórios e Expectativas Realistas",
+      "severity": "MED",
+      "reasons": [
+        "bibliografia fina (4 refs)"
+      ],
+      "refCount": 4,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 15,
+      "title": "Biblioteca Âncora: Guidelines em Hipogonadismo, Fertilidade Masculina e Incretinas na Gestação",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 1,
+      "title": "Eixo Hormonal no Adulto: Deficiência versus Otimização Cosmética",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (7)"
+      ],
+      "refCount": 10,
+      "verificar": 7,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 2,
+      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio: O Mínimo Inegociável",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (4)"
+      ],
+      "refCount": 6,
+      "verificar": 4,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 3,
+      "title": "Hipogonadismo Masculino: Diagnóstico, TRT, Vias (Gel, Injetável, Implante) e Riscos",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (3)"
+      ],
+      "refCount": 7,
+      "verificar": 3,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 6,
+      "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: o que a evidência sustenta",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (4)"
+      ],
+      "refCount": 8,
+      "verificar": 4,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 9,
+      "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (5)"
+      ],
+      "refCount": 9,
+      "verificar": 5,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 10,
+      "title": "Casos Clínicos em Hormonioterapia e Implantes: Hipogonadismo, Anti-Aging, Menopausa e Complicações",
+      "severity": "MED",
+      "reasons": [
+        "5 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 12,
+      "title": "TRT Injetável na Bancada: Cipionato vs Enantato vs Undecanoato — Dose, Volume e Intervalo",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 15,
+      "title": "Módulo 7 · Implantes e Mulher: THM Injetável e Implantes Femininos — Estradiol ± Progesterona com Critério",
+      "severity": "MED",
+      "reasons": [
+        "1 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 5,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 1,
+      "title": "O que o médico precisa entender de modelos generativos sem virar engenheiro",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (7)"
+      ],
+      "refCount": 8,
+      "verificar": 7,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 3,
+      "title": "Alucinações, vieses, inequidade e erros silenciosos: como auditar sistemas de IA na prática médica",
+      "severity": "MED",
+      "reasons": [
+        "8 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 10,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 4,
+      "title": "LGPD, Sigilo e Dados de Saúde: o Mínimo Legal para Usar Ferramentas de IA",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 5,
+      "title": "IA na documentação clínica: SOAP, sumários e risco de ‘nota bonita e errada’",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 2,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 6,
+      "title": "IA na decisão clínica: apoio vs automação — fronteiras éticas do CFM e do bom senso",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 1,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 7,
+      "title": "IA na Educação Médica: Tutores com Citação Obrigatória e Fidelidade claim↔fonte",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 8,
+      "verificar": 1,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 8,
+      "title": "Desinformação Médica Amplificada por IA e Redes: Defesa do Prescritor",
+      "severity": "MED",
+      "reasons": [
+        "\"verificar\" residual (3)"
+      ],
+      "refCount": 10,
+      "verificar": 3,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 9,
+      "title": "Como implantar IA no consultório/clínica em 90 dias com governança mínima",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 6,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "ia-pratica-medica",
+      "position": 10,
+      "title": "Implantação Segura de IA na Prática Médica: Evitando Erros de Conduta por 'Alucinação' de Modelos de Linguagem",
+      "severity": "MED",
+      "reasons": [
+        "3 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 1,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 1,
+      "title": "Longevidade Clínica vs Anti-Aging de Marketing: O Contrato Científico do Prescritor",
+      "severity": "MED",
+      "reasons": [
+        "2 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 7,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 2,
+      "title": "Hallmarks of Aging: Framework Útil e Limites para Terapêutica Clínica na Longevidade",
+      "severity": "MED",
+      "reasons": [
+        "9 DOI(s) com resolução inconclusiva"
+      ],
+      "refCount": 10,
+      "verificar": 0,
+      "doiBad": 0,
+      "anchors": true
+    }
+  ],
+  "bad_dois": [
+    "10.1177/1060028015595427",
+    "10.1161/circulationaha.106.656987",
+    "10.1182/blood-2016-05-716737",
+    "10.1016/s2213-8587(18",
+    "10.3945/ajcn.111.030750",
+    "10.1056/nejmoa2022186",
+    "10.1111/dom.14056",
+    "10.1007/s13679-022-00489-6"
+  ]
+}

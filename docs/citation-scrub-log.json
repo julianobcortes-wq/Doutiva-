@@ -1,0 +1,699 @@
+{
+  "updated": 70,
+  "dry": false,
+  "n": 70,
+  "log": [
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 1,
+      "title": "Fenotipagem do candidato à incretina: quem inicia, quem espera, quem não deve",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT",
+        "gold_replace:STEP-1",
+        "gold_replace:FLOW",
+        "gold_replace:SURMOUNT-5",
+        "gold_replace:STEP-4"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 2,
+      "title": "Semaglutida vs Tirzepatida: Como Escolher no Mundo Real Brasileiro",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392).",
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SURMOUNT-5",
+        "gold_replace:SELECT",
+        "gold_replace:STEP-1",
+        "gold_replace:FLOW"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 4,
+      "title": "Manipulação Estéril, Estabilidade, Armazenamento e Qualidade do Frasco: Incretinas e Tirzepatida no Consultório Brasileiro",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SURMOUNT-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 5,
+      "title": "Monitoramento Clínico e Laboratorial sob Incretinas: Visitas, Labs e Adesão",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 6,
+      "title": "Falha terapêutica, plateau e switch semaglutida ↔ tirzepatida",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:STEP-1",
+        "gold_replace:STEP-4",
+        "gold_replace:SURMOUNT-5",
+        "gold_replace:SELECT",
+        "gold_replace:FLOW"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 7,
+      "title": "Segurança no Uso de Tirzepatida e Incretinas: GI, Vesícula, Perioperatório, Gestação e Comunicação de Risco",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 8,
+      "title": "Massa Magra sob Incretinas: o que medir e como preservar na prática",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:STEP-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 9,
+      "title": "Tirzepatida e Incretinas no Consultório: Documentação, TCLE, Custo-Benefício e Proposta de Valor da Terapia Contínua",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SELECT",
+        "gold_replace:STEP-4",
+        "gold_replace:FLOW",
+        "gold_replace:SURMOUNT-5"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tirzepatida-incretinas-consultorio",
+      "position": 10,
+      "title": "Tirzepatida e Incretinas no Consultório - Casos Clínicos Operacionais: Início, Intolerância, Falha, DCV e Pedido Estético",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT",
+        "gold_replace:STEP-1",
+        "gold_replace:FLOW"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 1,
+      "title": "Por que esterilidade e qualidade mudam o risco: Microbiologia prática para o prescritor em soroterapia e injetáveis estéreis",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 2,
+      "title": "Farmacotécnica para Prescritores: Osmolaridade, pH, Compatibilidade e Estabilidade em Soroterapia/Injetáveis Estéreis",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 3,
+      "title": "Reposição Intravenosa: Evidência, Critério e Limites Éticos no Consultório Brasileiro",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 5,
+      "title": "Seleção do Paciente, Acesso Venoso, Monitoramento e Manejo de Reações em Soroterapia Estéril",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 6,
+      "title": "Ambiente de Infusão: Consultório vs Day Clinic vs Drip Bar — Padrões Mínimos para Segurança Clínica",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 7,
+      "title": "Como Prescrever Injetável Manipulado com Qualidade: Receita, Justificativa e Rastreio",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 8,
+      "title": "Regulatório Brasileiro em Soroterapia e Injetáveis Estéreis: ANVISA e Responsabilidade Médico–Farmácia",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "soroterapia-injetaveis-estereis",
+      "position": 9,
+      "title": "Encaixe com obesidade, hormônios e performance: quando IV agrega e quando atrapalha",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:SELECT",
+        "gold_replace:SURMOUNT-5",
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 1,
+      "title": "Eixo Hormonal no Adulto: Deficiência versus Otimização Cosmética",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 2,
+      "title": "Avaliação Laboratorial e Clínica Antes de Qualquer Hormônio: O Mínimo Inegociável",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 3,
+      "title": "Hipogonadismo Masculino: Diagnóstico, TRT, Vias (Gel, Injetável, Implante) e Riscos",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 4,
+      "title": "Implantes de Testosterona em Homens: Técnica, Farmacocinética, Picos/Vales e Follow-up",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 6,
+      "title": "Implantes Hormonais Femininos e ‘Bioidênticos’: o que a evidência sustenta",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 7,
+      "title": "GH, Secretagogos, DHEA, Pregnenolona e Cocktails 'Longevidade': Leitura Crítica para Prescrição Ética",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 8,
+      "title": "Segurança, Farmacovigilância e Responsabilidade do Prescritor + Farmácia em Terapias Hormonais e Manipulados",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 9,
+      "title": "Protocolos de Monitorização e Descontinuação: O Ciclo Completo do Cuidado",
+      "changes": [
+        "mono:strip_banned:10.1056/NEJMoa2416392",
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:STEP-4",
+        "gold_replace:FLOW",
+        "gold_replace:STEP-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 10,
+      "title": "Casos Clínicos em Hormonioterapia e Implantes: Hipogonadismo, Anti-Aging, Menopausa e Complicações",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 11,
+      "title": "Painel das Formulações Hormonais Injetáveis e Implantes mais Usadas no Brasil: Critérios, Formulário e Operacionalização Ética",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 13,
+      "title": "Técnica IM e SC de Hormônios Oleosos: Passo a Passo, Vias, Locais e Complicações",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "hormonios-implantes-criterio",
+      "position": 14,
+      "title": "Implantes de Testosterona no Homem: Seleção, Farmacocinética, Técnica e Follow-up",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "sarcopenia-composicao-performance",
+      "position": 7,
+      "title": "Testosterona, Menopausa e Massa Magra: quando hormônio entra na equação",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "sarcopenia-composicao-performance",
+      "position": 10,
+      "title": "Casos Clínicos em Sarcopenia e Obesidade com Uso de Incretinas e GH: Manejo Integrado e Ético",
+      "changes": [
+        "gold_replace:STEP-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 2,
+      "title": "Fenotipagem Prática na Obesidade: Bases Clínicas para Decisão Terapêutica Individualizada",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:STEP-4",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 4,
+      "title": "Metas SMART e contrato terapêutico: o que é sucesso além da balança",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:SELECT"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 9,
+      "title": "Manutenção do peso e prevenção de reganho: o jogo longo",
+      "changes": [
+        "gold_replace:STEP-4",
+        "gold_replace:SURMOUNT-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 10,
+      "title": "Casos Integrados de Obesidade de Precisão: Fenótipo Emocional, Sarcopênico, Pós-Bariátrica e DCV na Manutenção",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:STEP-4",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 12,
+      "title": "Fármacos Orales no Tratamento da Obesidade: Guia Operacional para a Prática Clínica no Brasil",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT"
+      ],
+      "dry": false
+    },
+    {
+      "course": "obesidade-precisao-consultorio",
+      "position": 16,
+      "title": "Guia de Bolso: Protocolo 90 Dias de Emagrecimento no Consultório Doutiva",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:STEP-4",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT"
+      ],
+      "dry": false
+    },
+    {
+      "course": "peptideos-medicina-de-precisao",
+      "position": 4,
+      "title": "Semaglutida e Tirzepatida: Leitura Crítica dos Estudos STEP, SURMOUNT, SELECT, FLOW, SURMOUNT-5 e Head-to-Head",
+      "changes": [
+        "gold_replace:STEP-4",
+        "gold_replace:SELECT",
+        "gold_replace:FLOW"
+      ],
+      "dry": false
+    },
+    {
+      "course": "dexa-composicao-operacional",
+      "position": 9,
+      "title": "TRT, Menopausa e Composição Corporal: O Que Muda de Verdade?",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 2,
+      "title": "Microbiologia e Qualidade em Manipulados Injetáveis: Critérios Essenciais para o Prescritor",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 3,
+      "title": "Módulo 2 · Farmacotécnica do Prescritor: Osmolaridade, pH, Veículos, Estabilidade e Compatibilidade para Manipulados Injetáveis",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 4,
+      "title": "Farmacotécnica do Prescritor para Injetáveis Manipulados: Receita, Justificativa Clínica, Lote e Rastreio — O Mínimo Defensável no Prontuário",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 5,
+      "title": "Incretinas Manipuladas (Semaglutida/Tirzepatida): Critério, Indicação e Risco no Brasil",
+      "changes": [
+        "gold_replace:STEP-1"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 6,
+      "title": "Hormônios Injetáveis Manipulados: Testosterona, Estradiol e Limites Éticos da Individualização",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 7,
+      "title": "Peptídeos research-only e secretagogos: Proibição, especulação e condução ética clínica",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 13,
+      "title": "Formulário Prático de Medicamentos Manipulados Injetáveis: Painel das Formulações Mais Comuns no Consultório Brasileiro",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 14,
+      "title": "Incretinas Manipuladas: Concentração, Reconstituição e Administração Subcutânea Passo a Passo",
+      "changes": [
+        "gold_replace:STEP-1",
+        "gold_replace:SURMOUNT-1",
+        "gold_replace:SELECT",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 15,
+      "title": "Hormônios Oleosos e Aquosos: Via, Local de Aplicação, Intervalo e Monitoramento – Formulário Prático para Injetáveis Manipulados",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "manipulados-injetaveis-criterio",
+      "position": 16,
+      "title": "Vitaminas e Minerais Injetáveis: Indicação, Dose, Via e Técnica — Guia de Bolso (Módulo 7 · Formulário Prático)",
+      "changes": [
+        "gold_replace:NECC-FUNGAL-MENINGITIS-2012"
+      ],
+      "dry": false
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 7,
+      "title": "Risco Cardiovascular e Renal como Eixo Central da Longevidade Clínica",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 12,
+      "title": "Hormônios e incretinas na longevidade: TRT, THM e GLP-1/GIP com critério",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 15,
+      "title": "Biblioteca Âncora para Prescrição em Longevidade: Trials, Guidelines e Reviews Fundamentais",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "longevidade-medicina-evidencia",
+      "position": 16,
+      "title": "Casos Clínicos em Longevidade: Medir sem Medicalizar com Base em Evidência",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "sono-cortisol-criterio",
+      "position": 13,
+      "title": "Sono, Cortisol e o Mito da Fadiga Adrenal – Módulo 7: Casos Clínicos",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "etica-publicidade-prontuario",
+      "position": 5,
+      "title": "TCLE de Verdade: Elementos Mínimos para TRT, Incretinas, Manipulados e Off-label",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "tireoide-longevidade-criterio",
+      "position": 9,
+      "title": "Tireoide × TRT, incretinas e perda de peso: interações clínicas reais",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 3,
+      "title": "Hematócrito na Terapia de Reposição de Testosterona (TRT): Fisiologia, Limiares, Flebotomia e Diretrizes para Interrupção",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018",
+        "gold_replace:BAILLARGEON-TRT-VTE-2015"
+      ],
+      "dry": false
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 4,
+      "title": "PSA, Próstata e Terapia de Reposição de Testosterona (TRT): Evidências e Diretrizes Clínicas",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 9,
+      "title": "Fibrilação, Trombose e Hormônios: Mapa de Risco no Contexto Cardiometabólico",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "cardiometabolico-prescritor-criterio",
+      "position": 15,
+      "title": "Biblioteca Âncora Cardiometabólica do Prescritor",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 1,
+      "title": "Por que fertilidade é o ponto cego do consultório de precisão",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 2,
+      "title": "Fisiologia da Espermatogênese e do Eixo Hipotálamo-Hipófise-Gonadal (HPG) — O Essencial",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 3,
+      "title": "TRT e Infertilidade Masculina: Evidência de Supressão e Recuperação da Espermatogênese",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 4,
+      "title": "hCG, FSH, SERMs e ‘restart’ na Terapia com TRT: Evidências, Protocolos e Limitações",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 5,
+      "title": "Criopreservação: Indicações Antes de Terapia de Reposição de Testosterona (TRT) ou Exposição Quimioterápica",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 10,
+      "title": "Espermograma e Laboratórios na Avaliação da Fertilidade Masculina: Diretrizes e Interpretação para Prescritores",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 11,
+      "title": "Checklist Pré-TRT com Desejo Reprodutivo — Decisão Compartilhada e Alternativas",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 13,
+      "title": "Fertilidade sob Terapia de Reposição de Testosterona (TRT) e Incretinas: Análise de Casos Clínicos Complexos",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 14,
+      "title": "Ética na Fertilidade sob TRT e Incretinas: Pressão do Paciente vs Dever Reprodutivo — Scripts de Recusa, Alternativas e Documentação",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    },
+    {
+      "course": "fertilidade-trt-incretinas",
+      "position": 15,
+      "title": "Biblioteca Âncora: Guidelines em Hipogonadismo, Fertilidade Masculina e Incretinas na Gestação",
+      "changes": [
+        "gold_replace:ENDOCRINE-SOCIETY-TRT-2018"
+      ],
+      "dry": false
+    }
+  ]
+}
