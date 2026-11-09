@@ -46,6 +46,15 @@ vitamina C IV (G6PD/oxalato), CFM publicidade, ANVISA manipulação. Sem inventa
   "obesidade-precisao-consultorio": `Âncoras: STEP 1/4 (Wilding, Rubino), SURMOUNT-1 (Jastreboff), SELECT (Lincoff),
 diretrizes ABESO/SBEM/ADA Standards of Care. Sem inventar números de resultado — descreva qualitativamente se incerto.`,
   "tirzepatida-incretinas-consultorio": `Âncoras: SURMOUNT, STEP, SELECT, FLOW, SURPASS. Autores âncora: Jastreboff, Wilding, Lincoff, Garvey.`,
+  "tireoide-longevidade-criterio": `Âncoras: ATA/AACE thyroid guidelines; Endocrine Society; RCTs de combinação T4/T3 pelo nome/ano se certo. Sem inventar DOI.`,
+  "cardiometabolico-prescritor-criterio": `Âncoras: Endocrine Society Testosterone Guideline; SELECT (Lincoff); ACC/AHA; ASA posicionamento GLP-1 perioperatório; WHI/NAMS/FEBRASGO.`,
+  "dexa-composicao-operacional": `Âncoras: EWGSOP2 sarcopenia; FNIH; literatura de composição corporal sob incretinas (qualitativa se n incerto).`,
+  "etica-publicidade-prontuario": `Âncoras: CFM Código de Ética Médica; resoluções de publicidade (número só se certo); LGPD; marcos ANVISA relevantes.`,
+  "sono-cortisol-criterio": `Âncoras: Endocrine Society (adrenal); posicionamentos contra "adrenal fatigue"; AASM/CBT-I; literatura apneia-metabolismo.`,
+  "fertilidade-trt-incretinas": `Âncoras: Endocrine Society hypogonadism; EAU male infertility; bulas/órgãos sobre incretinas e gestação; WHO semen (conceitos).`,
+  "sarcopenia-composicao-performance": `Âncoras: EWGSOP2; trials de proteína e treinamento resistido landmark se nomeados com certeza.`,
+  "ia-pratica-medica": `Âncoras: CFM/ética de IA; LGPD; revisões de IA clínica — sem inventar métricas de desempenho.`,
+  "peptideos-medicina-de-precisao": `Âncoras: hierarquia A–D; categorias FDA quando couber; trials só se landmark nomeado com certeza.`,
 };
 
 async function enrichOne(courseTitle, slug, lesson) {

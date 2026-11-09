@@ -56,6 +56,12 @@ function AcademyPage() {
     "hormonios-implantes-criterio",
     "soroterapia-injetaveis-estereis",
     "obesidade-precisao-consultorio",
+    "tireoide-longevidade-criterio",
+    "cardiometabolico-prescritor-criterio",
+    "dexa-composicao-operacional",
+    "etica-publicidade-prontuario",
+    "sono-cortisol-criterio",
+    "fertilidade-trt-incretinas",
   ]);
   const flagships = [
     {
@@ -81,6 +87,30 @@ function AcademyPage() {
       blurb:
         "16 aulas: fenótipos, armamentário oral e incretinas, massa magra, manutenção e protocolo 90 dias de emagrecimento.",
       cta: "Abrir Emagrecimento",
+    },
+    {
+      course: courses.find((c) => c.slug === "tireoide-longevidade-criterio"),
+      blurb:
+        "16 aulas: TSH/T3 com critério, liotironina, mitos de otimização e âncoras ATA/Endocrine Society.",
+      cta: "Abrir Tireoide",
+    },
+    {
+      course: courses.find((c) => c.slug === "cardiometabolico-prescritor-criterio"),
+      blurb:
+        "16 aulas: Hct na TRT, lipídios, SELECT/perioperatório GLP-1 e checklist cardiometabólico do prescritor.",
+      cta: "Abrir Cardiometabólico",
+    },
+    {
+      course: courses.find((c) => c.slug === "fertilidade-trt-incretinas"),
+      blurb:
+        "16 aulas: preservar e recuperar fertilidade sob TRT/incretinas — homem e mulher, com evidência.",
+      cta: "Abrir Fertilidade",
+    },
+    {
+      course: courses.find((c) => c.slug === "sono-cortisol-criterio"),
+      blurb:
+        "16 aulas: desmontar adrenal fatigue, triar sono/apneia e tratar o que é real com base científica.",
+      cta: "Abrir Sono & Cortisol",
     },
   ].filter((f) => f.course);
   const featured = courses.filter(

@@ -1,0 +1,313 @@
+/**
+ * Doutiva — 6 flagships científicos da trilha do médico (lacunas Purus).
+ * Cada curso: 16 aulas · 7 módulos · densidade de tratado clínico.
+ */
+
+export const AUDIENCE_SCIENTIFIC = `Público: médicos (endocrinologia, nutrologia, clínica, longevidade, ginecologia, andrologia)
+que atuam no consultório brasileiro com terapêuticas de precisão.
+
+Tom Doutiva (inegociável):
+- Independência de farmácia/indústria; critérios objetivos, nunca folder.
+- Hierarquia de evidência explícita: guideline/ECR > observacional > opinião > marketing.
+- NUNCA inventar DOI, n de ensaio, HR ou % de resultado. Se incerto: "verificar" ou omitir.
+- Citar trials e guidelines pelo nome oficial + autores/ano quando houver certeza.
+- Separar: registrado · off-label · manipulado legítimo · irregular/proibido · mito.
+- ANVISA, CFM, FEBRASGO, SBEM, ABESO, Endocrine Society, ADA quando couber.
+- Prontuário defensável, TCLE, red flags e script de recusa ética.`;
+
+function L(position, module_position, module_title, topic, extra) {
+  return { position, module_position, module_title, topic, extra };
+}
+
+/** 1 · Tireoide */
+export const TIREOIDE_COURSE = {
+  slug: "tireoide-longevidade-criterio",
+  title: "Tireoide no Consultório de Longevidade",
+  subtitle: "TSH, T3 e o que o Instagram errou — critério, evidência e recusa ética",
+  category: "Endocrinologia",
+  level: "Avançado",
+  description:
+    "Flagship Doutiva para o prescritor de longevidade: tireoide com hierarquia de evidência — hipotireoidismo, T3 livre/liotironina, anti-TPO, nódulos, fadiga sem doença tireoidiana, interações com TRT/incretinas e prontuário defensável. Sem atalho de ‘otimização de T3’.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Endocrinologia · Medicina baseada em evidência",
+  lessons: [
+    L(1, 1, "Módulo 1 · Mapa e risco", "O que a tireoide realmente faz no adulto: eixos, set-points e o que não é doença",
+      "Fisiologia clínica do eixo HTP. Set-point individual vs ‘TSH ótimo Instagram’. Tabela: doença tireoidiana vs sintomas inespecíficos. Âncoras: ATA/AACE, Endocrine Society."),
+    L(2, 1, "Módulo 1 · Mapa e risco", "Painel laboratorial com critério: TSH, T4L, T3L, anticorpos — quando pedir e quando parar",
+      "Indicações de T3L (poucas). Anti-TPO/anti-Tg. Interferências (biotina, amiodarona, corticoides). Checklist de pedido racional. Red flags de overtesting."),
+    L(3, 2, "Módulo 2 · Hipotireoidismo", "Hipotireoidismo manifesto e subclínico: limiares, quem tratar e quem observar",
+      "Limiares de TSH por idade/contexto (gestação à parte se briefly). Evidência de tratar subclínico. Levotiroxina: dose, timing, absorção. Trials/guidelines ATA."),
+    L(4, 2, "Módulo 2 · Hipotireoidismo", "Liottironina e combinações T4/T3: o que os ensaios mostram e o que é extrapolação",
+      "RCTs de combinação T4/T3, qualidade de vida, risco. Quando considerar trial terapêutico documentado. O que NÃO fazer em ‘anti-aging’. CFM/ética."),
+    L(5, 3, "Módulo 3 · Hipertireoidismo e nódulos", "Tireotoxicose e hipertireoidismo: mapa rápido para o clínico não-especialista",
+      "Graves vs nódulo tóxico vs tireoidite. Quando encaminhar. Fármacos e contraindicações básicas. Evidência de tratamento (resumo guideline)."),
+    L(6, 3, "Módulo 3 · Hipertireoidismo e nódulos", "Nódulo tireoidiano e ultrassom: o mínimo que o prescritor de longevidade precisa saber",
+      "TI-RADS/ATA nodule risk (conceitos). Quando biopsia. Não transformar consultório de longevidade em tireoidologia sem competência — critérios de referral."),
+    L(7, 4, "Módulo 4 · Mitos e fadiga", "‘T3 livre baixo’ e fadiga crônica: desmontar o mito com evidência",
+      "Por que T3L isolado engana. Diagnósticos diferenciais de fadiga. Script de conversa com paciente. Estudos negativos de ‘otimização’."),
+    L(8, 4, "Módulo 4 · Mitos e fadiga", "Hashimoto, autoimunidade e dietas milagre: o que há de evidência",
+      "Anti-TPO e progressão. Glúten/selênio/suplementos — o que trials mostram. Quando suplementar com critério. Red flags de protocolos wellness."),
+    L(9, 5, "Módulo 5 · Interseções", "Tireoide × TRT, incretinas e perda de peso: interações clínicas reais",
+      "Mudança de peso e necessidade de LT4. Andrógenos e SHBG/TBGs (conceitos). Monitoramento quando combinar terapias. Casos BR."),
+    L(10, 5, "Módulo 5 · Interseções", "Gestação, menopausa e tireoide: limites do consultório de longevidade",
+      "Quando NÃO gerir sozinho. TSH gestacional (overview). Menopausa e sintomas sobrepostos. Referral ético."),
+    L(11, 6, "Módulo 6 · Formulário e protocolo", "Formulário prático: levotiroxina, liotironina e monitoramento — tabela de bolso",
+      "Tabelas: indicação | dose inicial | titulação | labs | red flags. Absorção e interações medicamentosas. Nunca inventar marca como ‘melhor’."),
+    L(12, 6, "Módulo 6 · Formulário e protocolo", "Protocolo 90 dias: do sintoma inespecífico ao plano documentado",
+      "Fluxo: anamnese → labs racionais → decisão tratar/observar → reavaliação. Prontuário modelo. TCLE quando trial de combinação."),
+    L(13, 7, "Módulo 7 · Ética e defesa", "Publicidade de ‘otimização tireoidiana’: o que derruba CRM",
+      "CFM publicidade, claims milagrosos, redes sociais. Tabela de condutas de risco. Posicionamento Purus/Doutiva."),
+    L(14, 7, "Módulo 7 · Ética e defesa", "Casos clínicos densos: 4 vignettes com decisão e evidência âncora",
+      "4 casos BR (subclínico idoso, T3 pedido por influencer, Hashimoto + dieta, TRT + TSH). Teaching com guideline."),
+    L(15, 7, "Módulo 7 · Ética e defesa", "Biblioteca âncora: guidelines e trials que o prescritor deve saber citar",
+      "Lista curada ATA/AACE/Endocrine Society + RCTs-chave de combinação T4/T3. Como citar sem inventar DOI."),
+    L(16, 7, "Módulo 7 · Ética e defesa", "Guia operacional: red flags, recusa ética e handoff para endocrinologista",
+      "Checklist final. Script de recusa. Quando transferir. Integração com outros cursos Doutiva."),
+  ],
+};
+
+/** 2 · Cardiometabólico */
+export const CARDIO_COURSE = {
+  slug: "cardiometabolico-prescritor-criterio",
+  title: "Cardiometabólico do Prescritor",
+  subtitle: "Hct, lipídios, FA e perioperatório GLP-1 — o que o consultório de precisão não pode ignorar",
+  category: "Cardiometabolismo",
+  level: "Avançado",
+  description:
+    "Flagship para o médico que prescreve TRT, THM e incretinas: hematócrito, risco CV, lipídios, pressão, fibrilação, perioperatório de agonistas de incretina e documentação defensável — ancorado em guidelines e trials landmark.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Cardiometabolismo · Prescrição com critério",
+  lessons: [
+    L(1, 1, "Módulo 1 · Risco CV no consultório", "Mapa cardiometabólico do paciente de longevidade: o que triar antes de otimizar",
+      "ASCVD risk, diabetes, HAS, tabagismo, histórico familiar. SCORE/PREVENT conceitos. Tabela pré-prescrição TRT/incretina."),
+    L(2, 1, "Módulo 1 · Risco CV no consultório", "Pressão arterial e freestyle de ‘performance’: metas e evidência",
+      "Metas por guideline (ACC/AHA / BR). Monitoramento sob TRT e perda ponderal. Red flags."),
+    L(3, 2, "Módulo 2 · TRT e sangue", "Hematócrito na TRT: fisiologia, limiares, flebotomia e quando parar",
+      "Eritrocitose induzida por andrógeno. Limiares práticos (Endocrine Society). Risco trombótico — o que evidência mostra e o que é incerto. Protocolo."),
+    L(4, 2, "Módulo 2 · TRT e sangue", "PSA, próstata e TRT: o que guidelines realmente dizem",
+      "Rastreio vs mito de ‘causa câncer’. Monitoramento. Quando urologista. Documentação."),
+    L(5, 3, "Módulo 3 · Lipídios e inflamação", "Lipídios sob TRT, THM e perda de peso: ler o lipidograma com critério",
+      "HDL/LDL/TG sob andrógenos e estrogenios. Quando estatinizar. Evidência de desfecho CV."),
+    L(6, 3, "Módulo 3 · Lipídios e inflamação", "Inflamação, Lp(a) e biomarcadores ‘Instagram’: o que pedir de verdade",
+      "hsCRP, Lp(a), ApoB — utilidade. O que não muda conduta. Evitar painel-custo sem ação."),
+    L(7, 4, "Módulo 4 · Incretinas e coração", "SELECT, SURMOUNT e o benefício CV das incretinas: ler o trial como prescritor",
+      "Desfechos CV, população, NNT qualitativo sem inventar %. Implicações para indicação além do peso."),
+    L(8, 4, "Módulo 4 · Incretinas e coração", "Perioperatório e suspensão de GLP-1/GIP: aspiração, jejum e sociedades",
+      "Posicionamentos ASA/sociedades sobre retenção gástrica. Protocolo prático BR. Documentar risco."),
+    L(9, 5, "Módulo 5 · FA, trombose, mulher", "Fibrilação, trombose e hormônios: mapa de risco",
+      "THM e VTE (WHI e updates). TRT e eventos — incerteza. Anticoagulação: quando não tocar sozinho."),
+    L(10, 5, "Módulo 5 · FA, trombose, mulher", "Mulher 40–60: THM, risco CV e migrânea com aura — critério FEBRASGO/IMS",
+      "Janela de oportunidade. Rotas e dose. Contraindicações absolutas. Documentação."),
+    L(11, 6, "Módulo 6 · Protocolo", "Checklist pré-TRT e pré-incretina: 1 página defensável",
+      "Labs, ECG quando, consentimento, metas. Tabela de bolso."),
+    L(12, 6, "Módulo 6 · Protocolo", "Monitoramento 90 dias: o que repetir e o que não obsessar",
+      "Calendário Hct/PSA/lipídios/A1c/peso. Red flags de retorno precoce."),
+    L(13, 7, "Módulo 7 · Casos e ética", "Casos: Hct 54%, SELECT-like patient, GLP-1 pré-cirurgia, THM + migrânea",
+      "4 vignettes com teaching ancorado."),
+    L(14, 7, "Módulo 7 · Casos e ética", "Quando pedir cardiologista: handoff sem perder o fio clínico",
+      "Critérios de referral. Carta modelo. Co-gestão."),
+    L(15, 7, "Módulo 7 · Casos e ética", "Biblioteca âncora cardiometabólica do prescritor",
+      "Endocrine Society TRT, SELECT, guidelines HAS/lipídios, ASA GLP-1, WHI/NAMS."),
+    L(16, 7, "Módulo 7 · Casos e ética", "Guia operacional final: red flags que encerram a prescrição no dia",
+      "Checklist de segurança. Integração com cursos de hormônio e emagrecimento."),
+  ],
+};
+
+/** 3 · DEXA / composição */
+export const DEXA_COURSE = {
+  slug: "dexa-composicao-operacional",
+  title: "DEXA e Composição Corporal Operacional",
+  subtitle: "Do laudo ao plano — sarcopenia, gordura visceral e follow-up sem teatro",
+  category: "Composição corporal",
+  level: "Intermediário–Avançado",
+  description:
+    "Curso operacional Doutiva: interpretar DEXA/BIA com critério, definir metas de massa magra e adiposidade, integrar com incretinas/TRT/treino, e montar protocolo de follow-up — ancorado em literatura de sarcopenia e composição corporal.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Composição corporal · Sarcopenia clínica",
+  lessons: [
+    L(1, 1, "Módulo 1 · Por que medir", "Por que peso e IMC mentem: o caso clínico da composição",
+      "Limitações de IMC. Fenótipos (sarcopenic obesity). Evidência de desfechos ligados a massa muscular/adiposidade."),
+    L(2, 1, "Módulo 1 · Por que medir", "Métodos: DEXA, BIA, antropometria, ultrassom — precisão, custo e viés",
+      "Tabela comparativa. Hidratação e BIA. Quando DEXA vale a pena. Limitações."),
+    L(3, 2, "Módulo 2 · Ler o DEXA", "Anatomia do laudo DEXA: BMC, lean, fat, android/gynoid, VAT proxies",
+      "Como ler cada bloco. Artefatos. Comparabilidade entre máquinas."),
+    L(4, 2, "Módulo 2 · Ler o DEXA", "ALMI, FMI e índices: cortes práticos e o que ainda é cinzento",
+      "Índices de massa apendicular. Consensos EWGSOP2 / FNIH. Aplicação BR."),
+    L(5, 3, "Módulo 3 · Sarcopenia", "Sarcopenia clínica: força, performance e músculo — critério diagnóstico",
+      "EWGSOP2 algoritmo. Handgrip, chair stand, gait. Não diagnosticar só por DEXA."),
+    L(6, 3, "Módulo 3 · Sarcopenia", "Intervenções com evidência: proteína, resistência, vitamina D — o que trials sustentam",
+      "Dose proteica, treino, quando fármaco. Separar hype de peptídeo."),
+    L(7, 4, "Módulo 4 · Obesidade e incretinas", "Perda de peso e perda de magra: o problema real sob GLP-1/GIP",
+      "Dados de composição em trials de incretina (qualitativo). Estratégias para preservar magra."),
+    L(8, 4, "Módulo 4 · Obesidade e incretinas", "Protocolo de follow-up sob emagrecimento farmacológico",
+      "Quando repetir DEXA/BIA. Metas. Integração com curso de obesidade."),
+    L(9, 5, "Módulo 5 · Hormônios e sexo", "TRT, menopausa e composição: o que muda de verdade",
+      "Efeitos de andrógeno/estrogênio na magra/gordura — evidência vs marketing."),
+    L(10, 5, "Módulo 5 · Hormônios e sexo", "Mulher atleta e homem 50+: interpretando o mesmo laudo de formas diferentes",
+      "Contextos. Metas realistas. Red flags de dismorfia/overtraining."),
+    L(11, 6, "Módulo 6 · Operação", "Montar o fluxo no consultório: pedido, laudo, devolutiva em 15 minutos",
+      "Script de devolutiva. Prontuário. Figuras mentais para o paciente."),
+    L(12, 6, "Módulo 6 · Operação", "Tabelas de bolso: metas, intervalos de reteste e erros comuns",
+      "Quick ref operacional. Checklist de qualidade do exame."),
+    L(13, 7, "Módulo 7 · Casos", "Casos: obesidade sarcopênica, incretina + perda de magra, idoso frágil, atleta",
+      "4 vignettes."),
+    L(14, 7, "Módulo 7 · Casos", "Quando a composição NÃO muda a conduta: evitar medicalização do laudo",
+      "Ética do overtesting. Custo. Comunicação."),
+    L(15, 7, "Módulo 7 · Casos", "Biblioteca âncora: EWGSOP2, trials de proteína/treino, composição em incretinas",
+      "Refs curadas sem DOI inventado."),
+    L(16, 7, "Módulo 7 · Casos", "Guia operacional 90 dias: do baseline ao reteste",
+      "Protocolo integrado Doutiva."),
+  ],
+};
+
+/** 4 · Ética / publicidade / prontuário */
+export const ETICA_COURSE = {
+  slug: "etica-publicidade-prontuario",
+  title: "Ética, Publicidade e Prontuário Defensável",
+  subtitle: "CFM, redes, TCLE e o que derruba CRM — para o médico digital",
+  category: "Ética e prática",
+  level: "Essencial",
+  description:
+    "Curso transversal Doutiva: publicidade médica (CFM), redes sociais, TCLE, prontuário, LGPD clínica, relação com farmácias/indústria e scripts de recusa — base regulatória forte para quem prescreve terapias de precisão.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Ética médica · Regulatório clínico",
+  lessons: [
+    L(1, 1, "Módulo 1 · Mapa ético", "O contrato moral do prescritor de precisão: independência e conflito de interesse",
+      "Purus/Doutiva: critérios vs empurrão. Transparência. Casos de conflito farmácia-médico."),
+    L(2, 1, "Módulo 1 · Mapa ético", "Hierarquia regulatória BR: CFM, CRM, ANVISA, Código de Ética — mapa mental",
+      "O que cada um regula. Tabela de responsabilidades."),
+    L(3, 2, "Módulo 2 · Publicidade", "Publicidade médica: o que a resolução CFM permite e proíbe (leitura clínica)",
+      "Antes/depois, promessas, sensacionalismo, selfies de procedimento. Exemplos anotados."),
+    L(4, 2, "Módulo 2 · Publicidade", "Redes sociais do médico: roteiro seguro vs roteiro que gera sindicância",
+      "Stories, Reels, depoimentos. Scripts. Zona cinzenta."),
+    L(5, 3, "Módulo 3 · Consentimento", "TCLE de verdade: elementos mínimos para TRT, incretinas, manipulados e off-label",
+      "Modelos por classe. O que auditoria olha. Linguagem leiga sem esvaziar risco."),
+    L(6, 3, "Módulo 3 · Consentimento", "Off-label e manipulado: como documentar justificativa sem teatro",
+      "Base ética/legal. Quando recusar. Rastreio de lote."),
+    L(7, 4, "Módulo 4 · Prontuário", "Prontuário defensável em 1 página: o mínimo que sustenta a conduta",
+      "SOAP + decisão + alternativas + recusa do paciente. Exemplos."),
+    L(8, 4, "Módulo 4 · Prontuário", "LGPD no consultório: dados sensíveis, IA e compartilhamento com farmácia",
+      "Bases legais. O que não mandar no WhatsApp. IA e confidencialidade."),
+    L(9, 5, "Módulo 5 · Relação comercial", "Farmácia, indústria e ‘parceria’: linhas vermelhas",
+      "Remuneração, brindes, indicação dirigida. Como Purus se posiciona."),
+    L(10, 5, "Módulo 5 · Relação comercial", "Telemedicina e prescrição digital: limites atuais",
+      "Overview regulatório. Quando exigir presencial. Documentação."),
+    L(11, 6, "Módulo 6 · Crise", "Evento adverso e reclamação: protocolo das primeiras 24h",
+      "Comunicação, registro, notificação, suporte. Sem culpar o paciente."),
+    L(12, 6, "Módulo 6 · Crise", "Sindicância e defesa prévia: o que organizar antes de precisar",
+      "Pasta defensável. Timeline. Advogado quando."),
+    L(13, 7, "Módulo 7 · Casos", "Casos: Reels milagroso, TCLE fraco, lote sem rastreio, pressão de farmácia",
+      "4 vignettes."),
+    L(14, 7, "Módulo 7 · Casos", "Biblioteca âncora: resoluções CFM e marcos ANVISA que o prescritor cita",
+      "Lista operacional (números só se certos)."),
+    L(15, 7, "Módulo 7 · Casos", "Checklist de lançamento de oferta clínica / mentoria / produto digital médico",
+      "Integração com cursos de Negócios — barra ética."),
+    L(16, 7, "Módulo 7 · Casos", "Guia final: cultura de segurança na clínica de precisão",
+      "Política interna modelo. Treinamento de equipe."),
+  ],
+};
+
+/** 5 · Sono / cortisol */
+export const SONO_COURSE = {
+  slug: "sono-cortisol-criterio",
+  title: "Sono, Cortisol e o Mito da Fadiga Adrenal",
+  subtitle: "Desmontar ‘adrenal fatigue’ com evidência — e tratar o que é real",
+  category: "Endocrinologia",
+  level: "Intermediário–Avançado",
+  description:
+    "Flagship Doutiva para desmontar mitos de cortisol/adrenal fatigue e ancorar conduta em medicina do sono e endocrinologia: higiene de sono, apneia, depressão, overtraining, testes de cortisol com indicação e recusa ética de painéis wellness.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Sono · Endocrinologia · Evidência",
+  lessons: [
+    L(1, 1, "Módulo 1 · Mapa", "Por que ‘adrenal fatigue’ não é diagnóstico: origem do mito e sociedades",
+      "Posicionamentos Endocrine Society / AACE. Diferença de insuficiência adrenal real."),
+    L(2, 1, "Módulo 1 · Mapa", "Eixo HPA: o que o clínico precisa saber sem virar fisiologista",
+      "Ritmo circadiano, cortisol livre, CBG. Estresse vs doença."),
+    L(3, 2, "Módulo 2 · Insuficiência real", "Insuficiência adrenal: quando suspeitar de verdade",
+      "Sinais, labs (ACTH stim — conceitos), emergência. Não subdiagnosticar por combate ao mito."),
+    L(4, 2, "Módulo 2 · Insuficiência real", "Cushing e hipercortisolismo: screening racional",
+      "Quem rastrear. Testes. Falsos positivos. Referral."),
+    L(5, 3, "Módulo 3 · Sono", "Medicina do sono no consultório de longevidade: triagem prática",
+      "Insonia, apneia, RLSC. Questionários. Quando polissonografia."),
+    L(6, 3, "Módulo 3 · Sono", "Apneia e metabolismo: o elo com obesidade, HAS e TRT",
+      "Evidência de CPAP e desfechos. Interação com peso e hormônios."),
+    L(7, 4, "Módulo 4 · Fadiga diferencial", "Fadiga crônica: algoritmo que substitui o painel ‘adrenal’",
+      "Anemia, tireoide, depressão, sono, fármacos, overreaching. Fluxograma."),
+    L(8, 4, "Módulo 4 · Fadiga diferencial", "Overtraining e atletas: cortisol saliva e o que não pedir",
+      "Literatura de monitoramento. Limitações. Conduta."),
+    L(9, 5, "Módulo 5 · Suplementos e hype", "Adaptógenos, pregnenolona e ‘cortisol blockers’: evidência vs marketing",
+      "O que trials fracos mostram. Riscos. Script de recusa."),
+    L(10, 5, "Módulo 5 · Suplementos e hype", "Corticoides ocultos e iatrogenia: o reverso do mito",
+      "Uso tópico/injetável. Supressão HPA iatrogênica."),
+    L(11, 6, "Módulo 6 · Protocolo", "Protocolo Doutiva: da queixa de ‘adrenal’ ao plano de 90 dias",
+      "Triagem sono → labs racionais → tratamento do que é real."),
+    L(12, 6, "Módulo 6 · Protocolo", "Higiene de sono e CBT-I: o que o clínico pode iniciar",
+      "Elementos práticos. Quando especialista. Evidência CBT-I."),
+    L(13, 7, "Módulo 7 · Casos", "Casos: influencer adrenal, apneia + TRT, overtraining, Cushing mascarado",
+      "4 vignettes."),
+    L(14, 7, "Módulo 7 · Casos", "Comunicação: como dizer ‘isso não existe’ sem perder o paciente",
+      "Script empático + plano alternativo."),
+    L(15, 7, "Módulo 7 · Casos", "Biblioteca âncora: posicionamentos e trials de sono/HPA",
+      "Refs curadas."),
+    L(16, 7, "Módulo 7 · Casos", "Guia operacional final e integração com tireoide/cardio",
+      "Checklist + handoffs."),
+  ],
+};
+
+/** 6 · Fertilidade sob TRT/incretinas */
+export const FERTILIDADE_COURSE = {
+  slug: "fertilidade-trt-incretinas",
+  title: "Fertilidade sob TRT e Incretinas",
+  subtitle: "Preservar, recuperar e não sabotar — evidência no homem e na mulher",
+  category: "Reprodução",
+  level: "Avançado",
+  description:
+    "Flagship Doutiva para o prescritor que encontra desejo reprodutivo sob TRT, SARMs, incretinas e perda ponderal: espermatogênese, SERMs/hCG, preservação, PCOS/anovulação, riscos e handoff para reprodução assistida — com âncoras de evidência.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Andrologia · Reprodução · Prescrição ética",
+  lessons: [
+    L(1, 1, "Módulo 1 · Mapa", "Por que fertilidade é o ponto cego do consultório de precisão",
+      "Epidemiologia. Pergunta obrigatória pré-TRT. Ética do consentimento reprodutivo."),
+    L(2, 1, "Módulo 1 · Mapa", "Fisiologia da espermatogênese e do eixo HPG — o essencial",
+      "FSH/LH/T/inibina. Tempo de recuperação. O que TRT faz no eixo."),
+    L(3, 2, "Módulo 2 · Homem e TRT", "TRT e infertilidade: evidência de supressão e recuperação",
+      "Dados de azoospermia/oligospermia sob andrógenos. Probabilidades qualitativas. Conselhos pré-início."),
+    L(4, 2, "Módulo 2 · Homem e TRT", "hCG, FSH, SERMs e ‘restart’: o que a literatura sustenta",
+      "Protocolos de recuperação. Limitações. Quando andrologista/reprodução."),
+    L(5, 3, "Módulo 3 · Preservação", "Criopreservação: quando indicar antes de TRT ou quimioterapia-like exposure",
+      "Fluxo prático. Custo. Comunicação."),
+    L(6, 3, "Módulo 3 · Preservação", "SARMs, prohormônios e ‘research’: fertilidade e zona cinzenta",
+      "Riscos. Recusa. Documentação."),
+    L(7, 4, "Módulo 4 · Mulher e metabolismo", "Obesidade, PCOS e fertilidade: o papel da perda ponderal",
+      "Evidência de ovulação com perda de peso. Limites."),
+    L(8, 4, "Módulo 4 · Mulher e metabolismo", "Incretinas e gestação: o que sabemos e o que falta",
+      "Rotulagem, dados animais/humanos limitados. Washout. Planejamento."),
+    L(9, 5, "Módulo 5 · Interseções", "THM, implantes e desejo reprodutivo residual",
+      "Contracepção vs THM. Quando testar gravidez. Erros comuns."),
+    L(10, 5, "Módulo 5 · Interseções", "Espermograma e labs: o mínimo que o prescritor pede e interpreta",
+      "WHO referência (conceitos). Quando repetir. Handoff."),
+    L(11, 6, "Módulo 6 · Protocolo", "Checklist pré-TRT com desejo reprodutivo: 1 página",
+      "Decisão compartilhada. Alternativas (clomifeno etc.) com evidência."),
+    L(12, 6, "Módulo 6 · Protocolo", "Protocolo de recovery: timeline, labs, expectativas honestas",
+      "Calendário. Red flags. Quando FIV/ICSI entra na conversa."),
+    L(13, 7, "Módulo 7 · Casos", "Casos: homem 35 quer TRT, azoospermia pós-TRT, mulher em tirzepatida quer engravidar, SARM",
+      "4 vignettes densos."),
+    L(14, 7, "Módulo 7 · Casos", "Ética: pressão do paciente vs dever reprodutivo — scripts",
+      "Recusa e alternativas. Documentação."),
+    L(15, 7, "Módulo 7 · Casos", "Biblioteca âncora: guidelines de hipogonadismo, fertilidade masculina, incretinas/gestação",
+      "Endocrine Society, EAU, bulas/órgãos reguladores."),
+    L(16, 7, "Módulo 7 · Casos", "Guia operacional final e integração com hormônios/emagrecimento",
+      "Checklist Doutiva."),
+  ],
+};
+
+export const SCIENTIFIC_TRACKS = [
+  TIREOIDE_COURSE,
+  CARDIO_COURSE,
+  DEXA_COURSE,
+  ETICA_COURSE,
+  SONO_COURSE,
+  FERTILIDADE_COURSE,
+];
+
+export const SCIENTIFIC_BY_SLUG = Object.fromEntries(SCIENTIFIC_TRACKS.map((c) => [c.slug, c]));
