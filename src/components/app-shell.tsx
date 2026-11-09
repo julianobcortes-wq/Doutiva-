@@ -30,6 +30,7 @@ import {
   Brain,
   CreditCard,
   ListOrdered,
+  Route as RouteIcon,
 } from "lucide-react";
 
 type NavItem = { to: string; label: string; icon: typeof LayoutDashboard };
@@ -40,6 +41,7 @@ const studentNav = {
     { to: "/dashboard", label: "Meu campus", icon: LayoutDashboard },
     { to: "/como-funciona", label: "Como funciona", icon: ListOrdered },
     { to: "/mapa", label: "Mapa clínico", icon: Compass },
+    { to: "/trilha", label: "Minha Trilha", icon: RouteIcon },
     { to: "/caso-do-dia", label: "Caso do Dia", icon: Flame },
     { to: "/academy", label: "Universidade", icon: GraduationCap },
     { to: "/professores", label: "Professores de IA", icon: Brain },
@@ -59,7 +61,7 @@ const studentNav = {
   ] as NavItem[],
   mobile: [
     { to: "/dashboard", label: "Campus", icon: LayoutDashboard },
-    { to: "/mapa", label: "Mapa", icon: Compass },
+    { to: "/trilha", label: "Trilha", icon: RouteIcon },
     { to: "/caso-do-dia", label: "Caso", icon: Flame },
     { to: "/academy", label: "Estudar", icon: GraduationCap },
     { to: "/como-funciona", label: "Guia", icon: ListOrdered },

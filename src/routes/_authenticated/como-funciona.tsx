@@ -7,6 +7,7 @@ import {
   Flame,
   GraduationCap,
   ListOrdered,
+  Route as RouteIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -17,7 +18,7 @@ export const Route = createFileRoute("/_authenticated/como-funciona")({
       {
         name: "description",
         content:
-          "Passo a passo da Doutiva: Mapa clínico, Caso do Dia, Universidade e Professores de IA.",
+          "Passo a passo da Doutiva: Mapa clínico, Minha Trilha, Caso do Dia, Universidade e Professores de IA.",
       },
     ],
   }),
@@ -35,6 +36,14 @@ const STEPS = [
   },
   {
     n: "02",
+    title: "Siga Minha Trilha",
+    body: "Do mapa sai a fila pessoal: o que estudar agora, na ordem do buraco. Marcada, separada do catálogo genérico.",
+    to: "/trilha" as const,
+    cta: "Minha Trilha",
+    icon: RouteIcon,
+  },
+  {
+    n: "03",
     title: "Treine no Caso do Dia",
     body: "Todo dia, um caso clínico alinhado ao seu mapa. Três minutos. Errou? Vai para a Revisão espaçada.",
     to: "/caso-do-dia" as const,
@@ -42,15 +51,15 @@ const STEPS = [
     icon: Flame,
   },
   {
-    n: "03",
-    title: "Estude na Universidade",
-    body: "Cursos com monografia, slides e caso. Comece por Peptídeos, Incretinas/Emagrecimento ou Hormônios. O mapa prioriza o que falta.",
+    n: "04",
+    title: "Explore a Universidade",
+    body: "Todos os cursos que criamos — monografia, slides e caso — organizados por área. Nada cortado; a trilha só prioriza.",
     to: "/academy" as const,
     cta: "Ver cursos",
     icon: GraduationCap,
   },
   {
-    n: "04",
+    n: "05",
     title: "Aprofunde com Professores de IA",
     body: "Sabatina socrática quando quiser cravar um tema. Índice de domínio sobe com o que você demonstra — não com tempo de tela.",
     to: "/professores" as const,
@@ -68,8 +77,8 @@ function ComoFuncionaPage() {
         </span>
         <h1 className="mt-3 font-serif text-4xl md:text-5xl">Como a Doutiva funciona</h1>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          Quatro passos. O resto da navegação existe para apoiar esse circuito — não para
-          competir com ele.
+          Entrevista → Minha Trilha → estudo. A Universidade guarda o catálogo inteiro. O resto da
+          navegação apoia esse circuito.
         </p>
       </header>
 

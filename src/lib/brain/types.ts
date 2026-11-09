@@ -39,6 +39,42 @@ export type MasteryMap = {
   ready: boolean;
 };
 
+/** Personal study queue item — derived from the clinical map. */
+export type StudyTrailCourse = {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string | null;
+  category: string | null;
+  free: boolean;
+  access: "full" | "locked";
+};
+
+export type StudyTrailStep = {
+  rank: number;
+  band: MasteryBand | "untouched";
+  score: number;
+  attempts: number;
+  reason: string;
+  topic: {
+    id: string;
+    slug: string;
+    title: string;
+    specialty: string;
+    summary: string | null;
+  };
+  course: StudyTrailCourse | null;
+  lesson: { id: string; title: string } | null;
+};
+
+export type StudyTrail = {
+  mapReady: boolean;
+  counts: MasteryMap["counts"];
+  steps: StudyTrailStep[];
+  focusTopicCount: number;
+  catalogCount: number;
+};
+
 export type CartographerProbe = {
   topic_id: string;
   topic_slug: string;

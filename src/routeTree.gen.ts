@@ -52,6 +52,7 @@ import { Route as AuthenticatedSeasonRouteImport } from './routes/_authenticated
 import { Route as AuthenticatedSettingsRouteImport } from './routes/_authenticated/settings'
 import { Route as AuthenticatedSkillsRouteImport } from './routes/_authenticated/skills'
 import { Route as AuthenticatedStoreRouteImport } from './routes/_authenticated/store'
+import { Route as AuthenticatedTrilhaRouteImport } from './routes/_authenticated/trilha'
 import { Route as AuthenticatedWalletRouteImport } from './routes/_authenticated/wallet'
 import { Route as ApiHealthRouteImport } from './routes/api/health'
 import { Route as ApiPreceptorRouteImport } from './routes/api/preceptor'
@@ -296,6 +297,11 @@ const AuthenticatedStoreRoute = AuthenticatedStoreRouteImport.update({
   path: '/store',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const AuthenticatedTrilhaRoute = AuthenticatedTrilhaRouteImport.update({
+  id: '/trilha',
+  path: '/trilha',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
 const AuthenticatedWalletRoute = AuthenticatedWalletRouteImport.update({
   id: '/wallet',
   path: '/wallet',
@@ -455,6 +461,7 @@ export interface FileRoutesByFullPath {
   '/settings': typeof AuthenticatedSettingsRoute
   '/skills': typeof AuthenticatedSkillsRoute
   '/store': typeof AuthenticatedStoreRoute
+  '/trilha': typeof AuthenticatedTrilhaRoute
   '/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
@@ -520,6 +527,7 @@ export interface FileRoutesByTo {
   '/settings': typeof AuthenticatedSettingsRoute
   '/skills': typeof AuthenticatedSkillsRoute
   '/store': typeof AuthenticatedStoreRoute
+  '/trilha': typeof AuthenticatedTrilhaRoute
   '/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
@@ -587,6 +595,7 @@ export interface FileRoutesById {
   '/_authenticated/settings': typeof AuthenticatedSettingsRoute
   '/_authenticated/skills': typeof AuthenticatedSkillsRoute
   '/_authenticated/store': typeof AuthenticatedStoreRoute
+  '/_authenticated/trilha': typeof AuthenticatedTrilhaRoute
   '/_authenticated/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
   '/api/preceptor': typeof ApiPreceptorRoute
@@ -654,6 +663,7 @@ export interface FileRouteTypes {
     | '/settings'
     | '/skills'
     | '/store'
+    | '/trilha'
     | '/wallet'
     | '/api/health'
     | '/api/preceptor'
@@ -719,6 +729,7 @@ export interface FileRouteTypes {
     | '/settings'
     | '/skills'
     | '/store'
+    | '/trilha'
     | '/wallet'
     | '/api/health'
     | '/api/preceptor'
@@ -785,6 +796,7 @@ export interface FileRouteTypes {
     | '/_authenticated/settings'
     | '/_authenticated/skills'
     | '/_authenticated/store'
+    | '/_authenticated/trilha'
     | '/_authenticated/wallet'
     | '/api/health'
     | '/api/preceptor'
@@ -1136,6 +1148,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedStoreRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/_authenticated/trilha': {
+      id: '/_authenticated/trilha'
+      path: '/trilha'
+      fullPath: '/trilha'
+      preLoaderRoute: typeof AuthenticatedTrilhaRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/wallet': {
       id: '/_authenticated/wallet'
       path: '/wallet'
@@ -1352,6 +1371,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedSettingsRoute: typeof AuthenticatedSettingsRoute
   AuthenticatedSkillsRoute: typeof AuthenticatedSkillsRoute
   AuthenticatedStoreRoute: typeof AuthenticatedStoreRoute
+  AuthenticatedTrilhaRoute: typeof AuthenticatedTrilhaRoute
   AuthenticatedWalletRoute: typeof AuthenticatedWalletRoute
   AuthenticatedAcademySlugRoute: typeof AuthenticatedAcademySlugRoute
   AuthenticatedEditorBibliotecaRoute: typeof AuthenticatedEditorBibliotecaRoute
@@ -1394,6 +1414,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedSettingsRoute: AuthenticatedSettingsRoute,
   AuthenticatedSkillsRoute: AuthenticatedSkillsRoute,
   AuthenticatedStoreRoute: AuthenticatedStoreRoute,
+  AuthenticatedTrilhaRoute: AuthenticatedTrilhaRoute,
   AuthenticatedWalletRoute: AuthenticatedWalletRoute,
   AuthenticatedAcademySlugRoute: AuthenticatedAcademySlugRoute,
   AuthenticatedEditorBibliotecaRoute: AuthenticatedEditorBibliotecaRoute,

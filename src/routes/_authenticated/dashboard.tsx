@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import { listCourses } from "@/lib/courses.functions";
 import { studioMe } from "@/lib/studio.functions";
+import { getMyStudyTrail } from "@/lib/brain/brain.functions";
 import { useProgress } from "@/lib/use-progress";
 import { Button } from "@/components/ui/button";
 import {
@@ -12,6 +13,7 @@ import {
   Flame,
   GraduationCap,
   PenTool,
+  Route as RouteIcon,
   ShoppingBag,
   BookOpen,
 } from "lucide-react";
@@ -23,7 +25,7 @@ export const Route = createFileRoute("/_authenticated/dashboard")({
       {
         name: "description",
         content:
-          "Caso do Dia, aulas, Professores de IA, créditos e ranking — o circuito Doutiva em um só lugar.",
+          "Mapa, Minha Trilha, Caso do Dia, Universidade e Professores de IA — o circuito Doutiva.",
       },
       { property: "og:title", content: "Meu campus — Doutiva" },
       {
@@ -40,6 +42,7 @@ export const Route = createFileRoute("/_authenticated/dashboard")({
 function DashboardPage() {
   const progress = useProgress();
   const fetchCourses = useServerFn(listCourses);
+  const fetchTrail = useServerFn(getMyStudyTrail);
   const { data: me } = useQuery({
     queryKey: ["studio-me"],
     queryFn: () => studioMe(),
@@ -56,8 +59,16 @@ function DashboardPage() {
     queryFn: () => fetchCourses(),
     retry: 1,
   });
+  const { data: trail } = useQuery({
+    queryKey: ["study-trail"],
+    queryFn: () => fetchTrail(),
+    retry: 1,
+  });
   const faculty = !!me?.isAdmin;
-  const featured = (courses ?? []).slice(0, 3);
+  const nextSteps = (trail?.steps ?? []).filter((s) => s.course).slice(0, 3);
+  const featured = nextSteps.length
+    ? []
+    : (courses ?? []).slice(0, 3);
 
   return (
     <div className="relative mx-auto max-w-6xl px-6 py-10 pb-28 md:pb-10">
@@ -75,11 +86,13 @@ function DashboardPage() {
             Escola do médico <span className="text-gold">do futuro</span>.
           </h1>
           <p className="mt-3 max-w-2xl text-muted-foreground">
-            Circuito claro: Mapa → Caso do Dia → Universidade → Professores de IA.
+            Circuito claro: Mapa → Minha Trilha → Caso do Dia → Universidade.
           </p>
           <div className="mt-5 flex flex-wrap gap-3">
             <Button asChild className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft">
-              <Link to="/mapa">Começar pelo Mapa</Link>
+              <Link to={trail?.mapReady ? "/trilha" : "/mapa"}>
+                {trail?.mapReady ? "Abrir Minha Trilha" : "Começar pelo Mapa"}
+              </Link>
             </Button>
             <Button asChild variant="outline" className="rounded-sm border-gold/40 text-gold hover:bg-gold/10">
               <Link to="/como-funciona">Como funciona</Link>
@@ -109,80 +122,58 @@ function DashboardPage() {
           </div>
         </div>
 
-        <div className="grid gap-px bg-border/50 md:grid-cols-3">
-          <Link
+        <div className="grid gap-px bg-border/50 md:grid-cols-2 lg:grid-cols-4">
+          <CircuitLink
             to="/mapa"
-            className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
-          >
-            <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
-              <Compass className="h-4 w-4" />
-            </span>
-            <div className="flex-1">
-              <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">1 · Mapa clínico</h2>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
-              </div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Onde você está firme e onde está o buraco.
-              </p>
-            </div>
-          </Link>
-
-          <Link
+            icon={Compass}
+            title="1 · Mapa clínico"
+            desc="Entrevista que monta onde você está firme e onde está o buraco."
+          />
+          <CircuitLink
+            to="/trilha"
+            icon={RouteIcon}
+            title="2 · Minha Trilha"
+            desc="Fila pessoal que sai do mapa — o que estudar agora."
+          />
+          <CircuitLink
             to="/caso-do-dia"
-            className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
-          >
-            <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
-              <Flame className="h-4 w-4" />
-            </span>
-            <div className="flex-1">
-              <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">2 · Caso do Dia</h2>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
-              </div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Hábito diário alinhado ao seu mapa.
-              </p>
-            </div>
-          </Link>
-
-          <Link
+            icon={Flame}
+            title="3 · Caso do Dia"
+            desc="Hábito diário alinhado ao seu mapa."
+          />
+          <CircuitLink
             to="/academy"
-            className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
-          >
-            <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
-              <GraduationCap className="h-4 w-4" />
-            </span>
-            <div className="flex-1">
-              <div className="flex items-center justify-between gap-3">
-                <h2 className="font-serif text-xl">3 · Universidade</h2>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
-              </div>
-              <p className="mt-1 text-sm text-muted-foreground">
-                Todas as trilhas, organizadas por área.
-              </p>
-            </div>
-          </Link>
+            icon={GraduationCap}
+            title="4 · Universidade"
+            desc="Todos os cursos, organizados por área."
+          />
         </div>
       </section>
 
       <section className="mt-10">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <h2 className="font-serif text-2xl">Estudar agora</h2>
+            <h2 className="font-serif text-2xl">
+              {nextSteps.length ? "Próximos da sua trilha" : "Estudar agora"}
+            </h2>
             <p className="text-sm text-muted-foreground">
-              Catálogo completo na Universidade — aqui um atalho.
+              {nextSteps.length
+                ? "Prioridade do mapa — o catálogo completo fica na Universidade."
+                : "Faça o Mapa para montar Minha Trilha. Enquanto isso, atalho ao catálogo."}
             </p>
           </div>
-          <Link to="/academy" className="text-[10px] uppercase tracking-[0.25em] text-gold">
-            Ver catálogo
+          <Link
+            to={nextSteps.length ? "/trilha" : "/academy"}
+            className="text-[10px] uppercase tracking-[0.25em] text-gold"
+          >
+            {nextSteps.length ? "Ver trilha" : "Ver catálogo"}
           </Link>
         </div>
         <div className="mt-5 grid gap-3 md:grid-cols-3">
-          {coursesLoading && featured.length === 0 && (
-            <p className="text-sm text-muted-foreground md:col-span-3">Carregando cursos…</p>
+          {coursesLoading && nextSteps.length === 0 && featured.length === 0 && (
+            <p className="text-sm text-muted-foreground md:col-span-3">Carregando…</p>
           )}
-          {coursesError && (
+          {coursesError && nextSteps.length === 0 && (
             <div className="md:col-span-3 rounded-sm border border-destructive/40 bg-card p-4 text-sm">
               <p className="text-destructive">
                 Não foi possível carregar os cursos
@@ -197,7 +188,7 @@ function DashboardPage() {
               </button>
             </div>
           )}
-          {!coursesLoading && !coursesError && featured.length === 0 && (
+          {!coursesLoading && !coursesError && nextSteps.length === 0 && featured.length === 0 && (
             <p className="text-sm text-muted-foreground md:col-span-3">
               Nenhum curso publicado ainda.{" "}
               <Link to="/academy" className="text-gold">
@@ -205,6 +196,23 @@ function DashboardPage() {
               </Link>
             </p>
           )}
+          {nextSteps.map((s) => (
+            <Link
+              key={s.topic.id}
+              to="/academy/$slug"
+              params={{ slug: s.course!.slug }}
+              className="group rounded-sm border border-border/60 bg-card p-5 transition hover:border-gold/40"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <span className="text-[10px] uppercase tracking-[0.2em] text-gold">
+                  {String(s.rank).padStart(2, "0")} · trilha
+                </span>
+                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
+              </div>
+              <h3 className="mt-3 font-serif text-lg leading-snug">{s.course!.title}</h3>
+              <p className="mt-2 text-xs text-muted-foreground">{s.reason}</p>
+            </Link>
+          ))}
           {featured.map((c) => (
             <Link
               key={c.id}
@@ -277,6 +285,36 @@ function DashboardPage() {
         </section>
       )}
     </div>
+  );
+}
+
+function CircuitLink({
+  to,
+  icon: Icon,
+  title,
+  desc,
+}: {
+  to: "/mapa" | "/trilha" | "/caso-do-dia" | "/academy";
+  icon: typeof Flame;
+  title: string;
+  desc: string;
+}) {
+  return (
+    <Link
+      to={to}
+      className="group flex items-start gap-4 bg-card p-6 transition hover:bg-secondary/40"
+    >
+      <span className="grid h-10 w-10 place-items-center rounded-sm border border-gold/40 text-gold">
+        <Icon className="h-4 w-4" />
+      </span>
+      <div className="flex-1">
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="font-serif text-xl">{title}</h2>
+          <ArrowUpRight className="h-4 w-4 text-muted-foreground transition group-hover:text-gold" />
+        </div>
+        <p className="mt-1 text-sm text-muted-foreground">{desc}</p>
+      </div>
+    </Link>
   );
 }
 

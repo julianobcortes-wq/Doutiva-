@@ -136,8 +136,7 @@ function MapaPage() {
       </h1>
       <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
         Escola do médico do futuro — AI-first. O Cartógrafo descobre o que você já domina e o que
-        falta. A partir daqui, o Preceptor monta o Caso do Dia e a Universidade vira fila do buraco —
-        não ementa linear.
+        falta. A saída é Minha Trilha — a fila pessoal. Caso do Dia e Universidade ficam ao lado.
       </p>
 
       <div className="mt-8 flex flex-wrap gap-2">
@@ -160,19 +159,32 @@ function MapaPage() {
           {map?.ready ? "Recalibrar com IA" : "Começar entrevista"}
         </Button>
         {map?.ready && (
-          <Button asChild variant="outline" size="sm" className="gap-2">
-            <Link to="/caso-do-dia">
-              <Flame className="h-3.5 w-3.5" /> Ir ao Caso do Dia
-            </Link>
-          </Button>
+          <>
+            <Button asChild size="sm" className="gap-2">
+              <Link to="/trilha">
+                <Sparkles className="h-3.5 w-3.5" /> Abrir Minha Trilha
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="sm" className="gap-2">
+              <Link to="/caso-do-dia">
+                <Flame className="h-3.5 w-3.5" /> Ir ao Caso do Dia
+              </Link>
+            </Button>
+          </>
         )}
       </div>
 
       {completeSummary && (
         <div className="mt-6 border border-primary/25 bg-primary/5 px-4 py-3 text-sm leading-relaxed">
           {completeSummary}
+          <div className="mt-3">
+            <Button asChild size="sm" className="gap-2">
+              <Link to="/trilha">Ver Minha Trilha montada a partir deste mapa</Link>
+            </Button>
+          </div>
         </div>
       )}
+
 
       {error && (
         <div className="mt-4 border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive">
