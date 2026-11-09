@@ -14,7 +14,20 @@ Data de referência: 2026-11-09 (America/Sao_Paulo). Escopo: cursos criados/expa
 | Manipulados | **Mista** — forte em ANVISA/CFM; trials clínicos menos densos no formulário | B− |
 | Negócios (5) | **Adequada ao gênero** — gestão/prática, não RCT | B (prática) |
 
-**Conclusão:** não estamos “sem base”. Os eixos com RCT robusto (incretinas/obesidade) estão bem ancorados. Os eixos regulatório-operacionais (manipulados, soroterapia, técnica de hormônio) dependem mais de RDC/CFM/guidelines — isso é correto, mas precisavam limpar placeholders `verificar` e engrossar âncoras nominadas. Script `enrich-lesson-evidence.mjs` foi aplicado nas aulas mais fracas.
+**Conclusão:** não estamos “sem base”. Os eixos com RCT robusto (incretinas/obesidade) estão bem ancorados. Os eixos regulatório-operacionais (manipulados, soroterapia, técnica de hormônio) dependem mais de RDC/CFM/guidelines — isso é correto.
+
+### Enriquecimento aplicado (2026-11-09)
+
+12 aulas-alvo receberam bloco **Âncoras de evidência** + refs depuradas via `scripts/enrich-lesson-evidence.mjs`:
+
+| Curso | Aulas | Pós-enrich (refs / âncoras) |
+|-------|-------|------------------------------|
+| Hormônios | 12, 14, 16 | 6–9 refs + âncoras |
+| Manipulados | 11, 13, 14 | 10–12 refs + âncoras |
+| Obesidade | 2, 9, 16 | 10–11 refs + âncoras |
+| Soroterapia | 1, 2, 3 | 9–13 refs + âncoras |
+
+Observação: monografias de soroterapia ainda podem citar `verificar` no corpo quando o modelo não confirma DOI — as âncoras/refs oficiais foram priorizadas.
 
 ## Critérios usados
 
