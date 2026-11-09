@@ -108,6 +108,14 @@ export const PUBLIC_COURSES: PublicCourse[] = [
     free: false,
   },
   {
+    slug: "longevidade-medicina-evidencia",
+    title: "Longevidade na Medicina com Evidência",
+    subtitle: "Hallmarks, geroscience e o que trials humanos sustentam",
+    category: "Longevidade",
+    lessons: 16,
+    free: false,
+  },
+  {
     slug: "sarcopenia-composicao-performance",
     title: "Sarcopenia, Composição Corporal e Performance",
     subtitle: "Magra, força e longevidade clínica",

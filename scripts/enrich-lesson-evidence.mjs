@@ -55,6 +55,10 @@ diretrizes ABESO/SBEM/ADA Standards of Care. Sem inventar números de resultado 
   "sarcopenia-composicao-performance": `Âncoras: EWGSOP2; trials de proteína e treinamento resistido landmark se nomeados com certeza.`,
   "ia-pratica-medica": `Âncoras: CFM/ética de IA; LGPD; revisões de IA clínica — sem inventar métricas de desempenho.`,
   "peptideos-medicina-de-precisao": `Âncoras: hierarquia A–D; categorias FDA quando couber; trials só se landmark nomeado com certeza.`,
+  "longevidade-medicina-evidencia": `Âncoras densas (10–14 refs quando possível): López-Otín hallmarks (Cell); CALERIE; TAME (desenho);
+SELECT/STEP/SURMOUNT; guidelines ACSM/OMS atividade; meta-análises de sono; ACC/AHA/ADA prevenção;
+Endocrine Society / WHI-NAMS hormônios; literatura humana de metformina/rapamicina/NAD/senolíticos com honestidade de nível.
+NÃO invente DOI nem % de desfecho. Separe modelo animal de evidência humana.`,
 };
 
 async function enrichOne(courseTitle, slug, lesson) {

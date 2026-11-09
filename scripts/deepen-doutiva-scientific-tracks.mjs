@@ -174,13 +174,24 @@ Curso slug: ${courseSlug}
 Regras inegociáveis de EVIDÊNCIA:
 - Monografia LONGA: mínimo 10.000 caracteres, densidade de tratado; ≥2 tabelas markdown; checklists.
 - Inclua seção obrigatória no FINAL da monografia: "## Âncoras de evidência" (guidelines/trials nomeados vs extrapolações D).
-- Prefira citar: guidelines (ATA, Endocrine Society, ADA, ABESO/SBEM, FEBRASGO, EWGSOP2, CFM, ASA) e trials landmark pelo NOME + autores/ano.
+- Prefira citar: guidelines (ATA, Endocrine Society, ADA, ABESO/SBEM, FEBRASGO, EWGSOP2, CFM, ASA, ACC/AHA, OMS/ACSM) e trials landmark pelo NOME + autores/ano.
 - NUNCA invente DOI, PMID, n, HR ou %. Se não tiver certeza do número, descreva qualitativamente ou use "verificar".
 - 8–12 refs reais ou honestamente marcadas; remova vazio.
 - 9–12 slides concretos (title, bullets, table, bars, flow, split, pearl).
 - clinical_case: médico BR, 6–8 data rows, 4 opções (1 correta), teaching denso com âncora.
 - quick_ref de bolso; key_points 6–8; evidence_level explícito (ex. "A — guideline/ECR" ou "D — mito").
 - Desmonte marketing/wellness quando o tema for mito; ofereça plano clínico alternativo.
+${
+  courseSlug === "longevidade-medicina-evidencia"
+    ? `
+REGRAS EXTRA — LONGEVIDADE (este curso):
+- Densidade bibliográfica ALTA: mire 10–14 refs por aula (guidelines, RCTs, meta-análises, reviews seminais).
+- Cite pelo nome quando tiver certeza: López-Otín hallmarks; CALERIE; TAME; SELECT; STEP/SURMOUNT; WHI; Endocrine Society TRT; reviews de rapamicina/NAD/senolíticos.
+- Toda monografia deve ter tabela "Evidência humana vs modelo animal vs marketing".
+- Seção Âncoras deve listar ≥6 bullets de estudos/guidelines e ≥2 bullets do que NÃO sustenta conduta de consultório.
+- Tom: geroscience séria — healthspan primeiro; zero protocolo Instagram.`
+    : ""
+}
 
 Entregue JSON no schema pedido.`;
 

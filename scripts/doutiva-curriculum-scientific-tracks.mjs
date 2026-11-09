@@ -301,6 +301,53 @@ export const FERTILIDADE_COURSE = {
   ],
 };
 
+/** 7 · Longevidade na medicina (flagship científico) */
+export const LONGEVIDADE_COURSE = {
+  slug: "longevidade-medicina-evidencia",
+  title: "Longevidade na Medicina com Evidência",
+  subtitle: "Hallmarks, geroscience e o que trials humanos realmente sustentam — sem hype",
+  category: "Longevidade",
+  level: "Avançado",
+  description:
+    "Flagship Doutiva de medicina da longevidade para médicos: biologia do envelhecimento, healthspan vs lifespan, intervenções com hierarquia de evidência (exercício, sono, vacinas, risco CV/renal/oncológico, metformina/TAME, rapamicina, NAD, senolíticos, hormônios e incretinas), biomarcadores honestos e prontuário defensável. Pesquisado em guidelines e trials — mitos marcados como D.",
+  instructor_name: "Conselho editorial Doutiva",
+  instructor_title: "Geroscience · Medicina baseada em evidência · Longevidade clínica",
+  lessons: [
+    L(1, 1, "Módulo 1 · Mapa científico", "Longevidade clínica vs anti-aging de marketing: o contrato científico do prescritor",
+      "Definir healthspan, lifespan, compressão de morbidade. Separar geroscience de wellness. Tabela A–D. Papel do médico BR (CFM). Âncoras: conceitos de Fries; WHO Decade of Healthy Ageing (overview)."),
+    L(2, 1, "Módulo 1 · Mapa científico", "Hallmarks of aging: o que é framework útil e o que ainda é especulação terapêutica",
+      "López-Otín hallmarks (2013/2023 update) como mapa — NÃO como menu de prescrição. Traduzir cada hallmark em conduta clínica (quando houver) vs pesquisa. Evitar 'tratar hallmark X com suplemento Y'."),
+    L(3, 2, "Módulo 2 · O que mais move o ponteiro", "Exercício como droga de longevidade: evidência de mortalidade, VO2 e força",
+      "Cohorts e trials de atividade física, HIIT vs moderado, resistência e sarcopenia. Guidelines ACSM/OMS atividade. Como prescrever dose mínima eficaz no consultório de precisão."),
+    L(4, 2, "Módulo 2 · O que mais move o ponteiro", "Sono, ritmo circadiano e mortalidade: o que meta-análises sustentam",
+      "Duração em U, apneia, CBT-I. Integração com curso sono/cortisol sem repetir mito adrenal. Âncoras de sono e desfecho."),
+    L(5, 3, "Módulo 3 · Nutrição e restrição", "Restrição calórica, jejum e time-restricted eating: CALERIE e limites humanos",
+      "CALERIE, evidência de CR em humanos vs modelos animais. TRE/IF: o que RCTs mostram para peso/metabólico vs longevity claims. Red flags de fasting extremo."),
+    L(6, 3, "Módulo 3 · Nutrição e restrição", "Proteína, padrão alimentar e inflamação crônica de baixo grau",
+      "Padrão mediterrâneo / DASH evidência CV. Proteína no idoso (PROTAGE/ESPEN conceitos). Ultra-processados. Sem dieta milagre."),
+    L(7, 4, "Módulo 4 · Prevenção que salva anos", "Risco cardiovascular e renal como eixo central da longevidade clínica",
+      "ASCVD, HAS, LDL, diabetes — guidelines ACC/AHA/ADA/BR. SELECT e benefício CV de incretinas. Por que 'otimizar hormônio' sem controlar PA/LDL é teatro."),
+    L(8, 4, "Módulo 4 · Prevenção que salva anos", "Câncer, vacinas e rastreio: longevidade que o Instagram ignora",
+      "Vacinação do adulto (influenza, pneumo, herpes zoster, COVID conforme calendário). Rastreios baseados em evidência vs overdiagnosis. USPSTF/MS conceitos."),
+    L(9, 5, "Módulo 5 · Farmacologia da geroscience", "Metformina e o envelhecimento: TAME, diabetes e extrapolação perigosa no euglycêmico",
+      "Literatura observacional vs RCT. TAME (desenho/status). Quando metformina tem indicação clara vs off-label longevity. Monitoramento e B12/lactato."),
+    L(10, 5, "Módulo 5 · Farmacologia da geroscience", "Rapamicina, mTOR e senolíticos: o estado da evidência humana em 2020s",
+      "Biologia mTOR; estudos humanos pequenos/pilotos; riscos (imunidade, cicatrização, metabólico). Dasatinib+quercetin e senolíticos — pesquisa ≠ protocolo de consultório. Script de recusa ética."),
+    L(11, 6, "Módulo 6 · NAD, hormônios e zona cinzenta", "NAD+, NMN, NR e megavitaminas: o que trials humanos mostram (e não mostram)",
+      "RCTs de precursors NAD — endpoints surrogate vs clínicos. Segurança. Marketing vs evidência. Quando deficiência real (pelagra etc.) ≠ anti-aging."),
+    L(12, 6, "Módulo 6 · NAD, hormônios e zona cinzenta", "Hormônios e incretinas na longevidade: TRT, THM e GLP-1/GIP com critério",
+      "Integrar Endocrine Society / WHI-NAMS / SELECT sem duplicar cursos irmãos — foco no desfecho de healthspan. Tabela: indicação sólida vs extrapolação anti-aging (CFM)."),
+    L(13, 7, "Módulo 7 · Medir sem medicalizar", "Biomarcadores de envelhecimento: relógios epigenéticos, inflamação e o que muda conduta",
+      "Relógios epigenéticos (conceito Horvath) — utilidade clínica ainda limitada. hsCRP, HbA1c, lipidoma básico, DEXA/força. Evitar painel de 80 biomarcadores sem ação."),
+    L(14, 7, "Módulo 7 · Medir sem medicalizar", "Protocolo Doutiva 12 meses de longevidade clínica: checklist e prontuário",
+      "Anamnese, labs racionais, metas de exercício/sono/vacina/risco CV, revisão anual. TCLE quando off-label. Modelo de prontuário defensável."),
+    L(15, 7, "Módulo 7 · Medir sem medicalizar", "Biblioteca âncora: trials, guidelines e reviews que o prescritor deve saber citar",
+      "Lista curada: López-Otín; CALERIE; TAME; SELECT; guidelines exercício/sono/CV; reviews de rapamicina/NAD/senolíticos com nível de evidência. Como citar sem inventar DOI."),
+    L(16, 7, "Módulo 7 · Medir sem medicalizar", "Casos clínicos densos + recusa ética do protocolo Instagram de longevidade",
+      "4 vignettes BR: executivo quer rapamicina; mulher 52 quer 'painel idade biológica'; obeso pré-diabético; TRT sem Hct/PA. Teaching com âncoras."),
+  ],
+};
+
 export const SCIENTIFIC_TRACKS = [
   TIREOIDE_COURSE,
   CARDIO_COURSE,
@@ -308,6 +355,7 @@ export const SCIENTIFIC_TRACKS = [
   ETICA_COURSE,
   SONO_COURSE,
   FERTILIDADE_COURSE,
+  LONGEVIDADE_COURSE,
 ];
 
 export const SCIENTIFIC_BY_SLUG = Object.fromEntries(SCIENTIFIC_TRACKS.map((c) => [c.slug, c]));

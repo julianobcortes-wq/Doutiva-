@@ -62,8 +62,15 @@ function AcademyPage() {
     "etica-publicidade-prontuario",
     "sono-cortisol-criterio",
     "fertilidade-trt-incretinas",
+    "longevidade-medicina-evidencia",
   ]);
   const flagships = [
+    {
+      course: courses.find((c) => c.slug === "longevidade-medicina-evidencia"),
+      blurb:
+        "16 aulas: hallmarks, CALERIE/TAME/SELECT, exercício/sono, metformina/rapamicina/NAD com hierarquia A–D — sem hype.",
+      cta: "Abrir Longevidade",
+    },
     {
       course: courses.find((c) => c.slug === "manipulados-injetaveis-criterio"),
       blurb:

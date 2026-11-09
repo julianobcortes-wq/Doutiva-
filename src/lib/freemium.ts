@@ -13,6 +13,7 @@ export const FREE_COURSE_SLUGS = [
   "etica-publicidade-prontuario",
   "sono-cortisol-criterio",
   "fertilidade-trt-incretinas",
+  "longevidade-medicina-evidencia",
   "precificacao-margem-consultorio",
   "funil-clinico-agenda",
   "gestao-clinica-uma-pagina",
