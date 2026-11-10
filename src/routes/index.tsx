@@ -54,7 +54,7 @@ function HomePage() {
             Doutiva
           </h1>
           <p className="mt-8 max-w-xl text-lg font-light leading-relaxed text-foreground/85 md:text-xl animate-in fade-in slide-in-from-bottom-4 duration-700">
-            Protocolos clínicos com evidência — para o médico que decide na segunda-feira.
+            Protocolos clínicos com evidência — pra usar no consultório.
             Sessão guiada, monografia e caso. Independente de farmácia, lab e indústria.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-3 animate-in fade-in slide-in-from-bottom-5 duration-700">

@@ -60,7 +60,7 @@ function TrilhaPage() {
       {!loading && !trailQuery.isError && trail && !trail.mapReady && (
         <section className="mt-8">
           <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-            Ainda sem mapa. Em cerca de dez minutos a entrevista monta a sua fila pessoal.
+            Ainda sem mapa. São 8 perguntas (~10 min) — depois a fila pessoal aparece aqui.
           </p>
           <Button
             asChild
@@ -68,7 +68,7 @@ function TrilhaPage() {
             className="mt-8 rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
           >
             <Link to="/mapa">
-              <Compass className="mr-2 h-4 w-4" /> Montar meu mapa
+              <Compass className="mr-2 h-4 w-4" /> Montar meu mapa · 8 perguntas
             </Link>
           </Button>
           <p className="mt-6 text-sm text-muted-foreground">

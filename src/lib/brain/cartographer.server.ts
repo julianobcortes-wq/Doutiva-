@@ -19,6 +19,8 @@ import type { CartographerTurnResult, ClinicalTopic } from "@/lib/brain/types";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { Database } from "@/integrations/supabase/types";
 
+import { MAP_INTERVIEW_QUESTIONS } from "@/lib/brain/map-interview";
+
 const SYSTEM = `Você é o Cartógrafo da Doutiva — o cérebro da escola do médico do futuro (AI-first).
 Seu único trabalho nesta face: diagnosticar o que o médico JÁ sabe e o que NÃO sabe, tema a tema.
 O aluno é SEMPRE médico formado.
@@ -30,7 +32,8 @@ Regras absolutas:
 4. Avance para o próximo tema do catálogo ainda sem avaliação (ou vermelho frágil).
 5. Ancore-se em medicina de peptídeos / incretinas / eixo GH / reparo / regulação BR (ANVISA/CFM/WADA).
 6. Português técnico, direto, respeitoso. Sem enrolação.
-7. Quando cobrir a maioria dos temas (≥6 ou todos), encerre com map_complete=true e um resumo de 2 linhas.`;
+7. A entrevista tem tamanho fixo: exatamente ${MAP_INTERVIEW_QUESTIONS} perguntas/temas. Ao completar ${MAP_INTERVIEW_QUESTIONS} avaliações (ou todos os temas do catálogo, o que for menor), encerre com map_complete=true e um resumo de 2 linhas apontando Minha Trilha.
+8. Na primeira fala, diga que serão ${MAP_INTERVIEW_QUESTIONS} perguntas e que no fim sai a trilha pessoal.`;
 
 // OpenAI strict JSON schema: every key must appear in `required`.
 // Use .nullable() (not .optional()) so absent values are explicit nulls.
@@ -238,6 +241,17 @@ Na sua resposta estruturada:
       });
     }
 
+    const map = await getMastery(supabase as never, u.user.id);
+    const touched = map.mastery.filter((m) => m.attempts > 0).length;
+    const target = Math.min(MAP_INTERVIEW_QUESTIONS, Math.max(1, topics.length));
+    const forceComplete = touched >= target;
+    const mapComplete = !!out.map_complete || forceComplete;
+    const summary =
+      out.summary ??
+      (mapComplete
+        ? `Mapa pronto (${touched}/${target}). Abra Minha Trilha para ver o que estudar agora.`
+        : null);
+
     const sessionId = await saveBrainSession({
       supabase: supabase as never,
       userId: u.user.id,
@@ -247,13 +261,12 @@ Na sua resposta estruturada:
       result: {
         assessment: out.assessment ?? null,
         probe: out.probe ?? null,
-        map_complete: !!out.map_complete,
-        summary: out.summary ?? null,
+        map_complete: mapComplete,
+        summary,
+        progress: { done: touched, total: target },
       },
-      status: out.map_complete ? "completed" : "active",
+      status: mapComplete ? "completed" : "active",
     });
-
-    const map = await getMastery(supabase as never, u.user.id);
 
     return Response.json({
       reply: out.reply,
@@ -264,8 +277,9 @@ Na sua resposta estruturada:
             score: clamp(out.assessment.score),
           }
         : null,
-      map_complete: !!out.map_complete,
-      summary: out.summary ?? null,
+      map_complete: mapComplete,
+      summary,
+      progress: { done: touched, total: target },
       sessionId,
       map,
     });

@@ -94,8 +94,8 @@ function StartFresh() {
         Monte seu mapa.
       </h1>
       <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-        Uma conversa curta com a IA. Em seguida, aparece a sua trilha — o que estudar, na ordem
-        certa. O resto fica quieto até você precisar.
+        8 perguntas clínicas (~10 min). No fim aparece Minha Trilha — o caminho mais relevante pro
+        seu perfil. O resto fica quieto até você precisar.
       </p>
       <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
         <Button

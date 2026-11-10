@@ -1,13 +1,20 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Compass, Flame, Loader2, Map as MapIcon, Send, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { LessonMarkdown } from "@/components/lesson-markdown";
 import { supabase } from "@/integrations/supabase/client";
 import { getMyMasteryMap } from "@/lib/brain/brain.functions";
 import type { MasteryBand, MasteryMap } from "@/lib/brain/types";
+import {
+  MAP_INTERVIEW_MINUTES,
+  MAP_INTERVIEW_QUESTIONS,
+  mapInterviewSentence,
+  mapProgressLabel,
+  mapProgressPct,
+} from "@/lib/brain/map-interview";
 
 export const Route = createFileRoute("/_authenticated/mapa")({
   head: () => ({
@@ -16,7 +23,7 @@ export const Route = createFileRoute("/_authenticated/mapa")({
       {
         name: "description",
         content:
-          "O Cartógrafo da Doutiva descobre o que você já domina e monta sua trilha. Escola do médico do futuro — AI-first.",
+          "Responda 8 perguntas clínicas e monte sua trilha pessoal na Doutiva.",
       },
       { property: "og:title", content: "Mapa clínico — Doutiva" },
       { property: "og:type", content: "website" },
@@ -64,6 +71,9 @@ function MapaPage() {
   const [sessionId, setSessionId] = useState<string | undefined>();
   const [error, setError] = useState<string | null>(null);
   const [completeSummary, setCompleteSummary] = useState<string | null>(null);
+  const [progressOverride, setProgressOverride] = useState<{ done: number; total: number } | null>(
+    null,
+  );
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -88,15 +98,19 @@ function MapaPage() {
         map_complete?: boolean;
         summary?: string | null;
         map?: MasteryMap;
+        progress?: { done: number; total: number };
       }>;
     },
     onSuccess: (data) => {
       setMessages((prev) => [...prev, { role: "assistant", content: data.reply }]);
       if (data.sessionId) setSessionId(data.sessionId);
+      if (data.progress) setProgressOverride(data.progress);
       if (data.map) qc.setQueryData(["mastery-map"], data.map);
       else qc.invalidateQueries({ queryKey: ["mastery-map"] });
       if (data.map_complete) {
-        setCompleteSummary(data.summary ?? "Mapa atualizado. O Preceptor já pode montar seu Caso do Dia.");
+        setCompleteSummary(
+          data.summary ?? "Mapa pronto. Abra Minha Trilha para ver o que estudar agora.",
+        );
         setMode("map");
       }
     },
@@ -108,8 +122,8 @@ function MapaPage() {
     setCompleteSummary(null);
     setMessages([]);
     setSessionId(undefined);
+    setProgressOverride({ done: 0, total: MAP_INTERVIEW_QUESTIONS });
     setMode("interview");
-    setError(null);
     turn.mutate([]);
   }
 
@@ -125,6 +139,17 @@ function MapaPage() {
 
   const map = mapQuery.data;
   const loadingMap = mapQuery.isLoading;
+  const target = Math.min(
+    MAP_INTERVIEW_QUESTIONS,
+    Math.max(1, map?.topics.length || MAP_INTERVIEW_QUESTIONS),
+  );
+  const touchedFromMap = useMemo(
+    () => (map?.mastery ?? []).filter((m) => m.attempts > 0).length,
+    [map],
+  );
+  const done = progressOverride?.done ?? touchedFromMap;
+  const total = progressOverride?.total ?? target;
+  const pct = mapProgressPct(done, total);
 
   return (
     <div className="mx-auto max-w-5xl px-4 pb-28 pt-8 sm:px-6">
@@ -135,7 +160,7 @@ function MapaPage() {
         Seu mapa clínico
       </h1>
       <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
-        Uma conversa curta. No fim, aparece Minha Trilha — o que estudar agora.
+        {mapInterviewSentence()}
       </p>
 
       <div className="mt-8 flex flex-wrap gap-2">
@@ -155,7 +180,7 @@ function MapaPage() {
           disabled={turn.isPending}
         >
           <Sparkles className="h-3.5 w-3.5" />
-          {map?.ready ? "Recalibrar com IA" : "Começar entrevista"}
+          {map?.ready ? "Recalibrar com IA" : `Começar · ${MAP_INTERVIEW_QUESTIONS} perguntas`}
         </Button>
         {map?.ready && (
           <>
@@ -184,7 +209,6 @@ function MapaPage() {
         </div>
       )}
 
-
       {error && (
         <div className="mt-4 border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-destructive">
           {error}
@@ -201,8 +225,7 @@ function MapaPage() {
               <p className="mt-2">
                 Aplique a migration{" "}
                 <code className="text-xs">0026_brain_mastery_by_topic.sql</code> no Supabase e
-                recarregue. Enquanto isso, você já pode abrir a entrevista — ela falhará com
-                mensagem clara se as tabelas não existirem.
+                recarregue.
               </p>
             </div>
           ) : (
@@ -216,13 +239,13 @@ function MapaPage() {
 
               {!map?.ready && (
                 <div className="mt-8 border border-dashed border-border/70 px-5 py-6">
-                  <p className="text-sm text-muted-foreground">
-                    Seu mapa ainda está em branco. Em ~10–15 minutos o Cartógrafo calibra os temas
-                    centrais da Doutiva. Sem isso, o Caso do Dia continua genérico.
+                  <p className="text-sm text-muted-foreground">{mapInterviewSentence()}</p>
+                  <p className="mt-2 text-xs text-muted-foreground">
+                    Sem o mapa, o Caso do Dia continua genérico e a trilha não personaliza.
                   </p>
                   <Button className="mt-4 gap-2" onClick={startInterview} disabled={turn.isPending}>
                     <Sparkles className="h-4 w-4" />
-                    Iniciar mapa com IA
+                    Iniciar mapa · {MAP_INTERVIEW_QUESTIONS} perguntas
                   </Button>
                 </div>
               )}
@@ -232,10 +255,7 @@ function MapaPage() {
                   const untouched = row.attempts === 0;
                   const band = untouched ? "untouched" : row.band;
                   return (
-                    <li
-                      key={row.topic_id}
-                      className={`border px-4 py-4 ${BAND_STYLE[band]}`}
-                    >
+                    <li key={row.topic_id} className={`border px-4 py-4 ${BAND_STYLE[band]}`}>
                       <div className="flex items-start justify-between gap-3">
                         <div>
                           <p className="text-[10px] uppercase tracking-[0.25em] opacity-70">
@@ -256,7 +276,9 @@ function MapaPage() {
                         <div className="mt-3 flex items-center gap-3 text-xs opacity-80">
                           <span>Índice {row.score}</span>
                           <span>·</span>
-                          <span>{row.attempts} calibraç{row.attempts === 1 ? "ão" : "ões"}</span>
+                          <span>
+                            {row.attempts} calibraç{row.attempts === 1 ? "ão" : "ões"}
+                          </span>
                         </div>
                       )}
                     </li>
@@ -268,13 +290,29 @@ function MapaPage() {
         </section>
       ) : (
         <section className="mt-8 flex min-h-[28rem] flex-col border border-border/60">
-          <div className="border-b border-border/60 px-4 py-3 text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-            Entrevista socrática · uma pergunta por vez
+          <div className="border-b border-border/60 px-4 py-3">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <p className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+                {mapProgressLabel(done, total)}
+              </p>
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
+                ~{MAP_INTERVIEW_MINUTES} min · uma por vez
+              </p>
+            </div>
+            <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+              <div
+                className="h-full bg-gold transition-[width] duration-500"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+            <p className="mt-2 text-xs text-muted-foreground">
+              {done}/{total} respondidas — no fim aparece Minha Trilha.
+            </p>
           </div>
           <div className="flex-1 space-y-4 overflow-y-auto px-4 py-5">
             {messages.length === 0 && turn.isPending && (
               <p className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Loader2 className="h-4 w-4 animate-spin" /> Cartógrafo calibrando o primeiro tema…
+                <Loader2 className="h-4 w-4 animate-spin" /> Cartógrafo preparando a pergunta 1…
               </p>
             )}
             {messages.map((m, i) => (

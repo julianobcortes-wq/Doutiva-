@@ -19,7 +19,7 @@ const STEPS = [
   {
     n: "1",
     title: "Mapa",
-    body: "Uma conversa curta. A IA vê onde você está firme e onde está o buraco.",
+    body: "8 perguntas (~10 min). A IA vê onde você está firme e onde está o buraco — e monta a trilha.",
     to: "/mapa" as const,
     cta: "Montar mapa",
     icon: Compass,
