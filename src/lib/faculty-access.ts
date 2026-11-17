@@ -19,10 +19,19 @@ type FacultyContext = {
   email?: string | null;
 };
 
+function emailFromClaims(claims: FacultyContext["claims"]): string | null {
+  if (!claims) return null;
+  if (typeof claims.email === "string") return claims.email;
+  const meta = claims.user_metadata;
+  if (meta && typeof meta === "object" && meta !== null && "email" in meta) {
+    const v = (meta as { email?: unknown }).email;
+    if (typeof v === "string") return v;
+  }
+  return null;
+}
+
 export async function resolveIsAdmin(context: FacultyContext): Promise<boolean> {
-  const email =
-    context.email ??
-    (typeof context.claims?.email === "string" ? context.claims.email : null);
+  const email = context.email ?? emailFromClaims(context.claims);
   if (isPermanentTestFaculty(email)) return true;
   try {
     const { data } = await context.supabase.rpc("has_role", {

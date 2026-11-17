@@ -33,14 +33,17 @@ function DashboardPage() {
     queryFn: () => studioMe(),
     staleTime: 60_000,
   });
-  const { data: trail, isLoading } = useQuery({
+  const { data: trail, isLoading, isError } = useQuery({
     queryKey: ["study-trail"],
     queryFn: () => fetchTrail(),
     retry: 1,
+    // Never leave the home screen spinning forever after a successful login.
+    staleTime: 30_000,
   });
   const faculty = !!me?.isAdmin;
   const mapReady = !!trail?.mapReady;
   const next = (trail?.steps ?? []).find((s) => s.course) ?? null;
+  const showStart = isError || (!isLoading && !mapReady);
 
   return (
     <div className="relative mx-auto max-w-3xl px-6 py-14 pb-28 md:py-20 md:pb-16">
@@ -53,9 +56,9 @@ function DashboardPage() {
         <p className="mb-8 text-[10px] uppercase tracking-[0.28em] text-sage">Painel do Mentor</p>
       )}
 
-      {isLoading ? (
+      {isLoading && !isError ? (
         <p className="text-sm text-muted-foreground">Preparando seu início…</p>
-      ) : !mapReady ? (
+      ) : showStart ? (
         <StartFresh />
       ) : next ? (
         <ContinueTrail

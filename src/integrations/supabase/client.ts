@@ -21,7 +21,8 @@ type SupabaseConfig = {
 function readSupabaseConfig(): SupabaseConfig | null {
   // Prefer Vercel/build env; fall back to committed public config so login
   // works even when VITE_SUPABASE_* was missing at deploy time.
-  const url = (
+  // Never keep a known-dead independent project host (DNS NXDOMAIN).
+  const rawUrl = (
     import.meta.env["VITE_SUPABASE_URL"] ||
     process.env["SUPABASE_URL"] ||
     PUBLIC_SUPABASE_URL ||
@@ -29,11 +30,15 @@ function readSupabaseConfig(): SupabaseConfig | null {
   )
     .toString()
     .replace(/\/+$/, "");
+  const dead = rawUrl.includes("ynmlbkfdjxzmsndcquap.supabase.co");
+  const url = dead ? PUBLIC_SUPABASE_URL.replace(/\/+$/, "") : rawUrl;
   const key = (
-    import.meta.env["VITE_SUPABASE_PUBLISHABLE_KEY"] ||
-    process.env["SUPABASE_PUBLISHABLE_KEY"] ||
-    PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
-    ""
+    dead
+      ? PUBLIC_SUPABASE_PUBLISHABLE_KEY
+      : import.meta.env["VITE_SUPABASE_PUBLISHABLE_KEY"] ||
+        process.env["SUPABASE_PUBLISHABLE_KEY"] ||
+        PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
+        ""
   ).toString();
   if (!url || !key) return null;
   return { url, key };
