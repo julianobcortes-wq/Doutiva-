@@ -83,8 +83,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Doutiva — Instituto de Medicina e Negócios" },
       { name: "twitter:description", content: "Peptídeos grátis. Protocolos Online. Instituto independente de indústria." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b82f93e-7e60-4ae0-b773-8d018cdd55ec/id-preview-f685a94b--32176ee1-3261-45e5-863f-7dd0af4dae84.lovable.app-1780949859439.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5b82f93e-7e60-4ae0-b773-8d018cdd55ec/id-preview-f685a94b--32176ee1-3261-45e5-863f-7dd0af4dae84.lovable.app-1780949859439.png" },
+      { property: "og:image", content: "https://www.doutiva.com.br/origem/assets/logo.png" },
+      { name: "twitter:image", content: "https://www.doutiva.com.br/origem/assets/logo.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

@@ -9,7 +9,7 @@ export const Route = createFileRoute("/api/cron/whatsapp-daily")({
   server: {
     handlers: {
       GET: async ({ request }) => {
-        const secret = process.env["CRON_SECRET"] || process.env["LOVABLE_CRON_SECRET"];
+        const secret = process.env["CRON_SECRET"];
         const auth = request.headers.get("authorization") || "";
         if (!secret || auth !== `Bearer ${secret}`) {
           return new Response("Unauthorized", { status: 401 });

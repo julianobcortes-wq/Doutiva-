@@ -6,8 +6,8 @@ import tsConfigPaths from "vite-tsconfig-paths";
 import { nitro } from "nitro/vite";
 
 /**
- * First-party Vite config for Doutiva (no @lovable.dev/vite-tanstack-config).
- * Preserves TanStack Start + React + Tailwind + Nitro deploy plugin.
+ * First-party Vite config for Doutiva.
+ * TanStack Start + React + Tailwind + Nitro deploy plugin.
  */
 export default defineConfig(async ({ command, mode }) => {
   const env = loadEnv(mode, process.cwd(), "VITE_");

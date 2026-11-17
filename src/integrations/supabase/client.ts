@@ -91,8 +91,7 @@ function createSupabaseFetch(supabaseUrl: string, supabaseKey: string): typeof f
 }
 
 function authStorage() {
-  // Production / local: persist in localStorage so refresh tokens survive reloads.
-  // Lovable preview iframe still uses the brokered storage when applicable.
+  // Persist in localStorage so refresh tokens survive reloads.
   if (typeof window === "undefined") return undefined;
   return brokeredPreviewStorage() ?? window.localStorage;
 }

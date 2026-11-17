@@ -3,8 +3,8 @@
  * Safe to ship to the client. Never put the service role here.
  * Used as fallback when Vercel build lacks VITE_SUPABASE_* env vars.
  *
- * Live backend is the Lovable-backed project while the independent Doutiva
- * project (`ynmlbkfdjxzmsndcquap`) remains unreachable (DNS NXDOMAIN).
+ * Active Auth/DB project for Doutiva production + permanent QA accounts.
+ * (Previous independent ref ynmlbkfdjxzmsndcquap is DNS-dead.)
  */
 export const PUBLIC_SUPABASE_URL = "https://nflhfjyyaefhxeesvrge.supabase.co";
 export const PUBLIC_SUPABASE_PUBLISHABLE_KEY =

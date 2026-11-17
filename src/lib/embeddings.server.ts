@@ -10,10 +10,7 @@ export async function embedTexts(texts: string[]): Promise<number[][] | null> {
   }
   if (!texts.length) return null;
   const baseURL = (
-    process.env["AI_GATEWAY_BASE_URL"] ||
-    (process.env["OPENAI_API_KEY"]
-      ? "https://api.openai.com/v1"
-      : "https://ai.gateway.lovable.dev/v1")
+    process.env["AI_GATEWAY_BASE_URL"] || "https://api.openai.com/v1"
   ).replace(/\/$/, "");
   for (let attempt = 1; attempt <= 3; attempt++) {
     const res = await fetch(`${baseURL}/embeddings`, {

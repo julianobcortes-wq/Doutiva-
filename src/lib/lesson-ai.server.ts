@@ -179,7 +179,7 @@ export async function generateLesson(input: {
   const context = `Curso: ${input.courseTitle}\nMódulo: ${input.moduleTitle || "—"}\nTema da aula: ${input.topic}\n\nOrientações do mentor:\n${input.notes || "—"}\n\nMaterial-fonte fornecido (priorize-o e não contradiga):\n${input.sources.slice(0, 160000) || "—"}`;
 
   try {
-    // Etapa 1 — monografia: Claude Opus (se key) > Lovable Claude > GPT-4.1.
+    // Etapa 1 — monografia: Claude Opus (se key) > GPT-4.1.
     const mono = streamText({
       model: useClaude
         ? anthropic!(doutivaClaudeTreatiseModel())

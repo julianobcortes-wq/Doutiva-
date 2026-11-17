@@ -157,17 +157,6 @@ function AuthPage() {
                 ? "Google ou e-mail da conta Doutiva"
                 : "Crie sua conta Doutiva em menos de um minuto"}
             </p>
-            <p className="mt-3 rounded-sm border border-border/70 bg-card/60 px-3 py-2 text-left text-xs leading-relaxed text-muted-foreground">
-              Contas do site antigo (Lovable) não migram. Use Google ou{" "}
-              <button
-                type="button"
-                onClick={() => setMode("signup")}
-                className="text-gold underline-offset-2 hover:underline"
-              >
-                crie um acesso novo
-              </button>
-              .
-            </p>
             {!configured ? (
               <p className="mt-4 rounded-sm border border-gold/30 bg-gold/10 px-3 py-2 text-left text-xs leading-relaxed text-muted-foreground">
                 Autenticação ainda não configurada neste deploy. Cadastre as variáveis Supabase na

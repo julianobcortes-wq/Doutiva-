@@ -1,27 +1,20 @@
 import { createOpenAI, type OpenAIProvider } from "@ai-sdk/openai";
 import { createAnthropic } from "@ai-sdk/anthropic";
 
-const RUN = "X-Lovable-AIG-Run-ID";
-
 /**
  * Central AI provider factory.
- * Prefer OPENAI_API_KEY + api.openai.com; Lovable gateway remains a fallback.
+ * Prefer OPENAI_API_KEY + api.openai.com; override with AI_GATEWAY_BASE_URL when needed.
  */
 function gatewayBaseUrl() {
   if (process.env["AI_GATEWAY_BASE_URL"]) return process.env["AI_GATEWAY_BASE_URL"];
-  if (process.env["OPENAI_API_KEY"]) return "https://api.openai.com/v1";
-  return "https://ai.gateway.lovable.dev/v1";
-}
-
-function isLovableGateway(baseURL: string) {
-  return baseURL.includes("lovable.dev");
+  return "https://api.openai.com/v1";
 }
 
 function isOpenAIDirect(baseURL: string) {
   return baseURL.includes("api.openai.com");
 }
 
-/** True when talking to api.openai.com (no Lovable reasoning extras). */
+/** True when talking to api.openai.com. */
 export function usesOpenAIDirect() {
   return isOpenAIDirect(gatewayBaseUrl());
 }
@@ -29,21 +22,21 @@ export function usesOpenAIDirect() {
 const _base = gatewayBaseUrl();
 export const DEFAULT_CHAT_MODEL =
   process.env["DOUTIVA_CHAT_MODEL"] ||
-  (isOpenAIDirect(_base) ? "gpt-4.1-mini" : "openai/gpt-6-astra");
+  (isOpenAIDirect(_base) ? "gpt-4.1-mini" : "gpt-4.1-mini");
 export const DEFAULT_EMBED_MODEL =
   process.env["DOUTIVA_EMBED_MODEL"] ||
-  (isOpenAIDirect(_base) ? "text-embedding-3-small" : "google/gemini-embedding-2");
+  (isOpenAIDirect(_base) ? "text-embedding-3-small" : "text-embedding-3-small");
 
 /**
  * Language model for chat/tutor/preceptor.
- * Lovable path keeps Responses + reasoning; OpenAI direct uses Chat Completions.
+ * OpenAI direct uses Chat Completions; custom gateways may use Responses.
  */
 export function doutivaChatModel(provider: OpenAIProvider = createGatewayOpenAI()) {
   if (usesOpenAIDirect()) return provider(DEFAULT_CHAT_MODEL);
   return provider.responses(DEFAULT_CHAT_MODEL);
 }
 
-/** Provider options only valid on Lovable / reasoning-capable Responses models. */
+/** Provider options for reasoning-capable Responses models on custom gateways. */
 export function doutivaOpenAIProviderOptions(effort: "low" | "medium" | "high" = "medium") {
   if (usesOpenAIDirect()) return undefined;
   return {
@@ -58,7 +51,7 @@ export function doutivaOpenAIProviderOptions(effort: "low" | "medium" | "high" =
 }
 
 export function requireAiApiKey() {
-  const key = process.env["OPENAI_API_KEY"] || process.env["ANTHROPIC_API_KEY"] || process.env["LOVABLE_API_KEY"];
+  const key = process.env["OPENAI_API_KEY"] || process.env["ANTHROPIC_API_KEY"];
   if (!key) throw Object.assign(new Error("IA não configurada"), { status: 500 });
   return key;
 }
@@ -66,20 +59,12 @@ export function requireAiApiKey() {
 export function createGatewayOpenAI() {
   const apiKey = requireAiApiKey();
   const baseURL = gatewayBaseUrl();
-  const lovable = isLovableGateway(baseURL);
-  let runId: string | undefined;
 
   return createOpenAI({
     baseURL,
     apiKey,
-    headers: lovable
-      ? { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" }
-      : undefined,
     fetch: async (input, init) => {
-      const h = new Headers(init?.headers);
-      if (lovable && runId) h.set(RUN, runId);
-      const res = await fetch(input, { ...init, headers: h });
-      if (lovable) runId ??= res.headers.get(RUN) ?? undefined;
+      const res = await fetch(input, init);
       if (!res.ok) {
         const text = await res.clone().text().catch(() => "");
         throw Object.assign(new Error(text || `Erro ${res.status}`), { status: res.status });
@@ -97,26 +82,20 @@ export function hasAnthropicDirect() {
 /**
  * Anthropic client.
  * Prefer ANTHROPIC_API_KEY → api.anthropic.com.
- * Lovable gateway only when no Anthropic key and gateway is Lovable.
  */
 export function createGatewayAnthropic() {
   const anthropicKey = process.env["ANTHROPIC_API_KEY"];
   if (anthropicKey) {
     return createAnthropic({
       apiKey: anthropicKey,
-      // Default Anthropic API host — do NOT route through OpenAI base URL.
     });
   }
 
   const apiKey = requireAiApiKey();
   const baseURL = gatewayBaseUrl();
-  const lovable = isLovableGateway(baseURL);
   return createAnthropic({
     baseURL,
     apiKey,
-    headers: lovable
-      ? { "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "vercel-ai-sdk" }
-      : undefined,
   });
 }
 
