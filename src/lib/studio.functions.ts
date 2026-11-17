@@ -3,20 +3,22 @@ import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
 import type { Json } from "@/integrations/supabase/types";
 import { resolveRich, toCase } from "@/content/lesson-normalize";
+import { resolveIsAdmin } from "@/lib/faculty-access";
 
-type Ctx = { supabase: any; userId: string };
+type Ctx = { supabase: any; userId: string; claims?: { email?: string | null } };
 
-async function assertAdmin({ supabase, userId }: Ctx) {
-  const { data } = await supabase.rpc("has_role", { _user_id: userId, _role: "admin" });
-  if (!data) throw new Error("Acesso restrito ao corpo docente Doutiva.");
+async function assertAdmin(context: Ctx) {
+  if (!(await resolveIsAdmin(context))) {
+    throw new Error("Acesso restrito ao corpo docente Doutiva.");
+  }
 }
 
 export const studioMe = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }) => {
-    const { data: isAdmin } = await context.supabase.rpc("has_role", { _user_id: context.userId, _role: "admin" });
+    const isAdmin = await resolveIsAdmin(context);
     const { data: adminExists } = await context.supabase.rpc("admin_exists");
-    return { isAdmin: !!isAdmin, adminExists: !!adminExists };
+    return { isAdmin, adminExists: !!adminExists || isAdmin };
   });
 
 export const studioClaimAdmin = createServerFn({ method: "POST" })

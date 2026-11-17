@@ -1,11 +1,13 @@
 import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
+import { resolveIsAdmin } from "@/lib/faculty-access";
 
-type Ctx = { supabase: any; userId: string };
-async function assertAdmin({ supabase, userId }: Ctx) {
-  const { data } = await supabase.rpc("has_role", { _user_id: userId, _role: "admin" });
-  if (!data) throw new Error("Acesso restrito ao corpo docente Doutiva.");
+type Ctx = { supabase: any; userId: string; claims?: { email?: string | null } };
+async function assertAdmin(context: Ctx) {
+  if (!(await resolveIsAdmin(context))) {
+    throw new Error("Acesso restrito ao corpo docente Doutiva.");
+  }
 }
 
 export type SourceHit = {

@@ -9,12 +9,10 @@ import {
   registerTopicDemand,
 } from "@/lib/brain/studio-gap.server";
 
-async function assertAdmin(context: { supabase: any; userId: string }) {
-  const { data } = await context.supabase.rpc("has_role", {
-    _user_id: context.userId,
-    _role: "admin",
-  });
-  if (!data) throw new Error("Apenas admin");
+import { resolveIsAdmin } from "@/lib/faculty-access";
+
+async function assertAdmin(context: { supabase: any; userId: string; claims?: { email?: string | null } }) {
+  if (!(await resolveIsAdmin(context))) throw new Error("Apenas admin");
 }
 
 export const brainRetrieve = createServerFn({ method: "POST" })

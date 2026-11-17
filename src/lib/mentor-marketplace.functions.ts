@@ -3,12 +3,10 @@ import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
 import { matchMentor } from "@/lib/brain/matchmaker.server";
 
-async function assertAdmin(context: { supabase: any; userId: string }) {
-  const { data } = await context.supabase.rpc("has_role", {
-    _user_id: context.userId,
-    _role: "admin",
-  });
-  if (!data) throw new Error("Apenas admin");
+import { resolveIsAdmin } from "@/lib/faculty-access";
+
+async function assertAdmin(context: { supabase: any; userId: string; claims?: { email?: string | null } }) {
+  if (!(await resolveIsAdmin(context))) throw new Error("Apenas admin");
 }
 
 export const listMentorOfferings = createServerFn({ method: "GET" })

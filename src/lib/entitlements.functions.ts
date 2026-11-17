@@ -1,6 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
+import { resolveIsAdmin } from "@/lib/faculty-access";
 
 export type Entitlement = {
   id: string;
@@ -51,10 +52,6 @@ export const getProtocolDocument = createServerFn({ method: "GET" })
     return doc as { slug: string; title: string; body_markdown: string };
   });
 
-async function isAdmin(context: { supabase: any; userId: string }) {
-  const { data } = await context.supabase.rpc("has_role", {
-    _user_id: context.userId,
-    _role: "admin",
-  });
-  return !!data;
+async function isAdmin(context: { supabase: any; userId: string; claims?: { email?: string | null } }) {
+  return resolveIsAdmin(context);
 }

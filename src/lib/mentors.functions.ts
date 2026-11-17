@@ -1,6 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { requireSupabaseAuth } from "@/integrations/supabase/auth-middleware";
 import { z } from "zod";
+import { resolveIsAdmin } from "@/lib/faculty-access";
 
 export const listMentors = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
@@ -113,10 +114,7 @@ export const respondMentorSession = createServerFn({ method: "POST" })
       .maybeSingle();
     if (error || !row) throw new Error("Solicitação não encontrada.");
     const owner = (row as any).mentors?.owner_user_id as string | null;
-    const { data: admin } = await context.supabase.rpc("has_role", {
-      _user_id: context.userId,
-      _role: "admin",
-    });
+    const admin = await resolveIsAdmin(context);
     if (owner !== context.userId && !admin)
       throw new Error("Sem permissão para responder esta mentoria.");
     const { error: uerr } = await context.supabase
