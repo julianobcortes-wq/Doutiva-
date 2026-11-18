@@ -64,8 +64,27 @@ nav .pill a:hover{color:var(--ink);background:rgba(139,235,247,.07)}
 .btn-c:hover{box-shadow:0 0 60px rgba(34,211,238,.5)}
 .btn-g{background:rgba(139,235,247,.06);color:var(--ink);border-color:var(--line);backdrop-filter:blur(12px)}
 .btn-g:hover{background:rgba(139,235,247,.13);border-color:var(--linecy)}
-nav .cta{display:flex;gap:.5rem}
-@media(max-width:1000px){nav .pill{display:none}}
+nav .cta{display:flex;gap:.5rem;align-items:center}
+nav .burger{display:none;width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:rgba(7,10,16,.55);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);color:var(--ink);align-items:center;justify-content:center;flex-direction:column;gap:5px;padding:0}
+nav .burger span{display:block;width:16px;height:1.5px;background:currentColor;transition:transform .25s var(--ease),opacity .2s}
+nav.open .burger span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+nav.open .burger span:nth-child(2){opacity:0}
+nav.open .burger span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.nav-drawer{display:none;position:fixed;inset:calc(var(--nav) + 8px) var(--pad) auto;z-index:49;padding:1rem;border-radius:22px;background:rgba(7,10,16,.92);border:1px solid var(--line);backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%);box-shadow:0 24px 60px rgba(0,0,0,.45);opacity:0;transform:translateY(-8px);pointer-events:none;transition:opacity .25s var(--ease),transform .25s var(--ease)}
+.nav-drawer.on{opacity:1;transform:none;pointer-events:auto}
+.nav-drawer a{display:block;padding:.95rem 1rem;border-radius:14px;font-size:.95rem;font-weight:400;letter-spacing:.04em;color:var(--ink2);border:1px solid transparent}
+.nav-drawer a:hover,.nav-drawer a:focus-visible{color:var(--ink);background:rgba(139,235,247,.07);border-color:var(--line)}
+.nav-scrim{display:none;position:fixed;inset:0;z-index:48;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;transition:opacity .25s var(--ease)}
+.nav-scrim.on{opacity:1;pointer-events:auto}
+@media(max-width:1000px){
+  nav .pill{display:none}
+  nav .burger{display:inline-flex}
+  nav .cta .btn-g{display:none}
+  .nav-drawer,.nav-scrim{display:block}
+}
+@media(max-width:520px){
+  nav .cta .btn{padding:.75rem 1rem;font-size:.72rem;letter-spacing:.1em}
+}
 
 /* ===== hero ===== */
 #hero{position:relative;height:100dvh;min-height:100dvh}
@@ -271,11 +290,28 @@ footer .logo img{height:48px;margin-bottom:1rem}
 <!-- NAV -->
 <nav>
   <a class="logo" href="/"><img src="/origem/assets/logo.png" alt="Doutiva"></a>
-  <div class="pill">
+  <div class="pill" id="navPill">
     <a href="/">Instituto</a><a href="#scrub">Manifesto</a><a href="#origem">A Origem</a><a href="#eco">Ecossistema</a><a href="#stack">Pilares</a><a href="#gal">Experiência</a><a href="#spons">Parceiros</a>
   </div>
-  <div class="cta"><a class="btn btn-g" href="/">Site Doutiva</a><a class="btn btn-c" href="#lead">Lista de fundadores</a></div>
+  <div class="cta">
+    <a class="btn btn-g" href="/">Site Doutiva</a>
+    <a class="btn btn-c" href="#lead">Lista de fundadores</a>
+    <button class="burger" id="navBurger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="navDrawer">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </nav>
+<div class="nav-scrim" id="navScrim" hidden></div>
+<div class="nav-drawer" id="navDrawer" hidden>
+  <a href="/">Instituto</a>
+  <a href="#scrub">Manifesto</a>
+  <a href="#origem">A Origem</a>
+  <a href="#eco">Ecossistema</a>
+  <a href="#stack">Pilares</a>
+  <a href="#gal">Experiência</a>
+  <a href="#spons">Parceiros</a>
+  <a href="#lead">Lista de fundadores</a>
+</div>
 
 <!-- HERO -->
 <section id="hero">
@@ -472,6 +508,26 @@ if(!reduce){
   gsap.ticker.add(t=>lenis.raf(t*1000)); gsap.ticker.lagSmoothing(0);
 }
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttribute('href');if(id.length>1&&document.querySelector(id)){e.preventDefault();if(lenis)lenis.scrollTo(id,{offset:-8});else document.querySelector(id).scrollIntoView({behavior:'smooth'});}}));
+
+/* mobile nav drawer — restores section tabs hidden under 1000px */
+const navEl=document.querySelector('nav');
+const burger=document.getElementById('navBurger');
+const drawer=document.getElementById('navDrawer');
+const scrim=document.getElementById('navScrim');
+function setNavOpen(on){
+  navEl.classList.toggle('open',on);
+  drawer.classList.toggle('on',on);
+  scrim.classList.toggle('on',on);
+  drawer.hidden=!on; scrim.hidden=!on;
+  burger.setAttribute('aria-expanded',on?'true':'false');
+  burger.setAttribute('aria-label',on?'Fechar menu':'Abrir menu');
+  document.documentElement.style.overflow=on?'hidden':'';
+}
+burger.addEventListener('click',()=>setNavOpen(!navEl.classList.contains('open')));
+scrim.addEventListener('click',()=>setNavOpen(false));
+drawer.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setNavOpen(false)));
+window.addEventListener('keydown',e=>{if(e.key==='Escape')setNavOpen(false);});
+
 
 /* ====== preloader → hero ====== */
 function introHero(){
