@@ -15,6 +15,7 @@ import { Route as AuthRouteImport } from './routes/auth'
 import { Route as CursosRouteImport } from './routes/cursos'
 import { Route as EventoRouteImport } from './routes/evento'
 import { Route as EventosRouteImport } from './routes/eventos'
+import { Route as MedicosRouteImport } from './routes/medicos'
 import { Route as MentoresRouteImport } from './routes/mentores'
 import { Route as OfertaRouteImport } from './routes/oferta'
 import { Route as ParceirosRouteImport } from './routes/parceiros'
@@ -102,6 +103,11 @@ const EventoRoute = EventoRouteImport.update({
 const EventosRoute = EventosRouteImport.update({
   id: '/eventos',
   path: '/eventos',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MedicosRoute = MedicosRouteImport.update({
+  id: '/medicos',
+  path: '/medicos',
   getParentRoute: () => rootRouteImport,
 } as any)
 const MentoresRoute = MentoresRouteImport.update({
@@ -424,6 +430,7 @@ export interface FileRoutesByFullPath {
   '/cursos': typeof CursosRoute
   '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
+  '/medicos': typeof MedicosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
   '/parceiros': typeof ParceirosRoute
@@ -490,6 +497,7 @@ export interface FileRoutesByTo {
   '/cursos': typeof CursosRoute
   '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
+  '/medicos': typeof MedicosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
   '/parceiros': typeof ParceirosRoute
@@ -558,6 +566,7 @@ export interface FileRoutesById {
   '/cursos': typeof CursosRoute
   '/evento': typeof EventoRoute
   '/eventos': typeof EventosRoute
+  '/medicos': typeof MedicosRoute
   '/mentores': typeof MentoresRoute
   '/oferta': typeof OfertaRoute
   '/parceiros': typeof ParceirosRoute
@@ -626,6 +635,7 @@ export interface FileRouteTypes {
     | '/cursos'
     | '/evento'
     | '/eventos'
+    | '/medicos'
     | '/mentores'
     | '/oferta'
     | '/parceiros'
@@ -692,6 +702,7 @@ export interface FileRouteTypes {
     | '/cursos'
     | '/evento'
     | '/eventos'
+    | '/medicos'
     | '/mentores'
     | '/oferta'
     | '/parceiros'
@@ -759,6 +770,7 @@ export interface FileRouteTypes {
     | '/cursos'
     | '/evento'
     | '/eventos'
+    | '/medicos'
     | '/mentores'
     | '/oferta'
     | '/parceiros'
@@ -827,6 +839,7 @@ export interface RootRouteChildren {
   CursosRoute: typeof CursosRoute
   EventoRoute: typeof EventoRoute
   EventosRoute: typeof EventosRoute
+  MedicosRoute: typeof MedicosRoute
   MentoresRoute: typeof MentoresRoute
   OfertaRoute: typeof OfertaRoute
   ParceirosRoute: typeof ParceirosRoute
@@ -887,6 +900,13 @@ declare module '@tanstack/react-router' {
       path: '/eventos'
       fullPath: '/eventos'
       preLoaderRoute: typeof EventosRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/medicos': {
+      id: '/medicos'
+      path: '/medicos'
+      fullPath: '/medicos'
+      preLoaderRoute: typeof MedicosRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/mentores': {
@@ -1437,6 +1457,7 @@ const rootRouteChildren: RootRouteChildren = {
   CursosRoute: CursosRoute,
   EventoRoute: EventoRoute,
   EventosRoute: EventosRoute,
+  MedicosRoute: MedicosRoute,
   MentoresRoute: MentoresRoute,
   OfertaRoute: OfertaRoute,
   ParceirosRoute: ParceirosRoute,

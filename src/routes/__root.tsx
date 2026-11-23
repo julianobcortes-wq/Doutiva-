@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 import { type ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
+import { CookieConsent } from "@/components/cookie-consent";
 
 import appCss from "../styles.css?url";
 
@@ -75,14 +76,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Doutiva — Instituto de Medicina e Negócios" },
-      { name: "description", content: "Formação clínica para médicos. Peptídeos grátis; Protocolos Online; imersão e mentoria em breve. Independente de indústria." },
+      {
+        name: "description",
+        content:
+          "Formação clínica para médicos. Peptídeos grátis; Protocolos Online; imersão e mentoria em breve. Independente de indústria.",
+      },
       { name: "author", content: "Doutiva" },
       { property: "og:title", content: "Doutiva — Instituto de Medicina e Negócios" },
-      { property: "og:description", content: "Protocolos clínicos com evidência. Comece grátis na trilha de peptídeos." },
+      {
+        property: "og:description",
+        content: "Protocolos clínicos com evidência. Comece grátis na trilha de peptídeos.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Doutiva — Instituto de Medicina e Negócios" },
-      { name: "twitter:description", content: "Peptídeos grátis. Protocolos Online. Instituto independente de indústria." },
+      {
+        name: "twitter:description",
+        content: "Peptídeos grátis. Protocolos Online. Instituto independente de indústria.",
+      },
       { property: "og:image", content: "https://www.doutiva.com.br/origem/assets/logo.png" },
       { name: "twitter:image", content: "https://www.doutiva.com.br/origem/assets/logo.png" },
     ],
@@ -124,6 +135,7 @@ function RootComponent() {
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
       <Toaster richColors closeButton position="top-center" />
+      <CookieConsent />
     </QueryClientProvider>
   );
 }
