@@ -13,18 +13,32 @@ export const getClinicalTopics = createServerFn({ method: "GET" })
 export const getMyMasteryMap = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }): Promise<MasteryMap> => {
-    return getMastery(context.supabase as never, context.userId);
+    return getMastery(
+      context.supabase as never,
+      context.userId,
+      context.accessToken as string | undefined,
+    );
   });
 
 export const getNextBrainTopics = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }): Promise<MasteryRow[]> => {
-    return nextSessionTopics(context.supabase as never, context.userId, 3);
+    return nextSessionTopics(
+      context.supabase as never,
+      context.userId,
+      3,
+      context.accessToken as string | undefined,
+    );
   });
 
 /** Personal study queue derived from the clinical map — not the full catalog. */
 export const getMyStudyTrail = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }): Promise<StudyTrail> => {
-    return buildStudyTrail(context.supabase as never, context.userId, 8);
+    return buildStudyTrail(
+      context.supabase as never,
+      context.userId,
+      8,
+      context.accessToken as string | undefined,
+    );
   });

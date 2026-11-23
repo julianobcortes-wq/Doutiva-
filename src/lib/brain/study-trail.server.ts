@@ -125,8 +125,9 @@ export async function buildStudyTrail(
   supabase: SupabaseClient<any>,
   userId: string,
   limit = 8,
+  accessToken?: string,
 ): Promise<StudyTrail> {
-  const map = await getMastery(supabase, userId).catch(() => null);
+  const map = await getMastery(supabase, userId, accessToken).catch(() => null);
   const { courses, accessOf } = await loadPublishedCourses(supabase, userId);
 
   if (!map) {
@@ -140,7 +141,7 @@ export async function buildStudyTrail(
   }
 
   const focus = map.ready
-    ? await nextSessionTopics(supabase, userId, Math.max(limit, 6))
+    ? await nextSessionTopics(supabase, userId, Math.max(limit, 6), accessToken)
     : map.mastery.slice(0, Math.min(4, map.mastery.length));
 
   const topicIds = focus.map((f) => f.topic_id);

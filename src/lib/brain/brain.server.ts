@@ -69,21 +69,66 @@ function buildMapFromRows(
   };
 }
 
-async function readMetaMastery(supabase: Client): Promise<MetaMasteryBlob> {
+/**
+ * GoTrue REST helpers — supabase-js updateUser() requires a persisted Auth
+ * session; cartographer only has a Bearer JWT on the request, so we write
+ * user_metadata via PUT /auth/v1/user directly.
+ */
+async function fetchAuthUser(accessToken: string): Promise<Record<string, unknown> | null> {
+  const { getSupabasePublishableKey, getSupabaseServerUrl } = await import(
+    "@/integrations/supabase/env.server"
+  );
+  const res = await fetch(`${getSupabaseServerUrl()}/auth/v1/user`, {
+    headers: {
+      apikey: getSupabasePublishableKey(),
+      Authorization: `Bearer ${accessToken}`,
+    },
+  });
+  if (!res.ok) {
+    console.error("auth user read", res.status, await res.text());
+    return null;
+  }
+  return (await res.json()) as Record<string, unknown>;
+}
+
+async function readMetaMastery(
+  accessToken?: string,
+  supabase?: Client,
+): Promise<MetaMasteryBlob> {
+  if (accessToken) {
+    const user = await fetchAuthUser(accessToken);
+    const meta = (user?.user_metadata ?? user?.raw_user_meta_data) as
+      | Record<string, unknown>
+      | undefined;
+    return parseMetaMastery(meta?.[DOUTIVA_MASTERY_META_KEY]);
+  }
+  if (!supabase) return emptyMetaMastery();
   const { data, error } = await supabase.auth.getUser();
   if (error || !data.user) return emptyMetaMastery();
   return parseMetaMastery(data.user.user_metadata?.[DOUTIVA_MASTERY_META_KEY]);
 }
 
 async function writeMetaMastery(
-  supabase: Client,
+  accessToken: string,
   blob: MetaMasteryBlob,
 ): Promise<boolean> {
-  const { error } = await supabase.auth.updateUser({
-    data: { [DOUTIVA_MASTERY_META_KEY]: blob },
+  const { getSupabasePublishableKey, getSupabaseServerUrl } = await import(
+    "@/integrations/supabase/env.server"
+  );
+  // GoTrue merges `data` into user_metadata — send only our key.
+  const res = await fetch(`${getSupabaseServerUrl()}/auth/v1/user`, {
+    method: "PUT",
+    headers: {
+      apikey: getSupabasePublishableKey(),
+      Authorization: `Bearer ${accessToken}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      data: { [DOUTIVA_MASTERY_META_KEY]: blob },
+    }),
   });
-  if (error) {
-    console.error("doutiva_mastery metadata write", error.message);
+  if (!res.ok) {
+    console.error("doutiva_mastery metadata write", res.status, await res.text());
     return false;
   }
   return true;
@@ -141,6 +186,7 @@ export async function getTopics(supabase: Client): Promise<ClinicalTopic[]> {
 export async function getMastery(
   supabase: Client,
   userId: string,
+  accessToken?: string,
 ): Promise<MasteryMap> {
   const topics = await getTopics(supabase);
 
@@ -162,7 +208,7 @@ export async function getMastery(
     if (!isMissingRelationError(e)) throw e;
   }
 
-  const meta = await readMetaMastery(supabase);
+  const meta = await readMetaMastery(accessToken, supabase);
   const byTopic = new Map<string, Omit<MasteryRow, "topic">>();
   for (const [topicId, row] of Object.entries(meta.rows)) {
     byTopic.set(topicId, {
@@ -185,8 +231,10 @@ export async function updateMastery(input: {
   score: number;
   confidence: number;
   evidence?: Record<string, unknown>;
-  /** User-scoped client — required for Auth metadata fallback. */
+  /** User-scoped client — used to read current metadata when no token. */
   supabase?: Client;
+  /** JWT — required for Auth metadata write without a persisted session. */
+  accessToken?: string;
 }): Promise<MasteryRow | null> {
   const score = Math.max(0, Math.min(100, Math.round(input.score)));
   const confidence = Math.max(0, Math.min(1, input.confidence));
@@ -217,11 +265,14 @@ export async function updateMastery(input: {
   }
 
   // Fallback: Auth user_metadata blob (works without brain tables / service role).
-  if (input.supabase) {
-    const blob = await readMetaMastery(input.supabase);
+  if (input.accessToken) {
+    const blob = await readMetaMastery(input.accessToken, input.supabase);
     const next = blendMetaRow(blob.rows[input.topicId], score, confidence);
     blob.rows[input.topicId] = next;
-    await writeMetaMastery(input.supabase, blob);
+    const ok = await writeMetaMastery(input.accessToken, blob);
+    if (!ok) {
+      console.error("updateMastery metadata write failed");
+    }
     return {
       topic_id: input.topicId,
       score: next.score,
@@ -249,8 +300,9 @@ export async function nextSessionTopics(
   supabase: Client,
   userId: string,
   limit = 3,
+  accessToken?: string,
 ): Promise<MasteryRow[]> {
-  const map = await getMastery(supabase, userId);
+  const map = await getMastery(supabase, userId, accessToken);
   const ranked = [...map.mastery].sort((a, b) => {
     const bandRank = (band: MasteryBand) =>
       band === "red" ? 0 : band === "yellow" ? 1 : 2;
