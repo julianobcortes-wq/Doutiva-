@@ -142,7 +142,7 @@ export async function handleCartographer(request: Request) {
         { status: 503 },
       );
     }
-    const map = await getMastery(supabase as never, u.user.id);
+    const map = await getMastery(supabase as never, u.user.id, token);
     mapSummary = map.mastery
       .map((m) => {
         const t = m.topic;
@@ -239,10 +239,11 @@ Na sua resposta estruturada:
           note: out.assessment.note,
         },
         supabase: supabase as never,
+        accessToken: token,
       });
     }
 
-    const map = await getMastery(supabase as never, u.user.id);
+    const map = await getMastery(supabase as never, u.user.id, token);
     const touched = map.mastery.filter((m) => m.attempts > 0).length;
     const target = Math.min(MAP_INTERVIEW_QUESTIONS, Math.max(1, topics.length));
     const forceComplete = touched >= target;
