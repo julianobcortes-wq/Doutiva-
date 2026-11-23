@@ -1,13 +1,7 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import {
-  Flame,
-  Map as MapIcon,
-  MessageSquareQuote,
-  Route as RouteIcon,
-  ShieldCheck,
-} from "lucide-react";
+import { Flame, Map as MapIcon, Route as RouteIcon, ShieldCheck, Timer } from "lucide-react";
 import { getSupabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
