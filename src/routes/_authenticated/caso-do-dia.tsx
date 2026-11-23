@@ -28,6 +28,7 @@ export const Route = createFileRoute("/_authenticated/caso-do-dia")({
 
 function CasoDoDia() {
   const [today, setToday] = useState<PersonalPublicCase | null>(null);
+  const [loadFailed, setLoadFailed] = useState(false);
   const [grade, setGrade] = useState<CaseGradeResult | null>(null);
   const [grading, setGrading] = useState(false);
   const [reward, setReward] = useState<string | null>(null);
@@ -36,7 +37,19 @@ function CasoDoDia() {
   const submit = useServerFn(answerDailyCase);
 
   useEffect(() => {
-    load().then(setToday).catch(() => setToday(null));
+    let cancelled = false;
+    load()
+      .then((c) => {
+        if (cancelled) return;
+        if (c) setToday(c);
+        else setLoadFailed(true);
+      })
+      .catch(() => {
+        if (!cancelled) setLoadFailed(true);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [load]);
 
   async function answer(option: number) {
@@ -71,7 +84,40 @@ function CasoDoDia() {
     }
   }
 
-  if (!today) return <div className="p-8 text-sm text-muted-foreground">Preparando o plantão…</div>;
+  if (!today && !loadFailed) {
+    return <div className="p-8 text-sm text-muted-foreground">Preparando o plantão…</div>;
+  }
+  if (!today && loadFailed) {
+    return (
+      <div className="mx-auto max-w-lg px-6 py-14">
+        <p className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">Caso do Dia</p>
+        <h1 className="mt-4 font-serif text-3xl tracking-tight">Plantão indisponível agora</h1>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Não foi possível carregar o caso. Tente de novo ou siga pela Minha Trilha.
+        </p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Button
+            className="rounded-sm bg-gold text-primary-foreground hover:bg-gold-soft"
+            onClick={() => {
+              setLoadFailed(false);
+              load()
+                .then((c) => {
+                  if (c) setToday(c);
+                  else setLoadFailed(true);
+                })
+                .catch(() => setLoadFailed(true));
+            }}
+          >
+            Tentar novamente
+          </Button>
+          <Button asChild variant="outline" className="rounded-sm">
+            <Link to="/trilha">Abrir Minha Trilha</Link>
+          </Button>
+        </div>
+      </div>
+    );
+  }
+  if (!today) return null;
   const dateLabel = new Date().toLocaleDateString("pt-BR", {
     weekday: "long",
     day: "numeric",

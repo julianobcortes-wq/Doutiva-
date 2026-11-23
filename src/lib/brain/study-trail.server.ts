@@ -147,21 +147,24 @@ export async function buildStudyTrail(
   const lessonByTopic = new Map<string, { id: string; title: string; course_id: string }>();
 
   if (topicIds.length) {
-    const { data: links } = await supabase
+    const { data: links, error: linkErr } = await supabase
       .from("lesson_topics")
       .select("topic_id, lesson_id, lessons!inner(id, title, course_id, status)")
       .in("topic_id", topicIds)
       .eq("lessons.status", "published")
       .limit(80);
 
-    for (const row of (links as any[] | null) ?? []) {
-      const lesson = row.lessons;
-      if (!lesson?.id || lessonByTopic.has(row.topic_id)) continue;
-      lessonByTopic.set(row.topic_id, {
-        id: lesson.id,
-        title: lesson.title,
-        course_id: lesson.course_id,
-      });
+    // Missing lesson_topics (pre-0027) → specialty/keyword course matching below.
+    if (!linkErr) {
+      for (const row of (links as any[] | null) ?? []) {
+        const lesson = row.lessons;
+        if (!lesson?.id || lessonByTopic.has(row.topic_id)) continue;
+        lessonByTopic.set(row.topic_id, {
+          id: lesson.id,
+          title: lesson.title,
+          course_id: lesson.course_id,
+        });
+      }
     }
   }
 

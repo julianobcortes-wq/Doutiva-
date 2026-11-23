@@ -221,12 +221,12 @@ function MapaPage() {
             <p className="text-sm text-muted-foreground">Lendo sua memória no cérebro…</p>
           ) : mapQuery.isError ? (
             <div className="border border-border/60 px-5 py-8 text-sm text-muted-foreground">
-              <p className="font-medium text-foreground">Mapa ainda não disponível no banco.</p>
-              <p className="mt-2">
-                Aplique a migration{" "}
-                <code className="text-xs">0026_brain_mastery_by_topic.sql</code> no Supabase e
-                recarregue.
-              </p>
+              <p className="font-medium text-foreground">Não foi possível carregar seu mapa.</p>
+              <p className="mt-2">Atualize a página. Se o erro continuar, comece a entrevista abaixo.</p>
+              <Button className="mt-4 gap-2" onClick={startInterview} disabled={turn.isPending}>
+                <Sparkles className="h-4 w-4" />
+                Iniciar mapa · {MAP_INTERVIEW_QUESTIONS} perguntas
+              </Button>
             </div>
           ) : (
             <>

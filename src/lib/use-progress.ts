@@ -56,16 +56,18 @@ export function useProgress() {
       dailyGoal = Number(g.daily_goal) || DAILY_GOAL;
       goalMet = !!g.goal_met;
     } else {
-      // Fallback if RPC not yet available: count session beats today.
+      // Fallback if RPC / session_beat_awards not migrated yet.
       const start = `${todaySP()}T00:00:00-03:00`;
-      const { count } = await supabase
+      const { count, error: beatErr } = await supabase
         .from("session_beat_awards")
         .select("lesson_id", { count: "exact", head: true })
         .eq("user_id", u.user.id)
         .eq("beat", "session")
         .gte("created_at", new Date(start).toISOString());
-      sessionsToday = count ?? 0;
-      goalMet = sessionsToday >= dailyGoal;
+      if (!beatErr) {
+        sessionsToday = count ?? 0;
+        goalMet = sessionsToday >= dailyGoal;
+      }
     }
 
     setProgress({

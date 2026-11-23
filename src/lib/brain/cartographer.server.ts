@@ -138,7 +138,7 @@ export async function handleCartographer(request: Request) {
     topics = await getTopics(supabase as never);
     if (!topics.length) {
       return new Response(
-        "Catálogo de temas ainda não migrado. Rode a migration 0026_brain_mastery_by_topic.",
+        "Catálogo clínico indisponível no momento. Tente novamente em instantes.",
         { status: 503 },
       );
     }
@@ -154,7 +154,7 @@ export async function handleCartographer(request: Request) {
   } catch (e) {
     console.error("cartographer catalog", e);
     return new Response(
-      "Memória do cérebro indisponível (tabelas clinical_topics / mastery_by_topic). Aplique a migration 0026.",
+      "Não foi possível carregar seu mapa agora. Atualize a página e tente de novo.",
       { status: 503 },
     );
   }
@@ -238,6 +238,7 @@ Na sua resposta estruturada:
           label: out.assessment.confidence_label,
           note: out.assessment.note,
         },
+        supabase: supabase as never,
       });
     }
 
