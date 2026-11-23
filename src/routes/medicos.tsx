@@ -28,7 +28,7 @@ export const Route = createFileRoute("/medicos")({
       {
         name: "description",
         content:
-          "A IA identifica suas lacunas e monta uma trilha só sua, com casos clínicos diários e professores de IA 24h. Comece grátis, exclusivo para médicos com CRM.",
+          "A IA identifica suas lacunas e monta uma trilha só sua, com um caso clínico por dia. Comece grátis, exclusivo para médicos com CRM.",
       },
       { property: "og:title", content: "A escola do médico do futuro — Doutiva" },
       {
@@ -62,9 +62,9 @@ const HIGHLIGHTS = [
     text: "Um desafio curto por dia, escolhido para o seu momento.",
   },
   {
-    icon: MessageSquareQuote,
-    title: "Professores de IA 24h",
-    text: "Tire dúvidas a qualquer hora, com resposta que cita as fontes da aula.",
+    icon: Timer,
+    title: "Sessões curtas",
+    text: "Lâminas, pontos-chave e um caso para decidir, para estudar entre um atendimento e outro.",
   },
 ];
 
