@@ -1,7 +1,13 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import { BookOpenCheck, MessageSquareQuote, Repeat2, ShieldCheck } from "lucide-react";
+import {
+  Flame,
+  Map as MapIcon,
+  MessageSquareQuote,
+  Route as RouteIcon,
+  ShieldCheck,
+} from "lucide-react";
 import { getSupabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,13 +24,13 @@ import { captureUtm, getUtm, trackMeta } from "@/lib/tracking";
 export const Route = createFileRoute("/medicos")({
   head: () => ({
     meta: [
-      { title: "Trilha gratuita para médicos — Doutiva" },
+      { title: "A escola do médico do futuro — Doutiva" },
       {
         name: "description",
         content:
-          "Peptídeos na Medicina de Precisão: trilha gratuita de 15 aulas, exclusiva para médicos com CRM. Sessões guiadas, monografias com fontes e casos clínicos.",
+          "A IA identifica suas lacunas e monta uma trilha só sua, com casos clínicos diários e professores de IA 24h. Comece grátis, exclusivo para médicos com CRM.",
       },
-      { property: "og:title", content: "Trilha gratuita para médicos — Doutiva" },
+      { property: "og:title", content: "A escola do médico do futuro — Doutiva" },
       {
         property: "og:description",
         content:
@@ -36,25 +42,29 @@ export const Route = createFileRoute("/medicos")({
   component: MedicosPage,
 });
 
-const FREE_TRACK_SLUG = "peptideos-medicina-de-precisao";
 const UFS =
   "AC AL AP AM BA CE DF ES GO MA MT MS MG PA PB PR PE PI RJ RN RS RO RR SC SP SE TO".split(" ");
 
 const HIGHLIGHTS = [
   {
-    icon: BookOpenCheck,
-    title: "Sessões guiadas",
-    text: "Cada aula vem em lâminas curtas, pontos-chave e um caso clínico para decidir.",
+    icon: MapIcon,
+    title: "Mapa das suas lacunas",
+    text: "Um diagnóstico com casos clínicos mostra o que você já domina e o que falta.",
+  },
+  {
+    icon: RouteIcon,
+    title: "Uma trilha só sua",
+    text: "A IA monta o caminho de estudo a partir das suas lacunas, sem estudar o que você já sabe.",
+  },
+  {
+    icon: Flame,
+    title: "Caso clínico todo dia",
+    text: "Um desafio curto por dia, escolhido para o seu momento.",
   },
   {
     icon: MessageSquareQuote,
-    title: "Tutor que cita a fonte",
-    text: "Dúvidas respondidas com referência à biblioteca de evidências da aula.",
-  },
-  {
-    icon: Repeat2,
-    title: "Revisão espaçada",
-    text: "A plataforma traz de volta o que você ainda não fixou.",
+    title: "Professores de IA 24h",
+    text: "Tire dúvidas a qualquer hora, com resposta que cita as fontes da aula.",
   },
 ];
 
@@ -101,7 +111,7 @@ function MedicosPage() {
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/academy/${FREE_TRACK_SLUG}`,
+          emailRedirectTo: `${window.location.origin}/mapa`,
           data: {
             full_name: name,
             crm: crmCheck.digits,
@@ -122,8 +132,8 @@ function MedicosPage() {
       trackMeta("CompleteRegistration");
 
       if (data.session) {
-        toast.success("Conta criada. Sua trilha já está liberada.");
-        await navigate({ to: "/academy/$slug", params: { slug: FREE_TRACK_SLUG } });
+        toast.success("Conta criada. Vamos mapear suas lacunas.");
+        await navigate({ to: "/mapa" });
         return;
       }
       setPendingEmail(email);
@@ -146,12 +156,7 @@ function MedicosPage() {
     <div className="min-h-screen bg-background">
       <header className="border-b border-border/60">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-          <span className="flex items-center gap-3">
-            <span className="grid h-8 w-8 place-items-center rounded-sm border border-gold/40 font-serif text-lg text-gold">
-              D
-            </span>
-            <span className="font-serif text-lg tracking-[0.3em]">DOUTIVA</span>
-          </span>
+          <img src="/brand/logo-doutiva.png" alt="Doutiva" className="h-10 w-auto" />
           <Link to="/auth" className="text-sm text-muted-foreground hover:text-foreground">
             Já tenho conta
           </Link>
@@ -164,18 +169,21 @@ function MedicosPage() {
             <ShieldCheck className="h-3.5 w-3.5" /> Exclusivo para médicos com CRM
           </span>
           <h1 className="mt-6 font-serif text-4xl leading-tight tracking-tight md:text-5xl">
-            Peptídeos na Medicina de Precisão
+            A escola do médico do futuro
           </h1>
-          <p className="mt-3 font-serif text-2xl text-gold">Trilha gratuita · 15 aulas</p>
+          <p className="mt-3 font-serif text-2xl text-gold">
+            Uma trilha única, montada a partir das suas lacunas
+          </p>
           <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-            Fundamentos, evidências e casos clínicos em sessões curtas, para estudar entre um
-            atendimento e outro. Conteúdo educacional da Doutiva, sem cartão de crédito.
+            A inteligência artificial identifica o que você ainda não domina e direciona sua
+            formação com casos clínicos, aulas e protocolos. Comece grátis pela trilha Peptídeos na
+            Medicina de Precisão, sem cartão de crédito.
           </p>
           <a
             href="#cadastro"
             className="mt-6 inline-flex h-10 items-center rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground md:hidden"
           >
-            Liberar trilha gratuita
+            Começar grátis
           </a>
 
           <ul className="mt-10 grid gap-6">
@@ -205,13 +213,13 @@ function MedicosPage() {
               <h2 className="font-serif text-2xl">Confirme seu e-mail</h2>
               <p className="text-sm text-muted-foreground">
                 Enviamos um link para <span className="text-foreground">{pendingEmail}</span>. Abra
-                o e-mail e a trilha gratuita abre em seguida.
+                o e-mail e o mapa das suas lacunas abre em seguida.
               </p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4" noValidate>
               <div>
-                <h2 className="font-serif text-2xl">Liberar minha trilha</h2>
+                <h2 className="font-serif text-2xl">Criar minha conta grátis</h2>
                 <p className="mt-1 text-sm text-muted-foreground">Leva menos de um minuto.</p>
               </div>
               <div className="space-y-2">
@@ -285,7 +293,7 @@ function MedicosPage() {
                 </span>
               </label>
               <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Criando sua conta…" : "Liberar trilha gratuita"}
+                {loading ? "Criando sua conta…" : "Começar grátis"}
               </Button>
             </form>
           )}
