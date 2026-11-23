@@ -152,7 +152,7 @@ function CuradoriaPage() {
         </div>
         {gaps.isError && (
           <p className="mt-4 text-sm text-muted-foreground">
-            Aplique a migration 0027 para habilitar content_gaps.
+            Fila de gaps ainda não disponível neste ambiente.
           </p>
         )}
         <ul className="mt-4 space-y-3">
