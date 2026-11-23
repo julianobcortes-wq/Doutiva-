@@ -7,7 +7,7 @@
  */
 
 /** ID do conjunto de dados (Pixel) da conta Doutiva no Gerenciador de Eventos da Meta. */
-export const META_PIXEL_ID = "";
+export const META_PIXEL_ID = "999653985998183";
 
 const CONSENT_KEY = "doutiva_cookie_consent_v1";
 const UTM_KEY = "doutiva_utm_v1";
