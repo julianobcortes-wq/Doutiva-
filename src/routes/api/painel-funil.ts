@@ -62,7 +62,19 @@ export const Route = createFileRoute("/api/painel-funil")({
           return Response.json({ error: "chave invalida" }, { status: 401, headers: semCache });
         }
 
-        const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+        // Usa o banco de produção (o mesmo do login), ignorando um SUPABASE_URL antigo que ainda exista no Vercel.
+        const { createClient } = await import("@supabase/supabase-js");
+        const { getSupabaseServerUrl } = await import("@/integrations/supabase/env.server");
+        const urlBanco = getSupabaseServerUrl();
+        const chaveServico = process.env["SUPABASE_SERVICE_ROLE_KEY"] ?? "";
+        const tipoChave = chaveServico.startsWith("sb_secret_") ? "sb_secret" : chaveServico.startsWith("eyJ") ? "jwt" : chaveServico ? "outro" : "ausente";
+        const diag = { banco: (() => { try { return new URL(urlBanco).hostname.split(".")[0]; } catch { return null; } })(), chave: tipoChave };
+        if (!chaveServico) {
+          return Response.json({ error: "falha ao ler cadastros", ...diag }, { status: 502, headers: semCache });
+        }
+        const supabaseAdmin = createClient(urlBanco, chaveServico, {
+          auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
+        });
         // Algumas tabelas do funil (ex.: user_subscriptions) não estão nos tipos gerados.
         type Consulta = PromiseLike<{ data: { user_id: string }[] | null }> & {
           in: (coluna: string, valores: string[]) => Consulta;
@@ -79,7 +91,10 @@ export const Route = createFileRoute("/api/painel-funil")({
         for (let page = 1; page <= 50; page++) {
           const { data, error } = await supabaseAdmin.auth.admin.listUsers({ page, perPage: 1000 });
           if (error) {
-            return Response.json({ error: "falha ao ler cadastros" }, { status: 502, headers: semCache });
+            return Response.json(
+              { error: "falha ao ler cadastros", detalhe: String(error.message).slice(0, 160), status: (error as { status?: number }).status ?? null, ...diag },
+              { status: 502, headers: semCache },
+            );
           }
           for (const u of data.users) {
             if (equipe.has(u.id)) continue;
