@@ -13,15 +13,6 @@ export type Progress = {
 const EVT = "doutiva:progress";
 const DAILY_GOAL = 1;
 
-function todaySP() {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "America/Sao_Paulo",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date());
-}
-
 /** Progresso real do médico (XP, Créditos, Sequência, meta diária) lido do banco. */
 export function useProgress() {
   const [progress, setProgress] = useState<Progress | null>(null);
@@ -56,18 +47,10 @@ export function useProgress() {
       dailyGoal = Number(g.daily_goal) || DAILY_GOAL;
       goalMet = !!g.goal_met;
     } else {
-      // Fallback if RPC / session_beat_awards not migrated yet.
-      const start = `${todaySP()}T00:00:00-03:00`;
-      const { count, error: beatErr } = await supabase
-        .from("session_beat_awards")
-        .select("lesson_id", { count: "exact", head: true })
-        .eq("user_id", u.user.id)
-        .eq("beat", "session")
-        .gte("created_at", new Date(start).toISOString());
-      if (!beatErr) {
-        sessionsToday = count ?? 0;
-        goalMet = sessionsToday >= dailyGoal;
-      }
+      // Soft gap: get_daily_session_goal / session_beat_awards may be absent
+      // until migrations 0025+ are applied — do not query missing relations.
+      sessionsToday = 0;
+      goalMet = false;
     }
 
     setProgress({
