@@ -27,11 +27,45 @@ export type DailySessionGoal = {
   last_active_date: string | null;
 };
 
+function isMissingRpc(error: unknown): boolean {
+  const e = error as { code?: string; message?: string } | null;
+  if (!e) return false;
+  if (e.code === "PGRST202" || e.code === "PGRST205" || e.code === "42883") return true;
+  return /Could not find the (function|table)|does not exist|session_beat_awards|get_daily_session_goal|award_session_beat/i.test(
+    String(e.message ?? ""),
+  );
+}
+
+async function progressFallback(
+  supabase: { from: (t: string) => any },
+  userId: string,
+): Promise<DailySessionGoal> {
+  const { data } = await supabase
+    .from("user_progress")
+    .select("xp, credits, streak, last_active_date")
+    .eq("user_id", userId)
+    .maybeSingle();
+  return {
+    sessions_today: 0,
+    daily_goal: 1,
+    goal_met: false,
+    streak: Number(data?.streak) || 0,
+    xp: Number(data?.xp) || 0,
+    credits: Number(data?.credits) || 0,
+    last_active_date: (data?.last_active_date as string | null) ?? null,
+  };
+}
+
 export const getDailySessionGoal = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }): Promise<DailySessionGoal> => {
     const { data, error } = await context.supabase.rpc("get_daily_session_goal");
-    if (error) throw error;
+    if (error) {
+      if (isMissingRpc(error)) {
+        return progressFallback(context.supabase as never, context.userId);
+      }
+      throw error;
+    }
     const r = (data ?? {}) as Partial<DailySessionGoal>;
     return {
       sessions_today: Number(r.sessions_today) || 0,
@@ -61,7 +95,24 @@ export const awardSessionBeat = createServerFn({ method: "POST" })
       _beat: data.beat,
       _correct: data.correct ?? null,
     });
-    if (error) throw error;
+    if (error) {
+      if (isMissingRpc(error)) {
+        const fallback = await progressFallback(context.supabase as never, context.userId);
+        return {
+          awarded: false,
+          beat: data.beat,
+          xp: 0,
+          xp_total: fallback.xp,
+          credits: fallback.credits,
+          streak: fallback.streak,
+          sessions_today: fallback.sessions_today,
+          daily_goal: fallback.daily_goal,
+          goal_met: fallback.goal_met,
+          review_due_days: null,
+        };
+      }
+      throw error;
+    }
     const r = (result ?? {}) as Partial<BeatAwardResult>;
     return {
       awarded: !!r.awarded,
