@@ -133,15 +133,6 @@
     <div class="legend"><span><i style="background:var(--primary)"></i>Meta</span><span><i style="background:var(--green)"></i>Google</span></div>
   </div>
 
-  <h2>Google: o que as pessoas buscaram</h2>
-  <p class="h2-sub">Buscas que mostraram o anúncio, ordenadas por cliques.</p>
-  <div class="card scroll">
-    <table>
-      <thead><tr><th>Busca</th><th>Impressões</th><th>Cliques</th><th>Custo</th></tr></thead>
-      <tbody id="palavras"></tbody>
-    </table>
-  </div>
-
   <footer>
     <span>Fontes: Gerenciador de Anúncios da Meta e Google Ads da Doutiva.</span>
     <span>Página de acompanhamento interno.</span>
@@ -270,19 +261,6 @@
       return col;
     }));
 
-    const tbody = document.getElementById('palavras');
-    const pal = (g.palavras || []).slice().sort((x, y) => (y.cliques - x.cliques) || (y.impressoes - x.impressoes));
-    if (!pal.length) {
-      const tr = document.createElement('tr'); const td = document.createElement('td');
-      td.colSpan = 4; td.className = 'empty'; td.textContent = 'Ainda sem buscas suficientes para listar.';
-      tr.append(td); tbody.replaceChildren(tr);
-    } else {
-      tbody.replaceChildren(...pal.map((p) => {
-        const tr = document.createElement('tr');
-        [p.termo, int(p.impressoes), int(p.cliques), brl(p.custo)].forEach((v) => { const td = document.createElement('td'); td.textContent = v; tr.append(td); });
-        return tr;
-      }));
-    }
   }
 })();
 </script>
