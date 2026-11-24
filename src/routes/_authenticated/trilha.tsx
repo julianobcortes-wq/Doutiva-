@@ -139,6 +139,9 @@ function TrailRow({ step, last }: { step: StudyTrailStep; last: boolean }) {
         <span className="mt-1 block font-serif text-xl leading-snug">
           {step.course?.title ?? step.topic.title}
         </span>
+        {step.lesson && (
+          <span className="mt-1 block text-sm text-muted-foreground">{step.lesson.title}</span>
+        )}
         {!step.course && (
           <span className="mt-1 block text-xs text-muted-foreground">
             Tema no mapa — ainda sem curso ligado.

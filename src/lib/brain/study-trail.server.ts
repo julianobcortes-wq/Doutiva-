@@ -23,19 +23,61 @@ type CourseRow = {
   category: string | null;
 };
 
+type LessonRow = {
+  id: string;
+  title: string;
+  course_id: string;
+  module_title: string | null;
+  status: string | null;
+};
+
 /** Soft map from clinical specialty/slug → course slug preferences. */
 const SPECIALTY_COURSE_HINTS: Record<string, string[]> = {
   incretinas: [
     "tirzepatida-incretinas-consultorio",
     "obesidade-precisao-consultorio",
+    "peptideos-medicina-de-precisao",
     "fertilidade-trt-incretinas",
     "cardiometabolico-prescritor-criterio",
   ],
-  "eixo-gh": ["peptideos-medicina-de-precisao", "hormonios-implantes-criterio"],
-  reparo: ["peptideos-medicina-de-precisao", "soroterapia-injetaveis-estereis"],
-  regulacao: ["etica-publicidade-prontuario", "manipulados-injetaveis-criterio"],
-  performance: ["sarcopenia-composicao-performance", "dexa-composicao-operacional"],
-  pratica: ["ia-pratica-medica", "precificacao-margem-consultorio"],
+  "eixo-gh": [
+    "hormonios-implantes-criterio",
+    "peptideos-medicina-de-precisao",
+    "longevidade-medicina-evidencia",
+  ],
+  reparo: [
+    "peptideos-medicina-de-precisao",
+    "soroterapia-injetaveis-estereis",
+    "manipulados-injetaveis-criterio",
+  ],
+  regulacao: [
+    "etica-publicidade-prontuario",
+    "manipulados-injetaveis-criterio",
+    "peptideos-medicina-de-precisao",
+  ],
+  performance: [
+    "sarcopenia-composicao-performance",
+    "dexa-composicao-operacional",
+    "peptideos-medicina-de-precisao",
+  ],
+  pratica: [
+    "ia-pratica-medica",
+    "precificacao-margem-consultorio",
+    "tirzepatida-incretinas-consultorio",
+    "gestao-clinica-uma-pagina",
+  ],
+};
+
+/** Keyword bags to match lessons inside a course to a map topic. */
+const TOPIC_LESSON_KEYWORDS: Record<string, RegExp> = {
+  "incretinas-evidencia": /incretin|semaglut|tirzepat|STEP|SURMOUNT|SELECT|ensaio|GLP|GIP/i,
+  "incretinas-seguranca": /segurança|seguranca|massa magra|efeito|adverso|GI|sarcopen/i,
+  "incretinas-protocolo": /protocolo|consultório|consultorio|titula|indicação|indicacao|fenotip/i,
+  "eixo-gh-secretagogos": /GH|secretagog|tesamorel|CJC|ipamorel|hormônio|hormon/i,
+  "reparo-bpc-tb500": /BPC|TB-500|GHK|reparo|hype|tecid/i,
+  "regulacao-anvisa-cfm": /regula|ANVISA|CFM|WADA|ética|etica|prontuário|prontuario|evidência|evidencia/i,
+  "composicao-corporal": /composi|DEXA|sarcopen|performance|massa|proteína|proteina|treino/i,
+  "demanda-consultorio": /consultório|consultorio|demanda|prática|pratica|negócio|negocio|casos clínicos|proposta|valor|IA /i,
 };
 
 function bandLabel(band: MasteryBand | "untouched"): string {
@@ -60,18 +102,39 @@ function courseMatchScore(course: CourseRow, row: MasteryRow): number {
 
   const hints = SPECIALTY_COURSE_HINTS[specialty] ?? [];
   const hintIdx = hints.indexOf(course.slug);
-  if (hintIdx >= 0) score += 40 - hintIdx * 5;
+  if (hintIdx >= 0) score += 50 - hintIdx * 6;
 
   if (specialty && hay.includes(specialty.slice(0, Math.min(6, specialty.length)))) score += 12;
-  if (slug.includes("incretin") && /incretin|semaglut|tirzepat|glp|obesidade|emagrec/.test(hay)) score += 20;
-  if (slug.includes("gh") && /gh|secretagog|tesamorel|peptid/.test(hay)) score += 16;
-  if (slug.includes("reparo") && /bpc|tb-500|reparo|peptid|soroterapia/.test(hay)) score += 16;
-  if (slug.includes("regula") && /ética|etica|cfm|anvisa|prontuário|prontuario|manipulado/.test(hay)) score += 16;
+  if (slug.includes("incretin") && /incretin|semaglut|tirzepat|glp|obesidade|emagrec|metabol/.test(hay)) {
+    score += 20;
+  }
+  if (slug.includes("gh") && /gh|secretagog|tesamorel|peptid|hormon/.test(hay)) score += 16;
+  if (slug.includes("reparo") && /bpc|tb-500|reparo|peptid|soroterapia|manipulado/.test(hay)) {
+    score += 16;
+  }
+  if (slug.includes("regula") && /ética|etica|cfm|anvisa|prontuário|prontuario|manipulado/.test(hay)) {
+    score += 16;
+  }
   if (slug.includes("composicao") || specialty === "performance") {
     if (/composi|dexa|sarcopen|performance|massa/.test(hay)) score += 16;
   }
-  if (specialty === "pratica" && /prática|pratica|ia |negócio|negocio|precific/.test(hay)) score += 12;
+  if (specialty === "pratica" && /prática|pratica|ia |negócio|negocio|precific|gestão|gestao/.test(hay)) {
+    score += 12;
+  }
+  // Thin-catalog fallback: peptides is a reasonable clinical anchor.
+  if (course.slug === "peptideos-medicina-de-precisao") score += 4;
 
+  return score;
+}
+
+function lessonMatchScore(lesson: LessonRow, row: MasteryRow): number {
+  const slug = row.topic?.slug ?? "";
+  const re = TOPIC_LESSON_KEYWORDS[slug];
+  const hay = `${lesson.title} ${lesson.module_title ?? ""}`;
+  let score = 0;
+  if (re?.test(hay)) score += 30;
+  const specialty = (row.topic?.specialty ?? "").toLowerCase();
+  if (specialty && hay.toLowerCase().includes(specialty.slice(0, 5))) score += 8;
   return score;
 }
 
@@ -120,6 +183,21 @@ async function loadPublishedCourses(
   return { courses, accessOf };
 }
 
+async function loadPublishedLessons(
+  supabase: SupabaseClient<any>,
+  courseIds: string[],
+): Promise<LessonRow[]> {
+  if (!courseIds.length) return [];
+  const { data, error } = await supabase
+    .from("lessons")
+    .select("id, title, course_id, module_title, status")
+    .in("course_id", courseIds)
+    .eq("status", "published")
+    .limit(400);
+  if (error) return [];
+  return (data as LessonRow[] | null) ?? [];
+}
+
 /** Build the physician's ordered study trail from the mastery map. */
 export async function buildStudyTrail(
   supabase: SupabaseClient<any>,
@@ -129,6 +207,16 @@ export async function buildStudyTrail(
 ): Promise<StudyTrail> {
   const map = await getMastery(supabase, userId, accessToken).catch(() => null);
   const { courses, accessOf } = await loadPublishedCourses(supabase, userId);
+  const lessons = await loadPublishedLessons(
+    supabase,
+    courses.map((c) => c.id),
+  );
+  const lessonsByCourse = new Map<string, LessonRow[]>();
+  for (const l of lessons) {
+    const arr = lessonsByCourse.get(l.course_id) ?? [];
+    arr.push(l);
+    lessonsByCourse.set(l.course_id, arr);
+  }
 
   if (!map) {
     return {
@@ -169,7 +257,9 @@ export async function buildStudyTrail(
     }
   }
 
-  const usedCourses = new Set<string>();
+  // Prefer unique lessons; courses may repeat when the catalog is thin.
+  const usedLessons = new Set<string>();
+  const usedCourseOnce = new Set<string>();
   const steps: StudyTrailStep[] = [];
 
   for (const row of focus) {
@@ -181,23 +271,44 @@ export async function buildStudyTrail(
     let course: StudyTrailCourse | null = null;
     let lesson: { id: string; title: string } | null = null;
 
-    if (linked) {
+    if (linked && !usedLessons.has(linked.id)) {
       const match = courses.find((c) => c.id === linked.course_id);
-      if (match && !usedCourses.has(match.slug)) {
+      if (match) {
         course = accessOf(match.slug);
         lesson = { id: linked.id, title: linked.title };
-        usedCourses.add(match.slug);
+        usedLessons.add(linked.id);
+        usedCourseOnce.add(match.slug);
       }
     }
 
     if (!course) {
       const ranked = [...courses]
-        .map((c) => ({ c, score: courseMatchScore(c, row) }))
-        .filter((x) => x.score > 0 && !usedCourses.has(x.c.slug))
+        .map((c) => {
+          // Prefer unused courses slightly, but still allow reuse.
+          const base = courseMatchScore(c, row);
+          const reusePenalty = usedCourseOnce.has(c.slug) ? 8 : 0;
+          return { c, score: base - reusePenalty };
+        })
+        .filter((x) => x.score > 0)
         .sort((a, b) => b.score - a.score);
-      if (ranked[0]) {
-        course = accessOf(ranked[0].c.slug);
-        usedCourses.add(ranked[0].c.slug);
+
+      for (const pick of ranked) {
+        const pool = lessonsByCourse.get(pick.c.id) ?? [];
+        const rankedLessons = pool
+          .filter((l) => !usedLessons.has(l.id))
+          .map((l) => ({ l, score: lessonMatchScore(l, row) }))
+          .sort((a, b) => b.score - a.score);
+        const bestLesson = rankedLessons[0]?.score
+          ? rankedLessons[0].l
+          : pool.find((l) => !usedLessons.has(l.id)) ?? null;
+
+        course = accessOf(pick.c.slug);
+        if (bestLesson) {
+          lesson = { id: bestLesson.id, title: bestLesson.title };
+          usedLessons.add(bestLesson.id);
+        }
+        usedCourseOnce.add(pick.c.slug);
+        break;
       }
     }
 
