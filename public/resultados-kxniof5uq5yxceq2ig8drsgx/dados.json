@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-24T12:24:00-03:00",
+  "atualizado_em": "2026-11-24T13:06:00-03:00",
   "periodo": {
     "inicio": "2026-11-24",
     "fim": "2026-11-28"
@@ -60,5 +60,38 @@
         "gasto": 0
       }
     ]
+  },
+  "funil": {
+    "meta": {
+      "visitas": 0,
+      "cadastros": 0,
+      "mapa": 0,
+      "aula": 0,
+      "caso": 0,
+      "assinou": 0
+    },
+    "google": {
+      "visitas": 0,
+      "cadastros": 0,
+      "mapa": 0,
+      "aula": 0,
+      "caso": 0,
+      "assinou": 0
+    },
+    "outros": {
+      "visitas": 4,
+      "cadastros": 0,
+      "mapa": 0,
+      "aula": 0,
+      "caso": 0,
+      "assinou": 0
+    }
+  },
+  "base_total": {
+    "cadastros": 8,
+    "mapa": 3,
+    "aula": 2,
+    "caso": 2,
+    "assinou": 1
   }
 }
