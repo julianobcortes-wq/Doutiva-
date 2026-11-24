@@ -10,6 +10,7 @@ import {
 import { type ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { CookieConsent } from "@/components/cookie-consent";
+import { VisitTracker } from "@/components/visit-tracker";
 
 import appCss from "../styles.css?url";
 
@@ -136,6 +137,7 @@ function RootComponent() {
       <Outlet />
       <Toaster richColors closeButton position="top-center" />
       <CookieConsent />
+      <VisitTracker />
     </QueryClientProvider>
   );
 }

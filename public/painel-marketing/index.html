@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Painel de marketing · Doutiva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: oklch(0.13 0.012 260);
+    --card: oklch(0.165 0.014 255);
+    --card-2: oklch(0.19 0.016 250);
+    --fg: oklch(0.96 0.006 210);
+    --muted: oklch(0.66 0.02 230);
+    --line: oklch(0.82 0.03 220 / 12%);
+    --primary: oklch(0.82 0.13 205);
+    --primary-soft: oklch(0.82 0.13 205 / 16%);
+    --meta: oklch(0.70 0.15 260);
+    --google: oklch(0.80 0.14 80);
+    --organico: oklch(0.77 0.15 165);
+    --outros: oklch(0.66 0.02 230);
+    --green: oklch(0.77 0.15 165);
+    --red: oklch(0.70 0.17 25);
+    --radius: 16px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); }
+  body { font-family: "Manrope", system-ui, sans-serif; font-size: 15px; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 24px 20px 64px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .brand { display: flex; align-items: baseline; gap: 12px; }
+  .brand b { font-family: "Syne", sans-serif; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+  .brand span { color: var(--muted); font-size: 14px; }
+  .updated { color: var(--muted); font-size: 13px; }
+
+  .filters { position: sticky; top: 0; z-index: 5; background: color-mix(in oklch, var(--bg) 92%, transparent); backdrop-filter: blur(8px); margin: 16px -20px 0; padding: 12px 20px; border-bottom: 1px solid var(--line); display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .seg { display: inline-flex; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 3px; flex-wrap: wrap; }
+  .seg button { border: 0; background: transparent; color: var(--muted); font: inherit; font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+  .seg button[aria-pressed="true"] { background: var(--primary-soft); color: var(--primary); }
+  .seg button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--primary); outline-offset: 1px; }
+  select, input[type="date"] { background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 999px; font: inherit; font-size: 13px; font-weight: 600; padding: 7px 12px; color-scheme: dark; }
+  .custom { display: none; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+  .custom.on { display: inline-flex; }
+  .range-label { color: var(--muted); font-size: 13px; margin-left: auto; }
+
+  .notice { margin-top: 16px; padding: 12px 16px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  .notice b { color: var(--fg); }
+  .notice.err { border-color: oklch(0.70 0.17 25 / 40%); }
+
+  h2 { font-family: "Syne", sans-serif; font-weight: 600; font-size: 19px; margin: 36px 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 14px; font-size: 14px; }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 20px; }
+  .kpi { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; min-width: 0; }
+  .kpi .l { color: var(--muted); font-size: 13px; }
+  .kpi .v { font-family: "Syne", sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .kpi .d { font-size: 12px; font-weight: 600; margin-top: 2px; color: var(--muted); }
+  .kpi .d.up { color: var(--green); }
+  .kpi .d.down { color: var(--red); }
+
+  .grid2 { display: grid; grid-template-columns: 1.6fr 1fr; gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; min-width: 0; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+  .card-head h3 { margin: 0; font-size: 15px; font-weight: 700; }
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+  svg.chart { width: 100%; height: 260px; display: block; }
+  svg.chart text { fill: var(--muted); font-size: 11px; font-family: "Manrope", sans-serif; }
+  .tip { position: fixed; pointer-events: none; background: var(--card-2); border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 12px; z-index: 20; display: none; box-shadow: 0 8px 24px oklch(0 0 0 / 40%); }
+  .tip b { display: block; margin-bottom: 2px; }
+
+  .funnel { display: grid; gap: 10px; }
+  .fstep { display: grid; grid-template-columns: 120px 1fr 120px; gap: 10px; align-items: center; font-size: 14px; }
+  .fbar { height: 26px; background: var(--card-2); border-radius: 8px; overflow: hidden; }
+  .fbar span { display: block; height: 100%; background: var(--primary); border-radius: 8px; min-width: 2px; }
+  .fnum { text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+  .fnum small { display: block; color: var(--muted); font-weight: 500; font-size: 11px; }
+
+  .tbl-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  th, td { padding: 10px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; cursor: pointer; user-select: none; }
+  th[aria-sort="descending"]::after { content: " ↓"; }
+  th[aria-sort="ascending"]::after { content: " ↑"; }
+  tr.total td { font-weight: 700; border-bottom: 0; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; }
+  .ad { display: flex; align-items: center; gap: 10px; }
+  .ad img { width: 40px; height: 40px; border-radius: 8px; object-fit: cover; background: var(--card-2); }
+  .ad a { color: var(--fg); }
+  .ad small { display: block; color: var(--muted); }
+  .st { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; background: var(--card-2); color: var(--muted); }
+  .st.on { background: oklch(0.77 0.15 165 / 14%); color: var(--green); }
+  .empty { color: var(--muted); font-size: 14px; padding: 10px 0; }
+  .grid3 { display: grid; grid-template-columns: 1.3fr 1.3fr 1fr; gap: 12px; }
+  .btn { background: transparent; color: var(--primary); border: 1px solid var(--line); border-radius: 999px; font: inherit; font-size: 12px; font-weight: 600; padding: 5px 12px; cursor: pointer; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 12px; }
+
+  #gate { max-width: 520px; margin: 18vh auto; text-align: center; color: var(--muted); }
+  #gate b { color: var(--fg); font-family: "Syne", sans-serif; font-size: 22px; display: block; margin-bottom: 8px; }
+
+  @media (max-width: 980px) {
+    .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid2, .grid3 { grid-template-columns: 1fr; }
+    .range-label { margin-left: 0; width: 100%; }
+  }
+  @media (max-width: 520px) {
+    .filters { position: static; }
+    .kpi .v { font-size: 23px; }
+    .fstep { grid-template-columns: 92px 1fr 96px; font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<div id="gate" hidden><b>Link sem acesso</b>Este painel só abre pelo link completo enviado pela Doutiva. Peça o link a quem compartilhou com você.</div>
+
+<div class="wrap" id="app" hidden>
+  <header class="top">
+    <div class="brand"><b>Doutiva</b><span>Painel de marketing</span></div>
+    <div class="updated" id="updated">Carregando…</div>
+  </header>
+
+  <div class="filters" role="toolbar" aria-label="Filtros">
+    <div class="seg" id="periodo" aria-label="Período">
+      <button data-p="7d">7 dias</button>
+      <button data-p="14d">14 dias</button>
+      <button data-p="30d">30 dias</button>
+      <button data-p="mes">Este mês</button>
+      <button data-p="mes-1">Mês passado</button>
+      <button data-p="90d">90 dias</button>
+      <button data-p="custom">Personalizado</button>
+    </div>
+    <span class="custom" id="custom">
+      <input type="date" id="dIni" aria-label="Data inicial"> até <input type="date" id="dFim" aria-label="Data final">
+    </span>
+    <select id="canal" aria-label="Canal">
+      <option value="">Todos os canais</option>
+      <option value="meta">Meta (Facebook e Instagram)</option>
+      <option value="google">Google Ads</option>
+      <option value="organico">Orgânico e direto</option>
+      <option value="outros">Outras origens</option>
+    </select>
+    <select id="campanha" aria-label="Campanha"><option value="">Todas as campanhas</option></select>
+    <span class="range-label" id="rangeLabel"></span>
+  </div>
+
+  <div id="notices"></div>
+
+  <section class="kpis" id="kpis" aria-label="Indicadores"></section>
+
+  <h2>Evolução no período</h2>
+  <p class="sub">Escolha o indicador. A linha tracejada mostra o período anterior, de mesma duração.</p>
+  <div class="grid2">
+    <div class="card">
+      <div class="card-head">
+        <div class="seg" id="metrica" aria-label="Indicador do gráfico">
+          <button data-m="gasto">Investimento</button>
+          <button data-m="cliques_link">Cliques</button>
+          <button data-m="sessoes">Visitas</button>
+          <button data-m="cadastros">Cadastros</button>
+        </div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <svg class="chart" id="chart" role="img" aria-label="Gráfico do indicador por dia"></svg>
+    </div>
+    <div class="card">
+      <div class="card-head"><h3>Funil de conversão</h3></div>
+      <div class="funnel" id="funnel"></div>
+      <p class="sub" style="margin:12px 0 0">Cada etapa conta médicos que chegaram até ali, dentre os que se cadastraram no período.</p>
+    </div>
+  </div>
+
+  <h2>Por canal</h2>
+  <p class="sub">De onde vêm as visitas e os cadastros, e quanto custou cada um.</p>
+  <div class="card tbl-wrap"><table id="tCanal"></table></div>
+
+  <h2>Campanhas</h2>
+  <p class="sub">Clique no título de uma coluna para ordenar.</p>
+  <div class="card tbl-wrap"><table id="tCamp"></table></div>
+
+  <h2>Anúncios</h2>
+  <p class="sub">Desempenho de cada peça. Cadastros contados pela etiqueta do anúncio no link.</p>
+  <div class="card">
+    <div class="card-head"><span></span><button class="btn" id="csv">Baixar planilha (CSV)</button></div>
+    <div class="tbl-wrap"><table id="tAds"></table></div>
+  </div>
+
+  <h2>Site</h2>
+  <p class="sub">Visitas contadas pelo próprio site, sem cookies e sem dados pessoais.</p>
+  <div class="grid3">
+    <div class="card tbl-wrap"><div class="card-head"><h3>Páginas mais vistas</h3></div><table id="tPag"></table></div>
+    <div class="card tbl-wrap"><div class="card-head"><h3>Origem das visitas</h3></div><table id="tOrig"></table></div>
+    <div class="card tbl-wrap"><div class="card-head"><h3>Aparelho</h3></div><table id="tDisp"></table></div>
+  </div>
+
+  <footer>Números de anúncios vêm do Meta e do Google Ads. Visitas, cadastros e funil vêm do site e da plataforma, sempre em totais, sem identificar ninguém. Datas no horário de Brasília.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+(() => {
+  "use strict";
+  const HUB = "https://ynmlbkfdjxzmsndcquap.supabase.co";
+  const HUB_KEY = "sb_publishable_UQnXK9w1OsooclrUrqD8Pw_Act2YQvh";
+  const CANAIS = {
+    meta: { nome: "Meta", cor: "var(--meta)" },
+    google: { nome: "Google Ads", cor: "var(--google)" },
+    organico: { nome: "Orgânico e direto", cor: "var(--organico)" },
+    outros: { nome: "Outras origens", cor: "var(--outros)" },
+  };
+  const $ = (id) => document.getElementById(id);
+  const brl = (v) => v == null || !isFinite(v) ? "—" : v.toLocaleString("pt-BR", { style: "currency", currency: "BRL", minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const num = (v) => v == null || !isFinite(v) ? "—" : Math.round(v).toLocaleString("pt-BR");
+  const pct = (v, casas = 1) => v == null || !isFinite(v) ? "—" : (v * 100).toLocaleString("pt-BR", { maximumFractionDigits: casas, minimumFractionDigits: casas }) + "%";
+  const div = (a, b) => b ? a / b : null;
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  // ---------- estado (fica no endereço, para o link abrir na mesma visão) ----------
+  const hash = new URLSearchParams(location.hash.slice(1));
+  const chave = hash.get("k") || "";
+  const st = {
+    p: hash.get("p") || "30d",
+    ini: hash.get("ini") || "",
+    fim: hash.get("fim") || "",
+    canal: hash.get("canal") || "",
+    camp: hash.get("camp") || "",
+    m: hash.get("m") || "gasto",
+    sort: {},
+  };
+  function salvaHash() {
+    const h = new URLSearchParams({ k: chave, p: st.p });
+    if (st.p === "custom") { h.set("ini", st.ini); h.set("fim", st.fim); }
+    if (st.canal) h.set("canal", st.canal);
+    if (st.camp) h.set("camp", st.camp);
+    if (st.m !== "gasto") h.set("m", st.m);
+    history.replaceState(null, "", "#" + h.toString());
+  }
+
+  // ---------- datas (horário de Brasília) ----------
+  const hojeBR = () => new Intl.DateTimeFormat("en-CA", { timeZone: "America/Sao_Paulo" }).format(new Date());
+  const addDias = (d, n) => { const t = new Date(d + "T12:00:00Z"); t.setUTCDate(t.getUTCDate() + n); return t.toISOString().slice(0, 10); };
+  const diffDias = (a, b) => Math.round((new Date(b + "T12:00:00Z") - new Date(a + "T12:00:00Z")) / 864e5);
+  const fmtDia = (d) => d.slice(8, 10) + "/" + d.slice(5, 7);
+  function periodo() {
+    const hoje = hojeBR();
+    let ini, fim = hoje;
+    if (st.p === "7d") ini = addDias(hoje, -6);
+    else if (st.p === "14d") ini = addDias(hoje, -13);
+    else if (st.p === "90d") ini = addDias(hoje, -89);
+    else if (st.p === "mes") ini = hoje.slice(0, 8) + "01";
+    else if (st.p === "mes-1") { fim = addDias(hoje.slice(0, 8) + "01", -1); ini = fim.slice(0, 8) + "01"; }
+    else if (st.p === "custom" && st.ini && st.fim && st.ini <= st.fim) { ini = st.ini; fim = st.fim; }
+    else { st.p = st.p === "custom" ? "30d" : st.p; ini = addDias(hoje, -29); }
+    if (diffDias(ini, fim) > 180) ini = addDias(fim, -180);
+    const n = diffDias(ini, fim) + 1;
+    return { ini, fim, n, pIni: addDias(ini, -n), pFim: addDias(ini, -1) };
+  }
+
+  // ---------- canal de cada visita/cadastro, pela etiqueta (UTM) do link ----------
+  function canalDe(origem, meio, referrer) {
+    const o = (origem || "").toLowerCase();
+    if (["meta", "facebook", "fb", "instagram", "ig"].includes(o)) return "meta";
+    if (o === "google" || o === "googleads" || o === "adwords") return "google";
+    if (!o) return "organico";
+    return "outros";
+  }
+
+  // ---------- busca ----------
+  async function buscaHub(ini, fim) {
+    const r = await fetch(HUB + "/rest/v1/rpc/mkt_painel", {
+      method: "POST",
+      headers: { apikey: HUB_KEY, "Content-Type": "application/json" },
+      body: JSON.stringify({ p_chave: chave, p_inicio: ini, p_fim: fim }),
+    });
+    if (r.status === 401 || r.status === 403 || r.status === 400) {
+      const t = await r.text();
+      if (/chave/.test(t)) throw new Error("chave");
+    }
+    if (!r.ok) throw new Error("hub");
+    return r.json();
+  }
+  async function buscaFunil(ini, fim) {
+    const r = await fetch(`/api/painel-funil?inicio=${ini}&fim=${fim}`, { headers: { "x-painel-chave": chave } });
+    if (!r.ok) throw new Error("funil");
+    return r.json();
+  }
+
+  let dados = null; // { hub, funil, funilErro, faixa }
+  async function carrega() {
+    const per = periodo();
+    $("updated").textContent = "Carregando…";
+    const [hub, funil] = await Promise.allSettled([buscaHub(per.pIni, per.fim), buscaFunil(per.pIni, per.fim)]);
+    if (hub.status === "rejected" && hub.reason && hub.reason.message === "chave") { mostraGate(); return; }
+    dados = {
+      hub: hub.status === "fulfilled" ? hub.value : { campanhas: [], anuncios: [], visitas: [] },
+      hubErro: hub.status === "rejected",
+      funil: funil.status === "fulfilled" ? funil.value : { linhas: [], base_total: null },
+      funilErro: funil.status === "rejected",
+      faixa: per.pIni + "|" + per.fim,
+    };
+    montaCampanhas();
+    render();
+  }
+
+  // ---------- filtros ----------
+  function campanhaPorUtm() {
+    const m = {};
+    for (const c of dados.hub.campanhas) if (c.utm_campanha) m[c.utm_campanha.toLowerCase()] = c.canal + ":" + c.campanha_id;
+    return m;
+  }
+  function montaCampanhas() {
+    const sel = $("campanha");
+    const atual = st.camp;
+    const lista = dados.hub.campanhas
+      .filter((c) => !st.canal || c.canal === st.canal)
+      .map((c) => `<option value="${esc(c.canal + ":" + c.campanha_id)}">${esc(c.nome)} · ${esc(CANAIS[c.canal]?.nome || c.canal)}</option>`);
+    sel.innerHTML = `<option value="">Todas as campanhas</option>` + lista.join("");
+    sel.value = atual;
+    if (sel.value !== atual) { st.camp = ""; sel.value = ""; }
+  }
+  function filtraAds(rows, ini, fim) {
+    return rows.filter((a) => a.dia >= ini && a.dia <= fim
+      && (!st.canal || a.canal === st.canal)
+      && (!st.camp || a.canal + ":" + a.campanha_id === st.camp));
+  }
+  function filtraOrigem(rows, ini, fim, mapa) {
+    return rows.filter((v) => {
+      if (v.dia < ini || v.dia > fim) return false;
+      const canal = canalDe(v.origem, v.meio, v.referrer_host);
+      if (st.canal && canal !== st.canal) return false;
+      if (st.camp && mapa[(v.campanha || "").toLowerCase()] !== st.camp) return false;
+      return true;
+    });
+  }
+
+  // ---------- agregação ----------
+  const soma = (rows, campo) => rows.reduce((s, r) => s + (Number(r[campo]) || 0), 0);
+  function totais(per, ini, fim) {
+    const mapa = campanhaPorUtm();
+    const ads = filtraAds(dados.hub.anuncios, ini, fim);
+    const vis = filtraOrigem(dados.hub.visitas, ini, fim, mapa);
+    const fun = filtraOrigem(dados.funil.linhas, ini, fim, mapa);
+    return {
+      ads, vis, fun,
+      gasto: soma(ads, "gasto"), impressoes: soma(ads, "impressoes"), cliques_link: soma(ads, "cliques_link"),
+      visitas_pagina: soma(ads, "visitas_pagina"),
+      sessoes: soma(vis, "sessoes"), paginas_vistas: soma(vis, "paginas_vistas"),
+      cadastros: soma(fun, "cadastros"), mapa: soma(fun, "mapa"), aula: soma(fun, "aula"), caso: soma(fun, "caso"), assinou: soma(fun, "assinou"),
+    };
+  }
+
+  // ---------- render ----------
+  function render() {
+    const per = periodo();
+    salvaHash();
+    for (const b of $("periodo").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.p === st.p));
+    for (const b of $("metrica").querySelectorAll("button")) b.setAttribute("aria-pressed", String(b.dataset.m === st.m));
+    $("custom").classList.toggle("on", st.p === "custom");
+    $("dIni").value = per.ini; $("dFim").value = per.fim;
+    $("canal").value = st.canal;
+    $("rangeLabel").textContent = `${fmtDia(per.ini)}/${per.ini.slice(0, 4)} a ${fmtDia(per.fim)}/${per.fim.slice(0, 4)} · comparado com ${fmtDia(per.pIni)} a ${fmtDia(per.pFim)}`;
+
+    if (dados.faixa !== per.pIni + "|" + per.fim) { carrega(); return; }
+
+    const cur = totais(per, per.ini, per.fim);
+    const prev = totais(per, per.pIni, per.pFim);
+
+    const at = dados.hub.atualizado_em ? new Date(dados.hub.atualizado_em) : null;
+    $("updated").textContent = at ? "Anúncios atualizados em " + at.toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }) + " · site e funil ao vivo" : "Site e funil ao vivo";
+
+    const avisos = [];
+    if (dados.hubErro) avisos.push(`<div class="notice err"><b>Não consegui ler os números dos anúncios agora.</b> Tente recarregar a página em alguns minutos.</div>`);
+    if (dados.funilErro) avisos.push(`<div class="notice err"><b>Não consegui ler os cadastros agora.</b> O resto do painel está correto; tente recarregar em alguns minutos.</div>`);
+    const primeiraVisita = dados.hub.visitas.reduce((m, v) => (!m || v.dia < m ? v.dia : m), "");
+    if (!dados.hubErro && (!primeiraVisita || primeiraVisita > per.ini)) {
+      avisos.push(`<div class="notice">A contagem de visitas do próprio site ${primeiraVisita ? "começou em <b>" + fmtDia(primeiraVisita) + "</b>" : "começa a partir da publicação deste painel"}. Antes disso, só há as visitas medidas pelo Meta.</div>`);
+    }
+    $("notices").innerHTML = avisos.join("");
+
+    renderKpis(cur, prev);
+    renderChart(per);
+    renderFunil(cur);
+    renderCanais(per);
+    renderCampanhas(per);
+    renderAds(per);
+    renderSite(cur);
+  }
+
+  function delta(a, b, menorMelhor) {
+    if (a == null || b == null || !isFinite(a) || !isFinite(b)) return `<div class="d">sem base de comparação</div>`;
+    if (b === 0) return a === 0 ? `<div class="d">igual ao período anterior</div>` : `<div class="d">sem dados no período anterior</div>`;
+    const d = (a - b) / b;
+    const bom = menorMelhor ? d < 0 : d > 0;
+    const seta = d > 0 ? "▲" : d < 0 ? "▼" : "";
+    return `<div class="d ${d === 0 ? "" : bom ? "up" : "down"}">${seta} ${pct(Math.abs(d), 0)} vs período anterior</div>`;
+  }
+  function renderKpis(c, p) {
+    const visitas = (x) => x.sessoes || x.visitas_pagina;
+    const itens = [
+      ["Investimento", brl(c.gasto), delta(c.gasto, p.gasto)],
+      ["Impressões", num(c.impressoes), delta(c.impressoes, p.impressoes)],
+      ["Cliques no anúncio", num(c.cliques_link), delta(c.cliques_link, p.cliques_link)],
+      ["Custo por clique", brl(div(c.gasto, c.cliques_link)), delta(div(c.gasto, c.cliques_link), div(p.gasto, p.cliques_link), true)],
+      ["Visitas ao site", num(visitas(c)), delta(visitas(c), visitas(p))],
+      ["Cadastros de médicos", num(c.cadastros), delta(c.cadastros, p.cadastros)],
+      ["Custo por cadastro", brl(c.gasto ? div(c.gasto, c.cadastros) : null), delta(div(c.gasto, c.cadastros), div(p.gasto, p.cadastros), true)],
+      ["Assinaturas", num(c.assinou), delta(c.assinou, p.assinou)],
+    ];
+    $("kpis").innerHTML = itens.map(([l, v, d]) => `<div class="kpi"><div class="l">${l}</div><div class="v" title="${esc(v)}">${v}</div>${d}</div>`).join("");
+  }
+
+  function serie(ini, fim, campo) {
+    const mapa = campanhaPorUtm();
+    const n = diffDias(ini, fim) + 1;
+    const out = Array.from({ length: n }, (_, i) => ({ dia: addDias(ini, i), porCanal: {}, total: 0 }));
+    const idx = (d) => diffDias(ini, d);
+    const add = (dia, canal, v) => { const i = idx(dia); if (i < 0 || i >= n || !v) return; out[i].porCanal[canal] = (out[i].porCanal[canal] || 0) + v; out[i].total += v; };
+    if (campo === "gasto" || campo === "cliques_link") for (const a of filtraAds(dados.hub.anuncios, ini, fim)) add(a.dia, a.canal, Number(a[campo]) || 0);
+    else if (campo === "sessoes") for (const v of filtraOrigem(dados.hub.visitas, ini, fim, mapa)) add(v.dia, canalDe(v.origem, v.meio, v.referrer_host), Number(v.sessoes) || 0);
+    else for (const f of filtraOrigem(dados.funil.linhas, ini, fim, mapa)) add(f.dia, canalDe(f.origem, f.meio), Number(f.cadastros) || 0);
+    return out;
+  }
+  function renderChart(per) {
+    const svg = $("chart");
+    const W = svg.clientWidth || 700, H = 260, L = 52, R = 10, T = 12, B = 28;
+    const cur = serie(per.ini, per.fim, st.m);
+    const prev = serie(per.pIni, per.pFim, st.m);
+    const max = Math.max(1, ...cur.map((d) => d.total), ...prev.map((d) => d.total));
+    const passo = (() => { const e = Math.pow(10, Math.floor(Math.log10(max))); const m = max / e; return (m <= 2 ? 0.5 : m <= 5 ? 1 : 2) * e; })();
+    const topo = Math.ceil(max / passo) * passo;
+    const y = (v) => T + (H - T - B) * (1 - v / topo);
+    const bw = (W - L - R) / cur.length;
+    const fmt = st.m === "gasto" ? (v) => "R$ " + v.toLocaleString("pt-BR", { maximumFractionDigits: v < 10 ? 2 : 0 }) : (v) => v.toLocaleString("pt-BR", { maximumFractionDigits: 1 });
+    let g = "";
+    for (let v = 0; v <= topo + 1e-9; v += passo) g += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
+    const ordem = ["meta", "google", "organico", "outros"];
+    cur.forEach((d, i) => {
+      let base = 0;
+      const x = L + i * bw + Math.max(1, bw * 0.15), w = Math.max(2, bw * 0.7);
+      for (const c of ordem) {
+        const v = d.porCanal[c]; if (!v) continue;
+        g += `<rect x="${x}" y="${y(base + v)}" width="${w}" height="${y(base) - y(base + v)}" fill="${CANAIS[c].cor}" rx="2"/>`;
+        base += v;
+      }
+      g += `<rect x="${L + i * bw}" y="${T}" width="${bw}" height="${H - T - B}" fill="transparent" data-i="${i}"/>`;
+    });
+    const pts = prev.map((d, i) => `${L + i * bw + bw / 2},${y(d.total)}`).join(" ");
+    g += `<polyline points="${pts}" fill="none" stroke="var(--fg)" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="4 4"/>`;
+    const cada = Math.ceil(cur.length / Math.max(2, Math.floor((W - L - R) / 56)));
+    cur.forEach((d, i) => { if (i % cada === 0) g += `<text x="${L + i * bw + bw / 2}" y="${H - 8}" text-anchor="middle">${fmtDia(d.dia)}</text>`; });
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    svg.innerHTML = g;
+    const presentes = ordem.filter((c) => cur.some((d) => d.porCanal[c]));
+    $("legend").innerHTML = presentes.map((c) => `<span><i style="background:${CANAIS[c].cor}"></i>${CANAIS[c].nome}</span>`).join("") + `<span><i style="background:transparent;border:1px dashed var(--muted)"></i>Período anterior</span>`;
+    const tip = $("tip");
+    svg.onmousemove = (e) => {
+      const i = e.target.dataset ? e.target.dataset.i : undefined;
+      if (i === undefined) { tip.style.display = "none"; return; }
+      const d = cur[i], p = prev[i];
+      const linhas = ordem.filter((c) => d.porCanal[c]).map((c) => `${CANAIS[c].nome}: ${fmt(d.porCanal[c])}`).join("<br>");
+      tip.innerHTML = `<b>${fmtDia(d.dia)}: ${fmt(d.total)}</b>${linhas}${linhas ? "<br>" : ""}<span style="color:var(--muted)">Anterior (${fmtDia(p.dia)}): ${fmt(p.total)}</span>`;
+      tip.style.display = "block";
+      tip.style.left = Math.min(e.clientX + 14, innerWidth - 220) + "px";
+      tip.style.top = e.clientY + 14 + "px";
+    };
+    svg.onmouseleave = () => { tip.style.display = "none"; };
+  }
+
+  function renderFunil(c) {
+    const visitas = c.sessoes || c.visitas_pagina;
+    const passos = [
+      ["Visitas ao site", visitas],
+      ["Cadastros", c.cadastros],
+      ["Fez o mapa", c.mapa],
+      ["Começou aula", c.aula],
+      ["Fez caso diário", c.caso],
+      ["Assinou", c.assinou],
+    ];
+    const max = Math.max(1, ...passos.map((p) => p[1]));
+    $("funnel").innerHTML = passos.map(([n, v], i) => {
+      const ant = i > 0 ? passos[i - 1][1] : null;
+      const conv = i === 0 ? "" : `<small>${ant ? pct(v / ant, 0) + " da etapa anterior" : "—"}</small>`;
+      return `<div class="fstep"><span>${n}</span><div class="fbar"><span style="width:${(v / max) * 100}%"></span></div><div class="fnum">${num(v)}${conv}</div></div>`;
+    }).join("") + (dados.funil.base_total ? `<p class="sub" style="margin:6px 0 0">Base total da plataforma, desde o início: <b style="color:var(--fg)">${num(dados.funil.base_total.cadastros)}</b> médicos cadastrados, ${num(dados.funil.base_total.mapa)} fizeram o mapa, ${num(dados.funil.base_total.assinou)} assinantes.</p>` : "");
+  }
+
+  // ---------- tabelas ordenáveis ----------
+  function tabela(id, cols, linhas, total, padrao) {
+    const t = $(id);
+    const s = st.sort[id] || padrao || { k: cols[1].k, dir: -1 };
+    const ord = [...linhas].sort((a, b) => {
+      const va = a[s.k], vb = b[s.k];
+      if (typeof va === "string" || typeof vb === "string") return String(va ?? "").localeCompare(String(vb ?? ""), "pt-BR") * s.dir;
+      return ((va ?? -Infinity) - (vb ?? -Infinity)) * s.dir;
+    });
+    const th = cols.map((c) => `<th data-k="${c.k}" ${s.k === c.k ? `aria-sort="${s.dir < 0 ? "descending" : "ascending"}"` : ""}>${c.t}</th>`).join("");
+    const tr = (r, cls = "") => `<tr class="${cls}">` + cols.map((c) => `<td>${c.f ? c.f(r[c.k], r) : esc(r[c.k])}</td>`).join("") + "</tr>";
+    t.innerHTML = `<thead><tr>${th}</tr></thead><tbody>` + (ord.length ? ord.map((r) => tr(r)).join("") + (total ? tr(total, "total") : "") : `<tr><td colspan="${cols.length}" class="empty">Nada neste período com esses filtros.</td></tr>`) + "</tbody>";
+    t.querySelectorAll("th").forEach((h) => h.onclick = () => {
+      const k = h.dataset.k;
+      st.sort[id] = { k, dir: s.k === k ? -s.dir : -1 };
+      tabela(id, cols, linhas, total, padrao);
+    });
+  }
+  function metricas(r) {
+    r.ctr = div(r.cliques_link, r.impressoes);
+    r.cpc = r.gasto ? div(r.gasto, r.cliques_link) : null;
+    r.cpa = r.gasto ? div(r.gasto, r.cadastros) : null;
+    return r;
+  }
+  const colsMidia = [
+    { k: "gasto", t: "Investimento", f: brl },
+    { k: "impressoes", t: "Impressões", f: num },
+    { k: "cliques_link", t: "Cliques", f: num },
+    { k: "ctr", t: "Taxa de clique", f: (v) => pct(v, 2) },
+    { k: "cpc", t: "Custo/clique", f: brl },
+    { k: "visitas", t: "Visitas", f: num },
+    { k: "cadastros", t: "Cadastros", f: num },
+    { k: "cpa", t: "Custo/cadastro", f: brl },
+    { k: "assinou", t: "Assinaturas", f: num },
+  ];
+  const zero = () => ({ gasto: 0, impressoes: 0, cliques_link: 0, visitas: 0, visitas_meta: 0, cadastros: 0, assinou: 0 });
+  function somaLinha(acc, r) { for (const k of Object.keys(zero())) acc[k] += Number(r[k]) || 0; return acc; }
+
+  function renderCanais(per) {
+    const mapa = campanhaPorUtm();
+    const g = {};
+    const pega = (c) => (g[c] ??= { canal: c, ...zero() });
+    for (const a of filtraAds(dados.hub.anuncios, per.ini, per.fim)) { const r = pega(a.canal); r.gasto += +a.gasto || 0; r.impressoes += +a.impressoes || 0; r.cliques_link += +a.cliques_link || 0; r.visitas_meta += +a.visitas_pagina || 0; }
+    for (const v of filtraOrigem(dados.hub.visitas, per.ini, per.fim, mapa)) pega(canalDe(v.origem, v.meio, v.referrer_host)).visitas += +v.sessoes || 0;
+    for (const f of filtraOrigem(dados.funil.linhas, per.ini, per.fim, mapa)) { const r = pega(canalDe(f.origem, f.meio)); r.cadastros += +f.cadastros || 0; r.assinou += +f.assinou || 0; }
+    const linhas = Object.values(g).map((r) => { if (!r.visitas) r.visitas = r.visitas_meta; return metricas(r); });
+    const total = metricas(linhas.reduce(somaLinha, { canal: "Total", ...zero() }));
+    total.nome = "Total";
+    linhas.forEach((r) => r.nome = CANAIS[r.canal]?.nome || r.canal);
+    tabela("tCanal", [{ k: "nome", t: "Canal", f: (v, r) => r.canal && CANAIS[r.canal] ? `<span class="dot" style="background:${CANAIS[r.canal].cor}"></span>${esc(v)}` : esc(v) }, ...colsMidia], linhas, linhas.length > 1 ? total : null, { k: "gasto", dir: -1 });
+  }
+
+  function renderCampanhas(per) {
+    const mapa = campanhaPorUtm();
+    const g = {};
+    for (const c of dados.hub.campanhas) {
+      if (st.canal && c.canal !== st.canal) continue;
+      const key = c.canal + ":" + c.campanha_id;
+      if (st.camp && key !== st.camp) continue;
+      g[key] = { key, nome: c.nome, canal: c.canal, status: c.status, orcamento: c.orcamento_total ?? null, ...zero() };
+    }
+    for (const a of filtraAds(dados.hub.anuncios, per.ini, per.fim)) {
+      const r = g[a.canal + ":" + a.campanha_id]; if (!r) continue;
+      r.gasto += +a.gasto || 0; r.impressoes += +a.impressoes || 0; r.cliques_link += +a.cliques_link || 0; r.visitas_meta += +a.visitas_pagina || 0;
+    }
+    for (const v of filtraOrigem(dados.hub.visitas, per.ini, per.fim, mapa)) { const r = g[mapa[(v.campanha || "").toLowerCase()]]; if (r) r.visitas += +v.sessoes || 0; }
+    for (const f of filtraOrigem(dados.funil.linhas, per.ini, per.fim, mapa)) { const r = g[mapa[(f.campanha || "").toLowerCase()]]; if (r) { r.cadastros += +f.cadastros || 0; r.assinou += +f.assinou || 0; } }
+    const linhas = Object.values(g).filter((r) => r.gasto || r.impressoes || r.visitas || r.cadastros || /ativ|active|qualif/i.test(r.status || "")).map((r) => { if (!r.visitas) r.visitas = r.visitas_meta; return metricas(r); });
+    const ativo = (s) => /ativ|active|qualif|veicul/i.test(s || "");
+    tabela("tCamp", [
+      { k: "nome", t: "Campanha", f: (v, r) => `<span class="dot" style="background:${CANAIS[r.canal]?.cor}"></span>${esc(v)}` },
+      { k: "status", t: "Situação", f: (v) => v ? `<span class="st ${ativo(v) ? "on" : ""}">${esc(v)}</span>` : "—" },
+      { k: "orcamento", t: "Orçamento", f: brl },
+      ...colsMidia,
+    ], linhas, null, { k: "gasto", dir: -1 });
+  }
+
+  let linhasAds = [];
+  function renderAds(per) {
+    const mapa = campanhaPorUtm();
+    const nomeCamp = {};
+    for (const c of dados.hub.campanhas) nomeCamp[c.canal + ":" + c.campanha_id] = c.nome;
+    const g = {};
+    for (const a of filtraAds(dados.hub.anuncios, per.ini, per.fim)) {
+      const key = a.canal + ":" + a.anuncio_id;
+      const r = (g[key] ??= { key, anuncio: a.titulo || a.anuncio, codigo: a.anuncio, canal: a.canal, campanha: nomeCamp[a.canal + ":" + a.campanha_id] || "", camp_key: a.canal + ":" + a.campanha_id, imagem: a.imagem_url, link: a.link_anuncio, utm: (a.utm_conteudo || "").toLowerCase(), ...zero() });
+      r.gasto += +a.gasto || 0; r.impressoes += +a.impressoes || 0; r.cliques_link += +a.cliques_link || 0; r.visitas_meta += +a.visitas_pagina || 0;
+    }
+    const porUtm = {};
+    for (const r of Object.values(g)) if (r.utm) porUtm[r.camp_key + "|" + r.utm] = r;
+    for (const v of filtraOrigem(dados.hub.visitas, per.ini, per.fim, mapa)) { const r = porUtm[mapa[(v.campanha || "").toLowerCase()] + "|" + (v.conteudo || "").toLowerCase()]; if (r) r.visitas += +v.sessoes || 0; }
+    for (const f of filtraOrigem(dados.funil.linhas, per.ini, per.fim, mapa)) { const r = porUtm[mapa[(f.campanha || "").toLowerCase()] + "|" + (f.conteudo || "").toLowerCase()]; if (r) { r.cadastros += +f.cadastros || 0; r.assinou += +f.assinou || 0; } }
+    linhasAds = Object.values(g).map((r) => { if (!r.visitas) r.visitas = r.visitas_meta; return metricas(r); });
+    tabela("tAds", [
+      { k: "anuncio", t: "Anúncio", f: (v, r) => `<div class="ad">${r.imagem ? `<img src="${esc(r.imagem)}" alt="" loading="lazy">` : ""}<div>${r.link ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(v)}</a>` : esc(v)}<small>${esc(CANAIS[r.canal]?.nome || "")} · ${esc(r.campanha)}</small></div></div>` },
+      ...colsMidia,
+    ], linhasAds, null, { k: "gasto", dir: -1 });
+  }
+
+  function renderSite(c) {
+    const pag = {}, orig = {}, disp = {};
+    const mapa = campanhaPorUtm();
+    for (const v of c.vis) {
+      const p = (pag[v.pagina] ??= { pagina: v.pagina, sessoes: 0, vistas: 0 }); p.sessoes += +v.sessoes || 0; p.vistas += +v.paginas_vistas || 0;
+      const canal = canalDe(v.origem, v.meio, v.referrer_host);
+      const nome = canal === "organico" ? (v.referrer_host ? v.referrer_host.replace(/^www\./, "") : "Acesso direto") : canal === "outros" ? v.origem : CANAIS[canal].nome;
+      const o = (orig[canal + nome] ??= { origem: nome, canal, sessoes: 0 }); o.sessoes += +v.sessoes || 0;
+      const d = (disp[v.dispositivo || "?"] ??= { aparelho: v.dispositivo || "não identificado", sessoes: 0 }); d.sessoes += +v.sessoes || 0;
+    }
+    const totalS = Object.values(disp).reduce((s, d) => s + d.sessoes, 0);
+    tabela("tPag", [{ k: "pagina", t: "Página" }, { k: "sessoes", t: "Visitas", f: num }, { k: "vistas", t: "Visualizações", f: num }], Object.values(pag), null, { k: "sessoes", dir: -1 });
+    tabela("tOrig", [{ k: "origem", t: "Origem", f: (v, r) => `<span class="dot" style="background:${CANAIS[r.canal].cor}"></span>${esc(v)}` }, { k: "sessoes", t: "Visitas", f: num }], Object.values(orig), null, { k: "sessoes", dir: -1 });
+    tabela("tDisp", [{ k: "aparelho", t: "Aparelho", f: (v) => esc(v[0].toUpperCase() + v.slice(1)) }, { k: "sessoes", t: "Visitas", f: (v) => `${num(v)} <span style="color:var(--muted)">${totalS ? pct(v / totalS, 0) : ""}</span>` }], Object.values(disp), null, { k: "sessoes", dir: -1 });
+  }
+
+  function baixaCsv() {
+    const per = periodo();
+    const cab = ["anuncio", "canal", "campanha", "investimento", "impressoes", "cliques", "taxa_clique", "custo_clique", "visitas", "cadastros", "custo_cadastro", "assinaturas"];
+    const fmtN = (v) => v == null || !isFinite(v) ? "" : String(Math.round(v * 100) / 100).replace(".", ",");
+    const linhas = linhasAds.map((r) => [r.anuncio, CANAIS[r.canal]?.nome || r.canal, r.campanha, fmtN(r.gasto), r.impressoes, r.cliques_link, fmtN(r.ctr * 100), fmtN(r.cpc), r.visitas, r.cadastros, fmtN(r.cpa), r.assinou]);
+    const csv = [cab, ...linhas].map((l) => l.map((c) => `"${String(c ?? "").replace(/"/g, '""')}"`).join(";")).join("\n");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob(["﻿" + csv], { type: "text/csv;charset=utf-8" }));
+    a.download = `doutiva-anuncios-${per.ini}-a-${per.fim}.csv`;
+    a.click();
+  }
+
+  function mostraGate() { $("app").hidden = true; $("gate").hidden = false; }
+
+  // ---------- eventos ----------
+  $("periodo").onclick = (e) => { const p = e.target.dataset.p; if (!p) return; st.p = p; if (p === "custom") { const per = periodo(); st.ini = st.ini || per.ini; st.fim = st.fim || per.fim; } render(); };
+  $("dIni").onchange = () => { st.p = "custom"; st.ini = $("dIni").value; st.fim = $("dFim").value; render(); };
+  $("dFim").onchange = $("dIni").onchange;
+  $("canal").onchange = () => { st.canal = $("canal").value; montaCampanhas(); render(); };
+  $("campanha").onchange = () => { st.camp = $("campanha").value; render(); };
+  $("metrica").onclick = (e) => { const m = e.target.dataset.m; if (!m) return; st.m = m; render(); };
+  $("csv").onclick = baixaCsv;
+  let rz; addEventListener("resize", () => { clearTimeout(rz); rz = setTimeout(() => dados && renderChart(periodo()), 150); });
+
+  if (!chave) { mostraGate(); return; }
+  $("app").hidden = false;
+  carrega().catch(() => { $("notices").innerHTML = `<div class="notice err"><b>Não consegui carregar o painel.</b> Verifique a internet e recarregue a página.</div>`; });
+})();
+</script>
+</body>
+</html>
