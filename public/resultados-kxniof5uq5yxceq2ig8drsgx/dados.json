@@ -1,0 +1,64 @@
+{
+  "atualizado_em": "2026-11-24T12:24:00-03:00",
+  "periodo": {
+    "inicio": "2026-11-24",
+    "fim": "2026-11-28"
+  },
+  "teto_por_canal": 100,
+  "meta": {
+    "situacao": "no_ar",
+    "anuncios": [
+      {
+        "codigo": "A",
+        "titulo": "A escola do médico do futuro",
+        "imagem": "escola.jpg",
+        "link": "https://www.facebook.com/1537581956094286/posts/122098207773562091",
+        "gasto": 0,
+        "impressoes": 0,
+        "cliques_link": 0,
+        "visitas_pagina": 0,
+        "cadastros": 0
+      },
+      {
+        "codigo": "B",
+        "titulo": "Sua trilha, a partir das suas lacunas",
+        "imagem": "lacunas.jpg",
+        "link": "https://www.facebook.com/1537581956094286/posts/122098207791562091",
+        "gasto": 0,
+        "impressoes": 1,
+        "cliques_link": 0,
+        "visitas_pagina": 0,
+        "cadastros": 0
+      },
+      {
+        "codigo": "C",
+        "titulo": "Estude só o que ainda falta",
+        "imagem": "diario.jpg",
+        "link": "https://www.facebook.com/1537581956094286/posts/122098207815562091",
+        "gasto": 0,
+        "impressoes": 1,
+        "cliques_link": 0,
+        "visitas_pagina": 0,
+        "cadastros": 0
+      }
+    ],
+    "por_dia": [
+      {
+        "dia": "2026-11-24",
+        "gasto": 0
+      }
+    ]
+  },
+  "google": {
+    "situacao": "no_ar",
+    "gasto": 0,
+    "impressoes": 1,
+    "cliques": 0,
+    "por_dia": [
+      {
+        "dia": "2026-11-24",
+        "gasto": 0
+      }
+    ]
+  }
+}
