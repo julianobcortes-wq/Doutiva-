@@ -56,6 +56,7 @@ import { Route as AuthenticatedStoreRouteImport } from './routes/_authenticated/
 import { Route as AuthenticatedTrilhaRouteImport } from './routes/_authenticated/trilha'
 import { Route as AuthenticatedWalletRouteImport } from './routes/_authenticated/wallet'
 import { Route as ApiHealthRouteImport } from './routes/api/health'
+import { Route as ApiPainelFunilRouteImport } from './routes/api/painel-funil'
 import { Route as ApiPreceptorRouteImport } from './routes/api/preceptor'
 import { Route as ApiTutorRouteImport } from './routes/api/tutor'
 import { Route as VerificarCodeRouteImport } from './routes/verificar.$code'
@@ -318,6 +319,11 @@ const ApiHealthRoute = ApiHealthRouteImport.update({
   path: '/api/health',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPainelFunilRoute = ApiPainelFunilRouteImport.update({
+  id: '/api/painel-funil',
+  path: '/api/painel-funil',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiPreceptorRoute = ApiPreceptorRouteImport.update({
   id: '/api/preceptor',
   path: '/api/preceptor',
@@ -471,6 +477,7 @@ export interface FileRoutesByFullPath {
   '/trilha': typeof AuthenticatedTrilhaRoute
   '/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
+  '/api/painel-funil': typeof ApiPainelFunilRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -538,6 +545,7 @@ export interface FileRoutesByTo {
   '/trilha': typeof AuthenticatedTrilhaRoute
   '/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
+  '/api/painel-funil': typeof ApiPainelFunilRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -607,6 +615,7 @@ export interface FileRoutesById {
   '/_authenticated/trilha': typeof AuthenticatedTrilhaRoute
   '/_authenticated/wallet': typeof AuthenticatedWalletRoute
   '/api/health': typeof ApiHealthRoute
+  '/api/painel-funil': typeof ApiPainelFunilRoute
   '/api/preceptor': typeof ApiPreceptorRoute
   '/api/tutor': typeof ApiTutorRoute
   '/verificar/$code': typeof VerificarCodeRoute
@@ -676,6 +685,7 @@ export interface FileRouteTypes {
     | '/trilha'
     | '/wallet'
     | '/api/health'
+    | '/api/painel-funil'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -743,6 +753,7 @@ export interface FileRouteTypes {
     | '/trilha'
     | '/wallet'
     | '/api/health'
+    | '/api/painel-funil'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -811,6 +822,7 @@ export interface FileRouteTypes {
     | '/_authenticated/trilha'
     | '/_authenticated/wallet'
     | '/api/health'
+    | '/api/painel-funil'
     | '/api/preceptor'
     | '/api/tutor'
     | '/verificar/$code'
@@ -849,6 +861,7 @@ export interface RootRouteChildren {
   TermosRoute: typeof TermosRoute
   UniversidadeRoute: typeof UniversidadeRoute
   ApiHealthRoute: typeof ApiHealthRoute
+  ApiPainelFunilRoute: typeof ApiPainelFunilRoute
   ApiPreceptorRoute: typeof ApiPreceptorRoute
   ApiTutorRoute: typeof ApiTutorRoute
   VerificarCodeRoute: typeof VerificarCodeRoute
@@ -1189,6 +1202,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApiHealthRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/painel-funil': {
+      id: '/api/painel-funil'
+      path: '/api/painel-funil'
+      fullPath: '/api/painel-funil'
+      preLoaderRoute: typeof ApiPainelFunilRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/preceptor': {
       id: '/api/preceptor'
       path: '/api/preceptor'
@@ -1467,6 +1487,7 @@ const rootRouteChildren: RootRouteChildren = {
   TermosRoute: TermosRoute,
   UniversidadeRoute: UniversidadeRoute,
   ApiHealthRoute: ApiHealthRoute,
+  ApiPainelFunilRoute: ApiPainelFunilRoute,
   ApiPreceptorRoute: ApiPreceptorRoute,
   ApiTutorRoute: ApiTutorRoute,
   VerificarCodeRoute: VerificarCodeRoute,
