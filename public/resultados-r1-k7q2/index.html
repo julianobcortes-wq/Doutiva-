@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Doutiva · Campanhas da rodada 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: oklch(0.13 0.012 260);
+    --card: oklch(0.165 0.014 255);
+    --card-2: oklch(0.19 0.016 250);
+    --fg: oklch(0.96 0.006 210);
+    --muted: oklch(0.66 0.02 230);
+    --line: oklch(0.82 0.03 220 / 12%);
+    --primary: oklch(0.82 0.13 205);
+    --green: oklch(0.77 0.15 165);
+    --amber: oklch(0.82 0.14 80);
+    --red: oklch(0.68 0.19 25);
+    --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); }
+  body { font-family: "Manrope", system-ui, sans-serif; font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .logo { height: 30px; width: auto; display: block; }
+  .tag { font-size: 13px; color: var(--muted); border: 1px solid var(--line); padding: 6px 12px; border-radius: 999px; }
+  .tag b { color: var(--fg); font-weight: 600; }
+  h1 { font-family: "Syne", sans-serif; font-weight: 600; font-size: clamp(30px, 5vw, 46px); line-height: 1.05; letter-spacing: -0.02em; margin: 40px 0 12px; }
+  h1 span { color: var(--primary); }
+  .lead { font-size: clamp(17px, 2.2vw, 20px); color: var(--fg); max-width: 60ch; margin: 0; }
+  .lead-sub { color: var(--muted); margin: 10px 0 0; max-width: 70ch; }
+  h2 { font-family: "Syne", sans-serif; font-weight: 600; font-size: 22px; margin: 48px 0 6px; letter-spacing: -0.01em; }
+  .h2-sub { color: var(--muted); margin: 0 0 18px; font-size: 15px; }
+  .grid { display: grid; gap: 16px; }
+  .g2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .g3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; }
+  .channel-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .channel-name { font-family: "Syne", sans-serif; font-size: 18px; font-weight: 600; }
+  .pill { font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: oklch(0.77 0.15 165 / 14%); color: var(--green); white-space: nowrap; }
+  .pill.off { background: oklch(0.66 0.02 230 / 16%); color: var(--muted); }
+  .spend { margin: 18px 0 8px; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .spend-num { font-family: "Syne", sans-serif; font-size: 40px; font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .spend-of { color: var(--muted); }
+  .bar { height: 8px; background: var(--card-2); border-radius: 99px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: var(--primary); border-radius: 99px; transition: width .8s ease; }
+  .bar > i.warn { background: var(--amber); } .bar > i.over { background: var(--red); }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 20px; }
+  .stat-label { font-size: 12px; color: var(--muted); }
+  .stat-val { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .ad { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+  .ad.lead-ad { border-color: oklch(0.82 0.13 205 / 55%); box-shadow: 0 0 0 1px oklch(0.82 0.13 205 / 25%); }
+  .ad img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; background: var(--card-2); }
+  .ad-body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 12px; flex: 1; }
+  .ad-top { display: flex; align-items: center; gap: 10px; }
+  .ad-code { width: 30px; height: 30px; border-radius: 9px; background: var(--card-2); display: grid; place-items: center; font-family: "Syne", sans-serif; font-weight: 700; color: var(--primary); flex: none; }
+  .ad-title { font-weight: 600; line-height: 1.3; }
+  .ad .stats { margin-top: 0; }
+  .ad-link { margin-top: auto; font-size: 14px; color: var(--primary); text-decoration: none; font-weight: 600; }
+  .ad-link:hover { text-decoration: underline; }
+  .badge-lead { font-size: 11px; font-weight: 700; color: var(--bg); background: var(--primary); border-radius: 6px; padding: 2px 7px; margin-left: auto; }
+  .note { color: var(--muted); font-size: 14px; margin: 14px 0 0; max-width: 80ch; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { padding: 12px 10px; border-bottom: 1px solid var(--line); text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .scroll { overflow-x: auto; }
+  .empty { color: var(--muted); padding: 8px 0; }
+  .chart { display: flex; align-items: flex-end; gap: 10px; height: 160px; padding-top: 24px; position: relative; }
+  .chart .col { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; gap: 6px; }
+  .chart .bars { display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center; }
+  .chart .b { width: 40%; max-width: 26px; border-radius: 6px 6px 2px 2px; min-height: 2px; }
+  .chart .b.m { background: var(--primary); } .chart .b.g { background: var(--green); }
+  .chart .lbl { font-size: 12px; color: var(--muted); }
+  .chart .pace { position: absolute; left: 0; right: 0; border-top: 1px dashed oklch(0.82 0.03 220 / 35%); }
+  .legend { display: flex; gap: 16px; font-size: 13px; color: var(--muted); margin-top: 14px; flex-wrap: wrap; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .err { color: var(--red); }
+  @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } .spend-num { font-size: 34px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="logo" src="/brand/logo-doutiva.png" alt="Doutiva">
+    <span class="tag">Atualizado em <b id="atualizado">—</b></span>
+  </header>
+
+  <h1>Campanhas da <span>rodada 1</span></h1>
+  <p class="lead" id="resumo">Carregando os números…</p>
+  <p class="lead-sub">Teste com médicos de todo o Brasil, de <span id="periodo">—</span>. Teto de <span id="teto">—</span> por canal. Os anúncios levam à página de cadastro <a href="https://www.doutiva.com.br/medicos" style="color:var(--primary)">doutiva.com.br/medicos</a>.</p>
+
+  <h2>Gasto por canal</h2>
+  <p class="h2-sub">Quanto já foi usado do teto de cada canal.</p>
+  <div class="grid g2">
+    <div class="card" id="card-meta">
+      <div class="channel-head"><span class="channel-name">Meta · Facebook e Instagram</span><span class="pill" data-status="meta">—</span></div>
+      <div class="spend"><span class="spend-num" data-k="meta.gasto">—</span><span class="spend-of">de <span data-k="teto">—</span></span></div>
+      <div class="bar"><i data-bar="meta"></i></div>
+      <div class="stats">
+        <div><div class="stat-label">Impressões</div><div class="stat-val" data-k="meta.impressoes">—</div></div>
+        <div><div class="stat-label">Visitas à página</div><div class="stat-val" data-k="meta.visitas_pagina">—</div></div>
+        <div><div class="stat-label">Cadastros</div><div class="stat-val" data-k="meta.cadastros">—</div></div>
+      </div>
+    </div>
+    <div class="card" id="card-google">
+      <div class="channel-head"><span class="channel-name">Google · Pesquisa</span><span class="pill" data-status="google">—</span></div>
+      <div class="spend"><span class="spend-num" data-k="google.gasto">—</span><span class="spend-of">de <span data-k="teto">—</span></span></div>
+      <div class="bar"><i data-bar="google"></i></div>
+      <div class="stats">
+        <div><div class="stat-label">Impressões</div><div class="stat-val" data-k="google.impressoes">—</div></div>
+        <div><div class="stat-label">Cliques</div><div class="stat-val" data-k="google.cliques">—</div></div>
+        <div><div class="stat-label">Custo por clique</div><div class="stat-val" data-k="google.cpc">—</div></div>
+      </div>
+    </div>
+  </div>
+
+  <h2>Teste A/B da Meta: qual mensagem traz mais médicos</h2>
+  <p class="h2-sub">Três anúncios com o mesmo público e o mesmo orçamento. Vence quem trouxer mais visitas à página pelo menor custo.</p>
+  <div class="grid g3" id="anuncios"></div>
+  <p class="note">Com poucos cliques, a diferença entre as mensagens ainda pode ser acaso. A vencedora é escolhida no fim da rodada.</p>
+
+  <h2>Gasto por dia</h2>
+  <p class="h2-sub">Em reais. A linha tracejada é o ritmo de <span id="ritmo">—</span> por dia, que usa o teto em 5 dias.</p>
+  <div class="card">
+    <div class="chart" id="chart"></div>
+    <div class="legend"><span><i style="background:var(--primary)"></i>Meta</span><span><i style="background:var(--green)"></i>Google</span></div>
+  </div>
+
+  <h2>Google: o que as pessoas buscaram</h2>
+  <p class="h2-sub">Buscas que mostraram o anúncio, ordenadas por cliques.</p>
+  <div class="card scroll">
+    <table>
+      <thead><tr><th>Busca</th><th>Impressões</th><th>Cliques</th><th>Custo</th></tr></thead>
+      <tbody id="palavras"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <span>Fontes: Gerenciador de Anúncios da Meta e Google Ads da Doutiva.</span>
+    <span>Página de acompanhamento interno.</span>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const brl = (v) => (Number(v) || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+  const int = (v) => Math.round(Number(v) || 0).toLocaleString('pt-BR');
+  const dm = (iso) => iso.slice(8, 10) + '/' + iso.slice(5, 7);
+  const set = (sel, text) => document.querySelectorAll(sel).forEach((el) => { el.textContent = text; });
+  const STATUS = { no_ar: 'No ar', pausada: 'Pausada', encerrada: 'Encerrada', analise: 'Em análise' };
+
+  fetch('dados.json', { cache: 'no-store' })
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(() => {
+      const el = document.getElementById('resumo');
+      el.textContent = 'Não foi possível carregar os números agora. Tente de novo em alguns minutos.';
+      el.classList.add('err');
+    });
+
+  function render(d) {
+    const teto = Number(d.teto_por_canal) || 100;
+    const ads = d.meta.anuncios || [];
+    const sum = (k) => ads.reduce((t, a) => t + (Number(a[k]) || 0), 0);
+    const meta = { gasto: sum('gasto'), impressoes: sum('impressoes'), cliques_link: sum('cliques_link'), visitas_pagina: sum('visitas_pagina'), cadastros: sum('cadastros') };
+    const g = d.google || {};
+    const gCpc = g.cliques ? g.gasto / g.cliques : null;
+
+    const quando = new Date(d.atualizado_em);
+    set('#atualizado', quando.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' }));
+    set('#periodo', dm(d.periodo.inicio) + ' a ' + dm(d.periodo.fim));
+    set('#teto', brl(teto));
+    set('[data-k="teto"]', brl(teto));
+    set('#ritmo', brl(teto / 5));
+    set('[data-k="meta.gasto"]', brl(meta.gasto));
+    set('[data-k="meta.impressoes"]', int(meta.impressoes));
+    set('[data-k="meta.visitas_pagina"]', int(meta.visitas_pagina));
+    set('[data-k="meta.cadastros"]', int(meta.cadastros));
+    set('[data-k="google.gasto"]', brl(g.gasto));
+    set('[data-k="google.impressoes"]', int(g.impressoes));
+    set('[data-k="google.cliques"]', int(g.cliques));
+    set('[data-k="google.cpc"]', gCpc == null ? '—' : brl(gCpc));
+
+    [['meta', d.meta.situacao, meta.gasto], ['google', g.situacao, g.gasto]].forEach(([k, st, gasto]) => {
+      document.querySelectorAll('[data-status="' + k + '"]').forEach((el) => {
+        el.textContent = STATUS[st] || '—';
+        el.classList.toggle('off', st !== 'no_ar');
+      });
+      document.querySelectorAll('[data-bar="' + k + '"]').forEach((el) => {
+        const pct = Math.min(100, (gasto / teto) * 100);
+        el.classList.toggle('warn', gasto >= teto * 0.9 && gasto <= teto);
+        el.classList.toggle('over', gasto > teto);
+        requestAnimationFrame(() => { el.style.width = pct + '%'; });
+      });
+    });
+
+    // Líder do teste: mais visitas; no empate, menor custo por visita.
+    const comVisita = ads.filter((a) => a.visitas_pagina > 0)
+      .sort((x, y) => (y.visitas_pagina - x.visitas_pagina) || ((x.gasto / x.visitas_pagina) - (y.gasto / y.visitas_pagina)));
+    const lider = comVisita[0] || null;
+
+    const resumo = document.getElementById('resumo');
+    const totalImp = meta.impressoes + (Number(g.impressoes) || 0);
+    if (meta.gasto + (Number(g.gasto) || 0) === 0) {
+      resumo.textContent = 'As duas campanhas estão no ar e começando a ser entregues: ' + int(totalImp) + ' ' + (totalImp === 1 ? 'impressão' : 'impressões') + ' até agora, ainda sem gasto.';
+    } else {
+      let t = 'Já foram usados ' + brl(meta.gasto) + ' na Meta e ' + brl(g.gasto) + ' no Google, com ' + int(meta.visitas_pagina) + ' visitas vindas da Meta e ' + int(g.cliques) + ' cliques vindos do Google.';
+      if (lider) t += ' A mensagem ' + lider.codigo + ' lidera o teste.';
+      resumo.textContent = t;
+    }
+
+    const box = document.getElementById('anuncios');
+    box.replaceChildren(...ads.map((a) => {
+      const card = document.createElement('article');
+      card.className = 'card ad' + (lider && lider.codigo === a.codigo ? ' lead-ad' : '');
+      const img = document.createElement('img');
+      img.src = a.imagem; img.alt = 'Anúncio ' + a.codigo + ': ' + a.titulo; img.loading = 'lazy';
+      const body = document.createElement('div'); body.className = 'ad-body';
+      const top = document.createElement('div'); top.className = 'ad-top';
+      const code = document.createElement('span'); code.className = 'ad-code'; code.textContent = a.codigo;
+      const title = document.createElement('span'); title.className = 'ad-title'; title.textContent = a.titulo;
+      top.append(code, title);
+      if (lider && lider.codigo === a.codigo) { const b = document.createElement('span'); b.className = 'badge-lead'; b.textContent = 'Lidera'; top.append(b); }
+      const stats = document.createElement('div'); stats.className = 'stats';
+      const custoVisita = a.visitas_pagina ? brl(a.gasto / a.visitas_pagina) : '—';
+      [['Gasto', brl(a.gasto)], ['Impressões', int(a.impressoes)], ['Cliques', int(a.cliques_link)],
+       ['Visitas', int(a.visitas_pagina)], ['Custo/visita', custoVisita], ['Cadastros', int(a.cadastros)]]
+        .forEach(([l, v]) => {
+          const s = document.createElement('div');
+          const lb = document.createElement('div'); lb.className = 'stat-label'; lb.textContent = l;
+          const vl = document.createElement('div'); vl.className = 'stat-val'; vl.textContent = v;
+          s.append(lb, vl); stats.append(s);
+        });
+      body.append(top, stats);
+      if (/^https:\/\//.test(a.link || '')) {
+        const link = document.createElement('a'); link.className = 'ad-link'; link.href = a.link; link.target = '_blank'; link.rel = 'noopener';
+        link.textContent = 'Ver o anúncio no Facebook →';
+        body.append(link);
+      }
+      card.append(img, body);
+      return card;
+    }));
+
+    // Gasto por dia, 24 a 28/11.
+    const dias = [];
+    for (let i = 0; i < 5; i++) { const x = new Date(Date.UTC(2026, 10, 24 + i)); dias.push(x.toISOString().slice(0, 10)); }
+    const md = Object.fromEntries((d.meta.por_dia || []).map((r) => [r.dia, Number(r.gasto) || 0]));
+    const gd = Object.fromEntries((g.por_dia || []).map((r) => [r.dia, Number(r.gasto) || 0]));
+    const ritmo = teto / 5;
+    const max = Math.max(ritmo * 1.25, ...dias.map((x) => Math.max(md[x] || 0, gd[x] || 0)));
+    const chart = document.getElementById('chart');
+    const pace = document.createElement('div'); pace.className = 'pace'; pace.style.bottom = 'calc(' + (ritmo / max * 100) + '% * (160 - 24 - 24) / 160 + 24px)';
+    chart.replaceChildren(pace, ...dias.map((x) => {
+      const col = document.createElement('div'); col.className = 'col';
+      const bars = document.createElement('div'); bars.className = 'bars';
+      [['m', md[x] || 0, 'Meta'], ['g', gd[x] || 0, 'Google']].forEach(([c, v, n]) => {
+        const b = document.createElement('div'); b.className = 'b ' + c;
+        b.style.height = (v / max * 100) + '%'; b.title = n + ' ' + dm(x) + ': ' + brl(v);
+        bars.append(b);
+      });
+      const lbl = document.createElement('div'); lbl.className = 'lbl'; lbl.textContent = dm(x);
+      col.append(bars, lbl);
+      return col;
+    }));
+
+    const tbody = document.getElementById('palavras');
+    const pal = (g.palavras || []).slice().sort((x, y) => (y.cliques - x.cliques) || (y.impressoes - x.impressoes));
+    if (!pal.length) {
+      const tr = document.createElement('tr'); const td = document.createElement('td');
+      td.colSpan = 4; td.className = 'empty'; td.textContent = 'Ainda sem buscas suficientes para listar.';
+      tr.append(td); tbody.replaceChildren(tr);
+    } else {
+      tbody.replaceChildren(...pal.map((p) => {
+        const tr = document.createElement('tr');
+        [p.termo, int(p.impressoes), int(p.cliques), brl(p.custo)].forEach((v) => { const td = document.createElement('td'); td.textContent = v; tr.append(td); });
+        return tr;
+      }));
+    }
+  }
+})();
+</script>
+</body>
+</html>
