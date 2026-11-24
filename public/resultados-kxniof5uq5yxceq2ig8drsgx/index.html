@@ -80,6 +80,17 @@
   .chart .pace { position: absolute; left: 0; right: 0; border-top: 1px dashed oklch(0.82 0.03 220 / 35%); }
   .legend { display: flex; gap: 16px; font-size: 13px; color: var(--muted); margin-top: 14px; flex-wrap: wrap; }
   .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+  .funnel { display: grid; gap: 10px; }
+  .frow { display: grid; grid-template-columns: minmax(130px, 1.1fr) 3fr auto; align-items: center; gap: 14px; }
+  .flabel { font-weight: 600; font-size: 15px; }
+  .flabel small { display: block; color: var(--muted); font-weight: 500; font-size: 12px; }
+  .ftrack { height: 28px; background: var(--card-2); border-radius: 8px; overflow: hidden; display: flex; }
+  .ftrack i { display: block; height: 100%; }
+  .ftrack i.m { background: var(--primary); } .ftrack i.g { background: var(--green); } .ftrack i.o { background: oklch(0.66 0.02 230 / 55%); }
+  .fval { font-variant-numeric: tabular-nums; font-weight: 700; min-width: 3ch; text-align: right; }
+  .fconv { color: var(--muted); font-size: 12px; font-weight: 500; margin-left: 6px; }
+  .base { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+  @media (max-width: 520px) { .frow { grid-template-columns: 1fr auto; } .ftrack { grid-column: 1 / -1; order: 3; } }
   footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
   .err { color: var(--red); }
   @media (max-width: 520px) { .stats { grid-template-columns: repeat(2, 1fr); } .spend-num { font-size: 34px; } }
@@ -120,6 +131,18 @@
       </div>
     </div>
   </div>
+
+  <h2>Funil: do anúncio à assinatura</h2>
+  <p class="h2-sub">Médicos que chegaram desde 24/11, por etapa e por canal de origem.</p>
+  <div class="card">
+    <div class="funnel" id="funil"></div>
+    <div class="legend"><span><i style="background:var(--primary)"></i>Meta</span><span><i style="background:var(--green)"></i>Google</span><span><i style="background:oklch(0.66 0.02 230 / 55%)"></i>Outras origens</span></div>
+    <p class="note">Visitas: na Meta, cliques em que a página abriu; no Google, cliques no anúncio; em outras origens, páginas vistas registradas pelo site (só de quem aceitou os cookies).</p>
+  </div>
+
+  <h2>Base total da plataforma</h2>
+  <p class="h2-sub">Todos os médicos cadastrados até hoje, de qualquer origem.</p>
+  <div class="card base" id="base"></div>
 
   <h2>Teste A/B da Meta: qual mensagem traz mais médicos</h2>
   <p class="h2-sub">Três anúncios com o mesmo público e o mesmo orçamento. Vence quem trouxer mais visitas à página pelo menor custo.</p>
@@ -238,6 +261,38 @@
       card.append(img, body);
       return card;
     }));
+
+
+    // Funil por canal desde o início da rodada.
+    const f = d.funil || null;
+    const funil = document.getElementById('funil');
+    if (f) {
+      const etapas = [['visitas', 'Visitas', 'chegaram à página'], ['cadastros', 'Cadastros', 'criaram conta com CRM'], ['mapa', 'Mapa de lacunas', 'fizeram o diagnóstico'], ['aula', 'Primeira aula', 'começaram a estudar'], ['caso', 'Caso diário', 'resolveram um caso'], ['assinou', 'Assinaram', 'viraram assinantes']];
+      const canais = [['meta', 'm'], ['google', 'g'], ['outros', 'o']];
+      const tot = (k) => canais.reduce((t, [c]) => t + (Number((f[c] || {})[k]) || 0), 0);
+      const maxv = Math.max(1, tot('visitas'), tot('cadastros'));
+      funil.replaceChildren(...etapas.map(([k, nome, desc], i) => {
+        const row = document.createElement('div'); row.className = 'frow';
+        const lab = document.createElement('div'); lab.className = 'flabel'; lab.textContent = nome;
+        const sm = document.createElement('small'); sm.textContent = desc; lab.append(sm);
+        const tr = document.createElement('div'); tr.className = 'ftrack';
+        canais.forEach(([c, cls]) => { const v = Number((f[c] || {})[k]) || 0; if (!v) return; const seg = document.createElement('i'); seg.className = cls; seg.style.width = (v / maxv * 100) + '%'; seg.title = c + ': ' + int(v); tr.append(seg); });
+        const val = document.createElement('div'); val.className = 'fval'; val.textContent = int(tot(k));
+        if (i > 0) { const prev = tot(etapas[i - 1][0]); if (prev) { const cv = document.createElement('span'); cv.className = 'fconv'; cv.textContent = Math.round(tot(k) / prev * 100) + '%'; val.append(cv); } }
+        row.append(lab, tr, val);
+        return row;
+      }));
+    }
+    const base = document.getElementById('base');
+    const b = d.base_total || null;
+    if (b) {
+      base.replaceChildren(...[['Médicos cadastrados', b.cadastros], ['Fizeram o mapa', b.mapa], ['Começaram aula', b.aula], ['Fizeram caso diário', b.caso], ['Assinantes ativos', b.assinou]].map(([l, v]) => {
+        const s = document.createElement('div');
+        const lb = document.createElement('div'); lb.className = 'stat-label'; lb.textContent = l;
+        const vl = document.createElement('div'); vl.className = 'stat-val'; vl.textContent = int(v);
+        s.append(lb, vl); return s;
+      }));
+    }
 
     // Gasto por dia, 24 a 28/11.
     const dias = [];
