@@ -296,7 +296,7 @@
     const [hub, funil] = await Promise.allSettled([buscaHub(per.pIni, per.fim), buscaFunil(per.pIni, per.fim)]);
     if (hub.status === "rejected" && hub.reason && hub.reason.message === "chave") { mostraGate(); return; }
     dados = {
-      hub: hub.status === "fulfilled" ? hub.value : { campanhas: [], anuncios: [], visitas: [] },
+      hub: hub.status === "fulfilled" ? { paginas: [], ...hub.value } : { campanhas: [], anuncios: [], visitas: [], paginas: [] },
       hubErro: hub.status === "rejected",
       funil: funil.status === "fulfilled" ? funil.value : { linhas: [], base_total: null },
       funilErro: funil.status === "rejected",
@@ -589,9 +589,11 @@
 
   function renderSite(c) {
     const pag = {}, orig = {}, disp = {};
-    const mapa = campanhaPorUtm();
-    for (const v of c.vis) {
+    const per = periodo();
+    for (const v of filtraOrigem(dados.hub.paginas, per.ini, per.fim, campanhaPorUtm())) {
       const p = (pag[v.pagina] ??= { pagina: v.pagina, sessoes: 0, vistas: 0 }); p.sessoes += +v.sessoes || 0; p.vistas += +v.paginas_vistas || 0;
+    }
+    for (const v of c.vis) {
       const canal = canalDe(v.origem, v.meio, v.referrer_host);
       const nome = canal === "organico" ? (v.referrer_host ? v.referrer_host.replace(/^www\./, "") : "Acesso direto") : canal === "outros" ? v.origem : CANAIS[canal].nome;
       const o = (orig[canal + nome] ??= { origem: nome, canal, sessoes: 0 }); o.sessoes += +v.sessoes || 0;

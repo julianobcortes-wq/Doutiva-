@@ -100,11 +100,22 @@ begin
     'visitas', coalesce((
       select jsonb_agg(v) from (
         select (criado_em at time zone 'America/Sao_Paulo')::date as dia,
-               coalesce(nullif(origem, ''), '') as origem,
-               coalesce(nullif(campanha, ''), '') as campanha,
-               coalesce(nullif(conteudo, ''), '') as conteudo,
-               coalesce(nullif(referrer_host, ''), '') as referrer_host,
-               pagina, dispositivo,
+               coalesce(origem, '') as origem, coalesce(meio, '') as meio,
+               coalesce(campanha, '') as campanha, coalesce(conteudo, '') as conteudo,
+               coalesce(referrer_host, '') as referrer_host, dispositivo,
+               count(*) as paginas_vistas,
+               count(distinct sessao) as sessoes
+        from public.mkt_visitas
+        where (criado_em at time zone 'America/Sao_Paulo')::date between p_inicio and p_fim
+        group by 1, 2, 3, 4, 5, 6, 7
+      ) v
+    ), '[]'::jsonb),
+    'paginas', coalesce((
+      select jsonb_agg(v) from (
+        select (criado_em at time zone 'America/Sao_Paulo')::date as dia,
+               coalesce(origem, '') as origem, coalesce(meio, '') as meio,
+               coalesce(campanha, '') as campanha, coalesce(conteudo, '') as conteudo,
+               coalesce(referrer_host, '') as referrer_host, pagina,
                count(*) as paginas_vistas,
                count(distinct sessao) as sessoes
         from public.mkt_visitas
