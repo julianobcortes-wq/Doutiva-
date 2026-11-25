@@ -51,16 +51,20 @@ function PrivacidadePage() {
         </p>
         <h2>Operadores</h2>
         <p>
-          Infraestrutura: Supabase (dados/auth). IA: OpenAI (quando configurada). E-mail: Resend
-          (quando configurado). Medição de anúncios: Meta Platforms, somente com o seu
-          consentimento.
+          Infraestrutura: Supabase (dados/auth). Hospedagem e web analytics: Vercel (Analytics e
+          Speed Insights — medição de tráfego sem cookies de anúncio). IA: OpenAI (quando
+          configurada). E-mail: Resend (quando configurado). Medição de anúncios: Meta Platforms,
+          somente com o seu consentimento. Product analytics (PostHog) poderá ser ativado no
+          futuro, também sujeito a esta política.
         </p>
         <h2>Cookies de medição</h2>
         <p>
           Com o seu consentimento no aviso de cookies, o site carrega o Pixel da Meta para medir
           visitas e cadastros vindos de anúncios. Não enviamos à Meta nome, e-mail, telefone, CRM
-          nem qualquer dado de saúde. Sem consentimento, o Pixel não é carregado. Para mudar a
-          escolha, limpe os dados do site no navegador ou escreva para {COMPANY.contactEmail}.
+          nem qualquer dado de saúde. Sem consentimento, o Pixel não é carregado. A contagem
+          agregada de páginas (Vercel Analytics) opera sem cookies de publicidade. Para mudar a
+          escolha do Pixel, limpe os dados do site no navegador ou escreva para{" "}
+          {COMPANY.contactEmail}.
         </p>
         <h2>Bases legais</h2>
         <p>

@@ -10,7 +10,10 @@ import {
 import { type ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { CookieConsent } from "@/components/cookie-consent";
+import { SpaPageView } from "@/components/spa-pageview";
+import { UtmCapture } from "@/components/utm-capture";
 import { VisitTracker } from "@/components/visit-tracker";
+import { WebAnalytics } from "@/components/web-analytics";
 
 import appCss from "../styles.css?url";
 
@@ -136,8 +139,11 @@ function RootComponent() {
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
       <Toaster richColors closeButton position="top-center" />
+      <UtmCapture />
       <CookieConsent />
+      <SpaPageView />
       <VisitTracker />
+      <WebAnalytics />
     </QueryClientProvider>
   );
 }

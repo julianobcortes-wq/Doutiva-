@@ -15,6 +15,7 @@ import {
   mapProgressLabel,
   mapProgressPct,
 } from "@/lib/brain/map-interview";
+import { trackProduct } from "@/lib/tracking";
 
 export const Route = createFileRoute("/_authenticated/mapa")({
   head: () => ({
@@ -108,6 +109,7 @@ function MapaPage() {
       if (data.map) qc.setQueryData(["mastery-map"], data.map);
       else qc.invalidateQueries({ queryKey: ["mastery-map"] });
       if (data.map_complete) {
+        trackProduct("interview_completed");
         setCompleteSummary(
           data.summary ?? "Mapa pronto. Abra Minha Trilha para ver o que estudar agora.",
         );
@@ -124,6 +126,7 @@ function MapaPage() {
     setSessionId(undefined);
     setProgressOverride({ done: 0, total: MAP_INTERVIEW_QUESTIONS });
     setMode("interview");
+    trackProduct("interview_started");
     turn.mutate([]);
   }
 

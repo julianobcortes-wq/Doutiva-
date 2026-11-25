@@ -26,9 +26,12 @@ import type { RichLesson } from "@/content/lesson-types";
 import { nextReview, addDays } from "@/lib/review";
 import { supabase } from "@/integrations/supabase/client";
 import { refreshProgress, useProgress } from "@/lib/use-progress";
+import { trackProduct } from "@/lib/tracking";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
 import { Link } from "@tanstack/react-router";
+
+const FIRST_LESSON_KEY = "doutiva_first_lesson_v1";
 
 type Ref = { citation: string; url?: string };
 
@@ -129,6 +132,15 @@ export function LessonPlayer({
     setReviewDueDays(null);
     setSessionResult(null);
     setAwardedBeats(new Set());
+    trackProduct("lesson_started", { lesson_id: lessonId });
+    try {
+      if (!window.localStorage.getItem(FIRST_LESSON_KEY)) {
+        window.localStorage.setItem(FIRST_LESSON_KEY, lessonId);
+        trackProduct("first_lesson", { lesson_id: lessonId });
+      }
+    } catch {
+      /* storage bloqueado: não inventa first_lesson em loop */
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional: lessonId is the session key
   }, [lessonId]);
 

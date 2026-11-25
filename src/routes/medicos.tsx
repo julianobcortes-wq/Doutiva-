@@ -99,6 +99,9 @@ function MedicosPage() {
       return void toast.error("A senha precisa ter pelo menos 8 caracteres.");
     if (!consent) return void toast.error("Confirme que você é médico(a) e aceita os termos.");
 
+    // Intent qualificado (CRM + termos ok) antes do signUp — sem PII no Pixel.
+    trackMeta("Lead");
+
     setLoading(true);
     try {
       const { data, error } = await client.auth.signUp({

@@ -1,19 +1,58 @@
 /**
- * Medição de campanhas (Meta Pixel) com consentimento (LGPD).
+ * Medição de campanhas (Meta Pixel) + hooks de produto (PostHog quando houver chave).
  *
  * - O Pixel só carrega depois que a pessoa aceita cookies de medição no banner.
- * - Sem META_PIXEL_ID preenchido, tudo aqui vira no-op: o site funciona igual.
+ * - Vercel Analytics / Speed Insights são cookieless e NÃO passam por este módulo.
+ * - Sem Pixel ID (env ou fallback), Meta vira no-op: o site funciona igual.
  * - Nunca envie dado de saúde, CRM, e-mail ou telefone nos eventos.
  */
 
-/** ID do conjunto de dados (Pixel) da conta Doutiva no Gerenciador de Eventos da Meta. */
-export const META_PIXEL_ID = "999653985998183";
+const FALLBACK_META_PIXEL_ID = "999653985998183";
+
+/** ID do Pixel: `VITE_META_PIXEL_ID` em build, senão o ID atual de produção. */
+export const META_PIXEL_ID =
+  (typeof import.meta !== "undefined" &&
+    typeof import.meta.env?.["VITE_META_PIXEL_ID"] === "string" &&
+    import.meta.env["VITE_META_PIXEL_ID"].trim()) ||
+  FALLBACK_META_PIXEL_ID;
 
 const CONSENT_KEY = "doutiva_cookie_consent_v1";
-const UTM_KEY = "doutiva_utm_v1";
+const UTM_SESSION_KEY = "doutiva_utm_v1";
+const UTM_FIRST_KEY = "doutiva_utm_first_v1";
 const UTM_FIELDS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
 
 export type ConsentState = "granted" | "denied" | null;
+
+export type MetaStandardEvent = "PageView" | "ViewContent" | "Lead" | "CompleteRegistration";
+
+type ConsentListener = () => void;
+const consentListeners = new Set<ConsentListener>();
+
+/** Reage a mudanças do banner (ex.: SPA PageView após Aceitar). */
+export function subscribeConsent(listener: ConsentListener) {
+  consentListeners.add(listener);
+  return () => {
+    consentListeners.delete(listener);
+  };
+}
+
+function notifyConsent() {
+  for (const l of consentListeners) {
+    try {
+      l();
+    } catch {
+      /* ignore */
+    }
+  }
+}
+
+/** Eventos leves de produto — prontos para PostHog; hoje no-op sem chave. */
+export type ProductEvent =
+  | "interview_started"
+  | "trail_viewed"
+  | "first_lesson"
+  | "interview_completed"
+  | "lesson_started";
 
 type Fbq = ((...args: unknown[]) => void) & {
   callMethod?: (...args: unknown[]) => void;
@@ -27,6 +66,10 @@ declare global {
   interface Window {
     fbq?: Fbq;
     _fbq?: Fbq;
+    posthog?: {
+      capture: (event: string, props?: Record<string, unknown>) => void;
+      init?: (key: string, opts?: Record<string, unknown>) => void;
+    };
   }
 }
 
@@ -46,6 +89,18 @@ function safeSet(storage: "local" | "session", key: string, value: string) {
   }
 }
 
+function parseUtm(raw: string | null): Record<string, string> {
+  if (!raw) return {};
+  try {
+    const parsed = JSON.parse(raw) as Record<string, unknown>;
+    const out: Record<string, string> = {};
+    for (const k of UTM_FIELDS) if (typeof parsed[k] === "string") out[k] = parsed[k] as string;
+    return out;
+  } catch {
+    return {};
+  }
+}
+
 export function getConsent(): ConsentState {
   if (typeof window === "undefined") return null;
   const v = safeGet("local", CONSENT_KEY);
@@ -56,6 +111,7 @@ export function setConsent(value: Exclude<ConsentState, null>) {
   if (typeof window === "undefined") return;
   safeSet("local", CONSENT_KEY, value);
   if (value === "granted") loadMetaPixel();
+  notifyConsent();
 }
 
 export function trackingEnabled() {
@@ -88,12 +144,25 @@ export function loadMetaPixel() {
 }
 
 /** Evento padrão da Meta. Sem parâmetros pessoais. */
-export function trackMeta(event: "PageView" | "ViewContent" | "Lead" | "CompleteRegistration") {
+export function trackMeta(event: MetaStandardEvent) {
   if (typeof window === "undefined" || !window.fbq || getConsent() !== "granted") return;
   window.fbq("track", event);
 }
 
-/** Guarda os UTMs da primeira página da sessão para gravar no cadastro. */
+/**
+ * PageView em navegação SPA (TanStack Router).
+ * O carregamento inicial do Pixel já dispara um PageView — use isto só em mudanças de rota.
+ */
+export function trackSpaPageView() {
+  trackMeta("PageView");
+}
+
+/**
+ * Guarda UTMs da URL:
+ * - sessão atual (sessionStorage) — last-touch da sessão
+ * - first-touch (localStorage) — só grava se ainda não existir
+ * Chamar no root para cobrir home, /auth, /oferta, /medicos, etc.
+ */
 export function captureUtm() {
   if (typeof window === "undefined") return;
   const params = new URLSearchParams(window.location.search);
@@ -102,19 +171,55 @@ export function captureUtm() {
     const v = params.get(k);
     if (v) found[k] = v.slice(0, 120);
   }
-  if (Object.keys(found).length > 0) safeSet("session", UTM_KEY, JSON.stringify(found));
+  if (Object.keys(found).length === 0) return;
+  safeSet("session", UTM_SESSION_KEY, JSON.stringify(found));
+  if (!safeGet("local", UTM_FIRST_KEY)) {
+    safeSet("local", UTM_FIRST_KEY, JSON.stringify(found));
+  }
 }
 
+/**
+ * UTMs para gravar no cadastro: prioriza a sessão atual; senão first-touch.
+ */
 export function getUtm(): Record<string, string> {
   if (typeof window === "undefined") return {};
-  const raw = safeGet("session", UTM_KEY);
-  if (!raw) return {};
+  const session = parseUtm(safeGet("session", UTM_SESSION_KEY));
+  if (Object.keys(session).length > 0) return session;
+  return parseUtm(safeGet("local", UTM_FIRST_KEY));
+}
+
+export function getFirstTouchUtm(): Record<string, string> {
+  if (typeof window === "undefined") return {};
+  return parseUtm(safeGet("local", UTM_FIRST_KEY));
+}
+
+function posthogKey(): string {
+  if (typeof import.meta === "undefined") return "";
+  const k = import.meta.env?.["VITE_POSTHOG_KEY"];
+  return typeof k === "string" ? k.trim() : "";
+}
+
+/**
+ * Evento de produto. Com `VITE_POSTHOG_KEY` + SDK no window, envia ao PostHog.
+ * Sem chave: no-op seguro (hooks já instrumentados para a próxima etapa).
+ * Nunca inclui PII / clínico.
+ */
+export function trackProduct(
+  event: ProductEvent | (string & {}),
+  props?: Record<string, string | number | boolean | null | undefined>,
+) {
+  if (typeof window === "undefined") return;
+  if (!posthogKey() || !window.posthog?.capture) return;
+  const clean: Record<string, string | number | boolean> = {};
+  if (props) {
+    for (const [k, v] of Object.entries(props)) {
+      if (v === null || v === undefined) continue;
+      clean[k] = v;
+    }
+  }
   try {
-    const parsed = JSON.parse(raw) as Record<string, unknown>;
-    const out: Record<string, string> = {};
-    for (const k of UTM_FIELDS) if (typeof parsed[k] === "string") out[k] = parsed[k] as string;
-    return out;
+    window.posthog.capture(event, clean);
   } catch {
-    return {};
+    /* product analytics nunca pode quebrar UX */
   }
 }

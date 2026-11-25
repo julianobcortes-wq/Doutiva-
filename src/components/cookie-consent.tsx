@@ -25,8 +25,9 @@ export function CookieConsent() {
     >
       <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-4 md:flex-row md:items-center md:justify-between">
         <p className="text-sm text-muted-foreground">
-          Usamos cookies de medição (Meta) para saber quais anúncios trazem médicos à Doutiva. Você
-          pode recusar sem perder nada do site.{" "}
+          Usamos cookies de medição (Meta) para saber quais anúncios trazem médicos à Doutiva. A
+          contagem de visitas do site (Vercel Analytics) não usa cookies de anúncio. Você pode
+          recusar o Pixel sem perder nada do site.{" "}
           <Link to="/privacidade" className="underline underline-offset-4 hover:text-foreground">
             Privacidade
           </Link>

@@ -1,10 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
+import { useEffect, useRef } from "react";
 import { ArrowRight, Compass, GraduationCap, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getMyStudyTrail } from "@/lib/brain/brain.functions";
 import type { StudyTrailStep } from "@/lib/brain/types";
+import { trackProduct } from "@/lib/tracking";
 
 export const Route = createFileRoute("/_authenticated/trilha")({
   head: () => ({
@@ -33,9 +35,16 @@ function TrilhaPage() {
     queryFn: () => loadTrail(),
     retry: 1,
   });
+  const viewed = useRef(false);
 
   const trail = trailQuery.data;
   const loading = trailQuery.isLoading;
+
+  useEffect(() => {
+    if (viewed.current || !trail?.mapReady) return;
+    viewed.current = true;
+    trackProduct("trail_viewed", { steps: trail.steps.length });
+  }, [trail]);
 
   return (
     <div className="mx-auto max-w-2xl px-6 py-14 pb-28 md:py-20 md:pb-16">
