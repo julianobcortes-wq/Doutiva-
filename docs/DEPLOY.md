@@ -8,8 +8,10 @@
    - `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`, `VITE_SUPABASE_PROJECT_ID`
    - `OPENAI_API_KEY`, `AI_GATEWAY_BASE_URL=https://api.openai.com/v1`
    - Opcional: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_PRICE_*`, `RESEND_API_KEY`, `RESEND_FROM`, `CRON_SECRET`, `APP_ORIGIN`
+   - Opcional medição: `VITE_META_PIXEL_ID` (fallback = Pixel atual se omitido); `VITE_POSTHOG_KEY` / `VITE_POSTHOG_HOST` (hooks prontos; sem chave = no-op)
 3. Google login: criar OAuth Web no Google Cloud e rodar `node scripts/enable-google-auth.mjs` (ver `docs/INDEPENDENT_SUPABASE.md`).
 4. Professores de IA / Tutor: `OPENAI_API_KEY`, `AI_GATEWAY_BASE_URL=https://api.openai.com/v1`, e `SUPABASE_SERVICE_ROLE_KEY` (para persistir Índice de Domínio).
+5. **Vercel Analytics + Speed Insights:** no projeto Vercel → Analytics → Enable, e Speed Insights → Enable. O app já inclui `@vercel/analytics` e `@vercel/speed-insights`; sem toggle no dashboard não há dados.
 
 ## Vite / build
 
