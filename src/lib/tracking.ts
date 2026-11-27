@@ -18,12 +18,15 @@ export const META_PIXEL_ID =
 
 const CONSENT_KEY = "doutiva_cookie_consent_v1";
 const UTM_SESSION_KEY = "doutiva_utm_v1";
+const UTM_OAUTH_KEY = "doutiva_utm_oauth_v1";
 const UTM_FIRST_KEY = "doutiva_utm_first_v1";
 const UTM_FIELDS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
 
 export type ConsentState = "granted" | "denied" | null;
 
 export type MetaStandardEvent = "PageView" | "ViewContent" | "Lead" | "CompleteRegistration";
+
+const pendingMetaEvents: MetaStandardEvent[] = [];
 
 type ConsentListener = () => void;
 const consentListeners = new Set<ConsentListener>();
@@ -107,10 +110,31 @@ export function getConsent(): ConsentState {
   return v === "granted" || v === "denied" ? v : null;
 }
 
+function safeRemove(storage: "local" | "session", key: string) {
+  try {
+    (storage === "local" ? window.localStorage : window.sessionStorage).removeItem(key);
+  } catch {
+    /* ignore */
+  }
+}
+
+function flushPendingMetaEvents() {
+  if (typeof window === "undefined" || !window.fbq || getConsent() !== "granted") return;
+  const queued = pendingMetaEvents.splice(0, pendingMetaEvents.length);
+  for (const event of queued) {
+    window.fbq("track", event);
+  }
+}
+
 export function setConsent(value: Exclude<ConsentState, null>) {
   if (typeof window === "undefined") return;
   safeSet("local", CONSENT_KEY, value);
-  if (value === "granted") loadMetaPixel();
+  if (value === "granted") {
+    loadMetaPixel();
+    flushPendingMetaEvents();
+  } else {
+    pendingMetaEvents.length = 0;
+  }
   notifyConsent();
 }
 
@@ -143,10 +167,19 @@ export function loadMetaPixel() {
   fbq("track", "PageView");
 }
 
-/** Evento padrão da Meta. Sem parâmetros pessoais. */
+/** Evento padrão da Meta. Sem parâmetros pessoais. Enfileira antes do consentimento. */
 export function trackMeta(event: MetaStandardEvent) {
-  if (typeof window === "undefined" || !window.fbq || getConsent() !== "granted") return;
-  window.fbq("track", event);
+  if (typeof window === "undefined" || !META_PIXEL_ID) return;
+  const consent = getConsent();
+  if (consent === "denied") return;
+  if (consent === null) {
+    if (event !== "PageView" && !pendingMetaEvents.includes(event)) {
+      pendingMetaEvents.push(event);
+    }
+    return;
+  }
+  if (!window.fbq) loadMetaPixel();
+  window.fbq?.("track", event);
 }
 
 /**
@@ -179,12 +212,32 @@ export function captureUtm() {
 }
 
 /**
- * UTMs para gravar no cadastro: prioriza a sessão atual; senão first-touch.
+ * Garante que os UTMs da sessão atual sobrevivam a um redirecionamento OAuth externo
+ * mesmo em WebViews móveis que limpam sessionStorage entre domínios.
+ */
+export function persistUtmForRedirect() {
+  if (typeof window === "undefined") return;
+  captureUtm();
+  const current = getUtm();
+  if (Object.keys(current).length > 0) {
+    safeSet("local", UTM_OAUTH_KEY, JSON.stringify(current));
+  }
+}
+
+export function clearRedirectUtm() {
+  if (typeof window === "undefined") return;
+  safeRemove("local", UTM_OAUTH_KEY);
+}
+
+/**
+ * UTMs para gravar no cadastro: prioriza a sessão atual; senão OAuth pendente; senão first-touch.
  */
 export function getUtm(): Record<string, string> {
   if (typeof window === "undefined") return {};
   const session = parseUtm(safeGet("session", UTM_SESSION_KEY));
   if (Object.keys(session).length > 0) return session;
+  const oauth = parseUtm(safeGet("local", UTM_OAUTH_KEY));
+  if (Object.keys(oauth).length > 0) return oauth;
   return parseUtm(safeGet("local", UTM_FIRST_KEY));
 }
 
