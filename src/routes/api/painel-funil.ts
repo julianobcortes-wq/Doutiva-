@@ -47,6 +47,32 @@ function texto(v: unknown, max = 120): string {
   return typeof v === "string" ? v.trim().slice(0, max) : "";
 }
 
+const MAX_DIAS = 93;
+const JANELA_MS = 10 * 60 * 1000;
+const MAX_POR_JANELA = 20;
+const tentativas = new Map<string, number[]>();
+
+// Bounds key guessing and the cost of the user scan per caller IP.
+function excedeuLimite(ip: string, agora = Date.now()): boolean {
+  const recentes = (tentativas.get(ip) ?? []).filter((t) => agora - t < JANELA_MS);
+  if (recentes.length >= MAX_POR_JANELA) {
+    tentativas.set(ip, recentes);
+    return true;
+  }
+  recentes.push(agora);
+  if (!tentativas.has(ip) && tentativas.size >= 5000) {
+    const primeiro = tentativas.keys().next().value;
+    if (primeiro !== undefined) tentativas.delete(primeiro);
+  }
+  tentativas.set(ip, recentes);
+  return false;
+}
+
+function ipDe(request: Request): string {
+  const fwd = request.headers.get("x-forwarded-for") ?? "";
+  return fwd.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "desconhecido";
+}
+
 export const Route = createFileRoute("/api/painel-funil")({
   server: {
     handlers: {
@@ -55,7 +81,17 @@ export const Route = createFileRoute("/api/painel-funil")({
         const url = new URL(request.url);
         const inicio = url.searchParams.get("inicio") ?? "";
         const fim = url.searchParams.get("fim") ?? "";
+        if (excedeuLimite(ipDe(request))) {
+          return Response.json(
+            { error: "muitas requisicoes" },
+            { status: 429, headers: { ...semCache, "Retry-After": "600" } },
+          );
+        }
         if (!DIA.test(inicio) || !DIA.test(fim) || fim < inicio) {
+          return Response.json({ error: "periodo invalido" }, { status: 400, headers: semCache });
+        }
+        const dias = (Date.parse(`${fim}T00:00:00Z`) - Date.parse(`${inicio}T00:00:00Z`)) / 86_400_000;
+        if (!Number.isFinite(dias) || dias > MAX_DIAS) {
           return Response.json({ error: "periodo invalido" }, { status: 400, headers: semCache });
         }
         if (!(await chaveValida(request.headers.get("x-painel-chave") ?? ""))) {
@@ -67,10 +103,8 @@ export const Route = createFileRoute("/api/painel-funil")({
         const { getSupabaseServerUrl } = await import("@/integrations/supabase/env.server");
         const urlBanco = getSupabaseServerUrl();
         const chaveServico = process.env["SUPABASE_SERVICE_ROLE_KEY"] ?? "";
-        const tipoChave = chaveServico.startsWith("sb_secret_") ? "sb_secret" : chaveServico.startsWith("eyJ") ? "jwt" : chaveServico ? "outro" : "ausente";
-        const diag = { banco: (() => { try { return new URL(urlBanco).hostname.split(".")[0]; } catch { return null; } })(), chave: tipoChave };
         if (!chaveServico) {
-          return Response.json({ error: "falha ao ler cadastros", ...diag }, { status: 502, headers: semCache });
+          return Response.json({ error: "falha ao ler cadastros" }, { status: 502, headers: semCache });
         }
         const supabaseAdmin = createClient(urlBanco, chaveServico, {
           auth: { storage: undefined, persistSession: false, autoRefreshToken: false },
@@ -91,10 +125,8 @@ export const Route = createFileRoute("/api/painel-funil")({
         for (let page = 1; page <= 50; page++) {
           const { data, error } = await supabaseAdmin.auth.admin.listUsers({ page, perPage: 1000 });
           if (error) {
-            return Response.json(
-              { error: "falha ao ler cadastros", detalhe: String(error.message).slice(0, 160), status: (error as { status?: number }).status ?? null, ...diag },
-              { status: 502, headers: semCache },
-            );
+            console.error("painel-funil listUsers", (error as { status?: number }).status ?? null);
+            return Response.json({ error: "falha ao ler cadastros" }, { status: 502, headers: semCache });
           }
           for (const u of data.users) {
             if (equipe.has(u.id)) continue;
