@@ -1,10 +1,12 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 import {
   Eye,
   EyeOff,
   Flame,
+  Loader2,
   Map as MapIcon,
   Route as RouteIcon,
   ShieldCheck,
@@ -12,12 +14,22 @@ import {
 } from "lucide-react";
 import { getSupabase } from "@/integrations/supabase/client";
 import { isCookieBannerOpen, subscribeCookieBanner } from "@/components/cookie-consent";
+import {
+  emptyTrialState,
+  readStoredTrialState,
+  TRIAL_STORAGE_KEY,
+  TrialQuiz,
+  writeStoredTrialState,
+  type StoredTrialState,
+} from "@/components/medicos/trial-quiz";
 import { registrarEvento } from "@/components/visit-tracker";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { isValidCrmUf, validateCrm } from "@/lib/crm";
 import { LEGAL_VERSIONS } from "@/lib/legal-versions";
+import { getTrialCases } from "@/lib/trial-cases.functions";
+import type { TrialCasePublic } from "@/lib/trial-cases";
 import {
   captureUtm,
   clearRedirectUtm,
@@ -166,12 +178,18 @@ function GoogleGlyph() {
 
 function MedicosPage() {
   const navigate = useNavigate();
+  const loadTrialCases = useServerFn(getTrialCases);
   const [loading, setLoading] = useState(false);
   const [googleLoading, setGoogleLoading] = useState(false);
   const [pendingEmail, setPendingEmail] = useState<string | null>(null);
   const [subtitle, setSubtitle] = useState(SUBTITULO_PADRAO);
   const [step, setStep] = useState<1 | 2>(1);
   const [completarMode, setCompletarMode] = useState<CompletarMode>("none");
+
+  const [trialCases, setTrialCases] = useState<TrialCasePublic[]>([]);
+  const [trialLoading, setTrialLoading] = useState(true);
+  const [trialUnavailable, setTrialUnavailable] = useState(false);
+  const [trialState, setTrialState] = useState<StoredTrialState>(emptyTrialState);
 
   const [email, setEmail] = useState("");
   const [crm, setCrm] = useState("");
@@ -187,6 +205,7 @@ function MedicosPage() {
   const [cookieBannerOpen, setCookieBannerOpen] = useState(false);
 
   const formSectionRef = useRef<HTMLElement | null>(null);
+  const trialSectionRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     captureUtm();
@@ -197,6 +216,53 @@ function MedicosPage() {
     }
     trackMeta("ViewContent");
   }, []);
+
+  useEffect(() => {
+    let active = true;
+    const saved = readStoredTrialState();
+    if (saved.open) {
+      setTrialState(saved);
+    }
+
+    loadTrialCases()
+      .then((list) => {
+        if (!active) return;
+        if (!Array.isArray(list) || list.length < 3) {
+          setTrialUnavailable(true);
+          setTrialState(emptyTrialState());
+          registrarEvento("teste_erro");
+          return;
+        }
+        const activeThree = list.slice(0, 3);
+        const validKeys = new Set(activeThree.map((c) => c.key));
+        setTrialCases(activeThree);
+        setTrialState((prev) => {
+          const validAnswers = prev.answers.filter((a) => validKeys.has(a.caseKey));
+          const reconciled: StoredTrialState = {
+            version: 1,
+            open: prev.open,
+            index: Math.min(prev.index, activeThree.length - 1),
+            showResult: prev.showResult && validAnswers.length >= activeThree.length,
+            answers: validAnswers,
+          };
+          if (reconciled.open) writeStoredTrialState(reconciled);
+          return reconciled;
+        });
+      })
+      .catch(() => {
+        if (!active) return;
+        setTrialUnavailable(true);
+        setTrialState(emptyTrialState());
+        registrarEvento("teste_erro");
+      })
+      .finally(() => {
+        if (active) setTrialLoading(false);
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [loadTrialCases]);
 
   useEffect(() => {
     setCookieBannerOpen(isCookieBannerOpen() || (trackingEnabled() && getConsent() === null));
@@ -292,7 +358,7 @@ function MedicosPage() {
     return () => {
       formObserver.disconnect();
     };
-  }, [completarMode]);
+  }, [completarMode, trialState.open, trialState.showResult]);
 
   function clearFieldError(field: keyof FormErrors) {
     setErrors((prev) => (prev[field] ? { ...prev, [field]: undefined } : prev));
@@ -304,8 +370,38 @@ function MedicosPage() {
     }
   }
 
-  function scrollToCadastro(eventName: "cta_topo" | "cta_fixo") {
-    registrarEvento(eventName);
+  function scrollToCadastro(eventName?: "cta_topo" | "cta_fixo") {
+    if (eventName) registrarEvento(eventName);
+    formSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function updateTrialState(next: StoredTrialState) {
+    setTrialState(next);
+    writeStoredTrialState(next);
+  }
+
+  function openTrial(ctaEvent: "cta_topo" | "cta_fixo") {
+    registrarEvento(ctaEvent);
+    if (trialUnavailable) {
+      scrollToCadastro();
+      return;
+    }
+    registrarEvento("teste_abriu");
+    updateTrialState({ ...trialState, open: true });
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
+  function handleDirectSignup() {
+    registrarEvento("cadastro_direto");
+    if (trialState.open) {
+      updateTrialState({ ...trialState, open: false, showResult: false });
+      requestAnimationFrame(() => {
+        formSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      return;
+    }
     formSectionRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -416,6 +512,8 @@ function MedicosPage() {
     trackMeta("Lead");
 
     setLoading(true);
+    const signupSource =
+      trialState.showResult && trialState.answers.length >= 3 ? "lp_medicos_teste" : "lp_medicos";
     try {
       const { data, error } = await client.auth.signUp({
         email: trimmedEmail,
@@ -428,7 +526,7 @@ function MedicosPage() {
             crm_uf: uf.toUpperCase(),
             specialty: null,
             phone: null,
-            signup_source: "lp_medicos",
+            signup_source: signupSource,
             declared_physician: true,
             consent_at: new Date().toISOString(),
             terms_version: LEGAL_VERSIONS.terms,
@@ -440,6 +538,11 @@ function MedicosPage() {
       if (error) throw error;
 
       clearRedirectUtm();
+      try {
+        window.sessionStorage.removeItem(TRIAL_STORAGE_KEY);
+      } catch {
+        // ignore storage errors
+      }
       registrarEvento("cadastro_ok");
       trackMeta("CompleteRegistration");
 
@@ -530,8 +633,18 @@ function MedicosPage() {
     }
   }
 
+  const trialCompleted =
+    trialState.open && trialState.showResult && !trialUnavailable && trialCases.length >= 3;
+  const trialInProgress =
+    trialState.open && !trialState.showResult && !trialUnavailable && !pendingEmail;
+
   const showMobileStickyBar =
-    completarMode === "none" && !pendingEmail && hasScrolled && !formInView && !cookieBannerOpen;
+    completarMode === "none" &&
+    !pendingEmail &&
+    hasScrolled &&
+    !formInView &&
+    !cookieBannerOpen &&
+    !trialState.open;
 
   if (completarMode === "checking") {
     return (
@@ -670,6 +783,281 @@ function MedicosPage() {
     );
   }
 
+  const signupHeading = trialCompleted
+    ? "Salve seu resultado e veja o mapa completo"
+    : "Criar minha conta grátis";
+
+  const signupSection = (
+    <section
+      id="cadastro"
+      ref={formSectionRef}
+      className="scroll-mt-6 rounded-sm border border-border/70 bg-card/60 p-6 md:p-8"
+    >
+      {pendingEmail ? (
+        <div className="space-y-4 text-center">
+          <h2 className="font-serif text-2xl">Confirme seu e-mail</h2>
+          <p className="text-sm text-muted-foreground">
+            Enviamos um link para <span className="text-foreground">{pendingEmail}</span>. Abra o
+            e-mail e o mapa das suas lacunas abre em seguida.
+          </p>
+        </div>
+      ) : step === 1 ? (
+        <form
+          onSubmit={handleStep1Submit}
+          onFocusCapture={handleFormFocus}
+          className="space-y-4"
+          noValidate
+        >
+          <div>
+            <div className="flex items-start justify-between gap-2">
+              <h2 className="font-serif text-2xl leading-snug">{signupHeading}</h2>
+              <span className="mt-1 shrink-0 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                Passo 1 de 2
+              </span>
+            </div>
+            <div className="mt-2.5 grid grid-cols-2 gap-1.5" aria-hidden="true">
+              <span className="h-1 rounded-full bg-gold" />
+              <span className="h-1 rounded-full bg-secondary" />
+            </div>
+            <p className="mt-2 text-sm text-muted-foreground">Leva menos de um minuto.</p>
+          </div>
+
+          {GOOGLE_LOGIN_ATIVO && (
+            <>
+              <Button
+                type="button"
+                variant="outline"
+                onClick={handleGoogle}
+                disabled={googleLoading}
+                className="w-full gap-2"
+              >
+                <GoogleGlyph />
+                {googleLoading ? "Conectando…" : "Continuar com Google"}
+              </Button>
+
+              <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                <span className="h-px flex-1 bg-border" />
+                ou
+                <span className="h-px flex-1 bg-border" />
+              </div>
+            </>
+          )}
+
+          <div className="space-y-1.5">
+            <Label htmlFor="email">E-mail</Label>
+            <Input
+              id="email"
+              name="email"
+              type="email"
+              autoComplete="email"
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+                clearFieldError("email");
+              }}
+              aria-invalid={Boolean(errors.email)}
+              aria-describedby={errors.email ? "email-error" : undefined}
+              required
+            />
+            {errors.email && (
+              <p id="email-error" role="alert" className="text-xs text-destructive">
+                {errors.email}
+              </p>
+            )}
+          </div>
+
+          <div className="grid grid-cols-[1fr_96px] gap-3">
+            <div className="space-y-1.5">
+              <Label htmlFor="crm">CRM</Label>
+              <Input
+                id="crm"
+                name="crm"
+                inputMode="numeric"
+                autoComplete="off"
+                value={crm}
+                onChange={(e) => {
+                  setCrm(e.target.value);
+                  clearFieldError("crm");
+                }}
+                aria-invalid={Boolean(errors.crm)}
+                aria-describedby={errors.crm ? "crm-error" : undefined}
+                required
+              />
+              {errors.crm && (
+                <p id="crm-error" role="alert" className="text-xs text-destructive">
+                  {errors.crm}
+                </p>
+              )}
+            </div>
+            <div className="space-y-1.5">
+              <Label htmlFor="uf">UF</Label>
+              <select
+                id="uf"
+                name="uf"
+                value={uf}
+                onChange={(e) => {
+                  setUf(e.target.value);
+                  clearFieldError("uf");
+                }}
+                aria-invalid={Boolean(errors.uf)}
+                aria-describedby={errors.uf ? "uf-error" : undefined}
+                required
+                className="flex h-9 w-full rounded-md border border-input bg-background px-3 text-sm shadow-xs"
+              >
+                <option value="" disabled>
+                  UF
+                </option>
+                {UFS.map((u) => (
+                  <option key={u} value={u}>
+                    {u}
+                  </option>
+                ))}
+              </select>
+              {errors.uf && (
+                <p id="uf-error" role="alert" className="text-xs text-destructive">
+                  {errors.uf}
+                </p>
+              )}
+            </div>
+          </div>
+
+          <Button type="submit" className="w-full">
+            Continuar
+          </Button>
+        </form>
+      ) : (
+        <form
+          onSubmit={handleStep2Submit}
+          onFocusCapture={handleFormFocus}
+          className="space-y-4"
+          noValidate
+        >
+          <div>
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="font-serif text-2xl">Finalizar cadastro</h2>
+              <span className="shrink-0 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                Passo 2 de 2
+              </span>
+            </div>
+            <div className="mt-2.5 grid grid-cols-2 gap-1.5" aria-hidden="true">
+              <span className="h-1 rounded-full bg-gold" />
+              <span className="h-1 rounded-full bg-gold" />
+            </div>
+            <p className="mt-2 text-xs text-muted-foreground">
+              {email.trim()} · CRM {crm.replace(/\D/g, "")}/{uf.toUpperCase()}
+            </p>
+          </div>
+
+          <div className="space-y-1.5">
+            <Label htmlFor="name">Nome completo</Label>
+            <Input
+              id="name"
+              name="name"
+              autoComplete="name"
+              value={name}
+              onChange={(e) => {
+                setName(e.target.value);
+                clearFieldError("name");
+              }}
+              aria-invalid={Boolean(errors.name)}
+              aria-describedby={errors.name ? "name-error" : undefined}
+              required
+            />
+            {errors.name && (
+              <p id="name-error" role="alert" className="text-xs text-destructive">
+                {errors.name}
+              </p>
+            )}
+          </div>
+
+          <div className="space-y-1.5">
+            <Label htmlFor="password">Crie uma senha</Label>
+            <div className="relative">
+              <Input
+                id="password"
+                name="password"
+                type={showPassword ? "text" : "password"}
+                autoComplete="new-password"
+                minLength={8}
+                value={password}
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                  clearFieldError("password");
+                }}
+                aria-invalid={Boolean(errors.password)}
+                aria-describedby={errors.password ? "password-error" : undefined}
+                className="pr-10"
+                required
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassword((prev) => !prev)}
+                aria-label={showPassword ? "Ocultar senha" : "Mostrar senha"}
+                className="absolute inset-y-0 right-0 flex items-center px-3 text-muted-foreground hover:text-foreground"
+              >
+                {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+              </button>
+            </div>
+            {errors.password && (
+              <p id="password-error" role="alert" className="text-xs text-destructive">
+                {errors.password}
+              </p>
+            )}
+          </div>
+
+          <div className="space-y-1.5">
+            <label className="flex items-start gap-3 text-xs leading-relaxed text-muted-foreground">
+              <input
+                type="checkbox"
+                name="consent"
+                checked={consent}
+                onChange={(e) => {
+                  setConsent(e.target.checked);
+                  clearFieldError("consent");
+                }}
+                className="mt-0.5"
+                required
+              />
+              <span>
+                Declaro que sou médico(a) com CRM ativo e aceito os{" "}
+                <Link to="/termos" className="underline underline-offset-4">
+                  Termos
+                </Link>{" "}
+                e a{" "}
+                <Link to="/privacidade" className="underline underline-offset-4">
+                  Política de Privacidade
+                </Link>
+                .
+              </span>
+            </label>
+            {errors.consent && (
+              <p role="alert" className="text-xs text-destructive">
+                {errors.consent}
+              </p>
+            )}
+          </div>
+
+          <Button type="submit" className="w-full" disabled={loading}>
+            {loading ? "Criando sua conta…" : "Criar minha conta grátis"}
+          </Button>
+
+          <div className="text-center">
+            <button
+              type="button"
+              onClick={() => {
+                setErrors({});
+                setStep(1);
+              }}
+              className="text-xs text-muted-foreground underline underline-offset-4 hover:text-foreground"
+            >
+              voltar
+            </button>
+          </div>
+        </form>
+      )}
+    </section>
+  );
+
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border/60">
@@ -681,387 +1069,171 @@ function MedicosPage() {
         </div>
       </header>
 
-      <main className="mx-auto grid max-w-6xl gap-10 px-5 py-7 md:grid-cols-[1fr_420px] md:items-start md:gap-12 md:px-6 md:py-16">
-        <section>
-          <span className="inline-flex items-center gap-2 rounded-sm border border-gold/40 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-gold">
-            <ShieldCheck className="h-3.5 w-3.5" /> Exclusivo para médicos com CRM
-          </span>
-          <h1 className="mt-4 font-serif text-3xl leading-[1.12] tracking-tight sm:text-4xl md:mt-6 md:text-5xl">
-            A escola do médico do futuro
-          </h1>
-          <p className="mt-2.5 font-serif text-xl leading-snug text-gold md:mt-3 md:text-2xl">
-            {subtitle}
-          </p>
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground md:mt-5 md:text-lg">
-            Comece por um diagnóstico gratuito com casos clínicos: em {DURACAO_DIAGNOSTICO} você vê
-            o que já domina e o que falta. A partir dele, a IA monta sua trilha.
-          </p>
-          <a
-            href="#cadastro"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToCadastro("cta_topo");
-            }}
-            className="mt-5 inline-flex h-11 w-full items-center justify-center rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 sm:w-auto md:hidden"
-          >
-            Começar grátis
-          </a>
-
-          <ul className="mt-8 grid gap-5 md:mt-10 md:gap-6">
-            {HIGHLIGHTS.map(({ icon: Icon, title, text }) => (
-              <li key={title} className="flex gap-3.5 md:gap-4">
-                <Icon className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-                <div>
-                  <p className="font-medium">{title}</p>
-                  <p className="text-sm text-muted-foreground">{text}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-
-          {MOSTRAR_TELAS && (
-            <div className="mt-10 space-y-4">
-              <h2 className="font-serif text-2xl">Veja como funciona</h2>
-              <div className="grid gap-4 md:grid-cols-3">
-                {TELAS_PRODUTO.map((tela) => (
-                  <figure
-                    key={tela.src}
-                    className="overflow-hidden rounded-sm border border-border/70 bg-card/60"
-                  >
-                    <img
-                      src={tela.src}
-                      alt={tela.caption}
-                      width={tela.width}
-                      height={tela.height}
-                      loading="lazy"
-                      className="h-auto w-full object-cover"
-                    />
-                    <figcaption className="border-t border-border/60 px-3 py-2 text-xs text-muted-foreground">
-                      {tela.caption}
-                    </figcaption>
-                  </figure>
-                ))}
+      {trialInProgress ? (
+        <main className="mx-auto max-w-2xl px-5 py-6 md:px-6 md:py-12">
+          <section id="teste-clinico" ref={trialSectionRef} className="scroll-mt-6">
+            {trialLoading ? (
+              <div className="flex items-center justify-center gap-2 rounded-sm border border-border/70 bg-card/60 p-8 text-sm text-muted-foreground">
+                <Loader2 className="h-4 w-4 animate-spin" /> Preparando os 3 casos…
               </div>
-            </div>
-          )}
+            ) : (
+              <TrialQuiz
+                cases={trialCases}
+                state={trialState}
+                onStateChange={updateTrialState}
+                onDirectSignup={handleDirectSignup}
+              />
+            )}
+          </section>
+        </main>
+      ) : trialCompleted ? (
+        <main className="mx-auto max-w-xl space-y-5 px-5 py-6 md:px-6 md:py-12">
+          <section id="teste-clinico" ref={trialSectionRef} className="scroll-mt-6">
+            <TrialQuiz
+              cases={trialCases}
+              state={trialState}
+              onStateChange={updateTrialState}
+              onDirectSignup={handleDirectSignup}
+            />
+          </section>
+          {signupSection}
+        </main>
+      ) : (
+        <main className="mx-auto grid max-w-6xl gap-10 px-5 py-7 md:grid-cols-[1fr_420px] md:items-start md:gap-12 md:px-6 md:py-16">
+          <section>
+            <span className="inline-flex items-center gap-2 rounded-sm border border-gold/40 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-gold">
+              <ShieldCheck className="h-3.5 w-3.5" /> Exclusivo para médicos com CRM
+            </span>
+            <h1 className="mt-4 font-serif text-3xl leading-[1.12] tracking-tight sm:text-4xl md:mt-6 md:text-5xl">
+              A escola do médico do futuro
+            </h1>
+            <p className="mt-2.5 font-serif text-xl leading-snug text-gold md:mt-3 md:text-2xl">
+              {subtitle}
+            </p>
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground md:mt-5 md:text-lg">
+              Comece por um diagnóstico gratuito com casos clínicos: em {DURACAO_DIAGNOSTICO} você
+              vê o que já domina e o que falta. A partir dele, a IA monta sua trilha.
+            </p>
 
-          <p className="mt-8 max-w-xl text-sm text-muted-foreground">
-            Primeira trilha disponível:{" "}
-            <span className="text-foreground">Peptídeos na Medicina de Precisão</span> (gratuita,
-            sem cartão).
-          </p>
+            {!trialUnavailable ? (
+              <div className="mt-5 flex flex-col items-stretch gap-2.5 sm:items-start">
+                <Button
+                  type="button"
+                  onClick={() => openTrial("cta_topo")}
+                  className="h-11 w-full px-5 sm:w-auto"
+                >
+                  Fazer 3 casos agora, grátis
+                </Button>
+                <button
+                  type="button"
+                  onClick={handleDirectSignup}
+                  className="self-center text-xs text-muted-foreground underline underline-offset-4 hover:text-foreground sm:self-start"
+                >
+                  Prefiro criar a conta direto
+                </button>
+              </div>
+            ) : (
+              <a
+                href="#cadastro"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToCadastro("cta_topo");
+                }}
+                className="mt-5 inline-flex h-11 w-full items-center justify-center rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 sm:w-auto md:hidden"
+              >
+                Começar grátis
+              </a>
+            )}
 
-          <div className="mt-8 max-w-xl space-y-4">
-            {MOSTRAR_CURADORIA && CURADORIA.length > 0 && (
-              <div className="space-y-3">
-                <h2 className="font-serif text-xl">Quem está por trás</h2>
-                <p className="text-xs uppercase tracking-[0.2em] text-gold">Curadoria médica</p>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  {CURADORIA.slice(0, 2).map((curador) => (
-                    <div
-                      key={`${curador.nome}-${curador.crm}`}
-                      className="flex items-center gap-3 rounded-sm border border-border/70 bg-card/60 p-3"
+            <ul className="mt-8 grid gap-5 md:mt-10 md:gap-6">
+              {HIGHLIGHTS.map(({ icon: Icon, title, text }) => (
+                <li key={title} className="flex gap-3.5 md:gap-4">
+                  <Icon className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
+                  <div>
+                    <p className="font-medium">{title}</p>
+                    <p className="text-sm text-muted-foreground">{text}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+
+            {MOSTRAR_TELAS && (
+              <div className="mt-10 space-y-4">
+                <h2 className="font-serif text-2xl">Veja como funciona</h2>
+                <div className="grid gap-4 md:grid-cols-3">
+                  {TELAS_PRODUTO.map((tela) => (
+                    <figure
+                      key={tela.src}
+                      className="overflow-hidden rounded-sm border border-border/70 bg-card/60"
                     >
-                      {curador.foto && (
-                        <img
-                          src={curador.foto}
-                          alt={curador.nome}
-                          width={48}
-                          height={48}
-                          loading="lazy"
-                          className="h-12 w-12 shrink-0 rounded-full object-cover"
-                        />
-                      )}
-                      <div className="min-w-0 text-xs">
-                        <p className="truncate font-medium text-foreground">{curador.nome}</p>
-                        <p className="text-muted-foreground">{curador.crm}</p>
-                        <p className="truncate text-muted-foreground">{curador.especialidade}</p>
-                      </div>
-                    </div>
+                      <img
+                        src={tela.src}
+                        alt={tela.caption}
+                        width={tela.width}
+                        height={tela.height}
+                        loading="lazy"
+                        className="h-auto w-full object-cover"
+                      />
+                      <figcaption className="border-t border-border/60 px-3 py-2 text-xs text-muted-foreground">
+                        {tela.caption}
+                      </figcaption>
+                    </figure>
                   ))}
                 </div>
               </div>
             )}
 
-            <div className="space-y-2 border-l border-gold/30 pl-4 text-sm text-muted-foreground">
-              <p>Conteúdo baseado em diretrizes e literatura, com referências em cada aula.</p>
-              <p>
-                Pedimos o CRM só para garantir que a comunidade é formada por médicos. Ele é
-                conferido na base pública do CFM.
-              </p>
-            </div>
-          </div>
-        </section>
+            <p className="mt-8 max-w-xl text-sm text-muted-foreground">
+              Primeira trilha disponível:{" "}
+              <span className="text-foreground">Peptídeos na Medicina de Precisão</span> (gratuita,
+              sem cartão).
+            </p>
 
-        <section
-          id="cadastro"
-          ref={formSectionRef}
-          className="scroll-mt-6 rounded-sm border border-border/70 bg-card/60 p-6 md:p-8"
-        >
-          {pendingEmail ? (
-            <div className="space-y-4 text-center">
-              <h2 className="font-serif text-2xl">Confirme seu e-mail</h2>
-              <p className="text-sm text-muted-foreground">
-                Enviamos um link para <span className="text-foreground">{pendingEmail}</span>. Abra
-                o e-mail e o mapa das suas lacunas abre em seguida.
-              </p>
-            </div>
-          ) : step === 1 ? (
-            <form
-              onSubmit={handleStep1Submit}
-              onFocusCapture={handleFormFocus}
-              className="space-y-4"
-              noValidate
-            >
-              <div>
-                <div className="flex items-center justify-between gap-2">
-                  <h2 className="font-serif text-2xl">Criar minha conta grátis</h2>
-                  <span className="shrink-0 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                    Passo 1 de 2
-                  </span>
+            <div className="mt-8 max-w-xl space-y-4">
+              {MOSTRAR_CURADORIA && CURADORIA.length > 0 && (
+                <div className="space-y-3">
+                  <h2 className="font-serif text-xl">Quem está por trás</h2>
+                  <p className="text-xs uppercase tracking-[0.2em] text-gold">Curadoria médica</p>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    {CURADORIA.slice(0, 2).map((curador) => (
+                      <div
+                        key={`${curador.nome}-${curador.crm}`}
+                        className="flex items-center gap-3 rounded-sm border border-border/70 bg-card/60 p-3"
+                      >
+                        {curador.foto && (
+                          <img
+                            src={curador.foto}
+                            alt={curador.nome}
+                            width={48}
+                            height={48}
+                            loading="lazy"
+                            className="h-12 w-12 shrink-0 rounded-full object-cover"
+                          />
+                        )}
+                        <div className="min-w-0 text-xs">
+                          <p className="truncate font-medium text-foreground">{curador.nome}</p>
+                          <p className="text-muted-foreground">{curador.crm}</p>
+                          <p className="truncate text-muted-foreground">{curador.especialidade}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div className="mt-2.5 grid grid-cols-2 gap-1.5" aria-hidden="true">
-                  <span className="h-1 rounded-full bg-gold" />
-                  <span className="h-1 rounded-full bg-secondary" />
-                </div>
-                <p className="mt-2 text-sm text-muted-foreground">Leva menos de um minuto.</p>
-              </div>
-
-              {GOOGLE_LOGIN_ATIVO && (
-                <>
-                <Button
-                  type="button"
-                  variant="outline"
-                  onClick={handleGoogle}
-                  disabled={googleLoading}
-                  className="w-full gap-2"
-                >
-                  <GoogleGlyph />
-                  {googleLoading ? "Conectando…" : "Continuar com Google"}
-                </Button>
-
-                <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-                  <span className="h-px flex-1 bg-border" />
-                  ou
-                  <span className="h-px flex-1 bg-border" />
-                </div>
-                </>
               )}
 
-              <div className="space-y-1.5">
-                <Label htmlFor="email">E-mail</Label>
-                <Input
-                  id="email"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                    clearFieldError("email");
-                  }}
-                  aria-invalid={Boolean(errors.email)}
-                  aria-describedby={errors.email ? "email-error" : undefined}
-                  required
-                />
-                {errors.email && (
-                  <p id="email-error" role="alert" className="text-xs text-destructive">
-                    {errors.email}
-                  </p>
-                )}
-              </div>
-
-              <div className="grid grid-cols-[1fr_96px] gap-3">
-                <div className="space-y-1.5">
-                  <Label htmlFor="crm">CRM</Label>
-                  <Input
-                    id="crm"
-                    name="crm"
-                    inputMode="numeric"
-                    autoComplete="off"
-                    value={crm}
-                    onChange={(e) => {
-                      setCrm(e.target.value);
-                      clearFieldError("crm");
-                    }}
-                    aria-invalid={Boolean(errors.crm)}
-                    aria-describedby={errors.crm ? "crm-error" : undefined}
-                    required
-                  />
-                  {errors.crm && (
-                    <p id="crm-error" role="alert" className="text-xs text-destructive">
-                      {errors.crm}
-                    </p>
-                  )}
-                </div>
-                <div className="space-y-1.5">
-                  <Label htmlFor="uf">UF</Label>
-                  <select
-                    id="uf"
-                    name="uf"
-                    value={uf}
-                    onChange={(e) => {
-                      setUf(e.target.value);
-                      clearFieldError("uf");
-                    }}
-                    aria-invalid={Boolean(errors.uf)}
-                    aria-describedby={errors.uf ? "uf-error" : undefined}
-                    required
-                    className="flex h-9 w-full rounded-md border border-input bg-background px-3 text-sm shadow-xs"
-                  >
-                    <option value="" disabled>
-                      UF
-                    </option>
-                    {UFS.map((u) => (
-                      <option key={u} value={u}>
-                        {u}
-                      </option>
-                    ))}
-                  </select>
-                  {errors.uf && (
-                    <p id="uf-error" role="alert" className="text-xs text-destructive">
-                      {errors.uf}
-                    </p>
-                  )}
-                </div>
-              </div>
-
-              <Button type="submit" className="w-full">
-                Continuar
-              </Button>
-            </form>
-          ) : (
-            <form
-              onSubmit={handleStep2Submit}
-              onFocusCapture={handleFormFocus}
-              className="space-y-4"
-              noValidate
-            >
-              <div>
-                <div className="flex items-center justify-between gap-2">
-                  <h2 className="font-serif text-2xl">Finalizar cadastro</h2>
-                  <span className="shrink-0 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-                    Passo 2 de 2
-                  </span>
-                </div>
-                <div className="mt-2.5 grid grid-cols-2 gap-1.5" aria-hidden="true">
-                  <span className="h-1 rounded-full bg-gold" />
-                  <span className="h-1 rounded-full bg-gold" />
-                </div>
-                <p className="mt-2 text-xs text-muted-foreground">
-                  {email.trim()} · CRM {crm.replace(/\D/g, "")}/{uf.toUpperCase()}
+              <div className="space-y-2 border-l border-gold/30 pl-4 text-sm text-muted-foreground">
+                <p>Conteúdo baseado em diretrizes e literatura, com referências em cada aula.</p>
+                <p>
+                  Pedimos o CRM só para garantir que a comunidade é formada por médicos. Ele é
+                  conferido na base pública do CFM.
                 </p>
               </div>
+            </div>
+          </section>
 
-              <div className="space-y-1.5">
-                <Label htmlFor="name">Nome completo</Label>
-                <Input
-                  id="name"
-                  name="name"
-                  autoComplete="name"
-                  value={name}
-                  onChange={(e) => {
-                    setName(e.target.value);
-                    clearFieldError("name");
-                  }}
-                  aria-invalid={Boolean(errors.name)}
-                  aria-describedby={errors.name ? "name-error" : undefined}
-                  required
-                />
-                {errors.name && (
-                  <p id="name-error" role="alert" className="text-xs text-destructive">
-                    {errors.name}
-                  </p>
-                )}
-              </div>
-
-              <div className="space-y-1.5">
-                <Label htmlFor="password">Crie uma senha</Label>
-                <div className="relative">
-                  <Input
-                    id="password"
-                    name="password"
-                    type={showPassword ? "text" : "password"}
-                    autoComplete="new-password"
-                    minLength={8}
-                    value={password}
-                    onChange={(e) => {
-                      setPassword(e.target.value);
-                      clearFieldError("password");
-                    }}
-                    aria-invalid={Boolean(errors.password)}
-                    aria-describedby={errors.password ? "password-error" : undefined}
-                    className="pr-10"
-                    required
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setShowPassword((prev) => !prev)}
-                    aria-label={showPassword ? "Ocultar senha" : "Mostrar senha"}
-                    className="absolute inset-y-0 right-0 flex items-center px-3 text-muted-foreground hover:text-foreground"
-                  >
-                    {showPassword ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-                  </button>
-                </div>
-                {errors.password && (
-                  <p id="password-error" role="alert" className="text-xs text-destructive">
-                    {errors.password}
-                  </p>
-                )}
-              </div>
-
-              <div className="space-y-1.5">
-                <label className="flex items-start gap-3 text-xs leading-relaxed text-muted-foreground">
-                  <input
-                    type="checkbox"
-                    name="consent"
-                    checked={consent}
-                    onChange={(e) => {
-                      setConsent(e.target.checked);
-                      clearFieldError("consent");
-                    }}
-                    className="mt-0.5"
-                    required
-                  />
-                  <span>
-                    Declaro que sou médico(a) com CRM ativo e aceito os{" "}
-                    <Link to="/termos" className="underline underline-offset-4">
-                      Termos
-                    </Link>{" "}
-                    e a{" "}
-                    <Link to="/privacidade" className="underline underline-offset-4">
-                      Política de Privacidade
-                    </Link>
-                    .
-                  </span>
-                </label>
-                {errors.consent && (
-                  <p role="alert" className="text-xs text-destructive">
-                    {errors.consent}
-                  </p>
-                )}
-              </div>
-
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Criando sua conta…" : "Criar minha conta grátis"}
-              </Button>
-
-              <div className="text-center">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setErrors({});
-                    setStep(1);
-                  }}
-                  className="text-xs text-muted-foreground underline underline-offset-4 hover:text-foreground"
-                >
-                  voltar
-                </button>
-              </div>
-            </form>
-          )}
-        </section>
-      </main>
+          {signupSection}
+        </main>
+      )}
 
       <footer className="border-t border-border/60 pb-20 md:pb-0">
         <div className="mx-auto flex max-w-6xl flex-wrap gap-4 px-5 py-6 text-xs text-muted-foreground md:px-6">
@@ -1080,9 +1252,11 @@ function MedicosPage() {
           <Button
             type="button"
             className="h-11 w-full"
-            onClick={() => scrollToCadastro("cta_fixo")}
+            onClick={() =>
+              trialUnavailable ? scrollToCadastro("cta_fixo") : openTrial("cta_fixo")
+            }
           >
-            Começar grátis
+            {trialUnavailable ? "Começar grátis" : "Fazer 3 casos agora, grátis"}
           </Button>
         </div>
       )}
