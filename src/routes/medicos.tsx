@@ -139,7 +139,7 @@ type CompletarMode = "none" | "checking" | "crm";
  * O login com Google está ligado no Supabase, mas sem a chave secreta do Google (OAuth).
  * Clicar levava a uma página de erro do Supabase. Fica escondido até a chave ser configurada.
  */
-const GOOGLE_LOGIN_ATIVO = false;
+const GOOGLE_LOGIN_ATIVO = false; // TODO(Juliano): configurar chave secreta do Google OAuth no Supabase e trocar para true
 
 function GoogleGlyph() {
   return (
