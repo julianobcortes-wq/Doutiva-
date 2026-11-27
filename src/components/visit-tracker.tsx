@@ -9,6 +9,9 @@ import { MKT_HUB_PUBLISHABLE_KEY, MKT_HUB_URL, paginaRastreavel } from "@/lib/mk
  */
 const SESSAO_KEY = "dtv_sessao";
 const ORIGEM_KEY = "dtv_origem";
+const EVENTOS_KEY = "dtv_eventos";
+
+const eventosEnviados = new Set<string>();
 
 type Origem = {
   origem: string;
@@ -21,6 +24,35 @@ type Origem = {
 
 function corta(v: string | null | undefined, max: number): string {
   return (v ?? "").trim().slice(0, max);
+}
+
+function eventoJaEnviado(chave: string): boolean {
+  if (eventosEnviados.has(chave)) return true;
+  try {
+    const raw = sessionStorage.getItem(EVENTOS_KEY);
+    if (!raw) return false;
+    const lista = JSON.parse(raw) as unknown;
+    if (Array.isArray(lista) && lista.includes(chave)) {
+      eventosEnviados.add(chave);
+      return true;
+    }
+  } catch {
+    // segue só com memória da aba
+  }
+  return false;
+}
+
+function marcarEventoEnviado(chave: string) {
+  eventosEnviados.add(chave);
+  try {
+    const raw = sessionStorage.getItem(EVENTOS_KEY);
+    const lista = raw ? (JSON.parse(raw) as unknown) : [];
+    const conjunto = new Set<string>(Array.isArray(lista) ? lista.filter((x): x is string => typeof x === "string") : []);
+    conjunto.add(chave);
+    sessionStorage.setItem(EVENTOS_KEY, JSON.stringify([...conjunto]));
+  } catch {
+    // sem sessionStorage: deduplicação fica em memória
+  }
 }
 
 function lerSessao(): string {
@@ -74,6 +106,46 @@ function dispositivo(): "celular" | "computador" | "tablet" {
   return "computador";
 }
 
+function enviarRegistro(pagina: string) {
+  const corpo = {
+    sessao: lerSessao(),
+    pagina: corta(pagina, 200),
+    dispositivo: dispositivo(),
+    ...lerOrigem(),
+  };
+  void fetch(`${MKT_HUB_URL}/rest/v1/mkt_visitas`, {
+    method: "POST",
+    keepalive: true,
+    headers: {
+      apikey: MKT_HUB_PUBLISHABLE_KEY,
+      "Content-Type": "application/json",
+      Prefer: "return=minimal",
+    },
+    body: JSON.stringify(corpo),
+  }).catch(() => {
+    // contagem de visitas nunca pode atrapalhar o site
+  });
+}
+
+/**
+ * Registra um evento anônimo de funil em `mkt_visitas` com `pagina = "evento:" + nome`,
+ * uma única vez por sessão. Nunca aceita nem envia dados pessoais (PII).
+ */
+export function registrarEvento(nome: string) {
+  if (typeof window === "undefined") return;
+  try {
+    if (!paginaRastreavel(window.location.pathname)) return;
+    const limpo = corta(nome, 180).replace(/[^a-z0-9_:-]/gi, "");
+    if (!limpo) return;
+    const pagina = corta(`evento:${limpo}`, 200);
+    if (eventoJaEnviado(pagina)) return;
+    marcarEventoEnviado(pagina);
+    enviarRegistro(pagina);
+  } catch {
+    // telemetria de funil nunca pode quebrar a página
+  }
+}
+
 export function VisitTracker() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const ultima = useRef<string | null>(null);
@@ -82,24 +154,7 @@ export function VisitTracker() {
     if (typeof window === "undefined" || !paginaRastreavel(pathname)) return;
     if (ultima.current === pathname) return;
     ultima.current = pathname;
-    const corpo = {
-      sessao: lerSessao(),
-      pagina: corta(pathname, 200),
-      dispositivo: dispositivo(),
-      ...lerOrigem(),
-    };
-    void fetch(`${MKT_HUB_URL}/rest/v1/mkt_visitas`, {
-      method: "POST",
-      keepalive: true,
-      headers: {
-        apikey: MKT_HUB_PUBLISHABLE_KEY,
-        "Content-Type": "application/json",
-        Prefer: "return=minimal",
-      },
-      body: JSON.stringify(corpo),
-    }).catch(() => {
-      // contagem de visitas nunca pode atrapalhar o site
-    });
+    enviarRegistro(pathname);
   }, [pathname]);
 
   return null;
