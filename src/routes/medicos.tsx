@@ -36,6 +36,50 @@ export const Route = createFileRoute("/medicos")({
   component: MedicosPage,
 });
 
+const DURACAO_DIAGNOSTICO = "poucos minutos"; // TODO(Juliano): confirmar a duração real do diagnóstico
+const MOSTRAR_TELAS = false; // TODO(Juliano): colocar as 3 imagens em public/medicos/ e trocar para true
+const MOSTRAR_CURADORIA = false; // TODO(Juliano): preencher a curadoria médica abaixo e trocar para true
+
+const SUBTITULO_PADRAO = "Uma trilha única, montada a partir das suas lacunas";
+const SUBTITULOS_POR_CONTEUDO: Record<string, string> = {
+  a1_escola: SUBTITULO_PADRAO,
+  a2_lacunas: "Descubra o que você ainda não domina, com casos clínicos",
+  a3_diario: "Um caso clínico por dia, escolhido para o seu momento",
+};
+
+const TELAS_PRODUTO = [
+  {
+    src: "/medicos/tela-mapa.webp",
+    caption: "Seu mapa de lacunas",
+    width: 750,
+    height: 1334,
+  },
+  {
+    src: "/medicos/tela-caso.webp",
+    caption: "O caso clínico do dia",
+    width: 750,
+    height: 1334,
+  },
+  {
+    src: "/medicos/tela-trilha.webp",
+    caption: "Sua trilha",
+    width: 750,
+    height: 1334,
+  },
+] as const;
+
+type CuradorSlot = {
+  // TODO(Juliano): preencher nome, CRM/UF, especialidade e foto opcional de até 2 responsáveis pela curadoria
+  nome: string;
+  crm: string;
+  especialidade: string;
+  foto?: string;
+};
+
+const CURADORIA: CuradorSlot[] = [
+  // TODO(Juliano): adicionar até 2 responsáveis pela curadoria médica (foto opcional, nome, CRM/UF, especialidade)
+];
+
 const UFS =
   "AC AL AP AM BA CE DF ES GO MA MT MS MG PA PB PR PE PI RJ RN RS RO RR SC SP SE TO".split(" ");
 
@@ -66,9 +110,15 @@ function MedicosPage() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [pendingEmail, setPendingEmail] = useState<string | null>(null);
+  const [subtitle, setSubtitle] = useState(SUBTITULO_PADRAO);
 
   useEffect(() => {
     captureUtm();
+    const params = new URLSearchParams(window.location.search);
+    const utmContent = (params.get("utm_content") ?? getUtm()["utm_content"] ?? "").trim();
+    if (utmContent && SUBTITULOS_POR_CONTEUDO[utmContent]) {
+      setSubtitle(SUBTITULOS_POR_CONTEUDO[utmContent]);
+    }
     trackMeta("ViewContent");
   }, []);
 
@@ -152,41 +202,40 @@ function MedicosPage() {
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border/60">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-          <img src="/brand/logo-doutiva.png" alt="Doutiva" className="h-10 w-auto" />
+        <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-5 md:h-16 md:px-6">
+          <img src="/brand/logo-doutiva.png" alt="Doutiva" className="h-8 w-auto md:h-10" />
           <Link to="/auth" className="text-sm text-muted-foreground hover:text-foreground">
             Já tenho conta
           </Link>
         </div>
       </header>
 
-      <main className="mx-auto grid max-w-6xl gap-12 px-6 py-12 md:grid-cols-[1fr_420px] md:py-20">
+      <main className="mx-auto grid max-w-6xl gap-10 px-5 py-7 md:grid-cols-[1fr_420px] md:items-start md:gap-12 md:px-6 md:py-16">
         <section>
           <span className="inline-flex items-center gap-2 rounded-sm border border-gold/40 px-3 py-1 text-[10px] uppercase tracking-[0.25em] text-gold">
             <ShieldCheck className="h-3.5 w-3.5" /> Exclusivo para médicos com CRM
           </span>
-          <h1 className="mt-6 font-serif text-4xl leading-tight tracking-tight md:text-5xl">
+          <h1 className="mt-4 font-serif text-3xl leading-[1.12] tracking-tight sm:text-4xl md:mt-6 md:text-5xl">
             A escola do médico do futuro
           </h1>
-          <p className="mt-3 font-serif text-2xl text-gold">
-            Uma trilha única, montada a partir das suas lacunas
+          <p className="mt-2.5 font-serif text-xl leading-snug text-gold md:mt-3 md:text-2xl">
+            {subtitle}
           </p>
-          <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-            A inteligência artificial identifica o que você ainda não domina e direciona sua
-            formação com casos clínicos, aulas e protocolos. Comece grátis pela trilha Peptídeos na
-            Medicina de Precisão, sem cartão de crédito.
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground md:mt-5 md:text-lg">
+            Comece por um diagnóstico gratuito com casos clínicos: em {DURACAO_DIAGNOSTICO} você vê
+            o que já domina e o que falta. A partir dele, a IA monta sua trilha.
           </p>
           <a
             href="#cadastro"
-            className="mt-6 inline-flex h-10 items-center rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground md:hidden"
+            className="mt-5 inline-flex h-11 w-full items-center justify-center rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90 sm:w-auto md:hidden"
           >
             Começar grátis
           </a>
 
-          <ul className="mt-10 grid gap-6">
+          <ul className="mt-8 grid gap-5 md:mt-10 md:gap-6">
             {HIGHLIGHTS.map(({ icon: Icon, title, text }) => (
-              <li key={title} className="flex gap-4">
-                <Icon className="mt-1 h-5 w-5 shrink-0 text-gold" />
+              <li key={title} className="flex gap-3.5 md:gap-4">
+                <Icon className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
                 <div>
                   <p className="font-medium">{title}</p>
                   <p className="text-sm text-muted-foreground">{text}</p>
@@ -195,10 +244,78 @@ function MedicosPage() {
             ))}
           </ul>
 
-          <p className="mt-10 max-w-xl border-l border-gold/30 pl-4 text-sm text-muted-foreground">
-            O acesso é restrito a médicos. O CRM informado no cadastro é conferido na base pública
-            do Conselho Federal de Medicina.
+          {MOSTRAR_TELAS && (
+            <div className="mt-10 space-y-4">
+              <h2 className="font-serif text-2xl">Veja como funciona</h2>
+              <div className="grid gap-4 md:grid-cols-3">
+                {TELAS_PRODUTO.map((tela) => (
+                  <figure
+                    key={tela.src}
+                    className="overflow-hidden rounded-sm border border-border/70 bg-card/60"
+                  >
+                    <img
+                      src={tela.src}
+                      alt={tela.caption}
+                      width={tela.width}
+                      height={tela.height}
+                      loading="lazy"
+                      className="h-auto w-full object-cover"
+                    />
+                    <figcaption className="border-t border-border/60 px-3 py-2 text-xs text-muted-foreground">
+                      {tela.caption}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <p className="mt-8 max-w-xl text-sm text-muted-foreground">
+            Primeira trilha disponível:{" "}
+            <span className="text-foreground">Peptídeos na Medicina de Precisão</span> (gratuita,
+            sem cartão).
           </p>
+
+          <div className="mt-8 max-w-xl space-y-4">
+            {MOSTRAR_CURADORIA && CURADORIA.length > 0 && (
+              <div className="space-y-3">
+                <h2 className="font-serif text-xl">Quem está por trás</h2>
+                <p className="text-xs uppercase tracking-[0.2em] text-gold">Curadoria médica</p>
+                <div className="grid gap-3 sm:grid-cols-2">
+                  {CURADORIA.slice(0, 2).map((curador) => (
+                    <div
+                      key={`${curador.nome}-${curador.crm}`}
+                      className="flex items-center gap-3 rounded-sm border border-border/70 bg-card/60 p-3"
+                    >
+                      {curador.foto && (
+                        <img
+                          src={curador.foto}
+                          alt={curador.nome}
+                          width={48}
+                          height={48}
+                          loading="lazy"
+                          className="h-12 w-12 shrink-0 rounded-full object-cover"
+                        />
+                      )}
+                      <div className="min-w-0 text-xs">
+                        <p className="truncate font-medium text-foreground">{curador.nome}</p>
+                        <p className="text-muted-foreground">{curador.crm}</p>
+                        <p className="truncate text-muted-foreground">{curador.especialidade}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="space-y-2 border-l border-gold/30 pl-4 text-sm text-muted-foreground">
+              <p>Conteúdo baseado em diretrizes e literatura, com referências em cada aula.</p>
+              <p>
+                Pedimos o CRM só para garantir que a comunidade é formada por médicos. Ele é
+                conferido na base pública do CFM.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section
