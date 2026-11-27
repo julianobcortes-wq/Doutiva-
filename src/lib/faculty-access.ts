@@ -19,15 +19,10 @@ type FacultyContext = {
   email?: string | null;
 };
 
+// Only the verified JWT email claim counts; user_metadata is editable by the user.
 function emailFromClaims(claims: FacultyContext["claims"]): string | null {
   if (!claims) return null;
-  if (typeof claims.email === "string") return claims.email;
-  const meta = claims.user_metadata;
-  if (meta && typeof meta === "object" && meta !== null && "email" in meta) {
-    const v = (meta as { email?: unknown }).email;
-    if (typeof v === "string") return v;
-  }
-  return null;
+  return typeof claims.email === "string" ? claims.email : null;
 }
 
 export async function resolveIsAdmin(context: FacultyContext): Promise<boolean> {

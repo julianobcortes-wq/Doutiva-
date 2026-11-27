@@ -16,17 +16,7 @@ async function assertAdmin(context: Ctx) {
 export const studioMe = createServerFn({ method: "GET" })
   .middleware([requireSupabaseAuth])
   .handler(async ({ context }) => {
-    const isAdmin = await resolveIsAdmin(context);
-    const { data: adminExists } = await context.supabase.rpc("admin_exists");
-    return { isAdmin, adminExists: !!adminExists || isAdmin };
-  });
-
-export const studioClaimAdmin = createServerFn({ method: "POST" })
-  .middleware([requireSupabaseAuth])
-  .handler(async ({ context }) => {
-    const { data, error } = await context.supabase.rpc("claim_first_admin");
-    if (error) throw error;
-    return { ok: !!data };
+    return { isAdmin: await resolveIsAdmin(context) };
   });
 
 export const studioListCourses = createServerFn({ method: "GET" })
