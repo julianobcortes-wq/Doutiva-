@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Smoke-test permanent QA logins against the live Auth backend.
- * Usage: node scripts/smoke-qa-login.mjs
+ * Usage: QA_ALUNO_PASSWORD=... QA_PROFESSOR_PASSWORD=... node scripts/smoke-qa-login.mjs
  * Exit 0 only if both aluno and professor password grants succeed.
  */
 import { readFileSync } from "node:fs";
@@ -20,9 +20,16 @@ if (!url || !key) {
   process.exit(1);
 }
 
+const alunoPassword = process.env.QA_ALUNO_PASSWORD;
+const professorPassword = process.env.QA_PROFESSOR_PASSWORD;
+if (!alunoPassword || !professorPassword) {
+  console.error("Set QA_ALUNO_PASSWORD and QA_PROFESSOR_PASSWORD");
+  process.exit(1);
+}
+
 const accounts = [
-  { email: "aluno.teste@doutiva.com", password: "AlunoTeste82@" },
-  { email: "professor.teste@doutiva.com", password: "ProfessorTeste82@" },
+  { email: "aluno.teste@doutiva.com", password: alunoPassword },
+  { email: "professor.teste@doutiva.com", password: professorPassword },
 ];
 
 let failed = 0;
