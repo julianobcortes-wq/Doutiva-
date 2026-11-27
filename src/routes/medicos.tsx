@@ -135,6 +135,12 @@ type FormErrors = {
 
 type CompletarMode = "none" | "checking" | "crm";
 
+/**
+ * O login com Google está ligado no Supabase, mas sem a chave secreta do Google (OAuth).
+ * Clicar levava a uma página de erro do Supabase. Fica escondido até a chave ser configurada.
+ */
+const GOOGLE_LOGIN_ATIVO = false; // TODO(Juliano): configurar chave secreta do Google OAuth no Supabase e trocar para true
+
 function GoogleGlyph() {
   return (
     <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 shrink-0">
@@ -821,22 +827,26 @@ function MedicosPage() {
                 <p className="mt-2 text-sm text-muted-foreground">Leva menos de um minuto.</p>
               </div>
 
-              <Button
-                type="button"
-                variant="outline"
-                onClick={handleGoogle}
-                disabled={googleLoading}
-                className="w-full gap-2"
-              >
-                <GoogleGlyph />
-                {googleLoading ? "Conectando…" : "Continuar com Google"}
-              </Button>
+              {GOOGLE_LOGIN_ATIVO && (
+                <>
+                <Button
+                  type="button"
+                  variant="outline"
+                  onClick={handleGoogle}
+                  disabled={googleLoading}
+                  className="w-full gap-2"
+                >
+                  <GoogleGlyph />
+                  {googleLoading ? "Conectando…" : "Continuar com Google"}
+                </Button>
 
-              <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
-                <span className="h-px flex-1 bg-border" />
-                ou
-                <span className="h-px flex-1 bg-border" />
-              </div>
+                <div className="flex items-center gap-3 text-[11px] uppercase tracking-[0.2em] text-muted-foreground">
+                  <span className="h-px flex-1 bg-border" />
+                  ou
+                  <span className="h-px flex-1 bg-border" />
+                </div>
+                </>
+              )}
 
               <div className="space-y-1.5">
                 <Label htmlFor="email">E-mail</Label>

@@ -8,6 +8,12 @@ import { toast } from "sonner";
 import { setStoredClass } from "@/lib/use-city-profile";
 import { classInfo, type UserClass } from "@/lib/valley";
 
+/**
+ * O login com Google está ligado no Supabase, mas sem a chave secreta do Google (OAuth).
+ * Clicar levava a uma página de erro do Supabase. Fica escondido até a chave ser configurada.
+ */
+const GOOGLE_LOGIN_ATIVO = false; // TODO(Juliano): configurar chave secreta do Google OAuth no Supabase e trocar para true
+
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
@@ -154,7 +160,9 @@ function AuthPage() {
             <h1 className="mt-3 font-serif text-3xl">{mode === "signin" ? "Entrar na Doutiva" : "Criar acesso"}</h1>
             <p className="mt-2 text-sm text-muted-foreground">
               {mode === "signin"
-                ? "Google ou e-mail da conta Doutiva"
+                ? GOOGLE_LOGIN_ATIVO
+                  ? "Google ou e-mail da conta Doutiva"
+                  : "Use o e-mail e a senha da sua conta Doutiva"
                 : "Crie sua conta Doutiva em menos de um minuto"}
             </p>
             {!configured ? (
@@ -196,20 +204,24 @@ function AuthPage() {
             </div>
           </div>
 
-          <Button
-            type="button"
-            variant="outline"
-            onClick={handleGoogle}
-            className={`mt-6 w-full h-11 rounded-sm border-border/80 hover:bg-transparent ${expert ? "hover:border-sage/60" : "hover:border-gold/60"}`}
-          >
-            Continuar com Google
-          </Button>
+          {GOOGLE_LOGIN_ATIVO && (
+            <>
+              <Button
+                type="button"
+                variant="outline"
+                onClick={handleGoogle}
+                className={`mt-6 w-full h-11 rounded-sm border-border/80 hover:bg-transparent ${expert ? "hover:border-sage/60" : "hover:border-gold/60"}`}
+              >
+                Continuar com Google
+              </Button>
 
-          <div className="my-6 flex items-center gap-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-            <span className="h-px flex-1 bg-border" /> ou <span className="h-px flex-1 bg-border" />
-          </div>
+              <div className="my-6 flex items-center gap-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                <span className="h-px flex-1 bg-border" /> ou <span className="h-px flex-1 bg-border" />
+              </div>
+            </>
+          )}
 
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className={GOOGLE_LOGIN_ATIVO ? "space-y-4" : "mt-6 space-y-4"}>
             {mode === "signup" && (
               <div>
                 <Label className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Nome completo</Label>
