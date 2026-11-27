@@ -159,6 +159,10 @@ export async function handleCartographer(request: Request) {
     );
   }
 
+  const { enforceAiQuota } = await import("@/lib/ai-rate-limit.server");
+  const limited = await enforceAiQuota(supabase, u.user.id, "cartographer");
+  if (limited) return limited;
+
   let provider;
   try {
     provider = createGatewayOpenAI();

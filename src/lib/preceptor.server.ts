@@ -107,6 +107,10 @@ export async function handlePreceptor(request: Request) {
     })) as ModelMessage[];
   if (!persona || !body.lessonId) return new Response("Requisição inválida", { status: 400 });
 
+  const { enforceAiQuota } = await import("@/lib/ai-rate-limit.server");
+  const limited = await enforceAiQuota(supabase, u.user.id, "preceptor");
+  if (limited) return limited;
+
   const ctx = await lessonContext(supabase, body.lessonId);
   if (!ctx) return new Response("Aula não encontrada", { status: 404 });
 

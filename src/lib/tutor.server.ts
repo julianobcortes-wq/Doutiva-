@@ -64,6 +64,10 @@ export async function handleTutor(request: Request) {
     })) as ModelMessage[];
   if (!msgs.length || !body.lessonId) return new Response("Requisição inválida", { status: 400 });
 
+  const { enforceAiQuota } = await import("@/lib/ai-rate-limit.server");
+  const limited = await enforceAiQuota(supabase, u.user.id, "tutor");
+  if (limited) return limited;
+
   const { data: lesson } = await supabase
     .from("lessons")
     .select(
