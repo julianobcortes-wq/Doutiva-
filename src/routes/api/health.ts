@@ -3,18 +3,17 @@ import {
   getSupabasePublishableKey,
   getSupabaseServerUrl,
 } from "@/integrations/supabase/env.server";
+import { authenticateCronRequest } from "@/integrations/supabase/cron-auth";
 
 export const Route = createFileRoute("/api/health")({
   server: {
     handlers: {
-      GET: async () => {
+      GET: async ({ request }) => {
         const supabaseUrl = getSupabaseServerUrl();
         const supabaseKey = getSupabasePublishableKey();
-        let auth: "ok" | "down" | "unconfigured" = "unconfigured";
-        let authMs: number | null = null;
+        let ok = false;
 
         if (supabaseUrl && supabaseKey) {
-          const started = Date.now();
           try {
             const res = await fetch(`${supabaseUrl}/auth/v1/health`, {
               headers: {
@@ -23,34 +22,26 @@ export const Route = createFileRoute("/api/health")({
               },
               signal: AbortSignal.timeout(4000),
             });
-            authMs = Date.now() - started;
-            auth = res.ok ? "ok" : "down";
+            ok = res.ok;
           } catch {
-            authMs = Date.now() - started;
-            auth = "down";
+            ok = false;
           }
         }
 
-        const ok = auth === "ok";
+        // Provider flags are only for operators holding CRON_SECRET.
+        const operator =
+          request.headers.has("authorization") && (await authenticateCronRequest(request)) === null;
+
         return Response.json(
-          {
-            ok,
-            service: "doutiva",
-            auth,
-            authMs,
-            supabaseHost: (() => {
-              try {
-                return new URL(supabaseUrl).hostname;
-              } catch {
-                return null;
+          operator
+            ? {
+                ok,
+                stripe: Boolean(process.env["STRIPE_SECRET_KEY"]),
+                openai: Boolean(process.env["OPENAI_API_KEY"]),
+                anthropic: Boolean(process.env["ANTHROPIC_API_KEY"]),
               }
-            })(),
-            stripe: Boolean(process.env["STRIPE_SECRET_KEY"]),
-            openai: Boolean(process.env["OPENAI_API_KEY"]),
-            anthropic: Boolean(process.env["ANTHROPIC_API_KEY"]),
-            ts: new Date().toISOString(),
-          },
-          { status: ok ? 200 : 503 },
+            : { ok },
+          { status: ok ? 200 : 503, headers: { "Cache-Control": "no-store" } },
         );
       },
     },

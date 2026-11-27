@@ -85,7 +85,7 @@ async function main() {
   ok("qa.login", "JWT ok");
 
   // --- Health ---
-  const health = await (await fetch(`${base}/api/health`)).json();
+  const health = await (await fetch(`${base}/api/health`, { headers: process.env.CRON_SECRET ? { Authorization: `Bearer ${process.env.CRON_SECRET}` } : {} })).json();
   if (!health.openai) fail("health.openai", "false");
   else ok("health.openai");
 
@@ -293,7 +293,7 @@ async function main() {
 
   // --- Production honesty ---
   try {
-    const ph = await (await fetch("https://www.doutiva.com.br/api/health")).json();
+    const ph = await (await fetch("https://www.doutiva.com.br/api/health", { headers: process.env.CRON_SECRET ? { Authorization: `Bearer ${process.env.CRON_SECRET}` } : {} })).json();
     if (ph.openai) ok("prod.openai");
     else fail("prod.openai", "ainda false — bloqueia lançamento público");
     const pm = await fetch("https://www.doutiva.com.br/mapa", { redirect: "manual" });

@@ -67,7 +67,7 @@ async function main() {
 
   // HTTP health
   try {
-    const h = await fetch(`${base}/api/health`);
+    const h = await fetch(`${base}/api/health`, { headers: process.env.CRON_SECRET ? { Authorization: `Bearer ${process.env.CRON_SECRET}` } : {} });
     const j = await h.json();
     if (!j.ok) fail("http.health", JSON.stringify(j));
     else ok("http.health", `openai=${j.openai} anthropic=${j.anthropic}`);
@@ -213,7 +213,7 @@ async function main() {
 
   // Production honesty check
   try {
-    const prod = await fetch("https://www.doutiva.com.br/api/health");
+    const prod = await fetch("https://www.doutiva.com.br/api/health", { headers: process.env.CRON_SECRET ? { Authorization: `Bearer ${process.env.CRON_SECRET}` } : {} });
     const pj = await prod.json();
     if (pj.openai) ok("prod.openai", "true");
     else fail("prod.openai", "false — Vercel sem OPENAI_API_KEY ou não redeployou");
