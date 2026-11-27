@@ -177,11 +177,10 @@ function MedicosPage() {
   const [errors, setErrors] = useState<FormErrors>({});
 
   const [formInView, setFormInView] = useState(false);
-  const [topCtaInView, setTopCtaInView] = useState(true);
+  const [hasScrolled, setHasScrolled] = useState(false);
   const [cookieBannerOpen, setCookieBannerOpen] = useState(false);
 
   const formSectionRef = useRef<HTMLElement | null>(null);
-  const topCtaRef = useRef<HTMLAnchorElement | null>(null);
 
   useEffect(() => {
     captureUtm();
@@ -259,6 +258,7 @@ function MedicosPage() {
     if (typeof window === "undefined" || completarMode !== "none") return;
 
     const onScroll = () => {
+      setHasScrolled(window.scrollY > 80);
       const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
       if (maxScroll <= 0) return;
       const pct = (window.scrollY / maxScroll) * 100;
@@ -266,40 +266,25 @@ function MedicosPage() {
       if (pct >= 90) registrarEvento("scroll_90");
     };
 
+    onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, [completarMode]);
 
   useEffect(() => {
     if (typeof window === "undefined" || typeof IntersectionObserver === "undefined") return;
-    if (completarMode !== "none") return;
+    if (completarMode !== "none" || !formSectionRef.current) return;
 
-    const observers: IntersectionObserver[] = [];
-
-    if (formSectionRef.current) {
-      const formObserver = new IntersectionObserver(
-        (entries) => {
-          setFormInView(entries.some((entry) => entry.isIntersecting));
-        },
-        { threshold: 0.08 },
-      );
-      formObserver.observe(formSectionRef.current);
-      observers.push(formObserver);
-    }
-
-    if (topCtaRef.current) {
-      const ctaObserver = new IntersectionObserver(
-        (entries) => {
-          setTopCtaInView(entries.some((entry) => entry.isIntersecting));
-        },
-        { threshold: 0 },
-      );
-      ctaObserver.observe(topCtaRef.current);
-      observers.push(ctaObserver);
-    }
+    const formObserver = new IntersectionObserver(
+      (entries) => {
+        setFormInView(entries.some((entry) => entry.isIntersecting));
+      },
+      { threshold: 0.25 },
+    );
+    formObserver.observe(formSectionRef.current);
 
     return () => {
-      for (const observer of observers) observer.disconnect();
+      formObserver.disconnect();
     };
   }, [completarMode]);
 
@@ -540,7 +525,7 @@ function MedicosPage() {
   }
 
   const showMobileStickyBar =
-    completarMode === "none" && !pendingEmail && !topCtaInView && !formInView && !cookieBannerOpen;
+    completarMode === "none" && !pendingEmail && hasScrolled && !formInView && !cookieBannerOpen;
 
   if (completarMode === "checking") {
     return (
@@ -706,7 +691,6 @@ function MedicosPage() {
             o que já domina e o que falta. A partir dele, a IA monta sua trilha.
           </p>
           <a
-            ref={topCtaRef}
             href="#cadastro"
             onClick={(e) => {
               e.preventDefault();
